@@ -24,12 +24,13 @@ googleAnalytics = "UA-12506512-2" # Optional, add tracking Id for analytics
   leftsidebar = false # Move sidebar to the left side if true
   authorbox = false
   post_navigation = true
-  header_image = "pics/headers/glacierplanelanding2_header.jpg"
+
   [Params.widgets]
     search = true # Enable "Search" widget
     recent_articles = true # Enable "Recent arcticles" widget
     categories = true # Enable "Categories" widget
     tags = true # Enable "Tags" widget
+    header_image = "/pics/headers/glacierplanelanding2_header.jpg"
 
   ######
 
