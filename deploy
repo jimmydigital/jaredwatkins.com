@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+set -e
+
+~/src/bin/hugo  --enableGitInfo
+
+cd public
+aws s3 sync . s3://jaredwatkins.com/ --delete
+

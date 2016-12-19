@@ -1,0 +1,10 @@
+.DS_Store
+._.*
+themes/*
+static/gallery
+static/downloads
+static/pics
+externals/GitHub-jQuery-Repo-Widget
+pics
+public
+
