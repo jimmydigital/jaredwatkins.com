@@ -6,18 +6,18 @@ paginate = 10 # Number of posts to show before paginating
 metaDataFormat = "yaml"
 disqusShortname = "jaredwatkins"
 
-[permalinks]
-  post = "/:year/:month/:title/"
-
 enableRobotsTXT = true # Suggested, enable robots.txt file
 googleAnalytics = "UA-12506512-2" # Optional, add tracking Id for analytics
 
+[permalinks]
+  post = "/:year/:month/:title/"
 
-[params]
-  description = "" # Suggested, controls homepage description meta
+[Params]
+  description = "Being the foo to my bar." # Suggested, controls homepage description meta
   author = "Jared Watkins" # Optional, controls author name display on posts
   show_menu = true # Optional, set false to disable menu entirely
   powered_by = false # Optional, set false to disable theme credits
+  header_image = "/pics/headers/glacierplanelanding2_header.jpg"
 
   # mainroad theme options
   opengraph = true
@@ -25,12 +25,11 @@ googleAnalytics = "UA-12506512-2" # Optional, add tracking Id for analytics
   authorbox = false
   post_navigation = true
 
-  [Params.widgets]
+[Params.widgets]
     search = true # Enable "Search" widget
     recent_articles = true # Enable "Recent arcticles" widget
     categories = true # Enable "Categories" widget
     tags = true # Enable "Tags" widget
-    header_image = "/pics/headers/glacierplanelanding2_header.jpg"
 
   ######
 
