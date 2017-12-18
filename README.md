@@ -4,6 +4,5 @@ Themes are stored as separate github repos and I'm currently using: https://gith
 
 The makethumbs and makegallery scripts are from several years ago when I was in my perl phase. They still work so I keep them around.
 
-Uses the gallery functionality from: https://github.com/pcdummy/hugo-lightslider-example
-
+Galery: pip install sigal
 
