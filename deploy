@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 set -e
 
-hugo  --enableGitInfo --cleanDestinationDir -v
+hugo  --cleanDestinationDir -v
 
 read -p "Press [Enter] key to publish to S3..."
 
