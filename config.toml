@@ -38,6 +38,21 @@ googleAnalytics = "UA-12506512-2" # Optional, add tracking Id for analytics
     bing_verify = "" # Optional, Bing verification code
     yandex_verify = "" # Optional, Yandex verification code
 
+[imaging]
+  # Default resample filter used for resizing. Default is Box,
+  # a simple and fast averaging filter appropriate for downscaling.
+  # See https://github.com/disintegration/imaging
+  resampleFilter = "box"
+
+  # Default JPEG quality setting. Default is 75.
+  quality = 75
+
+  # Anchor used when cropping pictures.
+  # Default is "smart" which does Smart Cropping, using https://github.com/muesli/smartcrop
+  # Smart Cropping is content aware and tries to find the best crop for each image.
+  # Valid values are Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  anchor = "smart"
+
 [menu]
   [[menu.main]]
     name = "Home"
