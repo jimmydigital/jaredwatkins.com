@@ -1,6 +1,6 @@
 baseURL = '/'
 languageCode = 'en-us'
-title = 'The Infinate Unknown'
+title = 'The Infinite Unknown'
 disqusShortname = "jaredwatkins"
 enableRobotsTXT = true # Suggested, enable robots.txt file
 googleAnalytics = "UA-12506512-2" # Optional, add tracking Id for analytics
