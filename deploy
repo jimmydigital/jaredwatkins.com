@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+set -e
+
+hugo  --cleanDestinationDir -v
+
+read -p "Press [Enter] key to publish to S3..."
+
+cd public
+aws s3 sync . s3://jaredwatkins.com/ --delete
+
