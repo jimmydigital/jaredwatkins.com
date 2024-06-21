@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'The Infinite Unknown'
 disqusShortname = "jaredwatkins"
 enableRobotsTXT = true # Suggested, enable robots.txt file
-googleAnalytics = "G-WW5FKXXGBB" # Optional, add tracking Id for analytics
+googleAnalytics = "G-PLG099CNVZ" # Optional, add tracking Id for analytics
 
 [Params]
   customcss = ["css/custom.css"]  
@@ -45,7 +45,7 @@ googleAnalytics = "G-WW5FKXXGBB" # Optional, add tracking Id for analytics
     tags = true # Enable "Tags" widget
 
 [Params.widgets.social]
-  twitter = "theOtherJared"
+  twitter = ""
   github = "jimmydigital"
 
 [Params.widgets.search]
@@ -100,6 +100,7 @@ unsafe= true
     disable = false
   [[module.imports]]
     path = "github.com/rootwork/hugo-module-gallery-grid"
+
 
   [[module.mounts]]
     source = "site/content" # Project content
