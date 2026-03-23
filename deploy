@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 set -e
 
-hugo  --cleanDestinationDir -v
+hugo  --cleanDestinationDir --logLevel info
 
 read -p "Press [Enter] key to publish to S3..."
 

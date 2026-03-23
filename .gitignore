@@ -13,4 +13,8 @@
 *.pdf
 _gen
 public/
+._*
+.obsidian/
+.smbdelete*
+node_modules
 

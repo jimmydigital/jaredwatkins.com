@@ -1,0 +1,41 @@
+{{- $width := "" -}}
+{{- $title := .Title -}}
+{{- $class := "" -}}
+
+{{- /* Extract resize width from title — matches "=320x" or "width=320" anywhere in the string */ -}}
+{{- if $title }}
+  {{- if findRE `=[0-9]+x` $title }}
+    {{- $width = replaceRE `.*=([0-9]+)x.*` `$1` $title }}
+  {{- else if findRE `width=[0-9]+` $title }}
+    {{- $width = replaceRE `.*width=([0-9]+).*` `$1` $title }}
+  {{- end }}
+{{- end }}
+
+{{- /* Strip URL fragment from destination (#floatright etc); use it as a CSS class */ -}}
+{{- $dest := .Destination -}}
+{{- if strings.Contains $dest "#" }}
+  {{- $parts := split $dest "#" }}
+  {{- $dest = index $parts 0 }}
+  {{- $class = index $parts 1 }}
+{{- end }}
+
+{{- /* Look up image as a page bundle resource using the clean path */ -}}
+{{- $resource := .Page.Resources.GetMatch $dest }}
+{{- /* Use .Page.RelPermalink + resource name to avoid Hugo truncating the URL at '#' in page titles */ -}}
+{{- if $resource }}
+  {{- $img := $resource }}
+  {{- if $width }}
+    {{- $img = $resource.Resize (printf "%sx" $width) }}
+  {{- end }}
+  {{- $src := printf "%s%s" .Page.RelPermalink $img.Name }}
+  <img src="{{ $src }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ .Text }}"{{ with $class }} class="{{ . }}"{{ end }} />
+{{- else }}
+  {{- /* Fallback: remote URL or resource not found in bundle */ -}}
+  {{- $src := .Destination | safeURL }}
+  {{- if not (strings.HasPrefix $dest "http") }}
+    {{- /* Local image: build full path from the page's permalink so the browser resolves it correctly */ -}}
+    {{- $src = printf "%s%s" .Page.RelPermalink $dest | strings.Replace "#" "%23" -1 }}
+  {{- end }}
+  <img src="{{ $src }}" alt="{{ .Text }}"{{ with $class }} class="{{ . }}"{{ end }}{{ with $width }} width="{{ . }}"{{ end }} />
+{{- end }}
+

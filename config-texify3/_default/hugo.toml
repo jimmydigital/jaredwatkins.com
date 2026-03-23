@@ -1,0 +1,143 @@
+baseURL = 'https://www.jaredwatkins.com/'
+disqusShortname = 'jaredwatkins'
+languageCode = 'en-us'
+title = 'The Infinite Unknown'
+enableGitInfo = true
+enableRobotsTXT = true
+rssLimit = 10
+
+[pagination]
+  pagerSize = 14
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions.passthrough]
+      enable = true
+      [markup.goldmark.extensions.passthrough.delimiters]
+        block = [['$$', '$$'], ['\\[', '\\]']]
+        inline = [['$', '$'], ['\\(', '\\)']]
+  [markup.highlight]
+    noClasses = false
+  [markup.tableOfContents]
+    endLevel = 6
+    ordered = false
+    startLevel = 2
+
+ignoreLogs = ['warning-goldmark-raw-html']
+
+[services.disqus]
+  shortname = "jaredwatkins" # Enable Disqus by entering your Disqus shortname
+
+[services.googleAnalytics]
+  ID = "G-1XVTVTL5K4" # Enable Google Analytics by entering your tracking ID
+
+
+[imaging]
+  # Default resample filter used for resizing. Default is Box,
+  # See https://github.com/disintegration/imaging
+  resampleFilter = "lanczos"
+  # Default JPEG quality setting. Default is 75.
+  quality = 75
+  # Anchor used when cropping pictures.
+  # Default is "smart" which does Smart Cropping, using https://github.com/muesli/smartcrop
+  # Smart Cropping is content aware and tries to find the best crop for each image.
+  # Valid values are Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  anchor = "smart"
+
+[outputs]
+  home     = ["HTML", "RSS"]
+  section  = ["HTML", "RSS"]
+
+[taxonomies]
+  tag = "tags"
+  categories = "categories"
+
+[module]
+  [[module.imports]]
+    path = 'github.com/michaelneuper/hugo-texify3'
+  [[module.imports]]
+    path = 'github.com/rootwork/hugo-module-gallery-grid'
+  # Only mount layouts-texify3 — avoids pulling in re-Terminal/Mainroad partials
+  # from the main layouts/ dir (e.g. header.html that calls logo.html)
+  [[module.mounts]]
+    source = "layouts-texify3"
+    target = "layouts"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+
+[[menu.main]]
+  identifier = 'posts'
+  name = 'Blog'
+  url = '/posts/'
+  weight = 10
+[[menu.main]]
+  identifier = 'projects'
+  name = 'Projects'
+  url = '/projects/'
+  weight = 20
+[[menu.main]]
+  identifier = 'rss'
+  name = 'RSS'
+  url = '/index.xml'
+  weight = 30
+
+[params]
+  title = 'The Infinite Unknown'
+  author = 'Jared Watkins'
+  description = 'Personal landing page of Jared Watkins'
+  dateFormat = "2 January 2006"
+  toc = true
+  rootFontSize = "120%"
+  showWordCount = true
+  showReadingTime = true
+  math = false
+  enableDuckDuckGoSearchBox = true
+  numberedSubtitles = true
+  emphasisWithDots = true
+  since = "2005"
+  footnote = """
+  Powered by  <a class=link href=https://gohugo.io target=_blank rel=noopener>Hugo</a> | 
+  Theme <a class=link href=https://github.com/michaelneuper/hugo-texify3 target=_blank rel=noopener>TeXify3</a>
+  """
+  customCSS = []
+  customJS = []
+
+[params.buymeacoffee]
+code = """
+<script data-name="BMC-Widget" 
+        data-cfasync="false" 
+        src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" 
+        data-id="jaredwatkins" 
+        data-description="Support me on Buy me a coffee!" 
+        data-message="" data-color="#5F7FFF" 
+        data-position="Right" 
+        data-x_margin="18" 
+        data-y_margin="18">
+</script>
+"""
+
+
+[params.sharingbuttons]
+facebook = true
+twitter = true
+email = true
+linkedin = true
+reddit = false
+whatsapp = true
+hackernews = true
+telegram = true
+
+[params.commentEngine]
+  code = ""
+
+

@@ -1,0 +1,32 @@
+img[src$='#floatleft']
+{
+	float:left;
+        display: block;
+        margin-left: 12px;
+	margin-bottom: 8px;
+        margin-right: auto;
+       	//etc. etc/
+}
+
+img[src$='#floatright']
+{
+	float:right;
+	display: block;
+        margin-left: 12px;;
+	margin-bottom: 8px;
+        margin-right: auto;
+       //etc. etc.
+}
+
+img.floatright {
+    float: right;
+    margin-left: 12px;
+    margin-bottom: 8px;
+}
+
+img.floatleft {
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 8px;
+}
+

@@ -1,0 +1,5 @@
+{{- $address := .Get 0 -}}
+{{- $label := .Get 1 | default "email me" -}}
+<a href="#"
+   data-e="{{ $address | base64Encode }}"
+   onclick="this.href='mailto:'+atob(this.dataset.e);return true;">{{ $label }}</a>

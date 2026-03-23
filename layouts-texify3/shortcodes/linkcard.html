@@ -1,0 +1,72 @@
+{{- $url := .Get 0 -}}
+{{- /* Strip markdown link syntax [text](url) if accidentally passed in */ -}}
+{{- $mdMatch := findRESubmatch `\]\(([^)]+)\)` $url -}}
+{{- if $mdMatch -}}{{- $url = index (index $mdMatch 0) 1 -}}{{- end -}}
+{{- $title := "" -}}
+{{- $desc := "" -}}
+{{- $img := "" -}}
+{{- $sitename := "" -}}
+
+{{- $r := resources.GetRemote $url -}}
+{{- with $r -}}
+  {{- $content := .Content -}}
+
+  {{- /* og:title — try property= and name= variants, content before or after attribute */ -}}
+  {{- $m := findRESubmatch `(?i)<meta[^>]+property=["']og:title["'][^>]+content=["']([^"']+)["']` $content -}}
+  {{- if not $m -}}
+    {{- $m = findRESubmatch `(?i)<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:title["']` $content -}}
+  {{- end -}}
+  {{- with $m -}}{{- $title = index (index . 0) 1 -}}{{- end -}}
+
+  {{- /* fallback to <title> tag */ -}}
+  {{- if not $title -}}
+    {{- $m2 := findRESubmatch `(?i)<title[^>]*>([^<]+)</title>` $content -}}
+    {{- with $m2 -}}{{- $title = index (index . 0) 1 -}}{{- end -}}
+  {{- end -}}
+
+  {{- /* og:description */ -}}
+  {{- $m = findRESubmatch `(?i)<meta[^>]+property=["']og:description["'][^>]+content=["']([^"']+)["']` $content -}}
+  {{- if not $m -}}
+    {{- $m = findRESubmatch `(?i)<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:description["']` $content -}}
+  {{- end -}}
+  {{- if not $m -}}
+    {{- $m = findRESubmatch `(?i)<meta[^>]+name=["']description["'][^>]+content=["']([^"']+)["']` $content -}}
+  {{- end -}}
+  {{- if not $m -}}
+    {{- $m = findRESubmatch `(?i)<meta[^>]+content=["']([^"']+)["'][^>]+name=["']description["']` $content -}}
+  {{- end -}}
+  {{- with $m -}}{{- $desc = index (index . 0) 1 -}}{{- end -}}
+
+  {{- /* og:image */ -}}
+  {{- $m = findRESubmatch `(?i)<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']` $content -}}
+  {{- if not $m -}}
+    {{- $m = findRESubmatch `(?i)<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']` $content -}}
+  {{- end -}}
+  {{- with $m -}}{{- $img = index (index . 0) 1 -}}{{- end -}}
+
+  {{- /* og:site_name */ -}}
+  {{- $m = findRESubmatch `(?i)<meta[^>]+property=["']og:site_name["'][^>]+content=["']([^"']+)["']` $content -}}
+  {{- if not $m -}}
+    {{- $m = findRESubmatch `(?i)<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:site_name["']` $content -}}
+  {{- end -}}
+  {{- with $m -}}{{- $sitename = index (index . 0) 1 -}}{{- end -}}
+
+{{- end -}}
+
+{{- /* derive display domain as final fallback label */ -}}
+{{- $domain := replaceRE `^https?://(www\.)?` "" $url -}}
+{{- $domain = replaceRE `/.*$` "" $domain -}}
+{{- if not $sitename -}}{{- $sitename = $domain -}}{{- end -}}
+
+<a href="{{ $url }}" target="_blank" rel="noopener noreferrer" class="link-card">
+  {{- with $img }}
+  <div class="link-card-image">
+    <img src="{{ . }}" alt="{{ $title }}" loading="lazy">
+  </div>
+  {{- end }}
+  <div class="link-card-body">
+    {{- with $title }}<div class="link-card-title">{{ . }}</div>{{ end }}
+    {{- with $desc }}<div class="link-card-desc">{{ . }}</div>{{ end }}
+    <div class="link-card-url">{{ $sitename }}</div>
+  </div>
+</a>
