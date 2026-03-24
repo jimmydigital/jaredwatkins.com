@@ -1,0 +1,14 @@
+{{- /* breadcrumb.html — renders the ancestor path above page content.
+       Hidden on the home page. Uses Hugo's .Ancestors (available since 0.109).
+       Order: Home › … › Parent › Current Page */ -}}
+{{- if not .IsHome }}
+<nav class="breadcrumb" aria-label="breadcrumb">
+  <a href="{{ .Site.Home.RelPermalink }}">Main Page</a>
+  {{- range where .Ancestors.Reverse "IsHome" false }}
+  <span class="breadcrumb-sep">›</span>
+  <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  {{- end }}
+  <span class="breadcrumb-sep">›</span>
+  <span class="breadcrumb-current">{{ .Title }}</span>
+</nav>
+{{- end }}

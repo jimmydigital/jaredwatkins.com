@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 set -e
 
-hugo  --cleanDestinationDir --logLevel info
+hugo  --configDir config-texify3 --cleanDestinationDir --gc --logLevel info
 
 read -p "Press [Enter] key to publish to S3..."
 

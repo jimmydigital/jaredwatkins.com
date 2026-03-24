@@ -10,6 +10,33 @@ img[src$='#floatright']
        //etc. etc.
 }
 
+/* ── Breadcrumb navigation ── */
+nav.breadcrumb {
+  font-size: 0.82rem;
+  color: #999;
+  padding: 0.5rem 0 0.25rem;
+  margin: 0 auto;
+  max-width: var(--content-width, 860px);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  line-height: 1.5;
+}
+nav.breadcrumb a {
+  color: #999;
+  text-decoration: none;
+}
+nav.breadcrumb a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+.breadcrumb-sep {
+  margin: 0 0.35em;
+  color: #ccc;
+}
+.breadcrumb-current {
+  color: #555;
+}
+
 /* ── Link preview cards ({{< linkcard "url" >}}) ── */
 a.link-card {
   display: flex;

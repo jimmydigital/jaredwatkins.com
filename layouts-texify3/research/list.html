@@ -1,0 +1,48 @@
+{{ define "head" }}
+{{ $options := dict "transpiler" "dartsass" "targetPath" "css/list.css" }}
+{{ with resources.Get "sass/layouts/list.scss" | toCSS $options | postCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+{{ end }}
+{{ end }}
+
+{{ define "main" }}
+<main id="main" class="archive">
+  {{/* Render the section _index.md content (overview, company tables, etc.) */}}
+  {{ if .Content }}
+  <article class="page-content">
+    {{ .Content }}
+  </article>
+  <hr>
+  {{ end }}
+
+  {{/* Subsections — show as a simple linked list */}}
+  {{ if .Sections }}
+  <section class="research-subsections">
+    <h2>Sections</h2>
+    <ul>
+      {{ range .Sections }}
+      <li><a class="link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ if .Description }} — {{ .Description }}{{ end }}
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+
+  {{/* Regular pages — entries in this section */}}
+  {{ if .RegularPages }}
+  <section class="research-entries">
+    <h2>Entries</h2>
+    <ul>
+      {{ range .RegularPages.ByTitle }}
+      <li>
+        <a class="link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ if .Description }} — {{ .Description }}{{ end }}
+        <time style="float:right; color: var(--secondary)">{{ .Lastmod.Format "2 Jan 2006" }}</time>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+</main>
+{{ end }}

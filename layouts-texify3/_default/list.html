@@ -7,6 +7,23 @@
 
 {{ define "main" }}
 <main id="main" class="archive">
+  {{/* Render _index.md content when present (e.g. Research section overviews and company tables) */}}
+  {{ if .Content }}
+  <article class="page-content">
+    {{ .Content }}
+  </article>
+  <hr>
+  {{ end }}
+  {{/* Subsections — show as a simple linked list before the date archive */}}
+  {{ if .Sections }}
+  <section>
+    <ul>
+      {{ range .Sections }}
+      <li><a class="link" href="{{ .RelPermalink }}">{{ .Title }}</a>{{ if .Description }} — {{ .Description }}{{ end }}</li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
   {{ if .Site.Params.enableDuckDuckGoSearchBox }}
   <div id="searchbox">
     <form method="get" id="ddgSearch" target="_blank" action="https://duckduckgo.com/">

@@ -1,0 +1,3 @@
+#!/bin/sh
+hugo server --configDir config-texify3 --cleanDestinationDir --gc
+

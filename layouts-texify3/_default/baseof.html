@@ -79,6 +79,7 @@
 <body>
   <div id="wrapper">
     {{ partial "header.html" . }}
+    {{ partial "breadcrumb.html" . }}
     {{ block "main" . }}{{ end }}
     {{ partial "footer.html" . }}
   </div>
