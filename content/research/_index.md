@@ -196,7 +196,7 @@ Every topic area `_index.md` (e.g., `energy/_index.md`) must include a **Compani
 - Link each ticker to its Yahoo Finance quote page: `https://finance.yahoo.com/quote/TICKER`
 - Link each company name to its official investor relations or corporate website.
 - For non-US exchanges, use the exchange-qualified ticker (e.g., `300750.SZ` for CATL on Shenzhen)
-- **Chinese-owned public companies:** append `🇨🇳` after the company name and add a note that claims should be treated with additional skepticism (see below)
+- **Chinese-owned companies (any tier):** append `🇨🇳` after the company name
 
 **Incumbents** — large, diversified public companies (automakers, conglomerates, major battery manufacturers). Include only as context; detailed entries for incumbents should be created only when there is something genuinely novel and specific to document:
 
@@ -207,6 +207,61 @@ Every topic area `_index.md` (e.g., `energy/_index.md`) must include a **Compani
 - Link each company name to its official corporate or investor relations website.
 
 Update all three tables whenever a new entry is added that introduces a new company. Do not list research institutions or universities — only commercial entities.
+
+**Embedded Market Overview Widget** — Each subsection `_index.md` file with a Public Companies table should include a live TradingView Market Overview widget immediately after the Public Companies table. This widget displays 1-year price performance with a mini chart for each public company in the section, giving readers live market context alongside the static company descriptions.
+
+Use `embed-widget-market-overview.js` with `dateRange: "12M"` and `showChart: true`. Each section uses a single tab titled with the section name. Symbols use the `s`/`d` field format (not `proName`/`title`). Supported exchanges include NYSE, NASDAQ, OSLO, TSE, and others — always qualify symbols with their exchange prefix (e.g., `NYSE:VRT`, `NASDAQ:MRCY`, `TSE:6268`).
+
+Canonical embed template:
+
+```html
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container" style="margin: 20px 0;">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+  {
+    "colorTheme": "light",
+    "dateRange": "12M",
+    "showChart": true,
+    "locale": "en",
+    "showSymbolLogo": true,
+    "showFloatingTooltip": true,
+    "width": "100%",
+    "height": "500",
+    "tabs": [
+      {
+        "title": "Section Title",
+        "symbols": [
+          {"s": "NYSE:TICKER1", "d": "Company Name 1"},
+          {"s": "NASDAQ:TICKER2", "d": "Company Name 2"}
+        ],
+        "originalTitle": "Section Title"
+      }
+    ]
+  }
+  </script>
+</div>
+<!-- TradingView Widget END -->
+```
+
+Example placement in markdown:
+
+```
+### Public Companies
+
+| Ticker | Company | Mission |
+...table...
+
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container" style="margin: 20px 0;">
+  ...widget code...
+</div>
+<!-- TradingView Widget END -->
+
+### Incumbents
+```
+
+The Hugo config has `unsafe = true` in goldmark, so raw script tags render correctly. For sections with more than 15 public companies, split into multiple tabs within the same widget. For sections with fewer than 2 public companies, omit the widget.
 
 ---
 
@@ -287,13 +342,119 @@ Review cadence for supply chain sections: 180 days.
 When a company entry covers a Chinese-owned entity (headquartered in mainland China or majority-owned by Chinese state or private interests):
 
 - Add `chinese-owned: true` to the frontmatter
-- Note the Chinese ownership explicitly in the **Key Facts** section
+- Append 🇨🇳 after the company name in every table where it appears
+- Note the Chinese ownership in the **Key Facts** section
 - In the **Claim Verification** section, apply a higher bar for verification: prefer sources from independent Western labs, peer-reviewed journals, or credible non-Chinese media; treat company-issued figures as unverified until corroborated
-- Add this notice at the top of the entry body, before the Summary:
 
-```
-> **Note:** This company is Chinese-owned. Performance claims and publicly reported figures should be treated with additional skepticism until independently verified by non-affiliated third parties.
-```
+---
+
+### Topic-Area Steering: Datacenters (`research/datacenters/`)
+
+**Scope boundaries:**
+- IN: Physical datacenter infrastructure — cooling, power, construction, physical automation, rack design, connectivity hardware; companies designing, building, or operating innovative datacenter facilities
+- OUT: Cloud computing software, AI model development, chip design (separate sections); routine hyperscaler earnings or campus announcements without a novel infrastructure angle
+- BORDERLINE: Rack-scale compute systems (NVIDIA NVL72, HPE Cray EX) — include only when the physical infrastructure or cooling integration is the notable element, not the compute itself
+
+**Datacenter-specific tags** (in addition to global tags):
+- Subsection: `cooling`, `robotics-automation`, `design-construction`, `power-infrastructure`
+- Technology: `immersion-cooling`, `direct-to-chip`, `liquid-cooling`, `air-cooling`, `blind-mate`, `prefab`, `modular`, `smr`, `fuel-cell`, `behind-the-meter`
+- Segment: `hyperscaler`, `colocation`, `edge`, `hpc`, `ai-datacenter`
+- Density: `high-density` (>20 kW/rack), `ultra-high-density` (>100 kW/rack)
+
+**Key metrics to document** for cooling technologies and products: PUE (target and measured annualized — not just design); WUE (liters per kWh IT load); rack density supported (kW/rack — air tops out ~15–20 kW, liquid starts at 20 kW); coolant temperature range (supply and return); ERE (Energy Reuse Effectiveness). For construction/design entries: time to power (months greenfield to live), cost per MW (verify whether figure includes land, power infrastructure, fit-out, and redundancy — not just shell-and-core), PUE target, and total MW at full buildout.
+
+**Claim verification flags for datacenters:** Distinguish design PUE from measured annualized PUE. For "supports X kW/rack" claims, verify that figures account for real-world fluid distribution, manifold pressure drops, and redundancy — not just tank theoretical capacity. For autonomous operation claims, establish what fraction of tasks are genuinely automated vs. still requiring human intervention. For "100% renewable" power claims, determine whether the mechanism is RECs (does not change the physical grid mix) or 24/7 matched clean power. For cost per MW claims, see metrics note above.
+
+**Additional entry types for datacenters** (beyond the global company/technology/person/breakthrough types):
+- **Design pattern**: a documented approach being adopted by multiple operators (e.g., zoned hybrid cooling)
+- **Facility entry**: a specific notable datacenter with documented novel infrastructure elements
+- **Standard/specification**: an industry standard relevant to infrastructure (OCP, Open19, ASHRAE thermal guidelines)
+
+---
+
+### Topic-Area Steering: Datacenters — Rugged & Edge Compute (`research/datacenters/rugged-edge-compute/`)
+
+**Scope:** Rugged compute platforms designed for operation in harsh, mobile, or contested environments. In scope: server/rack-level compute for airborne, maritime, and ground vehicle deployment; man-portable and wearable AI inference platforms; VPX/OpenVPX modular compute; MOSA/SOSA-compliant systems; tactical edge AI. Out of scope: standard datacenter servers in controlled environments, consumer ruggedized laptops.
+
+**Key terminology to document in relevant entries:**
+- **SWaP / SWaP-C**: Size, Weight, and Power (plus Cost) — the fundamental constraint governing all rugged compute design trade-offs
+- **MOSA / SOSA**: Modular Open Systems Approach / Sensor Open Systems Architecture — DoD acquisition policy and the specific technical standard implementing it; SOSA-aligned products are interoperable across vendors
+- **VPX / OpenVPX**: VITA 65 — high-speed backplane-based modular compute form factor for rugged environments; 3U and 6U card heights
+- **HPEC**: High-Performance Embedded Computing — GPU/FPGA-accelerated rugged compute for signal processing and AI inference
+- **MIL-STD-810**: Environmental test standard (temperature, humidity, shock, vibration, altitude) — the benchmark for ruggedization claims; verify which revision (H is current) and which test methods were applied
+- **MIL-STD-461**: EMI/EMC standard — critical for airborne and naval platforms
+- **ATAK**: Android Team Awareness Kit — DoD tactical situational awareness platform; ATAK compatibility indicates field soldier/operator integration
+
+**Platform tiers** — tag and describe entries by tier: (1) Rack/server tier (1U–4U rackmount for vehicle/aircraft/ship bays); (2) VPX module tier (individual 3U or 6U OpenVPX cards sold to prime contractors); (3) Man-portable/wearable tier (battery-powered, body-worn AI inference, typically NVIDIA Jetson Orin class, ATAK-compatible).
+
+**AI inference metrics:** Track GPU/NPU generation (H100, H200, GB200, RTX PRO 5000 Blackwell, Jetson Orin NX/AGX) and TFLOPS/PetaOPS claims. DoD customers care about INT8/INT4 throughput for inference, not FP64 for training.
+
+**Review cadence:** 90 days for companies with active DoD contracts; 180 days otherwise.
+
+---
+
+### Topic-Area Steering: Energy — Nuclear (`research/energy/nuclear/`)
+
+**Scope:** Fission reactor designs (SMR, microreactor, advanced Gen IV), fuel cycle suppliers, construction and deployment companies, regulatory milestones. Out of scope: nuclear weapons, fusion (track separately if warranted), nuclear medicine.
+
+**Regulatory milestones carry high weight.** NRC Design Certification, Construction Permit, Combined License (COL), and Operating License are discrete verifiable events. Document each with date, document number, and link to the NRC public docket where available. Verify licensing status claims against the NRC docket, not just company press releases.
+
+**Timeline skepticism is essential.** Nuclear construction has a decades-long history of schedule slippage and cost overrun. When a company claims a build time dramatically shorter than industry history, document the claim, the mechanism by which they claim to achieve it, the regulatory preconditions required, and any prior examples of similar claims. Always distinguish design-stage timeline claims from NRC-approved construction schedules.
+
+**SMR-specific flags to track per entry:**
+- Reactor design type (LWR, HTGR, molten salt, sodium fast) — each has distinct licensing precedent and supply chain
+- Fuel type (LEU vs. HALEU) — HALEU supply chain is a critical dependency; Centrus Energy is the only NRC-licensed US HALEU enricher
+- Construction approach (modular/shipyard vs. stick-built)
+- Behind-the-meter vs. grid-connected (datacenter-coupled SMRs avoid grid interconnection delays but require dedicated NRC site approvals)
+
+**Datacenter nuclear overlap:** Document any company with a named datacenter or hyperscaler customer or LOI. Cross-reference with `research/datacenters/power-infrastructure`. Key tracked connections: Blue Energy → Crusoe (Port of Victoria TX); Kairos Power → Google (500 MW PPA by 2035); X-energy → Amazon (multiple sites). Note: NuScale's CFPP project was cancelled 2023 — document and do not treat as active.
+
+**Nuclear-specific tags:** `smr`, `microreactor`, `gen-iv`, `haleu`, `behind-the-meter`, `shipyard-construction`, `nrc-licensed` (only after NRC Design Certification or COL is granted).
+
+**Review cadence:** 90 days for active pre-construction companies (NRC milestones can change fast); 180 days for early-stage designs; 365 days for stable operational facilities.
+
+---
+
+### Topic-Area Steering: Robotics (`research/robotics/`)
+
+**Editorial priority:** The component and subsystem layer — motors, gearboxes, LiDAR sensors, radio subsystems, battery packs — not the platform OEMs. Platform OEM entries (DJI, Boston Dynamics, etc.) provide market context, but the more interesting entries are the materials company solving motor efficiency, the startup building a better harmonic drive, or the researcher commercializing a new LiDAR architecture.
+
+**Value chain position** — every company entry must be tagged and described by its position:
+- **Platform OEM** — sells a complete, ready-to-use robot to end customers (DJI, Boston Dynamics, Knightscope, AeroVironment)
+- **Component/subsystem supplier** — sells components or subsystems to OEMs or integrators (T-Motor, Maxon, Ouster, u-blox, Silvus, Intelligent Energy)
+- **Software/AI layer** — sells autonomy software that runs on hardware platforms (Shield AI Hivemind, Skydio AI stack)
+- **Integrator** — assembles third-party components into custom platforms for specific verticals
+
+When a company operates at multiple layers (e.g., DJI makes its own motors AND sells complete drones), note both roles and describe the vertical integration explicitly — it is a significant competitive moat worth documenting.
+
+**Robotics-specific tags** (in addition to global tags):
+- Platform type: `aerial-drone`, `ugv`, `amr`, `humanoid`, `surgical`, `agricultural`
+- Component category: `actuator`, `sensor`, `lidar`, `radar`, `gnss`, `communications`, `battery`, `fuel-cell`, `motor`, `gearbox`
+- Market: `defense`, `commercial`, `consumer`, `industrial`, `logistics`
+- Technology: `bldc`, `harmonic-drive`, `slam`, `autonomous`, `swarm`, `bvlos`
+
+**Claim verification for robotics — categories requiring scrutiny in every entry:** Endurance claims (confirm test conditions: payload, speed, altitude, temperature — quoted figures almost always assume ideal/unloaded conditions); autonomy claims ("fully autonomous," "zero operator required" — establish human-in-the-loop reality and what regulatory approvals are required and obtained, including FAA Part 107 waivers, BVLOS approvals); unit deployment figures (distinguish units sold vs. units in active service vs. cumulative lifetime deliveries); defense contract claims (verify against USASpending.gov or SAM.gov where possible — press releases routinely overstate contract scope).
+
+**Defense and dual-use notation** for entries with significant defense business: add `defense` tag to frontmatter; note active DoD contracts and programs (public); note ITAR or EAR implications for export; if a UAS platform appears on the Blue UAS framework (DoD-approved drone procurement list), note explicitly — it is a material commercial differentiator in the US government market. For defense UGV programs, reference the relevant Army program office (DEVCOM GVSC, PEO Soldier) when documenting contracts.
+
+**DJI specifically:** DJI is on the US DoD Chinese military company list and the FCC Covered List (as of 2022–present). The American Security Drone Act (signed 2023) prohibits US federal agencies from procuring DJI and other covered drones. Every DJI entry must prominently note these designations and their practical implications — the regulatory overhang is a material risk that must be documented.
+
+**Rare earth dependency** is a pervasive, often underdiscussed supply chain risk throughout the robotics hardware stack. NdFeB permanent magnet BLDC and servo motors depend on neodymium and dysprosium; China controls ~85% of global rare earth mining and ~90% of processing. This affects every motor and actuator regardless of where the final robot was assembled. Note it in any motor or actuator entry.
+
+**People network clusters in robotics** — flag connections to these origin clusters explicitly (in addition to the global people tracking format):
+- Carnegie Mellon Robotics Institute (Red Whittaker field robotics lab; AMR company founders)
+- MIT CSAIL and AeroAstro (drone and autonomy startups; Russ Tedrake manipulation group)
+- Stanford SAIL/ME (manipulation, legged robots; DJI co-founder Frank Wang, Stanford dropout)
+- iRobot alumni diaspora (wide spread after Amazon acquisition 2022)
+- DJI engineering alumni (several competing drone company founders)
+- DARPA PMs who funded foundational robotics programs and later joined portfolio companies — document these explicitly; the DARPA PM → company advisor/board pipeline is common and worth tracking
+- Ex-Uber ATG / Waymo / Cruise / Aurora engineers moving into AMR and delivery robot startups
+
+**Subsection review cadence:**
+- Aerial drones, Ground drones, Sensors/LiDAR, Power systems: 90 days (fast-moving, regulatory changes)
+- Actuators, Communications: 180 days
+
+**What NOT to include (robotics-specific):** Hobbyist or purely recreational products with no commercial or professional market relevance; "announced" products with no hardware prototype publicly demonstrated (document announcement date, mark Key Facts status as "Announced / Undemonstrated"); AV companies not primarily in the robotics market (Waymo, Cruise, Mobileye — separate AV section); humanoid robots (track in dedicated `humanoid/` subsection when the area warrants it — do not fold into ground-drones); traditional fixed-factory industrial robot arms (FANUC, Kuka, ABB, Yaskawa) — incumbents table only; simulation software platforms (Isaac Sim, Gazebo) — context but not primary entries.
 
 ---
 

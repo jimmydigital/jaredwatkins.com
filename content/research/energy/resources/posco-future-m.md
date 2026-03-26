@@ -1,7 +1,7 @@
 ---
 title: "POSCO Future M"
 date: 2026-03-23
-lastmod: 2026-03-23
+lastmod: 2026-03-24
 draft: false
 description: "South Korean battery materials company producing both cathode and anode active materials; MOU with Factorial Energy for solid-state battery materials; supplier to GM, Samsung SDI, LG Energy Solution, SK On; part of POSCO Group."
 tags: ["company", "materials", "cathode", "anode", "south-korea", "supply-chain", "batteries"]
@@ -12,7 +12,7 @@ source_urls:
   - "https://investor.gm.com/news-releases/news-release-details/gm-and-posco-future-m-expand-ev-battery-supply-chain-north"
   - "https://www.poscofuturem.com/en/business/energy.do"
   - "https://newsroom.posco.com/en/posco-future-m-overcomes-the-chasm-with-new-cathode-and-anode-material-technologies/"
-last_reviewed: 2026-03-23
+last_reviewed: 2026-03-24
 stale_after_days: 180
 ---
 

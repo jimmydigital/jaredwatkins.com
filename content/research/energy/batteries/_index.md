@@ -1,13 +1,13 @@
 ---
 title: Battery Technology Research
 date: 2026-03-23
-lastmod: 2026-03-23
+lastmod: 2026-03-24
 draft: false
 description: Research on emerging battery technologies including solid-state, flow batteries, and high-density storage.
 tags: ["batteries", "energy"]
 categories: ["overview"]
 research_area: "energy/batteries"
-last_reviewed: 2026-03-23
+last_reviewed: 2026-03-24
 stale_after_days: 365
 ---
 
@@ -28,7 +28,7 @@ Tracks advances in battery chemistry and storage technology, with a focus on sol
 
 | Company | HQ | Stage | Mission |
 |---------|-----|-------|---------|
-| [Factorial Energy](https://factorialenergy.com) | Cambridge, MA, USA | Pre-IPO | Semi-solid FEST® electrolyte platform; 375 Wh/kg validated with Stellantis; JDAs with Mercedes-Benz, Hyundai, Kia; expanding to drones/robotics. |
+| [Factorial Energy](https://factorialenergy.com) | Cambridge, MA, USA | Pre-IPO (SPAC/Nasdaq FAC pending mid-2026) | Two platforms: FEST® semi-solid (375 Wh/kg, Stellantis-validated) and Solstice™ all-solid-state (up to 450 Wh/kg, Mercedes-Benz). Philenergy manufacturing MOU Feb 2026. Expanding to drones/robotics. |
 | [Donut Lab](https://donutlab.com) | Estonia (Finnish roots) | Private | Solid-state battery startup with production-ready cells in Verge Motorcycles; 400 Wh/kg and 100k-cycle claims unverified. |
 | [Nordic Nano](https://nordicnano.fi) | Finland | Private | Manufacturing partner producing Donut Lab's amorphous titanium dioxide nanostructure-based cells. |
 | [ProLogium Technology](https://prologium.com) | Taiwan | Pre-IPO | Oxide-based solid-state pioneer (est. 2006); Superfluidized All-Inorganic architecture unveiled CES 2026; Dunkirk gigafactory groundbreaking 2026. |
@@ -44,6 +44,34 @@ Tracks advances in battery chemistry and storage technology, with a focus on sol
 | [QS](https://finance.yahoo.com/quote/QS) | [QuantumScape](https://www.quantumscape.com) | Solid-state lithium-metal battery developer; sulfide-based separator; shipping B-samples to auto customers in 2025–2026. |
 | [SLDP](https://finance.yahoo.com/quote/SLDP) | [Solid Power](https://www.solidpowerbattery.com) | All-solid-state lithium battery developer on roll-to-roll production line; cells in BMW i7 validation. |
 
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container" style="margin: 20px 0;">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+  {
+    "colorTheme": "light",
+    "dateRange": "12M",
+    "showChart": true,
+    "locale": "en",
+    "showSymbolLogo": true,
+    "showFloatingTooltip": true,
+    "width": "100%",
+    "height": "500",
+    "tabs": [
+      {
+        "title": "Batteries",
+        "symbols": [
+          {"s": "NYSE:QS", "d": "QuantumScape"},
+          {"s": "NASDAQ:SLDP", "d": "Solid Power"}
+        ],
+        "originalTitle": "Batteries"
+      }
+    ]
+  }
+  </script>
+</div>
+<!-- TradingView Widget END -->
+
 ### Incumbents
 
 | Ticker | Company | Relevance |
@@ -51,9 +79,7 @@ Tracks advances in battery chemistry and storage technology, with a focus on sol
 | [TM](https://finance.yahoo.com/quote/TM) | [Toyota](https://global.toyota/en/) | Largest solid-state patent holder; signals commercial timeline (2027–2028 target); key customer for Idemitsu sulfide electrolyte. |
 | [006400.KS](https://finance.yahoo.com/quote/006400.KS) | [Samsung SDI](https://www.samsungsdi.com) | Major cell manufacturer targeting 500 Wh/kg solid-state; market validation signal for Korea cell supply chain. |
 | [PCRFY](https://finance.yahoo.com/quote/PCRFY) | [Panasonic](https://www.panasonic.com/global/home.html) | Lithium-ion incumbent (Tesla supplier) with solid-state R&D; no firm timeline; indicator of when the technology reaches mainstream tier-1 supply. |
-| [300750.SZ](https://finance.yahoo.com/quote/300750.SZ) | [CATL](https://www.catl.com/en/) 🇨🇳 | World's largest EV battery maker; solid-state target ~2027; treat claims with additional skepticism. |
-
-> **Note on CATL:** Chinese-owned. Performance claims and production timelines should be treated with additional skepticism until independently verified by non-affiliated third parties.
+| [300750.SZ](https://finance.yahoo.com/quote/300750.SZ) | [CATL](https://www.catl.com/en/) 🇨🇳 | World's largest EV battery maker; solid-state target ~2027. |
 
 ## Supply Chain
 
@@ -88,4 +114,4 @@ The supply chains for solid-state and lithium-sulfur batteries diverge significa
 
 **Graphite (Conventional Anode):** Not directly relevant to solid-state or Li-S companies here (which use Li metal anodes or Li-S chemistry), but notable context: conventional graphite anodes are ~65%+ China-sourced. The documented companies' shift to lithium metal or sulfur cathodes largely sidesteps this risk.
 
-### Supply Chain — Last Reviewed: 2026-03-23
+### Supply Chain — Last Reviewed: 2026-03-24

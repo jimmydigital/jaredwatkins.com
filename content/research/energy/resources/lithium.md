@@ -1,7 +1,7 @@
 ---
 title: "Lithium"
 date: 2026-03-23
-lastmod: 2026-03-23
+lastmod: 2026-03-24
 draft: false
 description: "The lightest metal; core input for all documented battery chemistries; hard rock mining concentrated in Australia; brine extraction concentrated in the Lithium Triangle; refining dominated by China."
 tags: ["resources", "lithium", "supply-chain", "mining", "energy"]
@@ -11,7 +11,7 @@ source_urls:
   - "https://investingnews.com/daily/resource-investing/battery-metals-investing/lithium-investing/top-lithium-producers/"
   - "https://www.ufinebattery.com/blog/who-are-the-biggest-lithium-producers/"
   - "https://www.brimco.io/mining/top-lithium-producers/"
-last_reviewed: 2026-03-23
+last_reviewed: 2026-03-24
 stale_after_days: 180
 ---
 

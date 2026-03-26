@@ -1,7 +1,7 @@
 ---
 title: "Adden Energy"
 date: 2026-03-23
-lastmod: 2026-03-23
+lastmod: 2026-03-24
 draft: false
 description: "Harvard SEAS spinout developing thin-film solid-state lithium batteries with demonstrated 10-minute fast charging and 10,000+ cycle lab results; $20M raised; pilot production line under construction in Waltham, MA."
 tags: ["batteries", "solid-state", "emerging", "us"]
@@ -11,7 +11,7 @@ source_urls:
   - "https://seas.harvard.edu/news/fast-charging-over-10000-cycles-future-electric-vehicles-harvard-engineers-solid-state-battery"
   - "https://www.axios.com/pro/climate-deals/2024/10/23/adden-energy-funding-solid-state"
   - "https://cleantechnica.com/2024/01/08/harvard-spinoff-solid-state-battery-electric-vehicles/"
-last_reviewed: 2026-03-23
+last_reviewed: 2026-03-24
 stale_after_days: 90
 related:
   - "energy/batteries/solid-state-batteries.md"
@@ -73,7 +73,7 @@ Adden is still at an early stage relative to Factorial Energy or QuantumScape. T
   - American Nanotechnologies, Inc. (Dec 2015–Feb 2022): Founder and CEO (ran in parallel with Harvard PhD)
   - Harvard SEAS, Xin Li lab (Sep 2015–May 2020): Graduate student researcher
 
-### People — Last Reviewed: 2026-03-23
+### People — Last Reviewed: 2026-03-24
 
 ## Supply Chain Position
 

@@ -1,7 +1,7 @@
 ---
 title: "Solid Power"
 date: 2026-03-23
-lastmod: 2026-03-23
+lastmod: 2026-03-24
 draft: false
 description: "Louisville, CO solid-state battery pure-play (NASDAQ: SLDP); sulfide electrolyte supplier model; cells in BMW i7 validation; Samsung SDI manufacturing partnership announced Oct 2025; continuous electrolyte production line targeted end of 2026."
 tags: ["batteries", "solid-state", "us", "ev"]
@@ -11,7 +11,7 @@ source_urls:
   - "https://www.solidpowerbattery.com/investor-relations/investor-news/news-details/2025/Solid-Power-Partners-with-Samsung-SDI-and-BMW-to-Advance-All-Solid-State-Battery-Technology/default.aspx"
   - "https://www.press.bmwgroup.com/usa/article/detail/T0453702EN_US/bmw-group-and-solid-power-take-next-step-in-assb-development-path:-new-partner-samsung-sdi-joins-the-effort"
   - "https://www.businesswire.com/news/home/20260224365911/en/Solid-Power-Reports-Full-Year-2025-Results"
-last_reviewed: 2026-03-23
+last_reviewed: 2026-03-24
 stale_after_days: 90
 related:
   - "energy/batteries/solid-state-batteries.md"
@@ -79,7 +79,7 @@ The Ford JDA, which had been a secondary automotive partnership, is effectively 
 
 **⚑ Shared background note — Solid Power founders:** Professors Conrad Lee and Conrad Stoldt (CU Boulder) are the academic originators of Solid Power's sulfide electrolyte IP; Campbell and Buettner-Garrett are the commercial co-founders. The company is a CU Boulder spinout, not an NREL spinout.
 
-### People — Last Reviewed: 2026-03-23
+### People — Last Reviewed: 2026-03-24
 
 ## Supply Chain Position
 

@@ -1,13 +1,13 @@
 ---
 title: "Energy Resources & Raw Materials"
 date: 2026-03-23
-lastmod: 2026-03-23
+lastmod: 2026-03-24
 draft: false
 description: "Reference entries for raw materials, minerals, and upstream suppliers feeding into the battery technologies documented in this knowledge base."
 tags: ["resources", "materials", "supply-chain", "energy"]
 categories: ["overview"]
 research_area: "energy/resources"
-last_reviewed: 2026-03-23
+last_reviewed: 2026-03-24
 stale_after_days: 180
 ---
 

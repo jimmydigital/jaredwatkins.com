@@ -1,7 +1,7 @@
 ---
 title: "QuantumScape"
 date: 2026-03-23
-lastmod: 2026-03-23
+lastmod: 2026-03-24
 draft: false
 description: "San Jose solid-state battery pure-play; sulfide-based ceramic separator using proprietary Cobra process; QSE-5 B-samples shipping to automotive customers as of Q3 2025; Eagle Line pilot production inaugurated Feb 2026; Murata manufacturing partnership for ceramic separator scale-up."
 tags: ["batteries", "solid-state", "us", "ev"]
@@ -12,7 +12,8 @@ source_urls:
   - "https://www.quantumscape.com/quantumscape-and-murata-announce-framework-for-ceramics-collaboration/"
   - "https://www.electrive.com/2025/12/10/solid-state-batteries-quantumscape-ready-to-launch-its-pilot-line/"
   - "https://electrek.co/2025/12/09/quantumscape-qs-scale-solid-state-cell-production-key-goal-2025/"
-last_reviewed: 2026-03-23
+  - "https://www.batterytechonline.com/design-manufacturing/quantumscape-updates-commercialization-strategy-for-solid-state-battery-technology"
+last_reviewed: 2026-03-24
 stale_after_days: 90
 related:
   - "energy/batteries/solid-state-batteries.md"
@@ -32,7 +33,9 @@ QuantumScape (NYSE: QS) is a San Jose, California solid-state battery developer 
 - **QSE-5 cell specs (verified):** 5 Ah capacity; 844 Wh/L volumetric density; 301 Wh/kg gravimetric density; 12.2-minute 10–80% charge; >95% capacity retention at 1,000 cycles
 - **Current milestone:** B1-grade samples shipping to automotive customers (Q3 2025); Eagle Line pilot production inaugurated February 2026
 - **Manufacturing partner:** Murata Manufacturing (ceramics expertise for Cobra separator scale-up; joint development agreement signed Oct 2025)
-- **Mass production target:** ~2027–2028 (customer-dependent)
+- **Business model evolution:** Pivoting toward a capital-light technology licensor model — licensing Cobra ceramic separator process to manufacturing partners, equipment makers, and OEMs rather than building all capacity in-house
+- **PowerCo (Volkswagen) licensing:** Non-exclusive license to produce up to 40 GWh/year using QuantumScape technology; option to expand to 80 GWh; announced March 2026
+- **Mass production target:** ~2027–2028 (customer-dependent); first commercial launch targeted for 2026
 
 ## What It Is / How It Works
 
@@ -42,10 +45,14 @@ The company's Cobra manufacturing process is a ceramic film deposition technique
 
 The Murata Manufacturing partnership addresses the most significant remaining scale challenge: Murata is one of the world's leading precision ceramics manufacturers (best known for ceramic capacitors), and its manufacturing expertise in ceramics material formulation, sheet forming, and firing maps directly to what is needed for high-volume ceramic separator production. The April 2025 framework agreement and October 2025 joint development agreement represent QuantumScape's strategy to vertically integrate critical supply rather than own all manufacturing in-house.
 
-The QSE-5 is the first commercial-format cell QuantumScape has shipped externally. The B1 designation is an automotive development milestone — it represents a cell format that OEM customers can test in vehicle-level integration, ahead of the A-sample and production-intent C-sample stages. QuantumScape's launch customer is understood to be Volkswagen, though other undisclosed automotive customers have also received samples.
+The QSE-5 is the first commercial-format cell QuantumScape has shipped externally. The B1 designation is an automotive development milestone — it represents a cell format that OEM customers can test in vehicle-level integration, ahead of the A-sample and production-intent C-sample stages. QuantumScape's launch customer is understood to be Volkswagen (via its PowerCo battery unit), though other undisclosed automotive customers have also received samples.
+
+**Licensing Strategy:** In March 2026, CEO Sivaram outlined a three-pronged "demonstrate, distribute, develop" commercialization approach in which QuantumScape positions itself as a capital-light technology licensor rather than a vertically integrated cell manufacturer. The PowerCo agreement formalises this: Volkswagen's PowerCo unit holds a non-exclusive license to produce up to 40 GWh/year of cells using QuantumScape's technology (option to 80 GWh), with QuantumScape supplying technology and process knowledge rather than cells. This model reduces QuantumScape's capital requirements and leverages established manufacturers' production infrastructure. QuantumScape is simultaneously targeting automotive, drone/defense aerospace, AI data center power, and robotics applications.
 
 ## Notable Developments
 
+- **2026-03:** CEO Siva Sivaram publishes one-year-into-CEO-role strategy update; outlines capital-light licensing model; confirms "demonstrate, distribute, develop" three-pronged approach; targets automotive, drones/defense, AI data center, and robotics markets. ([Battery Tech Online](https://www.batterytechonline.com/design-manufacturing/quantumscape-updates-commercialization-strategy-for-solid-state-battery-technology))
+- **2026-03:** PowerCo (Volkswagen Group's battery unit) non-exclusive licensing agreement for up to 40 GWh/year using QuantumScape's ceramic separator technology; option to expand to 80 GWh.
 - **2026-02:** Eagle Line pilot production facility inaugurated in San Jose; designed for higher-volume QSE-5 cell production.
 - **2025-10:** Joint development agreement with Murata Manufacturing signed for manufacturing of ceramic separators at scale. ([Murata](https://corporate.murata.com/en-us/newsroom/news/company/general/2025/1008))
 - **2025 (Q3):** B1-grade QSE-5 samples begin shipping to automotive launch customers. ([QuantumScape IR](https://ir.quantumscape.com/resources/press-releases/news-details/2025/QuantumScape-Announces-Shipment-of-B1-Samples-Achieving-a-Key-Annual-Goal/default.aspx))
@@ -91,7 +98,7 @@ The QSE-5 is the first commercial-format cell QuantumScape has shipped externall
 
 **⚑ Overlap note:** Celina Mikolajczak (now CTO at [Lyten]({{< relref "lyten.md" >}})) served as VP of Manufacturing at QuantumScape in 2021 before departing to join Lyten in 2022. See Lyten Key People for details.
 
-### People — Last Reviewed: 2026-03-23
+### People — Last Reviewed: 2026-03-24
 
 ## Supply Chain Position
 
@@ -118,3 +125,4 @@ QuantumScape operates at the **Cell Manufacturing** layer, producing QSE-5 solid
 - [Murata and QuantumScape JDA for Ceramic Separators — Murata (Oct 2025)](https://corporate.murata.com/en-us/newsroom/news/company/general/2025/1008)
 - [QuantumScape Ships B1 Samples of QSE-5 — Electric Cars Report (Oct 2025)](https://electriccarsreport.com/2025/10/quantumscape-ships-b1-samples-of-its-qse-5-solid-state-battery/)
 - [QuantumScape Ready to Launch Eagle Line — Electrive (Dec 2025)](https://www.electrive.com/2025/12/10/solid-state-batteries-quantumscape-ready-to-launch-its-pilot-line/)
+- [QuantumScape Updates Commercialization Strategy for Solid-State Battery Technology — Battery Tech Online (Mar 2026)](https://www.batterytechonline.com/design-manufacturing/quantumscape-updates-commercialization-strategy-for-solid-state-battery-technology)

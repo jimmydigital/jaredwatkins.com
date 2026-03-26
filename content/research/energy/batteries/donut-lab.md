@@ -1,7 +1,7 @@
 ---
 title: "Donut Lab"
 date: 2026-03-23
-lastmod: 2026-03-23
+lastmod: 2026-03-24
 draft: false
 description: "Finnish-Estonian battery startup claiming the world's first solid-state battery in production vehicles, powering 2026 Verge Motorcycles models — though headline performance specs remain independently unverified."
 tags: ["batteries", "solid-state", "emerging", "eu"]
@@ -12,7 +12,7 @@ source_urls:
   - "https://www.vergemotorcycles.com/gl_en/solid-state-battery-announcement/"
   - "https://electrek.co/2026/03/23/donut-lab-solid-state-battery-5-tests-no-energy-density-cycle-life/"
   - "https://www.donutlab.com/ces-battery-announcement/"
-last_reviewed: 2026-03-23
+last_reviewed: 2026-03-24
 stale_after_days: 90
 related:
   - "energy/batteries/solid-state-batteries.md"
@@ -102,7 +102,7 @@ The company's position as both battery developer and motorcycle OEM (through its
 - **VTT Technical Research Centre of Finland** — Independent test body; has conducted five cell-level test series as of March 2026
 - **Tampere University** (Finland) — Academic origin of the underlying amorphous titanium dioxide nanostructure research
 
-### People — Last Reviewed: 2026-03-23
+### People — Last Reviewed: 2026-03-24
 
 
 

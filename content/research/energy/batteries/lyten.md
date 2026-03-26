@@ -1,7 +1,7 @@
 ---
 title: "Lyten"
 date: 2026-03-23
-lastmod: 2026-03-23
+lastmod: 2026-03-24
 draft: false
 description: "San Jose startup pioneering 3D Graphene-enabled lithium-sulfur batteries; claims ~2× energy density vs lithium-ion with no nickel, cobalt, or graphite; $625M+ raised; acquired Northvolt's European BESS facility; gigafactory planned near Reno."
 tags: ["batteries", "lithium-sulfur", "graphene", "emerging", "us"]
@@ -12,7 +12,7 @@ source_urls:
   - "https://lyten.com/2025/07/01/lyten-acquires-europes-largest-battery-energy-storage-systems-manufacturing-operation-from-northvolt/"
   - "https://cleantechnica.com/2025/08/07/us-startup-lyten-is-still-determined-to-make-a-lithium-sulfur-ev-battery-happen/"
   - "https://lyten.com/2026/03/20/lyten-to-establish-a-lyten-industrial-hub-in-poland/"
-last_reviewed: 2026-03-23
+last_reviewed: 2026-03-24
 stale_after_days: 90
 related:
   - "energy/batteries/solid-state-batteries.md"
@@ -84,7 +84,7 @@ The automotive application is the hardest and longest-horizon target. Cycle life
 
 **⚑ Shared background:** Celina Mikolajczak (Lyten) worked at QuantumScape in 2021. See QuantumScape Key People for the cross-reference note.
 
-### People — Last Reviewed: 2026-03-23
+### People — Last Reviewed: 2026-03-24
 
 ## Supply Chain Position
 

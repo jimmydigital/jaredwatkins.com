@@ -1,7 +1,7 @@
 ---
 title: "ProLogium Technology"
 date: 2026-03-23
-lastmod: 2026-03-23
+lastmod: 2026-03-24
 draft: false
 description: "Taiwanese solid-state battery pioneer with 20 years of development; commercialized the first 100% ceramic separator in 2013; unveiling Superfluidized All-Inorganic architecture in 2025–2026; Dunkirk gigafactory construction beginning 2026."
 tags: ["batteries", "solid-state", "emerging", "eu"]
@@ -11,7 +11,7 @@ source_urls:
   - "https://prologium.com/prologium-marks-20th-anniversary-at-ces-2026-unveils-breakthrough-superfluidized-all-inorganic-solid-state-battery-results/"
   - "https://prologium.com/prologium-breaks-ground-on-dunkirk-gigafactory-in-france/"
   - "https://www.globenewswire.com/news-release/2025/08/26/3138999/0/en/ProLogium-Showcases-Next-Generation-Solid-State-Battery-Breakthrough-at-IAA-Mobility-2025-Unveils-European-Mass-Production-Plan-and-Global-Collaboration-Roadmap.html"
-last_reviewed: 2026-03-23
+last_reviewed: 2026-03-24
 stale_after_days: 90
 related:
   - "energy/batteries/solid-state-batteries.md"
@@ -66,7 +66,7 @@ The Dunkirk gigafactory is ProLogium's first overseas GWh-scale facility. Enviro
 - **FEV Group** (Germany) — Cell-to-module engineering partner; showcased LLCB module at CES 2026
 - **CEA** (France) — French national R&D institution; partnering on removable and recyclable solid-state battery modules
 
-### People — Last Reviewed: 2026-03-23
+### People — Last Reviewed: 2026-03-24
 
 ## Supply Chain Position
 

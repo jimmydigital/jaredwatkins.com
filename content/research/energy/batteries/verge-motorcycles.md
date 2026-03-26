@@ -1,7 +1,7 @@
 ---
 title: "Verge Motorcycles"
 date: 2026-03-23
-lastmod: 2026-03-23
+lastmod: 2026-03-24
 draft: false
 description: "Finnish electric motorcycle manufacturer and launch platform for Donut Lab solid-state cells; world's first production motorcycle with solid-state batteries; TS Pro shipping in 2026 with 217–370 mile range and 200 kW charging."
 tags: ["batteries", "solid-state", "ev", "eu"]
@@ -11,7 +11,7 @@ source_urls:
   - "https://electrek.co/2026/01/05/verge-unveils-370-mile-electric-motorcycle-with-solid-state-battery/"
   - "https://www.vergemotorcycles.com/gl_en/solid-state-battery-announcement/"
   - "https://spectrum.ieee.org/ces-2026-solid-state-batteries"
-last_reviewed: 2026-03-23
+last_reviewed: 2026-03-24
 stale_after_days: 90
 related:
   - "energy/batteries/donut-lab.md"
@@ -87,7 +87,7 @@ The caveat that applies to Verge applies equally to Donut Lab: the verified clai
   - Planmeca: Industrial Design Intern (Finnish dental/medical device manufacturer)
 - **Notes:** Piippo's dual CTO role underscores the depth of corporate integration. Industrial design background — not electrochemistry — suggests his primary contribution is product and pack integration rather than cell chemistry.
 
-### People — Last Reviewed: 2026-03-23
+### People — Last Reviewed: 2026-03-24
 
 ## Supply Chain Position
 

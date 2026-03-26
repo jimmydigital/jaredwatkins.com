@@ -1,9 +1,9 @@
 ---
 title: "Factorial Energy"
 date: 2026-03-23
-lastmod: 2026-03-23
+lastmod: 2026-03-24
 draft: false
-description: "Cambridge, MA startup developing the FEST® semi-solid electrolyte platform; validated 375 Wh/kg cells with Stellantis and multiple OEM partners; expanding into drones and robotics."
+description: "Cambridge, MA startup with two solid-state platforms: FEST® semi-solid (375 Wh/kg, Stellantis-validated) and Solstice™ all-solid-state (up to 450 Wh/kg, Mercedes-Benz partner); SPAC merger pending; expanding into drones and robotics."
 tags: ["batteries", "solid-state", "semi-solid", "emerging", "us", "ev"]
 categories: ["company"]
 research_area: "energy/batteries"
@@ -12,7 +12,8 @@ source_urls:
   - "https://electrek.co/2026/02/05/solid-state-ev-batteries-hit-milestone-in-the-us/"
   - "https://www.businesswire.com/news/home/20260310039385/en/Factorial-Drives-Solid-State-Battery-Expansion-to-Drones-and-Robotics-with-IQT-and-Strategic-Partners"
   - "https://www.electrive.com/2026/02/16/karma-automotive-validates-solid-state-battery-cells-from-factorial/"
-last_reviewed: 2026-03-23
+  - "https://www.businesswire.com/news/home/20260226118999/en/Factorial-and-Philenergy-Sign-MOU-to-Accelerate-All-Solid-State-Battery-Manufacturing"
+last_reviewed: 2026-03-24
 stale_after_days: 90
 related:
   - "energy/batteries/solid-state-batteries.md"
@@ -20,7 +21,7 @@ related:
 
 ## Summary
 
-Factorial Energy is a Cambridge, Massachusetts-based startup developing the FEST® (Factorial Electrolyte System Technology) semi-solid electrolyte platform for high-performance lithium-metal batteries. The company's cells have been independently validated at 375 Wh/kg with Stellantis and are under joint development with Mercedes-Benz, Hyundai, and Kia. As of early 2026, Factorial is expanding its addressable market beyond automotive into drones and robotics.
+Factorial Energy is a Cambridge, Massachusetts-based startup developing two solid-state battery platforms: **FEST®** (Factorial Electrolyte System Technology), a semi-solid/quasi-solid hybrid electrolyte platform validated at 375 Wh/kg with Stellantis; and **Solstice™**, a fully all-solid-state sulfide-based platform targeting up to 450 Wh/kg, developed in partnership with Mercedes-Benz using a dry cathode process. The company has JDAs with Stellantis, Mercedes-Benz, Hyundai, and Kia, and is expanding into drones and robotics. A SPAC merger with Cartesian Growth Corporation III is expected to close mid-2026, listing Factorial on Nasdaq (ticker: FAC) with ~$1.1B pre-money valuation.
 
 ## Key Facts
 
@@ -28,14 +29,16 @@ Factorial Energy is a Cambridge, Massachusetts-based startup developing the FEST
 - **HQ:** Cambridge, MA, USA
 - **Type:** Private (SPAC merger filing in progress as of 2026)
 - **Stage:** Pre-IPO; $75M from Stellantis (2021); approximately $1.1B pre-money valuation at SPAC filing
-- **Technology:** FEST® semi-solid (quasi-solid/gel hybrid) electrolyte platform
-- **Cell format:** Large-format (77 Ah validated); designed for automotive pouch cells
-- **Validated energy density:** 375 Wh/kg (77 Ah FEST® cells, Stellantis validation, 2025)
+- **Technology Platform 1:** FEST® — semi-solid (quasi-solid/gel hybrid) electrolyte; 375 Wh/kg validated; Stellantis primary partner
+- **Technology Platform 2:** Solstice™ — fully all-solid-state (sulfide-based electrolyte, dry cathode process); up to 450 Wh/kg claimed; Mercedes-Benz primary partner; operation to 90°C
+- **Cell format:** Large-format (77 Ah validated for FEST®); designed for automotive pouch cells
+- **Validated energy density (FEST®):** 375 Wh/kg (77 Ah FEST® cells, Stellantis validation, 2025); 390+ Wh/kg in subsequent cells
 - **Validated charge rate:** 15% to 90% SoC in 18 minutes at room temperature (4C+)
-- **Operating range:** −30°C to 45°C (with expansion potential)
-- **Manufacturing compatibility:** ~80% compatible with existing Li-ion production equipment
+- **Operating range (FEST®):** −30°C to 45°C; Solstice™ rated to 90°C
+- **Manufacturing compatibility:** ~80% compatible with existing Li-ion production equipment (FEST®); Solstice™ uses dry cathode process with Philenergy equipment partner
 - **Cycle life (validated):** 600+ cycles in automotive qualification testing (2025); full automotive cycle target ongoing
-- **Key partners:** Stellantis, Mercedes-Benz, Hyundai Motor Company, Kia, Karma Automotive, IQT, POSCO Future M
+- **Key partners:** Stellantis (FEST®), Mercedes-Benz (Solstice™), Hyundai Motor Company, Kia, Karma Automotive, IQT, POSCO Future M, Philenergy (manufacturing equipment, Feb 2026 MOU)
+- **IPO plan:** SPAC merger with Cartesian Growth Corporation III; Nasdaq listing (ticker: FAC); ~$1.1B pre-money valuation; expected mid-2026
 
 ## What It Is / How It Works
 
@@ -47,12 +50,17 @@ In 2025, Stellantis validated the 77 Ah FEST® cell format in an automotive-rele
 
 In early 2026, Factorial began pursuing adjacent markets beyond automotive, partnering with IQT (In-Q-Tel, the CIA's strategic investment arm) and POSCO Future M (a major South Korean materials supplier) to adapt the FEST® platform for drone and robotics applications, where energy density and fast-charge are similarly high-value.
 
+**Solstice™ — Second Platform:** Alongside FEST®, Factorial is developing Solstice™, a fully all-solid-state design using a sulfide-based electrolyte and a dry cathode manufacturing process. Announced in partnership with Mercedes-Benz, Solstice™ claims up to 450 Wh/kg energy density (approximately 80% higher than conventional Li-ion) and stable operation above 90°C. The use of a dry cathode process — eliminating the NMP solvent used in conventional wet cathode manufacturing — is a manufacturing efficiency and environmental advantage. In February 2026, Factorial signed an MOU with Philenergy, a South Korean battery equipment and manufacturing infrastructure provider, to evaluate integrating Philenergy's automated precision assembly systems with Solstice™ cell designs.
+
 A demo fleet of Stellantis Dodge Charger Daytona vehicles equipped with FEST® cells is planned for 2026. Karma Automotive validated the cells for its upcoming Kaveya EV (targeting late 2027 launch), which promises 250+ miles of range and 0–60 mph in under 3 seconds.
 
 ## Notable Developments
 
 - **2026-03:** Factorial announces partnerships with IQT and POSCO Future M to expand FEST® platform into drones and robotics. ([BusinessWire](https://www.businesswire.com/news/home/20260310039385/en/Factorial-Drives-Solid-State-Battery-Expansion-to-Drones-and-Robotics-with-IQT-and-Strategic-Partners))
+- **2026-03-02:** Electrive reports Factorial is evaluating Philenergy production technology for solid-state manufacturing scale-up ([Electrive](https://www.electrive.com/2026/03/02/factorial-evaluates-philenergy-production-technology-for-solid-state-batteries/))
+- **2026-02-26:** Factorial and Philenergy sign MOU for strategic manufacturing collaboration on Solstice™ platform; Philenergy brings automated laser notching, precision stacking, and modular production infrastructure. ([BusinessWire](https://www.businesswire.com/news/home/20260226118999/en/Factorial-and-Philenergy-Sign-MOU-to-Accelerate-All-Solid-State-Battery-Manufacturing))
 - **2026-02:** Karma Automotive independently validates FEST® cells for the Kaveya EV. ([Electrive](https://www.electrive.com/2026/02/16/karma-automotive-validates-solid-state-battery-cells-from-factorial/))
+- **2026:** SPAC merger with Cartesian Growth Corporation III announced; Nasdaq listing (ticker: FAC) expected mid-2026; ~$1.1B pre-money valuation; $100M to fund growth.
 - **2026:** Stellantis Dodge Charger Daytona demonstration fleet planned with FEST® cells.
 - **2025:** Stellantis validates 77 Ah FEST® cell at 375 Wh/kg, 15–90% in 18 min; 600+ cycles in qualification testing. ([Stellantis](https://www.stellantis.com/en/news/press-releases/2025/april/stellantis-and-factorial-energy-reach-key-milestone-in-solid-state-battery-development))
 - **2025:** POSCO Future M partnership announced for cathode and anode materials development.
@@ -84,7 +92,7 @@ A demo fleet of Stellantis Dodge Charger Daytona vehicles equipped with FEST® c
 
 <!-- TODO: create entries for key investors and board members if publicly disclosed -->
 
-### People — Last Reviewed: 2026-03-23
+### People — Last Reviewed: 2026-03-24
 
 ## Supply Chain Position
 

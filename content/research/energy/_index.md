@@ -44,6 +44,34 @@ Tracks breakthrough technologies and key players in the energy transition — wi
 | [QS](https://finance.yahoo.com/quote/QS) | [QuantumScape](https://www.quantumscape.com) | Solid-state lithium-metal cell developer; sulfide-based ceramic separator; shipping B-samples to auto OEMs. |
 | [SLDP](https://finance.yahoo.com/quote/SLDP) | [Solid Power](https://www.solidpowerbattery.com) | All-solid-state lithium battery developer; roll-to-roll production; BMW validation partner. |
 
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container" style="margin: 20px 0;">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+  {
+    "colorTheme": "light",
+    "dateRange": "12M",
+    "showChart": true,
+    "locale": "en",
+    "showSymbolLogo": true,
+    "showFloatingTooltip": true,
+    "width": "100%",
+    "height": "500",
+    "tabs": [
+      {
+        "title": "Energy",
+        "symbols": [
+          {"s": "NYSE:QS", "d": "QuantumScape"},
+          {"s": "NASDAQ:SLDP", "d": "Solid Power"}
+        ],
+        "originalTitle": "Energy"
+      }
+    ]
+  }
+  </script>
+</div>
+<!-- TradingView Widget END -->
+
 ### Incumbents
 
 | Ticker | Company | Relevance |
@@ -51,6 +79,4 @@ Tracks breakthrough technologies and key players in the energy transition — wi
 | [TM](https://finance.yahoo.com/quote/TM) | [Toyota](https://global.toyota/en/) | Largest solid-state patent holder globally; key customer for emerging sulfide electrolyte suppliers. |
 | [006400.KS](https://finance.yahoo.com/quote/006400.KS) | [Samsung SDI](https://www.samsungsdi.com) | Major cell manufacturer; 500 Wh/kg solid-state target; signals Korean supply chain readiness. |
 | [PCRFY](https://finance.yahoo.com/quote/PCRFY) | [Panasonic](https://www.panasonic.com/global/home.html) | Tier-1 Li-ion supplier; solid-state R&D in progress; entry into solid-state would indicate mainstream readiness. |
-| [300750.SZ](https://finance.yahoo.com/quote/300750.SZ) | [CATL](https://www.catl.com/en/) 🇨🇳 | World's largest EV battery maker; solid-state target ~2027; treat claims with additional skepticism. |
-
-> **Note on CATL:** Chinese-owned. Performance claims and production timelines should be treated with additional skepticism until independently verified by non-affiliated third parties.
+| [300750.SZ](https://finance.yahoo.com/quote/300750.SZ) | [CATL](https://www.catl.com/en/) 🇨🇳 | World's largest EV battery maker; solid-state target ~2027. |

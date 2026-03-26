@@ -1,7 +1,7 @@
 ---
 title: "Idemitsu Kosan — Solid-State Electrolyte Program"
 date: 2026-03-23
-lastmod: 2026-03-23
+lastmod: 2026-03-24
 draft: false
 description: "Japanese oil major pivoting to lithium sulfide and solid electrolyte production; exclusive supplier to Toyota's solid-state battery program; ¥21.3B lithium sulfide plant operational by June 2027; large-scale solid electrolyte pilot facility construction began January 2026."
 tags: ["batteries", "solid-state", "electrolyte", "materials", "eu"]
@@ -12,7 +12,7 @@ source_urls:
   - "https://electrek.co/2026/02/09/big-oil-is-betting-big-on-toyota-to-win-the-solid-state-battery-race/"
   - "https://www.electrive.com/2026/02/02/toyota-partner-idemitsu-kosan-builds-pilot-plant-for-solid-electrolytes/"
   - "https://battery-news.de/en/2025/03/05/idemitsu-to-build-lithium-sulfide-plant-for-solid-state-batteries/"
-last_reviewed: 2026-03-23
+last_reviewed: 2026-03-24
 stale_after_days: 180
 related:
   - "energy/batteries/solid-state-batteries.md"
@@ -70,7 +70,7 @@ What makes Idemitsu interesting beyond its Toyota relationship is the precedent:
 - **Toyota Motor Corporation** — Primary customer; 2027–2028 solid-state EV mass production target; strategic collaboration formalised 2013; mass production co-development from 2023
 - **Sumitomo Metal Mining** — Secondary materials supply agreement with Toyota for cathode materials (separate from Idemitsu's electrolyte role)
 
-### People — Last Reviewed: 2026-03-23
+### People — Last Reviewed: 2026-03-24
 
 ## Supply Chain Position
 
