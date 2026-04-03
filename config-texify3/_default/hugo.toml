@@ -142,6 +142,11 @@ whatsapp = true
 hackernews = true
 telegram = true
 
+[sitemap]
+  changefreq = "weekly"     # Default for most pages
+  priority = 0.5            # Default priority (0.0–1.0)
+  filename = "sitemap.xml"  # Usually leave as default
+
 [params.commentEngine]
   code = ""
 
