@@ -9,6 +9,10 @@ categories: ["overview"]
 research_area: "energy/solar"
 last_reviewed: 2026-03-23
 stale_after_days: 365
+sitemap:
+  changefreq: "monthly"
+  priority: 0.9          # Higher for important research landing pages
+  disable: false         # Set to true to exclude a page
 ---
 
 ## Overview

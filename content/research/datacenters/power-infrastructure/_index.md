@@ -9,6 +9,10 @@ categories: ["overview"]
 research_area: "datacenters/power-infrastructure"
 last_reviewed: 2026-03-24
 stale_after_days: 90
+sitemap:
+  changefreq: "monthly"
+  priority: 0.9          # Higher for important research landing pages
+  disable: false         # Set to true to exclude a page
 ---
 
 ## Overview

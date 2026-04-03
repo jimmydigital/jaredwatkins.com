@@ -9,6 +9,10 @@ categories: ["overview"]
 research_area: "energy/nuclear"
 last_reviewed: 2026-03-25
 stale_after_days: 180
+sitemap:
+  changefreq: "monthly"
+  priority: 0.9          # Higher for important research landing pages
+  disable: false         # Set to true to exclude a page
 ---
 
 ## Overview

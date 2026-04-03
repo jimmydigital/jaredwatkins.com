@@ -1,14 +1,18 @@
 ---
 title: Battery Technology Research
 date: 2026-03-23
-lastmod: 2026-03-24
+lastmod: 2026-04-03
 draft: false
 description: Research on emerging battery technologies including solid-state, flow batteries, and high-density storage.
 tags: ["batteries", "energy"]
 categories: ["overview"]
 research_area: "energy/batteries"
-last_reviewed: 2026-03-24
+last_reviewed: 2026-04-03
 stale_after_days: 365
+sitemap:
+  changefreq: "monthly"
+  priority: 0.9          # Higher for important research landing pages
+  disable: false         # Set to true to exclude a page
 ---
 
 ## Overview
@@ -36,6 +40,12 @@ Tracks advances in battery chemistry and storage technology, with a focus on sol
 | [Lyten](https://lyten.com) | San Jose, CA, USA | Series B+ | 3D Graphene-enabled lithium-sulfur batteries; ~2× Li-ion energy density; no nickel/cobalt/graphite; $625M+ raised; acquired Northvolt BESS facility. |
 | [Verge Motorcycles](https://vergemotorcycles.com) | Finland | Private | Electric motorcycle OEM; launch platform for Donut Lab solid-state cells; TS Pro shipping 2026. |
 | [Idemitsu Kosan](https://www.idemitsu.com/en/) (Battery Materials) | Japan | Public subsidiary | 30-year sulfide electrolyte R&D; exclusive Toyota supplier; ¥21.3B Li₂S plant + solid electrolyte pilot plant under construction. |
+
+### Systems Integrators & Manufacturers
+
+| Company | HQ | Stage | Mission |
+|---------|-----|-------|---------|
+| [Orient Power (Zhuhai OTE)]({{< relref "orient-power.md" >}}) | Zhuhai, China | Private | Factory-direct LiFePO4 BESS manufacturer, 75 kWh–5 MWh container systems; achieved CE certification on MW-class systems April 2026. Notable for low cost and direct-to-installer sales, not advanced chemistry. |
 
 ### Public Companies
 
@@ -79,7 +89,8 @@ Tracks advances in battery chemistry and storage technology, with a focus on sol
 | [TM](https://finance.yahoo.com/quote/TM) | [Toyota](https://global.toyota/en/) | Largest solid-state patent holder; signals commercial timeline (2027–2028 target); key customer for Idemitsu sulfide electrolyte. |
 | [006400.KS](https://finance.yahoo.com/quote/006400.KS) | [Samsung SDI](https://www.samsungsdi.com) | Major cell manufacturer targeting 500 Wh/kg solid-state; market validation signal for Korea cell supply chain. |
 | [PCRFY](https://finance.yahoo.com/quote/PCRFY) | [Panasonic](https://www.panasonic.com/global/home.html) | Lithium-ion incumbent (Tesla supplier) with solid-state R&D; no firm timeline; indicator of when the technology reaches mainstream tier-1 supply. |
-| [300750.SZ](https://finance.yahoo.com/quote/300750.SZ) | [CATL](https://www.catl.com/en/) 🇨🇳 | World's largest EV battery maker; solid-state target ~2027. |
+| [300750.SZ](https://finance.yahoo.com/quote/300750.SZ) | [CATL](https://www.catl.com/en/) 🇨🇳 | World's largest EV battery maker; solid-state target ~2027. Primary cell supplier to third-party BESS integrators (~22% BESS cell market share H1 2025). |
+| [1211.HK](https://finance.yahoo.com/quote/1211.HK) | [BYD Energy Storage](https://www.bydenergy.com/energy-storage) 🇨🇳 | Top-3 global BESS integrator (2025); uniquely vertically integrated — manufactures its own Blade LFP cells AND integrates them into utility-scale BESS systems. Also traded as 002594.SZ. |
 
 ## Supply Chain
 

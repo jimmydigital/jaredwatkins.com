@@ -6,6 +6,10 @@ description: AI-maintained knowledge base on emerging technology topics.
 categories:
   - Research
 tags: []
+sitemap:
+  changefreq: "monthly"
+  priority: 0.9          # Higher for important research landing pages
+  disable: false         # Set to true to exclude a page
 ---
 
 {{< steering >}}
@@ -89,6 +93,29 @@ stale_after_days: 180
 
 Required fields: `title`, `date`, `lastmod`, `draft`, `description`, `tags`, `categories`, `research_area`, `source_urls`, `last_reviewed`.
 Optional but encouraged: `stale_after_days` (default 180 if omitted), `related` (list of relative paths to related entries).
+
+**Section landing pages (`_index.md`)** use a slightly different template — no `source_urls`, but always include the `sitemap` block:
+
+```yaml
+---
+title: "Section Title"
+date: 2026-01-01
+lastmod: 2026-01-01
+draft: false
+description: "Brief one-sentence summary of this section."
+tags: ["tag1", "tag2"]
+categories: ["overview"]
+research_area: "topic/subtopic"
+last_reviewed: 2026-01-01
+stale_after_days: 90
+sitemap:
+  changefreq: "monthly"
+  priority: 0.9          # Higher for important research landing pages
+  disable: false         # Set to true to exclude a page
+---
+```
+
+The `sitemap` block is **required on every `_index.md`** — both topic-area landings (e.g., `energy/_index.md`) and subtopic landings (e.g., `energy/solar/_index.md`). Do not omit it when creating new sections. **Do not add it to individual entry files** (company, person, technology, or breakthrough pages) — sitemap control applies only to section landing pages.
 
 ---
 
