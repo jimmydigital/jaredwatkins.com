@@ -1,7 +1,7 @@
 ---
 title: Datacenter Cooling
 date: 2026-03-24
-lastmod: 2026-03-24
+lastmod: 2026-04-03
 draft: false
 description: Liquid cooling systems for high-density AI and HPC datacenters — immersion, direct-to-chip, rear-door heat exchangers, and the companies supplying them.
 tags: ["datacenters", "cooling", "liquid-cooling"]
@@ -41,6 +41,7 @@ The shift from air to liquid cooling is the defining infrastructure transition o
 | [CoolIT Systems](https://www.coolitsystems.com) | Calgary, Canada | Growth | Direct-to-chip liquid cooling; Rack DCLC system; OEM partnerships with Dell, Lenovo, HPE; widely deployed in HPC. |
 | [Asetek](https://www.asetek.com) | Aalborg, Denmark | Public (Oslo: ASTK) | Liquid cooling systems for HPC and enterprise; rack CDU and direct-to-chip cold plates; significant OEM server partnerships. |
 | [Engineered Fluids](https://www.engineeredfluids.com) | Minneapolis, MN, USA | Growth | BitCool and ElectroCool dielectric fluids for single-phase immersion; positioned as alternative to discontinued 3M Novec products. |
+| [Corintis](https://www.corintis.com) | Lausanne, Switzerland | Series A | Microfluidic chip-scale cooling: AI-optimized microscopic channels etched into chip metal route coolant directly to thermal hotspots; 3x heat removal vs. standard cold plates (Microsoft-tested); EPFL POWERlab spinout. |
 
 ### Public Companies
 

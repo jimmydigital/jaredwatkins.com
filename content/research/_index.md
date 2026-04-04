@@ -495,8 +495,12 @@ When a company operates at multiple layers (e.g., DJI makes its own motors AND s
 - Personal contact information for individuals
 - Thin entries for subjects with no meaningful public information
 
+---
+
 {{< /steering >}}
 
 # Research
 
 A living, AI-maintained knowledge base on emerging technology topics. Each area collects structured profiles of technologies, companies, and people driving change.
+
+**[📋 View Changelog]({{< relref "changelog.md" >}})** — Track recent additions and updates to the knowledge base.
