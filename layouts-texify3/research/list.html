@@ -20,7 +20,7 @@
   <section class="research-subsections">
     <h2>Sections</h2>
     <ul>
-      {{ range .Sections }}
+      {{ range .Sections.ByTitle }}
       <li><a class="link" href="{{ .RelPermalink }}">{{ .Title }}</a>
         {{ if .Description }} — {{ .Description }}{{ end }}
       </li>
