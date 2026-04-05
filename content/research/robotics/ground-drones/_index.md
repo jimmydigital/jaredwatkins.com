@@ -37,7 +37,7 @@ The ground robot market splits into three commercially distinct segments that sh
 | [Locus Robotics](https://locusrobotics.com) | Wilmington, MA, USA | Late Private (Series F) | Collaborative AMRs for fulfillment warehouses; works alongside human pickers; DHL, Quiet Logistics customers. |
 | [Vecna Robotics](https://vecnarobotics.com) | Waltham, MA, USA | Growth | Autonomous tuggers, forklifts, and pallet movers; industrial facilities focus. |
 | [Seegrid](https://seegrid.com) | Pittsburgh, PA, USA | Late Private | Vision-guided autonomous industrial vehicles (tuggers, pallet movers); no floor markers required. |
-| [Ghost Robotics](https://www.ghostrobotics.io) | Philadelphia, PA, USA | Late Private | Q-UGV and Vision 60 quadruped platforms; USAF Tyndall AFB perimeter security deployment; adversarial environment design philosophy. |
+| [Ghost Robotics](https://www.ghostrobotics.io) | Philadelphia, PA, USA | Late Private | Q-UGV and Vision 60 quadruped platforms; USAF Tyndall AFB perimeter security deployment; adversarial environment design philosophy. Vision 60 is a Lattice integration partner for Anduril's ground-domain sensor/effector stack. |
 | [Zipline](https://flyzipline.com) | South San Francisco, CA, USA | Late Private | Ground-adjacent delivery ecosystem; P2 Zip drone + logistics infrastructure. |
 | [Starship Technologies](https://www.starship.xyz) | Tallinn, Estonia | Late Private | Sidewalk delivery robots; >7M deliveries as of 2024; 2,000+ fleet globally; university campus focus. |
 | [Serve Robotics](https://www.serverobotics.com) | Redwood City, CA, USA | Public (NASDAQ: SERV) | Sidewalk delivery robots; LA operations via Uber Eats partnership; spun out from Uber 2021. |

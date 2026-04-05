@@ -12,7 +12,7 @@ sitemap:
   disable: false         # Set to true to exclude a page
 ---
 
-{{< steering >}}
+{{<steering>}}
 
 ## Research Section — Steering Instructions
 
@@ -169,6 +169,15 @@ Section landing pages (`_index.md`) contain only `## Overview` and optionally `#
 - Prepend to `Notable Developments` (newest first); do not delete prior entries unless factually wrong.
 - Revise `What It Is / How It Works` in place — don't overwrite wholesale.
 - Add new source URLs; don't remove old ones unless dead and unarchivable.
+
+**Changelog update requirements:**
+When creating a new major research section or adding multiple significant entries to the Research knowledge base, update `content/research/changelog.md` with a timestamped summary. This includes:
+- **New topic area launch:** Add a line noting the section creation and the names of initial entries (e.g., "Created quantum-computing section with three initial entries: ionq.md, quantinuum.md, xanadu.md")
+- **Individual entry creation:** Add one-line summaries of each new entry (no more than 2–3 lines per entry; focus on the most notable elements: company mission, key claims, funding, or regulatory status)
+- **Major revisions to existing entries:** Log significant rewrites, major claim updates, or new verifications only if they constitute a meaningful change to the entry's standing
+- **Topic area landing page updates:** Log structural changes to `_index.md` (new tables, supply chain sections, steering instructions) only if substantive
+
+Do not log: minor updates, small copy fixes, link repairs, or routine fact-checking without new claims. The changelog should give a reader a sense of what is new or significantly changed in the knowledge base week-to-week.
 
 ---
 
@@ -497,10 +506,24 @@ When a company operates at multiple layers (e.g., DJI makes its own motors AND s
 
 ---
 
-{{< /steering >}}
+### Main Research Page — Topic Area Listing
+
+The main Research page (`content/research/_index.md`) contains a bulleted list of all topic areas, **sorted alphabetically**. This list is automatically generated / manually maintained. When a new topic area is created:
+
+1. Add a new directory under `content/research/` (e.g., `content/research/new-topic/`)
+2. Create `content/research/new-topic/_index.md` with full steering and metadata (see template above)
+3. Add the new topic to the main Research page list in alphabetical order
+
+**Format for main page topic listing:**
+
+The actual topic listing appears below the closing shortcode, under the `## Topic Areas` heading. Maintain it in strict alphabetical order by topic name. Update it whenever a topic area is added or renamed.
+
+{{</steering>}}
 
 # Research
 
 A living, AI-maintained knowledge base on emerging technology topics. Each area collects structured profiles of technologies, companies, and people driving change.
+
+---
 
 **[📋 View Changelog]({{< relref "changelog.md" >}})** — Track recent additions and updates to the knowledge base.

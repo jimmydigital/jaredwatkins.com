@@ -1,12 +1,13 @@
 ---
 title: "Anduril Industries"
 date: 2026-03-25
-lastmod: 2026-03-26
+lastmod: 2026-04-05
 draft: false
 description: "Costa Mesa, CA defense technology prime (private, ~$28–30B valuation, Series G); Lattice OS autonomous C2 software platform; Menace-T/X rugged edge C4 systems built on Klas Voyager compute; $20B US Army Lattice enterprise contract (March 2026, 10-year term); Golden Dome missile defense software (with Palantir); ExoAnalytic Solutions acquisition (March 2026); ~$6.84B total funding."
 tags: ["rugged", "edge-compute", "ai-inference", "defense", "us", "private", "autonomous-systems", "c2"]
 categories: ["company"]
 research_area: "datacenters/rugged-edge-compute"
+canonical: true
 source_urls:
   - "https://www.anduril.com/"
   - "https://www.anduril.com/article/army-lattice-enterprise-contract/"
@@ -142,6 +143,10 @@ Anduril is structurally different from every other company in this section. Merc
 - Multiple defense technology publications confirmed the ExoAnalytic Solutions acquisition in March 2026; ExoAnalytic operates a commercial network of optical telescopes for satellite tracking
 
 **Summary:** Acquisition confirmed; strategic logic is coherent — ExoAnalytic's satellite tracking data integrates with Lattice's multi-domain sensor fusion architecture, extending Lattice's common operating picture from ground/air domains to space.
+
+## Related Research
+
+- [Anduril — Autonomous Systems (Drones & CUAS)]({{< relref "/research/robotics/aerial-drones/anduril.md" >}}) — Fury YFQ-44A CCA, Roadrunner, Altius, Anvil CUAS stack, Ghost Shark XL-AUV, Arsenal-1 manufacturing
 
 ## Sources
 

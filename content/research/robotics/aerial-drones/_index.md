@@ -35,6 +35,7 @@ The commercial drone industry is dominated by a single vertically integrated Chi
 | Company | HQ | Stage | Mission |
 |---------|-----|-------|---------|
 | [Skydio](https://skydio.com) | San Mateo, CA, USA | Late Private (~$340M raised) | AI-powered autonomous drones; onboard NVIDIA Jetson vision stack; US government and defense focus; Blue UAS listed. |
+| [Anduril Industries](https://anduril.com) | Costa Mesa, CA, USA | Late Private (~$28–30B valuation) | Multi-domain autonomous systems prime; Fury YFQ-44A CCA (in production March 2026); Roadrunner reusable interceptor; Altius loitering munitions; Anvil/Pulsar CUAS stack; Ghost Shark XL-AUV; all unified under Lattice OS. |
 | [Shield AI](https://shield.ai) | San Diego, CA, USA | Late Private (~$2.7B valuation, 2023) | Autonomous AI pilot software (Hivemind); V-BAT VTOL UAS; DoD programs including US Air Force and Navy. |
 | [Zipline](https://flyzipline.com) | South San Francisco, CA, USA | Late Private (~$4.2B valuation) | Fixed-wing autonomous delivery drones; medical and commercial cargo; Walmart partnership in US; operations in Rwanda, Ghana, Japan. |
 | [Wingcopter](https://wingcopter.com) | Darmstadt, Germany | Series B | VTOL fixed-wing hybrid for medical and commercial cargo delivery; tilt-rotor design for wind resistance. |
