@@ -34,14 +34,14 @@ The shift from air to liquid cooling is the defining infrastructure transition o
 
 | Company | HQ | Stage | Mission |
 |---------|-----|-------|---------|
-| [Submer](https://submer.com) | Barcelona, Spain | Series B | Single-phase immersion cooling tanks and SmartCoolant fluid; ADA autonomous robot for immersion tank servicing; deployed at HPC and AI facilities globally. |
+| [Submer]({{< relref "submer.md" >}}) | Barcelona, Spain | Series B | Single-phase immersion cooling tanks and SmartCoolant fluid; ADA autonomous robot for immersion tank servicing; deployed at HPC and AI facilities globally. |
 | [LiquidStack](https://liquidstack.com) | Dallas, TX, USA | Series B | Two-phase immersion cooling (liquid boils, vapor condenses, no pump required for fluid circulation); acquired from Allied Control (formerly HKUST spinout). |
 | [Iceotope](https://www.iceotope.com) | Sheffield, UK | Series B | Chassis-level precision immersion cooling ("liquid-blanketed" approach — fluid circulates around individual servers without full tank immersion). |
 | [GRC (Green Revolution Cooling)](https://www.grcooling.com) | Austin, TX, USA | Growth | Single-phase immersion (CarnotJet system); pioneered immersion at scale; long deployment history at HPC and crypto mining facilities. |
 | [CoolIT Systems](https://www.coolitsystems.com) | Calgary, Canada | Growth | Direct-to-chip liquid cooling; Rack DCLC system; OEM partnerships with Dell, Lenovo, HPE; widely deployed in HPC. |
 | [Asetek](https://www.asetek.com) | Aalborg, Denmark | Public (Oslo: ASTK) | Liquid cooling systems for HPC and enterprise; rack CDU and direct-to-chip cold plates; significant OEM server partnerships. |
 | [Engineered Fluids](https://www.engineeredfluids.com) | Minneapolis, MN, USA | Growth | BitCool and ElectroCool dielectric fluids for single-phase immersion; positioned as alternative to discontinued 3M Novec products. |
-| [Corintis](https://www.corintis.com) | Lausanne, Switzerland | Series A | Microfluidic chip-scale cooling: AI-optimized microscopic channels etched into chip metal route coolant directly to thermal hotspots; 3x heat removal vs. standard cold plates (Microsoft-tested); EPFL POWERlab spinout. |
+| [Corintis]({{< relref "corintis.md" >}}) | Lausanne, Switzerland | Series A | Microfluidic chip-scale cooling: AI-optimized microscopic channels etched into chip metal route coolant directly to thermal hotspots; 3x heat removal vs. standard cold plates (Microsoft-tested); EPFL POWERlab spinout. |
 
 ### Public Companies
 
@@ -105,6 +105,6 @@ The shift from air to liquid cooling is the defining infrastructure transition o
 
 **PUE reality check:** Data center operators frequently quote design PUE rather than measured operational PUE. Liquid cooling achieves genuinely low PUE (1.02–1.10 in practice), but the benefit is only real if the facility-side cooling infrastructure (chillers, cooling towers, dry coolers) is also efficient. A liquid-cooled IT load connected to an inefficient chiller plant can have worse PUE than a well-designed air-cooled facility with economizer. Verify PUE claims by asking for annualized measured figures, not design targets.
 
-**⚑ Shared challenge — robot servicing incompatibility:** Standard single-phase immersion tanks (Submer SmartPod, GRC CarnotJet) require servers to be lifted vertically out of fluid — a fundamentally different motion than horizontal rack-slide operations. This incompatibility with conventional robot-servicing approaches (which assume rack-slide) is the core design problem that Submer's ADA robot and SoftBank's cable-less rack design address from different angles. See `robotics-automation/_index.md` and `robotics-automation/softbank-robot-rack.md`.
+**⚑ Shared challenge — robot servicing incompatibility:** Standard single-phase immersion tanks (Submer SmartPod, GRC CarnotJet) require servers to be lifted vertically out of fluid — a fundamentally different motion than horizontal rack-slide operations. This incompatibility with conventional robot-servicing approaches (which assume rack-slide) is the core design problem that Submer's ADA robot and SoftBank's cable-less rack design address from different angles. See [Robotics & Automation]({{< relref "/research/datacenters/robotics-automation/_index.md" >}}) and [SoftBank Robot Rack]({{< relref "/research/datacenters/robotics-automation/softbank-robot-rack.md" >}}).
 
 ### Supply Chain — Last Reviewed: 2026-03-24

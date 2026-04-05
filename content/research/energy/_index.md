@@ -32,21 +32,21 @@ Tracks breakthrough technologies and key players in the energy transition — wi
 
 | Company | HQ | Stage | Mission |
 |---------|-----|-------|---------|
-| [Factorial Energy](https://factorialenergy.com) | Cambridge, MA, USA | Pre-IPO | Semi-solid FEST® electrolyte; 375 Wh/kg validated cells in Stellantis partnership; JDAs with Mercedes-Benz, Hyundai, Kia. |
-| [Donut Lab](https://donutlab.com) | Estonia (Finnish roots) | Private | Solid-state battery startup; cells in production Verge Motorcycles; 400 Wh/kg and 100k-cycle claims unverified. |
+| [Factorial Energy]({{< relref "batteries/factorial-energy.md" >}}) | Cambridge, MA, USA | Pre-IPO | Semi-solid FEST® electrolyte; 375 Wh/kg validated cells in Stellantis partnership; JDAs with Mercedes-Benz, Hyundai, Kia. |
+| [Donut Lab]({{< relref "batteries/donut-lab.md" >}}) | Estonia (Finnish roots) | Private | Solid-state battery startup; cells in production Verge Motorcycles; 400 Wh/kg and 100k-cycle claims unverified. |
 | [Nordic Nano](https://nordicnano.fi) | Finland | Private | Manufacturing partner for Donut Lab; amorphous titanium dioxide nanostructure-based cells. |
-| [ProLogium Technology](https://prologium.com) | Taiwan | Pre-IPO | Oxide solid-state cells; gigafactory planned in Dunkirk, France (2028); Mitsubishi Chemical Group partner. |
-| [Adden Energy](https://addenenergy.com) | Cambridge, MA, USA | Seed/Early | Harvard spinout; thin-film solid-state batteries; sub-3-min charge at cell level; $20M raised. |
-| [Lyten](https://lyten.com) | San Jose, CA, USA | Series B+ | Lithium-sulfur with 3D graphene; claims 3× energy density vs Li-ion; $367M+ raised. |
-| [Verge Motorcycles](https://vergemotorcycles.com) | Finland | Private | Electric motorcycle OEM; launch platform for Donut Lab solid-state cells. |
-| [Idemitsu Kosan](https://www.idemitsu.com/en/) | Japan | Private (subsidiary) | ¥21.3B investment in lithium sulfide production; primary electrolyte supplier for Toyota solid-state program. |
+| [ProLogium Technology]({{< relref "batteries/prologium.md" >}}) | Taiwan | Pre-IPO | Oxide solid-state cells; gigafactory planned in Dunkirk, France (2028); Mitsubishi Chemical Group partner. |
+| [Adden Energy]({{< relref "batteries/adden-energy.md" >}}) | Cambridge, MA, USA | Seed/Early | Harvard spinout; thin-film solid-state batteries; sub-3-min charge at cell level; $20M raised. |
+| [Lyten]({{< relref "batteries/lyten.md" >}}) | San Jose, CA, USA | Series B+ | Lithium-sulfur with 3D graphene; claims 3× energy density vs Li-ion; $367M+ raised. |
+| [Verge Motorcycles]({{< relref "batteries/verge-motorcycles.md" >}}) | Finland | Private | Electric motorcycle OEM; launch platform for Donut Lab solid-state cells. |
+| [Idemitsu Kosan]({{< relref "batteries/idemitsu-solid-state.md" >}}) | Japan | Private (subsidiary) | ¥21.3B investment in lithium sulfide production; primary electrolyte supplier for Toyota solid-state program. |
 
 ### Public Companies
 
 | Ticker | Company | Mission |
 |--------|---------|---------|
-| [QS](https://finance.yahoo.com/quote/QS) | [QuantumScape](https://www.quantumscape.com) | Solid-state lithium-metal cell developer; sulfide-based ceramic separator; shipping B-samples to auto OEMs. |
-| [SLDP](https://finance.yahoo.com/quote/SLDP) | [Solid Power](https://www.solidpowerbattery.com) | All-solid-state lithium battery developer; roll-to-roll production; BMW validation partner. |
+| [QS](https://finance.yahoo.com/quote/QS) | [QuantumScape]({{< relref "batteries/quantumscape.md" >}}) | Solid-state lithium-metal cell developer; sulfide-based ceramic separator; shipping B-samples to auto OEMs. |
+| [SLDP](https://finance.yahoo.com/quote/SLDP) | [Solid Power]({{< relref "batteries/solid-power.md" >}}) | All-solid-state lithium battery developer; roll-to-roll production; BMW validation partner. |
 
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container" style="margin: 20px 0;">

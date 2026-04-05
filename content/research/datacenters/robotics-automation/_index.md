@@ -24,8 +24,8 @@ The datacenter automation thesis is straightforward: labor costs are rising, tec
 - Two competing automation philosophies: redesign infrastructure for robots vs. build robots for existing infrastructure
 - Blind-mate connectivity (optical, power, cooling) as the enabling component layer — eliminates cable alignment requirement that defeats robot arms
 - Immersion cooling introduces a vertical-lift servicing paradigm incompatible with conventional rack-slide robot designs
-- SoftBank's cable-less rack (December 2025) as the most commercially concrete example of infrastructure-first automation design
-- Submer's ADA (2021 concept, 2025 commercial target) as the first purpose-built robot for immersion tank servicing
+- [SoftBank's cable-less rack]({{< relref "softbank-robot-rack.md" >}}) (December 2025) as the most commercially concrete example of infrastructure-first automation design
+- [Submer's ADA]({{< relref "submer-ada.md" >}}) (2021 concept, 2025 commercial target) as the first purpose-built robot for immersion tank servicing
 - DCIM and BMS automation (software layer) is mature; physical robot automation of server hardware is still early commercial stage
 - Labor cost of datacenter maintenance estimated at "hundreds of millions of yen annually" for a single large operator (SoftBank)
 
@@ -35,7 +35,7 @@ The datacenter automation thesis is straightforward: labor costs are rising, tec
 
 | Company | HQ | Stage | Mission |
 |---------|-----|-------|---------|
-| [Submer](https://submer.com) | Barcelona, Spain | Series B | Immersion cooling company developing ADA robot for automated server installation and removal from immersion tanks; robot-native immersion cooling design. |
+| [Submer]({{< relref "/research/datacenters/cooling/submer.md" >}}) | Barcelona, Spain | Series B | Immersion cooling company developing ADA robot for automated server installation and removal from immersion tanks; robot-native immersion cooling design. |
 | [SENKO Advanced Components](https://www.senko.com) | Marlboro, MA, USA (Japan parent) | Private | Blind-mate optical connectors enabling robot-serviced server racks; selected by SoftBank for its cable-less server rack program. |
 
 ### Incumbents
@@ -76,6 +76,6 @@ Robot servicing of datacenters requires concurrent innovation across four layers
 
 **The connector bottleneck:** Blind-mate optical connectors capable of the reliability and insertion cycle life required for robot-repeated connection/disconnection are technically challenging. Standard MPO/MTP connectors are designed for occasional human connection, not thousands of robot-insertion cycles. Senko's technology specifically addresses this — the company is a rare specialist. SENKO is a Japanese company (headquartered in Tokyo, US operations in Marlboro, MA) with deep fiber optic connectivity expertise; its selection by SoftBank is a significant commercial validation.
 
-**Immersion servicing challenge:** Robot-servicing of immersion-cooled servers requires vertical lift from a fluid bath — fundamentally different from the horizontal rack-slide motion that robot-friendly rack designs (like SoftBank's) assume. These are two separate problem spaces. Submer's ADA addresses the immersion case specifically; it is not designed for air-cooled or direct-to-chip racks.
+**Immersion servicing challenge:** Robot-servicing of immersion-cooled servers requires vertical lift from a fluid bath — fundamentally different from the horizontal rack-slide motion that robot-friendly rack designs (like [SoftBank's]({{< relref "softbank-robot-rack.md" >}})) assume. These are two separate problem spaces. [Submer's ADA]({{< relref "submer-ada.md" >}}) addresses the immersion case specifically; it is not designed for air-cooled or direct-to-chip racks.
 
 ### Supply Chain — Last Reviewed: 2026-03-24

@@ -20,7 +20,7 @@ related:
 
 ## Summary
 
-ADA (Autonomous Datacenter Assistant) is Submer's robotic platform for automating server installation and removal inside single-phase immersion cooling tanks. Submer revealed ADA at OCP Summit in October 2021; commercial availability was targeted for around Q3 2025. ADA directly addresses the key operational friction of immersion-cooled datacenters: unlike traditional air-cooled racks where servers slide in horizontally, immersion tank servers must be lifted out vertically — a physically demanding task that requires PPE (to handle dielectric fluid) and, at scale, some form of mechanical lifting assistance. ADA replaces the crane or manual jig currently used for this with an autonomous robotic system that can also perform environmental monitoring, commissioning, and decommissioning. ADA represents the "build robots for existing infrastructure" philosophy — robots adapted to the physical realities of tanks — as distinct from SoftBank's approach of redesigning the infrastructure for robots (see `softbank-robot-rack.md`). The two approaches are not directly competitive since they target different cooling architectures.
+ADA (Autonomous Datacenter Assistant) is Submer's robotic platform for automating server installation and removal inside single-phase immersion cooling tanks. Submer revealed ADA at OCP Summit in October 2021; commercial availability was targeted for around Q3 2025. ADA directly addresses the key operational friction of immersion-cooled datacenters: unlike traditional air-cooled racks where servers slide in horizontally, immersion tank servers must be lifted out vertically — a physically demanding task that requires PPE (to handle dielectric fluid) and, at scale, some form of mechanical lifting assistance. ADA replaces the crane or manual jig currently used for this with an autonomous robotic system that can also perform environmental monitoring, commissioning, and decommissioning. ADA represents the "build robots for existing infrastructure" philosophy — robots adapted to the physical realities of tanks — as distinct from SoftBank's approach of redesigning the infrastructure for robots (see [SoftBank Robot Rack]({{< relref "softbank-robot-rack.md" >}})). The two approaches are not directly competitive since they target different cooling architectures.
 
 ## Key Facts
 
@@ -62,7 +62,7 @@ ADA was developed through Submer Labs, Submer's internal R&D program, which the 
 
 ## Key People
 
-No individuals specifically associated with ADA's engineering or product development have been named publicly. Product development sits within the Submer Labs R&D unit. See `submer.md` for Submer's company leadership including CEO Patrick Smets and co-founders Daniel Pope and Pol Valls Soler.
+No individuals specifically associated with ADA's engineering or product development have been named publicly. Product development sits within the Submer Labs R&D unit. See [Submer Technologies]({{< relref "/research/datacenters/cooling/submer.md" >}}) for Submer's company leadership including CEO Patrick Smets and co-founders Daniel Pope and Pol Valls Soler.
 
 ### People — Last Reviewed: 2026-03-24
 
@@ -70,7 +70,7 @@ No individuals specifically associated with ADA's engineering or product develop
 
 ADA is a finished robotic product from Submer. Its upstream components (robotic arms, actuators, sensors, computer vision hardware) are not disclosed. As a pre-commercial product, supply chain details are not yet meaningful to document.
 
-**⚑ Immersion vs. robot-servicing design incompatibility:** ADA is Submer's own solution to the immersion tank servicing problem — the same design tension flagged in `cooling/_index.md`. SoftBank-style cable-less rack designs solve the robot servicing problem at the cost of immersion cooling advantages. ADA attempts to solve the robot servicing problem while preserving immersion cooling. These two approaches will likely coexist in different deployment contexts: ADA for ultra-high-density AI compute (where immersion is thermodynamically necessary), cable-less racks for moderate density workloads where air or direct-to-chip cooling is sufficient.
+**⚑ Immersion vs. robot-servicing design incompatibility:** ADA is Submer's own solution to the immersion tank servicing problem — the same design tension flagged in [Datacenter Cooling]({{< relref "/research/datacenters/cooling/_index.md" >}}). SoftBank-style cable-less rack designs solve the robot servicing problem at the cost of immersion cooling advantages. ADA attempts to solve the robot servicing problem while preserving immersion cooling. These two approaches will likely coexist in different deployment contexts: ADA for ultra-high-density AI compute (where immersion is thermodynamically necessary), cable-less racks for moderate density workloads where air or direct-to-chip cooling is sufficient.
 
 ## Claim Verification
 

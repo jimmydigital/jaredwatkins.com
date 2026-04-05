@@ -21,7 +21,7 @@ related:
 
 ## Summary
 
-SoftBank Corp. announced its "robot-friendly" cable-less server rack in September 2025 — the most commercially concrete realization to date of the infrastructure-first automation philosophy for datacenters. The design eliminates all traditional cable connections from the server-to-rack interface: power, networking, and liquid cooling are all delivered through blind-mate connectors that self-align and engage automatically when a server is pushed into position. A robot can install or replace a server with a single push/pull motion, with no cable manipulation required. The rack conforms to OCP ORV3 specifications and accommodates standard 19-inch servers. Real-world testing began at SoftBank facilities in late 2025; deployment at the Hokkaido Tomakomai AI Data Center is planned for FY2026 (fiscal year ending March 2027). SENKO Advanced Components supplies the blind-mate optical connectors — see `senko.md`.
+SoftBank Corp. announced its "robot-friendly" cable-less server rack in September 2025 — the most commercially concrete realization to date of the infrastructure-first automation philosophy for datacenters. The design eliminates all traditional cable connections from the server-to-rack interface: power, networking, and liquid cooling are all delivered through blind-mate connectors that self-align and engage automatically when a server is pushed into position. A robot can install or replace a server with a single push/pull motion, with no cable manipulation required. The rack conforms to OCP ORV3 specifications and accommodates standard 19-inch servers. Real-world testing began at SoftBank facilities in late 2025; deployment at the Hokkaido Tomakomai AI Data Center is planned for FY2026 (fiscal year ending March 2027). SENKO Advanced Components supplies the blind-mate optical connectors — see [SENKO Advanced Components]({{< relref "senko.md" >}}).
 
 ## Key Facts
 
@@ -77,7 +77,7 @@ This design sits at the **Rack & Connectivity Infrastructure** layer. Key upstre
 
 SoftBank's rack design is currently proprietary. If adopted into OCP open hardware standards (a stated goal), the component ecosystem would expand significantly as other manufacturers develop compatible alternatives to SENKO's connectors and the unnamed bus bar and coupling suppliers.
 
-**⚑ Strategic chokepoint — SENKO connector:** SENKO is the only named component supplier and the most technically differentiated element. Its selection validates the company as a critical single-source supplier for this category. No direct Western competitor has been publicly identified as offering equivalent blind-mate optical connector specifications for robot-repeated insertion cycles. See `senko.md`.
+**⚑ Strategic chokepoint — SENKO connector:** SENKO is the only named component supplier and the most technically differentiated element. Its selection validates the company as a critical single-source supplier for this category. No direct Western competitor has been publicly identified as offering equivalent blind-mate optical connector specifications for robot-repeated insertion cycles. See [SENKO Advanced Components]({{< relref "senko.md" >}}).
 
 ## Claim Verification
 

@@ -1,7 +1,7 @@
 ---
 title: Solar energy stored in a fluid medium for long term seasonal use.
 date: 2026-03-19
-draft: false
+draft: true
 description: Recapping a few recent developments in solar energy production.
 categories:
   - Energy

@@ -31,9 +31,3 @@ Tracks the infrastructure frontier of AI-driven datacenter construction and oper
 ## Companies
 
 For full company tables by subsection, see [Cooling](./cooling/), [Design & Construction](./design-construction/), [Power Infrastructure](./power-infrastructure/), and [Robotics & Automation](./robotics-automation/).
-
-### Startups & Development Partners
-
-| Company | HQ | Stage | Mission |
-|---------|-----|-------|---------|
-| [Corintis](https://www.corintis.com) | Lausanne, Switzerland | Series A | Microfluidic chip-scale cooling: AI-optimized microscopic channels etched into chip metal route coolant directly to thermal hotspots; 3x heat removal vs. standard cold plates (Microsoft-tested); EPFL POWERlab spinout. |

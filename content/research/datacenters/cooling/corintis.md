@@ -97,7 +97,7 @@ The technology builds on academic foundations established at IBM Zurich beginnin
 ### Geoff Lyon — Board Member
 - **LinkedIn:** not found via public search
 - Founder and former CEO of CoolIT Systems (Calgary, Canada — direct-to-chip liquid cooling; also documented in the Research section).
-- **⚑ Overlap:** Geoff Lyon is the founder of [CoolIT Systems](https://www.coolitsystems.com), which appears in the Datacenter Cooling companies table in `content/research/datacenters/cooling/_index.md`. His board membership at Corintis represents a direct link between these two documented cooling companies.
+- **⚑ Overlap:** Geoff Lyon is the founder of [CoolIT Systems](https://www.coolitsystems.com), which appears in the [Datacenter Cooling]({{< relref "/research/datacenters/cooling/_index.md" >}}) companies table. His board membership at Corintis represents a direct link between these two documented cooling companies.
 
 ### People — Last Reviewed: 2026-04-03
 
