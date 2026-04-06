@@ -178,6 +178,6 @@ Tracks the development of quantum computing hardware, software, and the race tow
 
 | Ticker | Company | Relevance |
 |--------|---------|-----------|
-| [IBM](https://finance.yahoo.com/quote/IBM) | [IBM Quantum](https://www.ibm.com/quantum) | Largest publicly accessible quantum fleet; Eagle/Heron QPUs; 2033 fault-tolerant roadmap. |
+| [IBM](https://finance.yahoo.com/quote/IBM) | [IBM Quantum](https://www.ibm.com/quantum) | Largest publicly accessible quantum fleet; superconducting QPUs (Eagle, Heron, Nighthawk, Loon); qLDPC error correction research; 2029 Starling and 2033 Blue Jay fault-tolerant roadmap. See [entry]({{< relref "ibm-quantum.md" >}}). |
 | [MSFT](https://finance.yahoo.com/quote/MSFT) | [Microsoft Azure Quantum](https://azure.microsoft.com/en-us/products/quantum) | Topological qubit research (majorana); Azure Quantum cloud platform; claims disputed. |
 | [GOOGL](https://finance.yahoo.com/quote/GOOGL) | [Google Quantum AI](https://quantumai.google) | Sycamore/Willow superconducting processors; 2019 and 2024 supremacy claims; Brisbanefablab. |

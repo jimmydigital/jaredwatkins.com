@@ -29,6 +29,7 @@ Each entry is a one-line timestamped summary.
 
 ## Changelog
 
+- **2026-04-06:** Created `quantum-computing/ibm-quantum.md` — IBM Quantum superconducting QPU hardware, qLDPC error correction progress, 2029/2033 FTQC roadmap, Qiskit cloud platform, claim verification.
 - **2026-04-05:** Created quantum-computing section with three initial company entries: `quantum-computing/ionq.md`, `quantum-computing/quantinuum.md`, `quantum-computing/xanadu.md`
 - **2026-04-05:** Created `quantum-computing/xanadu.md` — full Xanadu entry covering photonic quantum computing modality, Borealis GBS quantum advantage claim (Nature 2022, peer-reviewed, unverified independent replication), Aurora 12-qubit modular system, fault-tolerant roadmap targeting 2028–2029, PennyLane open-source SDK adoption across hardware platforms, $250M+ funding with March 2026 IPO (XNDU Nasdaq/TSX), Christian Weedbrook leadership, DISCO silicon-photonics partnership, and comprehensive claim verification section addressing Borealis classical simulation feasibility and roadmap credibility.
 - **2026-04-05:** Updated `quantum-computing/_index.md` Startups & Development Partners row for Xanadu to reflect public status (XNDU, Mar 2026 IPO) and Aurora system; added Xanadu to Public Companies table with link to new entry.

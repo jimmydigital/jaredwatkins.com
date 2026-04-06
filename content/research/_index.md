@@ -179,6 +179,8 @@ When creating a new major research section or adding multiple significant entrie
 
 Do not log: minor updates, small copy fixes, link repairs, or routine fact-checking without new claims. The changelog should give a reader a sense of what is new or significantly changed in the knowledge base week-to-week.
 
+**Format rule — strictly one line per entry, no exceptions.** Each entry must be a single bullet: `- **YYYY-MM-DD:** [filename] — [subject, key claims or milestones, 1–2 notable details].` Do not use sub-bullets, continuation lines, parenthetical lists, or multi-clause run-ons. If you cannot fit the summary in one line, cut details — the entry file is the authoritative record.
+
 ---
 
 ### Tagging & Cross-Linking
