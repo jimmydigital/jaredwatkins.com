@@ -173,15 +173,23 @@ Section landing pages (`_index.md`) contain only `## Overview` and optionally `#
 - Add new source URLs; don't remove old ones unless dead and unarchivable.
 
 **Changelog update requirements:**
-When creating a new major research section or adding multiple significant entries to the Research knowledge base, update `content/research/changelog.md` with a timestamped summary. This includes:
-- **New topic area launch:** Add a line noting the section creation and the names of initial entries (e.g., "Created quantum-computing section with three initial entries: ionq.md, quantinuum.md, xanadu.md")
-- **Individual entry creation:** Add one-line summaries of each new entry (no more than 2–3 lines per entry; focus on the most notable elements: company mission, key claims, funding, or regulatory status)
-- **Major revisions to existing entries:** Log significant rewrites, major claim updates, or new verifications only if they constitute a meaningful change to the entry's standing
-- **Topic area landing page updates:** Log structural changes to `_index.md` (new tables, supply chain sections, steering instructions) only if substantive
+When creating a new major research section or adding multiple significant entries to the Research knowledge base, update `content/research/changelog.md`. Log: new section/entry creation, major rewrites, significant claim corrections, or structural `_index.md` changes. Do not log: minor edits, formatting fixes, link repairs, or routine fact-checking.
 
-Do not log: minor updates, small copy fixes, link repairs, or routine fact-checking without new claims. The changelog should give a reader a sense of what is new or significantly changed in the knowledge base week-to-week.
+**Format rule — one line per entry, no exceptions.**
 
-**Format rule — strictly one line per entry, no exceptions.** Each entry must be a single bullet: `- **YYYY-MM-DD:** [filename] — [subject, key claims or milestones, 1–2 notable details].` Do not use sub-bullets, continuation lines, parenthetical lists, or multi-clause run-ons. If you cannot fit the summary in one line, cut details — the entry file is the authoritative record.
+Each entry is a single markdown bullet on a single line:
+`- **YYYY-MM-DD:** Created/Updated [Page Title]({{</* relref "path/to/page.md" */>}}) — [subject, 2–3 key facts max].`
+
+Rules:
+- Link page names using Hugo relrefs — never use bare filenames or file paths as the reference text.
+- The bullet must fit on one line. Period.
+- No semicolon-separated lists of every detail. Pick the 2–3 most important facts and stop.
+- No sub-bullets, continuation lines, or parenthetical elaborations.
+- The entry file is the authoritative record — the changelog is just a navigable pointer, not a summary.
+- If you feel the urge to add more detail, don't. Cut it instead.
+
+Good example: `- **2026-04-05:** Created [IonQ]({{</* relref "quantum-computing/ionq.md" */>}}) — trapped-ion QPU; FY2025 revenue from SEC filings; all-founder departures noted.`
+Bad example (bare filename, too long — do not do this): `- **2026-04-05:** Created \`quantum-computing/ionq.md\` — full IonQ entry covering Forte/Tempo hardware specs, #AQ metric criticism, roadmap with milestone status, FY2024/2025 revenue from SEC filings, Wolfpack Research bookings dispute, Forte vs. Quantinuum Helios comparison, Skyloom/SkyWater acquisitions, all-founder departures, and multi-section claim verification with peer review status.`
 
 ---
 
