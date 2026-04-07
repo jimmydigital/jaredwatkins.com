@@ -131,7 +131,7 @@ Tracks the development of quantum computing hardware, software, and the race tow
 
 | Company | HQ | Stage | Mission |
 |---------|-----|-------|---------|
-| [Rigetti Computing](https://www.rigetti.com) | Berkeley, CA, USA | Public (RGTI) | Superconducting gate-based QPUs; cloud access via QCS platform; Fab-1 in-house fabrication. |
+| [Rigetti Computing](https://www.rigetti.com) | Berkeley, CA, USA | Public (RGTI) | Superconducting gate-based QPUs; Ankaa-3 (84 qubits, 99.5% median 2Q fidelity, company claim); Fab-1 in-house foundry (Fremont CA); cloud access via QCS, AWS Braket, Azure Quantum; financially stressed (revenue declining, $10.8M FY2024). See [entry]({{< relref "rigetti.md" >}}). |
 | [Xanadu](https://www.xanadu.ai) | Toronto, Canada | Public (XNDU, Nasdaq/TSX; IPO Mar 2026) | Photonic quantum computing; Borealis quantum advantage system; PennyLane open-source SDK; developing Aurora modular fault-tolerant platform; targeting 2028–2029 fault-tolerant data center. See [entry]({{< relref "xanadu.md" >}}). |
 | [PsiQuantum](https://www.psiquantum.com) | Palo Alto, CA, USA | Private (~$7B val.; $2.32B raised) | Silicon photonics fault-tolerant approach (FBQC); Omega chipset manufactured at GlobalFoundries Fab 8; A$940M AUD Australian government deal; $1B Series E (Sept 2025); Chicago site under construction; no operational quantum processor publicly demonstrated as of April 2026; DARPA QBI US2QC final phase selected (Feb 2025). See [entry]({{< relref "psiquantum.md" >}}). |
 | [Quantinuum](https://www.quantinuum.com) | Broomfield, CO, USA + Cambridge, UK | Private (~54% Honeywell; IPO targeted 2027) | Trapped-ion hardware (H1, H2, Helios 98-qubit); highest two-qubit gate fidelity publicly demonstrated (99.921% on Helios); TKET open-source compiler; InQuanto chemistry; advanced fault-tolerant research. See [entry]({{< relref "quantinuum.md" >}}). |
@@ -147,7 +147,7 @@ Tracks the development of quantum computing hardware, software, and the race tow
 | [IONQ](https://finance.yahoo.com/quote/IONQ) | [IonQ](https://ionq.com) | Trapped-ion quantum computing hardware and cloud access; Forte (#AQ 36) and Tempo (#AQ 64) systems; pending SkyWater foundry acquisition. See [entry]({{< relref "ionq.md" >}}). |
 | [SKYT](https://finance.yahoo.com/quote/SKYT) | [SkyWater Technology](https://www.skywatertechnology.com) | U.S. pure-play semiconductor foundry; DOD Trusted Foundry; quantum chip fabrication (superconducting, photonic, cryogenic CMOS); pending IonQ acquisition. See [entry]({{< relref "skywater-technology.md" >}}). |
 | [QBTS](https://finance.yahoo.com/quote/QBTS) | [D-Wave Quantum](https://www.dwavesys.com) | Quantum annealing systems and hybrid classical-quantum solvers. |
-| [RGTI](https://finance.yahoo.com/quote/RGTI) | [Rigetti Computing](https://www.rigetti.com) | Superconducting QPU fabrication and cloud-based quantum computing services. |
+| [RGTI](https://finance.yahoo.com/quote/RGTI) | [Rigetti Computing](https://www.rigetti.com) | Superconducting gate-based QPUs manufactured at Fab-1 (Fremont, CA); Ankaa-3 84-qubit system (99.5% median 2Q fidelity, company claim); cloud access via QCS, AWS Braket, Azure Quantum; FY2024 revenue $10.8M (declining); $217M cash (Dec 2024); DARPA QBI Stage A (not Stage B). See [entry]({{< relref "rigetti.md" >}}). |
 
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container" style="margin: 20px 0;">
