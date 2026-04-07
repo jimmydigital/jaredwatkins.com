@@ -1,7 +1,7 @@
 ---
 title: "IonQ"
 date: 2026-04-05
-lastmod: 2026-04-05
+lastmod: 2026-04-07
 draft: false
 description: "Publicly traded trapped-ion quantum computing company; produces Forte and Tempo systems; uses ytterbium ions as qubits; cloud access via AWS, Azure, and Google Cloud."
 tags: ["quantum-computing", "trapped-ion", "nisq", "us", "cloud-access"]
@@ -283,7 +283,7 @@ IonQ has not published a peer-reviewed claim that any of its systems have demons
 
 - **Duke University** — origin lab of both co-founders; Monroe Lab pioneered trapped-ion QC. Both Monroe and Kim have returned as faculty.
 - **Amazon Web Services** — cloud partner and equity holder ($36.7M stake as of August 2025 disclosure)
-- **SkyWater Technology** (pending acquisition) — US semiconductor foundry; IonQ's proposed fabrication partner
+- **SkyWater Technology** (pending acquisition) — US semiconductor foundry; IonQ's proposed fabrication partner. See [entry]({{< relref "skywater-technology.md" >}}).
 - **Oxford Ionics** (acquired) — UK quantum computing startup; source of 99.99% EQC gate technique
 - **Skyloom Global** (acquired January 2026) — optical communications terminals for satellite and quantum networking links
 - **Lightsynq Technologies** (acquired) — quantum memory and photonic interconnect startup

@@ -1,13 +1,13 @@
 ---
 title: Quantum Computing Research
 date: 2026-04-05
-lastmod: 2026-04-05
+lastmod: 2026-04-07
 draft: false
 description: Research on quantum computing hardware, software, and the companies and researchers building toward practical quantum advantage.
 tags: ["quantum-computing"]
 categories: ["overview"]
 research_area: "quantum-computing"
-last_reviewed: 2026-04-05
+last_reviewed: 2026-04-07
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -46,6 +46,8 @@ Unlike most research areas, the major incumbents (IBM, Google, Microsoft) are pr
 6. **Funding and valuation are not technical validation.** Quantum companies have raised billions on the strength of future promises. Large funding rounds or high valuations should be documented as business facts, not as evidence of technical progress.
 
 7. **Apply the "classical simulation" test.** If a claimed quantum computation has not been shown to be infeasible on classical hardware, it is not evidence of quantum advantage. Note whether any claimed demonstrations have been matched or exceeded by classical simulation after the fact.
+
+8. **DoD Trusted Foundry / Trusted Supplier status claims.** When companies claim or are described as holding [DoD Trusted Foundry or Trusted Supplier status](https://www.acq.osd.mil/asds/dmea/tapo/docs/tp/AccreditedSuppliers-03NOV2025.pdf), link to the official accreditation list (current as of November 3, 2025). Verify the company name appears on that list rather than relying on company self-description. This status is a real regulatory credential that affects market access and national security supply chain confidence; it is not a technical performance claim but should be verified for accuracy.
 
 ---
 
@@ -134,7 +136,8 @@ Tracks the development of quantum computing hardware, software, and the race tow
 | [PsiQuantum](https://www.psiquantum.com) | Palo Alto, CA, USA | Private (~$7B val.; $2.32B raised) | Silicon photonics fault-tolerant approach (FBQC); Omega chipset manufactured at GlobalFoundries Fab 8; A$940M AUD Australian government deal; $1B Series E (Sept 2025); Chicago site under construction; no operational quantum processor publicly demonstrated as of April 2026; DARPA QBI US2QC final phase selected (Feb 2025). See [entry]({{< relref "psiquantum.md" >}}). |
 | [Quantinuum](https://www.quantinuum.com) | Broomfield, CO, USA + Cambridge, UK | Private (~54% Honeywell; IPO targeted 2027) | Trapped-ion hardware (H1, H2, Helios 98-qubit); highest two-qubit gate fidelity publicly demonstrated (99.921% on Helios); TKET open-source compiler; InQuanto chemistry; advanced fault-tolerant research. See [entry]({{< relref "quantinuum.md" >}}). |
 | [D-Wave Systems](https://www.dwavesys.com) | Burnaby, Canada | Public (QBTS) | Quantum annealing (not gate-based); Advantage2 processor; narrowly applicable to combinatorial optimization. |
-| [IonQ](https://ionq.com) | College Park, MD, USA | Public (IONQ) | Trapped-ion gate-based systems; Forte and Forte Enterprise systems; #AQ metric contested. |
+| [IonQ](https://ionq.com) | College Park, MD, USA | Public (IONQ) | Trapped-ion gate-based systems; Forte and Forte Enterprise systems; #AQ metric contested. See [entry]({{< relref "ionq.md" >}}). |
+| [SkyWater Technology](https://www.skywatertechnology.com) | Bloomington, MN, USA | Public (SKYT; pending IonQ acquisition) | U.S. pure-play semiconductor foundry; DOD Trusted Foundry; fabricates superconducting qubits (D-Wave), photonics; pending $1.8B IonQ acquisition (expected Q2–Q3 2026). See [entry]({{< relref "skywater-technology.md" >}}). |
 
 ### Public Companies
 
@@ -142,6 +145,7 @@ Tracks the development of quantum computing hardware, software, and the race tow
 |--------|---------|---------|
 | [XNDU](https://finance.yahoo.com/quote/XNDU) | [Xanadu](https://www.xanadu.ai) | Photonic quantum computing hardware; Borealis quantum advantage system; Aurora modular fault-tolerant platform; PennyLane open-source SDK. See [entry]({{< relref "xanadu.md" >}}). |
 | [IONQ](https://finance.yahoo.com/quote/IONQ) | [IonQ](https://ionq.com) | Trapped-ion quantum computing hardware and cloud access; Forte (#AQ 36) and Tempo (#AQ 64) systems; pending SkyWater foundry acquisition. See [entry]({{< relref "ionq.md" >}}). |
+| [SKYT](https://finance.yahoo.com/quote/SKYT) | [SkyWater Technology](https://www.skywatertechnology.com) | U.S. pure-play semiconductor foundry; DOD Trusted Foundry; quantum chip fabrication (superconducting, photonic, cryogenic CMOS); pending IonQ acquisition. See [entry]({{< relref "skywater-technology.md" >}}). |
 | [QBTS](https://finance.yahoo.com/quote/QBTS) | [D-Wave Quantum](https://www.dwavesys.com) | Quantum annealing systems and hybrid classical-quantum solvers. |
 | [RGTI](https://finance.yahoo.com/quote/RGTI) | [Rigetti Computing](https://www.rigetti.com) | Superconducting QPU fabrication and cloud-based quantum computing services. |
 

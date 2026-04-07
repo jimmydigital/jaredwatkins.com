@@ -1,7 +1,9 @@
 ---
 title: Research
 date: 2026-03-23
+lastmod: 2026-04-07
 draft: false
+last_reviewed: 2026-04-07
 description: AI-maintained knowledge base on emerging technology topics.
 categories:
   - Research
@@ -330,6 +332,20 @@ Format:
 ```
 
 If no independent third-party verification exists, state that explicitly. Do not omit the section just because claims are hard to verify — absence of verification is itself notable.
+
+---
+
+### DoD Trusted Foundry and Trusted Supplier Status
+
+When any company entry claims or is described as holding [DoD Trusted Foundry or Trusted Supplier status](https://www.acq.osd.mil/asds/dmea/tapo/docs/tp/AccreditedSuppliers-03NOV2025.pdf), follow these rules:
+
+1. **Always link to the official accreditation list** — use the current [DoD TAPO Accredited Suppliers list](https://www.acq.osd.mil/asds/dmea/tapo/docs/tp/AccreditedSuppliers-03NOV2025.pdf) (last updated November 3, 2025). This is a PDF document maintained by the Defense Microelectronics Activity (DMEA) and is the authoritative source of record.
+2. **Verify the company name appears on the list** — do not rely on company self-description or press releases. Check the PDF accreditation list to confirm the company's exact name and accreditation status.
+3. **Add to source_urls** — include the official accreditation PDF in the entry's `source_urls` frontmatter list.
+4. **Link references inline** — whenever the status is mentioned in the entry text (e.g., "X holds Trusted Foundry status"), make it a hyperlink to the accreditation list so readers can verify independently.
+5. **Note the document date** — the current version is dated November 3, 2025. If the accreditation list is updated in the future (DMEA publishes updates periodically), update all references to point to the most current version and refresh entry verification.
+
+This status is a real regulatory credential affecting supply chain access and national security confidence in manufacturing security — it is not a technical performance claim, but an administrative fact that must be verified for accuracy.
 
 ---
 
