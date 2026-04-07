@@ -71,7 +71,7 @@ There is no mandatory template, but good posts generally follow this loose shape
 
 ### Writing Style Details
 
-**Sentence rhythm:** Vary it. Short punchy sentences work for emphasis. Longer sentences work for explaining something with multiple moving parts, as long as they don't lose the thread. Ellipses (`...`) are a natural conversational pause marker in this voice. Avoid em-dashes (`—`) -- they're an AI writing tell and should not appear in posts or pages. Use double hyphens (`--`), commas, or restructure the sentence instead.
+**Sentence rhythm:** Vary it. Short punchy sentences work for emphasis. Longer sentences work for explaining something with multiple moving parts, as long as they don't lose the thread. Ellipses (`...`) are a natural conversational pause marker in this voice. Avoid em-dashes (`—`) and double hyphens (`--`) entirely. Instead use commas for brief interjections, parentheses for side comments, or break into separate sentences. For ranges, use "to" instead of dashes: write "5 to 10" not "5--10" or "5–10".
 
 **Parenthetical digressions:** These are a feature, not a bug. If there's a relevant aside that would interrupt the main flow, drop it in parentheses. Don't avoid them in the name of clean prose.
 
