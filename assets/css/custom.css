@@ -146,3 +146,18 @@ a.recent-posts-more {
   display: inline-block;
   margin-top: 0.25rem;
 }
+
+/* ── Mermaid diagrams ── */
+.jw-mermaid {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+.jw-mermaid svg {
+  max-width: 100% !important;
+  height: auto;
+}
+
+/* ── Details/collapsible sections ── */
+details {
+  margin-bottom: 1.5rem;
+}
