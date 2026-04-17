@@ -9,11 +9,11 @@ categories: ["Computing and Tech"]
 
 **Picking hardware for local AI inference
 
-Everyone asks "what's the best hardware for running AI locally?" and gets a non-answer. The real problem is that local AI in 2026 is five different markets wearing the same buzzword -- and most people are arguing past each other because they're optimizing for completely different things.
+Everyone asks "what's the best hardware for running AI locally?" and gets a non-answer. The real problem is that local AI in 2026 is five different markets wearing the same buzzword and most people are arguing past each other because they're optimizing for completely different things.
 
 Here's the quick version of how I think about it:
 
-**Raw speed when the model fits:** Discrete NVIDIA GPUs win here. RTX 5090 and RTX PRO 6000 both hit 1792 GB/s -- the difference is 32GB vs 96GB of VRAM, which determines what you can load in the first place.
+**Raw speed when the model fits:** Discrete NVIDIA GPUs win here. RTX 5090 and RTX PRO 6000 both hit 1792 GB/s.  The difference is 32GB vs 96GB of VRAM, which determines what you can load in the first place.
 
 **Biggest one-box memory:** Apple Silicon. The Mac Studio M3 Ultra goes up to 512GB of unified memory (the 512GB config is reportedly hard to find right now, but the 192GB sits around $8,000). It's the only consumer-ish path to running genuine frontier-class open source models (Llama 4 Maverick, DeepSeek-V3) without going full multi-GPU server.
 

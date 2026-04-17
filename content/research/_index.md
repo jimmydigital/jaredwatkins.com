@@ -1,7 +1,7 @@
 ---
 title: Research
 date: 2026-03-23
-lastmod: 2026-04-07
+lastmod: 2026-04-15
 draft: false
 last_reviewed: 2026-04-07
 description: AI-maintained knowledge base on emerging technology topics.
@@ -553,3 +553,12 @@ A living, AI-maintained knowledge base on emerging technology topics. Each area 
 ---
 
 **[📋 View Changelog]({{< relref "changelog.md" >}})** — Track recent additions and updates to the knowledge base.
+
+## Topic Areas
+
+- [Datacenters]({{< relref "datacenters/_index.md" >}}) — Physical datacenter infrastructure: cooling, power, construction, rugged edge compute
+- [Energy]({{< relref "energy/_index.md" >}}) — Solar, batteries, nuclear, and energy resources
+- [Post-Quantum Encryption]({{< relref "post-quantum-encryption/_index.md" >}}) — NIST PQC standards adoption across networking hardware and cryptocurrency infrastructure
+- [Quantum Computing]({{< relref "quantum-computing/_index.md" >}}) — Quantum computing hardware, software, and the race toward practical quantum advantage
+- [Robotics]({{< relref "robotics/_index.md" >}}) — Robotics platforms, sensors, actuators, and autonomy software
+- [Semiconductors]({{< relref "semiconductors/_index.md" >}}) — Fabrication equipment, materials, and supply chain enabling advanced node chip manufacturing

@@ -1,13 +1,13 @@
 ---
 title: Quantum Computing Research
 date: 2026-04-05
-lastmod: 2026-04-07
+lastmod: 2026-04-14
 draft: false
 description: Research on quantum computing hardware, software, and the companies and researchers building toward practical quantum advantage.
 tags: ["quantum-computing"]
 categories: ["overview"]
 research_area: "quantum-computing"
-last_reviewed: 2026-04-07
+last_reviewed: 2026-04-14
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -135,7 +135,7 @@ Tracks the development of quantum computing hardware, software, and the race tow
 | [Xanadu](https://www.xanadu.ai) | Toronto, Canada | Public (XNDU, Nasdaq/TSX; IPO Mar 2026) | Photonic quantum computing; Borealis quantum advantage system; PennyLane open-source SDK; developing Aurora modular fault-tolerant platform; targeting 2028–2029 fault-tolerant data center. See [entry]({{< relref "xanadu.md" >}}). |
 | [PsiQuantum](https://www.psiquantum.com) | Palo Alto, CA, USA | Private (~$7B val.; $2.32B raised) | Silicon photonics fault-tolerant approach (FBQC); Omega chipset manufactured at GlobalFoundries Fab 8; A$940M AUD Australian government deal; $1B Series E (Sept 2025); Chicago site under construction; no operational quantum processor publicly demonstrated as of April 2026; DARPA QBI US2QC final phase selected (Feb 2025). See [entry]({{< relref "psiquantum.md" >}}). |
 | [Quantinuum](https://www.quantinuum.com) | Broomfield, CO, USA + Cambridge, UK | Private (~54% Honeywell; IPO targeted 2027) | Trapped-ion hardware (H1, H2, Helios 98-qubit); highest two-qubit gate fidelity publicly demonstrated (99.921% on Helios); TKET open-source compiler; InQuanto chemistry; advanced fault-tolerant research. See [entry]({{< relref "quantinuum.md" >}}). |
-| [D-Wave Systems](https://www.dwavesys.com) | Burnaby, Canada | Public (QBTS) | Quantum annealing (not gate-based); Advantage2 processor; narrowly applicable to combinatorial optimization. |
+| [D-Wave Quantum](https://www.dwavesys.com) | Burnaby, Canada | Public (QBTS) | Quantum annealing (**not gate-based**); Advantage2 (4,400+ qubits, Zephyr topology; GA Nov 2024); hybrid solvers on Leap cloud; 2025 quantum supremacy claim actively disputed; Jan 2026 acquisition of Quantum Circuits Inc. for gate-model entry. See [entry]({{< relref "d-wave.md" >}}). |
 | [IonQ](https://ionq.com) | College Park, MD, USA | Public (IONQ) | Trapped-ion gate-based systems; Forte and Forte Enterprise systems; #AQ metric contested. See [entry]({{< relref "ionq.md" >}}). |
 | [SkyWater Technology](https://www.skywatertechnology.com) | Bloomington, MN, USA | Public (SKYT; pending IonQ acquisition) | U.S. pure-play semiconductor foundry; DOD Trusted Foundry; fabricates superconducting qubits (D-Wave), photonics; pending $1.8B IonQ acquisition (expected Q2–Q3 2026). See [entry]({{< relref "skywater-technology.md" >}}). |
 
@@ -146,7 +146,7 @@ Tracks the development of quantum computing hardware, software, and the race tow
 | [XNDU](https://finance.yahoo.com/quote/XNDU) | [Xanadu](https://www.xanadu.ai) | Photonic quantum computing hardware; Borealis quantum advantage system; Aurora modular fault-tolerant platform; PennyLane open-source SDK. See [entry]({{< relref "xanadu.md" >}}). |
 | [IONQ](https://finance.yahoo.com/quote/IONQ) | [IonQ](https://ionq.com) | Trapped-ion quantum computing hardware and cloud access; Forte (#AQ 36) and Tempo (#AQ 64) systems; pending SkyWater foundry acquisition. See [entry]({{< relref "ionq.md" >}}). |
 | [SKYT](https://finance.yahoo.com/quote/SKYT) | [SkyWater Technology](https://www.skywatertechnology.com) | U.S. pure-play semiconductor foundry; DOD Trusted Foundry; quantum chip fabrication (superconducting, photonic, cryogenic CMOS); pending IonQ acquisition. See [entry]({{< relref "skywater-technology.md" >}}). |
-| [QBTS](https://finance.yahoo.com/quote/QBTS) | [D-Wave Quantum](https://www.dwavesys.com) | Quantum annealing systems and hybrid classical-quantum solvers. |
+| [QBTS](https://finance.yahoo.com/quote/QBTS) | [D-Wave Quantum](https://www.dwavesys.com) | Quantum annealing systems (**not gate-based**) and hybrid classical-quantum solvers; Advantage2 (4,400+ qubits, Zephyr); 2025 Science quantum supremacy paper disputed by independent teams; acquiring Quantum Circuits Inc. for gate-model entry. See [entry]({{< relref "d-wave.md" >}}). |
 | [RGTI](https://finance.yahoo.com/quote/RGTI) | [Rigetti Computing](https://www.rigetti.com) | Superconducting gate-based QPUs manufactured at Fab-1 (Fremont, CA); Ankaa-3 84-qubit system (99.5% median 2Q fidelity, company claim); cloud access via QCS, AWS Braket, Azure Quantum; FY2024 revenue $10.8M (declining); $217M cash (Dec 2024); DARPA QBI Stage A (not Stage B). See [entry]({{< relref "rigetti.md" >}}). |
 
 <!-- TradingView Widget BEGIN -->
