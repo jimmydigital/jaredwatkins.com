@@ -6,7 +6,7 @@ description: "LinkedIn post summary for the quantum crypto risk blog post."
 tags: ["linkedin", "draft"]
 ---
 
-On March 31, Google Quantum AI published a paper suggesting a cryptographically relevant quantum computer might be achievable with fewer than 500k physical qubits (well below previous estimates). Their suggested migration target: 2029(!).
+At the end of March Google Quantum AI published a paper suggesting a cryptographically relevant quantum computer might be achievable with fewer than 500k physical qubits (well below previous estimates). Their suggested migration target: 2029(!).
 
 That's not a distant theoretical risk. That's three years.
 
@@ -18,6 +18,6 @@ Cryptocurrency is a harder problem. Around 28–35% of Bitcoin's total supply si
 
 The realistic outcome isn't that we migrate everything in time. It's that we triage: protect the highest-value, highest-sensitivity systems first and accept that long-tail infrastructure will remain exposed longer than is comfortable.
 
-See more about this on my site: https://www.jaredwatkins.com/posts/2026/04/quantum-crypto-threat/
+Don't sleep on this.. see more here: https://www.jaredwatkins.com/posts/2026/04/quantum-crypto-threat/
 
 #QuantumComputing #Cybersecurity #PostQuantum #Cryptography #Bitcoin #InfoSec

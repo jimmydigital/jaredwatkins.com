@@ -94,6 +94,9 @@ The established categories are:
 
 New posts should use one of these unless there's a genuinely new subject area. Tags can be more specific (tool names, project names, locations).
 
+### LinkedIn
+When writing shorter summary posts for LinkedIn there are a few stylistic changes from the main blog posts.  Trade less precision for more readability. For example a date mentioned in a blog post as March 31st could be mentioned as The end of March for linkedin. Still correct but less need for precision.  These short summaries should also end with a call to action statement and encourage the reader to explore the topic further at my site linking either to a full blog post or the relevant research section if there is no blog post on the subject. Always save linkedin posts as hugo drafts so they don't publish to the blog site.
+
 ---
 
 ### Frontmatter Template for New Posts
