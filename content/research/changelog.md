@@ -1,7 +1,7 @@
 ---
 title: "Research Section Changelog"
 date: 2026-04-04
-lastmod: 2026-04-17
+lastmod: 2026-04-19
 draft: false
 description: "Timestamped log of additions and modifications to the Research knowledge base."
 tags: ["changelog", "research"]
@@ -29,6 +29,7 @@ Each entry is a one-line timestamped summary.
 
 ## Changelog
 
+- **2026-04-19:** Created [Google Quantum AI]({{< relref "quantum-computing/google-quantum-ai.md" >}}) — Willow 105-qubit (2024); below-threshold error correction (partially verified, Nature); 2019 supremacy claim classically matched (Frontier ~6 sec); dual-modality expansion to neutral atoms (Mar 2026).
 - **2026-04-17:** Created [Bitcoin PQC]({{< relref "post-quantum-encryption/cryptocurrencies/bitcoin-pqc.md" >}}) — BIP-360 (P2MR soft fork, BTQ testnet Mar 2026) and BIP-361 (coin freeze, Lopp vs. Back debate); ~28–35% BTC supply in long-exposure quantum-vulnerable state; Falcon/FN-DSA primary algorithm candidate; 5–10 year migration timeline estimate.
 - **2026-04-17:** Created [Ethereum PQC]({{< relref "post-quantum-encryption/cryptocurrencies/ethereum-pqc.md" >}}) — EIP-8141 frame transactions (CFI Hegota H2 2026); leanSig/leanXMSS for validator attestation aggregation; pq.ethereum.org devnets active (Mar 2026); Strawmap targets full L1 PQC by ~2029; ~90M ETH at quantum exposure.
 - **2026-04-17:** Created [Other Chains PQC]({{< relref "post-quantum-encryption/cryptocurrencies/other-chains-pqc.md" >}}) — Algorand (Falcon live on mainnet Nov 2025, first PQC mainnet tx); Solana (ML-DSA testnet 3,000 TPS Dec 2025); Cardano (Project Nightstream, Google/Microsoft collaboration Feb 2026); QRL (purpose-built XMSS→ML-DSA; Testnet V2 Mar 2026); exchange and wallet readiness (Coinbase advisory board; Trezor Safe 7).

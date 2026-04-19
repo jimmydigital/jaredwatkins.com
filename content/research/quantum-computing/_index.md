@@ -1,7 +1,7 @@
 ---
 title: Quantum Computing Research
 date: 2026-04-05
-lastmod: 2026-04-14
+lastmod: 2026-04-19
 draft: false
 description: Research on quantum computing hardware, software, and the companies and researchers building toward practical quantum advantage.
 tags: ["quantum-computing"]
@@ -184,4 +184,4 @@ Tracks the development of quantum computing hardware, software, and the race tow
 |--------|---------|-----------|
 | [IBM](https://finance.yahoo.com/quote/IBM) | [IBM Quantum](https://www.ibm.com/quantum) | Largest publicly accessible quantum fleet; superconducting QPUs (Eagle, Heron, Nighthawk, Loon); qLDPC error correction research; 2029 Starling and 2033 Blue Jay fault-tolerant roadmap. See [entry]({{< relref "ibm-quantum.md" >}}). |
 | [MSFT](https://finance.yahoo.com/quote/MSFT) | [Microsoft Azure Quantum](https://azure.microsoft.com/en-us/products/quantum) | Topological qubit research (majorana); Azure Quantum cloud platform; claims disputed. |
-| [GOOGL](https://finance.yahoo.com/quote/GOOGL) | [Google Quantum AI](https://quantumai.google) | Sycamore/Willow superconducting processors; 2019 and 2024 supremacy claims; Brisbanefablab. |
+| [GOOGL](https://finance.yahoo.com/quote/GOOGL) | [Google Quantum AI](https://quantumai.google) | Superconducting QPUs (Sycamore 53-qubit, Willow 105-qubit); 2019 supremacy claim (classically matched 2024); Willow 2024 below-threshold error correction (partially verified); dual-modality expansion to neutral atoms (March 2026); 2029 fault-tolerant target. See [entry]({{< relref "google-quantum-ai.md" >}}). |
