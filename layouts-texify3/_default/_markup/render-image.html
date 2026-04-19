@@ -1,13 +1,15 @@
 {{- $width := "" -}}
+{{- $height := "" -}}
 {{- $title := .Title -}}
 {{- $class := "" -}}
 
-{{- /* Extract resize width from title — matches "=320x" or "width=320" anywhere in the string */ -}}
+{{- /* Extract resize width or height from title — matches "width=320" or "height=400" anywhere in the string */ -}}
 {{- if $title }}
-  {{- if findRE `=[0-9]+x` $title }}
-    {{- $width = replaceRE `.*=([0-9]+)x.*` `$1` $title }}
-  {{- else if findRE `width=[0-9]+` $title }}
+  {{- if findRE `width=[0-9]+` $title }}
     {{- $width = replaceRE `.*width=([0-9]+).*` `$1` $title }}
+  {{- end }}
+  {{- if findRE `height=[0-9]+` $title }}
+    {{- $height = replaceRE `.*height=([0-9]+).*` `$1` $title }}
   {{- end }}
 {{- end }}
 
@@ -26,6 +28,8 @@
   {{- $img := $resource }}
   {{- if $width }}
     {{- $img = $resource.Resize (printf "%sx" $width) }}
+  {{- else if $height }}
+    {{- $img = $resource.Resize (printf "x%s" $height) }}
   {{- end }}
   {{- $src := printf "%s%s" .Page.RelPermalink $img.Name }}
   <img src="{{ $src }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ .Text }}"{{ with $class }} class="{{ . }}"{{ end }} />
@@ -36,6 +40,6 @@
     {{- /* Local image: build full path from the page's permalink so the browser resolves it correctly */ -}}
     {{- $src = printf "%s%s" .Page.RelPermalink $dest | strings.Replace "#" "%23" -1 }}
   {{- end }}
-  <img src="{{ $src }}" alt="{{ .Text }}"{{ with $class }} class="{{ . }}"{{ end }}{{ with $width }} width="{{ . }}"{{ end }} />
+  <img src="{{ $src }}" alt="{{ .Text }}"{{ with $class }} class="{{ . }}"{{ end }}{{ with $width }} width="{{ . }}"{{ end }}{{ with $height }} height="{{ . }}"{{ end }} />
 {{- end }}
 
