@@ -1,7 +1,7 @@
 ---
 title: "Research Section Changelog"
 date: 2026-04-04
-lastmod: 2026-04-19
+lastmod: 2026-04-25
 draft: false
 description: "Timestamped log of additions and modifications to the Research knowledge base."
 tags: ["changelog", "research"]
@@ -9,6 +9,9 @@ categories: ["overview"]
 research_area: "research"
 last_reviewed: 2026-04-04
 stale_after_days: 90
+outputs:
+  - HTML
+  - ResearchChangelog
 sitemap:
   changefreq: "monthly"
   priority: 0.7
@@ -16,6 +19,8 @@ sitemap:
 ---
 
 ## Overview
+
+[Subscribe via RSS](/research/changelog/index.xml)
 
 This page tracks important additions and modifications to the Research knowledge base. Log entries include:
 - **New entry creation** (new company, technology, person, or research page)
@@ -29,6 +34,8 @@ Each entry is a one-line timestamped summary.
 
 ## Changelog
 
+- **2026-04-25:** Created [datacenter-opposition]({{< relref "datacenter-opposition/_index.md" >}}) section — regulatory, NIMBY, and grid-impact controversies around datacenter expansion; linked entries for environmental justice advocates, case studies (Mesa AZ water fights, Oregon permitting freezes), and incumbent utility opposition to behind-meter SMR/renewables power models.
+- **2026-04-25:** Created 4 missing BTM power company profiles for [behind-meter-power]({{< relref "datacenters/behind-meter-power/_index.md" >}}) section: [TerraPower Natrium]({{< relref "datacenters/behind-meter-power/terrapower-btm.md" >}}) (345 MW SMR + molten-salt storage, Meta 2.76 GW contract), [Radiant Kaleidos]({{< relref "datacenters/behind-meter-power/radiant-nuclear.md" >}}) (1.2 MWe microreactor, Equinix 20-unit preorder), [Caterpillar Solar Turbines]({{< relref "datacenters/behind-meter-power/caterpillar-solar-turbines.md" >}}) (1–39 MW gas turbines, Vertiv partnership Nov 2025), [Siemens Energy]({{< relref "datacenters/behind-meter-power/siemens-energy-btm.md" >}}) (SGT series 40–200 MW heavy-frame turbines, modular 500 MW plants with Eaton). Resolved 5 Hugo REF_NOT_FOUND errors in _index.md.
 - **2026-04-19:** Created [Google Quantum AI]({{< relref "quantum-computing/google-quantum-ai.md" >}}) — Willow 105-qubit (2024); below-threshold error correction (partially verified, Nature); 2019 supremacy claim classically matched (Frontier ~6 sec); dual-modality expansion to neutral atoms (Mar 2026).
 - **2026-04-17:** Created [Bitcoin PQC]({{< relref "post-quantum-encryption/cryptocurrencies/bitcoin-pqc.md" >}}) — BIP-360 (P2MR soft fork, BTQ testnet Mar 2026) and BIP-361 (coin freeze, Lopp vs. Back debate); ~28–35% BTC supply in long-exposure quantum-vulnerable state; Falcon/FN-DSA primary algorithm candidate; 5–10 year migration timeline estimate.
 - **2026-04-17:** Created [Ethereum PQC]({{< relref "post-quantum-encryption/cryptocurrencies/ethereum-pqc.md" >}}) — EIP-8141 frame transactions (CFI Hegota H2 2026); leanSig/leanXMSS for validator attestation aggregation; pq.ethereum.org devnets active (Mar 2026); Strawmap targets full L1 PQC by ~2029; ~90M ETH at quantum exposure.

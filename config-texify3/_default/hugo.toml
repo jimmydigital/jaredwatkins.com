@@ -47,6 +47,13 @@ ignoreLogs = ['warning-goldmark-raw-html']
   # Valid values are Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   anchor = "smart"
 
+[outputFormats.ResearchChangelog]
+  mediaType = "application/rss+xml"
+  baseName  = "index"
+  isPlainText = false
+  rel = "alternate"
+  notAlternative = false
+
 [outputs]
   home     = ["HTML", "RSS"]
   section  = ["HTML", "RSS"]
