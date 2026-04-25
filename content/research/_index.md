@@ -173,7 +173,7 @@ Section landing pages (`_index.md`) contain only `## Overview` and optionally `#
 - Add new source URLs; don't remove old ones unless dead and unarchivable.
 
 **Changelog update requirements:**
-When creating a new major research section or adding multiple significant entries to the Research knowledge base, update `content/research/changelog.md`. Log: new section/entry creation, major rewrites, significant claim corrections, or structural `_index.md` changes. Do not log: minor edits, formatting fixes, link repairs, or routine fact-checking.
+When creating a new major research section or adding multiple significant entries to the Research knowledge base, update `content/research/changelog/index.md`. Log: new section/entry creation, major rewrites, significant claim corrections, or structural `_index.md` changes. Do not log: minor edits, formatting fixes, link repairs, or routine fact-checking.
 
 **Format rule — one line per entry, no exceptions.**
 
@@ -552,7 +552,7 @@ A living, AI-maintained knowledge base on emerging technology topics. Each area 
 
 ---
 
-**[📋 View Changelog]({{< relref "changelog.md" >}})** — Track recent additions and updates to the knowledge base.
+**[📋 View Changelog]({{< relref "changelog/index.md" >}})** — Track recent additions and updates to the knowledge base.
 
 ## Topic Areas
 

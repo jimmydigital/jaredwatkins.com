@@ -129,3 +129,7 @@ TerraPower is a Bellevue, Washington nuclear technology company founded in 2008 
 - [TerraPower Begins Construction in Wyoming — TerraPower](https://www.terrapower.com/terrapower-begins-construction-in-wyoming)
 - [Training Center Construction Begins — TerraPower](https://www.terrapower.com/terrapower-begins-construction-on-state-of-the-art-kemmerer-training-center)
 - [NRC TerraPower Applicant Page](https://www.nrc.gov/reactors/new-reactors/advanced/who-were-working-with/applicant-projects/terrapower)
+
+## See Also
+
+**Data center BTM context:** {{< relref "../../datacenters/behind-meter-power/_index.md" >}} — covers TerraPower's Meta 2.76 GW Natrium SMR deal, Sabey Data Centers MOU, and Natrium's built-in thermal storage advantage for load-following data center power.

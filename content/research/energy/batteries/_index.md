@@ -19,14 +19,22 @@ sitemap:
 
 Tracks advances in battery chemistry and storage technology, with a focus on solid-state batteries, lithium-sulfur chemistry, and the companies and researchers pushing energy density and cycle life forward. Also covers the grid-scale battery energy storage (BESS) market — from Chinese factory-direct integrators to Western software-differentiated players — because stationary storage is where most battery volume is deployed today.
 
+### Technology & Architecture Reference Pages
+
+For in-depth explanations of key technologies, see:
+
+- **[Lithium Metal Batteries — Technology Overview]({{< relref "lithium-metal.md" >}})** — Why lithium metal (3,860 mAh/g vs. graphite's 372 mAh/g) is the focus of next-gen batteries; the dendrite problem that blocked commercialization for 50 years; solution approaches (solid ceramics, sulfides, hybrid, anode-free, AI-based); competitive landscape of companies pursuing commercialization 2025–2026.
+- **[Solid-State Batteries — Technology Overview]({{< relref "solid-state-batteries.md" >}})** — Architecture, materials, and commercialization timelines.
+
 ## Key Themes
 
-- Solid-state electrolytes (oxide, sulfide, polymer) approaching automotive production readiness
+- **Lithium-metal anodes** (10× theoretical capacity vs. graphite) as the focus of advanced battery chemistry — dendrite suppression via solid electrolytes, anode-free designs, hybrid approaches, and AI-based control; 50-year challenge entering commercialization phase 2025–2028
+- Solid-state electrolytes (oxide, sulfide, polymer) approaching automotive production readiness; sulfide programs (QuantumScape, Solid Power, Idemitsu) converging on Idemitsu Li₂S as critical upstream bottleneck
 - Lithium-sulfur chemistry (Lyten) as an alternative path eliminating cobalt, nickel, and graphite
 - Chinese BESS integrators achieving cost and engineering parity with Western players — the solar-panel pattern repeating
 - U.S. tariff escalation (82%+ on Chinese LFP cells as of early 2026) reshaping supply chains in real time
-- Software differentiation (Autobidder, Fluence IQ) as the last defensible moat for Western integrators
-- Vertical integration strategies: BYD (cell + system), CATL → CNTE (arms-length forward integration), vs. pure integrators (Fluence, HyperStrong)
+- Software differentiation (Autobidder, Fluence IQ; SES AI AI-based dendrite monitoring) as emerging competitive moats
+- Vertical integration strategies: BYD (cell + system), CATL → CNTE (arms-length forward integration), vs. pure integrators (Fluence, HyperStrong) vs. capital-light licensors (QuantumScape, Solid Power)
 
 ---
 
@@ -60,6 +68,7 @@ These companies sit upstream of cells — they supply the materials that make ad
 | [Idemitsu Kosan]({{< relref "idemitsu-solid-state.md" >}}) | Japan | Public (TSE: 5019) | Only identified large-scale lithium sulfide (Li₂S) producer; exclusive Toyota supplier; ¥21.3B Li₂S plant (1,000 MT/year, June 2027); solid electrolyte pilot plant construction began January 2026. Critical upstream bottleneck for the entire sulfide solid-state ecosystem. |
 | [Solid Power]({{< relref "solid-power.md" >}}) (SLDP) | Louisville, CO | Public (Nasdaq: SLDP) | Sulfide electrolyte supplier + technology licensor to Samsung SDI / BMW. Has pivoted away from owning cell manufacturing to a capital-light IP licensing model. Continuous electrolyte pilot line (75 MT/year) commissioning by end of 2026. New: SK On disclosed as installation partner for pilot line. |
 | [Lyten]({{< relref "lyten.md" >}}) | San Jose, CA | Series B+ ($625M+) | 3D Graphene-enabled lithium-sulfur; no nickel, cobalt, or graphite. Acquired Northvolt Gdańsk BESS facility (completed Feb 2026). Commercial cells from Skellefteå H2 2026 (NMC long-life initial production). Nevada gigafactory Phase 1 targeting 2027. Competes on cobalt-free, graphite-free strategic positioning for defense and drone markets. |
+| [Soelect]({{< relref "soelect.md" >}}) | Greensboro, NC | Private ($13.3M funded) | LiX® dendrite-resistant lithium anode technology + solid-state electrolyte materials. Materials supplier model; claims 15-minute full charge. 20+ automotive customers (unnamed). GM Ventures investor. Lotte Chemical JV (>$200M) for US manufacturing announced 2023 (execution status Q2 2026 unclear). Pilot production scaling. |
 
 **Key concern — Idemitsu Li₂S bottleneck:** Idemitsu's entire 1,000 MT/year Li₂S capacity (available by June 2027) is committed to Toyota. QuantumScape and Solid Power both rely on sulfide electrolytes requiring Li₂S as a precursor, and neither has disclosed a qualified alternative supplier. If the three largest sulfide programs (Toyota, QuantumScape, Solid Power) all scale simultaneously post-2027, Li₂S supply will be a structural chokepoint.
 
@@ -75,7 +84,9 @@ These companies make the cells — the electrochemical unit. All are pre-product
 | [QuantumScape]({{< relref "quantumscape.md" >}}) | San Jose, CA | Public (NYSE: QS) | Sulfide-based ceramic separator (Cobra process) | Eagle Line pilot inaugurated Feb 2026. VW PowerCo non-exclusive license: up to 40 GWh/year (option to 80 GWh). Ducati V21L race bike full field testing 2026. Capital-light licensing pivot confirmed. Expanding to defense/drones/AI data center. FY2026 EBITDA guidance: −$250M to −$275M; $970M liquidity. **Concern:** Licensing model reduces capital requirements but introduces dependency on licensees' manufacturing ramp. |
 | [ProLogium Technology]({{< relref "prologium.md" >}}) | Taiwan | Pre-IPO | Oxide-based → Superfluidized All-Inorganic (ceramic + all-silicon anode) | Dunkirk gigafactory groundbreaking February 11, 2026. Initial capacity 0.8 GWh; target 4 GWh by 2029; expandable to 48 GWh. Mass production of 4th-gen cells: 2028. Patent leadership claim (cost + scale limits). Claimed 57 mS/cm ionic conductivity remains unverified by independent lab. |
 | [Adden Energy]({{< relref "adden-energy.md" >}}) | Waltham, MA | Series A ($20M) | Thin-film solid-state (Harvard SEAS spinout) | Pilot line commissioned Feb 2025. Lab-validated: 10-min charge and 10,000 cycles at coin-cell scale. Behind Factorial and QuantumScape in OEM pipeline by ~1–2 years. No new disclosed funding or OEM agreements. |
-| [Donut Lab]({{< relref "donut-lab.md" >}}) / [Verge Motorcycles]({{< relref "verge-motorcycles.md" >}}) | Estonia / Finland | Private | TiO₂ nanostructure pseudocapacitance | TS Pro deliveries commenced Q1 2026 (claimed world-first production solid-state motorcycle). VTT confirmed: fast charge (0–80% in 4.5 min, 11C) and thermal stability (107% capacity at 100°C). **Key concern:** Five independent VTT test reports released through March 2026 — none measure 400 Wh/kg energy density or 100,000-cycle life. Svolt chairman called 400 Wh/kg "physically impossible." Headline claims remain unverified; verified claims are genuine but modest. |
+| [SES AI]({{< relref "ses-ai.md" >}}) (SES) | Boston, MA | Public (NYSE: SES, SPAC 2022) | Lithium-metal hybrid (liquid electrolyte + AI control) | Apollo cell (417 Wh/kg, 107 Ah) demonstrated Nov 2021. A-sample and B-sample JDAs with GM, Hyundai-Kia, Honda (announced 2025–2026). Ui-Wang, South Korea B-sample facility announced (2025). **Differentiation:** AI-based electrochemical monitoring to detect and suppress dendrites in real-time. **Status:** Pre-commercial; B-sample development ongoing; mass production targeting early-to-mid 2030s. **Note:** Hybrid approach trades fully solid-state safety margin for faster manufacturing compatibility. |
+| [Soelect]({{< relref "soelect.md" >}}) | Greensboro, NC | Private | LiX® anode + solid electrolyte materials | Materials supplier model (anode + SE components); claims 15-minute full charge. 20+ automotive customers (unnamed). GM Ventures invested. Lotte Chemical JV announced (>$200M) for US manufacturing scale-up (2023); no confirmed progress as of Q2 2026. **Status:** Pilot production; scaling roadmap; execution timeline unclear. |
+| [Donut Lab]({{< relref "donut-lab.md" >}}) / [Verge Motorcycles]({{< relref "verge-motorcycles.md" >}}) | Estonia / Finland | Private | TiO₂ nanostructure pseudocapacitance | TS Pro deliveries commenced Q1 2026 (claimed world-first production solid-state motorcycle). VTT confirmed: fast charge (0–80% in 4.5 min, 11C) and thermal stability (107% capacity at 100°C). **Key concern:** Five independent VTT test reports released through March 2026 — none measure 400 Wh/kg energy density or 100,000-cycle life. Headline claims remain unverified; verified claims are genuine but modest. |
 
 **Cross-cutting concern — sulfide programs (QuantumScape, Solid Power, Idemitsu/Toyota):** All three depend on Li₂S precursor supply from a single identified large-scale source (Idemitsu) that is committed exclusively to Toyota. This shared upstream dependency is the most underappreciated concentration risk in the solid-state sector.
 

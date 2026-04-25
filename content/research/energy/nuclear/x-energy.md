@@ -146,3 +146,7 @@ X-energy is a Rockville, Maryland advanced nuclear company founded by Kam Ghaffa
 - [Dow and X-energy Submit NRC Application — Dow IR (Mar 2025)](https://investors.dow.com/en/news/news-details/2025/Dow-and-X-energy-Submit-Construction-Permit-Application-to-the-U-S--Nuclear-Regulatory-Commission-for-Proposed-Advanced-Nuclear-Project-in-Texas/default.aspx)
 - [NRC Dockets Dow/X-energy SMR — ANS Nuclear Newswire (May 2025)](https://www.ans.org/news/2025-05-15/article-7026/nrc-dockets-construction-permit-for-dow-xenergy-smr/)
 - [X-energy $700M Series D — Neutron Bytes (Nov 2025)](https://neutronbytes.com/2025/11/30/x-energy-leaps-ahead-with-700m-in-series-d-funding/)
+
+## See Also
+
+**Data center BTM context:** {{< relref "../../datacenters/behind-meter-power/_index.md" >}} — covers X-energy's Amazon 5 GW partnership and positioning within the broader BTM nuclear market, TRISO fuel supply constraints, and competitive comparison with Oklo and Kairos.

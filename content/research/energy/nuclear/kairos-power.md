@@ -114,3 +114,8 @@ Kairos Power is an Alameda, California Gen IV nuclear developer founded in 2016.
 - [Google Advanced Nuclear Partnership — Google Blog (Aug 2025)](https://blog.google/outreach-initiatives/sustainability/google-first-advanced-nuclear-reactor-project-with-kairos-power-and-tennessee-valley-authority/)
 - [TVA First US Utility Gen IV PPA — Power Magazine](https://www.powermag.com/tva-inks-first-u-s-utility-ppa-for-gen-iv-nuclear-power-in-landmark-three-way-deal-with-google-kairos/)
 - [Kairos Power Wikipedia](https://en.wikipedia.org/wiki/Kairos_Power)
+- [Hermes 2 Groundbreaking — GlobeNewswire (April 17, 2026)](https://www.globenewswire.com/news-release/2026/04/17/3276457/0/en/kairos-power-breaks-ground-on-hermes-2-demonstration-plant.html)
+
+## See Also
+
+**Data center BTM deployment profile:** {{< relref "../../datacenters/behind-meter-power/kairos-power-btm.md" >}} — focused coverage of Kairos's Google PPA, Hermes 2 groundbreaking (April 17, 2026, first Gen IV NRC construction permit), BTM regulatory path, and TRISO fuel supply considerations.

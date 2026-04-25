@@ -100,4 +100,7 @@ The most strategically significant equipment category at the leading edge is ext
 
 ## Entries
 
+- [ASML]({{< relref "asml.md" >}}) — ⚑ Sole supplier of EUV lithography systems globally; TWINSCAN EXE:5200B High-NA leadership; CEO Christophe Fouquet; export controls; Euronext: ASML
+- [Applied Materials]({{< relref "applied-materials.md" >}}) — Largest WFE vendor by revenue (~$27–30B); etch, deposition (CVD/PVD/ALD), CMP, ion implant; CEO Gary Dickerson; NASDAQ: AMAT
+- [Tokyo Electron]({{< relref "tokyo-electron.md" >}}) — Third-largest WFE vendor; etch, CVD, thermal, track systems; Japan-based; strong fab relationships; Tokyo Stock Exchange: 8035
 - [Lasertec]({{< relref "/research/semiconductors/fabrication-equipment/lasertec" >}}) — EUV photomask and mask blank inspection; near-monopoly in actinic EUV inspection; Tokyo Stock Exchange: 6920

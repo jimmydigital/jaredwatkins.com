@@ -159,3 +159,7 @@ Blue Energy sits at the **Nuclear Power Plant Developer/Owner-Operator** layer �
 - [Blue Energy — Accelerating SMR Deployments — Nucleation Capital](https://nucleationcapital.com/blue-energy-accelerating-deployment-smrs)
 - [Blue Energy NRC Pre-Application Activities — U.S. NRC](https://www.nrc.gov/reactors/new-reactors/advanced/who-were-working-with/pre-application-activities/blue-energy)
 - [Victoria County Navigation District Partners with Blue Energy — Port of Victoria](https://www.portofvictoria.com/news-and-media/p/item/65061/victoria-navigation-district-partners-with-blue-energy-to-advance-small-modular-nuclear-power-project)
+
+## See Also
+
+**Data center BTM context:** {{< relref "../../datacenters/behind-meter-power/_index.md" >}} — covers Blue Energy's Crusoe partnership for the Port of Victoria, Texas nuclear-powered data center (1.5 GW target, power start 2031) within the broader BTM power landscape.

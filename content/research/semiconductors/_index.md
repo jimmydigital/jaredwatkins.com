@@ -93,4 +93,7 @@ The Semiconductors section covers the full enabling stack for advanced chip manu
 
 ## Subtopics
 
+- [US Domestic Fab Expansion]({{< relref "us-fab-expansion/_index.md" >}}) — CHIPS Act projects, fab construction timelines, and domestic semiconductor manufacturing independence
 - [Fabrication Equipment]({{< relref "fabrication-equipment/_index.md" >}}) — Lithography, etch, deposition, inspection, and metrology equipment for wafer fabs
+- [Materials & Chemicals]({{< relref "materials/_index.md" >}}) — Silicon wafers, photoresists, specialty gases, CMP slurries, and supply chain concentration analysis
+- [Chip Design — EDA & IP]({{< relref "chip-design/_index.md" >}}) — Electronic design automation tools, semiconductor IP licensing, and export controls on design software

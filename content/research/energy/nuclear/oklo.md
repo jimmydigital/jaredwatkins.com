@@ -146,3 +146,7 @@ Oklo (NYSE: OKLO) is a Santa Clara, California advanced fission company developi
 - [Oklo / Siemens Energy Steam Cycle — Power Engineering](https://www.power-eng.com/nuclear/oklo-taps-siemens-energy-for-steam-cycle-equipment-on-first-aurora-nuclear-project/)
 - [Wyoming Hyperscale 100 MW 20-yr PPA — Data Center Frontier](https://www.datacenterfrontier.com/energy/article/55054838/oklo-forges-20-yr-nuclear-ppa-with-wyoming-hyperscale-for-100-mw-of-data-center-power)
 - [Oklo Wikipedia](https://en.wikipedia.org/wiki/Oklo_Inc.)
+
+## See Also
+
+**Data center BTM deployment profile:** {{< relref "../../datacenters/behind-meter-power/oklo-btm.md" >}} — focused coverage of Oklo's data center power pitch, customer order book (Meta, Switch, Equinix), BTM regulatory path, and HALEU supply constraints.

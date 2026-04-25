@@ -125,3 +125,7 @@ GEH sits at the **Reactor Technology Provider** layer, licensing and supplying t
 - [OPG Gets Final Permission to Construct — ANS Nuclear Newswire (May 2025)](https://www.ans.org/news/2025-05-12/article-7014/opg-gets-final-permission-to-construct-first-north-american-smr/)
 - [Canada Approves First Grid-Scale SMR Construction — Power Magazine](https://www.powermag.com/canada-approves-first-grid-scale-smr-construction-at-darlington/)
 - [GEH BWRX-300 Approved for Construction — Neutron Bytes (May 2025)](https://neutronbytes.com/2025/05/17/geh-bwrx-300-smr-approved-for-construction-at-opgs-darlingtion-site/)
+
+## See Also
+
+**Data center BTM context:** {{< relref "../../datacenters/behind-meter-power/_index.md" >}} — covers the BWRX-300's positioning as a larger (300 MW) grid-adjacent SMR suitable for regional data center clusters; note overlap with GE Vernova's aeroderivative turbine business (see {{< relref "../../datacenters/behind-meter-power/ge-vernova-aeroderivative.md" >}}).
