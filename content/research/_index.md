@@ -180,16 +180,38 @@ When creating a new major research section or adding multiple significant entrie
 Each entry is a single markdown bullet on a single line:
 `- **YYYY-MM-DD:** Created/Updated [Page Title]({{</* relref "path/to/page.md" */>}}) — [subject, 2–3 key facts max].`
 
+For bulk entries (5+ related additions in a single action), use compound format:
+`- **YYYY-MM-DD:** Created [Overview Name]({{</* relref "..." */>}}) + N entries: [Entry 1]({{</* relref "..." */>}}) ([key fact]), [Entry 2]({{</* relref "..." */>}}) ([key fact]), [Entry 3]({{</* relref "..." */>}}) ([key fact]).`
+
 Rules:
 - Link page names using Hugo relrefs — never use bare filenames or file paths as the reference text.
 - The bullet must fit on one line. Period.
 - No semicolon-separated lists of every detail. Pick the 2–3 most important facts and stop.
 - No sub-bullets, continuation lines, or parenthetical elaborations.
+- For 5+ related entries, combine into a single compound entry with overview link first, then inline summaries.
 - The entry file is the authoritative record — the changelog is just a navigable pointer, not a summary.
 - If you feel the urge to add more detail, don't. Cut it instead.
 
-Good example: `- **2026-04-05:** Created [IonQ]({{</* relref "quantum-computing/ionq.md" */>}}) — trapped-ion QPU; FY2025 revenue from SEC filings; all-founder departures noted.`
-Bad example (bare filename, too long — do not do this): `- **2026-04-05:** Created \`quantum-computing/ionq.md\` — full IonQ entry covering Forte/Tempo hardware specs, #AQ metric criticism, roadmap with milestone status, FY2024/2025 revenue from SEC filings, Wolfpack Research bookings dispute, Forte vs. Quantinuum Helios comparison, Skyloom/SkyWater acquisitions, all-founder departures, and multi-section claim verification with peer review status.`
+**Changelog automation instruction for AI tools:**
+After creating or significantly updating research entries, the agent **must** immediately:
+1. Determine today's date in YYYY-MM-DD format
+2. Compose a single-line changelog entry following the format rules above
+3. Insert the entry at the top of the Changelog section (above all other entries, reverse-chronological order)
+4. Update the `lastmod` date in the changelog index file frontmatter to today's date
+5. Verify the entry fits on one line (no word wrapping in most text editors)
+6. Do not wait for user instruction — this is automatic upon entry creation/major update
+
+The changelog entry must be written during the same execution as entry creation. Do not treat changelog updates as a separate task requiring user approval. Every created/updated entry triggers an automatic changelog update.
+
+**Good examples:**
+- `- **2026-04-25:** Created [IonQ]({{</* relref "quantum-computing/ionq.md" */>}}) — trapped-ion QPU; Forte 84 qubits; FY2025 $100M+ revenue.`
+- `- **2026-04-25:** Created [half-rack embedded compute overview]({{</* relref "datacenters/rugged-edge-compute/half-rack-embedded-compute.md" */>}}) + 4 platform entries: [Neousys SEMIL-1300]({{</* relref "datacenters/rugged-edge-compute/neousys-semil-1300.md" */>}}) (fanless 2U half-rack, IP67), [ASUS RUC-1000]({{</* relref "datacenters/rugged-edge-compute/asus-ruc-1000.md" */>}}) (RUC-1000G 600W GPU; RUC-1000D half-rack fanless).`
+
+**Bad examples (do not do this):**
+- `- **2026-04-05:** Created \`quantum-computing/ionq.md\` — full IonQ entry covering Forte/Tempo hardware specs, FY2024/2025 revenue, Skyloom/SkyWater acquisitions, all-founder departures.` (bare filename, too long)
+- Multi-line entries or sub-bullets (must be single line)
+- Missing date or relref links
+- Over 200 characters total (tight constraint forces summarization)
 
 ---
 
