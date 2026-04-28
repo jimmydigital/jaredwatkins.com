@@ -13,7 +13,7 @@
         {{ end }}
 
         {{- $posts := where .Site.RegularPages "Section" "posts" -}}
-        {{- $recent := $posts | first 4 -}}
+        {{- $recent := $posts | first 6 -}}
         {{- with $recent -}}
         <h3 class="taxonomy">Recent Posts</h3>
         <ul class="recent-posts">
