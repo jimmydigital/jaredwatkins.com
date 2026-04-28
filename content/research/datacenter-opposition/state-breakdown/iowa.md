@@ -1,13 +1,21 @@
 ---
 title: "Iowa: Water and Utility Rate Conflicts"
 date: 2026-04-20
-lastmod: 2026-04-20
+lastmod: 2026-04-28
 draft: false
 description: "Iowa datacenter opposition — water consumption concerns, Meta/Google/Microsoft facility impacts, local utility rate disputes, county-level organizing, regulatory actions, and the political economy of hyperscaler datacenters in agricultural regions."
 tags: ["iowa", "water-usage", "hyperscale-datacenters", "utility-rates", "Meta", "Google", "Microsoft", "environmental"]
 categories: ["state"]
 research_area: "datacenter-opposition"
-last_reviewed: 2026-04-20
+source_urls:
+  - "https://insideclimatenews.org/news/28072025/big-beautiful-bill-iowa-data-centers/"
+  - "https://insideclimatenews.org/news/01032026/iowa-county-data-center-ordinance/"
+  - "https://www.businessrecord.com/energy-water-use-under-close-watch-as-data-centers-expand-in-iowa/"
+  - "https://www.enr.com/articles/61162-750m-iowa-data-centers-unpermitted-wells-draw-20k-fine-against-dewatering-contractor"
+  - "https://www.iowapublicradio.org/news-from-npr/2026-04-20/data-center-disputes-have-been-local-but-the-midterms-might-change-that"
+  - "https://www.axios.com/local/des-moines/2023/09/18/ai-iowa-epicenter-microsoft-water-useage-data-center"
+  - "https://www.nasuca.org/wp-content/uploads/2025/02/2025-06-10-NASUCA-Data-Centers-Final-Schneider.pdf"
+last_reviewed: 2026-04-28
 stale_after_days: 90
 ---
 

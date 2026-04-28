@@ -1,13 +1,22 @@
 ---
 title: "Virginia: Data Center Alley Opposition"
 date: 2026-04-20
-lastmod: 2026-04-20
+lastmod: 2026-04-28
 draft: false
 description: "Virginia datacenter opposition — PW Digital Gateway litigation and victory, Loudoun County zoning reform, state-level tax exemption debates, organizing coalitions, and the political economics of 'Data Center Alley.'"
 tags: ["virginia", "data-center-alley", "zoning-challenge", "litigation", "loudoun-county", "prince-william-county", "tax-incentives", "environmental"]
 categories: ["state"]
 research_area: "datacenter-opposition"
-last_reviewed: 2026-04-20
+source_urls:
+  - "https://www.datacenterdynamics.com/en/news/virginia-court-upholds-decision-to-block-pw-digital-gateway-data-center-campus/"
+  - "https://www.battlefields.org/speak-out/digital-gateway-threatens-overwhelm-manassas-battlefield"
+  - "https://www.battlefields.org/news/win-historic-manassas-battlefield-and-nearby-residents-county-drops-defense-digital-gateway"
+  - "https://www.hklaw.com/en/insights/publications/2025/04/loudoun-county-virginia-eliminates-by-right-data-center-development"
+  - "https://www.pecva.org/work/energy-work/data-centers/its-time-to-end-data-centers-massive-tax-break/"
+  - "https://goodjobsfirst.org/virginia-data-center-deals-lack-transparency-watchdog-says/"
+  - "https://insideclimatenews.org/news/02122023/virginia-environmentalists-protest-data-centers/"
+  - "https://insideclimatenews.org/news/19052025/virginia-data-center-development-community-pushback/"
+last_reviewed: 2026-04-28
 stale_after_days: 90
 ---
 

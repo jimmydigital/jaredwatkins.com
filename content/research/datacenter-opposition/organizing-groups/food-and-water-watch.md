@@ -1,13 +1,22 @@
 ---
 title: "Food & Water Watch: Datacenter Moratorium Leadership"
 date: 2026-04-20
-lastmod: 2026-04-20
+lastmod: 2026-04-28
 draft: false
 description: "Food & Water Watch — mission, funding, key datacenter campaigns, 230+ group moratorium coalition, and strategic role in national datacenter opposition movement."
 tags: ["food-water-watch", "national-advocacy", "moratorium-campaign", "coalition-leadership"]
 categories: ["organizing-group"]
 research_area: "datacenter-opposition"
-last_reviewed: 2026-04-20
+source_urls:
+  - "https://www.foodandwaterwatch.org"
+  - "https://www.foodandwaterwatch.org/2025/10/23/environmental-group-calls-for-nationwide-moratorium-on-all-new-data-centers/"
+  - "https://www.foodandwaterwatch.org/2025/12/08/230-groups-call-for-national-moratorium-on-new-data-centers/"
+  - "https://www.foodandwaterwatch.org/wp-content/uploads/2025/12/National-Data-Center-Moratorium.pdf"
+  - "https://www.foodandwaterwatch.org/2026/01/22/stop-data-centers-now-campaign-launch/"
+  - "https://www.foodandwaterwatch.org/2026/03/04/comprehensive-report-lays-out-case-for-nationwide-halt-on-new-data-centers/"
+  - "https://www.foodandwaterwatch.org/2026/03/25/sanders-aoc-ai-data-center-moratorium-act-is-desperately-needed-as-Americans-energy-bills-skyrocket/"
+  - "https://www.foodandwaterwatch.org/2026/04/14/maine-poised-to-enact-first-state-ai-data-center-moratorium/"
+last_reviewed: 2026-04-28
 stale_after_days: 180
 ---
 

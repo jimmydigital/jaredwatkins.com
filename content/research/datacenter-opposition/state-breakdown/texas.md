@@ -1,13 +1,22 @@
 ---
 title: "Texas: ERCOT Grid Strain and Water Wars"
 date: 2026-04-20
-lastmod: 2026-04-20
+lastmod: 2026-04-28
 draft: false
 description: "Texas datacenter opposition — ERCOT grid reliability concerns, water scarcity conflicts in rural areas, legislative response (SB 6), grassroots organizing, and the political economy of datacenters in a deregulated grid."
 tags: ["texas", "ercot", "grid-reliability", "water-scarcity", "grassroots-organizing", "senate-bill-6"]
 categories: ["state"]
 research_area: "datacenter-opposition"
-last_reviewed: 2026-04-20
+source_urls:
+  - "https://www.citizen.org/news/across-texas-grassroots-resistance-meets-the-ai-data-center-boom/"
+  - "https://www.citizen.org/news/unchecked-data-center-growth-poses-grave-threat-to-texas-grid-and-water-public-citizen-says-ahead-of-tx-house-data-center-hearing/"
+  - "https://www.citizen.org/news/hood-county-residents-left-vulnerable-as-commissioners-reject-data-center-moratorium/"
+  - "https://www.texastribune.org/2025/10/30/texas-ercot-power-grid-data-centers-puc/"
+  - "https://www.texastribune.org/2025/10/02/rural-texas-data-centers-water/"
+  - "https://www.texastribune.org/2025/06/05/texas-data-centers-gas-power-plants-ai/"
+  - "https://www.utilitydive.com/news/data-center-activity-has-exploded-in-ercot-spiking-grid-reliability-risk/752780/"
+  - "https://www.latitudemedia.com/news/ercots-large-load-queue-has-nearly-quadrupled-in-a-single-year/"
+last_reviewed: 2026-04-28
 stale_after_days: 90
 ---
 

@@ -1,13 +1,22 @@
 ---
 title: "Good Jobs First: Tax Subsidy Transparency and Reform"
 date: 2026-04-20
-lastmod: 2026-04-20
+lastmod: 2026-04-28
 draft: false
 description: "Good Jobs First — economic development subsidy watchdog, datacenter tax research and advocacy, Subsidy Tracker database, and strategic focus on transparency and clawback provisions."
 tags: ["good-jobs-first", "tax-subsidies", "watchdog-organization", "transparency-advocacy"]
 categories: ["organizing-group"]
 research_area: "datacenter-opposition"
-last_reviewed: 2026-04-20
+source_urls:
+  - "https://goodjobsfirst.org"
+  - "https://goodjobsfirst.org/databases/"
+  - "https://goodjobsfirst.org/cloudy-data-costly-deals-how-poorly-states-disclose-data-center-subsidies/"
+  - "https://goodjobsfirst.org/will-data-center-job-creation-live-up-to-hype-i-have-some-concerns/"
+  - "https://goodjobsfirst.org/new-data-on-data-center-subsidies-same-old-problems/"
+  - "https://goodjobsfirst.org/data-centers-are-embedding-themselves-in-american-communities-who-will-pay/"
+  - "https://goodjobsfirst.org/virginia-data-center-deals-lack-transparency-watchdog-says/"
+  - "https://goodjobsfirst.org/data-center-moratorium-bills-are-spreading-in-2026/"
+last_reviewed: 2026-04-28
 stale_after_days: 180
 ---
 

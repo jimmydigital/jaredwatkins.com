@@ -1,13 +1,21 @@
 ---
 title: "Midwest Environmental Advocates: Transparency Litigation"
 date: 2026-04-20
-lastmod: 2026-04-20
+lastmod: 2026-04-28
 draft: false
 description: "Midwest Environmental Advocates (MEA) — regional environmental law firm, datacenter transparency lawsuits (Meta Beaver Dam, Racine water disclosure), public records litigation strategy, and Midwest regional organizing."
 tags: ["midwest-environmental-advocates", "transparency-litigation", "wisconsin", "environmental-law"]
 categories: ["organizing-group"]
 research_area: "datacenter-opposition"
-last_reviewed: 2026-04-20
+source_urls:
+  - "https://midwestadvocates.org"
+  - "https://midwestadvocates.org/issues/data-centers/"
+  - "https://midwestadvocates.org/mea-files-lawsuit-to-challenge-secrecy-surrounding-energy-demands-of-metas-beaver-dam-data-center/"
+  - "https://midwestadvocates.org/mea-takes-legal-action-to-compel-city-of-racine-to-disclose-data-centers-projected-water-use/"
+  - "https://midwestadvocates.org/data-center-secrecy-is-unacceptable/3/"
+  - "https://midwestadvocates.org/our-work/legal-action/data-center-transparency/"
+  - "https://wisconsinexaminer.com/briefs/environmental-law-firm-sues-psc-to-force-release-of-meta-data-center-electricity-demand/"
+last_reviewed: 2026-04-28
 stale_after_days: 180
 ---
 

@@ -1,13 +1,20 @@
 ---
 title: "Ohio: Hyperscaler Boom and Community Backlash"
 date: 2026-04-20
-lastmod: 2026-04-20
+lastmod: 2026-04-28
 draft: false
 description: "Ohio datacenter opposition — New Albany hyperscaler concentration, St. Albans Township zoning ban, environmental and energy concerns, tax abatement scrutiny, and the political economy of rapid hyperscaler expansion in the Midwest."
 tags: ["ohio", "new-albany", "hyperscale", "zoning-ban", "energy-consumption", "tax-subsidies"]
 categories: ["state"]
 research_area: "datacenter-opposition"
-last_reviewed: 2026-04-20
+source_urls:
+  - "https://signalohio.org/ohio-data-center-boom-faces-political-resistence/"
+  - "https://signalohio.org/data-centers-have-claimed-2-5-billion-in-tax-breaks-since-2017-report-says/"
+  - "https://spectrumnews1.com/oh/columbus/news/2026/02/22/data-centers--impact-on-the-environment-"
+  - "https://www.theregister.com/2026/03/18/ohio_datacenter_petition/"
+  - "https://www.wosu.org/2026-01-19/columbus-will-become-second-largest-data-center-hub-in-the-great-lakes-region-report-says/"
+  - "https://www.datacenterfrontier.com/site-selection/article/33035576/data-centers-are-booming-in-ohios-digital-heartland"
+last_reviewed: 2026-04-28
 stale_after_days: 90
 ---
 
