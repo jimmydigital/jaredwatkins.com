@@ -22,6 +22,9 @@ last_reviewed: 2026-04-19
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Google Quantum AI is Google's internal quantum computing research and hardware program, founded in 2012 by Hartmut Neven at NASA Ames Research Center in partnership with NASA and the Universities Space Research Association (USRA). The program manufactures superconducting transmon qubits in-house and has produced four generations of processors: Foxtail (2017, 22 qubits), Bristlecone (2018, 72 qubits), Sycamore (2019, 53 qubits), and Willow (2024, 105 qubits). Google has made two high-profile claims of quantum advantage: the 2019 "quantum supremacy" demonstration on Sycamore and the 2024 "below-threshold" error correction and RCS benchmark on Willow. Both claims are contested. In March 2026 Google expanded its hardware program to include neutral atom qubits as a second modality.

@@ -19,6 +19,9 @@ last_reviewed: 2026-04-24
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Kairos Power, an Albuquerque, New Mexico advanced reactor developer, is pioneering **molten-salt-cooled** small modular reactors (SMRs) explicitly designed for data center and industrial heat applications. The company's Hermes design produces ~50 MWe at the core, with the unique capability of operating at high temperatures (650–750°C) that enable efficient electricity generation **plus** process heat for hydrogen production, desalination, or industrial processes.

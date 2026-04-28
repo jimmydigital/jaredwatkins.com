@@ -15,6 +15,9 @@ last_reviewed: 2026-03-26
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Mercury Systems is the leading US supplier of commercial-off-the-shelf (COTS) rugged processing subsystems for defense applications, transforming commercial silicon from NVIDIA, Intel, AMD, and Xilinx into MIL-spec embedded computing modules that survive the thermal, vibration, and EMI environments of military aircraft, ships, and vehicles. With approximately $900M in annual revenue and sole-source positions on numerous signal processing and electronic warfare programs, Mercury occupies a critical chokepoint in the DoD's ability to field AI-capable sensing and weapons platforms. It is not a defense prime — it supplies the compute building blocks that primes integrate into systems — but its sole-source positions make it as strategically important as many primes.

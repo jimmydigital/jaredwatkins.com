@@ -16,6 +16,9 @@ last_reviewed: 2026-04-25
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Core Systems is a San Diego, California company that designs, builds, and tests rugged compute hardware for vehicle, airborne, and maritime deployments. Its primary product is the ATMOS Series — a stackable, modular server architecture where individual compute nodes can be linked via a proprietary chassis rail system. ATMOS targets command vehicles, forward operating bases, and mobile operations requiring AI inference capability in platforms with strict SWaP constraints.

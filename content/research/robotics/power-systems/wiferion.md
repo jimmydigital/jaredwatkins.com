@@ -16,6 +16,9 @@ stale_after_days: 180
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Wiferion is a Freiburg im Breisgau, Germany developer of inductive wireless charging systems for industrial autonomous mobile robots (AMRs) and automated guided vehicles (AGVs). Founded in 2016, the company commercialized an "etaLINK" floor-embedded or pad-mounted inductive charging architecture that allows AMR fleets to charge automatically during natural pauses in operation ("opportunity charging") without operator intervention. The company's ownership history is unusual: Wiferion was acquired by Tesla in June 2023 for an undisclosed amount, then sold by Tesla to PULS GmbH (a Munich-based DIN rail power supply manufacturer, part of the PULS Group) on October 1, 2023. Wiferion's engineers remained at Tesla; only the business, brand, technology rights, and patents transferred to PULS. It now operates as the PULS Wireless business unit, with its operational team based in Freiburg. **Note:** The task briefing for this entry stated Wiferion was "Acquired by Würth Elektronik (Würth Group subsidiary) in 2022" — research found the actual acquirer was PULS GmbH in 2023, with Tesla as an intermediary owner.

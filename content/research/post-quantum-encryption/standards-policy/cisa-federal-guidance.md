@@ -15,6 +15,9 @@ last_reviewed: 2026-04-24
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Overview: Two Tracks for Federal Agencies
 
 The U.S. federal government's PQC transition has two parallel tracks:

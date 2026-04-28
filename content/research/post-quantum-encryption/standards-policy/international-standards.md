@@ -17,6 +17,9 @@ last_reviewed: 2026-04-24
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Overview: Global Standards Divergence & Alignment
 
 As of April 2026, the post-quantum cryptography standardization landscape is **largely converging** on NIST's FIPS algorithms at the technical level, but significant **geopolitical and strategic divergence** exists at the policy and national sovereignty level. Europe is largely harmonizing with NIST; the UK is aligned; China is charting an independent course.

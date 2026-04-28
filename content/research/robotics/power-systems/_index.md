@@ -15,6 +15,9 @@ sitemap:
   disable: false         # Set to true to exclude a page
 ---
 
+> **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
+
+
 ## Overview
 
 Robot power systems are a derivative market: almost all robotics battery cells are sourced from the same manufacturers supplying EVs and grid storage (Samsung SDI, LG Energy Solution, CATL, BYD, Panasonic/Murata), with robotics-specific value added at the pack integration and BMS layer. The exception is LiPo cells for drones, where Grepow/Tattu has developed a focused OEM position. The more differentiated opportunities are in hydrogen fuel cells (Intelligent Energy, Doosan Mobility Innovation are genuine robotics specialists), wireless charging infrastructure (Wiferion, WiBotic), and the emerging opportunity in solid-state cells that could transform drone endurance if they reach commercial production. The supply chain overlaps substantially with the energy section — see [Energy: Batteries]({{< relref "/research/energy/batteries/_index.md" >}}) for raw materials and cell-level detail.

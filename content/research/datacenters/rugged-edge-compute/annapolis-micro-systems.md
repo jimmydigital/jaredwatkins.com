@@ -16,6 +16,9 @@ last_reviewed: 2026-04-25
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Annapolis Micro Systems is an Annapolis, Maryland company specializing in FPGA-based rugged OpenVPX boards and chassis for defense signal processing and high-performance data acquisition. The company's WILD100 EcoSystem provides a complete, SOSA-aligned portfolio of rugged 3U and 6U OpenVPX boards, backplanes, and chassis — including a liquid-cooled (VITA 48.4 LFT) 3U chassis. Annapolis is positioned as a specialist component/subsystem supplier to defense primes and government labs requiring FPGA-accelerated DSP at the signal processing front end.

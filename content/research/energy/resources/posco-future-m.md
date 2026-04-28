@@ -16,6 +16,9 @@ last_reviewed: 2026-03-24
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 POSCO Future M is a South Korean battery materials company and the only South Korean firm that produces both cathode and anode active materials — the two core electrode materials in lithium-based batteries. It is a subsidiary of the POSCO Group (South Korea's largest steelmaker), giving it access to upstream metals supply chains and significant manufacturing capital. POSCO Future M supplies cathode and anode materials to major cell manufacturers (Samsung SDI, LG Energy Solution, SK On) and automakers (GM), and signed an MOU with Factorial Energy in December 2025 for solid-state battery materials development — creating a direct supply chain link between POSCO Future M and the solid-state battery space.

@@ -19,6 +19,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Joby Aviation (NYSE: JOBY) is the leading eVTOL air taxi developer in the United States, founded in 2009 by JoeBen Bevirt in Santa Cruz, California. The company's S4 aircraft — a five-seat, six-tilt-rotor design — is the furthest advanced eVTOL platform in the FAA type certification process, reaching Stage 4 in November 2025. With $894M invested by Toyota, a DoD AGILITY Prime contract worth up to $163M, an exclusive US/UK airline partnership with Delta Air Lines, and a Part 135 air carrier certificate already in hand, Joby is targeting commercial launch in 2026.

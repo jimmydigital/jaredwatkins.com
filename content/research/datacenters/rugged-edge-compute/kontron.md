@@ -16,6 +16,9 @@ last_reviewed: 2026-03-31
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Kontron AG is the leading European supplier of ruggedized embedded computing systems for defense and aerospace applications. Operating as a publicly traded (Xetra: KTN, SDAX) subsidiary of the Austrian S&T AG technology holding (rebranded Kontron AG in 2022), the company specializes in transforming commercial COTS components into MIL-spec and NATO-qualified mission-critical computing platforms for military aircraft, ground vehicles, naval systems, and tactical edge deployments. The µDARC tactical microserver and HARAKAN VPX mission computer represent Kontron's entry into the lower-SWaP (Size, Weight, Power, and Cost) tactical edge segment, competing directly with US vendors Mercury Systems, One Stop Systems, and Curtiss-Wright, but with the strategic advantage of ITAR-free European design and a strong NATO customer base across Allied militaries.

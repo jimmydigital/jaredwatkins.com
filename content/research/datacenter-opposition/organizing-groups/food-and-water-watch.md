@@ -11,6 +11,9 @@ last_reviewed: 2026-04-20
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Overview
 
 Food & Water Watch is a national advocacy organization focused on protecting water resources and food systems from corporate overreach. In 2025–2026, the organization elevated datacenters to a strategic priority, becoming the first major national environmental organization to call for a **complete federal moratorium on new datacenter construction**.

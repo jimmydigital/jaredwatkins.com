@@ -21,6 +21,9 @@ related:
   - "energy/batteries/orient-power.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 GSL Energy is a Chinese BESS manufacturer founded in 2011, headquartered in Shenzhen with R&D and manufacturing facilities in Huizhou. The company produces LiFePO4-based battery systems ranging from 5.12 kWh residential wall-mounted units to 5 MWh liquid-cooled containerized systems for grid-scale applications. GSL Energy operates a factory-direct sales model globally, serving 138+ countries with over 4,500 installed systems across residential, commercial, industrial, and utility segments. The company competes primarily on cost, delivery speed, and supply chain accessibility rather than advanced chemistry, similar to Orient Power — reflecting the growing commoditization of LFP BESS hardware and direct-sales pressure on Western integrators.

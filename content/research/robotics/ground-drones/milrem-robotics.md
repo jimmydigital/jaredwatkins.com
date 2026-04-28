@@ -19,6 +19,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Milrem Robotics (Tallinn, Estonia) is Europe's leading military UGV developer, producing the THeMIS tracked unmanned ground vehicle and the heavier Type-X Robotic Combat Vehicle (RCV). Founded by Kuldar Väärsi in 2013, the company has grown into a major NATO-aligned defense robotics supplier with deployments across 16 countries including 8 NATO members. In February 2023, UAE state defense company EDGE Group acquired a 50% controlling stake in Milrem — the largest foreign investment in Estonia's defense industry. German armor maker Krauss-Maffei Wegmann (KMW) holds 24.9%. The EU conducted a five-month security review of the EDGE Group acquisition and issued safeguards in July 2023 permitting continued Milrem participation in EU defense programs. Ukraine has received 150+ THeMIS UGVs via a Dutch-led procurement initiative. The company leads the iMUGS2 consortium, which secured approximately €50 million in European Defence Fund (EDF) funding for next-generation modular UGV development.

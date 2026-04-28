@@ -14,6 +14,9 @@ last_reviewed: 2026-04-25
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 DFI is a Taiwan-based industrial computing company with roots in PC motherboard manufacturing (it was historically a consumer motherboard brand before pivoting to industrial compute). Today DFI designs and manufactures rugged fanless industrial computers, embedded single-board computers (SBCs), and GPU-capable edge AI platforms for industrial automation, transportation, gaming machine, medical device, and defense-adjacent markets. DFI is notable for its breadth of platform types — from small embedded SBCs to full GPU AI inference appliances — and for its focus on the gaming and kiosk machine markets (a significant Taiwan embedded compute specialty) alongside more traditional industrial applications.

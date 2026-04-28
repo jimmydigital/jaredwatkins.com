@@ -21,6 +21,9 @@ related:
   - "energy/batteries/_index.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Contemporary Nebula Technology Energy Co., Ltd. (CNTE) is a Chinese BESS system integrator founded in 2019 and backed by CATL, the world's largest EV battery manufacturer. Headquartered in Fuzhou, Fujian Province, CNTE manufactures lithium iron phosphate (LFP) energy storage systems across commercial, industrial, and residential scales, with annual production capacity of 12 GWh. The company is notable for combining CATL's cell technology with its own system integration expertise, creating a vertically integrated supplier that competes in grid-scale and C&I markets. In March 2026, CNTE unveiled the STAR H-PLUS Outdoor Liquid-Cooled All-in-One Energy Storage System at KEY ENERGY 2026 in Rimini, Italy, marking an aggressive entry into European markets. A strategic partnership announced at Intersolar Europe 2025 with YOU.ON ENERGIA SA signals CNTE's intent to capture global market share through local distribution partnerships.

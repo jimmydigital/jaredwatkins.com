@@ -18,6 +18,9 @@ stale_after_days: 180
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 > **Note:** This company is Chinese-owned. Performance claims and publicly reported figures should be treated with additional skepticism until independently verified by non-affiliated third parties.
 
 ## Summary

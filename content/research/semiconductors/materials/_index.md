@@ -15,6 +15,9 @@ last_reviewed: 2026-04-24
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
+
+
 {{< steering >}}
 
 **Scope:** Companies supplying raw materials, specialty chemicals, gases, and substrates consumed in wafer fabrication. Includes silicon wafers, photoresists (ArF, EUV), specialty process gases (NF3, WF6, silane), CMP slurries, photomask blanks, and advanced packaging materials (underfills, solder, adhesives). Out of scope: fabrication equipment (see fabrication-equipment/ section); wafer testing and packaging equipment.

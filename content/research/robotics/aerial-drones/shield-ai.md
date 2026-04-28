@@ -27,6 +27,9 @@ related:
   - "robotics/aerial-drones/_index.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Shield AI is a San Diego-based defense technology company developing AI-powered autonomy software and platforms for unmanned systems. Founded in 2015 by former Navy SEAL Brandon Tseng, his brother Ryan Tseng, and Andrew Reiter, Shield AI has evolved from a compact autonomous quadcopter company into a platform software provider and UAS manufacturer with significant US Department of Defense contracts and international military adoptions. The company's flagship product is **Hivemind**, a modular autonomy software stack enabling unmanned aircraft, loitering munitions, rotorcraft, and collaborative swarms to operate autonomously in GPS-denied and communications-limited environments using reinforcement learning and visual odometry. The company's principal hardware platform is the **V-BAT** (MQ-35A), a Group 3 VTOL tactical UAS operational across nearly all US Navy ship classes and six allied navies (Japan, Netherlands, India, South Korea, Singapore, and others). In October 2025, Shield AI unveiled the **X-BAT**, a supersonic VTOL autonomous fighter aircraft concept intended as a Collaborative Combat Aircraft (CCA) platform for the US Air Force. The company reached a $5.6 billion post-money valuation in an extended Series F-1 funding round in March–April 2025 and holds over $950 million in US Air Force contracts under the JADC2 program umbrella. Gary Steele, former CEO of Splunk and President at Cisco, became CEO in May 2025, succeeding Ryan Tseng, who transitioned to President and Chief Strategy Officer.

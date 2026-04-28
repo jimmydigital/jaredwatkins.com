@@ -15,6 +15,9 @@ sitemap:
   disable: false
 ---
 
+> **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
+
+
 {{< steering >}}
 
 ## Quantum Computing Section — Steering Instructions

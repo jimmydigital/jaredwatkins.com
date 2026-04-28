@@ -16,6 +16,9 @@ last_reviewed: 2026-04-24
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Capstone Green Energy Holdings (NASDAQ: CGEH), headquartered in Van Nuys, California, is the primary U.S. manufacturer of micro-turbines — small, air-bearing natural gas generators in the 65 kW to 1 MW range. The company's core products use patented foil air bearings (no lubricating oil required), a single moving part, and a compact form factor that makes them attractive for Combined Heat and Power (CHP) applications in commercial buildings, hospitals, industrial facilities — and colocation data centers.

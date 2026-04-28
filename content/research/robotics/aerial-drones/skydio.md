@@ -23,6 +23,9 @@ related:
   - "robotics/aerial-drones/_index.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Skydio is a San Jose, California manufacturer of small unmanned aircraft systems (sUAS) focused on autonomous flight technology for defense, public safety, and enterprise applications. Founded in 2014 by Adam Bry, Abraham Bachrach, and Matt Donahoe, Skydio has positioned itself as the primary US-based alternative to DJI in the tactical small UAS market. The company's flagship platform is the X10 (commercial) and X10D (defense-specific) — 4.7 lb tactical drones with six 32MP navigation cameras, NVIDIA Jetson Orin compute, FLIR thermal imaging, and proprietary autonomy software for obstacle avoidance and autonomous mission execution. The X10D is certified on the Department of Defense Blue UAS Cleared List. In March 2026, the US Army placed a record $52+ million single-vendor procurement order for 2,500+ X10D systems — the largest tactical sUAS purchase in Army history. Skydio has raised $715 million across seven funding rounds (as of November 2024) at a $2.5 billion valuation. Key investors include Andreessen Horowitz, DoCoMo, NVIDIA, Axon, and KDDI.

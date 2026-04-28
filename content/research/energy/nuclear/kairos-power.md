@@ -19,6 +19,9 @@ related:
   - "datacenters/power-infrastructure/_index.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Kairos Power is an Alameda, California Gen IV nuclear developer founded in 2016. Its KP-FHR (Kairos Power Fluoride salt-cooled High-temperature Reactor) uses TRISO fuel pebbles suspended in a liquid fluoride salt coolant — a fundamentally different approach from light water reactors and sodium fast reactors. The Hermes Low-Power Demonstration Reactor at Oak Ridge, Tennessee began nuclear safety-related construction in May 2025 — the first non-water-cooled reactor approved for construction in the United States in over 50 years, and the first Gen IV reactor to break ground in the US. In August 2025, Google, TVA, and Kairos announced a three-way PPA for Hermes 2 (the commercial follow-on, 50 MW) to power Google's Tennessee Valley datacenters starting in 2030 — the first US utility PPA for Gen IV nuclear power. Kairos's deal with Google calls for 500 MW of advanced nuclear capacity online by 2035.

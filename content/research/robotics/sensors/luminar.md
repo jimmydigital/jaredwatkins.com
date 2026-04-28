@@ -17,6 +17,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Luminar Technologies (NASDAQ: LAZR, now LAZRQ in bankruptcy) was an Orlando/Palo Alto LiDAR developer best known for its 1550nm Iris sensor targeted at automotive OEM integration. Founded in 2012 by Austin Russell (then 17 years old) with a Thiel Fellowship, Luminar secured partnerships with Volvo, Mercedes-Benz, and NVIDIA before its Volvo production program unraveled in late 2025. The company filed voluntary Chapter 11 bankruptcy on December 15, 2025, after Volvo terminated its LiDAR supply agreement in November 2025, citing Luminar's failure to meet contractual obligations. Luminar's semiconductor subsidiary was agreed to be sold to Quantum Computing Inc. for $110 million as part of the restructuring. The company represents a cautionary case for the difficulty of scaling automotive-grade LiDAR to production volumes.

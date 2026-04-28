@@ -16,6 +16,9 @@ last_reviewed: 2026-04-17
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Bitcoin uses ECDSA secp256k1 (legacy addresses) and Schnorr/BIP-340 (Taproot) for transaction signing — both fully quantum-vulnerable via Shor's algorithm. The mining/consensus layer (SHA-256 proof-of-work) has only a quadratic quantum speedup via Grover's algorithm, a far lesser and more distant concern. The primary threat is to transaction signing and — critically — to the large fraction of existing UTXOs whose public keys are already visible on-chain.

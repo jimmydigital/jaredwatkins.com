@@ -15,6 +15,9 @@ last_reviewed: 2026-04-24
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Overview
 
 **JSR Corporation** (Tokyo Stock Exchange: 4185; formerly traded, now private) is the world's largest supplier of ArF (argon fluoride) and EUV (extreme ultraviolet) photoresists—chemicals essential to printing circuit patterns on silicon wafers at advanced process nodes (5nm and below).

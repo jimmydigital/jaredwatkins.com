@@ -15,6 +15,9 @@ sitemap:
   disable: false         # Set to true to exclude a page
 ---
 
+> **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
+
+
 ## Overview
 
 This section documents the upstream raw materials and key suppliers that feed into the battery technologies tracked in the [batteries research area]({{< relref "../batteries/_index.md" >}}). The editorial focus is on understanding supply chain concentration risks and strategic positioning — particularly where a company's mineral dependency (or mineral independence) is a competitive differentiator.

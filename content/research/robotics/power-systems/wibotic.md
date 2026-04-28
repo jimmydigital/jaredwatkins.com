@@ -16,6 +16,9 @@ stale_after_days: 180
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 WiBotic is a Seattle, Washington startup founded in 2015 as a spinout from the University of Washington's Sensor Systems Lab (Professor Joshua Smith's lab). The company develops adaptive resonant inductive wireless charging systems for autonomous mobile robots and drones, allowing robots to autonomously charge without plug-in intervention. Its OC-110 onboard charger (up to 125W) and TR-110 transmitter pad form the core product for lighter robot and drone applications; the TR-110 PowerPad can be embedded in floors or landing pads for fully autonomous charge cycles. WiBotic remains a private independent company as of March 2026, having raised a Series A in 2022 and additional seed funding through 2024–2025. A strategic partnership with Nabtesco Corporation for distribution in Japan was announced in 2023. **Note:** The task briefing stated WiBotic was "Acquired by Vertiv Holdings (VRT) in 2023" — no public record of such an acquisition was found; available sources confirm WiBotic remains independent.

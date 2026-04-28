@@ -18,6 +18,9 @@ related:
   - "datacenters/cooling/_index.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Submer Technologies is a Barcelona, Spain-based single-phase immersion cooling company founded in 2015 by Daniel Pope and Pol Valls Soler. It is one of the leading independent pure-plays in liquid immersion cooling for datacenters — a market that has moved from niche to mainstream as AI accelerator rack densities exceed what air cooling can handle. Submer's core products are its SmartPod immersion tanks and SmartCoolant proprietary dielectric fluid. The company raised $55.5M in Series C funding in October 2024 at a $500M valuation, led by M&G Investments. Its customer base includes at least one unnamed hyperscaler, Telefónica, ExxonMobil, and the European Commission. Submer is also developing ADA, an autonomous robot designed to insert and remove servers from immersion tanks — see [Submer ADA]({{< relref "/research/datacenters/robotics-automation/submer-ada.md" >}}).

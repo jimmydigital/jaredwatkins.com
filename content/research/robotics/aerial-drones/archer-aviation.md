@@ -18,6 +18,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Archer Aviation (NYSE: ACHR) is a San Jose, California eVTOL developer founded in 2018, building the Midnight air taxi — a six-tilt-rotor aircraft targeting 60-mile urban range and 150 mph cruise speed. Archer holds a Part 135 air carrier certificate, has delivered test aircraft to the US Air Force under a $142M DoD AGILITY Prime contract, and is building a manufacturing facility in Covington, Georgia via a contract manufacturing agreement with Stellantis worth up to $400M. Full FAA type certification is in progress, with commercial launch targeted for Abu Dhabi in 2025–2026 and US operations to follow.

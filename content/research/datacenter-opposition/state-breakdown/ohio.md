@@ -11,6 +11,9 @@ last_reviewed: 2026-04-20
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Overview
 
 Ohio, particularly the New Albany area in Licking County (Central Ohio / Columbus region), has experienced explosive growth in hyperscale datacenter development since 2010. As of April 2026, more than 14 datacenter companies have developed or are developing over 68 datacenters in the New Albany area, with approximately 40 already operational. The region is emerging as one of the largest datacenter hubs in the United States.

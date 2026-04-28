@@ -11,6 +11,9 @@ last_reviewed: 2026-04-20
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Overview
 
 Midwest Environmental Advocates (MEA) is a regional environmental law organization based in Wisconsin that has become a key player in datacenter opposition through legal action focused on **transparency and public records access**. Rather than opposing datacenters outright, MEA's core strategy is to force disclosure of facility specifications, energy demand, water consumption, and environmental impact data through litigation under state open records laws.

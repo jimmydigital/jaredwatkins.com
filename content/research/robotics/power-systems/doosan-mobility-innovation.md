@@ -17,6 +17,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Doosan Mobility Innovation (DMI) is a South Korean developer and manufacturer of hydrogen fuel cell-powered commercial drones, operating as a subsidiary of the Doosan Group conglomerate. Its DS30W platform — a hydrogen fuel cell-powered octocopter — is marketed as the world's first mass-produced hydrogen fuel cell drone, with approximately 2 hours of flight endurance. In December 2024, Doosan announced a planned merger of DMI with Doosan Fuel Cell Power to consolidate its hydrogen business.

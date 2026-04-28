@@ -14,6 +14,9 @@ sitemap:
   disable: false         # Set to true to exclude a page
 ---
 
+> **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
+
+
 ## Overview
 
 Compute platforms designed to operate outside controlled datacenter environments — aboard aircraft, naval vessels, ground vehicles, and in field-portable configurations. The primary driver is AI inference at the tactical edge: military/intelligence customers need GPU-accelerated processing co-located with sensors (radar, sonar, EO/IR cameras) rather than transmitting data to a cloud datacenter. The secondary driver is commercial aviation/maritime AI (predictive maintenance, autonomous navigation support). All companies here sell primarily to defense primes or directly to DoD/allied militaries.

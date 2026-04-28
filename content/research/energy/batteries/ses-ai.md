@@ -21,6 +21,9 @@ related:
   - "energy/batteries/solid-state-batteries.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 SES AI Corporation (NYSE: SES) is a Boston-based lithium-metal battery company founded in 2012 by MIT researchers. The company has taken a distinctive approach to the dendrite problem by combining a lithium-metal hybrid cell architecture (liquid electrolyte with engineered protective layers) with AI-powered battery management software that detects and responds to dendrite formation in real time. SES has secured strategic investment and partnerships from General Motors, Hyundai Motor Company, and Honda, and is the only lithium-metal company with three major OEM joint development agreements (A-sample, B-sample) signed simultaneously. The Apollo cell (417 Wh/kg, 107 Ah) was demonstrated in 2021 as the world's first 100+ Ah lithium-metal cell. As of end-2022, the company held ~$390M in liquidity. B-sample development facility in Ui-Wang, South Korea announced (2025); mass production targeted early 2030s.

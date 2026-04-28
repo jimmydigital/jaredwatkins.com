@@ -16,6 +16,9 @@ stale_after_days: 180
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Persistent Systems LLC is a New York City-based private company that develops and manufactures Wave Relay MANET (Mobile Ad-hoc Network) tactical communications radios. Founded in 2007 by Johns Hopkins PhD graduates Herbert Rubens and David Holmer, Persistent Systems built its Wave Relay waveform out of graduate research into distributed wireless systems. The MPU5 — its current flagship radio — is described by the company as "the world's first Smart Radio," combining MANET networking with an integrated Linux computer. MPU5 and the Wave Relay waveform are deployed with US Army, SOCOM, US Air Force, US Navy (unmanned surface vessel programs), and the UK Royal Marines, making Persistent Systems the principal US competitor to Silvus Technologies (acquired by Motorola Solutions for $4.4B in 2025) in the defense MANET radio market.

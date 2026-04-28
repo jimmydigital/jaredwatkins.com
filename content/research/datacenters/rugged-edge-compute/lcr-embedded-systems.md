@@ -16,6 +16,9 @@ last_reviewed: 2026-04-25
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 LCR Embedded Systems is a US defense ATR chassis and integrated systems supplier with over 35 years of proven program history. The company designs and builds rugged VPX chassis, backplanes, and integrated systems in conduction-cooled, air-cooled, and liquid-cooled configurations. LCR serves as a critical supply chain enabler: defense primes who buy Mercury Systems or Curtiss-Wright VPX compute modules still need a chassis integrator to package them into mission-ready ATR enclosures. In October 2025, LCR announced a VITA 46.11-compliant chassis manager with open-source code enabling rapid in-field firmware upgrades — a differentiator in programs requiring field maintainability.

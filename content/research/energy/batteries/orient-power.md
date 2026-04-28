@@ -17,6 +17,9 @@ related:
   - "energy/batteries/_index.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Orient Power (legal entity: Zhuhai OTE Electronic Technology Co., Ltd.) is a Chinese manufacturer founded in 2014, operating under the Orient Power and Jakiper brands. The company produces LiFePO4-based battery systems ranging from 12 V residential packs to containerized 5 MWh grid-scale BESS. In early 2026 the company announced CE certification on its megawatt-class container systems, marking a regulatory milestone that opens the European market to its direct-from-factory sales model. Orient Power is not notable for advancing battery chemistry — it competes on cost and supply chain accessibility, selling directly to installers and integrators without the distributor markups typical of Western BESS suppliers.

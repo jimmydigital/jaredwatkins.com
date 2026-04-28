@@ -18,6 +18,9 @@ sitemap:
   disable: false
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Overview
 
 [Subscribe via RSS](/research/changelog/index.xml)

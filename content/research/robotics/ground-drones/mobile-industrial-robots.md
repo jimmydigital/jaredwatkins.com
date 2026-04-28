@@ -17,6 +17,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Mobile Industrial Robots A/S (MiR) is an Odense, Denmark-based autonomous mobile robot manufacturer, founded in 2013 and acquired by Teradyne (NASDAQ: TER) in 2018 for $148M. Now part of Teradyne's Industrial Automation segment alongside Universal Robots, MiR produces a fleet of AMRs from 250 kg to 1,350 kg payload capacity and markets them to manufacturing, logistics, and healthcare customers. The company reported ~$77M in revenue for 2022 and operates through 220+ global distributors and certified integrators.

@@ -19,6 +19,9 @@ related:
   - "datacenters/robotics-automation/softbank-robot-rack.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Formant is a San Francisco cloud robotics platform founded in 2018 by Jeff Linnell and a team of alumni from Google Robotics, Savioke, and Redwood Robotics. The company provides a software layer above individual robots — handling fleet management, teleoperation, mission tasking, incident management, and AI-driven analytics across heterogeneous robot deployments. It is not a robot manufacturer; it is the orchestration and observability platform that sits between robots on the floor and the operations teams monitoring them. SoftBank Robotics America is a named customer. Formant has raised $45M through a Series B in October 2023, led by BMW i Ventures with participation from Intel Capital. Its relevance to datacenter robotics automation is as the likely software layer for any multi-robot datacenter servicing program — if SoftBank (or others) deploy AMRs for server handling at Tomakomai or similar facilities, Formant-class platforms are the natural fleet management solution.

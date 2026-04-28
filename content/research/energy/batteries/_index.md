@@ -15,6 +15,9 @@ sitemap:
   disable: false
 ---
 
+> **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
+
+
 ## Overview
 
 Tracks advances in battery chemistry and storage technology, with a focus on solid-state batteries, lithium-sulfur chemistry, and the companies and researchers pushing energy density and cycle life forward. Also covers the grid-scale battery energy storage (BESS) market — from Chinese factory-direct integrators to Western software-differentiated players — because stationary storage is where most battery volume is deployed today.

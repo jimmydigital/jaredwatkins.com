@@ -15,6 +15,9 @@ last_reviewed: 2026-04-17
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Ethereum's quantum exposure is more uniform than Bitcoin's: because Ethereum uses an account model, **any account that has ever sent a transaction has already revealed its ECDSA public key**. Unlike Bitcoin's UTXO model where unspent, never-spent addresses retain some hash-based protection, a large fraction of actively-used Ethereum accounts are immediately quantum-vulnerable. The consensus layer (validators using BLS12-381 signatures) and the data availability layer (KZG commitments in EIP-4844) are also quantum-vulnerable.

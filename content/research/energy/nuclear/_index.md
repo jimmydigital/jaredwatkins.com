@@ -15,6 +15,9 @@ sitemap:
   disable: false         # Set to true to exclude a page
 ---
 
+> **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
+
+
 ## Overview
 
 Tracks small modular reactor (SMR) developers and advanced nuclear technologies, with particular focus on companies pursuing faster, cheaper deployment models and the emerging AI datacenter power demand that is accelerating commercial nuclear investment. Traditional large nuclear (1 GW+ plants) is covered only where relevant to SMR supply chain or regulatory precedent.

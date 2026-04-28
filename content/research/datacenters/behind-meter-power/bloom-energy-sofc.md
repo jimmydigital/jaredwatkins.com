@@ -18,6 +18,9 @@ last_reviewed: 2026-04-24
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Bloom Energy is a San Jose, California-based fuel cell company (NASDAQ: BE) developing and deploying Solid Oxide Fuel Cells (SOFC) for distributed power generation. The company's flagship product, Bloom Energy Server 5, is a 500 kW power module (scalable in stacks) that converts natural gas, biogas, or hydrogen into electricity with ~60% electrical efficiency. As of 2025, Bloom has deployed ~1.5 GW of installed capacity across 1,200+ installations globally, with data centers representing the fastest-growing segment. Major datacenter customers include Apple, Google, Samsung, Equinix (100+ MW across 19 facilities), and Oracle (2.8 GW master services agreement expanded April 13, 2026; initial 1.2 GW contracted and deploying). The company is on track to reach 2 GW annual production capacity by end of 2026, driven primarily by hyperscaler datacenter demand. Brookfield Asset Management's $5 billion investment (2025) signals confidence in Bloom's ability to scale "AI factories" globally.

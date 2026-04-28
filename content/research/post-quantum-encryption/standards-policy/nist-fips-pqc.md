@@ -16,6 +16,9 @@ last_reviewed: 2026-04-24
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## The NIST Standardization Timeline
 
 NIST's post-quantum cryptography standardization process took eight years from conception to first finalized standards, reflecting the rigor required for cryptographic algorithms that will protect critical infrastructure for decades.

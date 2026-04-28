@@ -18,6 +18,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Boston Dynamics (Waltham, MA) is a Hyundai Motor Group subsidiary and the world's best-known advanced robotics company, founded by MIT professor Marc Raibert in 1992 after spinning out of MIT's leg laboratory. Its three current commercial products are Spot (quadruped inspection robot, $74,500), Stretch (logistics box-handling robot), and Atlas (electric humanoid, pre-commercial as of early 2026). Hyundai acquired majority control in 2021 for approximately $1.1 billion and plans to deploy Atlas in its own manufacturing facilities from 2028. CEO Robert Playter retired in February 2026 after 30 years at the company; Amanda McMaster (CFO) serves as interim CEO.

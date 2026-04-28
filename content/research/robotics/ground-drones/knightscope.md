@@ -16,6 +16,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Knightscope (NASDAQ: KSCP) is a Mountain View, California company that develops and deploys autonomous security robots — the K1 (stationary kiosk), K3 (indoor patrol), K5 (outdoor patrol), and K7 (newly announced all-terrain outdoor). The company operates on a Machine-as-a-Service (MaaS) recurring subscription model, typically $7–9/hour per robot. Full-year 2025 revenue was $11.3M (up 5%), with a net loss of $33.8M — a widening gap that reflects the challenge of scaling a capital-intensive subscription robot business. CEO William Santana Li co-founded the company in 2013 and has remained at the helm through multiple years of cash-burning growth.

@@ -15,6 +15,9 @@ sitemap:
   disable: false         # Set to true to exclude a page
 ---
 
+> **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
+
+
 ## Overview
 
 Tracks breakthrough technologies and key players in the energy transition — with a focus on solar generation, battery storage, and the companies and researchers driving progress.

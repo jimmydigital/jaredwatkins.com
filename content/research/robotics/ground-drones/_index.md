@@ -15,6 +15,9 @@ sitemap:
   disable: false         # Set to true to exclude a page
 ---
 
+> **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
+
+
 ## Overview
 
 The ground robot market splits into three commercially distinct segments that share some technology but operate in largely separate competitive environments: warehouse and logistics AMRs (autonomous mobile robots), outdoor and field robots (agricultural, delivery, security, construction), and defense UGVs. The AMR segment is the largest by deployed units and revenue, is growing rapidly, and is heavily contested between Western companies and Chinese manufacturers — particularly Geek+ — that compete primarily on price and deployment scale. The defense segment is smaller but carries higher margins and longer contract durations.

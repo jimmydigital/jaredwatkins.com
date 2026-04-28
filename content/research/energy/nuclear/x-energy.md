@@ -19,6 +19,9 @@ related:
   - "datacenters/power-infrastructure/_index.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 X-energy is a Rockville, Maryland advanced nuclear company founded by Kam Ghaffarian, developing the Xe-100 — a pebble-bed high-temperature gas-cooled reactor (HTGR) that produces 80 MWe per unit. Four units are typically deployed together as a 320 MWe "4-pack" plant. The Xe-100 uses TRISO fuel pebbles in a helium-cooled core operating at 750°C — high enough to provide industrial process heat as well as electricity, making it the only SMR design explicitly targeting industrial decarbonization (chemical plants, refineries, industrial campuses). Dow Chemical is the anchor deployment partner: Dow and X-energy submitted a NRC construction permit application in March 2025 for a 4-pack (320 MW) at Dow's Seadrift, Texas chemical complex, docketed by the NRC in May 2025 with an 18-month review schedule. Amazon anchored a $500M Series C-1 in October 2024; X-energy raised $700M in Series D in November 2025. X-energy's TRISO-X subsidiary is constructing the TX-1 HALEU fuel fabrication facility in Oak Ridge, Tennessee — the first commercial-scale HALEU fuel plant in the US, which is a critical supply chain dependency for the entire HALEU-dependent SMR sector.

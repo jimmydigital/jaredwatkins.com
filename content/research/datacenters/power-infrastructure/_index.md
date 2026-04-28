@@ -15,6 +15,9 @@ sitemap:
   disable: false         # Set to true to exclude a page
 ---
 
+> **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
+
+
 ## Overview
 
 Power availability has displaced fiber connectivity as the primary datacenter site selection constraint. A 1 GW campus (now routinely announced by hyperscalers) requires as much electricity as a medium-sized city. Grid interconnection queues in the US now run 4–7 years in many regions, forcing operators to source power through alternative pathways: behind-the-meter natural gas turbines, nuclear power purchase agreements (PPAs), and — increasingly — commitments to small modular reactors (SMRs). The energy intensity of AI workloads (GPU clusters running 24/7 at near-maximum utilization) also eliminates the load variability that traditional demand-response programs relied on, making power infrastructure planning more deterministic but also more demanding.

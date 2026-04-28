@@ -18,6 +18,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Carbon Robotics (Seattle, WA) develops the LaserWeeder — a tractor-pulled implement that uses AI-guided CO₂ lasers to eliminate weeds in specialty vegetable crops without herbicides or soil disturbance. Founded in 2018 by Paul Mikesell (serial entrepreneur, ex-Isilon Systems co-founder), the company has raised $70M+ in funding. The LaserWeeder G2, launched in 2024, offers double the operating speed of the original and supports widths from 6.6 to 60 feet with 30 lasers. A 2024 peer-reviewed study confirmed that laser weeding reduced weed biomass by ≥97% — comparable to conventional herbicide applications.

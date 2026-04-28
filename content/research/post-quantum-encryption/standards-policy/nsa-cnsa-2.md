@@ -14,6 +14,9 @@ last_reviewed: 2026-04-24
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Overview: NSM-10 and CNSA 2.0 Relationship
 
 On May 4, 2022, the White House issued [National Security Memorandum 10 (NSM-10)](https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2022/05/04/national-security-memorandum-on-promoting-united-states-leadership-in-quantum-computing-while-mitigating-risks-to-vulnerable-cryptographic-systems/), directing all U.S. federal agencies to begin planning and executing a transition to quantum-resistant cryptography. This memorandum set a policy mandate.

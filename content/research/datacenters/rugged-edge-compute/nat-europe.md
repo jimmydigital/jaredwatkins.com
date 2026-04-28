@@ -17,6 +17,9 @@ last_reviewed: 2026-04-25
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 N.A.T. GmbH (trading as NAT Europe) is a Hennef, Germany-based specialist in MicroTCA Carrier Hub (MCH) design. The NAT-MCH product line is the reference MCH for European particle accelerator control systems (CERN, DESY, PSI) and has expanded to 5G RAN timing, defense, and quantum computing control infrastructure. Their 4th-generation NAT-MCH-G4 family (announced 2023–2024) introduces PCIe Gen 4/5 fat pipe, 100 GbE optical uplinks, and enhanced GPS/PTP/SyncE clocking — the most capable AMC-form MCH announced as of mid-2024.

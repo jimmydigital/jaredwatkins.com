@@ -15,6 +15,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Flux Power Holdings (NASDAQ: FLUX) is a Vista, California developer and manufacturer of lithium iron phosphate (LFP) battery packs for industrial material handling equipment — primarily electric forklifts, airport ground support equipment (GSE), and autonomous mobile robots (AMRs). Founded in 1998, the company shifted from lead-acid to lithium-ion replacement over the past decade and has built a recurring revenue business model around fleet battery management. FY2025 revenue was $66.4M (+9% YoY). Flux Power assembles battery packs at its Vista, CA facility, but the LFP cells themselves are sourced primarily from Chinese manufacturers — a supply chain structure common across the US industrial battery sector but relevant to the supply chain risk profile.

@@ -19,6 +19,9 @@ related:
   - "datacenters/power-infrastructure/_index.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 TerraPower is a Bellevue, Washington nuclear technology company founded in 2008 by Bill Gates and Nathan Myhrvold. Its Natrium reactor is a 345 MW sodium-cooled fast reactor coupled with a 500 MWh molten salt thermal storage system — enabling the facility to dispatch up to 500 MW for short periods to meet peak demand, or hold output steady at 345 MW for baseload. The NRC completed its final safety evaluation for the Kemmerer, Wyoming construction permit in December 2025 and issued the construction permit; non-nuclear site construction is already underway. The training center at the Kemmerer site began construction in August 2025. Commercial operation is targeted for 2030. If it reaches commercial operation on schedule, Kemmerer Unit 1 will be the first utility-scale advanced nuclear power plant in the United States — a major milestone for the entire sector.

@@ -15,6 +15,9 @@ related:
   - "energy/solar/_index.md"
 ---
 
+> **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
+
+
 ## Summary
 
 Caelux is a Mountain View, California-based solar technology company founded in 2006, specializing in concentrated photovoltaic (CPV) systems. The company develops high-efficiency multijunction photovoltaic cells (III-V semiconductors: GaAs-based, multi-layer junctions) integrated into concentrating optical systems with dual-axis sun-tracking. Light is concentrated 500×–1000× onto small, high-efficiency cells, enabling system-level efficiencies exceeding 40% under direct normal irradiance (DNI). Caelux targets utility-scale solar farms in high-DNI regions (Southwest US, MENA, India, Australia) where concentrated direct sunlight dominates and diffuse radiation is minimal. The concentrating and tracking approach requires different site selection and operational profiles than conventional flat-plate PV, but offers superior efficiency and land-use economics in suitable climates.

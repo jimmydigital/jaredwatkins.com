@@ -23,6 +23,9 @@ related:
   - "datacenters/power-infrastructure/_index.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Digital Realty Trust (NYSE: DLR) is the largest global colocation and interconnection REIT by portfolio size, operating 310+ data centers across 50+ metropolitan markets in 25+ countries on six continents. Founded in 2004 when GI Partners contributed 21 data centers acquired through post-dot-com bankruptcy auctions, the company went public in November 2004 at approximately $257M and has since grown through a combination of organic development, acquisition, and an increasingly active joint venture strategy. As of FY2025, Digital Realty generated $6.08 billion in revenue (up ~12% year-over-year) and delivered Core FFO of $7.39 per share (up ~10% over 2024). Its market capitalization of approximately $62 billion as of early April 2026 reflects the market's pricing of its position as the infrastructure layer underneath the global AI buildout.

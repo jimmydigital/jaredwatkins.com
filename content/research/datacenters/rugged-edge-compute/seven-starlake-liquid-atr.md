@@ -16,6 +16,9 @@ last_reviewed: 2026-04-25
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 The 7Starlake 7SL-3500 is a 3U OpenVPX ATR chassis with an integrated, self-contained liquid cooling system compliant with the VITA 48.4 Liquid Flow-Through (LFT) standard. The key differentiator over earlier liquid-cooled ATR products is the closed-loop architecture: the coolant pump, heat exchanger, and reservoir are packaged within the chassis itself, eliminating dependence on external facility coolant or platform cooling infrastructure. The system supports up to 500 W total thermal design power in a platform that claims 10× greater thermal efficiency than air-cooled systems of comparable size.

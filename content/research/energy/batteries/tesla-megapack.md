@@ -21,6 +21,9 @@ related:
   - "energy/batteries/_index.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Tesla Megapack is a utility-scale battery energy storage system (BESS) manufactured and deployed by Tesla Energy, a division of NASDAQ-listed Tesla (TSLA). The Megapack product line uses LiFePO4 (LFP) chemistry arranged in container form factors ranging from 2–6 hour durations; the current flagship is the Megapack 2 XL (3.9 MW / 15.6 MWh per unit). Manufactured at Tesla's Megafactory in Lathrop, California, with additional production now ramping in Shanghai and planned for Texas, Megapack is the world's largest or #2 global BESS integrator by shipment volume, competing directly with Chinese suppliers Sungrow and BYD. Megapack is significant not as a chemistry innovator but as the Western market price benchmark: its manufacturing scale, LFP transition, domestic U.S. content strategy under the Inflation Reduction Act, and pricing relative to Chinese competitors are critical context for evaluating global BESS cost competitiveness.

@@ -18,6 +18,9 @@ last_reviewed: 2026-04-24
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 GE Vernova Gas Power (the gas power division of GE spun into standalone GE Vernova in 2024) is the market leader in aeroderivative gas turbines for data center behind-the-meter (BTM) power. The company's LM2500XPRESS and LM6000 turbines—derivatives of jet engines originally designed for military and commercial aircraft—deliver 35–65 MW per unit with five-minute fast-start capability and high thermal efficiency.

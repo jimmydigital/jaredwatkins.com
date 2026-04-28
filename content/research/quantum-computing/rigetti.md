@@ -22,6 +22,9 @@ last_reviewed: 2026-04-07
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Rigetti Computing (NASDAQ: RGTI) is a publicly traded superconducting quantum computing company founded in 2013 and headquartered in Berkeley, California. It is one of the few quantum hardware companies to operate its own semiconductor fabrication facility — Fab-1 in Fremont, CA — which it uses to design and build its own QPUs. Rigetti sells cloud access to its quantum processors via its proprietary Quantum Cloud Services (QCS) platform, as well as through AWS Braket and Azure Quantum. As of Q1 2026, the company is financially stressed: revenue has declined for three consecutive years, reaching $10.8M in FY2024, while it carries substantial annual operating losses ($68.5M in 2024). Its largest QPU to date is the 84-qubit Ankaa-3 (December 2024); a 36-qubit modular Cepheus-1-36Q chiplet system was announced in mid-2025. The company has a documented history of missing its own published roadmap milestones by wide margins.

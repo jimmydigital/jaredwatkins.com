@@ -19,6 +19,9 @@ related:
   - "datacenters/power-infrastructure/_index.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 GE Vernova Hitachi Nuclear Energy (GEH) is a joint venture between GE Vernova and Hitachi, Ltd. that designs and markets the BWRX-300 — a 300 MW electric boiling water SMR derived from GE's established BWR/6 and ESBWR designs. The BWRX-300 is the most commercially advanced Western SMR in active construction: the Canadian Nuclear Safety Commission (CNSC) issued Ontario Power Generation (OPG) a construction license on April 4, 2025, and the Province of Ontario granted final provincial construction approval on May 8, 2025 — making Darlington Unit 1 the first grid-scale SMR to receive full construction authorization in North America. Commercial operation is targeted for end of 2029. The BWRX-300 is simultaneously in active licensing or siting processes in Poland, the UK, Sweden, Estonia, and multiple US utility programs (Tennessee Valley Authority, SaskPower in Canada). Its LWR technology base and significant design heritage from the licensed ESBWR give it the strongest NRC/CNSC licensing track record of any advanced reactor currently in deployment.

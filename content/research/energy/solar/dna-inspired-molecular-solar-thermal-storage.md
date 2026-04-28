@@ -15,6 +15,9 @@ last_reviewed: 2026-03-23
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Researchers at UC Santa Barbara have developed a modified pyrimidone molecule that stores solar energy directly in its chemical bonds and releases it as heat on demand — achieving a record energy density of more than 1.6 MJ/kg, exceeding that of lithium-ion batteries. The breakthrough advances the field of Molecular Solar Thermal (MOST) energy storage and was published in *Science* in February 2026.

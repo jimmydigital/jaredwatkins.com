@@ -15,6 +15,9 @@ last_reviewed: 2026-03-26
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Anduril Industries is the most significant new entrant to the defense prime market in a generation — a pure software/AI-first defense company that builds complete autonomous weapon and sensor systems, with Lattice OS as the AI command-and-control software layer running across its platforms. In the context of this research section, Anduril is relevant primarily through its Menace-T and Menace-X tactical edge C4 systems, which are the highest-integration-level rugged compute offerings in this section: not bare compute modules (Mercury, Curtiss-Wright) or compute servers (OSS), but complete deployable C4 systems with compute, networking, and AI software in a package deployable by a single operator. The $20B US Army enterprise contract awarded March 2026 for Lattice as the Army's open AI battlefield network is the single largest signal of where DoD AI-at-the-edge investment is heading. Anduril's March 2026 acquisition of ExoAnalytic Solutions extends Lattice's sensor fusion reach to space domain awareness.

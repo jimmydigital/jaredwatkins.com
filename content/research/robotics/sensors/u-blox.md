@@ -16,6 +16,9 @@ stale_after_days: 180
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 u-blox (formerly SIX Swiss Exchange: UBXN) is a Thalwil, Switzerland-based designer of GNSS positioning chips and modules, and cellular IoT communication modules. It was taken private by US private equity firm Advent International in November 2025 for CHF 1.05 billion ($1.3B). The company's F9 and M9 GNSS module families — particularly the ZED-F9P with centimeter-level RTK accuracy — are pervasive in drone navigation, autonomous mobile robots, precision agricultural equipment, and ground vehicle positioning. u-blox does not manufacture its own chips; it is a fabless design house that outsources production to semiconductor foundries and contract manufacturers. Its cellular module line (SARA, LARA series) positions it as a full connectivity supplier for robotics platforms.

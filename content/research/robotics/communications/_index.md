@@ -15,6 +15,9 @@ sitemap:
   disable: false         # Set to true to exclude a page
 ---
 
+> **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
+
+
 ## Overview
 
 Communications is a layer where robotics splits sharply along use-case lines. Consumer and commercial drones use proprietary protocols or commodity ISM-band radios. Industrial AMRs rely on enterprise WiFi. Outdoor field robots are increasingly cellular-connected. Defense platforms demand encrypted, low-probability-of-intercept/detect (LPI/LPD) MANET radios that are tightly controlled and US-export restricted. The cellular IoT module layer is particularly notable: Quectel, a Chinese company, has captured an estimated 30–35% of the global cellular module market, creating a systemic dependency that is now drawing scrutiny from Western governments and enterprises concerned about data security in connected robots.

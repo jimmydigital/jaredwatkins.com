@@ -18,6 +18,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Ghost Robotics (Philadelphia, PA) is a defense-focused quadruped robot developer, founded in 2015 by University of Pennsylvania roboticists. Its Vision 60 Q-UGV is deployed by the US Air Force (Tyndall AFB perimeter security), US Army, and Marine Corps Special Operations Command (MARSOC). In 2024, South Korean defense electronics company LIG Nex1 acquired a 60% controlling stake for $240M, implying a $400M company valuation. The Vision 60's SWORD Defense SPUR (Special Purpose Unmanned Rifle) variant — a rifle-equipped quadruped — generated controversy but has been tested by Marine special operators.

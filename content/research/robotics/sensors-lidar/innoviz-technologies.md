@@ -17,6 +17,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Innoviz Technologies (NASDAQ: INVZ), headquartered in Rosh HaAyin, Israel, develops solid-state automotive LiDAR sensors and perception software for L2+ through L4 autonomous driving. Founded in 2016 by a team of Israeli defense technology veterans including CEO Omer Keilaf, Innoviz has secured production design-wins with BMW and Volkswagen — two of the highest-profile automotive LiDAR commitments in the industry. The InnovizOne sensor, manufactured in series production by Magna Electronics, powers the BMW i7's L3 Personal Pilot feature (launched March 2024) — one of the world's first series-production L3 autonomous driving systems. Nine InnovizTwo sensors per vehicle are integrated into the Volkswagen ID.Buzz AD autonomous vehicle program. Revenue has grown rapidly from a low base: FY2024 $24.5 million, FY2025 $55.1 million (approximately 2x year-over-year growth).

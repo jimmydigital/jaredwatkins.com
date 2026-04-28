@@ -14,6 +14,9 @@ last_reviewed: 2026-04-25
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 EdgeCortix is a Tokyo-headquartered (with US presence in Santa Clara) fabless semiconductor startup developing dedicated AI inference accelerator chips and add-in modules for edge deployments. The company's flagship product line is the SAKURA series — PCIe and M.2 AI accelerator cards built on its proprietary Dynamic Neural Accelerator (DNA) chip architecture. EdgeCortix targets applications where GPU-class inference performance is needed but GPU power consumption and size are prohibitive: defense embedded compute, unmanned systems, autonomous vehicles, robotics, and industrial AI. The company has positioned SAKURA specifically for defense and security markets, with a US DoD / NATO ally customer focus.

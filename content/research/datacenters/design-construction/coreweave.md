@@ -22,6 +22,9 @@ related:
   - "datacenters/power-infrastructure/_index.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 CoreWeave is the largest "neocloud" — a specialized AI GPU cloud provider sitting between traditional hyperscalers (AWS, Azure, GCP) and pure colocation operators — in the AI infrastructure market. The company was founded in 2017 in New Jersey as Atlantic Crypto by four commodities traders: Michael Intrator (CEO), Brian Venturo (Chief Strategy Officer), Brannin McBee (Chief Development Officer), and Peter Salanki (CTO). At its peak in 2018, Atlantic Crypto was one of the largest Ethereum miners in North America, deploying thousands of NVIDIA GPUs across seven data centers. The 2018–2019 "crypto winter" triggered the pivot: the founders recognized their GPU hardware inventory was more valuable as cloud compute infrastructure than as mining equipment, and in 2019 they pivoted to offering GPU-as-a-service (GPUaaS) to AI and HPC customers, rebranding as CoreWeave in 2021. This origin story — a crypto mining company that accidentally became AI infrastructure — closely parallels Crusoe's stranded-gas-to-AI-factory arc.

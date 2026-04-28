@@ -23,6 +23,9 @@ related:
   - "datacenters/cooling/_index.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Corgan is a Dallas-based, employee-owned architecture and engineering firm founded in 1938 that has become the dominant design firm for large-scale datacenter infrastructure. The firm established its critical facilities practice in 1979 — designing its first datacenter for US Tel Communications Switching Center — and has since completed more than 1,200 datacenter projects encompassing over 15 million square feet. Building Design + Construction ranked Corgan the #1 Data Center Architecture Firm in both 2024 and 2025, a position driven by the firm's integrated architecture-and-engineering model, its depth of repeat-client relationships with major colocation operators, and its ability to compress construction schedules through prefabricated modular approaches. In 2024, Corgan's datacenter revenue reached approximately $135 million — more than double the ~$61 million it reported in 2020 — reflecting the AI infrastructure buildout's direct impact on design-firm demand. Approximately 300 of its 1,200 employees now work on datacenter projects.

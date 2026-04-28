@@ -19,6 +19,9 @@ related:
   - "datacenters/cooling/_index.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Applied Digital (NASDAQ: APLD) is a Dallas, Texas AI datacenter developer and operator founded in 2021 by Wes Cummins (Chairman & CEO) and Jason Zhang (President). The company designs, builds, and operates purpose-built AI compute facilities — which it calls "AI Factories" — for hyperscalers and cloud infrastructure providers. Its differentiation is a combination of proprietary waterless direct-to-chip cooling, a concentration in low-cost power markets (North Dakota stranded wind power), and an execution-focused development model it claims enables faster time-to-power than larger incumbents. Applied Digital has 100 MW of live capacity, 900 MW under construction, and a pipeline exceeding 3.5 GW of utility power. Its two North Dakota campuses — Polaris Forge 1 (Ellendale, 250 MW, leased to CoreWeave, ~$7B over 15 years) and Polaris Forge 2 (Harwood, 280 MW, ~$5B over 15 years with an unnamed investment-grade US hyperscaler) — are its flagship projects. Macquarie Asset Management is providing up to $5B in perpetual preferred equity financing for the buildout.

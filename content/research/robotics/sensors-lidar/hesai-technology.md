@@ -18,6 +18,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 > **⚠️ Chinese-owned company.** Hesai Technology is incorporated in the Cayman Islands and listed on NASDAQ but is operationally headquartered in Shanghai, China, with R&D and manufacturing in China. The company has been designated under Section 1260H of the National Defense Authorization Act as a company contributing to the Chinese defense industrial base. As of early 2026, Hesai is appealing this designation; the US District Court upheld the listing in 2025. Exercise appropriate due diligence before commercial, government, or defense-adjacent procurement.
 
 ## Summary

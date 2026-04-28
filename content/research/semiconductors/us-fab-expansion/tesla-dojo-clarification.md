@@ -15,6 +15,9 @@ last_reviewed: 2026-04-24
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Executive Summary
 
 **Finding:** Tesla does **NOT** operate or plan to operate its own wafer fabrication facility (fab). Tesla's Dojo AI training chips (D1 tile, custom training accelerators) are manufactured entirely by **TSMC** using foundry services. There is no evidence of an announced or planned Tesla-owned/operated wafer fab for Dojo or any other purpose as of April 2026.

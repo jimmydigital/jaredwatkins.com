@@ -16,6 +16,9 @@ stale_after_days: 180
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Ballard Power Systems (NASDAQ: BLDP) is a Burnaby, BC, Canada-based PEM (proton exchange membrane) fuel cell developer focused primarily on heavy transport electrification — buses, commercial trucks, rail, and marine vessels. It is one of the longest-standing fuel cell companies (founded 1979) and holds substantial IP in PEM fuel cell design and manufacturing. Weichai Power, a Chinese state-owned enterprise, is Ballard's largest shareholder (strategic investment since 2018), a relationship that has generated both capital and geopolitical complexity. Ballard's direct robotics relevance is limited: its former drone/UAS fuel cell subsidiary (Ballard Unmanned Systems) was sold to Honeywell in 2020 and is no longer part of Ballard. The company's FY2025 revenue was $99.4M (+43% YoY), driven by bus and rail deliveries. Cash position is strong at ~$530M with no debt, providing a long runway.

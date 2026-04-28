@@ -18,6 +18,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Wingcopter GmbH is a Darmstadt, Germany-based developer of tilt-rotor VTOL fixed-wing hybrid drones, founded in 2017 by Tom Plümmer (CEO), Jonathan Hesselbarth (CTO), and Ansgar Kadura (COO). Its flagship Wingcopter 198 combines vertical takeoff/landing capability with fixed-wing cruise efficiency, enabling payload deliveries of up to 6 kg over 75–110 km range in a single flight. The company has been active in humanitarian medical drone delivery (UNICEF Vanuatu, Malawi) and announced a 12,000-unit sub-Saharan Africa deployment partnership in 2022, though full execution remains in early stages.

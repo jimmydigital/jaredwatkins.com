@@ -19,6 +19,9 @@ last_reviewed: 2026-04-03
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Corintis is a Lausanne, Switzerland–based startup spun out of EPFL's POWERlab that develops microfluidic cooling systems for high-power AI and HPC chips. Rather than resting a conventional cold plate atop a chip, Corintis etches microscopic channels — roughly 100 microns in diameter — directly into or just above the silicon die, routing coolant precisely to each thermal hotspot using AI-optimized flow topologies. The approach matters because conventional cold plates and air cooling are nearing physical limits at modern GPU power levels, and Corintis's chip-integrated path is positioned as a step toward the long-range datacenter target of 1 MW per rack.

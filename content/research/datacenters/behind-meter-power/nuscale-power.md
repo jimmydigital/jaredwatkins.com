@@ -17,6 +17,9 @@ last_reviewed: 2026-04-24
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 NuScale Power (NYSE: SMR) is a Portland, Oregon-based small modular reactor developer and the only SMR company to receive a **Standard Design Approval (SDA)** from the U.S. Nuclear Regulatory Commission — the most advanced regulatory milestone of any non-operating advanced reactor developer. The VOYGR plant uses 77 MWe pressurized water reactor modules, up to 12 per plant (924 MWe total).

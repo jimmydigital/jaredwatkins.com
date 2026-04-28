@@ -15,6 +15,9 @@ last_reviewed: 2026-04-25
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 The Galleon XSR Half-Rack Server is a 3U military-grade Network Attached Storage (NAS) platform combining high-capacity storage (up to 80TB), high-speed networking (dual 100 Gigabit Ethernet option), and FIPS-140-2 hardware encryption in a half-rack footprint. Designed for C5ISR (Command, Control, Communications, Computers, Combat Intelligence, Surveillance, Reconnaissance) deployments aboard naval vessels, ground vehicles, and stationary command centers, the XSR is purpose-built for environments where data capture speed, storage density, and security are mission-critical and space is limited.

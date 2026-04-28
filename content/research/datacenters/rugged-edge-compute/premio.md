@@ -14,6 +14,9 @@ last_reviewed: 2026-04-25
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Premio is a San Jose, California-based designer and manufacturer of rugged industrial computing platforms for edge AI, IoT, and industrial automation applications. The company occupies the semi-industrial and light-mil-spec tier of rugged compute: fanless enclosures, wide-temperature operation, and MIL-STD-810H vibration/shock qualification for transportation, defense-adjacent, and industrial markets. Premio's JCO Series (NVIDIA Jetson Orin NX/AGX Orin based) and RCO Series (Intel/AMD x86 with discrete GPU, featuring its proprietary EDGEBoost I/O expansion architecture) represent the two main tiers of its edge AI portfolio.

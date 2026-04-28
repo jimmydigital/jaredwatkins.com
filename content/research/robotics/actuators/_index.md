@@ -15,6 +15,9 @@ sitemap:
   disable: false         # Set to true to exclude a page
 ---
 
+> **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
+
+
 ## Overview
 
 Actuators are the muscles of robots — the subsystems that convert electrical (or hydraulic, or pneumatic) power into controlled mechanical motion. The actuator supply chain is one of the most geopolitically interesting layers in robotics because it combines deep Japanese and Swiss precision manufacturing dominance, a structural rare earth chokepoint in China, and a growing set of startups attempting to build the next generation of high-performance, integrated joint modules. Most robotics performance ceilings — force density, speed, precision, repeatability — are ultimately bounded by actuator technology, making this a critical layer for understanding competitive differentiation.

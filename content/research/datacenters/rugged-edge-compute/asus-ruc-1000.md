@@ -16,6 +16,9 @@ last_reviewed: 2026-04-25
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 The ASUS RUC-1000 series is a dual-form-factor rugged edge AI compute platform launched in 2026. The RUC-1000G is a full-width 2U server that supports up to 600W GPUs (NVIDIA RTX PRO 6000 Blackwell) with PCIe 5.0 connectivity, targeting high-density edge AI inference clusters. The RUC-1000D is a half-rack fanless embedded variant with passive cooling and hot-swappable storage, optimizing for space-constrained deployments. Both models feature Intel Core Ultra 200S processors and DDR5 memory, positioning the RUC-1000 as a modern architecture update to established industrial edge compute lines.

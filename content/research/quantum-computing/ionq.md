@@ -21,6 +21,9 @@ last_reviewed: 2026-04-05
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 IonQ (NASDAQ: IONQ) is a publicly traded trapped-ion quantum computing company founded in 2015 and headquartered in College Park, Maryland. It uses individual ytterbium ions suspended in electromagnetic traps as qubits, achieving all-to-all connectivity — every qubit can interact with every other — a physical advantage over superconducting architectures that use nearest-neighbor connectivity. IonQ's systems are commercially available on all three major cloud platforms (AWS Braket, Azure Quantum, Google Cloud Marketplace). The company is undergoing rapid strategic expansion: in early 2026 it acquired Skyloom Global (optical communications for quantum networking) and announced a pending $1.8B acquisition of SkyWater Technology (semiconductor foundry), aiming for vertical integration from qubit fabrication through cloud delivery.

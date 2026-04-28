@@ -17,6 +17,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Endeavor Robotics, now operating as the ground robotics division of Teledyne FLIR Defense, is the US military's primary supplier of medium and large explosive ordnance disposal (EOD) and reconnaissance unmanned ground vehicles. The company traces its lineage to iRobot's defense unit — creators of the original PackBot, first deployed in Afghanistan in 2002 — which was spun off in 2016 as a standalone entity, acquired by FLIR Systems for approximately $385 million in 2019, and absorbed into Teledyne Technologies' $8 billion FLIR acquisition in 2021. The Centaur (the MTRS Inc. II program-of-record robot) has been delivered to all four US military branches, with 1,800+ units produced and over $250 million in total orders. In September 2024, Teledyne FLIR Defense captured contracts worth up to $47 million to sustain and expand its full ground robot fleet across the US government.

@@ -11,6 +11,9 @@ last_reviewed: 2026-04-20
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Overview
 
 Virginia hosts the world's largest concentration of datacenters, particularly in Northern Virginia ("Data Center Alley"), spanning Loudoun and Prince William counties and adjacent areas. This dominance makes Virginia both a laboratory for datacenter opposition tactics and a flashpoint for policy debates over tax incentives, grid reliability, and water consumption.

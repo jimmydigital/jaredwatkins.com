@@ -17,6 +17,9 @@ related:
   - "energy/batteries/donut-lab.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Verge Motorcycles is a Finnish electric motorcycle company founded in 2018, best known for its hubless in-wheel motor design. The company is the launch customer and co-development partner for Donut Lab's solid-state battery technology — effectively the same corporate family. The 2026 TS Pro Evolution is the vehicle through which Donut Lab's cells are entering production, making Verge Motorcycles notable primarily as the real-world validation platform for one of the most scrutinised solid-state battery claims in the industry. Verge provides the use case; Donut Lab provides the power source; both are controlled by the same founders.

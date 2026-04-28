@@ -23,6 +23,9 @@ related:
   - "datacenters/power-infrastructure/_index.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 CyrusOne is a Dallas-headquartered colocation datacenter operator with 55+ facilities across North America and Europe. The company was founded in 2000, spun out of Cincinnati Bell, and became a publicly traded REIT (ticker: CONE) in January 2013. In March 2022, KKR and Global Infrastructure Partners (GIP) took the company private in an all-cash buyout valued at approximately $15 billion ($90.50/share). GIP was subsequently acquired by BlackRock in October 2024, making CyrusOne jointly held by KKR and BlackRock's infrastructure platform. Though the tags reflect its REIT heritage, CyrusOne is now a private infrastructure company — a fact material to understanding its financing, governance, and disclosure posture.

@@ -15,6 +15,9 @@ related:
   - "energy/solar/_index.md"
 ---
 
+> **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
+
+
 ## Summary
 
 Ubiquitous Energy is a Santa Monica, California-based photovoltaic technology company founded in 2010, focused on developing transparent photovoltaic (PV) windows and building-integrated solar solutions. The company's core technology, ClimateSmart Glass, integrates photovoltaic cells into transparent glazing that converts solar radiation into electricity while maintaining optical transparency — enabling windows to generate power without blocking views or natural light. In April 2023, Ubiquitous Energy was acquired by Sekisui Chemical, a Japanese materials and building products conglomerate with significant expertise in construction materials and glazing systems, providing manufacturing scale and distribution channels.

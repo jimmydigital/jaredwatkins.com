@@ -20,6 +20,9 @@ related:
   - "semiconductors/_index.md"
 ---
 
+> **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
+
+
 ## Summary
 
 Lasertec Corporation is a Yokohama, Japan-based manufacturer of inspection and measurement equipment for the semiconductor industry, founded in 1960 and listed on the Tokyo Stock Exchange (TSE: 6920). The company holds a near-monopoly position — estimated at 90% or higher global market share — in EUV (extreme ultraviolet) photomask inspection, including the world's only commercially available actinic inspection system, which uses the same 13.5nm wavelength as EUV lithography itself to detect defects at resolutions impossible with conventional optical tools. This technological position makes Lasertec a critical single point of dependency in the EUV supply chain: without qualified mask inspection, chipmakers cannot verify the photomasks required for manufacturing chips at 7nm and below — the nodes used for advanced AI processors, mobile SoCs, and HPC chips.

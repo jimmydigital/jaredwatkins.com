@@ -14,6 +14,9 @@ last_reviewed: 2026-04-25
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 {{< steering >}}
 **Scope:** Siemens Energy's gas turbine portfolio (SGT series, 40–200+ MW class) and modular power plant architecture for data center BTM. Focus on product portfolio, market positioning, Eaton partnership, competitive dynamics vs. GE Vernova/Wärtsilä.
 

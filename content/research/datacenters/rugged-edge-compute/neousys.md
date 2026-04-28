@@ -14,6 +14,9 @@ last_reviewed: 2026-04-25
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Neousys Technology is a Taiwan-based manufacturer of rugged embedded computers and edge AI inference platforms, operating as a subsidiary of Advantech, the global industrial computing giant. Neousys builds fanless, wide-temperature compute systems that target transportation, surveillance, energy, defense-adjacent, and industrial AI applications where commercial servers cannot survive the environment and VPX military-grade systems are over-engineered and over-priced. The SEMIL-2200 and SEMIL-2200GC Series are Neousys's semi-industrial (fanless, vibration-resistant) AI edge server platforms targeting outdoor and vehicle-side deployments, offering discrete NVIDIA GPU inference in an IP54 or IP65-rated enclosure without fans or other moving parts.

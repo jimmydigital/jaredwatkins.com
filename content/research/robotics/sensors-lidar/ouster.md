@@ -17,6 +17,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Ouster (NYSE: OUST), headquartered in San Francisco, California, is the combined company formed by the February 2023 merger of Ouster and Velodyne Lidar — the two largest US-based independent LiDAR manufacturers. The merged company retained the Ouster name and ticker. Angus Pacala, Ouster's original co-founder and CEO, leads the combined entity. Ouster's digital LiDAR architecture uses a custom CMOS chip (the REV7 ASIC) to enable photon detection across the entire sensor aperture simultaneously, distinguishing it from spinning mechanical LiDAR approaches. FY2024 revenue was $111.1 million, up 33% year-over-year. FY2025 revenue was $169 million (52% growth), including approximately $23 million in one-time IP royalties; core product revenue was $147 million, up 32%. The combined customer base exceeds 850 across automotive, robotics, industrial automation, and smart infrastructure.

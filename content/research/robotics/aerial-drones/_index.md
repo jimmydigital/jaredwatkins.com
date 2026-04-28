@@ -15,6 +15,9 @@ sitemap:
   disable: false         # Set to true to exclude a page
 ---
 
+> **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
+
+
 ## Overview
 
 The commercial drone industry is dominated by a single vertically integrated Chinese company (DJI) at the platform layer, with a growing ecosystem of US and European competitors largely defined by their ability to win government and defense business that DJI cannot access. The more durable investment and analytical interest lives in the component and subsystem layer — motor manufacturers, ESC suppliers, radio system makers, and camera sensor producers — where competitive dynamics are less distorted by a single player's market power.

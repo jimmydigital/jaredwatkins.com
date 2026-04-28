@@ -14,6 +14,9 @@ sitemap:
   disable: false
 ---
 
+> **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
+
+
 ## Overview
 
 Edge AI accelerators are dedicated inference chips and add-in modules — M.2, PCIe, mini-PCIe, or mPCIe form factors — designed to add AI inference throughput to existing compute platforms without replacing the host CPU or GPU. Rather than deploying a complete GPU inference server, an integrator can add an M.2 or PCIe accelerator card to a rugged embedded computer, an industrial PC, a network appliance, or even a single-board computer to gain dedicated neural network inference capacity at low power and small footprint.

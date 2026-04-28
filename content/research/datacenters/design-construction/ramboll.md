@@ -22,6 +22,9 @@ related:
   - "datacenters/design-construction/crusoe.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Ramboll is a Danish multinational engineering, architecture, and consulting firm founded in 1945 and headquartered in Copenhagen. It is majority-owned by the Ramboll Foundation (~96.9% of shares), which insulates it from short-term shareholder pressure and gives it an unusually long investment horizon for R&D and capability-building. With over 18,000 employees across 35+ countries and gross revenue of ~DKK 17 billion (EUR 2.28 billion, 2023), Ramboll is not primarily a datacenter company — it operates across buildings, transport, energy, environment, water, and management consulting. However, it has aggressively built one of the world's largest dedicated datacenter consulting and engineering practices through two strategic acquisitions: EYP Mission Critical Facilities (US, January 2022) and i3 Solutions Group (UK/Singapore, September 2024). The result is a 300+ expert global datacenter practice that has designed 15+ GW of datacenter capacity, supported $60+ billion in due diligence transactions, and completed 1,000+ studies.

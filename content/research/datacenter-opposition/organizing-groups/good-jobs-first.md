@@ -11,6 +11,9 @@ last_reviewed: 2026-04-20
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Overview
 
 Good Jobs First is the leading national watchdog of state and local economic development subsidies. The organization has become a key voice in datacenter opposition, focusing specifically on the tax incentive component of datacenter deals and the lack of transparency surrounding these subsidies.

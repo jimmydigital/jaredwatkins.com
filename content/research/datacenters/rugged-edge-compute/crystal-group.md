@@ -14,6 +14,9 @@ last_reviewed: 2026-04-25
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Crystal Group is a Cedar Rapids, Iowa-based manufacturer of rugged servers, displays, and compute platforms for defense, government, maritime, and industrial markets. Founded in 1987, it is a privately held, US-owned company specializing in military-grade hardware that operates in extreme environments where commercial servers fail. Crystal Group's product line spans rackmount servers, vehicle-mount computers, and blade systems, with GPU-accelerated platforms targeting the AI inference and C4ISR market. Its RE4100 Series rackmount servers and RE1900M vehicle-mount systems are representative of its defense compute portfolio.

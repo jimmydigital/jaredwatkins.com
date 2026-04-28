@@ -21,6 +21,9 @@ related:
   - "robotics/aerial-drones/dji.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Parrot SA (Euronext Paris: PARRO) is a Paris-headquartered micro-unmanned aerial vehicle (micro-UAV) original equipment manufacturer (OEM) serving commercial, government, and defense markets. The company is the manufacturer of two primary platforms: the ANAFI USA (Blue UAS-cleared small tactical reconnaissance system assembled in Massachusetts, NDAA-compliant) and the ANAFI Ai (first off-the-shelf 4G robotic UAV with 48 MP autonomous photogrammetry). In 2025, Parrot launched the ANAFI UKR — a tactical micro-UAV designed specifically for GNSS-denied, electronic warfare (EW) environments with embedded AI navigation, full offline autonomy, and anti-spoofing military radio (MARS). The company reported €79.8 million in consolidated revenues for full-year 2025 (up 6% at constant exchange rates), with the micro-UAV segment contributing approximately €47.9 million (defense-driven). Parrot remains unprofitable, with consolidated EBIT of -€13.1M in H1 2025, but is reducing losses year-over-year. In March 2026, Parrot announced the first NATO Support and Procurement Agency (NSPA) call-off orders for ANAFI UKR systems, with initial shipments to Finnish Defence Forces and a second NSPA-eligible customer commencing in Q1 2026. Henri Seydoux has been founder and sole CEO since 1994.

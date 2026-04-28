@@ -17,6 +17,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Maxon (maxon group), headquartered in Sachseln, Obwalden, Switzerland, is the world's leading manufacturer of precision brushed DC and brushless DC (BLDC) motors for demanding applications in robotics, medical devices, aerospace, and industrial automation. Founded in 1961, the private company employs approximately 3,200 people globally (~1,300 at headquarters) and generates roughly $572 million in annual revenue. Maxon has supplied over 100 drives to NASA Mars missions — including 10 drives for the Perseverance rover and Ingenuity helicopter — establishing its reputation as the precision motor standard for the most demanding environments on Earth and beyond. In response to the humanoid and collaborative robot build-out, maxon launched a new 15-actuator robotics drive systems portfolio (two families: High Efficiency Joints and High Precision Joints) targeting robot integrators building full joint assemblies.

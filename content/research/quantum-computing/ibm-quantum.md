@@ -23,6 +23,9 @@ last_reviewed: 2026-04-06
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 IBM Quantum operates the largest publicly accessible fleet of quantum computers globally. The company manufactures superconducting QPUs and distributes them via IBM Quantum Platform (cloud access, free tier available). IBM's hardware roadmap targets large-scale fault-tolerant quantum computing (FTQC) by 2029 with the "Starling" system (200 logical qubits performing 100 million quantum operations), escalating to "Blue Jay" in 2033+ (2,000+ logical qubits, billion-gate circuits). The technical centerpiece of this roadmap is the bivariate bicycle (BB) quantum low-density parity check (qLDPC) code — a departure from the surface code — which IBM claims reduces physical qubit overhead by ~10× compared to traditional approaches. As of April 2026, IBM has demonstrated qLDPC error correction in laboratory settings and is progressing modular QPU designs (Loon, Kookaburra) toward on-chip qLDPC proof-of-concept. IBM's quantum strategy is vertically integrated: in-house chip design and fabrication, open-source SDK (Qiskit), cloud platform, and research partnerships.

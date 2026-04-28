@@ -16,6 +16,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Innoviz Technologies (NASDAQ: INVZ) is an Israeli solid-state LiDAR developer headquartered in Rosh HaAyin (near Tel Aviv). It is notable for being the first company to achieve series-production automotive LiDAR in a passenger vehicle: its InnovizOne sensor entered production with BMW in 2023 and powers the BMW i7's Level 3 Personal Pilot system. The follow-on InnovizTwo sensor, offering ~300m range at substantially lower cost per unit, is ramping for Volkswagen's ID.Buzz autonomous shuttle program and an undisclosed Class 8 autonomous trucking OEM. Innoviz trades on NASDAQ and is primarily an automotive OEM supplier, with Israeli defense-adjacent roots given its founders' backgrounds in elite IDF technology units.

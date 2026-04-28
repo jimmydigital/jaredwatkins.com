@@ -17,6 +17,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Serve Robotics (NASDAQ: SERV) is a Redwood City, California sidewalk delivery robot company spun out of Uber Eats in 2021. It went public in April 2024. The company operates AI-powered sidewalk delivery robots — running NVIDIA Jetson Orin compute — through commercial partnerships with Uber Eats and 7-Eleven. Daily active robots grew from 57 (Q4 2024) to 547 (Q4 2025), and merchant partners expanded from ~400 to 4,500+. The company projects roughly 10x revenue growth for 2026. Uber retains a 12% stake; NVIDIA held and subsequently exited its investment position.

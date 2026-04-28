@@ -15,6 +15,9 @@ sitemap:
   disable: false         # Set to true to exclude a page
 ---
 
+> **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
+
+
 ## Overview
 
 The conventional datacenter construction playbook — custom-designed facility, long procurement cycles, sequential trades — is being disrupted by the pace of AI infrastructure demand. McKinsey projects $6.7 trillion in cumulative global datacenter capex through 2030, with demand growing at 22% CAGR. Operators cannot build fast enough using traditional methods. The response is a shift toward modular/prefabricated construction, standardized designs that can be replicated across sites, and early contractor involvement to compress timelines. The intersection of high-density AI workloads and construction timelines is creating demand for purpose-designed AI datacenter facilities that differ significantly from legacy enterprise colocation buildings.

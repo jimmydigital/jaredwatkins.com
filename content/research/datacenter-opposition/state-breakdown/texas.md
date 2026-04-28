@@ -11,6 +11,9 @@ last_reviewed: 2026-04-20
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Overview
 
 Texas has experienced a datacenter boom driven by available land, relatively low electricity costs (in ERCOT's deregulated market), and developer interest in proximity to cloud infrastructure. However, unprecedented grid strain and water scarcity concerns have triggered significant community opposition and legislative action.

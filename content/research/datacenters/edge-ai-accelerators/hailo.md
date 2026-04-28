@@ -14,6 +14,9 @@ last_reviewed: 2026-04-25
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Hailo Technologies is a Tel Aviv-based fabless AI chip company developing dedicated edge inference accelerators — the Hailo-8, Hailo-10, and Hailo-15 chip families — available as M.2, PCIe, and mPCIe add-in modules for embedding AI inference into existing compute platforms. Hailo's chips are notable for the highest documented TOPS/watt ratio in the add-in accelerator market: the Hailo-8 delivers 26 TOPS at 2.5W in an M.2 2280 module — enabling AI inference on camera systems, embedded computers, drones, vehicles, and industrial equipment without a GPU. Hailo has achieved broad OEM adoption across automotive ADAS (including Toyota, Denso, and Tier 1 auto suppliers), smart camera vendors, industrial AI companies, and defense-adjacent integrators.

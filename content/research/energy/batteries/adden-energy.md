@@ -17,6 +17,9 @@ related:
   - "energy/batteries/solid-state-batteries.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Adden Energy is a Waltham, Massachusetts startup spun out of Harvard's John A. Paulson School of Engineering and Applied Sciences, where Associate Professor Xin Li's group developed the underlying solid-state cell technology. The company's thin-film lithium-metal cells have demonstrated 10-minute fast charging and over 10,000 charge cycles in lab-scale testing — performance that, if reproduced at production scale, would substantially exceed current lithium-ion in both speed and longevity. As of late 2024, Adden has raised $20M total and is building a pilot production line focused on EV-compatible large-format pouch cells.

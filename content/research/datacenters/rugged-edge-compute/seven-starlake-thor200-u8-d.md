@@ -15,6 +15,9 @@ last_reviewed: 2026-04-25
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 The 7Starlake THOR200-U8-D is a compact 2.5U half-rack Network Attached Storage (NAS) server engineered for extreme-environment aerospace, underwater, and defense deployments. Built around Intel Xeon D processors (8–20 cores, low thermal envelope), it combines eight U.2 NVMe SSD bays (up to 64TB total capacity) with MIL-STD-810 environmental compliance and support for local AI accelerators (GPU/MXM modules). The Xeon D architecture prioritizes industrial real-time workloads and extreme temperature ranges, differentiating it from conventional data center NAS platforms.

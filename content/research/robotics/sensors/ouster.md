@@ -17,6 +17,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Ouster (NYSE: OUST) is a San Francisco digital LiDAR company created by the merger of Ouster and Velodyne Lidar, completed February 10, 2023. The combined entity trades under the Ouster name and ticker and describes itself as the largest Western supplier of LiDAR for robotics. Its primary product line is the OS sensor series (digital rotating LiDAR) built on a proprietary digital-native CMOS architecture, with legacy Velodyne spinning sensors maintained for existing customers. Ouster is the principal Western alternative to Chinese manufacturers Hesai and RoboSense, which have gained dominant global shipment volume through lower pricing anchored in the Chinese automotive market.

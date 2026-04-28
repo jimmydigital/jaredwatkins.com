@@ -17,6 +17,9 @@ related:
   - "energy/batteries/solid-state-batteries.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 ProLogium Technology is a Taiwanese company founded in 2006 that holds the unusual distinction of being both the longest-running and one of the most technically aggressive solid-state battery developers in the industry. The company introduced the world's first 100% ceramic separator in 2013 and has spent two decades refining oxide-based solid-state technology. At CES 2026, it unveiled the Superfluidized All-Inorganic Solid-State Lithium Ceramic Battery, claiming simultaneous performance advantages over all three mainstream solid-state electrolyte approaches. ProLogium's European gigafactory in Dunkirk, France breaks ground in 2026, with mass production targeted for 2028.

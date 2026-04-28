@@ -17,6 +17,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Locus Robotics (Wilmington, MA) is a private warehouse AMR company that developed the LocusBot — a goods-to-robot autonomous mobile robot that guides human pickers to items and carries picked goods through warehouse facilities. The company has raised $438M across eight funding rounds (Series F in November 2022) and has its largest commercial deployment at DHL Supply Chain, where Locus robots collectively exceeded 1 billion warehouse picks as of March 2026. The company conducted layoffs in 2023 and 2024 as pandemic-era e-commerce volumes declined, but maintained its customer base and fleet deployments.

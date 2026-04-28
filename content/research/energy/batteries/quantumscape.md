@@ -22,6 +22,9 @@ related:
   - "energy/batteries/solid-state-batteries.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 QuantumScape (NYSE: QS) is a San Jose, California lithium-metal battery developer pursuing an anode-free cell architecture using a proprietary ceramic separator (Cobra process) and sulfide-based solid electrolyte. The company is the highest-profile independent pure-play in the solid-state space, backed by Volkswagen since 2018 and publicly listed via SPAC in 2020. The QSE-5 cell (5 Ah, 844 Wh/L, 301 Wh/kg) began shipping B1-grade samples to automotive customers in Q3 2025. The Eagle Line pilot production facility was inaugurated in February 2026 and is ramping QSE-5 cell production. Volkswagen Group's PowerCo unit holds a non-exclusive license to produce up to 40 GWh/year (option to 80 GWh), marking QuantumScape's strategic pivot to a capital-light technology licensing model. As of Q1 2026, the company held $904.7M in liquidity and is guiding FY2026 EBITDA loss of −$250M–$275M.

@@ -15,6 +15,9 @@ related:
   - "energy/solar/_index.md"
 ---
 
+> **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
+
+
 ## Summary
 
 Saule Technologies is a Wroclaw, Poland-based photovoltaic technology company founded in 2015, specializing in flexible, lightweight perovskite solar modules manufactured using scalable roll-to-roll printing processes. The company develops perovskite absorber layers (likely halide perovskites, composition optimized for stability) integrated onto flexible plastic substrates (polyethylene naphthalate, PEN, or similar) via continuous printing and coating methods. This approach enables low-cost, high-throughput manufacturing of flexible solar modules suitable for building-integrated photovoltaics (BIPV), lightweight aerospace/automotive applications, IoT sensors, and emergency power systems. Saule targets commercial-scale roll-to-roll production, with modules achieving 18–22% efficiency on flexible substrates — a significant technical achievement for flexible PV.

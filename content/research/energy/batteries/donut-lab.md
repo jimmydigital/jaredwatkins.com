@@ -18,6 +18,9 @@ related:
   - "energy/batteries/solid-state-batteries.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Donut Lab is a Finnish/Estonian technology company that claims to have developed the world's first solid-state battery in production vehicles, powering the 2026 Verge TS Pro motorcycle lineup. The company has attracted significant attention — and skepticism — for its headline claims of 400 Wh/kg energy density and 100,000-cycle life, which have not yet been verified by independent testing. Its corporate relationship with Verge Motorcycles makes it an unusual case: a battery startup with an in-house vehicle platform as its launch customer.

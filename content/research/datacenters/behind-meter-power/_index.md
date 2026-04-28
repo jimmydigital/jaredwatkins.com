@@ -15,6 +15,9 @@ sitemap:
   disable: false
 ---
 
+> **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
+
+
 {{< steering >}}
 **Scope:** Companies selling, developing, or deploying on-site power generation specifically targeting data center customers. Includes natural gas turbines (aeroderivative and heavy-frame), reciprocating engines, micro-turbines, solar+battery storage, fuel cells, small modular reactors (SMRs), microreactors, geothermal, and hybrid systems. Covers both merchant power developers (sell power to DC operators) and OEM equipment vendors (sell generation hardware). Also covers vertically integrated operators that own both power and compute.
 

@@ -17,6 +17,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Harmonic Drive Systems Inc. (Tokyo Stock Exchange: 6324), headquartered in Tokyo, is the world's leading manufacturer of strain wave gearing — the high-precision, zero-backlash gear mechanism that is the dominant joint transmission technology in industrial robot arms, collaborative robots, surgical robots, and increasingly humanoid robots. Founded in 1970, the company holds a wide-moat competitive position (Morningstar designation) as the inventor and primary commercial licensor of the harmonic drive gearing principle. FY2024/3 (ended March 2024) revenue was ¥28.6 billion (~$190M USD). The FY2025/3 forecast was ¥34 billion. 1H FY2026/3 (through September 2025) revenue was ¥27.8 billion, up 4.8% year-over-year — ahead of expectations. The humanoid robot build-out represents a structural demand driver: Tesla's Optimus robot uses 14 harmonic drive joints per unit, and large-scale humanoid production could multiply total market size.

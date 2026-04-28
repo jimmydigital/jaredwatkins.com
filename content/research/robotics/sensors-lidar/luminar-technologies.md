@@ -17,6 +17,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Luminar Technologies (NASDAQ: LAZR), based in Orlando, Florida, was one of the most prominent and well-funded automotive LiDAR startups, pioneering long-range 1550nm LiDAR for production vehicles. The company achieved a landmark milestone when Volvo embedded its Iris LiDAR sensor in the EX90 SUV — the first mass-production vehicle to standardize automotive LiDAR. However, Volvo later reversed this decision, announcing in 2025 that it would not continue with Luminar LiDAR in the EX90 or ES90 from 2026 forward. The loss of Volvo — Luminar's largest customer — alongside unsustainable legacy debt led to a December 15, 2025, Chapter 11 bankruptcy filing in the US Bankruptcy Court for the Southern District of Texas. The company had previously been destabilized by the May 2025 resignation of founder and CEO Austin Russell following a Board ethics inquiry; Russell subsequently expressed intent to bid for the company through Russell AI Labs during the bankruptcy sale process. The LiDAR business is being pursued for sale in bankruptcy; Luminar Semiconductors (chip division) was sold to Quantum Computing Inc. for $110 million.

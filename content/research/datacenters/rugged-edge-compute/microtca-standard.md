@@ -19,6 +19,9 @@ last_reviewed: 2026-04-25
 stale_after_days: 365
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 MicroTCA (Micro Telecommunications Computing Architecture) is an open modular embedded computing standard defined and maintained by PICMG that builds switched-fabric compute systems from Advanced Mezzanine Cards (AMC) plugged directly into a managed backplane. Originally designed for telecom carrier infrastructure, it has expanded to scientific instruments, defense, industrial automation, and 5G edge nodes.

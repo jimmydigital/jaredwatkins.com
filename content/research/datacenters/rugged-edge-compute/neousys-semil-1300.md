@@ -16,6 +16,9 @@ last_reviewed: 2026-04-25
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 The SEMIL-1300 is a passively cooled, IP67-rated 2U half-rack fanless edge AI server designed for harsh-environment deployments. Built on a proven thermal design validated in transportation, industrial ITS, and field-portable scenarios, the SEMIL-1300 combines wide-temperature capability (-40°C to +70°C) with integrated PoE+ power distribution for sensor networks. Available with optional NVIDIA GPU acceleration (Tesla T4, Quadro P2200 variants).

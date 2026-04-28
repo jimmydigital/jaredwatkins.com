@@ -15,6 +15,9 @@ last_reviewed: 2026-04-24
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Overview
 
 **Synopsys Inc.** (NASDAQ: SNPS; headquartered Mountain View, California) is the world's largest Electronic Design Automation (EDA) vendor by revenue and market share. Synopsys provides software tools and services for:

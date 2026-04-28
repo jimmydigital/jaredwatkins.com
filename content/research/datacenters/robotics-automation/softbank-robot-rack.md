@@ -19,6 +19,9 @@ related:
   - "datacenters/cooling/_index.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 SoftBank Corp. announced its "robot-friendly" cable-less server rack in September 2025 — the most commercially concrete realization to date of the infrastructure-first automation philosophy for datacenters. The design eliminates all traditional cable connections from the server-to-rack interface: power, networking, and liquid cooling are all delivered through blind-mate connectors that self-align and engage automatically when a server is pushed into position. A robot can install or replace a server with a single push/pull motion, with no cable manipulation required. The rack conforms to OCP ORV3 specifications and accommodates standard 19-inch servers. Real-world testing began at SoftBank facilities in late 2025; deployment at the Hokkaido Tomakomai AI Data Center is planned for FY2026 (fiscal year ending March 2027). SENKO Advanced Components supplies the blind-mate optical connectors — see [SENKO Advanced Components]({{< relref "senko.md" >}}).

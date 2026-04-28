@@ -17,6 +17,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Monarch Tractor (Livermore, CA) makes the MK-V — the first commercially available, driver-optional, fully electric smart tractor — targeting specialty crop farmers in vineyards, orchards, and vegetable operations. Co-founded by CEO Praveen Penmetsa and fourth-generation winegrower Carlo Mondavi, Monarch raised $220M total (including a $133M Series C in July 2024, the largest fundraise in agricultural robotics at the time). Over 400 MK-V tractors have been deployed, accumulating 42,000+ hours of operation and offsetting an estimated 850+ tonnes of CO₂ emissions versus diesel.

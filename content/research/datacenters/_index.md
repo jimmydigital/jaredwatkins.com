@@ -15,6 +15,9 @@ sitemap:
   disable: false         # Set to true to exclude a page
 ---
 
+> **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
+
+
 ## Overview
 
 Tracks the infrastructure frontier of AI-driven datacenter construction and operation. Focus areas: liquid cooling systems enabling 20–400+ kW/rack densities, robotics and autonomous operations reducing labor dependency, next-generation facility design cutting time-to-power and cost per MW, and alternative power sourcing for the energy intensity of modern AI workloads.

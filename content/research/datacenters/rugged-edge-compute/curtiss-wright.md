@@ -14,6 +14,9 @@ last_reviewed: 2026-03-26
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Curtiss-Wright Defense Solutions is one of the longest-established defense electronics suppliers in the US, providing rugged embedded computing across two complementary tiers: individual VPX GPU compute modules that slot into a prime contractor's chassis, and complete integrated tactical servers (PacStar family) that package compute and tactical communications in a single ruggedized system. The company's VPX3-730 and VPX6-731 are the first SOSA-aligned VPX modules based on NVIDIA's Blackwell architecture (RTX PRO 5000), placing Curtiss-Wright at the front of the SOSA transition wave. Unlike the smaller specialists in this section, Curtiss-Wright operates within a ~$3B publicly traded corporation with deep prime contractor relationships across every DoD branch — a distribution and procurement advantage that smaller competitors cannot match.

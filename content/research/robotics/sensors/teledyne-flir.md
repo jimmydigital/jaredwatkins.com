@@ -17,6 +17,9 @@ stale_after_days: 180
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Teledyne FLIR is the thermal imaging division of Teledyne Technologies (NYSE: TDY), headquartered in Wilsonville, Oregon. FLIR Systems was acquired by Teledyne in 2021 for approximately $8 billion. It is the world's largest volume manufacturer of commercial and defense thermal infrared (IR) imaging sensors and modules, with products ranging from the Lepton (penny-sized OEM module for consumer and commercial drones) to the Boson+ (military-grade uncooled LWIR for UAS, UGV, and defense platforms) to the Neutrino series (cooled, high-performance ISR sensors). Teledyne FLIR maintains a strategic position in the robotics supply chain because thermal imaging is the dominant sensor modality for night operations, target detection, fire monitoring, and machine vision in degraded visual environments, and FLIR holds near-monopoly market share in ITAR-free uncooled OEM thermal modules.

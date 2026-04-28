@@ -23,6 +23,9 @@ related:
   - "energy/batteries/ses-ai.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Why Lithium Metal Matters
 
 Lithium metal has the highest theoretical specific capacity of any anode material: **3,860 mAh/g**, compared to graphite's **372 mAh/g** — a 10× difference per unit weight. Using lithium metal instead of graphite as the anode could increase cell-level energy density by 50–100%, enabling either:

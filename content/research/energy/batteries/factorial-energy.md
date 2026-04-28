@@ -19,6 +19,9 @@ related:
   - "energy/batteries/solid-state-batteries.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Factorial Energy is a Cambridge, Massachusetts-based startup developing two solid-state battery platforms: **FEST®** (Factorial Electrolyte System Technology), a semi-solid/quasi-solid hybrid electrolyte platform validated at 375 Wh/kg with Stellantis; and **Solstice™**, a fully all-solid-state sulfide-based platform targeting up to 450 Wh/kg, developed in partnership with Mercedes-Benz using a dry cathode process. The company has JDAs with Stellantis, Mercedes-Benz, Hyundai, and Kia, and is expanding into drones and robotics. A SPAC merger with Cartesian Growth Corporation III is expected to close mid-2026, listing Factorial on Nasdaq (ticker: FAC) with ~$1.1B pre-money valuation.

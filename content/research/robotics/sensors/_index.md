@@ -15,6 +15,9 @@ sitemap:
   disable: false         # Set to true to exclude a page
 ---
 
+> **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
+
+
 ## Overview
 
 Sensors are the eyes and proprioception of robots. The robotics sensor landscape is undergoing rapid commoditization driven primarily by Chinese LiDAR manufacturers (Hesai, RoboSense) whose price points are compressing the market faster than US and Israeli competitors can respond. At the same time, the GNSS and IMU layers are dominated by near-monopoly suppliers (u-blox for civil GNSS modules, InvenSense/TDK and Bosch for MEMS IMUs) that represent shared infrastructure risk across almost every robot platform. Force/torque sensing — critical for manipulation and human-robot collaboration — is a smaller, more defensible niche.

@@ -18,6 +18,9 @@ related:
   - "datacenters/robotics-automation/softbank-robot-rack.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 FiberSmart Robotics (formerly Wave2Wave Solution Corp) is a Napa, California company founded in 2003 by David Wang that automates optical fiber patch management in datacenters and carrier facilities. Its flagship product, ROME (Robotic Optical Management Engine), deploys two precision robots per unit to manage hundreds of fiber optic patch connections under software control — enabling network reconfiguration via drag-and-drop GUI without human technicians touching physical cables. The company has 100+ customers including Microsoft, Booking.com, Vodafone, KPN, NTT Group, Salesforce, and Fujitsu; Microsoft has cited $500,000 in annual savings per unit. FiberSmart had approximately $35M revenue and 201 employees as of early 2025, operating across North America, Asia, and Europe. A second-generation mobile robot (ROMER) is in development to extend beyond fixed fiber patch panels to free-navigation datacenter tasks. FiberSmart occupies a distinct and commercially proven niche in datacenter automation — not server handling or cooling (like SoftBank/Submer's focus), but the fiber connectivity layer that is currently one of the most labor-intensive and error-prone aspects of datacenter operations.

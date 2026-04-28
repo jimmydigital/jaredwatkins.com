@@ -17,6 +17,9 @@ last_reviewed: 2026-04-24
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Overview: Protocol-Level PQC Integration
 
 While NIST standardizes cryptographic algorithms (FIPS 203, 204, 205), the IETF standardizes how those algorithms integrate into Internet protocols. IETF working groups are updating TLS 1.3, IKEv2/IPsec, SSH, and X.509 certificates to support post-quantum algorithms.

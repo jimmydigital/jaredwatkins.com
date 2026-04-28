@@ -25,6 +25,9 @@ related:
   - "energy/batteries/orient-power.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 BYD Energy Storage is the energy storage systems division of BYD Co., Ltd. (HKG: 1211 / SZ: 002594). It is among the top three global BESS integrators by shipment volume as of 2025, competing directly with Sungrow and Tesla Energy across residential, commercial and industrial, and utility-scale segments. The division's defining characteristic — and primary strategic differentiator — is vertical integration: BYD manufactures its own Blade LFP cells internally and integrates them into finished BESS products, operating simultaneously at both the cell manufacturing and systems integration layers of the supply chain. This is structurally unusual. Most large BESS integrators, including Sungrow, source cells externally. CATL, the world's largest cell manufacturer, sells cells to third-party integrators rather than competing aggressively as a systems integrator. BYD does both, internally.

@@ -15,6 +15,9 @@ last_reviewed: 2026-04-24
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Overview
 
 **ASML Holding NV** (Euronext: ASML; headquartered Veldhoven, Netherlands) is the sole supplier of extreme ultraviolet (EUV) lithography systems to the global semiconductor industry. ASML's EUV scanners are the critical enabling technology for all advanced-node (sub-7nm) semiconductor manufacturing worldwide.

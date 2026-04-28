@@ -23,6 +23,9 @@ related:
   - "datacenters/power-infrastructure/_index.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 HostDime is an Orlando, Florida-based global edge colocation and managed hosting company founded in 2003 by Manny Vivar with minimal startup capital. Unlike most datacenter operators of comparable size, HostDime has remained entirely self-funded with no outside investors — a structural distinction that shapes its deliberate, phased expansion model. The company owns and operates purpose-built Tier IV datacenter facilities across 8+ countries, with its primary footprint in Latin America (Colombia, Brazil, Mexico) and its flagship US presence in the Orlando metro area. HostDime's strategic identity is the "global hyper-edge" operator: building owned Tier IV colocation infrastructure in markets that lack it, reducing latency by keeping data local to each region, and hosting local internet exchange points (IXPs) to improve interconnection quality within those markets.

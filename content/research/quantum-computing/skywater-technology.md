@@ -27,6 +27,9 @@ source_urls:
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 SkyWater Technology (NASDAQ: SKYT) is a U.S.-based pure-play semiconductor foundry headquartered in Bloomington, Minnesota. Originally the Cypress Semiconductor wafer fabrication facility, it was acquired by private equity in 2017 and went public in 2021. SkyWater holds U.S. Department of Defense Trusted Foundry status and specializes in mature nodes (130nm–65nm) for defense, aerospace, automotive, and increasingly quantum computing customers. As of early 2026, the company is the subject of a pending $1.8 billion acquisition by quantum computing company IonQ (NASDAQ: IONQ), which, if completed, would make SkyWater IonQ's in-house fabrication platform for trapped-ion quantum hardware.

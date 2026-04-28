@@ -15,6 +15,9 @@ last_reviewed: 2026-04-24
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Overview
 
 **Applied Materials Inc.** (NASDAQ: AMAT; headquartered Santa Clara, California) is the largest semiconductor wafer fabrication equipment (WFE) vendor globally by revenue. Applied Materials manufactures etch systems, deposition tools (CVD, PVD, ALD), chemical mechanical planarization (CMP) systems, and ion implant equipment—the full suite of non-lithography WFE needed for advanced-node fabrication.

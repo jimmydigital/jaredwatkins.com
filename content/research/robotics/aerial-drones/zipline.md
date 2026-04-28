@@ -27,6 +27,9 @@ related:
   - "robotics/aerial-drones/wing-aviation.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Zipline International (South San Francisco, CA) is the leading commercial autonomous drone delivery platform operator globally, with 2+ million cumulative deliveries completed as of January 2026. The company operates across eight countries: the United States, Rwanda, Ghana, Nigeria, Kenya, Côte d'Ivoire, Japan, and operations expanding to new markets. Its Platform 2 (P2 Zip) system—a hybrid VTOL fixed-wing drone paired with a tethered autonomous "droid" for precision delivery—became commercially operational with Walmart in Dallas-Fort Worth in April 2025. Zipline holds FAA Part 135 air carrier certification (June 2022) and multiple BVLOS (beyond visual line of sight) operational waivers enabling fully autonomous commercial delivery without human visual observers. As of January 2026, the company was valued at $7.6 billion following a $600 million Series H funding round led by Valor Equity Partners, up from $4.2 billion (April 2023). The company has flown over 100 million autonomous miles with zero reported safety incidents as of March 2026.

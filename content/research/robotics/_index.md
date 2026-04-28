@@ -15,6 +15,9 @@ sitemap:
   disable: false         # Set to true to exclude a page
 ---
 
+> **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
+
+
 ## Overview
 
 Tracks commercial robotics platforms, component suppliers, and the people and capital moving through the industry. Organized by platform type (aerial drones, ground drones/UGVs) and component category (actuators, sensors, communications, power systems). Editorial focus is on the component and subsystem layer — the suppliers that determine the performance, cost, and geopolitical risk profile of deployed robot systems.

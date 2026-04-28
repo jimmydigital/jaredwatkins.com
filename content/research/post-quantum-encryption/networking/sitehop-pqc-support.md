@@ -15,6 +15,9 @@ last_reviewed: 2026-04-15
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Sitehop is a Bristol, UK-based startup building hardware-accelerated post-quantum cryptography (PQC) networking appliances. The company's core claim is that PQC algorithms — specifically the lattice-based KEMs now standardized by NIST — impose performance penalties severe enough on software-only implementations that line-rate encryption at scale requires FPGA or dedicated silicon acceleration. Sitehop's approach integrates ML-KEM (Kyber) and related algorithms directly into FPGA-based IPsec appliances, targeting enterprise and government customers concerned about the harvest-now-decrypt-later (HNDL) threat. The company emerged from the University of Bristol's cryptography research community.

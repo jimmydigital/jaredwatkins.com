@@ -15,6 +15,9 @@ sitemap:
   disable: false         # Set to true to exclude a page
 ---
 
+> **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
+
+
 ## Overview
 
 The shift from air to liquid cooling is the defining infrastructure transition of the AI datacenter era. Traditional air cooling hits practical limits at approximately 15–20 kW per rack; NVIDIA's current H100 and GB200 GPU clusters require 40–120 kW per rack. This density gap is forcing operators to adopt liquid cooling at scale — a transition that is technically straightforward but operationally and organizationally disruptive for facilities built around air. The cooling supply chain is fragmenting into specialists at each layer: dielectric fluid makers, immersion tank manufacturers, cold plate fabricators, CDU (cooling distribution unit) providers, and systems integrators who tie the facility-side water loop to the IT equipment.

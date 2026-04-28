@@ -17,6 +17,9 @@ stale_after_days: 180
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 KDE Direct is a private company headquartered in Bend, Oregon that designs and manufactures brushless DC (BLDC) motors, electronic speed controllers (ESCs), and carbon fiber propeller blades for professional and industrial unmanned aircraft systems. It is notable as one of the few US-based manufacturers of professional-grade drone motors, and its positioning as a non-Chinese propulsion source has become commercially significant following Entity List and NDAA restrictions on Chinese drone component suppliers like T-Motor. KDE Direct states its products are designed and engineered in the US, though the company maintains manufacturing facilities both domestically and overseas.

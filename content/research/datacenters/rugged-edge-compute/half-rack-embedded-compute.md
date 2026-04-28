@@ -17,6 +17,9 @@ last_reviewed: 2026-04-25
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Half-rack (10-inch width) embed compute systems are purpose-built for applications where physical footprint is the primary constraint: vehicle bays, aircraft compartments, naval platforms, and edge datacenters with fixed rack-unit budgets. The form factor trades off absolute compute density against space efficiency, enabling 2–4 servers to fit in the space of a single full-width (19-inch) system. Three distinct ecosystems serve this market: commercial industrial-grade systems (Neousys, ASUS, ADLINK), military-grade MicroTCA modular platforms (nVent SCHROFF, Pixus, Recab), and purpose-built vertical solutions (Galleon NAS, 7Starlake NAS, Anduril/Klas Voyager).

@@ -19,6 +19,9 @@ related:
   - "datacenters/power-infrastructure/_index.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Oklo (NYSE: OKLO) is a Santa Clara, California advanced fission company developing the Aurora powerhouse — a sodium-cooled fast reactor using metallic HALEU fuel. It is the most datacenter-focused nuclear developer, with an ~18 GW order book spanning Meta, Switch, Equinix, Wyoming Hyperscale, Prometheus Hyperscale, and Diamondback Energy. Oklo went public via SPAC merger in May 2024. Sam Altman (OpenAI CEO) is chairman. The company broke ground on its first Aurora unit at Idaho National Laboratory in September 2025 with Kiewit as lead constructor, targeting commercial operation in late 2027 or early 2028. Key risks: HALEU fuel supply (Oklo has a DOE fuel agreement for the INL unit, but commercial-scale HALEU supply beyond the first unit is unresolved); first-of-a-kind licensing (the NRC rejected Oklo's original Combined License Application in 2022 and the company restarted the process; a new COLA Phase 1 submission is planned for 2025); and the size of the order book relative to the company's demonstrated execution — the ~18 GW of agreements is almost entirely nonbinding LOIs.

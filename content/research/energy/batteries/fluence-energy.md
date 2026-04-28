@@ -20,6 +20,9 @@ last_reviewed: 2026-04-03
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Fluence Energy, Inc. (NASDAQ: FLNC) is the largest Western-headquartered battery energy storage systems (BESS) integrator and one of the top three global BESS players by deployed and contracted capacity. The company is distinguished from Chinese BESS integrators by its software-first differentiation (Fluence IQ platform for revenue optimization and bidding), emphasis on project bankability and Western supply chain partners, and domestic manufacturing footprint across six U.S. production facilities. Fluence is a pure system integrator — it does not manufacture cells — and competes directly against vertically integrated Chinese manufacturers (BYD, Sungrow, CATL derivatives) by offering superior software, stronger Western project finance relationships, and compliance with emerging domestic-content requirements under the U.S. Inflation Reduction Act.

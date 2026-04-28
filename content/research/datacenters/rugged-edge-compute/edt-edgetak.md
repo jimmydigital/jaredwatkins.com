@@ -14,6 +14,9 @@ last_reviewed: 2026-03-26
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Engineering Design Team, Inc. (EDT) is a Hillsboro, Oregon defense electronics company that has been a HEICO Corporation subsidiary since November 2005. Its EDGETAK platform, officially launched April 16, 2025, addresses the most extreme end of the SWaP constraint in rugged compute: a wearable AI inference system that fits in a standard radio pouch and is powered by soldier batteries. Built on the NVIDIA Jetson Orin NX, EDGETAK brings GPU-accelerated AI inference to dismounted soldiers and special operations operators who cannot carry rack-mounted compute. Integration with ATAK — the DoD's primary soldier situational awareness platform — makes EDGETAK's AI outputs immediately actionable in the field. The Summer 2026 EDGETAK RF variant adds 30MHz–8GHz software-defined radio capability, expanding the platform from pure AI inference to tactical SIGINT.

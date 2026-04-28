@@ -15,6 +15,9 @@ sitemap:
   disable: false
 ---
 
+> **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
+
+
 ## Overview
 
 Semiconductor wafer fabrication equipment (WFE) encompasses all the tools used to pattern, etch, deposit, and inspect materials on silicon wafers during chip manufacturing. As nodes advance below 5nm, the equipment landscape is dominated by a small number of specialized vendors — many holding near-monopoly positions for specific process steps. Equipment procurement decisions are strategic, multi-year commitments; changing suppliers at advanced nodes is effectively impossible once a process is qualified.

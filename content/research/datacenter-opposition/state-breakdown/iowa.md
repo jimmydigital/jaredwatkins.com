@@ -11,6 +11,9 @@ last_reviewed: 2026-04-20
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Overview
 
 Iowa has become a major hub for hyperscale datacenters, with at least 27 datacenters operating or under construction as of April 2026. Major operators include Google (two campuses), Meta (two campuses), Apple (one campus), and Microsoft facilities. These four companies alone have invested nearly $17 billion in Iowa datacenters, with Google announcing an additional $7 billion investment over the next two years.

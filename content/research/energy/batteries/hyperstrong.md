@@ -21,6 +21,9 @@ related:
   - "energy/batteries/_index.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 HyperStrong (Beijing HyperStrong Technology Co., Ltd.; Ticker: 688411.SS on Shanghai SSE, listed January 2025) is a Chinese BESS system integrator that ranks among the top five globally by H1 2025 shipment volume, alongside Sungrow, BYD, Tesla, and CRRC Zhuzhou Institute. The company operates across utility-scale, commercial & industrial, and residential segments, producing containerized LiFePO4 systems ranging from 20-foot (5 MWh) to compact 10-foot designs (3.2 MWh) in both AC and DC configurations. Unlike Western BESS competitors that compete on software and bankability, HyperStrong competes primarily on cost and supply chain scale — it integrates commodity LFP cells from major suppliers and scales manufacturing and deployment across Chinese, APAC, and emerging European markets. The company's absence from Western English-language press relative to its shipment volume signals the structural dominance of Chinese BESS integration in global energy storage and the price-driven commoditization underway in the segment.

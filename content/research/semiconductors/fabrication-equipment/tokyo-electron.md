@@ -15,6 +15,9 @@ last_reviewed: 2026-04-24
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Overview
 
 **Tokyo Electron Ltd.** (TYO: 8035; headquartered Tokyo, Japan) is the third-largest semiconductor wafer fabrication equipment (WFE) vendor globally by revenue. Tokyo Electron manufactures etch systems, CVD (chemical vapor deposition) tools, thermal processing systems, and track (photoresist coating/development) systems—the secondary-tier WFE suppliers' focus area.

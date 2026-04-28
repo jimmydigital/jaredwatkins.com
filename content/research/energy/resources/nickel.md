@@ -15,6 +15,9 @@ last_reviewed: 2026-03-24
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Nickel is a key component of lithium-ion battery cathodes — specifically NMC (nickel-manganese-cobalt) and NCA (nickel-cobalt-aluminum) chemistries, which have been the dominant high-energy-density cathode chemistries for EVs. Indonesia now controls approximately 40% of global nickel supply, and Chinese operators control 70–75% of Indonesian nickel processing capacity, creating a double concentration risk. However, the market is shifting: LFP (lithium iron phosphate, nickel-free) reached 50% of the global EV battery market in 2025, and most solid-state and lithium-sulfur programs in this knowledge base use cathode chemistries that reduce or eliminate nickel dependence.

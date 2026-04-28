@@ -17,6 +17,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Fetch Robotics was a Fremont, California AMR company, founded by Melonee Wise and acquired by Zebra Technologies (NASDAQ: ZBRA) in August 2021 for $290M. Under Zebra, the company developed a robot-assisted picking solution (Zebra Symmetry Fulfillment) integrating AMRs with Zebra's RFID and wearable technology stack. However, in late 2025, Zebra Technologies announced it was winding down the Fetch-based mobile robotics group and was seeking to sell the division or shut it down — a significant reversal following the 2021 acquisition thesis.

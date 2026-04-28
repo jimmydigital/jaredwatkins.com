@@ -14,6 +14,9 @@ last_reviewed: 2026-04-25
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 ADLINK Technology is a Taiwan-headquartered embedded computing company with a broad portfolio spanning rugged servers, COM Express modules, OpenVPX defense boards, GPU inference platforms, and industrial IoT hardware. Listed on the Taiwan Stock Exchange (TWSE: 6166) and majority-owned by Advantech (which holds a significant stake), ADLINK occupies a notable dual position: it serves both commercial industrial/transportation markets with fanless edge AI servers (AXE Series, DLAP platforms) and the defense embedded computing market with OpenVPX modules and VPX-form-factor AI compute boards. This breadth — from Jetson Orin edge appliances to SOSA-aligned OpenVPX compute — gives ADLINK coverage across more deployment tiers than most peers in this segment.

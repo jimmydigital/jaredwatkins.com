@@ -18,6 +18,9 @@ related:
   - "datacenters/design-construction/_index.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 The Open Compute Project (OCP) is a nonprofit consortium founded by Meta (then Facebook) in 2011 to open-source the hardware designs that hyperscalers use in their own datacenters. Rather than each operator independently engineering racks, power distribution, cooling, and servers, OCP members share specifications and collaborate on reference designs that any manufacturer can build. OCP is not a formal standards body (it does not issue ISO/ANSI standards) but its specifications function as de facto standards across the hyperscale and large enterprise datacenter industry. Its **Open Rack v3 (ORV3)** specification is the most relevant output for datacenter robotics: ORV3 defines a rack that uses a vertical DC bus bar for power — eliminating traditional power cables — and blind-mate power connections as a core design feature. This is the specification that SoftBank cited when designing its robot-friendly cable-less server rack. OCP's **DC Automation** working group is developing specifications for automated datacenter operations. Understanding OCP is essential for understanding which rack and infrastructure designs will be robotics-compatible as the industry converges on shared standards.

@@ -17,6 +17,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Starship Technologies is a Tallinn, Estonia-based autonomous sidewalk delivery robot company, founded in 2014 by Skype co-founders Ahti Heinla (CEO/CTO) and Janus Friis. The company operates the world's largest autonomous delivery network, with 2,700+ robots across 270+ locations in seven countries and 9 million+ deliveries completed as of 2025. Its robots travel on sidewalks at pedestrian speed (up to 6 km/h), making short-distance local food and parcel deliveries primarily on university campuses and in suburban neighborhoods. In October 2025, Starship raised a $50M Series C to scale its US fleet to 12,000 robots by 2027.

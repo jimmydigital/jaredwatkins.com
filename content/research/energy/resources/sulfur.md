@@ -15,6 +15,9 @@ last_reviewed: 2026-03-24
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Sulfur is one of the most abundant non-metallic elements on earth, produced in vast quantities as a byproduct of petroleum and natural gas refining — it is unavoidably created every time a refinery processes sulfurous crude. This abundance and low cost make it a strategically attractive battery material: sulfur is the cathode in lithium-sulfur (Li-S) cells (used by Lyten), and is the precursor for sulfide-based solid electrolytes used by several leading solid-state battery programs (Solid Power, QuantumScape, Idemitsu/Toyota). Importantly, Idemitsu Kosan's dual identity as a petroleum company and a solid electrolyte producer means it can source sulfur from its own refining operations — a vertically integrated supply chain advantage no other documented battery materials company holds.

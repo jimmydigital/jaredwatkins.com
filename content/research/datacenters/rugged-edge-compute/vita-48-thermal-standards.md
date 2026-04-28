@@ -17,6 +17,9 @@ last_reviewed: 2026-04-25
 stale_after_days: 365
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 VITA 48, known as REDI (Ruggedized Enhanced Design Implementation), is the family of ANSI-ratified standards that defines mechanical and thermal interface requirements for OpenVPX plug-in modules. The VITA 48.x sub-standards address different cooling methods — conduction, air flow-through, and liquid flow-through — establishing interoperability between modules from different vendors within the same chassis. As GPU and FPGA power densities push beyond what conduction cooling can handle, VITA 48.4 (liquid flow-through) is becoming a critical enabler for next-generation defense AI processing.

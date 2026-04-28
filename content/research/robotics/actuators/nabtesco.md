@@ -17,6 +17,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Nabtesco Corporation (Tokyo Stock Exchange: 6268) is a Japanese precision machinery conglomerate with business lines spanning industrial robot reducers, railway brakes, aircraft flight control actuators, hydraulic equipment for construction machinery, and marine controls. The company's robotics-critical product is the RV (Rotate Vector) cycloidal speed reducer — the dominant joint transmission technology for the base, shoulder, and elbow joints of industrial robot arms. Nabtesco holds approximately 35% of the global market for RV units used in articulated robots, making it the single largest supplier of this critical component to the global robot industry. FY2024 total company revenue was approximately $1.3 billion (¥190–200 billion range). In response to anticipated humanoid robot demand, Nabtesco announced plans to double its RV reducer production capacity by 2026. FY2026 sales guidance implies ¥327 billion, representing approximately 6.2% growth.

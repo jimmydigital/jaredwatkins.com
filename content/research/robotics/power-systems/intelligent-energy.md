@@ -17,6 +17,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Intelligent Energy Limited is a Loughborough, UK-based PEM (Proton Exchange Membrane) hydrogen fuel cell manufacturer that originated from Loughborough University research and is now owned by Meditor Energy (acquired 2017). Its IE-SOAR product line supplies fuel cell power modules to drone and UAV manufacturers seeking extended endurance beyond what lithium batteries can provide — the company claims 3–7+ hours of drone endurance depending on platform type. In November 2025, an IE-SOAR-powered hexacopter completed the UK's first BVLOS hydrogen drone flight, including 10 km offshore flight.

@@ -18,6 +18,9 @@ related:
   - "energy/batteries/solid-state-batteries.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Lyten is a San Jose, California company commercializing 3D Graphene — a tunable carbon supermaterial — as the enabling scaffold for lithium-sulfur (Li-S) batteries. Unlike lithium-ion, lithium-sulfur uses sulfur as the cathode and eliminates nickel, cobalt, graphite, and iron/phosphorus entirely, reducing the battery weight by up to 50% versus NMC and 75% versus LFP while approaching twice the energy density. Lyten has raised over $625M in equity, acquired Northvolt's European BESS manufacturing operation, and is planning a $1 billion gigafactory near Reno, Nevada, with early commercial deliveries targeting defense, drones, and satellites before automotive applications.

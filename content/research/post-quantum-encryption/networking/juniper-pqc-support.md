@@ -15,6 +15,9 @@ last_reviewed: 2026-04-15
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Juniper Networks, acquired by Hewlett Packard Enterprise in March 2024, produces enterprise routers, switches, firewalls (SRX series), and SD-WAN products running Junos OS. Juniper has published PQC intent as part of its quantum-safe networking posture and has been involved in IETF standardization for IKEv2 PQC extensions. Specific GA-shipping PQC support in Junos, the exact software versions, and the algorithms covered require verification against current Junos release notes. This entry documents the known state as of April 2026 and flags open research questions.

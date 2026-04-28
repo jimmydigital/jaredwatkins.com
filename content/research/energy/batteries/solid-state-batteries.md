@@ -15,6 +15,8 @@ last_reviewed: 2026-03-23
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
 ## Summary
 
 Solid-state batteries replace the liquid or gel electrolyte in conventional lithium-ion cells with a solid material, enabling higher energy density, improved thermal safety, and longer cycle life. As of early 2026, the technology is transitioning from advanced prototype to early commercial production, with mass automotive deployment projected from 2027–2028 for leading incumbents.

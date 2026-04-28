@@ -15,6 +15,9 @@ related:
   - "energy/solar/_index.md"
 ---
 
+> **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
+
+
 ## Summary
 
 Swift Solar is a Palo Alto, California-based photovoltaic company founded in 2017, focused on developing stable, high-efficiency perovskite solar cells using lead-free tin-based perovskite materials. The company addresses a critical barrier to perovskite commercialization — the use of lead in conventional halide perovskites (a material toxicity and regulatory concern) — by pioneering tin-based perovskite chemistry. Swift Solar combines this material innovation with engineering for stability, moisture resistance, and scalable manufacturing, targeting cost-competitive perovskite solar modules suitable for utility-scale, commercial, and distributed deployment. The company has received venture funding and strategic partnerships aimed at pilot-scale production.

@@ -16,6 +16,9 @@ stale_after_days: 180
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Silvus Technologies is a Los Angeles, California developer of software-defined MIMO MANET (Mobile Ad-hoc Network) tactical radios for defense, autonomous systems, and public safety. Founded in 2004 by UCLA EE Professor Babak Daneshrad, Silvus developed the StreamCaster radio family around a proprietary MN-MIMO waveform that enables multi-hop mesh networking without fixed infrastructure. StreamCaster radios are deployed across US Army, Marine Corps, and Special Operations programs including the Army Integrated Tactical Network (ITN), Integrated Visual Augmentation System (IVAS), and Robotic Combat Vehicle programs. Silvus was acquired by Motorola Solutions for $4.4 billion in August 2025 (with up to $600M in earnouts), making it Motorola Solutions' largest acquisition and its strategic entry into the defense unmanned systems communications market.

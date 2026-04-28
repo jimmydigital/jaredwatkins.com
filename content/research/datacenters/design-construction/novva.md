@@ -19,6 +19,9 @@ related:
   - "datacenters/robotics-automation/_index.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Novva Data Centers is a West Jordan, Utah wholesale colocation operator and datacenter developer founded in 2019 by CEO Wes Swenson and CIM Group. Swenson previously founded C7 Data Centers, a Utah-based colocation operator acquired by DataBank in 2017. Novva's flagship project is a 100-acre, 1 million square foot campus in West Jordan that will deliver 175 MW of critical IT capacity across three phases — positioning it as one of the largest direct-to-chip cooled AI datacenters in the world when complete. In March 2025, Novva closed $2B in financing from J.P. Morgan and Starwood Property Trust to complete Phases 2 and 3. Novva operates across six Western US markets (Salt Lake City, Colorado Springs, Las Vegas, Tahoe Reno, San Francisco, Mesa AZ) and differentiates on waterless cooling, low power costs from Western US geography, and an autonomous security posture using robot dogs and drones — an unusual operational deployment of robotics automation in a live production facility.

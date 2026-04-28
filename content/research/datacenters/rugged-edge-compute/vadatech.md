@@ -17,6 +17,9 @@ last_reviewed: 2026-04-25
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 VadaTech (Henderson, Nevada) is the largest dedicated MicroTCA platform supplier in North America, offering the most complete range of MicroTCA Carrier Hubs (MCH), chassis, AMC compute/FPGA/networking modules, and power systems in the US market. Active across MTCA.0, MTCA.1, MTCA.3 (conduction-cooled), and MTCA.4 variants with particular emphasis on defense and scientific applications.

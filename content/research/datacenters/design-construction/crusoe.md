@@ -22,6 +22,9 @@ related:
   - "energy/nuclear/blue-energy.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Crusoe is a Denver, Colorado AI Factory developer and cloud provider co-founded in 2018 by Chase Lochmiller (CEO) and Cully Cavness. The company began as a stranded natural gas monetization play — deploying mobile compute infrastructure at oil well flare sites to mine bitcoin using gas that would otherwise be burned off — and has since pivoted entirely to AI infrastructure. Crusoe divested its bitcoin mining operations to NYDIG in 2024 and is now focused on designing, building, and operating large-scale AI datacenters, operating a cloud platform (Crusoe Cloud), and providing managed AI inference services. Its most significant project is serving as primary developer for OpenAI's Stargate campus in Abilene, Texas — an 800-acre site with $11.6B in debt and equity financing secured in 2025, bringing total committed capital for the campus to ~$15B. The facility uses zero-water-evaporation direct-to-chip liquid cooling. Crusoe's positioning is vertically integrated from power sourcing through managed inference — differentiating it from Applied Digital (developer/operator only) and traditional colocation operators.

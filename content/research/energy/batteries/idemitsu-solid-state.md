@@ -18,6 +18,9 @@ related:
   - "energy/batteries/solid-state-batteries.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Idemitsu Kosan is a Japanese petroleum and chemicals company that has spent over 30 years developing sulfide solid electrolyte technology — a quiet, deep-tech R&D arc that most battery coverage ignores. The company is now converting that expertise into industrial production infrastructure as Toyota's exclusive solid-state electrolyte supplier. Idemitsu is building a ¥21.3 billion lithium sulfide plant (completion June 2027, 1,000 MT/year capacity serving 50,000–60,000 EVs), and in January 2026 broke ground on a large-scale solid electrolyte pilot facility. This makes Idemitsu one of the most operationally advanced solid electrolyte material suppliers in the world, and its performance matters as much as Toyota's cell chemistry to whether Toyota hits its 2027–2028 mass production target.

@@ -16,6 +16,9 @@ last_reviewed: 2026-04-25
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 General Micro Systems (GMS) is a Rancho Dominguez, California rugged embedded computing company that designs ultra-compact, cost-optimized mission computers and VPX-based systems for defense applications. GMS is notable for its patented RuggedCool technology — a four-sided conduction cooling approach that achieves full operational performance up to +75°C in fanless, sealed enclosures. In October 2025, GMS announced the X7 RAPTOR, which it claims is the world's smallest open-standards rugged mission computer available under $10,000.

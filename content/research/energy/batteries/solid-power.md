@@ -17,6 +17,9 @@ related:
   - "energy/batteries/solid-state-batteries.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Solid Power (NASDAQ: SLDP) is a Louisville, Colorado solid-state battery developer that has pivoted toward a materials and electrolyte supply model rather than producing finished cells itself. The company makes sulfide-based solid electrolyte material and works with cell manufacturers — currently Samsung SDI — to build all-solid-state cells, which are then validated with automotive OEM partners. BMW i7 test vehicle integration was completed in 2025, and a three-way development collaboration with BMW and Samsung SDI was announced in October 2025. A continuous electrolyte production pilot line targeting up to 75 metric tons per year is planned for commissioning by end of 2026.

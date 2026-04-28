@@ -21,6 +21,9 @@ related:
   - "energy/batteries/_index.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Sungrow Power Supply Co., Ltd. (Shenzhen Stock Exchange: 300274.SZ) is a Chinese public company and the world's largest or second-largest BESS integrator by shipment volume, trading positions with Tesla quarterly. In 2025, Sungrow shipped 43 GWh of battery energy storage systems globally — nearly 7× its 2021 volume — and generated RMB 37.3 billion (USD ~5.4 billion) in energy storage revenue, representing 42% of total company revenue. The company operates at the systems integration layer, purchasing LFP cells from suppliers like CATL and assembling them into containerized utility-scale BESS and commercial-industrial systems. Sungrow's dominance in battery energy storage is the clearest evidence to date that Chinese BESS manufacturers have already achieved engineering and cost parity with Western integrators at grid scale — not as a future risk but as a present market reality.

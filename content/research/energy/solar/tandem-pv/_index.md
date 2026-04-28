@@ -15,6 +15,9 @@ related:
   - "energy/solar/_index.md"
 ---
 
+> **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
+
+
 ## Summary
 
 Tandem PV is a San Mateo, California-based photovoltaic technology company founded in 2021, specializing in perovskite-silicon tandem (multijunction) solar cells. The company develops photovoltaic devices that stack a wide-bandgap perovskite absorber layer on top of conventional crystalline silicon to create a tandem architecture. This stacked approach allows the perovskite layer to capture high-energy photons while the silicon layer captures lower-energy photons, theoretically enabling power conversion efficiencies of 30–35% — substantially higher than single-junction silicon's ~22% practical limit. Tandem PV aims to achieve commercial-scale production of tandem cells by leveraging existing silicon manufacturing infrastructure while integrating perovskite layers through optimized processing.

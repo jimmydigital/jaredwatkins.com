@@ -15,6 +15,9 @@ last_reviewed: 2026-04-24
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
+
+
 {{< steering >}}
 
 **Scope:** Semiconductor wafer fabrication facilities announced, under construction, or recently completed in the United States. Includes greenfield fabs, brownfield expansions, and facility conversions for commercial semiconductor production. Excludes packaging-only facilities, packaging test facilities, and R&D fabs without commercial production intent.

@@ -17,6 +17,9 @@ last_reviewed: 2026-04-24
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Westinghouse Electric Company's eVinci is a compact, heat-pipe-cooled microreactor producing up to **5 MWe / 15 MWt** from a single unit, with an 8+ year refueling interval. Unlike conventional reactors (which require coolant pumps, active circulation, and large pressure vessels), the eVinci uses **heat pipes** — passive two-phase devices that transfer heat from the reactor core to the power conversion system without any moving parts. The result is a reactor that is genuinely "walk-away safe" in the strongest sense: no active systems are needed to maintain core cooling, ever.

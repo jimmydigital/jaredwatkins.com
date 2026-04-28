@@ -16,6 +16,9 @@ last_reviewed: 2026-04-21
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Boom Supersonic, a Denver, Colorado aerospace company best known for developing the Overture supersonic airliner, has pivoted into data center power generation with Superpower — a 42 MW aeroderivative natural gas turbine designed for behind-the-meter (BTM) deployment. The company leverages the high-temperature, high-efficiency engine core developed for Overture to create a fast-start, compact power generation solution packaged in an ISO shipping container footprint. In December 2025, Crusoe Energy placed an order for 29 Superpower units (1.21 GW total), with Boom Supersonic raising $300 million to ramp manufacturing.

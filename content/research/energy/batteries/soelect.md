@@ -20,6 +20,9 @@ related:
   - "energy/batteries/solid-state-batteries.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Soelect Inc. is a Greensboro, North Carolina-based startup developing dendrite-resistant lithium anode technology (LiX®) paired with solid-state electrolyte materials for electric vehicles and energy storage. Founded in 2018 by Jin Cho (25+ years in battery industry, formerly at LG, Samsung, Johnson Controls), Soelect claims 100% charge capability in 15 minutes and has attracted 20+ automotive customers. General Motors Ventures has invested, and the company announced a joint venture with Korean supplier Lotte Chemical to scale US manufacturing with >$200M target investment. As of 2022, the company remains private; manufacturing scale-up targeted for 2025 (not confirmed as achieved by Q2 2026).

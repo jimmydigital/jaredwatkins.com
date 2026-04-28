@@ -15,6 +15,9 @@ last_reviewed: 2026-04-24
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Overview
 
 TSMC Arizona LLC is a wholly owned subsidiary of Taiwan Semiconductor Manufacturing Company (TSMC). The company operates **Fab 21**, located in Phoenix, Arizona (Maricopa County), which represents TSMC's largest US capacity expansion and is the first time TSMC has brought advanced-node (sub-5nm) production to the United States.

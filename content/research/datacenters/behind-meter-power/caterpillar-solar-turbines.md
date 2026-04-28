@@ -15,6 +15,9 @@ last_reviewed: 2026-04-25
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 {{< steering >}}
 **Scope:** Caterpillar (parent company) and Solar Turbines (wholly-owned subsidiary) as OEM suppliers of industrial gas turbines for data center BTM power. Focus on product portfolio, data center addressable market, Vertiv partnership, competitive positioning vs. GE Vernova/Siemens/Wärtsilä.
 

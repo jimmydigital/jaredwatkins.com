@@ -20,6 +20,9 @@ related:
   - "datacenters/power-infrastructure/_index.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Blue Energy is an Edinburgh, Scotland-based small modular reactor (SMR) developer founded in 2023 by Jake Jurewicz (CEO) and Matt Slotkin, emerging from MIT's Nuclear Science & Engineering Department. The company designs modular light water reactor (LWR) plants built in existing shipyards and fab yards — applying the manufacturing logic of offshore oil & gas platform construction to nuclear power. Blue Energy claims this approach cuts construction time by ~80% (3 years vs. 10+ traditionally) and cost to ~$5,000/kW (vs. $13,000+/kW for recent stick-built nuclear). The company raised $45M in Series A funding in October 2024 from Engine Ventures and At One Ventures. Its most significant milestone is a partnership with Crusoe announced in late 2024 to develop a 1.5 GW nuclear-powered AI datacenter campus at the Port of Victoria, Texas — with a gas-to-nuclear conversion model: natural gas supplies power from 2028 while nuclear licensing completes, transitioning to nuclear generation by 2031. The U.S. NRC has approved Blue Energy's licensing topical report for its construction resequencing approach, enabling non-nuclear infrastructure to be built before nuclear construction permits are granted. Construction begins Q2 2026; NRC construction permit application filed 2027.

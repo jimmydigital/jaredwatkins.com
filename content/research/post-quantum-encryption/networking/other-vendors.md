@@ -17,6 +17,9 @@ last_reviewed: 2026-04-17
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 This entry surveys post-quantum cryptography support across major networking vendors. As of April 2026, the market has matured significantly since this section was initially established: **Fortinet FortiOS 7.6.1 (GA), Palo Alto PAN-OS 11.2/12.1 (GA), Check Point Gaia R82 (GA), and Cisco ASA 9.19 (transitional GA)** all ship production ML-KEM IKEv2 support. Cisco's full-stack IOS XE 26 platform was announced at Cisco Live Amsterdam in April 2026. The critical pending standard is **draft-ietf-ipsecme-ikev2-mlkem**, which has not yet been published as an RFC — meaning current vendor implementations use pre-RFC algorithm identifiers.

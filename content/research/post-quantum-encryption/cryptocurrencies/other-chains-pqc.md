@@ -15,6 +15,9 @@ last_reviewed: 2026-04-17
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Overview
 
 This entry surveys PQC exposure and migration plans for Solana, Cardano, Algorand, and QRL. Algorand is the standout: it executed the world's first post-quantum transaction on a public blockchain mainnet in November 2025, using Falcon (FN-DSA) signatures natively in the AVM. Solana and Cardano are in research/testnet phases. QRL is a purpose-built quantum-resistant chain that predates the NIST standards.

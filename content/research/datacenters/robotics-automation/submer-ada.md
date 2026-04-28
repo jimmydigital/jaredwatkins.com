@@ -18,6 +18,9 @@ related:
   - "datacenters/cooling/_index.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 ADA (Autonomous Datacenter Assistant) is Submer's robotic platform for automating server installation and removal inside single-phase immersion cooling tanks. Submer revealed ADA at OCP Summit in October 2021; commercial availability was targeted for around Q3 2025. ADA directly addresses the key operational friction of immersion-cooled datacenters: unlike traditional air-cooled racks where servers slide in horizontally, immersion tank servers must be lifted out vertically — a physically demanding task that requires PPE (to handle dielectric fluid) and, at scale, some form of mechanical lifting assistance. ADA replaces the crane or manual jig currently used for this with an autonomous robotic system that can also perform environmental monitoring, commissioning, and decommissioning. ADA represents the "build robots for existing infrastructure" philosophy — robots adapted to the physical realities of tanks — as distinct from SoftBank's approach of redesigning the infrastructure for robots (see [SoftBank Robot Rack]({{< relref "softbank-robot-rack.md" >}})). The two approaches are not directly competitive since they target different cooling architectures.

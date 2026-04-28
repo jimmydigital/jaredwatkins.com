@@ -21,6 +21,9 @@ related:
   - "datacenters/cooling/_index.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Vertiv Holdings (NYSE: VRT) is the dominant independent provider of critical power and cooling infrastructure for datacenters, with roots going back to Emerson Electric's Network Power division. Sold to Platinum Equity in 2016 for ~$4B and rebranded as Vertiv, it went public via SPAC merger with Goldman Sachs's GS Acquisition Holdings on February 10, 2020. The company sits at a structurally advantaged position in the AI buildout: it does not own or operate datacenters, but virtually every large-scale datacenter — hyperscaler, colocation, and AI-factory — requires Vertiv's core product categories (uninterruptible power supplies, power distribution units, busway, and cooling equipment). FY2025 revenue reached $10.23B, up ~28% year-over-year, with Q4 2025 order growth of +252% organically and a backlog that surged to $15.0B — up 109% from the prior year.

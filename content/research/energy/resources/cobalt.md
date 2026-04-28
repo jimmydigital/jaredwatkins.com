@@ -15,6 +15,9 @@ last_reviewed: 2026-03-24
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Cobalt is a silvery-blue metal used as a stabilizing component in lithium-ion battery cathodes (NMC: nickel-manganese-cobalt; NCA: nickel-cobalt-aluminum). It is one of the most strategically problematic minerals in the battery supply chain, with approximately 75% of global production concentrated in the Democratic Republic of Congo (DRC) — a country with serious governance, conflict-mineral, and export-policy risks. China controls ~80% of cobalt refining. Most companies documented in the batteries knowledge base eliminate cobalt entirely through their choice of chemistry, which is a significant strategic advantage.

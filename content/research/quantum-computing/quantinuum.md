@@ -20,6 +20,9 @@ last_reviewed: 2026-04-05
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Quantinuum is a privately held quantum computing company formed on November 30, 2021 by the merger of Honeywell Quantum Solutions and Cambridge Quantum Computing (CQC). Headquartered in Broomfield, Colorado and Cambridge, UK, it produces the H-series trapped-ion quantum computers (H1, H2, and the 2025-generation Helios system) and develops quantum software including the TKET open-source compiler and InQuanto computational chemistry platform. Quantinuum's commercially available systems hold the highest publicly demonstrated two-qubit gate fidelity of any gate-based quantum computing platform; this claim is from company-authored preprints, though supported by independent benchmarking studies. As of early 2026, the company is approaching an IPO and is pursuing a roadmap toward fault-tolerant quantum computing by 2029–2030.

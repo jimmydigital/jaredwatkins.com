@@ -18,6 +18,9 @@ last_reviewed: 2026-04-21
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 This profile focuses on Oklo's behind-the-meter (BTM) power value proposition for data centers, separate from the full Oklo company profile (see {{< relref "../../energy/nuclear/oklo.md" >}} for detailed company history, financing, and technical background).

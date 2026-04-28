@@ -16,6 +16,9 @@ last_reviewed: 2026-04-24
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Ultra Safe Nuclear Corporation (USNC) was a Seattle, Washington microreactor developer founded to commercialize the **Micro Modular Reactor (MMR)** — a high-temperature gas-cooled reactor (HTGR) producing 15 MWe / 45 MWt using TRISO fuel in prismatic graphite blocks. The MMR was designed for remote power, industrial heat, and data center applications. USNC also developed the **Pylon** reactor for space applications.

@@ -20,6 +20,9 @@ related:
   - "datacenters/rugged-edge-compute/anduril.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 > **Company overview, key people, funding, Lattice OS, Menace-T/X edge compute, and the $20B Army contract are covered in the canonical file:** [Anduril Industries]({{< relref "/research/datacenters/rugged-edge-compute/anduril.md" >}}). This file covers the autonomous systems and drone product portfolio specifically.
 
 ## Autonomous Systems Portfolio

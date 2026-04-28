@@ -17,6 +17,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Nuro is a Mountain View, California autonomous vehicle company, co-founded by ex-Google engineers Jiajun Zhu and Dave Ferguson in 2016. The company raised over $2.7 billion in venture capital (led by SoftBank and Google) to develop a small, unmanned on-road delivery vehicle with no human operator controls — the R2 and R3 platforms. After multiple rounds of layoffs in 2022 and 2023 and a strategic reset, Nuro pivoted in September 2024 to a technology licensing model: it now licenses its "Nuro Driver" Level 4 autonomy software to automakers, suppliers, and mobility providers, rather than operating its own delivery fleet. A $106M raise in April 2025 funded this transition.

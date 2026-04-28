@@ -20,6 +20,9 @@ last_reviewed: 2026-04-05
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Xanadu Quantum Technologies is a Toronto-headquartered photonic quantum computing company founded in 2016 and led by CEO Christian Weedbrook. It became the first pure-play photonic quantum computing company to go public, completing a SPAC merger with Crane Harbor Acquisition Corp in March 2026 under the ticker "XNDU" (Nasdaq/TSX). The company operates Borealis, a 216-squeezed-mode photonic system that claimed quantum computational advantage in a 2022 *Nature* publication. Xanadu is currently developing Aurora, a modular 12-qubit photonic quantum computer with modular, networked architecture, and has published a detailed technical blueprint for scaling photonic quantum computing to fault-tolerant regime by 2028–2029. The company maintains PennyLane, a widely adopted open-source quantum machine learning library. Total funding to date: approximately $250M across 8 rounds; post-IPO valuation as of November 2025: $3B.

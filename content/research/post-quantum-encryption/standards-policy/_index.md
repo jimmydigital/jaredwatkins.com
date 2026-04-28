@@ -16,6 +16,9 @@ last_reviewed: 2026-04-24
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
+
+
 {{< steering >}}
 **Scope:** This section covers authoritative standards documents, government mandates and compliance timelines, protocol-level integration specifications, and international equivalents. It does NOT re-explain algorithm cryptographic details—those are covered in the main post-quantum-encryption section steering. Focus is on policy, mandates, regulatory timelines, and how standards are being implemented in practice.
 

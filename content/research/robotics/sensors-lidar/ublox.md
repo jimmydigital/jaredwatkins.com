@@ -17,6 +17,9 @@ stale_after_days: 90
 related: []
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 u-blox (formerly SIX Swiss Exchange: UBXN), headquartered in Thalwil, Switzerland, designs semiconductor chips and wireless modules for GNSS positioning, cellular (LTE/5G) connectivity, and short-range radio (Bluetooth, Wi-Fi) in automotive, industrial, and robotics applications. Founded in 1997, the company established itself as the dominant supplier of compact, low-power GNSS positioning modules used in consumer devices, automotive systems, and increasingly in robotics — from agricultural autonomous tractors and precision-guided drones to indoor AMRs requiring GNSS waypoint integration. In November 2025, private equity firm Advent International completed the acquisition of u-blox for approximately $1.3 billion via a public tender offer on the Swiss Stock Exchange, delisting the company. 2024 revenue was $262.9 million, a 54% decline from $576.9 million in 2023, reflecting an industry-wide electronics inventory correction that particularly impacted wireless module suppliers.

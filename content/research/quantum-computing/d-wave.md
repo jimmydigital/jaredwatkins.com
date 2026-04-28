@@ -21,6 +21,9 @@ last_reviewed: 2026-04-14
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 > **⚠ Critical framing:** D-Wave builds **quantum annealers**, not gate-based quantum computers. Quantum annealing is an analog optimization technique fundamentally different from the gate-based approaches used by IBM, Google, IonQ, and Quantinuum. D-Wave's physical qubit counts are not comparable to gate-based qubit counts — they measure something else entirely. This distinction must be kept in mind throughout this entry.
 
 ## Summary

@@ -15,6 +15,9 @@ last_reviewed: 2026-03-24
 stale_after_days: 180
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 Lithium is the lightest metal on the periodic table and the foundational input for all lithium-based battery chemistries — including every technology documented in the batteries knowledge base. It is extracted primarily via two routes: hard rock spodumene mining (Australia, principally) and brine evaporation (the "Lithium Triangle" of Chile, Argentina, and Bolivia). The critical geopolitical vulnerability is not at the mining stage but at the processing stage: China dominates the conversion of raw lithium into battery-grade lithium hydroxide and lithium carbonate, creating a chokepoint even for material mined in friendly countries.

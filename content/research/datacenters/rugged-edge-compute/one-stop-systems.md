@@ -14,6 +14,9 @@ last_reviewed: 2026-03-26
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 One Stop Systems (NASDAQ: OSTO) builds rugged GPU compute servers — branded "AI on the Fly" (AIFLY) — that run at altitude, in submarine electronics bays, and inside ground vehicles where commercial servers would fail. The company occupies the rack/server tier of rugged compute, integrating high-density NVIDIA GPU clusters into conduction-cooled or air-cooled enclosures qualified to MIL-STD-810 standards. Revenue is accelerating sharply on defense AI demand: Q4 2025 saw 70% year-over-year growth, and the company is targeting 20–25% growth in 2026. Its USSOCOM cooperative R&D agreement and deployments on major Navy platforms (P-8A Poseidon, Virginia-class submarines) validate its positioning at the frontier of military AI inference.

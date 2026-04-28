@@ -20,6 +20,9 @@ last_reviewed: 2026-04-07
 stale_after_days: 90
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 PsiQuantum is a private quantum computing company headquartered in Palo Alto, CA, pursuing fault-tolerant photonic quantum computing using silicon photonics manufactured in a commercial semiconductor foundry (GlobalFoundries Fab 8, Malta, NY). Founded in 2016 by four researchers from the University of Bristol and Imperial College London photonics groups, PsiQuantum has raised approximately $2.32 billion in total funding — making it the most heavily funded independent quantum hardware company in the world — while publicly demonstrating no operational quantum processor as of April 2026. The asymmetry between capital raised and demonstrated hardware is a defining fact of the company's history, and readers should weigh it accordingly when evaluating claims about the company's progress.

@@ -21,6 +21,9 @@ related:
   - "robotics/ground-drones/tomahawk-robotics.md"
 ---
 
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+
 ## Summary
 
 AeroVironment, Inc. (NASDAQ: AVAV) is a public defense robotics and autonomous systems company headquartered in Arlington, Virginia, with ~3,750 employees following the May 2025 completion of its $4.1 billion acquisition of BlueHalo. The company operates two primary business segments: **Autonomous Systems** (Group 1–3 unmanned aircraft systems including tactical drones Puma and Raven, loitering munitions Switchblade 300/600, counter-UAS systems, ground and maritime robots, and the Sunglider high-altitude platform system) and **Space, Cyber and Directed Energy** (BlueHalo's portfolio of directed energy, electronic warfare, space communications, cyber, and mission services). Founded in 1971, AeroVironment is the dominant US supplier of hand-launched and tactical unmanned systems to the US military and 55+ allied nations. The company's Switchblade loitering munition platform has seen significant operational use in Ukraine since 2022. As of November 1, 2025 (FY2026 Q2), the company reports a funded backlog of $1.1 billion and quarterly revenue of $472.5 million (151% year-over-year growth, including BlueHalo contribution). Major active contracts include a $990 million Switchblade IDIQ with the US Army and an $874.26 million Foreign Military Sales IDIQ for multi-platform UAS deliveries.
