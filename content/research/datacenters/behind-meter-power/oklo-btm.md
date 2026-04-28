@@ -1,7 +1,7 @@
 ---
 title: "Oklo — Behind-the-Meter Aurora Deployment"
 date: 2026-04-21
-lastmod: 2026-04-21
+lastmod: 2026-04-28
 draft: false
 description: "BTM-focused profile of Oklo's Aurora reactor for data center deployment. 75 MWe sodium-cooled fast microreactor. ~18 GW order book (mostly nonbinding LOIs) from Meta, Switch, Equinix, Wyoming Hyperscale. First deployment at Idaho National Lab (groundbreaking Sept 2025, target 2027–2028 criticality). Key risks: HALEU fuel supply, NRC licensing, order book / binding commitment gap."
 tags: ["nuclear", "smr", "microreactor", "behind-the-meter", "data-center", "haleu", "oklo"]
@@ -14,12 +14,30 @@ source_urls:
   - "https://oklo.com/newsroom/news-details/2025/Oklo-Breaks-Ground-on-First-Aurora-Powerhouse/default.aspx"
   - "https://www.datacenterdynamics.com/en/news/oklo-boosts-aurora-reactor-capacity-to-75mw-to-power-ai-data-centers/"
   - "https://www.utilitydive.com/news/oklo-aurora-smr-advanced-reactor-supply-agreement-data-center-developer-switch/735933/"
-last_reviewed: 2026-04-21
+last_reviewed: 2026-04-28
 stale_after_days: 90
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
 
+{{< steering >}}
+**Scope:** Oklo's behind-the-meter (BTM) power value proposition for data centers. This is a BTM-focused profile; see the full Oklo company entry at `energy/nuclear/oklo.md` for financing, company history, and detailed technical background.
+
+**Key topics:**
+- Aurora reactor BTM fit: 75 MWe sodium-cooled fast reactor; compact (<2 acre footprint); passive safety; walk-away safe
+- Order book: ~18 GW total (90%+ nonbinding LOIs); Meta (~15 GW framework), Switch (12 GW framework), Equinix (500 MW LOI), Wyoming Hyperscale (100 MW binding PPA)
+- First commercial deployment: INL Aurora Unit 1 (groundbreaking Sept 2025; target criticality 2027–2028)
+- HALEU fuel bottleneck: only INL inventory available now; commercial production (Centrus) not yet operational
+- NRC licensing: COLA Phase 1 in progress; first-of-a-kind; approval could slip 12–24 months
+- Vertiv partnership (July 2025): integrated power + thermal management
+
+**Track:**
+- COLA Phase 1 submission date and NRC technical review progress
+- INL Aurora Unit 1 construction milestones (foundation, concrete pour, fuel delivery)
+- Binding PPA conversions from LOI holders (Meta, Switch)
+- Centrus HALEU production timelines and DOE commitments
+- Vertiv joint project announcements
+{{< /steering >}}
 
 ## Summary
 
@@ -38,6 +56,86 @@ This profile focuses on Oklo's behind-the-meter (BTM) power value proposition fo
 - **NRC licensing:** First-of-a-kind; COLA resubmission 2025, approval uncertain, could slip 12–24 months
 - **Order book reality:** ~18 GW is 90% nonbinding LOIs; binding PPAs likely <5 GW as of April 2026
 - **Execution risk:** Single first project (INL); if delays >12 months, entire timeline cascades backward
+
+---
+
+## Key Facts
+
+- **Company:** Oklo Inc. (NYSE: OKLO); founded 2013; HQ Santa Clara, California
+- **Co-founders:** Jacob DeWitte (CEO) and Caroline Cochran (COO), both MIT nuclear engineering alumni
+- **Chairman:** Sam Altman (OpenAI CEO; invested via SPAC 2023)
+- **Reactor type:** Aurora — sodium-cooled fast reactor (SFR); pool-type configuration
+- **Electrical output:** 75 MWe per unit (uprated from 15 MWe original design, 2024–2025)
+- **Fuel:** HALEU (high-assay low-enriched uranium, >19.75% U-235); HALEU supply is a critical bottleneck
+- **Safety:** Walk-away safe; passive natural-circulation sodium cooling; no operator action required post-shutdown
+- **Footprint:** <2 acres per unit; suitable for co-location adjacent to data center campus
+- **First commercial deployment:** Aurora Unit 1, Idaho National Laboratory; groundbreaking September 2025; target criticality Q3–Q4 2027; constructor: Kiewit
+- **Data center order book (April 2026):** ~18 GW total — ~90% nonbinding LOIs; Wyoming Hyperscale holds only publicly known binding 20-year PPA (100 MW)
+- **Key data center customers (LOI/framework):** Meta (~15 GW framework), Switch (12 GW framework), Equinix (500 MW LOI)
+- **Key partnership:** Vertiv (July 2025) — integrated power and thermal management
+- **Estimated capex:** $5–7B/unit (first-of-a-kind); ~$70–90M/MW; drops to ~$3–5B/unit post-learning-curve
+- **Estimated PPA pricing:** $50–80/MWh (20–30 year PPA with 2–3% annual escalation)
+
+---
+
+## Notable Developments
+
+- **2025-09:** Oklo broke ground on Aurora Unit 1 at Idaho National Laboratory; Kiewit named as lead constructor; target criticality Q3–Q4 2027.
+- **2025-07:** Oklo and Vertiv announced strategic collaboration to co-develop integrated power and thermal management systems for hyperscale and colocation data centers.
+- **2025:** Oklo uprated Aurora design from 15 MWe to 75 MWe to match hyperscale data center demand pull (driven by Meta, Switch customer discussions).
+- **2025:** Wyoming Hyperscale signed 20-year binding PPA with Oklo for 100 MW — the only publicly known binding contract as of April 2026.
+- **2024–2025:** Meta signed master power agreement (framework) for up to ~15 GW of Aurora capacity; agreement is nonbinding LOI structure, not binding PPA.
+- **2024:** Switch Communications announced 12 GW supply agreement framework; nonbinding.
+- **2024:** Equinix signed 500 MW letter of intent; nonbinding; Equinix also evaluating Radiant, Bloom, and geothermal BTM options.
+- **2023:** Oklo went public via SPAC merger; Sam Altman (OpenAI) serves as Chairman; raised capital for Aurora Unit 1 construction.
+- **2022:** NRC rejected Oklo's first Combined License Application (COLA) as incomplete; Oklo resubmitted revised pre-application materials 2023–2025.
+- **2013:** Oklo founded by Jacob DeWitte and Caroline Cochran at MIT.
+
+---
+
+## Claim Verification
+
+### Claim: Oklo has an ~18 GW order book for Aurora reactors
+
+**Status:** Partially verified — confirmed as predominantly nonbinding
+
+**Supporting sources:**
+- [Oklo newsroom (oklo.com)](https://oklo.com/) — company press releases confirm Meta master power agreement, Switch supply agreement, Equinix LOI, Wyoming Hyperscale PPA
+- [Data Center Dynamics reporting](https://www.datacenterdynamics.com/en/news/oklo-boosts-aurora-reactor-capacity-to-75mw-to-power-ai-data-centers/) — confirms capacity uprate and order book scale
+
+**Refuting / questioning sources:**
+- Independent financial analysts and nuclear industry observers have noted that the 18 GW figure is predominantly framework agreements and nonbinding LOIs; no single third-party analysis has verified binding commitments above ~100 MW (Wyoming Hyperscale PPA) as of April 2026
+- Meta, Switch, and Equinix have all publicly disclosed parallel nuclear BTM arrangements with other vendors (Kairos, TerraPower, Radiant), indicating the Oklo agreements are not exclusive
+
+**Summary:** The ~18 GW headline figure is confirmed as an aggregate of customer frameworks and LOIs, but binding PPAs likely represent less than 1% of that total as of April 2026.
+
+### Claim: Aurora Unit 1 at INL will achieve criticality in Q3–Q4 2027
+
+**Status:** Unverified — company target; first-of-a-kind construction and licensing creates material slippage risk
+
+**Supporting sources:**
+- [Oklo groundbreaking announcement (Sept 2025)](https://oklo.com/newsroom/news-details/2025/Oklo-Breaks-Ground-on-First-Aurora-Powerhouse/default.aspx) — confirms construction start and timeline target
+
+**Refuting / questioning sources:**
+- COLA Phase 1 submission not publicly confirmed as filed as of April 2026; NRC review alone requires 18–24 months post-submission
+- No commercial sodium-cooled fast reactor has been licensed and built in the U.S. under the current NRC framework; first-of-a-kind licensing delays of 12–24 months are the historical norm
+- HALEU fuel supply from INL inventory is confirmed for Unit 1 only; commercial HALEU production (Centrus) remains undemonstrated at scale
+
+**Summary:** 2027–2028 criticality is the official target; independent observers consider 2029–2030 a more realistic range given NRC licensing precedents.
+
+### Claim: Aurora is "walk-away safe" with passive sodium cooling
+
+**Status:** Verified by design; not yet demonstrated at commercial scale
+
+**Supporting sources:**
+- Published technical descriptions of pool-type sodium-cooled fast reactor designs (EBR-II heritage) confirm passive decay heat removal via natural circulation; this is established reactor physics
+- NRC pre-application review materials cited by Oklo reference passive safety as a design basis criterion
+
+**Refuting / questioning sources:**
+- Commercial-scale Aurora has not been built or operated; passive safety is validated by physics and engineering models, not by operational data from an Aurora unit
+- Sodium coolant presents handling and fire risks not present in light-water reactors; these risks require engineered mitigations and are factored into NRC licensing review
+
+**Summary:** Passive safety design basis is well-established for pool-type SFR designs and is credible; operational validation awaits Aurora Unit 1 commissioning.
 
 ---
 

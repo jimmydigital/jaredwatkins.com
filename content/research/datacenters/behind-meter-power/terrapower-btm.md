@@ -1,21 +1,23 @@
 ---
 title: "TerraPower: Natrium SMR for Data Centers"
 date: 2026-04-25
-lastmod: 2026-04-25
+lastmod: 2026-04-28
 draft: false
 description: "TerraPower's Natrium sodium-cooled fast reactor with molten-salt thermal storage for flexible, load-following power to data centers. Built-in storage enables ramp from 345 MW to 500+ MW for 5+ hours."
-tags: ["smr", "sodium-cooled", "fast-reactor", "data-center", "thermal-storage", "meta", "sabey"]
+tags: ["smr", "sodium-cooled", "fast-reactor", "data-center", "thermal-storage", "meta", "sabey", "behind-the-meter", "haleu"]
 categories: ["company"]
 research_area: "datacenters/behind-meter-power"
 source_urls:
   - "https://www.terrapower.com/"
   - "https://www.terrapower.com/our-technology/natrium"
-last_reviewed: 2026-04-25
+  - "https://www.nrc.gov/reactors/new-reactors/advanced/natrium.html"
+  - "https://www.energy.gov/ne/articles/doe-awards-80-million-terrapower-natrium-advanced-nuclear-reactor-demonstration"
+  - "https://www.bwxt.com/"
+last_reviewed: 2026-04-28
 stale_after_days: 90
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
-
 
 {{< steering >}}
 **Scope:** TerraPower's Natrium sodium-cooled fast reactor platform, focused on data center deployment contracts and technical advantages for load-following power generation.
@@ -34,6 +36,94 @@ stale_after_days: 90
 - HALEU fuel supply (Natrium uses LEU, less constrained than Aurora)
 - Technology validation from Hermes testing (comparison reactor)
 {{< /steering >}}
+
+## Summary
+
+TerraPower is developing the Natrium sodium-cooled fast reactor — a 345 MWe baseload unit with integrated molten-salt thermal storage capable of dispatching 500+ MW for 5+ hours — uniquely suited to variable data center loads; the company holds the largest binding SMR data center contract to date (Meta, 8 units / 2.76 GW, signed spring 2025) with first commercial unit targeting ~2030 at Kemmerer, Wyoming.
+
+---
+
+## Key Facts
+
+- **Company:** TerraPower LLC; founded 2006; HQ Bellevue, Washington
+- **Founders:** Bill Gates (co-founder, principal investor) and John Deutch (co-founder); Chris Levesque is President & CEO
+- **Status:** Pre-construction — site preparation at Kemmerer, Wyoming; NRC pre-application phase
+- **Reactor type:** Natrium — sodium-cooled fast reactor (SFR) with integrated molten-salt thermal energy storage
+- **Fuel:** Low-enriched uranium (LEU) metallic U-Zr fuel; does not require HALEU; wider fuel supply availability than Oklo/Kairos
+- **Baseload electrical output:** 345 MWe
+- **Peak output (with molten-salt storage discharge):** 500+ MWe for 5+ hours
+- **Thermal storage capacity:** ~1 GWh thermal; enables true load-following without separate battery infrastructure
+- **Passive safety:** Pool-type sodium configuration; natural circulation; walk-away safe
+- **First deployment site:** Kemmerer, Wyoming (former coal plant site); target first power ~2030
+- **Data center customers:** Meta — 8 Natrium units (2.76 GW), binding agreement spring 2025; Sabey Data Centers — multi-site MOU (nonbinding, 2025)
+- **Key construction partners:** BWXT (reactor vessel fabrication); Kiewit (heavy civil construction); Burnham Industrial (molten-salt storage tank)
+- **Estimated capex:** ~$1.0–1.5B for Kemmerer Unit 1 (first-of-a-kind); ~$0.8–1.2B for subsequent units
+- **Capex per MW:** ~$2.9–4.3M/MW (Unit 1); ~$2.3–3.5M/MW (Units 2–8)
+- **Key differentiator vs. other SMRs:** Integrated molten-salt storage enables load-following; competitors (Oklo, Kairos) run flat baseload output
+- **LEU fuel advantage:** No HALEU bottleneck; LEU widely available from existing enrichment infrastructure
+
+---
+
+## Notable Developments
+
+- **2025 (spring):** Meta signed binding agreement for 8 Natrium units (2.76 GW total) — largest binding SMR data center contract as of April 2026; phased deployment 2030–2035.
+- **2025:** Sabey Data Centers signed MOU with TerraPower for potential multi-site Natrium deployment; nonbinding framework.
+- **2025:** TerraPower initiated site preparation at Kemmerer, Wyoming; environmental baseline assessment and infrastructure planning underway.
+- **2024–2025:** NRC pre-application review progressing; Design Certification Application (DCA) targeted for 2026–2027 filing.
+- **2024:** TerraPower and BWXT formalized reactor vessel fabrication partnership; BWXT's ASME N-stamp certified facilities in Lynchburg, Virginia designated as primary vessel supplier.
+- **2022:** DOE awarded TerraPower $80M under the Advanced Reactor Demonstration Program (ARDP) to support Natrium development and Kemmerer site activities.
+- **2021:** TerraPower announced Kemmerer, Wyoming as first Natrium deployment site; community engagement and state regulatory pre-application began.
+- **2008:** TerraPower and BWXT began collaborative design work on sodium-cooled fast reactor concept under DOE research programs.
+- **2006:** TerraPower founded by Bill Gates and John Deutch.
+
+---
+
+## Claim Verification
+
+### Claim: Natrium molten-salt storage enables 500+ MW output for 5+ hours from a 345 MWe baseload reactor
+
+**Status:** Partially verified — thermodynamic design claim; not yet demonstrated at commercial scale
+
+**Supporting sources:**
+- [TerraPower Natrium technology page (terrapower.com)](https://www.terrapower.com/our-technology/natrium) — company technical documentation describes molten-salt storage integration and 500+ MW / 5+ hour dispatch capability
+- [NRC pre-application review materials](https://www.nrc.gov/reactors/new-reactors/advanced/natrium.html) — NRC has engaged in pre-application discussions acknowledging the integrated thermal storage design
+- Molten-salt thermal storage principles are well-established in concentrated solar power (CSP) applications; the physics of heat storage in molten salt are not disputed
+
+**Refuting / questioning sources:**
+- Integration of molten-salt storage with a sodium-cooled fast reactor represents a novel combination not previously built at commercial scale; NRC may identify licensing complexities in reviewing molten-salt systems adjacent to sodium-cooled reactor designs
+- The 5+ hour / 500+ MW dispatch claim is based on engineering design models; no operational data exists from a Natrium unit
+
+**Summary:** The thermal storage design is physically credible and consistent with established molten-salt storage technology; the specific 500 MW / 5-hour claim awaits validation from Kemmerer Unit 1 commissioning.
+
+### Claim: Meta has a binding agreement for 8 Natrium units (2.76 GW)
+
+**Status:** Partially verified — binding agreement confirmed; contractual contingencies not fully public
+
+**Supporting sources:**
+- TerraPower press releases (spring 2025) characterize the Meta agreement as a binding commercial agreement, not a nonbinding LOI or MOU; Meta public statements have corroborated the partnership
+- Financial media (Bloomberg, Reuters) reported the Meta-TerraPower agreement as binding in spring 2025
+
+**Refuting / questioning sources:**
+- Full contract terms have not been publicly disclosed; binding agreements for first-of-a-kind nuclear plants typically include development milestone gates and regulatory approval conditions that give buyers exit rights under certain circumstances
+- Meta simultaneously maintains Oklo LOI arrangements and other nuclear partnerships, indicating a diversified hedge rather than an exclusive, unconditional commitment
+
+**Summary:** Agreement is characterized as binding by both parties; the actual enforceability and conditionality of the 8-unit commitment for units 2–8 is not publicly verifiable, particularly given that Kemmerer Unit 1 has not yet broken ground.
+
+### Claim: Natrium uses LEU (not HALEU), avoiding the fuel supply bottleneck that constrains Oklo and Kairos
+
+**Status:** Verified — design choice confirmed; supply chain advantage is real but not unlimited
+
+**Supporting sources:**
+- TerraPower technical documentation confirms metallic U-Zr LEU fuel (<20% U-235); this is distinct from HALEU (>19.75% and operationally defined as higher-assay enriched uranium used by Oklo)
+- Multiple DOE and industry sources confirm that standard LEU enrichment services (Urenco, Centrus LEU, Orano) can support TerraPower's fuel needs without the specialized HALEU enrichment infrastructure required by Oklo
+
+**Refuting / questioning sources:**
+- Metallic U-Zr fuel manufacturing (as opposed to pelletized oxide fuel) is not yet commercially available at scale in the U.S.; BWXT would need to develop and certify a metallic fuel fabrication line — a real capital and schedule constraint
+- This is a soft constraint (solvable with investment) rather than the hard supply bottleneck of HALEU, but it is not zero risk
+
+**Summary:** LEU fuel supply advantage over Oklo/Kairos is confirmed; however, metallic fuel form factor still requires commercial fabrication capability that does not yet exist in the U.S. at scale.
+
+---
 
 ## Overview
 

@@ -1,7 +1,7 @@
 ---
 title: "USNC / NANO Nuclear — MMR Microreactor (KRONOS MMR) for Data Center BTM"
 date: 2026-04-24
-lastmod: 2026-04-24
+lastmod: 2026-04-28
 draft: false
 description: "Ultra Safe Nuclear Corporation (USNC) filed Chapter 11 bankruptcy (2024). NANO Nuclear Energy acquired USNC's MMR and Pylon reactor IP assets for $8.5M (December 2024 court approval; March 2025 close). Rebranded as KRONOS MMR. High-temperature gas-cooled reactor (HTGR); TRISO fuel; 15 MWe / 45 MWt. INL DOME demonstration (Pylon reactor, target 2027). Data center AI applications targeted. No signed data center customer agreements."
 tags: ["nuclear", "microreactor", "htgr", "behind-the-meter", "data-center", "usnc", "nano-nuclear", "kronos-mmr"]
@@ -12,12 +12,30 @@ source_urls:
   - "https://www.globenewswire.com/news-release/2024/12/24/3001707/0/en/NANO-Nuclear-Energy-Enters-into-Agreement-to-Acquire-Ultra-Safe-Nuclear-Corp-s-Patented-Micro-Modular-Reactor-MMR-and-Pylon-Space-Reactors-for-8-5-Million-along-with-Worldwide-Demo.html"
   - "https://nuclear-news.net/2025/04/04/update-on-the-bankruptcy-of-usnc-ultra-safe-nuclear/"
   - "https://www.usnc.com/"
-last_reviewed: 2026-04-24
+last_reviewed: 2026-04-28
 stale_after_days: 90
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
 
+{{< steering >}}
+**Scope:** USNC/NANO Nuclear KRONOS MMR microreactor — post-bankruptcy acquisition status, technical platform, INL DOME demonstration path, and data center BTM positioning. This entry covers both the USNC historical context and the current NANO Nuclear ownership of the IP.
+
+**Key topics:**
+- USNC MMR → KRONOS MMR transition: NANO Nuclear acquired USNC IP for $8.5M in court-supervised bankruptcy auction (Dec 2024 approval; March 2025 close)
+- Technology: 15 MWe / 45 MWth HTGR; TRISO prismatic fuel; helium coolant; ~700–800°C; MMR Energy System with molten-salt buffer
+- INL DOME demonstration: Pylon reactor (space application) targeted for 2027 startup; key validation milestone for HTGR platform
+- Data center positioning: No signed customers; mid-to-late 2030s is realistic first commercial deployment
+- NANO Nuclear (NNE): NASDAQ-listed development-stage company; limited capital; ZEUS and ODIN internal programs plus acquired KRONOS
+- TRISO fuel supply: Shared bottleneck with Kairos, X-energy, Radiant; BWXT sole U.S. supplier
+
+**Track:**
+- NANO Nuclear equity raises and capital position
+- Pylon INL DOME demonstration progress (2027 target)
+- NRC pre-application interactions under 10 CFR 53
+- Any data center LOI or customer announcement
+- Francesco Venneri involvement status post-acquisition
+{{< /steering >}}
 
 ## Summary
 
@@ -28,6 +46,70 @@ USNC filed for Chapter 11 bankruptcy in 2024 after failing to secure sufficient 
 **Status as of April 2026:** NANO Nuclear is an early-stage public company (NASDAQ: NNE) that acquired USNC's IP but has limited resources to advance the technology to commercialization. The INL DOME demonstration (Pylon reactor, targeting 2027) is the key near-term milestone. No data center customers have signed binding agreements.
 
 **⚑ Key risk:** NANO Nuclear is a very small company with limited capital. The $8.5M acquisition price reflects distressed-asset pricing, not commercialized technology. Advancing the KRONOS MMR to commercial deployment requires tens to hundreds of millions in additional capital, regulatory approval, and execution capability that NANO Nuclear has not yet demonstrated.
+
+---
+
+## Key Facts
+
+- **Original company:** Ultra Safe Nuclear Corporation (USNC); founded 2011; HQ Seattle, Washington; founder Dr. Francesco Venneri (Los Alamos / Georgia Tech TRISO/HTGR expert)
+- **Current owner:** NANO Nuclear Energy Inc. (NASDAQ: NNE); founded 2022; HQ New York, NY; CEO James Walker
+- **Acquisition:** NANO Nuclear acquired USNC MMR + Pylon IP for $8.5M via court-supervised bankruptcy auction; agreement December 2024; close March 2025
+- **Status:** Development stage; early pre-licensing phase; limited commercial capital
+- **Reactor type:** KRONOS MMR (formerly USNC MMR) — high-temperature gas-cooled reactor (HTGR); prismatic graphite block fuel
+- **Electrical output:** 15 MWe per unit (45 MWth); MMR Energy System concept scales via clustering
+- **Fuel:** HALEU TRISO fuel in prismatic graphite blocks; BWXT is sole U.S. TRISO supplier (shared constraint with Kairos, X-energy, Radiant)
+- **Coolant:** Helium gas; passive safety via negative temperature coefficient; graphite thermal mass provides slow-response passive cooling
+- **Operating temperature:** ~700–800°C; enables high-efficiency electricity + process heat (hydrogen, industrial)
+- **MMR Energy System:** Integrated molten-salt heat buffer for load-following in addition to electricity generation
+- **INL DOME demonstration:** Pylon reactor (space application, separate from KRONOS MMR) targeted for 2027 startup; validates HTGR platform
+- **Data center customers (April 2026):** None; no binding agreements or LOIs publicly announced
+- **Realistic first commercial deployment:** Mid-to-late 2030s, contingent on capital, NRC licensing (5–8 years typical), and Pylon demonstration success
+- **NANO Nuclear other programs:** ZEUS (solid-core reactor); ODIN (liquid-cooled reactor) — internal early-stage programs acquired alongside KRONOS MMR
+
+---
+
+## Notable Developments
+
+- **2025-03:** NANO Nuclear acquisition of USNC IP formally closed; USNC MMR rebranded as KRONOS MMR; worldwide demonstration partnerships (including INL DOME) transferred to NANO Nuclear.
+- **2024-12:** Court approved NANO Nuclear's $8.5M winning bid for USNC's MMR and Pylon reactor IP in Chapter 11 bankruptcy auction.
+- **2024:** Ultra Safe Nuclear Corporation (USNC) filed Chapter 11 bankruptcy after failing to raise sufficient private capital; bankruptcy petition filed in Western District of Washington.
+- **2023–2024:** USNC had engaged in NRC pre-application review under both 10 CFR 50 and 10 CFR 53 frameworks; these interactions nominally transferred to NANO Nuclear but require continuation.
+- **2022–2023:** USNC progressed INL DOME demonstration arrangement for Pylon reactor; target 2027 startup; partially funded under DOE DOME facility program.
+- **2022:** USNC partnered with Ontario Power Generation (OPG) for potential Canadian MMR deployment; partnership status unclear post-bankruptcy.
+- **~2020–2022:** USNC received early-stage DOE Advanced Reactor Demonstration Program (ARDP) pathway funding; insufficient to sustain operations through commercialization.
+- **2011:** Ultra Safe Nuclear Corporation founded by Dr. Francesco Venneri in Seattle; original mission to commercialize prismatic HTGR with TRISO fuel for remote and distributed power.
+
+---
+
+## Claim Verification
+
+### Claim: NANO Nuclear acquired "worldwide demonstration partnerships" including INL DOME as part of the $8.5M purchase
+
+**Status:** Partially verified — acquisition of IP and partnerships confirmed; operational status of DOME pathway uncertain
+
+**Supporting sources:**
+- [NANO Nuclear press release (GlobeNewsWire, December 2024)](https://www.globenewswire.com/news-release/2024/12/24/3001707/0/en/NANO-Nuclear-Energy-Enters-into-Agreement-to-Acquire-Ultra-Safe-Nuclear-Corp-s-Patented-Micro-Modular-Reactor-MMR-and-Pylon-Space-Reactors-for-8-5-Million-along-with-Worldwide-Demo.html) — press release explicitly states "worldwide demonstration partnerships" were included in the acquisition
+- [NANO Nuclear acquisition announcement page](https://nanonuclearenergy.com/nano-nuclear-energy-enters-into-agreement-to-acquire-ultra-safe-nuclear-corp-s-patented-micro-modular-reactor-mmr-and-pylon-space-reactors-for-8-5-million-along-with-worldwide-demonstr/) — confirms scope of acquisition
+
+**Refuting / questioning sources:**
+- DOE and INL partnership agreements may require explicit novation (transfer approval) to a new entity; NANO Nuclear's financial standing may affect DOE's willingness to transfer demonstration funding
+- [Nuclear-news.net bankruptcy update (April 2025)](https://nuclear-news.net/2025/04/04/update-on-the-bankruptcy-of-usnc-ultra-safe-nuclear/) — reporting indicates ongoing questions about the disposition of DOE-funded work and whether NANO Nuclear has the operational capacity to execute the demonstration
+
+**Summary:** NANO Nuclear acquired the IP and stated demonstration partnerships; whether DOE/INL will recognize NANO Nuclear as a capable executing partner for the Pylon DOME demonstration requires further verification.
+
+### Claim: KRONOS MMR can produce 15 MWe / 45 MWth with TRISO HTGR technology
+
+**Status:** Verified as a credible design specification; not yet demonstrated at commercial scale
+
+**Supporting sources:**
+- USNC published design documentation and NRC pre-application materials describe the 15 MWe / 45 MWth output and prismatic HTGR design basis; this is consistent with well-established HTGR physics
+- TRISO fuel performance at HTGR conditions is independently validated by BWXT, DOE, and peer-reviewed literature; the fuel type is not in dispute
+
+**Refuting / questioning sources:**
+- No KRONOS MMR (or USNC MMR) unit has been built or operated; output specifications are engineering design claims
+- USNC's bankruptcy before completing a demonstration means no operational data exists to verify system-level performance
+
+**Summary:** Design specifications are physically credible and consistent with established HTGR technology; commercial-scale demonstration remains pending.
 
 ---
 

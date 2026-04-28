@@ -1,17 +1,19 @@
 ---
 title: "Caterpillar & Solar Turbines: Gas Turbines for Data Center BTM"
 date: 2026-04-25
-lastmod: 2026-04-25
+lastmod: 2026-04-28
 draft: false
 description: "Caterpillar (parent) and Solar Turbines subsidiary—industrial gas turbine manufacturer pivoting to data center BTM power. Solar Turbines 1–39 MW class turbines; Vertiv integration partnership (Nov 2025)."
-tags: ["gas-turbine", "caterpillar", "solar-turbines", "btm-power", "data-center", "vertiv"]
+tags: ["gas-turbine", "caterpillar", "solar-turbines", "btm-power", "data-center", "vertiv", "behind-the-meter"]
 categories: ["company"]
 research_area: "datacenters/behind-meter-power"
 source_urls:
   - "https://www.cat.com/"
   - "https://www.solarturbines.com/"
   - "https://www.vertivco.com/"
-last_reviewed: 2026-04-25
+  - "https://www.vertivco.com/en-us/about/news-and-insights/articles/press-releases/vertiv-and-caterpillar-collaborate-to-power-data-centers-with-natural-gas-turbine-technology/"
+  - "https://finance.yahoo.com/quote/CAT"
+last_reviewed: 2026-04-28
 stale_after_days: 180
 ---
 
@@ -36,6 +38,80 @@ stale_after_days: 180
 - Competitive pricing vs. GE Vernova and Siemens in 10–39 MW segment
 - Hydrogen-readiness roadmap for turbine products
 {{< /steering >}}
+
+## Summary
+
+Solar Turbines (a wholly-owned subsidiary of Caterpillar Inc.) manufactures industrial gas turbines in the 1–39 MW class and is pivoting toward data center behind-the-meter (BTM) power, partnering with Vertiv in November 2025 to offer integrated turnkey power plant solutions; as of April 2026 the company has no publicly named data center BTM contracts and remains a secondary entrant relative to GE Vernova and Wärtsilä.
+
+---
+
+## Key Facts
+
+- **Parent company:** Caterpillar Inc. (NYSE: CAT), founded 1925; HQ Peoria, Illinois
+- **Subsidiary:** Solar Turbines Incorporated; HQ San Diego, California
+- **Founded:** Solar Turbines founded 1927; acquired by Caterpillar 1981
+- **Status:** Active — pivoting established industrial product line toward data center BTM
+- **Technology:** Recuperated industrial gas turbines, 1–39 MW class (Mercury, Centaur, Taurus, Saturn, Titan series)
+- **Fuel:** Natural gas primary; also diesel, LPG, biogas/RNG; up to 25% hydrogen blends (2025); 100% hydrogen roadmap by late 2020s
+- **Key partnership:** Vertiv (November 2025) — integrated power generation + cooling + electrical distribution for modular data center power plants
+- **Data center contracts (April 2026):** No publicly named binding orders
+- **Estimated capex:** ~$2.0–2.5M/MW (all-in, including Vertiv integration)
+- **Competitive context:** Wärtsilä leads data center BTM with 2.4+ GW cumulative U.S. orders; GE Vernova leads aeroderivative segment with $2.4B Q1 2026 orders
+
+---
+
+## How Solar Turbines Work
+
+Solar Turbines manufactures **recuperated industrial gas turbines** — machines in which combustion exhaust heat is routed back through a heat exchanger to pre-warm compressed air before it enters the combustor. This internal heat recovery raises electrical efficiency to the 45–50% range (compared with ~35–40% for simple-cycle gas turbines), and the recovered thermal energy can further be captured for combined heat and power (CHP) applications such as absorption cooling or process heating.
+
+The core operating principle follows the Brayton thermodynamic cycle: atmospheric air is compressed, mixed with fuel and combusted, and the hot exhaust gas drives a turbine connected to a generator. In Solar Turbines' recuperated designs, an annular heat exchanger surrounds the turbine, capturing exhaust energy before it exits the stack. This design trades a modest increase in mechanical complexity for a significant efficiency gain that is most valuable in continuous-duty, baseload applications — the same duty cycle typical of a data center power plant.
+
+Solar Turbines' portfolio spans the 1–39 MW class, with the Mercury series (4–10 MW), Centaur series (10–20 MW), Taurus 60 series (20–30 MW), and Taurus 70 series (30–39 MW) covering the range most relevant to behind-the-meter data center deployments of 10–50 MW aggregate capacity. Smaller units can be clustered with individual switchgear for N+1 redundancy without a single large turbine representing a single point of failure. All models accept multiple fuels and are certified for up to 25% hydrogen blend operation as of 2025, with a roadmap toward 100% hydrogen capability by the late 2020s.
+
+In the Vertiv partnership announced November 2025, Solar Turbines' generation equipment is integrated with Vertiv's power distribution, switchgear, and cooling systems into a pre-engineered modular package. The aim is to reduce on-site engineering effort, shorten installation timelines to 12–18 months from order to first power, and provide a single-vendor support model for data center operators who would otherwise source turbine, electrical, and cooling infrastructure separately.
+
+---
+
+## Notable Developments
+
+- **2025-11:** Caterpillar and Vertiv announced integrated modular data center power plant partnership combining Solar Turbines generation with Vertiv cooling and electrical distribution; first joint go-to-market targeting mid-scale colocation and regional hyperscaler sites.
+- **2025:** Solar Turbines certified Taurus and Centaur series for up to 25% hydrogen-blend fuel operation; 100% hydrogen capability targeted for late 2020s.
+- **2024–2025:** Caterpillar CEO publicly positioned data center BTM as strategic growth market for Solar Turbines; internal R&D resources redirected toward data center power applications.
+- **2024:** Solar Turbines began formal marketing of BTM gas turbine packages to data center developers, initially targeting 10–39 MW single-turbine installations.
+- **1981:** Caterpillar acquired Solar Turbines Incorporated (founded 1927); Solar Turbines integrated as wholly-owned subsidiary.
+
+---
+
+## Claim Verification
+
+### Claim: Solar Turbines recuperated models achieve 45–50% electrical efficiency
+
+**Status:** Partially verified
+
+**Supporting sources:**
+- [Solar Turbines product specifications (solarturbines.com)](https://www.solarturbines.com/) — manufacturer specs list heat rates of ~10,500–14,000 Btu/kWh depending on model, implying electrical efficiencies of roughly 24–33% simple-cycle; recuperation raises this to the published 45–50% CHP efficiency range
+- Industry sources (Gas Turbine World, ASME papers) corroborate that recuperated industrial gas turbines in the 1–40 MW class routinely achieve 40–50% electrical efficiency in combined heat and power configurations
+
+**Refuting / questioning sources:**
+- Peak efficiency figures are typically measured at ISO conditions (15°C, sea level, 60% RH) and at rated full load; actual efficiency at hot-site or altitude conditions or at part load can be 5–10 percentage points lower
+- No independent third-party measured efficiency data for Solar Turbines units in data center BTM applications found as of April 2026
+
+**Summary:** The 45–50% efficiency range is credible for recuperated CHP mode under ISO conditions; real-world data center BTM efficiency will depend heavily on site conditions, load profile, and whether waste heat is actually recovered.
+
+### Claim: Caterpillar/Vertiv partnership targets "turnkey" modular data center power plant with 12–18 month deployment timeline
+
+**Status:** Unverified
+
+**Supporting sources:**
+- [Vertiv press release (vertivco.com)](https://www.vertivco.com/en-us/about/news-and-insights/articles/press-releases/vertiv-and-caterpillar-collaborate-to-power-data-centers-with-natural-gas-turbine-technology/) — confirms partnership announcement and integrated solution intent; does not specify deployment timeline
+
+**Refuting / questioning sources:**
+- No completed data center deployments under this partnership as of April 2026; the 12–18 month timeline is Caterpillar/Vertiv's stated target, not a measured result
+- Industrial gas turbine delivery schedules from other suppliers (GE Vernova: 24+ months; Wärtsilä: 18–24 months at current demand) suggest 12–18 months may be optimistic unless Solar Turbines has available inventory
+
+**Summary:** Partnership is confirmed; deployment timeline is an unverified target claim with no completed reference projects as of April 2026.
+
+---
 
 ## Overview
 

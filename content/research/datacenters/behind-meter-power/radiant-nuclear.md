@@ -1,16 +1,19 @@
 ---
 title: "Radiant Nuclear: Kaleidos Microreactor for Data Centers"
 date: 2026-04-25
-lastmod: 2026-04-25
+lastmod: 2026-04-28
 draft: false
 description: "Radiant Nuclear's 1.2 MWe Kaleidos microreactor—high-temperature gas-cooled HTGR with HALEU/TRISO fuel. Equinix 20-unit preorder signals microreactor scaling for colocation data centers."
-tags: ["microreactor", "htgr", "kaleidos", "equinix", "modular-nuclear", "data-center"]
+tags: ["microreactor", "htgr", "kaleidos", "equinix", "modular-nuclear", "data-center", "behind-the-meter", "haleu"]
 categories: ["company"]
 research_area: "datacenters/behind-meter-power"
 source_urls:
   - "https://www.radiantnuclear.com/"
   - "https://www.equinix.com/"
-last_reviewed: 2026-04-25
+  - "https://www.bwxt.com/what-we-do/nuclear-fuel/triso"
+  - "https://www.nrc.gov/reactors/new-reactors/advanced/microreactors.html"
+  - "https://inl.gov/research-program/dome/"
+last_reviewed: 2026-04-28
 stale_after_days: 90
 ---
 
@@ -37,6 +40,89 @@ stale_after_days: 90
 - Competitive differentiation vs. USNC/Westinghouse
 - Technology validation (helium flow, TRISO thermal performance)
 {{< /steering >}}
+
+## Summary
+
+Radiant Nuclear is developing the Kaleidos, a 1.2 MWe factory-built high-temperature gas-cooled microreactor designed for clustered deployment at colocation data centers; the company holds the largest microreactor customer commitment to date — a 20-unit (24 MW+) preorder from Equinix (August 2025) — with commercial validation hinging on successful demonstration at Idaho National Laboratory's DOME facility.
+
+---
+
+## Key Facts
+
+- **Company:** Radiant Nuclear; founded 2020; HQ Los Angeles, California
+- **CEO & Co-Founder:** Doug Bernauer (former SpaceX propulsion engineer)
+- **Status:** Development stage — KDU demonstration at INL DOME pending; production target 2027–2028
+- **Reactor type:** High-temperature gas-cooled reactor (HTGR); pebble-bed or prismatic-block configuration
+- **Electrical output:** 1.2 MWe per unit (~5 MWth)
+- **Fuel:** HALEU TRISO (tristructural isotropic coated fuel particles); BWXT is sole U.S. TRISO supplier
+- **Coolant:** Helium (inert; passive natural circulation for emergency cooling)
+- **Operating temperature:** ~700–800°C helium outlet
+- **Footprint:** <2 acres per unit; truck-transportable modules; factory-constructed
+- **Clustering:** Units stack in 1.2 MW increments; 4–8 units (4.8–9.6 MW) per colocation campus typical
+- **Key data center customer:** Equinix — 20-unit preorder announced August 2025; 24 MW+ across multiple facilities; phased deployment 2027–2030+
+- **Target capital cost:** $40–60M/unit at production scale (50 units/year); early units ~$60–100M
+- **KDU demonstration site:** INL DOME facility; target startup 2026; slippage to 2027–2028 is anticipated
+- **Funding:** Series C+ ($300M+ raised as of December 2025)
+- **TRISO fuel supplier:** BWXT Technologies (shared with Kairos, X-energy, USNC/NANO Nuclear)
+
+---
+
+## Notable Developments
+
+- **2025-08:** Equinix announced 20-unit Kaleidos preorder — the largest single microreactor commercial commitment as of April 2026; 24 MW+ capacity to be deployed across multiple Equinix colocation facilities in phased schedule 2027–2030+.
+- **2025-12:** Radiant completed Series C+ funding round ($300M+ raised cumulatively); capital directed toward KDU construction and manufacturing facility planning.
+- **2025:** Radiant filed NRC pre-application review materials for the Kaleidos design; Design Certification Application (DCA) targeted for 2026–2027.
+- **2025:** Radiant announced BWXT co-investment in TRISO production capacity expansion to de-risk fuel supply for Equinix deployment schedule.
+- **2024–2025:** INL DOME facility infrastructure construction progressed; Kaleidos Demonstration Unit (KDU) equipment procurement and factory assembly underway.
+- **2020:** Radiant Nuclear founded by Doug Bernauer and team with background from SpaceX, applying aerospace manufacturing discipline (factory construction, rapid iteration) to microreactor development.
+
+---
+
+## Claim Verification
+
+### Claim: Equinix 20-unit preorder is a "binding preorder"
+
+**Status:** Partially verified — commercial terms not publicly disclosed in full
+
+**Supporting sources:**
+- [Radiant Nuclear press releases (radiantnuclear.com)](https://www.radiantnuclear.com/) — company characterizes the Equinix agreement as a binding preorder with supply and deployment schedule milestones, distinguishing it from a nonbinding LOI
+- Independent coverage in nuclear and data center industry media confirmed the announcement and Equinix's stated intent
+
+**Refuting / questioning sources:**
+- Full contract terms have not been publicly disclosed; "binding preorder" may include milestone-based cancellation rights or development gates that could reduce the binding nature of the commitment
+- Equinix has separately announced nuclear BTM evaluations with Oklo (500 MW LOI) and interest in other microreactor vendors, indicating a diversified and not yet fully committed strategy
+
+**Summary:** Equinix agreement is characterized by Radiant as binding; independent verification of contractual terms is not possible from public information. The agreement is more substantive than a nonbinding LOI based on available statements but should not be treated as equivalent to a fixed-price, no-cancellation delivery contract.
+
+### Claim: Kaleidos units are "truck-transportable" and factory-built with 12–18 month order-to-power timeline
+
+**Status:** Unverified — design claim; not yet demonstrated
+
+**Supporting sources:**
+- [Radiant Nuclear product documentation (radiantnuclear.com)](https://www.radiantnuclear.com/) — company design documentation describes factory construction in modular containers meeting standard truck transport dimensions
+- Comparable factory-built microreactor programs (Westinghouse eVinci, USNC Pylon) use similar design approaches
+
+**Refuting / questioning sources:**
+- No Kaleidos unit has been shipped, installed, or commissioned as of April 2026; the 12–18 month timeline is a design target, not a demonstrated result
+- NRC licensing for each site will add to the timeline; site-specific COLA reviews are not yet initiated for any Equinix location
+
+**Summary:** Factory transportability is a credible design characteristic consistent with Kaleidos's small size; 12–18 month deployment timeline is a pre-demonstration company target that cannot be independently verified.
+
+### Claim: TRISO fuel provides passive safety ("walk-away safe") at temperatures up to 1600°C+
+
+**Status:** Verified by independent testing for the fuel particle itself
+
+**Supporting sources:**
+- [BWXT TRISO fuel program documentation](https://www.bwxt.com/what-we-do/nuclear-fuel/triso) — BWXT and DOE testing confirms TRISO particles retain fission products under accident conditions up to 1600°C
+- Published peer-reviewed literature (Journal of Nuclear Materials, Nuclear Engineering and Design) extensively documents TRISO performance; this is established nuclear fuel science
+
+**Refuting / questioning sources:**
+- TRISO fuel performance is well-validated; passive safety of the complete Kaleidos reactor system (including helium loop integrity, graphite moderator behavior, instrumentation) has not been demonstrated at commercial scale
+- The KDU demonstration at INL DOME is specifically designed to validate system-level behavior; results are pending
+
+**Summary:** TRISO fuel passive safety at the particle level is well-established and independently verified; system-level Kaleidos passive safety validation awaits KDU demonstration.
+
+---
 
 ## Overview
 
