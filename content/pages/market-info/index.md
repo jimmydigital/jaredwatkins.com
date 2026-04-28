@@ -54,3 +54,7 @@ One page reference for various market info<!--more-->
   <a href="https://www.kitco.com/charts/palladium"><img src="https://www.kitco.com/chart-images/LFgif/PD0365nyb.gif" style="width:100%; height:auto; display:block;"></a>
   <a href="https://www.kitco.com/charts/palladium"><img src="https://www.kitco.com/chart-images/LFgif/PD1825nyb.gif" style="width:100%; height:auto; display:block;"></a>
 </div>
+
+**Copper**
+
+<iframe src="https://s.tradingview.com/embed-widget/mini-symbol-overview/?symbol=COPPER&locale=en&colorTheme=light&dateRange=12M&isTransparent=false&autosize=true&largeChartUrl=" width="100%" height="220" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
