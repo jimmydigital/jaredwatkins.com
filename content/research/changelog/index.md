@@ -1,7 +1,7 @@
 ---
 title: "Research Section Changelog"
 date: 2026-04-04
-lastmod: 2026-04-25
+lastmod: 2026-04-28
 draft: false
 description: "Timestamped log of additions and modifications to the Research knowledge base."
 tags: ["changelog", "research"]
@@ -34,6 +34,7 @@ Each entry is a one-line timestamped summary.
 
 ## Changelog
 
+- **2026-04-28:** Expanded [Wärtsilä]({{< relref "datacenters/behind-meter-power/wartsila-btm.md" >}}) — added BESS (Quantum3, 19+ GWh deployed, Eraring 3.1 GWh AU), marine propulsion (cruise, container, island grids), Caribbean projects (USVI, Bahamas, BVI, Bonaire, Cayman), and TAM sizing (marine ~$25.6B; stationary recip ~$64-79B).
 - **2026-04-25:** Created [VITA 48 REDI thermal standards]({{< relref "datacenters/rugged-edge-compute/vita-48-thermal-standards.md" >}}) + 5 entries: [GMS]({{< relref "datacenters/rugged-edge-compute/general-micro-systems.md" >}}) (X7 RAPTOR 1"×4" RuggedCool +75°C <$10K), [Annapolis Micro Systems]({{< relref "datacenters/rugged-edge-compute/annapolis-micro-systems.md" >}}) (WILD100 SOSA VPX; WC34D0 VITA 48.4 LFT), [Core Systems]({{< relref "datacenters/rugged-edge-compute/core-systems.md" >}}) (ATMOS stackable nodes; +60°C GPU), [LCR Embedded Systems]({{< relref "datacenters/rugged-edge-compute/lcr-embedded-systems.md" >}}) (35yr defense chassis integrator; open-source VITA 46.11 manager), [7Starlake LFT ATR]({{< relref "datacenters/rugged-edge-compute/seven-starlake-liquid-atr.md" >}}) (7SL-3500 500W closed-loop VITA 48.4). Updated [half-rack overview]({{< relref "datacenters/rugged-edge-compute/half-rack-embedded-compute.md" >}}) with power/ruggedization specs; [rugged-edge-compute index]({{< relref "datacenters/rugged-edge-compute/_index.md" >}}) supply chain liquid cooling flag.
 - **2026-04-25:** Created [MicroTCA standard overview]({{< relref "datacenters/rugged-edge-compute/microtca-standard.md" >}}) + 3 entries: [VadaTech]({{< relref "datacenters/rugged-edge-compute/vadatech.md" >}}) (Henderson NV; MCH+chassis+AMC; MTCA.0/1/3/4), [N.A.T. GmbH]({{< relref "datacenters/rugged-edge-compute/nat-europe.md" >}}) (Hennef DE; NAT-MCH-G4; CERN/DESY/PSI), [MicroTCA in 5G RAN]({{< relref "datacenters/rugged-edge-compute/microtca-in-5g-ran.md" >}}) (O-RAN DU; PTP/SyncE; 100 GbE fronthaul).
 - **2026-04-25:** Created [half-rack embedded compute form factor]({{< relref "datacenters/rugged-edge-compute/half-rack-embedded-compute.md" >}}) + 4 platform entries: [Neousys SEMIL-1300]({{< relref "datacenters/rugged-edge-compute/neousys-semil-1300.md" >}}) (2U fanless IP67, -40°C), [ASUS RUC-1000]({{< relref "datacenters/rugged-edge-compute/asus-ruc-1000.md" >}}) (600W GPU 2U; half-rack fanless), [Galleon XSR]({{< relref "datacenters/rugged-edge-compute/galleon-xsr-half-rack.md" >}}) (3U NAS 80TB 100 Gbps US-owned), [7Starlake THOR200-U8-D]({{< relref "datacenters/rugged-edge-compute/seven-starlake-thor200-u8-d.md" >}}) (2.5U NAS 64TB Xeon D MIL-STD-810).
