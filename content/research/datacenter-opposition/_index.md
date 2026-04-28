@@ -1,7 +1,7 @@
 ---
 title: "Datacenter Opposition"
 date: 2026-04-20
-lastmod: 2026-04-20
+lastmod: 2026-04-28
 draft: false
 description: "Research section covering opposition to datacenter construction and operation across the United States — project tracker, organizing groups, funding networks, state-by-state breakdown, legislative actions, and tactical analysis."
 tags: ["datacenter", "opposition", "zoning", "energy", "water", "community-organizing", "litigation", "environmental", "grid-reliability"]
@@ -143,6 +143,7 @@ The opposition movement is diverse, spanning local NIMBY coalitions (homeowners,
 | **Bessemer Data Center** (rezoning) | Bessemer, AL | Large hyperscale | **Approved / Opposed** | Community opposition at city council; environmental concerns | City council approved (2025) despite resident opposition |
 | **Boulder City Data Center** | Boulder City, NV | Proposed facility | **Stalled / Community Vote Pending** | Community petition (2,600+ signatures); hearing postponed | Public outcry halted initial hearing; proposal status uncertain |
 | **Apex Data Center (pulled)** | Apex, NC (Wake County) | Proposed facility | **Withdrawn** | Community pushback; developer withdrew application | Withdrawn by developer in response to resident opposition |
+| **Project Hutto** / Zydeco Development | Hutto, TX (Williamson County) | 70 MW; 225,000 sq ft | **Withdrawn** | Formal resident protests under TX Local Government Code (supermajority trigger); community organizing | Developer withdrew rezoning application April 17, 2026 ahead of P&Z hearing |
 | **Project Hazelnut** / Waste Management incinerator site | Hazle Township, PA | 1,280 acres; 15 buildings | **Blocked** | Community organizing; litigation; Food & Water Watch coordination | Food & Water Watch stopped project (November 2025) |
 | **Colorado Springs Data Center** / Raeden ("Project Taurus") | Colorado Springs, CO | Retrofit of industrial space | **Pending / Early Opposition** | Community meetings (standing room only); overwhelming public opposition | Fierce backlash at initial public meeting (April 2026) |
 | **Denver CoreSite Development** | Denver, CO | Large facility | **Pending / Moratorium Proposed** | Mayor Johnston called for citywide moratorium (Feb 2026) | Denver mayor seeking moratorium; development pending |

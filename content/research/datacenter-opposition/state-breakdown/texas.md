@@ -16,6 +16,9 @@ source_urls:
   - "https://www.texastribune.org/2025/06/05/texas-data-centers-gas-power-plants-ai/"
   - "https://www.utilitydive.com/news/data-center-activity-has-exploded-in-ercot-spiking-grid-reliability-risk/752780/"
   - "https://www.latitudemedia.com/news/ercots-large-load-queue-has-nearly-quadrupled-in-a-single-year/"
+  - "https://www.datacenterdynamics.com/en/news/developer-withdraws-application-for-70mw-data-center-in-hutto-texas/"
+  - "https://communityimpact.com/austin/pflugerville-hutto/government/2026/04/22/zydeco-development-withdraws-zoning-request-for-data-center-in-hutto/"
+  - "https://www.kut.org/energy-environment/2026-04-20/hutto-tx-zydeco-data-center-rezoning-request"
 last_reviewed: 2026-04-28
 stale_after_days: 90
 ---
@@ -125,6 +128,31 @@ In 2026, Public Citizen and allies organized a "Data Center Rebellion Convening"
 | **San Marcos Data Center (proposed/opposed)** | San Marcos, TX | Developer | Proposed facility | Opposition from residents; negotiations ongoing |
 | **Hood County Proposals** | Hood County, TX | Various developers | Multiple facilities | County rejected moratorium twice; ongoing debate |
 | **Amarillo-Carson County Water Deal** | Amarillo/Carson County, TX | Datacenter operator | Facility (location Carson County) | Deal opposed by Amarillo residents; water transfer controversial |
+| **Project Hutto** | Hutto, TX (Williamson County) | Zydeco Development | 70 MW; 225,000 sq ft | **Withdrawn** — developer pulled rezoning application April 17, 2026 after formal resident protests |
+
+---
+
+## Case Study: Zydeco Development / Project Hutto (Withdrawn April 2026)
+
+### Project Background
+
+Zydeco Development proposed a 70 MW, 225,000 sq ft datacenter at 450 Ed Schmidt Boulevard in Hutto, Williamson County — a fast-growing suburb northeast of Austin. The site was previously zoned multifamily and earmarked for a 173-home residential project. The proposal required amendments to both Hutto's future land use map and its 2040 comprehensive plan to convert the designation from multi-family residential to heavy industrial.
+
+### Community Opposition
+
+City staff notified residents within a 600-foot radius of the site; of approximately 55 letters received in response, only two were in support. Residents organized under the name **Stop the Hutto Data Center** and filed formal written protests under the Texas Local Government Code. Two such protests were filed — if the legal thresholds were met, Zydeco would have needed a three-fourths supermajority from the Hutto City Council to proceed, rather than a simple majority.
+
+Concerns raised by residents included noise from cooling equipment, high water consumption, heat generation, fire risk, and long-term quality-of-life impacts adjacent to established neighborhoods.
+
+### Withdrawal
+
+On April 17, 2026, Zydeco formally withdrew its rezoning application — just days before a special called Planning and Zoning Commission meeting scheduled for April 20 where the application was the sole agenda item. The city canceled that meeting following the withdrawal.
+
+No public statement from Zydeco explaining the withdrawal has been reported. The formal protest filings, which threatened to trigger a supermajority requirement, appear to have been the decisive pressure point.
+
+### Significance
+
+The Hutto case illustrates that even relatively modest-scale datacenter proposals (70 MW is small compared to hyperscale campuses) can be successfully stopped through community organizing and Texas zoning protest procedures. It also underscores the role of residential rezoning conflict — placing heavy industrial use adjacent to planned housing — as a particularly potent opposition trigger.
 
 ---
 
@@ -240,3 +268,8 @@ As of April 2026, datacenter opposition is becoming a political issue in Texas m
 - [Data centers are spreading around the country. Now, data-center bans are, too - CNN](https://www.cnn.com/2026/04/12/climate/maine-data-center-ban-bill)
 - [Texas Data Centers Thirst for Water, Challenging State Infrastructure - Texas Scorecard](https://texasscorecard.com/state/texas-data-centers-thirst-for-water-challenging-state-infrastructure/)
 - [Data centers are building their own gas power plants in Texas - Texas Tribune](https://www.texastribune.org/2025/06/05/texas-data-centers-gas-power-plants-ai/)
+- [Developer withdraws application for 70MW data center in Hutto, Texas - Data Center Dynamics](https://www.datacenterdynamics.com/en/news/developer-withdraws-application-for-70mw-data-center-in-hutto-texas/)
+- [Zydeco Development withdraws zoning request for data center in Hutto - Community Impact](https://communityimpact.com/austin/pflugerville-hutto/government/2026/04/22/zydeco-development-withdraws-zoning-request-for-data-center-in-hutto/)
+- [Data center developer withdraws rezoning request in Hutto - KUT Radio](https://www.kut.org/energy-environment/2026-04-20/hutto-tx-zydeco-data-center-rezoning-request)
+- [Hutto data center rezoning request withdrawn by developer - KXAN Austin](https://www.kxan.com/news/local/hutto/hutto-data-center-rezoning-request-withdrawn-by-developer/)
+- [Developer withdraws proposed data center rezoning in Hutto after community pushback - CBS Austin](https://cbsaustin.com/news/local/developer-withdraws-proposed-data-center-rezoning-in-hutto-after-community-pushback)
