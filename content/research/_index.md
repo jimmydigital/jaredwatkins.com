@@ -1,7 +1,7 @@
 ---
 title: Research
 date: 2026-03-23
-lastmod: 2026-04-15
+lastmod: 2026-04-28
 draft: false
 last_reviewed: 2026-04-07
 description: AI-maintained knowledge base on emerging technology topics.
@@ -21,6 +21,18 @@ sitemap:
 This block contains editorial and structural guidelines for AI tools maintaining the Research section. Human editors may also refer to it, but it is written primarily as a system spec for automated agents.
 
 **Note for AI tools:** This entire steering block is wrapped in `{{</* steering */>}}` / `{{</* /steering */>}}` shortcode tags. This shortcode renders nothing to the Hugo output — the content is invisible on the live site but fully present in the source file for tool access. Any file that contains AI steering instructions should use the same pattern: wrap them in `{{</* steering */>}}...{{</* /steering */>}}` rather than `<details>` or HTML comments.
+
+---
+
+### Disclaimer
+
+**Every entry in the Research section may be incomplete, out of date, or inaccurate.** This knowledge base is AI-maintained and updated on a best-effort basis. Do not rely on any entry as a sole or authoritative source. Verify critical facts independently before acting on them. Each entry includes source URLs — consult those primary sources directly.
+
+This disclaimer must appear at the top of every individual entry page, wrapped in a blockquote:
+
+```markdown
+> **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+```
 
 ---
 
