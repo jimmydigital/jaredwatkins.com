@@ -1,0 +1,11 @@
+{{ define "head" }}
+<link href="/pagefind/pagefind-component-ui.css" rel="stylesheet">
+<script src="/pagefind/pagefind-component-ui.js" type="module"></script>
+{{ end }}
+
+{{ define "main" }}
+<main id="main" class="archive">
+  <h1>{{ .Title }}</h1>
+  <pagefind-searchbox></pagefind-searchbox>
+</main>
+{{ end }}

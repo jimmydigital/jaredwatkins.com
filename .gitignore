@@ -17,4 +17,5 @@ public/
 .obsidian/
 .smbdelete*
 node_modules
+static/pagefind
 

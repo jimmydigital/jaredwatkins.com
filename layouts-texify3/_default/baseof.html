@@ -78,6 +78,8 @@
 
 <body>
   <div id="wrapper">
+    {{/* Pagefind metadata — hidden, used by search indexer only */}}
+    <span data-pagefind-meta="title" style="display:none">{{ .Title }}</span>
     {{ partial "header.html" . }}
     {{ partial "breadcrumb.html" . }}
     {{ block "main" . }}{{ end }}

@@ -98,6 +98,11 @@ ignoreLogs = ['warning-goldmark-raw-html']
   url = '/research/'
   weight = 25
 [[menu.main]]
+  identifier = 'search'
+  name = 'Search'
+  url = '/search/'
+  weight = 28
+[[menu.main]]
   identifier = 'rss'
   name = 'RSS'
   url = '/index.xml'

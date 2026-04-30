@@ -161,3 +161,9 @@ a.recent-posts-more {
 details {
   margin-bottom: 1.5rem;
 }
+
+/* ── Pagefind search widget ── */
+pagefind-searchbox {
+  display: block;
+  margin: 1.5rem 0;
+}
