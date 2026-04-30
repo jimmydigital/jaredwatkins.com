@@ -59,16 +59,41 @@ Incumbents belong in tables and as supporting context in other entries, but deta
 
 The hierarchy is: `content/research/` → topic area → subtopic → entry.
 
+**Two valid file structures for entries — choose the right one:**
+
+**Flat file** (default for simple entries with no sub-pages or images):
+```
+content/research/energy/solar/first-solar.md
+```
+Relref: `{{</* relref "energy/solar/first-solar.md" */>}}`
+
+**Directory bundle** (use when an entry needs sub-pages, images, or embedded assets):
+```
+content/research/energy/solar/spectrolab/_index.md
+```
+Relref: `{{</* relref "energy/solar/spectrolab" */>}}` ← **no filename, just the directory path**
+
+**Critical rule — form must match structure:** A `relref` to `"energy/solar/spectrolab"` resolves only if that path is a directory bundle (`_index.md`). A `relref` to `"energy/solar/first-solar.md"` resolves only if that is a flat file. Hugo will throw `REF_NOT_FOUND` if the form doesn't match the actual file structure. Before writing any `relref`, check which structure the target uses and match it exactly.
+
+**Critical rule — use root-relative paths from `_index.md` files:** Hugo resolves bare relative paths in `relref` relative to the calling page's section, not the content root. A `relref "energy/solar/spectrolab"` written inside `datacenters/orbital-compute/_index.md` will look for `datacenters/orbital-compute/energy/solar/spectrolab` — and fail. Always use a leading `/research/` prefix when writing relrefs inside any `_index.md` file:
+- ✅ `{{</* relref "/research/energy/solar/spectrolab" */>}}` — root-relative, always resolves correctly
+- ❌ `{{</* relref "energy/solar/spectrolab" */>}}` — relative, breaks when called from a different section's `_index.md`
+
+Regular content pages (non-`_index.md`) are less prone to this because Hugo can usually find the unique filename, but using root-relative paths everywhere is safer and consistent.
+
+**Which to use:** Prefer flat files unless the entry needs assets (images, data files) co-located with the content. Directory bundles add filesystem overhead. Check what already exists in the subtopic directory before creating a new entry — be consistent with the predominant pattern there.
+
+Full layout:
 ```
 content/research/
-  _index.md                      ← this file (section landing)
+  _index.md                          ← this file (section landing)
   energy/
-    _index.md                    ← topic area landing
+    _index.md                        ← topic area landing
     solar/
-      _index.md                  ← subtopic landing
-      first-solar.md             ← company entry
-      perovskite-cells.md        ← technology entry
-      mark-liu.md                ← person entry
+      _index.md                      ← subtopic landing
+      first-solar.md                 ← flat file entry (simple)
+      spectrolab/
+        _index.md                    ← directory bundle entry (has assets)
     batteries/
       _index.md
       catl.md
@@ -76,8 +101,8 @@ content/research/
 ```
 
 **Naming rules:**
-- All filenames: lowercase, hyphenated, no special characters.
-- People: `firstname-lastname.md`. For disambiguation, append field: `john-smith-solar.md`.
+- All filenames and directory names: lowercase, hyphenated, no special characters.
+- People: `firstname-lastname.md` (flat) or `firstname-lastname/` (bundle). For disambiguation, append field: `john-smith-solar.md`.
 - Companies: full common name, hyphenated (e.g., `first-solar.md`, `contemporary-amperex.md`).
 - Technologies/concepts: descriptive slug (e.g., `perovskite-cells.md`, `flow-batteries.md`).
 - Topic area and subtopic `_index.md` files contain only section metadata and a brief description — no entry content.
@@ -234,8 +259,15 @@ The changelog entry must be written during the same execution as entry creation.
 - Technology: `solar`, `batteries`, `wind`, `nuclear`, `grid`, `ev`
 - Status: `emerging`, `mature`, `discontinued`
 
-**Cross-links:** Use Hugo relrefs where entries exist:
+**Cross-links:** Use Hugo relrefs where entries exist. Two rules govern correct relref syntax:
 
+1. **Form must match file structure:**
+   - Flat file: `{{</* relref "/research/energy/solar/first-solar.md" */>}}` (include `.md` extension)
+   - Directory bundle: `{{</* relref "/research/energy/solar/spectrolab" */>}}` (directory path only, no filename or `_index.md`)
+
+2. **Always use root-relative paths (leading `/research/`):** Bare relative paths resolve relative to the calling page's section, which causes `REF_NOT_FOUND` when linking across sections — especially from `_index.md` files. The `/research/` prefix anchors the lookup to the content root and always works.
+
+Before writing a relref, check whether the target is a flat file or directory bundle, and always prefix with `/research/`.
 
 Where an entry doesn't exist yet, leave an HTML comment:
 

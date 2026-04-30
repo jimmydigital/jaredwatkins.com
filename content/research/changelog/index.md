@@ -1,7 +1,7 @@
 ---
 title: "Research Section Changelog"
 date: 2026-04-04
-lastmod: 2026-04-28
+lastmod: 2026-04-30
 draft: false
 description: "Timestamped log of additions and modifications to the Research knowledge base."
 tags: ["changelog", "research"]
@@ -20,6 +20,9 @@ sitemap:
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
 
+- **2026-04-30:** Created [Spectrolab]({{< relref "energy/solar/spectrolab" >}}) + 2 entries: [Azur Space]({{< relref "energy/solar/azur-space" >}}) (German GaAs space solar, 5N Plus subsidiary, 32% 4G32C), [SolAero Technologies]({{< relref "energy/solar/solaero-technologies" >}}) (Rocket Lab subsidiary, 1,100+ spacecraft, Ingenuity Mars helicopter).
+- **2026-04-29:** Created [Orbital Compute: First-Principles Economics]({{< relref "datacenters/orbital-compute/orbital-compute-economics.md" >}}) — First-principles analysis of GPU energy budgets in LEO (solar irradiance, Stefan-Boltzmann thermal rejection, GPU power caps), satellite build cost model (bus + payload + I&T), launch cost table (Falcon 9 through Starship projections), per-GPU total deployed cost by scenario, technology gap assessment (ISLs for training, HBM radiation fragility, solar array specific power, satellite manufacturing scale, on-orbit hardware aging), and 10-year cost trajectory through 2036.
+
 
 ## Overview
 
@@ -37,6 +40,7 @@ Each entry is a one-line timestamped summary.
 
 ## Changelog
 
+- **2026-04-29:** Created [Orbital Compute]({{< relref "datacenters/orbital-compute/_index.md" >}}) subsection + 5 entries: [Google Project Suncatcher]({{< relref "datacenters/orbital-compute/google-project-suncatcher.md" >}}) (TPU satellites, Planet Labs 2027 prototype), [Starcloud]({{< relref "datacenters/orbital-compute/starcloud.md" >}}) (H100 in orbit Nov 2025; $170M Series A unicorn), [SpaceX Orbital]({{< relref "datacenters/orbital-compute/spacex-orbital-compute.md" >}}) (1M-sat FCC filing; Terafab D3 chips), [Aetherflux]({{< relref "datacenters/orbital-compute/aetherflux.md" >}}) ($50M, Galactic Brain, Q1 2027), [Kepler Communications]({{< relref "datacenters/orbital-compute/kepler-communications.md" >}}) (largest orbital cluster 40 Orin/10 sats), [Lonestar Data Holdings]({{< relref "datacenters/orbital-compute/lonestar-data-holdings.md" >}}) (lunar DR storage, Athena mission Feb 2026).
 - **2026-04-28:** Added Zydeco Development / Project Hutto (70 MW, withdrawn Apr 17 2026) to [Texas datacenter opposition]({{< relref "datacenter-opposition/state-breakdown/texas.md" >}}) — new case study section, updated contested projects table, updated [section index tracker]({{< relref "datacenter-opposition/_index.md" >}}).
 - **2026-04-28:** Aligned 6 behind-meter-power entries to steering: [Caterpillar/Solar Turbines]({{< relref "datacenters/behind-meter-power/caterpillar-solar-turbines.md" >}}), [Oklo BTM]({{< relref "datacenters/behind-meter-power/oklo-btm.md" >}}), [Radiant Nuclear]({{< relref "datacenters/behind-meter-power/radiant-nuclear.md" >}}), [Siemens Energy BTM]({{< relref "datacenters/behind-meter-power/siemens-energy-btm.md" >}}), [TerraPower BTM]({{< relref "datacenters/behind-meter-power/terrapower-btm.md" >}}), [USNC/NANO KRONOS MMR]({{< relref "datacenters/behind-meter-power/usnc-microreactor.md" >}}) — added Summary, Key Facts, Notable Developments, Claim Verification to each; added steering blocks; expanded source_urls to 4–5 per entry.
 - **2026-04-28:** Restructured [Lithium Metal Batteries]({{< relref "energy/batteries/lithium-metal.md" >}}) — added Summary, Key Facts, Notable Developments (12 milestones 2025–2026), Key Companies & Researchers, Claim Verification, and Risks & Uncertainties sections; updated stale_after_days to 90; expanded source URLs to 8.

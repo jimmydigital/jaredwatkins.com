@@ -33,4 +33,4 @@ Tracks the infrastructure frontier of AI-driven datacenter construction and oper
 
 ## Companies
 
-For full company tables by subsection, see [Cooling](./cooling/), [Design & Construction](./design-construction/), [Power Infrastructure](./power-infrastructure/), and [Robotics & Automation](./robotics-automation/).
+For full company tables by subsection, see [Cooling](./cooling/), [Design & Construction](./design-construction/), [Orbital Compute](./orbital-compute/), [Power Infrastructure](./power-infrastructure/), and [Robotics & Automation](./robotics-automation/).
