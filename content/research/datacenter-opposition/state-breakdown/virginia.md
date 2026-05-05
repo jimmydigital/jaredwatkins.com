@@ -1,7 +1,7 @@
 ---
 title: "Virginia: Data Center Alley Opposition"
 date: 2026-04-20
-lastmod: 2026-04-28
+lastmod: 2026-04-30
 draft: false
 description: "Virginia datacenter opposition — PW Digital Gateway litigation and victory, Loudoun County zoning reform, state-level tax exemption debates, organizing coalitions, and the political economics of 'Data Center Alley.'"
 tags: ["virginia", "data-center-alley", "zoning-challenge", "litigation", "loudoun-county", "prince-william-county", "tax-incentives", "environmental"]
@@ -16,7 +16,8 @@ source_urls:
   - "https://goodjobsfirst.org/virginia-data-center-deals-lack-transparency-watchdog-says/"
   - "https://insideclimatenews.org/news/02122023/virginia-environmentalists-protest-data-centers/"
   - "https://insideclimatenews.org/news/19052025/virginia-data-center-development-community-pushback/"
-last_reviewed: 2026-04-28
+  - "https://www.zerohedge.com/markets/here-come-cancellations-brookfield-backed-compass-pulls-out-major-northern-virginia-data"
+last_reviewed: 2026-04-30
 stale_after_days: 90
 ---
 
@@ -68,6 +69,18 @@ On **April 15, 2026**, the Prince William County Board of Supervisors voted unan
 - Diverse coalition (homeowners, historic preservationists, environmentalists) can coordinate effectively
 - American Battlefield Trust's national profile and legal resources were critical
 - Court victories, once achieved, can shift political calculation (county commissioners abandoned the fight)
+
+### Compass Datacenters Withdrawal (April 2026)
+
+On **April 30, 2026**, Brookfield-backed Compass Datacenters announced it was withdrawing entirely from the PW Digital Gateway project, after spending years pursuing approvals and investing tens of millions of dollars. Compass concluded the project was no longer feasible due to:
+
+- **Mounting legal challenges** — the court rulings invalidating the rezonings left no viable path forward without restarting the approval process from scratch
+- **Stricter regulations** — Loudoun County's elimination of by-right development and increased scrutiny statewide changed the regulatory environment
+- **Weakening political support** — the county board's unanimous vote not to appeal signaled that political backing had collapsed, particularly around tax incentive negotiations
+
+QTS Realty Trust, the other primary proponent, was reported to be still weighing whether to continue challenging the rulings, though the practical path forward is unclear.
+
+This withdrawal is widely cited as a bellwether for a broader national trend: according to Sightline Climate's 2026 Data Center Outlook, nearly half of the ~16 GW of planned US datacenter capacity for 2026 faces cancellation or delay, with only ~5 GW currently under construction.
 
 ---
 
@@ -222,7 +235,7 @@ As of April 2026, no major tax reform has been enacted, though legislators conti
 
 | Project | Location | Scale | Status (April 2026) |
 |---|---|---|---|
-| **PW Digital Gateway** | Prince William County | 2,100 acres; 37 facilities | **Blocked** — Court victories; county abandoned appeal |
+| **PW Digital Gateway** | Prince William County | 2,100 acres; 37 facilities | **Dead** — Compass withdrew Apr 2026; county abandoned appeal; QTS status uncertain |
 | **Loudoun County By-Right Datacenters** | Loudoun County (multiple) | Various | **Regulatory Reform** — By-right approval eliminated; special exception required |
 | **DC Blox (Henrico County)** | Henrico County | 195,000 sq ft; 50 MW | **Withdrawn** — Withdrew application after planning commission deferral (Nov 2024) |
 | **Culpeper Acquisitions** | Brandy Station (Culpeper County) | $12 billion | **Denied** — Planning Commission unanimous denial (June 2024) |
@@ -266,3 +279,4 @@ The PW Digital Gateway litigation and Loudoun County zoning reform show that opp
 - [Virginia Environmental Groups Form New Data Center Reform Coalition - Inside Climate News](https://insideclimatenews.org/news/02122023/virginia-environmentalists-protest-data-centers/)
 - [Virginia data center deals lack transparency, watchdog says - Good Jobs First](https://goodjobsfirst.org/virginia-data-center-deals-lack-transparency-watchdog-says/)
 - [Report Highlights Community Pushback Stalling $64 Billion in Data Center Development Nationwide - Inside Climate News](https://insideclimatenews.org/news/19052025/virginia-data-center-development-community-pushback/)
+- [Brookfield-Backed Compass Pulls Out From Major Northern Virginia Data Center Project - ZeroHedge/Bloomberg (Apr 30, 2026)](https://www.zerohedge.com/markets/here-come-cancellations-brookfield-backed-compass-pulls-out-major-northern-virginia-data)

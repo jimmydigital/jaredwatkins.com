@@ -252,6 +252,7 @@ GE Vernova Q1 2026 results (reported ~April 2026):
 - **Pricing premium:** New gas turbine orders in H1 2026 tracking **10–20 percentage points higher** on a $/kW basis than Q4 2025 orders (demand exceeding supply, enabling price increases)
 - **Revenue guidance raised:** GE Vernova lifted 2026 revenue guidance to **$44.5–$45.5B** (up $500M), adjusted EBITDA margin guidance to **12–14%** (up 1 pp), and free cash flow guidance to **$6.5–$7.5B**
 - **Production ramp:** GEV expects to reach **20 GW annualized output by Q3 2026**, with further expansion to **24 GW targeted by 2028**
+- **Defense Production Act (April 2026):** Presidential Determination 2026-10 designates GEV's transformer and grid interconnection equipment as critical national defense infrastructure under DPA §303; authorizes federal financial support for domestic manufacturing capacity. Stocks including GEV, ETN, and HPS.A responded positively to the announcement. ([Federal Register](https://www.federalregister.gov/documents/2026/04/23/2026-08013/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended))
 
 **Source:** [Power Engineering, April 2026](https://www.power-eng.com/gas/turbines/data-centers-drive-record-surge-in-ge-vernova-power-equipment-orders-as-turbine-slots-tighten-through-2030/)
 

@@ -1,7 +1,7 @@
 ---
 title: "Research Section Changelog"
 date: 2026-04-04
-lastmod: 2026-04-30
+lastmod: 2026-05-05
 draft: false
 description: "Timestamped log of additions and modifications to the Research knowledge base."
 tags: ["changelog", "research"]
@@ -20,6 +20,8 @@ sitemap:
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
 
+- **2026-05-05:** Created [Hitachi Energy]({{< relref "datacenters/power-infrastructure/hitachi-energy.md" >}}) — world's largest transformer manufacturer; $43B backlog (3× three years ago); 40-month large-unit lead times; $6B capacity investment; CEO warned sector "overwhelmed" by datacenter + energy transition demand; DPA §303 Presidential Determination (Apr 20 2026) a direct policy catalyst. Updated [power-infrastructure index]({{< relref "datacenters/power-infrastructure/_index.md" >}}) — added DPA grid determination context, updated transformer lead times from 2–3 years to 24–40 months, added Hitachi Energy (HPS.A) and updated Eaton (ETN) to incumbents table. Updated [GE Vernova aeroderivative entry]({{< relref "datacenters/behind-meter-power/ge-vernova-aeroderivative.md" >}}) — added DPA §303 determination to Q1 2026 financial snapshot.
+- **2026-04-30:** Updated [Virginia datacenter opposition]({{< relref "datacenter-opposition/state-breakdown/virginia.md" >}}) — Added Compass Datacenters withdrawal from PW Digital Gateway (Apr 30); updated Contested Projects table status to Dead; Brookfield-backed Compass cited legal defeats, stricter regulations, and collapsed political support; QTS status uncertain.
 - **2026-04-30:** Created [Spectrolab]({{< relref "energy/solar/spectrolab" >}}) + 2 entries: [Azur Space]({{< relref "energy/solar/azur-space" >}}) (German GaAs space solar, 5N Plus subsidiary, 32% 4G32C), [SolAero Technologies]({{< relref "energy/solar/solaero-technologies" >}}) (Rocket Lab subsidiary, 1,100+ spacecraft, Ingenuity Mars helicopter).
 - **2026-04-29:** Created [Orbital Compute: First-Principles Economics]({{< relref "datacenters/orbital-compute/orbital-compute-economics.md" >}}) — First-principles analysis of GPU energy budgets in LEO (solar irradiance, Stefan-Boltzmann thermal rejection, GPU power caps), satellite build cost model (bus + payload + I&T), launch cost table (Falcon 9 through Starship projections), per-GPU total deployed cost by scenario, technology gap assessment (ISLs for training, HBM radiation fragility, solar array specific power, satellite manufacturing scale, on-orbit hardware aging), and 10-year cost trajectory through 2036.
 
