@@ -5,6 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- dark-mode: apply class synchronously to prevent flash of light theme -->
+  <script>
+    (function() {
+      var dm = localStorage.getItem('darkMode');
+      if (dm === 'enabled' || (dm === null && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('darkmode');
+      }
+    })();
+  </script>
+
   <!-- author (.Site.Author was removed in Hugo 0.124; use .Site.Params.author) -->
   <meta name="author" content="{{ .Site.Params.author }}">
 

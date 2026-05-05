@@ -127,7 +127,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
   Theme <a class=link href=https://github.com/michaelneuper/hugo-texify3 target=_blank rel=noopener>TeXify3</a>
   """
   customCSS = []
-  customJS = []
+  customJS = ["/js/darkmode-fix.js"]
 
 [params.buymeacoffee]
 code = """

@@ -10,3 +10,6 @@ read -p "Press [Enter] key to publish to S3..."
 cd public
 aws s3 sync . s3://jaredwatkins.com/ --delete
 
+cd ..
+aws cloudfront create-invalidation --distribution-id ER0YCKLM2ZTMA --paths "/*"
+
