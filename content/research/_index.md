@@ -1,7 +1,7 @@
 ---
 title: Research
 date: 2026-03-23
-lastmod: 2026-04-28
+lastmod: 2026-05-05
 draft: false
 last_reviewed: 2026-04-07
 description: AI-maintained knowledge base on emerging technology topics.
@@ -75,11 +75,30 @@ Relref: `{{</* relref "energy/solar/spectrolab" */>}}` ← **no filename, just t
 
 **Critical rule — form must match structure:** A `relref` to `"energy/solar/spectrolab"` resolves only if that path is a directory bundle (`_index.md`). A `relref` to `"energy/solar/first-solar.md"` resolves only if that is a flat file. Hugo will throw `REF_NOT_FOUND` if the form doesn't match the actual file structure. Before writing any `relref`, check which structure the target uses and match it exactly.
 
-**Critical rule — use root-relative paths from `_index.md` files:** Hugo resolves bare relative paths in `relref` relative to the calling page's section, not the content root. A `relref "energy/solar/spectrolab"` written inside `datacenters/orbital-compute/_index.md` will look for `datacenters/orbital-compute/energy/solar/spectrolab` — and fail. Always use a leading `/research/` prefix when writing relrefs inside any `_index.md` file:
-- ✅ `{{</* relref "/research/energy/solar/spectrolab" */>}}` — root-relative, always resolves correctly
-- ❌ `{{</* relref "energy/solar/spectrolab" */>}}` — relative, breaks when called from a different section's `_index.md`
+**Critical rule — `relref` path resolution differs between regular pages and `_index.md` files:**
 
-Regular content pages (non-`_index.md`) are less prone to this because Hugo can usually find the unique filename, but using root-relative paths everywhere is safer and consistent.
+Hugo's `relref` behavior depends on whether the calling page is a regular content file or a section `_index.md`:
+
+- **Regular content pages** (e.g., `datacenters/cooling/submer.md`): Hugo searches the full content tree for a unique filename match. A bare `relref "ge-vernova-aeroderivative.md"` will find the file even if it's in a completely different subtopic, as long as the filename is unique across the site. This is why changelog and individual entry links mostly work without explicit paths.
+
+- **`_index.md` files**: Hugo resolves paths **relative to the filesystem location of the `_index.md`**, exactly like a Unix path. There is no magic filename search. A `relref "ge-vernova-aeroderivative.md"` inside `datacenters/power-infrastructure/_index.md` looks for a file named that **in the same directory** — and fails if it's actually in `datacenters/behind-meter-power/`.
+
+**The rule for `_index.md` files — always use filesystem-relative paths:**
+
+| Link target | Calling `_index.md` location | Correct relref |
+|-------------|------------------------------|----------------|
+| Same directory | `datacenters/power-infrastructure/_index.md` → `vertiv.md` | `{{</* relref "vertiv.md" */>}}` |
+| Sibling directory | `datacenters/power-infrastructure/_index.md` → `behind-meter-power/ge-vernova-aeroderivative.md` | `{{</* relref "../behind-meter-power/ge-vernova-aeroderivative.md" */>}}` |
+| Grandparent then sibling | `datacenters/power-infrastructure/_index.md` → `energy/nuclear/oklo.md` | `{{</* relref "../../energy/nuclear/oklo.md" */>}}` |
+| Section index | `datacenters/behind-meter-power/_index.md` → `datacenters/power-infrastructure/_index.md` | `{{</* relref "../power-infrastructure/_index.md" */>}}` |
+
+**Do NOT use a `/research/` prefix** — this is not a valid Hugo relref form and will cause `REF_NOT_FOUND`. Hugo `relref` paths are always relative to the calling page (for `_index.md`) or searched site-wide by unique filename (for regular pages). There is no absolute path mode.
+
+**Quick checklist before writing any relref in an `_index.md`:**
+1. What directory is the calling `_index.md` in?
+2. What directory is the target file in?
+3. Write the relative path from (1) to (2) using `../` to go up, then the path down to the target.
+4. For directory bundles, omit `_index.md` from the path end — use the directory name only.
 
 **Which to use:** Prefer flat files unless the entry needs assets (images, data files) co-located with the content. Directory bundles add filesystem overhead. Check what already exists in the subtopic directory before creating a new entry — be consistent with the predominant pattern there.
 
@@ -262,12 +281,15 @@ The changelog entry must be written during the same execution as entry creation.
 **Cross-links:** Use Hugo relrefs where entries exist. Two rules govern correct relref syntax:
 
 1. **Form must match file structure:**
-   - Flat file: `{{</* relref "/research/energy/solar/first-solar.md" */>}}` (include `.md` extension)
-   - Directory bundle: `{{</* relref "/research/energy/solar/spectrolab" */>}}` (directory path only, no filename or `_index.md`)
+   - Flat file: include `.md` extension — e.g., `{{</* relref "energy/solar/first-solar.md" */>}}`
+   - Directory bundle: directory path only, no `_index.md` — e.g., `{{</* relref "energy/solar/spectrolab" */>}}`
 
-2. **Always use root-relative paths (leading `/research/`):** Bare relative paths resolve relative to the calling page's section, which causes `REF_NOT_FOUND` when linking across sections — especially from `_index.md` files. The `/research/` prefix anchors the lookup to the content root and always works.
+2. **Path form depends on calling page type** — see the detailed rules in the Directory & File Naming Conventions section above. In brief:
+   - From a **regular content page**: bare unique filenames work site-wide (e.g., `{{</* relref "ge-vernova-aeroderivative.md" */>}}`)
+   - From an **`_index.md` file**: always use a filesystem-relative path with `../` traversal (e.g., `{{</* relref "../behind-meter-power/ge-vernova-aeroderivative.md" */>}}`)
+   - **Never use a `/research/` prefix** — it is not a valid Hugo relref form
 
-Before writing a relref, check whether the target is a flat file or directory bundle, and always prefix with `/research/`.
+Before writing a relref from an `_index.md`, explicitly work out the relative path using the directory table in the naming conventions section.
 
 Where an entry doesn't exist yet, leave an HTML comment:
 
