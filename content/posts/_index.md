@@ -79,6 +79,8 @@ There is no mandatory template, but good posts generally follow this loose shape
 
 **Links:** Link when there's something genuinely worth clicking. Don't link just to prove a claim is real or to pad the post with citations. Earlier posts were heavily link-referenced; that's fine but not required. Never include a mailto: link or expose the email address directly in post content -- the home page handles contact with bot-obfuscated email. If a post needs a contact prompt, link the text to the home page (`/`) instead, e.g. `[let me know](/)`.
 
+For posts making factual claims that might read as surprising or hard to believe, inline linking directly on the claim is preferred over footnotes or a sources section -- but use it selectively. A figure like "$115 billion" with a link on it is the right pattern: the link is the citation, it doesn't interrupt the prose, and it signals to the reader that the number is real without making a big deal of it. Aim for a handful of these per post at most. Not every claim needs a source, and a post with 20+ links loses the effect entirely. Reserve inline source links for the claims a skeptical reader is most likely to raise an eyebrow at.
+
 **Images:** Use them when they add something. Float right with a caption (`{{< figure src="..." caption="..." class="right" >}}` or equivalent) is the established pattern for inline images.
 
 ---
