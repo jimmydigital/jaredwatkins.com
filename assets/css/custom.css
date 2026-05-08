@@ -1,13 +1,15 @@
-img[src$='#floatleft']
+img[src$='#floatleft'],
+img.floatleft
 {
-	float:left;
-        //etc. etc/
+	float: left;
+	margin: 0 1.5rem 1rem 0;
 }
 
-img[src$='#floatright']
+img[src$='#floatright'],
+img.floatright
 {
-	float:right;
-       //etc. etc.
+	float: right;
+	margin: 0 0 1rem 1.5rem;
 }
 
 /* ── Breadcrumb navigation ── */
