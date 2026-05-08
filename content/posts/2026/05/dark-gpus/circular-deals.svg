@@ -1,0 +1,255 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 900" font-family="'Georgia', serif" font-size="13">
+  <defs>
+    <marker id="arr-nv"   markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#5a8c00"/></marker>
+    <marker id="arr-ms"   markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#0078d4"/></marker>
+    <marker id="arr-oai"  markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#412991"/></marker>
+    <marker id="arr-orc"  markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#c0392b"/></marker>
+    <marker id="arr-cw"   markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#cc5520"/></marker>
+    <marker id="arr-amzn" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#b86800"/></marker>
+    <marker id="arr-sb"   markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#2c3e50"/></marker>
+    <filter id="shadow">
+      <feDropShadow dx="1.5" dy="1.5" stdDeviation="2.5" flood-color="#00000025"/>
+    </filter>
+  </defs>
+
+  <!--
+  NODE CENTRES  (shifted right 50px vs prior version to give left margin)
+    NVIDIA     530, 175
+    OpenAI     250, 350
+    Microsoft  810, 350
+    Oracle     250, 555
+    CoreWeave  810, 555
+    Amazon     530, 670
+    SoftBank   530, 440   (annotation box centre, no node)
+
+  LABEL SAFE ZONES:
+    Far-left column  : x=10..118   (left of everything)
+    Left-mid column  : x=122..230  (between SB arc and OpenAI)
+    Right-mid column : x=838..950  (right of Microsoft/CoreWeave)
+    Top-centre       : above arcs between NVIDIA and nodes
+    Bottom-centre    : between Oracle/CoreWeave and Amazon
+  -->
+
+  <!-- Background -->
+  <rect width="1060" height="900" fill="#f8f8f6"/>
+
+  <!-- Title -->
+  <text x="530" y="36" text-anchor="middle" font-size="18" font-weight="bold" fill="#111">AI Circular Investment Web</text>
+  <text x="530" y="56" text-anchor="middle" font-size="11" fill="#666">Bidirectional money flows · NVIDIA, OpenAI, and the hyperscalers · 2024–2026</text>
+
+  <!-- ═══════════════════════════════════════════════════
+       EDGES  (drawn before nodes)
+       ═══════════════════════════════════════════════════ -->
+
+  <!-- ── LOOP A: NVIDIA ↔ OpenAI ────────────────────────
+       Two arcs that bow left; labels in left-mid column   -->
+  <!-- A1: NVIDIA→OpenAI equity (dashed green) -->
+  <path d="M 494,193 C 420,220 330,285 294,333" stroke="#5a8c00" stroke-width="2" fill="none" stroke-dasharray="7,3" marker-end="url(#arr-nv)"/>
+  <!-- A2: OpenAI→NVIDIA GPU $ (solid purple) -->
+  <path d="M 292,323 C 330,268 415,215 488,185" stroke="#412991" stroke-width="2" fill="none" marker-end="url(#arr-oai)"/>
+  <!-- Labels: placed at x=122, well left of OpenAI (x=174-326) -->
+  <rect x="122" y="228" width="112" height="28" rx="4" fill="white" stroke="#5a8c00" stroke-width=".7" opacity=".95"/>
+  <text x="178" y="240" text-anchor="middle" font-size="9.5" fill="#5a8c00">NV → OpenAI</text>
+  <text x="178" y="252" text-anchor="middle" font-size="9.5" fill="#5a8c00">equity ~$1B+ (dashed)</text>
+  <rect x="122" y="270" width="112" height="28" rx="4" fill="white" stroke="#412991" stroke-width=".7" opacity=".95"/>
+  <text x="178" y="282" text-anchor="middle" font-size="9.5" fill="#412991">OAI → NVIDIA</text>
+  <text x="178" y="294" text-anchor="middle" font-size="9.5" fill="#412991">GPU purchases $B/yr</text>
+
+  <!-- ── LOOP B: NVIDIA ↔ Microsoft ──────────────────────
+       Two arcs bowing right; labels in right-mid column   -->
+  <!-- B1: Microsoft→NVIDIA GPU $ (solid blue) -->
+  <path d="M 806,333 C 790,268 700,210 570,185" stroke="#0078d4" stroke-width="2" fill="none" marker-end="url(#arr-ms)"/>
+  <!-- B2: NVIDIA→Microsoft supply priority (dashed green) -->
+  <path d="M 572,167 C 712,172 788,246 802,323" stroke="#5a8c00" stroke-width="1.8" fill="none" stroke-dasharray="6,3" marker-end="url(#arr-nv)"/>
+  <!-- Labels: x=892 so right edge 1018, clear of Microsoft (max x=888) -->
+  <rect x="892" y="210" width="126" height="28" rx="4" fill="white" stroke="#0078d4" stroke-width=".7" opacity=".95"/>
+  <text x="955" y="222" text-anchor="middle" font-size="9.5" fill="#0078d4">MS → NVIDIA</text>
+  <text x="955" y="234" text-anchor="middle" font-size="9.5" fill="#0078d4">GPU procurement $B/yr</text>
+  <rect x="892" y="252" width="126" height="28" rx="4" fill="white" stroke="#5a8c00" stroke-width=".7" opacity=".95"/>
+  <text x="955" y="264" text-anchor="middle" font-size="9.5" fill="#5a8c00">NVIDIA → MS</text>
+  <text x="955" y="276" text-anchor="middle" font-size="9.5" fill="#5a8c00">supply priority (dashed)</text>
+
+  <!-- ── LOOP C: OpenAI ↔ Microsoft ──────────────────────
+       Upper arc = MS→OAI (dashed blue)
+       Lower arc = OAI→MS (solid purple)
+       Labels above and below the arcs in top-centre band  -->
+  <!-- C1: Microsoft→OpenAI $13B equity (dashed blue) -->
+  <path d="M 768,337 C 668,308 540,308 296,336" stroke="#0078d4" stroke-width="2.2" fill="none" stroke-dasharray="7,3" marker-end="url(#arr-ms)"/>
+  <!-- C2: OpenAI→Microsoft Azure deal (solid purple) -->
+  <path d="M 296,362 C 440,388 608,388 764,364" stroke="#412991" stroke-width="2.2" fill="none" marker-end="url(#arr-oai)"/>
+  <!-- C1 label above arc -->
+  <rect x="426" y="298" width="158" height="28" rx="4" fill="white" stroke="#0078d4" stroke-width=".7" opacity=".95"/>
+  <text x="505" y="310" text-anchor="middle" font-size="9.5" fill="#0078d4">MS → OpenAI</text>
+  <text x="505" y="322" text-anchor="middle" font-size="9.5" fill="#0078d4">$13B+ equity investment (dashed)</text>
+  <!-- C2 label below arc -->
+  <rect x="418" y="382" width="164" height="28" rx="4" fill="white" stroke="#412991" stroke-width=".7" opacity=".95"/>
+  <text x="500" y="394" text-anchor="middle" font-size="9.5" fill="#412991">OpenAI → Microsoft</text>
+  <text x="500" y="406" text-anchor="middle" font-size="9.5" fill="#412991">exclusive Azure deal ~$300B</text>
+
+  <!-- ── LOOP D: Oracle→NVIDIA & OpenAI→Oracle ───────────
+       Oracle→NVIDIA: wide left sweep, label in far-left column
+       OAI→Oracle: straight down left edge, label in far-left col  -->
+  <!-- D1: Oracle→NVIDIA (solid red, sweeps far left) -->
+  <path d="M 200,522 C 110,420 130,270 444,182" stroke="#c0392b" stroke-width="2.2" fill="none" marker-end="url(#arr-orc)"/>
+  <!-- D1 label: far-left column x=10, vertically between Oracle and NVIDIA -->
+  <rect x="10" y="316" width="108" height="28" rx="4" fill="white" stroke="#c0392b" stroke-width=".7" opacity=".95"/>
+  <text x="64" y="328" text-anchor="middle" font-size="9.5" fill="#c0392b">Oracle → NVIDIA</text>
+  <text x="64" y="340" text-anchor="middle" font-size="9.5" fill="#c0392b">$40B GPU commit</text>
+  <!-- D2: OpenAI→Oracle (solid purple, straight down) -->
+  <path d="M 244,384 C 240,450 242,500 242,521" stroke="#412991" stroke-width="2" fill="none" marker-end="url(#arr-oai)"/>
+  <!-- D2 label: far-left column x=10, midway between OpenAI and Oracle -->
+  <rect x="10" y="430" width="108" height="28" rx="4" fill="white" stroke="#412991" stroke-width=".7" opacity=".95"/>
+  <text x="64" y="442" text-anchor="middle" font-size="9.5" fill="#412991">OpenAI → Oracle</text>
+  <text x="64" y="454" text-anchor="middle" font-size="9.5" fill="#412991">$300B cloud deal</text>
+
+  <!-- ── LOOP E: CoreWeave ↔ NVIDIA ↔ Microsoft ──────────
+       NV→CW: wide right sweep (dashed green)
+       CW→NV: inner right sweep (solid orange)
+       MS→CW: straight down right edge (solid blue)
+       Labels in right-mid column                          -->
+  <!-- E1: NVIDIA→CoreWeave (dashed green) -->
+  <path d="M 568,185 C 730,215 860,390 814,534" stroke="#5a8c00" stroke-width="2" fill="none" stroke-dasharray="7,3" marker-end="url(#arr-nv)"/>
+  <!-- E2: CoreWeave→NVIDIA (solid orange) -->
+  <path d="M 800,522 C 850,430 790,285 564,178" stroke="#cc5520" stroke-width="2" fill="none" marker-end="url(#arr-cw)"/>
+  <!-- E3: Microsoft→CoreWeave (solid blue) -->
+  <path d="M 814,384 C 816,450 816,500 816,522" stroke="#0078d4" stroke-width="2" fill="none" marker-end="url(#arr-ms)"/>
+  <!-- E1 label — x=892 so right edge is 1004, clear of Microsoft/CoreWeave (max x=888) -->
+  <rect x="892" y="330" width="126" height="28" rx="4" fill="white" stroke="#5a8c00" stroke-width=".7" opacity=".95"/>
+  <text x="955" y="342" text-anchor="middle" font-size="9.5" fill="#5a8c00">NVIDIA → CoreWeave</text>
+  <text x="955" y="354" text-anchor="middle" font-size="9.5" fill="#5a8c00">equity + supply (dashed)</text>
+  <!-- E2 label -->
+  <rect x="892" y="372" width="126" height="28" rx="4" fill="white" stroke="#cc5520" stroke-width=".7" opacity=".95"/>
+  <text x="955" y="384" text-anchor="middle" font-size="9.5" fill="#cc5520">CoreWeave → NVIDIA</text>
+  <text x="955" y="396" text-anchor="middle" font-size="9.5" fill="#cc5520">rental revenue</text>
+  <!-- E3 label -->
+  <rect x="892" y="446" width="126" height="28" rx="4" fill="white" stroke="#0078d4" stroke-width=".7" opacity=".95"/>
+  <text x="955" y="458" text-anchor="middle" font-size="9.5" fill="#0078d4">Microsoft → CoreWeave</text>
+  <text x="955" y="470" text-anchor="middle" font-size="9.5" fill="#0078d4">$10B+ lease deal</text>
+
+  <!-- ── LOOP F: Amazon ↔ OpenAI ─────────────────────────
+       AMZ→OAI: left arc (dashed orange)
+       OAI→AMZ: right of that arc (solid purple)
+       Labels in left-mid column between Oracle and Amazon  -->
+  <!-- F1: Amazon→OpenAI $50B equity (dashed orange) -->
+  <path d="M 488,656 C 406,618 312,538 262,374" stroke="#b86800" stroke-width="2.2" fill="none" stroke-dasharray="7,3" marker-end="url(#arr-amzn)"/>
+  <!-- F2: OpenAI→Amazon 2GW Trainium+$38B (solid purple) -->
+  <path d="M 264,374 C 286,526 392,640 480,658" stroke="#412991" stroke-width="2" fill="none" marker-end="url(#arr-oai)"/>
+  <!-- F1 label: x=10, right edge=120, clear of Oracle left edge (x=172) -->
+  <rect x="10" y="594" width="118" height="28" rx="4" fill="white" stroke="#b86800" stroke-width=".7" opacity=".95"/>
+  <text x="69" y="606" text-anchor="middle" font-size="9.5" fill="#b86800">Amazon → OpenAI</text>
+  <text x="69" y="618" text-anchor="middle" font-size="9.5" fill="#b86800">$50B equity (dashed)</text>
+  <!-- F2 label: below F1 -->
+  <rect x="10" y="638" width="118" height="28" rx="4" fill="white" stroke="#412991" stroke-width=".7" opacity=".95"/>
+  <text x="69" y="650" text-anchor="middle" font-size="9.5" fill="#412991">OpenAI → AWS</text>
+  <text x="69" y="662" text-anchor="middle" font-size="9.5" fill="#412991">2GW Trainium + $38B</text>
+
+  <!-- ── LOOP G: Amazon→NVIDIA GPU purchase ──────────────
+       Right arc from Amazon to NVIDIA
+       Label in right-mid column between CoreWeave and Amazon -->
+  <!-- G1: Amazon→NVIDIA 1M GPUs (solid orange) -->
+  <path d="M 574,656 C 660,614 760,496 808,376" stroke="#b86800" stroke-width="2" fill="none" marker-end="url(#arr-amzn)"/>
+  <!-- G1 label: x=892 so right edge=1018, clear of CoreWeave (max x=888) -->
+  <rect x="892" y="594" width="126" height="28" rx="4" fill="white" stroke="#b86800" stroke-width=".7" opacity=".95"/>
+  <text x="955" y="606" text-anchor="middle" font-size="9.5" fill="#b86800">Amazon → NVIDIA</text>
+  <text x="955" y="618" text-anchor="middle" font-size="9.5" fill="#b86800">1M GPUs thru 2027</text>
+
+  <!-- ── LOOP I: SoftBank ────────────────────────────────
+       SB→OAI and SB→NVIDIA (both dashed dark)
+       SoftBank shown as a floating label box, not a full node
+       Labels in far-left column                            -->
+  <!-- SB→OAI (dashed dark, from far-left corner) -->
+  <path d="M 90,450 C 110,410 170,378 246,362" stroke="#2c3e50" stroke-width="1.8" fill="none" stroke-dasharray="5,3" marker-end="url(#arr-sb)"/>
+  <!-- SB→NVIDIA via ARM (wide left sweep) -->
+  <path d="M 78,432 C 58,340 100,228 444,182" stroke="#2c3e50" stroke-width="1.6" fill="none" stroke-dasharray="5,3" marker-end="url(#arr-sb)"/>
+  <!-- SoftBank anchor pill (not a proper node, sits left clear of OpenAI) -->
+  <rect x="10" y="490" width="112" height="44" rx="6" fill="#2c3e50" stroke="#1a252f" stroke-width="1.2" filter="url(#shadow)"/>
+  <text x="66" y="508" text-anchor="middle" font-size="12" font-weight="bold" fill="white">SoftBank</text>
+  <text x="66" y="522" text-anchor="middle" font-size="9" fill="#aec6cf">Stargate · ARM owner</text>
+  <!-- I1 label: SB→OAI -->
+  <rect x="10" y="360" width="108" height="28" rx="4" fill="white" stroke="#2c3e50" stroke-width=".7" opacity=".95"/>
+  <text x="64" y="372" text-anchor="middle" font-size="9.5" fill="#2c3e50">SoftBank → OAI</text>
+  <text x="64" y="384" text-anchor="middle" font-size="9.5" fill="#2c3e50">$30B Stargate (dashed)</text>
+  <!-- I2 label: SB→NVIDIA -->
+  <rect x="10" y="236" width="108" height="28" rx="4" fill="white" stroke="#2c3e50" stroke-width=".7" opacity=".95"/>
+  <text x="64" y="248" text-anchor="middle" font-size="9.5" fill="#2c3e50">SoftBank owns ARM</text>
+  <text x="64" y="260" text-anchor="middle" font-size="9.5" fill="#2c3e50">~90% (leverage on NV)</text>
+
+  <!-- ═══════════════════════════════════════════════════
+       NODES — drawn last so they sit on top of all edges
+       ═══════════════════════════════════════════════════ -->
+
+  <!-- NVIDIA -->
+  <g filter="url(#shadow)">
+    <ellipse cx="530" cy="175" rx="84" ry="36" fill="#76b900" stroke="#4d7a00" stroke-width="1.5"/>
+    <text x="530" y="170" text-anchor="middle" font-size="15" font-weight="bold" fill="white">NVIDIA</text>
+    <text x="530" y="186" text-anchor="middle" font-size="10" fill="#dff0b0">chip supplier · hub investor</text>
+  </g>
+
+  <!-- OpenAI -->
+  <g filter="url(#shadow)">
+    <ellipse cx="250" cy="350" rx="78" ry="36" fill="#412991" stroke="#2d1d6b" stroke-width="1.5"/>
+    <text x="250" y="345" text-anchor="middle" font-size="15" font-weight="bold" fill="white">OpenAI</text>
+    <text x="250" y="361" text-anchor="middle" font-size="10" fill="#c8b8ff">AI lab · GPU buyer</text>
+  </g>
+
+  <!-- Microsoft -->
+  <g filter="url(#shadow)">
+    <ellipse cx="810" cy="350" rx="78" ry="36" fill="#00a4ef" stroke="#0078d4" stroke-width="1.5"/>
+    <text x="810" y="345" text-anchor="middle" font-size="15" font-weight="bold" fill="white">Microsoft</text>
+    <text x="810" y="361" text-anchor="middle" font-size="10" fill="#d0f0ff">hyperscaler · investor</text>
+  </g>
+
+  <!-- Oracle -->
+  <g filter="url(#shadow)">
+    <ellipse cx="250" cy="555" rx="78" ry="36" fill="#c0392b" stroke="#922b21" stroke-width="1.5"/>
+    <text x="250" y="550" text-anchor="middle" font-size="15" font-weight="bold" fill="white">Oracle</text>
+    <text x="250" y="566" text-anchor="middle" font-size="10" fill="#ffc0bb">cloud infra · Stargate</text>
+  </g>
+
+  <!-- CoreWeave -->
+  <g filter="url(#shadow)">
+    <ellipse cx="810" cy="555" rx="78" ry="36" fill="#ff6b35" stroke="#cc5520" stroke-width="1.5"/>
+    <text x="810" y="550" text-anchor="middle" font-size="15" font-weight="bold" fill="white">CoreWeave</text>
+    <text x="810" y="566" text-anchor="middle" font-size="10" fill="#fff0eb">GPU cloud · NV portfolio</text>
+  </g>
+
+  <!-- Amazon -->
+  <g filter="url(#shadow)">
+    <ellipse cx="530" cy="670" rx="78" ry="36" fill="#ff9900" stroke="#cc7a00" stroke-width="1.5"/>
+    <text x="530" y="665" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">Amazon / AWS</text>
+    <text x="530" y="681" text-anchor="middle" font-size="10" fill="#4a2800">$50B OAI investor · cloud host</text>
+  </g>
+
+  <!-- ── Feb 2026 $110B annotation box (centre, between arcs) -->
+  <rect x="366" y="446" width="326" height="56" rx="6" fill="#fffde8" stroke="#d4b800" stroke-width="1.3"/>
+  <text x="529" y="463" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#6b5800">Feb 2026 · $110B OpenAI funding round</text>
+  <text x="529" y="478" text-anchor="middle" font-size="10" fill="#6b5800">Amazon $50B · NVIDIA $30B · SoftBank $30B</text>
+  <text x="529" y="493" text-anchor="middle" font-size="9" fill="#999">OAI valuation → $730B pre-money</text>
+  <!-- Leader lines to nodes -->
+  <line x1="430" y1="502" x2="284" y2="520" stroke="#d4b800" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="529" y1="446" x2="529" y2="213" stroke="#d4b800" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="529" y1="502" x2="529" y2="634" stroke="#d4b800" stroke-width="1" stroke-dasharray="3,2"/>
+
+  <!-- ═══ LEGEND ═══════════════════════════════════════════ -->
+  <rect x="20" y="732" width="1020" height="148" rx="8" fill="#f0f0ec" stroke="#ccc" stroke-width="1"/>
+  <text x="40" y="752" font-size="11.5" font-weight="bold" fill="#222">Legend</text>
+
+  <line x1="40" y1="772" x2="96" y2="772" stroke="#412991" stroke-width="2.2" marker-end="url(#arr-oai)"/>
+  <text x="104" y="776" font-size="10" fill="#333">Solid arrow = cash payment / revenue / purchase commitment</text>
+
+  <line x1="40" y1="794" x2="96" y2="794" stroke="#5a8c00" stroke-width="2" stroke-dasharray="7,3" marker-end="url(#arr-nv)"/>
+  <text x="104" y="798" font-size="10" fill="#333">Dashed arrow = equity investment / ownership stake</text>
+
+  <!-- colour swatches -->
+  <rect x="40"  y="812" width="12" height="12" rx="2" fill="#76b900"/><text x="58"  y="822" font-size="10" fill="#333">NVIDIA</text>
+  <rect x="120" y="812" width="12" height="12" rx="2" fill="#412991"/><text x="138" y="822" font-size="10" fill="#333">OpenAI</text>
+  <rect x="200" y="812" width="12" height="12" rx="2" fill="#00a4ef"/><text x="218" y="822" font-size="10" fill="#333">Microsoft</text>
+  <rect x="310" y="812" width="12" height="12" rx="2" fill="#c0392b"/><text x="328" y="822" font-size="10" fill="#333">Oracle</text>
+  <rect x="390" y="812" width="12" height="12" rx="2" fill="#ff6b35"/><text x="408" y="822" font-size="10" fill="#333">CoreWeave</text>
+  <rect x="490" y="812" width="12" height="12" rx="2" fill="#ff9900"/><text x="508" y="822" font-size="10" fill="#333">Amazon / AWS</text>
+  <rect x="610" y="812" width="12" height="12" rx="2" fill="#2c3e50"/><text x="628" y="822" font-size="10" fill="#333">SoftBank</text>
+  <rect x="700" y="812" width="12" height="12" rx="2" fill="#cc5520"/><text x="718" y="822" font-size="10" fill="#333">CoreWeave revenue</text>
+
+  <text x="40"  y="856" font-size="9.5" fill="#888" font-style="italic">Sources: Bloomberg circular-deals investigation · CNBC · Fortune · OpenAI announcements · SEC filings</text>
+  <text x="40"  y="870" font-size="9.5" fill="#888" font-style="italic">Dollar figures are reported commitments, not confirmed disbursements. Several deals remain contingent (e.g. Amazon $35B tranche). Amazon's $25B Anthropic deal not shown.</text>
+</svg>
