@@ -1,13 +1,13 @@
 ---
 title: "Datacenter Opposition"
 date: 2026-04-20
-lastmod: 2026-04-28
+lastmod: 2026-05-11
 draft: false
 description: "Research section covering opposition to datacenter construction and operation across the United States — project tracker, organizing groups, funding networks, state-by-state breakdown, legislative actions, and tactical analysis."
 tags: ["datacenter", "opposition", "zoning", "energy", "water", "community-organizing", "litigation", "environmental", "grid-reliability"]
 categories: ["overview"]
 research_area: "datacenter-opposition"
-last_reviewed: 2026-04-20
+last_reviewed: 2026-05-11
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -62,6 +62,8 @@ This section tracks opposition to datacenter construction and operation across t
 
 - **Political momentum is bipartisan but nascent.** Democratic governors (Maine, New York) and Republican-leaning rural communities both opposing projects. Sanders-AOC federal moratorium bill proposed March 2026. Opposition is a live midterm issue in Georgia, Texas, North Carolina, Colorado.
 
+- **Infrastructure overspill is an emerging front.** Datacenter load growth forces grid upgrades — transmission lines, substations — that impose eminent domain takings on landowners far from the datacenter itself. Maryland farmers face condemnation for a "extension cord" to Northern Virginia datacenters; NextEra seeks eminent domain across southwestern Pennsylvania for Virginia datacenter power; Georgia Power's Ashley Park–Wansley 500 kV line affects 300+ parcels in Coweta County and neighboring counties. This is a structural regulatory gap: local datacenter approval bodies do not assess the off-site infrastructure footprint, and corridor landowners have no standing in the original approval. See `issues/infrastructure-eminent-domain.md` for full analysis.
+
 ---
 
 ### Claim Verification Flags
@@ -94,7 +96,7 @@ When documenting opposition claims:
 
 **Scale:** `hyperscale`, `large-ai-cluster`, `edge-computing`
 
-**Region:** `virginia`, `iowa`, `ohio`, `texas`, `maine`, `georgia`, `north-carolina`, `colorado`, `maryland`
+**Region:** `virginia`, `iowa`, `ohio`, `texas`, `maine`, `georgia`, `north-carolina`, `colorado`, `maryland`, `pennsylvania`
 
 **Concern:** `water-usage`, `grid-reliability`, `noise-pollution`, `air-quality`, `property-values`, `tax-subsidies`, `transparency`
 
@@ -150,6 +152,7 @@ The opposition movement is diverse, spanning local NIMBY coalitions (homeowners,
 | **xAI Megafactory** (Colossus 1, expansion) | Memphis, TN area | Major expansion | **Under Expansion / Litigation** | Air/environmental permits; labor/community concerns | Expansion plans contested; legal challenges ongoing |
 | **Meta / Alliant Beaver Dam Expansion** | Dodge County, WI | Large expansion | **Pending / Rate Disputes** | Rate impact litigation; energy disclosure disputes | Ongoing disputes over cost allocation and facility specs |
 | **Multiple Projects (Moratorium)** | Maine (statewide) | 20 MW+ facilities | **Blocked (by State Law)** | State-level legislative moratorium | Maine moratorium effective April 15, 2026; first state-level ban |
+| **Project Sail** / Prologis + Atlas Development | Coweta County, GA | 829 acres; 9 buildings; ~900 MW; $17B | **Rezoning Approved / Under Litigation** | Community organizing; zoning litigation; lobbyist access challenge | Approved 3–2 April 11, 2026; lawsuit filed May 5, 2026 to void rezoning; Citizens for Rural Coweta PAC targeting yes-voting commissioners |
 
 ---
 
@@ -300,7 +303,8 @@ Detailed state research is available in the `state-breakdown/` folder:
 - **Iowa (`iowa.md`):** Meta/Google water consumption and permitting disputes; local utility rate conflicts
 - **Ohio (`ohio.md`):** New Albany hyperscaler boom and community backlash; zoning battles
 - **Texas (`texas.md`):** ERCOT grid reliability concerns; water scarcity conflicts; SB 6 legislative response
-- **Additional states** (planned): Maine (first moratorium), North Carolina (multi-county opposition), Colorado, Georgia, other key states
+- **Georgia (`georgia.md`):** Project Sail (Coweta County, 900 MW, $17B Prologis campus); lobbyist access scandal; Citizens for Rural Coweta coalition; May 2026 litigation; Ashley Park–Wansley transmission line eminent domain
+- **Additional states** (planned): Maine (first moratorium), North Carolina (multi-county opposition), Colorado, other key states
 
 ---
 
@@ -319,6 +323,8 @@ Detailed state research is available in the `state-breakdown/` folder:
 6. **Transparency is a major demand:** Wisconsin lawsuits over energy demand disclosure; utility rate dispute litigation; investor shareholder campaigns for power/water data.
 
 7. **Funding networks are opaque:** Many local opposition groups are all-volunteer or grassroots. No clear evidence of incumbent utility funding, but funding sources are poorly disclosed.
+
+8. **Infrastructure overspill is an underreported harm.** Eminent domain and property displacement for datacenter-serving transmission lines affects landowners with no standing in original approval decisions. Maryland, Virginia, Pennsylvania, and Georgia all have active cases. This is a structural regulatory gap not addressed by local zoning reform alone.
 
 ---
 
@@ -349,3 +355,10 @@ Detailed state research is available in the `state-breakdown/` folder:
 - [Have data center tax breaks helped Nevada's economy? - The Nevada Independent](https://thenevadaindependent.com/article/have-data-center-tax-breaks-helped-nevadas-economy-heres-what-we-found)
 - [Across Texas, Grassroots Resistance Meets the AI Data Center Boom - Public Citizen](https://www.citizen.org/news/across-texas-grassroots-resistance-meets-the-ai-data-center-boom/)
 - ['Digital Gateway' Threatens to Overwhelm Manassas Battlefield - American Battlefield Trust](https://www.battlefields.org/speak-out/digital-gateway-threatens-overwhelm-manassas-battlefield)
+- [Data Center Lobbyists Clear the Way for Mega-Projects in Rural Georgia - DeSmog](https://www.desmog.com/2025/08/18/arthur-edge-data-center-lobbyists-project-sail-sargent-coweta-county-georgia/)
+- [How Data Center Developers Staked Their Claim in Rural Georgia - DeSmog](https://www.desmog.com/2026/04/07/how-data-center-developers-staked-their-claim-in-rural-georgia/)
+- [Coweta Commissioners Approve Project Sail Data Center in 3–2 Vote - The Citizen](https://thecitizen.com/2026/04/10/coweta-commissioners-approve-project-sail-data-center-in-3-2-vote/)
+- [Coweta residents sue to block Project Sail data center - The Citizen](https://thecitizen.com/2026/05/11/coweta-residents-sue-to-block-project-sail-data-center/)
+- [Maryland farmers fight to protect their land from 'extension cord' for data centers - NBC News](https://www.nbcnews.com/news/us-news/maryland-farmers-data-centers-extension-cord-power-lines-rcna233324)
+- [Energy company wants eminent domain for power lines in SW Pa. for data centers in Virginia - WESA](https://www.wesa.fm/environment-environment/2026-04-16/nextera-midatlantic-resiliency-link-eminent-domain-pennsylvania)
+- [Will AI Data Centers Cause an Eminent Domain Explosion? - Townhall](https://townhall.com/tipsheet/jeff-charles/2026/03/11/ai-data-centers-eminent-domain-push-n2672625)

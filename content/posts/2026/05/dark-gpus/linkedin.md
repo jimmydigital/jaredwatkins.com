@@ -24,4 +24,4 @@ All of this is competing for the same power, labor, and materials as the reshori
 
 The technology is real. The productivity gains are real. But the timeline of the buildout and the timeline of the revenue are badly mismatched, and unused GPUs don't hold value like dark fiber did.
 
-I wrote a deep dive on the full picture: the physical constraints, the financial exposure, the reindustrialization collision, and what the timeline might look like through 2030. Read the full post at [jaredwatkins.com](/posts/2026/05/dark-gpus/).
+I wrote a deep dive on the full picture: the physical constraints, the financial exposure, the reindustrialization collision, and what the timeline might look like through 2030. Read the full post at https://www.jaredwatkins.com/posts/2026/05/dark-gpus/
