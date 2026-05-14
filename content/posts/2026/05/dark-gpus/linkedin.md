@@ -12,16 +12,18 @@ categories:
   - Computing and Tech
 ---
 
-Microsoft has GPUs sitting in warehouses because there's no power to turn them on. Two finished datacenters in Silicon Valley are standing empty, minutes from NVIDIA's headquarters, waiting years for grid connections that don't exist yet. And this is just the beginning.
+In 2001, roughly 95% of the fiber optic cable in the ground was dark. Traffic eventually caught up, about 20 years later. The companies that laid the fiber went bankrupt. The fiber itself was fine.
 
-The US is pouring $725 billion into AI infrastructure this year. Nearly half of the planned datacenter builds have already been delayed or canceled. The bottlenecks are everywhere at once: transformers backordered for three years, chip memory demand outstripping supply, copper fought over by every industrial sector simultaneously, and a 2,100 GW grid interconnection queue that exceeds the total capacity of the US grid.
+The difference now is that while dark fiber held its value in the ground unused GPUs are obsolete in 18 months.
 
-The parallels to the late-90s dark fiber overbuild are getting hard to ignore. But this version is worse. Dark fiber sat in the ground for twenty years until traffic caught up. It didn't rot. Fresh GPUs are obsolete in 18 months. Every chip that can't be deployed depreciates toward worthlessness while the next generation rolls off the line.
+$725 billion in AI infrastructure spending is committed for 2026 alone. Nearly half the planned datacenter builds have been delayed or canceled, not because demand disappeared, but because the physical world has hard limits that press releases don't. Large power transformers now have lead times of two and a half to nearly three years. The grid interconnection queue exceeds 2,100 GW, more than the total installed capacity of the US grid. HBM memory demand is growing at twice the rate of supply, and only three companies on earth make it.
 
-Meanwhile the companies funding this buildout are burning through all their free cash flow and borrowing at six times historical rates to keep going. The circular financing arrangements between NVIDIA, OpenAI, and Oracle look uncomfortably similar to the vendor financing that inflated telecom demand right before the crash. And with AI stocks now representing 45% of the S&P 500, a repricing doesn't stay in tech. It hits every index fund and retirement account in the country.
+The financing structure is also worth a look. NVIDIA invested in OpenAI. OpenAI buys NVIDIA chips. Oracle committed $40 billion to NVIDIA GPUs for Stargate. OpenAI signed a $300 billion deal to buy Oracle cloud capacity. Bloomberg called this what it is: circular deals where the same dollars get counted multiple times as they move between a handful of companies. The telecom era had the same pattern. Nortel and Lucent lent money to their customers so those customers could buy their equipment. It inflated demand numbers right up until the loans went bad.
 
-All of this is competing for the same power, labor, and materials as the reshoring of semiconductor fabs and battery plants that's supposed to reduce US dependence on foreign supply chains.
+And this isn't happening in isolation. The same transformers, copper, grid capacity, and construction labor the AI buildout needs are also what semiconductor fabs and battery plants need for the reshoring effort. The datacenter operators have deeper pockets. Every transformer allocation they win is one the industrial projects don't get.
 
-The technology is real. The productivity gains are real. But the timeline of the buildout and the timeline of the revenue are badly mismatched, and unused GPUs don't hold value like dark fiber did.
+AI stocks now represent 45% of the S&P 500. A repricing doesn't stay in tech.
 
-I wrote a deep dive on the full picture: the physical constraints, the financial exposure, the reindustrialization collision, and what the timeline might look like through 2030. Read the full post at https://www.jaredwatkins.com/posts/2026/05/dark-gpus/
+The technology is real. But the buildout has outrun its supply chain and its revenue base, and the assets don't have twenty years to wait for the gap to close.
+
+Full breakdown of the constraints, the financial exposure, the reindustrialization collision, and a timeline through 2030 at https://www.jaredwatkins.com/posts/2026/05/dark-gpus/

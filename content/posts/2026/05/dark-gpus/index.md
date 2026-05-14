@@ -16,9 +16,9 @@ categories:
   - Computing and Tech
 ---
 
-In the late 1990s, telecom companies poured over $500 billion into fiber optic cable. The thesis was simple and felt bulletproof: internet traffic was doubling every hundred days (it wasn't, but everyone believed it was), so you couldn't possibly build too much capacity. Companies like WorldCom, Global Crossing, and Williams Communications took on enormous debt to lay fiber across oceans and under highways. By 2001, an estimated 95% of that installed fiber was dark. Unlit. Unused. It took nearly 20 years for traffic to grow into the capacity that had been built. Several of those companies went bankrupt. The fiber itself was fine, sitting patiently in the ground, waiting for demand to catch up.
+In 2001, an estimated 95% of all the fiber optic cable in the ground was dark. Telecom companies poured over $500 billion into it on the thesis that internet traffic was doubling every hundred days (it wasn't, but everyone believed it was), and WorldCom, Global Crossing, and Williams Communications took on enormous debt to lay fiber across oceans and under highways. It took nearly 20 years for traffic to grow into that capacity. Several of those companies went bankrupt. The fiber itself was fine, sitting patiently in the ground, waiting for demand to catch up.
 
-I know. You've heard the dark fiber analogy. Everyone has. But bear with me, because this version is actually worse, and in ways that matter.
+The GPU version of this is already happening. And unlike fiber, GPUs don't wait.
 
 <!--more-->
 
