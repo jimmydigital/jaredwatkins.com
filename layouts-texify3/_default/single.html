@@ -46,6 +46,14 @@
 
 {{ .PublishDate.Format .Site.Params.dateFormat }}
 
+{{/* updated date — only shown when lastmod frontmatter param is explicitly set and is after publish date */}}
+{{ with .Params.lastmod }}
+  {{ $lastmod := time . }}
+  {{ if gt $lastmod $.PublishDate }}
+<span class="updated-date">&nbsp;(updated {{ $lastmod.Format $.Site.Params.dateFormat }})</span>
+  {{ end }}
+{{ end }}
+
 {{/* word count */}}
 
 {{ if .Site.Params.showWordCount }}
@@ -201,8 +209,10 @@
     quadrantChart: {
       chartWidth: 900,
       chartHeight: 700,
-      pointRadius: 6,
-      pointLabelFontSize: 13,
+      pointRadius: 5,
+      pointLabelFontSize: 11,
+      xAxisLabelFontSize: 13,
+      yAxisLabelFontSize: 13,
     },
   });
   window.addEventListener('load', async () => {
