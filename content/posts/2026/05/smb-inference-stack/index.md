@@ -75,9 +75,11 @@ The practical implication: if you're choosing hardware for a team deployment, pi
 
 Two to four GPU configurations running vLLM with tensor parallelism. This is where 70B models get comfortable at real concurrency levels and 405B models become plausible.
 
-**2x to 4x L40S:** Four L40S cards (48GB each, 192GB total) in a Supermicro or Dell server lands around $60,000 to $80,000 all-in. You're running Llama 3.1 70B at Q4 with comfortable headroom, good concurrency via vLLM's continuous batching, and a server that can handle 20 to 50 concurrent users without breaking a sweat. Probably the most cost-effective Tier 2 config for businesses that need reliable 70B inference.
+**2x to 4x L40S:** Four L40S cards (48GB each, 192GB total) in a Supermicro or Dell server lands around $60,000 to $80,000 all-in. You're running Llama 3.1 70B at Q4 with comfortable headroom, good concurrency via vLLM's continuous batching, and a server that can handle 20 to 50 concurrent users without breaking a sweat. The L40S is still available new through CDW, ASA Computers, ServerSupply, and Viperatech at around $7,500 to $10,000 per card (don't confuse it with the original L40, which is EOL). Probably the most cost-effective Tier 2 config for businesses that need reliable 70B inference without betting on newer silicon.
 
 From a power efficiency standpoint, 4× L40S running Llama-2-70B FP8 with vLLM achieved 1,718 tokens/sec in batch (offline) mode and 1,469 tokens/sec in server mode in [MLPerf Inference v4.1 results published by Red Hat](https://www.redhat.com/en/blog/achieve-better-large-language-model-inference-fewer-gpus). At 4× 350W TDP (1,400W total draw), that works out to roughly **1.2 tok/s/W** at batch throughput and **1.0 tok/s/W** under interactive load. These are measured results on a production workload, not marketing specs.
+
+**2x to 4x RTX PRO 6000 Blackwell Server Edition:** The current-gen replacement for the L40S in the PCIe server card category. 96GB GDDR7 (double the L40S), 1.6 TB/s memory bandwidth (nearly double), fifth-gen Tensor Cores, FP4 support. Four cards gives you 384GB total, enough to run Llama 3.1 70B at full FP16 with room left for large KV caches, which the L40S can't do. Available now from Lenovo, AMAX, Hyperscalers, and on Amazon at $8,000 to $9,200 per card, putting a four-card server at $80,000 to $100,000 all-in. The catch is the 600W TDP per card: four cards draws 2,400W in GPU power alone versus the L40S at 1,400W, which starts to matter for colo power budgets. vLLM and SGLang both have Blackwell support. If you're buying new hardware today and plan to run it for three to five years, the RTX PRO 6000 Server Edition is the better starting point.
 
 **2x H100 SXM:** Two H100s (80GB each, 160GB total) runs $80,000 to $120,000. Faster raw throughput than four L40S cards, better for latency-sensitive workloads. The H100 SXM variant matters here: SXM has NVLink interconnect between cards, which means tensor parallelism across them is fast. PCIe-connected GPUs have to go through the CPU interconnect and the bandwidth penalty is real.
 
@@ -191,9 +193,9 @@ Capacity: 5 to 15 concurrent users doing document processing and summarization. 
 
 At $10/M output tokens from a frontier API and around 500M tokens/month, you're spending $5,000/month on API costs. A $15K server pays for itself in 3 months. At lower volumes the math is tighter.
 
-**Medium: ~$60K total**
+**Medium: ~$60K to $100K total**
 
-4x L40S (48GB each, 192GB total VRAM) in a Supermicro server, plus networking, NVMe storage, colocation first year. All-in around $60,000 to $80,000. vLLM with tensor parallel across the four cards, LiteLLM proxy with per-user tracking, Grafana/Prometheus for visibility. Llama 3.1 70B at Q8 as the main model, Qwen2.5-Coder 32B on a separate endpoint, Whisper on its own card.
+4x L40S (48GB each, 192GB total VRAM) in a Supermicro or Dell server, plus networking, NVMe storage, colocation first year. All-in around $60,000 to $80,000. If you're buying new today, 4x RTX PRO 6000 Blackwell Server Edition is worth serious consideration: 384GB total at full precision, better throughput headroom, similar server chassis, all-in around $80,000 to $100,000. vLLM with tensor parallel across the four cards, LiteLLM proxy with per-user tracking, Grafana/Prometheus for visibility. Llama 3.1 70B at Q8 as the main model, Qwen2.5-Coder 32B on a separate endpoint, Whisper on its own card.
 
 Capacity: 20 to 50 concurrent users. Production-grade serving for a mid-size business or a small MSP with a handful of clients. 150 to 300 tok/s aggregate throughput on 70B.
 
