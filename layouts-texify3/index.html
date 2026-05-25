@@ -13,15 +13,42 @@
         {{ end }}
 
         {{- $posts := where .Site.RegularPages "Section" "posts" -}}
-        {{- $recent := $posts | first 6 -}}
+        {{/* Sort by effective recency: frontmatter lastmod if set, otherwise date */}}
+        {{- $dated := slice -}}
+        {{- range $posts -}}
+            {{- $p := . -}}
+            {{- $effectiveDate := $p.Date -}}
+            {{- with $p.Params.lastmod -}}
+                {{- $lm := time . -}}
+                {{- if gt $lm $p.Date -}}
+                    {{- $effectiveDate = $lm -}}
+                {{- end -}}
+            {{- end -}}
+            {{- $dated = $dated | append (dict "page" $p "sort" $effectiveDate.Unix) -}}
+        {{- end -}}
+        {{- $sorted := sort $dated "sort" "desc" -}}
+        {{- $recent := $sorted | first 6 -}}
         {{- with $recent -}}
         <h3 class="taxonomy">Recent Posts</h3>
         <ul class="recent-posts">
             {{- range . -}}
+            {{- $p := .page -}}
             <li class="recent-post">
-                <a class="recent-post-title" href="{{ .Permalink }}">{{ .Title }}</a>
-                <span class="recent-post-date">{{ .Date.Format "2 January 2006" }}</span>
-                {{- with .Summary -}}
+                <a class="recent-post-title" href="{{ $p.Permalink }}">{{ $p.Title }}</a>
+                <span class="recent-post-date">
+                {{- $lmParam := $p.Params.lastmod -}}
+                {{- if $lmParam -}}
+                    {{- $lm := time $lmParam -}}
+                    {{- if gt $lm $p.Date -}}
+                    updated {{ $lm.Format "2 January 2006" }}
+                    {{- else -}}
+                    {{ $p.Date.Format "2 January 2006" }}
+                    {{- end -}}
+                {{- else -}}
+                {{ $p.Date.Format "2 January 2006" }}
+                {{- end -}}
+                </span>
+                {{- with $p.Summary -}}
                 <p class="recent-post-summary">{{ . | plainify | truncate 160 }}</p>
                 {{- end -}}
             </li>

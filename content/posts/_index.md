@@ -116,7 +116,27 @@ categories: ["Computing and Tech"]
 
 - `description` is used in meta tags and RSS --make it a real sentence, not a title restatement.
 - `draft: true` while writing; flip to `false` before publishing.
-- Date is publication date, not writing date.
+- `date` is publication date, not writing date. Never change `date` on a published post -- it's part of the URL path and changing it will break existing links.
+
+### Frontmatter Template for Updating a Published Post
+
+When making substantive edits to an already-published post, add `lastmod` to the frontmatter set to today's date. Do not change `date`.
+
+```yaml
+---
+title: "Post Title Here"
+date: YYYY-MM-DD        # original publish date -- do not change
+lastmod: YYYY-MM-DD     # date of this update
+draft: false
+description: "One sentence that accurately describes what the post is about."
+tags: ["tag1", "tag2"]
+categories: ["Computing and Tech"]
+---
+```
+
+- `lastmod` triggers two things on the site: an "(updated DATE)" label on the post page, and the post floating to the top of the Recent Posts list on the front page ranked by update date rather than publish date.
+- Only add `lastmod` for substantive updates -- new sections, corrected facts, added data. Fixing a typo doesn't warrant it.
+- Automated tasks (scheduled jobs, agents) that update published posts must always add or update `lastmod` to the date the task runs.
 
 ---
 
@@ -133,6 +153,6 @@ categories: ["Computing and Tech"]
 
 ### Update Schedule
 
-Posts are created on an ad-hoc basis --no fixed publishing cadence. Older posts are not retroactively updated unless there's a specific factual correction to make. The `lastmod` field in frontmatter can be used if an old post is substantively revised.
+Posts are created on an ad-hoc basis --no fixed publishing cadence. Older posts are not retroactively updated unless there's a specific factual correction or meaningful new content to add.
 
 {{< /steering >}}

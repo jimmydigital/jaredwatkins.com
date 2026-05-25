@@ -2,7 +2,7 @@ baseURL = 'https://www.jaredwatkins.com/'
 disqusShortname = 'jaredwatkins'
 languageCode = 'en-us'
 title = 'The Infinite Unknown'
-enableGitInfo = true
+enableGitInfo = false
 enableRobotsTXT = true
 rssLimit = 10
 
