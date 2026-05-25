@@ -82,6 +82,9 @@
 
   <!-- twitter -->
   {{ template "_internal/twitter_cards.html" . }}
+  
+  <!-- umami analytics -->
+  <script defer src="https://umami-production-8572.up.railway.app/script.js" data-website-id="74ba01f9-ecfc-49ee-8cb2-dd39306c7159"></script>
 
   {{ block "head" . }}{{ end }}
 </head>
@@ -115,8 +118,6 @@
   <!-- google analytics -->
   {{ template "_internal/google_analytics.html" . }}
 
-  <!-- umami analytics -->
-  <script defer src="https://tr.jaredwatkins.com/script.js" data-website-id="74ba01f9-ecfc-49ee-8cb2-dd39306c7159"></script>
 
 
 </body>
