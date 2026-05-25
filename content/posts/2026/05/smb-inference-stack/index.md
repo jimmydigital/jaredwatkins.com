@@ -14,7 +14,7 @@ categories:
   - Computing and Tech
 ---
 
-Frontier API costs are fine when you're experimenting. They get painful once you're running a real workload. GPT-4o is [$2.50 per million input tokens and $10 per million output](https://www.aifreeapi.com/en/posts/gpt-4o-pricing-per-million-tokens). Claude Sonnet is $3 in and $15 out. A 10-person team doing active AI use across document drafting, summarization, code review, and internal Q&A will generate somewhere around 100 million output tokens a month. At Sonnet's output price that's $1,500/month. At GPT-4o it's $1,000/month. Not ruinous, but it's a recurring bill that scales directly with adoption — and adoption tends to grow.
+Frontier API costs are fine when you're experimenting. They get painful once you're running a real workload. [GPT-4o is $2.50 per million input tokens and $10 per million output](https://openai.com/api/pricing/). Claude Sonnet 4.6 is $3 in and $15 out. Claude Opus 4.7, Anthropic's current flagship, runs $5 in and $25 out. Anthropic also recently shifted enterprise billing to usage-based consumption pricing on top of seat fees, which means those token costs show up as a line item more visibly than before. A 10-person team doing active AI use across document drafting, summarization, code review, and internal Q&A will generate somewhere around 100 million output tokens a month. Using GPT-4o that's $1,000/month. Sonnet 4.6 is about $1,500/month and with Opus 4.7 it climbs to $2,500/month. It might not ruin you, but it's a recurring bill that scales directly with adoption, and adoption tends to grow. 
 
 <!--more-->
 
@@ -26,9 +26,9 @@ This is for people who've already tinkered with local models and are thinking ab
 
 Before getting into hardware, it's worth naming what you're actually building. A production inference stack has three distinct layers.
 
-**The inference engine** is the process that actually runs the model: loads weights into memory, handles batching, manages KV cache, produces tokens. vLLM, Ollama, llama.cpp, SGLang, TensorRT-LLM. These are not interchangeable and the differences matter at team scale.
+**The inference engine** is the process that actually runs the model: loads weights into memory, handles batching, manages KV cache, produces tokens. [vLLM](https://github.com/vllm-project/vllm), [Ollama](https://ollama.com), [llama.cpp](https://github.com/ggerganov/llama.cpp), [SGLang](https://github.com/sgl-project/sglang), [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM). These are not interchangeable and the differences matter at team scale.
 
-**The gateway/router** sits in front of the inference engine and handles everything the engine doesn't: authentication, per-user rate limiting, routing between models, cost tracking, fallback to cloud APIs when local is overwhelmed. LiteLLM is the main player here. This is the piece most first-time server builders skip and then regret.
+**The gateway/router** sits in front of the inference engine and handles everything the engine doesn't: authentication, per-user rate limiting, routing between models, cost tracking, fallback to cloud APIs when local is overwhelmed. [LiteLLM](https://www.litellm.ai/) is the main player here. This is the piece most first-time server builders skip and then regret.
 
 **The hardware** determines what models you can run and how fast. Get this wrong and the other two don't matter.
 
@@ -50,14 +50,26 @@ The CUDA ecosystem advantage is real. vLLM, TensorRT-LLM, SGLang all have first-
 
 **Tier 1 comparison:**
 
-| Hardware | Memory | Bandwidth | Approx cost | 70B Q4 tok/s | Best for |
-|---|---|---|---|---|---|
-| Mac Studio M4 Ultra | 192GB unified | 819 GB/s | ~$10K | ~30 to 45 | Low-concurrency, batch, macOS shop |
-| RTX PRO 6000 Blackwell | 96GB VRAM | 1,792 GB/s | ~$9K card | ~60 to 90 | Interactive team serving, CUDA stack |
-| L40S | 48GB VRAM | 864 GB/s | ~$10K card | ~25 to 35 (split layers) | 30B models, 24/7 server duty |
-| AMD MI300X | 192GB HBM3 | 5,300 GB/s | ~$12K card | ~120 to 150 | High-throughput batch, large models |
+| Hardware | Memory | Bandwidth | Approx cost | 70B Q4 tok/s | TDP | tok/s/W | Best for |
+|---|---|---|---|---|---|---|---|
+| Mac Studio M4 Ultra | 192GB unified | 819 GB/s | ~$10K | ~30 to 45 | ~250W | ~0.14 | Low-concurrency, batch, macOS shop |
+| RTX PRO 6000 Blackwell | 96GB VRAM | 1,792 GB/s | ~$9K card | ~60 to 90 | 300W | ~0.25 | Interactive team serving, CUDA stack |
+| L40S | 48GB VRAM | 864 GB/s | ~$10K card | ~25 to 35 (split layers) | 350W | ~0.09 | 30B models, 24/7 server duty |
+| AMD MI300X | 192GB HBM3 | 5,300 GB/s | ~$12K card | ~120 to 150 | 750W | ~0.17 | High-throughput batch, large models |
 
 The MI300X throughput numbers look wild on paper. In practice you land closer to the lower end in real serving scenarios because bandwidth isn't the only variable, but it's still the fastest single-card option for large-model inference if you can get the ROCm stack working.
+
+### Why efficiency jumps between Tier 1 and Tier 2
+
+The tok/s/W column in the Tier 1 table looks bad compared to what you'll see at Tier 2, and the reason is worth understanding because it shapes every hardware decision at team scale.
+
+A single GPU serving one user at a time is wasteful by design. On each forward pass through the model, the GPU reads all the weights from memory (tens of gigabytes) to produce a handful of tokens for a single request. Most of that memory bandwidth is spent moving weights, not doing useful work per watt. The GPU is underutilized.
+
+Continuous batching changes the math entirely. Instead of serving one request per forward pass, vLLM packs multiple in-flight requests into the same pass. The weights get read once from memory and applied to dozens of concurrent requests simultaneously. Token output per joule scales almost linearly with batch size up to the point where VRAM fills up or memory bandwidth saturates. A single H100 running at batch=1 produces roughly 50 to 80 tokens/sec. The same H100 at batch=32 with FP8 and vLLM produces 1,800 to 2,000 tokens/sec. Same GPU, same power draw, roughly 25 to 40 times more tokens per watt.
+
+This is why the efficiency numbers in the comparison matrix jump from under 0.3 tok/s/W at Tier 1 to 1.0 to 2.9 tok/s/W at Tier 2. It's not that the hardware is fundamentally different. It's that Tier 2 deployments have enough concurrent users to actually saturate the batch. A single-user developer setup running Ollama is running at batch=1 almost all of the time. A 20-person team hitting an inference server through LiteLLM is generating enough concurrent requests to fill a batch continuously. That utilization difference, not the GPU specs, is what makes the per-watt numbers look so different between tiers.
+
+The practical implication: if you're choosing hardware for a team deployment, pick for the batch throughput ceiling, not single-request latency. And if you're already running a Tier 1 box for a team, before you upgrade the hardware, check whether you're actually running continuous batching. Switching from Ollama to vLLM on the same hardware can double or triple your effective throughput with no additional spend.
 
 ### Tier 2: Multi-GPU server ($25K to $100K)
 
@@ -65,7 +77,11 @@ Two to four GPU configurations running vLLM with tensor parallelism. This is whe
 
 **2x to 4x L40S:** Four L40S cards (48GB each, 192GB total) in a Supermicro or Dell server lands around $60,000 to $80,000 all-in. You're running Llama 3.1 70B at Q4 with comfortable headroom, good concurrency via vLLM's continuous batching, and a server that can handle 20 to 50 concurrent users without breaking a sweat. Probably the most cost-effective Tier 2 config for businesses that need reliable 70B inference.
 
+From a power efficiency standpoint, 4× L40S running Llama-2-70B FP8 with vLLM achieved 1,718 tokens/sec in batch (offline) mode and 1,469 tokens/sec in server mode in [MLPerf Inference v4.1 results published by Red Hat](https://www.redhat.com/en/blog/achieve-better-large-language-model-inference-fewer-gpus). At 4× 350W TDP (1,400W total draw), that works out to roughly **1.2 tok/s/W** at batch throughput and **1.0 tok/s/W** under interactive load. These are measured results on a production workload, not marketing specs.
+
 **2x H100 SXM:** Two H100s (80GB each, 160GB total) runs $80,000 to $120,000. Faster raw throughput than four L40S cards, better for latency-sensitive workloads. The H100 SXM variant matters here: SXM has NVLink interconnect between cards, which means tensor parallelism across them is fast. PCIe-connected GPUs have to go through the CPU interconnect and the bandwidth penalty is real.
+
+The H100 SXM draws 700W each. At continuous batching with FP8 and vLLM, a single H100 achieves approximately 2,000 tokens/sec on Llama 3.1 70B, giving **~2.9 tok/s/W per card**, roughly 2.4× more efficient per watt than 4× L40S on the same workload. The tradeoff is that each H100 costs significantly more than each L40S, so the L40S config wins on capital cost per token even if it loses on power cost per token. For colo deployments billing on power draw, that efficiency gap starts to matter at scale.
 
 On self-build vs. branded systems: Lambda Labs, Supermicro, and Dell all sell rack-mount GPU servers in this tier. Self-building is possible but you're taking on the support burden, and the savings over a Supermicro system are smaller than people expect once you factor in rail kits, power distribution, and the time to debug weird firmware interactions.
 
@@ -75,19 +91,29 @@ vLLM is the right inference engine at this scale. Its continuous batching, Paged
 
 Eight-GPU nodes, multiple nodes, InfiniBand networking. This is where you're running 405B+ models comfortably, serving hundreds of concurrent users, or building a managed service for multiple clients.
 
-An 8x H100 SXM server from Supermicro (the SYS-821GE-TNHR is the reference system) runs [$200,000 to $320,000 depending on configuration](https://intuitionlabs.ai/articles/nvidia-ai-gpu-pricing-guide). That's before networking, power infrastructure, and colocation costs. A rack with four of these nodes is roughly $800K to $1.2M in hardware before you count the 200G InfiniBand switches, the PDUs, the colocation space at $10K to $20K per cabinet per year, and the engineering time to actually run it.
+An 8x H100 SXM server from Supermicro (the SYS-821GE-TNHR is the reference system) runs [$200,000 to $320,000 depending on configuration](https://intuitionlabs.ai/articles/nvidia-ai-gpu-pricing-guide). A rack with four of these nodes is $800K to $1.2M in hardware. That's before NDR InfiniBand switches, PDUs, and colocation, all of which cost more than most people budget.
 
-Who needs this? Managed service providers building multi-tenant AI platforms. Enterprises with very high volume document processing. Anyone seriously selling AI inference as a product. At this scale the economics against frontier APIs are compelling: cost per million tokens well under $1 for 70B-class models, versus $10 to $15 for frontier output tokens.
+On networking first: inter-node GPU communication is the thing that makes or breaks distributed inference. 1GbE is a non-starter. 10GbE is marginal. 25GbE is the floor, and 100G+ InfiniBand is what serious systems actually run. A pair of NDR 400G switches to connect four nodes adds roughly $200K to $300K to the hardware bill and another 1.5 kW to the power draw. vLLM handles pipeline and tensor parallelism across nodes, but it needs the bandwidth to go with it.
 
-The networking is not optional at this tier. vLLM supports distributed inference across multiple nodes with pipeline and tensor parallelism, but it needs the bandwidth to go with it. 1GbE for inter-node GPU communication is a non-starter. 10GbE is marginal. 25GbE is the floor that makes practical sense, and 100G+ InfiniBand is what serious systems actually run.
+Power is where the math gets uncomfortable. The GPU TDP figure (700W × 8 = 5.6 kW) is not the system draw. [NVIDIA's own DGX H100 spec puts total system power at 10.2 kW](https://docs.nvidia.com/dgx/dgxh100-user-guide/introduction-to-dgxh100.html), covering CPUs, NVLink switch fabric, memory, storage, and cooling. The Supermicro SYS-821GE-TNHR ships with eight 3,000W PSUs for a reason. Four nodes at 10.2 kW each is 40.8 kW in compute alone. Add the InfiniBand switches and overhead, and you're at 43 to 45 kW of IT load per rack. At a typical data center PUE of 1.3 to 1.5, the facility draw is **56 to 68 kW per rack**.
+
+That is not a standard cabinet, and finding a facility that will take it is harder than it sounds. Most colo providers cap air-cooled racks at 15 to 25 kW; above that you're in dedicated high-density space, often negotiating liquid cooling. Many Tier I operators (Equinix, Digital Realty, CoreSite) won't touch a sub-100 kW deployment in 2026 given power queue backlogs. Expect to work with mid-tier or regional providers. [Current US market rates for committed high-density power run $130 to $225 per kW per month](https://www.quotecolo.com/single-rack-ai-colocation/), depending on market. At 44 kW committed, that's **$68K to $119K per year per rack** in power alone, before cross-connects ($100 to $400/month each) and remote hands ($150 to $300/hour). Budget the actual number before signing anything.
+
+The [Watt Counts benchmark paper (arXiv:2604.09048)](https://arxiv.org/abs/2604.09048) makes the point cleanly: at rack scale, power capacity is the binding constraint, not GPU count. Every improvement in tokens/watt directly reduces facility footprint and operating cost. A fully utilized 8-GPU node with vLLM FP8 and continuous batching produces [around 16,000 tokens/sec](https://www.spheron.network/blog/token-factory-gpu-cloud-tokens-per-watt-guide/), which works out to roughly **2.5 to 2.9 tok/s/W** against full system draw. That's a useful planning number: divide your throughput requirement by it and you get the power budget you need to secure before you order hardware.
+
+Who needs this? MSPs building multi-tenant AI platforms, enterprises with very high-volume document processing, anyone seriously selling inference as a product. At this scale, self-hosted tokens cost well under $1/M for 70B-class models, versus $10/M for GPT-4o, $15/M for Claude Sonnet 4.6, or $25/M for Opus 4.7. The economics work. The challenge is utilization: the infrastructure costs what it costs whether the GPUs are busy or not.
+
+If you want to push further and fancy yourself a hyperscaler, the next frontier is megawatt-scale rack architectures that make a four-node H100 cabinet look quaint. I wrote about where that's heading: [Megawatt racks and what comes after](https://www.jaredwatkins.com/posts/2026/04/megawatt-rack/).
 
 ## Comparison matrix
 
-| Tier | Approx cost | Concurrent users | Max model size | Throughput (70B ref) | Example use case |
-|---|---|---|---|---|---|
-| Tier 1: Single server | $5K to $25K | 5 to 20 | 70B to 405B (quant) | 30 to 150 tok/s | Small business document processing; solo MSP onboarding first clients |
-| Tier 2: Multi-GPU server | $25K to $100K | 20 to 100 | 405B (quant), 70B comfortable | 150 to 600 tok/s | Mid-size business AI platform; VAR serving 5 to 10 business clients |
-| Tier 3: Rack scale | $100K to $1M+ | 100 to 500+ | Full precision 405B+, multi-model | 1,000+ tok/s | Multi-tenant MSP with dozens of clients; high-volume batch processing at enterprise scale |
+| Tier | Approx cost | Concurrent users | Max model size | Throughput (70B ref) | Efficiency (tok/s/W) | Example use case |
+|---|---|---|---|---|---|---|
+| Tier 1: Single server | $5K to $25K | 5 to 20 | 70B to 405B (quant) | 30 to 150 tok/s | 0.09 to 0.25 | Small business document processing; solo MSP onboarding first clients |
+| Tier 2: Multi-GPU server | $25K to $100K | 20 to 100 | 405B (quant), 70B comfortable | 150 to 600 tok/s | 1.0 to 2.9 | Mid-size business AI platform; VAR serving 5 to 10 business clients |
+| Tier 3: Rack scale | $100K to $1M+ | 100 to 500+ | Full precision 405B+, multi-model | 1,000+ tok/s | 2.5 to 2.9 per node | Multi-tenant MSP with dozens of clients; high-volume batch processing at enterprise scale |
+
+The efficiency column reflects **tok/s per watt** at continuous batching with FP8/Q4 quantization on Llama 3.1 70B. Tier 1 and Tier 2 numbers use GPU TDP as the denominator (single-card or multi-card draw). Tier 3 uses full system draw (10.2 kW per 8-GPU node per NVIDIA DGX H100 spec), which is the right number for facility planning. Tier 1 numbers reflect single-GPU single-request throughput; the step change at Tier 2 comes from vLLM's continuous batching. Sources: [MLPerf Inference v4.1 L40S results (Red Hat)](https://www.redhat.com/en/blog/achieve-better-large-language-model-inference-fewer-gpus), [Spheron H100 tokens/watt analysis](https://www.spheron.network/blog/token-factory-gpu-cloud-tokens-per-watt-guide/), [Watt Counts benchmark (arXiv:2604.09048)](https://arxiv.org/abs/2604.09048).
 
 ## Query routing
 
@@ -113,7 +139,7 @@ This is where "self-hosted" gets complicated if you're reselling.
 
 LiteLLM's proxy has built-in per-user and per-team spend tracking. It automatically tracks token counts per API key, associates keys with users or teams, and exposes a `/user/daily/activity` endpoint with spend breakdowns by model, date, and API key. For internal chargeback within a company, this is sufficient out of the box.
 
-For billing external clients, you still need to build the last mile. LiteLLM gives you token counts and can export to Prometheus. What it doesn't give you: invoice generation, payment processing, client-facing dashboards, or any concept of your billing rate per token. You need to build or buy that layer.
+For billing external clients, you still need to build the last mile. LiteLLM gives you token counts and can export to [Prometheus](https://prometheus.io). What it doesn't give you: invoice generation, payment processing, client-facing dashboards, or any concept of your billing rate per token. You need to build or buy that layer.
 
 A workable reseller billing pipeline: LiteLLM for token attribution (per client API key), Prometheus for metrics export, your billing system for rate application and invoice generation. If you're just getting started with a handful of clients, simpler still: query the LiteLLM API monthly, pull per-key token counts, apply your markup in a spreadsheet. Unglamorous. Effective.
 
@@ -127,7 +153,7 @@ Not all tasks need the same model. Running a 70B model for tasks that a 7B handl
 |---|---|---|---|---|
 | Document summarization (long) | Qwen3 72B, Llama 3.1 70B | Tier 1 (96GB VRAM) | Tier 2 for 20+ concurrent users | Qwen3 and Llama 3.1 70B both have 128K context. Either is excellent. |
 | RAG / document Q&A | Qwen3 30B-A3B, Llama 3.1 8B | Tier 1 (32GB VRAM) | Tier 1 scales well; retrieval quality matters more than model size | 8B is often fine. Invest in the retrieval pipeline before upgrading the model. |
-| Voice to text | Whisper large-v3-turbo | 8GB VRAM (any tier, secondary card) | Tier 2+ for high-volume transcription alongside LLM workloads | 25 to 30x real time on GPU. Keep it on its own card — it competes for KV cache. |
+| Voice to text | Whisper large-v3-turbo | 8GB VRAM (any tier, secondary card) | Tier 2+ for high-volume transcription alongside LLM workloads | 25 to 30x real time on GPU. Keep it on its own card, it competes for KV cache. |
 | Image / vision tasks | Qwen2-VL 72B, Llama 3.2 Vision 90B | Tier 1 (80GB+ VRAM) | Tier 2 for concurrent vision + text serving | Vision models are larger than text equivalents for the same quality bar. |
 | PDF extraction / OCR | Whisper-style pipeline or Qwen2-VL | Tier 1 (16GB VRAM) | Tier 2 for high-volume batch | Tesseract still wins for clean scans. VLMs add value for complex layouts. |
 | Document writing / editing | Qwen3 30B-A3B, Llama 3.1 8B | Tier 1 (16GB VRAM) | Tier 1 handles most business volumes | 8B with good prompt engineering often beats 70B with lazy prompts. |
@@ -173,17 +199,17 @@ Capacity: 20 to 50 concurrent users. Production-grade serving for a mid-size bus
 
 At $2M tokens/month output (not extraordinary for a 30-person team using AI across document workflows), frontier API costs run $20,000+/month. The $60,000 server investment pays back in 3 months. At 500K tokens/month you're looking at 12 to 18 months payback, which is still reasonable for a 3 to 5 year hardware lifecycle.
 
-**Large: ~$250K total**
+**Large: ~$500K total**
 
-Two 4x H100 SXM nodes (~$200K in hardware), 100G networking switch, NVMe storage array, colocation year one. Total around $250,000. vLLM with pipeline and tensor parallel across nodes, LiteLLM as the unified gateway, custom billing middleware feeding your invoicing system.
+Two 8x H100 SXM nodes ($400K to $640K in hardware depending on configuration), NDR InfiniBand switch, NVMe storage array, and colocation for year one. Hardware alone pushes this well past the $250K number that circulates in smaller-scale discussions. Colo for two nodes at ~22 kW committed runs $35K to $60K/year at current US market rates, before cross-connects and remote hands. Call it $500K all-in for a realistic first year, more if you're in a high-cost market like Northern Virginia or Silicon Valley. vLLM with pipeline and tensor parallel across nodes, LiteLLM as the unified gateway, custom billing middleware feeding your invoicing system.
 
 Capacity: 100+ concurrent users. Multi-tenant MSP with multiple business clients. Enough headroom to run batch jobs in parallel with interactive serving.
 
-Cost per million tokens below $0.05 at good utilization. The economics are compelling if you're billing clients even $1 to $2 per million tokens. At $20/M frontier cost and 5M output tokens/month, you're spending $100K/month on APIs. A $250K infrastructure investment breaks even in under 3 months if you can keep utilization up. The challenge at this scale isn't the economics, it's maintaining the utilization.
+Cost per million tokens below $0.05 at good utilization. The economics are compelling if you're billing clients even $1 to $2 per million tokens. At Claude Sonnet 4.6 pricing ($15/M output) and 5M output tokens/month, you're spending $75K/month on APIs. A $500K infrastructure investment pays back in under a year at that volume. The challenge isn't the economics. It's maintaining the utilization that makes the math work.
 
 ## What I'd actually build
 
-The medium configuration is the most interesting to me from a business standpoint. Four L40S cards in a Supermicro chassis, vLLM, LiteLLM, and a thin billing layer. It's a legitimate business you can run out of a half-rack in a colo, it handles document processing workloads for a few dozen clients, and the economics against frontier APIs hold up even at moderate volumes.
+The medium configuration is the most interesting to me from a business standpoint. It's the tier that hits a useful intersection: a 20 to 50-person business or MSP serving a handful of clients, generating 1 to 2 million output tokens per month per client, and spending enough on frontier APIs that the $60K to $80K hardware investment pays back in under six months. Four L40S cards draw about 1.4 kW under GPU load, well inside what any standard colo accepts without a conversation about liquid cooling or dedicated high-density space. You get real serving capacity without the facility negotiation headaches that come with Tier 3. Four L40S cards in a Supermicro chassis, vLLM, LiteLLM, and a thin billing layer. It's a legitimate business you can run out of a half-rack.
 
 The hard part isn't the hardware or the model selection. It's the operational layer: monitoring inference server health, managing model updates without dropping requests, building enough around LiteLLM to actually send invoices. Those are real engineering problems that take real time. If you're a solo operator, budget for that before assuming the hardware cost is the whole story.
 
