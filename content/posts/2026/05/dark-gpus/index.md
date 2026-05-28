@@ -1,6 +1,7 @@
 ---
 title: Let the (AI) Bodies Hit the Floor
 date: 2026-05-07
+lastmod: 2026-05-28
 draft: false
 description: The AI datacenter buildout is hitting a wall of physical constraints that echoes the late-90s dark fiber overbuild. But GPUs depreciate in months, not decades, and the US economy is strapped to the outcome.
 tags:
@@ -161,3 +162,31 @@ The aggregate impact? If even half of this plays out on the timeline I'm sketchi
 I've tried to be fair to the counterarguments throughout, because they're real. The engineering talent being thrown at these constraints is world-class, the financial incentives to solve them are enormous, and the history of technology consistently embarrasses people who bet against human ingenuity on long enough timescales. I don't think this is a bubble in the sense that the underlying technology is fake. I think it's a buildout that's outrunning its own supply chain and revenue base, and the correction when those things catch up will be painful.
 
 The question isn't whether AI will be transformative. I think it will. The question is whether the timeline of the buildout matches the timeline of the revenue, and what happens to the US economy during the gap between the two. The dark fiber era took twenty years to resolve. The companies that laid the fiber went bankrupt, but the fiber itself eventually became the backbone of the modern internet. With dark GPUs, the hardware won't wait. The chips depreciate, the architectures move on, and the capital is gone. If there's a resolution, it has to come faster than twenty years, because the assets don't have twenty years in them. And I don't think anyone knows the answer yet.
+
+---
+
+## Predictions vs. Reality
+
+*The original post above doesn't get edited as evidence comes in. This section does. New entries go here as the predictions play out.*
+
+---
+
+### Update: May 2026
+
+I wrote that the token factory companies would face real pressure to raise prices as investor patience wears thin, and that usage numbers would start revealing how much demand was price-sensitive. I put that in the late 2026 to mid-2027 window. It's showing up now, and it's coming from the demand side first.
+
+Microsoft canceled most of its internal Claude Code licenses in mid-May. The affected engineers, in the Experiences and Devices division, have until June 30 to migrate to GitHub Copilot CLI. The reason isn't capability. It's that agentic coding tools burn tokens at rates that are orders of magnitude above single-query LLM use, and the per-engineer monthly bills were running $500 to $2,000. Multiply that across a division at Microsoft scale and it stops penciling out.
+
+Sit with that for a second. Microsoft. The company that bet its cloud franchise on Copilot, that's directly invested in OpenAI, that's been the loudest enterprise AI evangelist in the industry. Pulling back on AI tool licenses inside its own engineering org. If the economics don't hold for the company selling this stuff, the pitch to enterprise customers has a credibility problem.
+
+Uber's story is sharper. The CTO disclosed that Uber had exhausted its entire 2026 AI coding tools budget by April. The whole year's budget. In four months. And there's a detail in there that's worse than the number: Uber said token consumption didn't appear to correlate reliably with useful product output. So they weren't even getting value proportional to what they were spending. They were just burning tokens.
+
+This is the subsidy cliff, but from the buyer side. Not providers being priced too low (though that's also true), but enterprises discovering that agentic workflows cost dramatically more than anyone forecasted when "token spend" was still an abstract line in a planning doc rather than a real invoice.
+
+It's not just these two. A [Mavvrik survey](https://www.mavvrik.ai/blog/ai-cost-statistics-2026/) found 85% of companies missed their AI cost forecasts by more than 10%, and 84% saw gross margins drop more than six points. One healthcare company consumed a trillion tokens over six months and racked up more than $6 million in unplanned costs before anyone in finance figured out what was causing the spike. Amazon had an internal "tokenmaxxing" problem where employees were inflating AI usage metrics by using tools for unnecessary tasks (which is a very human response to being measured on a proxy metric, and also completely useless to the business).
+
+Goldman Sachs put out a forecast that agentic AI could drive a [24-fold increase in token demand by 2030](https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-costs-begin-to-bite-as-agents-may-increase-token-demand-by-24-times-says-goldman-sachs-report-uber-and-microsoft-among-companies-feeling-the-bite-of-tokenized-billing). That's the bull case for the infrastructure buildout. It's also a problem for near-term revenue if enterprises are already pulling licenses at current token consumption levels. The demand expansion Goldman is forecasting assumes someone will pay for all those tokens. The evidence from May 2026 is that enterprises are not enthusiastic about that.
+
+On the ROI side, the numbers have gotten worse since I cited the 2025 MIT study. McKinsey's 2026 survey puts the failure rate at 73% of AI projects not delivering intended business value. IBM finds only 25% of AI initiatives delivering expected ROI. Morgan Stanley says only 21% of S&P 500 companies can point to any measurable AI benefit at all. Token prices have fallen roughly 280-fold over two years, and total enterprise AI spending rose 320% in the same period. Cheaper tokens don't reduce the bill. They expand consumption until something structural pushes back. Right now that structural pushback is a CFO asking why the engineering department blew its annual AI budget before Q2 ended.
+
+I said the subsidy cliff would become visible in late 2026. It's visible now. The first people going over it are enterprise buyers who got a real invoice, which is a problem for OpenAI and Anthropic specifically, since enterprise contracts (not the $20/month consumer plans that cost more to serve than they charge) are supposed to be the revenue base that eventually makes the unit economics work.
