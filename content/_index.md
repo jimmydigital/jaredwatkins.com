@@ -12,6 +12,7 @@ tags:
 - [Github](https://github.com/jimmydigital)
 - [Schedule a Chat](https://cal.com/jaredwatkins/15min)
 - {{< email "jared@jaredwatkins.com" "Email me" >}}
+- Patent: [US-9246762-B1](/pics/pat9246762.pdf) NTP client-side automatic configuration 2016-01-26
 
 <details>
 <summary>PGP Fingerprint</summary>
