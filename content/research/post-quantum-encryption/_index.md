@@ -1,7 +1,7 @@
 ---
 title: "Post-Quantum Encryption"
 date: 2026-04-15
-lastmod: 2026-04-17
+lastmod: 2026-06-02
 draft: false
 description: "Research on post-quantum cryptography (PQC): NIST-standardized algorithms, vendor implementation timelines, and adoption across networking and cryptocurrency infrastructure."
 tags: ["post-quantum", "cryptography", "security", "pqc", "nist"]
@@ -142,15 +142,9 @@ The primary near-term threat is **harvest now, decrypt later (HNDL)**: adversari
 - Cryptocurrency platforms face a deeper challenge: signature scheme migration in decentralized networks requires broad ecosystem consensus and may involve hard forks
 - The HNDL threat model means the migration clock is already running for long-lived sensitive data, even without an operational CRQC
 
-## Research Phases
-
-| Phase | Focus | Status |
-|-------|-------|--------|
-| Phase 1 | Networking vendors (Sitehop, Juniper, Cisco, Palo Alto, Fortinet, Check Point, Nokia) | In progress |
-| Phase 2 | Cryptocurrency platforms (Bitcoin, Ethereum, Solana, Cardano, Algorand, QRL) | In progress |
-| Phase 3 | Standards and policy (NIST FIPS, NSA CNSA 2.0, IETF) | Planned |
-
 ## Topic Areas
 
 - [Networking]({{< relref "networking/_index.md" >}}) — PQC support across networking hardware and software vendors
-- [Cryptocurrencies]({{< relref "cryptocurrencies/_index.md" >}}) — Blockchain platform exposure and migration plans *(Phase 2 — planned)*
+- [Cryptocurrencies]({{< relref "cryptocurrencies/_index.md" >}}) — Blockchain platform exposure and migration plans
+- [Quantum Key Distribution]({{< relref "qkd/_index.md" >}}) — Physics-based key exchange using entangled photons; eQKD companies and deployments
+- [Standards & Policy]({{< relref "standards-policy/_index.md" >}}) — NIST FIPS, NSA CNSA 2.0, IETF protocol standards, and international guidance

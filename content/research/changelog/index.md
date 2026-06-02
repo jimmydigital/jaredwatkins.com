@@ -1,7 +1,7 @@
 ---
 title: "Research Section Changelog"
 date: 2026-04-04
-lastmod: 2026-05-11
+lastmod: 2026-06-02
 draft: false
 description: "Timestamped log of additions and modifications to the Research knowledge base."
 tags: ["changelog", "research"]
@@ -20,6 +20,7 @@ sitemap:
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
 
+- **2026-06-02:** Created [Quantum Key Distribution section]({{< relref "post-quantum-encryption/qkd/_index.md" >}}) + [zerothird]({{< relref "post-quantum-encryption/qkd/zerothird.md" >}}) — Austrian eQKD startup; BBM92 entanglement-based, 350 km claimed; Erste Group/A1 Telekom pilot; VERBUND X Ventures Seed+; IQOQI Vienna founders.
 - **2026-05-11:** Created [Georgia datacenter opposition]({{< relref "datacenter-opposition/state-breakdown/georgia.md" >}}) — Project Sail (Prologis/Atlas, 829 acres, ~900 MW, $17B, Coweta County); 3–2 commission approval April 11 2026; lobbyist access scandal (DeSmog investigation); Citizens for Rural Coweta (8,000+ signatures, PAC formation); May 2026 lawsuit to void rezoning; Ashley Park–Wansley 500 kV transmission line (300+ parcels, eminent domain risk). Created [infrastructure overspill issue]({{< relref "datacenter-opposition/issues/infrastructure-eminent-domain.md" >}}) — structural analysis of eminent domain and property displacement from datacenter-serving transmission lines; case studies: Maryland Piedmont Reliability Project, Virginia Dominion loop, NextEra Midatlantic Resiliency Link (PA→VA), Georgia Ashley Park–Wansley; legislative responses; organizing strategy implications. Updated [datacenter-opposition index]({{< relref "datacenter-opposition/_index.md" >}}) — added Project Sail to project tracker; added Georgia to state breakdown; added infrastructure overspill as new key theme and key takeaway.
 - **2026-05-05:** Created [Hitachi Energy]({{< relref "datacenters/power-infrastructure/hitachi-energy.md" >}}) — world's largest transformer manufacturer; $43B backlog (3× three years ago); 40-month large-unit lead times; $6B capacity investment; CEO warned sector "overwhelmed" by datacenter + energy transition demand; DPA §303 Presidential Determination (Apr 20 2026) a direct policy catalyst. Updated [power-infrastructure index]({{< relref "datacenters/power-infrastructure/_index.md" >}}) — added DPA grid determination context, updated transformer lead times from 2–3 years to 24–40 months, added Hitachi Energy (HPS.A) and updated Eaton (ETN) to incumbents table. Updated [GE Vernova aeroderivative entry]({{< relref "datacenters/behind-meter-power/ge-vernova-aeroderivative.md" >}}) — added DPA §303 determination to Q1 2026 financial snapshot.
 - **2026-04-30:** Updated [Virginia datacenter opposition]({{< relref "datacenter-opposition/state-breakdown/virginia.md" >}}) — Added Compass Datacenters withdrawal from PW Digital Gateway (Apr 30); updated Contested Projects table status to Dead; Brookfield-backed Compass cited legal defeats, stricter regulations, and collapsed political support; QTS status uncertain.
