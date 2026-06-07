@@ -151,6 +151,7 @@ The opposition movement is diverse, spanning local NIMBY coalitions (homeowners,
 | **Denver CoreSite Development** | Denver, CO | Large facility | **Pending / Moratorium Proposed** | Mayor Johnston called for citywide moratorium (Feb 2026) | Denver mayor seeking moratorium; development pending |
 | **xAI Megafactory** (Colossus 1, expansion) | Memphis, TN area | Major expansion | **Under Expansion / Litigation** | Air/environmental permits; labor/community concerns | Expansion plans contested; legal challenges ongoing |
 | **Meta / Alliant Beaver Dam Expansion** | Dodge County, WI | Large expansion | **Pending / Rate Disputes** | Rate impact litigation; energy disclosure disputes | Ongoing disputes over cost allocation and facility specs |
+| **Stratos Project** / O'Leary Digital (Kevin O'Leary) | Box Elder County, UT | 40,000 acres → ~10,000 acres (75% reduction); up to 9 GW power | **Under Litigation / Scaled Back** | Constitutional challenge to MIDA governance; community organizing; water permit protests (2,300+ filings) | Scaled back 75% June 2026; constitutional lawsuit filed June 4, 2026 (Alliance for a Better Utah v. MIDA); referendum rejected May 2026 |
 | **Multiple Projects (Moratorium)** | Maine (statewide) | 20 MW+ facilities | **Blocked (by State Law)** | State-level legislative moratorium | Maine moratorium effective April 15, 2026; first state-level ban |
 | **Project Sail** / Prologis + Atlas Development | Coweta County, GA | 829 acres; 9 buildings; ~900 MW; $17B | **Rezoning Approved / Under Litigation** | Community organizing; zoning litigation; lobbyist access challenge | Approved 3–2 April 11, 2026; lawsuit filed May 5, 2026 to void rezoning; Citizens for Rural Coweta PAC targeting yes-voting commissioners |
 
@@ -293,6 +294,40 @@ Major lawsuits include:
 **Lack of Central Funding Database:**
 - Unlike traditional advocacy, much opposition is locally coordinated without central funding. Many groups are all-volunteer (Coalition to Protect PWC) or operate on small budgets.
 
+### Foreign-Influence Claims and Research (Updated June 2026)
+
+A significant and contested narrative has emerged in 2026 alleging that foreign actors — primarily CCP-aligned networks — are amplifying or funding US datacenter opposition campaigns. The claims range from documented to unverified.
+
+**Kevin O'Leary's claims (May–June 2026):**
+In the context of his Stratos Project in Box Elder County, Utah, O'Leary publicly alleged that opposition to his project — and US datacenter development broadly — is part of a foreign-directed "PR war." His claims: his team detected a coordinated social media surge in early May traced to overlapping IPs and bot accounts; data scientists connected profiles to **Party for Socialism and Liberation** and **People's Dispatch** (both under congressional investigation); these connect to a network led by **Neville Roy Singham**, a Shanghai-based US expatriate with alleged CCP ties; and funding for **Alliance for a Better Utah** moved through **Arabella Advisors** before tracing back to China. O'Leary called it "an irrefutable fact" and promised IRS 990 documentation. As of publication, that documentation had not been publicly released and could not be independently verified by local news (Fox 13 Utah).
+
+Named organizations (Alliance for a Better Utah, Elevate Strategies) denied the allegations and cited domestic grassroots funding and local concerns as the basis for their opposition.
+
+**Bitcoin Policy Institute Report — "Foreign Influence in the Campaign against American AI" (May 18, 2026):**
+A more systematic attempt to document foreign-influence vectors was published by the Bitcoin Policy Institute (BPI), a DC-based 501(c)(3) whose research director previously served at Treasury under Secretary Bessent. The BPI report identifies three convergent vectors:
+
+1. **Chinese state media (CGTN, China Daily, Global Times, Russia's RT):** Directly running anti-US-datacenter campaigns in English while China simultaneously subsidizes domestic AI datacenter operators by up to 50% of energy costs. The report documents explicit amplification of US anti-datacenter messaging by these outlets.
+
+2. **The Singham network:** US 501(c)(3) nonprofits funded by Neville Roy Singham (~$278M across six organizations, 2017–2023) producing "parallel domestic content opposing American AI infrastructure" for nearly five years. The network includes Tricontinental: Institute for Social Research, People's Forum, BreakThrough News, CodePink, and People's Dispatch. A Delhi Police chargesheet in the Indian NewsClick case identified the Chinese government as the network's "ultimate paymaster." Congressional inquiry letters were sent to three of these entities in April 2026 (House Ways and Means + House Select Committee on CCP). CodePink ran an explicit anti-datacenter article in January 2026 framing the campaign as a fight against "the new Cold War on China."
+
+3. **Foreign-billionaire dark money:** Swiss billionaire Hansjörg Wyss (~$700M through Wyss Foundation and Berger Action Fund) and British billionaire Alan Parker's Oak Foundation (~$750M to 150+ US groups over 10 years) have channeled foreign money into advocacy infrastructure now active in the anti-datacenter campaign. Wyss money flows through the Sixteen Thirty Fund (Arabella Advisors network). The American Energy Institute's April 2026 report identified 12 US organizations opposing datacenter development that received more than $39M from foreign donors. A Wyss Foundation $1.255M grant to Americans for Financial Reform Education Fund is documented; that group signed the December 2025 Food and Water Watch coalition letter demanding a national datacenter moratorium.
+
+BPI concludes the three streams converge on the Sanders-AOC AI Data Center Moratorium Act and 54 local moratoriums, and recommends FARA-style disclosure requirements for philanthropic advocacy vehicles.
+
+**Critical context and caveats:**
+- BPI's report is published by an organization that explicitly advocates for US AI compute leadership; its framing should be weighed accordingly.
+- The documented foreign-influence networks (Singham, Wyss/Oak) are real and the subject of bipartisan congressional scrutiny. Their connection to specific local opposition campaigns is more tenuous.
+- Many of the largest anti-datacenter opposition groups (Sierra Club, NRDC, Food & Water Watch, SELC) have legitimate domestic funding bases independent of any foreign money flows.
+- Local opposition in Utah, Iowa, Ohio, Virginia, Georgia, and elsewhere demonstrably predates and extends beyond any coordinated social media campaign. Community concerns about water, grid reliability, and governance are grounded in documentable local impacts.
+- The foreign-influence narrative has been criticized as an attempt by datacenter developers to delegitimize opposition rather than address substantive concerns. See: Elevate Strategies' response that "the only foreign actor here is the Canadian billionaire pretending he cares about Utah more than the people who live here."
+
+**Source materials:**
+- [Foreign Influence in the Campaign against American AI - Bitcoin Policy Institute (May 18, 2026)](https://www.btcpolicy.org/articles/foreign-influence-in-the-campaign-against-american-ai)
+- [Kevin O'Leary says China is funding a 'PR war' against data centers - Moneywise/Yahoo Finance](https://finance.yahoo.com/economy/policy/articles/irrefutable-fact-kevin-oleary-says-185500320.html)
+- [Kevin O'Leary claims Utah organization is Chinese-funded - ABC4 Utah](https://www.abc4.com/news/northern-utah/alliance-better-utah-data-centers/)
+- [Kevin O'Leary promises proof after accusing Utah critics of China ties - Fox 13 Utah](https://www.fox13now.com/news/local-news/box-elder-county/oleary-promises-proof-after-accusing-utah-data-center-critics-of-china-ties)
+- See also: `state-breakdown/utah.md` for full Stratos Project chronology and O'Leary claims detail
+
 ---
 
 ## State Breakdown Summary
@@ -304,6 +339,7 @@ Detailed state research is available in the `state-breakdown/` folder:
 - **Ohio (`ohio.md`):** New Albany hyperscaler boom and community backlash; zoning battles
 - **Texas (`texas.md`):** ERCOT grid reliability concerns; water scarcity conflicts; SB 6 legislative response
 - **Georgia (`georgia.md`):** Project Sail (Coweta County, 900 MW, $17B Prologis campus); lobbyist access scandal; Citizens for Rural Coweta coalition; May 2026 litigation; Ashley Park–Wansley transmission line eminent domain
+- **Utah (`utah.md`):** Stratos Project (Kevin O'Leary, 40,000 acres → 10,000 acres after 75% reduction); MIDA governance lawsuit; O'Leary's claims of CCP-linked foreign funding of opposition; Bitcoin Policy Institute foreign-influence report
 - **Additional states** (planned): Maine (first moratorium), North Carolina (multi-county opposition), Colorado, other key states
 
 ---

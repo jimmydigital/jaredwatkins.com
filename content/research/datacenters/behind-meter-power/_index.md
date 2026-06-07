@@ -1,7 +1,7 @@
 ---
 title: "Behind-the-Meter Power for Data Centers"
 date: 2026-04-21
-lastmod: 2026-04-24
+lastmod: 2026-06-04
 draft: false
 description: "Comprehensive research on behind-the-meter (BTM) power solutions for data centers: technology categories, companies, regulatory challenges, and 18+ GW of announced projects targeting grid-independent power for AI and hyperscale facilities."
 tags: ["power", "behind-the-meter", "energy", "nuclear", "gas", "solar", "data-center", "smr", "microreactor", "fuel-cell"]
@@ -339,6 +339,8 @@ The "AI boom" timeline is compressing all decisions. OpenAI's Stargate initiativ
 | **Fervo Cape Station** — Southwest Utah | Multiple (data center customers TBD) | Fervo Energy | Enhanced geothermal (EGS) | 500 MW (100 MW phase 1 online 2026; 400 MW by 2028) | Under Construction | 2026 (phase 1) | First commercial-scale EGS; BTM-capable; geothermal baseload, 24/7 carbon-free |
 | **Meta + Sage Geosystems** — U.S. (location TBD) | Meta | Sage Geosystems | Advanced geothermal | Up to 150 MW | Contracted | 2027 (initial stage) | Baseload clean power for Meta data center operations |
 | **International Electric Power** — Pennsylvania | Unnamed data center operator | International Electric Power | Gas plant + battery storage | 944 MW | Contracted | 2026–2027 | Avoiding PJM interconnection; BTM gas plant + BESS |
+| **Meta Socrates (Prometheus campus)** — New Albany, Ohio | Meta | [Williams Companies]({{< relref "williams-companies-btm.md" >}}) | Natural gas turbines (modular; Solar Turbines Titan 250/PGM 130, Siemens SGT-400, CAT 3520) | 400 MW (2 × 200 MW plants) | Under Construction | Q3 2026 | 10-year agreement; off-grid, physically disconnected from grid; paired with five ~125,000 sq ft rapid deployment structures (tents); $1.6B estimated construction cost |
+| **Meta Tennessee tent data center** — Gallatin, Tennessee | Meta | Williams Companies (pipeline supply) | Natural gas (Williams infrastructure; generation partner TBD) | TBD | Early / Under Construction | 2026–2027 | Same rapid deployment structure strategy as Ohio; third tent-based data center campus in Meta's portfolio |
 
 **Note on project status:**
 - **Operating:** Facility online and generating power for data centers
@@ -418,6 +420,7 @@ The "AI boom" timeline is compressing all decisions. OpenAI's Stargate initiativ
 | [Solar Turbines (CAT subsidiary)]({{< relref "caterpillar-solar-turbines.md" >}}) | San Diego, CA | Industrial gas turbines (1–39 MW class) | CHP & mid-sized BTM applications | Vertiv partnership signals move toward integrated datacenter solutions |
 | [GE Hitachi (BWRX-300)]({{< relref "ge-hitachi-bwrx300.md" >}}) | Wilmington, NC | Water-cooled SMR | Google-compatible; not yet deployed for datacenters | Larger reactor (300 MW); more suitable for regional clusters |
 | [Eaton](https://www.eaton.com/) | Dublin, Ireland | Power distribution, electrical equipment | Integration partner with Siemens Energy (2025) | End-to-end power plant + cooling solutions |
+| [Williams Companies]({{< relref "williams-companies-btm.md" >}}) | Tulsa, OK | Natural gas pipeline operator; Power Innovation BTM program | Meta Socrates (400 MW, Ohio, 2026); 6+ GW target across TX/TN/OH by 2027; $5.1B committed | Pipeline-to-power vertical integration; Transco gas supply advantage |
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Datacenter Cooling
 date: 2026-03-24
-lastmod: 2026-04-03
+lastmod: 2026-06-07
 draft: false
 description: Liquid cooling systems for high-density AI and HPC datacenters — immersion, direct-to-chip, rear-door heat exchangers, and the companies supplying them.
 tags: ["datacenters", "cooling", "liquid-cooling"]
@@ -30,6 +30,7 @@ The shift from air to liquid cooling is the defining infrastructure transition o
 - Direct-to-chip is the near-term pragmatic solution for AI clusters: NVIDIA's NVLink rack reference designs, NVIDIA GB200 NVL72, and AMD MI300X all ship with liquid-cooled reference designs; standard CDU + manifold approach fits existing facility water infrastructure
 - Waste heat reuse (ERE metric) increasingly economically relevant: liquid cooling return temperatures of 40–60°C can supply district heating or industrial processes; some European operators monetizing this
 - Dielectric fluid supply chain: engineered fluids (3M Novec — discontinued, creating supply chain disruption; Engineered Fluids' BitCool; Shell Immersion Cooling Fluid; Submer's SmartCoolant) are a critical dependency for single-phase immersion
+- Liquid cooling interconnects are proliferating into an incompatible multi-standard landscape: OCP UQD, UQDB, BMQC, LQC, and MQD address different points in the system but coexist with proprietary OEM designs and VDA automotive connectors borrowed for datacenter use; connector supply is concentrated among ~5 Western manufacturers with Chinese alternatives in early qualification (see [Liquid Cooling Interconnects]({{< relref "liquid-cooling-interconnects.md" >}}) and [Connector Supply Chain]({{< relref "liquid-cooling-connector-supply-chain.md" >}}))
 
 ## Companies
 
@@ -45,6 +46,8 @@ The shift from air to liquid cooling is the defining infrastructure transition o
 | [Asetek](https://www.asetek.com) | Aalborg, Denmark | Public (Oslo: ASTK) | Liquid cooling systems for HPC and enterprise; rack CDU and direct-to-chip cold plates; significant OEM server partnerships. |
 | [Engineered Fluids](https://www.engineeredfluids.com) | Minneapolis, MN, USA | Growth | BitCool and ElectroCool dielectric fluids for single-phase immersion; positioned as alternative to discontinued 3M Novec products. |
 | [Corintis]({{< relref "corintis.md" >}}) | Lausanne, Switzerland | Series A | Microfluidic chip-scale cooling: AI-optimized microscopic channels etched into chip metal route coolant directly to thermal hotspots; 3x heat removal vs. standard cold plates (Microsoft-tested); EPFL POWERlab spinout. |
+| [CoolIT Systems](https://www.coolitsystems.com) | Calgary, Canada | Growth | Direct-to-chip liquid cooling; Rack DCLC system; OEM partnerships with Dell, Lenovo, HPE; CDU and manifold products widely deployed in HPC. |
+| [Rapidaccu](https://rapidaccu.com) | China | Growth | OCP-compliant UQD, UQDB, BMQC, LQC, MQD liquid cooling quick-disconnect connectors for AI datacenter and HPC; 10,000+ cycle validation; lower-cost alternative to Western incumbents for non-hyperscaler deployments. 🇨🇳 |
 
 ### Public Companies
 
@@ -89,6 +92,8 @@ The shift from air to liquid cooling is the defining infrastructure transition o
 | [SCHN](https://finance.yahoo.com/quote/SCHN) | [Schneider Electric](https://www.se.com) | APC datacenter infrastructure; EcoStruxure DCIM; cooling, power, and management systems at scale; largest legacy datacenter infrastructure vendor. |
 | [NVT](https://finance.yahoo.com/quote/NVT) | [nVent Electric](https://www.nvent.com) | Thermal management and enclosures; Schroff racks; expanding into liquid cooling for high-density racks. |
 | [3M](https://finance.yahoo.com/quote/MMM) | [3M](https://www.3m.com) | Novec engineered fluids (discontinued 2025 due to PFAS regulation); exit created supply gap in single-phase immersion cooling fluid market. |
+| [PH](https://finance.yahoo.com/quote/PH) | [Parker Hannifin](https://www.parker.com) | Self-described market leader in non-spill quick-connect couplings for liquid cooling; ORV Series OCP ORv3 BMQC-compliant connectors; LQC facility-side couplings; US-manufactured. |
+| [DOV](https://finance.yahoo.com/quote/DOV) | [Dover Corporation](https://www.dovercorporation.com) | Parent of CPC (Colder Products Company) via Pump Solutions Group; CPC Everis UQD/UQDB/BLQ series are deeply embedded in HPC and hyperscale deployments. |
 
 ## Supply Chain
 
@@ -101,6 +106,7 @@ The shift from air to liquid cooling is the defining infrastructure transition o
 | **3. Heat Transfer Components** | Cold plates (direct-to-chip), heat exchangers (CDU), manifolds | CoolIT, Aavid/Boyd (thermal management), Liqtech (ceramic membrane, adjacent) | Cold plate manufacturing: North American and Asian suppliers |
 | **4. Complete Cooling Systems** | Immersion tanks, rack CDUs, RDHx units, precision air handlers | Submer, LiquidStack, GRC, Iceotope, CoolIT, Asetek, Schneider Electric (APC InRow) | Assembly: distributed; tank manufacturing requires welding/fabrication capability |
 | **5. Facility Integration** | Chilled water loops, dry coolers, cooling towers, CDU interconnect | Vertiv, Schneider Electric, Johnson Controls (York chillers), CBRE (design/build) | Chillers and cooling towers: global manufacturing base |
+| **6. Liquid Cooling Connectors** | Quick-disconnect couplings (UQD, UQDB, BMQC, LQC, MQD) connecting cold plates, manifolds, and CDUs | [Stäubli](https://www.staubli.com) (Switzerland), [Danfoss](https://www.danfoss.com) (Denmark), [Parker Hannifin](https://www.parker.com) (US), [CPC/Dover](https://www.cpcworldwide.com) (US), [CEJN](https://www.cejn.com) (Sweden), [Amphenol Industrial](https://amphenol-industrial.com) (US), [Rapidaccu](https://rapidaccu.com) (China 🇨🇳) | Top-5 Western suppliers hold ~63–73% market share; production in Switzerland, Denmark, US; Chinese alternatives (Rapidaccu, Guchen) emerging but qualification lag at hyperscaler tier; demand growth outpacing manufacturing capacity through 2026 |
 
 ### Key Supply Chain Notes
 
@@ -110,4 +116,6 @@ The shift from air to liquid cooling is the defining infrastructure transition o
 
 **⚑ Shared challenge — robot servicing incompatibility:** Standard single-phase immersion tanks (Submer SmartPod, GRC CarnotJet) require servers to be lifted vertically out of fluid — a fundamentally different motion than horizontal rack-slide operations. This incompatibility with conventional robot-servicing approaches (which assume rack-slide) is the core design problem that Submer's ADA robot and SoftBank's cable-less rack design address from different angles. See [Robotics & Automation]({{< relref "/research/datacenters/robotics-automation/_index.md" >}}) and [SoftBank Robot Rack]({{< relref "/research/datacenters/robotics-automation/softbank-robot-rack.md" >}}).
 
-### Supply Chain — Last Reviewed: 2026-03-24
+**⚑ Connector supply chain detail:** See [Liquid Cooling Connector Supply Chain]({{< relref "liquid-cooling-connector-supply-chain.md" >}}) for the full vendor breakdown, geographic concentration analysis, and qualification dynamics. See [Liquid Cooling Interconnects]({{< relref "liquid-cooling-interconnects.md" >}}) for the technical comparison of connector families and why so many coexist.
+
+### Supply Chain — Last Reviewed: 2026-06-07
