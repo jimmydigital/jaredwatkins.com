@@ -648,6 +648,7 @@ A living, AI-maintained knowledge base on emerging technology topics. Each area 
 - [Datacenters]({{< relref "datacenters/_index.md" >}}) — Physical datacenter infrastructure: cooling, power, construction, rugged edge compute
 - [Drone Detection]({{< relref "drone-detection/_index.md" >}}) — C-UAS detection methods, hardware, open-source tools, and counter-drone platforms for critical infrastructure protection
 - [Energy]({{< relref "energy/_index.md" >}}) — Solar, batteries, nuclear, and energy resources
+- [Local LLM Fine-Tuning]({{< relref "local-llm-finetuning/_index.md" >}}) — Building and fine-tuning specialist LLMs for edge deployment: training data, compute options, and network engineer expert models
 - [Post-Quantum Encryption]({{< relref "post-quantum-encryption/_index.md" >}}) — NIST PQC standards adoption across networking hardware and cryptocurrency infrastructure
 - [Quantum Computing]({{< relref "quantum-computing/_index.md" >}}) — Quantum computing hardware, software, and the race toward practical quantum advantage
 - [Robotics]({{< relref "robotics/_index.md" >}}) — Robotics platforms, sensors, actuators, and autonomy software
