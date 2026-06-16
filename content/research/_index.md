@@ -651,5 +651,6 @@ A living, AI-maintained knowledge base on emerging technology topics. Each area 
 - [Local LLM Fine-Tuning]({{< relref "local-llm-finetuning/_index.md" >}}) — Building and fine-tuning specialist LLMs for edge deployment: training data, compute options, and network engineer expert models
 - [Post-Quantum Encryption]({{< relref "post-quantum-encryption/_index.md" >}}) — NIST PQC standards adoption across networking hardware and cryptocurrency infrastructure
 - [Quantum Computing]({{< relref "quantum-computing/_index.md" >}}) — Quantum computing hardware, software, and the race toward practical quantum advantage
+- [Relocation Research]({{< relref "relocation/_index.md" >}}) — City and county relocation profiles evaluated against a consistent set of livability criteria, benchmarked to coastal South Carolina
 - [Robotics]({{< relref "robotics/_index.md" >}}) — Robotics platforms, sensors, actuators, and autonomy software
 - [Semiconductors]({{< relref "semiconductors/_index.md" >}}) — Fabrication equipment, materials, and supply chain enabling advanced node chip manufacturing
