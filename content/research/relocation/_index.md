@@ -1,7 +1,7 @@
 ---
 title: "Relocation Research"
 date: 2026-06-15
-lastmod: 2026-06-15
+lastmod: 2026-06-17
 draft: false
 description: "City and county level research evaluating potential relocation destinations against a consistent set of livability criteria."
 tags: ["relocation", "cities", "cost-of-living", "demographics"]
@@ -57,6 +57,26 @@ Every entry must address all of the following criteria, in this order. Use H2 he
 9. **Firearms & Self-Defense Laws** — concealed carry (permit required vs. permitless/constitutional carry); open carry rules; purchase requirements (background check, waiting period, permit-to-purchase); registration or reporting requirements; magazine capacity restrictions; assault weapon or semi-automatic restrictions; red flag / extreme risk protection order (ERPO) laws; notable ongoing litigation or recent legislative changes. Compare to coastal SC baseline (constitutional carry since March 2024, no registration, no magazine limits, no red flag law, lost/stolen handgun reporting required within 10 days).
 
 10. **Relocation Factors** — anything else materially relevant to a person relocating long-term: airport access, healthcare quality, cultural fit, outdoor recreation, political environment, school quality (if applicable), notable downsides not captured above.
+
+11. **Local Flavor** — quality-of-life and cultural texture subsections. Every entry must include all of the following using H3 subheadings, in this order:
+
+    - **Cat Cafes** — dedicated cat cafes in the metro; if none exist, note that and describe the closest alternative.
+    - **Coffee** — noteworthy independent coffee shops; flagship roasters; notable coffee culture; avoid chain-only listings.
+    - **Bookstores** — independent bookstores; used book shops; specialty or notable stores.
+    - **Furniture Consignment** — established furniture consignment and upscale secondhand shops.
+    - **Healthcare** — flagship hospital systems; Level I trauma centers; NCI-designated cancer centers; children's hospitals; notable specialty programs.
+    - **Comedy Clubs** — dedicated stand-up clubs; improv theaters; annual comedy festivals; if no dedicated venue, note the broader entertainment context.
+    - **Catholic Churches** — notable parishes, cathedrals, basilicas, or historically significant churches; diocese context.
+    - **Maker Spaces** — community fab labs, hackerspaces, public-access fabrication facilities; note any library makerspaces or university-affiliated community access.
+    - **Seasonal Recreation** — lakes, marinas, skiing, mountains, rivers, beaches, or other geography-specific outdoor recreation within reasonable range of the city.
+    - **Annual Festivals & Events** — recurring civic events: music, food, ethnic, religious, harvest, holiday (Christmas, Halloween), or signature community events; note approximate attendance where known.
+    - **Tourism** — roughly how many visitors per year and primary reasons they come; economic impact if available.
+    - **Event Venues** — major sports stadiums, concert halls, amphitheaters, performing arts centers, arenas; note capacity and primary tenant or use.
+    - **Sports Teams & Recreation Organizations** — professional and semi-professional teams from major to obscure (including roller derby, indoor football, minor leagues); Division I college programs; orchestras, ballet, and opera companies.
+    - **Motorsports** — race tracks (oval and road course), drag strips, karting facilities; sanctioned series events held locally; notable annual events; proximity to major facilities if none local.
+    - **Shooting Ranges & Training Facilities** — indoor and outdoor ranges open to the public; professional training facilities; note any notable specialty (long-range, clay sports, defensive training); note state carry law context briefly.
+
+    **Crime & Controversy — Notable Incidents** should follow Local Flavor as the final subsection before `## Sources`, using the `### Crime & Controversy — Notable Incidents` heading. This subsection covers specific recent incidents, gang activity, notable crimes, or public safety controversies not captured in the main Crime section.
 
 ---
 

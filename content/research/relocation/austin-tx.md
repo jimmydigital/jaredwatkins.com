@@ -252,6 +252,142 @@ Excellent. Google Fiber is available in much of Austin — one of the few large 
 
 ---
 
+## Local Flavor
+
+### Cat Cafes
+
+- **Purrfecto Cat Lounge** — South Lamar Blvd, South Austin. 20+ adoptable rescue cats; 30–70 min timed sessions; coffee served by neighboring Irie Bean. Austin's original cat lounge.
+- **Sydney's Cat Lounge** — nonprofit; Alice in Wonderland/Bridgerton-inspired décor; adoptable cats.
+
+### Independent Coffee Shops
+
+- **Houndstooth Coffee** — multiple locations (Uptown, Domain, etc.). Austin's flagship specialty roaster; consistently top-ranked; precision espresso and single-origin pour-overs.
+- **Flat Track Coffee** — East Austin. Motorcycle-themed; in-house roaster; East 6th corridor anchor.
+- **Cenote** — multiple East Austin locations. Neighborhood institution; strong brunch culture; good espresso.
+- **Cherrywood Coffeehouse** — 1400 E 38½ St, Cherrywood neighborhood. Classic Austin neighborhood café since 1997; Austin weird in the best sense.
+- **Wright Bros. Brew & Brew** — coffee by day, craft beer by night; North Loop neighborhood.
+- **Epoch Coffee** — multiple locations; 24-hour locations made it a UT Austin institution.
+- *Note: Starbucks, Dunkin', and chains omitted.*
+
+### Independent Bookstores
+
+- **BookPeople** — 603 N Lamar Blvd, Market District. Texas' largest independent bookstore (founded 1970); 300,000+ volumes across two floors; voted "Best Bookstore in the US" (2005); major author event programming; Austin cultural institution.
+- **Alienated Majesty Books** — near UT campus. Specializes in poetry, literary fiction, and works in translation; formerly Malvern Books; niche but essential.
+- **Half Price Books** — 6 Austin-area locations (North Lamar, Bouldin Creek, Anderson Mill, Round Rock, Cedar Park). Dallas-founded used-book chain with strong Austin presence; South Lamar location relocated to 2607 S. First St. (Bouldin Creek, spring 2025).
+- *Austin Texas Book Trail (austintexasbooktrail.com) maintains a current independent bookstore map.*
+
+### Furniture Consignment
+
+- **Next-to-New Shop** — Burnet Rd, North Austin. Nonprofit run by St. David's Episcopal Church volunteers; antiques, vintage, collectibles; voted best Austin consignment 2025.
+- **Home Consignment Center** — Austin/Mopac location. Designer-quality sofas, dining sets; popular with home stagers.
+- **Furniture Brokers** — two showrooms (Lakeway and West Austin). Female-owned, in business since 1994; spans antique through modern; name-brand consignment.
+- **It's New To Me** — in business since 1988; established Austin resale institution.
+
+### Hospital Systems & Medical Specialists
+
+**Ascension Seton (~dominant system):**
+- **Dell Seton Medical Center at UT** — 1500 Red River St, central Austin. Level I trauma center; academic medical center affiliated with UT Dell Medical School; flagship for complex trauma, surgical specialties, and academic medicine.
+- **Ascension Seton Medical Center Austin** — 1201 W 38th St. U.S. News Best Regional Hospital (2025–2026); comprehensive specialty care including heart/vascular, stroke (Comprehensive Level I Stroke Center), lung and esophageal cancer, maternity.
+- **Ascension Seton Women's Hospital** — opened spring 2026; Level IV maternal care + NICU; women's health specialist anchor.
+
+**St. David's HealthCare (HCA-affiliated):**
+- **Heart Hospital of Austin** — 3801 N Lamar Blvd. Specialty cardiac hospital; catheter-based and minimally invasive cardiac/vascular procedures; research-focused.
+- **St. David's Medical Center** — 919 E 32nd St. Full-service general acute care; Level II trauma.
+- Multiple additional St. David's campuses across the metro (Round Rock, Cedar Park, Georgetown, South Austin).
+
+*Austin has two competing full-spectrum hospital systems plus the UT academic medical center — a strong healthcare market for a metro its size, aided significantly by the Dell Medical School (established 2016) attracting academic physicians.*
+
+### Crime & Controversy — Notable Incidents
+
+- **March 1, 2026 — 6th Street mass shooting (Buford's):** Ndiaga Diagne, 53, opened fire from a vehicle on West 6th Street then exited with an AR-15-style rifle; 3 killed (+ shooter), 14 hospitalized. FBI investigated as possible terrorism related to the Iran conflict; Diagne acted alone with no confirmed foreign organizational support. Police response: 57 seconds.
+- **August 12, 2025 — Research Blvd Target shooting:** Ethan Nieneker, 32, killed 3 (including a 4-year-old child) at the Target on Research Blvd; arrested.
+- **2025 homeless encampment controversy:** Governor Abbott ordered DPS sweeps of Austin homeless camps (October 2025); Austin city officials publicly opposed the state-led operation; ongoing tension between city and state over homelessness policy.
+- **2024 UT Austin pro-Palestinian protests:** DPS and APD deployed in force to clear UT campus protests; multiple arrests; controversy over use of force and press access.
+- **2025 overall crime trend:** Homicides down 23% (55 in 2025 vs. 66 in 2024) — lowest since pre-pandemic. Aggravated assaults down 13%, robberies down 5%. Overall crime dropped below pre-pandemic highs.
+- No documented: youth curfews, gang-specific federal indictments, or cartel-linked incidents in the metro core 2025–2026 (Austin has an estimated 2,000+ gang members per APD data, but high-profile incidents above are not gang-attributed).
+
+### Comedy Clubs
+
+- **Cap City Comedy Club** — The Domain (north Austin); celebrating 35 years as Austin's flagship comedy club; national headliners, open mic Sundays, and an annual comedy competition with 250+ local contestants. The primary destination for touring national acts.
+- **SXSW Comedy** (March) — during South by Southwest, 60+ comedians perform at venues across the city; essentially the country's largest comedy festival for two weeks each March.
+- **Moontower Comedy Festival** (April, Downtown Austin) — one of the biggest standalone comedy festivals in North America; two weeks of stand-up, improv, and surprise drop-ins.
+- **Austin Sketch Fest** (May) — national and local sketch comedy showcase.
+
+### Catholic Churches
+
+- **St. Austin Catholic Church** — 2026 Guadalupe St (West Campus, adjacent to UT); historic parish serving the university community since 1907.
+- **Cathedral of Saint Mary** — 203 E 10th St, Downtown Austin; seat of the Diocese of Austin; Gothic Revival building consecrated in 1884.
+- **Saint Louis King of France** — Pflugerville; large suburban parish serving the north Austin growth corridor.
+- *Austin's Catholic population has grown substantially with tech in-migration; the Diocese of Austin is one of the fastest-growing Catholic dioceses in the US.*
+
+### Maker Spaces
+
+- **Austin Community College Fab Labs** — multiple campuses; free and low-cost access to 3D printers, laser cutters, CNC machines, and electronics labs for the public.
+- **Austin Hackerspace** — member-run; 3D printing, electronics, metalworking, and collaborative making.
+- **The Austin School of Film / Fabrication Labs** — film production and digital fabrication resources.
+- *Austin's maker scene is somewhat dispersed compared to its tech ecosystem; the UT Austin Cockrell School of Engineering and the Dell Medical School run major fab labs but access is primarily for students and researchers.*
+
+### Seasonal Recreation
+
+- **Lake Travis** — 20–30 min west; 63-mile-long Highland Lakes reservoir; the city's primary water recreation destination. Boating, sailing, marinas (Lakeway Marina, Volente Beach, Hippy Hollow), tubing, paddleboarding. Lake Travis is to Austin what Lake Norman is to Charlotte — the defining water amenity.
+- **Lake Austin / Town Lake (Lady Bird Lake)** — in the city; kayaking, paddleboarding, crew rowing on the Colorado River through downtown; Barton Springs Pool (natural spring-fed swim, 68°F year-round).
+- **Barton Creek / Barton Springs** — outdoor swimming and greenbelt hiking within city limits; the Barton Creek Greenbelt is a limestone canyon with swimming holes, hiking, and rock climbing.
+- **Skiing** — no ski within practical day-trip range; New Mexico (Taos, Santa Fe Ski Basin) is ~7–8 hrs; Breckenridge is ~16 hrs. Not a skiing market.
+- **Texas Hill Country** — 30–90 min west/southwest; Fredericksburg wine country, Enchanted Rock State Natural Area (hiking/rock climbing), Pedernales Falls. Major weekend tourism corridor.
+
+### Annual Festivals & Events
+
+- **South by Southwest (SXSW)** (March) — the city's signature event; music, film, tech, and comedy converge in a 10-day festival drawing ~500,000 total registered attendees and generating $350M+ in economic impact. One of the world's largest combined culture and tech conferences.
+- **Austin City Limits Music Festival (ACL)** (October, 2 weekends) — Zilker Park; 75,000+ per day; one of the top 3–5 music festivals in the US. Same site as the namesake PBS concert series.
+- **Eeyore's Birthday Party** (April) — beloved counter-cultural spring festival in Pease Park; costumed participants, live music, maypole, and free drum circle; running since 1963.
+- **Austin Pride** (August) — major LGBTQ+ festival drawing 25,000+.
+- **Formula 1 United States Grand Prix** (October, Circuit of the Americas) — one of the largest sporting events in Texas; draws 400,000+ over race weekend.
+- **Texas Book Festival** (October, State Capitol) — one of the premier literary festivals in the South; free and ticketed author events across the Capitol Complex.
+- **Pecan Street Festival** (May and September, 6th Street) — twice-yearly arts and crafts festival with 300+ artisan vendors.
+- **Dia de los Muertos** (November) — culturally significant celebration in Austin's East Side; growing in scale and citywide visibility.
+
+### Tourism
+
+Austin draws approximately 30–35 million visitors annually, with a spending impact exceeding $8 billion. SXSW and ACL are the twin tourism anchors, but Austin's year-round restaurant and live music scene, the Hill Country day-trip corridor, and F1/major sports events drive sustained leisure travel. The city's growth as a tech hub has also made it a major corporate event and conference destination. Barton Springs, the 6th Street entertainment district, and the Capitol building are consistent draws. Austin consistently ranks among the fastest-growing tourism markets in the country.
+
+### Event Venues
+
+- **Moody Center** (University of Texas) — 15,000-seat arena opened 2022; primary large indoor concert and event venue; replaced the Frank Erwin Center; national touring headliners, UT basketball, commencement.
+- **Circuit of The Americas (COTA)** — 9201 Circuit of the Americas Blvd; 120,000+ capacity; Formula 1, MotoGP, NASCAR; also hosts major concerts (Lollapalooza Austin).
+- **Q2 Stadium** — 20,738-seat soccer-specific stadium; opened 2021; home of Austin FC (MLS); also used for concerts and international soccer friendlies.
+- **Stubb's Waller Creek Amphitheater** — 8th + Red River; 2,750-capacity outdoor main stage + 550-capacity indoor; iconic national venue; acts perform year-round.
+- **Moody Amphitheater at Waterloo Park** — 5,000-capacity outdoor amphitheater downtown; opened 2021; part of the Waterloo Greenway park corridor.
+- **Long Center for the Performing Arts** — 2,400-seat Dell Hall + 200-seat studio; home of Austin Symphony, Ballet Austin, Austin Opera; Lady Bird Lake waterfront.
+- **Bass Concert Hall** (UT Austin) — 2,900 seats; premier classical and touring Broadway venue in Austin; Austin Symphony and national touring productions.
+- **ACL Live at the Moody Theater** — 2,750-capacity indoor/outdoor flexible venue; taping location for Austin City Limits TV show (longest-running music show on US television).
+
+### Sports Teams & Recreation Organizations
+
+- **Austin FC** (MLS, soccer) — Q2 Stadium; one of the fastest-growing MLS clubs since 2021 expansion; strong supporter culture.
+- **Texas Longhorns** (NCAA Division I, UT Austin) — football at Darrell K Royal–Texas Memorial Stadium (100,119 seats; top-10 largest in US); basketball at Moody Center; SEC (moved from Big 12 in 2024). College football gamedays are the defining cultural event of Austin's fall calendar.
+- **Austin Spurs** (NBA G League) — affiliate San Antonio Spurs; practice facility in Austin.
+- **Austin Bold FC** (USL League One, soccer) — community professional soccer.
+- **Austin Roller Derby** — WFTDA flat-track; active competitive league.
+- **Austin Symphony Orchestra** — founded 1911; Long Center and Bass Concert Hall; primary professional orchestra.
+- **Ballet Austin** — Long Center; one of the strongest regional ballet companies in the South.
+- **Austin Opera** — Long Center; professional opera company.
+
+### Motorsports
+
+- **Circuit of The Americas (COTA)** — the premier motorsports facility in Austin and one of the finest in the world; FIA Grade 1; 3.426-mile road course, 20 turns. Annual events: Formula 1 United States Grand Prix (October; 400,000+ attendance over race weekend in peak years), MotoGP Red Bull Grand Prix of the Americas (April), NASCAR Cup Series (May), IndyCar, IMSA, club racing, track days. Opened 2012.
+- **San Marcos Drag Raceway** — 30 min south; IHRA-sanctioned; bracket racing, test-and-tune nights; accessible local drag facility.
+- **Texas Motorplex** (Ennis, ~3 hrs north) — nearest NHRA national event facility to Austin; NHRA Camping World Drag Racing Series event.
+
+### Shooting Ranges & Training Facilities
+
+- **Best of the West Shooting Sports** — Liberty Hill (40 min northwest); 25,000+ sq ft indoor range plus outdoor; one of the most comprehensively equipped facilities in Central Texas; pistol, rifle, long-range; extensive training curriculum.
+- **Central Texas Gun Works** — South Austin; indoor range + retail; popular full-service facility; concealed carry and defensive handgun courses.
+- **Shady Oaks Gun Range** — Leander (30 min north); outdoor multi-discipline; pistol, rifle, shotgun bays.
+- **Red's Indoor Range** — indoor pistol and rifle; North Austin; classes and rentals.
+- **Texas Defensive Shooting Academy** — professional defensive instruction; concealed carry, handgun, carbine courses; multiple locations and course formats.
+
+---
+
 ## Sources
 
 - [Cost of Living in Austin TX: 2026 Guide — JVM Lending](https://www.jvmlending.com/blog/cost-of-living-in-austin/)

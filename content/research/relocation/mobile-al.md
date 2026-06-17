@@ -248,6 +248,125 @@ This is where Mobile diverges sharply from most cities in this series. The envir
 
 ---
 
+## Local Flavor
+
+### Cat Cafes
+
+- *No established cat cafe in Mobile as of mid-2026.* The four Alabama cat cafes (Birmingham's Gatos & Beans, Huntsville's Cattyshack, Alabaster's Lotus Catfe, Colbert County Cat Cafe) are all elsewhere in the state.
+
+### Independent Coffee Shops
+
+- **Serda's Coffee Co.** — downtown Mobile. 10+ years serving the city; Mobile's most established independent specialty coffee shop; community anchor in the Cathedral Square area.
+- **Nova Espresso** — inviting atmosphere; well-regarded espresso program.
+- **Soul Caffeine** — community-focused; serves waffles and paninis alongside coffee; neighborhood gathering spot.
+- **Carpe Diem Coffee & Tea Co.** — independent; strong local following.
+- **Rooted and Grounded** — well-reviewed local independent.
+- **Yellowhammer Coffee** — seasonal drinks; friendly service; multiple locations.
+- *Mobile has 104 independent coffee shops per Joe Coffee's directory — substantial for a city its size.*
+- *Note: Starbucks, Dunkin', and chains omitted.*
+
+### Independent Bookstores
+
+- **The Haunted Book Shop** — downtown Mobile. Flagship independent; draws on the legacy of the beloved original Haunted Book Shop that operated 1941–1991; sections for kids, teens, classics, and local authors; author readings and book clubs.
+- **Meg's Books & More** — independent general interest.
+- **The Book Nook** — community-focused used and new books.
+- **Page & Palette** — 32 S Section St, Fairhope, AL (30 min east across Mobile Bay, Eastern Shore). Third-generation family-owned; 40+ year Fairhope landmark; coffee shop (Latte Da) and bar/event venue (The Book Cellar) on-site. Worth the drive across the bay.
+
+### Furniture Consignment
+
+- *Mobile's furniture consignment scene is thinner than larger metros in this series; specific highly-rated establishments are not well-documented in current sources.* Yelp lists active options but named shops rotate frequently. Recommend verifying current inventory directly.
+
+### Hospital Systems & Medical Specialists
+
+**USA Health (University of South Alabama — dominant academic system):**
+- **USA Health University Hospital** — 2451 Fillingim St. The region's flagship academic medical center; Fanny Meisler Trauma Center — the only Level I trauma center between New Orleans and Tallahassee, and only the fourth Level I in Alabama; one of the nation's top burn centers; regional stroke care center; advanced neurosciences; cardiovascular disease program; sickle cell disease center. Teaching hospital for the Frederick P. Whiddon College of Medicine at USA.
+- **USA Health Providence Hospital** — 6801 Airport Blvd (west Mobile). 349 beds; Level III trauma; full-service acute care; acquired by USA Health from Ascension in recent years, now under the academic system umbrella. 8 on-campus clinics + 6 family practice sites across west/north Mobile and Moss Point MS.
+
+*USA Health operates as a unified academic health system spanning both hospitals plus outpatient specialty clinics across the metro and Eastern Shore (Fairhope). For a city Mobile's size, having the only Level I trauma center between two major metros is a meaningful regional healthcare asset.*
+
+### Crime & Controversy — Notable Incidents
+
+- **2025 homicides:** 32 homicides investigated — down 13.9% from 37 in 2024; double-digit decreases across other violent crime categories. Trend is improving.
+- **Public safety perception gap:** Police Chief William Jackson acknowledged in 2025 that "several public shootings" in places residents expect to feel safe have damaged perception even as statistics improve. "Crime that happens is generally between known parties," but public confidence remains a challenge.
+- **Rankings context:** Mobile appears on "most dangerous cities in Alabama" lists due to its crime rate relative to state peers — but Alabama's overall crime rates are elevated, and Mobile's improvement trend is real.
+- No documented: cat cafes (see above), youth curfews, gang federal indictments, cartel activity, widespread violent protests, or antifa activity 2024–2026.
+
+### Comedy Clubs
+
+- **The Saenger Theatre** — 6 S Joachim St; Mobile's historic performing arts venue hosts touring comedy acts, Broadway shows, and concerts; opened 1929.
+- **The Peoples Room of Mobile** — independent music and comedy venue; hosts stand-up showcases and touring comedians at smaller scale.
+- *Mobile does not have a dedicated full-time comedy club; comedy programming comes through venue circuits and touring act bookings at larger theaters.*
+
+### Catholic Churches
+
+- **Cathedral of the Immaculate Conception** — 400 Government St; the mother church of the Archdiocese of Mobile; Mobile has been a Catholic city since its founding as the first capital of French Louisiana in 1702; the Archdiocese is the oldest in the South (established 1829). The Cathedral faces Bienville Square downtown and is architecturally and historically significant.
+- **Visitation Church** — Spring Hill neighborhood; historic parish serving the historic Midtown/Spring Hill Catholic community.
+- **Saint Mary's** — downtown; historic parish.
+- *Mobile is one of the most Catholic cities in Alabama; Mardi Gras itself is a French Catholic tradition imported from the city's founding community. The Catholic identity is inseparable from Mobile's civic culture.*
+
+### Maker Spaces
+
+- **Hatch** — Mobile's innovation and maker hub; 3D printing, electronics, and collaborative workspace in the innovation district.
+- **Innovation PortAL** — University of South Alabama innovation hub; maker and entrepreneurship resources tied to the medical and engineering schools.
+- *Mobile's maker scene is smaller than peer cities; Birmingham (3 hrs) has a more developed scene via Innovation Depot.*
+
+### Seasonal Recreation
+
+- **Mobile Bay** — the city sits on the northern shore; boating, sailing, fishing, and kayaking are year-round activities. The Eastern Shore (Fairhope, Daphne, Spanish Fort) has marinas and waterfront access. Mobile Bay is a major commercial port but also an active recreational waterway.
+- **Dauphin Island** — 35 min south; barrier island at the mouth of Mobile Bay; birding (one of the top migratory bird stops in North America), fishing, calm-water beach, Fort Gaines historic site. More naturalist than resort.
+- **Gulf Shores / Orange Beach** — 1 hr south; Alabama's primary Gulf beach destination; crowded in summer, pleasant in spring and fall. White sand beaches on the Gulf of Mexico.
+- **Bon Secour National Wildlife Refuge** — 1 hr south; pristine undeveloped Gulf Coast habitat; birding, hiking, and beach access without the resort crowds.
+- **Skiing** — not practical. Not a skiing market.
+
+### Annual Festivals & Events
+
+- **Mardi Gras** (February/March) — Mobile's Mardi Gras is the OLDEST in the United States, predating New Orleans by nearly two decades; begun 1703. Dozens of mystic societies (krewe equivalents), multiple parades over several weeks, and nearly 1 million revelers attending the full season. Mobile's Mardi Gras is more neighborhood-focused and less commercial than New Orleans; local residents consider it authentically theirs. The Floral Parade and Joe Cain Day are signature events.
+- **BayFest** (October, Mardi Gras Park) — historically one of the largest music festivals in the Southeast; multi-day, multi-stage; on hiatus/restructuring as of 2025 — verify current status.
+- **Greek Festival** (May) — Holy Trinity–Holy Cross Greek Orthodox Church; popular annual cultural food event.
+- **Azalea Trail Festival** (March) — celebrating Mobile's famous spring azaleas; azalea-lined parade route through historic neighborhoods; Mobile has 27 miles of azalea plantings.
+- **USA Jaguar football / Ladd-Peebles Stadium events** — senior bowl, various bowl games; Mobile's NFL pipeline events (Senior Bowl is hosted here, one of the premier NFL Draft prospect showcases).
+- **Holiday events** — Cathedral of the Immaculate Conception Christmas programming; downtown holiday tree lighting and market.
+
+### Tourism
+
+Mobile draws approximately 4–5 million visitors annually, with Mardi Gras as the dominant single tourism event (nearly 1 million attending just Mardi Gras season). The Battleship USS Alabama (one of the most-visited military museums in the South, ~500,000 annual visitors), the History Museum of Mobile, Gulf Coast beach day-trips, and the Botanical Gardens contribute to year-round leisure tourism. Mobile's port generates significant commercial travel. The city punches below its weight in marketed tourism relative to its authentic history and culture — partly because New Orleans absorbs Gulf South leisure travel at scale.
+
+### Event Venues
+
+- **Saenger Theatre** — 6 S Joachim St; 1,900-seat restored 1929 movie palace; the crown jewel of Mobile's performing arts scene; Broadway touring series, concerts, dance; one of the finest surviving movie palace theaters in the Gulf South.
+- **Mobile Civic Center Arena** — 10,000-seat arena; primary large indoor venue; concerts, family shows, minor league hockey.
+- **Hank Aaron Stadium** — 6,000-seat minor league baseball stadium; home of Mobile BayBears (various affiliations); named for Hank Aaron, a Mobile native; one of the few stadiums named for a living (now deceased) player at the time of naming.
+- **Mobile Convention Center** — downtown; 700+ events annually; convention and corporate business.
+- **Mobile Municipal Auditorium** — 10,000-seat civic venue; Mardi Gras balls, major concerts.
+
+### Sports Teams & Recreation Organizations
+
+- **Mobile BayBears** (MiLB, Southern League) — Hank Aaron Stadium; AA baseball; has hosted affiliates of various MLB clubs over its history.
+- **Mobile Mysticks** (SPHL hockey) — Mobile Civic Center; Southern Professional Hockey League; Mardi Gras-themed branding.
+- **University of South Alabama Jaguars** (NCAA Division I) — USA; football at Hancock Whitney Stadium (40,000 seats); Sun Belt Conference; relatively new football program (launched 2009) that has found rapid success.
+- **Spring Hill College Badgers** (NAIA) — oldest Catholic college in Alabama; small college sports tradition.
+- **Mobile Symphony Orchestra** — founded 1931; Saenger Theatre home; one of the Gulf Coast's primary professional orchestras; full season of classical and Pops programming.
+- **Mobile Opera** — regional opera productions; Saenger Theatre.
+- **Mobile Ballet** — professional regional ballet; community performances.
+
+### Motorsports
+
+- **Mobile International Speedway** — 0.625-mile paved oval; Saturday night racing; stock cars, late models; one of the more active short tracks on the Gulf Coast.
+- **Loxley Speedway** — Loxley, AL (25 min east); drag strip and oval; local grassroots motorsports.
+- **Barber Motorsports Park** — Birmingham, AL (2:30 north); road course + motorcycle museum; the premier motorsports facility accessible from Mobile for road course enthusiasts and IndyCar/IMSA events.
+- **Talladega Superspeedway** — 3 hrs north; the premier NASCAR oval accessible from Mobile; race weekends are major regional events drawing Mobile fans.
+
+### Shooting Ranges & Training Facilities
+
+- **Alabama Guns & Ammo** — indoor range + retail; Mobile; one of the primary indoor shooting facilities in the city.
+- **Mobile Pistol & Rifle Club** — outdoor shooting club; membership range with pistol, rifle, and practical shooting bays.
+- **Gulf Coast Shooting Center** — Metro area; indoor range; pistol and training.
+- **Chickasabogue Park Range** — Mobile County park range; low-cost public access; pistol and limited rifle.
+- **Bicentennial Park Shooting Range** — county-operated; basic public range.
+- Mobile's surrounding rural Mobile County and Baldwin County provide extensive informal outdoor shooting on private lands, and proximity to National Forest lands (Conecuh National Forest, 1:15 north) provides dispersed shooting opportunities.
+
+---
+
 ## Sources
 
 - [Cost of Living in Mobile, AL 2026 — Salary.com](https://www.salary.com/research/cost-of-living/mobile-al)

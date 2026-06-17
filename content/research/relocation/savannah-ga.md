@@ -276,6 +276,121 @@ Georgia has strong constitutional carry laws, comparable to and slightly more re
 
 ---
 
+## Local Flavor
+
+### Cat Cafes
+
+- **Purrvana Cafe & Cat Lounge** — Savannah's primary cat cafe/lounge; adoptable rescue cats in a dedicated lounge with coffee and beverages available.
+- **Pounce Cat Cafe** — second cat cafe option in Savannah; similar rescue-cat-plus-coffee model.
+
+### Independent Coffee Shops
+
+- **The Sentient Bean** — 13 E Park Ave (Forsyth Park); worker-owned cooperative since 2000, fair-trade coffee, live music and community events. One of the most distinctive independent coffeeshops in Savannah — the kind of place a city either has or doesn't.
+- **Gallery Espresso** — 234 Bull St; intimate Victorian-space coffeehouse with local art, strong espresso, open late. Longtime Savannah institution.
+- **Foxy Loxy Cafe** — 1919 Bull St (Victorian District); coffee, pastries, and a courtyard in a restored house; beloved neighborhood spot.
+- **Books & Black Coffee** — dual-purpose independent bookshop and cafe; upscale, curated, focused on a reading-conducive atmosphere.
+
+### Independent Bookstores
+
+- **The Book Lady** — 6 E Liberty St; full-service independent since 1978 with new, gently used, rare, and out-of-print books across 40+ genres; particularly strong in Georgia and Southern history. One of the most respected used bookstores on the coast.
+- **E. Shaver, Bookseller** — 326 Bull St; general independent in the historic district with a strong local/regional section; same location for decades.
+- **Books & Black Coffee** — upscale independent bookshop with built-in cafe; also listed under coffee — genuinely both.
+
+### Furniture Consignment
+
+- **Savannah Furniture Consignment** — 7501 Abercorn St; the most prominent dedicated furniture consignment shop in the metro; solid selection of mid-range and higher-end pieces, well-reviewed for turnover.
+- **City Market antiques corridor** — several multi-dealer consignment/antique spaces near City Market with furniture; walkable and good for hunting one-of-a-kind pieces.
+
+### Hospital Systems & Medical Specialists
+
+- **Memorial Health University Medical Center** — 4700 Waters Ave; region's only Level I Trauma Center, Level III NICU, Comprehensive Stroke Center, and home to the Dwaine and Cynthia Willett Children's Hospital of Savannah. Now part of HCA Healthcare; primary referral hospital for coastal Georgia and the SC Lowcountry.
+- **St. Joseph's/Candler Health System** — two-hospital faith-based nonprofit system (St. Joseph's, 330 beds; Candler Hospital, 384 beds); largest nonprofit health system in Savannah, serves 30+ counties in coastal GA and SC Lowcountry. The primary alternative to Memorial for non-trauma specialty care.
+
+### Crime & Controversy — Notable Incidents
+
+- **2025 homicides** — 21 homicides in 2025, fewer than 2024 and 2023; at least five involved juveniles. Overall crime down ~20% from 2023.
+- **City Market mass shooting, summer 2025** — four people injured when two groups exchanged gunfire across W Congress Street in the tourist district; no fatalities but the location drew significant attention.
+- **Forsyth Park acid attack, December 2025** — a woman attacked near Savannah's central park when an assailant poured acid over her head from behind; required multiple skin graft surgeries. High-profile due to Forsyth Park's prominence.
+- **Geographic concentration** — crime is heavily concentrated on the East and West Sides. The Historic District, Victorian District, Ardsley Park, and Starland are materially safer.
+
+### Comedy Clubs
+
+- **Savannah Comedy Revue** — 1 Jefferson St; Savannah's dedicated stand-up comedy venue; local and touring acts; dinner comedy format.
+- **Front Porch Improv** — Savannah's community improv theater; longform improv and comedy training.
+- **Odd Lot Improv** — student and community-based improv group rooted in SCAD's theatrical culture.
+- Comedy in Savannah is smaller-scale and closely tied to the SCAD arts community; the historic theater scene (Lucas Theatre, Savannah Theatre) hosts comedy alongside other live entertainment.
+
+### Catholic Churches
+
+- **Cathedral Basilica of St. John the Baptist** — 222 E Harris St, downtown; the oldest Roman Catholic church in Georgia (1873, rebuilt 1898 after fire); designated a Minor Basilica by Pope John Paul II in 1981; stunning French Gothic twin spires; one of the most architecturally significant churches in the Southeast; cornerstone of Savannah's cathedral district.
+- **St. Patrick's Catholic Church** — Midtown Savannah; the parish that hosts Savannah's famous St. Patrick's Day celebration; the city's Irish Catholic community has centered here since the 19th century.
+- Savannah's Catholic community dates to the colonial era; the Archdiocese of Atlanta administers the region but Savannah's Cathedral is the historic center.
+
+### Maker Spaces
+
+- **Savannah Makerspace** — community fabrication shop with woodworking, metalworking, 3D printing, and electronics.
+- **The Guild Hall** — creative maker community space; collaboration between makers, designers, and SCAD-adjacent artists.
+- **SCAD resources** — Savannah College of Art and Design operates extensive fabrication, digital production, and prototyping facilities for its students; some resources extend to the community through events and exhibitions. The presence of SCAD's fabrication culture permeates the city's maker ecosystem.
+
+### Seasonal Recreation
+
+- **Savannah River** — the river defines the city's northern edge; kayaking, paddleboarding; IGY Savannah Harbor Marina (opened May 2025, 95 transient berths) opened as the first luxury marina on the Savannah River, a significant new recreational infrastructure addition.
+- **Bull River Marina** — east of the city; access to tidal creeks, barrier islands, and the Atlantic Intracoastal Waterway; fishing (redfish, flounder, speckled trout), kayaking.
+- **Tybee Island** — 20 min east; Savannah's beach; 3-mile Atlantic beach; public fishing pier; lighthouse; summer beach culture within easy reach of the city.
+- **Skidaway Island State Park** — 9 miles southeast; maritime forest, tidal creeks; wildlife including alligators; hiking; a signature Savannah nature destination.
+- **No skiing** — flat coastal Georgia; the nearest mountains are the Blue Ridge, ~3.5–4 hrs northwest. Not a skiing market.
+- **Fishing** — tidal creeks, barrier islands, and offshore access make Savannah an excellent fishing city; inshore and nearshore saltwater fishing are major recreational activities.
+
+### Annual Festivals & Events
+
+- **St. Patrick's Day Festival** (March 17 and surrounding weekend) — one of the largest St. Patrick's Day celebrations in the US; the parade (one of the nation's oldest, since 1824) draws 500,000+ people; the Savannah River is dyed green; the Historic District transforms into a city-wide party. A defining Savannah event.
+- **Savannah Jazz Festival** (September, multiple venues including Forsyth Park) — free multi-day festival; national and regional jazz, blues, and soul; one of the Southeast's respected free music events.
+- **SCAD Savannah Film Festival** (October) — one of the largest collegiate film festivals in the world; 10,000+ attendees; industry screenings and world premieres.
+- **SCAD Sidewalk Arts Festival** (April, Forsyth Park) — SCAD students create chalk art masterpieces covering the park's walkways; 30,000+ spectators; uniquely Savannah.
+- **Savannah Food & Wine Festival** (November) — premier culinary event; cooking demonstrations, wine tastings, celebrity chefs; reflects Savannah's genuine food culture.
+- **Rock n' Roll Marathon Savannah** (November) — major running event through the Historic District; national draw.
+
+### Tourism
+
+Savannah is one of the most visited cities in the American South. In 2024, the metro received 12.9 million visitors, generating significant economic impact. Tourism is driven by the Historic District (one of the largest National Historic Landmark Districts in the US, 2.2 square miles of preserved antebellum architecture and 22 moss-draped public squares), the St. Patrick's Day festival, Tybee Island beach tourism, ghost tours (Savannah is marketed as "America's Most Haunted City"), SCAD (which brings 14,000+ students plus their families), River Street retail and dining, and the Savannah Bananas (the viral entertainment baseball team now based in Savannah plays nationally but maintains a Savannah identity). The Port of Savannah also brings significant business travel. Savannah competes directly with Charleston for the same tourist demographic and generally wins on price and historic authenticity.
+
+### Event Venues
+
+- **Enmarket Arena** — 9,500-seat arena; opened 2022 in the Canal District; primary large indoor venue for Savannah; concerts, Ghost Pirates hockey, family shows; replaced the older Savannah Civic Center as the metro's main arena; nationally recognized as a top new arena opening.
+- **Grayson Stadium** — 4,000-capacity historic MiLB ballpark (1927); home of Savannah Bananas (entertainment baseball) home games when in town; one of the oldest active minor league ballparks in the US; also hosted Coastal Plain League.
+- **Savannah Civic Center** — 9,000-seat multipurpose arena; conventions, events; being phased out as Enmarket Arena takes primary duties.
+- **Lucas Theatre for the Arts** — 1,200-seat restored 1921 movie palace; downtown; concerts, SCAD Film Festival screenings, theatrical events.
+- **Trustees Theater** (SCAD) — 1,100-seat restored 1946 movie house; SCAD's primary screening and performance venue; SCAD Savannah Film Festival anchor.
+
+### Sports Teams & Recreation Organizations
+
+- **Savannah Ghost Pirates** (ECHL hockey) — Enmarket Arena; professional minor league hockey; launched 2022; quickly became one of the more entertaining minor league hockey franchises in the Southeast.
+- **Savannah Bananas** — not a conventional minor league team; a viral baseball entertainment troupe founded 2016 by Jesse Cole; performs globally; based at Grayson Stadium when home; national media phenomenon; sold out every home game since inception; genuine Savannah cultural export.
+- **Savannah Sand Gnats (historic)** — former MiLB team; now replaced by the Bananas concept at the same stadium.
+- **Savannah Clovers** (NAIA) — Savannah State University; SIAC Conference.
+- **Armstrong State Buccaneers (now Georgia Southern Armstrong)** — Division II; reflects the Armstrong State / Georgia Southern merger.
+- **Savannah Roller Derby** — flat-track roller derby; active community league.
+- **Savannah Philharmonic** — founded 2009 (successor to the former Savannah Symphony); Lucas Theatre; professional orchestra; community-supported.
+
+### Motorsports
+
+- **Savannah Speedway** — 0.4-mile paved oval; Savannah; Saturday night racing; stock cars, late models; local community short track.
+- **Effingham County Dragway** — Springfield, GA (30 min northwest); local drag racing; bracket events.
+- **Atlanta Motor Speedway** — Hampton, GA (4 hrs northwest); NASCAR Cup Series events; closest NASCAR superspeedway to Savannah.
+- **Carolina Motorsports Park** — Kershaw, SC (2 hrs north); road course + drag; closest sanctioned road course/drag combo to Savannah for club events.
+- Savannah lacks a prominent motorsports facility; the city's geography (tidal low country) doesn't lend itself to large racing complexes. Enthusiasts drive to Atlanta-area facilities for major events.
+
+### Shooting Ranges & Training Facilities
+
+- **Shooter's Choice of Savannah** — indoor range; pistol and rifle; training courses; one of the primary indoor ranges in the market.
+- **GunRack & Shooting Range** — indoor range + retail; Savannah metro.
+- **Savannah Gun Club** — outdoor shooting club; trap, skeet, and pistol; membership and guest access.
+- **Effingham County Shooting Range** — outdoor public range; rifle and pistol; 30 min northwest; low-cost option.
+- **Savannah Sportsman's Club** — outdoor range; established local shooting club.
+- Georgia has constitutional carry (2022); overall permissive environment; the rural areas of Effingham, Bryan, and Chatham counties surrounding Savannah provide informal outdoor shooting on private land and limited public land.
+
+---
+
 ## Sources
 
 - [Savannah, GA Population 2026 — World Population Review](https://worldpopulationreview.com/us-cities/georgia/savannah)

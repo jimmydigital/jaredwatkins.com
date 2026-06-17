@@ -272,6 +272,145 @@ Good. AT&T Fiber deployed broadly in Mecklenburg County; Spectrum cable provides
 
 ---
 
+## Local Flavor
+
+### Cat Cafes
+
+- **Mac Tabby Cat Cafe** — 3204 N Davidson St, NoDa neighborhood, Charlotte. Craft coffee + resident cats; adoption partnerships; one of the most reviewed cat cafes in the Carolinas.
+- **Whiskerville Kitty Cat Cafe** — 508 Beaty Road, Belmont, NC (~20 min west of Charlotte). Additional option in the metro area.
+
+### Independent Coffee Shops
+
+- **Summit Coffee** — multiple Charlotte locations (NoDa, Davidson, South End). Roaster and café; Davidson original location is a beloved small-town gathering spot; Charlotte locations expanding.
+- **Thousand Hills Coffee** — multiple locations. Ethiopian-sourced, faith-mission roaster; strong community presence.
+- **Queen City Grounds** — Uptown/Midtown. Popular downtown independent; espresso-forward.
+- **Night Swim** — South End. Craft coffee + evening bar program; design-forward.
+- **Black Cat Coffee Company** — local independent; specialty focus.
+- **Ende** — specialty coffee; minimalist aesthetic.
+- *Note: Starbucks, Dunkin', and other chains omitted.*
+
+### Independent Bookstores
+
+- **Park Road Books** — 4139 Park Rd, Myers Park neighborhood. Charlotte's flagship independent; in business since 1977; full-service new books; strong local author event programming.
+- **That's Novel Books** — 330 Camp Rd, South End. Mix of new and used books; neighborhood feel.
+- **Trope Bookshop** — 1516 Lyon Court, off Central Ave, Plaza Midwood. Charlotte's only romance-focused independent bookstore; permanent home opened 2025.
+- **Troubadour Booksellers** — 1721-7C Sardis Rd N, South Charlotte. Independent general interest.
+- **Book Buyers** — used books; recently relocated to new location.
+
+### Furniture Consignment
+
+- **JT Posh** — Charlotte. Luxury consignment focus; 13+ years in market; upscale furniture and accessories.
+- **Graves Furniture** — established Charlotte shop; fine wood furniture restoration and resale since 1949.
+- *Charlotte On The Cheap maintains a regularly updated list of 185+ area thrift, consignment, and vintage stores.*
+
+### Hospital Systems & Medical Specialists
+
+**Atrium Health (~50% market share):**
+- **Carolinas Medical Center** — 1000 Blythe Blvd, Midtown Charlotte. Flagship; Level I trauma center; major academic medical center with residency programs.
+- **Levine Cancer Institute** — 25+ locations across the metro. Region's top-rated cancer program (U.S. News); only comprehensive stem cell transplant and cellular therapy program in the region; proton beam therapy; participant in Bone and Marrow Transplant Clinical Trials Network.
+- **Levine Children's Hospital** — pediatric specialty anchor for the Carolinas.
+- **$900M tower expansion** at Carolinas Medical Center underway; 448 additional beds expected spring 2027.
+- Cardiology, neurosurgery, orthopedics, transplant medicine all represented at the system level.
+
+**Novant Health (~35% market share):**
+- **Novant Health Presbyterian Medical Center** — Uptown Charlotte. Second major system; strong in primary and specialty care.
+- **Novant Health Matthews Medical Center** — expanded 2025 ($170M expansion); growing southeastern suburban coverage.
+- **Duke Health Lake Norman** — Duke Health acquired Lake Norman Regional (Mooresville, ~30 min north) in 2025 for $284M; rebranded as Duke Health Lake Norman; Duke now entering the Charlotte market directly, adding a third major system.
+
+*Charlotte's two-system duopoly (Atrium + Novant controlling ~85% of market) is a known driver of higher healthcare costs in the region — documented by national ratings agencies. Duke's entry may increase competition.*
+
+### Crime & Controversy — Notable Incidents
+
+- **2025 crime trend:** Overall crime down 8–9% for 2025; homicides down 29%, aggravated assaults down 25%, robberies down 21% vs. 2024. However, strong-arm robberies climbed.
+- **Police union violence crisis declaration (October 2025):** Charlotte Fraternal Order of Police declared a "violence crisis" and formally requested the mayor and governor deploy the National Guard, citing officers stretched dangerously thin.
+- **Camp North End teen curfew:** The mixed-use development Camp North End (NoDa/North Charlotte) imposed a 6 PM curfew for unsupervised minors under 18 following repeated unauthorized teen gatherings on the property.
+- No documented: cartel activity, antifa activity, or widespread violent protests 2024–2026.
+
+### Comedy Clubs
+
+- **The Comedy Zone** — 900 NC Music Factory Blvd, NoDa/North Charlotte. Charlotte's primary dedicated comedy club; national touring acts, local showcases, ticketed dinner-and-show format. The market's flagship comedy venue.
+- **Charlotte Comedy Theater** — improv and sketch comedy; training programs and weekly shows.
+- **Open mic circuit** — Epicentre area venues, Snug Harbor (NoDa), and various breweries run comedy open mics throughout the week.
+
+### Catholic Churches
+
+- **St. Patrick Cathedral** — 1621 Dilworth Rd E; cathedral of the Diocese of Charlotte; the primary Catholic parish in the city center; historic building.
+- **Our Lady of the Lake** — Huntersville (~20 min north); serves the fast-growing Lake Norman Catholic community.
+- **St. Matthew Catholic Church** — Ballantyne/south Charlotte; serves the suburban south Charlotte corridor.
+- *The Diocese of Charlotte has grown significantly with in-migration; multiple new parishes opened in the 2010s–2020s to keep pace.*
+
+### Maker Spaces
+
+- **Hygge Coworking + Studio** — South End; hybrid coworking and maker-adjacent creative space.
+- **CharMeck Makerspace** — Charlotte-Mecklenburg Libraries system hosts makerspaces in branches; free public access to 3D printers, laser cutters, and recording studios.
+- **The Goat Farm / maker community** — NoDa and South End neighborhoods anchor Charlotte's maker/artist community; multiple studio buildings with shared fabrication resources.
+
+### Seasonal Recreation
+
+- **Lake Norman** — 20–30 min north; 32,510 acres, the largest man-made lake in NC; boating, sailing, marinas, waterfront dining, water skiing. Duke Energy reservoir; heavily used by Charlotte metro as primary freshwater recreation destination.
+- **Lake Wylie** — 15 min southwest; straddling the NC/SC line; boating and lakefront communities.
+- **Carowinds** — 15 min south on the NC/SC border; major regional amusement park; seasonal draw.
+- **Blue Ridge Parkway / NC mountains** — ~2 hrs west; Asheville as day/overnight destination for hiking, leaf-peeping, and mountain recreation. Ski resorts (Beech Mountain, Sugar Mountain) ~2.5–3 hrs.
+- **Outer Banks** — ~4 hrs east; beach season June–September.
+
+### Annual Festivals & Events
+
+- **Charlotte SHOUT!** (April) — multi-week arts, music, and culture festival; 200+ events citywide; free programming and ticketed headline shows.
+- **Lovin' Life Music Fest** (May) — multi-day music festival with 50+ artists, national headliners, and local acts; celebrates Charlotte's cultural diversity.
+- **Yiasou Greek Festival** (September) — hosted by Holy Trinity Greek Orthodox Church; one of Charlotte's longest-running and most beloved ethnic festivals; authentic food, dancing, crafts, and community.
+- **CIAA Tournament** (February) — Central Intercollegiate Athletic Association basketball tournament; one of the biggest annual events in Charlotte; draws ~100,000 visitors for the week and historically anchors a major Black culture celebration.
+- **Charlotte Pride** (August) — one of the largest Pride events in the Southeast.
+- **Speed Street / NASCAR events** — Charlotte Motor Speedway (Concord, ~30 min north) hosts the Coca-Cola 600 and Bank of America ROVAL events; race weekends are major regional draws.
+- **SantaCon** and **Lights in the Garden** — holiday season events; the Ballantyne area and Carowinds both run holiday light experiences.
+
+### Tourism
+
+Charlotte draws approximately 30–32 million visitors annually to the metro area, making it one of the top tourism markets in the Southeast. Primary draws are business travel (Charlotte Douglas International is a major American Airlines hub), the NASCAR Hall of Fame, the NFL Panthers, Charlotte FC (MLS), the NBA Hornets, and a growing food and entertainment scene in South End, NoDa, and Uptown. Leisure tourism is growing as Charlotte's restaurant and cultural profile rises, but the city still skews heavily toward business and sports travel.
+
+### Event Venues
+
+- **Bank of America Stadium** — 74,867-seat NFL stadium downtown; home of Carolina Panthers; one of the largest NFL stadiums in the South; also hosts college football, concerts (Taylor Swift, The Rolling Stones, etc.).
+- **Spectrum Center** — 19,076-seat arena Uptown; home of Charlotte Hornets (NBA) and Charlotte Checkers (AHL hockey); primary large indoor concert venue; national touring headliners.
+- **PNC Music Pavilion** — 20,000-capacity (5,500 covered seats + lawn); primary large outdoor amphitheater; national touring acts spring–fall; top-grossing amphitheater in the Carolinas.
+- **Truist Field** — 10,200-capacity MiLB stadium Uptown; Charlotte Knights (White Sox AAA affiliate); opened 2014; one of the finest minor league ballparks in the US; downtown skyline backdrop.
+- **Bank of America Stadium** also hosts major international soccer events and FIFA events due to 2026 World Cup hosting.
+- **Bojangles Coliseum** — 9,634-seat arena; older venue for smaller concerts, boxing, and Charlotte FC secondary events.
+- **Blumenthal Performing Arts Center** — Belk Theater (2,100 seats) + Booth Playhouse (450 seats) + Stage Door Theater (130 seats); primary Broadway touring series and performing arts complex Uptown.
+- **Knight Theater** (Levine Center for the Arts) — 1,400 seats; home of Charlotte Symphony Orchestra; Uptown performing arts district.
+
+### Sports Teams & Recreation Organizations
+
+- **Carolina Panthers** (NFL) — Bank of America Stadium; Uptown; NFC South; founded 1995.
+- **Charlotte Hornets** (NBA) — Spectrum Center; founded 1988 (original Hornets); one of the most passionate fanbases in the Southeast.
+- **Charlotte FC** (MLS, soccer) — Bank of America Stadium; founded 2022; highest single-game MLS attendance record (74,479 in inaugural season).
+- **Charlotte Checkers** (AHL hockey) — Spectrum Center; affiliate of Florida Panthers; Calder Cup champions 2019.
+- **Charlotte Knights** (AAA baseball, White Sox affiliate) — Truist Field.
+- **North Carolina FC** (USL League One) / **Charlotte Independence** (USL League Two) — lower-division soccer.
+- **Charlotte Roller Derby** — flat-track WFTDA-affiliated roller derby.
+- **Charlotte Symphony Orchestra** — founded 1932; Knight Theater; one of the oldest orchestras in the South; 200+ annual performances.
+- **Opera Carolina** — primary professional opera company; Belk Theater.
+- **North Carolina Dance Theatre (Charlotte Ballet)** — nationally regarded professional ballet company based in Charlotte.
+- **Davidson Wildcats** (NCAA Division I) — Davidson College, 20 min north; basketball nationally prominent; Atlantic 10 Conference.
+
+### Motorsports
+
+- **Charlotte Motor Speedway** — Concord (25 min northeast); 89,000-seat superspeedway; one of the premier NASCAR facilities in the world; hosts NASCAR All-Star Race, Coca-Cola 600 (longest race on the Cup schedule, Memorial Day weekend), Bank of America Roval 400 (road course race); also hosts NHRA 4-Wide Nationals at adjacent zMAX Dragway.
+- **zMAX Dragway** — Concord; adjacent to Charlotte Motor Speedway; 4-wide NHRA drag racing facility (one of only two in the world); hosts NHRA 4-Wide Nationals — one of the most spectacular events on the NHRA calendar.
+- **NASCAR Hall of Fame** — 400 East Martin Luther King Jr. Blvd, Uptown; interactive museum; 50,000+ annual visitors; NASCAR's official Hall of Fame opened 2010.
+- **Cabarrus County Dragway** — local bracket racing facility northeast of Charlotte.
+- Charlotte is the undisputed center of the NASCAR industry — over 90% of all NASCAR Cup Series teams are headquartered in the Charlotte metro (Hendrick Motorsports, Roush Fenway Racing, Team Penske, Richard Childress Racing, and many more). Factory tours and team shop visits are available to the public.
+
+### Shooting Ranges & Training Facilities
+
+- **On Target Indoor Shooting Range** — multiple Charlotte metro locations; pistol and rifle up to 25 yards; rentals, training, competitive leagues; one of the largest indoor range chains in the Carolinas.
+- **Hyatt Gun Shop & Shooting Range** — 9th largest gun shop in the US; indoor range attached; one of the best-stocked shops in the Southeast.
+- **Blackstone Shooting Sports** — 8 lanes indoor + retail; South Charlotte; classes and memberships.
+- **ProShots Indoor Shooting Range** — indoor range; pistol and rifle; training and rentals.
+- **Rowan County Wildlife Club** — 30 min north; outdoor club with rifle, pistol, and shotgun ranges; public shooting days.
+- **Landsford Canal State Park / Uwharrie National Forest** — outdoor public shooting areas within 1–1.5 hrs of Charlotte.
+
+---
+
 ## Sources
 
 - [Charlotte Housing Market — Redfin](https://www.redfin.com/city/3105/NC/Charlotte/housing-market)

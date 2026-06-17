@@ -287,6 +287,140 @@ Excellent. AT&T Fiber is broadly deployed in Davidson County; Comcast provides c
 
 ---
 
+## Local Flavor
+
+### Cat Cafes
+
+- **Mewsic Kitty Cafe** — Nashville's first cat cafe; 18 adoptable rescue cats; locally roasted coffee, handmade snacks; music-city-themed name fits the brand well.
+- **The Catio** — 20+ adoptable cats from local shelters; specialty teas, artisanal coffee, sweet treats; $15/hour sessions (ages 8+); whimsical décor.
+- **Crossroads Cat Café** — coffee and light meals with adoptable cats; nonprofit model supporting job training and cat rescue.
+
+### Independent Coffee Shops
+
+- **Barista Parlor** — multiple Nashville locations (Germantown, East Nashville, SoBro, others). Art gallery meets auto shop aesthetic; 5 locations; curated beans from respected roasters; community event programming. Nashville's most iconic independent coffee brand.
+- **Frothy Monkey** — multiple locations (The Nations, 12South, Franklin). Long-running Nashville all-day café; full food menu; neighborhood gathering spots; remote-work friendly.
+- **Steadfast Coffee** — Germantown. Flash-chilled cold brew; small footprint; rustic industrial space; serious coffee craft.
+- **Honest Coffee Roasters** — Nashville outpost of the Tennessee small-batch roaster; specialty single-origin.
+- **Bongo Java** — Belmont neighborhood. Nashville's oldest independent coffee shop (1993); historic spot; near Belmont University.
+- *Nashville has 339 independent coffee shops per Joe Coffee's directory — one of the most saturated independent scenes in this series.*
+- *Note: Starbucks, Dunkin', and chains omitted.*
+
+### Independent Bookstores
+
+- **Parnassus Books** — 3900 Hillsboro Pike, Suite 14, Green Hills. Founded 2011 by novelist Ann Patchett (sole owner since 2022 when co-founder retired); extensive fiction, nonfiction, children's, local interest, and arts selection; monthly book club; weekly storytime; one of the most celebrated independent bookstores in the South.
+- **The Bookshop** — well-reviewed Nashville independent.
+- **Rhino Booksellers** — independent; strong local following.
+- **Novelette Booksellers** — community-focused independent.
+
+### Furniture Consignment
+
+- **English & Company** — 15,000 sq ft showroom; high-end, unique, and custom furnishings; Nashville's premier upscale consignment destination.
+- **Consign-It Furniture** — 7103 Highway 70 S, West Nashville. Established consignment shop; broad inventory.
+- **The Cottage Consignment** — consignment furniture, art, lamps, and home décor; curated selection.
+- **Remix Furniture Store** — 8th Avenue South; modern and vintage consignment furniture.
+- **Wallpaper & Home Decor Consignments** — specialty in designer home décor, wallcoverings, and "like new" furniture.
+
+### Hospital Systems & Medical Specialists
+
+**Vanderbilt University Medical Center (dominant academic system):**
+- **Vanderbilt University Medical Center** — 1211 Medical Center Dr, West End. Nashville's flagship academic medical center; 1,582 physicians across 88 specialty areas; U.S. News nationally ranked in multiple specialties. Key specialties: cardiology/cardiac surgery, oncology (Vanderbilt-Ingram Cancer Center — NCI-designated), neurology/neurosurgery, orthopedics, transplant, diabetes/endocrinology, nephrology, pulmonology, psychiatry, and comprehensive children's services (Monroe Carell Jr. Children's Hospital at Vanderbilt).
+- Acquiring Tennova Healthcare-Clarksville from Community Health Systems for $600M (announced Oct 2025) — expanding regional footprint.
+
+**HCA HealthONE / TriStar Health (largest private system):**
+- **TriStar Centennial Medical Center** and **TriStar Skyline Medical Center** — flagship HCA facilities in Nashville metro; Skyline is a state-designated Level I trauma center and ranked among America's 250 Best Hospitals (2025); 90+ TriStar locations across greater Nashville including ERs, surgery centers, and specialty practices; 300+ physicians in TriStar Medical Group.
+
+*Nashville is the US healthcare industry capital — HCA Healthcare is headquartered here and employs tens of thousands locally. The combination of VUMC's academic depth and HCA's scale gives Nashville unusually strong specialist access for any condition.*
+
+### Crime & Controversy — Notable Incidents
+
+- **2025 historic crime drop:** 74 homicides — lowest since 2014 and down 27.5% from 2024; first year below 100 homicides since 2019. Violent crime down 14%, property crime down 12%; robberies at lowest level since 1969 (fewest since 866 total, down 26%).
+- **November 2025 — MS-13 indictments:** Federal/state Homeland Security Task Force indicted dozens of individuals including MS-13 members; joint ATF/FBI/MNPD operation targeting gang violence that had spiked ~2 years prior. Nashville PD had formed the task force specifically in response to MS-13 activity.
+- **Covenant School shooting (March 2023):** 6 killed (3 children, 3 adults) at a private Christian school in Green Hills — the defining public trauma of recent Nashville history; ongoing litigation and political debate over release of shooter's manifesto continued through 2025.
+- No documented: youth curfews, cartel activity, widespread violent protests, or antifa activity 2025–2026.
+
+### Comedy Clubs
+
+- **Zanies Comedy Club** — 2025 8th Ave S; Nashville's flagship comedy club; one of the original Zanies locations (Chicago-based chain, since 1978); national touring headliners every weekend; local showcases midweek.
+- **The Lab at Zanies** — smaller intimate room for emerging acts and experimental comedy.
+- **Nashville Comedy Festival** (April) — annual multi-day festival; 12th edition in 2025; features nationally recognized comedians across multiple venues; one of the Southeast's established comedy festival circuits.
+
+### Catholic Churches
+
+- **Cathedral of the Incarnation** — 2015 West End Ave; the mother church of the Diocese of Nashville; completed 1914; English Gothic architecture with notable stained glass; designated the only Catholic pilgrimage site in the Diocese of Nashville.
+- **St. Mary of the Seven Sorrows** — Charlotte Ave; the oldest Catholic church in Nashville (1847); significant in the history of Catholicism in Tennessee.
+- **Assumption Parish** — historic German immigrant parish in downtown Nashville.
+- The Diocese of Nashville is one of the fastest-growing Catholic dioceses in the US, reflecting broader population growth.
+
+### Maker Spaces
+
+- **Make Nashville** — 12,000 sq ft nonprofit community makerspace; 24/7 member access; CNC routing, 3D printing, laser cutting, welding, ceramics/kiln, automotive lift, electronics lab, woodworking; extensive programming and classes; one of the best-equipped makerspaces in the South.
+- **Nashville Software School** — focused on software development education; bootcamp model with community programming.
+
+### Seasonal Recreation
+
+- **Nashville is not a ski or mountain destination** — the nearest skiing is ~4 hrs (Beech Mountain NC). This is a flat-to-rolling terrain city.
+- **Percy Priest Lake** — 14,200 acres; 8 miles east of downtown; primary metro boating and swimming lake; marinas, boat launches, beach areas, fishing (bass, crappie, catfish).
+- **Old Hickory Lake** — 22,500 acres; Cumberland River impoundment; multiple marinas; sailing, powerboating, fishing; 30 min northeast.
+- **Radnor Lake State Park** — 1,300 acres within city limits; exceptional birding, hiking, wildlife.
+- **Natchez Trace Parkway** — scenic 444-mile parkway entering Tennessee from the southwest; cycling, motorcycling, wildlife.
+- **Fall foliage** — late October into November; significant fall color in the Cumberland Plateau and eastern hills.
+
+### Annual Festivals & Events
+
+- **CMA Fest** (June, downtown Nashville) — the largest country music fan festival in the world; 4 days, 80,000+ fans from all 50 states and 40+ countries; stadium shows plus dozens of free outdoor stages; the defining Nashville summer event.
+- **Nashville Comedy Festival** (April) — see above.
+- **Tomato Art Fest** (August, East Nashville) — eclectic neighborhood celebration; quirky local character; one of Nashville's beloved community events.
+- **Oktoberfest Germantown** (October) — celebrating Nashville's historic German immigrant neighborhood; music, beer, food.
+- **Nashville Wine Auction** / **Tennessee Wine Month** — reflecting the state's growing wine and spirits industry.
+- **Christmas at Cheekwood** (November–January) — Cheekwood Estate & Gardens decorated with holiday lights; major family event.
+- **New Year's Eve / Jack Daniel's Music City Midnight** — one of the largest NYE celebrations in the South; Nashville's Lower Broadway is a year-round New Year's Eve destination due to its honky-tonk density.
+
+### Tourism
+
+Nashville welcomed a record 17 million visitors in 2025, generating $11.4 billion in spending — both all-time records. Tourism is primarily driven by music (the honky-tonks of Lower Broadway, the Grand Ole Opry, Country Music Hall of Fame), bachelorette and bachelor party tourism (Nashville is the #1 bachelorette party destination in the US), food and hospitality, and major convention business (Music City Center). The NFL Draft held in Nashville (2019) drew 600,000+ people. Nashville's tourism growth has been driven partly by pedal taverns, rooftop bars, and the "Nash Bash" party tourism economy, which has significantly changed the character of downtown. The city is also a growing destination for music tourists seeking live music outside of country (Ryman Auditorium, Bridgestone Arena, Brooklyn Bowl Nashville).
+
+### Event Venues
+
+- **Nissan Stadium** — 69,143-seat NFL stadium; home of Tennessee Titans; new $2.1 billion replacement stadium under construction next door (opening 2027); also hosted 2019 NFL Draft (600,000+) and major concerts.
+- **Bridgestone Arena** — 19,284-seat arena downtown; home of Nashville Predators (NHL); one of the most raucous NHL arenas; also a premier concert venue — catfish-throwing tradition is a Nashville institution.
+- **FirstBank Amphitheater** — Thompson Station (30 min south); 7,500-capacity outdoor amphitheater; opened 2021; premium national touring acts; one of the finest new amphitheaters in the South.
+- **Geodis Park** — 30,000-seat soccer-specific stadium; Nashville SC (MLS); opened 2022; largest soccer-specific stadium in the US at time of opening.
+- **Ryman Auditorium** — 2,362-seat historic venue; former home of the Grand Ole Opry (1943–1974); "Mother Church of Country Music"; National Historic Landmark; one of the most acoustically perfect and historically significant music venues in the world; every major country artist considers performing here a milestone.
+- **Grand Ole Opry House** — 4,400-seat dedicated country music venue in Opryland; weekly Opry broadcasts since 1974; the beating heart of country music tradition.
+- **Ascend Amphitheater** — 6,800-capacity downtown waterfront amphitheater on the Cumberland River; outdoor summer concerts.
+- **Tennessee Performing Arts Center (TPAC)** — Jackson Hall (2,472 seats) + Polk Theater (1,075 seats) + Johnson Theater (250 seats); home of Nashville Symphony, Nashville Ballet, and Broadway touring series.
+
+### Sports Teams & Recreation Organizations
+
+- **Tennessee Titans** (NFL) — Nissan Stadium; AFC South.
+- **Nashville Predators** (NHL) — Bridgestone Arena; Western Conference; one of the most atmospherically intense hockey buildings in the NHL; national TV audience regularly notes the crowd noise.
+- **Nashville SC** (MLS, soccer) — Geodis Park; launched 2020; consistent MLS Cup contender.
+- **Nashville Sounds** (AAA baseball, Milwaukee Brewers affiliate) — First Horizon Park; downtown.
+- **Nashville Women's Soccer Club** (NWSL) — NWSL expansion team; launching 2026.
+- **Tennessee Titans Training Camp** — Saint Thomas Sports Park, Hendersonville (25 min north); public viewing during summer camp.
+- **Nashville Roller Derby** — WFTDA flat-track; Music City Rollergirls.
+- **Nashville Symphony Orchestra** — founded 1946; Laura Turner Concert Hall (TPAC); Grammy Award-winning orchestra (multiple Grammys for recordings); one of the top 20 US orchestras.
+- **Nashville Ballet** — TPAC; nationally regarded professional ballet company.
+- **Nashville Opera** — TPAC; regional professional opera.
+
+### Motorsports
+
+- **Nashville Superspeedway** — Lebanon, TN (30 min east); 1.33-mile concrete oval; hosts NASCAR Cup Series Ally 400 (June); one of the smoothest and fastest intermediate ovals on the Cup circuit. Also hosts NASCAR Xfinity and Truck series events.
+- **Thunder Valley Raceway Park** — Lebanon, TN (near Nashville Superspeedway); NHRA-sanctioned drag strip; Lucas Oil Drag Racing Series events; one of the region's primary sanctioned drag facilities.
+- **Nashville Fairgrounds Speedway** — Tennessee State Fairgrounds; 0.596-mile historic oval; NASCAR Late Model racing; storied history (once hosted NASCAR Cup races in the 1950s-1980s); scheduled for renovation as part of Nashville's new stadium district development.
+- **Beech Bend Raceway** — Bowling Green, KY (1 hr north); NHRA national event facility (Summit Racing Equipment NHRA Nationals); the closest NHRA national event to Nashville.
+
+### Shooting Ranges & Training Facilities
+
+- **Shoot Point Blank Nashville** — multiple locations; large indoor ranges; pistol and rifle; part of national chain; training programs; one of the most accessible range options in the metro.
+- **Silverdale Baptist Church Shooting Range** (a unique Nashville feature) — a church with an on-site range used for community outreach; illustrative of the deep shooting culture in Middle Tennessee.
+- **Range USA Nashville** — indoor range; national chain; pistol and rifle lanes.
+- **Tennessee Firearms Association Range** — outdoor range; member-accessible; pistol and rifle.
+- **Stones River Gun Club** — Murfreesboro (30 min southeast); outdoor range; trap, skeet, sporting clays, rifle, pistol; one of the more complete outdoor shooting sports facilities near Nashville.
+- **Nashville Armory** — indoor range + retail; training; large facility.
+
+---
+
 ## Sources
 
 - [Nashville Housing Market — Redfin](https://www.redfin.com/city/13415/TN/Nashville/housing-market)

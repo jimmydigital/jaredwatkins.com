@@ -259,6 +259,148 @@ New Orleans has the most severe environmental risk profile of any city in this s
 
 ---
 
+## Local Flavor
+
+### Cat Cafes
+
+- **Mew Orleans Cat Cafe** — Uptown New Orleans. Locally roasted coffee + cat-themed boba drinks; adoptable rescue cats; Uptown neighborhood location.
+- **Central City cat lounge** — opened February 2026 in Central City; walk-in/reservation model; cats in partnership with Louisiana SPCA.
+- *Louisiana's only cat cafes are in New Orleans — no other Louisiana city has one.*
+
+### Independent Coffee Shops
+
+- **Cherry Coffee Roasters** — Uptown. 4.7★; in-house roasting; community-focused.
+- **Congregation Coffee** — Uptown. Specialty roaster; pour-over focused; quiet and thoughtful.
+- **Mammoth Espresso** — Warehouse District. Roaster-backed barista focus; suited for the arts/gallery district crowd.
+- **Pond Coffee** — Marigny (inside Small Mart). 4.8★; oat-milk-only program; creative and neighborhood-embedded.
+- **HiVolt** — Magazine Street. Coffee + food; eclectic Magazine St energy.
+- **Orleans Coffee Espresso Bar** — 4.7★; downtown/French Quarter adjacent; classic New Orleans café culture.
+- *New Orleans has 261 independent coffee shops — the city's café culture runs deep and predates the specialty movement.*
+- *Note: Starbucks, Dunkin', and chains omitted.*
+
+### Independent Bookstores
+
+- **Garden District Book Shop** — inside The Rink, Washington Ave & Prytania St, Garden District. Large collection of regional titles; new and used; design/art/gardening; signed first editions; one of the South's premier literary destinations.
+- **Octavia Books** — Uptown (opened 2000). Neighborhood literary staple; strong author event programming.
+- **Baldwin & Co.** — Marigny. Black-owned independent; regular book events and signings featuring Black authors; community gathering space.
+- **Blue Cypress Books** — Oak Street, Riverbend. Woman-owned; new and used books, games, stickers, pins; neighborhood feel.
+
+### Furniture Consignment
+
+- **Consign Consign** — 1160 Magazine St, Lower Garden District. Antiques and home goods; mostly furniture + art side room; Magazine Street location means walk-in traffic.
+- **The Occasional Wife (OW Home)** — 2850 Magazine St, Uptown. Estate sale store and home consignment; curated décor and furniture.
+- **NEHI Home** — Milan Street, Uptown. Consignment furniture and décor.
+- *Magazine Street's 6-mile stretch through the Garden District and Uptown contains multiple antique, vintage, and consignment dealers — New Orleans has a rich furniture resale ecosystem tied to its historic home culture.*
+
+### Hospital Systems & Medical Specialists
+
+**Ochsner Health (Louisiana's largest nonprofit academic system):**
+- **Ochsner Medical Center — Jefferson Highway** — flagship; multiple nationally ranked specialties; Women's Health (#13 nationally); Children's Hospital (#1 in Louisiana); gastroenterology, geriatrics, neurology, orthopedics, pulmonology, urology; 47 hospitals statewide + 370 health/urgent care centers.
+- **$300M Gayle and Tom Benson Ochsner Children's Hospital** — broke ground 2025; 5 stories, 343,000 sq ft; expected to open early 2028; will be the largest pediatric facility in the Gulf South.
+
+**LCMC Health System:**
+- **University Medical Center New Orleans (UMC)** — Level I Trauma Center; Louisiana's primary safety-net academic hospital; affiliated with LSU and Tulane medical schools; 446 beds; rebuilding since Katrina (opened 2015 in new facility).
+- **Children's Hospital New Orleans** — pediatric specialty anchor.
+- **East Jefferson General, Touro Infirmary, West Jefferson Medical Center, New Orleans East Hospital** — regional acute care network.
+- LCMC acquiring Tulane Medical Center, Lakeview Regional, and Tulane Lakeside from HCA Healthcare for $150M — consolidating further; services shifting to East Jefferson and UMC over 12–24 months.
+
+*New Orleans is effectively a two-system market (Ochsner + LCMC) with combined near-total dominance — similar to the Charlotte dynamic. The $300M children's hospital groundbreaking is the most significant healthcare capital event in New Orleans since Katrina.*
+
+### Crime & Controversy — Notable Incidents
+
+- **January 1, 2025 — Bourbon Street ISIS truck attack:** Shamsud-Din Jabbar drove an F-150 pickup into New Year's crowd at ~3:15 AM; 14 civilians killed + attacker (shot by police); 57+ injured including 2 officers; ISIS pledge confirmed; AR-10 rifle and pipe bombs (unused) recovered. FBI classified as terrorism. The deadliest terror attack on US soil since the 2016 Pulse nightclub shooting.
+- **2025 homicides:** 121 murders — excluding the 14 Bourbon Street terror victims, would have been a 14% drop from 2024; still elevated but down 55% from 2022 peak when New Orleans led the nation. Third consecutive year of violent crime decline.
+- **National Guard deployment:** Louisiana National Guard troops now patrol New Orleans streets — a fact noted in 2025 year-end crime reporting as both a crime-suppression tool and a politically contentious measure.
+- **Armed robberies/carjackings:** Down 28% and 35% respectively — dramatic improvement in the property crime categories that most affect daily life.
+- No documented: youth curfews, antifa activity, or widespread violent protests 2025–2026 beyond the terror attack response.
+
+### Comedy Clubs
+
+- **The New Movement Theater** — 2706 St Claude Ave; longform improv and sketch comedy; comedy training program; one of the city's anchor comedy venues.
+- **The Joy Theater** (Canal St) — performance venue hosting stand-up comedy events and touring acts.
+- **Broad Theater** — comedy and live performance programming in the Mid-City neighborhood.
+- **New Orleans Comedy Festival** — annual festival (spring) featuring national touring comedians; reflects the city's deep appreciation for sharp, irreverent humor rooted in its culture of wordplay and wit.
+- New Orleans lacks a large dedicated comedy club in the Comedy Zone/Funny Bone mold; comedy is integrated into the broader live entertainment ecosystem of bars, music venues, and small theaters.
+
+### Catholic Churches
+
+- **St. Louis Cathedral** — Jackson Square, French Quarter; basilica; the oldest continuously active Catholic cathedral in the United States (current structure 1794, site used since 1718); a defining landmark of the city and the American Catholic Church's history. Faces Jackson Square and the Mississippi River.
+- **St. Patrick's Church** — Magazine St; 1838; one of New Orleans's most beautiful Gothic Revival structures; historically served the Irish immigrant community.
+- **Our Lady of Guadalupe** — 411 N Rampart St; the oldest extant Catholic church building in New Orleans (1826); originally the Mortuary Chapel; renowned statue of St. Jude; a significant pilgrimage site.
+- New Orleans is the most Catholic major city in the United States by percentage; Catholic identity is inseparable from the civic calendar (Mardi Gras is a Catholic liturgical event — the day before Ash Wednesday).
+
+### Maker Spaces
+
+- **Hive55** — community makerspace and creative collaborative space in the New Orleans metro.
+- **Tulane University Makerspace** — available to students and community members; fabrication resources.
+- **Propeller** — social impact incubator with workspace and maker resources; focus on social enterprise startups.
+- New Orleans's maker community is smaller than comparably sized metros; creative fabrication culture is more embedded in the arts, Mardi Gras float construction (Kern Studios, Blaine Kern's Mardi Gras World), and the music instrument repair/manufacturing scene.
+
+### Seasonal Recreation
+
+- **Lake Pontchartrain** — the 630-sq-mile lake forms the northern boundary of the city; sailing, powerboating, fishing (redfish, speckled trout, bass). Southern Yacht Club (founded 1849, one of the oldest yacht clubs in the US) and Pontchartrain Yacht Club operate on the south shore.
+- **Bayou St. John** — urban waterway through Mid-City; kayaking, paddleboarding; neighborhood gathering point.
+- **Lake Borgne and Mississippi River Gulf Outlet (MRGO) corridor** — access to brackish and saltwater fishing; redfish and speckled trout are world-class in Louisiana coastal marshes within 30–60 min.
+- **Gulf Coast beaches** — Gulf Shores AL and Pensacola FL are 2.5–3 hrs east; Mississippi Gulf Coast (Biloxi) is 1.5 hrs east.
+- **No skiing** — the nearest ski terrain is ~12+ hours away. This is a flat, below-sea-level city with no mountain recreation.
+- **Swamp tours and bayou recreation** — unique to Louisiana; airboat and flatboat tours of the Atchafalaya Basin (largest river swamp in the US, 2 hrs west) and local bayous; crawfish and alligator hunting are cultural recreation events.
+
+### Annual Festivals & Events
+
+- **Mardi Gras** (February–early March, moveable) — the most famous civic festival in North America; the Carnival season runs from January 6 (Epiphany/King's Day) through Fat Tuesday; 40+ parades over two weeks; 1+ million people on Fat Tuesday. New Orleans Mardi Gras is among the oldest and most culturally significant festivals in the Western Hemisphere.
+- **Jazz & Heritage Festival (Jazz Fest)** (late April–early May, Fair Grounds Race Course) — 7 days across two weekends; 500,000+ attendees; 12 stages, 400+ acts; the preeminent American roots music festival; gospel, blues, jazz, R&B, zydeco, Cajun, Latin, rock.
+- **French Quarter Festival** (April) — free French Quarter music festival; 20+ stages; focuses specifically on Louisiana music.
+- **Voodoo Fest / Voodoo Music + Arts Experience** (Halloween weekend, City Park) — alternative rock/metal/hip-hop; 100,000+ attendees; the city's primary Halloween festival.
+- **Essence Festival** (July 4th weekend) — 500,000+ attendees; one of the largest Black cultural events in the US; R&B, gospel, hip-hop; held at the Caesars Superdome.
+- **New Orleans Saints season** (September–January) — NFL football is a civic religion; the Superdome draws 73,000+ for home games.
+- **Creole Tomato Festival, Oak Street Po-Boy Festival, Mirliton Festival** — the city's calendar of neighborhood food festivals is extraordinarily dense; food is inseparable from culture here.
+
+### Tourism
+
+New Orleans is one of the most visited cities in the United States, receiving approximately 18–19 million visitors annually (pre-pandemic peak was 19.8 million in 2019; the city has largely recovered). Tourism generates $9+ billion in economic impact. Primary draws: Mardi Gras (the single largest driver), Jazz Fest, the French Quarter (one of the most distinctive urban environments in the US), the food culture (the most uniquely evolved regional cuisine in America), ghost tours and haunted history tourism, bachelor/bachelorette tourism (Bourbon Street), the New Orleans Saints, and the convention business (the Caesars Superdome and Ernest N. Morial Convention Center make NOLA a top-5 US convention destination). The January 1, 2025 Bourbon Street terror attack (14 killed) caused a short-term drop in convention bookings but the city's tourism recovery has been historically rapid after crises.
+
+### Event Venues
+
+- **Caesars Superdome** (now **Caesars Superdome**) — 73,208-seat domed stadium; home of New Orleans Saints (NFL); hosted multiple Super Bowls (most recently Super Bowl LIX, February 2025); one of the most recognizable stadium silhouettes in the US; primary large event venue for the city; also hosts Sugar Bowl (New Year's Day), Final Four, and major concerts.
+- **Smoothie King Center** — 17,791-seat arena; home of New Orleans Pelicans (NBA); concerts and family shows.
+- **Shrine on Airline** — Metairie; 10,000-capacity outdoor venue; mid-size concerts and events.
+- **Saenger Theatre** — Canal St; 2,706-seat restored 1927 movie palace; one of the finest theaters on the Gulf Coast; Broadway touring series, major concerts; stunning Mediterranean Revival interior.
+- **Mahalia Jackson Theater for the Performing Arts** — 2,100-seat; Louis Armstrong Park / Tremé; home of Louisiana Philharmonic Orchestra; ballet, opera, theatrical events.
+- **Joy Theater** — Canal St; 1,200-capacity; concerts and entertainment events.
+- **Orpheum Theater** — 1,539-seat restored 1918 venue; concerts, events, New Orleans Jazz Orchestra residency.
+- **Ernest N. Morial Convention Center** — 1.1 million sq ft; one of the 5 largest convention centers in the US; drives enormous convention and trade show traffic.
+
+### Sports Teams & Recreation Organizations
+
+- **New Orleans Saints** (NFL) — Caesars Superdome; NFC South; Super Bowl XLIV champions (2010); one of the most passionate fan bases in football; the "Who Dat Nation" is a civic identity.
+- **New Orleans Pelicans** (NBA) — Smoothie King Center; Western Conference; former New Orleans Hornets (relocated from Charlotte 2002, renamed 2013).
+- **New Orleans Brass / New Orleans Baby Cakes** — minor league sports history; current MiLB: **New Orleans Saints** (the Saints own and operate the AAA affiliate here — name TBD after recent affiliate shift).
+- **New Orleans Privateers** (NCAA Division I) — University of New Orleans; Sun Belt Conference; modest program.
+- **Tulane Green Wave** (NCAA Division I, AAC) — football at Yulman Stadium (30,000 seats); basketball at Avron B. Fogelman Arena; notable Sugar Bowl history.
+- **New Orleans Voodoo** (AFL, arena football, defunct) — arena football history; no current major professional indoor football.
+- **New Orleans Roller Derby (NOLA Roller Derby)** — WFTDA flat-track; one of the more culturally fitting roller derby scenes in the country.
+- **Louisiana Philharmonic Orchestra** — the only musician-owned, musician-operated orchestra in the US; Mahalia Jackson Theater; founded by players after the old New Orleans Symphony dissolved; remarkable institutional story.
+- **New Orleans Opera Association** — oldest opera company in the US (est. 1943 in current form, roots to the 1800s); Mahalia Jackson Theater.
+- **New Orleans Ballet Association** — presenting organization; brings national companies to New Orleans.
+- **New Orleans Jazz Orchestra (NOJO)** — Orpheum Theater; professional jazz big band; keeps the city's jazz tradition in a concert hall context.
+
+### Motorsports
+
+- **NOLA Motorsports Park** — Avondale (20 min west); 2.75-mile road course + karting complex; SCCA, sports car club racing, track days, motorcycle events; the only road course in the New Orleans metro; a significant resource for the Gulf South motorsports community.
+- **New Orleans Motor Speedway (historic)** — operated through the 1980s; no longer active.
+- **No active drag strip in the metro** — nearest NHRA facility is Houston Raceway Park (6 hrs west) or Atlanta Dragway (7 hrs east).
+- NOLA Motorsports Park's road course is a genuine motorsports asset — not a short track or dragstrip but a proper road course that draws club racers from across the Gulf South.
+
+### Shooting Ranges & Training Facilities
+
+- **Freight House Firearms** — New Orleans metro; indoor range + retail; one of the primary shooting facilities accessible to city residents.
+- **Jefferson Gun Outlet** — Metairie (Jefferson Parish, immediately west); large indoor range + one of the largest gun retailers in Louisiana; pistol and rifle lanes; training courses; a landmark firearms retailer in the region.
+- **Westside Shooting Center** — Westwego; indoor range; pistol training; West Bank location.
+- **Red River Shooting Range** — outdoor shooting in the broader Louisiana region; limited options within the immediate metro due to swampy terrain.
+- Louisiana has constitutional carry (2024, Act 386 signed by Governor Jeff Landry); one of the most permissive carry states. However, New Orleans' urban geography and political culture mean the city proper has less range infrastructure than similarly-sized cities in this series. Serious shooters often drive to Mississippi or the North Shore (Mandeville/Covington area) for outdoor range options.
+
+---
+
 ## Sources
 
 - [Cost of Living in New Orleans 2026 — Salary.com](https://www.salary.com/research/cost-of-living/new-orleans-la)

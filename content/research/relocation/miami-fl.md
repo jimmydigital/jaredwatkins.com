@@ -270,6 +270,138 @@ Miami's environmental risk profile is the most complex in this series — it enc
 
 ---
 
+## Local Flavor
+
+### Cat Cafes
+
+- **The Witty Whisker** — Miami; reservation-based cat lounge partnering with local rescues so adoptable cats can socialize in a calm environment; order at the front, then enter the cat lounge. Currently one of the two primary options in Miami.
+- **Cat Cafe SOBE** — South Beach; coffee, treats, and cat cuddles in the heart of the SoBe tourist district. The more accessible option for visitors staying in Miami Beach.
+
+### Independent Coffee Shops
+
+Miami's coffee identity runs on two parallel tracks: Cuban counter culture (ventanitas, coladas, cortaditos) and the specialty third-wave scene. Both matter.
+
+- **Panther Coffee** — 2390 NW 2nd Ave (Wynwood); Miami's flagship specialty roaster, founded 2010 by Leticia and Joel Pollock. Ranked #30 on World's 100 Best Coffee Shops 2025. Small-batch roasting, direct relationships with producers in Nicaragua, Brazil, Guatemala, Ethiopia. Multiple locations (Coconut Grove, Miami Beach) but Wynwood is the original. The reference point for the city's specialty scene.
+- **La Industria Bakery & Cafe** — downtown Miami; high-volume Venezuelan-owned bakery-café with outstanding pan de jamón, croissants, and espresso. One of the highest-reviewed independent coffee spots in the metro.
+- **Café Bastille** — downtown Miami; French bakery-café with excellent croissants and espresso; consistent quality, neighborhood anchor.
+- **Versailles Restaurant** — 3555 SW 8th St (Little Havana); the most famous ventanita in Miami. Cuban coffee from the walk-up window is an institution — the political and cultural nerve center of Miami's Cuban exile community since 1971.
+- **Mindful Brews** — Brickell; specialty coffee with pour-overs and single-origin focus; serves the downtown professional crowd.
+
+### Independent Bookstores
+
+- **Books & Books** — flagship: 265 Aragon Ave, Coral Gables; branch: 3409 Main Hwy, Coconut Grove. Mitchell Kaplan's homegrown institution since 1982 — the most beloved bookstore in Florida. Author events year-round; if a major author is on tour they typically stop here. The Coral Gables location on Aragon Ave is one of the best bookstores in the Southeast.
+- **Dalé Zine** — 50 NE 40th St (Miami Design District); independent art bookshop and gallery since 2009. Community-focused; hosts small press fairs, book signings, art classes. Moved to the Design District in early 2024. Strongest in art, design, and independent publishing.
+- **Roots Bookstore & Market** — 6610 NW 15th Ave (Liberty City); Liberty City's only bookstore. Focuses on banned books, Black authors, and local voices; operates as a neighborhood gathering space with workshops and wellness programming.
+- **Steamy Lit** — 1 Curtiss Pkwy, Unit 12 (Miami Springs); romance-only bookstore founded by a Latina U.S. Navy veteran. Started as a subscription box in 2021, now has Miami Springs, Fort Lauderdale, and Tampa locations. Book clubs, author events, and audiobook walking clubs.
+- **Posman Books** — 851 NE 1st Ave, Suite D-128 (Miami Worldcenter); New York indie chain's Miami outpost (2024). No section signs — fiction, art books, manga, games all mixed together. Strong Latin American literature section given Miami location.
+
+### Furniture Consignment
+
+- **Consignment Corner Miami** — 8267 SW 124th St, Pinecrest; the standout in South Miami — 45 years of family ownership, 3,500 sq ft of furniture, home decor, fine art, and antiques. The most established consignment destination in the metro.
+- **Consign & Design** — Miami area; curated higher-end furniture and home goods consignment targeting the Brickell/Coral Gables demographic.
+
+### Hospital Systems & Medical Specialists
+
+- **Jackson Memorial Hospital / UHealth** — 1611 NW 12th Ave; 1,550+ licensed beds, 1,736 physicians across 92 specialties. Florida's largest public hospital and primary teaching hospital for the University of Miami Miller School of Medicine. Level I trauma center; major research institution. Named a 2025 Ambulatory Quality and Accountability Top Performer by Vizient (one of 5 facilities nationally). The flagship of South Florida's academic medical complex.
+- **University of Miami Health System (UHealth)** — deeply integrated with Jackson Memorial; 1,700+ physicians, nationally ranked in cancer (Sylvester Comprehensive Cancer Center — NCI-designated), neurology, and transplant. The academic engine behind Jackson's clinical programs.
+- **Baptist Health South Florida** — flagship Baptist Hospital of Miami; 1,187 physicians, 75 specialties. The dominant not-for-profit system in South Florida; well-regarded for cardiac and cancer care. Multiple campuses across Miami-Dade and Broward.
+- **Nicklaus Children's Hospital** — 3100 SW 62nd Ave; the leading pediatric hospital in South Florida; U.S. News ranked in multiple pediatric specialties. Independent children's hospital (not part of a larger adult system).
+- **Mount Sinai Medical Center** — 4300 Alton Rd, Miami Beach; major independent hospital serving Miami Beach and South Beach with 672 beds; well-regarded cardiac program.
+
+### Crime & Controversy — Notable Incidents
+
+- **Rick Scott / FEMA controversy, 2025** — Florida's political environment around disaster recovery spending became nationally prominent; Miami-Dade's congressional delegation publicly clashed with state leadership over insurance market intervention and federal flood aid following 2024 storm damage.
+- **MS-13 federal prosecutions** — DOJ Southern District of Florida secured convictions of six MS-13 members for murder-in-aid-of-racketeering; three defendants faced federal death penalty charges. Ongoing federal enforcement effort in Miami-Dade County.
+- **2025 homicide trend** — Miami-Dade reported a 42.86% decrease in homicides in early 2025, with full-year 2024 totaling 28 homicides — below the prior year. Liberty City neighborhood reached historic homicide lows in 2025 per WLRN reporting.
+- **Gang violence concerns** — Florida Statewide Grand Jury 2025 report flagged escalating gang-driven offenses statewide, with juveniles increasingly involved. Miami-Dade is among the affected counties. Overall crime statistics improving while organized gang activity is cited as growing more structured.
+
+### Comedy Clubs
+
+- **Miami Improv** — 3390 Mary St, Coconut Grove; part of the national Improv chain; national touring headliners every weekend; the metro's flagship comedy club; dinner theater format.
+- **Villain Theater** — Wynwood; independent comedy theater; improv, sketch, stand-up; community-rooted.
+- **Just the Funny Theater** — independent comedy production company and venue; original productions and showcases.
+- Miami's comedy scene is smaller than its population would suggest; entertainment options in Miami compete with beach, nightlife, music, and cultural events for attention.
+
+### Catholic Churches
+
+- **Gesu Catholic Church** — 118 NE 2nd St, downtown Miami; 1922; the oldest Catholic parish in Miami; run by Jesuits; serves downtown and Brickell; one of the busiest Catholic churches in South Florida.
+- **St. Mary Cathedral** (Cathedral of St. Mary) — NW 2nd Ave; the mother church of the Archdiocese of Miami; serves one of the most diverse Catholic populations in the US.
+- **Ermita de la Caridad** (Shrine of Our Lady of Charity) — on the shore of Biscayne Bay in Coconut Grove; the most significant Cuban Catholic shrine in the US; dedicated to the patroness of Cuba; draws tens of thousands of Cuban and Cuban-American pilgrims annually; opened 1973.
+- The Archdiocese of Miami is among the most ethnically diverse Catholic dioceses in the country: Cuban, Haitian, Colombian, Venezuelan, Puerto Rican, and Central American communities each maintain active parishes.
+
+### Maker Spaces
+
+- **Wynwood Yard** — creative community hub in Wynwood; shared workspaces, events, and maker resources in Miami's arts district.
+- **Lab Miami (WeWork Labs)** — Wynwood; coworking and startup community with some fabrication resources.
+- **Florida International University Maker Space** — university-based fabrication lab; open to students and community.
+- Miami's maker culture is less prominent than peer cities; the tech and startup community is concentrated in Brickell, Wynwood, and Coral Gables, with fewer dedicated hardware/fabrication spaces.
+
+### Seasonal Recreation
+
+- **Miami Beach and the barrier island chain** — direct access to the Atlantic; 15 min from downtown to South Beach. Year-round beach culture; swimming, paddleboarding, snorkeling, kitesurfing. No seasonal limitation.
+- **Biscayne Bay** — between Miami and Miami Beach; extensive sailing, powerboating, kayaking. Biscayne National Park (95% underwater) is at the south end of the bay; reef snorkeling and diving.
+- **Everglades National Park** — 30–45 min southwest; largest subtropical wilderness in the US; airboating, canoeing, wildlife (manatees, alligators, Florida panthers, rare birds). Everglades access is a major differentiator vs. most US cities.
+- **Florida Keys** — US-1 south from Homestead (1 hr from Miami); Key Largo (snorkeling, diving, John Pennekamp), Marathon, Key West (3.5 hrs). World-class reef diving and sportfishing within easy drive.
+- **No skiing** — flat, sea-level city. The nearest ski terrain is 10+ hours away.
+- **Deep sea fishing** — Miami is one of the premier sport fishing ports in the world; sailfish, mahi-mahi, tuna, marlin offshore; bonefish, tarpon, permit on the flats of Biscayne Bay.
+
+### Annual Festivals & Events
+
+- **Art Basel Miami Beach** (December) — the most important art fair in the Western Hemisphere; 83,000+ attendees from 90+ countries; 200+ galleries; simultaneously activates Wynwood Art Week, Design Miami, and dozens of satellite fairs; transforms Miami into the global center of contemporary art for one week.
+- **Calle Ocho Festival** (March, Little Havana) — the largest Hispanic cultural festival in the United States; 23 blocks of Cuban, Latin, and Caribbean food, music, and culture; 1+ million attendees.
+- **F1 Miami Grand Prix** (May, Hard Rock Stadium) — Formula 1 racing on a purpose-built street circuit; 270,000+ fans over race weekend; one of the most anticipated F1 events on the calendar since debuting in 2022.
+- **Ultra Music Festival** (March, Bayfront Park) — one of the world's premier electronic music festivals; 165,000+ attendees over two weekends; global EDM acts.
+- **Miami Open (tennis)** (March, Hard Rock Stadium) — one of the largest tennis tournaments in the world outside of the four Slams; ATP Masters 1000 + WTA 1000; 400,000+ attendees.
+- **Miami Film Festival** (March) — premier festival for Latin American and international cinema.
+- **Taste of Miami / South Beach Wine & Food Festival** (February) — nationally recognized food and wine event; 65,000+ attendees.
+
+### Tourism
+
+Miami is one of the top 5 most-visited cities in the United States, attracting approximately 24–26 million visitors annually with international tourism at a level unmatched by any other US city outside New York. International visitors represent over 40% of Miami's overnight tourists, drawn primarily from Latin America (Brazil, Colombia, Argentina, Venezuela), Canada, and Europe. Art Basel alone generates $500 million+ in economic activity. Primary draws: beaches and water, Art Basel, F1 Grand Prix, Ultra Music Festival, cruise terminal (Port of Miami is the busiest cruise port in the world), luxury shopping (Design District, Bal Harbour), nightlife, and international business. Miami is also a major gateway for Latin American travel — many visitors use Miami as a US base for business and shopping. The metro generates $20+ billion in total tourism economic impact annually.
+
+### Event Venues
+
+- **Hard Rock Stadium** — 65,326-seat NFL stadium, Miami Gardens; home of Miami Dolphins (NFL); hosts F1 Miami Grand Prix on temporary street circuit in surrounding parking complex; Super Bowl host city multiple times; also hosts international soccer (Copa América, FIFA events) and major concerts.
+- **Kaseya Center** — 19,600-seat arena, downtown Miami Biscayne Bay waterfront; home of Miami Heat (NBA); regularly hosts major concerts and boxing; one of the NBA's premier arenas aesthetically.
+- **LoanDepot Park** — 37,446-seat retractable-roof baseball stadium; home of Miami Marlins (MLB); opened 2012; air-conditioned for Florida summers.
+- **DRV PNK Stadium** — Fort Lauderdale (30 min north); 18,000-capacity soccer stadium; Inter Miami CF (MLS) home through 2025 while Miami Freedom Park stadium is under construction; Messi era made this a global must-visit.
+- **FTX Arena (Kaseya Center)** — same as above.
+- **Adrienne Arsht Center for the Performing Arts** — downtown Miami; 2,400-seat Ziff Ballet Opera House + 2,200-seat Knight Concert Hall + 200-seat Carnival Studio Theater; home of Florida Grand Opera, Miami City Ballet, New World Symphony; one of the largest performing arts centers in the US.
+- **Fillmore Miami Beach** — 2,700-capacity; historic Art Deco venue on Miami Beach; mid-size concerts and events.
+- **James L. Knight International Center** — 5,000-seat convention and concert hall; downtown.
+
+### Sports Teams & Recreation Organizations
+
+- **Miami Heat** (NBA) — Kaseya Center; 3 NBA Championships (2006, 2012, 2013); one of the most glamorous NBA franchises.
+- **Miami Dolphins** (NFL) — Hard Rock Stadium; the original AFC East franchise; Super Bowl host city multiple times.
+- **Miami Marlins** (MLB) — LoanDepot Park; 2 World Series titles (1997, 2003) despite modest fan base.
+- **Inter Miami CF** (MLS, soccer) — Fort Lauderdale; Lionel Messi (signed 2023) transformed the club into the most-searched MLS team globally; MLS Supporters Shield 2024.
+- **Florida Panthers** (NHL) — Amerant Bank Arena, Sunrise (40 min north); Stanley Cup champions 2024.
+- **Miami Hurricanes** (NCAA Division I, ACC) — football at Hard Rock Stadium; basketball at Kaseya Center; historic football program (5 national titles, era of dominance 1983–2001).
+- **Miami FC** (USL Championship) — lower-division professional soccer.
+- **Magic City Misfits** / **Miami Roller Derby** — flat-track roller derby.
+- **New World Symphony** — Adrienne Arsht Center and New World Center; world-renowned orchestral academy for young professional musicians; founded by Michael Tilson Thomas; one of the most prestigious orchestral training programs in the world.
+- **Florida Grand Opera** — Adrienne Arsht Center; one of the largest opera companies in the Southeast; founded 1941.
+- **Miami City Ballet** — Adrienne Arsht Center; nationally regarded professional ballet company.
+
+### Motorsports
+
+- **F1 Miami Grand Prix** (May, Hard Rock Stadium complex) — Formula 1 race on a temporary street circuit built in the Hard Rock Stadium parking area; debuted 2022; immediately became one of the most sought-after F1 tickets on the calendar; 270,000+ fans over race weekend.
+- **Homestead-Miami Speedway** — Homestead (35 min south); 1.5-mile NASCAR tri-oval; hosted the NASCAR Cup Series season finale for nearly two decades (2002–2019); still hosts NASCAR Xfinity and Camping World Truck Series races; also IMSA and club events.
+- **Palm Beach International Raceway** — Palm Beach Gardens (1:15 north); drag strip + road course on same complex; NHRA Lucas Oil Series; track days; nearest comprehensive motorsports facility to Miami.
+- Miami's racing culture is also expressed through the underground/semi-legal street racing scene which has been a persistent law enforcement concern in the metro.
+
+### Shooting Ranges & Training Facilities
+
+- **Nexus Shooting** — Doral; 6,000 sq ft indoor range; 22 lanes; one of the finest indoor shooting facilities in South Florida; pistol and rifle; training programs; retail.
+- **Top Gun Shooting Sports** — Davie (Fort Lauderdale area, 30 min north); indoor range; pistol and rifle.
+- **Okeechobee Shooting Sports** — Okeechobee (2 hrs north); one of the premier outdoor shooting sports facilities in Florida; sporting clays, trap, skeet, long-range rifle; serious clay target and rifle destination.
+- **Miami Shooting Range** — multiple metro area indoor facilities; pistol lanes, rentals, classes.
+- **West Palm Beach Shooting Range** — 1:15 north; outdoor range; rifle and pistol.
+- Florida has constitutional carry (2023) and is otherwise one of the more permissive states; however, Miami-Dade County has historically had some of the strictest local enforcement approaches and the urban density reduces informal/outdoor shooting options relative to other cities in this series.
+
+---
+
 ## Sources
 
 - [Cost of Living in Miami 2026 — Salary.com](https://www.salary.com/research/cost-of-living/miami-fl)

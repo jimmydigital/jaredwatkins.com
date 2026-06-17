@@ -283,6 +283,147 @@ Columbus has the most benign environmental risk profile of any city in this seri
 
 ---
 
+## Local Flavor
+
+### Cat Cafes
+
+- **Kitty Bubble Cafe & Bar** — North High St, Clintonville/Worthington border. Opened August 2022; bubble tea + espresso (One Line Coffee) + adoptable cats; cat-themed cocktail bar program; yoga with cats events; one of the more distinctive cat cafe concepts in the series.
+- **Little Cat** — East Market neighborhood. 4.7★; thoughtfully crafted coffee and tea; cat-themed; beloved neighborhood spot.
+
+### Independent Coffee Shops
+
+- **Stauf's Coffee Roasters** — multiple locations (German Village, Grandview Heights, Victorian Village, North Market). Columbus institution; roasts beans from 20+ countries; German Village flagship in a converted space with stained glass windows; outdoor seating; one of Ohio's most respected local roasters.
+- **Luck Bros Coffee House** — Grandview Heights, 1st Ave. Open-concept; in-house roasting visible from seating; donuts, bagels, breakfast bake; community neighborhood feel.
+- **One Line Coffee** — multiple Columbus locations; specialty roaster; used at Kitty Bubble Cafe.
+- **Fox in the Snow Cafe** — German Village and Short North. Beloved Columbus café; pastry-forward; packed weekends; among the city's most Instagrammed coffee spots.
+- **Brioso Coffee** — Short North. Specialty single-origin roaster; serious coffee craft; nationally recognized.
+- *Note: Starbucks, Dunkin', and chains omitted.*
+
+### Independent Bookstores
+
+- **The Book Loft of German Village** — 631 S 3rd St, German Village. 32-room labyrinthine used and new bookstore in a historic building; Columbus landmark since 1978; one of the most architecturally distinctive bookstores in the Midwest; a must-visit.
+- **Prologue Bookshop** — Italian Village/Short North. New independent; curated selection; strong community programming.
+- **Clintonville Books** — Clintonville neighborhood. Neighborhood independent with loyal following.
+- **Bound By Books** — independent general interest.
+- **Blue Couch Bookshop** — cozy independent; curated selection.
+- **Little Gay Bookstore** — LGBTQ-focused independent; community space.
+- *Experience Columbus launched a Columbus Booklovers Trail (self-guided digital pass) in October 2025 showcasing the city's independent bookstore ecosystem.*
+
+### Furniture Consignment
+
+- **One More Time ETC** — Columbus. 45+ years in business; premier indoor furniture, patio furniture, and home décor consignment in Columbus.
+- **Trading Places** — Dublin, OH (northwest suburb). 12,500 sq ft; high-quality furnishings and home décor; in business since 2009.
+- **Fresco Furnishings** — upscale consignment; beautiful sofas, tables, chairs, lamps.
+- **Grandview Mercantile** — downtown Columbus. Antiques, vintage, and consigned treasures.
+- **My Cousin's Cottage** — specialty in gently-used Pottery Barn, West Elm, and designer home furnishings.
+
+### Hospital Systems & Medical Specialists
+
+**The Ohio State University Wexner Medical Center (dominant academic system):**
+- **OSU Wexner Medical Center** — 370 W 9th Ave, University District. #2 hospital in Ohio (U.S. News 2025); Level I Trauma Center (ACS-verified since 1987 — among the first in the nation); NCI-designated Arthur G. James Cancer Hospital (one of only 51 NCI Comprehensive Cancer Centers; one of few conducting both Phase I and II novel anticancer trials); central Ohio's only adult burn center; only adult solid organ transplant program in the region; Level I Cardiovascular Emergency Program (first in Ohio); Level III NICU. High-performing in cardiac, cancer, transplant, and neurosciences across 1,000+ physicians.
+- **Nationwide Children's Hospital** — adjacent to OSU campus. One of the largest children's hospitals in the US; nationally ranked in multiple pediatric specialties; major research institution.
+
+**OhioHealth:**
+- **OhioHealth Riverside Methodist Hospital** — tied for #3 hospital in Ohio (U.S. News); full-service acute care; comprehensive cardiovascular, orthopedic, neuroscience, and cancer programs; major Columbus system with 12+ hospitals across central Ohio.
+- **OhioHealth Grant Medical Center** — downtown; Level I trauma center; urban acute care.
+
+**Mount Carmel Health System (Trinity Health affiliate):**
+- 4 hospitals (East, West, St. Ann's, New Albany); major expansion underway; community-focused acute care across the metro.
+
+*Columbus has four competing health systems all currently in expansion mode — billions in capital investment underway. For a Midwest city, the specialist depth rivals cities twice its size, anchored by OSU's NCI cancer center and the nation's largest children's hospital.*
+
+### Crime & Controversy — Notable Incidents
+
+- **2025 homicide drop:** 84 homicides — down 31% from 122 in 2024; lowest since 2007; first time below 90 since that year. City met its stated "Under Triple Digits" goal. Serious crimes citywide fell 14.5% — steepest single-year drop in recent memory. Homicide solve rate 83%.
+- **Domestic violence concern:** Despite the overall drop, city leaders specifically flagged rising domestic violence homicides as a persistent and growing problem within the improving trend.
+- **Non-Fatal Shoot Team:** Columbus PD formed dedicated unit to disrupt the retaliatory cycle following non-fatal shootings — credited as a key driver of the homicide reduction.
+- No documented: youth curfews, MS-13 or cartel activity, widespread violent protests, or antifa activity 2025–2026.
+
+### Comedy Clubs
+
+- **Columbus Funny Bone** — Easton Town Center; part of the national Funny Bone chain; been operating in Columbus since 1987; national headliners weekly; one of the city's main comedy venues.
+- **Shadowbox Live** — 1 Easton Town Center; one of the largest resident theater companies in the US; comedy, music, and original productions; a distinctive Columbus institution.
+- **Columbus Comedy Festival** (September) — annual festival featuring 100+ performers across multiple venues; local, regional, and national comedians; one of the Midwest's notable comedy festivals.
+
+### Catholic Churches
+
+- **St. Joseph Cathedral** — 212 E Broad St; the mother church of the Diocese of Columbus; completed 1878; High Victorian Gothic architecture; located directly across from the Ohio Statehouse.
+- **St. Patrick Church** — Short North; significant immigrant-era Irish parish.
+- **Holy Cross/Immaculate Conception** — German Village area; historic German Catholic parish in one of Columbus's most preserved historic neighborhoods.
+- The Diocese of Columbus serves a large and growing Catholic population; Ohio State University brings significant Catholic student population (St. Thomas More Newman Center).
+
+### Maker Spaces
+
+- **Columbus Idea Foundry** — 1, Franklinton; 65,000 sq ft; one of the largest makerspaces in the world; metalworking, woodworking, CNC, 3D printing, laser cutting, ceramics, electronics, automotive; community-run nonprofit; exceptional resource by any US city standard.
+- **TechColumbus** / **Rev1 Ventures** — startup and tech community support ecosystem; provides some fabrication and prototyping resources.
+- **OSU Ideation Lab** — Ohio State University; open to students; serves the broader community through events.
+
+### Seasonal Recreation
+
+- **Hoover Reservoir** — 12 miles north of downtown; 3,472 acres; primary Columbus sailing lake; Hoover Sailing Club; fishing (walleye, sauger, bass); no motorized boats, making it a premier sailing destination.
+- **Alum Creek State Park** — 3,387-acre lake; 30 min north; motorized boating, swimming beaches, camping; the most popular boating lake in the metro.
+- **O'Shaughnessy Reservoir** (Griggs / Delaware) — Scioto River impoundments; rowing, kayaking, fishing within city limits.
+- **Hocking Hills** — 1.5 hrs southeast; Ohio's most visited state park region; sandstone gorges, waterfalls (Ash Cave, Old Man's Cave, Conkle's Hollow); significant fall foliage destination.
+- **Mohican State Park** — 1.5 hrs northeast; canoeing, kayaking on the Mohican River; popular Columbus day trip.
+- **No skiing** — Ohio has no significant ski terrain. Mad River Mountain (1:15 northwest) has a 300 ft vertical for beginner skiing; not a destination ski market.
+
+### Annual Festivals & Events
+
+- **Columbus Asian Festival** (Memorial Day Weekend, Franklin Park Conservatory) — 100,000+ attendees; one of the largest Asian cultural festivals in the Midwest; reflects Columbus's significant Southeast Asian and Asian-American communities.
+- **Columbus Oktoberfest** (September) — one of the largest Oktoberfest celebrations in the US outside of Cincinnati; reflecting central Ohio's German heritage.
+- **Short North Gallery Hop** (first Saturday of every month, year-round) — longest-running monthly gallery walk in the US; 60+ galleries and studios; transforms the Short North arts district.
+- **Columbus Pride** (June) — one of the largest Pride celebrations in the Midwest.
+- **Jazz & Rib Fest** (July, Bicentennial Park) — 100,000+ attendees; free festival; national jazz acts plus competitive BBQ.
+- **Ohio State Fair** (July–August) — one of the largest state fairs in the US; 10 days, 900,000+ attendees.
+- **Comfest (Community Festival)** (June, Goodale Park) — progressive, community-organized music and arts festival; 80,000 attendees; Columbus's oldest arts festival.
+
+### Tourism
+
+Columbus generates approximately 53.2 million visitor trips annually, producing $8.2 billion in economic impact — substantial for a city often overlooked in tourism rankings. The numbers are driven primarily by Ohio State University (the largest single-campus university in the US; home football weekends alone bring 100,000+ visitors per game), convention business (Greater Columbus Convention Center, one of the largest in the Midwest), and the sprawling Easton Town Center and Polaris area retail clusters that draw regional shoppers. The Short North arts district and German Village are genuine leisure tourism draws. The Columbus Zoo and Aquarium (consistently rated among the top 3 in the US by USA Today) is a significant family tourism draw. Columbus hosts major sporting events through Nationwide Arena (NHL Blue Jackets) and the 2026 FIFA World Cup (Ohio Stadium serving as a hub city venue).
+
+### Event Venues
+
+- **Ohio Stadium ("The Horseshoe")** — 102,082-seat OSU football stadium; one of the largest stadiums in the US and the world; home of Ohio State Buckeyes football; 2026 FIFA World Cup venue.
+- **Nationwide Arena** — 19,500-seat arena downtown; home of Columbus Blue Jackets (NHL); primary large indoor concert venue; national touring headliners.
+- **Schottenstein Center** (OSU) — 19,500-seat arena; OSU basketball + large concerts; on campus.
+- **Huntington Park** — 10,100-seat MiLB stadium downtown; Columbus Clippers (AAA, Guardians affiliate); opened 2009; consistently rated among the best MiLB stadiums in the country.
+- **Historic Crew Stadium / Lower.com Field** — 20,145-seat soccer stadium; home of Columbus Crew (MLS); new Lower.com Field opened 2021; former Crew Stadium (1999) was the first soccer-specific stadium built for MLS.
+- **Southern Theatre** — 939 S High St; 936-seat restored 1896 theater; Columbus Symphony Orchestra home and Broadway touring venue.
+- **Ohio Theatre** — 39 E State St; 2,779-seat restored 1928 movie palace; one of the finest surviving movie palaces in the US; Broadway series and special performances; designated National Historic Landmark.
+- **Express Live! / KEMBA Live!** — indoor (2,200) + outdoor (5,100) adjacent venues; Short North area; mid-size concerts and events.
+
+### Sports Teams & Recreation Organizations
+
+- **Columbus Blue Jackets** (NHL) — Nationwide Arena; entered NHL 2000.
+- **Columbus Crew** (MLS, soccer) — Lower.com Field; two MLS Cup titles (2008, 2020); one of the oldest MLS clubs (original 1996 expansion).
+- **Columbus Clippers** (AAA baseball, Cleveland Guardians affiliate) — Huntington Park.
+- **Columbus SC** (USL Super League, women's professional soccer) — growing women's pro soccer presence.
+- **Ohio State Buckeyes** (NCAA Division I, Big Ten) — football, basketball, wrestling, and 36 varsity sports; one of the most successful athletic programs in the country; Big Ten; football is the defining cultural institution of Columbus fall.
+- **Columbus Hockey Club / Columbus Junior Blue Jackets** — development and amateur hockey.
+- **Arch City Derby Girls** — WFTDA flat-track roller derby; Columbus's competitive roller derby league.
+- **Columbus Symphony Orchestra** — founded 1951; Southern Theatre and Ohio Theatre; professional orchestra; one of the strongest mid-major orchestras in the Midwest.
+- **Opera Columbus** — professional opera company; Southern Theatre.
+- **BalletMet Columbus** — nationally regarded professional ballet; Southern Theatre.
+
+### Motorsports
+
+- **National Trail Raceway** — Hebron, OH (30 min east); NHRA-sanctioned drag strip; hosts NHRA national events (NHRA Factory Stock Showdown, Lucas Oil Drag Racing Series); 1,300-foot track; one of the more active NHRA-affiliated tracks in the Midwest.
+- **Eldora Speedway** — Rossburg, OH (1:30 northwest); legendary 0.5-mile clay oval owned by Tony Stewart; NASCAR Truck Series races; World 100, Kings Royal sprint car events; one of the premier dirt tracks in the world.
+- **Mid-Ohio Sports Car Course** — Lexington, OH (1:15 north); 2.258-mile road course; IndyCar Honda Indy 200, NASCAR Xfinity Series, IMSA, SCCA national events; one of the best road courses in the US.
+- **Columbus Motor Speedway** — 0.333-mile paved oval; Saturday night weekly racing; stock cars, late models; local short track tradition.
+- **Quaker Steak & Lube (Worthington)** / **Mopar Nationals at National Trail** — large car shows and specialty automotive events in the Columbus area.
+
+### Shooting Ranges & Training Facilities
+
+- **Olentangy Indoor Shooting Range** — Powell (north Columbus); indoor pistol and rifle; large facility; training programs.
+- **Powder Room Indoor Shooting Range** — Upper Arlington; indoor pistol range; women-focused programming and inclusive atmosphere; training courses.
+- **Central Ohio Shooting Range** — Columbus metro; indoor range.
+- **OAKS (Ohio Association of Kennel Sportsmen)** — outdoor club; trap, skeet, sporting clays, rifle and pistol ranges; Marysville (30 min west).
+- **Wilderness Trace Sportsmens Club** — outdoor range; rifle to 200 yards; pistol; Galena area (30 min north).
+- **Ohio DNR Public Shooting Ranges** — multiple state-managed outdoor ranges accessible to Columbus residents within 30–60 min; free or nominal fee.
+
+---
+
 ## Sources
 
 - [Cost of Living in Columbus, OH 2026 — Salary.com](https://www.salary.com/research/cost-of-living/columbus-oh)

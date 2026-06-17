@@ -260,6 +260,146 @@ Excellent. AT&T Fiber is broadly available in San Antonio; Google Fiber has expa
 
 ---
 
+## Local Flavor
+
+### Cat Cafes
+
+- **Purrfecto Cat Lounge** — Southtown, San Antonio. Austin-based chain's first SA location; opened May/June 2026 (minor construction delays); 3,000 sq ft; full coffee shop inside; 30-min ($22) and 70-min ($37) cat lounge sessions; adoptable rescue cats.
+- *San Antonio had no established cat cafe prior to 2026; Purrfecto is the first.*
+
+### Independent Coffee Shops
+
+- **Casa Pink Studio Coffee** — River Arts District. Opened by local artists Olivia and Cruz Ortiz; community arts + coffee concept; uniquely San Antonio.
+- **Estate Coffee** — Dignowity Hill neighborhood (East Side). Single-origin, fair trade, locally roasted; stripped-down "slow bar" aesthetic; neighborhood anchor.
+- **Flowergirl Coffee** — King William Historic District. Charming neighborhood café in one of SA's most walkable areas.
+- **Tuxedo Cat's Coffee** — cat-themed and cat-friendly; a few nursery cats on site (not a formal cat lounge); solid espresso program.
+- *Note: Starbucks, Dunkin', and chains omitted.*
+
+### Independent Bookstores
+
+- **The Twig Book Shop** — Pearl Brewery complex, 306 Pearl Pkwy. San Antonio's flagship independent; destination bookstore in the Pearl's vibrant mixed-use development; strong local author and community programming.
+- **Nowhere Bookshop** — Alamo Heights neighborhood. Thriving community-focused independent; curated selection; frequent events.
+- **Pandora's Bookstore and Coffee Bar** — Black joy-centered bookstore; reading-friendly café setup; community gathering space.
+- **Pages for Ages** — Northwest Side. Curated banned books collection; journaling, crochet, and tarot classes; neurodivergent-friendly resources.
+- **Book Nerd** — Castle Hills; opened fall 2025; genre fiction and fantasy/sci-fi focus.
+- *Note: An artsy San Antonio bookstore closed after less than a year (2025) — the independent market is active but some locations have short runs.*
+
+### Furniture Consignment
+
+- **Home Consignment Center** — 17603 La Cantera Pkwy, Suite 130, North SA. Designer-quality sofas, dining sets, bedroom furniture; popular with home stagers and decorators.
+- **Nancy's Fine Furniture Consignment** — in business since 2001; established upscale resale.
+- **Too Good To Be Threw** — Consignment Store; furniture + fashion; long-running San Antonio institution.
+
+### Hospital Systems & Medical Specialists
+
+**University Health (public, Bexar County):**
+- **University Hospital** — 4502 Medical Dr, South Texas Medical Center. 716-bed public teaching hospital; Level I trauma center; academic medical center affiliated with UT Health San Antonio; third-largest public health system in Texas; 35+ outpatient specialty and family medicine clinics across metro.
+
+**Methodist Healthcare (HCA-affiliated, largest private system):**
+- **Methodist Hospital** — 7700 Floyd Curl Dr, Medical Center. Flagship; largest and most preferred SA provider for cardiovascular services, robotics, oncology, orthopedics, emergency medicine, and women's health; 2,700+ credentialed physicians.
+- **Methodist Hospital Specialty and Transplant** — dedicated transplant and advanced surgical campus. Texas Transplant Institute, Texas Neurosciences Institute, Gamma Knife Center, and Methodist Women's Pavilion housed here.
+- Multiple additional Methodist campuses (Metropolitan, Northeast, South, Children's).
+
+**Baptist Health System (Tenet Healthcare, 5 hospitals):**
+- 1,674 licensed beds across Baptist Medical Center, Mission Trail Baptist, North Central Baptist, Northeast Baptist, and St. Luke's Baptist. Covers all major general acute care and specialty needs; Baptist Regional Children's Center for pediatrics.
+
+**UT Health San Antonio:**
+- **UT Health San Antonio Multispecialty and Research Hospital** — only UT hospital in the region; advanced cancer therapies and precision medicine; strong clinical trial access; affiliated with UT Health Science Center.
+
+*San Antonio's South Texas Medical Center is one of the largest medical complexes in the US, with multiple hospital systems, research institutions, and specialty clinics clustered in a dedicated district — strong for specialist access.*
+
+### Crime & Controversy — Notable Incidents
+
+- **November 2025 — Tren de Aragua federal sweep:** FBI and Homeland Security Investigations arrested 140+ individuals in San Antonio connected to Tren de Aragua (Venezuela-origin gang); primarily undocumented nationals; operation framed as disrupting organized criminal presence. Significant national-media attention.
+- **Ongoing cartel distribution nexus:** San Antonio is documented as a major distribution hub for Mexican cartel narcotics (meth leading with 2,134 arrests and $15.6M seized in 2025; fentanyl fastest-growing threat). DEA identifies gangs as responsible for most violent crime in the city.
+- **Drug crime spike (2025):** SAPD narcotics enforcement ramped up; drug-related arrests increased significantly in 2025 even as overall violent crime dropped 13%. Police explicitly link trafficking to gang activity and property crime.
+- **Gang violence (2025):** Gang-related incidents totaled 1,289 — down 19% from 2024; local street gangs (est. 800–900 members) account for territorial disputes, drug sales, and property crime.
+- **2025 overall trend:** Total crime down 13%; violent crime improving. The cartel/gang activity is structural and ongoing rather than a single incident.
+- No documented: youth curfew declarations, widespread violent protests, or antifa activity 2024–2026.
+
+### Comedy Clubs
+
+- **San Antonio Improv** — the city's primary comedy club; national touring acts, dinner-show format, consistent programming.
+- **The Laugh Out Loud Comedy Club** — local comedy venue with regular showcases and open mics.
+- **Funny Bone** — San Antonio location; part of the national chain but well-programmed for a city this size.
+
+### Catholic Churches
+
+- **San Fernando Cathedral** — 115 Main Plaza; the oldest continuously active cathedral church in the US (founded 1731 by Canary Island immigrants); seat of the Archdiocese of San Antonio; a UNESCO and National Historic Landmark. The Passion Play has been performed here on Good Friday for 250+ consecutive years. Simultaneously a major tourist attraction and active parish.
+- **Our Lady of Guadalupe Church** — historic West Side parish; major Mexican-American Catholic cultural anchor.
+- **St. Anthony of Padua** — Archdiocese seat parish serving downtown.
+- *San Antonio is the most Catholic major city in Texas by percentage; the Archdiocese of San Antonio is one of the oldest in the US.*
+
+### Maker Spaces
+
+- **Geekdom** — 131 Soledad St, downtown; San Antonio's co-working and tech hub with maker facilities, event space, and the highest concentration of SA's startup ecosystem.
+- **BiblioTech / Bexar County Digital Library** — maker resources through the public library system; 3D printers, digital fabrication, and technology access.
+- **SA Makes** — community makerspace; tools, workshops, and collaborative making.
+
+### Seasonal Recreation
+
+- **San Antonio River / River Walk** — the city's defining public amenity; 15 miles of developed linear park along the San Antonio River through downtown. Not a water recreation venue in the boating sense, but a unique pedestrian and dining corridor.
+- **Canyon Lake** — 45 min north; the "gem of the Texas Hill Country"; swimming, tubing on the Guadalupe River (New Braunfels), boating. The Guadalupe River float between New Braunfels and Seguin is one of the most popular summer recreation activities in the entire state.
+- **Medina Lake** — 40 min west; smaller lake with boating and fishing.
+- **Texas Hill Country** — extending northwest; Fredericksburg, Kerrville, Bandera. Wine trail, state parks (Garner State Park — one of the most-visited in TX), natural swimming holes.
+- **Skiing** — not practical. Closest ski is Taos, NM (~7–8 hrs). Not a skiing market.
+
+### Annual Festivals & Events
+
+- **Fiesta San Antonio** (April, 11 days) — the city's signature event; begun in 1891 as a tribute to Alamo heroes; over 100 events, 3.5 million attendees, Battle of Flowers Parade (second largest parade in the US after the Rose Bowl). One of the oldest and largest civic celebrations in the country.
+- **Fiesta San Fernando** (April, Main Plaza / San Fernando Cathedral) — specifically tied to the cathedral; free three-day festival with live music, food, and cultural programming.
+- **San Antonio Stock Show & Rodeo** (February, AT&T Center) — one of the top 10 rodeos in the US; 18-day event with 1 million+ attendees.
+- **Dia de los Muertos** (November, La Villita) — deeply rooted in San Antonio's Mexican-American culture; one of the most authentic celebrations in the country.
+- **Luminaria Arts Festival** (November) — free, one-night arts festival in Hemisfair Park; installations, performances, and visual art throughout the night.
+- **San Antonio Food + Wine Festival** — culinary showcase reflecting the city's UNESCO Creative City of Gastronomy status.
+- **Alamo Bowl** (December) — college football bowl game at the Alamodome; major annual sports tourism event.
+
+### Tourism
+
+San Antonio draws approximately 37–40 million visitors annually, making it one of the top tourism destinations in Texas and the Southwest. Primary draws are the Alamo (one of the most-visited historic sites in the US), the River Walk, Fiesta, Sea World San Antonio, Six Flags Fiesta Texas, and the historic missions (UNESCO World Heritage Site since 2015). San Antonio has a fully developed convention and tourism infrastructure and benefits enormously from being a day trip from Austin (~1.5 hrs), a weekend destination from Houston (~3 hrs), and a cross-border destination for Mexican visitors. The River Walk alone generates over 11 million visits per year.
+
+### Event Venues
+
+- **Alamodome** — 65,000-seat domed stadium; home of UTSA Roadrunners football and various large events; hosted Final Four, NBA All-Star Game, Super Bowl, WWE events; primary large-scale event facility for the city.
+- **Frost Bank Center** — 18,418-seat arena; home of San Antonio Spurs (NBA); concerts and touring events; formerly AT&T Center.
+- **Missions Ballpark** — 8,251-capacity MiLB stadium; San Antonio Missions (AA baseball, Milwaukee Brewers affiliate); River Walk adjacent area; opened 1994.
+- **Majestic Theatre** — 224 E Houston St; 2,311-seat 1929 movie palace; grand Spanish Colonial Revival interior; Broadway touring series; one of the most beautiful theaters in Texas.
+- **Tobin Center for the Performing Arts** — 1,750-seat HEB Performance Hall + 250-seat Carlos Alvarez Studio Theater; renovated 2014; home of San Antonio Symphony and Broadway series; River Walk location.
+- **Freeman Coliseum** — 11,000-seat arena; concerts, rodeo, wrestling; older venue still active.
+- **Lila Cockrell Theatre** — Henry B. González Convention Center; 2,200 seats; convention and performing arts events.
+
+### Sports Teams & Recreation Organizations
+
+- **San Antonio Spurs** (NBA) — Frost Bank Center; 5 NBA Championships (1999, 2003, 2005, 2007, 2014); the most successful small-market franchise in NBA history; the Tim Duncan / Gregg Popovich dynasty is one of the greatest in professional sports.
+- **San Antonio FC** (USL Championship, soccer) — Toyota Field; one of the most attended USL clubs consistently.
+- **San Antonio Missions** (AA baseball, Milwaukee Brewers affiliate) — Missions Ballpark.
+- **UTSA Roadrunners** (NCAA Division I, AAC) — football at Alamodome (capacity 65,000; UTSA fills roughly 35,000); growing program; 2021 Conference USA championship.
+- **San Antonio Brahmas** (USFL, spring football) — Alamodome; one of the USFL's consistent franchises.
+- **San Antonio Roller Girls** — WFTDA flat-track roller derby.
+- **San Antonio Symphony** — founded 1939; Tobin Center; professional orchestra; financially challenged but culturally significant institution.
+- **San Antonio Ballet** — professional ballet company; Tobin Center.
+- **Opera San Antonio** — professional opera; Tobin Center; recently reorganized as a newer entity after the historic Symphony's funding struggles.
+
+### Motorsports
+
+- **San Antonio Raceway** — 15600 I-35 S; IHRA-sanctioned drag strip; one of the primary drag racing facilities in South Texas; bracket racing, test-and-tune, IHRA national events.
+- **SA Speedway (historic)** — various oval track operations have come and gone in the San Antonio metro; current status limited.
+- **Texas Motor Speedway** — Fort Worth (~4 hrs north); premier NASCAR and IndyCar facility in Texas; the major motorsports event destination for San Antonio fans for superspeedway racing.
+- **Circuit of The Americas** — Austin (1.5 hrs northeast); Formula 1, MotoGP, NASCAR road course; within easy day-trip range from San Antonio.
+- **Karting/Autocross** — San Antonio Karting (indoor karting) and SCCA regional autocross events at local venues.
+
+### Shooting Ranges & Training Facilities
+
+- **Shoot Smart** — multiple San Antonio metro locations; large indoor ranges; pistol and rifle to 25 yards; training courses; one of the largest indoor range chains in Texas.
+- **Dury's Gun Shop & Indoor Range** — 6-lane indoor range + extensive retail; established San Antonio firearms institution.
+- **Texas Shooting Academy** — professional instruction; concealed carry, defensive handgun, tactical rifle.
+- **Sandy Creek Shooting Ranch** — outdoor range; rifle, pistol, shotgun; long-range capability; Hill Country adjacent.
+- **Rio Medina Shooting Range** — Medina County (30 min west); outdoor range; multi-discipline.
+- **Palo Alto Shooting Range (Bexar County)** — county-operated outdoor facility; rifle and pistol; low-cost public access.
+- Texas has no state income restrictions on firearms; constitutional carry; Texas has some of the most permissive firearms laws in the country, and San Antonio's military culture (Joint Base San Antonio hosts 80,000+ active duty) creates a deep shooting sports community.
+
+---
+
 ## Sources
 
 - [Cost of Living in San Antonio 2026 — Living in SATX](https://livinginsatx.com/san-antonio-cost-of-living/)

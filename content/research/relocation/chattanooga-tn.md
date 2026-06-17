@@ -262,6 +262,118 @@ Tennessee is one of the most permissive states in this series for firearms — c
 
 ---
 
+## Local Flavor
+
+### Cat Cafes
+
+- **Naughty Cat Cafe** — one of the largest cat cafes in the US; 30+ adoptable rescue cats in multiple themed lounges with posh furniture and art from around the world. A legitimately distinctive operation for a city Chattanooga's size.
+
+### Independent Coffee Shops
+
+- **Velo Coffee Roasters** — 414 Broad St (Southside); Chattanooga's flagship independent roaster, sourcing directly and roasting in-house; the reference point for specialty coffee in the city.
+- **Cadence Coffee** — St. Elmo neighborhood; specialty coffee in the shadow of Lookout Mountain; strong pour-over and espresso program, neighborhood anchor.
+- **Allgood's Used Books & Coffee** — combined used bookstore and coffee shop/deli; buy a book, order coffee or a fresh salad. One of the more distinctive multi-use independent spaces in the city.
+- **Mis Amores Bookshop Cafe** — one of the first Black-owned coffee shops in Chattanooga; Dominican-roasted coffee, pastries, and sandwiches alongside books. Notable cultural anchor.
+- **Rêve Coffee and Books** — part bookstore, part cafe; shelves stocked with local authors, house-made coffee and tea.
+
+### Independent Bookstores
+
+- **Allgood's Used Books & Coffee** — used books plus coffee and deli; serves the Northshore neighborhood; also listed under coffee — it's genuinely both.
+- **The Book & Cover** — independent bookstore opened November 2021 in a 1920s bungalow near the Northshore; books, reading nooks, and a cafe serving coffee and croissants. One of the more charming new independents in the series.
+- **Mis Amores Bookshop Cafe** — Black-owned, Dominican coffee and books; also listed under coffee.
+- **Rêve Coffee and Books** — local author focus; part of the Chattanooga indie bookseller scene.
+
+### Furniture Consignment
+
+- **Consignment furniture options** — Chattanooga's consignment scene is modest relative to larger cities in this series. Brentwood (Nashville suburb) has the closest well-known dedicated operation (Classy Cat Consignment Furniture). Locally, antique multi-dealer shops on Broad St and the Southside neighborhood offer the best hunting ground for furniture.
+
+### Hospital Systems & Medical Specialists
+
+- **Erlanger Health System** — 975 E 3rd St; independent nonprofit founded 1889, Chattanooga's academic medical center and the only Level I Trauma Center in the region. Baroness Hospital is the flagship; serves as a tertiary referral center for Southeast Tennessee and North Georgia.
+- **CHI Memorial Hospital (CommonSpirit)** — faith-based nonprofit; home to the CHI Memorial Rees Skillern Cancer Institute, the leading adult cancer treatment center in Southeast Tennessee. Strong oncology program relative to market size.
+- **Parkridge Health System (HCA)** — network of hospitals and freestanding ERs; Parkridge East, West, and Valley (behavioral health/addiction). Parkridge Medical Center began a $98M three-story patient tower expansion in May 2025, adding ICU capacity and 48 beds — one of the largest hospital construction projects in city history.
+
+### Crime & Controversy — Notable Incidents
+
+- **2025 crime reductions** — criminal homicides fell 48% in 2025 (14 vs. 27 in 2024); non-fatal shootings dropped 26%; overall crimes against persons and property combined down 15%. CPD cleared 94% of homicide cases — one of the strongest clearance rates in the country. The drop is approximately double the national trend.
+- **Colony Circle juvenile homicide, September 2025** — a 15-year-old was arrested and charged with Second Degree Murder in connection with a shooting on September 30 in the 100 block of Colony Circle; victim died from injuries. Highlighted ongoing juvenile firearms access concerns even within an improving overall trend.
+
+### Comedy Clubs
+
+- **Comedy Catch** — 1400 Market St, downtown; Chattanooga's primary dedicated comedy club; national touring headliners; 30+ years in operation; dinner comedy format.
+- **Tivoli Theatre** — historic 1921 movie palace now hosts comedy specials and touring performers alongside other live entertainment.
+- Comedy in Chattanooga is relatively limited for the city's size; the arts scene is active but comedy is not a dominant entertainment category here.
+
+### Catholic Churches
+
+- **Basilica of Saints Peter and Paul** — 214 E 8th St, downtown Chattanooga; founded 1852 by German immigrant Catholics; elevated to Minor Basilica by Pope Benedict XVI on September 29, 2011; the only basilica in Tennessee; Romanesque Revival architecture with exceptional interior; the most historically significant Catholic structure in the city.
+- **St. Jude Catholic Church** — Hixson (north of city); serves north Chattanooga suburbs.
+- **Resurrection Catholic Church** — East Ridge; serves southeast Chattanooga suburbs.
+- The Diocese of Knoxville administers the Chattanooga Catholic community.
+
+### Maker Spaces
+
+- **Chatt*Lab** — 1400 Market St (Chattanooga Choo Choo complex); community makerspace; 3D printing, laser cutting, electronics, vinyl cutting, sewing; member-supported with community drop-in hours.
+- **Chattanooga Public Library — 4th Floor** — one of the most acclaimed public library makerspaces in the US; 3D printers, recording studio, laser cutter, green screen studio, design software; free access with library card. The CPL 4th Floor was a nationally recognized model for public makerspace programs when it launched.
+- **CO.LAB** — startup accelerator with coworking and some prototyping resources; part of the broader Chattanooga innovation ecosystem.
+
+### Seasonal Recreation
+
+- **Tennessee River** — the river is central to Chattanooga's identity; the Riverwalk (13 miles), kayaking, paddleboarding, fishing. Ross's Landing (downtown riverfront) is the recreational hub.
+- **Lookout Mountain** — rises directly from the south edge of the city to 2,393 ft; Rock City (unique rock formations and sweeping views), Ruby Falls (underground waterfall), Point Park (Civil War battlefield). World-class hang gliding and paragliding launch from Lookout Mountain.
+- **Tennessee River Gorge** — immediately west of the city; 1,000 ft deep; technical rock climbing, whitewater kayaking, hiking. World-class bouldering at the Tennessee Wall (sandstone).
+- **Chickamauga Lake** — TVA reservoir immediately south of Chattanooga; boating, fishing, marinas; 35,400 acres.
+- **Snowboard/ski** — Tennessee ski terrain is limited (Ober Gatlinburg, 2 hrs east; modest vertical); Chattanooga residents looking for real skiing drive to Blue Ridge, NC (2.5–3 hrs) or go to Boone area resorts.
+- **Mountain biking** — Raccoon Mountain, Enterprise South Nature Park, and Signal Mountain provide technical trail systems within 30 min.
+
+### Annual Festivals & Events
+
+- **Riverbend Festival** (June, Coolidge Park / Ross's Landing) — 9-day multiday music festival on the Tennessee River waterfront; country, rock, blues; major regional festival; has included national headliners across multiple genres.
+- **RiverRocks** (October) — 10-day outdoor recreation festival; climbing competitions, kayaking, hang gliding, mountain biking, running events; celebrates Chattanooga's "Outdoor City" identity; unique among US city festivals in its outdoor sports focus.
+- **4 Bridges Arts Festival** (May, First Tennessee Pavilion) — juried fine arts festival; 150 artists; one of the Southeast's better regional art fairs.
+- **Chattanooga Market** (May–November, Main Street weekends) — year-round farmers market and artisan market; substantial weekly community event.
+- **Holiday Trail of Lights at Dollywood** — Dollywood (Pigeon Forge, 1.5 hrs east) is a major regional draw for Chattanooga residents; the Christmas season Dollywood experience is a significant regional holiday tradition.
+- **Nightfall** (June–August, Miller Plaza) — free weekly outdoor concert series; local and regional music; community gathering point.
+
+### Tourism
+
+Chattanooga receives approximately 8–10 million visitors annually, generating $1.3+ billion in economic impact. Tourism is driven by the Tennessee Aquarium (consistently ranked one of the top aquariums in the US; 750,000+ visitors annually), Lookout Mountain attractions (Rock City, Ruby Falls, Point Park), the Civil War battlefield tourism (Chickamauga & Chattanooga National Military Park), the outdoor recreation reputation (hang gliding, rock climbing, mountain biking), and the historic Choo Choo hotel complex. Chattanooga is strategically positioned for leisure tourism — within 2 hrs of Nashville, Atlanta, Knoxville, and Birmingham, making it a natural day-trip and weekend destination for the entire Southeast region. The Aquarium and nearby Tennessee River are the core tourist anchors.
+
+### Event Venues
+
+- **Von Braun Center** (Chattanooga) — Note: Von Braun Center is in Huntsville; Chattanooga's primary arena is the **Propst Arena / Chattanooga Convention Center** — 11,200-seat arena; concerts, minor league sports, conventions.
+- **UTC McKenzie Arena** — 11,218-seat arena at University of Tennessee at Chattanooga; home of UTC Mocs basketball; secondary concert venue.
+- **AT&T Field** (now **Hawkins Field at BRT Stadium**) — 6,362-capacity MiLB stadium; home of Chattanooga Lookouts (Reds AA affiliate); Tennessee River views; one of the most scenic ballparks in the minors.
+- **Tivoli Theatre** — 709 Broad St; 1,762-seat restored 1921 movie palace; Chattanooga Symphony & Opera home; Broadway touring productions; gorgeous Baroque Revival interior.
+- **Soldiers & Sailors Memorial Auditorium** — 4,000-seat civic auditorium; events, graduation ceremonies, concerts.
+
+### Sports Teams & Recreation Organizations
+
+- **Chattanooga Lookouts** (AA baseball, Cincinnati Reds affiliate) — BRT Stadium; one of the oldest minor league franchises in America (since 1885 in various forms).
+- **Chattanooga FC** (NISA / NPSL soccer) — community professional soccer.
+- **UTC Mocs** (NCAA Division I) — University of Tennessee at Chattanooga; football (McKenzie Arena for basketball; Finley Stadium 20,445 seats for football); Southern Conference.
+- **Chattanooga Red Wolves SC** (USL League One) — CHI Memorial Stadium, East Ridge; professional soccer.
+- **Chattanooga Symphony & Orchestra** — founded 1933; Tivoli Theatre; primary professional orchestra; one of the more active orchestras of its size in the Southeast.
+- **Chattanooga Ballet** — regional professional ballet company; community-based performances.
+- **Chattanooga Roller Girls** — flat-track roller derby; WFTDA-affiliated.
+
+### Motorsports
+
+- **Chattanooga Motorcar Festival** (annual, downtown) — vintage and exotic car show and racing exhibition on downtown streets; growing prestige event.
+- **Cleveland Speedway** — Cleveland, TN (30 min east); 0.4-mile paved oval; weekly Saturday night racing; one of the oldest active short tracks in Tennessee; NASCAR Late Model, Limited, street stocks.
+- **Boyd's Speedway** — Ringgold, GA (20 min southeast); 0.333-mile paved oval; Saturday night racing; stock cars, dirt late models.
+- **Chattanooga does not have a local drag strip** — nearest NHRA facilities are in Atlanta (~2 hrs) or Bristol (1:30 hr).
+
+### Shooting Ranges & Training Facilities
+
+- **Shooter's Depot** — Hixson; large indoor range + one of the largest retail gun stores in Tennessee; pistol and rifle lanes; training courses; family-friendly reputation.
+- **Guns & Leather** — indoor range; pistol bays; central Chattanooga location.
+- **Range USA Chattanooga** — indoor range; part of the national Range USA chain; pistol and rifle to 25 yards; memberships and day passes.
+- **Catoosa County Shooting Range** — Ringgold, GA (20 min); outdoor public range; rifle and pistol.
+- **Tennessee Wildlife Resources Agency (TWRA) ranges** — state public shooting ranges within the region; free or low-cost access.
+
+---
+
 ## Sources
 
 - [Chattanooga, TN Population 2026 — World Population Review](https://worldpopulationreview.com/us-cities/tennessee/chattanooga)

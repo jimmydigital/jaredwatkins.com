@@ -271,6 +271,131 @@ Comcast/Xfinity and Lumen/CenturyLink serve the metro. Fiber availability is imp
 
 ---
 
+## Local Flavor
+
+### Cat Cafes
+
+- **Catopia Cat Cafe** — 8001 Wyoming Blvd NE, Suite C-5, Paseo Village, NE Albuquerque. Full menu of coffee, tea, food, and desserts alongside adoptable cats; henna cat-tattoo events; $12/hour or $7/30 min admission. Albuquerque's only cat cafe.
+
+### Independent Coffee Shops
+
+- **Zendo Coffee** — downtown Albuquerque. 4.7★; architectural standout with skylights and plants; one of the city's most-praised specialty shops.
+- **Humble Coffee** — Nob Hill neighborhood. 4.5★; specialty focus; community anchor on Central Ave (Route 66).
+- **Little Bear Coffee** — Nob Hill. 4.6★; local favorite; evening wine bar program.
+- **Cutbow Coffee** — donates portion of proceeds to protect New Mexico waterways; ethically sourced; roaster with local mission.
+- **Flying Star Cafe** — multiple Albuquerque locations; New Mexico institution since 1987; full café menu with in-house baked goods alongside serious coffee; next door to Bookworks on Rio Grande.
+- *Note: Starbucks, Dunkin', and chains omitted.*
+
+### Independent Bookstores
+
+- **Bookworks** — 4022 Rio Grande Blvd NW, Shops on Rio Grande. Albuquerque's flagship independent; in business 41 years (founded 1984); community-owned LLC (15 members); 400–500 author events annually for adults, YA, and children. Next to Flying Star Cafe — a natural pairing.
+- **Treasure House Books & Gifts** — Old Town Albuquerque. Specialty focus on local authors, local history, and signed editions; multiple "Best Bookstore" wins from Albuquerque the Magazine; New Mexico Book Association award winner.
+- **Bookcase Used Books** — used books; independent.
+- **Don's Paperback Books** — used paperbacks; long-running Albuquerque institution.
+
+### Furniture Consignment
+
+- **Furniture Haven** — locally owned; buys and sells high-quality new and used furniture and home décor.
+- **La Casa Bella** — 5200 Eubank Blvd NE, Unit 11, The Promenade. Upscale consignment furniture, home décor, fashion jewelry; boutique feel.
+- **Furniture On Consignment** — gently used furniture; well-reviewed on Yelp.
+
+### Hospital Systems & Medical Specialists
+
+**UNM Health System (dominant academic system):**
+- **UNM Hospital** — 2211 Lomas Blvd NE. New Mexico's only Level I Trauma Center (accredited since 1983; ACS-verified); only NCI-designated cancer center in New Mexico (clinical trial access for newest treatments before public availability); New Mexico's only Primary Stroke Center; New Mexico's only dedicated children's hospital (UNM Children's); 1,700+ providers across 150+ specialties including 40+ pediatric subspecialties; Burns, behavioral health, bariatrics, orthopaedics.
+- As the state's only academic medical center, UNM effectively holds a near-monopoly on the most complex and specialized care in New Mexico — there is no competing Level I trauma center or NCI cancer center in the state.
+
+**Presbyterian Healthcare Services:**
+- **Presbyterian Hospital** — 1100 Central Ave SE. 453-bed acute care; largest hospital in New Mexico; not-for-profit; established 1908. Women's Center, Children's Center, Presbyterian Cancer Care, Heart and Vascular Care, surgical services. Full-service general acute care across the metro via multiple campuses.
+
+**Lovelace Health System:**
+- Third system serving the Albuquerque metro; primarily general acute care and outpatient services; rounds out coverage for non-academic specialty needs.
+
+*For complex cancer, trauma, stroke, or pediatric specialty care, UNM is the only option in the state — a meaningful consideration for anyone with chronic or serious health needs.*
+
+### Crime & Controversy — Notable Incidents
+
+- **2025 homicides:** 65 victims across 63 cases (94% solve rate) — significant improvement from 96 homicides in 2024, but still elevated at roughly double the national per-capita rate for a city Albuquerque's size.
+- **Ongoing gang-related violence:** Drive-by shooting feud between alleged gang factions in 2024 left one dead and produced retaliatory shootings across multiple neighborhoods; four men charged with murder. Gang violence remains a structural driver of Albuquerque's elevated homicide rate.
+- **Overall crime context:** Crime rate of ~58 per 1,000 residents — one of the highest in the US for a city its size. Auto theft has been a particular chronic problem. Improving but starting from a high baseline.
+- **2024 crime trend:** Aggravated assaults down 11%, shootings with injuries down 14% — directional improvement continuing into 2025.
+- No documented: youth curfews, cartel activity in the city proper, widespread violent protests, or antifa activity 2024–2026. (Drug trafficking from I-25 corridor is ongoing background context but not a specific incident.)
+
+### Comedy Clubs
+
+- **The Show at The Box** — Albuquerque's longest-running comedy venue; consistent local and touring acts.
+- **Quezada's Comedy Club at Santa Ana Star Casino** — Rio Rancho; national headliners in a casino-club setting; one of the metro's premium comedy venues.
+- **Hyena's Comedy Club** — local comedy and open mic scene.
+- **Albuquerque Funny Fiesta** (March) — annual comedy festival featuring regional and national performers.
+
+### Catholic Churches
+
+- **San Felipe de Neri Parish** — Old Town Albuquerque; founded 1706 by Franciscan missionaries; one of the oldest continuously operating Catholic parishes in the United States. The current adobe church (1793) is among New Mexico's most visited historical structures. Old Town itself developed around the parish.
+- **Cathedral Basilica of St. Francis of Assisi** — Santa Fe (1hr north); the mother church of the Archdiocese of Santa Fe, which covers Albuquerque. Constructed 1869 on the site of the original 1626 parish; French Romanesque architecture.
+- **Immaculate Conception Parish** — central Albuquerque; historic mission-era roots.
+
+### Maker Spaces
+
+- **FUSE Makerspace (CNM Ingenuity)** — 13,400 sq ft facility at Central New Mexico Community College; 3D printers, laser cutters, CNC routers, electronics, metalworking, woodworking; open to community members and students.
+- **Quelab** — nonprofit community hackerspace; electronics, 3D printing, woodworking, sewing/textiles; membership model.
+- **TechgarageNM** — tech-focused maker and startup support community.
+
+### Seasonal Recreation
+
+- **Sandia Mountains** — the Sandia range rises directly from the east edge of the city to 10,678 ft (Sandia Peak). The Sandia Peak Tramway (longest aerial tram in the US, 2.7 miles) runs from the northeast edge of the city to the summit — bikeable, hikeable, and skiable from inside the metro.
+- **Sandia Peak Ski Area** — skiing and snowboarding on the mountain above the city; accessible by tram or road. Unusual in that you can ski within city limits effectively.
+- **Rio Grande** — flows through Albuquerque; the Bosque (riverside cottonwood forest) provides 30+ miles of multi-use trails; kayaking and birdwatching.
+- **Jemez Mountains** — 1 hr northwest; Valles Caldera National Preserve, hot springs (Jemez Springs), additional hiking and skiing (Ski Santa Fe, 1.5 hrs).
+- **Elephant Butte Lake** — 2.5 hrs south; largest lake in NM; boating, fishing, water sports.
+
+### Annual Festivals & Events
+
+- **Albuquerque International Balloon Fiesta** (first two weeks of October) — the world's largest hot air balloon festival; 500–900 balloons, 1,000+ pilots, ~900,000 attendees; held since 1972; Albuquerque's defining event and one of the most photographed events in the world. The city's geography (stable morning winds, high desert light) makes it the global center for balloon flight.
+- **New Mexico State Fair** (September, Expo New Mexico) — one of the top state fairs in the US; 10 days, 500,000+ attendees; rodeo, livestock, chile cook-offs.
+- **Globalquerque** (September) — internationally acclaimed world music festival; 200+ performers from 50+ nations; two-day event at the National Hispanic Cultural Center.
+- **Dia de los Muertos** (November) — major civic celebration reflecting the city's deep New Mexican Catholic and Indigenous traditions; Old Town processions, ofrendas, art installations.
+- **Luminarias on the Paseo** (December, Albuquerque BioPark) — thousands of traditional luminaria bags lining the botanical garden; a New Mexico Christmas tradition.
+- **Gathering of Nations Powwow** (April, Tingley Coliseum) — the largest powwow in North America; 700+ tribes, 3,000+ dancers and singers.
+
+### Tourism
+
+Albuquerque receives approximately 6 million overnight visitors annually, with the metro generating significant day-trip traffic from regional visitors. The Balloon Fiesta alone draws visitors from 80+ countries and generates an estimated $180 million in direct economic impact. Other major draws include the historic Route 66 corridor through Central Ave, Old Town Albuquerque, Breaking Bad and Better Call Saul filming locations (tourism product actively marketed by the city), the Indian Pueblo Cultural Center, and proximity to Santa Fe and Taos. The broader New Mexico tourism economy (Santa Fe, Taos, Carlsbad Caverns, White Sands) benefits from Albuquerque as the primary air gateway.
+
+### Event Venues
+
+- **Kiva Auditorium** — 401 2nd St NW, Albuquerque Convention Center; 2,300-seat performing arts hall; primary indoor venue for touring concerts, Broadway shows, and performing arts.
+- **Popejoy Hall** (University of New Mexico) — 1,985 seats; UNM's concert hall; primary home of the New Mexico Philharmonic and touring Broadway series.
+- **Isleta Amphitheater** (formerly Hard Rock Pavilion) — Rio Bravo Blvd SW; 12,500-capacity outdoor amphitheater; primary large outdoor concert venue for the metro; national touring acts spring–fall.
+- **Tingley Coliseum** (Expo New Mexico) — 11,000-seat indoor arena; hockey, concerts, rodeo, Gathering of Nations Powwow, Monster Jam.
+- **Rio Rancho Events Center** — 7,500-seat multipurpose arena; NBA G League (New Mexico Ice Wolves hockey), concerts.
+- **Albuquerque Convention Center** — 167,000 sq ft; primary convention and large event facility.
+
+### Sports Teams & Recreation Organizations
+
+- **New Mexico United** (USL Championship, soccer) — Isotopes Park; one of the most passionate soccer supporter cultures in the country for a lower-division club; consistently high attendance.
+- **Albuquerque Isotopes** (AAA baseball, affiliate Colorado Rockies) — Rio Grande Credit Union Field at Isotopes Park; named after the fictional Springfield Isotopes from The Simpsons; 12,000-seat stadium.
+- **New Mexico Lobos** (NCAA Division I, University of New Mexico) — football at University Stadium (39,000 seats), basketball at The Pit (15,411 seats; one of the loudest arenas in college basketball); Mountain West Conference.
+- **New Mexico Ice Wolves** (NAHL/USPHL hockey) — Rio Rancho Events Center; primary ice hockey franchise in the metro.
+- **Albuquerque Roller Derby** — flat-track roller derby; active league.
+- **New Mexico Philharmonic** — primary professional orchestra; performs at Popejoy Hall; founded 2011 after the previous New Mexico Symphony Orchestra dissolved.
+- **New Mexico Ballet Company** — professional ballet company; Popejoy Hall home performances.
+
+### Motorsports
+
+- **Albuquerque Dragway** — 5001 Woodward Rd NE; NHRA-sanctioned drag strip; regular bracket racing and national event qualifying; one of the primary drag racing facilities in the Southwest.
+- **Sandia Speedway** — Albuquerque metro; oval dirt track; weekly racing; local stock car, sprint car racing.
+- Albuquerque lacks a major paved oval or road course; motorsports enthusiasts typically travel to Texas Motor Speedway (8 hrs) or Las Vegas Motor Speedway (6 hrs) for major events.
+
+### Shooting Ranges & Training Facilities
+
+- **Calibers — Indoor Shooting Range** — multiple locations (Albuquerque, Rio Rancho); largest indoor shooting range chain in New Mexico; pistol, rifle up to 100 yards, rentals, training courses.
+- **Shooting Range Industries / Duke City Shooting** — metro area indoor facilities; pistol and rifle lanes; classes.
+- **Rio Salado Sportsman's Club** — Rio Rancho; outdoor multi-discipline facility; rifle, pistol, trap/skeet/sporting clays; NRA-affiliated club; public shooting days available.
+- **New Mexico Shooting Sports** — outdoor range facility; long-range rifle to 300+ yards.
+- **Albuquerque Pistol & Rifle Club** — established shooting club; outdoor ranges; competitive shooting programs.
+
+---
+
 ## Sources
 
 - [Albuquerque Housing Market — Redfin](https://www.redfin.com/city/513/NM/Albuquerque/housing-market)

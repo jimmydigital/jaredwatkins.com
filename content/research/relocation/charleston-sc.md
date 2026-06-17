@@ -325,6 +325,150 @@ King tides (supermoon-driven extreme tides) regularly close roads in downtown Ch
 
 ---
 
+## Local Flavor
+
+### Cat Cafes
+
+- **Pounce Cat Cafe + Wine Bar** — 283 Meeting Street, downtown Charleston. The South's first cat cafe (opened 2016); partners with Charleston Animal Society; has facilitated over 2,700 cat adoptions. Cat lounge + wine and beer bar.
+
+### Independent Coffee Shops
+
+- **Kudu Coffee & Craft Beer** — 4 Vanderhorst St, downtown. Charleston's original specialty coffee pioneer (opened 2005); began with African single-origin focus; now full craft beer program alongside espresso; courtyard seating; evening live music.
+- **Second State Coffee** — multiple locations (Harleston Village and others). Minimalist-chic aesthetic; known as a quiet remote-work and reading environment; three locations citywide.
+- **The Harbinger Cafe & Bakery** — downtown Charleston. Beloved for creative breakfast menu alongside excellent espresso; strong local following.
+- **Drip Coffee** — multiple Charleston-area locations. Local small-batch roaster with a loyal neighborhood following.
+- *Note: Starbucks, Dunkin', and other chains have extensive presence throughout the metro but are omitted here.*
+
+### Independent Bookstores
+
+- **Philosophers & Fools** — downtown Charleston. Bookstore-bar hybrid; neighborhood anchor with curated selection and evening programming.
+- **All Good Books** — downtown Charleston. Community-focused shop; food and drink on-site; emphasis on accessibility and local author events.
+- **Ladybird Books** — opened late 2025; woman-owned; well-stocked general independent with welcoming atmosphere.
+- **Queer Haven Books** — 1219 Taylor St (as of Spring 2026). South Carolina's only independent LGBTQ-focused bookstore; recently relocated and expanding.
+
+### Furniture Consignment
+
+- **Consign Charleston** — 1610 Sam Rittenberg Blvd, West Ashley. 25,000 sq ft showroom; upscale gently used furniture, decorative accessories, artwork, and designer clothing.
+- **Carolina Consignment LLC** — West Ashley area. Well-regarded for furniture and home goods turnover; updated inventory.
+- **Lowcountry Resale** — active inventory with frequent updates; known for customer-friendly hold policies.
+
+### Hospital Systems & Medical Specialists
+
+**MUSC Health (Medical University of South Carolina)**
+The state's only academic medical center and a Level I Trauma Center; flagship campus on the downtown Charleston peninsula. Nationally recognized programs include:
+- MUSC Shawn Jenkins Children's Hospital — ranked #1 children's hospital in South Carolina (U.S. News 2025–2026); pediatric oncology, cardiology, and rare disease programs
+- Hollings Cancer Center — NCI-designated cancer center; clinical trials access
+- Heart and Vascular Center — cardiac surgery, structural heart, transplant
+- Neurosciences — stroke, epilepsy, neurosurgery
+- Organ transplant program (kidney, liver, heart)
+- MUSC is also partnering with Roper St. Francis to open a new 16-room pediatric inpatient unit at Bon Secours St. Francis Hospital (West Ashley, opening 2026)
+
+**Roper St. Francis Healthcare (Bon Secours)**
+The Lowcountry's largest private employer; 1,000+ physicians across nearly every specialty. Four hospitals:
+- Roper Hospital — 316 Calhoun St, downtown; adult acute care flagship
+- Bon Secours St. Francis Hospital — West Ashley; largest campus by volume
+- Roper St. Francis Mount Pleasant Hospital — East Cooper / Mount Pleasant
+- Roper St. Francis Berkeley Hospital — Summerville / Berkeley County
+- New hospital campus planned near I-26/526 interchange (North Charleston area)
+
+**Specialty access:** As an academic medical center city, Charleston has above-average specialist density for its size — oncology, cardiology, orthopedics, neurosurgery, transplant, and pediatric subspecialties are all available locally. MUSC's affiliation with the Medical University hospital network means patients generally do not need to travel to Columbia or Charlotte for tertiary care.
+
+### Crime & Controversy — Notable Incidents
+
+**Gang and drug trafficking:**
+- **May 2025** — Federal grand jury indicted 16 alleged Lowcountry gang leaders on drug trafficking and firearm charges. Seizures included ~60 kg cocaine, 1 kg methamphetamine, 24 lbs marijuana, 600g fentanyl, 500g heroin, thousands of pills, and 12 firearms.
+- **August 2025** — 18 members of a North Charleston street gang convicted and sentenced to a combined 144 years for drug trafficking and associated violence. Federal prosecution; characterized by prosecutors as a violent organized crew operating in the North Charleston/Chicora-Cherokee corridor.
+
+**Property crime:**
+- Business burglaries in North Charleston rose 73% and vehicle break-ins increased in early 2025 despite overall violent crime declining — a pattern common in tourism-heavy metros where property crime is opportunistic.
+
+**Context:** The gang activity is geographically concentrated in North Charleston (separate city) and specific peninsula neighborhoods. The expat and professional residential areas (Daniel Island, Mount Pleasant, West Ashley suburbs, downtown historic district) are not the locus of these incidents. Overall Charleston city violent crime fell ~36% in 2025.
+
+**No documented:** youth curfew enforcement campaigns, cartel-linked activity, organized antifa activity, or widespread violent protest incidents in the 2024–2026 period based on available local news.
+
+### Comedy Clubs
+
+- **Theatre 99** — 280 Meeting St; Charleston's flagship improv comedy theater; longform improv, sketch, and stand-up; training programs; the anchor of Charleston's comedy scene since 1999.
+- **Charleston Comedy Festival** (January) — annual multi-day festival across multiple venues; national and regional touring comedians; one of the Southeast's established winter comedy events.
+- **Threshold Repertory Theatre** — produces comedy alongside drama; part of Charleston's active live theater ecosystem.
+- Charleston lacks a large dedicated stand-up club (Comedy Zone / Funny Bone format); comedy is integrated into a broader live performance culture. The Charleston Music Hall and Woolfe Street Playhouse host touring comedians periodically.
+
+### Catholic Churches
+
+- **Cathedral of Saint John the Baptist** — 120 Broad St, downtown; the mother church of the Diocese of Charleston; completed 1907 in Gothic style (original 1854 structure destroyed by fire); the cathedral serves as the center of Catholic life in the Lowcountry.
+- **Saint Mary of the Annunciation** — 89 Hasell St; founded 1789; the oldest Roman Catholic church in the Carolinas and Georgia; a National Historic Landmark; the mother church of the Carolinas; among the most historically significant Catholic churches in the American South.
+- **Blessed Sacrament Parish** — West Ashley suburb; major suburban parish serving the west side of the metro.
+- **Saint Benedict Parish** — North Charleston; serves the largest concentration of working-class Catholic families in the metro.
+- Charleston has one of the most historically layered Catholic communities in the American South, rooted in the Irish, German, and French immigrant populations of the 18th and 19th centuries.
+
+### Maker Spaces
+
+- **Lowcountry Makerspace** — community fabrication shop serving the Charleston metro; 3D printing, laser cutting, woodworking, electronics.
+- **Charleston Digital Corridor** — tech hub ecosystem with coworking and some prototyping resources; supports the startup community around the Charleston tech scene.
+- **Coastal Carolina University and The Citadel** — both institutions have engineering and design fabrication labs; some community programming extends to the metro area.
+- **Harbor Entrepreneur Center** — startup support community; coworking and small-scale prototyping for early-stage founders.
+
+### Seasonal Recreation
+
+- **Atlantic Ocean beaches** — Sullivan's Island, Isle of Palms, Folly Beach, and Kiawah Island are 15–35 min from downtown. Year-round beach access; summer swimming, fall and spring surfing (Folly Beach), year-round fishing from the piers.
+- **Charleston Harbor** — one of the most active natural harbors on the East Coast; sailing, powerboating, kayaking. Charleston City Marina; Carolina Yacht Club (founded 1883); extensive recreational boating culture.
+- **Intracoastal Waterway / tidal creeks** — the Lowcountry's network of tidal creeks, estuaries, and barrier islands creates exceptional kayaking, paddleboarding, and fishing conditions. Inshore fishing (redfish, flounder, speckled trout) is world-class.
+- **Kiawah Island** — 25 min south; private barrier island community; Ocean Course (one of the most difficult courses in the US; PGA Championship host); beach access via public beach parking.
+- **No skiing** — flat coastal South Carolina; nearest skiing is western NC (4+ hrs). Not a mountain recreation market.
+- **Edisto Island, ACE Basin** — 1 hr south; the ACE Basin (Ashepoo-Combahee-Edisto) is one of the largest undeveloped estuarine systems on the East Coast; birding, fishing, kayaking; exceptional wildlife.
+
+### Annual Festivals & Events
+
+- **Spoleto Festival USA** (late May–early June, 17 days) — one of the most prestigious performing arts festivals in the United States; opera, chamber music, jazz, theater, dance, visual art; founded 1977 as the American counterpart to the Festival of Two Worlds (Spoleto, Italy); 150+ performances in historic venues across Charleston. The city's signature cultural event.
+- **MOJA Arts Festival** (September–October) — celebration of African and Caribbean arts and culture; reflects Charleston's deep African-American heritage and Gullah Geechee culture.
+- **Charleston Wine + Food Festival** (March, Marion Square) — one of the premier food and wine events in the Southeast; 100+ chefs, 200+ beverage producers; reflects Charleston's emergence as a national culinary destination.
+- **Charleston Beer Festival** / **Charleston Craft Beer Festival** — reflecting the city's growing craft brewery scene.
+- **Southeastern Wildlife Exposition (SEWE)** (February) — the largest wildlife art show and sale in the US; 40,000+ attendees; celebrates the Lowcountry's hunting, fishing, and outdoor heritage.
+- **Holiday Festival of Lights** (November–January, James Island County Park) — 750,000+ lights; drive-through and walk-through; major family Christmas event.
+- **St. Patrick's Day on the Horseshoe** / **King Street celebrations** — significant Irish Catholic heritage in Charleston; King Street transforms for St. Patrick's Day.
+
+### Tourism
+
+Charleston is one of the most visited cities in the United States relative to its size, attracting approximately 7–8 million visitors annually and generating $9+ billion in economic impact. Tourism is the dominant economic driver alongside Boeing and the port. Primary draws: the Historic District (one of the best-preserved Colonial and antebellum urban environments in the US; 18th and 19th century architecture on every block), Spoleto Festival USA, the beaches (Folly Beach, Isle of Palms, Sullivan's Island), culinary tourism (Charleston is consistently ranked among the top 5 food cities in the US by Conde Nast, Travel + Leisure, and Bon Appétit), plantation tourism (Magnolia Plantation, Middleton Place, Boone Hall), and Gullah Geechee cultural heritage tourism. Charleston also hosts a significant destination wedding industry — it is among the most popular wedding destinations in the US. Fort Sumter (where the Civil War began) draws substantial history-focused tourism. The city competes directly with Savannah for the same visitor demographic.
+
+### Event Venues
+
+- **North Charleston Coliseum** — 10,000-seat arena; primary large indoor venue for the metro; concerts, minor league hockey, family shows, conventions.
+- **Credit One Stadium** — Daniel Island; 7,100-seat tennis stadium (home of Credit One Charleston Open, WTA 500 event); also used for outdoor concerts.
+- **Gaillard Center** — 1,818-seat performing arts hall downtown; opened 2015; home of Charleston Symphony Orchestra; Broadway touring productions, Spoleto Festival performances.
+- **Charleston Music Hall** — 900 King St; 950-capacity restored 1920s hall; intimate touring concerts and events.
+- **Woolfe Street Playhouse** — 34 Woolfe St; intimate 150-seat live performance venue; comedy, music, theater.
+- **Joseph P. Riley, Jr. Park (The Joe)** — 360 Fishburne St; 6,000-capacity minor league baseball stadium; home of the Charleston RiverDogs (Yankees affiliate); opened 1997; one of the most respected minor league ballparks in the country.
+
+### Sports Teams & Recreation Organizations
+
+- **Charleston RiverDogs** (MiLB, Single-A, NY Yankees affiliate) — Joseph P. Riley Jr. Park; consistent community attendance; fun ballpark experience; Single-A affiliate.
+- **Charleston Battery** (USL Championship, soccer) — Patriots Point stadium (Mount Pleasant); one of the longest-running USL clubs; founded 1993.
+- **South Carolina Stingrays** (ECHL hockey) — North Charleston Coliseum; professional minor league hockey; consistent fan base.
+- **College of Charleston Cougars** (NCAA Division I) — basketball at TD Arena; baseball at Patriots Point; CAA Conference.
+- **The Citadel Bulldogs** (NCAA Division I FCS football) — Johnson Hagood Stadium (21,000 seats); Southern Conference; storied military college tradition.
+- **Charleston Derby Dames** — flat-track roller derby; WFTDA affiliated.
+- **Charleston Symphony Orchestra** — founded 1936; Gaillard Center; primary professional orchestra; one of the most active cultural institutions in the city.
+- **Charleston Jazz** — professional jazz ensemble; touring performances and residencies.
+
+### Motorsports
+
+- **Carolina Motorsports Park** — Kershaw, SC (1:30 northwest); road course, drag strip, and karting on the same complex; SCCA events, NASA events, track days; the primary road course serving the Charleston market.
+- **Sumter Dragway** — 1:30 northwest; local bracket racing and car shows; no major sanctioned events.
+- Myrtle Beach Speedway (30 min from Myrtle Beach, ~1:30 from Charleston) — oval track; limited active schedule.
+- Charleston lacks a local motorsports facility; the nearest active NHRA or NASCAR events are 3–4 hrs away (Charlotte, Bristol, Atlanta).
+
+### Shooting Ranges & Training Facilities
+
+- **ProShots Indoor Shooting Range** — North Charleston; one of the larger indoor ranges in the metro; pistol and rifle lanes; training courses; rentals.
+- **Shooter's Choice** — North Charleston; indoor pistol range; classes and competitive shoots.
+- **Low Country Shooting Sports** — outdoor range facility serving the Charleston metro; rifle and pistol.
+- **Palmetto Shooting Complex** — Edisto (40 min west); extensive outdoor facility; trap/skeet/sporting clays, pistol, rifle; one of the more complete outdoor shooting sports facilities in the Lowcountry.
+- **Swamp Fox Shooting Range** — Berkeley County; outdoor; long-range rifle capability.
+- South Carolina has among the most permissive shooting range laws in the country; private range culture is significant in the rural surrounding counties accessible within 30–45 min of Charleston.
+
+---
+
 ## Sources
 
 - [Cost of Living in Charleston, SC 2026 — Houzeo](https://www.houzeo.com/cost-of-living/south-carolina/charleston)

@@ -256,6 +256,139 @@ Excellent. Fiber available from CenturyLink/Lumen, Comcast/Xfinity, and municipa
 
 ---
 
+## Local Flavor
+
+### Cat Cafes
+
+- **NEKO: A Cat Cafe** — 519 E Pine St, Capitol Hill; the primary cat cafe in Seattle, open daily with extended evening hours. Reservation-based; adoptable cats available. Also has a Bellingham location.
+- **Seattle Meowtropolitan** — 1225 N 45th St (Wallingford); session-based cat lounge ($10/25 min, $20/50 min); second option for the north end of the city.
+
+### Independent Coffee Shops
+
+Seattle invented the modern American coffee culture and the independent scene remains exceptional despite — or alongside — Starbucks' dominance.
+
+- **Victrola Coffee Roasters** — 310 E Pike St, Capitol Hill (flagship); roasting and serving since 2000; one of Seattle's defining independent roasters. Multiple locations but Capitol Hill is the original.
+- **Caffe Vita** — multiple locations (Capitol Hill, South Lake Union, Ballard); pioneering micro-roaster, ethically sourced, one of the city's oldest serious specialty operations.
+- **Lighthouse Roasters** — 400 N 43rd St (Fremont); near the Ballard Locks; cozy, classic, neighborhood roaster with a loyal following for 30+ years.
+- **Analog Coffee** — 235 Summit Ave E, Capitol Hill; small-format specialty shop; one of the better pour-over-focused operations in the city.
+- **Seattle Coffee Works** — 107 Pike St (Pike Place area); third-wave flagship in the tourist corridor that actually delivers; downtown reference point for specialty coffee.
+- **Twice Sold Tales** — 1833 Harvard Ave, Capitol Hill; used bookstore with resident rescue cats on the premises — not a cat cafe per se, but a genuine Seattle institution where cats roam the shelves.
+
+### Independent Bookstores
+
+- **Elliott Bay Book Company** — 1521 10th Ave, Capitol Hill; Seattle's flagship independent since 1973, moved from Pioneer Square to Capitol Hill in 2010. One of the great bookstores in the country — 150,000+ titles, author events year-round, excellent staff picks.
+- **Twice Sold Tales** — 1833 Harvard Ave, Capitol Hill; used bookstore open since 1984 with resident cats; eclectic, deep used inventory; a Seattle character shop.
+- **Magus Books** — 1408 NE 42nd St, University District; serious used and out-of-print bookstore near UW; strong in humanities, literature, and academic titles.
+- **Third Place Books** — multiple locations (Lake Forest Park, Seward Park, Ravenna); community-focused independent with strong new and used sections, cafe, and event programming. The suburban/neighborhood complement to Elliott Bay.
+
+### Furniture Consignment
+
+- **Ravenna Gardens / consignment corridor** — Seattle has a healthy consignment furniture scene spread across neighborhoods; the Eastlake, Capitol Hill, and Ballard corridors have the highest concentration.
+- **Lifelong Thrift Store** — multiple locations; large-format resale benefiting HIV/AIDS services; reliable for furniture finds.
+- **Junk Pros** — estate sale operator that runs periodic consignment; feeds quality furniture into the used market from Seattle's estate turnover.
+- **Value Village / Savers** — not independent consignment, but the Pacific Northwest Savers/Value Village chain has unusually well-stocked Seattle-area locations due to the city's donation culture.
+
+### Hospital Systems & Medical Specialists
+
+- **UW Medicine** — flagship: UW Medical Center–Montlake, 1959 NE Pacific St; Level I Trauma Center, NCI-designated Fred Hutch Cancer Center (merger formalized 2022), top-10 nationally in multiple specialties. The academic medical system for the Pacific Northwest — strongest in oncology, neurology, transplant, and research.
+- **Providence Swedish** — 5 hospitals, 1,500+ beds, 115+ primary and specialty clinics across the metro. Providence Swedish committed to a $1.3B new inpatient tower (12-story North Tower, 24 OR suites, 72 ICU beds, 31-room ED) expected fall 2027 — the most ambitious construction project in the system's history. Note: Swedish confirmed 296 layoffs in 2025 amid hospital financial pressure.
+- **Virginia Mason Franciscan Health** — Virginia Mason Medical Center (1100 9th Ave) is the third major downtown system; known for lean process innovation and specialty care; merged with Franciscan Health (CommonSpirit) in 2021.
+
+### Crime & Controversy — Notable Incidents
+
+- **2025 crime reductions** — 37 homicides in 2025, down 36% from 58 in 2024; lowest since pre-COVID. Overall crime down 18% citywide. SPD cleared 86% of homicides (vs. 57% in 2024 and 61% national average). King County reported 22% drop in overall crime for 2025.
+- **Rainier Beach High School shootings** — two students were shot and killed in separate incidents; announced alongside the positive 2025 year-end crime statistics, underscoring persistent youth gun violence concerns.
+- **Violent weekend, August 2025** — three deadly shootings in four days brought the year's homicide count to 25 at that point; concentrated in the SODO and Rainier Valley corridors.
+- **Drug market/open-air dealing** — Seattle's post-pandemic downtown recovery has been complicated by persistent open-air drug markets particularly around 3rd Ave and Pike/Pine. The city's response has been contested politically and practically throughout 2024–2025.
+- **SPD staffing** — department hired 167 officers in 2025 (net +94), the largest net increase in years, credited by leadership as a factor in crime reduction. Chronic understaffing had been a defining issue since 2020.
+
+### Comedy Clubs
+
+- **Comedy Underground** — 109 S Washington St, Pioneer Square; Seattle's oldest comedy club (since 1981); intimate 150-seat room; national touring headliners; the foundational venue of Seattle's comedy scene.
+- **Laughs Comedy Club** — Northgate; northeast Seattle; national acts; second major dedicated comedy venue in the metro.
+- **The Triple Door** — Cherry St; upscale live performance venue hosting comedy alongside music; dinner theater format.
+- **Bumbershoot Comedy Stage** (Labor Day Weekend, Seattle Center) — annual arts festival features major comedy acts; multi-stage format with comedy integrated into one of the Pacific Northwest's signature cultural events.
+
+### Catholic Churches
+
+- **St. James Cathedral** — 804 9th Ave, First Hill; the mother church of the Archdiocese of Seattle; current building 1907 (rebuilt 1994 after dome collapse); soaring Italian Renaissance interior; 65 stained glass windows; designated National Historic Landmark.
+- **St. Patrick Parish** — Capitol Hill; significant parish in the central neighborhoods.
+- **Holy Rosary Parish** — Edmonds (north suburb); serves the north King County Catholic community.
+- The Archdiocese of Seattle is the second-largest Catholic province on the West Coast after Los Angeles; Archbishop covers Washington and Alaska.
+
+### Maker Spaces
+
+- **Metrix Create:Space** — Capitol Hill; electronics, 3D printing, CNC, laser cutting; one of Seattle's original hackerspaces; membership and drop-in hours.
+- **Seattle Makers** — community fabrication space; woodworking, metalworking, electronics.
+- **University of Washington CoMotion Labs** — university innovation hub with maker resources and fabrication access for students and affiliated community members.
+- **Ada's Technical Books and Café** — Capitol Hill; technical bookstore with embedded community maker programming and events.
+
+### Seasonal Recreation
+
+- **Skiing — outstanding access:** Seattle is one of the few large US cities with world-class skiing within 1–1.5 hrs. Snoqualmie Pass (52 mi east, I-90; 4 resorts: Summit West/Central/East/Alpental, 1,994 skiable acres) is the closest. Stevens Pass (1:45 north on US-2) is larger and less crowded. Crystal Mountain (2.5 hrs south) is Washington's highest ski area; regularly rated best ski area in the Pacific Northwest.
+- **Puget Sound / water access:** Seattle is surrounded by water. Ferry system accesses islands (Bainbridge, Vashon, Whidbey); Puget Sound sailing, kayaking, and paddleboarding are year-round activities for those who embrace the Pacific Northwest marine layer.
+- **Boating:** Lake Union (center of the city), Lake Washington (east side), and Portage Bay; Seattle is one of the most boat-dense cities per capita in the US. Houseboats on Lake Union (Sleepless in Seattle). Montlake Cut connects the lakes to Puget Sound via the Ship Canal.
+- **Hiking:** Mount Rainier National Park (1:40 south; 14,411 ft; one of the most iconic mountains in the world); North Cascades National Park (3 hrs northeast); Alpine Lakes Wilderness; Olympic National Park (ferry + drive, 2–3 hrs). The Pacific Crest Trail is accessible from multiple Cascade trailheads within 1–2 hrs.
+- **Cycling:** Burke-Gilman Trail (27 miles through city); extensive off-road trail network in the Cascades.
+
+### Annual Festivals & Events
+
+- **Bumbershoot** (Labor Day Weekend, Seattle Center) — Seattle's signature arts festival; music, comedy, visual art; held since 1971; multiple stages; 80,000+ attendees; Labor Day weekend anchor event.
+- **Northwest Folklife Festival** (Memorial Day Weekend, Seattle Center) — 200,000+ attendees; free folk music, dance, and cultural arts; one of the largest folk festivals in North America.
+- **Taste Washington** (March, Seattle Center) — the largest single-region wine event in the nation; 200+ Washington wineries; 5,000+ wines poured; reflects Washington's emergence as one of the world's premier wine regions.
+- **Seattle International Film Festival (SIFF)** (May–June) — one of the largest and most highly attended film festivals in the US; 28 days, 400+ films from 80+ countries; 150,000+ attendees.
+- **Seattle Pride / LGBTQ Pride** (late June) — one of the largest Pride celebrations in the Pacific Northwest; 150,000+ march and 350,000+ spectators.
+- **Seafair** (July–August) — summer event series; Blue Angels airshow, hydroplane races on Lake Washington, Torchlight Parade; Seattle's oldest festival tradition.
+- **Oktoberfest Leavenworth** (October, Leavenworth WA, 2.5 hrs east) — Bavarian-themed Washington mountain town; one of the most attended Oktoberfest celebrations west of the Mississippi; a major Seattle-region day-trip event.
+
+### Tourism
+
+Seattle attracted approximately 40 million visitors in 2024, generating $7.8 billion in visitor spending. Tourism is driven by Pike Place Market (one of the most visited public markets in the world; 10+ million visits annually), the Space Needle (1.5 million visitors/year), Amazon headquarters tourism (The Spheres), tech company tourism (Amazon, Microsoft campus in Redmond), Puget Sound and Olympic Peninsula nature tourism, skiing at the Cascades, and cruise ship traffic (Seattle is the major Alaska cruise embarkation port; 1.2+ million cruise passengers annually). The Seattle Art Museum, Chihuly Garden and Glass, and the Museum of Pop Culture add significant cultural tourism. Business travel is substantial due to the tech and aerospace (Boeing) industries. International visitors are drawn primarily from Canada, UK, Germany, Japan, and Australia.
+
+### Event Venues
+
+- **Lumen Field** — 68,740-seat football/soccer stadium; home of Seattle Seahawks (NFL) and Seattle Sounders FC (MLS); one of the loudest stadiums in the NFL (held world record for crowd noise); retractable roof canopy amplifies noise.
+- **T-Mobile Park** — 47,929-seat baseball stadium; home of Seattle Mariners (MLB); opened 1999; retractable roof; one of the most fan-friendly ballparks in the AL.
+- **Climate Pledge Arena** — 17,100-seat arena; opened 2021 in the renovated Seattle Center; home of Seattle Kraken (NHL) and Seattle Storm (WNBA); world's first net-zero certified arena; primary large indoor concert venue; national touring headliners.
+- **Acrisure Stadium / Husky Stadium** (University of Washington) — 70,083-seat; UW Huskies football; remarkable waterfront setting on Lake Washington; Big Ten Conference.
+- **Paramount Theatre** — 2,807-seat 1928 movie palace; downtown Seattle; Broadway touring series and concerts.
+- **Benaroya Hall** — 2,500-seat S. Mark Taper Auditorium + 540-seat Illsley Ball Nordstrom Recital Hall; home of Seattle Symphony; one of the finest concert halls in the US; acoustically exceptional.
+- **McCaw Hall** (Seattle Center) — 2,900-seat; home of Pacific Northwest Ballet and Seattle Opera.
+- **Showbox** — 1,100-capacity historic music venue; Pioneer Square; one of Seattle's most beloved rock and indie music rooms.
+
+### Sports Teams & Recreation Organizations
+
+- **Seattle Seahawks** (NFL) — Lumen Field; NFC West; Super Bowl champions 2014; Legion of Boom era; 12th Man culture is one of the most intense fan identities in the NFL.
+- **Seattle Mariners** (MLB) — T-Mobile Park; AL West; Ichiro Suzuki era; Ken Griffey Jr. era; longest current playoff drought broken in 2022.
+- **Seattle Kraken** (NHL) — Climate Pledge Arena; expansion franchise 2021; rapidly built passionate fanbase.
+- **Seattle Sounders FC** (MLS, soccer) — Lumen Field; MLS Cup champions 2016, 2019; consistently among the top MLS attendance figures; 40,000+ average home gate.
+- **Seattle Storm** (WNBA) — Climate Pledge Arena; 4 WNBA Championships (2004, 2010, 2018, 2020); one of the most decorated WNBA franchises.
+- **Seattle Seawolves** (Major League Rugby) — rugby; MLR championship team.
+- **Seattle Thunderbirds** (WHL, junior hockey) — Climate Pledge Arena; Western Hockey League; one of the stronger junior hockey programs on the West Coast.
+- **University of Washington Huskies** (NCAA Division I, Big Ten) — football at Husky Stadium; crew (UW crew is one of the premier rowing programs in the US — crew races on Lake Washington are a Seattle spring tradition); Big Ten Conference debut 2024.
+- **Rat City Rollergirls** — WFTDA flat-track roller derby; one of the longest-running and most well-known roller derby leagues in the country.
+- **Seattle Symphony** — founded 1903; Benaroya Hall; one of the top US orchestras; Grammy Award winner; 52-week season.
+- **Seattle Opera** — McCaw Hall; one of the top regional opera companies in the US; Wagner Ring cycle is a major international event every few years.
+- **Pacific Northwest Ballet** — McCaw Hall; one of the finest ballet companies in the US; $80M+ annual budget; exceptional school.
+
+### Motorsports
+
+- **Pacific Raceways** — Kent (25 min south); 2.25-mile road course + 0.25-mile drag strip; hosts NHRA Pacific Nationals (NHRA national event); SCCA, NASA, motorcycle events; the primary motorsports complex serving the Seattle metro; road course and drag available on the same property.
+- **Evergreen Speedway** — Monroe (40 min northeast); 0.75-mile NASCAR-sanctioned oval + 0.25-mile oval + 0.25-mile dirt oval; the most active short track facility in the Pacific Northwest; NASCAR Whelen All-American Series; weekly Saturday racing.
+- **Bremerton Raceway** — Bremerton (ferry + drive); drag strip; local bracket racing.
+- **Seattle's motorsports community** has a significant vintage and rally car culture; the Pacific Northwest has a strong rally racing tradition; Olympus Rally and Oregon Trail Rally draw national fields.
+
+### Shooting Ranges & Training Facilities
+
+- **Wade's Eastside Guns** — Bellevue (15 min east); large indoor range + one of the largest gun retailers in the Pacific Northwest; pistol and rifle lanes; training courses; one of the Seattle metro's premier shooting facilities.
+- **West Coast Armory** — Bellevue; indoor range + retail; training; well-regarded.
+- **Renton Fish & Game Club** — Renton (20 min south); outdoor club range; rifle, pistol, shotgun sports; member and guest access.
+- **Kitsap Rifle and Revolver Club** — Bremerton (ferry, 30 min); outdoor range; long-range rifle to 600 yards; pistol; clay sports; the most comprehensive outdoor shooting facility accessible from Seattle.
+- **Kenmore Range** (Kenmore Gun Club) — north Seattle suburbs; outdoor range; rifle and pistol.
+- Washington State has some gun restrictions (magazine limits of 10 rounds effective July 2022; 10-day waiting period; universal background checks; red flag law; under-21 purchase restrictions for semi-automatic rifles) that are more restrictive than most cities in this series. Constitutional carry is not available; concealed carry requires a CPL (Concealed Pistol License). Range culture remains active but the regulatory environment is more restrictive than Southern cities.
+
+---
+
 ## Sources
 
 - [Cost of Living in Seattle 2026 — Salary.com](https://www.salary.com/research/cost-of-living/seattle-wa)
