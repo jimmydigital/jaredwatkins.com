@@ -191,6 +191,10 @@ Structured evaluation of cities and counties as potential long-term relocation d
 
 This is not a travel guide. The goal is an honest, data-driven read on what it would actually be like to live somewhere for the next 20 years.
 
+## Comparison
+
+- [US City Comparison — Crime, Diversity & Affordability]({{< relref "city-comparison.md" >}}) — Radar chart comparison of all 19 US cities on normalized safety, demographic diversity, and housing affordability scores
+
 ## Profiles
 
 - [Albuquerque, NM]({{< relref "albuquerque-nm.md" >}}) — Low cost of living with strong Sandia/Kirtland/Intel defense-and-lab economy; serious crime, Rio Grande water stress, and seismic risk are the primary concerns
