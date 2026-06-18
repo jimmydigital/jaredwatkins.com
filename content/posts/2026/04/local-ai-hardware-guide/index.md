@@ -1,7 +1,7 @@
 ---
 title: Picking hardware for local AI inference in 2026
 date: 2026-04-07
-lastmod: 2026-06-02
+lastmod: 2026-06-18
 draft: false
 description: A practical guide to choosing local AI hardware -- what actually matters, what fits where, and why hardware vendors keep getting away with marketing nonsense.
 tags:
@@ -56,9 +56,13 @@ Discrete GPUs win because they can drink from a firehose. They lose the moment t
 
 Apple's pitch is simple: not the fastest, but more unified memory in a quiet box than anything else you can buy.
 
-The Mac Studio M3 Ultra is still the headliner here. Up to 512GB of unified memory at 819 GB/s. That's enough to run a Llama 4 Maverick (400B MoE) at quantization, or DeepSeek-V3 (671B MoE) with aggressive quantization. Nothing else in a single consumer box gets anywhere near that capacity. The 512GB config is reportedly hard to find right now. Apple briefly pulled that upgrade option but the 96GB base config starts around $3,999 and the 192GB/256GB configs sit in the $6,000 to $10,000 range depending on CPU tier.
+Apple's current Mac Studio lineup spans two chips, and they're not interchangeable for AI work: the M3 Ultra has more memory bandwidth and more total memory than the M4 Max, which makes it the better inference box despite being the older chip.
 
-Below that you've got the Mac Studio M4 Max (up to 128GB, 546 GB/s, from around $2,000), which does about 20 to 25 tok/s on a 70B Q4 model and around 50 tok/s on 8B. The MacBook Pro M5 Max (up to 128GB, 460 to 614 GB/s, from around $3,900) is in the same ballpark. The MacBook Pro M5 Pro (up to 64GB, 307 GB/s, from around $2,200) lands around 10 to 15 tok/s on 70B when it fits. The Mac mini M4 Pro (up to 64GB, 273 GB/s, from around $1,400) is at the bottom of this tier, roughly 5 to 8 tok/s on 70B (usable for background work, slow for interactive use).
+The Mac Studio M3 Ultra tops out at 96GB of unified memory at 819 GB/s. That's enough to run Llama 4 Scout (109B MoE) at reasonable quantization, or DeepSeek-R1 70B at Q8 with room to spare. The 96GB config starts around $3,999. There is no higher memory option — Apple does not offer a 192GB or 512GB M3 Ultra configuration; the M3 Ultra is a single fixed memory tier.
+
+The Mac Studio M4 Max (up to 64GB, 546 GB/s on the upgraded 40-core GPU config, from around $1,999) does about 20 to 25 tok/s on a 70B Q4 model and around 50 tok/s on 8B. If you want top-of-line Mac Studio and don't need the CUDA stack, the M3 Ultra is currently the stronger inference box — more bandwidth, more memory ceiling. The M4 Max is faster on smaller models where 64GB is enough, and it's cheaper. But if you're buying for capacity, the M3 Ultra is the one to get.
+
+The MacBook Pro M5 Max (up to 128GB, 460 to 614 GB/s, from around $3,900) is in the same ballpark as the M4 Max Mac Studio. The MacBook Pro M5 Pro (up to 64GB, 307 GB/s, from around $2,200) lands around 10 to 15 tok/s on 70B when it fits. The Mac mini M4 Pro (up to 64GB, 273 GB/s, from around $1,400) is at the bottom of this tier, roughly 5 to 8 tok/s on 70B (usable for background work, slow for interactive use).
 
 Apple wins when you want one box, you want silence, and you want to run models that simply won't fit on a normal GPU. It loses when raw tokens per second and concurrency start to matter more than everything else.
 
@@ -154,9 +158,9 @@ The big architectural shift is MoE (Mixture of Experts). These models have enorm
 
 **48 to 64GB (Mac Studio M4 Max, MacBook Pro M5 Pro, Framework Desktop 64GB):** Dense 30 to 40B models at Q4 land comfortably here. Llama 4 Scout (109B MoE, 17B active) fits at reasonable quantization. Qwen3 235B-A22B MoE needs more room, but the smaller Qwen3 variants are excellent here. This is where local AI starts feeling like a real tool rather than an experiment.
 
-**96 to 128GB (RTX PRO 6000, Mac Studio M3 Ultra base, DGX Spark, Framework Desktop 128GB):** Llama 4 Scout at Q8, DeepSeek-R1 70B for serious reasoning, Qwen3 235B-A22B MoE with 22B active parameters. The DGX Spark's CUDA stack gives it an edge for frameworks that are optimized for NVIDIA. GPT-OSS-120B (OpenAI's first open-weights release in years) also fits here. Single 80GB GPU in FP8, or 128GB unified at Q4.
+**96GB (Mac Studio M3 Ultra, RTX PRO 6000, DGX Spark + 128GB configs):** Llama 4 Scout at Q8, DeepSeek-R1 70B for serious reasoning, Qwen3 235B-A22B MoE with 22B active parameters. The DGX Spark and Framework Desktop stretch to 128GB which adds some headroom. The Mac Studio M3 Ultra maxes at 96GB — that's the only memory tier available. GPT-OSS-120B also fits here at Q4.
 
-**192 to 512GB (Mac Studio M3 Ultra maxed, multi-GPU rigs):** Llama 4 Maverick (400B MoE, 17B active), DeepSeek-V3 (671B MoE) at aggressive quantization, Qwen3 235B at higher precision. If you need frontier-class open source models running locally with zero cloud dependency, this is currently the only consumer-ish path to get there.
+**128GB+ (multi-GPU rigs, DGX Spark, Framework Desktop):** The Mac Studio M3 Ultra doesn't reach this tier — its ceiling is 96GB. To get to 128GB or beyond in a single box you're looking at the DGX Spark, Framework Desktop, or multi-GPU NVIDIA setups. Llama 4 Maverick (400B MoE, 17B active) and DeepSeek-V3 (671B MoE) at aggressive quantization need this range or higher. If you need frontier-class open source models running locally with zero cloud dependency, multi-GPU is currently the path to get there.
 
 ## The quadrant chart
 
@@ -166,28 +170,27 @@ Here's how these platforms map when you combine memory capacity, bandwidth, and 
 quadrantChart
     title Local AI Hardware - Memory Performance vs Cost 2026
     x-axis Low Cost --> High Cost
-    y-axis Low Performance --> High Performance
+    y-axis Low Performance - bandwidth weighted --> High Performance - bandwidth weighted
     quadrant-1 High Perf High Cost
     quadrant-2 High Perf Low Cost
     quadrant-3 Low Perf Low Cost
     quadrant-4 Low Perf High Cost
-    RTX PRO 6000: [0.98, 0.75]
-    Mac Ultra 192GB: [0.94, 0.7]
-    RTX 5090: [0.45, 0.52]
-    MBP M5 Max 128GB: [0.61, 0.43]
-    Mac Ultra 96GB: [0.42, 0.42]
-    DGX Spark: [0.51, 0.35]
-    Radeon PRO W7900: [0.37, 0.29]
-    Framework 128GB: [0.16, 0.34]
-    RTX 4090: [0.23, 0.26]
-    RX 7900 XTX: [0.04, 0.38]
-    Framework 64GB: [0.13, 0.32]
-    TT Wormhole: [0.09, 0.26]
-    TT Blackhole: [0.16, 0.20]
-    Arc Pro B65: [0.04, 0.14]
-    Mac mini M4 Pro: [0.12, 0.09]
-    MacBook Air M5: [0.07, 0.06]
-    SpacemiT K3: [0.03, 0.03]
+    RTX PRO 6000: [0.99, 0.91]
+    RTX 5090: [0.48, 0.72]
+    Mac Studio M3 Ultra: [0.45, 0.54]
+    MBP M5 Max 128GB: [0.59, 0.53]
+    DGX Spark: [0.54, 0.43]
+    Framework 128GB: [0.21, 0.43]
+    Radeon PRO W7900: [0.40, 0.42]
+    RTX 4090: [0.27, 0.40]
+    RX 7900 XTX: [0.08, 0.39]
+    Arc Pro B65: [0.05, 0.28]
+    Mac mini M4 Pro: [0.11, 0.27]
+    Framework 64GB: [0.18, 0.25]
+    TT Blackhole: [0.15, 0.22]
+    TT Wormhole: [0.10, 0.21]
+    MacBook Air M5: [0.10, 0.11]
+    SpacemiT K3: [0.01, 0.02]
 ```
 
 <details>
@@ -197,47 +200,46 @@ The score on the vertical axis synthesizes two things: memory capacity (GB) and 
 
 **Scoring method:**
 
-I normalized both dimensions independently across the full set of platforms (0 = worst in set, 1 = best in set), then combined them with equal weighting (50/50). The formula is:
+I normalized both dimensions independently across the full set of platforms (0 = worst in set, 1 = best in set), then combined them with bandwidth weighted at 65% and capacity at 35%. The y-axis is a **tokens-per-second proxy**, not a general memory score. Bandwidth drives tok/s directly; capacity determines which models fit but doesn't affect how fast they run once loaded. A platform with more memory but slower bandwidth will score lower here even if it can run larger models — that tradeoff is real and intentional. The formula is:
 
 ```
 capacity_score = (GB - min_GB) / (max_GB - min_GB)
 bandwidth_score = (GB_s - min_GB_s) / (max_GB_s - min_GB_s)
-memory_performance = (capacity_score + bandwidth_score) / 2
+performance_score = 0.35 * capacity_score + 0.65 * bandwidth_score
 ```
 
-The dataset spans 24GB (low end) to 192GB (practical max shown) for capacity, and 153 GB/s (MacBook Air M5) to 1792 GB/s (RTX 5090 / PRO 6000) for bandwidth.
+The dataset spans 8GB (low end) to 128GB (max single-box config shown) for capacity, and 51 GB/s (SpacemiT K3) to 1792 GB/s (RTX 5090 / PRO 6000) for bandwidth.
 
-**Cost axis:** Normalized from ~$750 (Arc Pro B65) to ~$8,500 (RTX PRO 6000). I used street price midpoints where ranges exist.
+**Cost axis:** Normalized from ~$299 (SpacemiT K3) to ~$8,500 (RTX PRO 6000). I used street price midpoints where ranges exist.
 
-| Platform | Memory (GB) | Bandwidth (GB/s) | Cap Score | BW Score | Mem Score | Cost ($) | Cost Score |
+| Platform | Memory (GB) | Bandwidth (GB/s) | Cap Score | BW Score | Perf Score | Cost ($) | Cost Score |
 |---|---|---|---|---|---|---|---|
-| RTX PRO 6000 | 96 | 1792 | 0.43 | 1.00 | 0.71 | 8,500 | 1.00 |
-| Mac Studio M3 Ultra 192GB | 192 | 819 | 1.00 | 0.41 | 0.70 | 8,000 | 0.94 |
-| RTX 5090 | 32 | 1792 | 0.05 | 1.00 | 0.52 | 4,200 | 0.45 |
-| MacBook Pro M5 Max 128GB | 128 | 546 | 0.62 | 0.24 | 0.43 | 5,500 | 0.61 |
-| Mac Studio M3 Ultra 96GB | 96 | 819 | 0.43 | 0.41 | 0.42 | 3,999 | 0.42 |
-| DGX Spark | 128 | 273 | 0.62 | 0.07 | 0.35 | 4,699 | 0.51 |
-| Framework 128GB | 128 | 256 | 0.62 | 0.06 | 0.34 | 1,999 | 0.16 |
-| Radeon PRO W7900 | 48 | 864 | 0.14 | 0.43 | 0.29 | 3,600 | 0.37 |
-| RTX 4090 | 24 | 1008 | 0.00 | 0.52 | 0.26 | 2,500 | 0.23 |
-| RX 7900 XTX | 24 | 960 | 0.00 | 0.49 | 0.25 | 950 | 0.03 |
-| Mac mini M4 Pro 64GB | 64 | 273 | 0.24 | 0.07 | 0.16 | 1,400 | 0.08 |
-| Arc Pro B65 | 32 | 608 | 0.05 | 0.28 | 0.16 | 750 | 0.00 |
-| Framework 64GB | 64 | 256 | 0.24 | 0.06 | 0.15 | 1,599 | 0.11 |
-| TT Blackhole p150 | 32 | 512 | 0.05 | 0.22 | 0.13 | 1,400 | 0.08 |
-| TT Wormhole n300 | 24 | 576 | 0.00 | 0.26 | 0.13 | 1,400 | 0.08 |
-| MacBook Air M5 32GB | 32 | 153 | 0.05 | 0.00 | 0.02 | 1,100 | 0.05 |
+| RTX PRO 6000 | 96 | 1792 | 0.73 | 1.00 | 0.91 | 8,500 | 1.00 |
+| RTX 5090 | 32 | 1792 | 0.20 | 1.00 | 0.72 | 4,200 | 0.48 |
+| Mac Studio M3 Ultra 96GB | 96 | 819 | 0.73 | 0.44 | 0.54 | 3,999 | 0.45 |
+| MacBook Pro M5 Max 128GB | 128 | 546 | 1.00 | 0.28 | 0.53 | 5,100 | 0.59 |
+| DGX Spark | 128 | 273 | 1.00 | 0.13 | 0.43 | 4,699 | 0.54 |
+| Framework 128GB | 128 | 256 | 1.00 | 0.12 | 0.43 | 1,999 | 0.21 |
+| Radeon PRO W7900 | 48 | 864 | 0.33 | 0.47 | 0.42 | 3,600 | 0.40 |
+| RTX 4090 | 24 | 1008 | 0.13 | 0.55 | 0.40 | 2,500 | 0.27 |
+| RX 7900 XTX | 24 | 960 | 0.13 | 0.52 | 0.39 | 950 | 0.08 |
+| Arc Pro B65 | 32 | 608 | 0.20 | 0.32 | 0.28 | 750 | 0.05 |
+| Mac mini M4 Pro 64GB | 64 | 273 | 0.47 | 0.13 | 0.25 | 1,400 | 0.13 |
+| Framework 64GB | 64 | 256 | 0.47 | 0.12 | 0.24 | 1,599 | 0.16 |
+| TT Blackhole p150 | 32 | 512 | 0.20 | 0.26 | 0.24 | 1,400 | 0.13 |
+| TT Wormhole n300 | 24 | 576 | 0.13 | 0.30 | 0.24 | 1,400 | 0.13 |
+| MacBook Air M5 32GB | 32 | 153 | 0.20 | 0.06 | 0.11 | 1,100 | 0.10 |
 | SpacemiT K3 Pico-ITX (8GB) | 8 | ~51† | 0.00 | 0.00 | 0.00 | 299 | 0.00 |
 | Milk-V Jupiter 2 (8GB) | 8 | ~51† | 0.00 | 0.00 | 0.00 | 300 | 0.00 |
 
-Note: Cap Score of 0.00 for 24GB cards means that's the minimum in the dataset, not that they have no capacity. Everything is relative to the range of platforms compared here.
+Note: Cap Score and BW Score of 0.00 for the K3 boards reflect dataset minimums (8GB, 51 GB/s), not zero capability. All scores are relative to the range of platforms in this comparison. The 24GB discrete GPU cards score 0.13 on capacity because 24GB is the third tier in this dataset (above 8GB K3 boards), not the absolute minimum.
 
-†SpacemiT K3 LPDDR5-6400 theoretical peak bandwidth is ~51 GB/s on a 32-bit bus. Both K3 boards score 0.00 on this scale because they sit well below the dataset minimum (153 GB/s). They belong in a different tier entirely, the chart reflects that. See the RISC-V section above for context on what these boards are actually for.
+†SpacemiT K3 LPDDR5-6400 theoretical peak bandwidth is ~51 GB/s on a 32-bit bus. Both K3 boards anchor the low end of the bandwidth scale here. They belong in a different tier entirely. See the RISC-V section above for context on what these boards are actually for.
 
 </details>
 
 
-A few things jump out. The RX 7900 XTX is the best value pure-bandwidth play if 24GB is enough for your models. The Framework 128GB is quietly the best price-to-capacity ratio in the whole field. The bandwidth score drags it down but nothing else gives you 128GB assignable to a GPU for $1,999. The DGX Spark is the most interesting chart anomaly: high capacity, middling bandwidth, high cost, and a software stack that might eventually justify all of it. The Mac Studio M3 Ultra at 192GB represents the upper right of what's achievable in a single consumer box, and the price reflects it.
+A few things jump out. The RX 7900 XTX is the best value pure-bandwidth play if 24GB is enough for your models. The Framework 128GB is quietly the best price-to-capacity ratio in the whole field. The bandwidth score drags it down but nothing else gives you 128GB assignable to a GPU for $1,999. The DGX Spark is the most interesting chart anomaly: high capacity, middling bandwidth, high cost, and a software stack that might eventually justify all of it. The Mac Studio M3 Ultra at 96GB sits at a strong capacity/bandwidth sweet spot — it's the only Apple Silicon option with Ultra-class bandwidth and the most memory you can get in a single Mac Studio today.
 
 ## Understanding TOPS
 
@@ -319,7 +321,7 @@ The local AI hardware market in 2026 is finally interesting enough that there's 
 - **NVIDIA RTX 5090** -- [Best Buy](https://www.bestbuy.com/site/searchpage.jsp?st=RTX+5090), [Newegg](https://www.newegg.com/p/N82E16814133983), [B&H Photo](https://www.bhphotovideo.com/c/product/1798852-REG) (stock is spotty, prices above MSRP)
 - **NVIDIA RTX PRO 6000 Blackwell** -- [Newegg](https://www.newegg.com/p/1FT-000S-003H5), [Amazon RTX PRO 6000](https://www.amazon.com/s?k=RTX+PRO+6000+Blackwell), [Micro Center](https://www.microcenter.com/search/search_results.aspx?Ntt=RTX+PRO+6000), [B&H Photo RTX PRO 6000](https://www.bhphotovideo.com/c/search?q=RTX+PRO+6000&sort=PRICE_LOW_TO_HIGH)
 - **RTX 4090** -- secondary market, [eBay RTX 4090](https://www.ebay.com/sch/i.html?_nkw=RTX+4090+GPU), [Newegg used](https://www.newegg.com/p/N82E16814133937)
-- **Apple Mac Studio** -- [Mac Studio 128GB config](https://www.apple.com/shop/buy-mac/mac-studio), [Mac Studio 192GB config](https://www.apple.com/shop/buy-mac/mac-studio)
+- **Apple Mac Studio** -- [Mac Studio M4 Max (up to 64GB)](https://www.apple.com/shop/buy-mac/mac-studio), [Mac Studio M3 Ultra (96GB)](https://www.apple.com/shop/buy-mac/mac-studio)
 - **Apple MacBook Pro** -- [MacBook Pro 16" M5 Max 128GB](https://www.apple.com/shop/buy-mac/macbook-pro)
 - **Apple Mac mini** -- [Mac mini M4 Pro config selector](https://www.apple.com/shop/buy-mac/mac-mini)
 - **Apple MacBook Air** -- [MacBook Air M5 configs](https://www.apple.com/shop/buy-mac/macbook-air)
