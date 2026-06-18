@@ -1,6 +1,7 @@
 ---
 title: Building an SMB inference stack
 date: 2026-05-23
+lastmod: 2026-06-18
 draft: false
 description: Hardware tiers, inference engines, query routing, and the economics of running local AI inference for a small business or VAR practice.
 tags:
@@ -38,9 +39,9 @@ Before getting into hardware, it's worth naming what you're actually building. A
 
 This is where most teams should start. One box, one power circuit, one set of cooling concerns, no networking complexity.
 
-**Apple Mac Studio / Mac Pro M-series:** The prior post covered these as developer machines. At server scale, the picture changes a bit. A Mac Studio M4 Ultra (192GB unified, 819 GB/s) running Ollama with an OpenAI-compatible API endpoint is a legitimate inference server for a 5 to 15 person team. You can run Llama 4 Maverick at aggressive quantization, Qwen3 235B-A22B MoE, or any 70B dense model with room to spare. The limitation is concurrency: unified memory architecture means you're sharing bandwidth across all active requests, and you don't get the same parallel throughput as discrete NVIDIA. For teams doing mostly batch or sequential work (document processing, summarization pipelines), this is fine. For interactive multi-user chat at scale, you'll hit the ceiling faster than the VRAM numbers suggest.
+**Apple Mac Studio M3 Ultra:** The prior post covered these as developer machines. At server scale, the picture changes a bit. A Mac Studio M3 Ultra (96GB unified, 819 GB/s) running Ollama with an OpenAI-compatible API endpoint is a legitimate inference server for a 5 to 15 person team. You can run Llama 4 Scout comfortably, DeepSeek-R1 70B at Q8, or any 70B dense model with room to spare. The 96GB ceiling means you won't fit Maverick-class MoE models at usable quantization without heavy compression. The limitation is also concurrency: unified memory architecture means you're sharing bandwidth across all active requests, and you don't get the same parallel throughput as discrete NVIDIA. For teams doing mostly batch or sequential work (document processing, summarization pipelines), this is fine. For interactive multi-user chat at scale, you'll hit the ceiling faster than the specs suggest.
 
-The Mac Studio M4 Ultra starts at $9,999 with 192GB. Silent, efficient, zero driver pain, runs macOS (which is either a feature or a bug depending on your ops preferences). Apple Silicon supports vLLM-MLX now, which handles concurrency better than Ollama for team deployments.
+The Mac Studio M3 Ultra starts at $3,999 with 96GB. Silent, efficient, zero driver pain, runs macOS (which is either a feature or a bug depending on your ops preferences). Apple Silicon supports vLLM-MLX now, which handles concurrency better than Ollama for team deployments.
 
 **NVIDIA workstation-class GPUs:** The RTX PRO 6000 Blackwell (96GB VRAM, 1,792 GB/s bandwidth) at around $8,000 to $9,200 is the single-card ceiling for NVIDIA workstation hardware right now. 96GB gets you a 70B model at Q4 with throughput that makes sense for interactive use, typically 60 to 90 tokens/sec on Llama 3.1 70B depending on batch size and quantization. If you want 48GB, the L40S is the server-grade option (built for 24/7 operation, passive cooling, ECC memory) at around $8,000 to $12,000.
 
@@ -52,7 +53,7 @@ The CUDA ecosystem advantage is real. vLLM, TensorRT-LLM, SGLang all have first-
 
 | Hardware | Memory | Bandwidth | Approx cost | 70B Q4 tok/s | TDP | tok/s/W | Best for |
 |---|---|---|---|---|---|---|---|
-| Mac Studio M4 Ultra | 192GB unified | 819 GB/s | ~$10K | ~30 to 45 | ~250W | ~0.14 | Low-concurrency, batch, macOS shop |
+| Mac Studio M3 Ultra | 96GB unified | 819 GB/s | ~$4K to $5K | ~30 to 45 | ~250W | ~0.14 | Low-concurrency, batch, macOS shop |
 | RTX PRO 6000 Blackwell | 96GB VRAM | 1,792 GB/s | ~$9K card | ~60 to 90 | 300W | ~0.25 | Interactive team serving, CUDA stack |
 | L40S | 48GB VRAM | 864 GB/s | ~$10K card | ~25 to 35 (split layers) | 350W | ~0.09 | 30B models, 24/7 server duty |
 | AMD MI300X | 192GB HBM3 | 5,300 GB/s | ~$12K card | ~120 to 150 | 750W | ~0.17 | High-throughput batch, large models |
@@ -185,13 +186,13 @@ On storage: model weights are big. Llama 3.1 70B at Q4 is about 40GB. Qwen3 235B
 
 ## Reference configurations
 
-**Small: ~$15K total**
+**Small: ~$8K to $10K total**
 
-Mac Studio M4 Ultra ($9,999) plus $3,000 to $5,000 for NVMe storage, networking, and UPS. Ollama or vLLM-MLX for inference, LiteLLM proxy in front, Prometheus for metrics. Run Qwen3 30B-A3B for most tasks, Llama 3.1 8B for high-volume lightweight work, Whisper large-v3-turbo for transcription.
+Mac Studio M3 Ultra ($3,999 base, ~$4,500 to $5,500 configured) plus $3,000 to $4,500 for NVMe storage, networking, and UPS. Ollama or vLLM-MLX for inference, LiteLLM proxy in front, Prometheus for metrics. Run Qwen3 30B-A3B for most tasks, Llama 3.1 8B for high-volume lightweight work, Whisper large-v3-turbo for transcription.
 
 Capacity: 5 to 15 concurrent users doing document processing and summarization. Not the right setup for more than a few concurrent heavy users.
 
-At $10/M output tokens from a frontier API and around 500M tokens/month, you're spending $5,000/month on API costs. A $15K server pays for itself in 3 months. At lower volumes the math is tighter.
+At $10/M output tokens from a frontier API and around 500M tokens/month, you're spending $5,000/month on API costs. A $10K server pays for itself in 2 months. At lower volumes the math is tighter.
 
 **Medium: ~$60K to $100K total**
 
