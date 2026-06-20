@@ -81,6 +81,9 @@ ignoreLogs = ['warning-goldmark-raw-html']
   [[module.mounts]]
     source = "static"
     target = "static"
+  [[module.mounts]]
+    source = "data"
+    target = "data"
 
 [[menu.main]]
   identifier = 'posts'

@@ -1,0 +1,132 @@
+{{- $cities := slice -}}
+{{- $fipsList := slice "48453" "37119" "47065" "45019" "39049" "08031" "48141" "45045_45083" "51059" "01089" "12086" "01097" "47037" "22071" "35001" "48029" "13051" "53033" "12057" -}}
+{{- range $fipsList -}}
+  {{- $d := index $.Site.Data.enrollment . -}}
+  {{- if $d -}}
+    {{- $cities = $cities | append (dict "fips" . "label" $d.city "county" $d.county "years" $d.years "series" $d.series) -}}
+  {{- end -}}
+{{- end -}}
+
+<div class="enrollment-all">
+  <div class="enrollment-controls">
+    <label for="enrollment-city-select">City:</label>
+    <select id="enrollment-city-select">
+      {{- range $cities }}
+      <option value="{{ .fips }}">{{ .label }}</option>
+      {{- end }}
+    </select>
+    <span class="enrollment-county" id="enrollment-county-label"></span>
+  </div>
+
+  <p class="enrollment-note">Elementary spans 7 grade levels (PK–5), Middle spans 3 (6–8), High spans 4 (9–12). On a per-grade basis the cohort sizes are roughly comparable.</p>
+
+  <canvas id="enrollment-all-chart" height="110"></canvas>
+
+  <details class="enrollment-table">
+    <summary>Raw data</summary>
+    <div style="overflow-x:auto">
+      <table id="enrollment-all-table">
+        <thead>
+          <tr><th>Year</th><th>Elementary</th><th>Middle</th><th>High</th><th>Total</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </details>
+
+  <p class="enrollment-source">Source: NCES Common Core of Data (CCD), public schools only. Grades PK–5 = Elementary, 6–8 = Middle, 9–12 = High. 2022–23 excluded (anomalous NCES file).</p>
+</div>
+
+<script>
+(function() {
+  var CITIES = {{ $cities | jsonify | safeJS }};
+
+  var cityMap = {};
+  CITIES.forEach(function(c) { cityMap[c.fips] = c; });
+
+  var select  = document.getElementById('enrollment-city-select');
+  var counter = document.getElementById('enrollment-county-label');
+  var tbody   = document.querySelector('#enrollment-all-table tbody');
+  var chart   = null;
+
+  function buildTable(city) {
+    var rows = city.years.map(function(yr, i) {
+      var e = city.series.Elementary[i] || 0;
+      var m = city.series.Middle[i]     || 0;
+      var h = city.series.High[i]       || 0;
+      var t = e + m + h;
+      return '<tr><td>' + yr + '</td><td>' + e.toLocaleString() +
+             '</td><td>' + m.toLocaleString() + '</td><td>' + h.toLocaleString() +
+             '</td><td>' + t.toLocaleString() + '</td></tr>';
+    });
+    tbody.innerHTML = rows.join('');
+  }
+
+  function renderCity(fips) {
+    var city = cityMap[fips];
+    if (!city) return;
+
+    counter.textContent = city.county;
+
+    buildTable(city);
+
+    var datasets = [
+      { label: 'Elementary (PK–5)', data: city.series.Elementary,
+        fill: true, backgroundColor: 'rgba(59,130,246,0.20)', borderColor: 'rgba(59,130,246,0.9)',
+        borderWidth: 2, pointRadius: 3, tension: 0.3 },
+      { label: 'Middle (6–8)', data: city.series.Middle,
+        fill: true, backgroundColor: 'rgba(16,185,129,0.20)', borderColor: 'rgba(16,185,129,0.9)',
+        borderWidth: 2, pointRadius: 3, tension: 0.3 },
+      { label: 'High (9–12)', data: city.series.High,
+        fill: true, backgroundColor: 'rgba(245,158,11,0.20)', borderColor: 'rgba(245,158,11,0.9)',
+        borderWidth: 2, pointRadius: 3, tension: 0.3 }
+    ];
+
+    if (chart) {
+      chart.data.labels   = city.years;
+      chart.data.datasets = datasets;
+      chart.update();
+    } else {
+      var ctx = document.getElementById('enrollment-all-chart');
+      chart = new Chart(ctx, {
+        type: 'line',
+        data: { labels: city.years, datasets: datasets },
+        options: {
+          responsive: true,
+          interaction: { mode: 'index', intersect: false },
+          plugins: {
+            legend: { position: 'top' },
+            tooltip: {
+              callbacks: {
+                footer: function(items) {
+                  var t = items.reduce(function(s,i){ return s + i.parsed.y; }, 0);
+                  return 'Total: ' + t.toLocaleString();
+                }
+              }
+            }
+          },
+          scales: {
+            x: { ticks: { maxRotation: 45 } },
+            y: { beginAtZero: false,
+                 ticks: { callback: function(v){ return v.toLocaleString(); } } }
+          }
+        }
+      });
+    }
+  }
+
+  function init() {
+    select.addEventListener('change', function() { renderCity(this.value); });
+    renderCity(select.value);
+  }
+
+  if (typeof Chart !== 'undefined') {
+    init();
+  } else {
+    var s = document.createElement('script');
+    s.src = 'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js';
+    s.onload = init;
+    document.head.appendChild(s);
+  }
+})();
+</script>

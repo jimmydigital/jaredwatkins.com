@@ -1,7 +1,7 @@
 ---
 title: Robotics Research
 date: 2026-03-24
-lastmod: 2026-03-24
+lastmod: 2026-06-19
 draft: false
 description: Research on commercial robotics platforms, components, and the companies and people building them.
 tags: ["robotics"]
@@ -20,7 +20,7 @@ sitemap:
 
 ## Overview
 
-Tracks commercial robotics platforms, component suppliers, and the people and capital moving through the industry. Organized by platform type (aerial drones, ground drones/UGVs) and component category (actuators, sensors, communications, power systems). Editorial focus is on the component and subsystem layer — the suppliers that determine the performance, cost, and geopolitical risk profile of deployed robot systems.
+Tracks commercial robotics platforms, component suppliers, and the people and capital moving through the industry. Organized by platform type (aerial drones, ground drones/UGVs, AMR/logistics, industrial robots, humanoids) and category (actuators, sensors, communications, power systems, software/integration). Editorial focus is on the component and subsystem layer — the suppliers that determine the performance, cost, and geopolitical risk profile of deployed robot systems.
 
 ## Key Themes
 
@@ -30,3 +30,17 @@ Tracks commercial robotics platforms, component suppliers, and the people and ca
 - US federal procurement bans (Blue UAS framework) creating a bifurcated commercial and government market
 - Defense UGV programs accelerating commercial robotics technology transfer in both directions
 - Hydrogen fuel cells emerging as a credible alternative to batteries for extended endurance applications
+- Humanoid robot sector experiencing a valuation bubble: Chinese manufacturers dominate unit volume (~90% of 2025 shipments), US companies dominate private valuations; autonomy claims broadly unverified
+
+## Subsections
+
+- [Aerial Drones]({{< relref "aerial-drones/_index.md" >}}) — UAS platforms, defense/commercial, Blue UAS framework
+- [Ground Drones / UGVs]({{< relref "ground-drones/_index.md" >}}) — Legged, wheeled, agricultural, delivery UGVs
+- [AMR & Logistics]({{< relref "amr-and-logistics/_index.md" >}}) — Warehouse AMRs, picking robots, fleet management (6 River, Locus, Fetch, Geek+)
+- [Industrial Robots & Cobots]({{< relref "industrial-robots/_index.md" >}}) — Robot arms and cobots; Universal Robots; FANUC/ABB/KUKA/Yaskawa context
+- [Humanoid Robots]({{< relref "humanoid/_index.md" >}}) — US and non-US companies; autonomy claims; specialized robot debate
+- [Software & Integration]({{< relref "software-and-integration/_index.md" >}}) — Middleware, fleet orchestration, WMS integration (SVT Robotics, Robust AI, Vecna)
+- [Actuators]({{< relref "actuators/_index.md" >}}) — Harmonic drives, servo motors, gearboxes
+- [Sensors]({{< relref "sensors/_index.md" >}}) — LiDAR, radar, GNSS, vision
+- [Communications]({{< relref "communications/_index.md" >}}) — Mesh radio, cellular modules
+- [Power Systems]({{< relref "power-systems/_index.md" >}}) — Batteries, fuel cells, wireless charging

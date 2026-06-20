@@ -1,19 +1,19 @@
 ---
 title: "US City Comparison — Safety, Diversity, Affordability & Tech"
 date: 2026-06-17
-lastmod: 2026-06-17
+lastmod: 2026-06-18
 draft: false
-description: "Radar chart comparison of 19 US city relocation candidates on crime safety, demographic diversity, housing affordability, and tech job market strength."
+description: "Radar chart comparison of 20 US city relocation candidates on crime safety, demographic diversity, housing affordability, and tech job market strength."
 tags: ["relocation", "comparison", "crime", "affordability", "demographics", "tech"]
 categories: ["overview"]
 research_area: "relocation"
-last_reviewed: 2026-06-17
+last_reviewed: 2026-06-18
 stale_after_days: 365
 ---
 
 > **⚠ Disclaimer:** Scores are normalized estimates derived from profile data as of mid-2026. They are intended for relative comparison only — not precise rankings. Verify figures independently before making decisions. See individual city profiles for sourced detail.
 
-This page compares all 19 US city profiles across four dimensions:
+This page compares all 20 US city profiles across four dimensions:
 
 - **Safety** — normalized crime score (higher = safer); based on violent and property crime rates per capita vs. national average
 - **Diversity** — share of non-white-non-Hispanic population as a proxy for demographic diversity; higher = more diverse
@@ -28,10 +28,11 @@ All scores are on a 1–10 scale. Cities are grouped into four regional clusters
 
 ```mermaid
 radar-beta
-  title South Atlantic
+  title South Atlantic & Ohio
   axis safety["Safety"], diversity["Diversity"], afford["Affordability"], tech["Tech"]
   curve chs["Charleston SC"]{7, 4, 6, 4}
   curve clt["Charlotte NC"]{4, 7, 7, 7}
+  curve cin["Cincinnati OH"]{4, 7, 9, 5}
   curve cmh["Columbus OH"]{5, 6, 10, 6}
   curve sav["Savannah GA"]{3, 8, 6, 3}
   max 10
@@ -45,10 +46,11 @@ radar-beta
 |------|--------|-----------|---------------|------|
 | Charleston, SC | 7 | 4 | 6 | 4 |
 | Charlotte, NC | 4 | 7 | 7 | 7 |
+| Cincinnati, OH | 4 | 7 | 9 | 5 |
 | Columbus, OH | 5 | 6 | 10 | 6 |
 | Savannah, GA | 3 | 8 | 6 | 3 |
 
-**Key takeaways:** Columbus is the standout affordability winner — ~$230K median home against strong wages, anchored by Intel's $28B investment. Charlotte leads on tech depth with BofA, Honeywell, and Truist HQs. Charleston wins on safety but its cost premium relative to income is the highest in this group. Savannah has the best diversity score but the weakest safety and tech pictures.
+**Key takeaways:** Columbus is the standout affordability winner — ~$230K median home against strong wages, anchored by Intel's $28B investment. Cincinnati posts the group's strongest diversity score alongside strong affordability, driven by eight Fortune 500 HQs and a world-class data science ecosystem at Kroger/84.51°. Charlotte leads on tech depth with BofA, Honeywell, and Truist HQs. Charleston wins on safety but its cost premium relative to income is the highest in this group. Savannah has the best raw diversity score but the weakest safety and tech pictures.
 
 ---
 
@@ -185,6 +187,7 @@ Sorted by total score descending. Scores weight all four dimensions equally.
 | El Paso, TX | 9 | 9 | 9 | 2 | **29** |
 | Huntsville, AL | 8 | 5 | 9 | 5 | **27** |
 | Columbus, OH | 5 | 6 | 10 | 6 | **27** |
+| Cincinnati, OH | 4 | 7 | 9 | 5 | **25** |
 | Charlotte, NC | 4 | 7 | 7 | 7 | **25** |
 | Tampa, FL | 5 | 7 | 7 | 6 | **25** |
 | San Antonio, TX | 3 | 9 | 8 | 5 | **25** |
@@ -254,4 +257,4 @@ Composite of four factors: number and variety of private-sector tech companies, 
 
 ## Individual City Profiles
 
-[Albuquerque, NM]({{< relref "albuquerque-nm.md" >}}) · [Austin, TX]({{< relref "austin-tx.md" >}}) · [Charleston, SC]({{< relref "charleston-sc.md" >}}) · [Charlotte, NC]({{< relref "charlotte-nc.md" >}}) · [Chattanooga, TN]({{< relref "chattanooga-tn.md" >}}) · [Columbus, OH]({{< relref "columbus-oh.md" >}}) · [Denver, CO]({{< relref "denver-co.md" >}}) · [El Paso, TX]({{< relref "el-paso-tx.md" >}}) · [Greenville-Spartanburg, SC]({{< relref "greenville-spartanburg-sc.md" >}}) · [Herndon, VA]({{< relref "herndon-va.md" >}}) · [Huntsville, AL]({{< relref "huntsville-al.md" >}}) · [Miami, FL]({{< relref "miami-fl.md" >}}) · [Mobile, AL]({{< relref "mobile-al.md" >}}) · [Nashville, TN]({{< relref "nashville-tn.md" >}}) · [New Orleans, LA]({{< relref "new-orleans-la.md" >}}) · [San Antonio, TX]({{< relref "san-antonio-tx.md" >}}) · [Savannah, GA]({{< relref "savannah-ga.md" >}}) · [Seattle, WA]({{< relref "seattle-wa.md" >}}) · [Tampa, FL]({{< relref "tampa-fl.md" >}})
+[Albuquerque, NM]({{< relref "albuquerque-nm.md" >}}) · [Austin, TX]({{< relref "austin-tx.md" >}}) · [Charleston, SC]({{< relref "charleston-sc.md" >}}) · [Charlotte, NC]({{< relref "charlotte-nc.md" >}}) · [Chattanooga, TN]({{< relref "chattanooga-tn.md" >}}) · [Cincinnati, OH]({{< relref "cincinnati-oh.md" >}}) · [Columbus, OH]({{< relref "columbus-oh.md" >}}) · [Denver, CO]({{< relref "denver-co.md" >}}) · [El Paso, TX]({{< relref "el-paso-tx.md" >}}) · [Greenville-Spartanburg, SC]({{< relref "greenville-spartanburg-sc.md" >}}) · [Herndon, VA]({{< relref "herndon-va.md" >}}) · [Huntsville, AL]({{< relref "huntsville-al.md" >}}) · [Miami, FL]({{< relref "miami-fl.md" >}}) · [Mobile, AL]({{< relref "mobile-al.md" >}}) · [Nashville, TN]({{< relref "nashville-tn.md" >}}) · [New Orleans, LA]({{< relref "new-orleans-la.md" >}}) · [San Antonio, TX]({{< relref "san-antonio-tx.md" >}}) · [Savannah, GA]({{< relref "savannah-ga.md" >}}) · [Seattle, WA]({{< relref "seattle-wa.md" >}}) · [Tampa, FL]({{< relref "tampa-fl.md" >}})

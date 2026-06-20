@@ -1,7 +1,7 @@
 ---
 title: Research
 date: 2026-03-23
-lastmod: 2026-05-05
+lastmod: 2026-06-19
 draft: false
 last_reviewed: 2026-04-07
 description: AI-maintained knowledge base on emerging technology topics.
@@ -445,6 +445,30 @@ This status is a real regulatory credential affecting supply chain access and na
 
 ---
 
+### Source Verification Rules
+
+These rules apply to every entry created or updated. They exist because the most common errors in this knowledge base have been specific numbers written from training knowledge and attributed to unverified (or nonexistent) URLs.
+
+**Rule 1 — Fetch before you write, not after.**
+A URL goes in `source_urls` only after its content has been fetched and read during this session. Do not add URLs to justify claims already written. If a source cannot be fetched and read, the claim it would support must either be omitted or explicitly hedged as unverified.
+
+**Rule 2 — No bare numbers without a fetched source.**
+Any specific figure — founding year, acquisition price, net worth, funding amount, headcount, runtime, efficiency percentage, unit count, cycle time — must trace to a URL fetched and confirmed live in this session. If a number cannot be sourced to a confirmed fetch, omit it or mark it as `(unverified estimate)`. Training-data recall of specific figures is not a substitute for a fetched source.
+
+**Rule 3 — Leadership, ownership, and status require a current-dated source.**
+"Founder," "CEO," "co-founder," "acquired by," and similar status claims require either the company's own team page or a press release fetched during this session. Leadership changes frequently; training knowledge of who runs a company is not sufficient. If no current source can be confirmed, note: "as of [last review date]; verify current status."
+
+**Rule 4 — Named locations require a verified source.**
+Any named city or facility address (headquarters, manufacturing site, lab) must be verified against a fetched source. Do not infer location from company name, brand associations, or region stereotypes.
+
+**Rule 5 — Prefer official press releases over media coverage for funding facts.**
+For funding amounts, round names, lead investors, and deal dates, prefer GlobeNewswire, BusinessWire, PRNewswire, or the company's own press release page over TechCrunch, Reuters, or WSJ. Media slugs are fragile and frequently break; official press releases at wire services are stable URLs. TechCrunch URLs may be included as secondary sources but should not be the sole source for a funding fact.
+
+**Rule 6 — Verify all source URLs before filing.**
+Before completing any entry, fetch each URL in `source_urls` and confirm it returns content. A URL that returns an empty response, 404, or JS-rendered shell without content is a dead source and must be replaced. Do not include a URL that has not returned readable content in this session.
+
+---
+
 ### People Network Mapping
 
 Every company entry must have a **Key People** section. For each named person include:
@@ -652,5 +676,5 @@ A living, AI-maintained knowledge base on emerging technology topics. Each area 
 - [Post-Quantum Encryption]({{< relref "post-quantum-encryption/_index.md" >}}) — NIST PQC standards adoption across networking hardware and cryptocurrency infrastructure
 - [Quantum Computing]({{< relref "quantum-computing/_index.md" >}}) — Quantum computing hardware, software, and the race toward practical quantum advantage
 - [Relocation Research]({{< relref "relocation/_index.md" >}}) — City and county relocation profiles evaluated against a consistent set of livability criteria, benchmarked to coastal South Carolina
-- [Robotics]({{< relref "robotics/_index.md" >}}) — Robotics platforms, sensors, actuators, and autonomy software
+- [Robotics]({{< relref "robotics/_index.md" >}}) — Robotics platforms, sensors, actuators, and autonomy software; includes [Humanoid Robots]({{< relref "robotics/humanoid/_index.md" >}}) subsection (US and non-US companies, autonomy claims, specialized robot debate)
 - [Semiconductors]({{< relref "semiconductors/_index.md" >}}) — Fabrication equipment, materials, and supply chain enabling advanced node chip manufacturing

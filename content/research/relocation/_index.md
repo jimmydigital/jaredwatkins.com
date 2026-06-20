@@ -1,7 +1,7 @@
 ---
 title: "Relocation Research"
 date: 2026-06-15
-lastmod: 2026-06-17
+lastmod: 2026-06-18
 draft: false
 description: "City and county level research evaluating potential relocation destinations against a consistent set of livability criteria."
 tags: ["relocation", "cities", "cost-of-living", "demographics"]
@@ -193,7 +193,8 @@ This is not a travel guide. The goal is an honest, data-driven read on what it w
 
 ## Comparison
 
-- [US City Comparison — Crime, Diversity & Affordability]({{< relref "city-comparison.md" >}}) — Radar chart comparison of all 19 US cities on normalized safety, demographic diversity, and housing affordability scores
+- [US City Comparison — Crime, Diversity & Affordability]({{< relref "city-comparison.md" >}}) — Radar chart comparison of all 20 US cities on normalized safety, demographic diversity, and housing affordability scores
+- [Public School Enrollment Trends]({{< relref "school-enrollment.md" >}}) — County-level K–12 public school enrollment by level (elementary, middle, high) for all 19 cities, 2010–11 through 2023–24
 
 ## Profiles
 
@@ -202,6 +203,7 @@ This is not a travel guide. The goal is an honest, data-driven read on what it w
 - [Charleston, SC]({{< relref "charleston-sc.md" >}}) — Most culturally compelling SC city; Boeing 787 plant (9,000 jobs), Joint Base, Port expansion, Volvo EV; NOAA gauge shows 13 inches of measured sea level rise since 1921 and 51 tidal floods in 2025; housing 40–55% above Myrtle Beach baseline
 - [Charlotte, NC]({{< relref "charlotte-nc.md" >}}) — Most direct SC alternative; #2 US city for corporate HQs; 2nd-largest US banking center; major aviation hub (CLT); above-average crime and banking sector concentration are the primary risks
 - [Chattanooga, TN]({{< relref "chattanooga-tn.md" >}}) — Zero income tax; EPB gigabit fiber + IonQ quantum center partnership; VW EV plant retooling; outstanding outdoor access; elevated crime and 9.25% sales tax are the primary offsets
+- [Cincinnati, OH]({{< relref "cincinnati-oh.md" >}}) — Eight Fortune 500 HQs including P&G and Kroger; 84.51° data science anchor; strong affordability; Over-the-Rhine urban revival; Duke Energy reliability and Ohio River flooding are the key concerns
 - [Columbus, OH]({{< relref "columbus-oh.md" >}}) — Intel $28B fab investment as growth catalyst; OSU anchor; strong cost-to-employment ratio for a Midwest tech market; cold winters and highest property taxes in the series are the tradeoffs
 - [Denver, CO]({{< relref "denver-co.md" >}}) — Mountain West tech hub with strong startup scene; water stress and population growth plateau emerging
 - [El Paso, TX]({{< relref "el-paso-tx.md" >}}) — Cheapest large city in the series; surprisingly safe; on Western grid not ERCOT; severe heat/dust and slow population growth are the tradeoffs

@@ -1,0 +1,122 @@
+{{- $fips := .Get "fips" -}}
+{{- $data := index .Site.Data.enrollment $fips -}}
+{{- if $data -}}
+{{- $chartId := printf "enrollment-%s" $fips -}}
+<details class="enrollment-chart">
+  <summary>Public School Enrollment — {{ $data.county }} ({{ $data.city }})</summary>
+  <div class="enrollment-chart-inner">
+    <canvas id="{{ $chartId }}" height="120"></canvas>
+    <script>
+    (function() {
+      var years   = {{ $data.years | jsonify }};
+      var elem    = {{ index $data.series "Elementary" | jsonify }};
+      var mid     = {{ index $data.series "Middle"     | jsonify }};
+      var high    = {{ index $data.series "High"       | jsonify }};
+      var chartId = {{ $chartId | jsonify }};
+      var rendered = false;
+
+      function buildChart() {
+        if (rendered) return;
+        rendered = true;
+        var canvas = document.getElementById(chartId);
+        if (!canvas) return;
+        new Chart(canvas, {
+          type: 'line',
+          data: {
+            labels: years,
+            datasets: [
+              { label: 'Elementary (PK–5)', data: elem, fill: true,
+                backgroundColor: 'rgba(59,130,246,0.25)', borderColor: 'rgba(59,130,246,0.9)',
+                borderWidth: 2, pointRadius: 3, tension: 0.3 },
+              { label: 'Middle (6–8)', data: mid, fill: true,
+                backgroundColor: 'rgba(16,185,129,0.25)', borderColor: 'rgba(16,185,129,0.9)',
+                borderWidth: 2, pointRadius: 3, tension: 0.3 },
+              { label: 'High (9–12)', data: high, fill: true,
+                backgroundColor: 'rgba(245,158,11,0.25)', borderColor: 'rgba(245,158,11,0.9)',
+                borderWidth: 2, pointRadius: 3, tension: 0.3 }
+            ]
+          },
+          options: {
+            responsive: true,
+            interaction: { mode: 'index', intersect: false },
+            plugins: {
+              legend: { position: 'top' },
+              tooltip: {
+                callbacks: {
+                  footer: function(items) {
+                    var total = items.reduce(function(s,i){ return s + i.parsed.y; }, 0);
+                    return 'Total: ' + total.toLocaleString();
+                  }
+                }
+              }
+            },
+            scales: {
+              x: { ticks: { maxRotation: 45 } },
+              y: { beginAtZero: false,
+                   ticks: { callback: function(v){ return v.toLocaleString(); } } }
+            }
+          }
+        });
+      }
+
+      function initChart() {
+        if (typeof Chart !== 'undefined') {
+          buildChart();
+        } else {
+          var s = document.createElement('script');
+          s.src = 'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js';
+          s.onload = buildChart;
+          document.head.appendChild(s);
+        }
+      }
+
+      // Wait for the <details> to open before initialising — canvas has no size until visible
+      var details = document.getElementById(chartId).closest('details');
+      if (details) {
+        details.addEventListener('toggle', function() {
+          if (details.open) initChart();
+        });
+      } else {
+        // Fallback: no details wrapper, init immediately
+        initChart();
+      }
+    })();
+    </script>
+
+    <details class="enrollment-table">
+      <summary>Raw data</summary>
+      <div style="overflow-x:auto">
+        <table>
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Elementary</th>
+              <th>Middle</th>
+              <th>High</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{- range $i, $yr := $data.years }}
+            {{- $e := index (index $data.series "Elementary") $i }}
+            {{- $m := index (index $data.series "Middle")     $i }}
+            {{- $h := index (index $data.series "High")       $i }}
+            {{- $t := add $e (add $m $h) }}
+            <tr>
+              <td>{{ $yr }}</td>
+              <td>{{ $e }}</td>
+              <td>{{ $m }}</td>
+              <td>{{ $h }}</td>
+              <td>{{ $t }}</td>
+            </tr>
+            {{- end }}
+          </tbody>
+        </table>
+      </div>
+    </details>
+    <p class="enrollment-source">Source: {{ $data.source }}</p>
+  </div>
+</details>
+{{- else -}}
+<!-- enrollment-chart: no data for fips={{ $fips }} -->
+{{- end -}}
