@@ -1,7 +1,7 @@
 ---
 title: Building an SMB inference stack
 date: 2026-05-23
-lastmod: 2026-06-18
+lastmod: 2026-06-20
 draft: false
 description: Hardware tiers, inference engines, query routing, and the economics of running local AI inference for a small business or VAR practice.
 tags:
@@ -34,6 +34,8 @@ Before getting into hardware, it's worth naming what you're actually building. A
 **The hardware** determines what models you can run and how fast. Get this wrong and the other two don't matter.
 
 ## Hardware tiers
+
+{{< figure src="macStudioStack.jpg" caption="A small Mac Studio cluster — the kind of thing that fits on a shelf and serves a 5 to 15 person team." class="right" width="60%">}}
 
 ### Tier 1: High-memory single server ($5K to $25K)
 
@@ -117,6 +119,86 @@ If you want to push further and fancy yourself a hyperscaler, the next frontier 
 | Tier 3: Rack scale | $100K to $1M+ | 100 to 500+ | Full precision 405B+, multi-model | 1,000+ tok/s | 2.5 to 2.9 per node | Multi-tenant MSP with dozens of clients; high-volume batch processing at enterprise scale |
 
 The efficiency column reflects **tok/s per watt** at continuous batching with FP8/Q4 quantization on Llama 3.1 70B. Tier 1 and Tier 2 numbers use GPU TDP as the denominator (single-card or multi-card draw). Tier 3 uses full system draw (10.2 kW per 8-GPU node per NVIDIA DGX H100 spec), which is the right number for facility planning. Tier 1 numbers reflect single-GPU single-request throughput; the step change at Tier 2 comes from vLLM's continuous batching. Sources: [MLPerf Inference v4.1 L40S results (Red Hat)](https://www.redhat.com/en/blog/achieve-better-large-language-model-inference-fewer-gpus), [Spheron H100 tokens/watt analysis](https://www.spheron.network/blog/token-factory-gpu-cloud-tokens-per-watt-guide/), [Watt Counts benchmark (arXiv:2604.09048)](https://arxiv.org/abs/2604.09048).
+
+## Clustering: connecting machines together
+
+Everything above assumes a single machine with one or more GPUs in it. That's the right starting point for most teams. But once you've maxed out what a single box can hold, or you want to run models larger than any single node can fit, clustering is the next question. The answer is significantly different depending on whether you're on Apple Silicon or NVIDIA.
+
+### Mac clustering: exo and RDMA over Thunderbolt
+
+The Apple path is genuinely interesting, partly because it wasn't really viable until late 2025.
+
+The software that makes it work is [exo](https://github.com/exo-explore/exo), an open-source clustering tool from Exo Labs. Exo handles automatic device discovery (no manual configuration), distributes model weights across nodes using tensor parallelism (not pipeline parallelism, which matters a lot, as I'll explain below), and exposes a single OpenAI-compatible API endpoint across the whole cluster. It uses MLX as its inference backend, which means it's Mac-only today. Linux support via GPU is still in development.
+
+The network path matters enormously. Running two Mac Studios over 2.5GbE Ethernet works, but you're leaving most of the benefit on the table. Thunderbolt 5 does roughly 50 to 60 Gbps real-world throughput between nodes. The bigger improvement came when macOS 26.2 added RDMA support over Thunderbolt 5, and exo 1.0 shipped day-zero support for it. RDMA drops inter-node memory access latency from around 300 microseconds down to under 50 microseconds. That latency gap is what separates "this technically works" from "this actually makes the model faster as you add nodes."
+
+To enable it, you boot each Mac into recovery mode, run `rdma_ctl enable` in Terminal, and reboot. That's the whole setup on the Mac side. Exo handles the rest.
+
+The hardware constraint to understand is Thunderbolt topology. Thunderbolt 5 switches don't exist. Every Mac has to be directly cabled to every other Mac. Right now the practical ceiling is four nodes, in a full-mesh where each machine has a direct TB5 connection to all the others. You also can't use the Thunderbolt 5 port adjacent to the Ethernet port on the Mac Studio back panel for RDMA, and all machines in the cluster need to run the exact same macOS version (including minor beta numbers) or the RDMA discovery breaks.
+
+Jeff Geerling benchmarked a [4-node cluster of M3 Ultra Mac Studios](https://www.jeffgeerling.com/blog/2025/15-tb-vram-on-mac-studio-rdma-over-thunderbolt-5) using Apple loaner hardware (two at 512GB, two at 256GB — configurations that aren't available to buy; the current M3 Ultra tops out at 96GB) using exo with RDMA and got:
+
+| Model | Parameters | Active params | Cluster tok/s |
+|---|---|---|---|
+| Qwen3-235B (8-bit) | 235B MoE | 22B active | ~32 tok/s |
+| DeepSeek V3.1 (8-bit) | 671B MoE | 37B active | ~15 tok/s |
+| Kimi K2 Thinking (native 4-bit) | ~1T MoE | 32B active | ~30 tok/s |
+
+Those throughput numbers are interesting for what they demonstrate about the architecture, but the memory configuration isn't something you can actually buy. Four standard M3 Ultra Mac Studios at 96GB each gives you 384GB total — enough to run Qwen3-235B at Q4 comfortably, but you're not fitting DeepSeek V3.1 671B at 8-bit without very heavy quantization, and Kimi K2 Thinking at native weights is out entirely. More practically: four M3 Ultras at $3,999 each is $16K in hardware before storage and networking cables, and you're running a cluster you can only expand to four nodes. The practical point is that exo with RDMA over Thunderbolt 5 scales up as you add nodes rather than staying flat or degrading — that's the test of a real distributed inference implementation and it passes it — but the memory ceiling of what you can actually purchase matters more than the benchmark hardware.
+
+The alternative for Mac clustering without RDMA is llama.cpp's RPC backend, which spreads model layers across nodes using pipeline parallelism. It works for fitting models that won't fit on one machine, but throughput degrades as you add nodes because each layer's output has to be transferred before the next node can start work. Exo's tensor-parallel approach does more communication per step but computes in parallel rather than sequentially, which is why you see a speedup with more nodes instead of a slowdown.
+
+What doesn't work across Mac clusters: vLLM, SGLang, TensorRT-LLM. All NVIDIA CUDA. The Mac path is exo plus MLX, full stop.
+
+### NVIDIA clustering: NVLink and InfiniBand
+
+The NVIDIA clustering story is better-documented and more mature, but the network requirements are unforgiving.
+
+Within a single server, NVLink is the interconnect for SXM-form-factor GPUs (H100 SXM, H200 SXM). NVLink bandwidth between cards is 900 GB/s in the H100 generation. That's fast enough to treat the cards as a single unified pool for tensor parallelism in vLLM. PCIe-connected GPUs (L40S, RTX PRO 6000) share bandwidth through the CPU interconnect instead, which cuts effective inter-GPU bandwidth to roughly 128 GB/s bidirectional (PCIe 5.0 x16). Tensor parallelism still works, but it's slower, and you'll see the difference in throughput on large models.
+
+vLLM handles multi-GPU distribution via Megatron-LM tensor parallelism. For single-server multi-GPU, set `--tensor-parallel-size` to the number of GPUs and launch normally. For multi-node, you start a Ray cluster first:
+
+```bash
+# On the head node
+ray start --head
+
+# On each worker node
+ray start --address=<head-node-ip>:6379
+
+# Then launch vLLM on the head node, setting tensor-parallel-size to total GPU count
+python -m vllm.entrypoints.openai.api_server \
+  --model meta-llama/Llama-3.1-70B \
+  --tensor-parallel-size 8   # 2 nodes × 4 GPUs each
+```
+
+SGLang works similarly. Both use Ray as the distributed runtime.
+
+Multi-node networking is where this gets expensive. 10GbE between nodes is marginal. 25GbE is the floor for small-scale (2 to 4 node) deployments. Serious multi-node inference runs on InfiniBand: HDR (200 Gbps) or NDR (400 Gbps). The difference isn't marginal: running a 70B model across two H100 nodes over 10GbE versus 100G InfiniBand can drop throughput by 30 to 50% due to the all-reduce communication bottleneck during each forward pass. If you're spending $100K+ on GPU hardware and using a $200/switch for the interconnect, you've made a mistake.
+
+The NVLink SXM advantage also shows up here: H100 SXM nodes connected via NVLink Switch fabric (the NVSwitch-based backplane in DGX systems) treat cross-node bandwidth nearly the same as intra-node bandwidth, which is why 8-GPU DGX nodes are so effective for large model inference.
+
+**Network requirements summary:**
+
+| Setup | Minimum | Recommended | Notes |
+|---|---|---|---|
+| Mac cluster (exo) | Thunderbolt 5 direct cable | TB5 full mesh + RDMA | No switches; point-to-point only; max ~4 nodes |
+| NVIDIA single-server (SXM) | NVLink (built-in) | NVLink with NVSwitch fabric | Already present in SXM systems |
+| NVIDIA single-server (PCIe) | PCIe 5.0 x16 | PCIe 5.0 x16 | ~128 GB/s bidirectional vs 900 GB/s NVLink |
+| NVIDIA multi-node | 25GbE | HDR/NDR InfiniBand (200 to 400 Gbps) | IB adds $20K to $100K+ per switch depending on port count |
+
+### Dense models vs MoE: clustering impacts them very differently
+
+This is something I haven't seen explained clearly elsewhere, and it changes the calculus on whether clustering is worth it for a given model.
+
+Dense models (Llama 3.1 70B, Qwen2.5-Coder 32B, and similar) read all their weights through memory on every forward pass. Every token generated requires touching all 70 billion parameters. This means memory bandwidth is the primary bottleneck, and adding more nodes only helps if the nodes can share bandwidth fast enough. With NVLink, this works well because the interconnect is wide enough. With anything slower, the cross-node transfer overhead starts eating into the gains. Tensor parallelism on a 2-node NVIDIA NVLink setup for a 70B dense model gives you roughly 1.7 to 1.9x throughput (not quite linear due to communication overhead). On PCIe multi-node at 25GbE, that scales down toward 1.2 to 1.4x at best. The communication tax is real.
+
+MoE models are different in an important way. A model like Qwen3-235B has 235 billion total parameters but only activates 22 billion of them per forward pass (hence "Mixture of Experts": each token is routed to a small subset of expert layers, not all of them). The 213 billion inactive parameters still have to be held in memory and loaded as-needed when their expert layer is selected, but they aren't contributing to bandwidth usage on every single token.
+
+The practical implication for clustering is that MoE models get two distinct benefits from adding nodes: more total VRAM to hold the full weight set without heavy quantization, and the ability to run models that wouldn't fit on one machine at all. The communication overhead of tensor parallelism also tends to be lower for MoE compared to dense models at the same parameter count, because you're routing fewer active parameters across nodes per pass.
+
+This explains why the Mac cluster benchmarks above were MoE models, and why that's also what makes sense on purchasable hardware. With four M3 Ultras at 96GB each (384GB total), Qwen3-235B MoE fits cleanly at Q4 and runs well across nodes because the inter-node traffic is mostly routing decisions and activations, not the full 235B weight matrix. You'd never attempt Llama 3.1 405B (dense) across a Mac cluster at useful quality because moving all 405B parameters through memory on every token would saturate the Thunderbolt 5 links almost immediately.
+
+The rough practical guidance: if you're clustering primarily to fit a model that's too large for one machine, MoE is your friend and clustering works well. If you're clustering to get more throughput on a model that already fits, dense models need very fast interconnects (NVLink or InfiniBand) to see meaningful gains.
 
 ## Query routing
 
