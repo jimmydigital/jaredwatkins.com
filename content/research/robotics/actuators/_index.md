@@ -1,7 +1,7 @@
 ---
 title: Robotics Actuators
 date: 2026-03-24
-lastmod: 2026-03-24
+lastmod: 2026-06-23
 draft: false
 description: Motors, gearboxes, servo drives, and actuation systems for commercial and defense robots — from brushless DC motors to harmonic drives and hydraulic systems.
 tags: ["robotics", "actuator", "motor", "gearbox"]
@@ -42,6 +42,8 @@ Actuators are the muscles of robots — the subsystems that convert electrical (
 | [KDE Direct](https://www.kdedirect.com) | Bend, OR, USA | Growth | US-manufactured precision BLDC motors for professional drones and robotics; direct competitor to T-Motor with US supply chain provenance. |
 | [Fortescue WAE](https://www.waetechnologies.com) | Oxford, UK | Private | High-performance electric motor and drive systems for aerospace and defense applications. |
 | [Aerojet Rocketdyne](https://www.l3harris.com) | Various | Public (acquired by L3Harris) | Electromechanical actuators for aerospace and defense applications; thrust vector control. |
+| [Synapticon](https://catalog.synapticon.com) | Weinstadt, Germany | Private | SOMANET EtherCAT servo drives and integrated actuator modules; compact form factor for robot joint integration; vendor ROS 2 driver (ros2_control); EtherCAT enables >500 Hz control loops. |
+| [Robotis](https://www.robotis.us) | Seoul, South Korea | Growth | Dynamixel smart servo actuator series (integrated motor+gearbox+driver+encoder+comms); dominant in research and educational robotics; vendor-supported ROS 2 driver; TurtleBot3 co-developer. |
 
 ### Public Companies
 

@@ -1,7 +1,7 @@
 ---
 title: Robotics Sensors
 date: 2026-03-24
-lastmod: 2026-03-24
+lastmod: 2026-06-23
 draft: false
 description: LiDAR, radar, IMUs, GNSS, cameras, and force/torque sensors for robot perception — manufacturers, technology trends, and supply chain.
 tags: ["robotics", "sensor", "lidar", "gnss", "radar"]
@@ -39,13 +39,15 @@ Sensors are the eyes and proprioception of robots. The robotics sensor landscape
 |---------|-----|-------|---------|
 | [Ouster](https://ouster.com) | San Francisco, CA, USA | Public (NYSE: OUST) | Digital spinning LiDAR (OS series); formed by merger with Velodyne 2023; broad robotics, AV, and industrial market. |
 | [Innoviz Technologies](https://innoviz.tech) | Rosh HaAyin, Israel | Public (NASDAQ: INVZ) | MEMS solid-state LiDAR (InnovizOne, InnovizTwo); BMW OEM design win; targets automotive-grade qualification. |
-| [Stereolabs](https://www.stereolabs.com) | Paris, France / San Francisco, CA | Series B | ZED stereo camera series (active stereo vision); popular in AMR, drone, and research robotics; NVIDIA partnership for Jetson integration. |
+| [Stereolabs](https://www.stereolabs.com) | Paris, France / San Francisco, CA | Series B | ZED stereo camera series (active stereo vision); popular in AMR, drone, and research robotics; NVIDIA partnership for Jetson integration; Gold MoveIt Pro integration. |
 | [Luxonis](https://luxonis.com) | Denver, CO, USA | Series A | OAK-D spatial AI camera (depth + neural inference on-device); popular in research and development-stage robots. |
 | [LightWare](https://lightwarelidar.com) | Johannesburg, South Africa | Growth | Compact micro-LiDAR for drone altitude hold and obstacle avoidance; SF and LW series; widely specified into professional drone platforms. |
 | [Robosense](https://www.robosense.ai) 🇨🇳 | Shenzhen, China | Public (HKEX: 2498) | Spinning and solid-state LiDAR; competitive pricing with Hesai; strong China AMR and automotive market. |
 | [Hesai Technology](https://www.hesaitech.com) 🇨🇳 | Shanghai, China | Public (NASDAQ: HSAI) | AT128, XT32, QT128 spinning LiDAR and solid-state variants; aggressive pricing; growing international AMR and AV share. |
 | [Cepton](https://www.cepton.com) | San Jose, CA, USA | Acquired (Koito Mfg., Japan) | MEMS-based solid-state LiDAR; acquired by Koito Manufacturing (Japan, major Tier-1 auto supplier) 2023. |
 | [WayRay](https://wayray.com) | Zurich, Switzerland | Series C | Holographic AR displays and sensing; sensor-adjacent technology. |
+| [Zivid](https://www.zivid.com) | Oslo, Norway | Private | Zivid Two and Zivid 2+ structured-light 3D cameras for bin picking and industrial manipulation; sub-millimeter accuracy; Gold MoveIt Pro integration; vendor ROS 2 driver. |
+| [Bota Systems](https://www.botasys.com) | Zürich, Switzerland | Growth (ETH spinout) | SensONE 6-axis force-torque sensors; EtherCAT/USB/SPI interfaces; vendor ROS 2 driver; targeted at compliant manipulation. |
 
 ### Public Companies
 
@@ -120,4 +122,8 @@ Sensors are the eyes and proprioception of robots. The robotics sensor landscape
 
 **Force/torque sensor niche:** ATI Industrial Automation (Apex Tool Group subsidiary), Robotiq (Quebec), and OnRobot (Denmark) supply the force/torque sensors used at robot wrists for compliant manipulation, assembly, and human-robot collaboration. This is a small-volume, high-value segment with limited competition and strong IP protection — a relatively defensible niche in an otherwise commoditizing sensor landscape.
 
-### Supply Chain — Last Reviewed: 2026-03-24
+### Supply Chain — Last Reviewed: 2026-06-23
+
+## Subsections
+
+- [Force-Torque Sensors]({{< relref "force-torque/_index.md" >}}) — 6-axis F/T sensors for compliant manipulation; ATI, Robotiq, Bota Systems, JR3

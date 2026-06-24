@@ -1,7 +1,7 @@
 ---
 title: "Research Section Changelog"
 date: 2026-04-04
-lastmod: 2026-06-19
+lastmod: 2026-06-23
 draft: false
 description: "Timestamped log of additions and modifications to the Research knowledge base."
 tags: ["changelog", "research"]
@@ -20,6 +20,7 @@ sitemap:
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
 
+- **2026-06-23:** Created [ROS 2 Ecosystem]({{< relref "robotics/ros2/_index.md" >}}) section + [PickNik Robotics]({{< relref "robotics/ros2/picknik-robotics.md" >}}) (MoveIt Pro, primary MoveIt 2 maintainer, ROS 2 HW database 100+ brands 17 categories); actuator entries: [Robotis]({{< relref "robotics/actuators/robotis.md" >}}) (Dynamixel smart servos, dominant research/edu actuator, ROS 2 driver), [Synapticon]({{< relref "robotics/actuators/synapticon.md" >}}) (SOMANET EtherCAT drives, >500 Hz loops); sensor entries: [Zivid]({{< relref "robotics/sensors/zivid.md" >}}) (structured-light 3D, Gold MoveIt), [Stereolabs]({{< relref "robotics/sensors/stereolabs.md" >}}) (ZED stereo+VIO, Gold MoveIt); [Force-Torque Sensors]({{< relref "robotics/sensors/force-torque/_index.md" >}}) subsection + [Bota Systems]({{< relref "robotics/sensors/force-torque/bota-systems.md" >}}) (SensONE EtherCAT F/T, ETH spinout).
 - **2026-06-19:** Added Source Verification Rules section to research steering doc (`_index.md`): 6 rules covering fetch-before-write, no bare numbers without fetched source, leadership requires current-dated source, named locations require verified source, prefer official press releases over media for funding facts, verify all source URLs before filing.
 - **2026-06-19:** Created ecosystem expansion entries across 3 new robotics subsections — [Software & Integration]({{< relref "robotics/software-and-integration/_index.md" >}}): [SVT Robotics]({{< relref "robotics/software-and-integration/svt-robotics.md" >}}) (SOFTBOT middleware, DHL 100+ sites), [Robust AI]({{< relref "robotics/software-and-integration/robust-ai.md" >}}) (Carter CMR, Rodney Brooks + Gary Marcus, Foxconn mfg), [Vecna Robotics]({{< relref "robotics/software-and-integration/vecna-robotics.md" >}}) (Pivotal orchestration, Aptiv partnership); [Industrial Robots & Cobots]({{< relref "robotics/industrial-robots/_index.md" >}}): [Universal Robots]({{< relref "robotics/industrial-robots/universal-robots.md" >}}) (40% cobot market share, 100K+ deployed, UR5e best-seller); [AMR & Logistics]({{< relref "robotics/amr-and-logistics/_index.md" >}}): [6 River Systems]({{< relref "robotics/amr-and-logistics/6-river-systems.md" >}}) (Chuck CMR, iRobot founders, ex-Shopify). Updated robotics _index.md with full subsection map.
 - **2026-06-18:** Added [Cincinnati, OH]({{< relref "../relocation/cincinnati-oh.md" >}}) relocation profile — 8 Fortune 500 HQs (P&G, Kroger, Fifth Third); 84.51° world-scale retail data science; strong affordability (median home ~$275K, city income tax 1.8%); Over-the-Rhine urban revival; Duke Energy grid reliability concern; Ohio River flooding recurrence; constitutional carry. Updated city-comparison.md (Group 1 radar + all-city table) and relocation _index.md to include Cincinnati; total cities now 20.

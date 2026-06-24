@@ -12,9 +12,9 @@ categories:
   - Computing and Tech
 ---
 
-Have you thought about clustering local machines to run bigger AI models? A few things worth knowing before you go buy a second box.
+Have you thought about clustering local machines to run bigger AI models? Do it wrongly and your performance can actually get worse with additional nodes.
 
-Clustering works, but it's not a simple upgrade. Whether it helps depends almost entirely on which kinds of models you're running and what hardware platform you have. Do it wrongly and your performance can actually get worse with additional nodes.
+Clustering works, but it's not a simple upgrade. Whether it helps depends almost entirely on which kinds of models you're running and what hardware platform you have. 
 
 The big open-source models today come in two flavors. Dense models use all their parameters on every request (they're memory-hungry all the time). Mixture-of-experts (MoE) models carry a large total parameter count but only activate a fraction of it per request. DeepSeek, Qwen3-235B, Kimi K2 are MoE. Llama 3.1 70B and 405B are dense.
 
