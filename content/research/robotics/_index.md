@@ -1,7 +1,7 @@
 ---
 title: Robotics Research
 date: 2026-03-24
-lastmod: 2026-06-23
+lastmod: 2026-06-26
 draft: false
 description: Research on commercial robotics platforms, components, and the companies and people building them.
 tags: ["robotics"]
@@ -45,3 +45,4 @@ Tracks commercial robotics platforms, component suppliers, and the people and ca
 - [Communications]({{< relref "communications/_index.md" >}}) — Mesh radio, cellular modules
 - [Power Systems]({{< relref "power-systems/_index.md" >}}) — Batteries, fuel cells, wireless charging
 - [ROS 2 Ecosystem]({{< relref "ros2/_index.md" >}}) — ROS 2 middleware, PickNik/MoveIt Pro, and the hardware compatibility ecosystem
+- [EtherCAT]({{< relref "ethercat/_index.md" >}}) — Real-time Ethernet fieldbus for multi-axis motion control; protocol architecture, key companies, FSoE safety, open-source tooling, and limitations
