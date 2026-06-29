@@ -1,7 +1,7 @@
 ---
 title: Research
 date: 2026-03-23
-lastmod: 2026-06-19
+lastmod: 2026-06-29
 draft: false
 last_reviewed: 2026-04-07
 description: AI-maintained knowledge base on emerging technology topics.
@@ -672,9 +672,11 @@ A living, AI-maintained knowledge base on emerging technology topics. Each area 
 - [Datacenters]({{< relref "datacenters/_index.md" >}}) — Physical datacenter infrastructure: cooling, power, construction, rugged edge compute
 - [Drone Detection]({{< relref "drone-detection/_index.md" >}}) — C-UAS detection methods, hardware, open-source tools, and counter-drone platforms for critical infrastructure protection
 - [Energy]({{< relref "energy/_index.md" >}}) — Solar, batteries, nuclear, and energy resources
+- [Large Format Additive Manufacturing (LFAM)]({{< relref "lfam/_index.md" >}}) — Industrial-scale 3D printing: gantry and robotic pellet extrusion, WAAM for metal naval components, defense and aerospace applications
 - [Local LLM Fine-Tuning]({{< relref "local-llm-finetuning/_index.md" >}}) — Building and fine-tuning specialist LLMs for edge deployment: training data, compute options, and network engineer expert models
 - [Post-Quantum Encryption]({{< relref "post-quantum-encryption/_index.md" >}}) — NIST PQC standards adoption across networking hardware and cryptocurrency infrastructure
 - [Quantum Computing]({{< relref "quantum-computing/_index.md" >}}) — Quantum computing hardware, software, and the race toward practical quantum advantage
 - [Relocation Research]({{< relref "relocation/_index.md" >}}) — City and county relocation profiles evaluated against a consistent set of livability criteria, benchmarked to coastal South Carolina
 - [Robotics]({{< relref "robotics/_index.md" >}}) — Robotics platforms, sensors, actuators, and autonomy software; includes [Humanoid Robots]({{< relref "robotics/humanoid/_index.md" >}}) subsection (US and non-US companies, autonomy claims, specialized robot debate)
 - [Semiconductors]({{< relref "semiconductors/_index.md" >}}) — Fabrication equipment, materials, and supply chain enabling advanced node chip manufacturing
+- [Software Philosophy]({{< relref "software-philosophy/_index.md" >}}) — Foundational ideas shaping how software is designed: Unix philosophy, composability, open source, and their critics

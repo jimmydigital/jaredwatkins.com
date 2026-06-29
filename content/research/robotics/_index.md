@@ -1,7 +1,7 @@
 ---
 title: Robotics Research
 date: 2026-03-24
-lastmod: 2026-06-26
+lastmod: 2026-06-29
 draft: false
 description: Research on commercial robotics platforms, components, and the companies and people building them.
 tags: ["robotics"]
@@ -31,10 +31,13 @@ Tracks commercial robotics platforms, component suppliers, and the people and ca
 - Defense UGV programs accelerating commercial robotics technology transfer in both directions
 - Hydrogen fuel cells emerging as a credible alternative to batteries for extended endurance applications
 - Humanoid robot sector experiencing a valuation bubble: Chinese manufacturers dominate unit volume (~90% of 2025 shipments), US companies dominate private valuations; autonomy claims broadly unverified
+- Naval/maritime autonomy emerging as a major defense procurement category; US Navy MUSV/LUSV programs driving large ASV startup valuations (Saronic at $9.25B); no Chinese/foreign-dominated supply chain problem here
 
 ## Subsections
 
 - [Aerial Drones]({{< relref "aerial-drones/_index.md" >}}) — UAS platforms, defense/commercial, Blue UAS framework
+- [Naval Drones / ASVs]({{< relref "naval-drones/_index.md" >}}) — Autonomous surface vessels for defense and maritime operations (Saronic, HavocAI, Anduril+HD Hyundai, MASC program)
+- [Undersea Drones / AUVs]({{< relref "undersea-drones/_index.md" >}}) — Autonomous underwater vehicles and drone submarines (Anduril Ghost Shark/Dive-XL/Copperhead, L3Harris Iver4, Lockheed Lamprey)
 - [Ground Drones / UGVs]({{< relref "ground-drones/_index.md" >}}) — Legged, wheeled, agricultural, delivery UGVs
 - [AMR & Logistics]({{< relref "amr-and-logistics/_index.md" >}}) — Warehouse AMRs, picking robots, fleet management (6 River, Locus, Fetch, Geek+)
 - [Industrial Robots & Cobots]({{< relref "industrial-robots/_index.md" >}}) — Robot arms and cobots; Universal Robots; FANUC/ABB/KUKA/Yaskawa context
