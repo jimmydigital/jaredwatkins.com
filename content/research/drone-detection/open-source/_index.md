@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "Open-source tools and libraries for drone detection and Remote ID decoding — usable today for building custom detection systems."
-tags: ["open-source", "drone-detection", "remote-id", "opendroneid", "gnu-radio"]
-categories: ["overview"]
 research_area: "drone-detection/open-source"
 last_reviewed: 2026-06-05
 stale_after_days: 90

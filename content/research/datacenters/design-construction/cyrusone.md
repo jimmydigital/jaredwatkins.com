@@ -4,8 +4,6 @@ date: 2026-04-02
 lastmod: 2026-04-02
 draft: false
 description: "Dallas-based colocation datacenter operator; former REIT (CONE), taken private by KKR and GIP (now BlackRock) in March 2022 for ~$15B; 55+ data centers across North America and Europe; Intelliscale AI-native design platform supporting 12–300 kW/rack via hybrid liquid cooling; ~$12B in debt financing raised in 2025; major Texas expansion underway (DFW7, DFW10, DFW17); E.ON power partnership for European grid-constrained markets; experienced CME cooling outage November 2025."
-tags: ["datacenters", "design-construction", "us", "ai-datacenter", "high-density", "public", "reit"]
-categories: ["company"]
 research_area: "datacenters/design-construction"
 source_urls:
   - "https://www.cyrusone.com/"

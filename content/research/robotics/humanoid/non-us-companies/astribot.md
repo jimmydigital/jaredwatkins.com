@@ -4,8 +4,6 @@ date: 2026-06-19
 lastmod: 2026-06-19
 draft: false
 description: "Shenzhen-based humanoid startup backed by Tencent; S1 robot with high-speed dexterous manipulation; 2022 founding; pre-commercial; Tencent investment; subsidiary of STAR VOYAGER."
-tags: ["humanoid", "robotics", "china", "manipulation", "tencent"]
-categories: ["company"]
 research_area: "robotics/humanoid"
 chinese-owned: true
 source_urls:

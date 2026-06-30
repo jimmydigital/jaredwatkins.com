@@ -4,8 +4,6 @@ date: 2026-03-25
 lastmod: 2026-03-26
 draft: false
 description: "Escondido, CA rugged AI compute company (NASDAQ: OSTO); 'AI on the Fly' (AIFLY) rackmount GPU servers for airborne and maritime military platforms; P-8A Poseidon maritime patrol aircraft, Virginia-class submarine sonar, USSOCOM CRADA; Q4 2025 revenue $12M (+70% YoY); 2026 guidance of 20–25% growth."
-tags: ["rugged", "edge-compute", "mil-spec", "ai-inference", "defense", "us", "public", "rack-server"]
-categories: ["company"]
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://onestopsystems.com/"

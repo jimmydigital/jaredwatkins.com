@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Shanghai cellular IoT module maker (603236.SS); world's largest by shipment volume at ~47% global unit market share; EC/RG series modules are de facto standard in AMR and drone platforms globally; added to DoD Section 1260H Chinese Military Company list and subject to FCC national security scrutiny."
-tags: ["robotics", "communications", "china"]
-categories: ["company"]
 research_area: "robotics/communications"
 chinese-owned: true
 source_urls:

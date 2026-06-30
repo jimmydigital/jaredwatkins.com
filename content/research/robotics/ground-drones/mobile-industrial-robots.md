@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Odense, Denmark-based AMR manufacturer; Teradyne subsidiary since 2018; fleet ranges from MiR250 to MiR1350 (250–1,350 kg payload); 220+ global distributors; merged with AutoGuide Mobile Robots in 2023 for high-payload expansion."
-tags: ["robotics", "amr", "eu", "commercial", "industrial"]
-categories: ["company"]
 research_area: "robotics/ground-drones"
 source_urls:
   - "https://mobile-industrial-robots.com/"

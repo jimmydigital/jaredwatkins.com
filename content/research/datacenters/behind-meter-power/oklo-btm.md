@@ -4,8 +4,6 @@ date: 2026-04-21
 lastmod: 2026-04-28
 draft: false
 description: "BTM-focused profile of Oklo's Aurora reactor for data center deployment. 75 MWe sodium-cooled fast microreactor. ~18 GW order book (mostly nonbinding LOIs) from Meta, Switch, Equinix, Wyoming Hyperscale. First deployment at Idaho National Lab (groundbreaking Sept 2025, target 2027–2028 criticality). Key risks: HALEU fuel supply, NRC licensing, order book / binding commitment gap."
-tags: ["nuclear", "smr", "microreactor", "behind-the-meter", "data-center", "haleu", "oklo"]
-categories: ["company"]
 research_area: "datacenters/behind-meter-power"
 related:
   - "energy/nuclear/oklo.md"

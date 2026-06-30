@@ -4,8 +4,6 @@ date: 2026-03-24
 lastmod: 2026-03-24
 draft: false
 description: "Marlborough, MA fiber optic connectivity specialist; subsidiary of Japan's Senko Advance Co. (founded 1946); developer of blind-mate optical connectors enabling robot-serviced server racks; selected by SoftBank for cable-less rack program (September 2025)."
-tags: ["datacenters", "robotics-automation", "blind-mate", "japan", "us", "connectivity"]
-categories: ["company"]
 research_area: "datacenters/robotics-automation"
 source_urls:
   - "https://www.senko.com/senkos-newly-developed-blind-mate-connectivity-powers-softbanks-robot-friendly-server-rack-for-next-generation/"

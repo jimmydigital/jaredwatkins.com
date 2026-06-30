@@ -4,8 +4,6 @@ date: 2026-04-24
 lastmod: 2026-04-24
 draft: false
 description: "NuScale Power (NYSE: SMR), Portland, OR. VOYGR small modular reactor: 77 MWe per module, up to 12-module plant (924 MWe total). Only SMR with NRC Standard Design Approval (SDA, July 2022; uprated to 77 MWe, May 2025). UAMPS Carbon Free Power Project cancelled November 2023 (cost overruns). Pivoting to data center market: Standard Power (Ohio/Pennsylvania, 24-module, ~1.8 GW), TVA/ENTRA1 partnership. Stock down 70%+ from 2025 highs; class action lawsuits; $532M Q3 2025 loss. ~$1.3B liquidity (end 2025). High-risk; pre-revenue; no construction started."
-tags: ["nuclear", "smr", "behind-the-meter", "data-center", "nuscale", "voygr"]
-categories: ["company"]
 research_area: "datacenters/behind-meter-power"
 source_urls:
   - "https://www.nuscalepower.com/"

@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "US-made RF spectrum sensing drone detection system targeting correctional facilities and critical infrastructure; detects both Remote ID-broadcasting and non-broadcasting drones without violating federal surveillance laws."
-tags: ["rf-detection", "remote-id", "us", "critical-infrastructure", "commercial-legal", "fixed-site", "mobile"]
-categories: ["company"]
 research_area: "drone-detection"
 source_urls:
   - "https://aerodefense.tech/"

@@ -4,8 +4,6 @@ date: 2026-06-19
 lastmod: 2026-06-19
 draft: false
 description: "Sunnyvale, CA humanoid robot startup; highest private valuation in the sector at $39B; ~$1.9B raised; Figure 03 general-purpose industrial robot; BotQ manufacturing facility; 619 employees."
-tags: ["humanoid", "robotics", "us", "industrial", "autonomy"]
-categories: ["company"]
 research_area: "robotics/humanoid"
 source_urls:
   - "https://figure.ai"

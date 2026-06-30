@@ -4,8 +4,6 @@ date: 2026-04-07
 lastmod: 2026-04-07
 draft: false
 description: "Silicon photonics quantum computing startup pursuing fault-tolerant photonic computing by manufacturing integrated chipsets at GlobalFoundries; the most heavily funded independent quantum hardware company with no publicly demonstrated quantum processor as of early 2026."
-tags: ["quantum-computing", "photonic", "fault-tolerant-research", "us", "australia"]
-categories: ["company"]
 research_area: "quantum-computing"
 source_urls:
   - "https://www.psiquantum.com"

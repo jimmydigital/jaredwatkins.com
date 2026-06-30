@@ -4,8 +4,6 @@ date: 2026-04-25
 lastmod: 2026-04-25
 draft: false
 description: "VITA 48 REDI (Ruggedized Enhanced Design Implementation) defines the family of mechanical and thermal interface standards for OpenVPX modules. Overview of the major variants: conduction cooling, air flow-through (AFT), and liquid flow-through (LFT/VITA 48.4)."
-tags: ["vita-48", "openvpx", "thermal-management", "liquid-cooling", "conduction-cooling", "defense", "rugged"]
-categories: ["technology"]
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://militaryembedded.com/radar-ew/thermal-management/liquid-flow-through-vita-484-cooling-technology-in-rugged-openvpx-atr-platform"

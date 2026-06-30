@@ -4,8 +4,6 @@ date: 2026-04-03
 lastmod: 2026-04-03
 draft: false
 description: "BYD's energy storage division is uniquely vertically integrated among major BESS players: it manufactures its own Blade LFP cells and integrates them into utility-scale BESS systems, capturing margin at both layers while controlling quality and supply chain in ways pure integrators cannot."
-tags: ["batteries", "bess", "lfp", "china", "grid-storage", "vertical-integration", "public"]
-categories: ["company"]
 research_area: "energy/batteries"
 chinese-owned: true
 source_urls:

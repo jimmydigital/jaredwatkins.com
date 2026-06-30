@@ -4,8 +4,6 @@ date: 2026-06-07
 lastmod: 2026-06-07
 draft: false
 description: "AMD's next-generation CDNA 5 GPU accelerators (MI430X, MI440X, MI455X) and Helios rack-scale AI system; 72 GPUs, 31 TB HBM4, 2.9 exaFLOPS FP4; targeting H2 2026."
-tags: ["amd", "gpu", "ai-accelerators", "cdna", "rack-scale", "hbm4", "ualink", "ultraethernet", "us"]
-categories: ["technology"]
 research_area: "ai-accelerators/amd-instinct"
 source_urls:
   - "https://www.tomshardware.com/tech-industry/artificial-intelligence/amd-touts-instinct-mi430x-mi440x-and-mi455x-ai-accelerators-and-helios-rack-scale-ai-architecture-at-ces"

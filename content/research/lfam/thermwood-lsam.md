@@ -4,8 +4,6 @@ date: 2026-06-29
 lastmod: 2026-06-29
 draft: false
 description: "Thermwood's LSAM (Large Scale Additive Manufacturing) systems are the leading gantry-based LFAM platform for thermoplastic composite tooling and structural parts. Build volumes up to 40+ feet; customers include Boeing, Bell, AFRL, and General Atomics. The LSAM AP510 is the entry-level print-only system; combined print+trim systems handle autoclave-capable cure tooling for aerospace."
-tags: ["lfam", "additive-manufacturing", "composites", "aerospace", "tooling", "us"]
-categories: ["company"]
 research_area: "lfam"
 source_urls:
   - "https://www.thermwood.com/lsam_home.htm"

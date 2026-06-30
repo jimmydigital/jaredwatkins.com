@@ -3,8 +3,6 @@ title: "Rugged & Edge Compute"
 date: 2026-03-25
 lastmod: 2026-04-25
 description: "Rugged compute platforms, AI inference at the edge, military/maritime/aviation deployments, man-portable compute, semi-industrial fanless edge AI servers"
-tags: ["rugged", "edge-compute", "mil-spec", "ai-inference", "defense", "fanless", "industrial"]
-categories: ["overview"]
 research_area: "datacenters/rugged-edge-compute"
 last_reviewed: 2026-04-25
 stale_after_days: 180

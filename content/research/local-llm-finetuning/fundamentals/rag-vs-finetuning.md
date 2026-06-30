@@ -4,8 +4,6 @@ date: 2026-06-10
 lastmod: 2026-06-10
 draft: false
 description: "When to use retrieval-augmented generation vs. fine-tuning to adapt an LLM for a specialist domain — and how the two approaches combine for a network engineer expert model that needs both current device knowledge and deep CLI intuition."
-tags: ["rag", "fine-tuning", "retrieval-augmented-generation", "llm", "network-engineering", "architecture"]
-categories: ["technology"]
 research_area: "local-llm-finetuning/fundamentals"
 source_urls:
   - "https://arxiv.org/abs/2005.11401"

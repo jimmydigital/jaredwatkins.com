@@ -4,8 +4,6 @@ date: 2026-04-25
 lastmod: 2026-04-25
 draft: false
 description: "Rancho Dominguez, CA rugged embedded computing company specializing in ultra-compact, thermally innovative mission computers and VPX-based systems for defense applications. Inventor of RuggedCool four-sided conduction cooling technology."
-tags: ["rugged", "embedded-compute", "defense", "vpx", "thermal-management", "us", "fanless"]
-categories: ["company"]
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://www.gms4sbc.com/"

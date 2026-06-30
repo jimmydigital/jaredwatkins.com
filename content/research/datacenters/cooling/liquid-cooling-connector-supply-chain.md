@@ -4,8 +4,6 @@ date: 2026-06-07
 lastmod: 2026-06-07
 draft: false
 description: "Who makes liquid cooling connectors, where they are made, market concentration, Chinese manufacturing emergence, and supply chain risks for AI datacenter deployments."
-tags: ["liquid-cooling", "cooling", "datacenters", "supply-chain", "ai-datacenter"]
-categories: ["overview"]
 research_area: "datacenters/cooling"
 source_urls:
   - "https://reports.valuates.com/market-reports/QYRE-Auto-32P17732/global-universal-quick-disconnect-uqd-coupling-for-liquid-cooling"

@@ -4,8 +4,6 @@ date: 2026-04-25
 lastmod: 2026-04-25
 draft: false
 description: "MicroTCA platform adoption in 5G Radio Access Network baseband processing, fronthaul switching, and precision timing distribution — the standard's strongest current growth market."
-tags: ["microtca", "5g", "ran", "telecom", "fronthaul", "timing", "ptp", "synce", "edge-compute"]
-categories: ["technology"]
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://vita.militaryembedded.com/2011-microtca-extends-telecom-beyond/"

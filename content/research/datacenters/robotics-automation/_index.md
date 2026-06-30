@@ -4,8 +4,6 @@ date: 2026-03-24
 lastmod: 2026-03-24
 draft: false
 description: Autonomous and robotic systems for datacenter operations — robot-friendly rack design, server installation automation, and lights-out facility management.
-tags: ["datacenters", "robotics-automation"]
-categories: ["overview"]
 research_area: "datacenters/robotics-automation"
 last_reviewed: 2026-03-24
 stale_after_days: 90

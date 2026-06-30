@@ -4,8 +4,6 @@ date: 2026-03-25
 lastmod: 2026-03-25
 draft: false
 description: "Rockville, MD pebble-bed HTGR developer; Xe-100 produces 80 MWe per reactor (320 MW for 4-pack); NRC construction permit application docketed May 2025 for Dow Seadrift TX (first industrial-site advanced nuclear in North America); Amazon anchor investor ($500M Series C-1, Oct 2024); $700M Series D (Nov 2025); TRISO-X subsidiary building HALEU fuel fab facility in Oak Ridge TN; commercial target 2030."
-tags: ["nuclear", "smr", "gen-iv", "energy", "us", "haleu", "startup", "behind-the-meter"]
-categories: ["company"]
 research_area: "energy/nuclear"
 source_urls:
   - "https://x-energy.com/"

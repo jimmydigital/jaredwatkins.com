@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "Radio frequency detection of drone control links and FAA Remote ID broadcasts — effective against compliant US drones; fundamentally unable to detect fiber-optic or pre-programmed autonomous drones."
-tags: ["rf-detection", "remote-id", "drone-detection", "faa", "spectrum-monitoring"]
-categories: ["technology"]
 research_area: "drone-detection/detection-methods"
 source_urls:
   - "https://www.faa.gov/uas/getting_started/remote_id"

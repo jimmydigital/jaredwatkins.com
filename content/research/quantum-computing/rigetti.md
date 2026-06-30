@@ -4,8 +4,6 @@ date: 2026-04-07
 lastmod: 2026-04-07
 draft: false
 description: "Publicly traded superconducting quantum computing company; builds QPUs at its own Fab-1 foundry; sells cloud access via QCS, AWS Braket, and Azure Quantum; financially stressed with declining revenue."
-tags: ["quantum-computing", "superconducting", "nisq", "us", "cloud-access"]
-categories: ["company"]
 research_area: "quantum-computing"
 source_urls:
   - "https://www.rigetti.com"

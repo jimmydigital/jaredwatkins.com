@@ -4,8 +4,6 @@ date: 2026-06-10
 lastmod: 2026-06-10
 draft: false
 description: "End-to-end design for Juniper and Cisco specialist network engineer models: base model selection, training data requirements, fine-tuning parameters, edge deployment, and integration with attached network devices."
-tags: ["specialist-models", "network-engineering", "juniper", "cisco", "edge-deployment", "llm", "junos", "ios"]
-categories: ["overview"]
 research_area: "local-llm-finetuning/specialist-models"
 last_reviewed: 2026-06-10
 stale_after_days: 90

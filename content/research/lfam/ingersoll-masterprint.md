@@ -4,8 +4,6 @@ date: 2026-06-29
 lastmod: 2026-06-29
 draft: false
 description: "Ingersoll Machine Tools' MasterPrint is one of the world's largest LFAM gantry systems, with 450 m³ build volume and 6.7m width exceeding modern wind blade chord dimensions. Used by UMaine, Bell, and TPI Composites for wind turbine tooling, rotor blade molds, and aerospace applications. MasterPrint Deployable is a containerized version for forward manufacturing."
-tags: ["lfam", "additive-manufacturing", "composites", "aerospace", "wind-energy", "tooling", "us"]
-categories: ["company"]
 research_area: "lfam"
 source_urls:
   - "https://en.machinetools.camozzi.com/products/additive-manufacturing/all-products/masterprint-.kl"

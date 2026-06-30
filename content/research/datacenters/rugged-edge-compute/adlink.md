@@ -4,8 +4,6 @@ date: 2026-04-25
 lastmod: 2026-04-25
 draft: false
 description: "Taiwan-based embedded computing company (TWSE: 6166, Advantech-affiliated); AXE Series rugged AI edge servers and DLAP (Deep Learning Application Platform) GPU inference systems; COM Express and OpenVPX modules; defense, autonomous vehicle, medical, and industrial AI markets; Intel and NVIDIA platform integration."
-tags: ["rugged", "edge-compute", "ai-inference", "industrial", "taiwan", "public", "gpu-edge", "vpx", "com-express"]
-categories: ["company"]
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://www.adlinktech.com/"

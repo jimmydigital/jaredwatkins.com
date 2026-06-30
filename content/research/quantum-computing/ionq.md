@@ -4,8 +4,6 @@ date: 2026-04-05
 lastmod: 2026-04-07
 draft: false
 description: "Publicly traded trapped-ion quantum computing company; produces Forte and Tempo systems; uses ytterbium ions as qubits; cloud access via AWS, Azure, and Google Cloud."
-tags: ["quantum-computing", "trapped-ion", "nisq", "us", "cloud-access"]
-categories: ["company"]
 research_area: "quantum-computing"
 source_urls:
   - "https://ionq.com"

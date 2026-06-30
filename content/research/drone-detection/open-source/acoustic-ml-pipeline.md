@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "Build guide for a Raspberry Pi + MEMS microphone array + CNN/Random Forest classifier for passive acoustic drone detection, based on academic literature and open-source datasets."
-tags: ["acoustic", "open-source", "machine-learning", "raspberry-pi", "mems", "cnn", "drone-detection"]
-categories: ["technology"]
 research_area: "drone-detection"
 source_urls:
   - "https://arxiv.org/abs/2509.04715"

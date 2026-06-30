@@ -4,8 +4,6 @@ date: 2026-04-03
 lastmod: 2026-04-03
 draft: false
 description: "Palo Alto, CA perovskite photovoltaic developer; founded 2017; developing stable, high-efficiency perovskite solar cells using tin-based perovskite materials to avoid lead toxicity concerns; targeting low-cost, scalable manufacturing."
-tags: ["solar", "perovskite", "tin-perovskite", "energy", "us", "startup", "lead-free"]
-categories: ["company"]
 research_area: "energy/solar"
 source_urls:
   - "https://www.swiftsolar.com/"

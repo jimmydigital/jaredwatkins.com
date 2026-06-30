@@ -4,8 +4,6 @@ date: 2026-04-19
 lastmod: 2026-04-19
 draft: false
 description: "Google's superconducting quantum computing program; Sycamore 2019 supremacy claim (contested), Willow 2024 below-threshold error correction (partially verified), dual-modality expansion to neutral atoms (March 2026); targeting useful fault-tolerant quantum computer by 2029."
-tags: ["quantum-computing", "superconducting", "nisq", "fault-tolerant-research", "us", "incumbent"]
-categories: ["company"]
 research_area: "quantum-computing"
 source_urls:
   - "https://quantumai.google/"

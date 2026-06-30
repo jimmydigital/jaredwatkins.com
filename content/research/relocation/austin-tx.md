@@ -4,8 +4,6 @@ date: 2026-06-15
 lastmod: 2026-06-15
 draft: false
 description: "Relocation evaluation of Austin, Texas: cost of living, demographics, crime, tech ecosystem, small business climate, utilities, and environmental risks."
-tags: ["relocation", "texas", "austin", "south-central"]
-categories: ["overview"]
 research_area: "relocation"
 source_urls:
   - "https://www.jvmlending.com/blog/cost-of-living-in-austin/"

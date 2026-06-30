@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Waltham, MA robotics company and Hyundai Motor Group subsidiary; Spot quadruped has 1,500+ units deployed commercially; Atlas electric humanoid robot entering Hyundai factory pilot in 2025; Stretch logistics robot in commercial deployment; CEO Robert Playter retired February 2026."
-tags: ["robotics", "ugv", "amr", "us", "commercial", "defense"]
-categories: ["company"]
 research_area: "robotics/ground-drones"
 source_urls:
   - "https://bostondynamics.com/products/spot/"

@@ -4,8 +4,6 @@ date: 2026-04-29
 lastmod: 2026-04-29
 draft: false
 description: "Seattle-area startup building and operating orbital data centers; first to train an LLM in space; YC unicorn at $1.1B valuation after Series A in March 2026."
-tags: ["orbital-compute", "space", "ai-datacenter", "gpu", "us", "startup"]
-categories: ["company"]
 research_area: "datacenters/orbital-compute"
 source_urls:
   - "https://www.starcloud.com/"

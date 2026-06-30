@@ -4,8 +4,6 @@ date: 2026-06-19
 lastmod: 2026-06-19
 draft: false
 description: "Austin, TX humanoid robotics company; Apollo robot; $935M total raised; B Capital / Capital Factory / Google Series A; ~$5B valuation; 4-hour hot-swappable battery; 5 co-founders from UT Austin / NASA Valkyrie; Mercedes-Benz, John Deere, Qatar Investment Authority investors; customers include Mercedes-Benz, GXO Logistics, Jabil."
-tags: ["humanoid", "robotics", "us", "industrial"]
-categories: ["company"]
 research_area: "robotics/humanoid"
 source_urls:
   - "https://apptronik.com"

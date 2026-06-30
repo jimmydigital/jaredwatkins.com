@@ -4,8 +4,6 @@ date: 2026-06-29
 lastmod: 2026-06-29
 draft: false
 description: "Anduril's undersea portfolio: Ghost Shark XLUUV (ADF; factory open; first delivery Nov 2025); Dive-XL selected by US Navy for XLUUV program (March 2026); Copperhead-100M/500M autonomous undersea munitions (sea trials ongoing, April 2026). All integrated into Lattice OS."
-tags: ["robotics", "undersea-drone", "auv", "uuv", "xluuv", "maritime", "defense", "us", "private", "autonomous-munition"]
-categories: ["company"]
 research_area: "robotics/undersea-drones"
 source_urls:
   - "https://breakingdefense.com/2025/11/first-ghost-shark-extra-large-auv-delivered-to-australian-navy/"

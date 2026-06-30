@@ -4,8 +4,6 @@ date: 2026-04-02
 lastmod: 2026-04-02
 draft: false
 description: "Largest global colocation/interconnection REIT (NYSE: DLR); founded 2004; HQ Austin TX; 310+ data centers across 50+ metros in 25+ countries; ~43M sq ft operating; $6.1B FY2025 revenue; PlatformDIGITAL modular design framework; direct liquid cooling available at 170+ facilities supporting 30–150+ kW/rack; NVIDIA AI Factory Research Center partner; $7B Blackstone JV and $3.25B inaugural hyperscale fund; ~$62B market cap."
-tags: ["datacenters", "design-construction", "us", "ai-datacenter", "high-density", "public", "reit"]
-categories: ["company"]
 research_area: "datacenters/design-construction"
 source_urls:
   - "https://www.digitalrealty.com/"

@@ -4,8 +4,6 @@ date: 2026-06-07
 lastmod: 2026-06-07
 draft: false
 description: "AMD's open-source GPU software stack for AI and HPC workloads, competing with CUDA. Includes HIP (CUDA compatibility layer), ROCm runtime, and AI libraries."
-tags: ["amd", "gpu", "software", "rocm", "cuda", "open-source", "us"]
-categories: ["technology"]
 research_area: "ai-accelerators/amd-instinct"
 source_urls:
   - "https://www.amd.com/en/products/software/rocm.html"

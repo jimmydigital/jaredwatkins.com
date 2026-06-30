@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Fremont, CA-origin AMR company acquired by Zebra Technologies for $290M in 2021; integrated into Zebra's enterprise workflow stack; Zebra announced in late 2025 it was winding down the Fetch-based mobile robotics group and seeking to sell or shut down the division."
-tags: ["robotics", "amr", "us", "commercial", "logistics"]
-categories: ["company"]
 research_area: "robotics/ground-drones"
 source_urls:
   - "https://www.therobotreport.com/zebra-technologies-winding-down-fetch-based-mobile-robot-group/"

@@ -4,8 +4,6 @@ date: 2026-06-10
 lastmod: 2026-06-10
 draft: false
 description: "The specific categories, sources, and volume of training data needed to produce a credible network-engineer expert model for Juniper and Cisco devices — covering command generation, configuration, troubleshooting, and tool interpretation."
-tags: ["training-data", "networking", "juniper", "cisco", "junos", "ios", "fine-tuning", "network-engineering"]
-categories: ["technology"]
 research_area: "local-llm-finetuning/training-data"
 source_urls:
   - "https://www.juniper.net/documentation/"

@@ -4,8 +4,6 @@ date: 2026-06-29
 lastmod: 2026-06-29
 draft: false
 description: Industrial 3D printing systems capable of producing parts meters in scale — composite tooling, structural hulls, aerospace molds, and defense components. Covers gantry and robotic pellet extrusion, wire arc additive manufacturing (WAAM), key system vendors, materials supply chain, and defense/aerospace applications.
-tags: ["lfam", "additive-manufacturing", "3d-printing", "composites", "manufacturing", "defense", "aerospace"]
-categories: ["overview"]
 research_area: "lfam"
 last_reviewed: 2026-06-29
 stale_after_days: 90

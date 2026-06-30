@@ -4,8 +4,6 @@ date: 2026-06-16
 lastmod: 2026-06-16
 draft: false
 description: "Relocation evaluation of New Orleans, Louisiana: cost of living, demographics, crime, employers, small business climate, utilities, and environmental risks including flooding and insurance crisis."
-tags: ["relocation", "louisiana", "new-orleans", "gulf-coast"]
-categories: ["overview"]
 research_area: "relocation"
 source_urls:
   - "https://www.salary.com/research/cost-of-living/new-orleans-la"

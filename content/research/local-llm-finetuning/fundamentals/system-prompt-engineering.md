@@ -4,8 +4,6 @@ date: 2026-06-11
 lastmod: 2026-06-11
 draft: false
 description: "How to write the system prompt for a fine-tuned network engineer specialist model — role definition, constraint specification, output format anchoring, few-shot examples, and the interaction between system prompt design and training data quality."
-tags: ["system-prompt", "prompt-engineering", "fine-tuning", "llm", "network-engineering", "inference"]
-categories: ["technology"]
 research_area: "local-llm-finetuning/fundamentals"
 source_urls: []
 last_reviewed: 2026-06-11

@@ -4,8 +4,6 @@ date: 2026-06-10
 lastmod: 2026-06-10
 draft: false
 description: "How large language models are trained from scratch, what fine-tuning modifies at a parameter level, and the efficient methods (LoRA, QLoRA) that make specialist fine-tuning practical on consumer hardware."
-tags: ["llm", "fine-tuning", "lora", "qlora", "transformers", "machine-learning"]
-categories: ["overview"]
 research_area: "local-llm-finetuning/fundamentals"
 last_reviewed: 2026-06-10
 stale_after_days: 90

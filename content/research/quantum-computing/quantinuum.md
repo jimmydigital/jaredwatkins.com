@@ -4,8 +4,6 @@ date: 2026-04-05
 lastmod: 2026-04-05
 draft: false
 description: "Privately held trapped-ion quantum computing company formed by the 2021 merger of Honeywell Quantum Solutions and Cambridge Quantum; produces the H-series (H1, H2) and Helios systems; holds the highest publicly demonstrated two-qubit gate fidelity of any commercial system."
-tags: ["quantum-computing", "trapped-ion", "nisq", "fault-tolerant-research", "us", "uk"]
-categories: ["company"]
 research_area: "quantum-computing"
 source_urls:
   - "https://www.quantinuum.com"

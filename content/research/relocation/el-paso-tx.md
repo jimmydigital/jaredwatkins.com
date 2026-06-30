@@ -4,8 +4,6 @@ date: 2026-06-15
 lastmod: 2026-06-15
 draft: false
 description: "Relocation evaluation of El Paso, Texas: cost of living, demographics, crime, tech ecosystem, small business climate, utilities, and environmental risks."
-tags: ["relocation", "texas", "el-paso", "border", "west-texas"]
-categories: ["overview"]
 research_area: "relocation"
 source_urls:
   - "https://www.redfin.com/city/6171/TX/El-Paso/housing-market"

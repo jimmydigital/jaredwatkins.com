@@ -4,8 +4,6 @@ date: 2026-04-29
 lastmod: 2026-04-29
 draft: false
 description: "SpaceX initiative to deploy up to one million orbital AI data center satellites; includes xAI merger context and the Terafab D3 chip program with Tesla and Intel."
-tags: ["orbital-compute", "space", "ai-datacenter", "spacex", "us"]
-categories: ["company"]
 research_area: "datacenters/orbital-compute"
 source_urls:
   - "https://www.datacenterdynamics.com/en/news/spacex-files-for-million-satellite-orbital-ai-data-center-megaconstellation/"

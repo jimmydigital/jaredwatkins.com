@@ -4,8 +4,6 @@ date: 2026-06-07
 lastmod: 2026-06-07
 draft: false
 description: "Architecture generations, competitive positioning, and market context for AMD's Instinct GPU accelerator line."
-tags: ["amd", "gpu", "ai-accelerators", "cdna", "us"]
-categories: ["overview"]
 research_area: "ai-accelerators/amd-instinct"
 source_urls:
   - "https://www.amd.com/en/products/accelerators/instinct/mi300.html"

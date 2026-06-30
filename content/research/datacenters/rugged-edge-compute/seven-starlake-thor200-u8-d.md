@@ -4,8 +4,6 @@ date: 2026-04-25
 lastmod: 2026-04-25
 draft: false
 description: "2.5U half-rack rugged NAS with 64TB NVMe capacity, Intel Xeon D processors (20 cores), MIL-STD-810 certification. Aerospace/submarine/defense deployments; GPU expansion support."
-tags: ["7starlake", "thor200", "half-rack", "nas", "xeon-d", "mil-std-810", "aerospace", "nvas"]
-categories: ["technology"]
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://7starlake.com/products/defense/storage/thor200-u8-d"

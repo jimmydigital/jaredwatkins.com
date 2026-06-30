@@ -4,8 +4,6 @@ date: 2026-04-03
 lastmod: 2026-04-03
 draft: false
 description: "Swiss EPFL spinout developing microfluidic chip-scale cooling systems that route liquid through microscopic channels etched directly into silicon, claiming 3x better heat removal than advanced cold plates and enabling rack densities toward 1 MW/rack."
-tags: ["cooling", "liquid-cooling", "datacenter", "chip-cooling", "emerging", "direct-to-chip", "high-density", "ultra-high-density", "us", "eu"]
-categories: ["company"]
 research_area: "datacenters/cooling"
 source_urls:
   - "https://acequia.substack.com/p/the-hot-topic"

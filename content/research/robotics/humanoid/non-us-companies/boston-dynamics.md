@@ -4,8 +4,6 @@ date: 2026-06-19
 lastmod: 2026-06-19
 draft: false
 description: "Waltham, MA robotics company; Hyundai-owned since 2021 ($1.1B); Atlas all-electric humanoid in Hyundai RMAC and Google DeepMind pilot; Spot quadruped is only commercially scaled product; Marc Raibert founder; Robert Playter CEO; 30,000 robots/year target by 2028."
-tags: ["humanoid", "robotics", "industrial", "quadruped", "south-korea", "hyundai"]
-categories: ["company"]
 research_area: "robotics/humanoid"
 source_urls:
   - "https://bostondynamics.com"

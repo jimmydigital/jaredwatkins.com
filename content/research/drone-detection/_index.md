@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "Detection methods, hardware, software, and open-source tools for identifying unauthorized drones at critical infrastructure, including drone-vs-bird discrimination."
-tags: ["drone-detection", "c-uas", "counter-drone", "critical-infrastructure", "defense"]
-categories: ["overview"]
 research_area: "drone-detection"
 last_reviewed: 2026-06-05
 stale_after_days: 90

@@ -4,8 +4,6 @@ date: 2026-06-10
 lastmod: 2026-06-10
 draft: false
 description: "Apple Silicon (Mac Mini / MacBook) vs. rented cloud GPU instances for LLM fine-tuning: hardware capabilities, time estimates, cost, and practical setup for each path."
-tags: ["compute", "apple-silicon", "gpu", "cloud-gpu", "fine-tuning", "mac-mini", "runpod", "lambda-labs"]
-categories: ["overview"]
 research_area: "local-llm-finetuning/compute-options"
 last_reviewed: 2026-06-10
 stale_after_days: 90

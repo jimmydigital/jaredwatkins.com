@@ -4,8 +4,6 @@ date: 2026-06-23
 lastmod: 2026-06-23
 draft: false
 description: "Robot Operating System 2 (ROS 2) middleware, tooling, and the hardware and software ecosystem built around it — from Open Robotics foundations to commercial integrators and MoveIt Pro."
-tags: ["robotics", "ros2", "middleware", "software"]
-categories: ["overview"]
 research_area: "robotics/ros2"
 last_reviewed: 2026-06-23
 stale_after_days: 90

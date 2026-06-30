@@ -4,8 +4,6 @@ date: 2026-04-21
 lastmod: 2026-04-21
 draft: false
 description: "Boom Supersonic, Denver, CO. Aerospace-derived aeroderivative gas turbine (Superpower, 42 MW) for data center behind-the-meter power. Crusoe Energy 29-unit order (1.21 GW). Raised $300M for turbine manufacturing. Symphony engine core from supersonic aircraft program. Fast-start, waterless operation. Natural gas feedstock."
-tags: ["gas-turbine", "behind-the-meter", "data-center", "aeroderivative", "energy", "startup", "turbine"]
-categories: ["company"]
 research_area: "datacenters/behind-meter-power"
 source_urls:
   - "https://boomsupersonic.com/superpower"

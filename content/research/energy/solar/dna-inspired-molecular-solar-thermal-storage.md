@@ -4,8 +4,6 @@ date: 2026-03-23
 lastmod: 2026-03-23
 draft: false
 description: "A record-setting pyrimidone molecule developed at UC Santa Barbara that stores solar energy as heat in chemical bonds, achieving energy density exceeding 1.6 MJ/kg — surpassing lithium-ion batteries."
-tags: ["solar", "us", "emerging", "thermochemical", "most"]
-categories: ["breakthrough"]
 research_area: "energy/solar"
 source_urls:
   - "https://interestingengineering.com/innovation/dna-inspired-molecule-solar-heat-storage"

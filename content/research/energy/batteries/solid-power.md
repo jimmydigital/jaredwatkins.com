@@ -4,8 +4,6 @@ date: 2026-03-23
 lastmod: 2026-03-24
 draft: false
 description: "Louisville, CO solid-state battery pure-play (NASDAQ: SLDP); sulfide electrolyte supplier model; cells in BMW i7 validation; Samsung SDI manufacturing partnership announced Oct 2025; continuous electrolyte production line targeted end of 2026."
-tags: ["batteries", "solid-state", "us", "ev"]
-categories: ["company"]
 research_area: "energy/batteries"
 source_urls:
   - "https://www.solidpowerbattery.com/investor-relations/investor-news/news-details/2025/Solid-Power-Partners-with-Samsung-SDI-and-BMW-to-Advance-All-Solid-State-Battery-Technology/default.aspx"

@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Sachseln, Switzerland precision DC/BLDC motor and actuator manufacturer; private; ~$572M revenue; 3,200 employees; 100+ drives on Mars rovers (Curiosity, Perseverance, Ingenuity); strategic partnership with ANYbotics; launched 15-actuator robotics joint portfolio (High Efficiency + High Precision families) for humanoid and collaborative robot market."
-tags: ["robotics", "actuators", "components", "eu"]
-categories: ["company"]
 research_area: "robotics/actuators"
 source_urls:
   - "https://www.maxongroup.com/en/market-solutions/mobility-solutions/robotics"

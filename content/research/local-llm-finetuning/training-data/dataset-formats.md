@@ -4,8 +4,6 @@ date: 2026-06-10
 lastmod: 2026-06-10
 draft: false
 description: "The three standard dataset formats used for LLM instruction fine-tuning — Alpaca, ShareGPT, and ChatML — with examples and guidance on when to use each."
-tags: ["training-data", "dataset", "alpaca", "sharegpt", "chatml", "jsonl", "fine-tuning"]
-categories: ["technology"]
 research_area: "local-llm-finetuning/training-data"
 source_urls:
   - "https://github.com/tatsu-lab/stanford_alpaca"

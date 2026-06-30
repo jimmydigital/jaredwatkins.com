@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "San Francisco, CA digital LiDAR company (NYSE: OUST); formed from Ouster+Velodyne merger of equals Feb 2023; FY2024 revenue $111M (+33%); FY2025 revenue $169M (+52%, incl. $23M one-time royalties); OS sensor family; REV7 custom ASIC; 850+ customers in automotive, robotics, industrial, and smart infrastructure markets; Angus Pacala CEO."
-tags: ["robotics", "sensors", "lidar", "components", "us"]
-categories: ["company"]
 research_area: "robotics/sensors-lidar"
 source_urls:
   - "https://investors.ouster.com/news-releases/news-release-details/ouster-announces-results-fourth-quarter-and-full-year-2025"

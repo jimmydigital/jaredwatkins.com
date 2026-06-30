@@ -4,8 +4,6 @@ date: 2026-06-29
 lastmod: 2026-06-29
 draft: false
 description: "Ideas, principles, and design philosophies that have shaped how software is built — from Unix to open source."
-tags: ["software-design", "unix", "open-source"]
-categories: ["overview"]
 research_area: "software-philosophy"
 last_reviewed: 2026-06-29
 stale_after_days: 365

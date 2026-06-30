@@ -4,8 +4,6 @@ date: 2026-04-25
 lastmod: 2026-04-25
 draft: false
 description: "Fanless 2U half-rack edge AI server with IP67 waterproofing, -40°C operation, PoE+ integration; Taiwan-based, Advantech subsidiary, semi-industrial edge compute."
-tags: ["neousys", "fanless", "half-rack", "edge-ai", "ip67", "industrial", "taiwan"]
-categories: ["technology"]
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://www.neousys-tech.com/en/product/product-lines/edge-ai-gpu-computing/semil-1300gc-ip67-nvidia-tesla-t4-quadro-p2200-gpu-fanless-computer/"

@@ -4,8 +4,6 @@ date: 2026-06-16
 lastmod: 2026-06-16
 draft: false
 description: "Relocation evaluation of Miami, Florida: cost of living, demographics, crime, tech/finance ecosystem, small business climate, utilities, and environmental risks including sea level rise and insurance crisis."
-tags: ["relocation", "florida", "miami", "south-florida"]
-categories: ["overview"]
 research_area: "relocation"
 source_urls:
   - "https://www.salary.com/research/cost-of-living/miami-fl"

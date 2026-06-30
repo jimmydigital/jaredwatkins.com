@@ -4,8 +4,6 @@ date: 2026-04-24
 lastmod: 2026-04-24
 draft: false
 description: "CISA and OMB post-quantum cryptography guidance, federal buying directives, and compliance timelines for civilian agencies"
-tags: ["cisa", "omb", "federal-agencies", "civilian", "m-23-02", "buying-guidance", "critical-infrastructure"]
-categories: ["policy", "guidance"]
 research_area: "post-quantum-encryption/standards-policy"
 source_urls:
   - "https://www.cisa.gov/pqc"

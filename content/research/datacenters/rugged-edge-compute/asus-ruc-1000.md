@@ -4,8 +4,6 @@ date: 2026-04-25
 lastmod: 2026-04-25
 draft: false
 description: "Rugged rack-mount edge AI compute series: RUC-1000G (2U full-width, 600W GPU support) and RUC-1000D (half-rack fanless embedded). Latest Intel Core Ultra processors, hot-swappable storage, edge inference."
-tags: ["asus", "ruc-1000", "half-rack", "gpu", "edge-ai", "intel-core-ultra", "fanless"]
-categories: ["technology"]
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://www.asus.com/networking-iot-servers/aiot-industrial-solutions/embedded-computers-edge-ai-systems/ruc-1000g/"

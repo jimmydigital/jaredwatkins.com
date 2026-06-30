@@ -4,8 +4,6 @@ date: 2026-04-02
 lastmod: 2026-04-02
 draft: false
 description: "Danish global engineering and architecture firm (founded 1945, 18,000+ employees, Foundation-owned); one of the world's largest datacenter consulting practices with 300+ dedicated experts, 15+ GW designed, $60B+ in due diligence support; built via acquisitions of EYP Mission Critical Facilities (2022) and i3 Solutions Group (2024); flagship work includes Meta Odense heat recovery (45 MW, 12,000 homes), TeraWulf Lake Mariner brownfield-to-compute ($65M, 360+ MW), and Vantage Data Centers Lighthouse Campus (902 MW, 40% biodiversity net gain); known for CFD Digital Wind Tunnel cooling optimization, high-density design methodology (30–100+ kW/rack), and first-of-its-kind 2025 net zero datacenter roadmap."
-tags: ["datacenters", "design-construction", "europe", "denmark", "ai-datacenter", "high-density", "architecture", "services", "sustainability"]
-categories: ["company"]
 research_area: "datacenters/design-construction"
 source_urls:
   - "https://www.ramboll.com/technology/data-centers-mission-critical-facilities"

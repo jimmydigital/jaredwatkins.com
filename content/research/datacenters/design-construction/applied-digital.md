@@ -4,8 +4,6 @@ date: 2026-03-25
 lastmod: 2026-03-25
 draft: false
 description: "Dallas-based AI datacenter developer and operator (NASDAQ: APLD); founded 2021 by Wes Cummins and Jason Zhang; 100 MW live, 900 MW under construction, ~3.5 GW pipeline; Polaris Forge 1 (Ellendale, ND) leased to CoreWeave for $7B over 15 years; Polaris Forge 2 (Harwood, ND) $5B lease with unnamed investment-grade hyperscaler; $5B perpetual preferred equity facility from Macquarie Asset Management; proprietary waterless direct-to-chip cooling."
-tags: ["datacenters", "design-construction", "us", "ai-datacenter", "cooling", "direct-to-chip", "high-density"]
-categories: ["company"]
 research_area: "datacenters/design-construction"
 source_urls:
   - "https://www.applieddigital.com/"

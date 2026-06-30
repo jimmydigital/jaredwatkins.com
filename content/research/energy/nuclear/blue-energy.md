@@ -4,8 +4,6 @@ date: 2026-03-25
 lastmod: 2026-03-25
 draft: false
 description: "Edinburgh-based SMR developer; MIT NSE spinout; co-founded 2023 by Jake Jurewicz and Matt Slotkin; $45M Series A (Oct 2024, Engine Ventures / At One Ventures); shipyard-constructed modular LWR; NRC topical report approved for construction resequencing; 1.5 GW plant at Port of Victoria TX announced for Crusoe AI datacenter campus; gas bridge 2028 → nuclear 2031."
-tags: ["nuclear", "smr", "energy", "us", "behind-the-meter", "shipyard-construction", "startup"]
-categories: ["company"]
 research_area: "energy/nuclear"
 source_urls:
   - "https://blueenergy.co/"

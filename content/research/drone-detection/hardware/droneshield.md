@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "Australian AI-powered C-UAS company offering fixed-site (DroneSentry), portable (DroneSentry-X), and on-the-move counter-drone systems combining radar, RF, acoustic, and computer vision with AI sensor fusion."
-tags: ["drone-detection", "radar", "acoustic", "rf-detection", "multi-sensor-fusion", "critical-infrastructure", "australia"]
-categories: ["company"]
 research_area: "drone-detection/hardware"
 source_urls:
   - "https://www.droneshield.com/"

@@ -4,8 +4,6 @@ date: 2026-06-15
 lastmod: 2026-06-15
 draft: false
 description: "Relocation evaluation of Nashville, Tennessee: cost of living, demographics, crime, tech ecosystem, small business climate, utilities, and environmental risks."
-tags: ["relocation", "tennessee", "nashville", "southeast"]
-categories: ["overview"]
 research_area: "relocation"
 source_urls:
   - "https://www.redfin.com/city/13415/TN/Nashville/housing-market"

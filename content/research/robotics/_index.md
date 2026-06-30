@@ -4,8 +4,6 @@ date: 2026-03-24
 lastmod: 2026-06-29
 draft: false
 description: Research on commercial robotics platforms, components, and the companies and people building them.
-tags: ["robotics"]
-categories: ["overview"]
 research_area: "robotics"
 last_reviewed: 2026-03-24
 stale_after_days: 365

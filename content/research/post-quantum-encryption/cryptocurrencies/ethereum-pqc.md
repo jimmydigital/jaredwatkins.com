@@ -4,8 +4,6 @@ date: 2026-04-17
 lastmod: 2026-04-17
 draft: false
 description: "Analysis of Ethereum's quantum vulnerability across execution and consensus layers, EIP migration proposals, leanSig/leanXMSS attestation research, and Vitalik Buterin's 2026–2029 Strawmap roadmap."
-tags: ["post-quantum", "cryptography", "ethereum", "cryptocurrency", "blockchain", "pqc", "ml-dsa", "fn-dsa", "slh-dsa", "hndl"]
-categories: ["company"]
 research_area: "post-quantum-encryption/cryptocurrencies"
 source_urls:
   - "https://pq.ethereum.org/"

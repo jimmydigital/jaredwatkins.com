@@ -4,8 +4,6 @@ date: 2026-04-15
 lastmod: 2026-04-15
 draft: false
 description: "Semiconductor design, fabrication, and supporting supply chain — chips, equipment, materials, and the companies enabling advanced node manufacturing."
-tags: ["semiconductors", "chips", "fabrication", "equipment", "materials"]
-categories: ["overview"]
 research_area: "semiconductors"
 last_reviewed: 2026-04-15
 stale_after_days: 90

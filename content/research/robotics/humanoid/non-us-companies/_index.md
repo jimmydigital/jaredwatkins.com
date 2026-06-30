@@ -4,8 +4,6 @@ date: 2026-06-19
 lastmod: 2026-06-19
 draft: false
 description: "Non-US humanoid robot companies, dominated by Chinese manufacturers who shipped ~90% of global units in 2025."
-tags: ["humanoid", "robotics", "china", "industrial"]
-categories: ["overview"]
 research_area: "robotics/humanoid"
 last_reviewed: 2026-06-19
 stale_after_days: 90

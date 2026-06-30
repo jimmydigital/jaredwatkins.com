@@ -4,8 +4,6 @@ date: 2026-03-25
 lastmod: 2026-03-26
 draft: false
 description: "Davidson, NC defense electronics company (NYSE: CW); VPX/OpenVPX GPU compute modules and tactical AI servers; VPX3-730 (3U NVIDIA RTX PRO 5000 Blackwell) and VPX6-731 (6U dual GPU Blackwell) SOSA-aligned modules; PacStar 431 AI Server (2,070 TFLOPS); ~$3B total corporate revenue; established defense electronics supplier across land, sea, and air platforms."
-tags: ["rugged", "edge-compute", "mil-spec", "ai-inference", "defense", "us", "public", "vpx", "hpec"]
-categories: ["company"]
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://defense-solutions.curtisswright.com/"

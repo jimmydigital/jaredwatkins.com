@@ -4,8 +4,6 @@ date: 2026-06-10
 lastmod: 2026-06-10
 draft: false
 description: "What fine-tuning actually modifies in a base model, how instruction tuning differs from domain adaptation, the risk of catastrophic forgetting, and how to evaluate whether a fine-tuned model actually improved."
-tags: ["fine-tuning", "instruction-tuning", "domain-adaptation", "catastrophic-forgetting", "sft", "llm"]
-categories: ["technology"]
 research_area: "local-llm-finetuning/fundamentals"
 source_urls:
   - "https://arxiv.org/abs/2109.01652"

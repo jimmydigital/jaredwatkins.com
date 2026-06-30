@@ -4,8 +4,6 @@ date: 2026-06-10
 lastmod: 2026-06-10
 draft: false
 description: "Deploying a fine-tuned network engineer specialist LLM disconnected on a Mac laptop, connecting it to physical network devices via SSH, and building an agentic command loop that can read device state and propose or execute commands."
-tags: ["edge-deployment", "local-inference", "llm-agent", "network-automation", "ssh", "netmiko", "ollama", "macos"]
-categories: ["technology"]
 research_area: "local-llm-finetuning/specialist-models"
 source_urls:
   - "https://ollama.com"

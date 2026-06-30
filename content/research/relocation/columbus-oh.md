@@ -4,8 +4,6 @@ date: 2026-06-16
 lastmod: 2026-06-16
 draft: false
 description: "Relocation evaluation of Columbus, Ohio: cost of living, demographics, crime, Intel semiconductor anchor, tech ecosystem, small business climate, utilities, and environmental risks."
-tags: ["relocation", "ohio", "columbus", "midwest", "semiconductor"]
-categories: ["overview"]
 research_area: "relocation"
 source_urls:
   - "https://www.salary.com/research/cost-of-living/columbus-oh"

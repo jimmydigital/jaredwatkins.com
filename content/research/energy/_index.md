@@ -4,8 +4,6 @@ date: 2026-03-23
 lastmod: 2026-03-23
 draft: false
 description: Research on emerging energy technologies including solar, batteries, and grid storage.
-tags: ["energy"]
-categories: ["overview"]
 research_area: "energy"
 last_reviewed: 2026-03-23
 stale_after_days: 365

@@ -4,8 +4,6 @@ date: 2026-03-24
 lastmod: 2026-03-24
 draft: false
 description: "Paris-headquartered micro-UAV OEM; ANAFI USA assembled in Massachusetts (Blue UAS cleared, NDAA-compliant); ANAFI UKR (2025) with tactical EW resilience, optical navigation, offline autonomy; €79.8M revenue (2025), operating losses; NATO NSPA contracts with Finnish Defence Forces (Q1 2026 shipments); SEALSQ post-quantum cryptography partnership (March 2026); Euronext Paris (PARRO)."
-tags: ["robotics", "aerial-drone", "eu", "defense", "commercial"]
-categories: ["company"]
 research_area: "robotics/aerial-drones"
 source_urls:
   - "https://www.parrot.com/en/"

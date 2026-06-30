@@ -4,8 +4,6 @@ date: 2026-06-06
 lastmod: 2026-06-06
 draft: false
 description: "Utah's Stratos Project — Kevin O'Leary's proposed 40,000-acre AI datacenter campus in Box Elder County — has become the most high-profile contested datacenter project in the country, generating litigation, a governance controversy over the Military Installation Development Authority (MIDA), and O'Leary's claims that opposition groups are foreign-funded."
-tags: ["utah", "stratos-project", "mida", "kevin-oleary", "community-organizing", "zoning-challenge", "water-usage", "grid-reliability", "foreign-influence", "litigation"]
-categories: ["state-breakdown"]
 research_area: "datacenter-opposition"
 last_reviewed: 2026-06-06
 stale_after_days: 60

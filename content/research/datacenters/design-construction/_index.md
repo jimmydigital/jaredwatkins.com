@@ -4,8 +4,6 @@ date: 2026-03-24
 lastmod: 2026-03-24
 draft: false
 description: Next-generation datacenter design approaches — modular construction, faster time-to-power, lower cost per MW, and smarter facility architectures for AI workloads.
-tags: ["datacenters", "design-construction"]
-categories: ["overview"]
 research_area: "datacenters/design-construction"
 last_reviewed: 2026-03-24
 stale_after_days: 90

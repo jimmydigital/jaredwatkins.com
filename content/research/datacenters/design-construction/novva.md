@@ -4,8 +4,6 @@ date: 2026-03-25
 lastmod: 2026-03-25
 draft: false
 description: "West Jordan, UT wholesale colocation operator; founded 2019 by Wes Swenson and CIM Group; $2B financing (J.P. Morgan + Starwood, March 2025) to complete 175 MW Salt Lake City campus — one of the largest direct-to-chip cooled AI datacenters in the world; waterless cooling; autonomous robot dog and drone security monitoring; Western US footprint across 6 markets."
-tags: ["datacenters", "design-construction", "us", "ai-datacenter", "cooling", "direct-to-chip", "robotics-automation"]
-categories: ["company"]
 research_area: "datacenters/design-construction"
 source_urls:
   - "https://www.novva.com/"

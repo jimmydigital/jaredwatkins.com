@@ -4,8 +4,6 @@ date: 2026-06-19
 lastmod: 2026-06-19
 draft: false
 description: "Vancouver-based Physical AI company; pivot to hardware-agnostic AI on existing industrial robots (June 2026); $140M+ raised; Magna International investor; 99.5%+ task success rate at Tier 1 automotive supplier; Geordie Rose and Suzanne Gildert departed Nov 2024; James Wells CEO, Olivia Norton CTO."
-tags: ["humanoid", "robotics", "canada", "commercial", "manipulation"]
-categories: ["company"]
 research_area: "robotics/humanoid"
 source_urls:
   - "https://sanctuary.ai"

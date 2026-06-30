@@ -4,8 +4,6 @@ date: 2026-04-24
 lastmod: 2026-04-24
 draft: false
 description: "Greensboro, NC startup; LiX® dendrite-resistant lithium anode technology; solid-state electrolyte materials; 100% charge in 15 minutes (claimed); 20+ automotive customers; GM Ventures investment; Lotte Chemical JV for US manufacturing scale-up (>$200M target); private."
-tags: ["batteries", "lithium-metal", "anode", "solid-state", "us", "private"]
-categories: ["company"]
 research_area: "energy/batteries"
 source_urls:
   - "https://www.soelect.com"

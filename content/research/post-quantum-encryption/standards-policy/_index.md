@@ -4,8 +4,6 @@ date: 2026-04-24
 lastmod: 2026-04-24
 draft: false
 description: "NIST FIPS standardization, NSA CNSA 2.0 mandates, federal agency directives, and IETF protocol integration for post-quantum cryptography migration"
-tags: ["post-quantum", "cryptography", "nist", "policy", "standards", "cnsa", "ietf", "fips", "nsm-10", "omb"]
-categories: ["standards"]
 research_area: "post-quantum-encryption/standards-policy"
 source_urls:
   - "https://csrc.nist.gov/projects/post-quantum-cryptography"

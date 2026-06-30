@@ -4,8 +4,6 @@ date: 2026-06-19
 lastmod: 2026-06-19
 draft: false
 description: "Shenzhen-based humanoid robot company; HKEX listed (9880); $1.34B total raised; Walker S2 deployed at BYD, Foxconn, Audi FAW; 1,000+ units 2025; James Zhou (Jian Zhou) founder; Tencent 6.15% shareholder."
-tags: ["humanoid", "robotics", "china", "industrial", "manufacturing", "public"]
-categories: ["company"]
 research_area: "robotics/humanoid"
 chinese-owned: true
 source_urls:

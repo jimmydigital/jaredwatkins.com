@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Swiss GNSS module and cellular IoT module maker (formerly SIX: UBXN); taken private by Advent International for $1.3B in November 2025; F9 RTK GNSS and M9 modules are dominant in drone, AMR, and precision agriculture robotics positioning."
-tags: ["robotics", "sensor", "gnss", "eu"]
-categories: ["company"]
 research_area: "robotics/sensors"
 source_urls:
   - "https://www.adventinternational.com/news/advent-completes-acquisition-of-u-blox/"

@@ -4,8 +4,6 @@ date: 2026-03-23
 lastmod: 2026-04-04
 draft: false
 description: Research on emerging battery technologies including solid-state, flow batteries, and high-density storage.
-tags: ["batteries", "energy"]
-categories: ["overview"]
 research_area: "energy/batteries"
 last_reviewed: 2026-04-04
 stale_after_days: 365

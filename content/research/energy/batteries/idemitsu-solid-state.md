@@ -4,8 +4,6 @@ date: 2026-03-23
 lastmod: 2026-03-24
 draft: false
 description: "Japanese oil major pivoting to lithium sulfide and solid electrolyte production; exclusive supplier to Toyota's solid-state battery program; ¥21.3B lithium sulfide plant operational by June 2027; large-scale solid electrolyte pilot facility construction began January 2026."
-tags: ["batteries", "solid-state", "electrolyte", "materials", "eu"]
-categories: ["company"]
 research_area: "energy/batteries"
 source_urls:
   - "https://global.toyota/en/newsroom/corporate/39865919.html"

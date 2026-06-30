@@ -4,8 +4,6 @@ date: 2026-04-15
 lastmod: 2026-06-02
 draft: false
 description: "Research on post-quantum cryptography (PQC): NIST-standardized algorithms, vendor implementation timelines, and adoption across networking and cryptocurrency infrastructure."
-tags: ["post-quantum", "cryptography", "security", "pqc", "nist"]
-categories: ["overview"]
 research_area: "post-quantum-encryption"
 last_reviewed: 2026-04-17
 stale_after_days: 90

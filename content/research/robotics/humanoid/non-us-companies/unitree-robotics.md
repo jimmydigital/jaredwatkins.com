@@ -4,8 +4,6 @@ date: 2026-06-19
 lastmod: 2026-06-19
 draft: false
 description: "Hangzhou-based Chinese robotics company; global volume leader in humanoid units shipped; ~700M yuan Series C (June 2025); 12B yuan valuation; Wang Xingxing founder; G1 at $16K and R1 at $5,900 are the most price-competitive humanoids globally; IPO planned."
-tags: ["humanoid", "robotics", "china", "industrial", "consumer"]
-categories: ["company"]
 research_area: "robotics/humanoid"
 chinese-owned: true
 source_urls:

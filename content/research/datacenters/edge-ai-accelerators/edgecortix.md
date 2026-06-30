@@ -4,8 +4,6 @@ date: 2026-04-25
 lastmod: 2026-04-25
 draft: false
 description: "Tokyo-based fabless AI chip startup; SAKURA-I and SAKURA-II edge AI accelerator chips and PCIe/M.2 modules; Dynamic Neural Accelerator (DNA) CGRA architecture; 15–40+ TOPS at 10–25W targeting defense, autonomous vehicles, robotics, and industrial AI inference; TSMC 12nm fabrication."
-tags: ["edge-compute", "ai-inference", "npu", "accelerator", "m2", "pcie", "japan", "private", "fabless", "defense"]
-categories: ["company"]
 research_area: "datacenters/edge-ai-accelerators"
 source_urls:
   - "https://www.edgecortix.com/"

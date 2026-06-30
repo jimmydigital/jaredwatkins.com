@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "Open-source implementation of the ASTM F3411 / FAA Remote ID standard — core C library, Android receiver, and Linux transmitter for decoding and displaying Remote ID broadcasts from compliant drones."
-tags: ["open-source", "remote-id", "drone-detection", "astm-f3411", "faa"]
-categories: ["technology"]
 research_area: "drone-detection/open-source"
 source_urls:
   - "https://github.com/opendroneid/opendroneid-core-c"

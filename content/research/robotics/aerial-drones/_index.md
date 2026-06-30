@@ -4,8 +4,6 @@ date: 2026-03-24
 lastmod: 2026-03-24
 draft: false
 description: Commercial, industrial, and defense unmanned aerial vehicles — platform OEMs, component suppliers, and the supply chain connecting them.
-tags: ["robotics", "aerial-drone"]
-categories: ["overview"]
 research_area: "robotics/aerial-drones"
 last_reviewed: 2026-03-24
 stale_after_days: 90

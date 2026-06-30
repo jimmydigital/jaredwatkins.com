@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "Combining radar, RF, acoustic, and optical/thermal sensors for reliable drone detection — each modality covers the others' blind spots; fusion is required to detect the full threat spectrum including RF-dark drones."
-tags: ["multi-sensor-fusion", "drone-detection", "sensor-fusion", "critical-infrastructure"]
-categories: ["technology"]
 research_area: "drone-detection/detection-methods"
 source_urls:
   - "https://www.sciencedirect.com/science/article/pii/S1874548225000058"

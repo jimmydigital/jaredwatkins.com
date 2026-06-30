@@ -4,8 +4,6 @@ date: 2026-05-11
 lastmod: 2026-05-11
 draft: false
 description: "Georgia datacenter opposition — Project Sail (Coweta County), Citizens for Rural Coweta, the moratorium cycle, lobbyist access scandals, and the Ashley Park–Wansley transmission line controversy."
-tags: ["georgia", "project-sail", "coweta-county", "zoning-challenge", "litigation", "community-organizing", "eminent-domain", "transmission-lines", "prologis", "rural-conservation"]
-categories: ["state"]
 research_area: "datacenter-opposition"
 source_urls:
   - "https://www.desmog.com/2025/08/18/arthur-edge-data-center-lobbyists-project-sail-sargent-coweta-county-georgia/"

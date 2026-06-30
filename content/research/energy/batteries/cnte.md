@@ -4,8 +4,6 @@ date: 2026-04-04
 lastmod: 2026-04-04
 draft: false
 description: "CATL-backed Chinese BESS system integrator; unveiled STAR H-PLUS outdoor liquid-cooled all-in-one energy storage system at KEY ENERGY 2026; global markets focus through YOU.ON ENERGIA partnership."
-tags: ["batteries", "bess", "lfp", "china", "grid-storage", "chinese-owned: true", "system-integrator"]
-categories: ["company"]
 research_area: "energy/batteries"
 chinese-owned: true
 source_urls:

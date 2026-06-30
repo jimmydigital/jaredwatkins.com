@@ -4,8 +4,6 @@ date: 2026-03-25
 lastmod: 2026-03-25
 draft: false
 description: "GE Vernova / Hitachi joint venture 300 MW boiling water SMR; world's first grid-scale SMR with active construction approval — Ontario Power Generation Darlington construction license issued April 2025, provincial approval May 2025; commercial operation target end of 2029; also under active licensing in Poland, UK, Sweden, and multiple US utility applications. Most advanced Western SMR on path to commercial operation."
-tags: ["nuclear", "smr", "energy", "us", "canada", "incumbent"]
-categories: ["company"]
 research_area: "energy/nuclear"
 source_urls:
   - "https://www.gevernova.com/nuclear/carbon-free-power/bwrx-300-small-modular-reactor"

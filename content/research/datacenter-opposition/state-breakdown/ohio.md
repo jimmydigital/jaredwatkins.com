@@ -4,8 +4,6 @@ date: 2026-04-20
 lastmod: 2026-04-28
 draft: false
 description: "Ohio datacenter opposition — New Albany hyperscaler concentration, St. Albans Township zoning ban, environmental and energy concerns, tax abatement scrutiny, and the political economy of rapid hyperscaler expansion in the Midwest."
-tags: ["ohio", "new-albany", "hyperscale", "zoning-ban", "energy-consumption", "tax-subsidies"]
-categories: ["state"]
 research_area: "datacenter-opposition"
 source_urls:
   - "https://signalohio.org/ohio-data-center-boom-faces-political-resistence/"

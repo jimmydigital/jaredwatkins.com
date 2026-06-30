@@ -4,8 +4,6 @@ date: 2026-03-24
 lastmod: 2026-03-24
 draft: false
 description: Wireless communications subsystems for drones and ground robots — radio modules, cellular modems, mesh networking, and spectrum management.
-tags: ["robotics", "communications"]
-categories: ["overview"]
 research_area: "robotics/communications"
 last_reviewed: 2026-03-24
 stale_after_days: 180

@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "Allen Control Systems (Austin, TX) builds the Bullfrog autonomous AI-guided weapon station — converts legacy machine guns into kinetic counter-drone systems. SOCOM contract awarded Sept 2025. $200M Series B at $2.2B valuation, June 2026."
-tags: ["counter-drone", "kinetic", "autonomous-weapon", "c-uas", "interceptor", "fixed-site", "vehicle-mounted", "defense"]
-categories: ["company"]
 research_area: "drone-detection/counter-drone-platforms"
 source_urls:
   - "https://www.allencontrolsystems.com/products/bullfrog-m240"

@@ -4,8 +4,6 @@ date: 2026-04-24
 lastmod: 2026-04-24
 draft: false
 description: "NIST's 8-year post-quantum cryptography standardization process, FIPS 203/204/205 specifications, and status of FIPS 206 and HQC"
-tags: ["nist", "fips", "post-quantum", "standards", "ml-kem", "ml-dsa", "slh-dsa", "falcon", "hqc"]
-categories: ["standards", "reference"]
 research_area: "post-quantum-encryption/standards-policy"
 source_urls:
   - "https://csrc.nist.gov/projects/post-quantum-cryptography"

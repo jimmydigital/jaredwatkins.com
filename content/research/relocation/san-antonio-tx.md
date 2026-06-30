@@ -4,8 +4,6 @@ date: 2026-06-15
 lastmod: 2026-06-15
 draft: false
 description: "Relocation evaluation of San Antonio, Texas: cost of living, demographics, crime, tech ecosystem, small business climate, utilities, and environmental risks."
-tags: ["relocation", "texas", "san-antonio", "south-central"]
-categories: ["overview"]
 research_area: "relocation"
 source_urls:
   - "https://livinginsatx.com/san-antonio-cost-of-living/"

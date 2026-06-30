@@ -4,8 +4,6 @@ date: 2026-06-11
 lastmod: 2026-06-11
 draft: false
 description: "How to manage the context window when a local LLM is connected to real network devices — handling long show command output, maintaining troubleshooting state across turns, and the tradeoff between context length and inference speed on Apple Silicon."
-tags: ["context-window", "inference", "network-automation", "llm", "kv-cache", "apple-silicon", "ollama"]
-categories: ["technology"]
 research_area: "local-llm-finetuning/specialist-models"
 source_urls:
   - "https://github.com/ktbyers/netmiko"

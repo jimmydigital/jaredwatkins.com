@@ -4,8 +4,6 @@ date: 2026-04-29
 lastmod: 2026-04-29
 draft: false
 description: "First-principles analysis of GPU energy budgets in LEO, satellite build and launch costs, technology gaps, and 10-year cost trajectory for orbital compute."
-tags: ["orbital-compute", "space", "ai-datacenter", "gpu", "energy", "economics", "analysis"]
-categories: ["technology"]
 research_area: "datacenters/orbital-compute"
 source_urls:
   - "https://www.nasa.gov/smallsat-institute/sst-soa/power/"

@@ -4,8 +4,6 @@ date: 2026-04-20
 lastmod: 2026-05-11
 draft: false
 description: "Research section covering opposition to datacenter construction and operation across the United States — project tracker, organizing groups, funding networks, state-by-state breakdown, legislative actions, and tactical analysis."
-tags: ["datacenter", "opposition", "zoning", "energy", "water", "community-organizing", "litigation", "environmental", "grid-reliability"]
-categories: ["overview"]
 research_area: "datacenter-opposition"
 last_reviewed: 2026-05-11
 stale_after_days: 90

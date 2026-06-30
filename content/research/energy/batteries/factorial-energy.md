@@ -4,8 +4,6 @@ date: 2026-03-23
 lastmod: 2026-03-24
 draft: false
 description: "Cambridge, MA startup with two solid-state platforms: FEST® semi-solid (375 Wh/kg, Stellantis-validated) and Solstice™ all-solid-state (up to 450 Wh/kg, Mercedes-Benz partner); SPAC merger pending; expanding into drones and robotics."
-tags: ["batteries", "solid-state", "semi-solid", "emerging", "us", "ev"]
-categories: ["company"]
 research_area: "energy/batteries"
 source_urls:
   - "https://www.stellantis.com/en/news/press-releases/2025/april/stellantis-and-factorial-energy-reach-key-milestone-in-solid-state-battery-development"

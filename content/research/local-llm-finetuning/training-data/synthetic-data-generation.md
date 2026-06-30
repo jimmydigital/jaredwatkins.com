@@ -4,8 +4,6 @@ date: 2026-06-11
 lastmod: 2026-06-11
 draft: false
 description: "How to generate synthetic training data for a network engineer specialist model at scale — using a capable LLM as a data generator, writing effective generation prompts, estimating the domain expert review cost, and maintaining quality across large datasets."
-tags: ["training-data", "synthetic-data", "data-generation", "llm", "network-engineering", "fine-tuning"]
-categories: ["technology"]
 research_area: "local-llm-finetuning/training-data"
 source_urls:
   - "https://arxiv.org/abs/2212.10560"

@@ -4,8 +4,6 @@ date: 2026-06-19
 lastmod: 2026-06-19
 draft: false
 description: "The middleware, orchestration, and integration layer that connects robot hardware to warehouse management systems, ERP, and multi-vendor fleets."
-tags: ["robotics", "software", "middleware", "integration", "fleet-management", "amr"]
-categories: ["overview"]
 research_area: "robotics/software-and-integration"
 last_reviewed: 2026-06-19
 stale_after_days: 90

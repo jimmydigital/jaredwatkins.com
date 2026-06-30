@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Thalwil, Switzerland GNSS chip and cellular module maker; formerly SIX: UBXN; acquired by Advent International for $1.3B (Nov 2025); 2024 revenue $262.9M (down 54% from $576.9M in 2023 due to inventory correction); ZED-F9P high-precision RTK GNSS module used in agricultural robots, AMRs, and drones; Stephan Zizala CEO."
-tags: ["robotics", "sensors", "gnss", "components", "eu"]
-categories: ["company"]
 research_area: "robotics/sensors-lidar"
 source_urls:
   - "https://en.wikipedia.org/wiki/U-blox"

@@ -4,8 +4,6 @@ date: 2026-04-20
 lastmod: 2026-04-28
 draft: false
 description: "Texas datacenter opposition — ERCOT grid reliability concerns, water scarcity conflicts in rural areas, legislative response (SB 6), grassroots organizing, and the political economy of datacenters in a deregulated grid."
-tags: ["texas", "ercot", "grid-reliability", "water-scarcity", "grassroots-organizing", "senate-bill-6"]
-categories: ["state"]
 research_area: "datacenter-opposition"
 source_urls:
   - "https://www.citizen.org/news/across-texas-grassroots-resistance-meets-the-ai-data-center-boom/"

@@ -4,8 +4,6 @@ date: 2026-04-25
 lastmod: 2026-04-25
 draft: false
 description: "10-inch half-width rackmount compute systems for space-constrained deployments. Overview of form factor, SWaP advantages, platform tiers, and competing ecosystem (MicroTCA, VPX, commercial)."
-tags: ["half-rack", "form-factor", "swp", "embedded-compute", "edge-infrastructure", "microtca"]
-categories: ["technology"]
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://www.picmg.org/openstandards/microtca/"

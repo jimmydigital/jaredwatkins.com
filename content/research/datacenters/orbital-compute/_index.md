@@ -7,8 +7,6 @@ lastmod: 2026-04-30
 # 2026-04-29: Added supply chain inputs and launch provider capacity section (10-year speculative outlook)
 draft: false
 description: "Space-based compute infrastructure: satellite data centers, orbital AI clusters, and the emerging race to move ML workloads into low Earth orbit."
-tags: ["datacenters", "orbital-compute", "space", "ai-datacenter"]
-categories: ["overview"]
 research_area: "datacenters/orbital-compute"
 last_reviewed: 2026-04-29
 stale_after_days: 90

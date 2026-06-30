@@ -4,8 +4,6 @@ date: 2026-06-16
 lastmod: 2026-06-16
 draft: false
 description: "Relocation evaluation of Chattanooga, Tennessee: cost of living, demographics, crime, EV manufacturing and quantum computing ecosystem, EPB fiber, TVA power, and Tennessee River geography."
-tags: ["relocation", "tennessee", "chattanooga", "ev-manufacturing", "quantum-computing", "epb", "reindustrialization"]
-categories: ["overview"]
 research_area: "relocation"
 source_urls:
   - "https://worldpopulationreview.com/us-cities/tennessee/chattanooga"

@@ -4,8 +4,6 @@ date: 2026-04-21
 lastmod: 2026-04-24
 draft: false
 description: "Kairos Power, Albuquerque, NM. Molten-salt-cooled SMR (50 MWe, Hermes design). Google partnership: 500 MW across 6–7 units by 2035. MAJOR UPDATE: Hermes 2 groundbreaking April 17, 2026 at Oak Ridge, TN — first Gen IV reactor to receive NRC construction permit; first commercial-scale advanced reactor under construction in U.S. Supplies up to 50 MW to TVA grid for Google data centers in TN and AL. TRISO fuel dependency. Binding Google PPA differentiator."
-tags: ["nuclear", "smr", "molten-salt", "htgr", "behind-the-meter", "data-center", "kairos"]
-categories: ["company"]
 research_area: "datacenters/behind-meter-power"
 source_urls:
   - "https://www.kairospower.com/"

@@ -4,8 +4,6 @@ date: 2026-04-25
 lastmod: 2026-04-28
 draft: false
 description: "Caterpillar (parent) and Solar Turbines subsidiary—industrial gas turbine manufacturer pivoting to data center BTM power. Solar Turbines 1–39 MW class turbines; Vertiv integration partnership (Nov 2025)."
-tags: ["gas-turbine", "caterpillar", "solar-turbines", "btm-power", "data-center", "vertiv", "behind-the-meter"]
-categories: ["company"]
 research_area: "datacenters/behind-meter-power"
 source_urls:
   - "https://www.cat.com/"

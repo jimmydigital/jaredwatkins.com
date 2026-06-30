@@ -4,8 +4,6 @@ date: 2026-03-23
 lastmod: 2026-03-24
 draft: false
 description: "Harvard SEAS spinout developing thin-film solid-state lithium batteries with demonstrated 10-minute fast charging and 10,000+ cycle lab results; $20M raised; pilot production line under construction in Waltham, MA."
-tags: ["batteries", "solid-state", "emerging", "us"]
-categories: ["company"]
 research_area: "energy/batteries"
 source_urls:
   - "https://seas.harvard.edu/news/fast-charging-over-10000-cycles-future-electric-vehicles-harvard-engineers-solid-state-battery"

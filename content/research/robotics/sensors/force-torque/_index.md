@@ -4,8 +4,6 @@ date: 2026-06-23
 lastmod: 2026-06-23
 draft: false
 description: "6-axis force-torque sensors for robot wrist applications — enabling compliant manipulation, assembly force control, and human-robot collaboration."
-tags: ["robotics", "sensor", "force-torque", "manipulation"]
-categories: ["overview"]
 research_area: "robotics/sensors"
 last_reviewed: 2026-06-23
 stale_after_days: 180

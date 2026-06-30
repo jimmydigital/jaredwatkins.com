@@ -4,8 +4,6 @@ date: 2026-04-30
 lastmod: 2026-04-30
 draft: false
 description: "Heilbronn, Germany-based manufacturer of space-grade triple- and quadruple-junction GaAs solar cells; subsidiary of 5N Plus; over 60 years of heritage; 4G32C quadruple-junction cells reach 32% BOL efficiency; 6 million+ multi-junction cells delivered."
-tags: ["solar", "gaas", "space", "satellites", "multi-junction", "germany", "eu"]
-categories: ["company"]
 research_area: "energy/solar"
 source_urls:
   - "https://www.azurspace.com/en/"

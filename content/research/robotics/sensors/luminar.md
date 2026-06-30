@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Orlando/Palo Alto 1550nm automotive LiDAR developer that filed Chapter 11 bankruptcy in December 2025 after losing its anchor Volvo contract; semiconductor subsidiary sold to Quantum Computing Inc. for $110M."
-tags: ["robotics", "sensor", "lidar", "us"]
-categories: ["company"]
 research_area: "robotics/sensors"
 source_urls:
   - "https://techcrunch.com/2025/12/15/lidar-maker-luminar-files-for-bankruptcy/"

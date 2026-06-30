@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Wilmington, MA warehouse AMR developer; LocusBot goods-to-robot platform deployed at DHL, Quiet Logistics, and other 3PLs; $438M raised through Series F; conducted layoffs in 2023–2024 as post-pandemic e-commerce volumes normalized; DHL reached 1 billion picks milestone with Locus robots in March 2026."
-tags: ["robotics", "amr", "us", "commercial", "logistics"]
-categories: ["company"]
 research_area: "robotics/ground-drones"
 source_urls:
   - "https://locusrobotics.com/"

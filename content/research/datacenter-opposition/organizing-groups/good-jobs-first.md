@@ -4,8 +4,6 @@ date: 2026-04-20
 lastmod: 2026-04-28
 draft: false
 description: "Good Jobs First — economic development subsidy watchdog, datacenter tax research and advocacy, Subsidy Tracker database, and strategic focus on transparency and clawback provisions."
-tags: ["good-jobs-first", "tax-subsidies", "watchdog-organization", "transparency-advocacy"]
-categories: ["organizing-group"]
 research_area: "datacenter-opposition"
 source_urls:
   - "https://goodjobsfirst.org"

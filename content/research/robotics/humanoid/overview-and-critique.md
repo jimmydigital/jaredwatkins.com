@@ -4,8 +4,6 @@ date: 2026-06-19
 lastmod: 2026-06-19
 draft: false
 description: "Critical analysis of humanoid robot autonomy claims, teleoperation prevalence in demos, investor sentiment, and the case for specialized robots over generalist humanoids for industrial use."
-tags: ["humanoid", "robotics", "autonomy", "teleoperation", "analysis", "industrial"]
-categories: ["overview"]
 research_area: "robotics/humanoid"
 source_urls:
   - "https://talkinglogistics.com/2026/01/12/the-humanoid-robot-bubble-is-getting-hard-to-ignore/"

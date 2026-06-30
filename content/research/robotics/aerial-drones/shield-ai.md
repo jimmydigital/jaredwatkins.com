@@ -4,8 +4,6 @@ date: 2026-03-24
 lastmod: 2026-03-24
 draft: false
 description: "San Diego defense autonomy company; Hivemind AI pilot software platform for unmanned systems operating in GPS- and comms-denied environments; V-BAT VTOL UAS principal hardware platform with US Navy, Coast Guard, allied deployments; X-BAT supersonic VTOL autonomous fighter-jet concept announced Oct 2025; F-16 VISTA autonomy demonstrations with adversarial dogfighting against manned aircraft; $5.6B valuation (March 2025 F-1 round at $5.3B + extended tranche); Series funding now totals $1.4B equity + $200M venture debt; Gary Steele (Splunk/Cisco executive) appointed CEO March 2025, Ryan Tseng transitioned to President/Chief Strategy Officer."
-tags: ["robotics", "aerial-drone", "us", "defense", "autonomous"]
-categories: ["company"]
 research_area: "robotics/aerial-drones"
 source_urls:
   - "https://shield.ai/"

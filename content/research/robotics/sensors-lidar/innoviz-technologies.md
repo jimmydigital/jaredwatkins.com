@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Rosh HaAyin, Israel automotive LiDAR company (NASDAQ: INVZ); InnovizOne in BMW i7 L3 Personal Pilot (launched Mar 2024); 9x InnovizTwo per VW ID.Buzz AD vehicle; InnovizThree next-gen platform 60% smaller; FY2024 revenue $24.5M; FY2025 revenue $55.1M (+2x YoY); Omer Keilaf co-founder CEO."
-tags: ["robotics", "sensors", "lidar", "components", "us"]
-categories: ["company"]
 research_area: "robotics/sensors-lidar"
 source_urls:
   - "https://ir.innoviz.tech/news-events/press-releases/detail/163/innoviz-reports-third-quarter-2025-results"

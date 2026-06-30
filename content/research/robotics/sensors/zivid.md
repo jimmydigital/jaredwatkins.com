@@ -4,8 +4,6 @@ date: 2026-06-23
 lastmod: 2026-06-23
 draft: false
 description: "Oslo, Norway 3D machine vision camera manufacturer; Zivid Two and Zivid 2+ structured-light cameras provide high-accuracy point clouds for bin picking and assembly robotics; Gold MoveIt Pro integration; vendor-supported ROS 2 driver."
-tags: ["robotics", "sensor", "depth-camera", "3d-vision", "eu", "ros2"]
-categories: ["company"]
 research_area: "robotics/sensors"
 source_urls:
   - "https://www.zivid.com/"

@@ -4,8 +4,6 @@ date: 2026-04-29
 lastmod: 2026-04-29
 draft: false
 description: "US startup building lunar and cislunar data storage and edge processing infrastructure; flew its first payload to the Moon on Intuitive Machines' Athena mission in February 2026."
-tags: ["orbital-compute", "space", "lunar", "data-storage", "us", "startup"]
-categories: ["company"]
 research_area: "datacenters/orbital-compute"
 source_urls:
   - "https://www.lonestarlunar.com/"

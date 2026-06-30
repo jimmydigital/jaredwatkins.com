@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "Electro-optical and infrared (EO/IR) camera systems for drone detection — the only modality effective against fiber-optic tethered drones in a passive sensor role; requires AI classification to discriminate drones from birds."
-tags: ["optical", "thermal", "eo-ir", "drone-detection", "fiber-optic-threat", "passive"]
-categories: ["technology"]
 research_area: "drone-detection/detection-methods"
 source_urls:
   - "https://marduk.ee/news/the-growing-threat-of-fiber-optic-uavs-and-how-to-see-them-coming"

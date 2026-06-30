@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "Estonian C-UAS startup developing passive electro-optical drone detection — Piraya system detects fiber-optic and RF-dark drones using optical/thermal cameras with AI tracking; tested in live-fire at Siil 2025."
-tags: ["drone-detection", "optical", "thermal", "fiber-optic-threat", "passive", "estonia"]
-categories: ["company"]
 research_area: "drone-detection/hardware"
 source_urls:
   - "https://marduk.ee/"

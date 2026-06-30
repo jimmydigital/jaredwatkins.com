@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "Multi-sensor drone detection platform combining RF sensing, radar, video, acoustic, and Remote ID ingestion — acquired by Axon Enterprise in October 2024; DedroneTracker.AI software fusion engine."
-tags: ["drone-detection", "rf-detection", "multi-sensor-fusion", "critical-infrastructure", "us"]
-categories: ["company"]
 research_area: "drone-detection/hardware"
 source_urls:
   - "https://www.dedrone.com/"

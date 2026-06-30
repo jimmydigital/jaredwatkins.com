@@ -4,8 +4,6 @@ date: 2026-04-25
 lastmod: 2026-04-25
 draft: false
 description: "Open modular embedded computing standard using Advanced Mezzanine Cards (AMC) on a switched-fabric backplane; used in telecom, scientific instruments, defense, and industrial automation."
-tags: ["microtca", "ammc", "picmg", "modular-compute", "embedded", "standards", "defense", "telecom", "rugged"]
-categories: ["technology"]
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://www.picmg.org/openstandards/microtca/"

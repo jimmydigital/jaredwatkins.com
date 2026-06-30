@@ -4,8 +4,6 @@ date: 2026-06-16
 lastmod: 2026-06-16
 draft: false
 description: "Relocation evaluation of Charleston, South Carolina: cost of living, demographics, crime, aerospace and defense ecosystem, port logistics growth, small business climate, utilities, and the city's defining tidal flooding and sea level rise trajectory."
-tags: ["relocation", "south-carolina", "charleston", "aerospace", "boeing", "port", "sea-level-rise", "reindustrialization"]
-categories: ["overview"]
 research_area: "relocation"
 source_urls:
   - "https://www.houzeo.com/cost-of-living/south-carolina/charleston"

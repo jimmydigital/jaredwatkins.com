@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "Micro-Doppler radar signatures produced by rotating drone blades enable reliable drone-vs-bird discrimination and detection of hovering/slow targets that evade conventional Doppler radar."
-tags: ["micro-doppler", "radar", "drone-detection", "bird-discrimination", "classification"]
-categories: ["technology"]
 research_area: "drone-detection/detection-methods"
 source_urls:
   - "https://www.nature.com/articles/s41598-018-35880-9"

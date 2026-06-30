@@ -4,8 +4,6 @@ date: 2026-04-25
 lastmod: 2026-04-25
 draft: false
 description: "Tel Aviv-based AI chip company (~$1B+ valuation, Series C); Hailo-8 (26 TOPS, 2.5W M.2/PCIe), Hailo-10H (ultra-low power), and Hailo-15 (20–40 TOPS, <5W) edge AI accelerators; highest TOPS/watt ratio in the add-in M.2/PCIe accelerator market; Raspberry Pi AI HAT+; ADAS, smart camera, industrial AI, and defense-adjacent markets."
-tags: ["edge-compute", "ai-inference", "npu", "accelerator", "m2", "pcie", "israel", "private", "fabless", "defense", "automotive"]
-categories: ["company"]
 research_area: "datacenters/edge-ai-accelerators"
 source_urls:
   - "https://hailo.ai/"

@@ -4,8 +4,6 @@ date: 2026-06-10
 lastmod: 2026-06-10
 draft: false
 description: "Renting GPU instances on RunPod, Lambda Labs, and Vast.ai for LLM fine-tuning: instance types, current pricing, realistic time-to-completion, and cost estimates for a 10,000-example network engineer dataset."
-tags: ["cloud-gpu", "runpod", "lambda-labs", "vast-ai", "a100", "h100", "fine-tuning", "nvidia"]
-categories: ["technology"]
 research_area: "local-llm-finetuning/compute-options"
 source_urls:
   - "https://www.runpod.io/gpu-instance/pricing"

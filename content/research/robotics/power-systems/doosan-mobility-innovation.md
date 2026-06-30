@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "South Korean hydrogen fuel cell drone subsidiary of Doosan Group; DS30W is marketed as the world's first mass-produced hydrogen fuel cell drone with 2-hour endurance; scheduled to merge with Doosan Fuel Cell Power in December 2024 as part of Doosan Group's hydrogen business consolidation."
-tags: ["robotics", "fuel-cell", "power-systems", "south-korea"]
-categories: ["company"]
 research_area: "robotics/power-systems"
 source_urls:
   - "https://www.doosanmobility.com/en/products/drone-ds30"

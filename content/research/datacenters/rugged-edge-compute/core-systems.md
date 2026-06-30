@@ -4,8 +4,6 @@ date: 2026-04-25
 lastmod: 2026-04-25
 draft: false
 description: "San Diego, CA rugged compute company specializing in the ATMOS stackable server architecture for vehicle, airborne, and maritime deployments. ISO 9001:2015 certified; US-designed and manufactured."
-tags: ["rugged", "embedded-compute", "defense", "vehicle-compute", "airborne", "maritime", "us", "fanless"]
-categories: ["company"]
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://core-systems.com/"

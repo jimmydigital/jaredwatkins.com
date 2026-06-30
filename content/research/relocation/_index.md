@@ -4,8 +4,6 @@ date: 2026-06-15
 lastmod: 2026-06-18
 draft: false
 description: "City and county level research evaluating potential relocation destinations against a consistent set of livability criteria."
-tags: ["relocation", "cities", "cost-of-living", "demographics"]
-categories: ["overview"]
 research_area: "relocation"
 last_reviewed: 2026-06-15
 stale_after_days: 180
@@ -89,8 +87,6 @@ date: YYYY-MM-DD
 lastmod: YYYY-MM-DD
 draft: false
 description: "Relocation evaluation of Denver, Colorado."
-tags: ["relocation", "colorado", "denver"]
-categories: ["overview"]
 research_area: "relocation"
 source_urls:
   - "https://example.com"

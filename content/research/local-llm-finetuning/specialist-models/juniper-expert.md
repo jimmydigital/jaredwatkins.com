@@ -4,8 +4,6 @@ date: 2026-06-10
 lastmod: 2026-06-10
 draft: false
 description: "Design specification for a fine-tuned Juniper/JunOS network engineer specialist LLM: base model selection, competency targets, training data requirements, fine-tuning parameters, and deployment as a local disconnected assistant."
-tags: ["juniper", "junos", "specialist-models", "fine-tuning", "network-engineering", "llm", "edge-ai"]
-categories: ["technology"]
 research_area: "local-llm-finetuning/specialist-models"
 source_urls:
   - "https://www.juniper.net/documentation/"

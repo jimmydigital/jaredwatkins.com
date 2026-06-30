@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Tokyo, Japan precision gearbox maker (TSE: 6324); strain wave gearing (harmonic drive) for industrial robots, semiconductor equipment, surgical robots, and humanoid robots; FY2024/3 revenue ¥28.6B (~$190M); Morningstar 'wide moat' designation; critical component in Tesla Optimus, humanoid robot build-out driving demand surge."
-tags: ["robotics", "actuators", "components", "japan"]
-categories: ["company"]
 research_area: "robotics/actuators"
 source_urls:
   - "https://www.hds.co.jp/english/"

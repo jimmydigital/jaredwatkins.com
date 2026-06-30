@@ -4,8 +4,6 @@ date: 2026-03-25
 lastmod: 2026-03-25
 draft: false
 description: "Bellevue, WA sodium fast reactor developer; founded 2008 by Bill Gates and Nathan Myhrvold; Natrium reactor (345 MW electric + 500 MWh molten salt storage) at Kemmerer, WY; NRC construction permit issued late 2025 after final safety evaluation completed December 2025; non-nuclear site construction underway; commercial operation target 2030. First utility-scale advanced nuclear power plant in the US."
-tags: ["nuclear", "smr", "gen-iv", "energy", "us", "startup"]
-categories: ["company"]
 research_area: "energy/nuclear"
 source_urls:
   - "https://www.terrapower.com/"

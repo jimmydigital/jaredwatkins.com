@@ -4,8 +4,6 @@ date: 2026-06-11
 lastmod: 2026-06-11
 draft: false
 description: "How to version, store, and swap LoRA adapters as you iterate on a fine-tuned network expert model — keeping the base model separate from adapters, testing a new adapter before switching, and rolling back when a new version regresses."
-tags: ["lora", "adapter", "versioning", "rollback", "fine-tuning", "deployment", "ollama"]
-categories: ["technology"]
 research_area: "local-llm-finetuning/specialist-models"
 source_urls: []
 last_reviewed: 2026-06-11

@@ -4,8 +4,6 @@ date: 2026-03-23
 lastmod: 2026-03-23
 draft: false
 description: "Overview of solid-state battery technology — replacing liquid electrolytes with solid materials for higher energy density, improved safety, and longer cycle life."
-tags: ["batteries", "solid-state", "energy", "ev", "emerging"]
-categories: ["technology"]
 research_area: "energy/batteries"
 source_urls:
   - "https://www.idtechex.com/en/research-article/solid-state-battery-commercialization-mass-production-taking-off/32942"

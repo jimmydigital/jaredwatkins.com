@@ -4,8 +4,6 @@ date: 2026-06-19
 lastmod: 2026-06-19
 draft: false
 description: "San Jose, CA warehouse robotics company; Carter collaborative mobile robot (CMR) for picking and transport; founded by Rodney Brooks (iRobot, Rethink Robotics) and Gary Marcus; Foxconn manufacturing partner."
-tags: ["robotics", "amr", "warehouse", "logistics", "us", "software"]
-categories: ["company"]
 research_area: "robotics/software-and-integration"
 source_urls:
   - "https://robust.ai"

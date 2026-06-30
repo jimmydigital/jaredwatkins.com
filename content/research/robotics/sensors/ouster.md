@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "San Francisco digital LiDAR company formed by the February 2023 Ouster-Velodyne merger; largest Western lidar supplier for robotics with the OS sensor series, REV7 architecture, and Ouster Gemini perception platform."
-tags: ["robotics", "sensor", "lidar", "us"]
-categories: ["company"]
 research_area: "robotics/sensors"
 source_urls:
   - "https://investors.ouster.com/news-releases/news-release-details/ouster-and-velodyne-complete-merger-equals-accelerate-lidar"

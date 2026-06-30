@@ -4,8 +4,6 @@ date: 2026-04-15
 lastmod: 2026-04-17
 draft: false
 description: "Post-quantum cryptography support across networking hardware and software vendors: algorithms, protocol layers, firmware versions, and deployment timelines."
-tags: ["post-quantum", "cryptography", "networking", "pqc", "ike-pqc", "tls-pqc"]
-categories: ["overview"]
 research_area: "post-quantum-encryption/networking"
 last_reviewed: 2026-04-17
 stale_after_days: 90

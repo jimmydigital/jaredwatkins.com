@@ -4,8 +4,6 @@ date: 2026-04-02
 lastmod: 2026-04-02
 draft: false
 description: "Columbus, OH-based critical power and cooling infrastructure provider (NYSE: VRT); originated as Emerson Electric's Network Power division, sold to Platinum Equity in 2016, renamed Vertiv, went public via SPAC in 2020; FY2025 revenue $10.23B (+28% YoY); $15B backlog (Q4 2025); co-developing 800 VDC power architecture with NVIDIA for next-gen AI factories; MegaMod HDX prefabricated modules support 50–100+ kW/rack at up to 10 MW; product portfolio spans UPS, PDUs, direct-to-chip CDUs, immersion cooling, and modular datacenter enclosures."
-tags: ["datacenters", "power-infrastructure", "us", "ai-datacenter", "high-density", "power", "cooling", "public"]
-categories: ["company"]
 research_area: "datacenters/power-infrastructure"
 source_urls:
   - "https://www.vertiv.com/"

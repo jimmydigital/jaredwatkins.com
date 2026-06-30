@@ -4,8 +4,6 @@ date: 2026-06-07
 lastmod: 2026-06-07
 draft: false
 description: "AMD's 400G AI network interface card for scale-out AI cluster networking, UltraEthernet Consortium compliant, deployed in Instinct MI350 and MI400 infrastructure."
-tags: ["amd", "networking", "nic", "ultraethernet", "rdma", "ai-accelerators", "us"]
-categories: ["technology"]
 research_area: "ai-accelerators/amd-instinct"
 source_urls:
   - "https://www.amd.com/en/products/network-interface-cards/pensando.html"

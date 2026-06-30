@@ -4,8 +4,6 @@ date: 2026-03-25
 lastmod: 2026-03-26
 draft: false
 description: "Andover, MA defense electronics company (NASDAQ: MRCY); leading provider of rugged mission-critical embedded computing for DoD; sole-source positions on Navy/Army/Air Force signal processing and EW programs; ~$900M annual revenue; RES Trust XR6 AI subsystem; HPEC modules and subsystems at VPX and rackmount tiers."
-tags: ["rugged", "edge-compute", "mil-spec", "ai-inference", "defense", "us", "public", "hpec", "vpx"]
-categories: ["company"]
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://www.mrcy.com/"

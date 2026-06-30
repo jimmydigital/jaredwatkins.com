@@ -4,8 +4,6 @@ date: 2026-06-10
 lastmod: 2026-06-10
 draft: false
 description: "How to build, fine-tune, and deploy small specialist LLMs on local hardware — from base model selection through training data curation, compute options, and edge deployment."
-tags: ["llm", "fine-tuning", "machine-learning", "ai", "edge-ai", "networking"]
-categories: ["overview"]
 research_area: "local-llm-finetuning"
 last_reviewed: 2026-06-10
 stale_after_days: 90

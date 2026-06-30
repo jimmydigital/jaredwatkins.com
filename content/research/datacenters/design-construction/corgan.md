@@ -4,8 +4,6 @@ date: 2026-04-02
 lastmod: 2026-04-02
 draft: false
 description: "Dallas-based architecture and engineering firm; #1 ranked data center architecture firm globally (BD+C, 2024–2025); founded 1938; data center practice since 1979; 300 of 1,200 employees on data center projects; ~$135M data center revenue in 2024; 15M+ sq ft designed; portfolio spans QTS, CoreSite, CyrusOne, Vantage, Cologix, and confidential hyperscalers; expertise in modular power rooms, adiabatic dry cooling, multistory high-density design, and AI infrastructure architecture."
-tags: ["datacenters", "design-construction", "us", "ai-datacenter", "high-density", "architecture", "services"]
-categories: ["company"]
 research_area: "datacenters/design-construction"
 source_urls:
   - "https://www.corgan.com/markets/data-centers"

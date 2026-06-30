@@ -4,8 +4,6 @@ date: 2026-04-25
 lastmod: 2026-04-25
 draft: false
 description: "7Starlake's 7SL-3500 is a self-contained liquid-cooled 3U VPX ATR chassis compliant with VITA 48.4 LFT, supporting up to 500 W TDP in a closed-loop sealed design. Targeted at radar, EW, and UAS applications."
-tags: ["rugged", "openvpx", "vita-48", "liquid-cooling", "atr", "sosa", "defense", "taiwan"]
-categories: ["technology"]
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://7starlake.com/solutions/liquid-cooled-system/liquid-cooling-atr-system"

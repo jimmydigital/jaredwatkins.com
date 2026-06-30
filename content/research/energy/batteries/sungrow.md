@@ -4,8 +4,6 @@ date: 2026-04-04
 lastmod: 2026-04-04
 draft: false
 description: "Chinese public BESS integrator; #1 or #2 globally by shipment volume (trading places with Tesla); 43 GWh shipped 2025, targeting 60-65 GWh 2026; evidence that Chinese manufacturers have achieved parity with Western integrators at utility scale."
-tags: ["batteries", "bess", "lfp", "china", "grid-storage", "chinese-owned: true", "public", "integrator"]
-categories: ["company"]
 research_area: "energy/batteries"
 source_urls:
   - "https://www.sungrowpower.com"

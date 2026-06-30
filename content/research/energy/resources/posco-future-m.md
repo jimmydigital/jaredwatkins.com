@@ -4,8 +4,6 @@ date: 2026-03-23
 lastmod: 2026-03-24
 draft: false
 description: "South Korean battery materials company producing both cathode and anode active materials; MOU with Factorial Energy for solid-state battery materials; supplier to GM, Samsung SDI, LG Energy Solution, SK On; part of POSCO Group."
-tags: ["company", "materials", "cathode", "anode", "south-korea", "supply-chain", "batteries"]
-categories: ["company"]
 research_area: "energy/resources"
 source_urls:
   - "https://www.businesswire.com/news/home/20251203158606/en/POSCO-Future-M-Signs-MOU-with-U.S.-based-Factorial-for-All-Solid-State-Battery-Technology-Development"

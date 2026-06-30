@@ -4,8 +4,6 @@ date: 2026-05-05
 lastmod: 2026-05-05
 draft: false
 description: "Zürich-based power grid equipment manufacturer (subsidiary of Hitachi Ltd, TSE: 6501; trades as HPS.A on TSX); world's largest transformer manufacturer; $43B backlog (early 2026, up from $14B three years prior); large-transformer lead times 40 months; $6B committed capacity expansion; CEO warned sector is 'overwhelmed' by data center and energy transition demand; key bottleneck for AI datacenter grid interconnection."
-tags: ["datacenters", "power-infrastructure", "transformer", "grid", "supply-chain", "incumbents"]
-categories: ["company"]
 research_area: "datacenters/power-infrastructure"
 source_urls:
   - "https://www.hitachienergy.com/"

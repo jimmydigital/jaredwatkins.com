@@ -4,8 +4,6 @@ date: 2026-06-19
 lastmod: 2026-06-19
 draft: false
 description: "Waltham, MA AMR company; Chuck collaborative picking robot; originally acquired by Shopify in 2019, re-acquired to independence; deployed in 3PL and retail fulfillment warehouses."
-tags: ["robotics", "amr", "logistics", "warehouse", "picking", "us"]
-categories: ["company"]
 research_area: "robotics/amr-and-logistics"
 source_urls:
   - "https://6river.com"

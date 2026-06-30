@@ -4,8 +4,6 @@ date: 2026-04-29
 lastmod: 2026-04-29
 draft: false
 description: "Canadian space networking company operating the largest orbital compute cluster as of early 2026: 40 NVIDIA Orin processors across 10 satellites linked by laser ISLs."
-tags: ["orbital-compute", "space", "ai-datacenter", "networking", "canada"]
-categories: ["company"]
 research_area: "datacenters/orbital-compute"
 source_urls:
   - "https://www.keplercommunications.com/"

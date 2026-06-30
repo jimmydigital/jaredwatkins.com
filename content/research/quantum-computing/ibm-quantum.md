@@ -4,8 +4,6 @@ date: 2026-04-06
 lastmod: 2026-04-06
 draft: false
 description: "Largest publicly accessible quantum computing fleet; superconducting QPU modality; Eagle, Heron, Nighthawk, and Loon processors on roadmap; 2029 Starling fault-tolerant target; qLDPC error correction research; cloud access via IBM Quantum Platform and Qiskit SDK."
-tags: ["quantum-computing", "superconducting", "nisq", "fault-tolerant-research", "us", "cloud-access", "incumbent"]
-categories: ["company"]
 research_area: "quantum-computing"
 source_urls:
   - "https://www.ibm.com/quantum"

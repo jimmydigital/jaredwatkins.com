@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "German RF spectrum monitoring-based drone detection system — passive RF from 20 MHz to 8 GHz; decodes DJI OcuSync, Mavlink, and 3G/4G/5G-connected drones; range up to 14 km."
-tags: ["drone-detection", "rf-detection", "remote-id", "spectrum-monitoring", "germany"]
-categories: ["company"]
 research_area: "drone-detection/hardware"
 source_urls:
   - "https://aaronia.com/en/solutions/drone-detection"

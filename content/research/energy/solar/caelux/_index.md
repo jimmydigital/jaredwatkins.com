@@ -4,8 +4,6 @@ date: 2026-04-03
 lastmod: 2026-04-03
 draft: false
 description: "Mountain View, CA concentrated photovoltaic (CPV) systems developer; founded 2006; dual-axis tracking high-efficiency multijunction solar concentrators for utility-scale deployment; targeting 40%+ efficiency under concentration; direct normal irradiance (DNI) optimized."
-tags: ["solar", "cpv", "concentrated-photovoltaics", "multijunction", "tracking", "energy", "us"]
-categories: ["company"]
 research_area: "energy/solar"
 source_urls:
   - "https://www.caelux.com/"

@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Los Angeles MIMO MANET radio developer for defense and unmanned systems; StreamCaster radios are the dominant waveform on US Army Integrated Tactical Network programs; acquired by Motorola Solutions for $4.4B in August 2025."
-tags: ["robotics", "communications", "defense", "us"]
-categories: ["company"]
 research_area: "robotics/communications"
 source_urls:
   - "https://www.motorolasolutions.com/newsroom/press-releases/motorola-solutions-completes-acquisition-of-silvus-technologies.html"

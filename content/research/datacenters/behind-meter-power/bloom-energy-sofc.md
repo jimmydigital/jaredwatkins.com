@@ -4,8 +4,6 @@ date: 2026-04-21
 lastmod: 2026-04-24
 draft: false
 description: "Bloom Energy, San Jose, CA. Public company (NASDAQ: BE). Solid oxide fuel cell (SOFC) developer. Bloom Energy Server 5 (500 kW modules, scalable). Major data center deployments: Apple, Google, Samsung, Equinix (19 facilities, 100+ MW), Oracle (2.8 GW expanded MSA, April 13, 2026; 1.2 GW initial deployed + expanding). Brookfield $5B partnership. AEP 1 GW procurement. Target 2 GW annual production by end 2026. BE stock up 150% YTD (April 2026). Delivered Oracle system in 55 days — record speed."
-tags: ["fuel-cell", "sofc", "behind-the-meter", "data-center", "energy", "power-generation"]
-categories: ["company"]
 research_area: "datacenters/behind-meter-power"
 source_urls:
   - "https://www.bloomenergy.com/"

@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Bend, Oregon-based designer and manufacturer of brushless DC motors and ESCs for professional drones and robotics; positioned as the primary US-sourced alternative to Chinese drone motor suppliers (T-Motor) for NDAA-compliant and defense-adjacent drone builds."
-tags: ["robotics", "aerial-drone", "actuator", "motor", "us"]
-categories: ["company"]
 research_area: "robotics/aerial-drones"
 source_urls:
   - "https://www.kdedirect.com/pages/brushless-motors"

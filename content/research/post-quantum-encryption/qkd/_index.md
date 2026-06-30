@@ -4,8 +4,6 @@ date: 2026-06-02
 lastmod: 2026-06-02
 draft: false
 description: "Companies and technologies in Quantum Key Distribution (QKD): physics-based key exchange using entangled photons and quantum channels."
-tags: ["qkd", "quantum-security", "cryptography", "photonics", "eu"]
-categories: ["overview"]
 research_area: "post-quantum-encryption/qkd"
 last_reviewed: 2026-06-02
 stale_after_days: 90

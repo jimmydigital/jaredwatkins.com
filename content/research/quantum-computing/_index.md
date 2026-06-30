@@ -4,8 +4,6 @@ date: 2026-04-05
 lastmod: 2026-04-19
 draft: false
 description: Research on quantum computing hardware, software, and the companies and researchers building toward practical quantum advantage.
-tags: ["quantum-computing"]
-categories: ["overview"]
 research_area: "quantum-computing"
 last_reviewed: 2026-04-14
 stale_after_days: 90

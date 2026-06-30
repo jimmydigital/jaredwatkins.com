@@ -4,8 +4,6 @@ date: 2026-06-10
 lastmod: 2026-06-10
 draft: false
 description: "What temperature actually is in LLM inference, how it reshapes the probability distribution over next tokens, how it interacts with top-p and top-k sampling, and why the right setting depends entirely on the task."
-tags: ["temperature", "sampling", "inference", "llm", "top-p", "top-k", "reasoning"]
-categories: ["technology"]
 research_area: "local-llm-finetuning/fundamentals"
 source_urls:
   - "https://arxiv.org/abs/2002.06440"

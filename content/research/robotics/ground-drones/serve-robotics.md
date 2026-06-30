@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "NASDAQ-listed sidewalk delivery robot company (Redwood City, CA); spun out of Uber Eats in 2021; 547 daily active robots in Q4 2025 vs 57 in Q4 2024; NVIDIA Jetson Orin-powered; Uber Eats and 7-Eleven commercial partners; revenue 10x growth projected for 2026."
-tags: ["robotics", "ugv", "commercial", "delivery", "us"]
-categories: ["company"]
 research_area: "robotics/ground-drones"
 source_urls:
   - "https://investors.serverobotics.com/"

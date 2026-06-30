@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "Skydio's counter-UAS and autonomous patrol capabilities for critical infrastructure and military base protection — drone-in-a-box perimeter defense, AI anomaly detection, and the X10/X10D platform."
-tags: ["c-uas", "counter-drone", "autonomous", "drone-in-box", "critical-infrastructure", "fixed-site", "defense", "us"]
-categories: ["company"]
 research_area: "drone-detection/hardware"
 source_urls:
   - "https://www.skydio.com/solutions/national-security/base-security"

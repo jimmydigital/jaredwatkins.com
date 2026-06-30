@@ -4,8 +4,6 @@ date: 2026-06-26
 lastmod: 2026-06-26
 draft: false
 description: "EtherCAT (Ethernet for Control Automation Technology) — the dominant real-time Ethernet fieldbus for robotics and industrial automation. Covers protocol architecture, key companies, use cases, open-source tooling, functional safety, and limitations."
-tags: ["robotics", "ethercat", "fieldbus", "real-time", "motion-control", "industrial-ethernet"]
-categories: ["overview"]
 research_area: "robotics/ethercat"
 last_reviewed: 2026-06-26
 stale_after_days: 180

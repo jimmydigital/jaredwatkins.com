@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Livermore, CA electric autonomous tractor company; MK-V is the first commercially available driver-optional electric tractor for specialty crops; $220M raised through Series C ($133M, July 2024); 400+ MK-V tractors deployed with 42,000+ hours of operation."
-tags: ["robotics", "agricultural", "ugv", "us", "commercial"]
-categories: ["company"]
 research_area: "robotics/ground-drones"
 source_urls:
   - "https://www.monarchtractor.com/about"

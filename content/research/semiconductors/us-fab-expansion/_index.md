@@ -4,8 +4,6 @@ date: 2026-04-24
 lastmod: 2026-04-24
 draft: false
 description: "Tracking major semiconductor wafer fabrication facility construction and expansion projects across the United States, including CHIPS Act funding status, timelines, and capacity targets."
-tags: ["semiconductors", "fabrication", "us", "chips-act", "domestic-manufacturing", "advanced-node", "leading-edge", "mature-node"]
-categories: ["overview"]
 research_area: "semiconductors/us-fab-expansion"
 source_urls:
   - "https://www.semiconductors.org/chip-supply-chain-investments/"

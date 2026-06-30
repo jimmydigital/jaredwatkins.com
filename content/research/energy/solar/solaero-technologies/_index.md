@@ -4,8 +4,6 @@ date: 2026-04-30
 lastmod: 2026-04-30
 draft: false
 description: "Albuquerque, NM-based space solar cell and panel manufacturer; acquired by Rocket Lab in 2022 for $80M; powers 1,100+ satellites including Ingenuity Mars helicopter; produces STARRAY modular solar arrays; supplies Next-Gen OPIR and NASA Gateway solar power."
-tags: ["solar", "gaas", "space", "satellites", "multi-junction", "us", "rocket-lab"]
-categories: ["company"]
 research_area: "energy/solar"
 source_urls:
   - "https://rocketlabcorp.com/space-systems/solar/"

@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Teledyne Technologies' thermal imaging division; world's largest volume manufacturer of ITAR-free infrared sensors and modules; Boson and Lepton modules are the dominant OEM thermal payloads for drones, UGVs, and defense platforms."
-tags: ["robotics", "sensor", "us", "defense", "commercial"]
-categories: ["company"]
 research_area: "robotics/sensors"
 source_urls:
   - "https://oem.flir.com/products/lepton/"

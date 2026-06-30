@@ -4,8 +4,6 @@ date: 2026-04-02
 lastmod: 2026-04-02
 draft: false
 description: "Orlando-based global edge colocation operator; founded 2003 by Manny Vivar; self-funded with no outside investors; purpose-built Tier IV datacenter facilities in 8+ countries across Latin America, US, Europe, and Asia; new-generation facilities designed for 30–100 kW/rack AI workloads with direct-to-chip and immersive liquid cooling; 1.3 PUE target; carrier-neutral with local internet exchange points; flagship new SuperNova Orlando facility (100,000 sq ft, 5MW IT load, ~1,000 racks) completing Q1 2026; pursuing potential $100M+ capital raise for expansion."
-tags: ["datacenters", "design-construction", "us", "latam", "ai-datacenter", "high-density", "operator", "colocation", "edge"]
-categories: ["company"]
 research_area: "datacenters/design-construction"
 source_urls:
   - "https://www.hostdime.com/"

@@ -4,8 +4,6 @@ date: 2026-03-24
 lastmod: 2026-03-24
 draft: false
 description: Batteries, fuel cells, hybrid power, and wireless charging for robots — manufacturers, chemistry trends, and supply chain overlap with EV and grid storage.
-tags: ["robotics", "battery", "fuel-cell"]
-categories: ["overview"]
 research_area: "robotics/power-systems"
 last_reviewed: 2026-03-24
 stale_after_days: 90

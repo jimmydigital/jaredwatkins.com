@@ -4,8 +4,6 @@ date: 2026-04-25
 lastmod: 2026-04-25
 draft: false
 description: "San Jose, CA rugged industrial computing manufacturer; JCO Series (JCO-6000-ORN, JCO-3000-ORN) NVIDIA Jetson Orin NX/AGX fanless AI edge systems; RCO Series rackmount rugged servers with EDGEBoost I/O expansion technology; MIL-STD-810H and E-Mark certified platforms for defense, transportation, and industrial AI."
-tags: ["rugged", "edge-compute", "ai-inference", "industrial", "us", "private", "fanless", "jetson", "gpu-edge"]
-categories: ["company"]
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://premioinc.com/"

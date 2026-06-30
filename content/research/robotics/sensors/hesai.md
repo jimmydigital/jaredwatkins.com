@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Shanghai LiDAR manufacturer and world's largest LiDAR company by revenue and units; AT128 and QT128 sensors used in autonomous vehicles and robotics globally; added to DoD's Chinese Military Company list and prohibited from US federal contracts under FY2025 NDAA."
-tags: ["robotics", "sensor", "lidar", "china"]
-categories: ["company"]
 research_area: "robotics/sensors"
 chinese-owned: true
 source_urls:

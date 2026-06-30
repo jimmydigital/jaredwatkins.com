@@ -4,8 +4,6 @@ date: 2026-06-16
 lastmod: 2026-06-16
 draft: false
 description: "Relocation evaluation of Panama City, Republic of Panama: cost of living, expat visa and residency programs, crime, Canal logistics economy, healthcare, utilities, environmental risks, and firearms laws for US expats."
-tags: ["relocation", "panama", "international", "expat", "canal", "latin-america", "territorial-tax"]
-categories: ["overview"]
 research_area: "relocation"
 source_urls:
   - "https://www.expatlife.ai/panama/cities/panama-city/cost-of-living"

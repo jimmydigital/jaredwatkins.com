@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "Classification of drone threat categories relevant to critical infrastructure protection, covering detection difficulty, primary detection methods, countermeasures, and real-world incidents."
-tags: ["c-uas", "threat-taxonomy", "critical-infrastructure", "fiber-optic-threat", "swarm", "rf-dark", "autonomous-waypoint"]
-categories: ["overview"]
 research_area: "drone-detection"
 source_urls:
   - "https://en.wikipedia.org/wiki/Fiber_optic_drone"

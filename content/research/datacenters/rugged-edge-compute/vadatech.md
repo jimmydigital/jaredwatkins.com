@@ -4,8 +4,6 @@ date: 2026-04-25
 lastmod: 2026-04-25
 draft: false
 description: "Henderson, NV-based MicroTCA platform and AMC module specialist; largest dedicated MicroTCA vendor in North America serving defense, telecom, scientific, and industrial markets."
-tags: ["microtca", "amc", "mch", "embedded-compute", "defense", "rugged", "us", "conduction-cooled"]
-categories: ["company"]
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://www.vadatech.com/products/architecture/microtca/"

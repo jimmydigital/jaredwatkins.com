@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "Commercial drone detection hardware vendors for critical infrastructure protection — multi-sensor systems, RF scanners, radar, and passive optical."
-tags: ["drone-detection", "c-uas", "hardware", "critical-infrastructure", "rf-detection", "radar"]
-categories: ["overview"]
 research_area: "drone-detection/hardware"
 last_reviewed: 2026-06-05
 stale_after_days: 90

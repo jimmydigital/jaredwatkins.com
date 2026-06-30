@@ -4,8 +4,6 @@ date: 2026-03-24
 lastmod: 2026-03-24
 draft: false
 description: "SoftBank Corp.'s cableless server rack design announced September 2025 — eliminates power, optical, and liquid-cooling cables so robots can install and replace servers without human cable manipulation. OCP ORV3-aligned; deploying at Hokkaido Tomakomai AI Data Center in FY2026."
-tags: ["datacenters", "robotics-automation", "blind-mate", "japan", "ai-datacenter", "high-density"]
-categories: ["breakthrough"]
 research_area: "datacenters/robotics-automation"
 source_urls:
   - "https://www.softbank.jp/en/sbnews/entry/20250917_01"

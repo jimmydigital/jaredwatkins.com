@@ -4,8 +4,6 @@ date: 2026-04-24
 lastmod: 2026-04-24
 draft: false
 description: "JSR Corporation: Japan's leading photoresist supplier; government-backed acquisition by Japan IC Manufacturing Corp (2023); ArF and EUV resist dominance; strategic nationalization."
-tags: ["semiconductors", "materials", "photoresist", "japan", "jsr", "strategic-acquisition"]
-categories: ["company-profile"]
 research_area: "semiconductors/materials"
 source_urls:
   - "https://asia.nikkei.com/Business/Business-deals/Japan-state-backed-fund-looks-to-buy-top-photoresist-maker-JSR"

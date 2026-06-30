@@ -4,8 +4,6 @@ date: 2026-04-03
 lastmod: 2026-04-03
 draft: false
 description: "Fluence Energy is the leading Western-headquartered battery energy storage systems (BESS) integrator, competing against Chinese manufacturers on Fluence IQ software, project bankability, and domestic-content supply chains rather than cell-level pricing."
-tags: ["batteries", "bess", "grid-storage", "us", "public", "software"]
-categories: ["company"]
 research_area: "energy/batteries"
 source_urls:
   - "https://www.globenewswire.com/news-release/2025/12/11/3203953/0/en/Fluence-Named-a-Leading-Global-Battery-Energy-Storage-Provider-in-S-P-Global-Commodity-Insights-Report.html"

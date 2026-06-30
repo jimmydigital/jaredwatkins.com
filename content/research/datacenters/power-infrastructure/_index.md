@@ -4,8 +4,6 @@ date: 2026-03-24
 lastmod: 2026-05-05
 draft: false
 description: Power sourcing, behind-the-meter generation, grid interconnection, and energy storage for AI-scale datacenters.
-tags: ["datacenters", "power-infrastructure"]
-categories: ["overview"]
 research_area: "datacenters/power-infrastructure"
 last_reviewed: 2026-05-05
 stale_after_days: 90

@@ -4,8 +4,6 @@ date: 2026-06-23
 lastmod: 2026-06-23
 draft: false
 description: "Seoul, South Korea smart servo actuator manufacturer; Dynamixel series is the dominant integrated actuator module for research and educational robots; vendor-supported ROS 2 driver; widely used in humanoid, collaborative robot, and research platforms globally."
-tags: ["robotics", "actuators", "motor", "components", "south-korea", "ros2"]
-categories: ["company"]
 research_area: "robotics/actuators"
 source_urls:
   - "https://www.robotis.us/"

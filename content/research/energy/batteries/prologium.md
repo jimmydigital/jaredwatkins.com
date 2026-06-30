@@ -4,8 +4,6 @@ date: 2026-03-23
 lastmod: 2026-03-24
 draft: false
 description: "Taiwanese solid-state battery pioneer with 20 years of development; commercialized the first 100% ceramic separator in 2013; unveiling Superfluidized All-Inorganic architecture in 2025–2026; Dunkirk gigafactory construction beginning 2026."
-tags: ["batteries", "solid-state", "emerging", "eu"]
-categories: ["company"]
 research_area: "energy/batteries"
 source_urls:
   - "https://prologium.com/prologium-marks-20th-anniversary-at-ces-2026-unveils-breakthrough-superfluidized-all-inorganic-solid-state-battery-results/"

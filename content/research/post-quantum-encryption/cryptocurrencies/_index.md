@@ -4,8 +4,6 @@ date: 2026-04-15
 lastmod: 2026-04-17
 draft: false
 description: "Post-quantum cryptography exposure analysis and migration plans for major cryptocurrency and blockchain platforms — Phase 2 research, now active."
-tags: ["post-quantum", "cryptography", "cryptocurrency", "bitcoin", "ethereum", "blockchain", "pqc"]
-categories: ["overview"]
 research_area: "post-quantum-encryption/cryptocurrencies"
 last_reviewed: 2026-04-17
 stale_after_days: 90

@@ -4,8 +4,6 @@ date: 2026-04-03
 lastmod: 2026-04-03
 draft: false
 description: "San Mateo, CA perovskite-silicon tandem solar cell developer; founded 2021; developing multijunction photovoltaic cells stacking perovskite top layer on silicon bottom layer to exceed silicon single-junction efficiency limits; targeting 30%+ efficiency at scale."
-tags: ["solar", "perovskite", "tandem", "multijunction", "energy", "us", "startup", "silicon"]
-categories: ["company"]
 research_area: "energy/solar"
 source_urls:
   - "https://www.tandem-pv.com/"

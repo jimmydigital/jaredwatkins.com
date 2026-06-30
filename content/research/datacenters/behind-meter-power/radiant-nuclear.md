@@ -4,8 +4,6 @@ date: 2026-04-25
 lastmod: 2026-04-28
 draft: false
 description: "Radiant Nuclear's 1.2 MWe Kaleidos microreactor—high-temperature gas-cooled HTGR with HALEU/TRISO fuel. Equinix 20-unit preorder signals microreactor scaling for colocation data centers."
-tags: ["microreactor", "htgr", "kaleidos", "equinix", "modular-nuclear", "data-center", "behind-the-meter", "haleu"]
-categories: ["company"]
 research_area: "datacenters/behind-meter-power"
 source_urls:
   - "https://www.radiantnuclear.com/"

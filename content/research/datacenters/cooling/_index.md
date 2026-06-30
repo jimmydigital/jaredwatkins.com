@@ -4,8 +4,6 @@ date: 2026-03-24
 lastmod: 2026-06-07
 draft: false
 description: Liquid cooling systems for high-density AI and HPC datacenters — immersion, direct-to-chip, rear-door heat exchangers, and the companies supplying them.
-tags: ["datacenters", "cooling", "liquid-cooling"]
-categories: ["overview"]
 research_area: "datacenters/cooling"
 last_reviewed: 2026-03-24
 stale_after_days: 90

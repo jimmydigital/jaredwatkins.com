@@ -4,8 +4,6 @@ date: 2026-04-25
 lastmod: 2026-04-28
 draft: false
 description: "TerraPower's Natrium sodium-cooled fast reactor with molten-salt thermal storage for flexible, load-following power to data centers. Built-in storage enables ramp from 345 MW to 500+ MW for 5+ hours."
-tags: ["smr", "sodium-cooled", "fast-reactor", "data-center", "thermal-storage", "meta", "sabey", "behind-the-meter", "haleu"]
-categories: ["company"]
 research_area: "datacenters/behind-meter-power"
 source_urls:
   - "https://www.terrapower.com/"

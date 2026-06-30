@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Philadelphia, PA quadruped robot company; Vision 60 Q-UGV deployed with USAF, Army, and Marine Corps; acquired by South Korean defense company LIG Nex1 for $240M (60% stake) in 2024 at a $400M valuation; SWORD SPUR rifle-equipped variant controversial but fielded with MARSOC."
-tags: ["robotics", "ugv", "defense", "us"]
-categories: ["company"]
 research_area: "robotics/ground-drones"
 source_urls:
   - "https://www.ghostrobotics.io/vision-60"

@@ -4,8 +4,6 @@ date: 2026-04-15
 lastmod: 2026-04-15
 draft: false
 description: "UK startup building hardware-accelerated post-quantum cryptography networking appliances; FPGA-based PQC IPsec at line rate; spin-out from University of Bristol."
-tags: ["post-quantum", "cryptography", "networking", "pqc", "ike-pqc", "ml-kem", "hybrid-pqc", "uk", "emerging"]
-categories: ["company"]
 research_area: "post-quantum-encryption/networking"
 source_urls:
   - "https://www.sitehop.io"

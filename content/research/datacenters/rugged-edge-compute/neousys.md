@@ -4,8 +4,6 @@ date: 2026-04-25
 lastmod: 2026-04-25
 draft: false
 description: "Taiwan-based rugged embedded computer manufacturer (Advantech subsidiary); SEMIL-2200 and SEMIL-2200GC semi-industrial fanless AI edge servers; wide-temperature GPU inference platforms for transportation, defense, and industrial AI; NVIDIA Jetson and discrete GPU integration."
-tags: ["rugged", "edge-compute", "ai-inference", "industrial", "taiwan", "private", "fanless", "gpu-edge"]
-categories: ["company"]
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://www.neousys-tech.com/"

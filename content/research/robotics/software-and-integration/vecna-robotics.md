@@ -4,8 +4,6 @@ date: 2026-06-19
 lastmod: 2026-06-19
 draft: false
 description: "Waltham, MA AMR company; Pivotal orchestration engine manages mixed human/robot/forklift workflows; Aptiv partnership for next-gen perception; multi-vendor fleet management focus."
-tags: ["robotics", "amr", "fleet-management", "orchestration", "warehouse", "us"]
-categories: ["company"]
 research_area: "robotics/software-and-integration"
 source_urls:
   - "https://vecnarobotics.com"

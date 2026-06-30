@@ -4,8 +4,6 @@ date: 2026-03-24
 lastmod: 2026-03-24
 draft: false
 description: "Nonprofit open hardware consortium founded by Meta in 2011. Develops and publishes open specifications for datacenter infrastructure including Open Rack v3 (ORV3) — the rack standard referenced by SoftBank's robot-friendly cable-less rack. OCP's ORV3 includes a vertical DC bus bar and blind-mate power connections that are foundational to automation-ready rack design. Members include Meta, Microsoft, Google, Goldman Sachs, and most major ODMs."
-tags: ["datacenters", "robotics-automation", "standards", "design-construction", "blind-mate", "high-density"]
-categories: ["consortium"]
 research_area: "datacenters/robotics-automation"
 source_urls:
   - "https://www.opencompute.org/"

@@ -4,8 +4,6 @@ date: 2026-06-18
 lastmod: 2026-06-18
 draft: false
 description: "Relocation evaluation of Cincinnati, Ohio: cost of living, demographics, crime, Fortune 500 anchor economy, small business climate, utilities, and environmental risks."
-tags: ["relocation", "ohio", "cincinnati", "midwest"]
-categories: ["overview"]
 research_area: "relocation"
 source_urls:
   - "https://asktcg.com/the-real-cost-of-living-in-cincinnati-ohio-in-2026-explained/"

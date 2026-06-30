@@ -5,8 +5,6 @@ lastmod: 2026-06-05
 last_reviewed: 2026-06-05
 draft: false
 description: "Overview of drone detection modalities: micro-Doppler radar, RF/Remote ID, acoustic, optical/thermal, and multi-sensor fusion — with focus on drone-vs-bird discrimination."
-tags: ["drone-detection", "micro-doppler", "rf-detection", "acoustic", "optical", "multi-sensor-fusion"]
-categories: ["overview"]
 research_area: "drone-detection/detection-methods"
 stale_after_days: 90
 sitemap:

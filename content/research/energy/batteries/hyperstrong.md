@@ -4,8 +4,6 @@ date: 2026-04-04
 lastmod: 2026-04-04
 draft: false
 description: "Chinese BESS system integrator and top-5 global player by H1 2025 shipments; operates LFP containerized solutions across utility, C&I, and residential scales; publicly traded January 2025 on Shanghai SSE at ¥688411."
-tags: ["batteries", "bess", "lfp", "china", "grid-storage", "chinese-owned"]
-categories: ["company"]
 research_area: "energy/batteries"
 chinese-owned: true
 source_urls:

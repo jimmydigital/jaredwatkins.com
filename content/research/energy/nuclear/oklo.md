@@ -4,8 +4,6 @@ date: 2026-03-25
 lastmod: 2026-03-25
 draft: false
 description: "Santa Clara sodium fast microreactor developer; NYSE: OKLO; Sam Altman chairman; groundbreaking at Idaho National Laboratory September 2025 (Kiewit as contractor); Aurora 75 MWe fast fission reactor; HALEU fuel dependent; ~18 GW order book including Meta, Switch, Equinix, Wyoming Hyperscale; Vertiv partnership for integrated power/cooling; commercial operation target 2027-2028."
-tags: ["nuclear", "smr", "microreactor", "gen-iv", "energy", "us", "haleu", "behind-the-meter", "startup"]
-categories: ["company"]
 research_area: "energy/nuclear"
 source_urls:
   - "https://oklo.com/"

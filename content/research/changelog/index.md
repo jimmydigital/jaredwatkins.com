@@ -4,8 +4,6 @@ date: 2026-04-04
 lastmod: 2026-06-29
 draft: false
 description: "Timestamped log of additions and modifications to the Research knowledge base."
-tags: ["changelog", "research"]
-categories: ["overview"]
 research_area: "research"
 last_reviewed: 2026-04-04
 stale_after_days: 90

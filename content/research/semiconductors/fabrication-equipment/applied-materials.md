@@ -4,8 +4,6 @@ date: 2026-04-24
 lastmod: 2026-04-24
 draft: false
 description: "Applied Materials Inc.: Largest wafer fabrication equipment (WFE) vendor by revenue; etch, deposition, CMP, ion implant systems; CEO Gary Dickerson; China revenue trajectory under export controls."
-tags: ["semiconductors", "fabrication-equipment", "etch", "deposition", "cvd", "pvd", "ald", "cmp", "us", "export-controls"]
-categories: ["company-profile"]
 research_area: "semiconductors/fabrication-equipment"
 source_urls:
   - "https://www.appliedmaterials.com/"

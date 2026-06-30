@@ -4,8 +4,6 @@ date: 2026-04-04
 lastmod: 2026-04-04
 draft: false
 description: "Chinese factory-direct manufacturer of LiFePO4 BESS systems from residential to 5 MWh container scale, with liquid-cooled grid-scale systems; serves 138+ countries with 4,500+ installations and UL9540/IEC62619 certifications."
-tags: ["batteries", "bess", "lfp", "china", "grid-storage", "direct-sales", "liquid-cooled"]
-categories: ["company"]
 research_area: "energy/batteries"
 source_urls:
   - "https://www.gsl-energy.com/"

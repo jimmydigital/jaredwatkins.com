@@ -4,8 +4,6 @@ date: 2026-06-04
 lastmod: 2026-06-04
 draft: false
 description: "Meta's fabric-and-aluminum tent structures for fast AI compute deployment, enabling hyperscale GPU clusters to go live in months rather than years."
-tags: ["design-construction", "hyperscaler", "ai-datacenter", "prefab", "high-density", "us", "behind-the-meter"]
-categories: ["design pattern"]
 research_area: "datacenters/design-construction"
 source_urls:
   - "https://www.fastcompany.com/91369896/meta-is-using-tents-to-build-its-giant-ai-data-centers"

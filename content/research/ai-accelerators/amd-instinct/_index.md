@@ -4,8 +4,6 @@ date: 2026-06-07
 lastmod: 2026-06-07
 draft: false
 description: "AMD's GPU accelerator product line for datacenter AI training and inference, spanning MI300 through the MI400-generation Helios rack-scale system."
-tags: ["amd", "gpu", "ai-accelerators", "cdna", "rack-scale", "hpc"]
-categories: ["overview"]
 research_area: "ai-accelerators/amd-instinct"
 last_reviewed: 2026-06-07
 stale_after_days: 90

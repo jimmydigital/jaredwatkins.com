@@ -4,8 +4,6 @@ date: 2026-04-25
 lastmod: 2026-04-25
 draft: false
 description: "3U half-rack military-grade NAS with up to 80TB storage, 100 Gbps networking, FIPS-140-2 encryption. US-owned; C5ISR, naval, and aerospace deployments. Modular XSR product family."
-tags: ["galleon", "xsr", "half-rack", "nas", "military", "us-owned", "c5isr", "100gbps"]
-categories: ["technology"]
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://galleonec.com/product/rugged-servers/xsr-half-rack-server/"

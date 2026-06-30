@@ -4,8 +4,6 @@ date: 2026-06-29
 lastmod: 2026-06-29
 draft: false
 description: Companies building autonomous underwater vehicles (AUVs), extra-large UUVs (XLUUVs), and drone submarines for defense and commercial applications.
-tags: ["robotics", "undersea-drone", "auv", "uuv", "maritime", "defense"]
-categories: ["overview"]
 research_area: "robotics/undersea-drones"
 last_reviewed: 2026-06-29
 stale_after_days: 90

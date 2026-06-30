@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "Autonomous interceptor drones and kinetic counter-drone platforms — drone-kills-drone approaches for C-UAS response."
-tags: ["counter-drone", "interceptor", "drone-hunter", "c-uas", "kinetic"]
-categories: ["overview"]
 research_area: "drone-detection/counter-drone-platforms"
 last_reviewed: 2026-06-05
 stale_after_days: 90

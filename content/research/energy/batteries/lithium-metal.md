@@ -4,8 +4,6 @@ date: 2026-04-24
 lastmod: 2026-04-28
 draft: false
 description: "Lithium metal anodes for next-generation batteries: why they matter for energy density, the dendrite problem that blocked commercialization for 50 years, solution approaches (solid electrolytes, anode-free designs, hybrid), and the competitive landscape of companies pursuing lithium metal batteries in 2025–2026."
-tags: ["lithium-metal", "solid-state", "battery-chemistry", "emerging", "energy-density", "anode", "ev", "technology"]
-categories: ["technology"]
 research_area: "energy/batteries"
 source_urls:
   - "https://techxplore.com/news/2026-02-suppressing-dendrite-growth-fast-cycling-lithium-metal.html"

@@ -4,8 +4,6 @@ date: 2026-06-19
 lastmod: 2026-06-19
 draft: false
 description: "US-based humanoid robot companies: funding, deployment status, autonomy claims, and key people."
-tags: ["humanoid", "robotics", "us", "industrial"]
-categories: ["overview"]
 research_area: "robotics/humanoid"
 last_reviewed: 2026-06-19
 stale_after_days: 90

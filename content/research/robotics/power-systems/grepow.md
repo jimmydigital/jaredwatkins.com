@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Shenzhen-based LiPo and high-C-rate lithium battery manufacturer (founded 1998); Tattu is its premium commercial drone battery brand; dominant OEM cell and pack supplier to the global commercial drone market with ~RMB 2.2B annual revenue."
-tags: ["robotics", "battery", "aerial-drone", "china"]
-categories: ["company"]
 research_area: "robotics/power-systems"
 chinese-owned: true
 source_urls:

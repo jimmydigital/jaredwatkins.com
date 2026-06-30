@@ -4,8 +4,6 @@ date: 2026-04-24
 lastmod: 2026-04-24
 draft: false
 description: "IETF protocol standards for post-quantum cryptography in IKEv2, TLS 1.3, SSH, and X.509 certificates"
-tags: ["ietf", "rfc", "tls", "ikev2", "ssh", "hybrid", "ml-kem", "x509"]
-categories: ["standards", "protocols"]
 research_area: "post-quantum-encryption/standards-policy"
 source_urls:
   - "https://datatracker.ietf.org"

@@ -4,8 +4,6 @@ date: 2026-06-19
 lastmod: 2026-06-19
 draft: false
 description: "Albany, OR humanoid robotics company; Digit bipedal robot; commercial deployment leader among US humanoids; ~$180M raised; DCVC/Playground/Amazon investors; customers include Amazon, GXO, Toyota."
-tags: ["humanoid", "robotics", "us", "industrial", "logistics"]
-categories: ["company"]
 research_area: "robotics/humanoid"
 source_urls:
   - "https://agilityrobotics.com"

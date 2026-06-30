@@ -4,8 +4,6 @@ date: 2026-06-16
 lastmod: 2026-06-16
 draft: false
 description: "Relocation evaluation of Tampa, Florida: cost of living, demographics, crime, tech/finance ecosystem, small business climate, utilities, and environmental risks including hurricane and flood exposure."
-tags: ["relocation", "florida", "tampa", "tampa-bay", "gulf-coast"]
-categories: ["overview"]
 research_area: "relocation"
 source_urls:
   - "https://www.salary.com/research/cost-of-living/tampa-fl"

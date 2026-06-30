@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "Israeli C-UAS company specializing in cyber-takeover counter-drone technology — EnforceAir system takes control of unauthorized drones and lands them safely; detection + mitigation for authorized operators."
-tags: ["drone-detection", "counter-drone", "cyber-takeover", "critical-infrastructure", "israel"]
-categories: ["company"]
 research_area: "drone-detection/hardware"
 source_urls:
   - "https://d-fendsolutions.com/"

@@ -4,8 +4,6 @@ date: 2026-06-19
 lastmod: 2026-06-19
 draft: false
 description: "Norfolk, VA robotics middleware company; SOFTBOT platform connects warehouse robots to WMS/ERP systems 12× faster than custom integration; DHL deploying across 100+ global sites."
-tags: ["robotics", "software", "middleware", "integration", "logistics", "us"]
-categories: ["company"]
 research_area: "robotics/software-and-integration"
 source_urls:
   - "https://svtrobotics.com"

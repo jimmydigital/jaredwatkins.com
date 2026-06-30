@@ -4,8 +4,6 @@ date: 2026-06-29
 lastmod: 2026-06-29
 draft: false
 description: "Caracol AM (Milan) is a robotic LFAM company using 6-axis industrial robots for large-format composite printing. $40M Series B raised; ESA grant for off-Earth LFAM R&D; customers in aerospace, marine, and industrial sectors. Heron AM platform combines robotic extrusion with AI-assisted path planning. US presence established at RAPID+TCT 2025."
-tags: ["lfam", "additive-manufacturing", "composites", "aerospace", "robotics", "italy", "private"]
-categories: ["company"]
 research_area: "lfam"
 source_urls:
   - "https://www.caracol-am.com/technologies"

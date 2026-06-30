@@ -4,8 +4,6 @@ date: 2026-04-15
 lastmod: 2026-04-15
 draft: false
 description: "Semiconductor wafer fabrication equipment — lithography, etch, deposition, inspection, and metrology systems enabling advanced node manufacturing."
-tags: ["semiconductors", "fabrication-equipment", "lithography", "inspection", "metrology", "euv"]
-categories: ["overview"]
 research_area: "semiconductors/fabrication-equipment"
 last_reviewed: 2026-04-15
 stale_after_days: 90

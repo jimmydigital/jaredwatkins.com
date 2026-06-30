@@ -3,8 +3,6 @@ title: "Edge AI Accelerators"
 date: 2026-04-25
 lastmod: 2026-04-25
 description: "Dedicated AI inference accelerator chips and modules (M.2, PCIe, mPCIe) for embedding inference capability into existing edge compute platforms — Hailo, EdgeCortix, and the broader edge NPU market"
-tags: ["edge-compute", "ai-inference", "npu", "accelerator", "m2", "pcie", "hailo", "edgecortix"]
-categories: ["overview"]
 research_area: "datacenters/edge-ai-accelerators"
 last_reviewed: 2026-04-25
 stale_after_days: 180

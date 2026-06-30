@@ -4,8 +4,6 @@ date: 2026-06-29
 lastmod: 2026-06-29
 draft: false
 description: "AML3D (ASX: AL3) is an Australian WAAM specialist delivering metal additive manufacturing components for the US Navy's Virginia-class submarine program. Cu-Ni tailpiece in 5 weeks vs. 17 months traditionally. US Navy LOI projects 400 AM components in 2026, rising to 1,600 by 2030. Facilities in Adelaide (AU) and Ohio (US). Core player in AUKUS maritime industrial base."
-tags: ["lfam", "waam", "additive-manufacturing", "defense", "naval", "submarine", "australia", "public"]
-categories: ["company"]
 research_area: "lfam"
 source_urls:
   - "https://aml3d.com/aml3d-supports-aukus-with-virginia-submarine-component"

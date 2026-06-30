@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "Design pattern for building a counter-UAS detection system at a fixed critical infrastructure site: sensor placement geometry, integration architecture, power and networking, and maintenance cadence."
-tags: ["c-uas", "drone-detection", "critical-infrastructure", "fixed-site", "multi-sensor-fusion", "design-pattern"]
-categories: ["technology"]
 research_area: "drone-detection"
 source_urls:
   - "https://www.criticalts.com/deployment-guides/counter-drone-detection-law-enforcement/"

@@ -4,8 +4,6 @@ date: 2026-03-23
 lastmod: 2026-03-24
 draft: false
 description: "Critical battery mineral with ~75% supply concentrated in the DRC; China controls ~80% of refining; most documented battery companies eliminate it through solid-state or Li-S chemistry — a strategic advantage."
-tags: ["resources", "cobalt", "supply-chain", "mining", "energy", "critical-minerals"]
-categories: ["resource"]
 research_area: "energy/resources"
 source_urls:
   - "https://www.cobaltinstitute.org/wp-content/uploads/2025/05/Cobalt-Market-Report-2024.pdf"

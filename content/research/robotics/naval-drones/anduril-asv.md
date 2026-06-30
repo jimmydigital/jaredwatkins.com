@@ -4,8 +4,6 @@ date: 2026-06-29
 lastmod: 2026-06-29
 draft: false
 description: "Anduril's ASV program: partnering with HD Hyundai to build a new class of autonomous surface vessels targeting the US Navy MASC program. First vessel in fabrication in South Korea (April 2026); US assembly hub at former Foss Shipyard in Seattle. Separate from Anduril's undersea portfolio (Ghost Shark, Dive-LD, Copperhead)."
-tags: ["robotics", "naval-drone", "autonomous-surface-vessel", "maritime", "defense", "us", "private"]
-categories: ["company"]
 research_area: "robotics/naval-drones"
 source_urls:
   - "https://www.anduril.com/news/anduril-to-build-autonomous-warships"

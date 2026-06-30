@@ -4,8 +4,6 @@ date: 2026-06-10
 lastmod: 2026-06-10
 draft: false
 description: "Using Mac Mini M4 Pro/Max or MacBook Pro for QLoRA and MLX-based LLM fine-tuning: supported tools, memory requirements, realistic training speeds, and expected time-to-completion for a 10,000-example network engineer dataset."
-tags: ["apple-silicon", "mac-mini", "mlx", "fine-tuning", "m4", "m3", "qlora", "local-inference"]
-categories: ["technology"]
 research_area: "local-llm-finetuning/compute-options"
 source_urls:
   - "https://github.com/ml-explore/mlx-examples"

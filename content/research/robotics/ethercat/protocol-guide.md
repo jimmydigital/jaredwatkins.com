@@ -4,8 +4,6 @@ date: 2026-06-26
 lastmod: 2026-06-26
 draft: false
 description: "Protocol-level walkthrough of EtherCAT network startup, state machine transitions, CoE object dictionary, PDO mapping, SDO configuration, distributed clocks, and cyclic process data exchange for servo drives — with annotated C examples using SOEM."
-tags: ["robotics", "ethercat", "fieldbus", "real-time", "motion-control", "servo", "SOEM", "CoE", "CiA402"]
-categories: ["deep-dive"]
 research_area: "robotics/ethercat"
 last_reviewed: 2026-06-26
 stale_after_days: 180

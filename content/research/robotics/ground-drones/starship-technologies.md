@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Tallinn, Estonia-based sidewalk delivery robot company; 9M+ deliveries completed; 2,700+ robots in 270+ locations across 7 countries; founded by Skype co-founders Ahti Heinla and Janus Friis; $50M Series C raised October 2025; Uber Eats partnership launched November 2025."
-tags: ["robotics", "ugv", "commercial", "delivery", "eu"]
-categories: ["company"]
 research_area: "robotics/ground-drones"
 source_urls:
   - "https://www.starship.xyz/press/starship-technologies-surpasses-8-million-deliveries/"

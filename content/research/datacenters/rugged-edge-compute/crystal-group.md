@@ -4,8 +4,6 @@ date: 2026-04-25
 lastmod: 2026-04-25
 draft: false
 description: "Cedar Rapids, IA rugged compute manufacturer; RE4100 Series rackmount AI servers and RE1900M vehicle-mount systems; conduction-cooled and air-cooled platforms for defense, maritime, and industrial deployments; NVIDIA GPU and Intel Xeon integration; MIL-STD-810/901D qualified."
-tags: ["rugged", "edge-compute", "mil-spec", "ai-inference", "defense", "us", "private", "rack-server", "vehicle-mount"]
-categories: ["company"]
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://www.crystalrugged.com/"

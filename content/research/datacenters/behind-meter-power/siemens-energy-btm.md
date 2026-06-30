@@ -4,8 +4,6 @@ date: 2026-04-25
 lastmod: 2026-04-28
 draft: false
 description: "Siemens Energy gas turbines (SGT series) and modular 500 MW power plant architecture for data center BTM. Eaton partnership (2025) for integrated power + cooling solutions."
-tags: ["gas-turbine", "siemens-energy", "modular-power-plant", "btm-power", "data-center", "eaton", "behind-the-meter"]
-categories: ["company"]
 research_area: "datacenters/behind-meter-power"
 source_urls:
   - "https://www.siemens-energy.com/"

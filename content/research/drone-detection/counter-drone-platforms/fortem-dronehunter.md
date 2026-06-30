@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "Autonomous radar-guided net-capture interceptor drone — fully autonomous, non-explosive C-UAS that physically captures threat drones using a net; 5,000+ captures; deployed in Ukraine."
-tags: ["counter-drone", "interceptor", "drone-hunter", "kinetic", "autonomous", "us"]
-categories: ["technology"]
 research_area: "drone-detection/counter-drone-platforms"
 source_urls:
   - "https://fortemtech.com/products/dronehunter-f700/"

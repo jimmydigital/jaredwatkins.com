@@ -4,8 +4,6 @@ date: 2026-04-20
 lastmod: 2026-04-30
 draft: false
 description: "Virginia datacenter opposition — PW Digital Gateway litigation and victory, Loudoun County zoning reform, state-level tax exemption debates, organizing coalitions, and the political economics of 'Data Center Alley.'"
-tags: ["virginia", "data-center-alley", "zoning-challenge", "litigation", "loudoun-county", "prince-william-county", "tax-incentives", "environmental"]
-categories: ["state"]
 research_area: "datacenter-opposition"
 source_urls:
   - "https://www.datacenterdynamics.com/en/news/virginia-court-upholds-decision-to-block-pw-digital-gateway-data-center-campus/"

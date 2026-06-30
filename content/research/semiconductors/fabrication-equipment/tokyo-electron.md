@@ -4,8 +4,6 @@ date: 2026-04-24
 lastmod: 2026-04-24
 draft: false
 description: "Tokyo Electron (TEL): Third-largest wafer fabrication equipment vendor; etch, CVD, thermal, track systems; Japan-based; China revenue exposure; export controls on advanced tools."
-tags: ["semiconductors", "fabrication-equipment", "etch", "cvd", "thermal", "japan", "export-controls"]
-categories: ["company-profile"]
 research_area: "semiconductors/fabrication-equipment"
 source_urls:
   - "https://www.tel.com/"

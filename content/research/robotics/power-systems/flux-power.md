@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Vista, California LFP battery pack maker for industrial lift equipment and AMRs; FY2025 revenue $66.4M; US assembly using Chinese cells; new CEO Krishna Vanka as of March 2025 following Ron Dutt's retirement."
-tags: ["robotics", "battery", "power-systems", "us"]
-categories: ["company"]
 research_area: "robotics/power-systems"
 source_urls:
   - "https://ir.fluxpower.com/news-events/press-releases/detail/224/flux-power-reports-fourth-quarter-and-fiscal-year-2025"

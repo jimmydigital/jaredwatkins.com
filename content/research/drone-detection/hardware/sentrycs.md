@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "Israeli C-UAS company specializing in Cyber-over-RF (protocol manipulation) counter-drone technology — detects, identifies, and mitigates unauthorized drones without jamming. Acquired by Ondas Holdings (NASDAQ:ONDS) for ~$200M in November 2025."
-tags: ["c-uas", "counter-drone", "rf-detection", "cyber-over-rf", "israel", "critical-infrastructure", "commercial-legal"]
-categories: ["company"]
 research_area: "drone-detection/hardware"
 source_urls:
   - "https://sentrycs.com/"

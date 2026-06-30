@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Burnaby BC PEM fuel cell company (NASDAQ: BLDP); primary markets are heavy transport bus, truck, rail, and marine; Weichai Power (Chinese SOE) remains largest shareholder; robotics adjacency is limited to legacy drone fuel cell development now held by Honeywell."
-tags: ["robotics", "fuel-cell", "power-systems", "us"]
-categories: ["company"]
 research_area: "robotics/power-systems"
 source_urls:
   - "https://www.ballard.com/press-release/ballard-reports-q4-2025-and-full-year-results/"

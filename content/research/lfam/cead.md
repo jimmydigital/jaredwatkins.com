@@ -4,8 +4,6 @@ date: 2026-06-29
 lastmod: 2026-06-29
 draft: false
 description: "CEAD (Delft, Netherlands) builds robotic LFAM systems for thermoplastic composite production. The Flexbot platform uses 6-axis robots for large-format pellet extrusion; continuous fiber reinforcement capable. Launched the Maritime Application Center to develop LFAM for boat hull and marine structural production."
-tags: ["lfam", "additive-manufacturing", "composites", "marine", "robotics", "netherlands", "private"]
-categories: ["company"]
 research_area: "lfam"
 source_urls:
   - "https://ceadgroup.com"

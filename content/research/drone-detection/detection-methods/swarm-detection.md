@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "State of the art in detecting coordinated multi-drone swarm attacks — what makes swarms uniquely hard to detect, which detection methods scale, and the current commercial and research approaches."
-tags: ["c-uas", "swarm", "drone-detection", "multi-sensor-fusion", "radar", "rf-detection", "critical-infrastructure", "defense"]
-categories: ["technology"]
 research_area: "drone-detection/detection-methods"
 source_urls:
   - "https://www.afcea.org/signal-media/cyber-edge/coming-swarm-drone-technology-continues-evolve"

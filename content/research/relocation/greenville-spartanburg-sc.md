@@ -4,8 +4,6 @@ date: 2026-06-16
 lastmod: 2026-06-16
 draft: false
 description: "Relocation evaluation of the Greenville-Spartanburg Upstate SC corridor: cost of living, demographics, crime, advanced manufacturing ecosystem, small business climate, utilities, and environmental risks."
-tags: ["relocation", "south-carolina", "greenville", "spartanburg", "upstate-sc", "manufacturing", "reindustrialization"]
-categories: ["overview"]
 research_area: "relocation"
 source_urls:
   - "https://www.expertrealestateteam.com/blog/greenville-sc-cost-of-living/"

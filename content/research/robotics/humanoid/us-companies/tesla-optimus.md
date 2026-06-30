@@ -4,8 +4,6 @@ date: 2026-06-19
 lastmod: 2026-06-19
 draft: false
 description: "Tesla's internally-developed humanoid program; 1,000+ units in learning/data-collection mode inside Tesla factories; $20B 2026 capex across all programs; zero external customers; full vertical integration strategy; Milan Kovac VP Engineering."
-tags: ["humanoid", "robotics", "us", "industrial", "tesla"]
-categories: ["company"]
 research_area: "robotics/humanoid"
 source_urls:
   - "https://standardbots.com/blog/tesla-robot"

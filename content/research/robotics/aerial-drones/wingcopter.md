@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "German VTOL fixed-wing hybrid drone developer (Darmstadt); Wingcopter 198 tilt-rotor design targets long-range medical and commercial cargo delivery, with UNICEF humanitarian deployments and a 12,000-unit Africa partnership announced in 2022."
-tags: ["robotics", "aerial-drone", "eu", "commercial"]
-categories: ["company"]
 research_area: "robotics/aerial-drones"
 source_urls:
   - "https://wingcopter.com/wingcopter-198"

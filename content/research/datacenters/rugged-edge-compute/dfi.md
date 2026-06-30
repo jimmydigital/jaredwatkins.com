@@ -4,8 +4,6 @@ date: 2026-04-25
 lastmod: 2026-04-25
 draft: false
 description: "Taiwan-based industrial computing company (subsidiary of DFI Inc. / Aaeon Group parent); rugged fanless embedded computers, GPU-capable edge AI servers, and industrial SBCs for transportation, gaming, medical, and defense-adjacent applications; wide-temperature MIL-STD-810 qualified platforms."
-tags: ["rugged", "edge-compute", "ai-inference", "industrial", "taiwan", "private", "fanless", "gpu-edge", "sbcs"]
-categories: ["company"]
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://www.dfi.com/"

@@ -4,8 +4,6 @@ date: 2026-04-02
 lastmod: 2026-04-02
 draft: false
 description: "Livingston, NJ GPU cloud company; co-founded 2017 (as Atlantic Crypto) by Michael Intrator, Brian Venturo, Brannin McBee, and Peter Salanki; pivoted from Ethereum mining to AI cloud 2019; IPO March 2025 (CRWV, ~$35B market cap); $5.1B revenue FY2025; $66.8B contracted backlog; designs entire data centers for 130kW+ liquid-cooled racks; NVIDIA strategic partner and preferred GPU allocatee; 5 GW capacity expansion target by 2030; largest 'neocloud' in the AI infrastructure market."
-tags: ["datacenters", "design-construction", "us", "uk", "ai-datacenter", "high-density", "liquid-cooling", "power-infrastructure", "public"]
-categories: ["company"]
 research_area: "datacenters/design-construction"
 source_urls:
   - "https://www.coreweave.com/"

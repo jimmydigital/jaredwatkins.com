@@ -4,8 +4,6 @@ date: 2026-06-23
 lastmod: 2026-06-23
 draft: false
 description: "Zürich, Switzerland force-torque sensor startup; ETH Zürich spinout; SensONE series provides 6-axis F/T sensing with on-board processing and multiple bus interfaces; vendor-supported ROS 2 driver; targeted at compliant manipulation and human-robot collaboration."
-tags: ["robotics", "sensor", "force-torque", "eu", "ros2"]
-categories: ["company"]
 research_area: "robotics/sensors"
 source_urls:
   - "https://www.botasys.com/force-torque-sensors/sensone"

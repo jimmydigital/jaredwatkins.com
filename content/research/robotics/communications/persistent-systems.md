@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "New York City private MANET radio company; Wave Relay waveform and MPU5 radio deployed with US Army, SOCOM, Royal Marines, and Navy unmanned surface vessel programs; primary US competitor to Silvus Technologies StreamCaster."
-tags: ["robotics", "communications", "defense", "us"]
-categories: ["company"]
 research_area: "robotics/communications"
 source_urls:
   - "https://persistentsystems.com/mpu5/"

@@ -4,8 +4,6 @@ date: 2026-04-24
 lastmod: 2026-04-24
 draft: false
 description: "ASML Holding: Sole supplier of extreme ultraviolet (EUV) lithography systems globally; High-NA EUV leadership; CEO Christophe Fouquet; export controls; China revenue exposure."
-tags: ["semiconductors", "fabrication-equipment", "euv", "lithography", "high-na-euv", "netherlands", "export-controls", "monopoly"]
-categories: ["company-profile"]
 research_area: "semiconductors/fabrication-equipment"
 source_urls:
   - "https://www.asml.com/"

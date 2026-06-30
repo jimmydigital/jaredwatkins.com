@@ -4,8 +4,6 @@ date: 2026-06-04
 lastmod: 2026-06-04
 draft: false
 description: "Williams Companies' Power Innovation program: natural gas pipeline operator turned BTM power provider, deploying modular gas turbine plants directly serving AI data centers."
-tags: ["behind-the-meter", "natural-gas", "power-infrastructure", "hyperscaler", "us", "data-center"]
-categories: ["company"]
 research_area: "datacenters/behind-meter-power"
 source_urls:
   - "https://www.williams.com/power-innovation/"

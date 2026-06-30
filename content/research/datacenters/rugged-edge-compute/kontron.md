@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Linz, Austria / Augsburg, Germany embedded computing company (Xetra: KTN, SDAX/TecDAX); European leader in rugged COTS edge compute for defense/aerospace; µDARC tactical microserver, HARAKAN VPX mission computer, OpenVPX modules; ~€1.7B annual revenue; ITAR-free design; NATO-qualified; 10-year product lifecycle guarantees."
-tags: ["rugged", "edge-compute", "mil-spec", "defense", "europe", "public", "vpx", "tactical", "microserver"]
-categories: ["company"]
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://www.kontron.com/"

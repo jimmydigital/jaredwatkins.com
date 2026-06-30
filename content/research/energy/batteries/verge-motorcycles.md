@@ -4,8 +4,6 @@ date: 2026-03-23
 lastmod: 2026-03-24
 draft: false
 description: "Finnish electric motorcycle manufacturer and launch platform for Donut Lab solid-state cells; world's first production motorcycle with solid-state batteries; TS Pro shipping in 2026 with 217–370 mile range and 200 kW charging."
-tags: ["batteries", "solid-state", "ev", "eu"]
-categories: ["company"]
 research_area: "energy/batteries"
 source_urls:
   - "https://electrek.co/2026/01/05/verge-unveils-370-mile-electric-motorcycle-with-solid-state-battery/"

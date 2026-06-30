@@ -4,8 +4,6 @@ date: 2026-04-24
 lastmod: 2026-04-24
 draft: false
 description: "NSA's Commercial National Security Algorithm Suite 2.0 (CNSA 2.0) specifications, migration timelines for national security systems, and compliance requirements"
-tags: ["nsa", "cnsa", "national-security", "ml-kem", "ml-dsa", "migration", "timeline", "compliance"]
-categories: ["standards", "policy"]
 research_area: "post-quantum-encryption/standards-policy"
 source_urls:
   - "https://media.defense.gov/2025/May/30/2003728741/-1/-1/0/CSA_CNSA_2.0_ALGORITHMS.PDF"

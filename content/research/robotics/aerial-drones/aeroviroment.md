@@ -4,8 +4,6 @@ date: 2026-03-24
 lastmod: 2026-03-24
 draft: false
 description: "Arlington, VA–based defense robotics and autonomous systems OEM; Nasdaq-listed (AVAV); FY2026 Q2 revenue $472.5M (151% YoY, post-BlueHalo acquisition); operates two segments: Autonomous Systems (Group 1–3 UAS, loitering munitions Switchblade 300/600, SUAS/Puma/Raven, ground/maritime robots, Sunglider HAPS) and Space/Cyber/Directed Energy (BlueHalo portfolio); $990M Switchblade IDIQ with US Army (multiple delivery orders through FY2026); BlueHalo acquisition closed May 2025 ($4.1B enterprise value); major Ukraine loitering munition supplier; 3,750+ employees post-integration."
-tags: ["robotics", "aerial-drone", "us", "defense"]
-categories: ["company"]
 research_area: "robotics/aerial-drones"
 source_urls:
   - "https://investor.avinc.com/news-releases/news-release-details/aerovironment-announces-fiscal-2026-second-quarter-results"

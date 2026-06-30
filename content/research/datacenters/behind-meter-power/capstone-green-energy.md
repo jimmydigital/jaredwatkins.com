@@ -4,8 +4,6 @@ date: 2026-04-24
 lastmod: 2026-04-24
 draft: false
 description: "Capstone Green Energy (NASDAQ: CGEH), Van Nuys, CA. Micro-turbine manufacturer (65 kW – 1 MW per unit, scalable). Air-bearing technology; no lubricating oil. Natural gas, propane, biogas, hydrogen blends. CHP applications in colocation data centers. New 800 VDC microturbine (with Microgrids 4 AI) targeting AI data center power. FY2026 revenue ~$103M TTM; $15M private placement Nov 2025. ITC phaseout headwind for gas/biogas CHP (post-Dec 2024)."
-tags: ["gas-turbine", "microturbine", "chp", "behind-the-meter", "data-center", "energy", "capstone"]
-categories: ["company"]
 research_area: "datacenters/behind-meter-power"
 source_urls:
   - "https://www.capstonegreenenergy.com/"

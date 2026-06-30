@@ -4,8 +4,6 @@ date: 2026-04-21
 lastmod: 2026-06-04
 draft: false
 description: "Comprehensive research on behind-the-meter (BTM) power solutions for data centers: technology categories, companies, regulatory challenges, and 18+ GW of announced projects targeting grid-independent power for AI and hyperscale facilities."
-tags: ["power", "behind-the-meter", "energy", "nuclear", "gas", "solar", "data-center", "smr", "microreactor", "fuel-cell"]
-categories: ["overview"]
 research_area: "datacenters/behind-meter-power"
 last_reviewed: 2026-04-25
 stale_after_days: 90

@@ -4,8 +4,6 @@ date: 2026-03-23
 lastmod: 2026-03-24
 draft: false
 description: "Abundant, cheap industrial byproduct of oil/gas refining; cathode material for Lyten's Li-S batteries; precursor for sulfide solid electrolytes used by Solid Power, QuantumScape, and Idemitsu/Toyota — Idemitsu's oil-company origin is a structural supply chain advantage."
-tags: ["resources", "sulfur", "supply-chain", "lithium-sulfur", "solid-state", "energy"]
-categories: ["resource"]
 research_area: "energy/resources"
 source_urls:
   - "https://battery-news.de/en/2025/03/05/idemitsu-to-build-lithium-sulfide-plant-for-solid-state-batteries/"

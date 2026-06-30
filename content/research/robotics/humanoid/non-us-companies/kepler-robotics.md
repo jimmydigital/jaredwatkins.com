@@ -4,8 +4,6 @@ date: 2026-06-19
 lastmod: 2026-06-19
 draft: false
 description: "Shanghai-based humanoid startup; 2023 founding; Pioneer robot targeting $30K price point; pre-Series A stage; strategic mid-market positioning between Unitree and US competitors."
-tags: ["humanoid", "robotics", "china", "industrial"]
-categories: ["company"]
 research_area: "robotics/humanoid"
 chinese-owned: true
 source_urls:

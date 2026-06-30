@@ -4,8 +4,6 @@ date: 2026-06-19
 lastmod: 2026-06-19
 draft: false
 description: "Traditional industrial robot arms and collaborative robots (cobots) — the established automation layer that humanoids claim to eventually displace or complement."
-tags: ["robotics", "industrial", "cobot", "robot-arm", "manufacturing"]
-categories: ["overview"]
 research_area: "robotics/industrial-robots"
 last_reviewed: 2026-06-19
 stale_after_days: 180

@@ -4,8 +4,6 @@ date: 2026-04-20
 lastmod: 2026-04-28
 draft: false
 description: "Food & Water Watch — mission, funding, key datacenter campaigns, 230+ group moratorium coalition, and strategic role in national datacenter opposition movement."
-tags: ["food-water-watch", "national-advocacy", "moratorium-campaign", "coalition-leadership"]
-categories: ["organizing-group"]
 research_area: "datacenter-opposition"
 source_urls:
   - "https://www.foodandwaterwatch.org"

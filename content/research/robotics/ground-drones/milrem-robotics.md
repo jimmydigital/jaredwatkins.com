@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Tallinn, Estonia defense robotics company; THeMIS tracked UGV deployed with 8 NATO members and 16 countries total; 150+ THeMIS delivered to Ukraine via Dutch initiative; EDGE Group (UAE) acquired 50% majority stake in Feb 2023; KMW holds 24.9%; Type-X RCV under development; iMUGS2 €50M EU project lead."
-tags: ["robotics", "ugv", "defense", "eu"]
-categories: ["company"]
 research_area: "robotics/ground-drones"
 source_urls:
   - "https://milremrobotics.com/"

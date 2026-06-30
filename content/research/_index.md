@@ -5,9 +5,6 @@ lastmod: 2026-06-29
 draft: false
 last_reviewed: 2026-04-07
 description: AI-maintained knowledge base on emerging technology topics.
-categories:
-  - Research
-tags: []
 sitemap:
   changefreq: "monthly"
   priority: 0.9          # Higher for important research landing pages
@@ -139,8 +136,6 @@ date: 2025-01-15
 lastmod: 2026-03-01
 draft: false
 description: "Brief one-sentence summary."
-tags: ["solar", "thin-film", "us"]
-categories: ["company"]       # person | company | technology | breakthrough | overview
 research_area: "energy/solar"
 source_urls:
   - "https://example.com"
@@ -149,7 +144,9 @@ stale_after_days: 180
 ---
 ```
 
-Required fields: `title`, `date`, `lastmod`, `draft`, `description`, `tags`, `categories`, `research_area`, `source_urls`, `last_reviewed`.
+Required fields: `title`, `date`, `lastmod`, `draft`, `description`, `research_area`, `source_urls`, `last_reviewed`.
+
+**Do not add `tags` or `categories` to research entries.** Both generate Hugo taxonomy pages at scale and degrade build/deploy performance. Use `research_area` for all classification and filtering.
 Optional but encouraged: `stale_after_days` (default 180 if omitted), `related` (list of relative paths to related entries).
 
 **Section landing pages (`_index.md`)** use a slightly different template — no `source_urls`, but always include the `sitemap` block:
@@ -161,8 +158,6 @@ date: 2026-01-01
 lastmod: 2026-01-01
 draft: false
 description: "Brief one-sentence summary of this section."
-tags: ["tag1", "tag2"]
-categories: ["overview"]
 research_area: "topic/subtopic"
 last_reviewed: 2026-01-01
 stale_after_days: 90
@@ -271,12 +266,7 @@ The changelog entry must be written during the same execution as entry creation.
 
 ---
 
-### Tagging & Cross-Linking
-
-**Tags:** lowercase, consistent.
-- Geography: `us`, `china`, `eu`, `india`
-- Technology: `solar`, `batteries`, `wind`, `nuclear`, `grid`, `ev`
-- Status: `emerging`, `mature`, `discontinued`
+### Cross-Linking
 
 **Cross-links:** Use Hugo relrefs where entries exist. Two rules govern correct relref syntax:
 

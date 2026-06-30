@@ -4,8 +4,6 @@ date: 2026-03-24
 lastmod: 2026-03-24
 draft: false
 description: "South San Francisco autonomous drone delivery leader; P2 Zip platform (8 lb payload, 10 mi range, 70 mph cruise, 1 m delivery precision via tethered droid); 2+ million cumulative deliveries as of Jan 2026; 17 active Walmart locations in DFW metroplex (P2 operations since Apr 2025); FAA Part 135 air carrier certificate (Jun 2022) + BVLOS waivers; $7.6B valuation (Jan 2026 Series H, $600M Valor Equity Partners lead); operations across US, Rwanda, Ghana, Nigeria, Kenya, Côte d'Ivoire; 100M+ autonomous miles flown, zero reported safety incidents as of Mar 2026."
-tags: ["robotics", "aerial-drone", "us", "commercial", "logistics", "bvlos"]
-categories: ["company"]
 research_area: "robotics/aerial-drones"
 source_urls:
   - "https://www.cnbc.com/2023/03/15/zipline-unveils-p2-delivery-drones-that-dock-and-recharge-autonomously.html"

@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Mountain View, CA autonomous security robot company (NASDAQ: KSCP); K1, K3, K5, K7 robot patrol platforms sold via Machine-as-a-Service subscription; $11.3M revenue in 2025 (5% growth); net loss of $33.8M; new K7 outdoor patrol robot targeted for H2 2026 deployment."
-tags: ["robotics", "ugv", "commercial", "security", "us"]
-categories: ["company"]
 research_area: "robotics/ground-drones"
 source_urls:
   - "https://ir.knightscope.com/"

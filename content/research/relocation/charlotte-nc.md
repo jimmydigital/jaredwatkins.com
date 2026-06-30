@@ -4,8 +4,6 @@ date: 2026-06-15
 lastmod: 2026-06-15
 draft: false
 description: "Relocation evaluation of Charlotte, North Carolina: cost of living, demographics, crime, tech and finance ecosystem, small business climate, utilities, and environmental risks."
-tags: ["relocation", "north-carolina", "charlotte", "southeast"]
-categories: ["overview"]
 research_area: "relocation"
 source_urls:
   - "https://www.redfin.com/city/3105/NC/Charlotte/housing-market"

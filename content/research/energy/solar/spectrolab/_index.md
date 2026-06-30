@@ -4,8 +4,6 @@ date: 2026-04-30
 lastmod: 2026-04-30
 draft: false
 description: "Sylmar, CA-based Boeing subsidiary and dominant US producer of multi-junction GaAs solar cells for satellites and spacecraft; over 70 years of heritage; XTE+ cells reach 33% BOL efficiency."
-tags: ["solar", "gaas", "space", "satellites", "multi-junction", "us", "boeing"]
-categories: ["company"]
 research_area: "energy/solar"
 source_urls:
   - "https://www.spectrolab.com/photovoltaics.html"

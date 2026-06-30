@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Seattle, WA agricultural robotics company; LaserWeeder uses 30 CO₂ lasers to eliminate weeds with millimeter precision without herbicides; LaserWeeder G2 launched 2024; $70M raised; peer-reviewed 2024 study confirms effectiveness comparable to herbicides in vegetable crops."
-tags: ["robotics", "agricultural", "ugv", "us", "commercial"]
-categories: ["company"]
 research_area: "robotics/ground-drones"
 source_urls:
   - "https://carbonrobotics.com/laserweeder"

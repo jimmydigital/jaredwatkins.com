@@ -4,8 +4,6 @@ date: 2026-04-24
 lastmod: 2026-04-24
 draft: false
 description: "TSMC's Arizona Fab 21 expansion; 4nm volume production (Phase 1), 3nm ramp (Phase 2), 2nm roadmap (Phase 3); CHIPS Act funding; workforce challenges."
-tags: ["semiconductors", "fabrication", "arizona", "tsmc", "advanced-node", "leading-edge", "chips-act"]
-categories: ["fab-profile"]
 research_area: "semiconductors/us-fab-expansion"
 source_urls:
   - "https://www.tsmc.com/static/abouttsmcaz/index.htm"

@@ -4,8 +4,6 @@ date: 2026-06-10
 lastmod: 2026-06-10
 draft: false
 description: "Low-Rank Adaptation (LoRA) and Quantized LoRA (QLoRA) for dense and MoE models — how the mechanics differ, why MoE fine-tuning is harder, practical target module configurations per model family, and memory requirements."
-tags: ["lora", "qlora", "fine-tuning", "parameter-efficient", "quantization", "apple-silicon"]
-categories: ["technology"]
 research_area: "local-llm-finetuning/fundamentals"
 source_urls:
   - "https://arxiv.org/abs/2106.09685"

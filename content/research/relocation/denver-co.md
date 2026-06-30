@@ -4,8 +4,6 @@ date: 2026-06-15
 lastmod: 2026-06-15
 draft: false
 description: "Relocation evaluation of Denver, Colorado: cost of living, demographics, crime, tech ecosystem, small business climate, utilities, and environmental risks."
-tags: ["relocation", "colorado", "denver", "mountain-west"]
-categories: ["overview"]
 research_area: "relocation"
 source_urls:
   - "https://ibuyer.com/blog/cost-of-living-in-denver/"

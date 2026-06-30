@@ -4,8 +4,6 @@ date: 2026-03-25
 lastmod: 2026-03-26
 draft: false
 description: "Hillsboro, OR defense electronics company (HEICO subsidiary, NYSE: HEI); EDGETAK man-portable wearable tactical AI compute platform (launched April 2025); NVIDIA Jetson Orin NX-based; battery-powered; passive thermal management; ATAK-compatible; fits in standard radio or ammunition pouch; EDGETAK RF SDR integration (30MHz–8GHz) announced Summer 2026; targets dismounted soldiers and SOCOM operators."
-tags: ["rugged", "edge-compute", "mil-spec", "ai-inference", "defense", "us", "man-portable"]
-categories: ["company"]
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://edt.com/"

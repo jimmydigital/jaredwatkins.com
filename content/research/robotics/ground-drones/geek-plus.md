@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Beijing-based AMR company founded 2015; world's largest AMR supplier by deployed units (56,000+) and market share; IPO on HKEX; Tsinghua University-affiliated; goods-to-person and sorting robot dominant in global warehouse automation at price points below Western competitors."
-tags: ["robotics", "amr", "china", "commercial", "logistics"]
-categories: ["company"]
 research_area: "robotics/ground-drones"
 chinese-owned: true
 source_urls:

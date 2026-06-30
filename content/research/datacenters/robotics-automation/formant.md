@@ -4,8 +4,6 @@ date: 2026-03-24
 lastmod: 2026-03-24
 draft: false
 description: "San Francisco cloud robotics platform; founded by ex-Google Robotics engineers; $45M raised through Series B (Oct 2023, BMW i Ventures lead); fleet management, teleoperation, AI-driven incident management and analytics for multi-robot deployments. SoftBank Robotics America is a named customer. Relevant to datacenter robot fleet orchestration as the servicing-robot layer matures."
-tags: ["datacenters", "robotics-automation", "software", "fleet-management", "us", "startup"]
-categories: ["company"]
 research_area: "datacenters/robotics-automation"
 source_urls:
   - "https://formant.io/"

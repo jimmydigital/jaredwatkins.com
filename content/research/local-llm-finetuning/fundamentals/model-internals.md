@@ -4,8 +4,6 @@ date: 2026-06-10
 lastmod: 2026-06-10
 draft: false
 description: "What a trained model actually is on disk, how transformer layers are structured beyond 'a matrix of weights', how Mixture of Experts builds on dense transformers, and how a model server turns a text query into output tokens — including what's different about serving MoE vs. dense models."
-tags: ["llm", "transformers", "mixture-of-experts", "moe", "inference", "model-serving", "gguf", "weights", "architecture"]
-categories: ["technology"]
 research_area: "local-llm-finetuning/fundamentals"
 source_urls:
   - "https://arxiv.org/abs/1706.03762"

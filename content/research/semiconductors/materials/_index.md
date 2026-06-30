@@ -4,8 +4,6 @@ date: 2026-04-24
 lastmod: 2026-04-24
 draft: false
 description: "Supply chain analysis for semiconductor fabrication materials: silicon wafers, photoresists, specialty gases, CMP slurries, photomask blanks, and advanced packaging materials."
-tags: ["semiconductors", "materials", "photoresist", "specialty-gases", "wafer", "supply-chain", "japan-concentration"]
-categories: ["overview"]
 research_area: "semiconductors/materials"
 source_urls:
   - "https://asia.nikkei.com/Business/Business-deals/Japan-state-backed-fund-looks-to-buy-top-photoresist-maker-JSR"

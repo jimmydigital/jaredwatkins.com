@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "Open-source GNU Radio / SDR decoder for DJI's proprietary DroneID protocol — decodes DJI drone telemetry transmitted on 2.4/5.8 GHz control links before and alongside FAA Remote ID."
-tags: ["open-source", "dji", "drone-detection", "gnu-radio", "sdr", "rf-detection"]
-categories: ["technology"]
 research_area: "drone-detection/open-source"
 source_urls:
   - "https://github.com/proto17/dji_droneid"

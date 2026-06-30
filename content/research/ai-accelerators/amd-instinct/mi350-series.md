@@ -4,8 +4,6 @@ date: 2026-06-07
 lastmod: 2026-06-07
 draft: false
 description: "MI350X and MI355X: AMD's CDNA 4 generation GPU accelerators with 288 GB HBM3e and MXFP4 support, shipping 2H 2025."
-tags: ["amd", "gpu", "ai-accelerators", "cdna", "hbm", "rack-scale", "us"]
-categories: ["technology"]
 research_area: "ai-accelerators/amd-instinct"
 source_urls:
   - "https://www.amd.com/en/products/accelerators/instinct/mi350.html"

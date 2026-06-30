@@ -4,8 +4,6 @@ date: 2026-04-03
 lastmod: 2026-04-03
 draft: false
 description: "Santa Monica, CA transparent photovoltaic technology for building-integrated solar; founded 2010; ClimateSmart Glass platform converts solar radiation to electricity and heat while maintaining transparency; acquired by Sekisui in 2023."
-tags: ["solar", "pvt", "building-integrated", "transparency", "energy", "us", "startup"]
-categories: ["company"]
 research_area: "energy/solar"
 source_urls:
   - "https://www.ubiquitousenergy.com/"

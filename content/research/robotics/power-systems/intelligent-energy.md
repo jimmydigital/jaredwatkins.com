@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Loughborough, UK-based hydrogen PEM fuel cell manufacturer; IE-SOAR product line provides 800W–2.4kW+ modules for commercial drones and UAVs; owned by Meditor Energy since 2017; powered the UK's first long-range BVLOS hydrogen drone trial in November 2025."
-tags: ["robotics", "fuel-cell", "power-systems", "eu"]
-categories: ["company"]
 research_area: "robotics/power-systems"
 source_urls:
   - "https://www.intelligent-energy.com/our-products/ie-soar-fuel-cells-for-uavs/"

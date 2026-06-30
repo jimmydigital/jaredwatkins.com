@@ -4,8 +4,6 @@ date: 2026-06-10
 lastmod: 2026-06-10
 draft: false
 description: "Design specification for a fine-tuned Cisco network engineer specialist LLM covering IOS, IOS-XE, NX-OS, and ASA: base model, training data requirements covering multiple OS variants, fine-tuning parameters, and edge deployment."
-tags: ["cisco", "ios", "ios-xe", "nx-os", "asa", "specialist-models", "fine-tuning", "network-engineering", "llm"]
-categories: ["technology"]
 research_area: "local-llm-finetuning/specialist-models"
 source_urls:
   - "https://www.cisco.com/c/en/us/support/docs/"

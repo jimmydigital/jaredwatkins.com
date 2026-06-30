@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "Acoustic drone detection using microphone arrays and machine learning analysis of motor and rotor noise signatures — detects RF-dark and fiber-optic drones; limited range; strong bird discrimination."
-tags: ["acoustic", "drone-detection", "bird-discrimination", "machine-learning", "open-source"]
-categories: ["technology"]
 research_area: "drone-detection/detection-methods"
 source_urls:
   - "https://pmc.ncbi.nlm.nih.gov/articles/PMC11054550/"

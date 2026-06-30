@@ -4,8 +4,6 @@ date: 2026-04-17
 lastmod: 2026-04-17
 draft: false
 description: "Analysis of Bitcoin's quantum vulnerability exposure by address type, BIP-360 and BIP-361 governance proposals, PQC algorithm candidates, and timeline estimates for migration."
-tags: ["post-quantum", "cryptography", "bitcoin", "cryptocurrency", "blockchain", "pqc", "ml-dsa", "fn-dsa", "slh-dsa", "hndl"]
-categories: ["company"]
 research_area: "post-quantum-encryption/cryptocurrencies"
 source_urls:
   - "https://bitcoinops.org/en/topics/quantum-resistance/"

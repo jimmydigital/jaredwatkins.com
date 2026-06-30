@@ -4,8 +4,6 @@ date: 2026-03-24
 lastmod: 2026-03-24
 draft: false
 description: Autonomous mobile robots, unmanned ground vehicles, and field robots — warehouse AMRs, outdoor platforms, and defense UGVs.
-tags: ["robotics", "ugv", "amr"]
-categories: ["overview"]
 research_area: "robotics/ground-drones"
 last_reviewed: 2026-03-24
 stale_after_days: 90

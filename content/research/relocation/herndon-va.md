@@ -4,8 +4,6 @@ date: 2026-06-16
 lastmod: 2026-06-16
 draft: false
 description: "Relocation evaluation of Herndon, VA and the Northern Virginia DC corridor: cost of living, demographics, crime, tech/defense ecosystem, small business climate, utilities, and environmental risks."
-tags: ["relocation", "virginia", "northern-virginia", "dc-suburbs", "herndon"]
-categories: ["overview"]
 research_area: "relocation"
 source_urls:
   - "https://www.foxessellfaster.com/blog/cost-of-living-in-northern-virginia-in-2026/"

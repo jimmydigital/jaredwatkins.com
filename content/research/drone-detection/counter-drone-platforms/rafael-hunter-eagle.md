@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "Israeli kinetic drone interceptors from Rafael Advanced Defense Systems — Hunter Eagle (VTOL, AI + EO seeker, no explosive payload) and Ghost Hunter (turbojet, next-generation speed) for military C-UAS."
-tags: ["counter-drone", "interceptor", "kinetic", "israel", "defense", "military"]
-categories: ["technology"]
 research_area: "drone-detection/counter-drone-platforms"
 source_urls:
   - "https://www.autonomyglobal.co/rafaels-new-counter-uas-systems-the-hunter-eagle-and-ghost-hunter-interceptor-drones/"

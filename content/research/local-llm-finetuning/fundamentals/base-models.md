@@ -4,8 +4,6 @@ date: 2026-06-10
 lastmod: 2026-06-10
 draft: false
 description: "A survey of the popular open-weight base models available for fine-tuning as of mid-2026: who makes them, their architectures, release history, licensing terms, and practical suitability for specialist domain fine-tuning on consumer hardware."
-tags: ["llm", "base-models", "llama", "mistral", "gemma", "phi", "qwen", "deepseek", "fine-tuning", "open-weights"]
-categories: ["overview"]
 research_area: "local-llm-finetuning/fundamentals"
 source_urls:
   - "https://huggingface.co/meta-llama"

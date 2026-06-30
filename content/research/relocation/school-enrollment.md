@@ -4,8 +4,6 @@ date: 2026-06-18
 lastmod: 2026-06-18
 draft: false
 description: "County-level public school enrollment by level (elementary, middle, high) for 20 US relocation candidate cities, 2010–11 through 2023–24. NCES Common Core of Data."
-tags: ["relocation", "schools", "demographics", "enrollment", "education"]
-categories: ["data"]
 research_area: "relocation"
 source_urls:
   - "https://nces.ed.gov/ccd/"

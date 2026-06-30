@@ -4,8 +4,6 @@ date: 2026-04-14
 lastmod: 2026-04-14
 draft: false
 description: "D-Wave (NYSE: QBTS) makes quantum annealers — not gate-based quantum computers. Its Advantage2 processor uses analog optimization for combinatorial problems. Quantum advantage claims are actively disputed by independent researchers."
-tags: ["quantum-computing", "annealing", "optimization", "canada", "cloud-access", "hybrid-classical-quantum"]
-categories: ["company"]
 research_area: "quantum-computing"
 source_urls:
   - "https://www.dwavequantum.com"

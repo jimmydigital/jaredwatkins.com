@@ -4,8 +4,6 @@ date: 2026-03-23
 lastmod: 2026-03-24
 draft: false
 description: "San Jose startup pioneering 3D Graphene-enabled lithium-sulfur batteries; claims ~2× energy density vs lithium-ion with no nickel, cobalt, or graphite; $625M+ raised; acquired Northvolt's European BESS facility; gigafactory planned near Reno."
-tags: ["batteries", "lithium-sulfur", "graphene", "emerging", "us"]
-categories: ["company"]
 research_area: "energy/batteries"
 source_urls:
   - "https://lyten.com/technology/lithium-sulfur/"

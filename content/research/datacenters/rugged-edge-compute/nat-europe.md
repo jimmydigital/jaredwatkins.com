@@ -4,8 +4,6 @@ date: 2026-04-25
 lastmod: 2026-04-25
 draft: false
 description: "Hennef, Germany-based MicroTCA Carrier Hub (MCH) specialist with the NAT-MCH product line; primary MCH supplier for European physics accelerator and 5G RAN timing applications."
-tags: ["microtca", "mch", "picmg", "embedded-compute", "telecom", "scientific", "defense", "europe", "timing"]
-categories: ["company"]
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://nateurope.com/product/nat-mch/"

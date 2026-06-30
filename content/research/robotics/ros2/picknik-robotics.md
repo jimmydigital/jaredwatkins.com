@@ -4,8 +4,6 @@ date: 2026-06-23
 lastmod: 2026-06-23
 draft: false
 description: "Boulder, CO robotics software company; primary commercial maintainer of MoveIt 2 and MoveIt Pro; publishes the largest public ROS 2 hardware compatibility database; provides ROS 2 driver development services and application development for manipulation robotics."
-tags: ["robotics", "ros2", "software", "manipulation", "us"]
-categories: ["company"]
 research_area: "robotics/ros2"
 source_urls:
   - "https://picknik.ai/"

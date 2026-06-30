@@ -4,8 +4,6 @@ date: 2026-03-23
 lastmod: 2026-03-24
 draft: false
 description: "Battery mineral used in NMC cathodes; Indonesia controls ~40% of global production with Chinese operators processing 70-75%; most documented battery companies sidestep nickel dependence."
-tags: ["resources", "nickel", "supply-chain", "mining", "energy", "critical-minerals"]
-categories: ["resource"]
 research_area: "energy/resources"
 source_urls:
   - "https://discoveryalert.com.au/indonesian-nickel-dominance-global-market-2025/"

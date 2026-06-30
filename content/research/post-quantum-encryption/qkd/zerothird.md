@@ -4,8 +4,6 @@ date: 2026-06-02
 lastmod: 2026-06-02
 draft: false
 description: "Austrian startup commercializing entanglement-based Quantum Key Distribution (eQKD) for enterprise and critical infrastructure, founded by alumni of Anton Zeilinger's Nobel Prize-winning quantum lab at IQOQI Vienna."
-tags: ["qkd", "quantum-security", "cryptography", "photonics", "eu", "austria", "startup", "emerging"]
-categories: ["company"]
 research_area: "post-quantum-encryption/qkd"
 source_urls:
   - "https://zerothird.com"

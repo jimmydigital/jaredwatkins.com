@@ -4,8 +4,6 @@ date: 2026-06-19
 lastmod: 2026-06-19
 draft: false
 description: "Norwegian-founded, US-operated humanoid startup; $136.5M raised; OpenAI and EQT Ventures backed; NEO consumer robot ships 2026 with ~60–70% autonomy and 'Expert Mode' teleoperation for remainder; Bernt Børnich founder."
-tags: ["humanoid", "robotics", "consumer", "autonomy", "teleoperation", "norway"]
-categories: ["company"]
 research_area: "robotics/humanoid"
 source_urls:
   - "https://1x.tech"

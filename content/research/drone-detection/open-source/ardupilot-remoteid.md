@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "Open-source Remote ID transmitter module for ArduPilot-based drones — implements OpenDroneID/ASTM F3411 broadcast on Wi-Fi and Bluetooth from any ArduPilot vehicle."
-tags: ["open-source", "remote-id", "ardupilot", "drone", "astm-f3411"]
-categories: ["technology"]
 research_area: "drone-detection/open-source"
 source_urls:
   - "https://github.com/ArduPilot/ArduRemoteID"

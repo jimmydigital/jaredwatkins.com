@@ -4,8 +4,6 @@ date: 2026-04-24
 lastmod: 2026-04-24
 draft: false
 description: "Electronic Design Automation (EDA) and semiconductor IP providers: the software and design tools layer that enables chip design. Includes Synopsys, Cadence, Arm, analysis of export controls on EDA tools."
-tags: ["semiconductors", "eda", "chip-design", "ip", "arm", "cadence", "synopsys", "export-controls"]
-categories: ["overview"]
 research_area: "semiconductors/chip-design"
 source_urls:
   - "https://investor.synopsys.com/news/news-details/2025/Synopsys-Completes-Acquisition-of-Ansys/"

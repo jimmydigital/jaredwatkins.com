@@ -4,8 +4,6 @@ date: 2026-06-16
 lastmod: 2026-06-16
 draft: false
 description: "Relocation evaluation of Huntsville, Alabama: cost of living, demographics, crime, defense/aerospace tech ecosystem, small business climate, utilities, and environmental risks."
-tags: ["relocation", "alabama", "huntsville", "defense-tech", "aerospace"]
-categories: ["overview"]
 research_area: "relocation"
 source_urls:
   - "https://movingtohuntsville.org/cost-of-living-in-huntsville-alabama/"

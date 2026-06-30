@@ -4,8 +4,6 @@ date: 2026-03-24
 lastmod: 2026-04-03
 draft: false
 description: Research on next-generation datacenter design, construction, cooling, and automation — covering the infrastructure race to power AI workloads.
-tags: ["datacenters"]
-categories: ["overview"]
 research_area: "datacenters"
 last_reviewed: 2026-03-24
 stale_after_days: 90

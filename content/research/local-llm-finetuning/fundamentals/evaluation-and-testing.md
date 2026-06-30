@@ -4,8 +4,6 @@ date: 2026-06-11
 lastmod: 2026-06-11
 draft: false
 description: "How to measure whether your fine-tuned network engineer specialist model is actually better than the base model — building an eval set, scoring command accuracy, running regression tests, and deciding when the model is good enough to deploy."
-tags: ["evaluation", "testing", "fine-tuning", "llm", "network-engineering", "benchmarking"]
-categories: ["technology"]
 research_area: "local-llm-finetuning/fundamentals"
 source_urls: []
 last_reviewed: 2026-06-11

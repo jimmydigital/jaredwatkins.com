@@ -4,8 +4,6 @@ date: 2026-04-25
 lastmod: 2026-04-25
 draft: false
 description: "US defense ATR chassis and integrated systems supplier with 35+ years supplying mission-critical VPX enclosures, backplanes, and chassis managers to US defense programs. VITA 46.11-compliant chassis manager with open-source field upgrade capability."
-tags: ["rugged", "openvpx", "atr", "defense", "chassis", "thermal-management", "us", "sosa"]
-categories: ["company"]
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://www.lcrembeddedsystems.com/"

@@ -4,8 +4,6 @@ date: 2026-04-24
 lastmod: 2026-04-24
 draft: false
 description: "Synopsys: #1 EDA vendor globally; completed $35B acquisition of ANSYS (July 2025); CEO Sassine Ghazi; export controls on EDA tools to China."
-tags: ["semiconductors", "eda", "synopsys", "chip-design", "export-controls"]
-categories: ["company-profile"]
 research_area: "semiconductors/chip-design"
 source_urls:
   - "https://investor.synopsys.com/news/news-details/2025/Synopsys-Completes-Acquisition-of-Ansys/"

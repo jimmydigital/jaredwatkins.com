@@ -4,8 +4,6 @@ date: 2026-05-11
 lastmod: 2026-05-11
 draft: false
 description: "How datacenter load growth forces infrastructure upgrades — transmission lines, substations, water systems — that impose eminent domain takings and involuntary displacement on property owners who had no standing in the original datacenter approval process."
-tags: ["eminent-domain", "transmission-lines", "infrastructure", "rezoning", "property-rights", "grid-upgrades", "utilities", "community-impact"]
-categories: ["issue"]
 research_area: "datacenter-opposition"
 source_urls:
   - "https://townhall.com/tipsheet/jeff-charles/2026/03/11/ai-data-centers-eminent-domain-push-n2672625"

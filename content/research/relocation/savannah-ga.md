@@ -4,8 +4,6 @@ date: 2026-06-16
 lastmod: 2026-06-16
 draft: false
 description: "Relocation evaluation of Savannah, Georgia: cost of living, demographics, crime, port logistics and EV manufacturing ecosystem, small business climate, utilities, and significant flood and hurricane risk."
-tags: ["relocation", "georgia", "savannah", "port-logistics", "ev-manufacturing", "reindustrialization"]
-categories: ["overview"]
 research_area: "relocation"
 source_urls:
   - "https://worldpopulationreview.com/us-cities/georgia/savannah"

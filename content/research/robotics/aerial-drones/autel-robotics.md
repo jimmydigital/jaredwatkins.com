@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Shenzhen-based drone manufacturer and DJI competitor; US subsidiary in Bothell, WA; now subject to Commerce Entity List, DoD Chinese Military Companies designation, and FCC Covered List — making it effectively ineligible for US federal procurement."
-tags: ["robotics", "aerial-drone", "us", "china", "commercial"]
-categories: ["company"]
 research_area: "robotics/aerial-drones"
 chinese-owned: true
 source_urls:

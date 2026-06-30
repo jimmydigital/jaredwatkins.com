@@ -4,8 +4,6 @@ date: 2026-03-24
 lastmod: 2026-03-24
 draft: false
 description: "Barcelona-based single-phase immersion cooling specialist; $500M valuation at October 2024 Series C ($55.5M); SmartCoolant proprietary biodegradable dielectric fluid; customers include at least one hyperscaler, Telefónica, ExxonMobil, and the European Commission. Also developing ADA robotic assistant for autonomous tank servicing."
-tags: ["datacenters", "cooling", "immersion-cooling", "spain", "startup"]
-categories: ["company"]
 research_area: "datacenters/cooling"
 source_urls:
   - "https://submer.com/about-us/"

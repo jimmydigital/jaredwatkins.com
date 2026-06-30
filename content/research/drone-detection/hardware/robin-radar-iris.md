@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "Dutch 3D 360° micro-Doppler radar with integrated AI bird/drone classification — purpose-built for small UAS detection with a strong pedigree in bird detection (airport bird radar)."
-tags: ["drone-detection", "micro-doppler", "radar", "bird-discrimination", "netherlands"]
-categories: ["company"]
 research_area: "drone-detection/hardware"
 source_urls:
   - "https://www.robinradar.com/products/iris-radar"

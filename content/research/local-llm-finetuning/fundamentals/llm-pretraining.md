@@ -4,8 +4,6 @@ date: 2026-06-10
 lastmod: 2026-06-10
 draft: false
 description: "The pretraining process that produces a base language model: data scale, tokenization, next-token prediction, transformer architecture, and what the model actually learns."
-tags: ["llm", "pretraining", "transformers", "tokenization", "machine-learning"]
-categories: ["technology"]
 research_area: "local-llm-finetuning/fundamentals"
 source_urls:
   - "https://arxiv.org/abs/1706.03762"

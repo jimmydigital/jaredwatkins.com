@@ -5,8 +5,6 @@ lastmod: 2026-03-31
 draft: false
 chinese-owned: true
 description: "Shanghai, China LiDAR company (NASDAQ: HSAI); world's largest LiDAR company by revenue ($284.6M in 2024, up ~100%); first LiDAR company to achieve full-year non-GAAP profitability; 501,889 units shipped in 2024; ADAS design wins with 22 OEMs across 120 vehicle models; DoD Chinese Military Companies list — added Jan 2024, removed Aug 2024, relisted 2025, court challenge rejected."
-tags: ["robotics", "sensors", "lidar", "components", "china"]
-categories: ["company"]
 research_area: "robotics/sensors-lidar"
 source_urls:
   - "https://investor.hesaitech.com/news-releases/news-release-details/hesai-group-reports-fourth-quarter-and-full-year-2024-unaudited"

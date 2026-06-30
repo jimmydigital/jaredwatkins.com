@@ -4,8 +4,6 @@ date: 2026-04-21
 lastmod: 2026-04-28
 draft: false
 description: "Wärtsilä, Helsinki, Finland. Reciprocating gas engines (50SG, 34SG), grid-scale BESS (19+ GWh deployed globally), and marine propulsion (every third ship worldwide). Data center BTM orders: 2.4+ GW U.S. 2025–2026. Key markets: data centers, island grids, Caribbean utilities, cruise ships, container ships."
-tags: ["gas-engine", "reciprocating-engine", "behind-the-meter", "data-center", "energy", "wartsila", "bess", "battery-storage", "marine", "island-power"]
-categories: ["company"]
 research_area: "datacenters/behind-meter-power"
 source_urls:
   - "https://www.wartsila.com/"

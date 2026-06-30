@@ -4,8 +4,6 @@ date: 2026-04-05
 lastmod: 2026-04-05
 draft: false
 description: "Toronto-based photonic quantum computing company; developed Borealis quantum advantage system and PennyLane open-source SDK; recently went public via SPAC merger; building Aurora modular fault-tolerant platform targeting 2028–2029 deployment."
-tags: ["quantum-computing", "photonic", "nisq", "canada", "cloud-access", "fault-tolerant-research"]
-categories: ["company"]
 research_area: "quantum-computing"
 source_urls:
   - "https://www.xanadu.ai"

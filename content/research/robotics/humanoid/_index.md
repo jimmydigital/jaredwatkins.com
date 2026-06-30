@@ -4,8 +4,6 @@ date: 2026-06-19
 lastmod: 2026-06-19
 draft: false
 description: "Overview of the humanoid robot sector: US and non-US companies, autonomy claims, deployment reality, and the specialized vs. humanoid debate."
-tags: ["humanoid", "robotics", "industrial", "autonomy"]
-categories: ["overview"]
 research_area: "robotics/humanoid"
 last_reviewed: 2026-06-19
 stale_after_days: 90

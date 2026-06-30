@@ -4,8 +4,6 @@ date: 2026-03-24
 lastmod: 2026-03-24
 draft: false
 description: "Submer's ADA robot automates server insertion and removal from single-phase immersion tanks. Revealed at OCP Summit October 2021; commercial release targeting Q3 2025. Addresses the core friction point of immersion-cooled datacenters: vertical lift for server servicing rather than horizontal rack-slide."
-tags: ["datacenters", "robotics-automation", "immersion-cooling", "cooling"]
-categories: ["product"]
 research_area: "datacenters/robotics-automation"
 source_urls:
   - "https://submer.com/videos/product-demos/ada-the-autonomous-datacenter-assistant/"

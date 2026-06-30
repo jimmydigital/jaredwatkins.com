@@ -4,8 +4,6 @@ date: 2026-06-23
 lastmod: 2026-06-23
 draft: false
 description: "Paris/San Francisco stereo depth camera company; ZED 2, ZED X, and ZED Mini cameras provide active stereo vision with on-camera IMU; Gold MoveIt Pro integration; widely used in robotics, AMR, and drone applications with strong NVIDIA Jetson compatibility."
-tags: ["robotics", "sensor", "depth-camera", "stereo-vision", "eu", "ros2"]
-categories: ["company"]
 research_area: "robotics/sensors"
 source_urls:
   - "https://www.stereolabs.com/"

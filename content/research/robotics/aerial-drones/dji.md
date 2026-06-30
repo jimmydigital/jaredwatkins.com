@@ -4,8 +4,6 @@ date: 2026-03-24
 lastmod: 2026-03-24
 draft: false
 description: "Chinese commercial drone OEM; ~70-80% global market share in aerial drones as of 2025; Mavic and Matrice platforms; Agras agricultural line; proprietary OcuSync/O4+ transmission; Shenzhen-based, founded 2006 by Frank Wang; vertically integrated (82% self-sufficiency in key components); $3.5–3.8B annual revenue (private); FCC Covered List (Dec 2024), DoD Chinese Military Entity list (2022–2024), federal procurement banned under American Security Drone Act (effective Dec 22, 2025); legal challenges ongoing (Feb 2026 appeal filed)."
-tags: ["robotics", "aerial-drone", "china", "commercial", "defense"]
-categories: ["company"]
 research_area: "robotics/aerial-drones"
 chinese-owned: true
 source_urls:

@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Seattle startup (University of Washington spinout) providing adaptive resonant inductive wireless charging systems for autonomous drones and ground robots; OC-110/TR-110 system supports up to 125W; Series A funded; remains independent as of March 2026."
-tags: ["robotics", "power-systems", "us", "wireless-charging"]
-categories: ["company"]
 research_area: "robotics/power-systems"
 source_urls:
   - "https://www.wibotic.com/about-us/"

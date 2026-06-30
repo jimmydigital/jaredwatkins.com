@@ -4,8 +4,6 @@ date: 2026-04-24
 lastmod: 2026-04-24
 draft: false
 description: "San Jose anode-free lithium-metal battery company; sulfide-based ceramic separator (Cobra process); QSE-5 B-samples shipping Q3 2025; Eagle Line pilot (Feb 2026) producing commercial-format cells; PowerCo non-exclusive license 40–80 GWh/year; Murata manufacturing partnership for ceramic separators; capital-light licensing model; FY2026 EBITDA guidance −$250M–$275M; $904.7M Q1 2026 liquidity."
-tags: ["batteries", "solid-state", "lithium-metal", "anode-free", "us", "ev", "public"]
-categories: ["company"]
 research_area: "energy/batteries"
 source_urls:
   - "https://www.quantumscape.com"

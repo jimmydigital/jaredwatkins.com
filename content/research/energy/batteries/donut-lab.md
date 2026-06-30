@@ -4,8 +4,6 @@ date: 2026-03-23
 lastmod: 2026-03-24
 draft: false
 description: "Finnish-Estonian battery startup claiming the world's first solid-state battery in production vehicles, powering 2026 Verge Motorcycles models — though headline performance specs remain independently unverified."
-tags: ["batteries", "solid-state", "emerging", "eu"]
-categories: ["company"]
 research_area: "energy/batteries"
 source_urls:
   - "https://electrek.co/2026/03/16/donut-lab-solid-state-battery-pack-test-verge-motorcycles/"

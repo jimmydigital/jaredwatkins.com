@@ -4,8 +4,6 @@ date: 2026-06-19
 lastmod: 2026-06-19
 draft: false
 description: "Danish cobot pioneer; ~40% global cobot market share; 100,000+ units deployed worldwide; UR5e is the world's best-selling collaborative robot; subsidiary of Teradyne."
-tags: ["robotics", "cobot", "robot-arm", "industrial", "manufacturing", "denmark"]
-categories: ["company"]
 research_area: "robotics/industrial-robots"
 source_urls:
   - "https://universal-robots.com"

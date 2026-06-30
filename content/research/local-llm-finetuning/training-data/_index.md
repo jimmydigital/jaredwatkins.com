@@ -4,8 +4,6 @@ date: 2026-06-10
 lastmod: 2026-06-10
 draft: false
 description: "How to source, format, and quality-control training data for specialist LLM fine-tuning, with a focus on network engineering domains."
-tags: ["training-data", "dataset", "fine-tuning", "alpaca", "sharegpt", "chatml", "networking"]
-categories: ["overview"]
 research_area: "local-llm-finetuning/training-data"
 last_reviewed: 2026-06-10
 stale_after_days: 90

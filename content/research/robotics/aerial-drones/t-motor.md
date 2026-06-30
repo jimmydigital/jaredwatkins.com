@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Nanchang, China-based drone motor and propulsion system manufacturer; legally named Jiangxi Xintuo Enterprise Co. Ltd.; added to the US Commerce Department Entity List in May 2024 for supporting Russian UAV programs; dominant OEM supplier for the global commercial drone motor market."
-tags: ["robotics", "aerial-drone", "actuator", "motor", "china"]
-categories: ["company"]
 research_area: "robotics/aerial-drones"
 chinese-owned: true
 source_urls:

@@ -4,8 +4,6 @@ date: 2026-06-23
 lastmod: 2026-06-23
 draft: false
 description: "Weinstadt, Germany EtherCAT servo drive and integrated actuator manufacturer; SOMANET product line integrates motor controller, safety, and communications into compact modules; vendor-supported ROS 2 driver (ros2_control); targeted at humanoid robots and high-performance manipulation."
-tags: ["robotics", "actuators", "motor", "motor-controller", "components", "eu", "ros2"]
-categories: ["company"]
 research_area: "robotics/actuators"
 source_urls:
   - "https://catalog.synapticon.com"

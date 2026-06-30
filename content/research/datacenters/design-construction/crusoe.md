@@ -4,8 +4,6 @@ date: 2026-03-25
 lastmod: 2026-03-25
 draft: false
 description: "Denver-based AI Factory developer and cloud provider; co-founded 2018 by Chase Lochmiller and Cully Cavness; $2.77B raised; primary developer for OpenAI's Stargate campus in Abilene, TX ($11.6B financing, ~$15B total committed); zero-water-evaporation direct-to-chip cooling; vertically integrated from power sourcing through managed AI inference. Divested bitcoin mining to NYDIG in 2024 to focus entirely on AI infrastructure."
-tags: ["datacenters", "design-construction", "us", "ai-datacenter", "cooling", "direct-to-chip", "power-infrastructure", "startup"]
-categories: ["company"]
 research_area: "datacenters/design-construction"
 source_urls:
   - "https://www.crusoe.ai/"

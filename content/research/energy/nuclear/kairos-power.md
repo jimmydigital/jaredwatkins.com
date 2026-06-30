@@ -4,8 +4,6 @@ date: 2026-03-25
 lastmod: 2026-03-25
 draft: false
 description: "Alameda, CA fluoride salt-cooled high-temperature reactor (FHR) developer; founded 2016; Hermes low-power demonstration reactor at Oak Ridge TN under nuclear safety construction since May 2025 — first non-water-cooled reactor approved for US construction in 50+ years; Google/TVA PPA for Hermes 2 (50 MW, 2030); 500 MW total by 2035 target. Uses TRISO fuel in liquid fluoride salt coolant."
-tags: ["nuclear", "smr", "gen-iv", "energy", "us", "startup", "behind-the-meter"]
-categories: ["company"]
 research_area: "energy/nuclear"
 source_urls:
   - "https://kairospower.com/"

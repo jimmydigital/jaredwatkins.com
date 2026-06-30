@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "US C-UAS company providing the SkyDome System — TrueView micro-Doppler radar, SkyDome Manager AI software, and DroneHunter autonomous interceptor drone; Lockheed Martin invested $25M in April 2026."
-tags: ["drone-detection", "micro-doppler", "radar", "counter-drone", "interceptor", "critical-infrastructure", "us"]
-categories: ["company"]
 research_area: "drone-detection/hardware"
 source_urls:
   - "https://fortemtech.com/"

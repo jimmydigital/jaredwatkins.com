@@ -4,8 +4,6 @@ date: 2026-06-19
 lastmod: 2026-06-19
 draft: false
 description: "Shanghai-based humanoid robotics company; rehabilitation exoskeleton roots; GR-2 general humanoid; ~$100M+ raised; SoftBank investor; Alex Gu founder; 300 units shipped in 2025; healthcare and industrial markets."
-tags: ["humanoid", "robotics", "china", "healthcare", "rehabilitation", "industrial"]
-categories: ["company"]
 research_area: "robotics/humanoid"
 chinese-owned: true
 source_urls:

@@ -1,0 +1,114 @@
+{{ define "head" }}
+
+{{ $options := dict "transpiler" "dartsass" "targetPath" "css/single.css" }}
+
+{{ with resources.Get "sass/layouts/single.scss" | toCSS $options | postCSS | minify | fingerprint }}
+
+<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+
+{{ end }}
+
+{{ with resources.Get "sass/layouts/sharingbuttons.scss" | toCSS $options | postCSS | minify | fingerprint }}
+
+<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+
+{{ end }}
+
+{{ end }}
+
+{{ define "main" }}
+
+<main id="main" class="post">
+
+<article class="content {{ if .Site.Params.numberedSubtitles }}numbered-subtitles{{ end }}">
+
+{{ if cond (ne .Params.toc nil) .Params.toc .Site.Params.toc }}
+
+{{ if ne .TableOfContents "<nav id=\"TableOfContents\"></nav>" }}
+
+<details>
+
+<summary>
+
+<b>Table of Contents</b>
+
+</summary>
+
+<div class="toc {{ if .Site.Params.numberedSubtitles }}numbered-subtitles{{ end }}">{{ .TableOfContents }}</div>
+
+</details>
+
+{{ end }}
+
+{{ end }}
+
+{{ .Content }}
+
+</article>
+
+<button onclick="topFunction()" id="back-to-top" title="Go to top">Back to Top</button>
+
+{{ partial "sharingbuttons.html" . }}
+
+<div class="paginator">
+
+{{ if .PrevInSection }}
+
+<a class="link" href="{{ .PrevInSection.Permalink }}" title="{{ .PrevInSection.Title }}">← prev</a>
+
+{{ else }}
+
+<a></a>
+
+{{ end }}
+
+{{ if .NextInSection }}
+
+<a class="link" href="{{ .NextInSection.Permalink }}" title="{{ .NextInSection.Title }}">next →</a>
+
+{{ else }}
+
+<a></a>
+
+{{ end }}
+
+</div>
+
+{{ if .Page.Store.Get "hasMermaid" }}
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({
+    startOnLoad: false,
+    theme: 'neutral',
+    themeVariables: {
+      cScale0: '#e03a3a',
+      cScale1: '#2176d4',
+      cScale2: '#27a05a',
+      cScale3: '#e07b00',
+      cScale4: '#8e3fb5',
+      cScale5: '#00a0a0',
+      cScale6: '#c4472a',
+      cScale7: '#1a5faa',
+      cScale8: '#1c7a3e',
+      cScale9: '#b85f00',
+      cScale10: '#6a2e8a',
+      cScale11: '#007a7a',
+    },
+    quadrantChart: {
+      chartWidth: 900,
+      chartHeight: 700,
+      pointRadius: 5,
+      pointLabelFontSize: 11,
+      xAxisLabelFontSize: 13,
+      yAxisLabelFontSize: 13,
+    },
+  });
+  window.addEventListener('load', async () => {
+    await mermaid.run({ querySelector: '.jw-mermaid' });
+  });
+</script>
+{{ end }}
+
+</main>
+
+{{ end }}

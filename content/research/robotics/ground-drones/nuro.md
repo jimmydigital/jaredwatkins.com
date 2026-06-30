@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Mountain View, CA autonomous delivery vehicle developer; raised $2.7B+; pivoted in September 2024 from operating delivery robots to licensing its 'Nuro Driver' Level 4 autonomy software to automakers and mobility providers; $106M raised in April 2025 to fund the licensing transition."
-tags: ["robotics", "ugv", "commercial", "delivery", "us"]
-categories: ["company"]
 research_area: "robotics/ground-drones"
 source_urls:
   - "https://en.wikipedia.org/wiki/Nuro"

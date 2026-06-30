@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Tokyo, Japan precision machinery company (TSE: 6268); RV cycloidal speed reducers hold ~35% global market share in articulated robot joints; FY2024 revenue ~$1.3B total company; doubling RV reducer production capacity by 2026 in response to humanoid robot demand; Precision Equipment segment is robotics-facing division; FY2026 guidance ¥327B revenue."
-tags: ["robotics", "actuators", "components", "japan"]
-categories: ["company"]
 research_area: "robotics/actuators"
 source_urls:
   - "https://www.nabtesco.com/en/products/robot/"

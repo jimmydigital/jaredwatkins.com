@@ -4,8 +4,6 @@ date: 2026-04-24
 lastmod: 2026-04-24
 draft: false
 description: "Boston-based lithium-metal hybrid battery company; AI-based cell management for dendrite detection; OEM partnerships with GM, Hyundai, Honda; Apollo cell (417 Wh/kg, 107 Ah); A-sample and B-sample JDAs ongoing; Ui-Wang, South Korea B-sample facility announced; SPAC IPO 2022; ~$390M liquidity end-2022."
-tags: ["batteries", "lithium-metal", "hybrid", "ai", "us", "public", "ev"]
-categories: ["company"]
 research_area: "energy/batteries"
 source_urls:
   - "https://www.ses.ai"

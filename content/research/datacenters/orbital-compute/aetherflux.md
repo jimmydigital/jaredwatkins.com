@@ -4,8 +4,6 @@ date: 2026-04-29
 lastmod: 2026-04-29
 draft: false
 description: "US startup combining space-based solar power with orbital data centers; 'Galactic Brain' constellation targeting Q1 2027 commercial operations."
-tags: ["orbital-compute", "space", "ai-datacenter", "space-solar", "us", "startup"]
-categories: ["company"]
 research_area: "datacenters/orbital-compute"
 source_urls:
   - "https://www.aetherflux.com/"

@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Freiburg Germany inductive wireless charging system developer for AMRs and AGVs; etaLINK system delivers up to 3.3kW at 93% efficiency; acquired by Tesla in 2023 then sold to PULS GmbH (Munich power supply company), now operating as PULS Wireless business unit."
-tags: ["robotics", "power-systems", "eu", "wireless-charging"]
-categories: ["company"]
 research_area: "robotics/power-systems"
 source_urls:
   - "https://www.therobotreport.com/puls-acquires-wiferions-wireless-charging-business/"

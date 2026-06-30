@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "Practical lessons from the Russia-Ukraine conflict on what works and what doesn't in battlefield drone countermeasures — kinetic, electronic, directed energy, and passive physical defenses."
-tags: ["c-uas", "ukraine", "lessons-learned", "kinetic", "electronic-warfare", "fiber-optic-threat", "interceptor", "directed-energy", "battlefield"]
-categories: ["analysis"]
 research_area: "drone-detection"
 source_urls:
   - "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2024/analysis-lessons-from-ukraine-war-how-small-arms-and-advanced-systems-redefine-drone-defense"

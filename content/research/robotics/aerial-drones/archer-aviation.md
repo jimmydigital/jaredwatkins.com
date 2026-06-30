@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "NYSE-listed eVTOL developer (San Jose, CA); Midnight six-tilt-rotor air taxi targeting 60-mile range; Stellantis $400M contract manufacturing partnership for 650 aircraft/year; FAA type certificate in progress with commercial launch targeted for Abu Dhabi in 2025–2026."
-tags: ["robotics", "aerial-drone", "us", "commercial", "evtol"]
-categories: ["company"]
 research_area: "robotics/aerial-drones"
 source_urls:
   - "https://en.wikipedia.org/wiki/Archer_Aviation"

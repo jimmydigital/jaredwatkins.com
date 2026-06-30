@@ -4,8 +4,6 @@ date: 2026-04-15
 lastmod: 2026-04-15
 draft: false
 description: "Yokohama-based semiconductor inspection equipment maker; founded 1960; holds a near-monopoly in EUV photomask and mask blank inspection systems; sole developer of actinic (13.5nm wavelength) inspection technology essential for 7nm-and-below chip manufacturing."
-tags: ["semiconductors", "fabrication-equipment", "inspection", "metrology", "euv", "photomask", "japan", "monopoly", "export-controls"]
-categories: ["company"]
 research_area: "semiconductors/fabrication-equipment"
 source_urls:
   - "https://www.lasertec.co.jp/en/"

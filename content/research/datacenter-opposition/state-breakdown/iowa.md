@@ -4,8 +4,6 @@ date: 2026-04-20
 lastmod: 2026-04-28
 draft: false
 description: "Iowa datacenter opposition — water consumption concerns, Meta/Google/Microsoft facility impacts, local utility rate disputes, county-level organizing, regulatory actions, and the political economy of hyperscaler datacenters in agricultural regions."
-tags: ["iowa", "water-usage", "hyperscale-datacenters", "utility-rates", "Meta", "Google", "Microsoft", "environmental"]
-categories: ["state"]
 research_area: "datacenter-opposition"
 source_urls:
   - "https://insideclimatenews.org/news/28072025/big-beautiful-bill-iowa-data-centers/"

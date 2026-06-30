@@ -4,8 +4,6 @@ date: 2026-04-24
 lastmod: 2026-04-24
 draft: false
 description: "Westinghouse Electric Company eVinci microreactor. 5 MWe / 15 MWt heat-pipe reactor; no coolant pumps; walk-away safe. TRISO fuel; 8+ year refueling interval; factory-assembled, rail/truck-transportable. NRC Principal Design Criteria approved March 2025; I&C platform approved Dec 2024. First customer: Saskatchewan Research Council (pilot 2029). Penn State university partnership. No commercial data center deployments announced. Parent: Westinghouse Electric Company (Brookfield Asset Management / Cameco JV)."
-tags: ["nuclear", "microreactor", "heat-pipe", "behind-the-meter", "data-center", "westinghouse", "evinci"]
-categories: ["company"]
 research_area: "datacenters/behind-meter-power"
 source_urls:
   - "https://westinghousenuclear.com/innovation/evinci-microreactor/"

@@ -4,8 +4,6 @@ date: 2026-03-24
 lastmod: 2026-06-23
 draft: false
 description: Motors, gearboxes, servo drives, and actuation systems for commercial and defense robots — from brushless DC motors to harmonic drives and hydraulic systems.
-tags: ["robotics", "actuator", "motor", "gearbox"]
-categories: ["overview"]
 research_area: "robotics/actuators"
 last_reviewed: 2026-03-24
 stale_after_days: 180

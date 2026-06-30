@@ -4,8 +4,6 @@ date: 2026-04-29
 lastmod: 2026-04-29
 draft: false
 description: "Google research initiative to deploy TPU-equipped solar-powered satellite clusters in LEO as a scalable alternative to terrestrial AI data centers."
-tags: ["orbital-compute", "space", "ai-datacenter", "tpu", "us", "research-initiative"]
-categories: ["technology"]
 research_area: "datacenters/orbital-compute"
 source_urls:
   - "https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/"

@@ -4,8 +4,6 @@ date: 2026-06-07
 lastmod: 2026-06-07
 draft: false
 description: "Survey of the connector families, standards bodies, and form factors used at both the rack and server level in liquid-cooled AI and HPC datacenters — and why their proliferation is creating supply chain and interoperability problems."
-tags: ["liquid-cooling", "direct-to-chip", "blind-mate", "cooling", "datacenters", "high-density", "ai-datacenter"]
-categories: ["technology"]
 research_area: "datacenters/cooling"
 source_urls:
   - "https://www.opencompute.org/documents/open-rack-v3-blind-mate-manifold-specification-rev-1-0-review-april05-2024-pdf"

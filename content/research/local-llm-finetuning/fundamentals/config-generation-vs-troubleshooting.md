@@ -4,8 +4,6 @@ date: 2026-06-10
 lastmod: 2026-06-10
 draft: false
 description: "Configuration generation and troubleshooting are fundamentally different tasks with different training data requirements, different interaction patterns, and different quality criteria — and may be better served by two separate fine-tuned models than one."
-tags: ["fine-tuning", "network-engineering", "config-generation", "troubleshooting", "training-data", "specialist-models"]
-categories: ["technology"]
 research_area: "local-llm-finetuning/fundamentals"
 source_urls:
   - "https://www.juniper.net/documentation/"

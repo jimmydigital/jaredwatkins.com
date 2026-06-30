@@ -5,8 +5,6 @@ lastmod: 2026-04-07
 last_reviewed: 2026-04-07
 draft: false
 description: "U.S. pure-play semiconductor foundry serving defense, commercial, and quantum computing customers; pending acquisition by IonQ; fabricates superconducting qubits for D-Wave, photonic chips for PsiQuantum (prior to GlobalFoundries transition), and cryogenic control electronics."
-tags: ["semiconductor-foundry", "us-foundry", "quantum-manufacturing", "partnership", "us"]
-categories: ["company"]
 research_area: "quantum-computing"
 source_urls:
   - "https://www.skywatertechnology.com"

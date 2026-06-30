@@ -4,8 +4,6 @@ date: 2026-06-29
 lastmod: 2026-06-29
 draft: false
 description: "The design principles originating at Bell Labs in the 1970s that defined how Unix programs should be written — and which have shaped software development for over fifty years."
-tags: ["unix", "software-design", "open-source", "linux", "history"]
-categories: ["overview"]
 research_area: "software-philosophy"
 source_urls:
   - "https://en.wikipedia.org/wiki/Unix_philosophy"

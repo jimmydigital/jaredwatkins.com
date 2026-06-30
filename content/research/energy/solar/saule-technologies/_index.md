@@ -4,8 +4,6 @@ date: 2026-04-03
 lastmod: 2026-04-03
 draft: false
 description: "Wroclaw, Poland perovskite photovoltaic developer on flexible substrates; founded 2015; developing flexible, lightweight perovskite solar modules using roll-to-roll printing for BIPV, mobile, and IoT applications; targeting 20%+ efficiency on plastic."
-tags: ["solar", "perovskite", "flexible", "roll-to-roll", "bipv", "energy", "europe", "startup"]
-categories: ["company"]
 research_area: "energy/solar"
 source_urls:
   - "https://www.sauletech.com/"

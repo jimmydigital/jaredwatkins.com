@@ -4,8 +4,6 @@ date: 2026-03-24
 lastmod: 2026-03-24
 draft: false
 description: "San Jose-based autonomous drone manufacturer; X10/X10D tactical small UAS platforms with onboard NVIDIA Jetson Orin compute; Blue UAS certified; $52M+ US Army procurement (2,500+ units, March 2026); $715M+ total funding, $2.5B valuation (Nov 2024); founded 2014; US-manufactured, NDAA-compliant."
-tags: ["robotics", "aerial-drone", "us", "defense", "commercial"]
-categories: ["company"]
 research_area: "robotics/aerial-drones"
 source_urls:
   - "https://www.skydio.com/x10"

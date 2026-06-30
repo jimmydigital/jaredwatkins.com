@@ -4,8 +4,6 @@ date: 2026-04-05
 lastmod: 2026-04-05
 draft: false
 description: "Anduril autonomous systems angle: Fury YFQ-44A CCA in production at Arsenal-1 (March 2026); Roadrunner reusable turbojet interceptor; Altius-600/700 loitering munitions; Anvil/Pulsar/Sentry CUAS stack; Ghost Shark XL-AUV maritime; Barracuda cruise missile. All platforms are Lattice OS nodes."
-tags: ["robotics", "aerial-drone", "autonomous-systems", "defense", "us", "private", "counter-uas", "loitering-munition", "cca", "maritime"]
-categories: ["company"]
 research_area: "robotics/aerial-drones"
 source_urls:
   - "https://www.anduril.com/fury"

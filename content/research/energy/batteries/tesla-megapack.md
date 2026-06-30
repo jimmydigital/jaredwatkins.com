@@ -4,8 +4,6 @@ date: 2026-04-03
 lastmod: 2026-04-04
 draft: false
 description: "Utility-scale LFP battery energy storage system; world's largest or #2 global BESS integrator by shipments; manufactured at Lathrop Megafactory; Western market price benchmark against which Chinese BESS suppliers are measured."
-tags: ["batteries", "bess", "lfp", "us", "grid-storage", "public"]
-categories: ["company"]
 research_area: "energy/batteries"
 source_urls:
   - "https://www.tesla.com/megapack"

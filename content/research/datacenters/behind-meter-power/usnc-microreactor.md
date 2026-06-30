@@ -4,8 +4,6 @@ date: 2026-04-24
 lastmod: 2026-04-28
 draft: false
 description: "Ultra Safe Nuclear Corporation (USNC) filed Chapter 11 bankruptcy (2024). NANO Nuclear Energy acquired USNC's MMR and Pylon reactor IP assets for $8.5M (December 2024 court approval; March 2025 close). Rebranded as KRONOS MMR. High-temperature gas-cooled reactor (HTGR); TRISO fuel; 15 MWe / 45 MWt. INL DOME demonstration (Pylon reactor, target 2027). Data center AI applications targeted. No signed data center customer agreements."
-tags: ["nuclear", "microreactor", "htgr", "behind-the-meter", "data-center", "usnc", "nano-nuclear", "kronos-mmr"]
-categories: ["company"]
 research_area: "datacenters/behind-meter-power"
 source_urls:
   - "https://nanonuclearenergy.com/nano-nuclear-energy-enters-into-agreement-to-acquire-ultra-safe-nuclear-corp-s-patented-micro-modular-reactor-mmr-and-pylon-space-reactors-for-8-5-million-along-with-worldwide-demonstr/"

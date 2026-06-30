@@ -4,8 +4,6 @@ date: 2026-04-24
 lastmod: 2026-04-24
 draft: false
 description: "ETSI, BSI, NCSC, ANSSI, ISO/IEC, and China OSCCA post-quantum cryptography standards and convergence analysis"
-tags: ["international", "etsi", "bsi", "ncsc", "anssi", "iso", "china", "oscca", "standards-divergence"]
-categories: ["standards", "international"]
 research_area: "post-quantum-encryption/standards-policy"
 source_urls:
   - "https://www.etsi.org/committee/cyber"

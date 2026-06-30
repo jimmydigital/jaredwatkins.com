@@ -4,8 +4,6 @@ date: 2026-06-07
 lastmod: 2026-06-07
 draft: false
 description: "MI300X and MI300A: AMD's CDNA 3 generation GPU accelerators featuring 192 GB HBM3 memory; the fastest-ramping product in AMD history."
-tags: ["amd", "gpu", "ai-accelerators", "cdna", "hbm", "us"]
-categories: ["technology"]
 research_area: "ai-accelerators/amd-instinct"
 source_urls:
   - "https://www.amd.com/en/products/accelerators/instinct/mi300.html"

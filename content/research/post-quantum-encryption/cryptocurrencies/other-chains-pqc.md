@@ -4,8 +4,6 @@ date: 2026-04-17
 lastmod: 2026-04-17
 draft: false
 description: "Post-quantum cryptography exposure and migration status for Solana (Ed25519, testnet with Dilithium), Cardano (Project Nightstream), Algorand (Falcon live on mainnet), and QRL (purpose-built PQC blockchain)."
-tags: ["post-quantum", "cryptography", "solana", "cardano", "algorand", "qrl", "cryptocurrency", "blockchain", "pqc", "fn-dsa", "ml-dsa", "slh-dsa"]
-categories: ["overview"]
 research_area: "post-quantum-encryption/cryptocurrencies"
 source_urls:
   - "https://algorand.co/technology/post-quantum"

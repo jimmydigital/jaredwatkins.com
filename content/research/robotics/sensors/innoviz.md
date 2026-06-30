@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Israeli MEMS solid-state LiDAR company (Rosh HaAyin); InnovizOne is in BMW i7 series production for Level 3 autonomy; InnovizTwo ramping for Volkswagen ID.Buzz and Class 8 autonomous trucking programs."
-tags: ["robotics", "sensor", "lidar", "defense"]
-categories: ["company"]
 research_area: "robotics/sensors"
 source_urls:
   - "https://ir.innoviz.tech/news-events/press-releases/detail/163/innoviz-reports-third-quarter-2025-results"

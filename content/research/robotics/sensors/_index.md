@@ -4,8 +4,6 @@ date: 2026-03-24
 lastmod: 2026-06-23
 draft: false
 description: LiDAR, radar, IMUs, GNSS, cameras, and force/torque sensors for robot perception — manufacturers, technology trends, and supply chain.
-tags: ["robotics", "sensor", "lidar", "gnss", "radar"]
-categories: ["overview"]
 research_area: "robotics/sensors"
 last_reviewed: 2026-03-24
 stale_after_days: 90

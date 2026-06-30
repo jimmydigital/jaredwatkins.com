@@ -4,8 +4,6 @@ date: 2026-06-19
 lastmod: 2026-06-19
 draft: false
 description: "Barcelona-based humanoid and mobile robot company; 2004 founding; TALOS bipedal research platform; KANGAROO lower-body system; TIAGo mobile manipulator; primary market European research institutions; now part of UNITY Robotics Group."
-tags: ["humanoid", "robotics", "eu", "spain", "research", "academic"]
-categories: ["company"]
 research_area: "robotics/humanoid"
 source_urls:
   - "https://pal-robotics.com"

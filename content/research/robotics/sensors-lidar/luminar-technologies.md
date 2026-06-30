@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Orlando, FL automotive LiDAR company (NASDAQ: LAZR); filed Chapter 11 bankruptcy Dec 2025 after losing Volvo as customer; Austin Russell (founder) resigned as CEO May 2025 following ethics inquiry; Iris LiDAR on Volvo EX90 (first mass-production OEM LiDAR); Halo next-gen sensor; Luminar Semiconductors sold to Quantum Computing Inc. for $110M; assets $189M vs. liabilities $508M."
-tags: ["robotics", "sensors", "lidar", "components", "us"]
-categories: ["company"]
 research_area: "robotics/sensors-lidar"
 source_urls:
   - "https://techcrunch.com/2025/12/15/lidar-maker-luminar-files-for-bankruptcy/"

@@ -4,8 +4,6 @@ date: 2026-06-05
 lastmod: 2026-06-05
 draft: false
 description: "Legal landscape governing counter-UAS detection and interdiction in the United States — who can detect, who can interdict, and which laws constrain private operators."
-tags: ["c-uas", "regulatory", "legal", "us", "critical-infrastructure", "faa", "cisa"]
-categories: ["overview"]
 research_area: "drone-detection"
 source_urls:
   - "https://www.hklaw.com/en/insights/publications/2024/07/update-on-us-counter-uas-authorities-and-efforts-to-address-threats"

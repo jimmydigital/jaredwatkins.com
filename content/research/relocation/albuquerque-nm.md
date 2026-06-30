@@ -4,8 +4,6 @@ date: 2026-06-15
 lastmod: 2026-06-15
 draft: false
 description: "Relocation evaluation of Albuquerque, New Mexico: cost of living, demographics, crime, tech ecosystem, small business climate, utilities, and environmental risks."
-tags: ["relocation", "new-mexico", "albuquerque", "southwest"]
-categories: ["overview"]
 research_area: "relocation"
 source_urls:
   - "https://www.redfin.com/city/513/NM/Albuquerque/housing-market"

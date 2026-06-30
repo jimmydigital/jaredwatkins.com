@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "NYSE-listed eVTOL air taxi developer (Santa Cruz, CA); S4 five-seat aircraft targeting 200 mph / 150-mile range; FAA Type Certificate Stage 4 reached November 2025; Toyota investment of $894M total; commercial launch targeted for 2026."
-tags: ["robotics", "aerial-drone", "us", "commercial", "evtol"]
-categories: ["company"]
 research_area: "robotics/aerial-drones"
 source_urls:
   - "https://ir.jobyaviation.com/news-events/press-releases/detail/40/joby-receives-part-135-certification-from-the-faa"

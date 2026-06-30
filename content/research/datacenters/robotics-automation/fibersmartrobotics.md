@@ -4,8 +4,6 @@ date: 2026-03-25
 lastmod: 2026-03-25
 draft: false
 description: "Napa, CA robotic fiber patch management company; founded 2003 (as Wave2Wave Solution Corp); CEO David Wang; ROME (Robotic Optical Management Engine) automates optical fiber connections — two robots per unit managing hundreds of fibers with software-directed precision; 100+ customers including Microsoft, Booking.com, Vodafone, NTT; $500K annual savings per unit claimed; $35M revenue (2025)."
-tags: ["datacenters", "robotics-automation", "connectivity", "fiber-optic", "us"]
-categories: ["company"]
 research_area: "datacenters/robotics-automation"
 source_urls:
   - "https://fibersmartrobotics.ai/"

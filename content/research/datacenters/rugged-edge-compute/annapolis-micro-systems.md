@@ -4,8 +4,6 @@ date: 2026-04-25
 lastmod: 2026-04-25
 draft: false
 description: "Annapolis, MD company specializing in FPGA-based rugged OpenVPX boards and chassis for high-performance signal processing in defense applications. Developer of the WILD100 EcoSystem for SOSA-aligned rugged compute."
-tags: ["rugged", "fpga", "openvpx", "sosa", "defense", "liquid-cooling", "signal-processing", "us"]
-categories: ["company"]
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://www.annapmicro.com/"

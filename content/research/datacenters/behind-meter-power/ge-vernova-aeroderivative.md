@@ -4,8 +4,6 @@ date: 2026-04-21
 lastmod: 2026-04-24
 draft: false
 description: "GE Vernova Gas Power (Boston, MA). Aeroderivative turbines: LM2500XPRESS (35 MW), LM6000 (40+ MW). Crusoe Energy 29-unit LM2500XPRESS order (1 GW total). Project Stargate 29-unit deployment. Q1 2026: $2.4B in data center electrification orders (more than all 2025 combined); 20 GW annualized output by Q3 2026 target; ~20% of 100 GW backlog explicitly tied to data center load. Raised 2026 revenue guidance to $44.5–$45.5B. Market leader in data center BTM gas turbines."
-tags: ["gas-turbine", "aeroderivative", "behind-the-meter", "data-center", "energy", "ge-vernova"]
-categories: ["company"]
 research_area: "datacenters/behind-meter-power"
 source_urls:
   - "https://www.gevernova.com/"

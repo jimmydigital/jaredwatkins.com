@@ -4,8 +4,6 @@ date: 2026-03-25
 lastmod: 2026-03-25
 draft: false
 description: Research on nuclear power technologies, small modular reactors (SMRs), and the companies developing next-generation nuclear for AI datacenters, industrial power, and grid decarbonization.
-tags: ["nuclear", "smr", "energy"]
-categories: ["overview"]
 research_area: "energy/nuclear"
 last_reviewed: 2026-03-25
 stale_after_days: 180

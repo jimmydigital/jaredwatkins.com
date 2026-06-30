@@ -4,8 +4,6 @@ date: 2026-03-31
 lastmod: 2026-03-31
 draft: false
 description: "Burlington, MA defense UGV maker (now Teledyne FLIR Defense); iRobot defense spin-off 2016; FLIR acquired 2019 for $385M; Teledyne acquired FLIR 2021 for $8B; Centaur/MTRS Inc II program-of-record 1,800+ delivered to Army, Navy, Air Force, USMC; PackBot legacy platform 7,000+ fielded; Sep 2024 $47M US government contracts."
-tags: ["robotics", "ugv", "defense", "us"]
-categories: ["company"]
 research_area: "robotics/ground-drones"
 source_urls:
   - "https://www.businesswire.com/news/home/20240920250816/en/Teledyne-FLIR-Defense-Captures-Contracts-Worth-Up-to-47M-to-Provide-Wide-Range-of-Ground-Robots-to-US-Government"

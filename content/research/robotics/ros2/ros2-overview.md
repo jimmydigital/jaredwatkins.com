@@ -4,8 +4,6 @@ date: 2026-06-26
 lastmod: 2026-06-26
 draft: false
 description: "Open-source middleware framework for robot software development; the de facto standard for professional and research robotics; publish-subscribe communications, hardware abstraction, sensor drivers, and tooling built on DDS transport."
-tags: ["robotics", "ros2", "middleware", "software", "open-source", "dds"]
-categories: ["technology"]
 research_area: "robotics/ros2"
 source_urls:
   - "https://docs.ros.org/en/rolling/index.html"
