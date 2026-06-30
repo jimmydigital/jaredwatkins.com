@@ -1,13 +1,10 @@
 ---
 title: Good game to end the season
 date: 2010-04-29
-categories:
-  - Charlotte
 tags:
-  - checkers
-  - fun
-  - hockey
   - charlotte
+  - hockey
+  - sports
 ---
 
 ![](inline_p_2048_1536_3ADCE4B3-084F-4229-BD04-54D14542042F.jpeg)

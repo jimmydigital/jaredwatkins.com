@@ -1,18 +1,12 @@
 ---
 title: WBT Next Talker Pitch
 date: 2011-11-05
-categories:
-  - Charlotte
-  - Personal
 tags:
-  - Charlotte
+  - charlotte
   - contest
-  - economics
-  - next talker
+  - personal
   - politics
   - radio
-  - sarcasm
-  - wbt
 ---
 
 The local news talk radio station is having a contest where the winner gets to host their own weekly show.  It’s only two hours a week on sunday night.. but it sounded like something that might be fun. So this is my entry. It was recorded and mixed with the open source [Ardour][1] digital workstation and the [Jack][2] audio sub system under OSX.

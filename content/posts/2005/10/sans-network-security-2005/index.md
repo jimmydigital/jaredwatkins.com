@@ -1,11 +1,13 @@
 ---
 title: SANS Network Security 2005
 date: 2005-10-31
-categories:
-  - Computing and Tech
 tags:
+  - computing
   - sans
-  - travel
+  - security
+  - tech
+  - training
+  - wireless
 ---
 
 Well after six days of 8 and sometimes 12 hours of classes and presentations I have returned from my first SANS training event. I was taking the [Assessing and Securing Wireless Networks][1] class by Josh Wright. As this was my first time at a SANS event.. I wasn’t sure what to expect… but after experiencing it… I am very impressed by the whole event. While the business district of downtown LA wouldn’t be my first choice for something like this.. it was ok as the backup location after what happened in New Orleans. The hotel was quite interesting and the location for a memorable scene from True Lies.

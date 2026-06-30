@@ -1,16 +1,12 @@
 ---
 title: 'Ideas to Live By #4 No One is Really in Charge'
 date: 2012-08-04
-categories:
-  - Politics
-  - Skepticism
 tags:
   - bureaucracy
-  - ideas to live by
-  - in charge
-  - obama
-  - president
-  - vote the bums out
+  - government
+  - philosophy
+  - politics
+  - skepticism
 ---
 
 ![](inline_3_marionettes-ru029.jpg)

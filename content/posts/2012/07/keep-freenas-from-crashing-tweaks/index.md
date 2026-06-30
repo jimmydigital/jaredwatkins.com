@@ -1,17 +1,13 @@
 ---
 title: Keep FreeNAS From Crashing Tweaks
 date: 2012-07-01
-categories:
-  - Computing and Tech
-  - Geeky Stuff
 tags:
   - bsd
-  - crash
-  - freebsd
+  - computing
   - freenas
-  - freeze
-  - io
-  - loader.conf
+  - howto
+  - storage
+  - tech
 ---
 
 I found these settings on another site.. reposting here for my future reference and to double the possibility of someone else not having to spend hours trying to figure this out.  My install of FreeNAS kept hanging under even moderate write loads… rendering it unusable until I applied these memory tweaks.  I don’t know nearly as much about BSD internals as I do linux.  You can apply these through the web GUI under System->Tunables.  When you do they get added to the file /boot/loader.conf.local but should also be backed up with the rest of your config.

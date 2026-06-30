@@ -1,20 +1,14 @@
 ---
 title: 'What I do: Voice Integration With Nagios and Asterisk'
 date: 2011-12-05
-categories:
-  - Computing and Tech
-  - Geeky Stuff
-  - My Code
-  - Projects
 tags:
   - asterisk
-  - broadsoft
-  - festival
+  - coding
+  - computing
   - linux
   - nagios
-  - perl
-  - resume
-  - tts
+  - projects
+  - tech
   - voip
 ---
 

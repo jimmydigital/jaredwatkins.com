@@ -1,15 +1,11 @@
 ---
 title: What does a storm cloud weigh?
 date: 2010-06-28
-categories:
-  - Geeky Stuff
-  - Random
 tags:
-  - nimitz
-  - rain
+  - math
   - science
-  - storm cloud
-  - water
+  - tech
+  - weather
 ---
 
 ![](http://farm5.static.flickr.com/4102/4740040431_5264a8629f.jpg)

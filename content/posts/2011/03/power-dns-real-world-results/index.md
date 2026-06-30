@@ -1,26 +1,17 @@
 ---
 title: 'What I do: Power DNS Real World Results'
 date: 2011-03-16
-categories:
-  - Computing and Tech
-  - Geeky Stuff
-  - My Code
-  - Personal
-  - Projects
 tags:
-  - debian
+  - coding
+  - computing
   - dns
   - linux
-  - mysql
-  - nagios
-  - open source
-  - pdns
+  - open-source
   - performance
-  - php
-  - power dns
-  - replication
-  - resume
-  - vmware
+  - personal
+  - projects
+  - tech
+  - voip
 ---
 
 We have had a [Power DNS][1] recursing cacher deployed at one of our busiest sites for a few months now and I thought others might benefit from some real world performance info.  This is running on some older hardware.. dual Xenon 2.8Ghz system with 4G of ram and the only job it’s doing is running this recursor. These three graphs tell the tale.  The first shows that the system is handling peaks of about 3800 queries per second and that about 99% of those are being answered in a fraction of a millisecond.  The second shows that cache hits are averaging about 70-75% and the third shows that it’s doing this work while using at most one quarter of the CPU.  Add to those impressive performance levels that I’ve had zero issues since putting it in production six months ago.

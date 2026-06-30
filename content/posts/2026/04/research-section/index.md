@@ -5,15 +5,11 @@ draft: false
 description: "A new section of the site tracks cutting edge developments in datacenters, energy, and robotics, maintained by AI on a schedule."
 tags:
   - ai
+  - computing
+  - personal
+  - projects
   - research
-  - datacenters
-  - robotics
-  - energy
-  - investing
-categories:
-  - Computing and Tech
-  - Personal
-  - Projects
+  - tech
 ---
 
 I've been spending a lot of time lately exploring what AI is actually good for beyond writing code... which is where most people seem to stop. One thing I've landed on that I think is genuinely useful is using it to maintain a structured research knowledge base on technical topics I care about. So I built one, and it now lives [on this site](/research/).

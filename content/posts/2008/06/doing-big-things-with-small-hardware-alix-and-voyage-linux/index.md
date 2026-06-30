@@ -1,13 +1,15 @@
 ---
 title: Doing big things with small hardware, Alix and Voyage Linux
 date: 2008-06-09
-categories:
-  - Computing and Tech
-  - Projects
 tags:
-  - linux
-  - alix
   - asterisk
+  - computing
+  - embedded
+  - linux
+  - networking
+  - projects
+  - router
+  - tech
   - voip
 ---
 

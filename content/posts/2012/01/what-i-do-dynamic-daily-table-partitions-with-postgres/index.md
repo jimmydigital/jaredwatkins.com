@@ -1,23 +1,15 @@
 ---
 title: 'What I do: Dynamic Daily Table Partitions With Postgres'
 date: 2012-01-19
-categories:
-  - Computing and Tech
-  - Geeky Stuff
-  - My Code
-  - Personal
 tags:
-  - dynamic
-  - oracle
-  - partitions
+  - coding
+  - computing
+  - database
   - perl
-  - postgres
+  - personal
   - postgresql
-  - resume
-  - rolling
-  - sliding
-  - table
-  - window
+  - projects
+  - tech
 ---
 
 As part of a new and fairly large project I have a need to partition a few postgres tables and have a rolling daily window.  That is.. I want to organize data by a timestamp storing each day in its own partition and maintain 90 days of historical data.  Doing this is possible in Postgresql but it’s not pretty or very clean to set it up.  To simplify the process I wrote this perl script that (when run daily) will pre-create a certain number of empty partitions into the future and remove the oldest partitions from your window.<!--more-->

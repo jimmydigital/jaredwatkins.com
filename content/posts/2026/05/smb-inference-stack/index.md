@@ -6,13 +6,12 @@ draft: false
 description: Hardware tiers, inference engines, query routing, and the economics of running local AI inference for a small business or VAR practice.
 tags:
   - ai
+  - computing
+  - enterprise
   - hardware
   - llm
   - local-inference
-  - enterprise
-  - inference-server
-categories:
-  - Computing and Tech
+  - tech
 ---
 
 Frontier API costs are fine when you're experimenting. They get painful once you're running a real workload. [GPT-4o is $2.50 per million input tokens and $10 per million output](https://openai.com/api/pricing/). Claude Sonnet 4.6 is $3 in and $15 out. Claude Opus 4.7, Anthropic's current flagship, runs $5 in and $25 out. Anthropic also recently shifted enterprise billing to usage-based consumption pricing on top of seat fees, which means those token costs show up as a line item more visibly than before. A 10-person team doing active AI use across document drafting, summarization, code review, and internal Q&A will generate somewhere around 100 million output tokens a month. Using GPT-4o that's $1,000/month. Sonnet 4.6 is about $1,500/month and with Opus 4.7 it climbs to $2,500/month. It might not ruin you, but it's a recurring bill that scales directly with adoption, and adoption tends to grow. 

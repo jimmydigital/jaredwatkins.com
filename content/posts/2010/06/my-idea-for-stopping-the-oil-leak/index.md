@@ -1,13 +1,11 @@
 ---
 title: My idea for stopping the oil leak
 date: 2010-06-04
-categories:
-  - Projects
-  - Random
 tags:
-  - fix
-  - kevlar
-  - oil spill
+  - engineering
+  - gulf-spill
+  - oil
+  - projects
 ---
 
 ![](inline_Kevlar-oil-capture-v11.png)

@@ -1,22 +1,13 @@
 ---
 title: "Surely it's Time for Something Better: Ron Paul"
 date: 2011-09-18
-categories:
-  - Economy
-  - Personal
-  - Politics
 tags:
-  - 16 trillion
-  - audit
-  - bailout
   - economics
-  - fed
-  - federal reserve
-  - freedom
-  - liberty
-  - responsibility
-  - RINO
-  - ron paul
+  - federal-reserve
+  - libertarian
+  - personal
+  - politics
+  - ron-paul
 ---
 
 ![](http://farm7.static.flickr.com/6195/6161113920_b98bfb2930.jpg)

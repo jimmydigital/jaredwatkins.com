@@ -1,19 +1,14 @@
 ---
 title: Unraveling the Duct Tape
 date: 2012-01-21
-categories:
-  - Computing and Tech
-  - Security/Insecurity Insanity
-  - Skepticism
 tags:
-  - arduino
-  - duct tape
-  - ethical hacking
-  - Joshua Wright
-  - SANS
-  - SCADA
+  - computing
+  - hacking
+  - scada
   - security
-  - smart grid
+  - skepticism
+  - smart-grid
+  - tech
 ---
 
 ![](http://farm8.static.flickr.com/7016/6486021333_9c6e3d86bd.jpg#floatright "width=160")

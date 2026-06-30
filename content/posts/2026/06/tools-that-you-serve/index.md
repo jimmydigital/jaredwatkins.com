@@ -3,15 +3,15 @@ title: Tools That You Serve
 date: 2026-06-29
 draft: false
 description: Unix philosophy is a set of engineering principles, but follow the thread far enough and it becomes a critique of how modern institutions and platforms have inverted the relationship between tools and the people who use them.
-categories:
-  - Computing and Tech
-tags:
-  - unix
-  - software-design
-  - philosophy
-  - open-source
 thumbnail: ""
 images: []
+tags:
+  - computing
+  - open-source
+  - philosophy
+  - software-design
+  - tech
+  - unix
 ---
 
 There's a recurring pattern in how humans build things: we design a system to serve us, it scales, and somewhere past a certain threshold it flips, and we're serving it. This isn't a flaw in individual designs. It's something that happens consistently, across domains, to institutions and tools that get big enough. A lot of people have written about this from different angles (urban planners, economists, social critics) without quite connecting the dots. One thread that links them runs through, of all places, the Unix philosophy from the early 1970s.

@@ -1,15 +1,13 @@
 ---
 title: One Year Mark.. First Passenger!
 date: 2005-07-24
-categories:
-  - Aviation
-  - Flight Log
 tags:
-  - planetalk
-  - flying
-  - goosecreek
-  - ksop
   - 28a
+  - aviation
+  - cross-country
+  - flight-log
+  - flying
+  - ksop
 ---
 
 Today marks 1 year since my intro flight with Tyson at Goose Creek… so of course I had to go somewhere if at all possible.. and lucky for me it was. I did my first X-Country flight in about 6 months.. and carried my first non-pilot passenger… and it was even her first time on a small plane. We took the Archer and did a quick trip out to Pinehurst… aka [Moore County KSOP][1]. This was the site of my first solo X-C and it’s a nice easy flight… just about due east of 28A and less than an hour in the air. There was no wind today.. very hazy and no horizon.. visibility was only about 5 miles.. with some cloud layers at 5k’. The people at SOP are always nice… we got out and walked around a little.. checked out the FBO before heading back.

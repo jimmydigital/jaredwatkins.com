@@ -1,11 +1,12 @@
 ---
 title: Why so Many Flying Geeks?
 date: 2005-08-15
-categories:
-  - Aviation
-  - Computing and Tech
 tags:
-  - planetalk
+  - aviation
+  - computing
+  - culture
+  - pilots
+  - tech
 ---
 
 I doubt most pilots I personally know would appreciate being called geeks.. but really… that’s what they are. Don’t misunderstand.. it’s not meant to be a negative label.. just an honest one. Another blog I read called [Undefined Value][1] is by a programmer and student pilot down in Atlanta. He recently had this to say about why there are so many techies in aviation:

@@ -4,13 +4,14 @@ date: 2026-06-01
 draft: false
 description: The economics of deploying AI compute today are more complicated than the capex number suggests. Here's how to actually think about it.
 tags:
-  - AI
-  - GPUs
+  - ai
+  - computing
   - datacenter
   - economics
-  - NVIDIA
-categories:
-  - Computing and Tech
+  - infrastructure
+  - investing
+  - nvidia
+  - tech
 ---
 
 There's a number that comes up constantly in AI coverage: the size of the capex commitment. Microsoft, Google, Meta, Amazon, collectively spending hundreds of billions on AI infrastructure. The implicit assumption in most of that coverage is that more spending equals more capability equals more future value. That's not wrong, but it leaves out all the interesting parts.

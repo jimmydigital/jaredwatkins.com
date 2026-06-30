@@ -1,11 +1,11 @@
 ---
 title: The Sun is Largely Responsible for Global Warming
 date: 2009-03-10
-categories:
-  - Skepticism
 tags:
-  - globalwarming
-  - tinfoil
+  - climate
+  - global-warming
+  - science
+  - skepticism
 ---
 
 [![solar cycle](inline_solarcycle1.gif)](solarcycle1.gif)

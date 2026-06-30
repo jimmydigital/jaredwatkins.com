@@ -1,13 +1,14 @@
 ---
 date: 2013-05-07
 title: "Fixing MySQL SSL Replication Errors"
-categories:
-  - Personal
-  - Computing and Tech
 tags:
+  - computing
+  - howto
   - mysql
-  - ssl
+  - personal
   - replication
+  - ssl
+  - tech
 ---
 I spent 2 nights trying to get mysql replication over ssl to work.. and kept hitting this generic
 error message: connection error 2026. After much searching and trying different things I finally

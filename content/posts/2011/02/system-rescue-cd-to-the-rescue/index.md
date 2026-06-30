@@ -1,20 +1,14 @@
 ---
 title: System Rescue CD to the.. rescue!
 date: 2011-02-18
-categories:
-  - Computing and Tech
-  - Geeky Stuff
-  - Personal
 tags:
-  - broken
-  - equinix
-  - grub
+  - computing
+  - disaster-recovery
   - linux
-  - mbr
+  - personal
   - raid
-  - rescue cd
-  - resume
-  - server
+  - sysadmin
+  - tech
 ---
 
 ![](http://farm6.static.flickr.com/5211/5421694137_c92bd1b195.jpg "width=160")

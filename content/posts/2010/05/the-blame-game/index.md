@@ -1,12 +1,10 @@
 ---
 title: The Blame Game
 date: 2010-05-18
-categories:
-  - Politics
-  - Random
 tags:
-  - cognitive dissonance
+  - media
   - obama
+  - politics
   - terrorism
 ---
 

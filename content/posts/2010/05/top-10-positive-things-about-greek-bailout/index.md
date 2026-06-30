@@ -1,20 +1,13 @@
 ---
 title: Top 10 Positive Things About The Greek Bailout
 date: 2010-05-14
-categories:
-  - Economy
-  - Humor
-  - Politics
-  - Random
 tags:
   - bailout
   - economics
+  - europe
   - greece
-  - Humor
-  - IMF
-  - rise and fall
-  - scacasm
-  - top 10
+  - humor
+  - politics
 ---
 
 1.  Free grecian formula for all

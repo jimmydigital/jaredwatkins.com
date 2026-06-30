@@ -1,10 +1,11 @@
 ---
 date: 2005-05-12
 title: Charlotte's Web of Issues
-categories:
-  - Politics
 tags:
   - charlotte
+  - local-government
+  - politics
+  - spending
   - transit
 ---
 

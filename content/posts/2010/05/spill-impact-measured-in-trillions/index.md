@@ -1,18 +1,12 @@
 ---
 title: Spill Impact Measured in Trillions?
 date: 2010-05-03
-categories:
-  - Economy
-  - investing
 tags:
-  - Economy
-  - florida
-  - gulf
+  - economics
+  - gulf-spill
+  - investing
   - oil
-  - OSG
-  - real estate
-  - spill
-  - tanker
+  - real-estate
 ---
 
 [![](inline_gulf-stream-YYY.gif)](http://oceancurrents.rsmas.miami.edu/atlantic/gulf-stream.html)

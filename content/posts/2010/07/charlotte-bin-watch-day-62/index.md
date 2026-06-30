@@ -1,18 +1,14 @@
 ---
 title: 'Charlotte Bin Watch Day 62'
 date: 2010-07-07
-categories:
-  - Charlotte
-  - Politics
-  - Skepticism
 tags:
-  - bin watch
-  - Charlotte
-  - charmeck
-  - govco
+  - charlotte
+  - local-government
+  - politics
   - recycling
   - rfid
-  - taxes
+  - skepticism
+  - surveillance
 ---
 
 ![](http://farm2.static.flickr.com/1174/4733638662_a5f9961290.jpg)

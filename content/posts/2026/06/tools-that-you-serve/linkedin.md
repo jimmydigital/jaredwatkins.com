@@ -15,7 +15,7 @@ images: []
 
 What if the tools we build to solve our problems eventually restructure the environment so completely that we can't solve those problems any other way?
 
-There's a pattern that shows up across centuries and domains: we build a tool to serve us, it scales, and somewhere past a certain things flip, and we're serving it.
+There's a pattern that shows up across centuries and domains: we build a tool to serve us, it scales, and somewhere past a certain point things flip, and we're serving it.
 
 This isn't a technology problem. It shows up in 19th-century Prussian forestry, postwar American urban planning, and the Soviet economy. The same thing happened to social media. And it's now setting up to happen with AI.
 
@@ -29,4 +29,4 @@ The GLP-1 wave is worth watching for the same reason. These drugs work for sever
 
 Full post connecting Prussian forestry, Pruitt-Igoe, Unix, Illich, and where AI is heading:
 
-https://jaredwatkins.com/posts/2026/06/tools-that-you-serve/
+https://www.jaredwatkins.com/posts/2026/06/tools-that-you-serve/

@@ -1,23 +1,14 @@
 ---
 title: OSX Mail App Using Tons of Memory and CPU?
 date: 2012-01-07
-categories:
-  - Computing and Tech
-  - Geeky Stuff
 tags:
-  - cpu
-  - Entourage
+  - apple
+  - computing
   - fix
-  - high cpu
-  - high memory
-  - isync
-  - mail
-  - memory
+  - howto
   - osx
-  - resources
-  - snow leopard
-  - solution
-  - troubleshoot
+  - performance
+  - tech
 ---
 
 ![](http://farm1.static.flickr.com/30/44074632_687cc920b9.jpg)

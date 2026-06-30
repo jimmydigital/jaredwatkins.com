@@ -4,15 +4,14 @@ date: 2026-04-27
 draft: false
 description: "AI compute racks are hitting 1+ megawatt in the same floor footprint as a 10 kW enterprise server rack. Here's what that density jump actually requires: power, cooling, and what it costs to run one for a year."
 tags:
-  - datacenter
   - ai
-  - infrastructure
-  - hardware
-  - power
+  - computing
   - cooling
-  - nvidia
-categories:
-  - Computing and Tech
+  - datacenter
+  - hardware
+  - infrastructure
+  - power
+  - tech
 ---
 
 I've designed a lot of racks. Most of them land somewhere between 10 and 15 kW. That's the enterprise baseline, the design point that most of the world's installed data center capacity is built around. Standard power distribution, off-the-shelf PDUs, hot aisle/cold aisle airflow. The physics are solved, the playbook is 30 years old, and nothing about it is surprising.

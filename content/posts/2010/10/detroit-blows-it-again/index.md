@@ -1,22 +1,14 @@
 ---
 title: Detroit Blows it Again
 date: 2010-10-11
-categories:
-  - investing
-  - Politics
-  - Skepticism
-  - Stocks
 tags:
+  - batteries
+  - electric-vehicle
   - gm
-  - government motors
-  - lie
-  - lifepo4
-  - lithium
-  - miserable failure
-  - sqm
-  - stop lying to us
-  - volt
-  - xenu
+  - investing
+  - politics
+  - skepticism
+  - stocks
 ---
 
 ![](http://farm5.static.flickr.com/4152/5064872555_73a004b445.jpg "width-320")

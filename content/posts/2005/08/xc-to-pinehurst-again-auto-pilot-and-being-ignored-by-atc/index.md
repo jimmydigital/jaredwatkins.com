@@ -1,11 +1,12 @@
 ---
 title: XC To Pinehurst Again.. Auto Pilot and Being Ignored by ATC
 date: 2005-08-14
-categories:
-  - Aviation
-  - Flight Log
 tags:
-  - planetalk
+  - atc
+  - aviation
+  - cross-country
+  - flight-log
+  - flying
   - ksop
 ---
 

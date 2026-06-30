@@ -1,15 +1,14 @@
 ---
-categories:
-  - "Review"
 date: 2017-01-05T08:04:29-06:00
 description: ""
-tags:
-  - "flir"
-  - "household"
-  - "thermal camera"
-  - "gadget"
 
 title: Hunting cold spots with the Flir One Thermal Camera
+tags:
+  - gadget
+  - home-improvement
+  - review
+  - tech
+  - thermal-camera
 ---
 
 [![Thermal image of kitchen windows](inline_thermal_kitchenWindow.jpg#floatright)](thermal_kitchenWindow.jpg)

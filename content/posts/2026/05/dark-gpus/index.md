@@ -6,15 +6,13 @@ draft: false
 description: The AI datacenter buildout is hitting a wall of physical constraints that echoes the late-90s dark fiber overbuild. But GPUs depreciate in months, not decades, and the US economy is strapped to the outcome.
 tags:
   - ai
+  - computing
   - datacenter
-  - infrastructure
   - economics
+  - infrastructure
+  - investing
   - nvidia
-  - hyperscalers
-  - dark-fiber
-  - reindustrialization
-categories:
-  - Computing and Tech
+  - tech
 ---
 
 In 2001, an estimated 95% of all the fiber optic cable in the ground was dark. Telecom companies poured over $500 billion into it on the thesis that internet traffic was doubling every hundred days (it wasn't, but everyone believed it was), and WorldCom, Global Crossing, and Williams Communications took on enormous debt to lay fiber across oceans and under highways. It took nearly 20 years for traffic to grow into that capacity. Several of those companies went bankrupt. The fiber itself was fine, sitting patiently in the ground, waiting for demand to catch up.

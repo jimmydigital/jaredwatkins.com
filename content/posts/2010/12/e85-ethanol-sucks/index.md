@@ -1,22 +1,14 @@
 ---
 title: E85 (Ethanol) Sucks!
 date: 2010-12-26
-categories:
-  - Energy
-  - Politics
-  - Skepticism
 tags:
-  - bad science
-  - broken window
-  - corn
-  - e15
-  - e85
+  - bad-science
   - economics
   - energy
-  - epa
+  - environment
   - ethanol
-  - lobby
-  - waste
+  - politics
+  - skepticism
 ---
 ![](inline_wesley_clark_corn_warrior.jpg 'Corn Warrior')
 

@@ -3,13 +3,12 @@ title: Back to Writing
 date: 2026-04-18
 draft: false
 description: Why I stopped posting, why the site was broken, and why I'm writing again now.
-categories:
-  - Personal
-tags:
-  - blogging
-  - site-maintenance
 thumbnail: ""
 images: []
+tags:
+  - blogging
+  - personal
+  - site-maintenance
 ---
 
 I know I've not posted much on this site the last few years... ok the last many years. For a long time the Hugo build process was broken and I didn't spend enough time to get it fixed AND keep up with all the changes to Go which also broke some of my customizations. With AI tools being so good now though, I've been able to fix everything and simplify some writing workflows to the point that I actually have time to focus on content.

@@ -1,15 +1,13 @@
 ---
 date: 2013-06-03
 title: "Scary Charts"
-categories:
-  - Personal
-  - Investing
-  - Economy
 tags:
-  - m2
+  - charts
+  - economics
+  - investing
+  - personal
+  - skepticism
   - stocks
-  - economy
-  - uncertanty
 ---
 I don't often write about stocks or the economy.. it's just too difficult to know anything with any certainty anymore.
 We've been kicking this can down the road far longer than I thought would be possible at this point but a quick look

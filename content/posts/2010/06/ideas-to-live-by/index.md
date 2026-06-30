@@ -1,14 +1,11 @@
 ---
 title: Ideas To Live By
 date: 2010-06-16
-categories:
-  - Random
-  - Skepticism
 tags:
-  - authority
-  - black swan
-  - question authority
-  - uncertanty
+  - epistemology
+  - philosophy
+  - skepticism
+  - uncertainty
 ---
 
 With all the swirl and finger pointing around the oil leak.. I thought it was a good time to revise a posting from a few years ago.

@@ -6,16 +6,12 @@ draft: false
 description: A practical guide to choosing local AI hardware -- what actually matters, what fits where, and why hardware vendors keep getting away with marketing nonsense.
 tags:
   - ai
+  - computing
   - hardware
   - llm
   - local-inference
   - nvidia
-  - apple
-  - amd
-  - tenstorrent
-  - risc-v
-categories:
-  - Computing and Tech
+  - tech
 ---
 
 Nobody buying AI hardware in 2026 is short on opinions. Everyone has a take. The forums are full of people who swear by their setup and can't understand why anyone would choose differently. Most of those arguments are happening across completely different use cases which raises the noise floor for this subject.

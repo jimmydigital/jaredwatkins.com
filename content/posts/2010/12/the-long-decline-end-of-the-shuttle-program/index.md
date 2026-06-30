@@ -1,14 +1,13 @@
 ---
 title: 'The Long Decline: End of the Shuttle Program'
 date: 2010-12-12
-categories:
-  - Aviation
-  - Computing and Tech
-  - Geeky Stuff
 tags:
+  - aviation
+  - computing
   - nasa
-  - penn jillette
   - shuttle
+  - space
+  - tech
 ---
 
 For those who don’t know.. As a nation we have essentially decided to give up our manned space program.  While NASA has done amazing things with robots and satellites in space the one aspect that really captivates is manned exploration.  As with most huge projects, things haven’t exactly gone as planned with the shuttle or space station over the last 30 years. But now as reality sets in and we see the ending of the shuttle program it strikes me as a milestone that the United States will not have a way to get people into space forcing us to rely on the cooperation of others (who are not our friends) to do so.  I wanted to share a few things for those who are interested.

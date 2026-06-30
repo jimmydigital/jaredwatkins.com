@@ -1,19 +1,15 @@
 ---
 title: 'RFID: The Next Big Thing in Retail and Municipal Surveillance'
 date: 2010-05-07
-categories:
-  - Charlotte
-  - Computing and Tech
-  - Geeky Stuff
-  - Politics
-  - Skepticism
 tags:
-  - Charlotte
-  - garbage
-  - groceries
+  - charlotte
+  - computing
+  - politics
+  - privacy
   - rfid
+  - skepticism
   - surveillance
-  - taxes
+  - tech
   - tracking
 ---
 

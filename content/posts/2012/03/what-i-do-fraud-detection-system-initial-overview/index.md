@@ -1,23 +1,15 @@
 ---
 title: 'What I Do: Fraud Detection System Initial Overview'
 date: 2012-03-02
-categories:
-  - Geeky Stuff
-  - My Code
-  - Personal
-  - Projects
 tags:
-  - broadsoft
-  - carrier
+  - coding
   - fraud
-  - memcached
   - perl
-  - postgres
-  - radiator
-  - radius
-  - resume
+  - personal
+  - projects
+  - security
+  - tech
   - telecom
-  - toll fraud
   - voip
 ---
 

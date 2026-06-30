@@ -1,22 +1,14 @@
 ---
 title: 'Fraud System: Update 2'
 date: 2012-06-02
-categories:
-  - Computing and Tech
-  - My Code
 tags:
-  - broadsoft
-  - carrier
-  - fms
+  - coding
+  - computing
   - fraud
-  - memcached
   - perl
-  - postgres
-  - radiator
-  - radius
-  - resume
+  - security
+  - tech
   - telecom
-  - toll fraud
   - voip
 ---
 

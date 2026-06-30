@@ -1,16 +1,13 @@
 ---
 title: 'Sketchy Things From China: "Apple" Power Supply'
 date: 2011-11-14
-categories:
-  - Geeky Stuff
 tags:
   - apple
   - china
-  - ebay
-  - fake
-  - knock off
-  - macbook
-  - power supply
+  - counterfeit
+  - hardware
+  - review
+  - tech
 ---
 
 ![](inline_powersupplies.jpg)

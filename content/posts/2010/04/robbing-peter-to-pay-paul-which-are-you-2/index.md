@@ -1,9 +1,11 @@
 ---
 title: 'Robbing Peter to pay Paul; Which are you?'
 date: 2010-04-07
-categories:
-  - Economy
-  - Politics
+tags:
+  - charlotte
+  - economics
+  - politics
+  - taxes
 ---
 
 [Nearly half of US households escape fed income tax][1]

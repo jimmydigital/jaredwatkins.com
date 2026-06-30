@@ -1,19 +1,12 @@
 ---
 title: 'Global Warming: Still More Scam Than Science'
 date: 2011-11-02
-categories:
-  - Politics
-  - Skepticism
 tags:
-  - AGM
-  - carbon
-  - co2
-  - global warming
-  - Judith Curry
-  - media
-  - Muller
-  - scam
+  - climate
+  - global-warming
+  - politics
   - science
+  - skepticism
 ---
 
 More news from the front… [GLOBAL WARMING IS OVER, SAYS EXPERT][1]

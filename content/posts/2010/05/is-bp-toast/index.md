@@ -1,18 +1,12 @@
 ---
 title: Is BP toast?
 date: 2010-05-01
-categories:
-  - investing
 tags:
-  - apc
-  - cvx
-  - dividend
-  - gulf
-  - hal
+  - energy
+  - gulf-spill
   - investing
   - oil
-  - rig
-  - Stocks
+  - stocks
 ---
 ![](inline_oilcompanies_5-1.png)
 

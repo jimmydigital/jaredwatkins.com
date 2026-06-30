@@ -1,22 +1,14 @@
 ---
 title: 'What I do: Fraud Management System -Update1'
 date: 2012-04-02
-categories:
-  - Computing and Tech
-  - My Code
 tags:
-  - acme
-  - broadsoft
-  - carrier
+  - coding
+  - computing
   - fraud
-  - linux
-  - memcached
   - perl
-  - radiator
-  - radius
-  - resume
+  - security
+  - tech
   - telecom
-  - toll fraud
   - voip
 ---
 

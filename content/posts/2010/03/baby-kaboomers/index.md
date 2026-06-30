@@ -1,8 +1,12 @@
 ---
 title: Baby (ka)boomers
 date: 2010-03-31
-categories:
-  - Economy
+tags:
+  - debt
+  - demographics
+  - economics
+  - pensions
+  - politics
 ---
 
 [Some states face Greek-style debt woes][1]

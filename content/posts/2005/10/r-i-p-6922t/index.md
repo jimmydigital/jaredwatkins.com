@@ -1,10 +1,12 @@
 ---
 title: R.I.P. 6922T
 date: 2005-10-06
-categories:
-  - Aviation
 tags:
+  - accident
+  - aviation
+  - flight-training
   - n6922t
+  - safety
 ---
 
 [![plane](inline_N6922T2.jpg)](N6922T2.jpg)

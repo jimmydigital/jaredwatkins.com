@@ -1,16 +1,13 @@
 ---
 title: Guns, Wood, and Tripods
 date: 2012-07-01
-categories:
-  - Personal
 tags:
-  - Amazon
-  - AWS
-  - Charlotte
-  - cross country move
+  - amazon
+  - career
+  - charlotte
+  - personal
   - relocation
-  - Seattle
-  - south east
+  - seattle
 ---
 
 ![](http://farm8.static.flickr.com/7256/7451269236_55f2df81a5.jpg)

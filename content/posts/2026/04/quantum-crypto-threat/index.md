@@ -3,8 +3,14 @@ title: "The Clock Is Already Running on Quantum Crypto Risk"
 date: 2026-04-17
 draft: false
 description: "Quantum computers will eventually break most of the encryption protecting the internet, financial systems, and crypto assets. Here's where that stands, what it'll cost to fix, and why the timeline might be shorter than anyone comfortable."
-tags: ["quantum", "cryptography", "security", "cryptocurrency", "post-quantum", "bitcoin", "networking"]
-categories: ["Computing and Tech"]
+tags:
+  - bitcoin
+  - computing
+  - cryptography
+  - encryption
+  - quantum
+  - security
+  - tech
 ---
 
 On March 31, Google Quantum AI published a paper that got quiet but serious attention from the security world. The upshot: under optimistic error rate assumptions, you might need fewer than 500,000 physical qubits to break the elliptic curve cryptography that underpins almost everything on the internet. Previous estimates were in the millions. Their suggested migration target is 2029.

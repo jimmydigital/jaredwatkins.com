@@ -1,19 +1,13 @@
 ---
 title: 'What I do: Another Day in the Bunker'
 date: 2011-02-19
-categories:
-  - Computing and Tech
-  - Geeky Stuff
-  - Personal
 tags:
-  - apc7811
-  - blade
-  - blade center
+  - computing
   - datacenter
-  - ibm
-  - mantrap
-  - resume
-  - security
+  - infrastructure
+  - personal
+  - sysadmin
+  - tech
 ---
 
 ![](inline_mantrap_sm.jpg)

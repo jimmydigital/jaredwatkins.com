@@ -1,15 +1,12 @@
 ---
 title: 'Broken By Design: DirectTV and Overproduced Email'
 date: 2012-02-11
-categories:
-  - Personal
 tags:
   - design
   - directv
   - email
-  - tivo
-  - user interface design
-  - wbt
+  - personal
+  - ux
 ---
 
 I was invited to be in a focus group for the local talk radio station recently with a focus on how they use email to communicate with listeners.  As I’ve been a long time listener of this station and especially like some of the things they do online I thought it would be good to participate.  They wanted feedback on what they are currently doing and opinions on new approaches and services they were thinking of offering.<!--more-->

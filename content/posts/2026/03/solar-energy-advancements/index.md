@@ -3,9 +3,11 @@ title: Solar energy stored in a fluid medium for long term seasonal use.
 date: 2026-03-19
 draft: true
 description: Recapping a few recent developments in solar energy production.
-categories:
-  - Energy
 tags:
+  - energy
+  - science
+  - solar
+  - tech
 ---
 Big if true... It doesn't even matter that the current molecule is 'inefficient' at capturing energy. Put the infra in place and then upgrade your fluid later for better efficiency.
 

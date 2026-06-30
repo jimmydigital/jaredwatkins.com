@@ -1,18 +1,14 @@
 ---
 title: Charlotte Giving Raises While Rome Burns
 date: 2010-05-25
-categories:
-  - Charlotte
-  - Economy
-  - Politics
 tags:
-  - boondoggle
-  - Charlotte
-  - city
-  - light rail
-  - nascar hall of fame
+  - charlotte
+  - economics
+  - local-government
+  - politics
   - recession
-  - whitewater
+  - spending
+  - transit
 ---
 ![](http://farm5.static.flickr.com/4014/4620293460_c370a0bd7b.jpg)
 

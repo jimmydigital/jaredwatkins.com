@@ -1,21 +1,13 @@
 ---
 title: Radiation Fear Mongering
 date: 2011-03-20
-categories:
-  - Energy
-  - Skepticism
 tags:
-  - accident
-  - facts
-  - fear mongering
-  - fuel rod
-  - Fukushima
-  - hype
-  - japan
-  - meltdown
+  - energy
+  - media
   - nuclear
   - radiation
-  - reactor
+  - science
+  - skepticism
 ---
 
 [![](inline_radiation.png)](radiation.png)

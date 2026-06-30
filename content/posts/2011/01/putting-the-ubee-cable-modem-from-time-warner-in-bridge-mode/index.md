@@ -1,17 +1,13 @@
 ---
 title: Putting the UBEE Cable Modem from Time Warner in Bridge Mode
 date: 2011-01-22
-categories:
-  - Computing and Tech
-  - Geeky Stuff
 tags:
-  - bridge
-  - cable modem
-  - default login
-  - network
+  - cable-modem
+  - computing
+  - howto
+  - networking
   - router
-  - time warner
-  - ubee
+  - tech
 ---
 
 [![](inline_ubee-bridge-mode-e1295698327507.png)](ubee-bridge-mode-e1295698327507.png)

@@ -1,23 +1,14 @@
 ---
 title: Rackable HDAMA Bios Raid Upgrade Files
 date: 2012-05-31
-categories:
-  - Computing and Tech
 tags:
-  - arima
   - bios
-  - bootable
-  - dos
+  - computing
   - firmware
-  - flash
-  - freedos
-  - hdama
-  - phoenix
-  - rackable
+  - freenas
+  - hardware
   - raid
-  - update
-  - usb
-  - utility
+  - tech
 ---
 
 I picked up an inexpensive server last year from [unixsurplus.com][1] which I now want to re purpose as a [FreeNas][2] file server.  This is all fine and good.. but the bios and embedded sata raid drivers were out of date and didn’t support the 2TB drives I wanted to use.  I spent many hours trying to track down the right bios files and Phoenix flash utility to do this update and was finally able to get it done.  The original download sites for most of these are long gone.. so it was a real chore to find the right stuff.  So for those who have this board here are all the required files in one place.<!--more-->

@@ -1,22 +1,14 @@
 ---
 title: 'Clearwire In Seattle + Easy Google Mapping'
 date: 2012-08-12
-categories:
-  - Computing and Tech
-  - Geeky Stuff
-  - Projects
-  - Seattle
 tags:
-  - antenna
-  - beacon hill
-  - clear
-  - clearwire
-  - directional
-  - Seattle
-  - signal strength
-  - tower
+  - computing
+  - networking
+  - projects
+  - seattle
+  - tech
   - wimax
-  - wireless internet
+  - wireless
 ---
 
 ![](inline_medium_WiMAX-wireless-antennas-tower.jpg#floatright)

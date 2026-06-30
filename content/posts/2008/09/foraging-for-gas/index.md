@@ -1,10 +1,9 @@
 ---
 title: Foraging for Gas
 date: 2008-09-28
-categories:
-  - Random
 tags:
   - charlotte
+  - energy
   - fuel
   - shortages
 ---

@@ -1,10 +1,10 @@
 ---
 title: Subtitles
 date: 2007-02-15
-categories:
-  - Personal
 tags:
-  - wtf
+  - culture
+  - movies
+  - personal
 ---
 
 So I saw the amazing movie Pan’s Labyrinth the other night.. which is in Spanish. In talking about it with some friends several said they don’t watch foreign movies unless they are dubbed into English. Why you might ask… because they don’t like to read the subtitles. This wasn’t just a preference.. the ones who said this actually seemed offended/annoyed that they had to read something.. ‘I don’t go to a movie to read.’

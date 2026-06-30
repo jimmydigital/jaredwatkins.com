@@ -3,14 +3,13 @@ title: Home Coffee Roasting - Hobby That Tastes Great
 date: 2026-04-18
 draft: false
 description: How I got into home coffee roasting, upgraded equipment over the years, and added finer airflow control to improve heat transfer during the roast.
-categories:
-  - hobbies
-tags:
-  - coffee
-  - roasting
-  - equipment-hacking
 thumbnail: ""
 images: []
+tags:
+  - coffee
+  - diy
+  - hobbies
+  - roasting
 ---
 
 I never drank coffee before about three years ago, but I've been roasting and brewing it at home for much longer. The story starts about ten years back when I met my wife in Seattle. She's a big coffee drinker, and one of the things I started doing was making her coffee in the mornings. I tried a bunch of different brewing methods and eventually landed on the Aeropress, which just gave me the most consistent results making one or two cups in a morning. 

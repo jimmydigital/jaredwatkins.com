@@ -1,22 +1,16 @@
 ---
-categories:
-- "Seattle"
-- "Projects"
-- "Personal"
 date: 2017-12-18T12:15:56-06:00
 description: "My 2014 StartupWeekend experience where I mostly learned about team leadership and how important it is to be able to simplify complex ideas and find their essense."
 draft: false
-tags:
-- "Seattle"
-- "Startup"
-- "traffic"
-- "traffic wave"
-- "car technology"
-- "automated driving"
-- "sensor fusion"
-- "behavior modification"
-
 title: My StartupWeekend Experience
+tags:
+  - cars
+  - entrepreneurship
+  - personal
+  - projects
+  - seattle
+  - startup
+  - traffic
 ---
 One of the more fun things I did in Seattle back in 2014 was to participate in a [StartupWeekend][1]
 event with another guy from Amazon. I'd never heard of these events and he described it

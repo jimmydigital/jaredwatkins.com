@@ -1,13 +1,11 @@
 ---
 title: Checking Out The Ariel Atom
 date: 2012-07-08
-categories:
-  - Personal
 tags:
-  - Air Combat USA
-  - Ariel Atom
-  - TMI Autotech
-  - VIR
+  - cars
+  - motorsports
+  - personal
+  - racing
 ---
 
 ![](inline_ArielAtom2450605.jpg)

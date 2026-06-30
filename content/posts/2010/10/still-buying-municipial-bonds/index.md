@@ -1,18 +1,13 @@
 ---
 title: Still buying municipial bonds?
 date: 2010-10-12
-categories:
-  - Charlotte
-  - Economy
-  - investing
 tags:
-  - Charlotte
-  - medicaid
-  - medicare
-  - municipal bonds
-  - rome is burning
-  - social security
-  - taxes
+  - charlotte
+  - debt
+  - economics
+  - investing
+  - municipal-bonds
+  - pensions
 ---
 
 [US Cities Face Half a Trillion Dollars of Pension ][1][Deficits][2]

@@ -1,11 +1,11 @@
 ---
 title: "My first hybrid: an Electric Utility Bike"
 date: 2008-07-07
-categories:
-  - Projects
 tags:
+  - diy
   - ebike
-  - project
+  - electric-vehicle
+  - projects
 ---
 
 I’ve always been interested in alternative/distributed energy systems and that includes things related to transportation.  So over the last few months I looked into the current state of things to find out if there is a viable electric vehicle that could be had today.  While there are some very interesting things out there.. nothing is available in NC today or in the near future that is what I’d call reasonable. Some of the more interesting ones are the [Vectrix][1] and the [Venture One][2].  The Vectrix is a large electric scooter that has reasonable performance but what I’d call an unreasonable price of about 10k. The Venture One looks like a really fun tandem two seater that will be avliable in all electric or a nice hybrid drive system.  No firm pricing or availiablity on that one yet though.  Many of these new vehicles are being developed in CA and will only be for sale there for a while.. since no dealership or support system is yet in place for them.

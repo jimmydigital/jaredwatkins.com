@@ -1,32 +1,16 @@
 ---
 title: 'What I do: Practical Data Visualization'
 date: 2011-03-28
-categories:
-  - Computing and Tech
-  - Geeky Stuff
-  - My Code
-  - Personal
 tags:
-  - bgp
-  - data Visualization
-  - database
-  - debian
-  - jpgraph
+  - coding
+  - computing
+  - data-visualization
   - linux
-  - mirapoint
   - mysql
-  - nagios
-  - oracle
-  - perl
-  - php
-  - postgresql
+  - personal
   - reporting
-  - resume
-  - rrd
-  - statistics
-  - trend
-  - trending
-  - Visualization
+  - tech
+  - voip
 ---
 
 I’m often ask what it is I do for a living… and being lazy I usually just say ‘computer stuff’.   In an effort to provide a little more context to anyone who may be interested this is one in a series of postings where I’ll cover some aspect of what it is I do.

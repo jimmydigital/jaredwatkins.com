@@ -2,25 +2,14 @@
 date: 2013-03-05
 title: "Minimize Amazon Cloudfront Costs With Octopress and S3"
 comments: true
-categories:
-  - Personal
-  - Projects
-  - My Code
 tags:
-  - octopress
-  - blog
   - aws
+  - blogging
   - cloudfront
-  - amazon
-  - frugal
-  - cheapbastard
-  - S3
-  - EC2
-  - t1.micro
-  - m1.small
-  - server
-  - virt
-  - s3cmd
+  - coding
+  - cost-savings
+  - personal
+  - projects
 ---
 I learned an important tip that I thought I should share with others who are considering Octopress
 with publishing to S3/Cloudfront.  If the S3 deployment line in your Rakefile includes the s3cmd

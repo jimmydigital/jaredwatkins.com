@@ -1,11 +1,13 @@
 ---
 title: First NC Tea Party
 date: 2009-04-04
-categories:
-  - Politics
 tag:
   - teaparty
   - charlotte
+tags:
+  - charlotte
+  - politics
+  - tea-party
 ---
 ![](inline_IMG00034.jpg)
 ![](inline_IMG00036.jpg)
