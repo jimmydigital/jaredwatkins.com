@@ -1,15 +1,62 @@
 #!/usr/bin/env sh
 set -e
 
-hugo  --configDir config-texify3 --cleanDestinationDir --gc --logLevel info
+# Build 1: generate site output
+hugo --configDir config-texify3 --cleanDestinationDir --gc --logLevel warn
+
+# Build search index against first build's output
 npm run index
-hugo  --configDir config-texify3 --cleanDestinationDir --gc --logLevel info
 
-read -p "Press [Enter] key to publish to S3..."
+# Build 2: incorporate search index (no clean — first build output is still valid base)
+hugo --configDir config-texify3 --gc --logLevel warn
 
-cd public
-aws s3 sync . s3://jaredwatkins.com/ --delete
+echo "Syncing to S3..."
+CHANGED=$(aws s3 sync public/ s3://jaredwatkins.com/ --delete \
+  | awk '{print $NF}' \
+  | sed 's|s3://jaredwatkins.com||' \
+  | sed 's|^$|/|')
 
-cd ..
-aws cloudfront create-invalidation --distribution-id ER0YCKLM2ZTMA --paths "/*"
+if [ -z "$CHANGED" ]; then
+  echo "No changes to deploy."
+  exit 0
+fi
 
+COUNT=$(echo "$CHANGED" | wc -l | tr -d ' ')
+echo "$COUNT files changed."
+
+read -p "Press [Enter] to invalidate CloudFront..."
+
+invalidate() {
+  local retries=5
+  local wait=30
+  local attempt=1
+  while [ $attempt -le $retries ]; do
+    echo "Invalidation attempt $attempt..."
+    if "$@"; then
+      return 0
+    fi
+    echo "TooManyInvalidationsInProgress — waiting ${wait}s before retry..."
+    sleep $wait
+    attempt=$((attempt + 1))
+    wait=$((wait * 2))
+  done
+  echo "Invalidation failed after $retries attempts."
+  return 1
+}
+
+# For large deploys, /* is simpler and avoids CloudFront path limits
+if [ "$COUNT" -gt 100 ]; then
+  echo "Large deploy ($COUNT files) — using /* invalidation"
+  invalidate aws cloudfront create-invalidation \
+    --distribution-id ER0YCKLM2ZTMA \
+    --paths "/*" \
+    --query "Invalidation.Id" --output text
+else
+  echo "Targeted invalidation for $COUNT paths"
+  echo "$CHANGED" | xargs -n 3000 sh -c '
+    invalidate aws cloudfront create-invalidation \
+      --distribution-id ER0YCKLM2ZTMA \
+      --paths "$@" \
+      --query "Invalidation.Id" --output text
+  ' _
+fi
