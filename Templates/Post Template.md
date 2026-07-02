@@ -3,8 +3,6 @@ title: Your Post Title Here
 date: 2026-03-19
 draft: true
 description: A one or two sentence summary for SEO and list views.
-categories:
-  - General
 tags:
   - tag1
   - tag2

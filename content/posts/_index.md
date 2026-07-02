@@ -85,16 +85,9 @@ For posts making factual claims that might read as surprising or hard to believe
 
 ---
 
-### Topics and Categories
+### Topics and Tags
 
-The established categories are:
-- `Computing and Tech` --sysadmin, networking, programming, hardware, AI
-- `Personal` --projects, life events, moves, observations
-- `Aviation` --flight training, aircraft, airports, flying experiences
-- `Politics` --commentary, usually skeptical of institutional competence
-- `Skepticism` --pushback on hype, pseudoscience, conventional wisdom
-
-New posts should use one of these unless there's a genuinely new subject area. Tags can be more specific (tool names, project names, locations).
+Posts do not use categories -- they have been removed from all posts sitewide. Never add a `categories` field to post frontmatter. Tags carry all classification: lowercase, specific, and concrete (tool names, project names, locations, subject areas like `aviation`, `networking`, `skepticism`).
 
 ### LinkedIn
 When writing shorter summary posts for LinkedIn there are a few stylistic changes from the main blog posts.  Trade less precision for more readability. For example a date mentioned in a blog post as March 31st could be mentioned as The end of March for linkedin. Still correct but less need for precision.  These short summaries should also end with a call to action statement and encourage the reader to explore the topic further at my site linking either to a full blog post or the relevant research section if there is no blog post on the subject. Always save linkedin posts as hugo drafts so they don't publish to the blog site.
@@ -116,7 +109,6 @@ date: YYYY-MM-DD
 draft: false
 description: "One sentence that accurately describes what the post is about."
 tags: ["tag1", "tag2"]
-categories: ["Computing and Tech"]
 ---
 ```
 
@@ -136,7 +128,6 @@ lastmod: YYYY-MM-DD     # date of this update
 draft: false
 description: "One sentence that accurately describes what the post is about."
 tags: ["tag1", "tag2"]
-categories: ["Computing and Tech"]
 ---
 ```
 
