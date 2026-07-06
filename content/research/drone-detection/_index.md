@@ -1,7 +1,7 @@
 ---
 title: "Drone Detection"
 date: 2026-06-05
-lastmod: 2026-07-03
+lastmod: 2026-07-06
 draft: false
 description: "Detection methods, hardware, software, and open-source tools for identifying unauthorized drones at critical infrastructure, including drone-vs-bird discrimination."
 research_area: "drone-detection"
@@ -121,6 +121,7 @@ A knowledge base on detecting unauthorized drones at critical infrastructure —
 | [Sentrycs](https://sentrycs.com) | Israel | Acquired (Ondas, Nov 2025) | Cyber-over-RF protocol manipulation — detect/ID/mitigate without jamming; 25+ countries |
 | [Skydio](https://skydio.com) | USA | Growth (Series F, $4.4B) | Autonomous drone-in-a-box patrol; X10/X10D; AI anomaly detection; Blue UAS listed |
 | [Vigil Autonomy](https://www.vigilautonomy.com) | USA | Early (founded Aug 2025) | CommonDefense multi-spectral benchmark dataset and perception infrastructure for C-UAS teams |
+| [Soundryx](https://soundryx.com) | USA | Early (founded Jan 2025) | Acoustic sensor network detecting drones, vehicles, and gunshots — anti-stealth, radar-independent |
 
 ### Public Companies
 

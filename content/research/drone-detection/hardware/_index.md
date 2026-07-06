@@ -30,3 +30,4 @@ Commercial drone detection systems for critical infrastructure protection, organ
 - [Sentrycs]({{< relref "sentrycs.md" >}}) — Israeli Cyber-over-RF protocol manipulation; detect/ID/mitigate without jamming; acquired by Ondas (ONDS) $200M Nov 2025
 - [Skydio C-UAS]({{< relref "skydio-cuas.md" >}}) — US drone-in-a-box autonomous patrol; X10/X10D platform; AI anomaly detection; Blue UAS listed
 - [Vigil Autonomy]({{< relref "vigil-autonomy.md" >}}) — Austin startup (founded Aug 2025); CommonDefense multi-spectral benchmark dataset and perception infrastructure for C-UAS teams, not an end-user detection product
+- [Soundryx]({{< relref "soundryx.md" >}}) — San Francisco startup (founded Jan 2025); acoustic sensor network for drones, vehicles, and gunshots; pitched as anti-stealth/radar-independent detection
