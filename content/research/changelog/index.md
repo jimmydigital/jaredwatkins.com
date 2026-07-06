@@ -1,7 +1,7 @@
 ---
 title: "Research Section Changelog"
 date: 2026-04-04
-lastmod: 2026-06-29
+lastmod: 2026-07-03
 draft: false
 description: "Timestamped log of additions and modifications to the Research knowledge base."
 research_area: "research"
@@ -18,6 +18,8 @@ sitemap:
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
 
+- **2026-07-03:** Updated People Network Mapping in research steering doc (`_index.md`) — Key People entries must now search for and link public social media accounts (X/Twitter, Bluesky, Mastodon, GitHub, personal sites).
+- **2026-07-03:** Created [Vigil Autonomy]({{< relref "drone-detection/hardware/vigil-autonomy.md" >}}) — Austin C-UAS benchmark startup, founded Aug 2025; CommonDefense multi-spectral dataset.
 - **2026-06-29:** Created [Software Philosophy]({{< relref "software-philosophy/_index.md" >}}) section + [Unix Philosophy]({{< relref "software-philosophy/unix-philosophy.md" >}}) — origins at Bell Labs 1969–1978; McIlroy/Thompson/Ritchie; 17 Raymond rules; GNU/Linux influence; pro/con including Unix security model (ambient authority, confused deputy, pledge/unveil); MIT vs New Jersey divide; BSD/AT&T divergence; applications beyond software (Conway's Law, MVP, QWERTY/VHS, Android/iOS, Jacobs urbanism with US examples); general case (Scott's metis/high modernism, Alexander pattern language, Hayek spontaneous order, Raymond's Cathedral and Bazaar, Illich convivial tools).
 - **2026-06-29:** Created [LFAM]({{< relref "lfam/_index.md" >}}) section + 5 entries: [Thermwood LSAM]({{< relref "lfam/thermwood-lsam.md" >}}) (Boeing 777X tooling, AFRL LCRT, Bell blade mold); [Ingersoll MasterPrint]({{< relref "lfam/ingersoll-masterprint.md" >}}) (450 m³, UMaine wind blade tooling, MasterPrint Deployable); [AML3D]({{< relref "lfam/aml3d.md" >}}) (WAAM, Virginia-class Cu-Ni in 5 wks vs 17 mo, 1,600 Navy components by 2030); [Caracol AM]({{< relref "lfam/caracol-am.md" >}}) ($40M Series B, Heron AM robotic, ESA AIMIS); [CEAD]({{< relref "lfam/cead.md" >}}) (Flexbot, continuous fiber, Maritime Application Center).
 - **2026-06-29:** Created [Naval Drones / ASVs]({{< relref "robotics/naval-drones/_index.md" >}}) section + 3 entries: [Saronic Technologies]({{< relref "robotics/naval-drones/saronic.md" >}}) (Corsair/Mirage/Marauder ASVs, $9.25B valuation, $392M Navy contract, MUSV Marketplace, Echelon software); [HavocAI]({{< relref "robotics/naval-drones/havocai.md" >}}) ($185M raised, 30+ DoD vessels, Hanwha 200-ft ASV partnership, GPS-denied air-sea demo); [Anduril ASV]({{< relref "robotics/naval-drones/anduril-asv.md" >}}) (HD Hyundai partnership, MASC candidate, Seattle shipyard). Created [Undersea Drones / AUVs]({{< relref "robotics/undersea-drones/_index.md" >}}) section + 3 entries: [Anduril Undersea]({{< relref "robotics/undersea-drones/anduril-undersea.md" >}}) (Ghost Shark XLUUV ADF delivery Nov 2025, Dive-XL US Navy XLUUV selection Mar 2026, Copperhead-100M/500M munitions); [L3Harris Iver4]({{< relref "robotics/undersea-drones/l3harris-iver4.md" >}}) (TTLR torpedo-tube AUV launch/recovery, DIU contract Mar 2026); [Lockheed Lamprey]({{< relref "robotics/undersea-drones/lockheed-lamprey.md" >}}) (hull-attaching hydrogen AUV, 14-month internal dev, Feb 2026). Updated [Robotics index]({{< relref "robotics/_index.md" >}}) with both new subsections.

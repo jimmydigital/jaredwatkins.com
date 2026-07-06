@@ -1,11 +1,11 @@
 ---
 title: "Drone Detection"
 date: 2026-06-05
-lastmod: 2026-06-05
+lastmod: 2026-07-03
 draft: false
 description: "Detection methods, hardware, software, and open-source tools for identifying unauthorized drones at critical infrastructure, including drone-vs-bird discrimination."
 research_area: "drone-detection"
-last_reviewed: 2026-06-05
+last_reviewed: 2026-07-03
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -120,6 +120,7 @@ A knowledge base on detecting unauthorized drones at critical infrastructure —
 | [Dronetag](https://dronetag.com) | Czech Republic | Private | Remote ID hardware (BS base station receiver) |
 | [Sentrycs](https://sentrycs.com) | Israel | Acquired (Ondas, Nov 2025) | Cyber-over-RF protocol manipulation — detect/ID/mitigate without jamming; 25+ countries |
 | [Skydio](https://skydio.com) | USA | Growth (Series F, $4.4B) | Autonomous drone-in-a-box patrol; X10/X10D; AI anomaly detection; Blue UAS listed |
+| [Vigil Autonomy](https://www.vigilautonomy.com) | USA | Early (founded Aug 2025) | CommonDefense multi-spectral benchmark dataset and perception infrastructure for C-UAS teams |
 
 ### Public Companies
 

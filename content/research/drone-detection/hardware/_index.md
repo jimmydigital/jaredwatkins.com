@@ -1,11 +1,11 @@
 ---
 title: "Commercial C-UAS Hardware"
 date: 2026-06-05
-lastmod: 2026-06-05
+lastmod: 2026-07-03
 draft: false
 description: "Commercial drone detection hardware vendors for critical infrastructure protection — multi-sensor systems, RF scanners, radar, and passive optical."
 research_area: "drone-detection/hardware"
-last_reviewed: 2026-06-05
+last_reviewed: 2026-07-03
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -29,3 +29,4 @@ Commercial drone detection systems for critical infrastructure protection, organ
 - [AeroDefense AirWarden]({{< relref "aerodefense-airwarden.md" >}}) — US RF spectrum sensing; detects drone + pilot simultaneously; correctional + critical infrastructure focus
 - [Sentrycs]({{< relref "sentrycs.md" >}}) — Israeli Cyber-over-RF protocol manipulation; detect/ID/mitigate without jamming; acquired by Ondas (ONDS) $200M Nov 2025
 - [Skydio C-UAS]({{< relref "skydio-cuas.md" >}}) — US drone-in-a-box autonomous patrol; X10/X10D platform; AI anomaly detection; Blue UAS listed
+- [Vigil Autonomy]({{< relref "vigil-autonomy.md" >}}) — Austin startup (founded Aug 2025); CommonDefense multi-spectral benchmark dataset and perception infrastructure for C-UAS teams, not an end-user detection product
