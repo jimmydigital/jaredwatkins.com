@@ -1,7 +1,7 @@
 ---
 title: Research
 date: 2026-03-23
-lastmod: 2026-06-29
+lastmod: 2026-07-03
 draft: false
 last_reviewed: 2026-04-07
 description: AI-maintained knowledge base on emerging technology topics.
@@ -466,8 +466,9 @@ Every company entry must have a **Key People** section. For each named person in
 1. Full name and current role/title
 2. LinkedIn profile URL (format: `https://www.linkedin.com/in/[slug]`) — search for the actual URL; if not findable, mark `LinkedIn: not found`
 3. Google Scholar or institutional page URL if the person is a researcher
-4. Previous employers in reverse-chronological order, with approximate tenure dates
-5. Overlap flag: if this person previously worked at any other company already documented in the Research section, or at a company that is a partner/investor of another documented company, call it out explicitly with a note like: "**⚑ Overlap:** Previously at [Company X] overlapping with [Person Y] (approx. [year range])"
+4. Public social media accounts — search for and link the person's other public professional accounts: X/Twitter, Bluesky, Mastodon, GitHub (for engineers/researchers), and personal websites/blogs. Link each with the platform named, e.g. `[X](https://x.com/handle)`, `[GitHub](https://github.com/handle)`. Only link accounts that are clearly the same person (verify via bio, company affiliation, or cross-reference with existing verified accounts like LinkedIn) — do not guess at handles. If no public account is findable for a platform, omit it rather than marking every platform as not found; only note `LinkedIn: not found` per rule 2 above since it's the primary required one.
+5. Previous employers in reverse-chronological order, with approximate tenure dates
+6. Overlap flag: if this person previously worked at any other company already documented in the Research section, or at a company that is a partner/investor of another documented company, call it out explicitly with a note like: "**⚑ Overlap:** Previously at [Company X] overlapping with [Person Y] (approx. [year range])"
 
 Cross-entry overlap notes: if two or more people at different documented companies share a prior employer, add a note to both entries. Format: `**⚑ Shared background:** [Person A] (Company X) and [Person B] (Company Y) both worked at [Shared Employer] [year range if known].`
 
@@ -475,7 +476,7 @@ At the bottom of every Key People section include a subsection: `### People — 
 
 Review cadence for people sections: every 180 days. Fast-moving startups: 90 days.
 
-Source all LinkedIn and employment history information from public web searches. Do not fabricate profile URLs — if unsure, leave a TODO comment.
+Source all LinkedIn, social media, and employment history information from public web searches. Do not fabricate profile URLs — if unsure, leave a TODO comment.
 
 ---
 

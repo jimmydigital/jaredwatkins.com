@@ -2,6 +2,7 @@
 set -e
 
 hugo  --configDir config-texify3 --cleanDestinationDir --gc --logLevel info
+rm -rf static/pagefind
 npm run index
 hugo  --configDir config-texify3 --cleanDestinationDir --gc --logLevel info
 

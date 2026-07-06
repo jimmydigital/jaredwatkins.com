@@ -1,6 +1,7 @@
 ---
 title: Posts
 date: 2026-04-04
+lastmod: 2026-07-03
 draft: false
 description: Personal writing on technology, aviation, projects, and whatever else is worth saying.
 sitemap:
@@ -32,6 +33,9 @@ The Posts section is Jared's personal blog, active since 2005. It covers technic
 - Self-aware and occasionally self-deprecating. Acknowledges his own preferences, biases, and limitations without making a big deal of it.
 - Technically confident. Doesn't over-explain things to an assumed-technical audience, but will slow down to clarify when the concept genuinely needs it.
 - Casual vocabulary mixed with domain-specific precision. Can say "duct tape solution" in the same paragraph as "BGP route advertisement."
+- Blunt verdicts, understated stakes. Willing to say something is wrong or overhyped outright, but nothing is "critical" or "the part that keeps me up at night" unless it actually is. State the facts and let them raise the stakes.
+- Evoke, don't announce. State the concrete fact and let the reader feel the idea. Never explain the theme, never explain the joke. If the reader can't infer it, rewrite the passage rather than adding a sentence.
+- Concrete over abstract. Dollar figures, part numbers, named companies and tools. One good physical or economic metaphor beats a paragraph of explanation.
 
 ---
 
@@ -71,9 +75,15 @@ There is no mandatory template, but good posts generally follow this loose shape
 
 ### Writing Style Details
 
-**Sentence rhythm:** Vary it. Short punchy sentences work for emphasis. Longer sentences work for explaining something with multiple moving parts, as long as they don't lose the thread. Ellipses (`...`) are a natural conversational pause marker in this voice. Avoid em-dashes (`—`) and double hyphens (`--`) entirely. Instead use commas for brief interjections, parentheses for side comments, or break into separate sentences. For ranges, use "to" instead of dashes: write "5 to 10" not "5--10" or "5–10".
+**Sentence rhythm:** Vary it. Short punchy sentences work for emphasis. Longer sentences work for explaining something with multiple moving parts, as long as they don't lose the thread. Short declaratives carry the argument; momentum sentences carry the evidence. A long sentence is good when it drives, piling facts with commas toward a point. What's banned is the balanced multi-clause sentence that goes nowhere. One-or-two-word verdict sentences ("Wrong." "Probably not.") land because they're rare, so keep them rare. Ellipses (`...`) are a natural conversational pause marker in this voice. Avoid em-dashes (`—`) and double hyphens (`--`) entirely. Instead use commas for brief interjections, parentheses for side comments, or break into separate sentences. For ranges, use "to" instead of dashes: write "5 to 10" not "5--10" or "5–10".
 
 **Parenthetical digressions:** These are a feature, not a bug. If there's a relevant aside that would interrupt the main flow, drop it in parentheses. Don't avoid them in the name of clean prose.
+
+**All-caps for emphasis:** Almost never. At most once per post, only for genuine spoken stress. Never capitalize adjectives ("TRUE", "EXACTLY") as decoration.
+
+**Calibration:** When in doubt about voice, Mike Solana is the closest published reference: the momentum paragraph that piles evidence toward a verdict, dry parentheticals, the blunt pivot ("Anyway."), the physical metaphor that does the explaining. Take the drive and the dry humor; leave the culture war. Evoke, never imitate.
+
+**AI attribution:** Never append "written with AI," "drafted by...," model watermarks, or any tooling disclosure to a post. The writing stands on its own.
 
 **Technical vocabulary:** Use the right term. Don't substitute "networking thing" for VLAN or BGP just to sound accessible. The audience is assumed to be technically literate. If a term genuinely needs definition, define it briefly inline, not in a separate explainer section.
 
@@ -145,6 +155,11 @@ tags: ["tag1", "tag2"]
 - **Formal essay structure.** No thesis statement, no "in conclusion," no topic sentences signaling what each paragraph will cover. This is not a five-paragraph essay.
 - **Excessive structure on short posts.** Headers and subheads on a 400-word post make it feel like a listicle. Save them for genuinely long, multi-section pieces.
 - **Invented technical details.** If a specific tool, command, or fact is uncertain, flag it or leave it vague. Don't hallucinate specifics that can't be verified.
+- **AI slop tells.** "Here's the thing," "let's be honest," "the key insight," "moreover/furthermore/delve," rule-of-three flourishes, bow-tie endings that wrap everything up neatly.
+- **Multi-clause pileups.** Three ideas in one sentence means two sentences too few.
+- **Precious aphorisms.** The clipped fragment posing as profundity, the metaphor that admires itself. Terse is not the same as poetic.
+- **Cheekiness.** If a line's main job is to be liked, cut it. The humor works because it's underplayed.
+- **Flowery vocabulary** where a plain word exists. An unusual or coined word is fine about once per post, only where no plain word does the job.
 
 ---
 
