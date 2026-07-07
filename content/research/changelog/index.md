@@ -1,7 +1,7 @@
 ---
 title: "Research Section Changelog"
 date: 2026-04-04
-lastmod: 2026-07-06
+lastmod: 2026-07-07
 draft: false
 description: "Timestamped log of additions and modifications to the Research knowledge base."
 research_area: "research"
@@ -17,6 +17,8 @@ sitemap:
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+- **2026-07-07:** Created [Mesh-Mapper]({{< relref "drone-detection/open-source/mesh-mapper.md" >}}) — dual-core ESP32 WiFi/BT Remote ID detector; Flask web map + Meshtastic mesh alerting; FAA lookup.
 
 - **2026-07-06:** Created [Soundryx]({{< relref "drone-detection/hardware/soundryx.md" >}}) — San Francisco acoustic C-UAS startup founded Jan 2025 by James Mishra (ex-Neocrym); acoustic sensor network for drones, vehicles, gunshots; updated drone-detection hardware and section indexes.
 - **2026-07-03:** Updated People Network Mapping in research steering doc (`_index.md`) — Key People entries must now search for and link public social media accounts (X/Twitter, Bluesky, Mastodon, GitHub, personal sites).

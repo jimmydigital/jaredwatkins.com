@@ -1,11 +1,11 @@
 ---
 title: "Open Source Drone Detection Projects"
 date: 2026-06-05
-lastmod: 2026-06-05
+lastmod: 2026-07-07
 draft: false
 description: "Open-source tools and libraries for drone detection and Remote ID decoding — usable today for building custom detection systems."
 research_area: "drone-detection/open-source"
-last_reviewed: 2026-06-05
+last_reviewed: 2026-07-07
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -23,6 +23,7 @@ Active open-source projects for drone detection and Remote ID decoding. Filtered
 - [DJI DroneID Decoder]({{< relref "dji-droneid-decoder.md" >}}) — GNU Radio / SDR decoder for proprietary DJI DroneID (pre-Remote ID)
 - [ArduPilot RemoteID]({{< relref "ardupilot-remoteid.md" >}}) — Open-source Remote ID transmitter for ArduPilot-based drones
 - [Acoustic ML Pipeline]({{< relref "acoustic-ml-pipeline.md" >}}) — Raspberry Pi + MEMS mic array + CNN/Random Forest classifier; detects RF-dark drones acoustically
+- [Mesh-Mapper]({{< relref "mesh-mapper.md" >}}) — Dual-core ESP32 WiFi/BT Remote ID detector; Flask web map; Meshtastic mesh alerting; FAA lookup
 
 ## Quick Reference: What Each Project Does
 
@@ -34,3 +35,4 @@ Active open-source projects for drone detection and Remote ID decoding. Filtered
 | ArduPilot/ArduRemoteID | C++ / ArduPilot | Transmit Remote ID from ArduPilot drones | Active |
 | PiNcH | Python | Drone presence detection via network traffic analysis (ArduCopter) | Research |
 | RPi acoustic ML pipeline | Python / scikit-learn / TFLite | MEMS mic array + MFCC + Random Forest/CNN for passive acoustic detection | DIY / Research |
+| Mesh-Mapper | ESP32 (dual-core) / Python Flask | WiFi+BT Remote ID capture, web map, Meshtastic mesh relay, FAA lookup | Active |
