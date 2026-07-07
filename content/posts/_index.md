@@ -102,7 +102,9 @@ Posts do not use categories -- they have been removed from all posts sitewide. N
 ### LinkedIn
 When writing shorter summary posts for LinkedIn there are a few stylistic changes from the main blog posts.  Trade less precision for more readability. For example a date mentioned in a blog post as March 31st could be mentioned as The end of March for linkedin. Still correct but less need for precision.  These short summaries should also end with a call to action statement and encourage the reader to explore the topic further at my site linking either to a full blog post or the relevant research section if there is no blog post on the subject. Always save linkedin posts as hugo drafts so they don't publish to the blog site.
 
-**LinkedIn opener pattern:** Lead with a question that's relevant for the content and for the type of technical reader likely to see this feed.  Acknowledge the platform context ("all over the feed", "everyone's posting about X") then pivot to the missing angle. This is distinct from the blog opener style (which starts near the action). LinkedIn openers earn the click by naming the conversation the reader is already in.
+**LinkedIn opener pattern:** Always lead with a hook or question, relevant to the content and to the type of technical reader likely to see this feed. This is distinct from the blog opener style (which starts near the action) — LinkedIn openers earn the click by putting the reader inside a question or claim immediately, not by describing the platform first.
+
+**Banned opener patterns:** Never use "everyone is saying," "everyone's feed has," "all over the feed," "everyone's posting about X," or similar meta-commentary about the platform itself. These read as AI slop. Naming the conversation the reader is in should happen through the hook's content (a sharp claim, a specific number, a pointed question), not by describing that a conversation is happening.
 
 **LinkedIn CTA format:** End with a single short line ("Full breakdown with data, charts, and the financial mechanics:") followed by the link on its own line. No full sentence, no "check it out" filler.
 
