@@ -160,6 +160,8 @@ tags: ["tag1", "tag2"]
 - **Precious aphorisms.** The clipped fragment posing as profundity, the metaphor that admires itself. Terse is not the same as poetic.
 - **Cheekiness.** If a line's main job is to be liked, cut it. The humor works because it's underplayed.
 - **Flowery vocabulary** where a plain word exists. An unusual or coined word is fine about once per post, only where no plain word does the job.
+- **"Genuine" / "genuinely."** Never use this word or any form of it in post body text -- it reads as overly formal and is a reliable tell. Say "actually," "really," cut it, or just state the claim without the qualifier.
+- **"It's not X, it's Y" construction.** This includes variants like "that's not X, it's Y" and "not X. That's Y" as two sentences. It's an AI slop tell -- overused as a cheap rhetorical contrast. State the point directly instead of setting up a straw version to knock down.
 
 ---
 
