@@ -1,10 +1,10 @@
 ---
 title: "Detection Methods"
 date: 2026-06-05
-lastmod: 2026-06-05
-last_reviewed: 2026-06-05
+lastmod: 2026-07-07
+last_reviewed: 2026-07-07
 draft: false
-description: "Overview of drone detection modalities: micro-Doppler radar, RF/Remote ID, acoustic, optical/thermal, and multi-sensor fusion — with focus on drone-vs-bird discrimination."
+description: "Overview of drone detection modalities: micro-Doppler radar, Remote ID monitoring, non-cooperative RF direction finding, acoustic, optical/thermal, and multi-sensor fusion — with focus on drone-vs-bird discrimination."
 research_area: "drone-detection/detection-methods"
 stale_after_days: 90
 sitemap:
@@ -20,7 +20,8 @@ Overview of the primary sensing modalities used to detect drones, with comparati
 ## Entries
 
 - [Micro-Doppler Radar]({{< relref "micro-doppler-radar.md" >}}) — Primary detection method; best for drone-vs-bird discrimination
-- [RF / Remote ID Monitoring]({{< relref "rf-detection.md" >}}) — Catches compliant US drones; ineffective against fiber-optic/autonomous threats
+- [FAA Remote ID Monitoring]({{< relref "rf-detection.md" >}}) — Cooperative broadcast reception; catches only compliant US drones that choose to broadcast
+- [RF Direction Finding (Non-Cooperative)]({{< relref "rf-direction-finding.md" >}}) — Passive triangulation of control-link/video emissions; works on any RF-emitting drone regardless of Remote ID compliance
 - [Acoustic Detection]({{< relref "acoustic-detection.md" >}}) — Detects motor/rotor noise; effective at short range; works on RF-dark drones
 - [Optical / Thermal]({{< relref "optical-thermal-detection.md" >}}) — EO/IR camera systems; Marduk approach for fiber-optic threats
 - [Multi-Sensor Fusion]({{< relref "multi-sensor-fusion.md" >}}) — Combining modalities for reliable detection and classification

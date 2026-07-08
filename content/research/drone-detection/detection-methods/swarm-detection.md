@@ -1,7 +1,7 @@
 ---
 title: "Swarm Detection"
 date: 2026-06-05
-lastmod: 2026-06-05
+lastmod: 2026-07-07
 draft: false
 description: "State of the art in detecting coordinated multi-drone swarm attacks — what makes swarms uniquely hard to detect, which detection methods scale, and the current commercial and research approaches."
 research_area: "drone-detection/detection-methods"
@@ -53,7 +53,7 @@ Camera-based detection and tracking systems with AI object detection face proces
 
 ### 5. Coordination without RF
 
-Fully autonomous swarms can operate on pre-programmed waypoints or with onboard coordination algorithms (swarm intelligence, distributed consensus) with no active RF control link per drone. These swarms exploit the detection gap of RF-only C-UAS systems. See [RF Detection limitations]({{< relref "rf-detection.md" >}}).
+Fully autonomous swarms can operate on pre-programmed waypoints or with onboard coordination algorithms (swarm intelligence, distributed consensus) with no active RF control link per drone. These swarms exploit the detection gap shared by every RF-based method — both [Remote ID monitoring]({{< relref "rf-detection.md" >}}) and [non-cooperative RF direction finding]({{< relref "rf-direction-finding.md" >}}), since neither has anything to detect without an active RF emission.
 
 ## Detection Methods That Scale to Swarms
 

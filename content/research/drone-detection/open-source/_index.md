@@ -24,6 +24,10 @@ Active open-source projects for drone detection and Remote ID decoding. Filtered
 - [ArduPilot RemoteID]({{< relref "ardupilot-remoteid.md" >}}) — Open-source Remote ID transmitter for ArduPilot-based drones
 - [Acoustic ML Pipeline]({{< relref "acoustic-ml-pipeline.md" >}}) — Raspberry Pi + MEMS mic array + CNN/Random Forest classifier; detects RF-dark drones acoustically
 - [Mesh-Mapper]({{< relref "mesh-mapper.md" >}}) — Dual-core ESP32 WiFi/BT Remote ID detector; Flask web map; Meshtastic mesh alerting; FAA lookup
+- [DragonSync]({{< relref "dragonsync.md" >}}) — Fuses Remote ID + DJI DroneID detections into CoT for TAK/ATAK, MQTT/Home Assistant, and Lattice; software core of the WarDragon kit
+- [iNTERCEPT]({{< relref "intercept.md" >}}) — Broad web-based SIGINT platform (ADS-B, AIS, pagers, weather sat, and more) with a multi-vector drone-detection module
+- [Phantom-Proof]({{< relref "phantom-proof.md" >}}) — Cross-verifies Remote ID claims against passive radar tracks to flag spoofed (PHANTOM) or contradictory (DECEPTION) broadcasts
+- [droneRemoteIDSpoofer]({{< relref "drone-remoteid-spoofer.md" >}}) — WiFi/BLE Remote ID spoofer for testing receiver systems; demonstrates the protocol's lack of authentication
 
 ## Quick Reference: What Each Project Does
 
@@ -36,3 +40,7 @@ Active open-source projects for drone detection and Remote ID decoding. Filtered
 | PiNcH | Python | Drone presence detection via network traffic analysis (ArduCopter) | Research |
 | RPi acoustic ML pipeline | Python / scikit-learn / TFLite | MEMS mic array + MFCC + Random Forest/CNN for passive acoustic detection | DIY / Research |
 | Mesh-Mapper | ESP32 (dual-core) / Python Flask | WiFi+BT Remote ID capture, web map, Meshtastic mesh relay, FAA lookup | Active |
+| DragonSync | Python | Fuses Remote ID/DJI DroneID detections into CoT, MQTT/HA, Lattice | Active |
+| iNTERCEPT | Python / Flask | Multi-domain SIGINT platform; drone module (Remote ID + sub-GHz + 2.4/5.8GHz) | Active |
+| Phantom-Proof | Python | Passive-radar physical verification of Remote ID claims (anti-spoofing) | Early-stage |
+| droneRemoteIDSpoofer | Python / scapy | WiFi + BLE Remote ID spoofer for testing detection/receiver systems | Active |

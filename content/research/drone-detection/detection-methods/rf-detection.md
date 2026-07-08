@@ -1,9 +1,9 @@
 ---
-title: "RF / Remote ID Monitoring"
+title: "FAA Remote ID Monitoring"
 date: 2026-06-05
-lastmod: 2026-06-05
+lastmod: 2026-07-07
 draft: false
-description: "Radio frequency detection of drone control links and FAA Remote ID broadcasts — effective against compliant US drones; fundamentally unable to detect fiber-optic or pre-programmed autonomous drones."
+description: "Reception and decoding of FAA/ASTM F3411 Remote ID broadcasts — the fastest path to identifying compliant US drones, but entirely dependent on the drone's voluntary cooperation. See RF Direction Finding for detection that doesn't require it."
 research_area: "drone-detection/detection-methods"
 source_urls:
   - "https://www.faa.gov/uas/getting_started/remote_id"
@@ -11,8 +11,7 @@ source_urls:
   - "https://aerodefense.tech/airwarden-remote-id-receiver/"
   - "https://www.dronetag.com/products/bs"
   - "https://pmc.ncbi.nlm.nih.gov/articles/PMC10490811/"
-  - "https://www.airsight.com/blog/end-of-jamming-tethered-waypoint-drones"
-last_reviewed: 2026-06-05
+last_reviewed: 2026-07-07
 stale_after_days: 90
 ---
 
@@ -20,56 +19,52 @@ stale_after_days: 90
 
 ## Summary
 
-RF detection monitors the radio frequency emissions of drone control links (2.4 GHz, 5.8 GHz) and video downlinks to detect and identify commercial drones. FAA Remote ID (broadcast over Wi-Fi NAN and Bluetooth 5 long-range) provides standardized identification telemetry for compliant US drones. RF monitoring is the fastest path to operator identification and location for compliant drones but is completely ineffective against fiber-optic tethered or fully autonomous pre-programmed drones that emit no RF whatsoever.
+FAA Remote ID (ASTM F3411 / 14 CFR Part 89) requires US-registered drones manufactured after 2022 to broadcast identification telemetry — drone ID, position, altitude, velocity, and operator location — over WiFi NAN and Bluetooth 5 Long Range every second. Receiving and decoding these broadcasts is the fastest and cheapest path to identifying a compliant drone and its operator. **Critical distinction:** this is a fundamentally cooperative detection method — it works only because the drone chooses to broadcast. It provides zero coverage against non-compliant, modified, or RF-silent drones. For detection that doesn't depend on the drone's cooperation, see [RF Direction Finding]({{< relref "rf-direction-finding.md" >}}), which locates drones by their control-link and video-link emissions instead.
 
 ## Key Facts
 
+- **Governing standard:** ASTM F3411-22a (equivalent to EUROCAE ED-269); 14 CFR Part 89 (US)
 - **FAA Remote ID enforcement:** Active as of 2023; as of 2025 local law enforcement can use Remote ID apps to identify non-compliant operators
-- **RF control link frequencies:** 2.4 GHz and 5.8 GHz ISM bands (DJI Ocusync, Lightbridge, Wi-Fi); FPV systems often on 5.8 GHz video
-- **Remote ID broadcast protocols:** Wi-Fi NAN (802.11) and Bluetooth 5 Long Range (ASTM F3411-22a standard)
-- **Detection range:** Up to 5 km for passive RF sensors in ideal conditions; ~1.3–3.7 km for Remote ID depending on drone model
-- **Critical limitation:** Zero effectiveness against fiber-optic tethered drones or pre-programmed autonomous drones with no active RF transmissions
+- **Broadcast protocols:** Wi-Fi NAN (802.11) and Bluetooth 5 Long Range
+- **Detection range:** ~300 m–3.7 km depending on drone model, protocol, and environment
+- **International adoption:** The US, UK, and EU all converge on this same ASTM F3411 broadcast standard — see [International Remote ID Requirements]({{< relref "../international-remote-id-requirements.md" >}}); China layers on an additional mandatory network-mode requirement not covered by broadcast-only receivers
+- **Critical limitation:** Entirely dependent on the drone choosing to broadcast — no capability against non-compliant, spoofed, or RF-silent drones
 
 ## What It Is / How It Works
 
-**Passive RF detection** uses wideband software-defined radio (SDR) receivers to scan the spectrum for drone control link emissions. Many drones use proprietary protocols (DJI OcuSync, DJI O3, Skydio SPRTN) that can be fingerprinted. Directional antennas combined with angle-of-arrival (AoA) processing allow triangulation of both drone and operator positions. Systems like Dedrone RF-360 and Aaronia AARTOS operate on this principle, with detection ranges up to 5 km in ideal conditions and protocol libraries covering 200+ drone types.
+**FAA Remote ID** mandates that compliant drones broadcast identification messages including drone ID, takeoff location, current position, altitude, velocity, and operator location every second, using two mechanisms:
 
-**FAA Remote ID** (ASTM F3411 / 14 CFR Part 89) mandates that US-registered drones manufactured after 2022 broadcast identification messages every second including: drone ID, takeoff location, current position, altitude, velocity, and operator location. These broadcasts use:
-- **Broadcast Remote ID (BRI):** Direct RF broadcast from drone (Wi-Fi NAN, Bluetooth 5 LR) — receivable with off-the-shelf hardware within ~300m–3.7 km depending on protocol and environment
+- **Broadcast Remote ID (BRI):** Direct RF broadcast from the drone (Wi-Fi NAN, Bluetooth 5 LR) — receivable with off-the-shelf hardware within ~300 m–3.7 km depending on protocol and environment
 - **Network Remote ID:** Drone sends data to a USS (UAS Service Supplier) via cellular uplink — requires network access by the drone
 
-Receivers built to the ASTM standard (Dronetag BS, AeroDefense AirWarden, OpenDroneID receiver apps) can decode BRI and display operator identity, position, and flight path.
+Receivers built to the ASTM standard — [Dronetag BS and RIDER](https://www.dronetag.com/products/bs), AeroDefense AirWarden, and open-source stacks like [OpenDroneID]({{< relref "../open-source/opendroneid.md" >}}) — decode BRI and display operator identity, position, and flight path. This is the mechanism behind most of the open-source Remote ID tooling covered elsewhere in this section, including [Mesh-Mapper]({{< relref "../open-source/mesh-mapper.md" >}}) and [DragonSync]({{< relref "../open-source/dragonsync.md" >}}).
 
 **Research-grade RF identification** work (Svanström et al., 2023) demonstrates decoding Remote ID telemetry from DJI drones at up to 3.7 km and reconstructing 2D position and altitude in real time from the encoded GPS data.
-
-## Threat Vector Analysis: What RF Cannot Detect
-
-This is the most important operational constraint for critical infrastructure protection:
-
-**Fiber-optic tethered drones** have no radio link at all. Control signals travel through a thin fiber-optic cable that spools from the ground to the drone. First deployed operationally by Russian forces in Ukraine (~2024), these drones are:
-- Completely invisible to all passive RF detection
-- Immune to RF jamming
-- Increasingly available commercially and on the grey market
-- NATO issued an urgent innovation challenge in April 2025 specifically seeking detection for fiber-optic FPV threats
-
-**Pre-programmed autonomous (waypoint) drones** operate on pre-loaded GPS flight paths with no active command link during flight. They may transmit Remote ID (if compliant) but emit no controllable RF link. Detection requires other modalities (radar, acoustic, optical).
-
-**RF-silent phases:** Even conventionally RF-controlled drones may go RF-silent for portions of a mission by using pre-programmed waypoints with the control link dormant. RF detection only catches actively communicating drones.
 
 ## Hardware Available Today
 
 | Product | Vendor | Type | Range | Notes |
 |---------|--------|------|-------|-------|
-| RF-360 | Dedrone (Axon) | Passive RF | ~2 km typical / 5 km ideal | 2.5° AoA; 200+ drone protocols; MIL-STD-810H |
-| AARTOS X9 | Aaronia AG | Passive RF + Remote ID | Up to 14 km | 20 MHz–8 GHz; decodes DJI OcuSync, Mavlink; 360° coverage |
-| AARTOS X2 | Aaronia AG | Portable passive RF | Up to 5 km | Mobile deployment |
 | AirWarden | AeroDefense | Remote ID receiver | ~300 m–1 km | Small form factor; low maintenance; FAA BRI compatible |
 | Dronetag BS | Dronetag | Remote ID base station | ~3–5 km | Fixed outdoor receiver; feeds UTM/app |
 | Dronetag RIDER | Dronetag | Portable Remote ID | ~3 mi radius | IP54; 6–10 hr battery; patrol use |
+| AARTOS X9 | Aaronia AG | Passive RF + Remote ID | Up to 14 km | Also does non-cooperative RF triangulation — see [RF Direction Finding]({{< relref "rf-direction-finding.md" >}}) |
+
+Several of the non-cooperative RF systems in [RF Direction Finding]({{< relref "rf-direction-finding.md" >}}) — notably Aaronia AARTOS and Tron Future T.Sensor — also decode Remote ID as an additional capability layered on top of their primary control-link detection.
+
+## Why Cooperative Detection Is Not Enough
+
+Remote ID's core weakness for critical infrastructure protection is that it only works if the drone operator complies:
+
+- **Non-compliant or unregistered drones** simply don't broadcast — there is no enforcement mechanism at the receiver end
+- **Spoofing:** Remote ID has no cryptographic authentication. Any transmitter can broadcast fabricated Remote ID claims that a receiver will display as genuine — see [droneRemoteIDSpoofer]({{< relref "../open-source/drone-remoteid-spoofer.md" >}}) for an open-source tool demonstrating this, and [Phantom-Proof]({{< relref "../open-source/phantom-proof.md" >}}) for a passive-radar approach to verifying broadcast claims against independent physical tracks
+- **Fiber-optic tethered and pre-programmed autonomous drones** may or may not transmit Remote ID depending on compliance, but by definition have no RF *control* link — see [RF Direction Finding]({{< relref "rf-direction-finding.md" >}}) for why this defeats RF-based detection generally
+
+Because of these gaps, Remote ID reception should be treated as one input among several — not a standalone detection layer — for any critical infrastructure deployment. See [Multi-Sensor Fusion]({{< relref "multi-sensor-fusion.md" >}}).
 
 ## Regulatory / Legal Context
 
-RF jamming and signal takeover (cyber/GPS spoofing) of drones is **illegal for private entities** under US federal law (Communications Act, Computer Fraud and Abuse Act). Detection-only is permissible. Only authorized federal agencies (DoD, DHS, DOJ, FAA, Secret Service) may legally employ jamming or cyber countermeasures. State and local law enforcement have limited authority under the FAA Reauthorization Acts of 2018 and 2024.
+Receiving and decoding Remote ID broadcasts is unambiguously legal for any entity — it is a public broadcast signal designed to be received. This is distinct from RF jamming or signal takeover, which remain restricted to authorized federal agencies under US law; see [Regulatory Framework]({{< relref "../regulatory-framework.md" >}}).
 
 ## Sources
 
@@ -78,5 +73,3 @@ RF jamming and signal takeover (cyber/GPS spoofing) of drones is **illegal for p
 - [AeroDefense AirWarden Remote ID Receiver](https://aerodefense.tech/airwarden-remote-id-receiver/)
 - [Dronetag BS product](https://www.dronetag.com/products/bs)
 - [Drone Detection and Tracking Using RF Identification Signals — PMC 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10490811/) — Remote ID decoding at 3.7 km
-- [The End of Jamming: Tethered Drones & Waypoint Autonomy — AirSight](https://www.airsight.com/blog/end-of-jamming-tethered-waypoint-drones)
-- [Fiber-Optic Drones: Posing a Significant C-UAS Challenge — US Army](https://www.army.mil/article/287737/fiber_optic_drones_posing_a_significant_c_uas_challenge)

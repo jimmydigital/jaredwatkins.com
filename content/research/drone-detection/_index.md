@@ -1,7 +1,7 @@
 ---
 title: "Drone Detection"
 date: 2026-06-05
-lastmod: 2026-07-06
+lastmod: 2026-07-07
 draft: false
 description: "Detection methods, hardware, software, and open-source tools for identifying unauthorized drones at critical infrastructure, including drone-vs-bird discrimination."
 research_area: "drone-detection"
@@ -45,7 +45,8 @@ content/research/drone-detection/
   detection-methods/
     _index.md                        ← overview of detection modalities
     micro-doppler-radar.md           ← primary detection method entry
-    rf-detection.md                  ← RF/Remote ID monitoring
+    rf-detection.md                  ← FAA Remote ID monitoring (cooperative broadcast)
+    rf-direction-finding.md          ← Non-cooperative RF triangulation (control/video link)
     acoustic-detection.md            ← acoustic signature analysis
     optical-thermal-detection.md     ← EO/IR camera approaches
     multi-sensor-fusion.md           ← sensor fusion architectures
@@ -96,6 +97,7 @@ A knowledge base on detecting unauthorized drones at critical infrastructure —
 - [Detection Methods]({{< relref "detection-methods/_index.md" >}}) — Micro-Doppler radar, RF/Remote ID, acoustic, optical, and sensor fusion
 - [Threat Taxonomy]({{< relref "threat-taxonomy.md" >}}) — Classification of drone threats: surveillance, RF attack, fiber-optic FPV, autonomous, and swarms
 - [Regulatory Framework]({{< relref "regulatory-framework.md" >}}) — US C-UAS legal landscape: who can detect, who can interdict, applicable statutes, CISA guidance
+- [International Remote ID Requirements]({{< relref "international-remote-id-requirements.md" >}}) — UK, EU, China, and Japan Remote ID mandates compared to the US standard
 - [Open Source Projects]({{< relref "open-source/_index.md" >}}) — OpenDroneID, DJI DroneID decoders, acoustic ML pipeline, and community tools
 - [Commercial Hardware]({{< relref "hardware/_index.md" >}}) — Dedrone, DroneShield, Fortem, D-Fend, Aaronia, Robin Radar, Marduk, AeroDefense, Sentrycs, Skydio
 - [Deployment Architecture]({{< relref "deployment-architecture.md" >}}) — Design pattern for fixed-site C-UAS: sensor placement, integration, power/networking, maintenance

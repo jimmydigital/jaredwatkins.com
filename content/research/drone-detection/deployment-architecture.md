@@ -1,7 +1,7 @@
 ---
 title: "C-UAS Deployment Architecture for Fixed Critical Infrastructure"
 date: 2026-06-05
-lastmod: 2026-06-05
+lastmod: 2026-07-07
 draft: false
 description: "Design pattern for building a counter-UAS detection system at a fixed critical infrastructure site: sensor placement geometry, integration architecture, power and networking, and maintenance cadence."
 research_area: "drone-detection"
@@ -161,7 +161,8 @@ Large or complex sites (airports, large power generation facilities) typically e
 ## Related Entries
 
 - [Micro-Doppler Radar]({{< relref "micro-doppler-radar.md" >}}) — primary detection modality
-- [RF Detection]({{< relref "detection-methods/rf-detection.md" >}}) — Remote ID monitoring and protocol analysis
+- [FAA Remote ID Monitoring]({{< relref "detection-methods/rf-detection.md" >}}) — cooperative broadcast reception
+- [RF Direction Finding (Non-Cooperative)]({{< relref "detection-methods/rf-direction-finding.md" >}}) — control-link/video-link triangulation, independent of Remote ID
 - [Acoustic Detection]({{< relref "acoustic-detection.md" >}}) — close-in perimeter layer
 - [Multi-Sensor Fusion]({{< relref "detection-methods/multi-sensor-fusion.md" >}}) — fusion engine architecture
 - [Regulatory Framework]({{< relref "regulatory-framework.md" >}}) — what commercial operators may legally do

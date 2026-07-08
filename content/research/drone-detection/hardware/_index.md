@@ -1,11 +1,11 @@
 ---
 title: "Commercial C-UAS Hardware"
 date: 2026-06-05
-lastmod: 2026-07-03
+lastmod: 2026-07-07
 draft: false
 description: "Commercial drone detection hardware vendors for critical infrastructure protection — multi-sensor systems, RF scanners, radar, and passive optical."
 research_area: "drone-detection/hardware"
-last_reviewed: 2026-07-03
+last_reviewed: 2026-07-07
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -31,3 +31,6 @@ Commercial drone detection systems for critical infrastructure protection, organ
 - [Skydio C-UAS]({{< relref "skydio-cuas.md" >}}) — US drone-in-a-box autonomous patrol; X10/X10D platform; AI anomaly detection; Blue UAS listed
 - [Vigil Autonomy]({{< relref "vigil-autonomy.md" >}}) — Austin startup (founded Aug 2025); CommonDefense multi-spectral benchmark dataset and perception infrastructure for C-UAS teams, not an end-user detection product
 - [Soundryx]({{< relref "soundryx.md" >}}) — San Francisco startup (founded Jan 2025); acoustic sensor network for drones, vehicles, and gunshots; pitched as anti-stealth/radar-independent detection
+- [CRFS RFeye]({{< relref "crfs-rfeye.md" >}}) — UK passive RF signal-hunting sensor network; geolocates any RF-emitting drone via AoA/TDoA, not dependent on Remote ID; integrated into L3Harris and Rafael C-UAS systems
+- [Sensofusion Airfence]({{< relref "sensofusion-airfence.md" >}}) — Finnish passive RF drone + pilot locator, deployed commercially since 2016; civilian and military editions
+- [Tron Future T.Sensor]({{< relref "tron-future-tsensor.md" >}}) — Taiwanese wideband (400 MHz–6 GHz) passive RF direction finder; part of an integrated AESA anti-drone stack (T.Radar, T.Jammer, T.Cam, T.Meta)
