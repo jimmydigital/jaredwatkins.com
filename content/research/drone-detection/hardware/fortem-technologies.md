@@ -1,7 +1,7 @@
 ---
 title: "Fortem Technologies"
 date: 2026-06-05
-lastmod: 2026-06-05
+lastmod: 2026-07-07
 draft: false
 description: "US C-UAS company providing the SkyDome System — TrueView micro-Doppler radar, SkyDome Manager AI software, and DroneHunter autonomous interceptor drone; Lockheed Martin invested $25M in April 2026."
 research_area: "drone-detection/hardware"
@@ -10,7 +10,7 @@ source_urls:
   - "https://fortemtech.com/products/dronehunter-f700/"
   - "https://news.lockheedmartin.com/2026-04-22-Lockheed-Martin-Invests-25M-in-Fortem-Technologies-to-Meet-Urgent-Demand-for-Countering-UAS-Threats"
   - "https://dronelife.com/2025/12/04/fortem-and-southern-states-partner-on-grid-defense/"
-last_reviewed: 2026-06-05
+last_reviewed: 2026-07-07
 stale_after_days: 90
 ---
 
@@ -64,9 +64,24 @@ Fortem Technologies (Utah, USA) builds the SkyDome System — an integrated C-UA
 
 ## Key People
 
-<!-- TODO: Research founding team and current leadership. LinkedIn research needed. -->
+- **Jon Gruen** — Chief Executive Officer (appointed September 2022)
+- **Timothy Bean** — Co-founder (with Adam Robertson, April 2016); previously CEO, now President and COO
+- **Adam Robertson** — Co-founder
 
-### People — Last Reviewed: 2026-06-05
+### People — Last Reviewed: 2026-07-07
+
+## Claim Verification
+
+### Claim: $25M Lockheed Martin investment (April 2026)
+**Status:** Verified — reported directly by Lockheed Martin's own newsroom.
+**Supporting sources:** [Lockheed Martin press release](https://news.lockheedmartin.com/2026-04-22-Lockheed-Martin-Invests-25M-in-Fortem-Technologies-to-Meet-Urgent-Demand-for-Countering-UAS-Threats).
+**Summary:** Primary-source confirmed.
+
+### Claim: TrueView radar detects DJI Phantom 4 at 4 km, ±2° azimuth/elevation accuracy, as low as 38 W power draw
+**Status:** Unverified independently — company-stated specifications from Fortem's own product materials.
+**Supporting sources:** [Fortem Technologies corporate site](https://fortemtech.com/).
+**Refuting/questioning sources:** None found; no independent test data reviewed.
+**Summary:** Plausible for a micro-Doppler radar in this class, but treat as a vendor-stated figure pending third-party validation.
 
 ## Sources
 

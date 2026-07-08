@@ -46,6 +46,25 @@ The base Airfence product line is detection-and-locate only, aimed at security a
 - **Limited public technical detail:** Unlike Aaronia or CRFS, Sensofusion publishes comparatively little public specification data (frequency range, precise detection range, geolocation technique) — most detail is behind a sales-qualification process
 - **Detection-only base product:** Countermeasure capability is reserved for the Military Edition and is likely restricted to government/military purchasers with appropriate legal authority
 
+## Notable Developments
+
+- **2026-04:** Launched Sensofusion Aviation, extending counter-drone systems to aviation-specific use cases, alongside acquisition of Atol Aviation
+- **2025:** Received the Newcomer Company Award from the President of Finland; reported 2024 turnover of €20.8M with exports accounting for nearly 100% of revenue
+
+## Key People
+
+- **Tuomas Rasila** — Founder and CEO (founded Sensofusion in 2014); background in defense/radio technology, became interested in drones and subsequently counter-drone systems
+
+### People — Last Reviewed: 2026-07-07
+
+## Claim Verification
+
+### Claim: 2024 turnover of €20.8M, nearly 100% export revenue
+**Status:** Reported via a Finnish government award announcement, a more independent source than typical vendor marketing.
+**Supporting sources:** Finnish Government internationalization award coverage (via search; primary government URL not directly captured in this review — verify at valtioneuvosto.fi).
+**Refuting/questioning sources:** None found.
+**Summary:** More credible than a bare company claim given the government source, but the entry should be updated with a direct link once the primary announcement is re-verified.
+
 ## Sources
 
 - [Sensofusion — company homepage](https://sensofusion.com/)

@@ -34,3 +34,5 @@ Commercial drone detection systems for critical infrastructure protection, organ
 - [CRFS RFeye]({{< relref "crfs-rfeye.md" >}}) — UK passive RF signal-hunting sensor network; geolocates any RF-emitting drone via AoA/TDoA, not dependent on Remote ID; integrated into L3Harris and Rafael C-UAS systems
 - [Sensofusion Airfence]({{< relref "sensofusion-airfence.md" >}}) — Finnish passive RF drone + pilot locator, deployed commercially since 2016; civilian and military editions
 - [Tron Future T.Sensor]({{< relref "tron-future-tsensor.md" >}}) — Taiwanese wideband (400 MHz–6 GHz) passive RF direction finder; part of an integrated AESA anti-drone stack (T.Radar, T.Jammer, T.Cam, T.Meta)
+- [Echodyne]({{< relref "echodyne.md" >}}) — US miniaturized ESA/MESA radar; embedded in Dedrone, defense integrators; $490M USAF SUADS contract (2026)
+- [BlueSky Mast]({{< relref "bluesky-mast.md" >}}) — US portable telescoping masts used as elevation platforms for RF/radar sensors in field C-UAS deployments (supporting equipment, not a sensor itself)

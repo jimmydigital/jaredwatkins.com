@@ -1,15 +1,17 @@
 ---
 title: "D-Fend Solutions"
 date: 2026-06-05
-lastmod: 2026-06-05
+lastmod: 2026-07-07
 draft: false
-description: "Israeli C-UAS company specializing in cyber-takeover counter-drone technology — EnforceAir system takes control of unauthorized drones and lands them safely; detection + mitigation for authorized operators."
+description: "Israeli C-UAS company specializing in cyber-takeover counter-drone technology — EnforceAir system takes control of unauthorized drones and lands them safely; reportedly acquired by Motorola Solutions for ~$1.5B."
 research_area: "drone-detection/hardware"
 source_urls:
   - "https://d-fendsolutions.com/"
   - "https://d-fendsolutions.com/by-sector/critical-facilities-and-infrastructure/"
   - "https://www.safewareinc.com/brands/d-fend-solutions/"
-last_reviewed: 2026-06-05
+  - "https://www.calcalistech.com/ctechnews/article/y2wnwz0ak"
+  - "https://d-fendsolutions.com/about-us/leadership/"
+last_reviewed: 2026-07-07
 stale_after_days: 90
 ---
 
@@ -46,9 +48,26 @@ Key claimed advantages over jamming:
 
 EnforceAir fundamentally requires an RF command link to take over. **It cannot mitigate fiber-optic tethered or pre-programmed autonomous drones.** Detection of these threats requires radar or optical/acoustic layers; mitigation requires kinetic methods.
 
+## Notable Developments
+
+- **2026:** Reported acquisition by Motorola Solutions for approximately $1.5 billion (per Calcalist reporting). This would place D-Fend alongside [CRFS]({{< relref "crfs-rfeye.md" >}}) — also reportedly acquired by Motorola Solutions around the same period — as part of a broader Motorola push into C-UAS RF/cyber technology; treat both acquisition reports as developing and verify against Motorola Solutions' own investor disclosures before relying on them
+- **2025-2026:** Two key executives appointed to support accelerated global growth and expansion of the counter-drone business (per company press release)
+- **2024-11:** Participated in Pentagon "Falcon Peak" mountain tests evaluating nets, jamming, and cyber-scalpel C-UAS approaches
+
+## Key People
+
+- **Zohar Halachmi** — Co-founder, Chairman and CEO; previously founded two mobile/enterprise application startups and held VP/C-level roles at Amdocs and ECI Telecom
+- **Yaniv Benbenisti** — Co-founder, President and Chief Product Officer
+- **Assaf Monsa** — Co-founder, CTO and Vice President
+- D-Fend was founded in 2016 by the three individuals above
+
+### People — Last Reviewed: 2026-07-07
+
 ## Sources
 
 - [D-Fend Solutions corporate](https://d-fendsolutions.com/)
 - [Critical infrastructure protection — D-Fend](https://d-fendsolutions.com/by-sector/critical-facilities-and-infrastructure/)
 - [D-Fend / Safeware distribution](https://www.safewareinc.com/brands/d-fend-solutions/)
 - [Pentagon Falcon Peak mountain tests — Breaking Defense 2024](https://breakingdefense.com/2024/11/nets-jamming-and-cyber-scalpels-pentagon-weighs-homeland-counter-drone-tech-in-mountain-tests/)
+- [Motorola Solutions acquires D-Fend for $1.5 billion — Calcalist](https://www.calcalistech.com/ctechnews/article/y2wnwz0ak)
+- [D-Fend Solutions Leadership](https://d-fendsolutions.com/about-us/leadership/)

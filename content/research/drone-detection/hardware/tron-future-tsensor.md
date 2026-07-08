@@ -48,7 +48,28 @@ Within Tron Future's full stack, T.Sensor feeds the T.Meta command-and-control p
 - **Vendor-published specs only:** Performance figures (range, accuracy) come from Tron Future's own datasheets; no independent third-party test data reviewed for this entry
 - **Countermeasure integration is jurisdiction-restricted:** T.Jammer pairing is subject to the same detect-vs-interdict legal divide covered in this section's [US regulatory framework]({{< relref "../regulatory-framework.md" >}}) and equivalent laws elsewhere
 
+## Notable Developments
+
+- **2025-02-17:** CEO Yu-Jiu Wang met with Taiwan President William Lai, accompanied by Deputy Minister of Digital Affairs Herming Chiueh — signals government-level visibility for the company's defense-tech positioning
+- **2024-05:** Completed Series A funding round, explicitly targeting rapidly growing global counter-drone demand
+
+## Key People
+
+- **Yu-Jiu Wang** (also rendered Wang Ju-jiu) — Founder and CEO; holds a doctorate from Caltech; assembled the founding technical team from a strong academic background
+- Company founded 2018, headquartered in Hsinchu, Taiwan
+
+### People — Last Reviewed: 2026-07-07
+
+## Claim Verification
+
+### Claim: T.Sensor detection range 5 km (commercial), up to 5–35 km depending on environment; ±2.5° DF accuracy; 60 simultaneous targets
+**Status:** Unverified independently — all figures are from Tron Future's own product datasheet.
+**Supporting sources:** [T.Sensor datasheet (PDF)](https://www.tronfuture.com/wp-content/uploads/documents/t-sensor.pdf).
+**Refuting/questioning sources:** None found; no independent test data reviewed.
+**Summary:** Internally consistent vendor specifications, but treat range and accuracy figures as manufacturer-stated pending third-party validation, consistent with how this section treats comparable RF direction-finding vendors.
+
 ## Sources
 
 - [Tron Future Anti-Drone solution overview](https://www.tronfuture.com/solutions/anti-drone/)
 - [T.Sensor datasheet (PDF)](https://www.tronfuture.com/wp-content/uploads/documents/t-sensor.pdf)
+- [Tron Future completes Series A round — DigiTimes](https://www.digitimes.com/news/a20240516VL202/defense-drone-satellite-tron-future.html)

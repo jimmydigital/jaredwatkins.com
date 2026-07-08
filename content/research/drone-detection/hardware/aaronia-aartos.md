@@ -1,7 +1,7 @@
 ---
 title: "Aaronia AARTOS"
 date: 2026-06-05
-lastmod: 2026-06-05
+lastmod: 2026-07-07
 draft: false
 description: "German RF spectrum monitoring-based drone detection system — passive RF from 20 MHz to 8 GHz; decodes DJI OcuSync, Mavlink, and 3G/4G/5G-connected drones; range up to 14 km."
 research_area: "drone-detection/hardware"
@@ -9,7 +9,8 @@ source_urls:
   - "https://aaronia.com/en/solutions/drone-detection"
   - "https://drone-detection-system.com/aartos-dds/systems-versions/"
   - "https://downloads.aaronia.com/datasheets/solutions/drone_detection/Aaronia_AARTOS-DDS_Overview.pdf"
-last_reviewed: 2026-06-05
+  - "https://uasmagazine.com/articles/aaronia-launches-airborne-drone-detection-system-at-eurosatory-2026"
+last_reviewed: 2026-07-07
 stale_after_days: 180
 ---
 
@@ -45,6 +46,25 @@ Aaronia AG (Germany) produces the AARTOS Drone Detection System — a passive RF
 - **Operator location:** Where the control link is bidirectional and contains GPS, operator GPS coordinates can be extracted
 - **Remote ID decoding:** ASTM F3411 / EUROCAE ED-269 ingestion
 - **3G/4G/5G detection:** Drones using cellular uplinks (increasingly common for long-range or BVLOS operations) are detectable by their cellular signature
+
+## Notable Developments
+
+- **2026:** Aaronia launched an airborne drone detection system at Eurosatory 2026, extending AARTOS from fixed/portable ground sensors to an airborne-mounted variant
+
+## Key People
+
+- **Thorsten Chmielus** — Founder and CEO (founded Aaronia in 2003)
+- **Stephan Kraschansky** — Chief Defense and Government Solutions Officer
+
+### People — Last Reviewed: 2026-07-07
+
+## Claim Verification
+
+### Claim: AARTOS X9 range up to 14 km; 20 MHz–8 GHz frequency coverage
+**Status:** Unverified independently — company-stated specifications from Aaronia's own datasheets.
+**Supporting sources:** [AARTOS DDS datasheet PDF](https://downloads.aaronia.com/datasheets/solutions/drone_detection/Aaronia_AARTOS-DDS_Overview.pdf).
+**Refuting/questioning sources:** None found; no independent test data reviewed for this entry.
+**Summary:** Plausible given the multi-node scaling design, but 14 km should be treated as a best-case/ideal-conditions figure pending third-party validation, consistent with how comparable RF vendors' range claims are treated elsewhere in this section.
 
 ## Limitations
 

@@ -1,7 +1,7 @@
 ---
 title: "Fortem DroneHunter F700"
 date: 2026-06-05
-lastmod: 2026-06-05
+lastmod: 2026-07-07
 draft: false
 description: "Autonomous radar-guided net-capture interceptor drone — fully autonomous, non-explosive C-UAS that physically captures threat drones using a net; 5,000+ captures; deployed in Ukraine."
 research_area: "drone-detection/counter-drone-platforms"
@@ -9,7 +9,7 @@ source_urls:
   - "https://fortemtech.com/products/dronehunter-f700/"
   - "https://cdn.prod.website-files.com/648c3eaae99a3460f13becec/64a7deadd6b09be15aded1c7_MKT_DH%20F700-Data%20Sheet_20230119.pdf"
   - "https://en.defence-ua.com/weapon_and_tech/ukrainians_buy_dronehunter_a_predator_uav_to_catch_shahed_136_zala_and_orlan_10-8620.html"
-last_reviewed: 2026-06-05
+last_reviewed: 2026-07-07
 stale_after_days: 90
 ---
 
@@ -64,6 +64,12 @@ The Fortem DroneHunter F700 is a fully autonomous interceptor drone that physica
 **Status:** Unverified independently — company-stated figure as of early 2026.
 **Supporting sources:** [Fortem product page](https://fortemtech.com/products/dronehunter-f700/) — company-stated; Ukraine deployment corroborates operational use
 **Summary:** Plausible given Ukraine deployment at scale; independent count unavailable.
+
+## Key People
+
+See [Fortem Technologies]({{< relref "../hardware/fortem-technologies.md" >}}) for company leadership — DroneHunter is a Fortem Technologies product, not a separately incorporated entity. Key names: **Jon Gruen** (CEO since September 2022), **Timothy Bean** (co-founder, President and COO), **Adam Robertson** (co-founder).
+
+### People — Last Reviewed: 2026-07-07
 
 ## Sources
 

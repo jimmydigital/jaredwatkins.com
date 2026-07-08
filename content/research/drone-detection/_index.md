@@ -5,7 +5,7 @@ lastmod: 2026-07-07
 draft: false
 description: "Detection methods, hardware, software, and open-source tools for identifying unauthorized drones at critical infrastructure, including drone-vs-bird discrimination."
 research_area: "drone-detection"
-last_reviewed: 2026-07-03
+last_reviewed: 2026-07-07
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -114,9 +114,9 @@ A knowledge base on detecting unauthorized drones at critical infrastructure —
 |---------|-----|-------|---------|
 | [Allen Control Systems](https://allencontrolsystems.com) | USA | Series B ($200M, $2.2B, Jun 2026) | Bullfrog autonomous kinetic weapon station; M240/M2/M230/M134; SOCOM + Army contracts |
 | [Fortem Technologies](https://fortemtech.com) | USA | Growth (Lockheed $25M, 2026) | Radar + AI + DroneHunter interceptor drone C-UAS system |
-| [D-Fend Solutions](https://d-fendsolutions.com) | Israel | Growth | Cyber-takeover counter-drone for critical infrastructure |
+| [D-Fend Solutions](https://d-fendsolutions.com) | Israel | Acquired (Motorola Solutions, reported ~$1.5B, 2026 — unconfirmed) | Cyber-takeover counter-drone for critical infrastructure |
 | [Aaronia AG](https://aaronia.com) | Germany | Private | RF spectrum monitoring-based drone detection (AARTOS) |
-| [Robin Radar Systems](https://robinradar.com) | Netherlands | Private | 3D micro-Doppler radar with bird/drone classification (IRIS) |
+| [Robin Radar Systems](https://robinradar.com) | Netherlands | Private (Parcom investment, 2024) | 3D micro-Doppler radar with bird/drone classification (IRIS) |
 | [Marduk Technologies](https://marduk.ee) | Estonia | Early | Passive electro-optical detection — counters RF-dark/fiber-optic threats |
 | [AeroDefense](https://aerodefense.tech) | USA | Private | AirWarden Remote ID receiver and RF sensor network |
 | [Dronetag](https://dronetag.com) | Czech Republic | Private | Remote ID hardware (BS base station receiver) |
@@ -124,6 +124,10 @@ A knowledge base on detecting unauthorized drones at critical infrastructure —
 | [Skydio](https://skydio.com) | USA | Growth (Series F, $4.4B) | Autonomous drone-in-a-box patrol; X10/X10D; AI anomaly detection; Blue UAS listed |
 | [Vigil Autonomy](https://www.vigilautonomy.com) | USA | Early (founded Aug 2025) | CommonDefense multi-spectral benchmark dataset and perception infrastructure for C-UAS teams |
 | [Soundryx](https://soundryx.com) | USA | Early (founded Jan 2025) | Acoustic sensor network detecting drones, vehicles, and gunshots — anti-stealth, radar-independent |
+| [CRFS](https://www.crfs.com) | UK | Acquired (Motorola Solutions, reported 2025–2026 — unconfirmed) | RFeye passive RF signal-hunting network; non-cooperative geolocation (AoA/TDoA/FDoA); integrated into L3Harris/Rafael systems |
+| [Sensofusion](https://sensofusion.com) | Finland | Growth (€20.8M 2024 turnover reported) | Airfence passive RF drone + pilot locator; deployed commercially since 2016 |
+| [Tron Future Tech](https://www.tronfuture.com) | Taiwan | Series A (2024) | AESA-based anti-drone stack (T.Radar/T.Sensor/T.Jammer/T.Cam/T.Meta) |
+| [Echodyne](https://www.echodyne.com) | USA | Growth (Series A led by Bill Gates/Madrona; scaling production 2026) | Miniaturized MESA/ESA radar embedded in Dedrone, defense integrators; $490M USAF SUADS contract |
 
 ### Public Companies
 
@@ -139,6 +143,7 @@ A knowledge base on detecting unauthorized drones at critical infrastructure —
 |--------|---------|-----------|
 | [LMT](https://finance.yahoo.com/quote/LMT) | [Lockheed Martin](https://lockheedmartin.com) | $25M investment in Fortem Technologies (Apr 2026); own C-UAS programs |
 | [RTX](https://finance.yahoo.com/quote/RTX) | [RTX](https://rtx.com) | Coyote interceptor drone program; C-UAS integration |
+| — (state-owned) | [Rafael Advanced Defense Systems](https://www.rafael.co.il) | Hunter Eagle / Ghost Hunter kinetic interceptors; Drone Dome C-UAS (integrates CRFS RFeye) |
 
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container" style="margin: 20px 0;">

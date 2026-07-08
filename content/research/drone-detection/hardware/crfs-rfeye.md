@@ -49,6 +49,27 @@ Because detection triggers on RF characteristics of the signal itself rather tha
 - **Geometry-dependent accuracy:** TDoA/FDoA geolocation accuracy depends on favorable sensor node placement and spacing; a single node can only provide a bearing (AoA), not a fix
 - **No integrated countermeasures:** RFeye is a detection/geolocation sensor family — interdiction requires separate systems (as seen in its L3Harris/Rafael integrations)
 
+## Notable Developments
+
+- **2025-2026:** Reported acquisition by Motorola Solutions (details and closing date not independently confirmed in this review) — if accurate, this places CRFS alongside [D-Fend Solutions]({{< relref "d-fend-solutions.md" >}}), also reportedly acquired by Motorola Solutions around the same period, as part of a broader Motorola Solutions push into C-UAS RF/spectrum technology
+- Founded 2007; has operated for nearly two decades as an independent RF spectrum-monitoring vendor prior to the reported acquisition
+
+## Key People
+
+- **Alistair Massarella** — Founder; sources vary on his current title (COO in some listings)
+- **Matthew Hunt** — Co-founder and CTO
+- **Pio Szyjanowicz** — Listed as CEO in some sources; leadership titles found in research for this entry were inconsistent across sources (Nick Balon is also listed as CEO in at least one source) — treat individual titles as unverified pending a primary-source org chart, especially given the reported Motorola Solutions acquisition may have changed leadership structure
+
+### People — Last Reviewed: 2026-07-07
+
+## Claim Verification
+
+### Claim: RFeye can geolocate military drones at up to 400 km
+**Status:** Unverified independently — company-stated figure from CRFS marketing materials, described as achievable "under favorable conditions."
+**Supporting sources:** [CRFS Drone Detection overview](https://www.crfs.com/solutions/drone-detection).
+**Refuting/questioning sources:** None found.
+**Summary:** This is a best-case figure for high-power military emitters, not a realistic planning range for COTS commercial drones — treat as an upper bound, not a typical operating range.
+
 ## Sources
 
 - [CRFS Drone Detection overview](https://www.crfs.com/solutions/drone-detection)
