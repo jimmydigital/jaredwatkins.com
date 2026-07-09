@@ -1,7 +1,7 @@
 ---
 title: Robotics Sensors
 date: 2026-03-24
-lastmod: 2026-06-23
+lastmod: 2026-07-09
 draft: false
 description: LiDAR, radar, IMUs, GNSS, cameras, and force/torque sensors for robot perception — manufacturers, technology trends, and supply chain.
 research_area: "robotics/sensors"
@@ -28,6 +28,8 @@ Sensors are the eyes and proprioception of robots. The robotics sensor landscape
 - Thermal imaging: Teledyne FLIR dominant, US export controlled — creates a non-tariff barrier to Chinese drone/robot makers
 - Solid-state LiDAR transition: MEMS-based designs (Innoviz, Cepton/Koito) vs. spinning designs — automotive pull driving investment
 - Depth cameras: Intel RealSense retreat creating a gap that Stereolabs ZED and Luxonis OAK-D are filling
+- Visual-tactile sensing: optical, deformation-independent contact sensing (e.g., CMU/Bosch [LightTact]({{< relref "lighttact.md" >}})) emerging as a research frontier beyond deformation-based tactile sensors, targeting light-contact cases (liquids, soft materials) that force/torque and elastomer-based tactile sensors miss
+- Multizone dToF ranging: STMicroelectronics' FlightSense line pushing resolution higher (e.g., [VL53L9CX]({{< relref "vl53l9cx.md" >}}), ~2.3k zones) as an integrated, low-BOM alternative to discrete LiDAR for short-range robotics ranging, SLAM assist, and small-object detection
 
 ## Companies
 
@@ -93,7 +95,7 @@ Sensors are the eyes and proprioception of robots. The robotics sensor landscape
 | [TDK](https://finance.yahoo.com/quote/TTDKF) | [TDK / InvenSense](https://invensense.tdk.com) | Dominant MEMS IMU supplier (ICM series); acquired InvenSense 2017; IMUs appear in virtually every drone and mobile robot. |
 | [UBXN.SW](https://finance.yahoo.com/quote/UBXN.SW) | [u-blox](https://www.u-blox.com) | Near-monopoly civil GNSS module supplier; M8, M9, F9 series used in drones, AMRs, agricultural robots, and delivery platforms globally. |
 | [TDY](https://finance.yahoo.com/quote/TDY) | [Teledyne Technologies](https://www.teledyne.com) | Parent of Teledyne FLIR; Boson and Lepton thermal camera modules used across drones, UGVs, and security robots; US export controlled. |
-| [STM](https://finance.yahoo.com/quote/STM) | [STMicroelectronics](https://www.st.com) | IMU, gyroscope, accelerometer (LSM, ISM series); major MEMS sensor supplier alongside TDK/InvenSense and Bosch. |
+| [STM](https://finance.yahoo.com/quote/STM) | [STMicroelectronics](https://www.st.com) | IMU, gyroscope, accelerometer (LSM, ISM series); major MEMS sensor supplier alongside TDK/InvenSense and Bosch. Also makes the FlightSense dToF LiDAR line, including the [VL53L9CX]({{< relref "vl53l9cx.md" >}}) (~2.3k-zone module, currently in evaluation/sampling). |
 | [HESM](https://finance.yahoo.com/quote/HESM) | [Hexagon AB](https://hexagon.com) | NovAtel (RTK GNSS), Leica Geosystems; survey-grade and precision RTK receivers for agricultural and survey robots. |
 
 ## Supply Chain

@@ -1,7 +1,7 @@
 ---
 title: Research
 date: 2026-03-23
-lastmod: 2026-07-03
+lastmod: 2026-07-09
 draft: false
 last_reviewed: 2026-04-07
 description: AI-maintained knowledge base on emerging technology topics.
@@ -662,8 +662,9 @@ A living, AI-maintained knowledge base on emerging technology topics. Each area 
 - [AI Accelerators]({{< relref "ai-accelerators/_index.md" >}}) — GPU and AI accelerator hardware: AMD Instinct, rack-scale systems, interconnect ecosystems
 - [Datacenters]({{< relref "datacenters/_index.md" >}}) — Physical datacenter infrastructure: cooling, power, construction, rugged edge compute
 - [Drone Detection]({{< relref "drone-detection/_index.md" >}}) — C-UAS detection methods, hardware, open-source tools, and counter-drone platforms for critical infrastructure protection
-- [Energy]({{< relref "energy/_index.md" >}}) — Solar, batteries, nuclear, and energy resources
+- [Energy]({{< relref "energy/_index.md" >}}) — Solar, batteries, nuclear, energy resources, and grid market structure/policy
 - [Large Format Additive Manufacturing (LFAM)]({{< relref "lfam/_index.md" >}}) — Industrial-scale 3D printing: gantry and robotic pellet extrusion, WAAM for metal naval components, defense and aerospace applications
+- [Local AI Tools]({{< relref "local-ai-tools/_index.md" >}}) — Local-first AI applications: voice cloning/TTS/STT studios, inference runtimes, and MCP agent-voice integration
 - [Local LLM Fine-Tuning]({{< relref "local-llm-finetuning/_index.md" >}}) — Building and fine-tuning specialist LLMs for edge deployment: training data, compute options, and network engineer expert models
 - [Post-Quantum Encryption]({{< relref "post-quantum-encryption/_index.md" >}}) — NIST PQC standards adoption across networking hardware and cryptocurrency infrastructure
 - [Quantum Computing]({{< relref "quantum-computing/_index.md" >}}) — Quantum computing hardware, software, and the race toward practical quantum advantage
