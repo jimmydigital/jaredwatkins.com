@@ -1,7 +1,7 @@
 ---
 title: "Research Section Changelog"
 date: 2026-04-04
-lastmod: 2026-07-07
+lastmod: 2026-07-09
 draft: false
 description: "Timestamped log of additions and modifications to the Research knowledge base."
 research_area: "research"
@@ -17,6 +17,8 @@ sitemap:
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
+
+- **2026-07-09:** Created [AERIS-10 (PLFM_RADAR)]({{< relref "drone-detection/open-source/aeris-10-radar.md" >}}) — open-source 10.5 GHz phased array PLFM radar (3km/20km variants, FPGA Doppler/CFAR); linked from micro-doppler-radar.md. Expanded with Crowd Supply crowdfunding launch details (Q3 2026 campaign, Mouser-backed) and a flagged FPGA part-number discrepancy between sources.
 
 - **2026-07-07:** Conformance audit of 20 drone-detection company entries — filled missing Key People/Notable Developments/Claim Verification sections; surfaced D-Fend + CRFS reported Motorola acquisitions and DroneShield's CEO transition; updated Companies tables.
 - **2026-07-07:** Created [Echodyne]({{< relref "drone-detection/hardware/echodyne.md" >}}) (US MESA radar, $490M USAF SUADS contract, integrated into Dedrone) + [BlueSky Mast]({{< relref "drone-detection/hardware/bluesky-mast.md" >}}) (portable elevation masts for field C-UAS sensors). Updated [DroneShield]({{< relref "drone-detection/hardware/droneshield.md" >}}) (June 2026 US JITF-401 contract, Q3 swarm-detection software update) and [Dedrone]({{< relref "drone-detection/hardware/dedrone.md" >}}) (Echodyne radar integration, 300% YoY growth) with 2026 developments.

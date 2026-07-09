@@ -1,7 +1,7 @@
 ---
 title: "Micro-Doppler Radar"
 date: 2026-06-05
-lastmod: 2026-06-05
+lastmod: 2026-07-09
 draft: false
 description: "Micro-Doppler radar signatures produced by rotating drone blades enable reliable drone-vs-bird discrimination and detection of hovering/slow targets that evade conventional Doppler radar."
 research_area: "drone-detection/detection-methods"
@@ -11,7 +11,7 @@ source_urls:
   - "https://pmc.ncbi.nlm.nih.gov/articles/PMC11821064/"
   - "https://www.researchgate.net/publication/393271813_Use_of_the_Micro-Doppler_Effect_in_Classifying_and_Differentiating_Drones_from_Birds"
   - "https://fortemtech.com/products/dronehunter-f700/"
-last_reviewed: 2026-06-05
+last_reviewed: 2026-07-09
 stale_after_days: 180
 ---
 
@@ -47,6 +47,7 @@ Birds are the primary false-positive confuser in drone detection. Wing flapping 
 - **CNN on time-frequency spectrograms:** Convolutional neural networks applied directly to the visual spectrogram image. Achieves high accuracy but requires significant training data.
 - **SVM on extracted features:** Support vector machines with blade flash rate, RCS, polarization, and spectrogram-derived features as inputs. More interpretable; performs well with less data.
 - **2D/3D radar:** Some systems (Robin Radar IRIS) combine 3D position tracking with micro-Doppler classification, enabling simultaneous localization and identification.
+- **Open-source hardware:** [AERIS-10 (PLFM_RADAR)]({{< relref "../open-source/aeris-10-radar.md" >}}) is an open-source 10.5 GHz (X-band) phased array pulse-LFM radar with onboard FPGA Doppler/CFAR processing — it does not include a bird/drone classifier out of the box, but its raw Doppler output could feed a downstream classifier of the kind described here.
 
 **Frequency band tradeoffs:**
 - Higher frequencies (mmW, 60 GHz, W-band) produce more pronounced micro-Doppler sidebands and better discrimination at short range, but have higher atmospheric attenuation and limited range.

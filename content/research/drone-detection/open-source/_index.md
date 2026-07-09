@@ -1,11 +1,11 @@
 ---
 title: "Open Source Drone Detection Projects"
 date: 2026-06-05
-lastmod: 2026-07-07
+lastmod: 2026-07-09
 draft: false
-description: "Open-source tools and libraries for drone detection and Remote ID decoding — usable today for building custom detection systems."
+description: "Open-source tools and libraries for drone detection, Remote ID decoding, and radar — usable today for building custom detection systems."
 research_area: "drone-detection/open-source"
-last_reviewed: 2026-07-07
+last_reviewed: 2026-07-09
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -28,6 +28,7 @@ Active open-source projects for drone detection and Remote ID decoding. Filtered
 - [iNTERCEPT]({{< relref "intercept.md" >}}) — Broad web-based SIGINT platform (ADS-B, AIS, pagers, weather sat, and more) with a multi-vector drone-detection module
 - [Phantom-Proof]({{< relref "phantom-proof.md" >}}) — Cross-verifies Remote ID claims against passive radar tracks to flag spoofed (PHANTOM) or contradictory (DECEPTION) broadcasts
 - [droneRemoteIDSpoofer]({{< relref "drone-remoteid-spoofer.md" >}}) — WiFi/BLE Remote ID spoofer for testing receiver systems; demonstrates the protocol's lack of authentication
+- [AERIS-10 (PLFM_RADAR)]({{< relref "aeris-10-radar.md" >}}) — Open-source 10.5 GHz phased array PLFM radar; 3 km/20 km variants; electronic beam steering; FPGA Doppler/CFAR processing — detects RF-silent drones; accepted by Crowd Supply for a Q3 2026 crowdfunding launch
 
 ## Quick Reference: What Each Project Does
 
@@ -44,3 +45,4 @@ Active open-source projects for drone detection and Remote ID decoding. Filtered
 | iNTERCEPT | Python / Flask | Multi-domain SIGINT platform; drone module (Remote ID + sub-GHz + 2.4/5.8GHz) | Active |
 | Phantom-Proof | Python | Passive-radar physical verification of Remote ID claims (anti-spoofing) | Early-stage |
 | droneRemoteIDSpoofer | Python / scapy | WiFi + BLE Remote ID spoofer for testing detection/receiver systems | Active |
+| AERIS-10 (PLFM_RADAR) | VHDL/Verilog (FPGA) + C (STM32) + Python | Open-source 10.5 GHz phased array PLFM radar; electronic beam steering; onboard Doppler/CFAR | Alpha; Crowd Supply campaign targeted Q3 2026 |
