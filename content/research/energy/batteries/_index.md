@@ -1,11 +1,11 @@
 ---
 title: Battery Technology Research
 date: 2026-03-23
-lastmod: 2026-07-09
+lastmod: 2026-07-12
 draft: false
-description: Research on emerging battery technologies including solid-state, flow batteries, and high-density storage.
+description: Research on emerging battery technologies including solid-state, flow batteries, lithium-air, and high-density storage.
 research_area: "energy/batteries"
-last_reviewed: 2026-04-04
+last_reviewed: 2026-07-12
 stale_after_days: 365
 sitemap:
   changefreq: "monthly"
@@ -26,11 +26,13 @@ For in-depth explanations of key technologies, see:
 
 - **[Lithium Metal Batteries — Technology Overview]({{< relref "lithium-metal.md" >}})** — Why lithium metal (3,860 mAh/g vs. graphite's 372 mAh/g) is the focus of next-gen batteries; the dendrite problem that blocked commercialization for 50 years; solution approaches (solid ceramics, sulfides, hybrid, anode-free, AI-based); competitive landscape of companies pursuing commercialization 2025–2026.
 - **[Solid-State Batteries — Technology Overview]({{< relref "solid-state-batteries.md" >}})** — Architecture, materials, and commercialization timelines.
+- **[Lithium-Air Batteries — Technology Overview]({{< relref "lithium-air-batteries.md" >}})** — Why ambient-oxygen cathodes promise the highest theoretical energy density of any battery chemistry; why pack-level energy density, cycle life, and power density all lag the headline cell-level and theoretical figures; cost estimates and the companies pursuing near-term commercialization in aviation and defense.
 
 ## Key Themes
 
 - **Lithium-metal anodes** (10× theoretical capacity vs. graphite) as the focus of advanced battery chemistry — dendrite suppression via solid electrolytes, anode-free designs, hybrid approaches, and AI-based control; 50-year challenge entering commercialization phase 2025–2028
 - Solid-state electrolytes (oxide, sulfide, polymer) approaching automotive production readiness; sulfide programs (QuantumScape, Solid Power, Idemitsu) converging on Idemitsu Li₂S as critical upstream bottleneck
+- **Lithium-air (lithium-oxygen) batteries** as the longest-horizon next-generation chemistry — theoretical energy density approaching gasoline, but pack-level energy density (~700 Wh/kg disclosed by Air Energy, vs. 1,000–2,000 Wh/kg cell-level headlines), cycle life (~1,000 cycles at best), and power density all remain well behind lithium-ion; CATL named it a post-2030 strategic priority in June 2026, while startup Air Energy targets nearer-term niche aviation/defense applications
 - Lithium-sulfur chemistry (Lyten) as an alternative path eliminating cobalt, nickel, and graphite
 - Chinese BESS integrators achieving cost and engineering parity with Western players — the solar-panel pattern repeating
 - U.S. tariff escalation (82%+ on Chinese LFP cells as of early 2026) reshaping supply chains in real time
@@ -48,7 +50,7 @@ The battery landscape spans five distinct positions in the supply chain. Compani
 |-------|------------------|----------------|
 | **1–2. Materials & Precursors** | Raw lithium, sulfur, Li₂S production; cathode precursors | Idemitsu Kosan, POSCO Future M (resources section) |
 | **3. Electrolyte / Active Materials** | Solid electrolyte synthesis; graphene scaffold; cathode powder | Idemitsu Kosan (sulfide SE), Solid Power (sulfide SE), Lyten (3D Graphene cathode) |
-| **4. Cell Manufacturing** | Cell assembly; solid-state or Li-S chemistry | Factorial Energy, QuantumScape, ProLogium, Adden Energy, Lyten, Donut Lab / Nordic Nano |
+| **4. Cell Manufacturing** | Cell assembly; solid-state, Li-S, or Li-air chemistry | Factorial Energy, QuantumScape, ProLogium, Adden Energy, Lyten, Donut Lab / Nordic Nano, Air Energy (Li-air) |
 | **5. Pack / System Integration** | Cell → container BESS or EV pack | Tesla Megapack, Sungrow, BYD Energy Storage, Fluence Energy, HyperStrong, CNTE, Orient Power, GSL Energy, Verge Motorcycles, Base Power (residential-scale) |
 | **6. OEM / End Use** | Finished EV, grid asset, drone | Stellantis, Mercedes-Benz, VW/PowerCo, BMW, Karma Automotive, IQT |
 
@@ -89,6 +91,7 @@ These companies make the cells — the electrochemical unit. All are pre-product
 | [SES AI]({{< relref "ses-ai.md" >}}) (SES) | Boston, MA | Public (NYSE: SES, SPAC 2022) | Lithium-metal hybrid (liquid electrolyte + AI control) | Apollo cell (417 Wh/kg, 107 Ah) demonstrated Nov 2021. A-sample and B-sample JDAs with GM, Hyundai-Kia, Honda (announced 2025–2026). Ui-Wang, South Korea B-sample facility announced (2025). **Differentiation:** AI-based electrochemical monitoring to detect and suppress dendrites in real-time. **Status:** Pre-commercial; B-sample development ongoing; mass production targeting early-to-mid 2030s. **Note:** Hybrid approach trades fully solid-state safety margin for faster manufacturing compatibility. |
 | [Soelect]({{< relref "soelect.md" >}}) | Greensboro, NC | Private | LiX® anode + solid electrolyte materials | Materials supplier model (anode + SE components); claims 15-minute full charge. 20+ automotive customers (unnamed). GM Ventures invested. Lotte Chemical JV announced (>$200M) for US manufacturing scale-up (2023); no confirmed progress as of Q2 2026. **Status:** Pilot production; scaling roadmap; execution timeline unclear. |
 | [Donut Lab]({{< relref "donut-lab.md" >}}) / [Verge Motorcycles]({{< relref "verge-motorcycles.md" >}}) | Estonia / Finland | Private | TiO₂ nanostructure pseudocapacitance | TS Pro deliveries commenced Q1 2026 (claimed world-first production solid-state motorcycle). VTT confirmed: fast charge (0–80% in 4.5 min, 11C) and thermal stability (107% capacity at 100°C). **Key concern:** Five independent VTT test reports released through March 2026 — none measure 400 Wh/kg energy density or 100,000-cycle life. Headline claims remain unverified; verified claims are genuine but modest. |
+| [Air Energy]({{< relref "air-energy.md" >}}) | Chicago, IL | Seed (oversubscribed round closed Jun 2026) | Solid-state lithium-air (ceramic-polymer composite electrolyte, four-electron Li₂O pathway) | DOE ARPA-E JOULES-1K Phase 1: 1,000 Wh/kg cell-level, 1,000 cycles. Phase 2 ($3.2M, one of six awarded Jan 2026, w/ Illinois Tech, National Laboratory of the Rockies, RTX Technology Research Center): prototype pouch cells + drone flight tests. Pack-level (incl. air-management balance of plant) currently ~700 Wh/kg — well below cell-level headline figures. Targeting aviation/drone/defense, not EVs; pilot production targeted 2027. |
 
 **Cross-cutting concern — sulfide programs (QuantumScape, Solid Power, Idemitsu/Toyota):** All three depend on Li₂S precursor supply from a single identified large-scale source (Idemitsu) that is committed exclusively to Toyota. This shared upstream dependency is the most underappreciated concentration risk in the solid-state sector.
 
@@ -144,7 +147,7 @@ These are the established players whose timelines and decisions set the context 
 | [TM](https://finance.yahoo.com/quote/TM) | Toyota | Largest solid-state patent holder; 2027–2028 commercial target; exclusive Idemitsu sulfide electrolyte supplier. Signal: when Toyota ships, the technology has cleared automotive grade. |
 | [006400.KS](https://finance.yahoo.com/quote/006400.KS) | Samsung SDI | Cell manufacturing partner for Solid Power (BMW i7 program); 500 Wh/kg solid-state target. Signal: validates Solid Power's licensing model if integration succeeds. |
 | [PCRFY](https://finance.yahoo.com/quote/PCRFY) | Panasonic | Tesla supplier; solid-state R&D ongoing; no firm timeline. Signal: mainstream tier-1 supply chain readiness. |
-| [300750.SZ](https://finance.yahoo.com/quote/300750.SZ) | CATL 🇨🇳 | World's largest EV battery maker; solid-state target ~2027; ~22% BESS cell market share (H1 2025). **⚑ Shared supplier:** supplies Tesla Megapack, Sungrow, HyperStrong, Fluence, and directly through CNTE — creating shared upstream dependency across competing integrators. |
+| [300750.SZ](https://finance.yahoo.com/quote/300750.SZ) | CATL 🇨🇳 | World's largest EV battery maker; solid-state target ~2027; ~22% BESS cell market share (H1 2025). **⚑ Shared supplier:** supplies Tesla Megapack, Sungrow, HyperStrong, Fluence, and directly through CNTE — creating shared upstream dependency across competing integrators. In June 2026, CATL named [lithium-air battery technology]({{< relref "lithium-air-batteries.md" >}}) its long-term strategic R&D priority (theoretical 12,000 Wh/kg target), positioned after sodium-ion (near-term) and solid-state (mid-term); deployment framed as post-2030. |
 
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container" style="margin: 20px 0;">

@@ -1,11 +1,11 @@
 ---
 title: "Research Section Changelog"
 date: 2026-04-04
-lastmod: 2026-07-09
+lastmod: 2026-07-12
 draft: false
 description: "Timestamped log of additions and modifications to the Research knowledge base."
 research_area: "research"
-last_reviewed: 2026-04-04
+last_reviewed: 2026-07-12
 stale_after_days: 90
 outputs:
   - HTML
@@ -18,6 +18,9 @@ sitemap:
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
 
+- **2026-07-12:** Created [Lithium-Air Batteries overview]({{< relref "energy/batteries/lithium-air-batteries.md" >}}) (theoretical 12,000 Wh/kg vs. ~700 Wh/kg disclosed pack-level; cycle life, rate, and cost tradeoffs) + [Air Energy]({{< relref "energy/batteries/air-energy.md" >}}) (Chicago DOE ARPA-E-funded IIT/Argonne spinout, 1,000 Wh/kg cell-level); updated batteries and energy indexes.
+- **2026-07-09:** Updated [Drone Privacy, Trespass, and Criminal Misuse Law]({{< relref "drone-detection/privacy-trespass-and-misuse-law.md" >}}) — added non-firearm self-help methods: net capture/disabling likely falls under 18 U.S.C. §32's "disable" language (same 20-year exposure as shooting); RF jamming/GPS spoofing separately illegal under Communications Act regardless of method; UK SkyWall/net-gun systems legal only for authorized operators, not private citizens.
+- **2026-07-09:** Created [Drone Privacy, Trespass, and Criminal Misuse Law]({{< relref "drone-detection/privacy-trespass-and-misuse-law.md" >}}) — US (state patchwork: FL 934.50, CA 1708.8, TX Ch. 423, VA), UK (Harassment Act/Sexual Offences Act/GDPR), Germany (administrative fines + BGB §823), France (Art. 226-1 criminal recording); civil vs. criminal line, shooting-down-a-drone risk (18 U.S.C. §32), and when to call police vs. file FAA/CAA complaint; linked from drone-detection index.
 - **2026-07-09:** Updated [Griddy]({{< relref "energy/grid-markets/griddy.md" >}}) — added Key People section on founders Gregory Craig (now CEO, Star Energy Partners) and Nick Bain (unconfirmed current "Sun Farms" role), plus last CEO Michael Fallquist (now co-CEO Energywell / CEO Think Energy); noted shared Macquarie Bank ties among all three.
 - **2026-07-09:** Created [FERC]({{< relref "energy/grid-markets/ferc.md" >}}) (5-seat federal commission; current roster: Chairman Swett, Rosner, See, Chang, LaCerte, with education/career backgrounds and LinkedIn links) + [PUCT]({{< relref "energy/grid-markets/puct.md" >}}) (Texas's ERCOT regulator; current roster: Chairman Gleeson, Jackson, Hjaltman — flagged discrepancy between statutory 5-seat design and 3 names on official site); linked from grid-markets index.
 - **2026-07-09:** Created [Winter Storm Uri]({{< relref "energy/grid-markets/winter-storm-uri.md" >}}) (Feb 2021 ERCOT failure; 246 official deaths vs. 700-800+ excess-mortality estimates; $16B price-cap overbilling) + [Griddy]({{< relref "energy/grid-markets/griddy.md" >}}) (wholesale-pass-through REP; ~29,000 customers billed ~$29M during Uri; 2021 bankruptcy) as failure case studies in grid-markets; cross-linked with ERCOT Market Design entry.

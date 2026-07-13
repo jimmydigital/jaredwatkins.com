@@ -1,7 +1,7 @@
 ---
 title: "Drone Detection"
 date: 2026-06-05
-lastmod: 2026-07-07
+lastmod: 2026-07-09
 draft: false
 description: "Detection methods, hardware, software, and open-source tools for identifying unauthorized drones at critical infrastructure, including drone-vs-bird discrimination."
 research_area: "drone-detection"
@@ -98,6 +98,7 @@ A knowledge base on detecting unauthorized drones at critical infrastructure —
 - [Threat Taxonomy]({{< relref "threat-taxonomy.md" >}}) — Classification of drone threats: surveillance, RF attack, fiber-optic FPV, autonomous, and swarms
 - [Regulatory Framework]({{< relref "regulatory-framework.md" >}}) — US C-UAS legal landscape: who can detect, who can interdict, applicable statutes, CISA guidance
 - [International Remote ID Requirements]({{< relref "international-remote-id-requirements.md" >}}) — UK, EU, China, and Japan Remote ID mandates compared to the US standard
+- [Drone Privacy, Trespass, and Criminal Misuse Law]({{< relref "privacy-trespass-and-misuse-law.md" >}}) — US, UK, German, and French law on drone spying, harassment, and vandalism; civil vs. criminal line; when to call police
 - [Open Source Projects]({{< relref "open-source/_index.md" >}}) — OpenDroneID, DJI DroneID decoders, acoustic ML pipeline, and community tools
 - [Commercial Hardware]({{< relref "hardware/_index.md" >}}) — Dedrone, DroneShield, Fortem, D-Fend, Aaronia, Robin Radar, Marduk, AeroDefense, Sentrycs, Skydio
 - [Deployment Architecture]({{< relref "deployment-architecture.md" >}}) — Design pattern for fixed-site C-UAS: sensor placement, integration, power/networking, maintenance

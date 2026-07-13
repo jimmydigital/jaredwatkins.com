@@ -1,11 +1,11 @@
 ---
 title: Energy Research
 date: 2026-03-23
-lastmod: 2026-07-09
+lastmod: 2026-07-12
 draft: false
 description: Research on emerging energy technologies including solar, batteries, grid storage, and the grid market structures that enable or constrain them.
 research_area: "energy"
-last_reviewed: 2026-07-09
+last_reviewed: 2026-07-12
 stale_after_days: 365
 sitemap:
   changefreq: "monthly"
@@ -42,6 +42,7 @@ Tracks breakthrough technologies and key players in the energy transition — wi
 | [Lyten]({{< relref "batteries/lyten.md" >}}) | San Jose, CA, USA | Series B+ | Lithium-sulfur with 3D graphene; claims 3× energy density vs Li-ion; $367M+ raised. |
 | [Verge Motorcycles]({{< relref "batteries/verge-motorcycles.md" >}}) | Finland | Private | Electric motorcycle OEM; launch platform for Donut Lab solid-state cells. |
 | [Idemitsu Kosan]({{< relref "batteries/idemitsu-solid-state.md" >}}) | Japan | Private (subsidiary) | ¥21.3B investment in lithium sulfide production; primary electrolyte supplier for Toyota solid-state program. |
+| [Air Energy]({{< relref "batteries/air-energy.md" >}}) | Chicago, IL, USA | Seed | Solid-state lithium-air (lithium-oxygen) batteries; DOE ARPA-E JOULES-1K-funded IIT/Argonne spinout; 1,000 Wh/kg cell-level demonstrated; targeting aviation, drones, and defense. |
 
 ### Public Companies
 
