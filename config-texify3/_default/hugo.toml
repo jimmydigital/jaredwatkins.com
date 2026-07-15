@@ -1,5 +1,4 @@
 baseURL = 'https://www.jaredwatkins.com/'
-disqusShortname = 'jaredwatkins'
 languageCode = 'en-us'
 title = 'The Infinite Unknown'
 enableGitInfo = false
@@ -28,11 +27,6 @@ rssLimit = 10
 
 ignoreLogs = ['warning-goldmark-raw-html']
 
-[services.disqus]
-  shortname = "jaredwatkins" # Enable Disqus by entering your Disqus shortname
-
-[services.googleAnalytics]
-  ID = "G-1XVTVTL5K4" # Enable Google Analytics by entering your tracking ID
 
 
 [imaging]
