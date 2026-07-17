@@ -660,6 +660,7 @@ A living, AI-maintained knowledge base on emerging technology topics. Each area 
 ## Topic Areas
 
 - [AI Accelerators]({{< relref "ai-accelerators/_index.md" >}}) — GPU and AI accelerator hardware: AMD Instinct, rack-scale systems, interconnect ecosystems
+- [Atmospheric Water Generation]({{< relref "atmospheric-water-generation/_index.md" >}}) — Sorbent-based (MOF) and condensation-based technologies for extracting fresh water from air humidity, and the startups commercializing them
 - [Datacenters]({{< relref "datacenters/_index.md" >}}) — Physical datacenter infrastructure: cooling, power, construction, rugged edge compute
 - [Drone Detection]({{< relref "drone-detection/_index.md" >}}) — C-UAS detection methods, hardware, open-source tools, and counter-drone platforms for critical infrastructure protection
 - [Energy]({{< relref "energy/_index.md" >}}) — Solar, batteries, nuclear, energy resources, and grid market structure/policy
