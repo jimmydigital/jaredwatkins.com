@@ -1,11 +1,11 @@
 ---
 title: "Research Section Changelog"
 date: 2026-04-04
-lastmod: 2026-07-18
+lastmod: 2026-07-19
 draft: false
 description: "Timestamped log of additions and modifications to the Research knowledge base."
 research_area: "research"
-last_reviewed: 2026-07-18
+last_reviewed: 2026-07-19
 stale_after_days: 90
 outputs:
   - HTML
@@ -18,6 +18,8 @@ sitemap:
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
 
+- **2026-07-19:** Updated [Model for DisCo Compute]({{< relref "datacenters/distributed-compute/model-for-disco-compute.md" >}}) — expanded monetization into subsections: software-stack deep dive (four planes w/ build-effort shape; power plane = the moat), token-marketplace design (firm vs. interruptible tokens, TTFT/latency-class routing, attestation-backed quality verification); added §13.4 water-rationing hedge (TX 7th drought year, Edwards Stage 4→3, Ogallala decline — AWG output uncorrelated w/ rationing triggers); moved balance-of-system BOM after token economics to restore §6→§7 flow.
+- **2026-07-19:** Updated [Model for DisCo Compute]({{< relref "datacenters/distributed-compute/model-for-disco-compute.md" >}}) — added iso-power 8× H200 NVL variant (~1.7× throughput break-even vs. D8; buys frontier-model reach not cheaper tokens), component-level cooling-loop BOM w/ vendors + microfluidic cold plate assessment (Corintis/JetCool commercial; win is hotter loop), balance-of-system BOM w/ build-vs-buy flags (sub-10 kW CDU is the key market gap), and waste-heat AWG-to-potable cost model (~50–170 L/day tracking absolute humidity; ~$0.05/L, 35–65× municipal); added per-model throughput estimates w/ two-bound formula footnotes to both model-menu tables.
 - **2026-07-18:** Created 2 [Cooling]({{< relref "datacenters/cooling/_index.md" >}}) entries: [Mojave Energy Systems]({{< relref "datacenters/cooling/mojave-energy-systems.md" >}}) (Xerox PARC spinout, AquaDry names data centers as target app, DoD SERDP demo) and [Blue Frontier]({{< relref "datacenters/cooling/blue-frontier.md" >}}) (NREL-licensed ESEAC/BF-DOAS, no disclosed data-center use yet); cross-linked [Uravu Labs]({{< relref "atmospheric-water-generation/uravu-labs.md" >}}), power-infrastructure, and Model for DisCo Compute on the shared waste-heat-driven liquid-desiccant theme; flagged Advantix Systems/Be Power Tech/EnerFuel alumni overlap across both companies' founders.
 - **2026-07-18:** Updated [Model for DisCo Compute]({{< relref "datacenters/distributed-compute/model-for-disco-compute.md" >}}) — added utilization sensitivity (55% breakeven at $0.60/M tokens) and a five-tier network monetization section w/ software stack and marketplace integration.
 - **2026-07-18:** Updated [Model for DisCo Compute]({{< relref "datacenters/distributed-compute/model-for-disco-compute.md" >}}) — added summer waste-heat paths: liquid-desiccant dehumidification (Mojave AquaDry 43–82°C regen match) and sorbent AWG (~110–260 L/day, adiabatic-assist loop closure); cross-linked Uravu/MOF-801/Atoco.
