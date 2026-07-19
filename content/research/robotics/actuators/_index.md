@@ -1,7 +1,7 @@
 ---
 title: Robotics Actuators
 date: 2026-03-24
-lastmod: 2026-06-23
+lastmod: 2026-07-18
 draft: false
 description: Motors, gearboxes, servo drives, and actuation systems for commercial and defense robots — from brushless DC motors to harmonic drives and hydraulic systems.
 research_area: "robotics/actuators"
@@ -28,6 +28,7 @@ Actuators are the muscles of robots — the subsystems that convert electrical (
 - Drone motors concentrated in China (T-Motor, Sunnysky, Hobbywing) with limited qualified Western alternatives
 - Emerging category of integrated joint modules (motor + gearbox + encoder + driver in one unit) from startups aiming to democratize robot design
 - Hydraulic actuation still dominant for heavy UGVs and construction robots despite electric's efficiency advantage at smaller scales
+- Ball-screw-driven series elastic actuation is a credible alternative to harmonic-drive-based joints for humanoid robots — see [UT Series Elastic Actuator (UT-SEA)]({{< relref "ut-series-elastic-actuator.md" >}}), the design underpinning NASA's Valkyrie and Apptronik's Apollo, chosen specifically to avoid harmonic drives' backdrivability and efficiency limitations
 
 ## Companies
 

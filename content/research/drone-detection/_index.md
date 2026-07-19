@@ -99,10 +99,13 @@ A knowledge base on detecting unauthorized drones at critical infrastructure —
 - [Regulatory Framework]({{< relref "regulatory-framework.md" >}}) — US C-UAS legal landscape: who can detect, who can interdict, applicable statutes, CISA guidance
 - [International Remote ID Requirements]({{< relref "international-remote-id-requirements.md" >}}) — UK, EU, China, and Japan Remote ID mandates compared to the US standard
 - [Drone Privacy, Trespass, and Criminal Misuse Law]({{< relref "privacy-trespass-and-misuse-law.md" >}}) — US, UK, German, and French law on drone spying, harassment, and vandalism; civil vs. criminal line; when to call police
+- [Property Owner Rights vs. Drone Operator Rules (US & UK)]({{< relref "property-owner-rights-and-operator-rules.md" >}}) — FAA Part 107 / UK CAA altitude and distance rules for operators; hovering vs. perimeter flying; thermal/LIDAR sensing; the *Causby*/*Ciraolo*/*Riley*/*Kyllo* case law; whether ground-level altitude legalizes self-help capture
 - [Open Source Projects]({{< relref "open-source/_index.md" >}}) — OpenDroneID, DJI DroneID decoders, acoustic ML pipeline, and community tools
 - [Commercial Hardware]({{< relref "hardware/_index.md" >}}) — Dedrone, DroneShield, Fortem, D-Fend, Aaronia, Robin Radar, Marduk, AeroDefense, Sentrycs, Skydio
 - [Deployment Architecture]({{< relref "deployment-architecture.md" >}}) — Design pattern for fixed-site C-UAS: sensor placement, integration, power/networking, maintenance
 - [Counter-Drone Platforms]({{< relref "counter-drone-platforms/_index.md" >}}) — Interceptor drones and kinetic/non-kinetic response
+- [High-Altitude Platforms (Airships & Balloons)]({{< relref "high-altitude-platforms/_index.md" >}}) — Stratospheric HAPS as persistent sensor platforms for drone/missile detection; Sceye, World View/Ondas, Aerostar, Urban Sky, TCOM, Hemeria/Safran, Kalam Labs
+- [MIMO Radar Projects]({{< relref "mimo-radar/_index.md" >}}) — Multiple-Input Multiple-Output digital antenna-array radar for compact, high-resolution 3D/4D drone detection; Advanced Protection Systems, RADA/Leonardo DRS, Fraunhofer FHR, Vayyar Imaging, Uhnder
 - [Ukraine Lessons Learned]({{< relref "ukraine-lessons-learned.md" >}}) — Battlefield results 2024–2026: what works, what doesn't, kinetic/electronic/passive countermeasures
 
 ---
@@ -129,6 +132,13 @@ A knowledge base on detecting unauthorized drones at critical infrastructure —
 | [Sensofusion](https://sensofusion.com) | Finland | Growth (€20.8M 2024 turnover reported) | Airfence passive RF drone + pilot locator; deployed commercially since 2016 |
 | [Tron Future Tech](https://www.tronfuture.com) | Taiwan | Series A (2024) | AESA-based anti-drone stack (T.Radar/T.Sensor/T.Jammer/T.Cam/T.Meta) |
 | [Echodyne](https://www.echodyne.com) | USA | Growth (Series A led by Bill Gates/Madrona; scaling production 2026) | Miniaturized MESA/ESA radar embedded in Dedrone, defense integrators; $490M USAF SUADS contract |
+| [Sceye](https://sceye.com) | USA | Growth (Series funding + NASA award, 2026) | Solar-powered stratospheric airship (HAPS); 12-day/6,400-mile flight test; see [High-Altitude Platforms]({{< relref "high-altitude-platforms/sceye.md" >}}) |
+| [Urban Sky](https://www.urbansky.com) | USA | Series B ($30M, Feb 2025) | Stratospheric Microballoon; AFRL STRATFI; Project Wallabee target-recognition test; see [High-Altitude Platforms]({{< relref "high-altitude-platforms/urban-sky.md" >}}) |
+| [Hemeria](https://www.hemeria-group.com) | France | Private (Safran MoU, Jun 2026) | BalMan maneuverable stratospheric balloon; Safran.AI-enabled ELINT/EW; see [High-Altitude Platforms]({{< relref "high-altitude-platforms/hemeria-balman.md" >}}) |
+| [Kalam Labs](https://kalamlabs.io) | India | Early (~$2M raised) | Balloon-launched stratospheric UAV; deployed at Pokhran/LAC; see [High-Altitude Platforms]({{< relref "high-altitude-platforms/kalam-labs.md" >}}) |
+| [Advanced Protection Systems](https://apsystems.tech) | Poland | Private | FIELDctrl 3D MIMO radar family for C-UAS/VSHORAD; see [MIMO Radar]({{< relref "mimo-radar/advanced-protection-systems.md" >}}) |
+| [Vayyar Imaging](https://vayyar.com) | Israel | Private | XRR single-chip MIMO RFIC (48 transceivers); automotive + public-safety 4D imaging; see [MIMO Radar]({{< relref "mimo-radar/vayyar-imaging.md" >}}) |
+| [Uhnder](https://www.uhnder.com) | USA | Private | Digital Code Modulation MIMO radar-on-chip (up to 96 channels); automotive-focused enabling tech; see [MIMO Radar]({{< relref "mimo-radar/uhnder.md" >}}) |
 
 ### Public Companies
 
@@ -136,7 +146,7 @@ A knowledge base on detecting unauthorized drones at critical infrastructure —
 |--------|---------|---------|
 | [DRO](https://finance.yahoo.com/quote/DRO) | [DroneShield](https://droneshield.com) | AI-powered C-UAS: RF, radar, acoustic, computer vision |
 | [AXON](https://finance.yahoo.com/quote/AXON) | [Axon Enterprise (Dedrone)](https://dedrone.com) | Multi-sensor drone detection platform (acquired Dedrone Oct 2024) |
-| [ONDS](https://finance.yahoo.com/quote/ONDS) | [Ondas Holdings](https://ondas.com) | Parent of Sentrycs (CoRF C-UAS) and Iron Drone Raider interceptor |
+| [ONDS](https://finance.yahoo.com/quote/ONDS) | [Ondas Holdings](https://ondas.com) | Parent of Sentrycs (CoRF C-UAS), Iron Drone Raider interceptor, and (2026) World View Stratollite stratospheric ISR — see [High-Altitude Platforms]({{< relref "high-altitude-platforms/world-view-stratollite.md" >}}) |
 
 ### Incumbents
 
@@ -145,6 +155,10 @@ A knowledge base on detecting unauthorized drones at critical infrastructure —
 | [LMT](https://finance.yahoo.com/quote/LMT) | [Lockheed Martin](https://lockheedmartin.com) | $25M investment in Fortem Technologies (Apr 2026); own C-UAS programs |
 | [RTX](https://finance.yahoo.com/quote/RTX) | [RTX](https://rtx.com) | Coyote interceptor drone program; C-UAS integration |
 | — (state-owned) | [Rafael Advanced Defense Systems](https://www.rafael.co.il) | Hunter Eagle / Ghost Hunter kinetic interceptors; Drone Dome C-UAS (integrates CRFS RFeye) |
+| — (private) | [TCOM, L.P.](https://tcomlp.com) | Tethered aerostat radar for cruise-missile/drone detection; direct commercial descendant of JLENS — see [High-Altitude Platforms]({{< relref "high-altitude-platforms/tcom.md" >}}) |
+| — (division of Raven/CNH) | [Aerostar](https://aerostar.com) | Stratospheric balloons/airships flying Army HELIOS/HAP-DS experimentation; Airbus U.S. partnership — see [High-Altitude Platforms]({{< relref "high-altitude-platforms/aerostar.md" >}}) |
+| [DRS](https://finance.yahoo.com/quote/DRS) | [Leonardo DRS (RADA)](https://www.drsrada.com) | Multi-Mission Hemispheric Radar (MHR) digital MIMO 4D AESA family; RPS-82 integrated into DroneShield DroneSentry — see [MIMO Radar]({{< relref "mimo-radar/rada-leonardo-drs.md" >}}) |
+| — (research institute) | [Fraunhofer FHR](https://www.fhr.fraunhofer.de) | German MIMO radar drone-detection research; AKIRA urban drone-monitoring network — see [MIMO Radar]({{< relref "mimo-radar/fraunhofer-fhr.md" >}}) |
 
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container" style="margin: 20px 0;">

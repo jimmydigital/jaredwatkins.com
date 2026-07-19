@@ -1,11 +1,11 @@
 ---
 title: Datacenter Power Infrastructure
 date: 2026-03-24
-lastmod: 2026-05-05
+lastmod: 2026-07-18
 draft: false
 description: Power sourcing, behind-the-meter generation, grid interconnection, and energy storage for AI-scale datacenters.
 research_area: "datacenters/power-infrastructure"
-last_reviewed: 2026-05-05
+last_reviewed: 2026-07-18
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -27,7 +27,7 @@ Power availability has displaced fiber connectivity as the primary datacenter si
 - Nuclear PPAs: Microsoft (Three Mile Island restart), Amazon (Susquehanna), Google (Kairos Power SMR) — establishing nuclear as a mainstream datacenter power source
 - SMRs: NuScale (cancelled first project), TerraPower, X-energy, Kairos Power all pursuing datacenter-adjacent deployments; 2030–2035 timeframe realistic for first commercial SMR datacenter power
 - Battery energy storage (BESS): used primarily for ride-through and UPS replacement rather than capacity; LFP-based BESS replacing traditional VRLA UPS in new builds
-- PUE implications of power sourcing: behind-the-meter gas turbines have waste heat that can improve facility ERE (Energy Reuse Effectiveness) if captured
+- PUE implications of power sourcing: behind-the-meter gas turbines have waste heat that can improve facility ERE (Energy Reuse Effectiveness) if captured — the same low-grade heat stream (and the similar-temperature-band heat rejected by liquid-cooled IT loads, see [Cooling]({{< relref "../cooling/_index.md" >}})) is the feedstock liquid-desiccant waste-heat reuse companies such as [Mojave Energy Systems]({{< relref "../cooling/mojave-energy-systems.md" >}}) and [Uravu Labs]({{< relref "../../atmospheric-water-generation/uravu-labs.md" >}}) are targeting for dehumidification/AC and water production, respectively
 - "24/7 clean power" vs. REC (Renewable Energy Certificate) accounting — a significant integrity gap in sustainability claims
 
 ## Companies

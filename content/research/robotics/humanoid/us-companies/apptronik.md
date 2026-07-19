@@ -1,9 +1,9 @@
 ---
 title: "Apptronik"
 date: 2026-06-19
-lastmod: 2026-06-19
+lastmod: 2026-07-18
 draft: false
-description: "Austin, TX humanoid robotics company; Apollo robot; $935M total raised; B Capital / Capital Factory / Google Series A; ~$5B valuation; 4-hour hot-swappable battery; 5 co-founders from UT Austin / NASA Valkyrie; Mercedes-Benz, John Deere, Qatar Investment Authority investors; customers include Mercedes-Benz, GXO Logistics, Jabil."
+description: "Austin, TX humanoid robotics company; Apollo robot; $935M total raised; B Capital / Capital Factory / Google Series A; ~$5B valuation; opened expanded 90,000 sq ft Robot Park (Jul 2026) running Apollo 2 (bipedal + wheeled) fleets to train Google DeepMind's Gemini Robotics; Apollo 3 commercial product targeted for 2027; 4-hour hot-swappable battery; 5 co-founders from UT Austin / NASA Valkyrie."
 research_area: "robotics/humanoid"
 source_urls:
   - "https://apptronik.com"
@@ -11,7 +11,9 @@ source_urls:
   - "https://www.globenewswire.com/news-release/2026/02/11/3236352/0/en/Apptronik-Closes-Over-935-Million-Series-A-with-New-520-Million-Extension-Round.html"
   - "https://techcrunch.com/2025/02/13/apptronik-raises-350m-to-build-humanoid-robots-with-help-from-google/"
   - "https://humanoid.guide/product/apollo/"
-last_reviewed: 2026-06-19
+  - "https://roboticsandautomationnews.com/2026/07/06/apptronik-launches-robot-park-to-train-apollo-humanoid-robots-with-google-deepmind/103069/"
+  - "https://www.automate.org/robotics/industry-insights/this-years-model-apptroniks-next-apollo-is-nearly-ready-for-its-closeup"
+last_reviewed: 2026-07-18
 stale_after_days: 90
 ---
 
@@ -19,7 +21,7 @@ stale_after_days: 90
 
 ## Summary
 
-Apptronik is an Austin-based humanoid robotics company spun out of the Human Centered Robotics Lab at UT Austin, with deep roots in NASA's Valkyrie humanoid program. Its Apollo robot targets industrial manufacturing and logistics. The company raised $935M total across a multi-tranche Series A in 2025–2026, co-led by B Capital and Capital Factory with Google participation, at a ~$5B post-money valuation. Investors include Mercedes-Benz, John Deere, Qatar Investment Authority, and AT&T Ventures. Apollo features a 4-hour battery life with hot-swap capability (swap in under 5 minutes), directly addressing the runtime limitation that constrains competitors. Commercial partners with active Apollo deployments include Mercedes-Benz, GXO Logistics, and Jabil.
+Apptronik is an Austin-based humanoid robotics company spun out of the Human Centered Robotics Lab at UT Austin, with deep roots in NASA's Valkyrie humanoid program. Its Apollo robot targets industrial manufacturing and logistics. The company raised $935M total across a multi-tranche Series A in 2025–2026, co-led by B Capital and Capital Factory with Google participation, at a ~$5B post-money valuation. Investors include Mercedes-Benz, John Deere, Qatar Investment Authority, and AT&T Ventures. On July 1, 2026, Apptronik opened an expanded, nearly 90,000-square-foot "Robot Park" data-collection and training facility in Austin, running fleets of its current Apollo 2 platform (in both bipedal and wheeled-base configurations) to generate training data for Google DeepMind's Gemini Robotics models. Apollo 2 is explicitly framed as a data-collection and pre-commercial platform; the first mature commercial product, Apollo 3, is targeted for release in 2027. Apollo's hot-swappable battery (4-hour runtime, swap in under 5 minutes) remains a key differentiator. Commercial partners with active Apollo 2 deployments include Mercedes-Benz, GXO Logistics, and Jabil.
 
 ## Key Facts
 
@@ -31,11 +33,15 @@ Apptronik is an Austin-based humanoid robotics company spun out of the Human Cen
 - **Total funding:** ~$935M
 - **Valuation:** ~$5.3B post-money (February 2026 round)
 - **Robot:** Apollo — 5'8" (~1.73m), ~160 lbs (~73 kg), 25 degrees of freedom, 55 lb (25 kg) payload
+- **Current platform:** Apollo 2 — modular bipedal + wheeled-base configurations; data-collection/pre-commercial platform, in production over a year as of mid-2026
+- **Next platform:** Apollo 3 — first mature commercial product, targeted for release in 2027
+- **Training infrastructure:** Robot Park — ~90,000 sq ft flagship facility, Austin, TX (expanded facility opened July 1, 2026); additional Robot Parks at Google DeepMind and customer sites (Mercedes-Benz, GXO)
 - **Battery:** 4-hour runtime; hot-swappable in under 5 minutes
 - **Actuator technology:** UT Series Elastic Actuator (SEA), invented by Nicholas Paine
 - **Value chain position:** Platform OEM; actuator design in-house (SEA), components sourced
 - **Commercial partners (active deployments):** Mercedes-Benz, GXO Logistics, Jabil
 - **Key investors:** B Capital (lead), Capital Factory (co-lead), Google, Mercedes-Benz, John Deere, Qatar Investment Authority, AT&T Ventures, PEAK6
+- **Key executives:** Jeff Cardenas (CEO & co-founder), Barry Phillips (Chief Commercial Officer)
 
 ## Funding & Investors
 
@@ -62,13 +68,24 @@ Apptronik is an Austin-based humanoid robotics company spun out of the Human Cen
 
 Apptronik evolved from UT Austin's Human Centered Robotics Lab, which contributed significantly to NASA's Valkyrie humanoid (developed 2013–2015 for DARPA's Robotics Challenge). The Apollo robot inherits Valkyrie's emphasis on safe human co-location, modular design, and the Series Elastic Actuator technology invented by Nicholas Paine during his PhD work.
 
-**UT Series Elastic Actuators:** Nicholas Paine's doctoral dissertation produced a class of SEA designs specifically optimized for full-body humanoid robots. The UT SEA is designed around backdrivability (the robot can be pushed away in an emergency), torque sensing via spring deflection, and shock tolerance. Like Agility's Digit, Apollo prioritizes safe human interaction over maximum speed or stiffness — the right tradeoff for factory floor co-working.
+**UT Series Elastic Actuators:** Nicholas Paine's doctoral dissertation produced a class of SEA designs specifically optimized for full-body humanoid robots. The UT SEA is designed around backdrivability (the robot can be pushed away in an emergency), torque sensing via spring deflection, and shock tolerance. Like Agility's Digit, Apollo prioritizes safe human interaction over maximum speed or stiffness — the right tradeoff for factory floor co-working. See [UT Series Elastic Actuator (UT-SEA)]({{< relref "../../actuators/ut-series-elastic-actuator.md" >}}) for a full technical deep dive on the design's origins, ball-screw/RFSEA architecture, and Apptronik's resulting patent family.
 
 **Apollo specifications:** 5'8" tall (~1.73m), ~160 lbs (~73 kg), 25 degrees of freedom, 55 lb (25 kg) payload capacity, 4-hour battery runtime with hot-swappable batteries (swap in under 5 minutes). The 4-hour runtime is a significant differentiator over Agility Digit's 90-minute limit; hot-swap means a single charging station can sustain near-continuous operation across shifts without the robot going offline. The 55 lb payload is meaningfully higher than Digit's tote-transport capacity, positioning Apollo for heavier manufacturing tasks (automotive parts, equipment assembly).
 
 **AI integration with Google:** The Google investment is likely coupled with access to Google DeepMind's Gemini Robotics foundation models. Apptronik would use these models to accelerate task learning across manufacturing environments, reducing the teleoperation data collection burden that limits competitors. This is a significant potential competitive advantage if DeepMind's physical AI models mature.
 
-**NASA Valkyrie lineage:** Apptronik's engineers built, operated, and maintain NASA Valkyrie units at multiple research institutions. This gives the team more full-humanoid integration experience than any other humanoid company except Boston Dynamics — the experience of actually running a full humanoid at scale in research environments is not trivial.
+**NASA Valkyrie lineage:** Apptronik's engineers built, operated, and maintain NASA Valkyrie units at multiple research institutions. This gives the team more full-humanoid integration experience than any other humanoid company except Boston Dynamics — the experience of actually running a full humanoid at scale in research environments is not trivial. See [Valkyrie (NASA R5)]({{< relref "../valkyrie.md" >}}) for a full profile of the platform, its 2013 DARPA Robotics Challenge history, and its ongoing NASA research program.
+
+**Robot Park and Apollo 2 (July 2026):** Apptronik opened an expanded, nearly 90,000-square-foot "Robot Park" data-collection and training facility in Austin on July 1, 2026, and unveiled Apollo 2 — the current-generation platform, offered in both bipedal and wheeled-base configurations. Apollo 2 has reportedly been running in Apptronik's facilities and at customer sites for more than a year prior to this public unveiling, and the company says it has already produced more Apollo 2 units than its 2023 predecessor. Apollo 2 is explicitly positioned as a data-collection and training platform rather than a finished commercial product: it generates teleoperation and autonomous-execution data at Robot Park and at partner sites (including a Robot Park at Google DeepMind itself, plus Mercedes-Benz and GXO facilities) to train Google DeepMind's Gemini Robotics foundation models. The wheeled configuration is designed to meet existing industrial mobile-robot safety standards for faster near-term deployment; the bipedal configuration is used to continue refining walking safety and reliability. CEO Jeff Cardenas has said the company deliberately withheld a public reveal of this generation for roughly a year, wanting to show only capabilities it could reliably demonstrate live rather than in edited demo videos.
+
+**Apollo 3 (targeted 2027):** Apptronik describes Apollo 3 as its first mature commercial product, intended to launch with substantially more built-in embodied intelligence than Apollo 2 by leveraging the data collected through Robot Park and the Gemini Robotics partnership. As of mid-2026, Apollo 3 has not been publicly demonstrated; Cardenas has indicated multiple incremental Apollo versions will appear "in pretty quick sequence" ahead of it. Per this knowledge base's convention for undemonstrated products, Apollo 3's status should be treated as **Announced / Undemonstrated** until a public hardware demo occurs.
+
+## Notable Developments
+
+- **2026-07-01:** Opened expanded ~90,000 sq ft Robot Park facility in Austin, TX; unveiled Apollo 2 (bipedal + wheeled configurations) as the data-collection/training platform feeding Google DeepMind's Gemini Robotics models.
+- **2026-02-11:** Closed $520M Series A-X extension (new investors AT&T Ventures, John Deere, Qatar Investment Authority), bringing total Series A to over $935M at a ~$5B+ valuation.
+- **2025-03:** Closed $53M oversubscribed Series A extension, bringing initial round to $403M.
+- **2025-02-13:** Announced $350M Series A co-led by B Capital and Capital Factory, with Google, Mercedes-Benz, and GXO Logistics participating.
 
 ## Founder Backgrounds
 
@@ -101,7 +118,7 @@ Apptronik evolved from UT Austin's Human Centered Robotics Lab, which contribute
 
 **Pattern:** The strongest academic foundation of any US humanoid startup. Five co-founders with PhDs and genuine full-humanoid construction experience. The presence of Prof. Sentis as a co-founder (rather than just an academic advisor) gives Apptronik access to ongoing research output and talent pipeline from UT Austin.
 
-### People — Last Reviewed: 2026-06-19
+### People — Last Reviewed: 2026-07-18
 
 ## Supply Chain & Dependencies
 
@@ -134,6 +151,21 @@ Apptronik evolved from UT Austin's Human Centered Robotics Lab, which contribute
 
 **Summary:** Strong institutional backing and credible team. No verified commercial deployment yet. Timeline to commercial scale is uncertain.
 
+### Claim: Apollo 3 will be Apptronik's first mature commercial product, targeted for 2027
+
+**Status:** Unverified (forward-looking, company statement)
+
+**Supporting sources:**
+- CEO Jeff Cardenas confirmed the Apollo 3 timeline and commercial-product framing directly to Automate/A3 (Feb 2026) and in the Robot Park launch materials (Jul 2026)
+- Apollo 2's year-plus operating history and expanding customer deployments (Mercedes-Benz, GXO) suggest a genuine hardware/data pipeline behind the claim, not just a slide
+
+**Refuting / qualifying sources:**
+- No public hardware demonstration of Apollo 3 exists as of July 2026; per this knowledge base's convention, its status is Announced / Undemonstrated
+- Cardenas had previously targeted a public Apollo 2 reveal for 2025, which slipped roughly a year — the company's own disclosed track record shows timeline slippage on the current generation
+- "Commercial product" has not been defined with specific unit, reliability, or pricing commitments
+
+**Summary:** Credible near-term roadmap given Apollo 2's maturity and data pipeline, but the only comparable prior Apptronik timeline (Apollo 2's public reveal) slipped about a year — Apollo 3's 2027 target should be treated as directional, not committed.
+
 ## Sources
 
 - [Apptronik official site](https://apptronik.com)
@@ -141,3 +173,5 @@ Apptronik evolved from UT Austin's Human Centered Robotics Lab, which contribute
 - [Apptronik raises $350M — TechCrunch, Feb 2025](https://techcrunch.com/2025/02/13/apptronik-raises-350m-to-build-humanoid-robots-with-help-from-google/)
 - [Apptronik closes $935M Series A with $520M extension — GlobeNewswire (official PR), Feb 2026](https://www.globenewswire.com/news-release/2026/02/11/3236352/0/en/Apptronik-Closes-Over-935-Million-Series-A-with-New-520-Million-Extension-Round.html)
 - [Apollo specifications — Humanoid.guide](https://humanoid.guide/product/apollo/)
+- [Apptronik launches Robot Park to train Apollo humanoid robots with Google DeepMind — Robotics & Automation News, Jul 6 2026](https://roboticsandautomationnews.com/2026/07/06/apptronik-launches-robot-park-to-train-apollo-humanoid-robots-with-google-deepmind/103069/)
+- [This Year's Model: Apptronik's Next Apollo is (Nearly) Ready for Its Closeup — Automate/A3, Feb 19 2026](https://www.automate.org/robotics/industry-insights/this-years-model-apptroniks-next-apollo-is-nearly-ready-for-its-closeup)

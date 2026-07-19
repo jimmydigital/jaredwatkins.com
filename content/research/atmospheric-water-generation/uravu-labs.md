@@ -1,18 +1,21 @@
 ---
 title: "Uravu Labs"
 date: 2026-07-16
-lastmod: 2026-07-16
+lastmod: 2026-07-18
 draft: false
 description: "Bengaluru, India-based liquid-desiccant atmospheric water company, founded 2017/2019, that has pivoted from hospitality drinking-water units toward 'water-positive cooling' for AI data centers under its Clausius platform."
 research_area: "atmospheric-water-generation"
 source_urls:
   - "https://www.uravulabs.com/"
   - "https://india.entrepreneur.com/news-and-trends/uravu-labs-raises-23-million-in-seed-funding/448228"
-last_reviewed: 2026-07-16
+last_reviewed: 2026-07-18
 stale_after_days: 90
 related:
   - "atmospheric-water-generation/mof-801.md"
   - "atmospheric-water-generation/_index.md"
+  - "datacenters/cooling/mojave-energy-systems.md"
+  - "datacenters/cooling/blue-frontier.md"
+  - "datacenters/power-infrastructure/_index.md"
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
@@ -39,7 +42,9 @@ In its original form (roughly 2019–2025), Uravu marketed this as a decentraliz
 
 By mid-2026 the company's public-facing positioning had shifted almost entirely toward AI data centers under a platform it calls Clausius. The pitch: modern AI data centers face a structural trade-off between water and energy consumption for cooling — evaporative cooling towers consume large volumes of water, while air-cooled or refrigerant-based systems consume more energy. Uravu's argument is that its liquid-desiccant cycle, driven by the low-grade waste heat data centers already reject from servers and chillers, can eliminate that trade-off entirely: the platform simultaneously cools the facility (returning chilled water to the cooling loop) and produces distilled water as a byproduct, at up to a claimed 30,000 liters per megawatt of IT load per day, while pushing PUE (Power Usage Effectiveness) down to a claimed 1.05–1.1 and WUE (Water Usage Effectiveness) negative — meaning the facility becomes a net water producer rather than consumer. The company frames this shift around published data center water-stress statistics: it cites over 2 billion people living under water stress, 1B+ gallons of water consumed daily by data centers globally (growing roughly 30% year-over-year with AI expansion), AI-dense data centers requiring roughly 5x the water of traditional facilities, and 8+ jurisdictions that have already blocked or paused data center projects over water concerns.
 
-This is a genuinely different application angle from other companies in this section: rather than competing on drinking-water production for arid regions or off-grid use, Uravu is positioning atmospheric/waste-heat-driven water harvesting as datacenter cooling infrastructure — directly relevant to the water and power constraints increasingly shaping datacenter siting decisions (see [Datacenters]({{< relref "datacenters/_index.md" >}}) and [Datacenter Opposition]({{< relref "datacenter-opposition/_index.md" >}})).
+This is a genuinely different application angle from other companies in this section: rather than competing on drinking-water production for arid regions or off-grid use, Uravu is positioning atmospheric/waste-heat-driven water harvesting as datacenter cooling infrastructure — directly relevant to the water and power constraints increasingly shaping datacenter siting decisions (see [Datacenters]({{< relref "datacenters" >}}) and [Datacenter Opposition]({{< relref "datacenter-opposition" >}})).
+
+Two datacenter-cooling-section companies apply the same low-grade-heat-driven liquid-desiccant chemistry to a related but distinct end use — building/facility dehumidification and air conditioning rather than water production: [Mojave Energy Systems]({{< relref "mojave-energy-systems.md" >}}), whose AquaDry product explicitly names data centers as a target application and regenerates from 110–180°F (43–82°C) waste heat — overlapping the low end of Uravu's own 35–60°C regeneration window — and [Blue Frontier]({{< relref "blue-frontier.md" >}}), whose thermally-regenerated liquid-desiccant air conditioner uses the same mechanism (though without a disclosed data-center application as of this review). None of the three companies are known to be affiliated; they represent independent commercial bets on the same underlying insight that datacenter reject heat sits in a temperature range liquid desiccants can use directly.
 
 ## Notable Developments
 

@@ -1,7 +1,7 @@
 ---
 title: "Drone Privacy, Trespass, and Criminal Misuse Law"
 date: 2026-07-09
-lastmod: 2026-07-09
+lastmod: 2026-07-17
 draft: false
 description: "How US, UK, German, and French law treat drone operators who spy on private property, harass, or vandalize — the civil/criminal line, and when to involve police."
 research_area: "drone-detection"
@@ -28,6 +28,8 @@ stale_after_days: 90
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis and is **not legal advice**. Do not rely on it as a sole source — verify claims independently using the sources below and consult a licensed attorney for any actual dispute.
 
 ## Summary
+
+For the aviation-rulebook altitude/distance limits operators must follow (FAA Part 107, UK CAA Open category A1/A2/A3), the *Causby*/*Ciraolo*/*Riley*/*Kyllo* case law on aerial "reasonable expectation of privacy," and a direct answer to whether altitude changes the legality of self-help capture, see [Property Owner Rights vs. Drone Operator Rules]({{< relref "property-owner-rights-and-operator-rules.md" >}}).
 
 Unlike the [US C-UAS detect-vs-interdict framework]({{< relref "regulatory-framework.md" >}}), which governs *critical infrastructure operators defending against* drones, this entry covers the opposite direction: what the law says about *drone operators* who spy on, harass, or damage private property. No country has a single "drone law" for this — instead, ordinary trespass, voyeurism, harassment, stalking, and criminal-damage statutes get applied to drone facts, layered under a thin sheet of drone-specific aviation rules. The result is a patchwork that turns heavily on altitude, intent, repetition, and whether the target had a "reasonable expectation of privacy." The US is the most fragmented (federal airspace preemption vs. state privacy statutes vs. common-law torts); the UK routes most misuse through existing criminal statutes plus a fast police contact number; France criminalizes unauthorized recording more aggressively than Germany, which favors administrative fines.
 

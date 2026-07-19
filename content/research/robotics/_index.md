@@ -1,7 +1,7 @@
 ---
 title: Robotics Research
 date: 2026-03-24
-lastmod: 2026-07-15
+lastmod: 2026-07-18
 draft: false
 description: Research on commercial robotics platforms, components, and the companies and people building them.
 research_area: "robotics"
@@ -38,6 +38,9 @@ Tracks commercial robotics platforms, component suppliers, and the people and ca
 - Additive manufacturing (3D printing) has crossed from prototyping into genuine production-volume drone airframe manufacturing, lowering the capital/tooling barrier to entry for new platform startups
 - Renishaw holds a 50% ownership stake in magnetic encoder specialist RLS — a reminder that nominally separate component brands in a supply chain can share deeper ownership ties than they first appear to
 - Slip rings and tracking antennas are comparatively under-concentrated risk areas so far: no single-vendor chokepoint on the scale of BLHeli AS or Amass has been identified in either subsection to date
+- Dexterous hands have shifted from a hardware-scarcity problem to a reliability/repairability problem: Chinese manufacturer Inspire Robots went from ~2,000 to 10,000+ units delivered year-over-year, but no manufacturer has published a certified 10,000-hour MTBF for multi-jointed fingers as of mid-2026
+- Established industrial component manufacturers (Bosch, Schaeffler, Samsung, HL Mando) are increasingly taking direct equity stakes in humanoid-adjacent hardware specialists (Neura Robotics, Tesollo) rather than only supplying components at arm's length — a notable shift in how incumbents are positioning for the humanoid buildout
+- Home/consumer humanoid robots moved from announcement to open pre-order in this period (1X NEO, Oct 2025) and Western industrial players (Neura Robotics' 4NE1 Mini) are explicitly targeting household tasks alongside commercial/industrial use, not just US and Chinese consumer entrants
 
 ## Subsections
 
@@ -48,6 +51,7 @@ Tracks commercial robotics platforms, component suppliers, and the people and ca
 - [AMR & Logistics]({{< relref "amr-and-logistics/_index.md" >}}) — Warehouse AMRs, picking robots, fleet management (6 River, Locus, Fetch, Geek+)
 - [Industrial Robots & Cobots]({{< relref "industrial-robots/_index.md" >}}) — Robot arms and cobots; Universal Robots; FANUC/ABB/KUKA/Yaskawa context
 - [Humanoid Robots]({{< relref "humanoid/_index.md" >}}) — US and non-US companies; autonomy claims; specialized robot debate
+- [Robotic Hands & Dexterous Manipulation]({{< relref "hands/_index.md" >}}) — Multi-fingered end effectors for humanoid/industrial manipulation; Inspire Robots, Tesollo, PSYONIC
 - [Software & Integration]({{< relref "software-and-integration/_index.md" >}}) — Middleware, fleet orchestration, WMS integration (SVT Robotics, Robust AI, Vecna)
 - [Actuators]({{< relref "actuators/_index.md" >}}) — Harmonic drives, servo motors, gearboxes
 - [Sensors]({{< relref "sensors/_index.md" >}}) — LiDAR, radar, GNSS, vision

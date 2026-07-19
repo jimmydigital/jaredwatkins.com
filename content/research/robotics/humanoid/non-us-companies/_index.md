@@ -1,11 +1,11 @@
 ---
 title: "Humanoid Robots — Non-US Companies"
 date: 2026-06-19
-lastmod: 2026-06-19
+lastmod: 2026-07-18
 draft: false
-description: "Non-US humanoid robot companies, dominated by Chinese manufacturers who shipped ~90% of global units in 2025."
+description: "Non-US humanoid robot companies, dominated by Chinese manufacturers who shipped ~90% of global units in 2025; Germany's Neura Robotics is the leading non-Chinese entrant after a record $1.4B Series C in June 2026."
 research_area: "robotics/humanoid"
-last_reviewed: 2026-06-19
+last_reviewed: 2026-07-18
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -15,7 +15,7 @@ sitemap:
 
 ## Overview
 
-Chinese manufacturers dominate humanoid robot production by volume. In 2025, Chinese firms shipped approximately 80–90% of the ~13,000 global humanoid units. Price competition is severe: Unitree's R1 launched at $5,900, compared to US competitors at $100K+. Beijing has flagged concern about a domestic investment bubble in the sector.
+Chinese manufacturers dominate humanoid robot production by volume. In 2025, Chinese firms shipped approximately 80–90% of the ~13,000 global humanoid units. Price competition is severe: Unitree's R1 launched at $5,900, compared to US competitors at $100K+. Beijing has flagged concern about a domestic investment bubble in the sector. Germany's Neura Robotics is the most substantial non-Chinese, non-US entrant, having closed a record $1.4B Series C in June 2026 — the largest single capital raise by a full-stack robotics company to date — with strategic backing from Bosch, Schaeffler, Amazon, and NVIDIA.
 
 ## Entries
 
@@ -26,6 +26,7 @@ Chinese manufacturers dominate humanoid robot production by volume. In 2025, Chi
 - [Kepler]({{< relref "kepler-robotics.md" >}}) 🇨🇳 — targeting $30K industrial humanoid
 - [Boston Dynamics]({{< relref "boston-dynamics.md" >}}) — South Korean-owned (Hyundai); Atlas all-electric; Spot commercial
 - [PAL Robotics]({{< relref "pal-robotics.md" >}}) — Spain; TALOS and KANGAROO; research/European industrial
+- [Neura Robotics]({{< relref "neura-robotics.md" >}}) — Germany; $1.4B Series C (Jun 2026), ~$7B valuation; 4NE1 / 4NE1 Mini; Bosch/Schaeffler/Amazon/NVIDIA-backed
 
 ## Companies Table
 
@@ -47,3 +48,4 @@ Chinese manufacturers dominate humanoid robot production by volume. In 2025, Chi
 |---------|-----|-------|-------|
 | [Boston Dynamics](https://bostondynamics.com) | Waltham, MA (Hyundai-owned) | Atlas | Hyundai automotive pilots; 3+ decades R&D |
 | [PAL Robotics](https://pal-robotics.com) | Barcelona, Spain | TALOS, KANGAROO | European research / industrial trials |
+| [Neura Robotics](https://neura-robotics.com) | Metzingen, Germany | 4NE1, 4NE1 Mini | $1.4B Series C (Jun 2026), ~$7B valuation; Bosch/Schaeffler/Amazon/NVIDIA-backed; targeting industrial and household use |

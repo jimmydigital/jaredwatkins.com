@@ -1,9 +1,9 @@
 ---
 title: "1X Technologies"
 date: 2026-06-19
-lastmod: 2026-06-19
+lastmod: 2026-07-18
 draft: false
-description: "Norwegian-founded, US-operated humanoid startup; $136.5M raised; OpenAI and EQT Ventures backed; NEO consumer robot ships 2026 with ~60–70% autonomy and 'Expert Mode' teleoperation for remainder; Bernt Børnich founder."
+description: "Norwegian-founded, US-operated humanoid startup; $136.5M raised; OpenAI and EQT Ventures backed; NEO consumer robot open for pre-order at $20,000 (or $499/month) since Oct 2025, 22-DoF five-finger hands, Redwood AI + NVIDIA Jetson Thor Cortex compute; ~60–70% autonomy with 'Expert Mode' teleoperation for remainder; Bernt Børnich founder."
 research_area: "robotics/humanoid"
 source_urls:
   - "https://1x.tech"
@@ -11,7 +11,9 @@ source_urls:
   - "https://techcrunch.com/2024/01/08/1x-technologies-series-b/"
   - "https://medium.com/@mehul.chourasia28/the-truth-about-humanoid-robots-in-2026-3ae82e9061b1"
   - "https://www.winssolutions.org/humanoid-robots-2025-2026-reality-hype/"
-last_reviewed: 2026-06-19
+  - "https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/"
+  - "https://www.1x.tech/discover/neo-home-robot"
+last_reviewed: 2026-07-18
 stale_after_days: 90
 ---
 
@@ -19,17 +21,19 @@ stale_after_days: 90
 
 ## Summary
 
-1X Technologies is a Norwegian-founded startup with US operations, backed by OpenAI and EQT Ventures. Its NEO robot is marketed as the "world's first consumer-ready home humanoid." NEO ships in 2026 with a feature called "Expert Mode" — human teleoperators at 1X HQ control the robot remotely via VR headset for tasks it cannot handle autonomously. Independent estimates place NEO's autonomous task completion at ~60–70%, meaning roughly a third of operations involve remote human control. This is the most clearly disclosed example of the teleoperation-as-a-service model that critics argue is pervasive but largely undisclosed across the humanoid sector. 1X also separately deploys a wheeled industrial robot (EVE/Android) in commercial settings.
+1X Technologies is a Norwegian-founded startup with US operations, backed by OpenAI and EQT Ventures. Its NEO robot is marketed as the "world's first consumer-ready home humanoid." 1X opened consumer pre-orders for NEO on October 30, 2025 — Early Access costs $20,000 (with a $200 deposit) or $499/month, with first deliveries to US homes beginning in 2026 and expansion to other markets from 2027. NEO ships with a feature called "Expert Mode"/scheduled teleoperation — human teleoperators at 1X control the robot remotely for tasks it cannot handle autonomously. Independent estimates place NEO's autonomous task completion at ~60–70%, meaning roughly a third of operations involve remote human control. This is the most clearly disclosed example of the teleoperation-as-a-service model that critics argue is pervasive but largely undisclosed across the humanoid sector. 1X also separately deploys a wheeled industrial robot (EVE/Android) in commercial settings.
 
 ## Key Facts
 
 - **Founded:** 2021 (Moss, Norway)
 - **HQ:** Norway (founding / engineering); Santa Clara, CA (US operations)
 - **Type:** Company — Platform OEM + teleoperation service provider
-- **Status:** Active; NEO pre-orders open; 2026 consumer delivery; EVE commercial deployments ongoing
+- **Status:** Active; NEO pre-orders open since Oct 30, 2025; first US home deliveries in 2026, other markets from 2027; EVE commercial deployments ongoing
 - **Employees:** 100+ (2023 figure; likely higher by 2026)
 - **Total funding:** $136.5M across 3 rounds
 - **Robots:** NEO (bipedal, consumer); EVE/Android (wheeled, industrial)
+- **NEO price:** $20,000 Early Access ($200 deposit) or $499/month subscription
+- **NEO specs:** 66 lb (29.9 kg); lifts up to 154 lb (69.8 kg); carries 55 lb (24.9 kg); 22-DoF five-finger hands (44 DoF across both); soft 3D-lattice polymer body; patented Tendon Drive actuation; NVIDIA Jetson Thor-based "Cortex" compute; Wi-Fi/Bluetooth/5G
 - **Autonomy level (NEO):** ~60–70% autonomous at launch; ~30–40% via "Expert Mode" teleoperation
 - **Value chain position:** Platform OEM + AI/teleoperation service
 
@@ -55,7 +59,9 @@ stale_after_days: 90
 
 1X Technologies was founded by Bernt Øivind Børnich with a distinct design philosophy: a soft-bodied robot with compliant, fabric-covered limbs designed for safety around humans in home environments. The company partnered with NVIDIA and uses the GR00T N1 foundation model as a base for task policies.
 
-**NEO design philosophy:** Unlike the metal exoskeleton design of most industrial humanoids, NEO's soft body is deliberately optimized for consumer environments where a robot damaging furniture or injuring a family member is an existential product risk. The soft exterior also has compliance benefits — unplanned contact is less dangerous than with rigid structures.
+**NEO design philosophy:** Unlike the metal exoskeleton design of most industrial humanoids, NEO's soft body is deliberately optimized for consumer environments where a robot damaging furniture or injuring a family member is an existential product risk. The soft exterior also has compliance benefits — unplanned contact is less dangerous than with rigid structures. NEO's actuation is built on 1X's patented Tendon Drive system, which the company describes as using some of the highest torque-density motors available to drive cable/tendon transmissions rather than rigid gearboxes — intended to produce compliant, low-energy movement safe around people.
+
+**Hands:** NEO ships with 22-degree-of-freedom five-fingered hands (44 DoF across both hands), among the highest hand-DoF counts publicly disclosed for a shipping (rather than lab-only) humanoid platform as of mid-2026, positioning dexterous manipulation — folding laundry, handling dishes, opening doors — as a core NEO capability rather than a research afterthought.
 
 **Expert Mode (teleoperation service):** NEO ships with a household membership that includes access to remote human operators who take control when NEO encounters tasks it cannot handle autonomously. 1X frames Expert Mode as: (a) a safety net for customers, and (b) a data generation pipeline — every teleoperated session produces labeled training data that improves autonomous policies. This is the most honest public disclosure of the teleoperation-backstop model in the industry. 1X is unique in having made this a public product feature rather than hiding it.
 
@@ -64,6 +70,12 @@ stale_after_days: 90
 **EVE/Android industrial platform:** 1X separately operates EVE, a wheeled-base humanoid-upper-body robot deployed in commercial security and facility monitoring. EVE generates revenue and real-world operational data while NEO is being deployed to consumers. EVE deployments at US commercial facilities are the company's closest thing to current commercial traction.
 
 **December 2025 announcement:** 1X announced a deal to also send NEO units to factories and warehouses (TechCrunch December 2025) — expanding from consumer-only to dual-market, suggesting the home market timeline may be slipping or the factory market opportunity is more near-term.
+
+## Notable Developments
+
+- **2025-10-30:** Opened consumer pre-orders for NEO — $20,000 Early Access ($200 deposit) or $499/month; first US home deliveries targeted for 2026, other markets from 2027.
+- **2025-12:** Announced expansion of NEO deployment to factories and warehouses in addition to the original consumer/home focus.
+- **2024-08:** Unveiled NEO Beta and announced the pivot to focus solely on the in-home consumer market.
 
 ## Founder Background
 
@@ -77,7 +89,7 @@ stale_after_days: 90
 
 **Note on founder background:** Børnich's background is lighter on academic robotics credentials than founders at Agility, Apptronik, or Sanctuary AI. 1X compensates by hiring NVIDIA engineers and using GR00T as the foundation model rather than developing AI from scratch — a systems integration strategy rather than a first-principles research approach.
 
-### People — Last Reviewed: 2026-06-19
+### People — Last Reviewed: 2026-07-18
 
 ## Supply Chain & Dependencies
 
@@ -129,3 +141,5 @@ stale_after_days: 90
 - [1X raises $100M Series B — TechCrunch, Jan 2024](https://techcrunch.com/2024/01/08/1x-technologies-series-b/)
 - [The Truth About Humanoid Robots in 2026 — Medium](https://medium.com/@mehul.chourasia28/the-truth-about-humanoid-robots-in-2026-3ae82e9061b1)
 - [Humanoid Robots 2025–2026: Reality or Hype? — Winn Solutions](https://www.winssolutions.org/humanoid-robots-2025-2026-reality-hype/)
+- [NEO humanoid designed for household use, available for preorder — The Robot Report, Oct 30 2025](https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/)
+- [1X NEO Home Robot — Order page](https://www.1x.tech/discover/neo-home-robot)

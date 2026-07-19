@@ -1,7 +1,7 @@
 ---
 title: "Base Power"
 date: 2026-07-09
-lastmod: 2026-07-09
+lastmod: 2026-07-18
 draft: false
 description: "Austin, Texas startup deploying large, vertically-integrated home batteries as a distributed grid resource; retail electric provider in ERCOT and utility-partnership VPP operator elsewhere; $4B Series C valuation (Oct 2025), reportedly in talks at $12B (May 2026)."
 research_area: "energy/batteries"
@@ -15,11 +15,16 @@ source_urls:
   - "https://www.businesswire.com/news/home/20260413969089/en/GVEC-and-Base-Power-Expand-Partnership-to-Full-Service-Territory-Delivering-50-MW-of-Residential-Battery-Capacity"
   - "https://austinenergy.com/about/news/news-releases/2026/Austin-Energy-expands-local-battery-storage-to-support-reliable-affordable-power"
   - "https://www.canarymedia.com/articles/batteries/base-power-cheap-batteries-pjm"
-last_reviewed: 2026-07-09
+  - "https://finance.yahoo.com/news/zach-dells-power-plans-create-173412623.html"
+  - "https://www.businesswire.com/news/home/20260624437919/en/Base-Power-Launches-in-Chicagoland-as-Electricity-Costs-Surge-Cutting-Customers-Supply-Bills-25-Below-ComEds-Fixed-Rate"
+  - "https://www.energychoicematters.com/stories/20260716f.html"
+last_reviewed: 2026-07-18
 stale_after_days: 90
 related:
   - "energy/batteries/_index.md"
   - "energy/grid-markets/ercot-market-design.md"
+  - "datacenters/distributed-compute/span.md"
+  - "energy/virtual-power-plants/_index.md"
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
@@ -37,7 +42,7 @@ related:
 
 ## Summary
 
-Base Power is an Austin, Texas-based startup (founded 2023) that designs, manufactures, installs, and operates oversized residential battery systems, aggregating them into a distributed grid resource. Unlike Tesla Powerwall or Enphase, which sell batteries through installers, Base owns the hardware and the customer relationship end-to-end: it is a licensed Texas Retail Electric Provider that gives homeowners a large battery for a low upfront fee and small monthly subscription, then dispatches the aggregated fleet into ERCOT's wholesale and ancillary-services markets (and, in regulated-utility territories, sells the aggregated capacity directly to the utility) to recover its costs. It raised $1 billion in Series C funding in October 2025 at a $4 billion valuation and was reportedly in talks as of May 2026 to raise further funding at a $12 billion valuation. Base's model depends heavily on Texas-specific market structure — see [ERCOT Market Design]({{< relref "../grid-markets/ercot-market-design.md" >}}) for the regulatory mechanisms (retail choice, the energy-only market, ERCOT's ADER pilot) that enable it, and for Base's June 2026 expansion into PJM territory as an early test of how portable the model is outside Texas.
+Base Power is an Austin, Texas-based startup (founded 2023) that designs, manufactures, installs, and operates oversized residential battery systems, aggregating them into a distributed grid resource. Unlike Tesla Powerwall or Enphase, which sell batteries through installers, Base owns the hardware and the customer relationship end-to-end: it is a licensed Texas Retail Electric Provider that gives homeowners a large battery for a low upfront fee and small monthly subscription, then dispatches the aggregated fleet into ERCOT's wholesale and ancillary-services markets (and, in regulated-utility territories, sells the aggregated capacity directly to the utility) to recover its costs. It raised $1 billion in Series C funding in October 2025 at a $4 billion valuation and was reportedly in talks as of May 2026 to raise further funding at a $12 billion valuation. Base's model depends heavily on Texas-specific market structure — see [ERCOT Market Design]({{< relref "../grid-markets/ercot-market-design.md" >}}) for the regulatory mechanisms (retail choice, the energy-only market, ERCOT's ADER pilot) that enable it, and for Base's June 2026 expansion into PJM territory as an early test of how portable the model is outside Texas. For the broader competitive landscape — residential aggregators like Sunrun, Tesla, and Renew Home, and C&I demand-response platforms like Voltus, Enel North America, CPower, and Uplight — see [Virtual Power Plants]({{< relref "../virtual-power-plants/_index.md" >}}); Base's owned-hardware-plus-REP-license model is structurally distinct from all of them.
 
 ## Key Facts
 
@@ -49,8 +54,8 @@ Base Power is an Austin, Texas-based startup (founded 2023) that designs, manufa
 - **Flagship hardware:** Single ground-mounted system (25 kWh, 11.4 kW instant discharge); double ground-mounted system (50 kWh); Base Core (39.2 kWh total energy per unit, Gen 3 hardware, stackable), designed and manufactured in-house
 - **Manufacturing:** "Factory One," the former Austin American-Statesman printing press site in downtown Austin; a second factory is planned
 - **Funding:** $1 billion Series C, October 2025, led by Addition, at a $4 billion valuation; reportedly in talks (as of May 29, 2026) to raise roughly $1 billion more at a $12 billion valuation, with Ribbit Capital reported as the lead — unconfirmed by the company as of this review
-- **Deployment scale:** More than 100 MWh deployed as of October 2025 (Series C announcement); roughly 300 MWh in operation with an installation pace of 60+ customers per day as of March 2026; reported at more than 500 MWh installed in Texas since its 2024 commercial launch as of June 2026
-- **Customer base:** Roughly 10,000 customers as of early 2026, per reporting
+- **Deployment scale:** More than 100 MWh deployed as of October 2025 (Series C announcement, company-reported, unaudited — see Claim Verification); roughly 300 MWh in operation with an installation pace of 60+ customers per day as of March 2026; reported at more than 500 MWh installed in Texas since its 2024 commercial launch as of June 2026
+- **Customer base:** Company press materials give inconsistent counts within the same month — "more than 20,000 homes" (Chicagoland launch release, June 24, 2026) vs. "more than 15,000 homes" (Austin Energy launch coverage, citing Base materials, July 16, 2026); both trace to Base's own boilerplate rather than an independently audited figure, and the discrepancy itself is unexplained as of this review
 - **Geographic expansion:** Launched in ComEd territory (Chicago area, PJM Interconnection) in June 2026 — Base's first market outside Texas, made possible by Illinois retail choice, a state VPP incentive law, and ComEd's battery export-compensation rules rather than an ERCOT-style energy-only market or ADER program
 
 ## What It Is / How It Works
@@ -61,7 +66,9 @@ The company operates two parallel business models. In Texas's deregulated retail
 
 ## Notable Developments
 
-- **2026-06-24:** Launched in ComEd's territory in northern Illinois (PJM Interconnection) — Base's first market outside Texas. First 2,000 customers get a 40 kWh battery for $95 upfront (then $295), plus retail electricity at a 25% discount to ComEd's rate, under a 12-year battery agreement; enabled by Illinois retail choice, the state's new Clean and Reliable Grid Affordability Act (VPP incentive law, effective 2026), and ComEd rules compensating batteries for peak exports. Base's head of policy, Travis Kavulla, was tapped the same week to lead the Bonneville Power Administration.
+- **2026-07-15/16:** Launched with Austin Energy — first customers can now get a Base battery under the 40 MW agreement announced in May 2026; Austin Energy dispatches the aggregated capacity for peak shaving and pays only for capacity, with no role in Base's customer billing. Same-cycle press materials cite "more than 15,000 homes" installed since 2024, inconsistent with the "more than 20,000 homes" figure in Base's June 24, 2026 Chicagoland release (unresolved discrepancy — see Key Facts).
+- **2026-06-24:** Launched in ComEd's territory in northern Illinois (PJM Interconnection) — Base's first market outside Texas. First 2,000 customers get a 40 kWh battery for $95 upfront (then $295), plus retail electricity at a 25% discount to ComEd's rate, under a 12-year battery agreement; enabled by Illinois retail choice, the state's new Clean and Reliable Grid Affordability Act (VPP incentive law, effective 2026), and ComEd rules compensating batteries for peak exports. Base's head of policy, Travis Kavulla, was tapped the same week to lead the Bonneville Power Administration. Opening a Bloomingdale, IL warehouse and hiring ~50 local roles to support the launch.
+- **2026-02-04:** Announced plans for a permanent 486,000 sq ft manufacturing facility ("Factory Two") at 8001 Metropolis Drive near Austin-Bergstrom International Airport — a $265 million investment expected to create 500 new jobs (average salary ~$50,000) on top of ~100 retained positions; Base is seeking $4.85 million in economic development incentives from the City of Austin over 10 years in exchange for a projected $9.8 million in city benefits/taxes/utility revenue. Supplements the temporary "Factory One" site at the former Austin American-Statesman building.
 - **2026-05-29 (reported, unconfirmed):** Forbes reported Base was in talks to raise roughly $1 billion at a $12 billion valuation, with Ribbit Capital reported as lead investor; neither Base nor Ribbit confirmed to Forbes.
 - **2026-04-13:** Expanded partnership with Guadalupe Valley Electric Cooperative (GVEC) from a 2 MW pilot to 50 MW across GVEC's full South Texas service territory; the aggregation passed ERCOT ADER performance testing on its first attempt.
 - **2026-04-08:** Launched "Base Energy," a retail electricity plan (no battery purchase required) guaranteed to stay below the Texas market average rate.
@@ -96,12 +103,15 @@ Base Power operates at the **Pack Assembly and OEM/End-Use** layers of the batte
 
 ### Claim: Base Power deployed more than 100 MWh of residential battery capacity within less than two years of founding
 
-**Status:** Verified
+**Status:** Unverified
 
 **Supporting sources:**
 - [Base Power Series C press release, Business Wire, Oct 8, 2025](https://www.businesswire.com/news/home/20251008106005/en/Base-Power-Raises-$1-Billion-Series-C-to-Build-the-Future-of-American-Power) — company states "more than 100 MWh of residential battery capacity" deployed since its 2023 founding
 
-**Summary:** Company-reported figure from an official press release; no independent third-party audit of deployed capacity was found.
+**Refuting / questioning sources:**
+- None found; no independent source disputes the figure — but none confirms it either.
+
+**Summary:** Company-reported figure from an official press release; no independent third-party audit of deployed capacity was found. The related customer-count figures (see Key Facts) show the same pattern of unaudited, and in this case internally inconsistent, company reporting.
 
 ---
 

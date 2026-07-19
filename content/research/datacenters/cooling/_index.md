@@ -1,11 +1,11 @@
 ---
 title: Datacenter Cooling
 date: 2026-03-24
-lastmod: 2026-06-07
+lastmod: 2026-07-18
 draft: false
 description: Liquid cooling systems for high-density AI and HPC datacenters — immersion, direct-to-chip, rear-door heat exchangers, and the companies supplying them.
 research_area: "datacenters/cooling"
-last_reviewed: 2026-03-24
+last_reviewed: 2026-07-18
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -26,7 +26,7 @@ The shift from air to liquid cooling is the defining infrastructure transition o
 - Three primary liquid approaches: immersion (servers submerged in dielectric fluid), direct-to-chip (cold plates on CPUs/GPUs, air handles the rest), rear-door heat exchangers (liquid cools rack exhaust air — lowest disruption to existing IT)
 - Immersion cooling enables the lowest PUE (<1.03 theoretical) and highest density but requires purpose-built tanks and fluid management — operationally incompatible with standard rack-based tooling and robot-servicing approaches without redesigned hardware (see robotics-automation section)
 - Direct-to-chip is the near-term pragmatic solution for AI clusters: NVIDIA's NVLink rack reference designs, NVIDIA GB200 NVL72, and AMD MI300X all ship with liquid-cooled reference designs; standard CDU + manifold approach fits existing facility water infrastructure
-- Waste heat reuse (ERE metric) increasingly economically relevant: liquid cooling return temperatures of 40–60°C can supply district heating or industrial processes; some European operators monetizing this
+- Waste heat reuse (ERE metric) increasingly economically relevant: liquid cooling return temperatures of 40–60°C can supply district heating or industrial processes; some European operators monetizing this — a related, facility-level (not IT-level) angle on the same waste-heat stream is liquid-desiccant HVAC, where companies including [Mojave Energy Systems]({{< relref "mojave-energy-systems.md" >}}) and [Blue Frontier]({{< relref "blue-frontier.md" >}}) regenerate desiccant from 110–180°F/43–82°C low-grade heat — squarely inside the temperature band datacenter liquid-cooling loops reject at — to cut chiller-plant load; see also [Uravu Labs]({{< relref "../../atmospheric-water-generation/uravu-labs.md" >}}), which applies the same waste-heat-driven liquid-desiccant mechanism to data-center water production rather than dehumidification, and [Datacenter Power Infrastructure]({{< relref "../power-infrastructure/_index.md" >}}) for the behind-the-meter generation side of the same ERE story
 - Dielectric fluid supply chain: engineered fluids (3M Novec — discontinued, creating supply chain disruption; Engineered Fluids' BitCool; Shell Immersion Cooling Fluid; Submer's SmartCoolant) are a critical dependency for single-phase immersion
 - Liquid cooling interconnects are proliferating into an incompatible multi-standard landscape: OCP UQD, UQDB, BMQC, LQC, and MQD address different points in the system but coexist with proprietary OEM designs and VDA automotive connectors borrowed for datacenter use; connector supply is concentrated among ~5 Western manufacturers with Chinese alternatives in early qualification (see [Liquid Cooling Interconnects]({{< relref "liquid-cooling-interconnects.md" >}}) and [Connector Supply Chain]({{< relref "liquid-cooling-connector-supply-chain.md" >}}))
 
@@ -46,6 +46,8 @@ The shift from air to liquid cooling is the defining infrastructure transition o
 | [Corintis]({{< relref "corintis.md" >}}) | Lausanne, Switzerland | Series A | Microfluidic chip-scale cooling: AI-optimized microscopic channels etched into chip metal route coolant directly to thermal hotspots; 3x heat removal vs. standard cold plates (Microsoft-tested); EPFL POWERlab spinout. |
 | [CoolIT Systems](https://www.coolitsystems.com) | Calgary, Canada | Growth | Direct-to-chip liquid cooling; Rack DCLC system; OEM partnerships with Dell, Lenovo, HPE; CDU and manifold products widely deployed in HPC. |
 | [Rapidaccu](https://rapidaccu.com) | China | Growth | OCP-compliant UQD, UQDB, BMQC, LQC, MQD liquid cooling quick-disconnect connectors for AI datacenter and HPC; 10,000+ cycle validation; lower-cost alternative to Western incumbents for non-hyperscaler deployments. 🇨🇳 |
+| [Mojave Energy Systems]({{< relref "mojave-energy-systems.md" >}}) | Sunnyvale, CA, USA | Series A | Liquid-desiccant HVAC (Xerox PARC spinout); AquaDry/ArctiDry Hydro regenerates from 110–180°F waste heat and names data centers as a target application to cut chiller-plant load; ArctiDry DX in DoD SERDP demonstration. |
+| [Blue Frontier]({{< relref "blue-frontier.md" >}}) | Boca Raton, FL, USA | Series A+ | Liquid-desiccant, thermally-regenerated air conditioner (ESEAC/BF-DOAS) with built-in brine-based energy storage; NREL-licensed technology; no named data-center deployment yet, but the same waste-heat-regeneration mechanism as Mojave and Uravu Labs. |
 
 ### Public Companies
 

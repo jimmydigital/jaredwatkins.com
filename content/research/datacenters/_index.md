@@ -1,11 +1,11 @@
 ---
 title: Datacenter Research
 date: 2026-03-24
-lastmod: 2026-04-03
+lastmod: 2026-07-18
 draft: false
-description: Research on next-generation datacenter design, construction, cooling, and automation — covering the infrastructure race to power AI workloads.
+description: Research on next-generation datacenter design, construction, cooling, automation, power, and distributed compute — covering the infrastructure race to power AI workloads.
 research_area: "datacenters"
-last_reviewed: 2026-03-24
+last_reviewed: 2026-07-18
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -31,4 +31,4 @@ Tracks the infrastructure frontier of AI-driven datacenter construction and oper
 
 ## Companies
 
-For full company tables by subsection, see [Cooling](./cooling/), [Design & Construction](./design-construction/), [Orbital Compute](./orbital-compute/), [Power Infrastructure](./power-infrastructure/), and [Robotics & Automation](./robotics-automation/).
+For full company tables by subsection, see [Cooling](./cooling/), [Design & Construction](./design-construction/), [Distributed & Decentralized Compute](./distributed-compute/), [Orbital Compute](./orbital-compute/), [Power Infrastructure](./power-infrastructure/), and [Robotics & Automation](./robotics-automation/).

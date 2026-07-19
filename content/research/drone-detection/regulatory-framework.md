@@ -1,7 +1,7 @@
 ---
 title: "US C-UAS Regulatory Framework"
 date: 2026-06-05
-lastmod: 2026-07-07
+lastmod: 2026-07-17
 draft: false
 description: "Legal landscape governing counter-UAS detection and interdiction in the United States — who can detect, who can interdict, and which laws constrain private operators."
 research_area: "drone-detection"
@@ -25,7 +25,7 @@ stale_after_days: 90
 
 US counter-UAS (C-UAS) law creates a sharply tiered authority structure: detection and tracking are broadly permissible for private entities, but interdiction — jamming, cyber-takeover, or physical destruction — is reserved exclusively for specific federal agencies. As of FY2026, a limited pathway for trained state and local law enforcement to conduct interdiction under federal authorization has been opened for the first time.
 
-This entry covers only US law. For how the UK, EU, China, and Japan mandate drone Remote ID / identification broadcasting — a related but distinct question from US interdiction authority — see [International Remote ID Requirements]({{< relref "international-remote-id-requirements.md" >}}).
+This entry covers only US law. For how the UK, EU, China, and Japan mandate drone Remote ID / identification broadcasting — a related but distinct question from US interdiction authority — see [International Remote ID Requirements]({{< relref "international-remote-id-requirements.md" >}}). For what a private property owner (rather than a critical infrastructure operator) can and can't do about a drone overhead, and whether altitude changes that, see [Property Owner Rights vs. Drone Operator Rules]({{< relref "property-owner-rights-and-operator-rules.md" >}}).
 
 ## Key Facts
 

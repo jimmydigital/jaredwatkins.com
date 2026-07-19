@@ -1,7 +1,7 @@
 ---
 title: "Atmospheric Water Generation"
 date: 2026-07-15
-lastmod: 2026-07-16
+lastmod: 2026-07-18
 draft: false
 description: "Technologies and companies extracting potable water directly from air humidity, with a focus on metal-organic framework (MOF) sorbent materials and the startups commercializing them."
 research_area: "atmospheric-water-generation"
@@ -70,4 +70,4 @@ No large diversified incumbents are yet directly active in sorbent-based atmosph
 - [Atoco]({{< relref "atoco.md" >}}) — Omar Yaghi-founded company commercializing MOF-based atmospheric water harvesting and carbon capture
 - [AirJoule Technologies]({{< relref "airjoule-technologies.md" >}}) — NASDAQ-listed (AIRJ) PNNL-licensed sorbent AWH platform; GE Vernova and CATL 🇨🇳 joint ventures
 - [WaHa]({{< relref "waha.md" >}}) — Fremont, CA; also Omar Yaghi-founded (2018); heat-pump desiccant regeneration engine, now under new leadership
-- [Uravu Labs]({{< relref "uravu-labs.md" >}}) — Bengaluru liquid-desiccant AWH, pivoting toward data center water-positive cooling
+- [Uravu Labs]({{< relref "uravu-labs.md" >}}) — Bengaluru liquid-desiccant AWH, pivoting toward data center water-positive cooling; cross-linked to [Mojave Energy Systems]({{< relref "../datacenters/cooling/mojave-energy-systems.md" >}}) and [Blue Frontier]({{< relref "../datacenters/cooling/blue-frontier.md" >}}) in `datacenters/cooling`, which apply the same waste-heat-driven liquid-desiccant mechanism to building dehumidification/AC rather than water production

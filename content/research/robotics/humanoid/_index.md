@@ -1,11 +1,11 @@
 ---
 title: "Humanoid Robots"
 date: 2026-06-19
-lastmod: 2026-06-19
+lastmod: 2026-07-18
 draft: false
-description: "Overview of the humanoid robot sector: US and non-US companies, autonomy claims, deployment reality, and the specialized vs. humanoid debate."
+description: "Overview of the humanoid robot sector: US and non-US companies, autonomy claims, deployment reality, home/consumer robot launches, the specialized vs. humanoid debate, and the NASA Valkyrie research platform that seeded Apptronik."
 research_area: "robotics/humanoid"
-last_reviewed: 2026-06-19
+last_reviewed: 2026-07-18
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -36,7 +36,7 @@ This subsection tracks companies building full-body bipedal humanoid robots. Edi
 
 The humanoid robot sector has attracted enormous investment since 2022, driven by the hypothesis that a general-purpose robot in human form can operate in existing human-designed environments without infrastructure modification. As of mid-2026, the gap between this hypothesis and demonstrated capability remains large — most commercial deployments are narrow in task scope, and the line between autonomous operation and teleoperation-assisted data collection is rarely disclosed clearly by companies.
 
-Entries are split into [US Companies]({{< relref "us-companies/_index.md" >}}) and [Non-US Companies]({{< relref "non-us-companies/_index.md" >}}). A standalone [Overview & Critical Analysis]({{< relref "overview-and-critique.md" >}}) entry addresses the autonomy verification problem, the specialized vs. humanoid debate, and investor sentiment.
+Entries are split into [US Companies]({{< relref "us-companies/_index.md" >}}) and [Non-US Companies]({{< relref "non-us-companies/_index.md" >}}). A standalone [Overview & Critical Analysis]({{< relref "overview-and-critique.md" >}}) entry addresses the autonomy verification problem, the specialized vs. humanoid debate, and investor sentiment. [Valkyrie (NASA R5)]({{< relref "valkyrie.md" >}}) documents the foundational government-funded platform whose actuator technology and engineering team directly seeded Apptronik.
 
 ## Companies
 
@@ -46,7 +46,7 @@ Entries are split into [US Companies]({{< relref "us-companies/_index.md" >}}) a
 |---------|-----|-------|-------|
 | [Figure AI](https://figure.ai) | Sunnyvale, CA | Growth / Pre-IPO | Figure 03 — general industrial |
 | [Agility Robotics](https://agilityrobotics.com) | Corvallis, OR | Growth (Amazon-backed) | Digit — logistics tote handling |
-| [Apptronik](https://apptronik.com) | Austin, TX | Series A ($935M raised) | Apollo — industrial |
+| [Apptronik](https://apptronik.com) | Austin, TX | Series A ($935M raised) | Apollo 2 (bipedal/wheeled, data-collection) — industrial; Apollo 3 commercial product targeted 2027 |
 | [1X Technologies](https://1x.tech) | Moss, Norway (US ops) | Series B | NEO — consumer/household |
 | [Sanctuary AI](https://sanctuary.ai) | Vancouver, BC | Series B | Phoenix — retail/commercial |
 | [Robust AI](https://robust.ai) | San Jose, CA | Series B | Carter — logistics AMR (not humanoid) |
@@ -96,3 +96,6 @@ See [Non-US Companies]({{< relref "non-us-companies/_index.md" >}}) for full tab
 - **China's manufacturing lead:** Chinese firms shipped ~90% of global humanoid units in 2025. Price competition is extreme — Unitree R1 at $5,900 vs. US competitors at $100K+.
 - **Specialized robot alternative:** For most defined industrial tasks, purpose-built robots (arms, AMRs, conveyors) outperform humanoids on cost, speed, and reliability. The humanoid value proposition is in unstructured, multi-task environments — a much harder problem than the current demos suggest.
 - **Battery life bottleneck:** Agility Digit operates ~90 minutes before recharge. An 8-hour factory shift requires either swappable packs or docking infrastructure that undermines the "drop in anywhere" premise.
+- **Home robots move from promise to pre-order:** 1X opened consumer pre-orders for NEO in October 2025 ($20,000 Early Access or $499/month), with first US home deliveries targeted for 2026 — the first humanoid a consumer can put a deposit on with a concrete delivery date, though ~30–40% of tasks still rely on remote "Expert Mode" teleoperation. Germany's Neura Robotics (4NE1 Mini) and incumbents Tesla and Figure have also stated household ambitions, making the home market a genuine multi-player race rather than a single-company bet.
+- **Dexterous hands as the emerging bottleneck:** With platform-level funding and battery/mobility problems increasingly well-trodden, industry attention is shifting to the hand/end-effector layer — see [Robotic Hands & Dexterous Manipulation]({{< relref "../hands/_index.md" >}}) for the component-level suppliers (Inspire Robots, Tesollo, PSYONIC) racing to solve dexterity, tactile sensing, and field reliability.
+- **Data-collection infrastructure as a platform moat:** Apptronik's "Robot Park" and Neura's "NEURA Gyms" both frame large-scale, real-world robot fleets as data-generation infrastructure for training foundation models (Google DeepMind's Gemini Robotics; Neura's Neuraverse), rather than treating deployed robots as finished commercial products — a structural pattern worth watching across the sector, not just at any one company.

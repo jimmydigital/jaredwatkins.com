@@ -1,9 +1,9 @@
 ---
 title: Research
 date: 2026-03-23
-lastmod: 2026-07-09
+lastmod: 2026-07-18
 draft: false
-last_reviewed: 2026-04-07
+last_reviewed: 2026-07-18
 description: AI-maintained knowledge base on emerging technology topics.
 sitemap:
   changefreq: "monthly"
@@ -558,6 +558,20 @@ When a company entry covers a Chinese-owned entity (headquartered in mainland Ch
 
 ---
 
+### Topic-Area Steering: Datacenters — Distributed & Decentralized Compute (`research/datacenters/distributed-compute/`)
+
+**Scope:** Compute infrastructure deliberately sited outside centralized datacenter campuses to bypass grid interconnection delays — residential/small-commercial GPU nodes, at-the-meter or grid-edge inference deployments, and blockchain-coordinated compute marketplaces that aggregate idle third-party hardware. In scope: companies selling or operating this model (Span/XFRA, Akash Network), the power-orchestration or marketplace-coordination technology enabling it, and named hyperscaler/AI-cloud customers. Out of scope: standard cloud/CDN edge computing with no distinctive power or siting angle; pure cryptocurrency mining operations with no AI-compute resale product; behind-the-meter power generation for centralized campuses (see `datacenters/behind-meter-power` — that is about adding new power, this is about better using existing power/hardware).
+
+**Editorial framing:** These are "speed-to-power" plays — the pitch is bypassing multi-year interconnection queues, not necessarily matching centralized-campus scale or reliability. Every entry should distinguish the workload type these approaches actually target (inference, which is latency-tolerant and parallelizable) from workloads they are not suited for (large synchronized training runs), since companies in this space sometimes blur the two in marketing language.
+
+**Claim verification flags specific to this subsection:** Treat "gigawatt-scale" or network-wide capacity claims as aspirational/pipeline-stage unless tied to a specific count of live, operational sites. Live network-status counters (active providers, GPU count) on a company's own site are a real-time snapshot, not a durable fact — note the date checked and expect the number to change. Utilization-rate assumptions underlying consumer earnings estimates (e.g., "$X/year at 50% utilization") are planning assumptions, not observed data, until the product has actually launched. Partner/vendor endorsements (e.g., a GPU supplier praising a distributed-siting customer) carry a commercial interest and are not a substitute for independent benchmarking.
+
+**Cross-references:** Check `energy/batteries` and `energy/grid-markets` for related residential/grid-edge distributed energy resource (DER) companies — a company monetizing distributed home infrastructure for grid services (e.g., Base Power) is a useful comparison point even when its product is batteries rather than compute, and shared themes (not shared corporate ties) should be flagged with a `**⚑ Shared theme:**` note.
+
+**Review cadence:** 90 days — this is a nascent, fast-moving space as of mid-2026 with no company yet at meaningful operational scale.
+
+---
+
 ### Topic-Area Steering: Energy — Nuclear (`research/energy/nuclear/`)
 
 **Scope:** Fission reactor designs (SMR, microreactor, advanced Gen IV), fuel cycle suppliers, construction and deployment companies, regulatory milestones. Out of scope: nuclear weapons, fusion (track separately if warranted), nuclear medicine.
@@ -577,6 +591,22 @@ When a company entry covers a Chinese-owned entity (headquartered in mainland Ch
 **Nuclear-specific tags:** `smr`, `microreactor`, `gen-iv`, `haleu`, `behind-the-meter`, `shipyard-construction`, `nrc-licensed` (only after NRC Design Certification or COL is granted).
 
 **Review cadence:** 90 days for active pre-construction companies (NRC milestones can change fast); 180 days for early-stage designs; 365 days for stable operational facilities.
+
+---
+
+### Topic-Area Steering: Energy — Virtual Power Plants (`research/energy/virtual-power-plants/`)
+
+**Scope:** Companies aggregating distributed energy resources (home batteries, smart thermostats, EV chargers, rooftop solar, commercial/industrial curtailable load) into virtual power plants sold to utilities, grid operators, or — increasingly — directly to hyperscalers/AI datacenter operators. In scope: residential/behind-the-meter aggregators and C&I demand-response platforms, the software (DERMS/VPP orchestration) underlying them, and their utility/hyperscaler contracts. Out of scope: the underlying hardware itself when there's no notable VPP/aggregation angle (a home battery maker with no VPP program belongs in `energy/batteries`, not here); centralized generation and transmission (belongs in `datacenters/power-infrastructure` or `datacenters/behind-meter-power`).
+
+**Editorial framing:** Distinguish company scale claims carefully — installed/enrolled device count, theoretical aggregate capacity, and actually-dispatched capacity are three different numbers routinely blended in press materials. A joint marketing announcement (e.g., a multi-company GW figure) is not the same as a contracted or delivered capacity commitment; treat forward-looking aggregate claims as aspirational until tied to a specific customer contract or dispatch record.
+
+**Ownership churn is the norm, not the exception, in this subsection.** Several major players are themselves mergers, spinouts, or PE/strategic acquisitions (Renew Home = Nest Renew + OhmConnect; CPower = Comverge + Constellation, later LS Power-owned; Uplight = six-company merger, later AutoGrid acquisition, later Octopus Energy majority stake). Always check and date-stamp current ownership rather than assuming a company's original founding structure still holds.
+
+**People network cluster specific to this subsection:** EnerNOC (later rebranded Enel X) is a disproportionately common alumni employer among VPP/demand-response executives — flag EnerNOC alumni explicitly per the global People Network Mapping rules, as multiple companies in this subsection share this origin (e.g., Voltus's CEO, President, and Chief Legal Officer are all EnerNOC alumni; EnerNOC's demand-response business itself became Enel North America's).
+
+**Cross-reference:** `energy/batteries/base-power.md` (residential battery VPP with its own retail-electric-provider structure) and `datacenters/distributed-compute/span.md` (distributed grid-edge compute siting) are both adjacent business models — flag shared themes (distributed, residentially-sited infrastructure monetization) without implying a corporate relationship unless one is confirmed.
+
+**Review cadence:** 90 days — this is presently the fastest-moving corner of the energy research section, driven by AI datacenter demand.
 
 ---
 

@@ -1,11 +1,11 @@
 ---
 title: Energy Research
 date: 2026-03-23
-lastmod: 2026-07-12
+lastmod: 2026-07-18
 draft: false
-description: Research on emerging energy technologies including solar, batteries, grid storage, and the grid market structures that enable or constrain them.
+description: Research on emerging energy technologies including solar, batteries, grid storage, virtual power plants, and the grid market structures that enable or constrain them.
 research_area: "energy"
-last_reviewed: 2026-07-12
+last_reviewed: 2026-07-18
 stale_after_days: 365
 sitemap:
   changefreq: "monthly"
@@ -18,7 +18,7 @@ sitemap:
 
 ## Overview
 
-Tracks breakthrough technologies and key players in the energy transition — with a focus on solar generation, battery storage, and the companies and researchers driving progress. Subsections: [Batteries](./batteries/), [Solar](./solar/), [Nuclear](./nuclear/), [Resources](./resources/), and [Grid Markets & Policy](./grid-markets/) — the last of these covers electricity market design and regulatory structure (using ERCOT/Texas as the lead case study) and how it enables or constrains distributed energy innovation.
+Tracks breakthrough technologies and key players in the energy transition — with a focus on solar generation, battery storage, and the companies and researchers driving progress. Subsections: [Batteries](./batteries/), [Solar](./solar/), [Nuclear](./nuclear/), [Resources](./resources/), [Grid Markets & Policy](./grid-markets/) — covering electricity market design and regulatory structure (using ERCOT/Texas as the lead case study) and how it enables or constrains distributed energy innovation — and [Virtual Power Plants](./virtual-power-plants/), covering the companies aggregating home batteries, thermostats, and commercial/industrial load into VPPs sold to utilities and, increasingly, to AI datacenter operators.
 
 ## Key Themes
 
@@ -27,6 +27,7 @@ Tracks breakthrough technologies and key players in the energy transition — wi
 - Molecular and thermochemical energy storage
 - Leading companies and research institutions
 - Grid market design and regulatory structure (retail choice, energy-only markets, interconnection speed) as a determinant of where distributed energy innovation happens first
+- Virtual power plants (residential battery/thermostat aggregators and C&I demand-response platforms) increasingly marketed as fast, flexible capacity for AI datacenter operators rather than only for utility peak-shaving
 
 ## Companies
 
