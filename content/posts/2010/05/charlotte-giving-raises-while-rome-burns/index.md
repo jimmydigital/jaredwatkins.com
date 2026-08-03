@@ -1,14 +1,6 @@
 ---
 title: Charlotte Giving Raises While Rome Burns
 date: 2010-05-25
-tags:
-  - charlotte
-  - economics
-  - local-government
-  - politics
-  - recession
-  - spending
-  - transit
 ---
 ![](http://farm5.static.flickr.com/4014/4620293460_c370a0bd7b.jpg)
 

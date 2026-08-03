@@ -1,14 +1,6 @@
 ---
 title: 'What I do: Mysql Reporting Date Range Cheat Sheet'
 date: 2010-12-17
-tags:
-  - coding
-  - computing
-  - mysql
-  - personal
-  - reporting
-  - sql
-  - tech
 ---
 
 If you have to do any sort of reporting using mysql or other databases you will probably need to use relative date ranges that don’t depend on what day the report is being run. That is if you need a report for ‘last month’ that runs from the first to last day of the previous month.. or previous 3 months etc but not include any days in the current month.   Here is a small collection of queries...<!--more-->

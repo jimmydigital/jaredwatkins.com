@@ -2,11 +2,6 @@
 date: 2013-09-01
 title: "Recommendations in Charlotte"
 comments: true
-tags:
-  - charlotte
-  - local
-  - personal
-  - recommendations
 ---
 
 I lived in Charlotte for a good long while... so here is a small list of my recommendations for businesses

@@ -4,10 +4,6 @@ date: 2009-04-04
 tag:
   - teaparty
   - charlotte
-tags:
-  - charlotte
-  - politics
-  - tea-party
 ---
 ![](inline_IMG00034.jpg)
 ![](inline_IMG00036.jpg)

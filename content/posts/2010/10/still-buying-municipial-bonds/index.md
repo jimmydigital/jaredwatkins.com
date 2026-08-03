@@ -1,13 +1,6 @@
 ---
 title: Still buying municipial bonds?
 date: 2010-10-12
-tags:
-  - charlotte
-  - debt
-  - economics
-  - investing
-  - municipal-bonds
-  - pensions
 ---
 
 [US Cities Face Half a Trillion Dollars of Pension ][1][Deficits][2]

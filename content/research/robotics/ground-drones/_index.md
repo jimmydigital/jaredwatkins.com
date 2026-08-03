@@ -1,11 +1,11 @@
 ---
 title: Ground Drones & UGVs
 date: 2026-03-24
-lastmod: 2026-03-24
+lastmod: 2026-07-26
 draft: false
 description: Autonomous mobile robots, unmanned ground vehicles, and field robots — warehouse AMRs, outdoor platforms, and defense UGVs.
 research_area: "robotics/ground-drones"
-last_reviewed: 2026-03-24
+last_reviewed: 2026-07-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -48,6 +48,7 @@ The ground robot market splits into three commercially distinct segments that sh
 | [Built Robotics](https://www.builtrobotics.com) | San Francisco, CA, USA | Series B | Autonomous guidance retrofit for heavy construction equipment (excavators, graders); GPS-guided earthmoving. |
 | [Knightscope](https://www.knightscope.com) | Mountain View, CA, USA | Public (NASDAQ: KSCP) | Autonomous security robots (K1, K3, K5); RaaS model; cameras, ALPR, thermal sensors; >50 deployments. |
 | [Milrem Robotics](https://milremrobotics.com) | Tallinn, Estonia | Private (EDGE Group majority) | THeMIS tracked UGV; widely deployed in NATO countries; Mission Master light combat variant. |
+| [Stratom](https://www.stratom.com) | Louisville, CO, USA | Private (SDVOSB) | Autonomous cargo movement (APL, XCL), robotic refueling (RAPID), Summit off-road autonomy, CBRN decontamination robotics; US Army/Air Force/Marine Corps customers. |
 
 ### Public Companies
 

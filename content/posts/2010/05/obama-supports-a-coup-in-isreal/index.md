@@ -1,11 +1,6 @@
 ---
 title: Obama Supports A Coup In Isreal
 date: 2010-05-04
-tags:
-  - foreign-policy
-  - israel
-  - obama
-  - politics
 ---
 
 Since when do we go around trying to[ topple one of our allies][1]??

@@ -1,11 +1,11 @@
 ---
 title: "High-Altitude Platforms (Airships & Balloons)"
 date: 2026-07-17
-lastmod: 2026-07-17
+lastmod: 2026-08-03
 draft: false
 description: "Stratospheric airships and balloons (HAPS) as persistent sensor platforms for drone and cruise-missile detection — including dual-use systems originally built for imagery, comms, or ELINT."
 research_area: "drone-detection/high-altitude-platforms"
-last_reviewed: 2026-07-17
+last_reviewed: 2026-08-03
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -16,6 +16,8 @@ sitemap:
 # High-Altitude Platforms (Airships & Balloons)
 
 Stratospheric airships and balloons — High Altitude Platform Systems (HAPS) — flown at 60,000–95,000 ft to provide a persistent, elevated vantage point for radar, RF/ELINT, and EO/IR sensors. Unlike ground-based or tower-mounted C-UAS sensors, altitude lets these platforms see over the horizon and look down on low-flying threats (drones, cruise missiles) that terrain and curvature hide from ground radar — the same physics that made tethered aerostats like [JLENS](#legacy-context-jlens) attractive for cruise-missile defense, now applied with free-flying, station-keeping stratospheric platforms instead of tethers.
+
+**Cross-reference:** A broader [HALE / HAPS]({{< relref "../../hale-haps/_index.md" >}}) topic area covers the same platform types (fixed-wing solar aircraft, airships, balloons) for their primary telecom, Earth-observation, and general-ISR missions, including several companies not centered on detection (AALTO HAPS, Prismatic, Mira Aerospace, Kea Aerospace, Swift Engineering, NewSpace Research & Technologies, Thales Alenia Space's Stratobus, and Near Space Labs). This subsection stays focused specifically on the C-UAS/missile-detection angle.
 
 **Scope note:** Few of these companies market themselves primarily as drone/missile-detection vendors — most were built for earth observation, telecom relay, or general ISR/ELINT, and are being pulled toward the C-UAS and integrated-air-defense mission as a secondary or emerging use case. That crossover is itself the story: persistent stratospheric sensing is being recognized as a missing layer between ground-based C-UAS ([Hardware]({{< relref "../hardware/_index.md" >}})) and satellites, and several vendors here are now integrating directly with counter-drone companies elsewhere in this section (see [Ondas/World View/Sentrycs](#ondas-world-view-sentrycs-integration) below).
 
@@ -53,7 +55,7 @@ Worth calling out explicitly because it directly connects this subtopic to the r
 | [Urban Sky](https://www.urbansky.com) | USA (Denver, CO) | Series B ($30M, Feb 2025) | Microballoon (mHAB) stratospheric imaging/sensing; AFRL STRATFI contract; Project Wallabee |
 | [Hemeria](https://www.hemeria-group.com) | France | Private (Safran MoU, Jun 2026) | BalMan maneuverable stratospheric balloon; AI-enabled ELINT/EW with Safran.AI |
 | [Kalam Labs](https://kalamlabs.io) | India (Lucknow) | Early (~$2M raised, Lightspeed) | Balloon-launched stratospheric UAV; EO/IR/hyperspectral; defense deployments at Pokhran/LAC |
-| [Near Space Labs](https://www.nearspacelabs.com) | USA (Brooklyn, NY) | Series B ($20M) | Swift stratospheric balloon imaging (7cm resolution); insurance/earth observation today, dual-use sensing platform |
+| [Near Space Labs](https://www.nearspacelabs.com) | USA (Brooklyn, NY) | Series B ($20M) | Swift stratospheric balloon imaging (7cm resolution); insurance/earth observation today, dual-use sensing platform — [full entry]({{< relref "../../hale-haps/balloons/near-space-labs.md" >}}) |
 
 ### Public Companies / Recent M&A
 

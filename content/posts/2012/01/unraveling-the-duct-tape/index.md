@@ -1,14 +1,6 @@
 ---
 title: Unraveling the Duct Tape
 date: 2012-01-21
-tags:
-  - computing
-  - hacking
-  - scada
-  - security
-  - skepticism
-  - smart-grid
-  - tech
 ---
 
 ![](http://farm8.static.flickr.com/7016/6486021333_9c6e3d86bd.jpg#floatright "width=160")

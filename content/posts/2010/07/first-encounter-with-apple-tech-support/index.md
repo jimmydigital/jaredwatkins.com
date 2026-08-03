@@ -1,13 +1,6 @@
 ---
 title: First Encounter With Apple Tech Support
 date: 2010-07-27
-tags:
-  - apple
-  - computing
-  - hardware
-  - mac
-  - support
-  - tech
 ---
 
 ![](http://farm5.static.flickr.com/4109/4835651637_34c1a36a1c.jpg)

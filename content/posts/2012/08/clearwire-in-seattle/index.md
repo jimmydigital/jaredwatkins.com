@@ -1,14 +1,6 @@
 ---
 title: 'Clearwire In Seattle + Easy Google Mapping'
 date: 2012-08-12
-tags:
-  - computing
-  - networking
-  - projects
-  - seattle
-  - tech
-  - wimax
-  - wireless
 ---
 
 ![](inline_medium_WiMAX-wireless-antennas-tower.jpg#floatright)

@@ -1,11 +1,11 @@
 ---
 title: Robotics Research
 date: 2026-03-24
-lastmod: 2026-07-18
+lastmod: 2026-07-26
 draft: false
 description: Research on commercial robotics platforms, components, and the companies and people building them.
 research_area: "robotics"
-last_reviewed: 2026-03-24
+last_reviewed: 2026-07-26
 stale_after_days: 365
 sitemap:
   changefreq: "monthly"
@@ -58,6 +58,7 @@ Tracks commercial robotics platforms, component suppliers, and the people and ca
 - [Communications]({{< relref "communications/_index.md" >}}) — Mesh radio, cellular modules
 - [Power Systems]({{< relref "power-systems/_index.md" >}}) — Batteries, fuel cells, wireless charging
 - [Connectors]({{< relref "connectors/_index.md" >}}) — Micro-miniature power and data connectors: Micro-D/Nano-D, high-speed board-to-board, and drone battery quick-disconnects
+- [Space Robotics]({{< relref "space-robotics/_index.md" >}}) — Planetary drills, rock abrasion tools, and mechanisms for extreme off-Earth environments (Honeybee Robotics); autonomous orbital defense spacecraft (True Anomaly)
 - [ROS 2 Ecosystem]({{< relref "ros2/_index.md" >}}) — ROS 2 middleware, PickNik/MoveIt Pro, and the hardware compatibility ecosystem
 - [EtherCAT]({{< relref "ethercat/_index.md" >}}) — Real-time Ethernet fieldbus for multi-axis motion control; protocol architecture, key companies, FSoE safety, open-source tooling, and limitations
 - [Flight Controllers / Autopilot Hardware]({{< relref "flight-controllers/_index.md" >}}) — Pixhawk standard, PX4/ArduPilot, Blue UAS Framework, ModalAI, Auterion

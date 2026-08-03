@@ -3,7 +3,6 @@ title: "LinkedIn Summary — The Clock Is Already Running on Quantum Crypto Risk
 date: 2026-04-17
 draft: true
 description: "LinkedIn post summary for the quantum crypto risk blog post."
-tags: ["linkedin", "draft"]
 ---
 
 At the end of March Google Quantum AI published a paper suggesting a cryptographically relevant quantum computer might be achievable with fewer than 500k physical qubits (well below previous estimates). Their suggested migration target: 2029(!).

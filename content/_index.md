@@ -3,9 +3,6 @@ title: Main Page
 date: 2026-03-19
 draft: false
 description: Landing page for Jared Watkins personal site.
-categories:
-  - General
-tags:
 ---
 # Get in Touch
 - [LinkedIn](https://www.linkedin.com/in/thejaredwatkins/)

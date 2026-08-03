@@ -1,11 +1,6 @@
 ---
 title: Foraging for Gas
 date: 2008-09-28
-tags:
-  - charlotte
-  - energy
-  - fuel
-  - shortages
 ---
 
 ![mad max](inline_roadwarrior_l.jpg)

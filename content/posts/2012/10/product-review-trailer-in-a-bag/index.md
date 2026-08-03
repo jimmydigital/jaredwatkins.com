@@ -1,12 +1,6 @@
 ---
 title: 'Product Review: Trailer in a Bag'
 date: 2012-10-09
-tags:
-  - gear
-  - motorcycle
-  - personal
-  - review
-  - trailer
 ---
 
 [![Trailer in a bag hooked up to car](inline_trailer06.jpg#floatright)](trailer06.jpg)

@@ -1,9 +1,9 @@
 ---
 title: "AeroVironment"
 date: 2026-03-24
-lastmod: 2026-03-24
+lastmod: 2026-07-26
 draft: false
-description: "Arlington, VA–based defense robotics and autonomous systems OEM; Nasdaq-listed (AVAV); FY2026 Q2 revenue $472.5M (151% YoY, post-BlueHalo acquisition); operates two segments: Autonomous Systems (Group 1–3 UAS, loitering munitions Switchblade 300/600, SUAS/Puma/Raven, ground/maritime robots, Sunglider HAPS) and Space/Cyber/Directed Energy (BlueHalo portfolio); $990M Switchblade IDIQ with US Army (multiple delivery orders through FY2026); BlueHalo acquisition closed May 2025 ($4.1B enterprise value); major Ukraine loitering munition supplier; 3,750+ employees post-integration."
+description: "Arlington, VA–based defense robotics and autonomous systems OEM; Nasdaq-listed (AVAV); record FY2026 (ended Apr 30, 2026) revenue $1,976.8M (+141% YoY, post-BlueHalo acquisition), funded backlog $1.2B; FY2030 targets $3.5–4.0B revenue at 2026 Investor Day; operates two segments: Autonomous Systems (Group 1–3 UAS, loitering munitions Switchblade 300/600, SUAS/Puma/Raven, Titan C-UAS, ground/maritime robots, Sunglider HAPS) and Space/Cyber/Directed Energy (BlueHalo portfolio); $500M IDIQ for JIATF-401 Domestic Shield counter-UAS support (Jul 2026); BlueHalo acquisition closed May 2025 ($4.1B enterprise value); major Ukraine loitering munition supplier."
 research_area: "robotics/aerial-drones"
 source_urls:
   - "https://investor.avinc.com/news-releases/news-release-details/aerovironment-announces-fiscal-2026-second-quarter-results"
@@ -12,7 +12,12 @@ source_urls:
   - "https://investor.avinc.com/news-releases/news-release-details/aerovironment-inc-completes-tomahawk-robotics-acquisition"
   - "https://www.avinc.com/maccready-works/haps"
   - "https://investor.avinc.com/news-releases/news-release-details/aerovironment-announces-avhalotm-unified-software-platform-next"
-last_reviewed: 2026-03-24
+  - "https://investor.avinc.com/news-releases/news-release-details/aerovironment-announces-fiscal-2026-fourth-quarter-and-fiscal"
+  - "https://investor.avinc.com/news-releases/news-release-details/aerovironment-inc-highlights-growth-strategy-and-unveils-fiscal"
+  - "https://investor.avinc.com/news-releases/news-release-details/av-awarded-500-million-idiq-support-jiatf-401-domestic-shield"
+  - "https://investor.avinc.com/news-releases/news-release-details/avs-titantm-selected-jiatf-401-805-m-award"
+  - "https://investor.avinc.com/news-releases/news-release-details/av-awarded-1173-million-us-army-production-contract-p550tm"
+last_reviewed: 2026-07-26
 stale_after_days: 90
 related:
   - "robotics/aerial-drones/_index.md"
@@ -35,13 +40,14 @@ AeroVironment, Inc. (NASDAQ: AVAV) is a public defense robotics and autonomous s
 - **Key segments:** Autonomous Systems; Space, Cyber and Directed Energy
 - **Primary markets:** US Department of Defense; Foreign Military Sales (55+ allied nations); federal law enforcement
 - **Business model:** Platform OEM; vertical integration (designs and manufactures own aircraft, control systems, sensors); systems integrator
-- **FY2026 Q2 (ended Nov 1, 2025) Financial Results:**
-  - Revenue: $472.5M (151% YoY; includes BlueHalo $245.1M; legacy AV revenue $227.4M, +21% YoY)
-  - Net loss: $(17.1)M ($(0.34) per diluted share)
-  - Non-GAAP adjusted EBITDA: $45.0M
-  - Non-GAAP EPS: $0.44
-  - Funded backlog: $1.1B (vs. $726.6M as of April 30, 2025)
-- **FY2026 full-year guidance:** Revenue $1.9–2.0B; Net loss $(77)–$(72)M; Non-GAAP adjusted EBITDA $300–320M
+- **FY2026 Full Year (ended April 30, 2026) Financial Results:**
+  - Revenue: $1,976.8M (+141% YoY); record Q4 revenue $641.6M (+133% YoY)
+  - Bookings: $2.7B; book-to-bill ratio 1.4
+  - Funded backlog: $1.2B (vs. $726.6M as of April 30, 2025)
+  - Non-GAAP adjusted EBITDA margin: ~22% (Q4)
+- **FY2027 guidance (issued Jun 29, 2026):** Revenue $2.125–2.225B; Non-GAAP adjusted EBITDA $305–325M; Non-GAAP EPS $3.02–$3.34
+- **FY2030 targets (2026 Investor Day, Jul 8, 2026):** Revenue $3.5–4.0B (15–20% organic CAGR); R&D investment 7–9% of revenue; Non-GAAP adjusted EBITDA margin 18–20%
+- **FY2026 Q2 (ended Nov 1, 2025), for reference:** Revenue $472.5M (151% YoY; BlueHalo $245.1M, legacy AV $227.4M +21% YoY); net loss $(17.1)M; funded backlog $1.1B
 
 ## Autonomous Systems Segment Overview
 
@@ -161,6 +167,15 @@ AeroVironment, Inc. (NASDAQ: AVAV) is a public defense robotics and autonomous s
 
 ### Recent Announcements (FY2025–FY2026)
 
+- **Jul 20, 2026:** $117.3M US Army production contract for P550 Group 2 eVTOL (initial order; supports Army Drone Dominance Initiative and Long-Range Reconnaissance requirement)
+- **Jul 13, 2026:** JUMP 20 receives MQ-31A military designation from Italy's Directorate of Aeronautical Armaments and Airworthiness (DAAA)
+- **Jul 8, 2026:** 2026 Investor Day — unveiled FY2030 targets of $3.5–4.0B revenue (15–20% organic CAGR), 18–20% adjusted EBITDA margins
+- **Jul 7, 2026:** $30M NATO Support and Procurement Agency contract for Puma systems stack under Germany's LARUS program
+- **Jul 6, 2026:** Titan counter-UAS platform selected for $80.5M award under JIATF-401 Layered Base Defense (US Air Force Global Strike Command)
+- **Jul 6, 2026:** $500M three-year IDIQ awarded for counter-UAS support to JIATF-401 Domestic Shield Program
+- **Jun 29, 2026:** FY2026 full-year results — record revenue $1,976.8M (+141% YoY), funded backlog $1.2B, bookings $2.7B (book-to-bill 1.4); FY2027 guidance issued: revenue $2.125–2.225B
+- **Jun 25, 2026:** William J. Lynn III (former US Deputy Secretary of Defense) appointed to Board of Directors
+- **Note:** A securities class action lawsuit covering purchasers of AVAV stock between June 25, 2025 and March 10, 2026 was pending as of July 2026 (multiple plaintiffs' firms issued deadline notices ahead of a July 27, 2026 lead-plaintiff deadline); allegations and merits unverified — see law firm notices, not company admissions.
 - **March 2026:** US Army awards contract for Red Dragon long-range one-way attack drone (full operational capability variant; estimated completion April 2026)
 - **Feb 2026:** Switchblade 600 Block 2 production deliveries expected early 2026; features military M-code GPS, improved comms, automated target recognition
 - **Jan 2026:** Manufacturing expansion in Albuquerque, New Mexico: $30M+ AV investment + $5M state + $1M city funding for expanded Switchblade production capacity
@@ -396,3 +411,15 @@ AeroVironment, Inc. (NASDAQ: AVAV) is a public defense robotics and autonomous s
 
 - [AeroVironment — Wikipedia](https://en.wikipedia.org/wiki/AeroVironment)
 - [AeroVironment Corporate Fact Sheet (50-year history)](https://www.avinc.com/images/uploads/media_assets/Corporate_Fact_Sheet.pdf)
+
+### FY2026 Full-Year Results & FY2030 Targets (July 2026 review)
+
+- [AeroVironment Announces Fiscal 2026 Fourth Quarter and Fiscal Year Results — AeroVironment, Inc. (Jun 29, 2026)](https://investor.avinc.com/news-releases/news-release-details/aerovironment-announces-fiscal-2026-fourth-quarter-and-fiscal)
+- [AeroVironment Highlights Growth Strategy and Unveils Fiscal Year 2030 Financial Targets — AeroVironment, Inc. (Jul 8, 2026)](https://investor.avinc.com/news-releases/news-release-details/aerovironment-inc-highlights-growth-strategy-and-unveils-fiscal)
+- [AV Awarded $500 Million IDIQ for Support of JIATF-401 Domestic Shield Program — AeroVironment, Inc. (Jul 6, 2026)](https://investor.avinc.com/news-releases/news-release-details/av-awarded-500-million-idiq-support-jiatf-401-domestic-shield)
+- [AV's Titan Selected by JIATF-401 for $80.5M Award — AeroVironment, Inc. (Jul 6, 2026)](https://investor.avinc.com/news-releases/news-release-details/avs-titantm-selected-jiatf-401-805-m-award)
+- [AV Awarded $30 Million Contract to Provide Puma Systems Stack for Germany's LARUS Program — AeroVironment, Inc. (Jul 7, 2026)](https://investor.avinc.com/news-releases/news-release-details/av-awarded-30-million-contract-provide-pumatm-systems-stack)
+- [AV Receives MQ-31A Designation from Italian Ministry of Defence — AeroVironment, Inc. (Jul 13, 2026)](https://investor.avinc.com/news-releases/news-release-details/av-receives-mq-31a-designation-italian-ministry-defence-mod)
+- [AV Awarded $117.3 Million U.S. Army Production Contract for P550 — AeroVironment, Inc. (Jul 20, 2026)](https://investor.avinc.com/news-releases/news-release-details/av-awarded-1173-million-us-army-production-contract-p550tm)
+- [AV Appoints William J. Lynn III to Board of Directors — AeroVironment, Inc. (Jun 25, 2026)](https://investor.avinc.com/news-releases/news-release-details/av-appoints-william-j-lynn-iii-board-directors)
+- [AVAV Deadline Alert — Levi & Korsinsky (Jul 2026)](https://www.prnewswire.com/news-releases/avav-deadline-alert-levi--korsinsky-reminds-aerovironment-inc-avav-investors-of-securities-class-action-deadline-on-july-27-2026-302826002.html) — securities class action deadline notice; unverified allegations

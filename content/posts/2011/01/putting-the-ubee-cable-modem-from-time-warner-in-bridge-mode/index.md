@@ -1,13 +1,6 @@
 ---
 title: Putting the UBEE Cable Modem from Time Warner in Bridge Mode
 date: 2011-01-22
-tags:
-  - cable-modem
-  - computing
-  - howto
-  - networking
-  - router
-  - tech
 ---
 
 [![](inline_ubee-bridge-mode-e1295698327507.png)](ubee-bridge-mode-e1295698327507.png)

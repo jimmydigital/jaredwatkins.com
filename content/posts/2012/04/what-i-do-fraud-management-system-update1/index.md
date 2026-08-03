@@ -1,15 +1,6 @@
 ---
 title: 'What I do: Fraud Management System -Update1'
 date: 2012-04-02
-tags:
-  - coding
-  - computing
-  - fraud
-  - perl
-  - security
-  - tech
-  - telecom
-  - voip
 ---
 
 It’s been about a month since I posted the initial overview and I thought it would be good to post an update of the progress. While I’ve not been able to devote 100% to this project over the last month there have been some significant improvements.  The most visible ones are to the web interface.  I’ve added a very flexible application level authorization system.  I’ve also added an interface for managing one of the key inputs to the system with a protective 2 level approval process. I’ve also been tweaking the scoring system to better handle corner cases as I’ve seen them. Still plenty of work to be done but it’s starting to take shape.   For the overview of this system check out my [first post about it][1].  Screen shots after the break.<!--more-->

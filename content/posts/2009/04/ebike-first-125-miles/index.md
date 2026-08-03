@@ -1,12 +1,6 @@
 ---
 title: 'Ebike: First 125 Miles'
 date: 2009-04-29
-tags:
-  - batteries
-  - ebike
-  - electric-vehicle
-  - projects
-  - tech
 ---
 
 [![ebike](inline_DSC0018.jpg)](DSC0018.jpg)

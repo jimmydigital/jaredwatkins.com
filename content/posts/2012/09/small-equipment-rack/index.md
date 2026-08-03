@@ -1,13 +1,6 @@
 ---
 title: Small Equipment Rack
 date: 2012-09-28
-tags:
-  - datacenter
-  - diy
-  - hardware
-  - personal
-  - projects
-  - woodworking
 ---
 [![](inline_Small-Rack.png)](Small-Rack.png)
 [![](inline_2012-09-27-23.03.00.jpg)](2012-09-27-23.03.00.jpg)

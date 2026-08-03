@@ -1,12 +1,6 @@
 ---
 title: 'Global Warming: Still More Scam Than Science'
 date: 2011-11-02
-tags:
-  - climate
-  - global-warming
-  - politics
-  - science
-  - skepticism
 ---
 
 More news from the front… [GLOBAL WARMING IS OVER, SAYS EXPERT][1]

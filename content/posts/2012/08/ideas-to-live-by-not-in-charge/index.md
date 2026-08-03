@@ -1,12 +1,6 @@
 ---
 title: 'Ideas to Live By #4 No One is Really in Charge'
 date: 2012-08-04
-tags:
-  - bureaucracy
-  - government
-  - philosophy
-  - politics
-  - skepticism
 ---
 
 ![](inline_3_marionettes-ru029.jpg)

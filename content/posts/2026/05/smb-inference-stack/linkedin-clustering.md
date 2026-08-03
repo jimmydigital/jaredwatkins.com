@@ -3,13 +3,6 @@ title: "LinkedIn: Clustering local AI, what nobody tells you before you buy the 
 date: 2026-06-20
 draft: true
 description: "LinkedIn post on AI inference clustering, model-dependent tradeoffs and what to know before buying."
-tags:
-  - ai
-  - llm
-  - local-inference
-  - hardware
-categories:
-  - Computing and Tech
 ---
 
 Have you thought about clustering local machines to run bigger AI models? Do it wrongly and your performance can actually get worse with additional nodes.

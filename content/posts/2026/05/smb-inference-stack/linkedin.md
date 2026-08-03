@@ -3,12 +3,6 @@ title: "LinkedIn: Building an SMB inference stack"
 date: 2026-05-23
 draft: true
 description: "LinkedIn summary of the local AI inference stack post."
-tags:
-  - ai
-  - llm
-  - local-inference
-categories:
-  - Computing and Tech
 ---
 
 Your AI token bill is about to come under ROI scrutiny.

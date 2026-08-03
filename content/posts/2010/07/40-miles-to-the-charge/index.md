@@ -1,13 +1,6 @@
 ---
 title: 40 Miles to the Charge
 date: 2010-07-30
-tags:
-  - chevy-volt
-  - computing
-  - electric-vehicle
-  - energy
-  - hybrid
-  - tech
 ---
 
 ![](http://farm5.static.flickr.com/4077/4747000552_e26816f35a.jpg)

@@ -3,8 +3,6 @@ title: "LinkedIn: What it actually takes to run a megawatt rack"
 date: 2026-04-27
 draft: true
 description: "LinkedIn summary of the megawatt rack post — not for publishing to the blog."
-tags: ["linkedin"]
-categories: ["Computing and Tech"]
 ---
 
 I've designed some enterprise server racks in the 10 to 15 kW range. The GPU racks going into AI data centers right now are a different animal entirely. And the ones coming next are barely recognizable as the same product.

@@ -1,16 +1,6 @@
 ---
 title: 'What I Do: Fraud Detection System Initial Overview'
 date: 2012-03-02
-tags:
-  - coding
-  - fraud
-  - perl
-  - personal
-  - projects
-  - security
-  - tech
-  - telecom
-  - voip
 ---
 
 ![](inline_capn-crunch-bosun-whistle.jpg)

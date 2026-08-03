@@ -3,13 +3,6 @@ title: "Let the (AI) Bodies Hit the Floor - LinkedIn"
 date: 2026-05-07
 draft: true
 description: "LinkedIn summary of the Dark GPUs blog post on AI datacenter buildout constraints and economic risk."
-tags:
-  - ai
-  - datacenter
-  - economics
-  - linkedin
-categories:
-  - Computing and Tech
 ---
 
 In 2001, roughly 95% of the fiber optic cable in the ground was dark. Traffic eventually caught up, about 20 years later. The companies that laid the fiber went bankrupt. The fiber itself was fine.

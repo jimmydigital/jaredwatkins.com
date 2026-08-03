@@ -3,7 +3,6 @@ title: Most Small Businesses Never Sell
 date: 2026-07-06
 draft: false
 description: Most SBA-sized small businesses that go up for sale never actually sell, and a lot of that is preventable. Here's why the odds are stacked against a seller and what actually improves them.
-tags:
 ---
 
 Say you own a small business you want to sell. Not a $40 million supermarket chain, but something the SBA actually means when it says "small": a restaurant doing a couple million a year, an HVAC company, a service business with a dozen people on payroll. The kind of thing that gets [priced as a multiple of Seller's Discretionary Earnings](https://www.wallstreetprep.com/knowledge/sde-sellers-discretionary-earnings/), usually 1.0 to 2.5x. So you decide to sell and reach out to a well known local business broker. The part nobody mentions before you sign is that [70 to 80% of listings like yours never transact](https://investmentbank.com/only-30-to-40-of-businesses-actually-ever-sell). Not "sold for less than we hoped." Never sold. The listing goes stale, gets pulled, and the business either grinds on under an owner who wanted out two years ago or just shuts down, because it turns out there was no exit after all.

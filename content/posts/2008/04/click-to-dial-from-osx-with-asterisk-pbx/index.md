@@ -1,14 +1,6 @@
 ---
 title: Click to dial from OSX with Asterisk PBX
 date: 2008-04-17
-tags:
-  - asterisk
-  - coding
-  - computing
-  - osx
-  - projects
-  - tech
-  - voip
 ---
 
 Here is a nice little utility that I put together and have been using for a while. If you use OSX and keep your contacts in the native Address Book application like I do.. and happen to have an Asterisk PBX… this will let you do a simple click-to-dial.

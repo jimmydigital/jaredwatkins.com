@@ -1,13 +1,6 @@
 ---
 title: 'What I do: Another Day in the Bunker'
 date: 2011-02-19
-tags:
-  - computing
-  - datacenter
-  - infrastructure
-  - personal
-  - sysadmin
-  - tech
 ---
 
 ![](inline_mantrap_sm.jpg)

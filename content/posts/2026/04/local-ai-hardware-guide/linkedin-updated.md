@@ -3,13 +3,6 @@ title: "LinkedIn draft: Picking hardware for local AI inference in 2026 (Spacemi
 date: 2026-05-22
 draft: true
 description: LinkedIn post draft for the SpacemiT K3 + TOPS explainer update to the local AI hardware guide.
-tags:
-  - ai
-  - hardware
-  - risc-v
-  - local-inference
-categories:
-  - Computing and Tech
 ---
 
 Local AI inference is no longer just an ARM and x86 story.

@@ -3,17 +3,6 @@ title: Picking hardware for local AI inference in 2026
 date: 2026-04-07
 draft: true
 description: A practical guide to choosing local AI hardware -- what actually matters, what fits where, and why hardware vendors keep getting away with marketing nonsense.
-tags:
-  - ai
-  - hardware
-  - llm
-  - local-inference
-  - nvidia
-  - apple
-  - amd
-  - tenstorrent
-categories:
-  - Computing and Tech
 ---
 
 Nobody buying AI hardware in 2026 is short on opinions. Everyone has a take. The forums are full of people who swear by their setup and can't understand why anyone would choose differently. Most of those arguments are happening across completely different use cases which raises the noise floor for this subject.

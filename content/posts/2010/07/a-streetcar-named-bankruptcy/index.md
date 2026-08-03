@@ -1,14 +1,6 @@
 ---
 title: A Streetcar Named Bankruptcy
 date: 2010-07-27
-tags:
-  - boondoggle
-  - charlotte
-  - economics
-  - local-government
-  - politics
-  - spending
-  - transit
 ---
 
 ![](http://farm5.static.flickr.com/4142/4797371396_8b7344ec20.jpg)

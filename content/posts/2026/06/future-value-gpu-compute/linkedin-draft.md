@@ -3,8 +3,6 @@ title: "Future Value of GPU Compute - LinkedIn"
 date: 2026-06-01
 draft: true
 description: "LinkedIn summary for Future Value of GPU Compute post"
-tags: ["AI", "GPUs", "datacenter", "economics"]
-categories: ["Computing and Tech"]
 ---
 
 What's new AI infrastructure hardware worth in year four?

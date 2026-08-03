@@ -1,16 +1,20 @@
 ---
 title: "Crusoe"
 date: 2026-03-25
-lastmod: 2026-03-25
+lastmod: 2026-07-26
 draft: false
-description: "Denver-based AI Factory developer and cloud provider; co-founded 2018 by Chase Lochmiller and Cully Cavness; $2.77B raised; primary developer for OpenAI's Stargate campus in Abilene, TX ($11.6B financing, ~$15B total committed); zero-water-evaporation direct-to-chip cooling; vertically integrated from power sourcing through managed AI inference. Divested bitcoin mining to NYDIG in 2024 to focus entirely on AI infrastructure."
+description: "Denver-based AI Factory developer and cloud provider; co-founded 2018 by Chase Lochmiller and Cully Cavness; $1.375B Series E (Oct 2025) at >$10B valuation, in talks for ~$3B round at ~$30B valuation (Jul 2026, unconfirmed); 4.9 GW contracted AI infrastructure capacity (Jun 2026) across a 40+ GW pipeline; primary developer for OpenAI's Stargate campus in Abilene, TX; zero-water-evaporation direct-to-chip cooling; vertically integrated from power sourcing through managed AI inference. Paused Wyoming campus development (Jun 2026) at customer's request."
 research_area: "datacenters/design-construction"
 source_urls:
   - "https://www.crusoe.ai/"
   - "https://www.datacenterdynamics.com/en/news/crusoe-secures-116bn-in-debt-and-equity-for-openais-stargate-data-center-campus-in-abilene-texas/"
   - "https://www.businesswire.com/news/home/20241015910376/en/Crusoe-Blue-Owl-Capital-and-Primary-Digital-Infrastructure-Enter-%243.4-billion-Joint-Venture-for-AI-Data-Center-Development"
   - "https://www.crusoe.ai/resources/newsroom/crusoe-series-c-bloomberg"
-last_reviewed: 2026-03-25
+  - "https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-e-funding"
+  - "https://www.crusoe.ai/resources/newsroom/crusoes-contracted-ai-infrastructure-capacity-approaches-5-gigawatts-across-data-centers-and-cloud"
+  - "https://www.bloomberg.com/news/articles/2026-06-09/crusoe-touts-5-gigawatts-worth-of-data-centers-deals-pauses-wyoming-site"
+  - "https://www.bloomberg.com/news/articles/2026-07-02/crusoe-in-talks-to-raise-3-billion-in-round-that-may-triple-firm-s-value"
+last_reviewed: 2026-07-26
 stale_after_days: 90
 related:
   - "datacenters/design-construction/_index.md"
@@ -33,11 +37,19 @@ Crusoe is a Denver, Colorado AI Factory developer and cloud provider co-founded 
 - **HQ:** Denver, CO
 - **Type:** Private
 - **Co-Founders:** Chase Lochmiller (CEO), Cully Cavness (COO)
-- **Total raised:** ~$2.77B (equity); plus ~$11.6B in project-level debt/equity for Abilene
+- **Total raised (equity, cumulative):** ~$2.77B pre-Series E; plus $1.375B Series E (initial closing Oct 24, 2025; additional Blue Owl-managed funds expected in a later closing) — over $4B in disclosed cumulative equity; plus ~$11.6B in project-level debt/equity for Abilene
 - **Series C:** $350M (2022), G2 Venture Partners lead; valuation $1.75B
 - **Series D:** $600M (2024); valuation $2.8B
-- **Additional 2025 funding:** $1.3B equity raise (October 2025)
-- **Flagship project:** Stargate Abilene campus — primary developer for OpenAI; 800 acres; 8 planned high-performance data halls; up to 50,000 NVIDIA GB200 NVL72 nodes per hall; first 206 MW phase activated mid-2025; full buildout projected mid-2026
+- **Series E:** $1.375B (initial closing Oct 24, 2025), co-led by Valor Equity Partners and Mubadala Capital, with NVIDIA, Fidelity, T. Rowe Price, Tiger Global, Salesforce Ventures, Founders Fund, and others; valuation >$10B
+- **Reported in-progress round (unconfirmed, as of Jul 2026):** In talks to raise ~$3B at a valuation approaching ~$30B (roughly 3x the Oct 2025 mark) per Bloomberg reporting (Jul 2, 2026); not yet closed or confirmed by the company at time of review
+- **Contracted AI infrastructure capacity:** 4.9 GW across data centers and Crusoe Cloud combined (announced Jun 2026); total development pipeline exceeds 40 GW
+- **Power pipeline:** Grew 4x+ in the year to Oct 2025, exceeding 45 GW, per Crusoe's Series E announcement
+- **Flagship project:** Stargate Abilene campus — primary developer for OpenAI; 1.2 GW campus (per Series E announcement, up from earlier 800-acre/8-hall description); up to 50,000 NVIDIA GB200 NVL72 nodes per hall; first phase live approximately one year after construction began (per Oct 2025 company statement)
+- **New Abilene expansion (Mar 2026):** Additional 900 MW AI Factory Campus announced in Abilene to support Microsoft AI infrastructure — separate from the original OpenAI-anchored 1.2 GW campus
+- **Childress, TX campus (Jul 2026):** 1.0 GW AI data center campus announced jointly with Lancium
+- **Wyoming campus paused (Jun 2026):** Development activity on Crusoe's 1.8 GW Wyoming campus (announced with Tallgrass) paused at the request of the customer, per Bloomberg reporting — treat as a live execution risk, not a cancellation
+- **Manufacturing:** New 350,000 sq ft factory in Brighton, CO (announced 2026) to build Crusoe Spark modular compute/edge units
+- **Atero acquisition:** Acquired Atero for GPU management and memory optimization to accelerate managed AI services (date not independently confirmed in this review)
 - **Abilene financing:** $11.6B in debt and equity via Blue Owl Capital Real Assets and Primary Digital Infrastructure; total committed capital ~$15B
 - **Joint venture:** $3.4B JV with Blue Owl Capital and Primary Digital Infrastructure (announced October 2024) for broader AI datacenter development program
 - **Cooling:** Zero-water-evaporation closed-loop direct-to-chip liquid cooling (chilled liquid sealed circuit onto GPU cold plates; no cooling towers)
@@ -64,7 +76,13 @@ Crusoe is the most vertically integrated player in the AI Factory category. Wher
 
 ## Notable Developments
 
-- **2025-10:** $1.3B equity raise to accelerate large-scale AI datacenter buildout. ([SiliconANGLE](https://siliconangle.com/2025/10/23/crusoe-lands-1-3b-accelerate-buildout-large-scale-ai-data-centers/))
+- **2026-07-21:** Announced partnership with ON.energy to deploy 5 GW of "AI UPS" (uninterruptible power supply) systems at multiple hyperscale campuses.
+- **2026-07-15:** Announced 1.0 GW AI data center campus in Childress, Texas, jointly with Lancium.
+- **2026-07-02:** Bloomberg reported Crusoe is in talks to raise ~$3B in a round that could value the company near ~$30B — roughly triple its October 2025 valuation; unconfirmed by the company, no final terms disclosed as of this review.
+- **2026-06-09:** Announced 4.9 GW of contracted AI infrastructure capacity across data centers and Crusoe Cloud combined (40+ GW total pipeline); simultaneously confirmed it paused development of its Wyoming campus (announced with Tallgrass) at the customer's request.
+- **2026-03 (approx.):** Announced a new 900 MW AI Factory Campus in Abilene, Texas to support Microsoft AI infrastructure, separate from the original OpenAI-anchored Abilene campus; unveiled a new 350,000 sq ft Crusoe Spark modular-unit factory in Brighton, Colorado; expanded Redwood Materials battery-recycling partnership (~7x prior AI-infrastructure density).
+- **2025-10-24:** Announced initial closing of $1.375B Series E funding, co-led by Valor Equity Partners and Mubadala Capital, at a valuation above $10B; reported that the first phase of the 1.2 GW Abilene campus went live approximately one year after construction began; power pipeline grew 4x+ to exceed 45 GW.
+- **2025-10:** $1.3B equity raise to accelerate large-scale AI datacenter buildout — see Series E entry above for confirmed final terms. ([SiliconANGLE](https://siliconangle.com/2025/10/23/crusoe-lands-1-3b-accelerate-buildout-large-scale-ai-data-centers/))
 - **2025 (mid):** Abilene Stargate campus Phase 1 (206 MW) activated — approximately 12 months from bare land to live compute.
 - **2025:** $11.6B in debt and equity secured for Abilene campus expansion; total committed capital ~$15B; Blue Owl Real Assets and Primary Digital Infrastructure as capital partners. ([Data Center Dynamics](https://www.datacenterdynamics.com/en/news/crusoe-secures-116bn-in-debt-and-equity-for-openais-stargate-data-center-campus-in-abilene-texas/))
 - **2024-10:** $3.4B joint venture with Blue Owl Capital and Primary Digital Infrastructure announced for AI datacenter development program. ([BusinessWire](https://www.businesswire.com/news/home/20241015910376/en/Crusoe-Blue-Owl-Capital-and-Primary-Digital-Infrastructure-Enter-%243.4-billion-Joint-Venture-for-AI-Data-Center-Development))
@@ -157,9 +175,36 @@ Crusoe sits at multiple layers simultaneously due to vertical integration:
 
 **Summary:** Treat as unverified marketing claims until independent benchmarks are published.
 
+### Claim: In talks to raise ~$3B at a ~$30B valuation (Jul 2026)
+
+**Status:** Unverified / unconfirmed — reported deal-in-progress, not a closed transaction
+
+**Supporting sources:**
+- [Crusoe in Talks to Raise $3 Billion in Round That May Triple Firm's Value — Bloomberg (Jul 2, 2026)](https://www.bloomberg.com/news/articles/2026-07-02/crusoe-in-talks-to-raise-3-billion-in-round-that-may-triple-firm-s-value)
+- [Crusoe Reportedly in Talks to Raise $3 Billion at About $30 Billion Valuation — The Energy Mag (Jul 6, 2026)](https://theenergymag.com/news/2026-07-06/crusoe-3-billion-raise-ai-data-center)
+
+**Refuting / questioning sources:**
+- None found directly disputing the report; however, no Crusoe press release or SEC-adjacent disclosure confirming the round, its size, or final valuation was located as of this review.
+
+**Summary:** This is reported deal-in-progress information sourced to Bloomberg and secondary outlets citing people familiar with the matter — standard sourcing for pre-announcement fundraising reporting, but not a company-confirmed fact. Treat the $3B/$30B figures as directional and unconfirmed until Crusoe or its investors issue an official announcement.
+
+### Claim: 4.9 GW of contracted AI infrastructure capacity; 40+ GW development pipeline (Jun 2026)
+
+**Status:** Partially verified (company-reported figures via official press release, not independently audited)
+
+**Supporting sources:**
+- [Crusoe's Contracted AI Infrastructure Capacity Approaches 5 Gigawatts Across Data Centers and Cloud — Crusoe official (Jun 2026)](https://www.crusoe.ai/resources/newsroom/crusoes-contracted-ai-infrastructure-capacity-approaches-5-gigawatts-across-data-centers-and-cloud)
+
+**Summary:** "Contracted capacity" and "development pipeline" are company-defined terms without a disclosed methodology for what counts as binding versus letter-of-intent-stage capacity — consistent with this knowledge base's general caution around GW-scale pipeline figures across the datacenter/BTM-power space (see [Behind-the-Meter Power]({{< relref "../behind-meter-power/_index.md" >}}) for the broader pattern of distinguishing binding PPAs from nonbinding LOIs). Treat the 4.9 GW figure as company-reported until an independent tally of named, binding contracts is available.
+
 ## Sources
 
 - [Crusoe AI — crusoe.ai](https://www.crusoe.ai/)
+- [Crusoe, the AI factory company, raising $1.375 billion at a valuation above $10 billion — Crusoe official (Oct 24, 2025)](https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-e-funding)
+- [Crusoe's Contracted AI Infrastructure Capacity Approaches 5 Gigawatts — Crusoe official (Jun 2026)](https://www.crusoe.ai/resources/newsroom/crusoes-contracted-ai-infrastructure-capacity-approaches-5-gigawatts-across-data-centers-and-cloud)
+- [Crusoe Touts 5-Gigawatt Data Center Deals, Pauses Wyoming Campus Development — Bloomberg (Jun 9, 2026)](https://www.bloomberg.com/news/articles/2026-06-09/crusoe-touts-5-gigawatts-worth-of-data-centers-deals-pauses-wyoming-site)
+- [Crusoe in Talks to Raise $3 Billion in Round That May Triple Firm's Value — Bloomberg (Jul 2, 2026)](https://www.bloomberg.com/news/articles/2026-07-02/crusoe-in-talks-to-raise-3-billion-in-round-that-may-triple-firm-s-value)
+- [From Gigawatts To Grab-And-Go: Crusoe Leans Into Modular AI Data Centers — Forbes (Mar 12, 2026)](https://www.forbes.com/sites/annatong/2026/03/12/from-gigawatts-to-grab-and-go-crusoe-leans-into-modular-ai-data-centers/)
 - [Crusoe Secures $11.6B for Abilene Stargate Campus — Data Center Dynamics](https://www.datacenterdynamics.com/en/news/crusoe-secures-116bn-in-debt-and-equity-for-openais-stargate-data-center-campus-in-abilene-texas/)
 - [$3.4B Joint Venture with Blue Owl Capital — BusinessWire (Oct 2024)](https://www.businesswire.com/news/home/20241015910376/en/Crusoe-Blue-Owl-Capital-and-Primary-Digital-Infrastructure-Enter-%243.4-billion-Joint-Venture-for-AI-Data-Center-Development)
 - [Crusoe Series C ($350M) — Crusoe Newsroom](https://www.crusoe.ai/resources/newsroom/crusoe-series-c-bloomberg)

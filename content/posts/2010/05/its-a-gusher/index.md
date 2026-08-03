@@ -1,13 +1,6 @@
 ---
 title: It's a Gusher!
 date: 2010-05-28
-tags:
-  - debt
-  - economics
-  - obama
-  - oil
-  - politics
-  - spending
 ---
 
 ![](http://farm5.static.flickr.com/4072/4627621919_088809c7e3.jpg)

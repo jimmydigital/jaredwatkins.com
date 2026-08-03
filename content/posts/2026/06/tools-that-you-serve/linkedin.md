@@ -3,12 +3,6 @@ title: "Tools That You Serve (LinkedIn)"
 date: 2026-06-29
 draft: true
 description: "LinkedIn summary for Tools That You Serve post."
-categories:
-  - Computing and Tech
-tags:
-  - unix
-  - philosophy
-  - linkedin
 thumbnail: ""
 images: []
 ---

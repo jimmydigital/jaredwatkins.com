@@ -53,8 +53,8 @@ ignoreLogs = ['warning-goldmark-raw-html']
   section  = ["HTML", "RSS"]
 
 [taxonomies]
-  tag = "tags"
-  categories = "categories"
+  # Taxonomies disabled sitewide -- posts and research use neither tags nor
+  # categories. Site search handles discovery.
 
 [module]
   [[module.imports]]

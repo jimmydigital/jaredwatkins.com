@@ -1,10 +1,6 @@
 ---
 title: Adventures in Real Estate
 date: 2008-06-01
-tags:
-  - charlotte
-  - personal
-  - real-estate
 ---
 
 ![house](inline_midwood1.jpg)

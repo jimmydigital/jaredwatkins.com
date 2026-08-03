@@ -1,14 +1,6 @@
 ---
 title: System Rescue CD to the.. rescue!
 date: 2011-02-18
-tags:
-  - computing
-  - disaster-recovery
-  - linux
-  - personal
-  - raid
-  - sysadmin
-  - tech
 ---
 
 ![](http://farm6.static.flickr.com/5211/5421694137_c92bd1b195.jpg "width=160")

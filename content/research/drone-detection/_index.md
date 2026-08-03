@@ -1,11 +1,11 @@
 ---
 title: "Drone Detection"
 date: 2026-06-05
-lastmod: 2026-07-09
+lastmod: 2026-07-26
 draft: false
 description: "Detection methods, hardware, software, and open-source tools for identifying unauthorized drones at critical infrastructure, including drone-vs-bird discrimination."
 research_area: "drone-detection"
-last_reviewed: 2026-07-07
+last_reviewed: 2026-07-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -147,6 +147,8 @@ A knowledge base on detecting unauthorized drones at critical infrastructure —
 | [DRO](https://finance.yahoo.com/quote/DRO) | [DroneShield](https://droneshield.com) | AI-powered C-UAS: RF, radar, acoustic, computer vision |
 | [AXON](https://finance.yahoo.com/quote/AXON) | [Axon Enterprise (Dedrone)](https://dedrone.com) | Multi-sensor drone detection platform (acquired Dedrone Oct 2024) |
 | [ONDS](https://finance.yahoo.com/quote/ONDS) | [Ondas Holdings](https://ondas.com) | Parent of Sentrycs (CoRF C-UAS), Iron Drone Raider interceptor, and (2026) World View Stratollite stratospheric ISR — see [High-Altitude Platforms]({{< relref "high-altitude-platforms/world-view-stratollite.md" >}}) |
+| [SANM](https://finance.yahoo.com/quote/SANM) | [Sanmina (SCI Technology)](https://www.sci.com) | Parent of SCI Technology; AeroGuard autonomous net-capture drone interdiction system (no RF jamming) — see [Counter-Drone Platforms]({{< relref "counter-drone-platforms/sci-technology-aeroguard.md" >}}) |
+| [FLY](https://finance.yahoo.com/quote/FLY) | [Firefly Aerospace (SciTec)](https://scitec.com) | Parent (acquired Nov 2025, ~$855M) of SciTec, a missile-warning/ISR/space-domain-awareness/C2 contractor; cites ML-based counter-UAS as one application among several — not primarily a drone-detection vendor; see [entry]({{< relref "hardware/scitec.md" >}}) for placement caveat |
 
 ### Incumbents
 
@@ -179,7 +181,9 @@ A knowledge base on detecting unauthorized drones at critical infrastructure —
         "symbols": [
           {"s": "ASX:DRO", "d": "DroneShield"},
           {"s": "NASDAQ:AXON", "d": "Axon / Dedrone"},
-          {"s": "NASDAQ:ONDS", "d": "Ondas / Sentrycs"}
+          {"s": "NASDAQ:ONDS", "d": "Ondas / Sentrycs"},
+          {"s": "NASDAQ:SANM", "d": "Sanmina / SCI Technology"},
+          {"s": "NASDAQ:FLY", "d": "Firefly Aerospace / SciTec"}
         ],
         "originalTitle": "Drone Detection"
       }

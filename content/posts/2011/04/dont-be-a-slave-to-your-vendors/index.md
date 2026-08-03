@@ -1,14 +1,6 @@
 ---
 title: "Don't be a Slave to Your Vendors"
 date: 2011-04-12
-tags:
-  - computing
-  - linux
-  - open-source
-  - personal
-  - skepticism
-  - tech
-  - vendor-lock-in
 ---
 
 ![](http://farm5.static.flickr.com/4024/4311767999_105c07ac0b.jpg)

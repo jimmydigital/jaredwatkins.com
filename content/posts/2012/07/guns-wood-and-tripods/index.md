@@ -1,13 +1,6 @@
 ---
 title: Guns, Wood, and Tripods
 date: 2012-07-01
-tags:
-  - amazon
-  - career
-  - charlotte
-  - personal
-  - relocation
-  - seattle
 ---
 
 ![](http://farm8.static.flickr.com/7256/7451269236_55f2df81a5.jpg)

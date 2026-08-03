@@ -2,11 +2,6 @@
 title: R I P 4TK
 slug: r-i-p-4tk
 date: 2005-05-10
-tags:
-  - accident
-  - aviation
-  - flight-training
-  - n714tk
 ---
 
 [![plane](inline_714tk-3.jpg)](714tk-3.jpg)

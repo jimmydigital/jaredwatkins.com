@@ -1,14 +1,6 @@
 ---
 title: OSX Mail App Using Tons of Memory and CPU?
 date: 2012-01-07
-tags:
-  - apple
-  - computing
-  - fix
-  - howto
-  - osx
-  - performance
-  - tech
 ---
 
 ![](http://farm1.static.flickr.com/30/44074632_687cc920b9.jpg)

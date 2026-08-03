@@ -1,15 +1,6 @@
 ---
 title: CharMeck is broke.. but has money to track our garbage!
 date: 2010-05-06
-tags:
-  - charlotte
-  - local-government
-  - politics
-  - recycling
-  - rfid
-  - skepticism
-  - surveillance
-  - taxes
 ---
 
 ![](http://farm5.static.flickr.com/4049/4415034797_c30c163bbc.jpg)

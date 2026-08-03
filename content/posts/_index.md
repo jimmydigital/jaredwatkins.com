@@ -97,7 +97,7 @@ For posts making factual claims that might read as surprising or hard to believe
 
 ### Topics and Tags
 
-Posts do not use categories -- they have been removed from all posts sitewide. Never add a `categories` field to post frontmatter. Tags carry all classification: lowercase, specific, and concrete (tool names, project names, locations, subject areas like `aviation`, `networking`, `skepticism`).
+Posts do not use taxonomies. Both `categories` and `tags` have been removed from all posts sitewide. Never add a `categories` or `tags` field to post frontmatter. Site search handles discovery instead.
 
 ### LinkedIn
 When writing shorter summary posts for LinkedIn there are a few stylistic changes from the main blog posts.  Trade less precision for more readability. For example a date mentioned in a blog post as March 31st could be mentioned as The end of March for linkedin. Still correct but less need for precision.  These short summaries should also end with a call to action statement and encourage the reader to explore the topic further at my site linking either to a full blog post or the relevant research section if there is no blog post on the subject. Always save linkedin posts as hugo drafts so they don't publish to the blog site.
@@ -120,7 +120,6 @@ title: "Post Title Here"
 date: YYYY-MM-DD
 draft: false
 description: "One sentence that accurately describes what the post is about."
-tags: ["tag1", "tag2"]
 ---
 ```
 
@@ -139,7 +138,6 @@ date: YYYY-MM-DD        # original publish date -- do not change
 lastmod: YYYY-MM-DD     # date of this update
 draft: false
 description: "One sentence that accurately describes what the post is about."
-tags: ["tag1", "tag2"]
 ---
 ```
 

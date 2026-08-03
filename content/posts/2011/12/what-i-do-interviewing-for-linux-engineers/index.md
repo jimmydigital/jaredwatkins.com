@@ -1,13 +1,6 @@
 ---
 title: 'What I do: Interviewing for Linux Engineers'
 date: 2011-12-11
-tags:
-  - computing
-  - hiring
-  - linux
-  - personal
-  - sysadmin
-  - tech
 ---
 
 Now and then I’m called on to help interview candidates for linux admin/engineer slots and as I’ve been doing some of that lately I thought I’d share the way I go about doing a technical interview. This approach seems to work equally well over the phone or in person. <!--more-->

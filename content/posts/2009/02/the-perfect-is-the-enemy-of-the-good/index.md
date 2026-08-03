@@ -1,11 +1,6 @@
 ---
 title: The Perfect is the Enemy of the Good
 date: 2009-02-24
-tags:
-  - economics
-  - government
-  - politics
-  - skepticism
 ---
 
 ![tim geithner](inline_TimGeithner_Worried.jpg)

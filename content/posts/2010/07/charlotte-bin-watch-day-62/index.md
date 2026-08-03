@@ -1,14 +1,6 @@
 ---
 title: 'Charlotte Bin Watch Day 62'
 date: 2010-07-07
-tags:
-  - charlotte
-  - local-government
-  - politics
-  - recycling
-  - rfid
-  - skepticism
-  - surveillance
 ---
 
 ![](http://farm2.static.flickr.com/1174/4733638662_a5f9961290.jpg)

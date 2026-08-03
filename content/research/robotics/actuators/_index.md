@@ -1,11 +1,11 @@
 ---
 title: Robotics Actuators
 date: 2026-03-24
-lastmod: 2026-07-18
+lastmod: 2026-07-26
 draft: false
 description: Motors, gearboxes, servo drives, and actuation systems for commercial and defense robots — from brushless DC motors to harmonic drives and hydraulic systems.
 research_area: "robotics/actuators"
-last_reviewed: 2026-03-24
+last_reviewed: 2026-07-26
 stale_after_days: 180
 sitemap:
   changefreq: "monthly"
@@ -29,6 +29,7 @@ Actuators are the muscles of robots — the subsystems that convert electrical (
 - Emerging category of integrated joint modules (motor + gearbox + encoder + driver in one unit) from startups aiming to democratize robot design
 - Hydraulic actuation still dominant for heavy UGVs and construction robots despite electric's efficiency advantage at smaller scales
 - Ball-screw-driven series elastic actuation is a credible alternative to harmonic-drive-based joints for humanoid robots — see [UT Series Elastic Actuator (UT-SEA)]({{< relref "ut-series-elastic-actuator.md" >}}), the design underpinning NASA's Valkyrie and Apptronik's Apollo, chosen specifically to avoid harmonic drives' backdrivability and efficiency limitations
+- Soft/electrohydraulic actuation (HASEL) is an emerging, structurally distinct actuator category — silent, compliant, self-sensing "artificial muscle" technology aimed at underwater robotics, haptics, and dexterous manipulation, differentiated from every other entry in this section by not using a spinning motor at all — see [Artimus Robotics]({{< relref "artimus-robotics.md" >}})
 
 ## Companies
 
@@ -43,6 +44,7 @@ Actuators are the muscles of robots — the subsystems that convert electrical (
 | [Aerojet Rocketdyne](https://www.l3harris.com) | Various | Public (acquired by L3Harris) | Electromechanical actuators for aerospace and defense applications; thrust vector control. |
 | [Synapticon](https://catalog.synapticon.com) | Weinstadt, Germany | Private | SOMANET EtherCAT servo drives and integrated actuator modules; compact form factor for robot joint integration; vendor ROS 2 driver (ros2_control); EtherCAT enables >500 Hz control loops. |
 | [Robotis](https://www.robotis.us) | Seoul, South Korea | Growth | Dynamixel smart servo actuator series (integrated motor+gearbox+driver+encoder+comms); dominant in research and educational robotics; vendor-supported ROS 2 driver; TurtleBot3 co-developer. |
+| [Artimus Robotics]({{< relref "artimus-robotics.md" >}}) | Boulder, CO, USA | Private (venture + government funded) | HASEL soft electrohydraulic "artificial muscle" actuators; silent, compliant, self-sensing; underwater robotics, haptics, and dexterous manipulation applications; CU Boulder spinout. |
 
 ### Public Companies
 

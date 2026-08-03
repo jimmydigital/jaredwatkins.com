@@ -1,12 +1,6 @@
 ---
 title: Is BP toast?
 date: 2010-05-01
-tags:
-  - energy
-  - gulf-spill
-  - investing
-  - oil
-  - stocks
 ---
 ![](inline_oilcompanies_5-1.png)
 

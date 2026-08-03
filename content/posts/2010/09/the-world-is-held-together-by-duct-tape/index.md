@@ -1,12 +1,6 @@
 ---
 title: The world is held together by duct tape
 date: 2010-09-24
-tags:
-  - engineering
-  - security
-  - skepticism
-  - software
-  - systems
 ---
 
 ### [CIA used ‘illegal, inaccurate code to target kill drones’][1]

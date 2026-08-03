@@ -1,14 +1,6 @@
 ---
 title: Detroit Blows it Again
 date: 2010-10-11
-tags:
-  - batteries
-  - electric-vehicle
-  - gm
-  - investing
-  - politics
-  - skepticism
-  - stocks
 ---
 
 ![](http://farm5.static.flickr.com/4152/5064872555_73a004b445.jpg "width-320")

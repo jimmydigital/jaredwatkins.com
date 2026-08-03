@@ -1,15 +1,6 @@
 ---
 title: 'What I do: Voice Integration With Nagios and Asterisk'
 date: 2011-12-05
-tags:
-  - asterisk
-  - coding
-  - computing
-  - linux
-  - nagios
-  - projects
-  - tech
-  - voip
 ---
 
 ![](inline_asterisk_logo.png)

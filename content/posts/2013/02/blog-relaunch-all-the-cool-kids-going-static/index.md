@@ -1,14 +1,6 @@
 ---
 date: 2013-02-25
 title: "Blog Relaunch - All the Cool Kids Are Going Static"
-tags:
-  - aws
-  - blogging
-  - coding
-  - octopress
-  - personal
-  - projects
-  - static-site
 ---
 
 I've run my own hosted server for many years now. Originally it was just to have my own mail server

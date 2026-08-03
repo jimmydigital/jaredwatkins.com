@@ -3,8 +3,6 @@ title: "LinkedIn: Picking hardware for local AI inference in 2026"
 date: 2026-04-07
 draft: true
 description: "LinkedIn version of the local AI hardware guide -- shorter form suitable for social sharing with link back to full post."
-tags: ["ai", "hardware", "linkedin"]
-categories: ["Computing and Tech"]
 ---
 
 **Picking hardware for local AI inference

@@ -1,15 +1,6 @@
 ---
 title: 'Fraud System: Update 2'
 date: 2012-06-02
-tags:
-  - coding
-  - computing
-  - fraud
-  - perl
-  - security
-  - tech
-  - telecom
-  - voip
 ---
 
 Progress has slowed a bit on the fraud management system… other priorities have come up over the last month or so but here’s a new walk though.  The backend hasn’t changed much.  What has changed is the hardware requirements.  When I started this project I had no idea how much processing power or space or IO was going to be required so I built the system in such a way that it could be easily scaled at several points.  As it turns out.. for this size of a network (about 250k customers) that was unnecessary.<!--more-->

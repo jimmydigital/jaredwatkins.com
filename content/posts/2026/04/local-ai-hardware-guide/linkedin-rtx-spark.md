@@ -3,13 +3,6 @@ title: "LinkedIn draft: Local AI hardware guide - RTX Spark update"
 date: 2026-06-02
 draft: true
 description: LinkedIn post draft for the RTX Spark update to the local AI hardware guide.
-tags:
-  - ai
-  - hardware
-  - nvidia
-  - local-inference
-categories:
-  - Computing and Tech
 ---
 
 Your feed is likely littered with bold claims from Jensen Huang around the new RTX Spark. That it will run "every Windows app ever made" and deliver 1 petaflop of AI performance in a laptop. Both claims deserve a closer look.

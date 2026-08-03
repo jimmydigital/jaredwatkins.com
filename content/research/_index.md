@@ -1,9 +1,9 @@
 ---
 title: Research
 date: 2026-03-23
-lastmod: 2026-07-18
+lastmod: 2026-08-03
 draft: false
-last_reviewed: 2026-07-18
+last_reviewed: 2026-08-03
 description: AI-maintained knowledge base on emerging technology topics.
 sitemap:
   changefreq: "monthly"
@@ -653,6 +653,18 @@ When a company operates at multiple layers (e.g., DJI makes its own motors AND s
 
 ---
 
+### Topic-Area Steering: HALE / HAPS (`research/hale-haps/`)
+
+**Scope boundaries:** IN — fixed-wing, airship, and balloon platforms flown in the stratosphere (roughly 55,000–95,000 ft) for telecom relay, Earth observation, or general-purpose/defense ISR; the companies building and operating them. OUT — conventional satellites (any orbital regime); low-altitude drones and UAS below the stratosphere (see `robotics/aerial-drones`); weather balloons and sounding balloons with no persistent-platform or payload-relay mission. BORDERLINE — companies whose primary mission is counter-UAS/missile detection using a stratospheric platform: documented in `drone-detection/high-altitude-platforms` instead, with cross-links back into this section.
+
+**Editorial framing:** As with other sections, prioritize the platform developers and startups over their large incumbent parents/investors (Airbus, BAE Systems, Thales, Leonardo). Those incumbents belong in the Incumbents table as context, not as the center of gravity. When a subsidiary is majority- or wholly-owned by a public incumbent (AALTO/Airbus, Prismatic/BAE, Mira Aerospace/Space42), document the subsidiary's own program in the Startups & Development Partners table and note the parent relationship inline.
+
+**Claim verification flags specific to this topic area:** Endurance and altitude claims should always specify whether they were flight-demonstrated or are a stated design target — the two are routinely blended in company marketing (Stratobus's "up to one year" endurance and several companies' "months" endurance claims are design targets, not flown results, as of mid-2026). Commercial-service timelines in this space have a strong track record of slipping (Zephyr, Stratobus, SPL/World Mobile Stratospheric, and Sceye have each pushed dates back at least once) — treat future launch/commercialization dates with the same skepticism applied to nuclear SMR timelines elsewhere on this site.
+
+**Review cadence:** 90 days — this is a fast-moving, pre-commercial space as of mid-2026 with frequent flight-test milestones, funding events, and ownership changes.
+
+---
+
 ### What NOT to Include
 
 - Opinion or advocacy ("X is the future of energy")
@@ -694,6 +706,7 @@ A living, AI-maintained knowledge base on emerging technology topics. Each area 
 - [Datacenters]({{< relref "datacenters/_index.md" >}}) — Physical datacenter infrastructure: cooling, power, construction, rugged edge compute
 - [Drone Detection]({{< relref "drone-detection/_index.md" >}}) — C-UAS detection methods, hardware, open-source tools, and counter-drone platforms for critical infrastructure protection
 - [Energy]({{< relref "energy/_index.md" >}}) — Solar, batteries, nuclear, energy resources, and grid market structure/policy
+- [HALE / HAPS]({{< relref "hale-haps/_index.md" >}}) — High-altitude long-endurance platforms: solar/fuel-cell fixed-wing aircraft, stratospheric airships, and balloons for telecom, Earth observation, and ISR
 - [Large Format Additive Manufacturing (LFAM)]({{< relref "lfam/_index.md" >}}) — Industrial-scale 3D printing: gantry and robotic pellet extrusion, WAAM for metal naval components, defense and aerospace applications
 - [Local AI Tools]({{< relref "local-ai-tools/_index.md" >}}) — Local-first AI applications: voice cloning/TTS/STT studios, inference runtimes, and MCP agent-voice integration
 - [Local LLM Fine-Tuning]({{< relref "local-llm-finetuning/_index.md" >}}) — Building and fine-tuning specialist LLMs for edge deployment: training data, compute options, and network engineer expert models

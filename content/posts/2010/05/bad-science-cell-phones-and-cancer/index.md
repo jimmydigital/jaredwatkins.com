@@ -1,12 +1,6 @@
 ---
 title: 'Bad Science: Cell Phones and Cancer'
 date: 2010-05-18
-tags:
-  - bad-science
-  - cell-phones
-  - radiation
-  - science
-  - skepticism
 ---
 
 ![](http://farm3.static.flickr.com/2538/3998827132_5e52fe5b7d.jpg)

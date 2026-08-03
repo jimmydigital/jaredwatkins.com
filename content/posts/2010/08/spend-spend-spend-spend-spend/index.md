@@ -1,14 +1,6 @@
 ---
 title: Spend Spend Spend Spend Spend
 date: 2010-08-09
-tags:
-  - debt
-  - economics
-  - politics
-  - skepticism
-  - spending
-  - stimulus
-  - taxes
 ---
 
 ![](http://farm5.static.flickr.com/4069/4564270555_aa6e489033.jpg )

@@ -1,11 +1,6 @@
 ---
 title: What does a storm cloud weigh?
 date: 2010-06-28
-tags:
-  - math
-  - science
-  - tech
-  - weather
 ---
 
 ![](http://farm5.static.flickr.com/4102/4740040431_5264a8629f.jpg)

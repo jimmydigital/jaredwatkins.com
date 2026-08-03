@@ -1,11 +1,11 @@
 ---
 title: "Datacenter Opposition"
 date: 2026-04-20
-lastmod: 2026-05-11
+lastmod: 2026-07-26
 draft: false
 description: "Research section covering opposition to datacenter construction and operation across the United States — project tracker, organizing groups, funding networks, state-by-state breakdown, legislative actions, and tactical analysis."
 research_area: "datacenter-opposition"
-last_reviewed: 2026-05-11
+last_reviewed: 2026-07-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -50,7 +50,7 @@ This section tracks opposition to datacenter construction and operation across t
 
 - **Scale of opposition is accelerating.** From 2 datacenter projects canceled due to opposition in 2023, to 6 in 2024, to 25+ in 2025. $64–152 billion in proposed investments have been blocked or delayed.
 
-- **First state-level moratorium.** Maine enacted the first state-level moratorium on large datacenters (20 MW+) on April 15, 2026. At least 12 other states have filed moratorium bills.
+- **First state-level moratorium.** New York enacted the first statewide datacenter moratorium via Executive Order No. 62 (July 14, 2026), a up-to-1-year freeze on discretionary permits for 50 MW+ facilities. Maine's legislature passed a competing 20 MW+ moratorium (LD 307), but Gov. Mills vetoed it April 24, 2026 over a project-specific exemption dispute; it was never enacted. At least 14 other states have filed moratorium bills as of Q1 2026.
 
 - **Environmental and rate concerns dominate.** Water consumption (40%+ of contested projects cite it), electricity grid strain (especially in ERCOT-deregulated Texas), noise, and rate impacts drive opposition. Some incumbent utilities are pushing back against grid load without corresponding generation.
 
@@ -116,17 +116,17 @@ When documenting opposition claims:
 
 ## Overview
 
-As of April 2026, opposition to datacenter development has become a dominant force in U.S. land-use and energy policy. At least 48 datacenter projects have been blocked, stalled, or delayed by community opposition since mid-2024, affecting $64–152 billion in potential investment. Concerns center on water consumption (cited in 40%+ of contested projects), electricity grid strain (especially in deregulated grids like ERCOT), noise pollution, property tax effects, and demands for corporate transparency.
+As of July 2026, opposition to datacenter development has become a dominant force in U.S. land-use and energy policy. Data Center Watch (a project of 10a Labs) found at least 75 projects worth roughly $130 billion were blocked or delayed in Q1 2026 alone — matching all of 2025's total in a single quarter — and the number of active local opposition groups more than doubled from 396 (end of 2025) to 833 across 49 states by March 2026. A separate June 2026 census by the Coalition for Responsible Data Center Development, Evitable, and Together Against AI counted 430 Facebook-organized local opposition groups with a combined 525,000+ members across at least 40 states (up from 268 groups in April 2026). Concerns center on water consumption (cited in 40%+ of contested projects), electricity grid strain (especially in deregulated grids like ERCOT), noise pollution, property tax effects, and demands for corporate transparency.
 
-The opposition movement is diverse, spanning local NIMBY coalitions (homeowners, historic preservationists), national environmental organizations (Sierra Club, NRDC, Food & Water Watch), utility watchdogs (Good Jobs First, Public Citizen), labor groups, and indigenous rights advocates. Tactics include zoning challenges, litigation under environmental and air/water permit law, legislative campaigns for moratoriums and tax incentive repeal, and ballot initiatives.
+The opposition movement is diverse, spanning local NIMBY coalitions (homeowners, historic preservationists), national environmental organizations (Sierra Club, NRDC, Food & Water Watch), utility watchdogs (Good Jobs First, Public Citizen), labor groups, indigenous rights advocates, and — new as of mid-2026 — a cross-partisan national protest network, HumansFirst. Tactics include zoning challenges, litigation under environmental and air/water permit law, legislative campaigns for moratoriums and tax incentive repeal, ballot initiatives, and coordinated national protest days.
 
-**Key milestone:** Maine enacted the first state-level moratorium on large datacenters (20 MW+) on April 15, 2026. At least 12 other states (Illinois, New York, Colorado, North Carolina, and others) have filed moratorium bills. A federal moratorium bill (Sanders-AOC AI Data Center Moratorium Act) was introduced to Congress in March 2026.
+**Key milestone:** New York became the first state to enact a statewide datacenter moratorium when Gov. Kathy Hochul signed Executive Order No. 62 on July 14, 2026, freezing discretionary permits for facilities of 50 MW+ for up to a year while the state develops an environmental impact review and community-benefits framework (manufacturing, research/education including Empire AI, and medical facilities are excluded). This corrects this entry's prior claim that Maine held that distinction: Maine's legislature passed LD 307 (an 18-month, 20 MW+ moratorium) in April 2026, but Gov. Janet Mills vetoed it on April 24, 2026 after a fight over exempting a $550 million project in Jay, Maine — no Maine moratorium is currently in force. At least 14 states introduced moratorium-style bills in Q1 2026 alone (300+ data-center-related bills nationally in the first six weeks of the year), and a federal moratorium bill (Sanders-AOC AI Data Center Moratorium Act) remains pending in Congress. On July 18, 2026, opponents held the first coordinated national day of action — 142 protests across 42 states — organized by the new group HumansFirst.
 
 ---
 
 ## Major Contested Projects — Tracker
 
-| Project Name / Developer | Location | Scale | Status | Primary Opposition Tactic(s) | Current Status (April 2026) |
+| Project Name / Developer | Location | Scale | Status | Primary Opposition Tactic(s) | Current Status (as of latest update, Jul 2026) |
 |---|---|---|---|---|---|
 | **PW Digital Gateway** / QTS Realty, Compass | Prince William County, VA | 2,100 acres; 37 facilities | **Blocked** | Zoning litigation; historic preservation; NEPA-equivalent challenges | County board voted not to appeal court ruling (April 2026); project effectively dead |
 | **Loudoun County By-Right Development** (multiple projects) | Loudoun County, VA | Various | **Regulatory Change** | Zoning reform / special exception requirements | County eliminated by-right approval (March 2025); new projects require special exception |
@@ -150,7 +150,13 @@ The opposition movement is diverse, spanning local NIMBY coalitions (homeowners,
 | **xAI Megafactory** (Colossus 1, expansion) | Memphis, TN area | Major expansion | **Under Expansion / Litigation** | Air/environmental permits; labor/community concerns | Expansion plans contested; legal challenges ongoing |
 | **Meta / Alliant Beaver Dam Expansion** | Dodge County, WI | Large expansion | **Pending / Rate Disputes** | Rate impact litigation; energy disclosure disputes | Ongoing disputes over cost allocation and facility specs |
 | **Stratos Project** / O'Leary Digital (Kevin O'Leary) | Box Elder County, UT | 40,000 acres → ~10,000 acres (75% reduction); up to 9 GW power | **Under Litigation / Scaled Back** | Constitutional challenge to MIDA governance; community organizing; water permit protests (2,300+ filings) | Scaled back 75% June 2026; constitutional lawsuit filed June 4, 2026 (Alliance for a Better Utah v. MIDA); referendum rejected May 2026 |
-| **Multiple Projects (Moratorium)** | Maine (statewide) | 20 MW+ facilities | **Blocked (by State Law)** | State-level legislative moratorium | Maine moratorium effective April 15, 2026; first state-level ban |
+| **Multiple Projects (Moratorium bill)** | Maine (statewide) | 20 MW+ facilities | **Vetoed / Not in Force** | State-level legislative moratorium (LD 307) | Legislature passed LD 307 (18-month moratorium) in April 2026; Gov. Janet Mills vetoed it April 24, 2026 over failure to exempt a $550M Jay, ME project; no moratorium currently in force |
+| **Statewide Permitting Freeze** / Gov. Kathy Hochul (Executive Order No. 62) | New York (statewide) | 50 MW+ facilities | **Blocked (by Executive Order)** | Statewide executive-order moratorium | Signed July 14, 2026; up to 1-year freeze on discretionary permits pending a Generic Environmental Impact Statement; first enacted statewide datacenter moratorium in the U.S. |
+| **Clearbrook Data Center** | Frederick County, VA | 220 acres | **Denied** | Board of Supervisors zoning vote; PSL-affiliated organizer testimony | Denied 10–0; part of a foreign-influence dispute over a PSL-affiliated local organizer (see Funding Sources section) |
+| **Winchester-Area Data Center** | Frederick County, VA | 71.8 acres | **Denied** | Board of Supervisors zoning vote | Denied 7–1 alongside the Clearbrook decision |
+| **San Marcos Data Center Campus** | Hays County, TX | $1.5 billion | **Denied** | City Council zoning vote | San Marcos City Council voted 5–2 to deny required zoning/land-use amendments (Feb 17, 2026) |
+| **New Brunswick Data Center (proposed)** | New Brunswick, NJ | 27,000 sq ft lot | **Withdrawn / Repurposed** | City council vote | Council voted to abandon the proposal and build a public park instead (Feb 19, 2026) |
+| **South Johnson City Data Center** / BrightRidge (municipal utility) | Johnson City, TN | Utility-owned site | **Paused (Utility-Imposed Moratorium)** | Municipal utility self-moratorium; noise and community concern | BrightRidge paused all new data center project proposals in its service area, including this site, saying costs currently outweigh community benefits |
 | **Project Sail** / Prologis + Atlas Development | Coweta County, GA | 829 acres; 9 buildings; ~900 MW; $17B | **Rezoning Approved / Under Litigation** | Community organizing; zoning litigation; lobbyist access challenge | Approved 3–2 April 11, 2026; lawsuit filed May 5, 2026 to void rezoning; Citizens for Rural Coweta PAC targeting yes-voting commissioners |
 
 ---
@@ -171,13 +177,15 @@ Opposition groups and utility watchdogs challenge the cost allocation for grid u
 
 ### Legislative Campaigns
 
-- **State moratoriums:** Maine enacted a 1-year moratorium (20 MW+) effective April 15, 2026. New York S9144 proposes statewide moratorium. Illinois Gov. Pritzker proposed suspending tax incentives (not a moratorium). At least 12 states have filed moratorium bills in-session as of early 2026.
+- **State moratoriums:** New York Gov. Kathy Hochul signed Executive Order No. 62 (July 14, 2026) — the first enacted statewide moratorium — freezing discretionary permits for 50 MW+ facilities for up to a year pending a Generic Environmental Impact Statement (manufacturing, research/education incl. Empire AI, and medical facilities excluded). Maine's competing effort, LD 307 (an 18-month, 20 MW+ moratorium), passed the legislature but was vetoed by Gov. Janet Mills on April 24, 2026 in a dispute over exempting a $550M project in Jay, Maine. Illinois Gov. Pritzker proposed suspending tax incentives (not a moratorium). At least 14 states filed moratorium-style bills in Q1 2026 alone, part of 300+ data-center-related bills introduced nationally in the first six weeks of the year.
 - **Tax incentive repeal:** Nevada opposition to $537M in cumulative tax abatements (2017–2025); Democratic governor candidate pledged to freeze new abatements. Virginia legislators debated repealing datacenter sales tax exemptions. Georgia legislators failed to pass 20+ datacenter reform bills in 2025 session.
 - **Grid and rate regulation:** Texas SB 6 requires datacenters to accept curtailment during firm load shed events. Federal moratorium bill (Sanders-AOC) proposed March 2026.
 
 ### Community Organizing and Ballot Initiatives
 
-Grassroots campaigns include town hall meetings (some requiring larger venues due to turnout), petition drives (Boulder City: 2,600+ signatures; Maryland mall-to-datacenter conversion: 20,000+ signatures), and ballot initiatives. Public polling shows datacenters are unpopular: 44% of North Carolina survey respondents opposed them; only 44% of national poll supported having a datacenter nearby (less popular than gas plants, nuclear, or wind farms).
+Grassroots campaigns include town hall meetings (some requiring larger venues due to turnout), petition drives (Boulder City: 2,600+ signatures; Maryland mall-to-datacenter conversion: 20,000+ signatures), and ballot initiatives. Public polling shows datacenters are unpopular: 44% of North Carolina survey respondents opposed them; only 44% of national poll supported having a datacenter nearby (less popular than gas plants, nuclear, or wind farms). A June 2026 Reuters/Ipsos poll found just a third of Americans approve of the current pace of construction, and only 14% would support a datacenter in their own community.
+
+**National Day of Action (July 18, 2026):** HumansFirst coordinated the first nationally synchronized anti-datacenter protest — 142 events across 42 states (up from an initially planned 125). Texas led with 18 protests, Georgia had 11, and California, Florida, Pennsylvania, and Indiana had 7–8 each. Turnout varied widely, from a few dozen (Imperial County, CA, despite 100°F+ heat) to about a dozen in smaller Texas and Georgia towns; organizers described the demands as transparency in development, resource/environmental protection, community benefits (union jobs), and developer accountability.
 
 ### Litigation and Administrative Challenges
 
@@ -194,6 +202,17 @@ Major lawsuits include:
 ## Organizing Groups
 
 ### National and Multi-State
+
+**HumansFirst**
+- **Mission:** Cross-partisan national protest network opposing the AI-datacenter buildout; describes itself as a "conservative social movement" focused on transparency, resource protection, and developer accountability, though numerous state and local organizers listed on its own site have Green Party or Democratic-aligned backgrounds
+- **Tactics:** Coordinated national protest days; local chapter/organizer recruitment; press relations via Right Turn Strategies
+- **Key Campaigns:** First-ever coordinated national day of action, July 18, 2026 — 142 protests across 42 states
+- **Leadership:** Chaired by Amy Kremer, a former national Tea Party leader (2009) and 2022 Georgia congressional candidate; staffer Cathy Latham (a defendant in Georgia's 2020 election-interference case) organized a Waco, TX protest
+- **Funding note:** Incorporation records reviewed by Fox News Digital and NBC News list staffers of the Center for AI Safety — a San Francisco AI-safety nonprofit — as HumansFirst's initial employees, with the Center for AI Safety also providing HumansFirst's start-up loan; an origin at odds with its public self-description as a grassroots conservative movement. Kremer disputes any suggestion the group is compromised, saying "I'm not for sale."
+- **Network:** Several July 18 local organizers had left-of-center affiliations — an Illinois Green Party chapter and transgender Green Party congressional candidate near Chicago, a Democratic state house candidate in Michigan (later delisted from HumansFirst's site), and a Party for Socialism and Liberation speaker at a Virginia-area event — which organizers on both sides describe as evidence the issue is genuinely cross-partisan rather than centrally coordinated
+- **Status:** Active; predicted by Kremer to be a defining issue in the November 2026 midterms and 2028 presidential race
+
+**Tracking/monitoring organizations:** In addition to Data Center Watch (a project of AI intelligence firm 10a Labs, publisher of the quarterly project-blocking tallies cited throughout this entry), the Coalition for Responsible Data Center Development, Evitable, and Together Against AI jointly publish a Facebook-based census of local opposition groups (430 groups, 525,000+ members as of June 2026). In Virginia, 42 local groups coordinate through the Data Center Reform Coalition.
 
 **Food & Water Watch**
 - **Mission:** Grassroots advocacy for water and food system protection; first national organization to call for federal datacenter moratorium (October 2025)
@@ -319,8 +338,15 @@ BPI concludes the three streams converge on the Sanders-AOC AI Data Center Morat
 - Local opposition in Utah, Iowa, Ohio, Virginia, Georgia, and elsewhere demonstrably predates and extends beyond any coordinated social media campaign. Community concerns about water, grid reliability, and governance are grounded in documentable local impacts.
 - The foreign-influence narrative has been criticized as an attempt by datacenter developers to delegitimize opposition rather than address substantive concerns. See: Elevate Strategies' response that "the only foreign actor here is the Canadian billionaire pretending he cares about Utah more than the people who live here."
 
+**Further developments (May–July 2026):** Power the Future, a pro-energy advocacy group led by Daniel Turner, sent a letter to House Oversight Chairman James Comer and Sen. Rand Paul (May 2, 2026) requesting a formal investigation into what it called a "coordinated, billionaire-funded, and potentially foreign-backed" campaign against datacenter construction. The letter names Sierra Club, Food & Water Watch, Earthjustice, Good Jobs First, Piedmont Environmental Council, SELC, MediaJustice, and the Athena Coalition as recipients of funding routed through the New Venture Fund, Sierra Club Foundation, and Sixteen Thirty Fund (over $13M collectively per grant reporting reviewed by Fox News Digital); the letter does not establish that this funding was earmarked specifically for datacenter opposition, and Power the Future's own count puts local opposition at 188 groups across 24 states — a smaller figure than Data Center Watch's or the Coalition/Evitable/Together Against AI tallies cited above. Separately, the Bitcoin Policy Institute published a follow-up report ("Foreign Influence in the Campaign against American AI, Part II: The Singham Ground Game," June 30, 2026) alleging the Party for Socialism and Liberation (PSL) — tied to the Singham network described above — has organized anti-datacenter campaigns in at least 14 states. In Frederick County, Virginia, a PSL-affiliated organizer (Jack Tensley) testified against two proposed projects (a 220-acre site in Clearbrook and a 71.8-acre Winchester-area site); the county's Board of Supervisors subsequently denied both (10–0 and 7–1). Coverage of the PSL/Singham angle (Washington Times, Breitbart, Fox News) has not established that the Board's votes were themselves foreign-influenced, and the denials followed conventional local zoning-review testimony on cost, energy use, and liability alongside the PSL organizer's participation.
+
 **Source materials:**
 - [Foreign Influence in the Campaign against American AI - Bitcoin Policy Institute (May 18, 2026)](https://www.btcpolicy.org/articles/foreign-influence-in-the-campaign-against-american-ai)
+- [Foreign Influence in the Campaign against American AI, Part II: The Singham Ground Game - Bitcoin Policy Institute (Jun 30, 2026)](https://www.btcpolicy.org/articles/foreign-influence-campaign-against-american-ai-part-ii-singham-ground-game)
+- [Report: Marxist tycoon is funding a China-backed influence campaign against AI data centers - Washington Times (Jun 30, 2026)](https://www.washingtontimes.com/news/2026/jun/30/neville-roy-singham-funding-china-backed-influence-campaign-ai-data/)
+- [Marxist organizer leads campaign against Virginia AI data center as foreign influence concerns mount - Fox News (Jul 21, 2026)](https://www.foxnews.com/politics/marxist-organizer-leads-fight-against-virginia-ai-data-center-foreign-influence-concerns-mount)
+- [Top energy group warns wealthy foreigners are potentially bankrolling anti-data center campaigns across US - Fox News (May 2-3, 2026)](https://www.foxnews.com/politics/top-energy-group-warns-wealthy-foreigners-potentially-bankrolling-anti-data-center-campaigns-across-us)
+- [The hidden left-wing network powering a 'conservative' rebellion against a major Trump priority - Fox News (Jul 23, 2026)](https://www.foxnews.com/politics/hidden-left-wing-network-powering-conservative-rebellion-against-major-trump-priority)
 - [Kevin O'Leary says China is funding a 'PR war' against data centers - Moneywise/Yahoo Finance](https://finance.yahoo.com/economy/policy/articles/irrefutable-fact-kevin-oleary-says-185500320.html)
 - [Kevin O'Leary claims Utah organization is Chinese-funded - ABC4 Utah](https://www.abc4.com/news/northern-utah/alliance-better-utah-data-centers/)
 - [Kevin O'Leary promises proof after accusing Utah critics of China ties - Fox 13 Utah](https://www.fox13now.com/news/local-news/box-elder-county/oleary-promises-proof-after-accusing-utah-data-center-critics-of-china-ties)
@@ -338,13 +364,13 @@ Detailed state research is available in the `state-breakdown/` folder:
 - **Texas (`texas.md`):** ERCOT grid reliability concerns; water scarcity conflicts; SB 6 legislative response
 - **Georgia (`georgia.md`):** Project Sail (Coweta County, 900 MW, $17B Prologis campus); lobbyist access scandal; Citizens for Rural Coweta coalition; May 2026 litigation; Ashley Park–Wansley transmission line eminent domain
 - **Utah (`utah.md`):** Stratos Project (Kevin O'Leary, 40,000 acres → 10,000 acres after 75% reduction); MIDA governance lawsuit; O'Leary's claims of CCP-linked foreign funding of opposition; Bitcoin Policy Institute foreign-influence report
-- **Additional states** (planned): Maine (first moratorium), North Carolina (multi-county opposition), Colorado, other key states
+- **Additional states** (planned): Maine (moratorium passed by legislature, vetoed by Gov. Mills Apr 2026), New York (first enacted statewide moratorium, Jul 2026), North Carolina (multi-county opposition), Colorado, other key states
 
 ---
 
 ## Key Takeaways
 
-1. **Opposition is accelerating and succeeding:** 25+ projects blocked in 2025 alone (vs. 2 in 2023, 6 in 2024). Maine moratorium is first state-level datacenter ban in U.S. history.
+1. **Opposition is accelerating and succeeding:** Baird research counted 25 project cancellations in 2025 (vs. 6 in 2024, 2 in 2023); Data Center Watch found 75+ projects worth ~$130B blocked or delayed in Q1 2026 alone — matching all of 2025 in a single quarter. New York's July 14, 2026 executive order is the first enacted statewide datacenter moratorium in U.S. history; Maine's competing legislative moratorium was vetoed.
 
 2. **Water consumption is the top concern:** Cited in 40%+ of contested projects. Public polling shows datacenters are less popular than gas plants, nuclear, or wind farms.
 
@@ -352,13 +378,15 @@ Detailed state research is available in the `state-breakdown/` folder:
 
 4. **Coalition-building is key:** National organizations (Sierra Club, NRDC, Food & Water Watch) are coordinating with local groups. 230+ organizations signed national moratorium letter (Dec 2025).
 
-5. **Political momentum is bipartisan:** Maine (Democratic), New York (Democratic) passing/proposing moratoriums. Rural Republican areas also opposing (Iowa, rural Texas, rural North Carolina, rural Colorado). Midterm issue in 2026.
+5. **Political momentum is bipartisan:** New York (Democratic) enacted the first statewide moratorium; Maine's Democratic governor vetoed a competing one over a local project carve-out dispute, not on partisan grounds. Rural Republican areas also opposing (Iowa, rural Texas, rural North Carolina, rural Colorado). HumansFirst's national protests drew from both conservative and progressive local organizers. Midterm issue in 2026.
 
 6. **Transparency is a major demand:** Wisconsin lawsuits over energy demand disclosure; utility rate dispute litigation; investor shareholder campaigns for power/water data.
 
 7. **Funding networks are opaque:** Many local opposition groups are all-volunteer or grassroots. No clear evidence of incumbent utility funding, but funding sources are poorly disclosed.
 
 8. **Infrastructure overspill is an underreported harm.** Eminent domain and property displacement for datacenter-serving transmission lines affects landowners with no standing in original approval decisions. Maryland, Virginia, Pennsylvania, and Georgia all have active cases. This is a structural regulatory gap not addressed by local zoning reform alone.
+
+9. **A new national protest network has emerged, with a contested origin story.** HumansFirst organized the first coordinated nationwide day of action (142 protests, 42 states, July 18, 2026) and is chaired by former Tea Party leader Amy Kremer, but its incorporation records trace its start-up funding and initial staff to the Center for AI Safety, and several of its local organizers have left-of-center backgrounds — underscoring that the opposition coalition spans, and is claimed by, both ends of the political spectrum simultaneously.
 
 ---
 
@@ -396,3 +424,16 @@ Detailed state research is available in the `state-breakdown/` folder:
 - [Maryland farmers fight to protect their land from 'extension cord' for data centers - NBC News](https://www.nbcnews.com/news/us-news/maryland-farmers-data-centers-extension-cord-power-lines-rcna233324)
 - [Energy company wants eminent domain for power lines in SW Pa. for data centers in Virginia - WESA](https://www.wesa.fm/environment-environment/2026-04-16/nextera-midatlantic-resiliency-link-eminent-domain-pennsylvania)
 - [Will AI Data Centers Cause an Eminent Domain Explosion? - Townhall](https://townhall.com/tipsheet/jeff-charles/2026/03/11/ai-data-centers-eminent-domain-push-n2672625)
+- [Data center opponents have blocked or delayed projects worth nearly $130 billion in 2026, study finds - NBC News (Jun 12, 2026)](https://www.nbcnews.com/tech/tech-news/data-center-opposition-sharply-rising-2026-study-finds-rcna349728)
+- [Map Shows Huge Surge In Data Center Opposition Groups Across 40 States - Newsweek](https://www.newsweek.com/map-shows-huge-surge-in-data-center-opposition-groups-across-40-states-12176693)
+- [What's stalling data center projects? Public opposition and power access lead delays. - Construction Dive (Apr 22, 2026)](https://www.constructiondive.com/news/data-center-project-cancellations-power-public-pushback/818157/)
+- [US Data Center Protests Go National as Backlash Grows - Reuters/GV Wire (Jul 18, 2026)](https://gvwire.com/2026/07/18/us-data-center-protests-go-national-as-backlash-grows/)
+- [Data Center Opponents Stage 142 Protests Across 42 States - Reuters/Daily Signal (Jul 19, 2026)](https://www.dailysignal.com/2026/07/19/data-center-protest-nationwide/)
+- [The hidden left-wing network powering a 'conservative' rebellion against a major Trump priority - Fox News (Jul 23, 2026)](https://www.foxnews.com/politics/hidden-left-wing-network-powering-conservative-rebellion-against-major-trump-priority)
+- [Odd origins: 'Humans First' AI campaign - Washington Examiner (May 2026)](https://www.washingtonexaminer.com/news/washington-secrets/4572316/odd-origins-humans-first-ai-campaign/)
+- [Governor Mills Announces Decision on LD 307 - Office of Governor Janet T. Mills (Apr 24, 2026)](https://www.maine.gov/governor/mills/news/governor-mills-announces-decision-ld-307-2026-04-24)
+- [Maine Gov. Janet Mills vetoes ban on data center construction - NBC News](https://www.nbcnews.com/politics/politics-news/maine-gov-janet-mills-says-no-ban-data-center-construction-rcna341341)
+- [First Statewide Moratorium on New Hyperscale Data Centers Launched by Governor Kathy Hochul - Office of Governor Kathy Hochul (Jul 14, 2026)](https://www.governor.ny.gov/news/first-statewide-moratorium-new-hyperscale-data-centers-launched-governor-kathy-hochul)
+- [BrightRidge pauses any new data center projects - WJHL (2026)](https://www.wjhl.com/news/local/brightridge-pauses-any-new-data-center-projects/)
+- [Report: Marxist tycoon is funding a China-backed influence campaign against AI data centers - Washington Times (Jun 30, 2026)](https://www.washingtontimes.com/news/2026/jun/30/neville-roy-singham-funding-china-backed-influence-campaign-ai-data/)
+- [Top energy group warns wealthy foreigners are potentially bankrolling anti-data center campaigns across US - Fox News (May 2-3, 2026)](https://www.foxnews.com/politics/top-energy-group-warns-wealthy-foreigners-potentially-bankrolling-anti-data-center-campaigns-across-us)

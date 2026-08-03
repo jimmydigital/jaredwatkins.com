@@ -1,0 +1,38 @@
+{{- /*
+  fredgraph — embeds a St. Louis Fed (FRED) chart as a static PNG.
+
+  FRED's fredgraph.png endpoint renders any comma-separated list of series IDs
+  on demand, so no saved graph ID is needed. The start date (cosd) is computed
+  at build time, which keeps the window rolling rather than frozen — rebuild
+  the site and the chart re-centers on the current date.
+
+  LIMITATION: FRED will not serve fredgraph.png for series whose underlying
+  data is third-party copyrighted -- notably the IMF Primary Commodity Prices
+  release (PALUMUSDM, PCOPPUSDM, PNICKUSDM, etc). Those requests fail silently
+  and the image never loads. Public-domain sources (Fed, BLS, EIA, Treasury)
+  work fine. For commodity spot prices, use a TradingView widget instead.
+
+  Params:
+    id     (required) comma-separated FRED series IDs, e.g. "DGS2,DGS10"
+    months (optional) lookback window in months, default 12
+    title  (optional) alt text / caption
+    width  (optional) pixel width passed to FRED, default 880
+    height (optional) pixel height passed to FRED, default 440
+
+  Usage:
+    {{< fredgraph id="DGS3MO,DGS2,DGS10,DGS30" months="12" title="Treasury yields" >}}
+*/ -}}
+{{- $id := .Get "id" -}}
+{{- if not $id -}}
+  {{- errorf "fredgraph shortcode called without an 'id' param in %s" .Position -}}
+{{- end -}}
+{{- $months := int (default 12 (.Get "months")) -}}
+{{- $width := default "880" (.Get "width") -}}
+{{- $height := default "440" (.Get "height") -}}
+{{- $title := default (printf "FRED chart: %s" $id) (.Get "title") -}}
+{{- $cosd := (now.AddDate 0 (int (mul -1 $months)) 0).Format "2006-01-02" -}}
+{{- $png := printf "https://fred.stlouisfed.org/graph/fredgraph.png?id=%s&cosd=%s&width=%s&height=%s" $id $cosd $width $height -}}
+{{- $interactive := printf "https://fred.stlouisfed.org/graph/?id=%s&cosd=%s" $id $cosd -}}
+<a href="{{ $interactive }}" title="Open interactive chart on FRED">
+  <img src="{{ $png }}" alt="{{ $title }}" loading="lazy" style="width:100%; height:auto; display:block;">
+</a>

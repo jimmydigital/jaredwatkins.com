@@ -3,10 +3,6 @@ title: R2Beer2
 date: 2026-05-25
 draft: false
 description: ""
-categories:
-  - ""
-tags:
-  - ""
 images: []
 ---
 I joined AWS in late 2012 on a team that owned several low-level infrastructure services. In all my time there it was the most difficult team I'd been on, pager PTSD, brutal ops load, and a bunch of mission critical, but unrelated, services to learn. But that kind of crucible forges good friendships, and those have lasted long past my turn on that team. At the time, AWS held a monthly beer bust in the big conference room at the top of the Blackfoot building in downtown Seattle. Each month would be hosted by a different service team and would have a different theme chosen by that team.

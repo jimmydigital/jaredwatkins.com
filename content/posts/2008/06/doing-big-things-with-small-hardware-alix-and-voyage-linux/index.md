@@ -1,16 +1,6 @@
 ---
 title: Doing big things with small hardware, Alix and Voyage Linux
 date: 2008-06-09
-tags:
-  - asterisk
-  - computing
-  - embedded
-  - linux
-  - networking
-  - projects
-  - router
-  - tech
-  - voip
 ---
 
 I’ve been interested in small embedded hardware systems for a while. Until recently I was using [OpenWRT][1] on a reflashed [Linksys][2] box for my router. That worked.. but had limitations and since it isn’t an intel based system that means you have to cross compile anything you can’t find a package for. So recently I’ve been playing around with the new [Alix boards from PC Engines][3].

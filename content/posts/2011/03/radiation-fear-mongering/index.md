@@ -1,13 +1,6 @@
 ---
 title: Radiation Fear Mongering
 date: 2011-03-20
-tags:
-  - energy
-  - media
-  - nuclear
-  - radiation
-  - science
-  - skepticism
 ---
 
 [![](inline_radiation.png)](radiation.png)

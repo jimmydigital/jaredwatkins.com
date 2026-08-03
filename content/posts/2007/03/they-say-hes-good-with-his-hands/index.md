@@ -1,10 +1,6 @@
 ---
 title: They say he's good with his hands
 date: 2007-03-26
-tags:
-  - furniture
-  - projects
-  - woodworking
 ---
 
 [![table](inline_floatingtable3-scaled.jpg "Floating table")](floatingtable3-scaled.jpg)

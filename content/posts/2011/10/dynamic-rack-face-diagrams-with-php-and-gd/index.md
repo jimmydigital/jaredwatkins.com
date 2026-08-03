@@ -1,13 +1,6 @@
 ---
 title: Dynamic Rack Face Diagrams With PHP and GD
 date: 2011-10-06
-tags:
-  - coding
-  - computing
-  - datacenter
-  - infrastructure
-  - php
-  - tech
 ---
 
 ![](inline_example24uRack.png#floatleft)

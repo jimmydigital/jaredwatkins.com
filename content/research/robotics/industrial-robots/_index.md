@@ -1,11 +1,11 @@
 ---
 title: "Industrial Robots & Cobots"
 date: 2026-06-19
-lastmod: 2026-06-19
+lastmod: 2026-07-26
 draft: false
 description: "Traditional industrial robot arms and collaborative robots (cobots) — the established automation layer that humanoids claim to eventually displace or complement."
 research_area: "robotics/industrial-robots"
-last_reviewed: 2026-06-19
+last_reviewed: 2026-07-26
 stale_after_days: 180
 sitemap:
   changefreq: "monthly"
@@ -26,6 +26,7 @@ Traditional robot arms achieve ±0.02mm repeatability at 2,000+ cycles/hour — 
 ## Entries
 
 - [Universal Robots]({{< relref "universal-robots.md" >}}) — market-leading cobot; 100K+ deployed; UR5e best-selling model
+- [AMP Robotics]({{< relref "amp-robotics.md" >}}) — AI vision (Neuron) + robotic arm sortation (Cortex/Delta) for recycling MRFs; 400+ systems deployed; $91M Series D (Dec 2024)
 
 ## Incumbents Table
 
