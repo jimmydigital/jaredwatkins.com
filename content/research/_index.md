@@ -1,9 +1,9 @@
 ---
 title: Research
 date: 2026-03-23
-lastmod: 2026-08-03
+lastmod: 2026-08-04
 draft: false
-last_reviewed: 2026-08-03
+last_reviewed: 2026-08-04
 description: AI-maintained knowledge base on emerging technology topics.
 sitemap:
   changefreq: "monthly"
@@ -665,6 +665,20 @@ When a company operates at multiple layers (e.g., DJI makes its own motors AND s
 
 ---
 
+### Topic-Area Steering: Compute Marketplaces (`research/compute-marketplaces/`)
+
+**Scope:** Technology enabling on-demand, ad-hoc matching of inference-compute buyers and sellers across otherwise-unaffiliated providers — discovery/service-location mechanisms, latency- and price-based routing, matchmaking/auction designs, and machine-to-machine payment/settlement layers. In scope: production and pre-production routing/marketplace software (OpenRouter's posted-price provider routing, Akash's on-chain reverse auction), decentralized peer-discovery protocol stacks (libp2p/Kademlia DHT swarms as used by Petals/Hivemind and derivative projects), emerging standards efforts (IETF individual-draft AI discovery proposals), and payment rails purpose-built for per-request machine payments (x402 and similar HTTP-402-based protocols). Prior-art comparables from other real-time, latency-sensitive matchmaking domains — multiplayer game server browsers and relay networks — are documented here as design references, not as compute-marketplace products. Out of scope: the physical siting/power story for distributed compute (see `datacenters/distributed-compute` — that section covers where the hardware lives and how it draws power; this section covers how a buyer finds it and pays for it); general-purpose cloud API gateways with no cross-provider marketplace or discovery angle; blockchain/token speculation unrelated to the coordination mechanism itself.
+
+**Editorial framing:** This is a nascent, largely unstandardized layer as of mid-2026. Two production-scale coordination models exist today — posted-price aggregation (OpenRouter) and on-chain reverse auction (Akash) — but neither does true latency-aware physical-proximity routing the way CDNs or game relay networks do; that gap is the most interesting open design space in this section. Treat "latency-based routing" and "geographic routing" claims as aspirational/roadmap items for inference marketplaces unless a specific shipped mechanism is documented (OpenRouter's own geographic routing is listed as planned, not shipped, as of this review). IETF drafts referenced in this section are individual submissions with no working-group standing — do not describe them as pending or adopted standards.
+
+**Claim verification flags specific to this subsection:** Distinguish a protocol that is production/shipped (OpenRouter's provider routing, Akash's bid/lease mechanism, x402's facilitator flow) from one that is a research prototype or pre-1.0 project (Petals, Hivemind, and most libp2p-based swarm projects) — note real user/node counts where available and flag marketing or aspirational figures explicitly. For any "N× cheaper/faster" comparison, confirm the baseline is named and dated before repeating it.
+
+**Cross-references:** `datacenters/distributed-compute` (Akash, Span, the DisCo residential-inference cost model) is the physical/siting counterpart to this section's coordination-layer focus — flag shared themes (e.g., Akash appears in both as marketplace-coordination software and as a distributed-compute company) without duplicating full entries; link back to the existing entry instead of recreating it.
+
+**Review cadence:** 90 days — fast-moving, standards-in-flux space with no dominant shipped design as of mid-2026.
+
+---
+
 ### What NOT to Include
 
 - Opinion or advocacy ("X is the future of energy")
@@ -703,6 +717,7 @@ A living, AI-maintained knowledge base on emerging technology topics. Each area 
 
 - [AI Accelerators]({{< relref "ai-accelerators/_index.md" >}}) — GPU and AI accelerator hardware: AMD Instinct, rack-scale systems, interconnect ecosystems
 - [Atmospheric Water Generation]({{< relref "atmospheric-water-generation/_index.md" >}}) — Sorbent-based (MOF) and condensation-based technologies for extracting fresh water from air humidity, and the startups commercializing them
+- [Compute Marketplaces]({{< relref "compute-marketplaces/_index.md" >}}) — Discovery, latency-aware routing, matchmaking, and machine-payment protocols for on-demand, ad-hoc inference-compute markets; includes prior art from multiplayer game server matchmaking
 - [Datacenters]({{< relref "datacenters/_index.md" >}}) — Physical datacenter infrastructure: cooling, power, construction, rugged edge compute
 - [Drone Detection]({{< relref "drone-detection/_index.md" >}}) — C-UAS detection methods, hardware, open-source tools, and counter-drone platforms for critical infrastructure protection
 - [Energy]({{< relref "energy/_index.md" >}}) — Solar, batteries, nuclear, energy resources, and grid market structure/policy

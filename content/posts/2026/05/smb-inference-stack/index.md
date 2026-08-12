@@ -1,7 +1,7 @@
 ---
 title: Building an SMB inference stack
 date: 2026-05-23
-lastmod: 2026-06-20
+lastmod: 2026-08-12
 draft: false
 description: Hardware tiers, inference engines, query routing, and the economics of running local AI inference for a small business or VAR practice.
 ---
@@ -40,7 +40,7 @@ The Mac Studio M3 Ultra starts at $3,999 with 96GB. Silent, efficient, zero driv
 
 The CUDA ecosystem advantage is real. vLLM, TensorRT-LLM, SGLang all have first-class NVIDIA support. You get speculative decoding, PagedAttention, FlashAttention. The software story is significantly more mature than Apple or AMD.
 
-**AMD Instinct MI300X:** The MI300X is genuinely interesting at this tier. [192GB of HBM3 at roughly 5.3 TB/s memory bandwidth](https://www.amd.com/en/products/accelerators/instinct/mi300.html) in a single GPU. That's more memory bandwidth than four H100s and enough capacity to run a 70B model at full precision or a 405B model quantized, without sharding. Enterprise pricing runs $10,000 to $15,000 per card. The catch is ROCm. AMD's software stack has improved meaningfully but it still requires more configuration work than CUDA, and some frameworks have incomplete support. If you're building on vLLM or Ollama with a model that has well-tested ROCm support (Llama, Qwen, Mistral), you're mostly fine. If you're doing something exotic, budget time for it.
+**AMD Instinct MI300X:** The MI300X is interesting at this tier. [192GB of HBM3 at roughly 5.3 TB/s memory bandwidth](https://www.amd.com/en/products/accelerators/instinct/mi300.html) in a single GPU. That's more memory bandwidth than four H100s and enough capacity to run a 70B model at full precision or a 405B model quantized, without sharding. Enterprise pricing runs $10,000 to $15,000 per card. The catch is ROCm. AMD's software stack has improved meaningfully but it still requires more configuration work than CUDA, and some frameworks have incomplete support. If you're building on vLLM or Ollama with a model that has well-tested ROCm support (Llama, Qwen, Mistral), you're mostly fine. If you're doing something exotic, budget time for it.
 
 **Tier 1 comparison:**
 
@@ -117,7 +117,7 @@ Everything above assumes a single machine with one or more GPUs in it. That's th
 
 ### Mac clustering: exo and RDMA over Thunderbolt
 
-The Apple path is genuinely interesting, partly because it wasn't really viable until late 2025.
+The Apple path is interesting, partly because it wasn't really viable until late 2025.
 
 The software that makes it work is [exo](https://github.com/exo-explore/exo), an open-source clustering tool from Exo Labs. Exo handles automatic device discovery (no manual configuration), distributes model weights across nodes using tensor parallelism (not pipeline parallelism, which matters a lot, as I'll explain below), and exposes a single OpenAI-compatible API endpoint across the whole cluster. It uses MLX as its inference backend, which means it's Mac-only today. Linux support via GPU is still in development.
 
@@ -135,7 +135,7 @@ Jeff Geerling benchmarked a [4-node cluster of M3 Ultra Mac Studios](https://www
 | DeepSeek V3.1 (8-bit) | 671B MoE | 37B active | ~15 tok/s |
 | Kimi K2 Thinking (native 4-bit) | ~1T MoE | 32B active | ~30 tok/s |
 
-Those throughput numbers are interesting for what they demonstrate about the architecture, but the memory configuration isn't something you can actually buy. Four standard M3 Ultra Mac Studios at 96GB each gives you 384GB total — enough to run Qwen3-235B at Q4 comfortably, but you're not fitting DeepSeek V3.1 671B at 8-bit without very heavy quantization, and Kimi K2 Thinking at native weights is out entirely. More practically: four M3 Ultras at $3,999 each is $16K in hardware before storage and networking cables, and you're running a cluster you can only expand to four nodes. The practical point is that exo with RDMA over Thunderbolt 5 scales up as you add nodes rather than staying flat or degrading — that's the test of a real distributed inference implementation and it passes it — but the memory ceiling of what you can actually purchase matters more than the benchmark hardware.
+Those throughput numbers are interesting for what they demonstrate about the architecture, but the memory configuration isn't something you can actually buy. Four standard M3 Ultra Mac Studios at 96GB each gives you 384GB total: enough to run Qwen3-235B at Q4 comfortably, but you're not fitting DeepSeek V3.1 671B at 8-bit without very heavy quantization, and Kimi K2 Thinking at native weights is out entirely. More practically: four M3 Ultras at $3,999 each is $16K in hardware before storage and networking cables, and you're running a cluster you can only expand to four nodes. The practical point: exo with RDMA over Thunderbolt 5 scales up as you add nodes, rather than staying flat or degrading. That's the real test for a distributed inference implementation, and it passes. But the memory ceiling of what you can actually purchase matters more than the benchmark hardware.
 
 The alternative for Mac clustering without RDMA is llama.cpp's RPC backend, which spreads model layers across nodes using pipeline parallelism. It works for fitting models that won't fit on one machine, but throughput degrades as you add nodes because each layer's output has to be transferred before the next node can start work. Exo's tensor-parallel approach does more communication per step but computes in parallel rather than sequentially, which is why you see a speedup with more nodes instead of a slowdown.
 
@@ -241,7 +241,7 @@ A few things worth flagging. Put Whisper on a separate GPU from your main LLM in
 
 For RAG workloads, the model size matters less than people expect. A 7B or 8B model with well-structured context and good retrieval usually beats a 70B model with poor retrieval. Invest in the retrieval pipeline before upgrading the model.
 
-7B models are genuinely good enough for a surprising range of business tasks: document classification, entity extraction, sentiment analysis, first-pass summarization, simple Q&A. Don't run a 70B model for jobs where a 7B does the work. The throughput difference is enormous. You'll serve 5 to 10x more concurrent requests at the same latency.
+7B models are good enough for a surprising range of business tasks: document classification, entity extraction, sentiment analysis, first-pass summarization, simple Q&A. Don't run a 70B model for jobs where a 7B does the work. The throughput difference is enormous. You'll serve 5 to 10x more concurrent requests at the same latency.
 
 ## Latency and where you host it
 
@@ -289,4 +289,4 @@ The medium configuration is the most interesting to me from a business standpoin
 
 The hard part isn't the hardware or the model selection. It's the operational layer: monitoring inference server health, managing model updates without dropping requests, building enough around LiteLLM to actually send invoices. Those are real engineering problems that take real time. If you're a solo operator, budget for that before assuming the hardware cost is the whole story.
 
-But the unit economics work, and they're getting better. Open-source models in 2026 are genuinely competitive with frontier APIs for most business tasks. The gap has closed enough that "we just use OpenAI" is increasingly a choice about operational simplicity rather than quality. That's worth knowing, even if you decide the tradeoff isn't worth it for your situation.
+But the unit economics work, and they're getting better. Open-source models in 2026 are competitive with frontier APIs for most business tasks. The gap has closed enough that "we just use OpenAI" is increasingly a choice about operational simplicity rather than quality. That's worth knowing, even if you decide the tradeoff isn't worth it for your situation.

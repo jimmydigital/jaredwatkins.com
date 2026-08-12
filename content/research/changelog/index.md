@@ -1,11 +1,11 @@
 ---
 title: "Research Section Changelog"
 date: 2026-04-04
-lastmod: 2026-08-03
+lastmod: 2026-08-04
 draft: false
 description: "Timestamped log of additions and modifications to the Research knowledge base."
 research_area: "research"
-last_reviewed: 2026-08-03
+last_reviewed: 2026-08-04
 stale_after_days: 90
 outputs:
   - HTML
@@ -18,6 +18,7 @@ sitemap:
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
 
+- **2026-08-04:** Created [Compute Marketplaces]({{< relref "compute-marketplaces/_index.md" >}}) topic area + 5 entries: [OpenRouter]({{< relref "compute-marketplaces/openrouter.md" >}}) (posted-price LLM routing gateway, $1.3B valuation), [Latency-Based Matchmaking in Multiplayer Gaming]({{< relref "compute-marketplaces/latency-based-matchmaking-in-multiplayer-gaming.md" >}}) (QuakeWorld/Valve SDR prior art), [P2P Discovery: libp2p/Kademlia DHT]({{< relref "compute-marketplaces/p2p-discovery-protocols-libp2p-kademlia.md" >}}) (Petals/Hivemind/KwaaiNet, vs. Akash's CometBFT), [IETF AI Service Discovery Drafts]({{< relref "compute-marketplaces/ietf-ai-service-discovery-drafts.md" >}}) (fragmented, unadopted), [x402: Machine-to-Machine Payments]({{< relref "compute-marketplaces/x402-machine-payments.md" >}}) (Coinbase, 100M+ on-chain tx, Agent.market).
 - **2026-08-03:** Created [HALE/HAPS]({{< relref "hale-haps/_index.md" >}}) topic area (3 subsections: [Fixed-Wing]({{< relref "hale-haps/fixed-wing/_index.md" >}}), [Airships]({{< relref "hale-haps/airships/_index.md" >}}), [Balloons]({{< relref "hale-haps/balloons/_index.md" >}})) + 9 entries: [AALTO HAPS]({{< relref "hale-haps/fixed-wing/aalto-haps.md" >}}) (Airbus/Zephyr, 67-day flight record), [Prismatic Ltd]({{< relref "hale-haps/fixed-wing/prismatic.md" >}}) (BAE/PHASA-35), [Mira Aerospace]({{< relref "hale-haps/fixed-wing/mira-aerospace.md" >}}) (Space42/ApusNeo18), [Kea Aerospace]({{< relref "hale-haps/fixed-wing/kea-aerospace.md" >}}) (NZ, first Southern Hemisphere solar stratospheric flight), [Swift Engineering]({{< relref "hale-haps/fixed-wing/swift-engineering.md" >}}) (SULE, 67,000ft), [NewSpace Research & Technologies]({{< relref "hale-haps/fixed-wing/newspace-research-technologies.md" >}}) (India, Navy HAPS), [Stratospheric Platforms/World Mobile Stratospheric]({{< relref "hale-haps/fixed-wing/stratospheric-platforms.md" >}}) (hydrogen, direct-to-handset 5G), [Thales Alenia Space Stratobus]({{< relref "hale-haps/airships/thales-alenia-space-stratobus.md" >}}) (140m airship, no flight date yet), [Near Space Labs]({{< relref "hale-haps/balloons/near-space-labs.md" >}}) (Swift balloon imaging, $20M Series B); cross-linked existing Sceye/World View/Aerostar/Urban Sky/TCOM/Hemeria/Kalam Labs entries from Drone Detection.
 - **2026-07-28:** Created [Vertiv™ PowerDirect]({{< relref "datacenters/power-infrastructure/vertiv-powerdirect.md" >}}) — 800 VDC PowerDirect 5000 sidecar (400–900 kW, rack-adjacent, brownfield bridge) and PowerDirect Rack 33kW in-rack shelf; H2 2026 commercialization ahead of NVIDIA Rubin Ultra.
 - **2026-07-26:** Updated [Datacenter Opposition]({{< relref "datacenter-opposition/_index.md" >}}) — corrected Maine moratorium claim (LD 307 vetoed by Gov. Mills, Apr 24, 2026, not enacted) and added NY's Executive Order No. 62 (Jul 14, 2026) as the actual first enacted statewide moratorium; added HumansFirst national protest network profile incl. Center for AI Safety funding-origin controversy; added Jul 18 national day of action (142 protests/42 states); added 6 tracker entries (Frederick County VA x2, San Marcos TX, New Brunswick NJ, Johnson City TN/BrightRidge, NY statewide freeze); updated Bitcoin Policy Institute/Power the Future foreign-influence coverage.
