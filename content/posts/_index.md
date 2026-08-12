@@ -1,7 +1,7 @@
 ---
 title: Posts
 date: 2026-04-04
-lastmod: 2026-07-03
+lastmod: 2026-08-12
 draft: false
 description: Personal writing on technology, aviation, projects, and whatever else is worth saying.
 sitemap:
@@ -36,6 +36,19 @@ The Posts section is Jared's personal blog, active since 2005. It covers technic
 - Blunt verdicts, understated stakes. Willing to say something is wrong or overhyped outright, but nothing is "critical" or "the part that keeps me up at night" unless it actually is. State the facts and let them raise the stakes.
 - Evoke, don't announce. State the concrete fact and let the reader feel the idea. Never explain the theme, never explain the joke. If the reader can't infer it, rewrite the passage rather than adding a sentence.
 - Concrete over abstract. Dollar figures, part numbers, named companies and tools. One good physical or economic metaphor beats a paragraph of explanation.
+
+---
+
+### Core Principles (Zinsser)
+
+Every sentence gets tested against Zinsser's four pillars, in this priority order when they conflict:
+
+1. **Simplicity.** Strip each sentence to its cleanest form. Cut clutter: throat-clearing, hedge words, jargon that doesn't earn its place. Plain word over fancy word, always.
+2. **Brevity.** Say it in as few words as it takes. Short is the default, not a concession. Cut freely -- nothing here is precious.
+3. **Clarity.** The reader should never have to reread a sentence to get it. If it has to be parsed instead of read, rewrite it. Precision beats cleverness.
+4. **Humanity.** Write like a specific person, not an institution. Simplicity and brevity should never flatten the voice into something bloodless -- warmth and personality are not clutter.
+
+When a call is ambiguous, resolve toward simplicity and clarity first, brevity second, and never let the cutting take the humanity out of the sentence.
 
 ---
 
