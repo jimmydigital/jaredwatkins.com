@@ -1,8 +1,8 @@
 ---
 title: "Detection Methods"
 date: 2026-06-05
-lastmod: 2026-07-07
-last_reviewed: 2026-07-07
+lastmod: 2026-08-15
+last_reviewed: 2026-08-15
 draft: false
 description: "Overview of drone detection modalities: micro-Doppler radar, Remote ID monitoring, non-cooperative RF direction finding, acoustic, optical/thermal, and multi-sensor fusion — with focus on drone-vs-bird discrimination."
 research_area: "drone-detection/detection-methods"
@@ -26,3 +26,4 @@ Overview of the primary sensing modalities used to detect drones, with comparati
 - [Optical / Thermal]({{< relref "optical-thermal-detection.md" >}}) — EO/IR camera systems; Marduk approach for fiber-optic threats
 - [Multi-Sensor Fusion]({{< relref "multi-sensor-fusion.md" >}}) — Combining modalities for reliable detection and classification
 - [Swarm Detection]({{< relref "swarm-detection.md" >}}) — Detecting coordinated multi-drone swarms; what changes vs. single-drone detection
+- [TRAMIS]({{< relref "tramis.md" >}}) — Texas A&M academic research system; track-based (not image-based) multi-camera detection, bird/UAS/aircraft classification, and 3D geolocation; field-tested in Alaska

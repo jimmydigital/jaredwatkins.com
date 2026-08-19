@@ -1,11 +1,11 @@
 ---
 title: "Commercial C-UAS Hardware"
 date: 2026-06-05
-lastmod: 2026-07-07
+lastmod: 2026-08-15
 draft: false
 description: "Commercial drone detection hardware vendors for critical infrastructure protection — multi-sensor systems, RF scanners, radar, and passive optical."
 research_area: "drone-detection/hardware"
-last_reviewed: 2026-07-07
+last_reviewed: 2026-08-15
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -36,3 +36,5 @@ Commercial drone detection systems for critical infrastructure protection, organ
 - [Tron Future T.Sensor]({{< relref "tron-future-tsensor.md" >}}) — Taiwanese wideband (400 MHz–6 GHz) passive RF direction finder; part of an integrated AESA anti-drone stack (T.Radar, T.Jammer, T.Cam, T.Meta)
 - [Echodyne]({{< relref "echodyne.md" >}}) — US miniaturized ESA/MESA radar; embedded in Dedrone, defense integrators; $490M USAF SUADS contract (2026)
 - [BlueSky Mast]({{< relref "bluesky-mast.md" >}}) — US portable telescoping masts used as elevation platforms for RF/radar sensors in field C-UAS deployments (supporting equipment, not a sensor itself)
+- [HushSky]({{< relref "hushsky.md" >}}) — Capablanca.ai passive optical multi-camera C-UAS; wavelet filtering + 3D voxel triangulation; TRL-2, pre-operational
+- [ASO Vision-AI]({{< relref "aso-vision-ai.md" >}}) — Romanian passive optical edge-AI drone detection; ~120 m range; rooted in meteor-tracking astronomy tech; launched Aug 2025

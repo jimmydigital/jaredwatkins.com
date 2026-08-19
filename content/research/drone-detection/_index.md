@@ -1,11 +1,11 @@
 ---
 title: "Drone Detection"
 date: 2026-06-05
-lastmod: 2026-07-26
+lastmod: 2026-08-15
 draft: false
 description: "Detection methods, hardware, software, and open-source tools for identifying unauthorized drones at critical infrastructure, including drone-vs-bird discrimination."
 research_area: "drone-detection"
-last_reviewed: 2026-07-26
+last_reviewed: 2026-08-15
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -101,7 +101,7 @@ A knowledge base on detecting unauthorized drones at critical infrastructure —
 - [Drone Privacy, Trespass, and Criminal Misuse Law]({{< relref "privacy-trespass-and-misuse-law.md" >}}) — US, UK, German, and French law on drone spying, harassment, and vandalism; civil vs. criminal line; when to call police
 - [Property Owner Rights vs. Drone Operator Rules (US & UK)]({{< relref "property-owner-rights-and-operator-rules.md" >}}) — FAA Part 107 / UK CAA altitude and distance rules for operators; hovering vs. perimeter flying; thermal/LIDAR sensing; the *Causby*/*Ciraolo*/*Riley*/*Kyllo* case law; whether ground-level altitude legalizes self-help capture
 - [Open Source Projects]({{< relref "open-source/_index.md" >}}) — OpenDroneID, DJI DroneID decoders, acoustic ML pipeline, and community tools
-- [Commercial Hardware]({{< relref "hardware/_index.md" >}}) — Dedrone, DroneShield, Fortem, D-Fend, Aaronia, Robin Radar, Marduk, AeroDefense, Sentrycs, Skydio
+- [Commercial Hardware]({{< relref "hardware/_index.md" >}}) — Dedrone, DroneShield, Fortem, D-Fend, Aaronia, Robin Radar, Marduk, AeroDefense, Sentrycs, Skydio, HushSky, ASO Vision-AI
 - [Deployment Architecture]({{< relref "deployment-architecture.md" >}}) — Design pattern for fixed-site C-UAS: sensor placement, integration, power/networking, maintenance
 - [Counter-Drone Platforms]({{< relref "counter-drone-platforms/_index.md" >}}) — Interceptor drones and kinetic/non-kinetic response
 - [High-Altitude Platforms (Airships & Balloons)]({{< relref "high-altitude-platforms/_index.md" >}}) — Stratospheric HAPS as persistent sensor platforms for drone/missile detection; Sceye, World View/Ondas, Aerostar, Urban Sky, TCOM, Hemeria/Safran, Kalam Labs
@@ -139,6 +139,8 @@ A knowledge base on detecting unauthorized drones at critical infrastructure —
 | [Advanced Protection Systems](https://apsystems.tech) | Poland | Private | FIELDctrl 3D MIMO radar family for C-UAS/VSHORAD; see [MIMO Radar]({{< relref "mimo-radar/advanced-protection-systems.md" >}}) |
 | [Vayyar Imaging](https://vayyar.com) | Israel | Private | XRR single-chip MIMO RFIC (48 transceivers); automotive + public-safety 4D imaging; see [MIMO Radar]({{< relref "mimo-radar/vayyar-imaging.md" >}}) |
 | [Uhnder](https://www.uhnder.com) | USA | Private | Digital Code Modulation MIMO radar-on-chip (up to 96 channels); automotive-focused enabling tech; see [MIMO Radar]({{< relref "mimo-radar/uhnder.md" >}}) |
+| [Capablanca.ai (HushSky)](https://hushsky.net) | — (unconfirmed) | Early (TRL-2) | Passive optical multi-camera drone detection; wavelet filtering + 3D voxel triangulation; pre-operational — see [entry]({{< relref "hardware/hushsky.md" >}}) |
+| [ASO](https://aso-surveillance.com) | Romania | Early (launched Aug 2025) | Passive optical edge-AI drone detection rooted in meteor-tracking astronomy tech; ~120 m range — see [entry]({{< relref "hardware/aso-vision-ai.md" >}}) |
 
 ### Public Companies
 

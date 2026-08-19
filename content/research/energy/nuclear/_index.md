@@ -1,11 +1,11 @@
 ---
 title: Nuclear Energy Research
 date: 2026-03-25
-lastmod: 2026-03-25
+lastmod: 2026-08-18
 draft: false
 description: Research on nuclear power technologies, small modular reactors (SMRs), and the companies developing next-generation nuclear for AI datacenters, industrial power, and grid decarbonization.
 research_area: "energy/nuclear"
-last_reviewed: 2026-03-25
+last_reviewed: 2026-08-18
 stale_after_days: 180
 sitemap:
   changefreq: "monthly"
@@ -27,6 +27,7 @@ Tracks small modular reactor (SMR) developers and advanced nuclear technologies,
 - NRC licensing pathway evolution: Combined License (COL) vs. Construction Permit + Operating License; modular construction resequencing approvals
 - HALEU fuel supply chain as a potential chokepoint for non-LWR designs
 - Shipyard/modular fabrication as the cost-reduction mechanism — analogous to offshore wind jacket manufacturing
+- DOE's Reactor Pilot Program (Executive Order, May 2025) and its successor Nuclear Energy Launch Pad (April 2026) as an accelerant for microreactor demonstration — DOE-authorized criticality/testing at national labs is a faster, separate track from full NRC commercial licensing, and should not be conflated with it
 
 ## Deployment Status Tracker
 
@@ -38,6 +39,9 @@ Tracks small modular reactor (SMR) developers and advanced nuclear technologies,
 | [X-energy]({{< relref "x-energy.md" >}}) | Xe-100 (HTGR, 80 MW×4) | TRISO/HALEU | **NRC construction permit application docketed May 2025** — Seadrift, TX (Dow) | ~2030 |
 | [Oklo]({{< relref "oklo.md" >}}) | Aurora (SFR, 75 MW) | HALEU metallic | **Groundbreaking September 2025** — Idaho National Laboratory | Late 2027–2028 |
 | [Blue Energy]({{< relref "blue-energy.md" >}}) | Modular LWR (1.5 GW) | LEU | **NRC topical report approved** — Port of Victoria TX (Crusoe); construction Q2 2026 | Gas 2028; Nuclear 2031 |
+| [Deployable Energy]({{< relref "deployable-energy.md" >}}) | Unity UNB (gas-cooled, container-scale, 1 MWe) | LEU (UO2) | **Criticality achieved June 30, 2026** — NRIC, Idaho National Laboratory, under DOE Reactor Pilot Program | Commercial units 2028; GW-scale 2030 |
+| [Radiant Industries]({{< relref "radiant-industries.md" >}}) | Kaleidos (helium-cooled, portable, >1 MWe) | TRISO | **NRC accepts R-50 Part 70 license application May 2026** (Oak Ridge, TN); DOME full-power test authorized Feb 2026 | First units 2028; 50/yr by 2028 |
+| [NuCube Energy]({{< relref "nucube-energy.md" >}}) | ART Reactor (heat-pipe HTGR, 4 MWth or 15 MW reported) | TRISO | **DOE Nuclear Energy Launch Pad USA selection April 2026** — deployment at Idaho State University, Pocatello | Not yet disclosed |
 
 ## Companies
 
@@ -49,6 +53,10 @@ Tracks small modular reactor (SMR) developers and advanced nuclear technologies,
 | [Kairos Power](https://kairospower.com) | Alameda, CA | Private (~$650M raised) | KP-FHR fluoride salt + TRISO pebbles; Hermes nuclear construction underway Oak Ridge; Google/TVA PPA 500 MW by 2035 |
 | [X-energy](https://x-energy.com) | Rockville, MD | Private (~$1.5B raised) | Xe-100 pebble-bed HTGR; Dow Seadrift TX NRC application docketed; Amazon anchor investor; TRISO-X fuel subsidiary |
 | [TerraPower](https://terrapower.com) | Bellevue, WA | Private | Natrium SFR + molten salt storage; Bill Gates-backed; Kemmerer WY NRC construction permit issued; Bechtel EPC |
+| [Deployable Energy](https://www.deployable.energy) | Houston, TX | Private (self-funded; Solaris Energy Infrastructure & Hornbeck Offshore strategic investments Aug 2026) | Unity Nuclear Battery — 1 MWe gas-cooled, container-scale microreactor on standard LEU fuel; criticality at INL June 2026; $22.5B GridMarket data center pipeline; Hornbeck Offshore maritime MOU |
+| [Radiant Industries](https://www.radiantnuclear.com) | Los Angeles, CA | Private (~$525M+ raised through Series D) | Kaleidos — portable TRISO/helium microreactor, >1 MWe; first new reactor design tested in DOE's DOME at INL; NRC R-50 Part 70 review underway; Equinix 20-unit preorder; USAF Buckley SFB contract |
+| [General Matter](https://en.wikipedia.org/wiki/General_Matter) | Los Angeles, CA | Private (~$50M Series A + $900M DOE IDIQ contract) | Domestic LEU/HALEU uranium enrichment; former Paducah Gaseous Diffusion Plant buildout; Hanford FMEF lease; NRC Part 70 licensing pathway opened Dec 2024; fuel-supply layer, not a reactor developer |
+| [NuCube Energy](https://www.nucube.energy) | Pasadena, CA / Idaho Falls, ID | Private (~$13M raised) | Idealab Studio spinout; heat-pipe-cooled TRISO microreactor, up to 1,100°C; DOE Launch Pad USA deployment with Idaho State University; smallest-funded of the Launch Pad cohort |
 
 ### Public Companies
 
@@ -99,8 +107,9 @@ Tracks small modular reactor (SMR) developers and advanced nuclear technologies,
 ## Supply Chain Notes
 
 - **Reactor pressure vessels and heavy forgings:** Japan Steel Works and Doosan Heavy Industries are primary sources; lead times 3–5+ years; Hitachi relationship gives GEH priority access
-- **HALEU fuel:** Required for Oklo (Aurora), X-energy (Xe-100 via TRISO-X), Kairos (KP-FHR pebbles); Centrus is the only NRC-licensed US HALEU enricher; X-energy's TRISO-X TX-1 facility in Oak Ridge is the only US HALEU fuel fabrication plant under construction
-- **TRISO fuel:** BWXT (Lynchburg VA) is the only US TRISO particle manufacturer; Kairos and X-energy both depend on BWXT; capacity expansion underway but timeline must pace with multiple reactor programs simultaneously
+- **HALEU fuel:** Required for Oklo (Aurora), X-energy (Xe-100 via TRISO-X), Kairos (KP-FHR pebbles); Centrus remains the only currently NRC-*licensed* US HALEU enricher; X-energy's TRISO-X TX-1 facility in Oak Ridge is the only US HALEU fuel fabrication plant under construction. [General Matter]({{< relref "general-matter.md" >}}) is pursuing a second domestic enrichment license (10 CFR Part 70 Letter of Intent filed Dec 2024; $900M DOE IDIQ contract Jan 2026 for Paducah, KY buildout) but had not received an NRC license, begun construction, or shipped product as of last review — track as a potential future entrant, not yet an operational alternative to Centrus.
+- **TRISO fuel:** BWXT (Lynchburg VA) is the only US TRISO particle manufacturer; Kairos, X-energy, [Radiant Industries]({{< relref "radiant-industries.md" >}}), and [NuCube Energy]({{< relref "nucube-energy.md" >}}) all depend on TRISO fuel, concentrating demand on BWXT's capacity; expansion underway but timeline must pace with an increasing number of simultaneous reactor programs
 - **Li-7 enrichment:** Required for Kairos's fluoride salt coolant (FLiBe); no US commercial Li-7 enrichment capability currently; DOE/ORNL developing domestic capability
 - **Turbine generators:** GE Vernova, Siemens Energy (X-energy/Oklo named); standard power gen supply chain; less constrained than nuclear-specific components
 - **Sodium systems expertise:** TerraPower (Natrium) and Oklo (Aurora) both use sodium cooling; limited number of qualified fabricators and constructors with sodium fast reactor experience in the US
+- **Shared federal test infrastructure:** DOE/NRIC's DOME test bed and the Materials and Fuels Complex at Idaho National Laboratory are shared by multiple companies under the Reactor Pilot Program and Nuclear Energy Launch Pad — [Deployable Energy]({{< relref "deployable-energy.md" >}}) and [Radiant Industries]({{< relref "radiant-industries.md" >}}) both test at INL; DOE authorization to test there is a separate, faster pathway than NRC commercial licensing and should not be read as commercial approval
