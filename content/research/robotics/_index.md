@@ -1,11 +1,11 @@
 ---
 title: Robotics Research
 date: 2026-03-24
-lastmod: 2026-07-26
+lastmod: 2026-08-27
 draft: false
 description: Research on commercial robotics platforms, components, and the companies and people building them.
 research_area: "robotics"
-last_reviewed: 2026-07-26
+last_reviewed: 2026-08-27
 stale_after_days: 365
 sitemap:
   changefreq: "monthly"
@@ -40,6 +40,7 @@ Tracks commercial robotics platforms, component suppliers, and the people and ca
 - Slip rings and tracking antennas are comparatively under-concentrated risk areas so far: no single-vendor chokepoint on the scale of BLHeli AS or Amass has been identified in either subsection to date
 - Dexterous hands have shifted from a hardware-scarcity problem to a reliability/repairability problem: Chinese manufacturer Inspire Robots went from ~2,000 to 10,000+ units delivered year-over-year, but no manufacturer has published a certified 10,000-hour MTBF for multi-jointed fingers as of mid-2026
 - Established industrial component manufacturers (Bosch, Schaeffler, Samsung, HL Mando) are increasingly taking direct equity stakes in humanoid-adjacent hardware specialists (Neura Robotics, Tesollo) rather than only supplying components at arm's length — a notable shift in how incumbents are positioning for the humanoid buildout
+- A wave of small European "sovereign UAS" entrants is marketing edge-AI, GPS-denied autonomy as the answer to the electronic-warfare environment demonstrated in Ukraine — but the architecture is now near-universal in the segment and most of these firms publish no specifications, no team, and no independent validation ([Sentinel Robotics]({{< relref "aerial-drones/sentinel-robotics.md" >}}) is recorded as a stub on exactly these grounds). Treat "sovereign + edge-AI" positioning as a market frame, not evidence of capability.
 - Home/consumer humanoid robots moved from announcement to open pre-order in this period (1X NEO, Oct 2025) and Western industrial players (Neura Robotics' 4NE1 Mini) are explicitly targeting household tasks alongside commercial/industrial use, not just US and Chinese consumer entrants
 
 ## Subsections

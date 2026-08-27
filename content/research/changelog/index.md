@@ -1,11 +1,11 @@
 ---
 title: "Research Section Changelog"
 date: 2026-04-04
-lastmod: 2026-08-18
+lastmod: 2026-08-27
 draft: false
 description: "Timestamped log of additions and modifications to the Research knowledge base."
 research_area: "research"
-last_reviewed: 2026-08-04
+last_reviewed: 2026-08-27
 stale_after_days: 90
 outputs:
   - HTML
@@ -18,6 +18,13 @@ sitemap:
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
 
+- **2026-08-27:** Created [Swarmbotics AI]({{< relref "robotics/ground-drones/swarmbotics-ai.md" >}}) — FireAnt anti-armor sUGV; $4M pre-seed 2024; Army TiC selection Feb 2026.
+- **2026-08-27:** Created [Sentinel Robotics (sentinelrobotic.com)]({{< relref "robotics/ground-drones/sentinel-robotics-pest-control.md" >}}) — stub; stealth pest-control sentry project; fixed name-collision misattribution in the [aerial-drones Sentinel Robotics]({{< relref "robotics/aerial-drones/sentinel-robotics.md" >}}) entry.
+- **2026-08-27:** Updated [Sentinel Robotics (sentinelrobotic.com)]({{< relref "robotics/ground-drones/sentinel-robotics-pest-control.md" >}}) with direct X account research — Project Sentinel pitch deck, Sentinel mini, feral hog population model, Arcane Design Works brand link (unconfirmed).
+- **2026-08-27:** Created [Sentinel Robotics]({{< relref "robotics/aerial-drones/sentinel-robotics.md" >}}) — stub entry; Romanian edge-AI UAV startup; unverified, name-collision risk.
+- **2026-08-27:** Rewrote [Nuclear Energy Research index]({{< relref "energy/nuclear/_index.md" >}}) — split deployment tracker by regulatory status; added Key Themes on the 2026 criticality wave and HALEU/TRISO supply risk.
+- **2026-08-27:** Created 7 nuclear entries: [Valar Atomics]({{< relref "energy/nuclear/valar-atomics.md" >}}) (HTGR, June 2026 criticality, $6B valuation), [Aalo Atomics]({{< relref "energy/nuclear/aalo-atomics.md" >}}) (sodium thermal, no HALEU/TRISO dependency), [Antares Nuclear]({{< relref "energy/nuclear/antares-nuclear.md" >}}) (first criticality June 2026, $470M Series C), [Deep Fission]({{< relref "energy/nuclear/deep-fission.md" >}}) (Nasdaq: FISN, missed criticality target), [Applied Atomics]({{< relref "energy/nuclear/applied-atomics.md" >}}) (BWXT mPower licence holder), [Terrestrial Energy]({{< relref "energy/nuclear/terrestrial-energy.md" >}}) (Nasdaq: IMSR, molten salt), [Hadron Energy]({{< relref "energy/nuclear/hadron-energy.md" >}}) (Nasdaq: HDRN, 10 MWe iPWR).
+- **2026-08-27:** Updated 9 nuclear entries: [Oklo]({{< relref "energy/nuclear/oklo.md" >}}) (Groves criticality Aug 2026), [X-energy]({{< relref "energy/nuclear/x-energy.md" >}}) (now public, Nasdaq: XE, ~$1.02B IPO), [TerraPower]({{< relref "energy/nuclear/terrapower.md" >}}) (construction commenced, UK GDA Step 1), [GE Vernova Hitachi]({{< relref "energy/nuclear/ge-hitachi-bwrx300.md" >}}) (Clinch River FSER, Blue Energy Texas project), [Blue Energy]({{< relref "energy/nuclear/blue-energy.md" >}}) (flagship restructured around BWRX-300s), [Kairos Power]({{< relref "energy/nuclear/kairos-power.md" >}}) (Hermes deadline extended to 2029), [Radiant Industries]({{< relref "energy/nuclear/radiant-industries.md" >}}) (Army Janus Fort Benning contract), [Deployable Energy]({{< relref "energy/nuclear/deployable-energy.md" >}}) (Solaris/Hornbeck investments), [General Matter]({{< relref "energy/nuclear/general-matter.md" >}}) (Paducah lease, X-energy agreement).
 - **2026-08-18:** Created [General Matter]({{< relref "energy/nuclear/general-matter.md" >}}), [Radiant Industries]({{< relref "energy/nuclear/radiant-industries.md" >}}), and [NuCube Energy]({{< relref "energy/nuclear/nucube-energy.md" >}}) — remaining DOE Nuclear Energy Launch Pad companies (HALEU enrichment startup; $525M+-funded Kaleidos microreactor developer; Idealab-founded heat-pipe microreactor); updated nuclear section index deployment tracker and supply chain notes.
 - **2026-08-18:** Created [Deployable Energy]({{< relref "energy/nuclear/deployable-energy.md" >}}) — Houston microreactor startup; Unity UNB 1 MWe gas-cooled nuclear battery; criticality at INL June 30, 2026; $22.5B GridMarket pipeline, Hornbeck Offshore & Solaris Energy Infrastructure investments (Aug 2026).
 - **2026-08-15:** Added 4 non-blockchain protocol/component entries to [Compute Marketplaces]({{< relref "compute-marketplaces/_index.md" >}}): [Gateway API Inference Extension]({{< relref "compute-marketplaces/gateway-api-inference-extension.md" >}}) (Kubernetes SIG, GA v1.5.0, criteria-based inference routing), [llm-d]({{< relref "compute-marketplaces/llm-d.md" >}}) (CNCF sandbox, Red Hat/Google/IBM/CoreWeave/NVIDIA, KV-cache-aware routing), [LiteLLM]({{< relref "compute-marketplaces/litellm.md" >}}) (BerriAI, self-hosted OpenRouter analog; flagged Mar 2026 PyPI supply-chain compromise), [NANDA]({{< relref "compute-marketplaces/nanda.md" >}}) (MIT Media Lab, non-blockchain agent-discovery index).

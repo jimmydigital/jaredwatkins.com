@@ -1,7 +1,7 @@
 ---
 title: "Radiant Industries"
 date: 2026-08-18
-lastmod: 2026-08-18
+lastmod: 2026-08-27
 draft: false
 description: "Los Angeles microreactor developer (Radiant Nuclear); founded 2020 by ex-SpaceX engineer Doug Bernauer and CTO Bob Urberger; Kaleidos — 1+ MWe TRISO-fueled, helium-cooled, portable microreactor; $225M raised through Series C (May 2025) plus $300M+ Series D (Dec 2025); first new reactor design selected for DOE's DOME test bed at Idaho National Laboratory; NRC accepted R-50 Part 70 license application (May 2026) for Oak Ridge, TN production facility; Equinix preorder for 20 units; Air Force Buckley Space Force Base contract; one of DOE's first four Nuclear Energy Launch Pad selections (Apr 2026)."
 research_area: "energy/nuclear"
@@ -17,7 +17,7 @@ source_urls:
   - "https://www.accessnewswire.com/newsroom/en/clean-technology/radiant-announces-equinix-preorder-and-deposits-for-20-kaleidos-microreactors-1061067"
   - "https://www.ans.org/news/article-7988/doe-selects-first-companies-for-nuclear-launch-pad/"
   - "https://inl.gov/news-release/national-reactor-innovation-center-announces-first-selections-for-nuclear-energy-launch-pad/"
-last_reviewed: 2026-08-18
+last_reviewed: 2026-08-27
 stale_after_days: 90
 related:
   - "energy/nuclear/_index.md"
@@ -66,6 +66,10 @@ Radiant Industries (operating as Radiant Nuclear) is a Los Angeles microreactor 
 
 ## Notable Developments
 
+- **2026-08-26:** ⚑ **US Army Janus Program award** — Radiant selected for **Fort Benning, GA** with **up to $750M** and **15 Kaleidos units by 2030**, the largest single allocation in the five-vendor programme. Janus commits up to $2.2B across FY2027–2031 via milestone-based Other Transaction Authority agreements (contractor-owned, contractor-operated, **Army-regulated**), targeting at least one reactor operating by September 30, 2028. Other awardees: [Antares Nuclear]({{< relref "antares-nuclear.md" >}}) (Fort Bragg), BWXT (Fort Campbell, BANR 20 MWe), General Atomics (Fort Hood), Westinghouse (Fort Drum, eVinci). ([POWER](https://www.powermag.com/u-s-army-mobilizes-2-2b-janus-program-to-deploy-more-than-20-commercial-microreactors/); [army.mil](https://www.army.mil/article/294891/army_reaches_agreement_with_private_industry_for_nuclear_micro_reactors); [DefenseScoop](https://defensescoop.com/2026/08/26/army-annouces-initiial-bases-to-host-nuclear-microreactors/))
+- **2026-07-01:** **First TRISO fuel delivered** to Kaleidos at INL's DOME, fabricated by **Standard Nuclear** (Oak Ridge, TN) to Radiant's specifications — clearing the path to full-power, full-temperature testing. Quantity not disclosed. ([Radiant](https://www.radiantnuclear.com/blog/triso-fuel-inl/); [BusinessWire](https://www.businesswire.com/news/home/20260701966809/en/Radiant-Receives-First-TRISO-Fuel-Shipment-at-INLs-DOME-Facility-Clearing-Path-to-Full-Power-Full-Temperature-Testing); [WNN](https://www.world-nuclear-news.org/articles/triso-fuel-delivered-for-kaleidos-reactor-experiment))
+- **2026-06 (approx.):** Kaleidos shipped from El Segundo, CA on a >1,000-mile road move to INL's DOME. Exact shipment date not published. ([Radiant](https://www.radiantnuclear.com/blog/kaleidos-shipped/); [WNN](https://www.world-nuclear-news.org/articles/kaleidos-microreactor-begins-journey-to-idaho))
+- **2026 (summer onward):** Five-phase test programme underway — zero-power criticality → 1 MWt → full power/full temperature → **a minimum 150 hours at full power without operator intervention**, targeted Q3 2026. **⚑ No criticality had been announced as of August 27, 2026.**
 - **2026-04-27/28:** Selected as one of DOE's first four Nuclear Energy Launch Pad companies (Launch Pad INL pathway), alongside Deployable Energy, General Matter, and NuCube Energy.
 - **2026-04-22:** US Air Force selects Radiant to deliver Kaleidos microreactors to Buckley Space Force Base, Aurora, CO, under the ANPI program; delivery targeted for 2028. ([Radiant Nuclear](https://www.radiantnuclear.com/blog/buckley-space-force/))
 - **2026-02-09:** DOE approves Radiant's DOE Authorization Request for Kaleidos (DARK) — first-ever DOE full-power microreactor test authorization; clears path to summer 2026 DOME startup. ([Radiant Nuclear](https://www.radiantnuclear.com/blog/doe-pdsa-approval/))

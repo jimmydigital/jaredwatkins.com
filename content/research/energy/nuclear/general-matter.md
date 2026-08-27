@@ -1,7 +1,7 @@
 ---
 title: "General Matter"
 date: 2026-08-18
-lastmod: 2026-08-18
+lastmod: 2026-08-27
 draft: false
 description: "Los Angeles-based uranium enrichment startup; incubated within Founders Fund, emerged from stealth April 2025; CEO Scott Nolan (ex-SpaceX); $50M Series A (Founders Fund, Peter Thiel joins board); $900M DOE 10-year IDIQ contract (Jan 2026) for domestic HALEU production at former Paducah Gaseous Diffusion Plant (~$1.5B facility, ~140 jobs); DOE Hanford FMEF lease (Feb 2026); NRC Part 70 licensing pathway opened Dec 2024; one of DOE's first four Nuclear Energy Launch Pad selections (Apr 2026) — the only fuel-focused company in the cohort."
 research_area: "energy/nuclear"
@@ -13,7 +13,7 @@ source_urls:
   - "https://www.nrc.gov/docs/ML2436/ML24365A102.pdf"
   - "https://www.ans.org/news/article-7988/doe-selects-first-companies-for-nuclear-launch-pad/"
   - "https://inl.gov/news-release/national-reactor-innovation-center-announces-first-selections-for-nuclear-energy-launch-pad/"
-last_reviewed: 2026-08-18
+last_reviewed: 2026-08-27
 stale_after_days: 90
 related:
   - "energy/nuclear/_index.md"
@@ -57,6 +57,8 @@ General Matter is a Los Angeles uranium enrichment startup founded by CEO Scott 
 
 ## Notable Developments
 
+- **2026-08-21:** At the Global 2026 conference, General Matter is described as operating under a **DOE lease for a 100-acre parcel** at the former Paducah Gaseous Diffusion Plant and **exploring use of the Fuel and Materials Examination Facility at Hanford, WA** with DOE-EM. **⚑ No NRC licence issuance for General Matter has been identified.** ([ANS](https://www.ans.org/news/2026-08-21/article-8323/panelists-talk-domestic-enrichment-expansion-at-global-2026/))
+- **2026 (disclosed Q2):** Signs a **second long-term enrichment services agreement with [X-energy]({{< relref "x-energy.md" >}})** — disclosed in X-energy's Q2 2026 results and earnings call; **no standalone press release and no terms disclosed**.
 - **2026-04-27/28:** Selected as one of DOE's first four Nuclear Energy Launch Pad companies, alongside Deployable Energy, NuCube Energy, and Radiant Industries — the only fuel-focused selection.
 - **2026-02-04:** DOE Office of Environmental Management signs lease with General Matter to explore reactivating the Fuels and Materials Examination Facility (FMEF) at the Hanford Site, WA, for advanced nuclear fuel cycle technologies. ([ANS Nuclear Newswire](https://www.ans.org/news/2026-02-04/article-7734/doe-general-matter-team-up-for-new-fuel-mission-at-hanford/))
 - **2026-01-07:** Awarded $900 million, 10-year DOE IDIQ contract to build and operate domestic HALEU enrichment capacity at the former Paducah Gaseous Diffusion Plant, KY (~$1.5B total investment, ~140 jobs). ([PR Newswire](https://www.prnewswire.com/news-releases/us-department-of-energy-awards-900-million-contract-to-general-matter-to-supply-domestic-high-assay-low-enriched-uranium-302655690.html))

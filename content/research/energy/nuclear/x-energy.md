@@ -10,7 +10,7 @@ source_urls:
   - "https://x-energy.com/seadrift"
   - "https://x-energy.com/media/news-releases/nrc-publishes-18-month-review-schedule-for-xe-100-construction-permit-application"
   - "https://investors.dow.com/en/news/news-details/2025/Dow-and-X-energy-Submit-Construction-Permit-Application-to-the-U-S--Nuclear-Regulatory-Commission-for-Proposed-Advanced-Nuclear-Project-in-Texas/default.aspx"
-last_reviewed: 2026-03-25
+last_reviewed: 2026-08-27
 stale_after_days: 90
 related:
   - "energy/nuclear/_index.md"
@@ -28,7 +28,10 @@ X-energy is a Rockville, Maryland advanced nuclear company founded by Kam Ghaffa
 
 - **Founded:** ~2009
 - **HQ:** Rockville, MD
-- **Type:** Private
+- **Type:** **Public — Nasdaq: XE** (IPO April 2026; previously private)
+- **IPO:** Priced **April 23, 2026** — 44,254,659 Class A shares at **$23.00**, gross **~$1.018B**, upsized and $4 above the marketed range; 30-day greenshoe of 6,638,198 shares; leads J.P. Morgan, Morgan Stanley, Jefferies, Moelis. Trading began **April 24, 2026** on Nasdaq Global Select; shares rose **27%** on debut
+- **Market (Aug 11, 2026):** ~$20.52/share, **~$8.34B market cap** — below the $23 IPO price and ~8% under the ~$9.09B IPO-day valuation
+- **Financials (Q2 2026, reported Aug 13):** Revenue + grant income **$54.6M** (+154% YoY); H1 $98.0M; Q2 net loss attributable to X-energy $59.1M; **$1.1B cash, $1.9B total liquidity**; project pipeline **144 reactors / ~11.5 GW** across the US and UK
 - **Founder / Executive Chairman:** Kam Ghaffarian
 - **Reactor design:** Xe-100 — pebble-bed high-temperature gas-cooled reactor (HTGR)
 - **Output:** 80 MWe per unit; 320 MWe for standard 4-unit plant
@@ -38,17 +41,19 @@ X-energy is a Rockville, Maryland advanced nuclear company founded by Kam Ghaffa
 - **Total raised:** ~$1.5B+ (Series C-1 $500M + Series D $700M + prior rounds + DOE ARDP)
 - **Series C-1:** ~$500M, October 2024; anchored by **Amazon**
 - **Series D:** $700M, November 2025
-- **DOE ARDP award:** $1.2B (2020) — cost-share for Xe-100 development
+- **DOE ARDP award:** $1.2B (2020) — cost-share for Xe-100 development; **increased by up to a further $1B in 2026, taking total DOE support to ~$2.115B** (still 50/50 cost share); continuation application approved through the March 2027 budget period
 - **Flagship deployment — Seadrift, TX:**
   - Partner: Dow Chemical (wholly-owned subsidiary Long Mott Energy LLC is applicant)
   - Site: Dow's UCC Seadrift chemical complex, Texas Gulf Coast
   - Configuration: 4 × Xe-100 = 320 MWe
-  - NRC application: Construction permit application submitted **March 2025**; NRC docketed **May 2025**; 18-month NRC review schedule
+  - NRC application: Construction permit application tendered **March 31, 2025**; docketed **May 12, 2025**; draft safety evaluation Feb 2026; **EA/FONSI issued May 18, 2026**; Advanced Safety Evaluation targeted Aug 2026; **Final Safety Evaluation expected November 2026**; mandatory hearing and permit decision **TBD**
+  - Company/trade guidance points to a construction permit in **Q1–H1 2027** — note this is an expectation, not an NRC commitment, since the FSER is not due until November 2026 and no hearing is scheduled
   - First industrial-site advanced nuclear deployment in North America
   - Commercial operation target: **~2030**
 - **Fuel facility — TRISO-X TX-1:**
   - Location: Oak Ridge, TN
-  - Status: Site development ongoing; Geiger Brothers as site developer
+  - Status (Aug 24, 2026): advanced to **interior build-out** as vertical construction nears completion; installing fuel-fabrication and process equipment; adjacent graphite matrix powder building underway. **214,000 sq ft**; design capacity **700,000 TRISO-X pebbles/yr (5 MTU)**, enough for up to 11 Xe-100s. Holds a **40-year NRC special nuclear material licence** — the first NRC Category 2 fuel facility licence to process HALEU. GC: Clark Construction. **No production start date given**
+  - Land: acquired ~70 additional acres Aug 4, 2026, taking the Oak Ridge campus to ~180 acres; $11M Tennessee economic-development grant July 15, 2026
   - Significance: First commercial-scale US HALEU fuel fabrication facility; will supply fuel for Seadrift deployment and beyond
   - DOE HALEU Availability Program: TRISO-X allocated initial HALEU tranche (April 2025)
 - **Amazon broader partnership:** Agreed framework to standardize deployment and financing model for future Xe-100 projects with infrastructure and utility partners; Amazon targeting 5 GW of advanced nuclear capacity by 2040
@@ -70,6 +75,14 @@ X-energy is a Rockville, Maryland advanced nuclear company founded by Kam Ghaffa
 
 ## Notable Developments
 
+- **2026-08-24:** TRISO-X TX-1 advances to interior build-out; fuel fabrication and process equipment installation begins. ([GlobeNewswire](https://www.globenewswire.com/news-release/2026/08/24/3349609/0/en/triso-x-advances-to-next-phase-of-construction-for-tx-1-fuel-fabrication-facility.html))
+- **2026-08-13:** Q2 2026 results — revenue and grant income $54.6M (+154% YoY), $1.9B total liquidity, 144-reactor / ~11.5 GW pipeline; DOE ARDP support increased by up to $1B to ~$2.115B total. ([GlobeNewswire](https://www.globenewswire.com/news-release/2026/08/13/3344306/0/en/x-energy-reports-second-quarter-2026-results.html); [ANS](https://www.ans.org/news/article-8297/xenergy-terrapower-share-updates-on-advanced-reactor-projects/))
+- **2026-08-06:** **Centrus Energy long-term LEU and HALEU supply agreement**, production at the American Centrifuge Plant, Piketon OH, including prepayments from X-energy. Quantities, duration and value not disclosed. ([Centrus](https://www.centrusenergy.com/news/centrus-energy-signs-leu-and-haleu-supply-agreement-with-x-energy/))
+- **2026-08-03:** SGL Carbon agreement to double EU NBG-18 nuclear-grade graphite billet capacity by 2030 (enough for up to 8 reactors/yr); X-energy invests up to $8M in milestone-based payments.
+- **2026-07-22:** Joins **Project Prometheus**, a 3-year $60M initiative under DOE's Genesis Mission for AI-accelerated advanced nuclear deployment.
+- **2026-05-18:** NRC issues the Environmental Assessment and FONSI for the Long Mott / Seadrift construction permit application. ([NRC](https://www.nrc.gov/reactors/new-reactors/advanced/who-were-working-with/applicant-projects/long-mott))
+- **2026-04-23/24:** **IPO** — priced at $23.00/share raising ~$1.018B (upsized, $4 above range); began trading on Nasdaq as **XE** April 24, closing up 27%. ([X-energy](https://x-energy.com/news/x-energy-announces-pricing-of-upsized-initial-public-offering/); [CNBC](https://www.cnbc.com/2026/04/24/nuclear-reactor-company-x-energy-begins-trading-as-ai-drives-interest-in-the-industry.html))
+- **2026:** Second long-term enrichment services agreement signed with **General Matter** (disclosed in Q2 results; no standalone release, no terms disclosed).
 - **2025-11:** Series D — $700M raised. ([Neutron Bytes](https://neutronbytes.com/2025/11/30/x-energy-leaps-ahead-with-700m-in-series-d-funding/))
 - **2025-05:** NRC formally dockets Dow / Long Mott Energy construction permit application for Seadrift Xe-100 project; 18-month NRC review schedule published. ([ANS Nuclear Newswire](https://www.ans.org/news/2025-05-15/article-7026/nrc-dockets-construction-permit-for-dow-xenergy-smr/); [DOE](https://www.energy.gov/ne/articles/nrc-dockets-construction-permit-application-dow-advanced-reactor-project))
 - **2025-04:** TRISO-X allocated initial HALEU tranche via DOE HALEU Availability Program for TX-1 fuel facility.

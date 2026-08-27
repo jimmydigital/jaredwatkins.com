@@ -10,7 +10,7 @@ source_urls:
   - "https://blueenergy.co/blue-energy-and-crusoe-partner-to-develop-advanced-nuclear-powered-ai-data-center-project-in-port-of-victoria-texas/"
   - "https://blueenergy.co/blue-energy-achieves-key-u-s-nrc-licensing-milestone-paving-the-way-for-power-in-48-months-or-less-with-natural-gas-bridge/"
   - "https://www.datacenterdynamics.com/en/news/crusoe-taps-blue-energy-to-supply-nuclear-power-for-up-to-15gw-data-center-in-port-of-victoria-texas/"
-last_reviewed: 2026-03-25
+last_reviewed: 2026-08-27
 stale_after_days: 90
 related:
   - "energy/nuclear/_index.md"
@@ -41,14 +41,16 @@ Blue Energy is an Edinburgh, Scotland-based small modular reactor (SMR) develope
 - **Cost target:** ~$5,000/kW (vs. ~$13,000/kW for recent stick-built US nuclear)
 - **Build time claim:** 48 months or less (with gas bridge); nuclear power online ~36 months after gas bridge
 - **NRC milestone:** Topical report BE-BOPTR-02-NP approved — authorizes construction resequencing approach (non-nuclear non-safety infrastructure can be built before nuclear construction permit)
-- **Key project:** Port of Victoria, TX — 1.5 GW for Crusoe AI datacenter campus
-  - Gas bridge: power delivery targeting 2028
-  - Nuclear generation: targeting 2031
-  - Construction start: Q2 2026
-  - NRC construction permit application: 2027
+- **Key project:** Victoria, TX — originally 1.5 GW for the Crusoe AI datacenter campus, **now restructured as a 2.5 GW "gas-plus-nuclear" project with GE Vernova Hitachi (August 13, 2026)**
+  - **⚑ Major change:** rather than Blue Energy's own modular LWR, the nuclear component is now **up to five GE Vernova Hitachi BWRX-300s** (~1.5 GW, COD from 2032), paired with **two GE Vernova 7HA.02 gas turbines** (~1 GW, COD 2030)
+  - **FID targeted 2027**; the August 2026 agreement advances engineering design, licensing and safety analysis. Licensing pathway not specified in the announcement
+  - Initial offtake is a nearby data center
+  - Gas bridge: power delivery now targeting **2030** (previously 2028); nuclear from **2032** (previously 2031)
 - **Business model:** Finance, build, own, and operate; customers purchase power via long-term PPAs (no upfront capital for the customer)
 
 ## What It Is / How It Works
+
+> **⚑ 2026 update — read this section with the pivot in mind.** As of the August 13, 2026 agreement with GE Vernova Hitachi, the nuclear generation at Victoria, TX is planned to come from **up to five BWRX-300s**, not from Blue Energy's own modular LWR design. Blue Energy's role at that site now looks closer to project developer, financier and shipyard-construction partner than reactor vendor. The shipyard-prefabrication and construction-resequencing thesis described below remains the company's stated differentiator, but the reactor it is building at its flagship site is now [GE Vernova Hitachi's]({{< relref "ge-hitachi-bwrx300.md" >}}). Whether Blue Energy still intends to license and deploy its own 1.5 GW modular LWR elsewhere was not clarified in the August announcement.
 
 Blue Energy's core insight is that nuclear plant cost and schedule overruns are predominantly a construction problem, not a reactor design problem. The company estimates that 93% of nuclear plant costs are in the balance-of-plant (civil works, cooling systems, turbine halls, electrical infrastructure, security systems) — not the reactor itself. Traditional nuclear builds all of this on-site with craft labor over many years. Blue Energy's approach:
 
@@ -66,6 +68,8 @@ Blue Energy's core insight is that nuclear plant cost and schedule overruns are 
 
 ## Notable Developments
 
+- **2026-08-13:** **Blue Energy and GE Vernova Hitachi sign an agreement launching the next phase** of the Victoria, Texas project — restructured to **2.5 GW total**: two GE Vernova 7HA.02 gas turbines (~1 GW, COD 2030) plus **up to five GE Vernova Hitachi BWRX-300 SMRs** (~1.5 GW, COD from 2032). FID targeted 2027. ([GE Vernova](https://www.gevernova.com/news/press-releases/blue-energy-ge-vernova-hitachi-launch-next-phase-gas-plus-nuclear-project); [PRNewswire](https://www.prnewswire.com/news-releases/blue-energy-ge-vernova-hitachi-sign-agreement-to-launch-next-phase-of-texas-gas-plus-nuclear-project-302850317.html); [WNN](https://www.world-nuclear-news.org/articles/blue-energy-ge-vernova-take-gas-plus-nuclear-collaboration-to-next-stage); [POWER](https://www.powermag.com/texas-2-5-gw-gas-plus-nuclear-project-proceeds-to-engineering-licensing-phase/))
+- **2026-07:** Earlier phase of the GE Vernova collaboration — two 7HA.02 gas turbines reserved for 2029 delivery for the Texas site. ([ANS Industry Update](https://www.ans.org/news/article-8165/industry-updatejuly-2026/))
 - **2025 (early):** NRC approves Blue Energy's licensing topical report (BE-BOPTR-02-NP) — formally authorizes the construction resequencing approach; clarifies which project elements require prior NRC approval and which do not. ([Blue Energy](https://blueenergy.co/blue-energy-achieves-key-u-s-nrc-licensing-milestone-paving-the-way-for-power-in-48-months-or-less-with-natural-gas-bridge/))
 - **2024 (late):** Blue Energy and Crusoe announce partnership to develop 1.5 GW nuclear-powered AI datacenter campus at Port of Victoria, TX; gas bridge 2028, nuclear 2031. ([Blue Energy](https://blueenergy.co/blue-energy-and-crusoe-partner-to-develop-advanced-nuclear-powered-ai-data-center-project-in-port-of-victoria-texas/)) ([Data Center Dynamics](https://www.datacenterdynamics.com/en/news/crusoe-taps-blue-energy-to-supply-nuclear-power-for-up-to-15gw-data-center-in-port-of-victoria-texas/))
 - **2024-10:** Series A — $45M; Engine Ventures and At One Ventures lead. ([VC News Daily](https://www.vcnewsdaily.com/blue-energy/venture-capital-funding/xtcsftnkgn))

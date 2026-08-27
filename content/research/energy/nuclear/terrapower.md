@@ -10,7 +10,7 @@ source_urls:
   - "https://news.constructconnect.com/nrc-issues-construction-permit-for-terrapowers-natrium-reactor-in-wyoming"
   - "https://www.terrapower.com/terrapower-begins-construction-in-wyoming"
   - "https://www.nrc.gov/reactors/new-reactors/advanced/who-were-working-with/applicant-projects/terrapower"
-last_reviewed: 2026-03-25
+last_reviewed: 2026-08-27
 stale_after_days: 90
 related:
   - "energy/nuclear/_index.md"
@@ -35,8 +35,15 @@ TerraPower is a Bellevue, Washington nuclear technology company founded in 2008 
 - **Thermal storage:** 500 MWh molten salt tank — stores heat during low-demand periods; dispatches extra power during peak demand (4–5.5 hours at 500 MW)
 - **Coolant:** Liquid sodium metal; operates at low pressure and ~500°C
 - **Site:** Kemmerer Power Station Unit 1, Kemmerer, Wyoming (adjacent to retiring Naughton coal plant — reuses transmission and workforce)
-- **NRC status:** Construction permit issued (late 2025); NRC final safety evaluation completed **December 2025** ahead of accelerated schedule
-- **Non-nuclear construction:** Underway at Kemmerer site
+- **NRC status:** Construction permit issued (late 2025); NRC final safety evaluation completed **December 2025** ahead of accelerated schedule; **nuclear construction commenced April 2026**
+- **Non-nuclear construction:** Underway at Kemmerer site since 2022; no specific construction-progress milestone was published between June and August 2026
+- **UK expansion (NEW):** GDA application submitted October 2025; **accepted by DESNZ February 2026**; **TerraPower UK Ltd launched and GDA Step 1 formally commenced June 16, 2026** — TerraPower's first office outside the US, led by Dr. Ian Hudson. Regulators: ONR, Environment Agency, Natural Resources Wales
+- **Korean supply chain and EPC (NEW):**
+  - **HD Hyundai Heavy Industries** named **preferred manufacturer** for Natrium Reactor Enclosure System components, **May 20, 2026** — extending a March 2025 strategic manufacturing supply-chain agreement. Unit counts and timelines not disclosed
+  - **Hyundai E&C (HDEC)** selected as **EPC contractor** under a framework agreement covering **up to eight** future Natrium reactors **with completion, price and performance guarantees**, for US and select international markets — **August 14, 2026**
+  - **SK Innovation** term sheet to develop **Korea's first commercial Natrium plant**, plus digital-twin and AI O&M collaboration — August 14, 2026
+- **Meta agreement:** January 9, 2026 — up to 2.1 GW / six Natrium units, funding two 345 MW units
+- **TerraPower Isotopes:** expanded collaboration with PanTera for Ac-225 production at IRE in Belgium (Aug 2026)
 - **Training center:** Kemmerer Training Center construction commenced August 2025 (30,000 sqft)
 - **Commercial operation target:** 2030
 - **Construction workforce peak:** ~1,600 workers
@@ -55,6 +62,12 @@ TerraPower is a Bellevue, Washington nuclear technology company founded in 2008 
 
 ## Notable Developments
 
+- **2026-08-14:** Following meetings between Bill Gates, CEO Chris Levesque and Korean leaders in Seoul — **Hyundai E&C selected as EPC contractor** under a framework covering up to eight future Natrium reactors with completion, price and performance guarantees; **SK Innovation term sheet** to develop Korea's first commercial Natrium plant. ([TerraPower](https://www.terrapower.com/TerraPower-Accelerates-Natrium-Reactor-Deployment-Following-Landmark-Meetings-with-Korean-Leaders); [ANS](https://www.ans.org/news/2026-08-17/article-8297/xenergy-terrapower-share-updates-on-advanced-reactor-projects/))
+- **2026-06-16:** **TerraPower UK Ltd launched** — the company's first office outside the US — and **GDA Step 1 formally commences** for Natrium with ONR, the Environment Agency and Natural Resources Wales. Head of TerraPower UK: Dr. Ian Hudson. ([TerraPower](https://www.terrapower.com/TerraPower-Takes-Major-Step-Forward-in-UK-Deployment-with-launch-of-TerraPower-UK-and-Start-of-GDA-Step-1-for-Natrium-Reactor); [WNN](https://world-nuclear-news.org/articles/terrapowers-natrium-reactor-begins-uk-gda-process))
+- **2026-05-20:** **HD Hyundai Heavy Industries** named preferred manufacturer for Natrium Reactor Enclosure System components. ([TerraPower](https://www.terrapower.com/TerraPower-Announces-Key-Commercialization-Agreements-for-Natrium-Plants-with-Korean-Counterparts); [WNN](https://www.world-nuclear-news.org/articles/terrapower-and-hd-hyundai-sign-natrium-reactor-agreements))
+- **2026-04:** **Nuclear construction commences** at Kemmerer Unit 1 following NRC construction permit issuance — the first utility-scale advanced nuclear plant under construction in the US. ([ANS](https://www.ans.org/news/2026-04-24/article-7975/terrapower-begins-construction-on-natrium-power-plant-in-kemmerer/); [DOE](https://www.energy.gov/ne/articles/nrc-issues-construction-permit-terrapowers-natrium-advanced-reactor))
+- **2026-02:** UK DESNZ accepts the Natrium generic design assessment application (submitted October 2025).
+- **2026-01-09:** Meta agreement — up to 2.1 GW / six Natrium units, funding the first two 345 MW units. ([Utility Dive](https://www.utilitydive.com/news/meta-nuclear-deal-oklo-vistra-terrapower-ai-data-centers/809215/))
 - **2025-12:** NRC completes final safety evaluation for Kemmerer Unit 1 construction permit — ahead of accelerated schedule; no safety issues identified precluding construction permit. ([Wyoming Public Media](https://www.wyomingpublicmedia.org/natural-resources-energy/2025-12-02/terrapower-inches-closer-to-nuclear-construction-permit); [World Nuclear News](https://www.world-nuclear-news.org/articles/final-safety-evaluation-completed-for-wyoming-advanced-reactor))
 - **Late 2025:** NRC issues construction permit for Kemmerer Power Station Unit 1. ([ConstructConnect](https://news.constructconnect.com/nrc-issues-construction-permit-for-terrapowers-natrium-reactor-in-wyoming))
 - **2025-08:** Groundbreaking on Kemmerer Training Center (KTC) — 30,000 sqft operator training facility at the Kemmerer site. ([TerraPower](https://www.terrapower.com/terrapower-begins-construction-on-state-of-the-art-kemmerer-training-center))

@@ -240,6 +240,8 @@ Rules:
 - No semicolon-separated lists of every detail. Pick the 2–3 most important facts and stop.
 - No sub-bullets, continuation lines, or parenthetical elaborations.
 - For 5+ related entries, combine into a single compound entry with overview link first, then inline summaries.
+- A "major rewrite" or "major update" to a section index is not exempt from any of the above — compress it into the same single-line format (or compound-bulk format if it doubles as a multi-entry log). Never narrate it as flowing prose with semicolons stringing together every theme or change.
+- In a compound-bulk entry, each item's parenthetical is a 2–4 word fact, not a clause — no embedded corrections, caveats, or verification notes.
 - The entry file is the authoritative record — the changelog is just a navigable pointer, not a summary.
 - If you feel the urge to add more detail, don't. Cut it instead.
 
@@ -260,9 +262,10 @@ The changelog entry must be written during the same execution as entry creation.
 
 **Bad examples (do not do this):**
 - `- **2026-04-05:** Created \`quantum-computing/ionq.md\` — full IonQ entry covering Forte/Tempo hardware specs, FY2024/2025 revenue, Skyloom/SkyWater acquisitions, all-founder departures.` (bare filename, too long)
+- `- **2026-08-27:** Nuclear section major update — rewrote [Nuclear Energy Research]({{</* relref "energy/nuclear/_index.md" */>}}) index: split the deployment tracker into NRC-licensed, DOE-authorized criticality cohort, and pre-criticality tables; added seven Key Themes covering...; expanded supply chain notes with...; added XE/IMSR/FISN/LEU to the TradingView widget.` (prose paragraph narrating every change — a "major update" still gets 2–3 facts, not a summary of the whole edit)
 - Multi-line entries or sub-bullets (must be single line)
 - Missing date or relref links
-- Over 200 characters total (tight constraint forces summarization)
+- Over 200 characters total for a single-subject entry (tight constraint forces summarization); a compound-bulk entry may run longer, but only from added links, never from longer per-item facts
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Ground Drones & UGVs
 date: 2026-03-24
-lastmod: 2026-07-26
+lastmod: 2026-08-27
 draft: false
 description: Autonomous mobile robots, unmanned ground vehicles, and field robots — warehouse AMRs, outdoor platforms, and defense UGVs.
 research_area: "robotics/ground-drones"
@@ -28,6 +28,7 @@ The ground robot market splits into three commercially distinct segments that sh
 - Defense UGV programs (RCV, CRS-I, MTRS) as the funded leading edge of UGV technology
 - Sidewalk delivery robots at early commercial scale (Starship, Serve Robotics) — regulatory environment as key gating factor
 - Quadrupedal robots (Spot, Ghost Vision 60) finding real deployments in inspection and perimeter security
+- Defense-focused swarm UGV startups (Swarmbotics AI) emerging via Army innovation pathways (xTechOverwatch, Transformation in Contact) targeting cheap, attritable anti-armor and ISR platforms
 
 ## Companies
 
@@ -49,6 +50,8 @@ The ground robot market splits into three commercially distinct segments that sh
 | [Knightscope](https://www.knightscope.com) | Mountain View, CA, USA | Public (NASDAQ: KSCP) | Autonomous security robots (K1, K3, K5); RaaS model; cameras, ALPR, thermal sensors; >50 deployments. |
 | [Milrem Robotics](https://milremrobotics.com) | Tallinn, Estonia | Private (EDGE Group majority) | THeMIS tracked UGV; widely deployed in NATO countries; Mission Master light combat variant. |
 | [Stratom](https://www.stratom.com) | Louisville, CO, USA | Private (SDVOSB) | Autonomous cargo movement (APL, XCL), robotic refueling (RAPID), Summit off-road autonomy, CBRN decontamination robotics; US Army/Air Force/Marine Corps customers. |
+| [Swarmbotics AI](https://www.swarmbotics.ai/) | Phoenix, AZ, USA | Private (Pre-Seed) | FireAnt anti-armor sUGV + HaulAnt hybrid-electric platform under the ANTS swarm system; selected for US Army Transformation in Contact program with 1st Cavalry Division (Feb 2026). |
+| [Sentinel Robotics](https://sentinelrobotic.com/) | New Zealand (unconfirmed) | Private (pre-seed pitch stage; **stub entry — largely self-sourced**) | "Project Sentinel" autonomous kinetic pest-control sentry (12ga "Sentinel" + .22 cal "Sentinel mini") targeting feral hogs; also runs a self-modeled feral hog population dataset effort. **Do not confuse with the unrelated Cluj-Napoca aerial UAV company of the same name.** |
 
 ### Public Companies
 

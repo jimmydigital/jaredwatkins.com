@@ -10,7 +10,7 @@ source_urls:
   - "https://www.gevernova.com/news/press-releases/ge-vernova-hitachi-bwrx-300-small-modular-reactor-approved-construction-province-ontario-opg"
   - "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/"
   - "https://www.ans.org/news/2025-04-09/article-6922/ontario-power-generation-issues-license-to-build-an-smr-at-darlington/"
-last_reviewed: 2026-03-25
+last_reviewed: 2026-08-27
 stale_after_days: 90
 related:
   - "energy/nuclear/_index.md"
@@ -39,12 +39,19 @@ GE Vernova Hitachi Nuclear Energy (GEH) is a joint venture between GE Vernova an
   - Commercial operation target: **End of 2029**
   - Series commitment: Up to 4 units at Darlington; Unit 1 first
   - Financing: Canada Growth Fund + Building Ontario Fund equity commitment (October 2025)
-- **US deployment — TVA:**
-  - Tennessee Valley Authority applying for NRC Early Site Permit at Clinch River site (Oak Ridge, TN) for potential BWRX-300 deployment
-  - Not yet at construction permit stage in the US
+- **US deployment — TVA Clinch River (UPDATED — significant 2026 progress):**
+  - NRC draft safety evaluation **January 16, 2026**; final SEIS **April 6, 2026**; advanced SER **May 29, 2026**; **Final Safety Evaluation Report June 25, 2026**; **mandatory hearing held August 13, 2026**; **construction permit decision targeted Fall 2026**
+  - NRC staff **recommended issuance** of the construction permit, finishing ahead of the November projection with review hours cut from ~25,000 to ~16,500. ACRS flagged items for the operating-licence stage, notably **natural-circulation stability testing at startup and low power**
+  - **⚑ The permit had NOT been issued as of August 27, 2026.** A staff recommendation plus a completed mandatory hearing is not a permit
+- **US deployment — Blue Energy "gas-plus-nuclear," Victoria TX (NEW):**
+  - **August 13, 2026** agreement with [Blue Energy]({{< relref "blue-energy.md" >}}) advancing a **2.5 GW** project to the engineering, licensing and safety-analysis phase
+  - **Two GE Vernova 7HA.02 gas turbines (~1 GW, COD 2030)** plus **up to five BWRX-300s (~1.5 GW, COD from 2032)**; initial offtake is a nearby data center
+  - **FID targeted 2027.** Licensing pathway not specified in the announcement
 - **International pipeline:** Active licensing/siting in Poland (ORLEN Synthos Green Energy), UK (multiple utilities), Sweden (Vattenfall), Estonia (Fermi Energia), Czech Republic, Romania
 - **Fuel:** Standard low-enriched uranium (LEU) — established global supply chain; no HALEU dependency
 - **EPC contractor:** Not yet named for Darlington Unit 1 (GEH serves as technology provider; OPG is owner-operator and will select EPC)
+- **European supply chain (NEW):** **June 17, 2026** — expanded collaboration with **Velan** covering Reactor Integral Isolation Valves (RIIV) and Containment Isolation Valves (CIV) for European BWRX-300 deployments, explicitly including **Poland** (ORLEN Synthos Green Energy, at least 24 units planned), building on Velan's Darlington work. Value and delivery dates not disclosed
+- **Darlington construction progress (2026):** TBM "Harriet Brooks" arrived on site in July; on-site pre-assembly and fabrication buildings complete; DPSC structural steel modules in offsite production with first basemat deliveries underway; excavation continuing on the reactor building, forebay and cooling-water launch shafts; site grading complete for three further units. A 3.4 km condenser cooling-water tunnel is to be bored; the reactor building basemat sits 35 m below grade
 
 ## What It Is / How It Works
 
@@ -62,6 +69,11 @@ GE Vernova Hitachi Nuclear Energy (GEH) is a joint venture between GE Vernova an
 
 ## Notable Developments
 
+- **2026-08-13:** **Blue Energy and GE Vernova Hitachi sign an agreement launching the next phase** of the 2.5 GW Victoria, Texas gas-plus-nuclear project — two 7HA.02 gas turbines (~1 GW, COD 2030) plus up to five BWRX-300s (~1.5 GW, COD from 2032); FID targeted 2027. ([GE Vernova](https://www.gevernova.com/news/press-releases/blue-energy-ge-vernova-hitachi-launch-next-phase-gas-plus-nuclear-project); [WNN](https://www.world-nuclear-news.org/articles/blue-energy-ge-vernova-take-gas-plus-nuclear-collaboration-to-next-stage); [POWER](https://www.powermag.com/texas-2-5-gw-gas-plus-nuclear-project-proceeds-to-engineering-licensing-phase/))
+- **2026-08-13:** NRC holds the **mandatory hearing** on TVA's Clinch River construction permit; decision targeted Fall 2026. ([NRC](https://www.nrc.gov/reactors/new-reactors/advanced/who-were-working-with/applicant-projects/clinch-river))
+- **2026-06-25:** NRC issues the **Final Safety Evaluation Report** for Clinch River, with staff recommending issuance of the construction permit — completed ahead of schedule and under budgeted review hours. ([ANS](https://www.ans.org/news/2026-07-01/article-8174/clinch-river-construction-permit-recommendation-follows-safety-evaluation/))
+- **2026-06-17:** **Velan collaboration expanded** to reactor integral and containment isolation valves for European BWRX-300 projects, including Poland's OSGE programme (≥24 units). ([GE Vernova](https://www.gevernova.com/news/press-releases/ge-vernova-hitachi-velan-expand-collaboration-support))
+- **2026:** Darlington Unit 1 construction advances — TBM on site, basemat deliveries underway, shaft excavation continuing; first unit targeted end of decade. ([NEI](https://www.neimagazine.com/news/darlington-advances-first-smr-unit/); [ANS](https://www.ans.org/news/article-8047/north-american-construction-is-back-smaller-and-faster-at-opgs-darlington/))
 - **2025-10:** Canada Growth Fund and Building Ontario Fund commit equity financing for Darlington New Nuclear Project; DNNP Limited Partnership formed. ([OPG](https://www.opg.com/news/opg-announces-equity-financing-partnership-for-new-nuclear-project-at-darlington/))
 - **2025-05-08:** Province of Ontario grants final construction approval — Minister of Energy and Mines authorizes OPG to begin construction. ([GE Vernova](https://www.gevernova.com/news/press-releases/ge-vernova-hitachi-bwrx-300-small-modular-reactor-approved-construction-province-ontario-opg))
 - **2025-04-04:** CNSC issues construction license for Darlington SMR Unit 1 — first grid-scale SMR construction license in North America. ([ANS Nuclear Newswire](https://www.ans.org/news/2025-04-09/article-6922/ontario-power-generation-issues-license-to-build-an-smr-at-darlington/))

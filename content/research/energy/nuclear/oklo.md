@@ -10,7 +10,7 @@ source_urls:
   - "https://oklo.com/newsroom/news-details/2025/Oklo-Advances-Licensing-with-Completion-of-NRC-Readiness-Assessment/default.aspx"
   - "https://www.datacenterdynamics.com/en/news/oklo-boosts-aurora-reactor-capacity-to-75mw-to-power-ai-data-centers/"
   - "https://www.utilitydive.com/news/oklo-aurora-smr-advanced-nuclear-reactor-supply-agreement-data-center-developer-switch/735933/"
-last_reviewed: 2026-03-25
+last_reviewed: 2026-08-27
 stale_after_days: 90
 related:
   - "energy/nuclear/_index.md"
@@ -29,6 +29,7 @@ Oklo (NYSE: OKLO) is a Santa Clara, California advanced fission company developi
 - **Founded:** 2013
 - **HQ:** Santa Clara, CA
 - **Type:** Public (NYSE: OKLO); went public via SPAC May 2024
+- **Balance sheet (Q2 2026):** $3.0B cash and marketable securities at June 30, 2026; stockholders' equity $3.3B; YTD net loss $81.6M; YTD revenue $1.2M; accumulated deficit $322.4M; 2026 capex guidance raised to $400–500M
 - **Chairman:** Sam Altman (CEO of OpenAI; co-founder of SPAC that merged with Oklo)
 - **CEO / Co-Founder:** Jacob DeWitte
 - **Co-Founder / COO:** Caroline Cochran
@@ -41,8 +42,18 @@ Oklo (NYSE: OKLO) is a Santa Clara, California advanced fission company developi
 - **Flagship deployment:** Aurora Unit 1 at Idaho National Laboratory (INL)
   - Groundbreaking: **September 2025**
   - Constructor: **Kiewit** (announced as lead constructor)
-  - NRC status: New Combined License Application in preparation; Phase 1 COLA submission planned 2025; NRC completed pre-application readiness assessment 2025
-  - Commercial operation target: **Late 2027 or early 2028**
+  - NRC status: **No COLA is publicly docketed as of Aug 2026.** The NRC's Aurora page still reflects the March 2020 custom COLA denied without prejudice in January 2022 and is no longer updated. Oklo is rebuilding its NRC path via topical reports — the **Principal Design Criteria topical report was approved May 6, 2026** in under half the normal review time and is referenceable in future applications. Company materials reference a planned Aurora-OH site-specific COLA (company-sourced, uncorroborated)
+  - Construction status (Aug 2026): site mobilization underway; excavation for the reactor area near completion
+  - DOE authorization: Nuclear Safety Design Agreement approved March 2026; **Preliminary Documented Safety Analysis approved June 11, 2026**; final DSA approval and a readiness review still ahead of startup authorization
+  - Commercial operation target: **2028** (company guidance as of Q2 2026)
+- **Groves Isotope Test Reactor — Lockhart, TX (NEW):**
+  - **First criticality August 5–6, 2026** — sources disagree on the date (Oklo's press release and ANS say Aug 6 at 9:19 p.m. EDT; DOE, NucNet and Oklo's own Q2 slides say Aug 5)
+  - 15 MWt **pool-type, water-cooled, non-pressurized** test reactor on a private greenfield site south of Austin; built by Oklo subsidiary **Atomic Alchemy**
+  - Purpose: isotope production test platform for health care, industry, research, space and national security
+  - **Fifth** DOE-authorized reactor to reach criticality under the Reactor Pilot Program and the **first on private land**; greenfield to criticality in ~11 months
+  - **No published power-ascension schedule or isotope-production start date**
+- **ARMEC acquisition:** closed June 4, 2026, announced June 8 — precision machining, prototyping, fabrication and inspection firm in **Oak Ridge, TN**, ~40 engineers/machinists/welders/technicians, ~two decades in nuclear. **Terms not disclosed**
+- **Aurora Fuel Fabrication Facility (A3F):** equipment in production; startup planned 2027 to fabricate the first Aurora-INL core load using recovered EBR-II material. NSDA approved Nov 2025; PDSA approved Dec 2025
 - **Order book:** ~18 GW (predominantly nonbinding LOIs / framework agreements)
   - Named customers: Meta (~15 GW Master Power Agreement + other agreements), Switch (12 GW supply agreement), Equinix (LOI), Wyoming Hyperscale (100 MW, 20-yr PPA), Prometheus Hyperscale (LOI), Diamondback Energy (LOI)
 - **Vertiv partnership:** July 2025 — strategic collaboration to co-develop integrated power and thermal management systems for hyperscale/colo datacenters; Oklo provides electricity and high-temperature steam; Vertiv provides thermal management and power distribution
@@ -64,6 +75,12 @@ Oklo (NYSE: OKLO) is a Santa Clara, California advanced fission company developi
 
 ## Notable Developments
 
+- **2026-08-05/06:** **Groves Isotope Test Reactor achieves first criticality** at Lockhart, TX — fifth DOE-authorized reactor critical under the Reactor Pilot Program and the first on private land; greenfield to criticality in under a year. ([ANS](https://www.ans.org/news/article-8277/oklos-isotope-test-reactor-achieves-criticality/); [DOE](https://www.energy.gov/ne/articles/office-nuclear-energy-celebrates-fifth-advanced-reactor-criticality); [POWER](https://www.powermag.com/oklos-groves-becomes-fifth-doe-pilot-reactor-to-reach-criticality-first-on-private-land/))
+- **2026-08:** Q2 2026 results — $3.0B cash and marketable securities; YTD net loss $81.6M on $1.2M revenue; 2026 capex guidance raised to $400–500M; Meta and Equinix have both made advance payments. ([Q2 slides](https://www.investing.com/news/company-news/oklo-q2-2026-slides-first-criticality-achieved-3b-liquidity-93CH-4846923))
+- **2026-06-11:** DOE approves the **Preliminary Documented Safety Analysis** for the Aurora Powerhouse at INL — a DOE Reactor Pilot Program authorization step, **not** an NRC licence. ([Oklo](https://oklo.com/newsroom/news-details/2026/U-S--Department-of-Energy-Approves-Preliminary-Documented-Safety-Analysis-for-Aurora-Powerhouse-at-Idaho-National-Laboratory/default.aspx); [WNN](https://www.world-nuclear-news.org/articles/doe-approval-milestone-for-oklo-reactor))
+- **2026-06-08:** **Acquires ARMEC** (closed June 4), an Oak Ridge, TN precision manufacturing and engineering firm with ~40 staff — vertical integration for advanced reactor and fuel-manufacturing programs. Terms not disclosed. ([BusinessWire](https://www.businesswire.com/news/home/20260608510049/en/Oklo-Acquires-ARMEC-to-Expand-Vertically-Integrated-Manufacturing-Capabilities-for-Advanced-Reactor-and-Fuel-Manufacturing-Programs))
+- **2026-05-06:** NRC approves Oklo's **Principal Design Criteria topical report** for Aurora-INL — accepted in 15 days, reviewed in under half the normal time. ([Oklo](https://oklo.com/newsroom/news-details/2026/Oklos-NRC-Principal-Design-Criteria-Topical-Report-Approved-for-Aurora-Powerhouse-in-Idaho/default.aspx))
+- **2026-03:** DOE approves the Nuclear Safety Design Agreement for Aurora-INL. **2026-01-09:** Meta agreement supporting 1.2 GW of nuclear development in Pike County, Ohio. ([Utility Dive](https://www.utilitydive.com/news/meta-nuclear-deal-oklo-vistra-terrapower-ai-data-centers/809215/))
 - **2025-09:** Groundbreaking at INL for first Aurora powerhouse; Kiewit announced as lead constructor. ([Oklo newsroom](https://oklo.com/newsroom/))
 - **2025-07:** Oklo and Vertiv announce strategic collaboration for integrated nuclear power + thermal management systems for hyperscale datacenters. ([Power Engineering](https://www.power-eng.com/nuclear/oklo-advances-dual-alliances-targeting-data-center-and-industrial-power-needs/))
 - **2025-07:** Three nonbinding agreements for ~4,750 MW with datacenter operators; total order book reaches ~18 GW.

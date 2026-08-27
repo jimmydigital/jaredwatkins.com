@@ -1,7 +1,7 @@
 ---
 title: "NuCube Energy"
 date: 2026-08-18
-lastmod: 2026-08-18
+lastmod: 2026-08-27
 draft: false
 description: "Idealab Studio-founded microreactor startup (Pasadena, CA HQ; Idaho Falls and Phoenix, AZ operations); co-founded 2023 by Bill Gross and CEO Dr. Cristian Rabiti; TRISO-fueled, heat-pipe-cooled high-temperature microreactor (up to 1,100°C) reported as either 4 MWth (ISU ART Reactor platform) or 15 MW in different sources; $13M raised (Feb 2026, Arizona Nuclear Ventures); DOE GAIN voucher with Argonne for remote-operations validation; selected for DOE's Nuclear Energy Launch Pad USA pathway (Apr 2026) with Idaho State University to deploy the Advanced Research and Test (ART) Reactor at ISU's Pocatello campus."
 research_area: "energy/nuclear"
@@ -13,7 +13,7 @@ source_urls:
   - "https://www.nucube.energy/"
   - "https://www.ans.org/news/article-7988/doe-selects-first-companies-for-nuclear-launch-pad/"
   - "https://inl.gov/news-release/national-reactor-innovation-center-announces-first-selections-for-nuclear-energy-launch-pad/"
-last_reviewed: 2026-08-18
+last_reviewed: 2026-08-27
 stale_after_days: 90
 related:
   - "energy/nuclear/_index.md"

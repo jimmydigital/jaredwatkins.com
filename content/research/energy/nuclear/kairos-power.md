@@ -10,7 +10,7 @@ source_urls:
   - "https://kairospower.com/external_updates/kairos-power-begins-nuclear-construction-of-hermes-demonstration-reactor/"
   - "https://kairospower.com/external_updates/google-kairos-power-tva-collaborate-to-meet-americas-growing-energy-needs"
   - "https://blog.google/outreach-initiatives/sustainability/google-first-advanced-nuclear-reactor-project-with-kairos-power-and-tennessee-valley-authority/"
-last_reviewed: 2026-03-25
+last_reviewed: 2026-08-27
 stale_after_days: 90
 related:
   - "energy/nuclear/_index.md"
@@ -34,7 +34,10 @@ Kairos Power is an Alameda, California Gen IV nuclear developer founded in 2016.
 - **Fuel type:** TRISO (Tri-structural ISOtropic) fuel pebbles — ceramic-coated uranium fuel particles embedded in graphite pebbles; manufactured by BWXT
 - **Coolant:** Liquid fluoride salt (flibe — lithium-beryllium fluoride); not water; operates at atmospheric pressure
 - **Temperature:** Outlet temperature ~600°C (higher than LWR at ~330°C); enables higher thermal efficiency and potential industrial process heat applications
-- **Hermes (demonstration reactor):** Low-power demonstration reactor, <35 MWth; at East Tennessee Technology Park, Oak Ridge TN; nuclear safety-related construction commenced **May 8, 2025**; NRC construction permit granted November 2023
+- **Hermes (demonstration reactor):** Low-power demonstration reactor, 35 MWth; at East Tennessee Technology Park, Oak Ridge TN; nuclear safety-related construction commenced **May 8, 2025**; NRC construction permit granted November 2023. **⚑ NRC extended the latest construction-completion date from December 31, 2026 to April 30, 2029 (April 2026)** — a 28-month extension granted on first-of-a-kind design and construction grounds. Operation now expected **2028**
+- **Hermes 2 construction:** Began **April 2026** under a research-and-test-reactor permit; targeted completion **2030**
+- **HALEU:** Contract for Hermes HALEU finalized January 2026
+- **Construction methods:** Electron-beam welding of reactor vessels; 3D-printed polymer-composite formwork; precast panels with sinusoidal grout-free joints
 - **Hermes 2 (first commercial unit):** 50 MW electric (upgraded from original 28 MW); at Oak Ridge; commercial operation targeted **2030**
 - **Google PPA:** 500 MW of advanced nuclear capacity by 2035; supplied to TVA grid powering Google datacenters in Tennessee and Alabama; first US utility PPA for a Gen IV reactor (announced August 2025)
 - **TVA role:** Purchases Hermes 2 power under PPA; distributes to Google loads; first utility to sign a Gen IV nuclear PPA in the US
@@ -53,6 +56,11 @@ Kairos Power is an Alameda, California Gen IV nuclear developer founded in 2016.
 
 ## Notable Developments
 
+- **2026-08-18:** Launches **NuCAMP** — the Nuclear Center for Advanced Manufacturing and Precast — with ORNL, UT-Knoxville, Roane State CC, Chattanooga State CC and industry partners including **Samsung C&T** and **Barnard Construction**. First-year focus: precast concrete for nuclear structures and electron-beam welding; adds two UTK master's programmes and community-college training. ([teknovation](https://www.teknovation.biz/kairos-power-launches-nucamp/); [WATE](https://www.wate.com/news/top-stories/creating-a-blueprint-kairos-power-ornl-to-train-workers-for-nuclear-renaissance/))
+- **2026-06-01:** ANS feature on Kairos's construction approach — Hermes (35 MWt) expected operational **2028**; Hermes 2 (50 MWe) construction began April 2026, targeted completion 2030. ([ANS](https://www.ans.org/news/2026-06-01/article-8048/breaking-ground-on-a-new-approach-to-construction/))
+- **2026-04-22:** ⚑ **NRC extends the Hermes 1 latest construction-completion date from Dec 31, 2026 to April 30, 2029** — a 28-month extension. ([WNN](https://world-nuclear-news.org/articles/regulator-extends-hermes-1-reactor-construction-deadline); [Federal Register](https://www.federalregister.gov/documents/2026/05/18/2026-09880/in-the-matter-of-kairos-power-llc-hermes-test-reactor-extension-of-latest-date-for-completion-of))
+- **2026-04:** Hermes 2 construction begins under a research-and-test-reactor permit.
+- **2026-01-22:** Finalizes the HALEU contract for Hermes. ([ANS](https://www.ans.org/news/2026-01-22/article-7690/kairos-power-finalizes-contract-on-haleu-for-hermes/))
 - **2025-08:** Google, TVA, and Kairos announce three-way PPA — TVA to purchase Hermes 2 output (50 MW) for Google datacenters; first US utility PPA for Gen IV nuclear; targeted operation 2030. ([Kairos Press Release](https://kairospower.com/external_updates/google-kairos-power-tva-collaborate-to-meet-americas-growing-energy-needs); [Google Blog](https://blog.google/outreach-initiatives/sustainability/google-first-advanced-nuclear-reactor-project-with-kairos-power-and-tennessee-valley-authority/))
 - **2025-05-08:** First nuclear safety-related concrete poured for Hermes reactor at Oak Ridge — formal start of nuclear construction; first non-water-cooled reactor to begin nuclear construction in the US in over 50 years. ([Kairos Press Release](https://kairospower.com/external_updates/kairos-power-begins-nuclear-construction-of-hermes-demonstration-reactor/))
 - **2023-11:** NRC issues construction permit for Hermes — the first construction permit issued for a non-LWR advanced reactor in the US.

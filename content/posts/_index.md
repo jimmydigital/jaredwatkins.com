@@ -1,7 +1,7 @@
 ---
 title: Posts
 date: 2026-04-04
-lastmod: 2026-08-12
+lastmod: 2026-08-26
 draft: false
 description: Personal writing on technology, aviation, projects, and whatever else is worth saying.
 sitemap:
@@ -88,7 +88,7 @@ There is no mandatory template, but good posts generally follow this loose shape
 
 ### Writing Style Details
 
-**Sentence rhythm:** Vary it. Short punchy sentences work for emphasis. Longer sentences work for explaining something with multiple moving parts, as long as they don't lose the thread. Short declaratives carry the argument; momentum sentences carry the evidence. A long sentence is good when it drives, piling facts with commas toward a point. What's banned is the balanced multi-clause sentence that goes nowhere. One-or-two-word verdict sentences ("Wrong." "Probably not.") land because they're rare, so keep them rare. Ellipses (`...`) are a natural conversational pause marker in this voice. Avoid em-dashes (`—`) and double hyphens (`--`) entirely. Instead use commas for brief interjections, parentheses for side comments, or break into separate sentences. For ranges, use "to" instead of dashes: write "5 to 10" not "5--10" or "5–10".
+**Sentence rhythm:** Vary it. Short punchy sentences work for emphasis. Longer sentences work for explaining something with multiple moving parts, as long as they don't lose the thread. Short declaratives carry the argument; momentum sentences carry the evidence. A long sentence is good when it drives, piling facts with commas toward a point. What's banned is the balanced multi-clause sentence that goes nowhere. For ranges, use "to" instead of dashes: write "5 to 10" not "5--10" or "5–10".  Write as if you are talking directly to one intelligent friend. Use natural conversational language, occasional short sentences, and smooth transitions. Prioritize connection and clarity over perfect grammar or formal writing. Organize content by showing how a real person would think through the topic. Include observations, tradeoffs, questions, doubts, and insights where relevant. Make the writing feel thoughtful rather than perfectly polished. Replace vague claims with specific details, realistic examples, practical explanations, and natural language that builds trust without sounding promotional.
 
 **Parenthetical digressions:** These are a feature, not a bug. If there's a relevant aside that would interrupt the main flow, drop it in parentheses. Don't avoid them in the name of clean prose.
 
@@ -105,6 +105,8 @@ There is no mandatory template, but good posts generally follow this loose shape
 For posts making factual claims that might read as surprising or hard to believe, inline linking directly on the claim is preferred over footnotes or a sources section -- but use it selectively. A figure like "$115 billion" with a link on it is the right pattern: the link is the citation, it doesn't interrupt the prose, and it signals to the reader that the number is real without making a big deal of it. Aim for a handful of these per post at most. Not every claim needs a source, and a post with 20+ links loses the effect entirely. Reserve inline source links for the claims a skeptical reader is most likely to raise an eyebrow at.
 
 **Images:** Use them when they add something. Float right with a caption (`{{< figure src="..." caption="..." class="right" >}}` or equivalent) is the established pattern for inline images.
+
+
 
 ---
 
@@ -162,6 +164,7 @@ description: "One sentence that accurately describes what the post is about."
 
 ### What to Avoid
 
+- Avoid em-dashes (`—`) and double hyphens (`--`) entirely. Instead use commas for brief interjections, parentheses for side comments, or break into separate sentences.
 - **Neutral, bloodless tone.** If the post could have been written by a committee, rewrite it. There should be a discernible point of view.
 - **Over-hedging.** "It might be possible that in some cases..." is usually covering for not having a real position. If Jared thinks something is wrong, say it's wrong and explain why.
 - **Padding to hit a length target.** If the idea is done at 350 words, the post is done. The length range is a target for underdeveloped ideas, not a floor to fill.
@@ -174,7 +177,11 @@ description: "One sentence that accurately describes what the post is about."
 - **Cheekiness.** If a line's main job is to be liked, cut it. The humor works because it's underplayed.
 - **Flowery vocabulary** where a plain word exists. An unusual or coined word is fine about once per post, only where no plain word does the job.
 - **"Genuine" / "genuinely."** Never use this word or any form of it in post body text -- it reads as overly formal and is a reliable tell. Say "actually," "really," cut it, or just state the claim without the qualifier.
+- **Swipes at an imagined adversary.** Headers and sentences that define the work by what it refuses to trust: "without trusting a marketing deck," "no hand-waving," "the numbers nobody wants you to see." Describe the thing plainly instead. "Getting tokens per second without trusting a marketing deck" should be "Getting tokens per second with incomplete data." The skepticism belongs in the analysis, not in the label on it.
 - **"It's not X, it's Y" construction.** This includes variants like "that's not X, it's Y" and "not X. That's Y" as two sentences. It's an AI slop tell -- overused as a cheap rhetorical contrast. State the point directly instead of setting up a straw version to knock down.
+- Do not ask a question and then immediately answer it as a hook just state the point directly.
+- Avoid generic essay and blog phrases like 'In today's fast-paced world', 'as we navigate the complexities', or 'in conclusion'
+- Do not use these words and phrases unless I explicitly include them in my input: amazing, facinating, must-read, fast-moving, cut through the hype/noise, groundbreaking, pivotal, dive into, delve, embark, endeavour, realm, tapestry, surprisingly, simply, neatly, the best part, real magic happens, recipe for disaster, thrive.
 
 ---
 

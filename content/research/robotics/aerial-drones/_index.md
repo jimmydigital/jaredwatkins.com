@@ -1,7 +1,7 @@
 ---
 title: Aerial Drones
 date: 2026-03-24
-lastmod: 2026-03-24
+lastmod: 2026-08-27
 draft: false
 description: Commercial, industrial, and defense unmanned aerial vehicles — platform OEMs, component suppliers, and the supply chain connecting them.
 research_area: "robotics/aerial-drones"
@@ -43,6 +43,7 @@ The commercial drone industry is dominated by a single vertically integrated Chi
 | [Joby Aviation](https://www.jobyaviation.com) | Santa Cruz, CA, USA | Public (NYSE: JOBY) | eVTOL air taxi; FAA type certificate process ongoing; Toyota, Delta, and US Air Force partnerships. |
 | [Archer Aviation](https://archer.com) | San Jose, CA, USA | Public (NYSE: ACHR) | eVTOL air taxi; Midnight aircraft; United Airlines launch partner; DoD AGILITY Prime participant. |
 | [Autel Robotics](https://www.autelrobotics.com) | Bothell, WA, USA (parent: China) | Private | Consumer and enterprise drones; EVO II series; US-registered subsidiary of Autel Intelligent Technology (Shenzhen). |
+| [Sentinel Robotics]({{< relref "sentinel-robotics.md" >}}) | Cluj-Napoca, Romania | Private (undisclosed; **stub entry — unverified**) | Dual-use tactical reconnaissance and industrial monitoring UAVs; onboard edge-AI visual navigation for GPS-denied, telemetry-independent operation; "sovereign" EU manufacturing positioning. **No independent coverage, funding, team, or specifications identified — all claims company-sourced.** |
 
 ### Public Companies
 

@@ -1,7 +1,7 @@
 ---
 title: "Deployable Energy"
 date: 2026-08-18
-lastmod: 2026-08-18
+lastmod: 2026-08-27
 draft: false
 description: "Houston microreactor startup; founded 2025 by Bobby Gallagher; Unity Nuclear Battery (UNB) — 1 MWe gas-cooled microreactor built for container-scale transport; reached criticality at Idaho National Laboratory June 30, 2026 (~150 days from kickoff), third US reactor under DOE's Reactor Pilot Program; $22.5B GridMarket data center pipeline, Solaris Energy Infrastructure and Hornbeck Offshore strategic investments (Aug 2026)."
 research_area: "energy/nuclear"
@@ -22,7 +22,7 @@ source_urls:
   - "https://news.utexas.edu/2026/07/23/betting-on-nuclear/"
   - "https://atomicinsights.com/atomic-show-345-bobby-gallagher-ceo-deployable-energy/"
   - "https://www.zerohedge.com/energy/advanced-us-nuclear-battery-deal-targets-3000-mw-power-225-billion-pipeline"
-last_reviewed: 2026-08-18
+last_reviewed: 2026-08-27
 stale_after_days: 90
 related:
   - "energy/nuclear/_index.md"
@@ -68,6 +68,8 @@ Deployable Energy is a Houston, Texas microreactor startup founded in 2025 by CE
 
 ## Notable Developments
 
+- **2026-08-17:** **Hornbeck Offshore** MOU **plus a strategic investment** (amount not disclosed). Joint working group on vessel integration, economics, licensing, financing and commercial structures across five target markets: inland waterways; offshore vessels and platforms; national-security logistics and autonomous vessels; power barges; and floating data centers. Stated ambition: **multi-GW over a 10-year horizon** and **≥20% TCO reduction** versus marine diesel or grid power. ([PRNewswire](https://www.prnewswire.com/news-releases/deployable-energy-and-hornbeck-offshore-partner-to-advance-maritime-nuclear-power-302853030.html); [Marine Log](https://www.marinelog.com/technology/hornbeck-offshore-in-mou-with-nuclear-start-up-deployable-energy/))
+- **2026-08-10:** **Solaris Energy Infrastructure** strategic investment and commercialization collaboration — targeting defense, industrial and digital infrastructure/data center markets. Amount not disclosed; disclosed by Solaris via 8-K exhibit. ([PRNewswire](https://www.prnewswire.com/news-releases/deployable-energy-welcomes-strategic-investment-and-commercialization-collaboration-with-solaris-energy-infrastructure-302847122.html))
 - **2026-08-17:** Signed MOU with Hornbeck Offshore, which also made a strategic equity investment in the company, targeting five maritime/offshore markets for Unity deployment (inland waterways, offshore vessels/platforms, national security logistics, power barges, floating data centers); joint working group targets ≥20% total-cost-of-ownership reduction vs. diesel/grid power over 10 years at multi-gigawatt scale. ([PR Newswire](https://www.prnewswire.com/news-releases/deployable-energy-and-hornbeck-offshore-partner-to-advance-maritime-nuclear-power-302853030.html))
 - **2026-08-10:** Solaris Energy Infrastructure (NYSE: SEI) announced a strategic equity investment and commercialization collaboration to advance Unity toward mission-critical defense, industrial, and digital-infrastructure applications; investment amount not disclosed. ([PR Newswire](https://www.prnewswire.com/news-releases/deployable-energy-welcomes-strategic-investment-and-commercialization-collaboration-with-solaris-energy-infrastructure-302847122.html))
 - **2026-07-07:** Announced partnership with GridMarket targeting a $22.5 billion, 40-year ($145B total contract value per some reporting) pipeline to supply data center, cloud, and industrial customers; goal of 3+ GW of Unity capacity by 2035, ramping at ~500 MW/year from 2030–2035.
