@@ -11,7 +11,7 @@ I never drank coffee before about three years ago, but I've been roasting and br
 
 <!--more-->
 
-Actually, we didn't get serious about coffee until we moved to the Dallas suburbs. There was this fantastic specialty roaster there, [Addison Roasters](https://www.addisoncoffee.com/), that carried single-origin coffees from all over the world. At any given time you could walk in and find a dozen or more different single origins available by the pound. I got fascinated by the regional differences, what makes something specialty grade, the whole business side of it. I wasn't roasting coffee myself yet (or even drinking it, really)—just buying the good stuff and learning. I also picked up a few books on the subject. 
+Actually, we didn't get serious about coffee until we moved to the Dallas suburbs. There was this fantastic specialty roaster there, [Addison Roasters](https://www.addisoncoffee.com/), that carried single-origin coffees from all over the world. At any given time you could walk in and find a dozen or more different single origins available by the pound. I got fascinated by the regional differences, what makes something specialty grade, the whole business side of it. I wasn't roasting coffee myself yet (or even drinking it, really), just buying the good stuff and learning. I also picked up a few books on the subject. 
 
 ## Pandemic Opportunity
 
@@ -36,7 +36,7 @@ I've been following [Coffee Crafters](https://coffeecrafters.com/) for years as 
 
 ## The Airflow Problem and My Fix
 
-Here's the thing I've dealt with on both machines: airflow control during the roast is finicky. As beans lose density and expand, they float differently in the air, and the rate of heat transfer changes. The idea is simple: start at max airflow, dial it back as the beans dry and expand to maintain a sufficient loft without blowing beans out the top. It also helps you manage the transition from the drying phase to the development phase and you get faster roasts and better flavors.
+Airflow control during the roast is finicky on both machines. As beans lose density and expand, they float differently in the air, and the rate of heat transfer changes. The idea is simple: start at max airflow, dial it back as the beans dry and expand to maintain a sufficient loft without blowing beans out the top. It also helps you manage the transition from the drying phase to the development phase and you get faster roasts and better flavors.
 
 Roasting temperature matters most (I aim for 415F for most beans), but the roast length and airflow management matter too. You want to hit temperature fast without over-extending the roast (baking the beans).
 

@@ -26,7 +26,7 @@ Before getting into hardware, it's worth naming what you're actually building. A
 
 ## Hardware tiers
 
-{{< figure src="macStudioStack.jpg" caption="A small Mac Studio cluster — the kind of thing that fits on a shelf and serves a 5 to 15 person team." class="right" width="60%">}}
+{{< figure src="macStudioStack.jpg" caption="A small Mac Studio cluster, the kind of thing that fits on a shelf and serves a 5 to 15 person team." class="right" width="60%">}}
 
 ### Tier 1: High-memory single server ($5K to $25K)
 
@@ -127,7 +127,7 @@ To enable it, you boot each Mac into recovery mode, run `rdma_ctl enable` in Ter
 
 The hardware constraint to understand is Thunderbolt topology. Thunderbolt 5 switches don't exist. Every Mac has to be directly cabled to every other Mac. Right now the practical ceiling is four nodes, in a full-mesh where each machine has a direct TB5 connection to all the others. You also can't use the Thunderbolt 5 port adjacent to the Ethernet port on the Mac Studio back panel for RDMA, and all machines in the cluster need to run the exact same macOS version (including minor beta numbers) or the RDMA discovery breaks.
 
-Jeff Geerling benchmarked a [4-node cluster of M3 Ultra Mac Studios](https://www.jeffgeerling.com/blog/2025/15-tb-vram-on-mac-studio-rdma-over-thunderbolt-5) using Apple loaner hardware (two at 512GB, two at 256GB — configurations that aren't available to buy; the current M3 Ultra tops out at 96GB) using exo with RDMA and got:
+Jeff Geerling benchmarked a [4-node cluster of M3 Ultra Mac Studios](https://www.jeffgeerling.com/blog/2025/15-tb-vram-on-mac-studio-rdma-over-thunderbolt-5) using Apple loaner hardware (two at 512GB, two at 256GB, configurations that aren't available to buy; the current M3 Ultra tops out at 96GB) using exo with RDMA and got:
 
 | Model | Parameters | Active params | Cluster tok/s |
 |---|---|---|---|
@@ -281,12 +281,12 @@ Two 8x H100 SXM nodes ($400K to $640K in hardware depending on configuration), N
 
 Capacity: 100+ concurrent users. Multi-tenant MSP with multiple business clients. Enough headroom to run batch jobs in parallel with interactive serving.
 
-Cost per million tokens below $0.05 at good utilization. The economics are compelling if you're billing clients even $1 to $2 per million tokens. At Claude Sonnet 4.6 pricing ($15/M output) and 5M output tokens/month, you're spending $75K/month on APIs. A $500K infrastructure investment pays back in under a year at that volume. The challenge isn't the economics. It's maintaining the utilization that makes the math work.
+Cost per million tokens below $0.05 at good utilization. The economics are compelling if you're billing clients even $1 to $2 per million tokens. At Claude Sonnet 4.6 pricing ($15/M output) and 5M output tokens/month, you're spending $75K/month on APIs. A $500K infrastructure investment pays back in under a year at that volume. The challenge is maintaining the utilization that makes the math work, not the economics.
 
 ## What I'd actually build
 
 The medium configuration is the most interesting to me from a business standpoint. It's the tier that hits a useful intersection: a 20 to 50-person business or MSP serving a handful of clients, generating 1 to 2 million output tokens per month per client, and spending enough on frontier APIs that the $60K to $80K hardware investment pays back in under six months. Four L40S cards draw about 1.4 kW under GPU load, well inside what any standard colo accepts without a conversation about liquid cooling or dedicated high-density space. You get real serving capacity without the facility negotiation headaches that come with Tier 3. Four L40S cards in a Supermicro chassis, vLLM, LiteLLM, and a thin billing layer. It's a legitimate business you can run out of a half-rack.
 
-The hard part isn't the hardware or the model selection. It's the operational layer: monitoring inference server health, managing model updates without dropping requests, building enough around LiteLLM to actually send invoices. Those are real engineering problems that take real time. If you're a solo operator, budget for that before assuming the hardware cost is the whole story.
+The hard part is the operational layer: monitoring inference server health, managing model updates without dropping requests, building enough around LiteLLM to actually send invoices. Those are real engineering problems that take real time. If you're a solo operator, budget for that before assuming the hardware cost is the whole story.
 
 But the unit economics work, and they're getting better. Open-source models in 2026 are competitive with frontier APIs for most business tasks. The gap has closed enough that "we just use OpenAI" is increasingly a choice about operational simplicity rather than quality. That's worth knowing, even if you decide the tradeoff isn't worth it for your situation.

@@ -22,7 +22,7 @@ Local AI hardware comes down to three variables: capacity, bandwidth, and softwa
 
 **Bandwidth** is how fast the hardware can feed data to the compute units. This is the single best first-pass predictor of how fast tokens actually come out. Memory bandwidth is not the same as tokens per second, but it's the cleanest way to sort real performance tiers before you waste a weekend arguing with someone posting single-prompt screenshots.
 
-**Software stack** is how much of the spec sheet you can actually cash out. A card with strong bandwidth numbers on paper does nothing useful if the inference framework doesn't support it. This is still where CUDA's dominance matters, and it's where Tenstorrent's fully open source stack is a genuine long-term bet worth watching.
+**Software stack** is how much of the spec sheet you can actually cash out. A card with strong bandwidth numbers on paper does nothing useful if the inference framework doesn't support it. This is still where CUDA's dominance matters, and it's where Tenstorrent's fully open source stack is a long-term bet worth watching.
 
 ## The hardware landscape
 
@@ -34,7 +34,7 @@ If the model fits in VRAM, discrete GPUs are still the fastest thing by a wide m
 
 NVIDIA's RTX PRO 6000 Blackwell (96GB, 1792 GB/s, around $8,000 to $9,200 retail right now) and the RTX 5090 (32GB, 1792 GB/s, street price has been running $3,000 to $5,000 and climbing due to supply issues) share identical bandwidth. The difference is capacity. The PRO 6000 can hold a 70B model at Q4 comfortably and will push around 100 to 120 tok/s on it; the 5090 tops out around 30B quantized but hits 150 to 200 tok/s on 8B models where bandwidth and VRAM both cooperate. The RTX 4090 (24GB, 1008 GB/s) runs around 80 to 100 tok/s on 8B and is still worth knowing about if you find one at a good price on the secondary market.
 
-AMD's discrete cards deserve more credit than they typically get. The RX 7900 XTX (24GB, 960 GB/s) is genuinely competitive on bandwidth per dollar. The Radeon PRO W7900 (48GB, 864 GB/s) doubles the memory at workstation pricing. The newer AI PRO R9700 (32GB, 640 GB/s) sits in between. ROCm support has improved enough that AMD is a real option now, especially with llama.cpp and Ollama.
+AMD's discrete cards deserve more credit than they typically get. The RX 7900 XTX (24GB, 960 GB/s) is competitive on bandwidth per dollar. The Radeon PRO W7900 (48GB, 864 GB/s) doubles the memory at workstation pricing. The newer AI PRO R9700 (32GB, 640 GB/s) sits in between. ROCm support has improved enough that AMD is a real option now, especially with llama.cpp and Ollama.
 
 Intel showed up too. The Arc Pro B65 (32GB, ~608 GB/s) and B60 (24GB, ~456 GB/s) are interesting if you're following where Intel's headed with this. Not my first choice today, but they're not irrelevant.
 
@@ -46,19 +46,19 @@ Apple's pitch is simple: not the fastest, but more unified memory in a quiet box
 
 Apple's current Mac Studio lineup spans two chips, and they're not interchangeable for AI work: the M3 Ultra has more memory bandwidth and more total memory than the M4 Max, which makes it the better inference box despite being the older chip.
 
-The Mac Studio M3 Ultra tops out at 96GB of unified memory at 819 GB/s. That's enough to run Llama 4 Scout (109B MoE) at reasonable quantization, or DeepSeek-R1 70B at Q8 with room to spare. The 96GB config starts around $3,999. There is no higher memory option — Apple does not offer a 192GB or 512GB M3 Ultra configuration; the M3 Ultra is a single fixed memory tier.
+The Mac Studio M3 Ultra tops out at 96GB of unified memory at 819 GB/s. That's enough to run Llama 4 Scout (109B MoE) at reasonable quantization, or DeepSeek-R1 70B at Q8 with room to spare. The 96GB config starts around $3,999. There is no higher memory option: Apple does not offer a 192GB or 512GB M3 Ultra configuration; the M3 Ultra is a single fixed memory tier.
 
-The Mac Studio M4 Max (up to 64GB, 546 GB/s on the upgraded 40-core GPU config, from around $1,999) does about 20 to 25 tok/s on a 70B Q4 model and around 50 tok/s on 8B. If you want top-of-line Mac Studio and don't need the CUDA stack, the M3 Ultra is currently the stronger inference box — more bandwidth, more memory ceiling. The M4 Max is faster on smaller models where 64GB is enough, and it's cheaper. But if you're buying for capacity, the M3 Ultra is the one to get.
+The Mac Studio M4 Max (up to 64GB, 546 GB/s on the upgraded 40-core GPU config, from around $1,999) does about 20 to 25 tok/s on a 70B Q4 model and around 50 tok/s on 8B. If you want top-of-line Mac Studio and don't need the CUDA stack, the M3 Ultra is currently the stronger inference box (more bandwidth, more memory ceiling). The M4 Max is faster on smaller models where 64GB is enough, and it's cheaper. But if you're buying for capacity, the M3 Ultra is the one to get.
 
 The MacBook Pro M5 Max (up to 128GB, 460 to 614 GB/s, from around $3,900) is in the same ballpark as the M4 Max Mac Studio. The MacBook Pro M5 Pro (up to 64GB, 307 GB/s, from around $2,200) lands around 10 to 15 tok/s on 70B when it fits. The Mac mini M4 Pro (up to 64GB, 273 GB/s, from around $1,400) is at the bottom of this tier, roughly 5 to 8 tok/s on 70B (usable for background work, slow for interactive use).
 
-Apple wins when you want one box, you want silence, and you want to run models that simply won't fit on a normal GPU. It loses when raw tokens per second and concurrency start to matter more than everything else.
+Apple wins when you want one box, you want silence, and you want to run models that won't fit on a normal GPU. It loses when raw tokens per second and concurrency start to matter more than everything else.
 
 ### Coherent NVIDIA appliance: DGX Spark and RTX Spark
 
-The DGX Spark (128GB unified, 273 GB/s) launched at $3,999 and has since been bumped to $4,699 due to memory supply constraints. It's not a bandwidth monster. It's a compact NVIDIA CUDA appliance with 128GB of coherent memory and NVFP4 support that hasn't fully matured yet but is genuinely interesting for the future of quantization.
+The DGX Spark (128GB unified, 273 GB/s) launched at $3,999 and has since been bumped to $4,699 due to memory supply constraints. It's not a bandwidth monster. It's a compact NVIDIA CUDA appliance with 128GB of coherent memory and NVFP4 support that hasn't fully matured yet but is interesting for the future of quantization.
 
-NVIDIA just announced the RTX Spark at Computex 2026, and it's essentially the same architectural premise in a consumer form factor. The RTX Spark is a superchip (Grace ARM CPU with up to 20 cores, Blackwell GPU with 6,144 CUDA cores, up to 128GB unified LPDDR5X) built for Windows laptops and compact desktops, co-developed with Microsoft. OEMs including ASUS, Dell, HP, Lenovo, and Microsoft Surface are targeting fall 2026. This is the first time the full CUDA stack ships inside a thin Windows laptop, which is genuinely new even if the rest of the specs feel familiar.
+NVIDIA just announced the RTX Spark at Computex 2026, and it's essentially the same architectural premise in a consumer form factor. The RTX Spark is a superchip (Grace ARM CPU with up to 20 cores, Blackwell GPU with 6,144 CUDA cores, up to 128GB unified LPDDR5X) built for Windows laptops and compact desktops, co-developed with Microsoft. OEMs including ASUS, Dell, HP, Lenovo, and Microsoft Surface are targeting fall 2026. This is the first time the full CUDA stack ships inside a thin Windows laptop, which is new even if the rest of the specs feel familiar.
 
 The bandwidth story is the same as the DGX Spark: 273 GB/s from LPDDR5X, which puts real numbers on the table. On a 70B Q4 model, the DGX Spark decodes at around 3 tok/s. On 8B it's around 40 to 50 tok/s, where smaller models are more compute-bound so the CUDA advantage shows up. The Mac Studio M4 Max at $2,000 does 20 to 25 tok/s on 70B (6 to 8x faster on the large model that actually justifies the 128GB box) and is likely cheaper than a premium RTX Spark laptop will land.
 
@@ -66,7 +66,7 @@ NVIDIA is also marketing the RTX Spark with a [1 petaflop of AI performance](htt
 
 Pricing for RTX Spark consumer devices isn't confirmed yet, but premium laptops will likely land somewhere in the $2,000 to $3,500 range given TSMC 3nm fabrication and LPDDR5X memory costs. If that holds, the value proposition against a Mac Studio M4 Max is rough: same memory, half the bandwidth, different OS, and CUDA dependency to justify the premium. The CUDA software story is real and matters to developers who need it. But if you're just running inference, the bandwidth gap follows you everywhere.
 
-There's also the Windows on ARM compatibility question, which has a rough history. The Surface RT (2012) was a fiasco, Windows 10 ARM limped along for years with an emulation layer that was slow and incomplete, and even the first Snapdragon X Elite machines in 2024 had real gaps in driver support. The current picture is genuinely better. Windows 11's Prism emulator runs most x86 apps with around 10 to 15% overhead, and [over 93% of commonly used apps run natively](https://witechpedia.com/windows-on-arm-app-compatibility/) as of early 2026. The remaining compatibility failures are almost entirely kernel-mode drivers: anti-cheat software, some security tools, legacy hardware drivers. Jensen Huang claimed at Computex that RTX Spark will run "every Windows app ever made," which is the kind of thing a CEO says at a keynote and which the kernel-mode driver situation makes not quite true. For most users running standard productivity and developer software, the platform is fine. If you depend on specific kernel-level tooling (corporate endpoint security with no ARM64 driver, game anti-cheat, some DAW plugins), you'll want to check before buying.
+There's also the Windows on ARM compatibility question, which has a rough history. The Surface RT (2012) was a fiasco, Windows 10 ARM limped along for years with an emulation layer that was slow and incomplete, and even the first Snapdragon X Elite machines in 2024 had real gaps in driver support. The current picture is better. Windows 11's Prism emulator runs most x86 apps with around 10 to 15% overhead, and [over 93% of commonly used apps run natively](https://witechpedia.com/windows-on-arm-app-compatibility/) as of early 2026. The remaining compatibility failures are almost entirely kernel-mode drivers: anti-cheat software, some security tools, legacy hardware drivers. Jensen Huang claimed at Computex that RTX Spark will run "every Windows app ever made," which is the kind of thing a CEO says at a keynote and which the kernel-mode driver situation makes not quite true. For most users running standard productivity and developer software, the platform is fine. If you depend on specific kernel-level tooling (corporate endpoint security with no ARM64 driver, game anti-cheat, some DAW plugins), you'll want to check before buying.
 
 NVIDIA's roadmap has Vera Rubin with LPDDR6 memory after this, which should improve the bandwidth ceiling meaningfully. The first-generation RTX Spark is an interesting platform bet, not a current-generation performance win.
 
@@ -76,11 +76,11 @@ Both the DGX Spark and RTX Spark are developer appliances first. Full NVIDIA sta
 
 AMD's Ryzen AI Max / Strix Halo is the most interesting new category in local AI hardware, in my opinion. Up to 128GB of LPDDR5X at ~256 GB/s, with up to ~96GB assignable as GPU memory on Windows. The Framework Desktop implements this starting at $1,099 for 32GB, $1,599 for 64GB, and $1,999 for the 128GB config. Real-world decode on a Llama 70B Q4 model lands around 4 to 5 tok/s, similar to the DGX Spark and well below the Mac Studio M4 Max (same bandwidth ceiling, same result). On 8B models it does around 40 to 45 tok/s, comfortable for interactive use.
 
-This is not just another mini PC. It's the first mainstream x86 box where local AI starts feeling like a serious hardware class rather than a laptop pretending very hard. The value proposition at 128GB for $1,999 is hard to beat, especially if you're running MoE models where capacity matters more than raw bandwidth. You're paying for the ability to load the model, not for fast decode once it's loaded.
+It's the first mainstream x86 box where local AI starts feeling like a serious hardware class rather than a laptop pretending very hard. The value proposition at 128GB for $1,999 is hard to beat, especially if you're running MoE models where capacity matters more than raw bandwidth. You're paying for the ability to load the model, not for fast decode once it's loaded.
 
 ### The fully open source bet: Tenstorrent
 
-Tenstorrent's Wormhole n300 (24GB, 576 GB/s, around $1,400) and Blackhole p150 (32GB, 512 GB/s, around $1,400 with 800G interconnect) run a fully open source stack from top to bottom. I'm genuinely rooting for this one to mature. The AI world needs more fully open stacks, and the bandwidth is competitive with mid-tier discrete GPUs. The Blackhole's interconnect makes multi-card scaling worth watching as the software ecosystem develops.
+Tenstorrent's Wormhole n300 (24GB, 576 GB/s, around $1,400) and Blackhole p150 (32GB, 512 GB/s, around $1,400 with 800G interconnect) run a fully open source stack from top to bottom. I'm rooting for this one to mature. The AI world needs more fully open stacks, and the bandwidth is competitive with mid-tier discrete GPUs. The Blackhole's interconnect makes multi-card scaling worth watching as the software ecosystem develops.
 
 ### RISC-V: SpacemiT K3
 
@@ -130,7 +130,7 @@ The pitch goes like this: "My hardware doesn't have enough memory, but I can sti
 
 **Disk offloading.** Some tools and frameworks support streaming model weights from NVMe directly. Modern NVMe drives can hit 7 GB/s reads in ideal conditions, which sounds fast until you realize your GPU memory bandwidth is 10 to 100x that. The energy penalty alone is significant, recent research puts SSD-offloaded decode at roughly 3 to 4x the energy cost versus in-memory inference on comparable hardware. Token generation with disk offload in practice tends to land below 1 token per second. I've seen people run 405B models this way. I've also seen them wait two minutes for a 60-token response.
 
-**Extreme quantization.** Q4 is excellent, Q5 and Q8 are great when you can afford the memory for them. The cliff is at the bottom. Q2 quantization degrades quality enough that for many use cases you'd be better off running a smaller, better-quantized model. A Q2 70B model often loses to a Q4 7B on reasoning tasks while using four times the memory. The tradeoff is real.
+**Extreme quantization.** Q4 is excellent, Q5 and Q8 are great when you can afford the memory for them. The cliff is at the bottom. Q2 quantization degrades quality enough that for many use cases you'd be better off running a smaller, better-quantized model. A Q2 70B model often loses to a Q4 7B on reasoning tasks while using four times the memory.
 
 **The 30 tokens-per-second floor.** For interactive use, actual back-and-forth conversation or coding assistance where you're watching the output stream, 30 tok/s is roughly where it starts feeling like a tool rather than a waiting exercise. Below 15 tok/s it becomes noticeable. Below 5 tok/s it's painful regardless of model quality. For batch processing or background tasks, slower is tolerable. But if you're evaluating a hardware setup for daily driving, "it runs" and "it's usable" are different things.
 
@@ -138,17 +138,17 @@ The test I'd apply: if your setup produces tokens slower than you read them, you
 
 ## What models are you actually trying to run?
 
-Hardware decisions only make sense relative to the models you're targeting. Open source models in 2026 have gotten genuinely good, close enough to frontier API models on many tasks that the conversation has shifted from "is open source good enough?" to "which open source model is right for this?"
+Hardware decisions only make sense relative to the models you're targeting. Open source models in 2026 have gotten good, close enough to frontier API models on many tasks that the conversation has shifted from "is open source good enough?" to "which open source model is right for this?"
 
 The big architectural shift is MoE (Mixture of Experts). These models have enormous total parameter counts but only activate a fraction of them per token. That changes the capacity-vs-speed tradeoff dramatically. A model that "needs" 192GB to load might only activate 17B parameters per forward pass.
 
-**24 to 32GB (RTX 5090, RX 7900 XTX, Arc Pro B65, MacBook Air M5 max):** This is Llama 4 Scout territory at Q4 (109B total, 17B active, fits in roughly 55 to 60GB quantized, so you need a second GPU or larger box), or more realistically: Qwen3 30B-A3B (only 3B active per token), Gemma 4 26B MoE (~14GB at Q4, 85+ tok/s on consumer hardware, genuinely excellent for the size), Phi-4 14B for reasoning, and Qwen2.5-Coder 14B for coding work. Useful territory, not the frontier.
+**24 to 32GB (RTX 5090, RX 7900 XTX, Arc Pro B65, MacBook Air M5 max):** This is Llama 4 Scout territory at Q4 (109B total, 17B active, fits in roughly 55 to 60GB quantized, so you need a second GPU or larger box), or more realistically: Qwen3 30B-A3B (only 3B active per token), Gemma 4 26B MoE (~14GB at Q4, 85+ tok/s on consumer hardware, excellent for the size), Phi-4 14B for reasoning, and Qwen2.5-Coder 14B for coding work. Useful territory, not the frontier.
 
 **48 to 64GB (Mac Studio M4 Max, MacBook Pro M5 Pro, Framework Desktop 64GB):** Dense 30 to 40B models at Q4 land comfortably here. Llama 4 Scout (109B MoE, 17B active) fits at reasonable quantization. Qwen3 235B-A22B MoE needs more room, but the smaller Qwen3 variants are excellent here. This is where local AI starts feeling like a real tool rather than an experiment.
 
-**96GB (Mac Studio M3 Ultra, RTX PRO 6000, DGX Spark + 128GB configs):** Llama 4 Scout at Q8, DeepSeek-R1 70B for serious reasoning, Qwen3 235B-A22B MoE with 22B active parameters. The DGX Spark and Framework Desktop stretch to 128GB which adds some headroom. The Mac Studio M3 Ultra maxes at 96GB — that's the only memory tier available. GPT-OSS-120B also fits here at Q4.
+**96GB (Mac Studio M3 Ultra, RTX PRO 6000, DGX Spark + 128GB configs):** Llama 4 Scout at Q8, DeepSeek-R1 70B for serious reasoning, Qwen3 235B-A22B MoE with 22B active parameters. The DGX Spark and Framework Desktop stretch to 128GB which adds some headroom. The Mac Studio M3 Ultra maxes at 96GB (that's the only memory tier available). GPT-OSS-120B also fits here at Q4.
 
-**128GB+ (multi-GPU rigs, DGX Spark, Framework Desktop):** The Mac Studio M3 Ultra doesn't reach this tier — its ceiling is 96GB. To get to 128GB or beyond in a single box you're looking at the DGX Spark, Framework Desktop, or multi-GPU NVIDIA setups. Llama 4 Maverick (400B MoE, 17B active) and DeepSeek-V3 (671B MoE) at aggressive quantization need this range or higher. If you need frontier-class open source models running locally with zero cloud dependency, multi-GPU is currently the path to get there.
+**128GB+ (multi-GPU rigs, DGX Spark, Framework Desktop):** The Mac Studio M3 Ultra doesn't reach this tier: its ceiling is 96GB. To get to 128GB or beyond in a single box you're looking at the DGX Spark, Framework Desktop, or multi-GPU NVIDIA setups. Llama 4 Maverick (400B MoE, 17B active) and DeepSeek-V3 (671B MoE) at aggressive quantization need this range or higher. If you need frontier-class open source models running locally with zero cloud dependency, multi-GPU is currently the path to get there.
 
 ## The quadrant chart
 
@@ -188,7 +188,7 @@ The score on the vertical axis synthesizes two things: memory capacity (GB) and 
 
 **Scoring method:**
 
-I normalized both dimensions independently across the full set of platforms (0 = worst in set, 1 = best in set), then combined them with bandwidth weighted at 65% and capacity at 35%. The y-axis is a **tokens-per-second proxy**, not a general memory score. Bandwidth drives tok/s directly; capacity determines which models fit but doesn't affect how fast they run once loaded. A platform with more memory but slower bandwidth will score lower here even if it can run larger models — that tradeoff is real and intentional. The formula is:
+I normalized both dimensions independently across the full set of platforms (0 = worst in set, 1 = best in set), then combined them with bandwidth weighted at 65% and capacity at 35%. The y-axis is a **tokens-per-second proxy**, not a general memory score. Bandwidth drives tok/s directly; capacity determines which models fit but doesn't affect how fast they run once loaded. A platform with more memory but slower bandwidth will score lower here even if it can run larger models (that tradeoff is intentional). The formula is:
 
 ```
 capacity_score = (GB - min_GB) / (max_GB - min_GB)
@@ -227,7 +227,7 @@ Note: Cap Score and BW Score of 0.00 for the K3 boards reflect dataset minimums 
 </details>
 
 
-A few things jump out. The RX 7900 XTX is the best value pure-bandwidth play if 24GB is enough for your models. The Framework 128GB is quietly the best price-to-capacity ratio in the whole field. The bandwidth score drags it down but nothing else gives you 128GB assignable to a GPU for $1,999. The DGX Spark is the most interesting chart anomaly: high capacity, middling bandwidth, high cost, and a software stack that might eventually justify all of it. The Mac Studio M3 Ultra at 96GB sits at a strong capacity/bandwidth sweet spot — it's the only Apple Silicon option with Ultra-class bandwidth and the most memory you can get in a single Mac Studio today.
+A few things jump out. The RX 7900 XTX is the best value pure-bandwidth play if 24GB is enough for your models. The Framework 128GB is quietly the best price-to-capacity ratio in the whole field. The bandwidth score drags it down but nothing else gives you 128GB assignable to a GPU for $1,999. The DGX Spark is the most interesting chart anomaly: high capacity, middling bandwidth, high cost, and a software stack that might eventually justify all of it. The Mac Studio M3 Ultra at 96GB sits at a strong capacity/bandwidth sweet spot: it's the only Apple Silicon option with Ultra-class bandwidth and the most memory you can get in a single Mac Studio today.
 
 ## Understanding TOPS
 

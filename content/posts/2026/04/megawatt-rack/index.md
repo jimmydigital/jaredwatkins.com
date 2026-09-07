@@ -12,65 +12,65 @@ The racks going into AI facilities right now are a different species entirely. T
 <!--more-->
 
 <details>
-<summary><strong>Glossary</strong> — acronyms and jargon used in this post</summary>
+<summary><strong>Glossary</strong>: acronyms and jargon used in this post</summary>
 
-**AC / DC** — Alternating current / direct current. AC is what comes from the wall; DC is what processors actually run on. Every server has a power supply that converts AC to DC internally. The efficiency push in modern datacenters is about doing that conversion once, at high voltage, rather than repeatedly at lower voltages inside each server.
+**AC / DC**: Alternating current / direct current. AC is what comes from the wall; DC is what processors actually run on. Every server has a power supply that converts AC to DC internally. The efficiency push in modern datacenters is about doing that conversion once, at high voltage, rather than repeatedly at lower voltages inside each server.
 
-**Aisle containment (hot aisle / cold aisle)** — A layout convention where racks face alternating directions so that cold air intakes face a "cold aisle" and hot exhaust faces a "hot aisle." Containment means physically enclosing one or both aisles with panels and doors to prevent cold and hot air from mixing, which makes cooling far more efficient.
+**Aisle containment (hot aisle / cold aisle)**: A layout convention where racks face alternating directions so that cold air intakes face a "cold aisle" and hot exhaust faces a "hot aisle." Containment means physically enclosing one or both aisles with panels and doors to prevent cold and hot air from mixing, which makes cooling far more efficient.
 
-**AllReduce** — A collective communication operation used in distributed GPU training where each GPU sends its gradient updates to all others and receives theirs back simultaneously. It's the most bandwidth-intensive operation in large model training, and the reason interconnect bandwidth between GPUs is as important as raw compute.
+**AllReduce**: A collective communication operation used in distributed GPU training where each GPU sends its gradient updates to all others and receives theirs back simultaneously. It's the most bandwidth-intensive operation in large model training, and the reason interconnect bandwidth between GPUs is as important as raw compute.
 
-**Ampacity** — The maximum current a conductor (wire, bus bar) can carry continuously without overheating. Higher ampacity requires either thicker conductors or higher voltage to carry the same power.
+**Ampacity**: The maximum current a conductor (wire, bus bar) can carry continuously without overheating. Higher ampacity requires either thicker conductors or higher voltage to carry the same power.
 
-**Blind-mate connector** — A connector designed to make contact automatically as a component slides into position, without manual alignment or plugging. Used in high-density datacenter systems so a server tray makes both electrical and liquid cooling connections in a single insertion motion.
+**Blind-mate connector**: A connector designed to make contact automatically as a component slides into position, without manual alignment or plugging. Used in high-density datacenter systems so a server tray makes both electrical and liquid cooling connections in a single insertion motion.
 
-**Bus bar** — A solid copper or aluminum conductor that distributes power through a rack or row. Higher ampacity than wire bundles; used in datacenter power distribution because it handles high currents more efficiently than discrete cables.
+**Bus bar**: A solid copper or aluminum conductor that distributes power through a rack or row. Higher ampacity than wire bundles; used in datacenter power distribution because it handles high currents more efficiently than discrete cables.
 
-**Busway** — An overhead or underfloor power distribution track (think: a giant extension cord rail) that runs the length of a server row and provides tap-off points for each rack. Replaces individual conduit runs at high rack densities where per-rack wiring becomes impractical.
+**Busway**: An overhead or underfloor power distribution track (think: a giant extension cord rail) that runs the length of a server row and provides tap-off points for each rack. Replaces individual conduit runs at high rack densities where per-rack wiring becomes impractical.
 
-**CDU (Coolant Distribution Unit)** — The rack-level or row-level appliance that circulates chilled water through a liquid-cooled system. It typically includes pumps, a heat exchanger that connects to the building's facility water loop, and flow controls. Think of it as the "radiator unit" for a liquid-cooled rack.
+**CDU (Coolant Distribution Unit)**: The rack-level or row-level appliance that circulates chilled water through a liquid-cooled system. It typically includes pumps, a heat exchanger that connects to the building's facility water loop, and flow controls. Think of it as the "radiator unit" for a liquid-cooled rack.
 
-**CFM (Cubic Feet per Minute)** — A measure of airflow volume. Used to quantify how much air needs to move through a rack for air cooling. At 100 kW densities, the CFM requirements become loud, physically challenging, and expensive.
+**CFM (Cubic Feet per Minute)**: A measure of airflow volume. Used to quantify how much air needs to move through a rack for air cooling. At 100 kW densities, the CFM requirements become loud, physically challenging, and expensive.
 
-**Cold plate** — A metal block (usually copper) bolted directly onto a GPU or CPU that has internal channels carrying coolant. Transfers heat from the chip directly into the liquid rather than into the surrounding air.
+**Cold plate**: A metal block (usually copper) bolted directly onto a GPU or CPU that has internal channels carrying coolant. Transfers heat from the chip directly into the liquid rather than into the surrounding air.
 
-**CRAC (Computer Room Air Conditioner)** — The dedicated precision air conditioning units used in datacenters. Unlike home AC, they're designed for high-sensible-heat loads (mostly heat, little humidity control) and run continuously. At 100 kW rack densities, you typically need one every few rows rather than around the perimeter.
+**CRAC (Computer Room Air Conditioner)**: The dedicated precision air conditioning units used in datacenters. Unlike home AC, they're designed for high-sensible-heat loads (mostly heat, little humidity control) and run continuously. At 100 kW rack densities, you typically need one every few rows rather than around the perimeter.
 
-**DLC (Direct Liquid Cooling)** — A cooling approach where liquid-carrying cold plates are attached directly to heat-generating components (GPUs, CPUs). The heat goes straight into the coolant rather than first into the air. Required at megawatt densities where air physically cannot carry enough heat.
+**DLC (Direct Liquid Cooling)**: A cooling approach where liquid-carrying cold plates are attached directly to heat-generating components (GPUs, CPUs). The heat goes straight into the coolant rather than first into the air. Required at megawatt densities where air physically cannot carry enough heat.
 
-**GaN (Gallium Nitride)** — A wide-bandgap semiconductor used in high-frequency power conversion. More efficient than silicon at high switching speeds; used in DC-DC conversion stages in datacenter power supplies and increasingly in consumer chargers.
+**GaN (Gallium Nitride)**: A wide-bandgap semiconductor used in high-frequency power conversion. More efficient than silicon at high switching speeds; used in DC-DC conversion stages in datacenter power supplies and increasingly in consumer chargers.
 
-**GOES (Grain-Oriented Electrical Steel)** — A specialty steel used in transformer cores. The grain alignment is optimized to reduce magnetic losses. There's limited global production capacity, and both AI datacenter buildout and renewable energy interconnection are competing for it.
+**GOES (Grain-Oriented Electrical Steel)**: A specialty steel used in transformer cores. The grain alignment is optimized to reduce magnetic losses. There's limited global production capacity, and both AI datacenter buildout and renewable energy interconnection are competing for it.
 
-**HVDC (High-Voltage DC)** — A power distribution approach that distributes DC power at high voltage (48V, 400V, or 800V) through a datacenter rather than distributing AC and converting it at each server. Eliminates conversion stages and reduces energy losses.
+**HVDC (High-Voltage DC)**: A power distribution approach that distributes DC power at high voltage (48V, 400V, or 800V) through a datacenter rather than distributing AC and converting it at each server. Eliminates conversion stages and reduces energy losses.
 
-**IGBT (Insulated Gate Bipolar Transistor)** — A power semiconductor switch used in UPS systems, solar inverters, and motor drives. Being progressively replaced by SiC in high-performance applications due to SiC's better efficiency at high voltages and temperatures.
+**IGBT (Insulated Gate Bipolar Transistor)**: A power semiconductor switch used in UPS systems, solar inverters, and motor drives. Being progressively replaced by SiC in high-performance applications due to SiC's better efficiency at high voltages and temperatures.
 
-**LPM (Liters per Minute)** — The flow rate of coolant through a liquid cooling loop. At 1.2 LPM/kW (the industry rule of thumb for direct liquid cooling), an 85 kW rack requires around 102 LPM.
+**LPM (Liters per Minute)**: The flow rate of coolant through a liquid cooling loop. At 1.2 LPM/kW (the industry rule of thumb for direct liquid cooling), an 85 kW rack requires around 102 LPM.
 
-**NVLink** — NVIDIA's proprietary high-bandwidth interconnect for GPU-to-GPU communication within a rack or system. Much faster than PCIe or Ethernet; allows multiple GPUs to act as a single unified compute resource.
+**NVLink**: NVIDIA's proprietary high-bandwidth interconnect for GPU-to-GPU communication within a rack or system. Much faster than PCIe or Ethernet; allows multiple GPUs to act as a single unified compute resource.
 
-**OCP (Open Compute Project)** — A Meta-founded industry consortium that publishes open hardware specifications for datacenter equipment: racks, power distribution, servers, networking. ORV3 (Open Rack Version 3) is their current rack standard; it defines bus bar voltage, connector specs, and physical dimensions.
+**OCP (Open Compute Project)**: A Meta-founded industry consortium that publishes open hardware specifications for datacenter equipment: racks, power distribution, servers, networking. ORV3 (Open Rack Version 3) is their current rack standard; it defines bus bar voltage, connector specs, and physical dimensions.
 
-**ODM (Original Design Manufacturer)** — Companies like Wiwynn, Quanta, and Supermicro that design and manufacture servers sold under another brand or sold directly to hyperscalers. The AI rack market is largely built on ODM hardware.
+**ODM (Original Design Manufacturer)**: Companies like Wiwynn, Quanta, and Supermicro that design and manufacture servers sold under another brand or sold directly to hyperscalers. The AI rack market is largely built on ODM hardware.
 
-**OpEx** — Operating expenditure; ongoing costs like power, cooling, and staffing. Contrasted with CapEx (capital expenditure), which is the upfront cost of building or buying infrastructure.
+**OpEx**: Operating expenditure; ongoing costs like power, cooling, and staffing. Contrasted with CapEx (capital expenditure), which is the upfront cost of building or buying infrastructure.
 
-**PDU (Power Distribution Unit)** — The rack-level power strip, essentially, but engineered for datacenter loads. Provides individual branch circuits to each server with metering and protection. At 100 kW densities they're large, heavy, and custom-spec'd rather than off-the-shelf.
+**PDU (Power Distribution Unit)**: The rack-level power strip, essentially, but engineered for datacenter loads. Provides individual branch circuits to each server with metering and protection. At 100 kW densities they're large, heavy, and custom-spec'd rather than off-the-shelf.
 
-**PUE (Power Usage Effectiveness)** — The ratio of total facility power to IT equipment power. A PUE of 1.0 is theoretically perfect (all power goes to compute). 1.2 means 20% overhead for cooling and lighting. Lower is better; modern liquid-cooled facilities approach 1.1 to 1.2.
+**PUE (Power Usage Effectiveness)**: The ratio of total facility power to IT equipment power. A PUE of 1.0 is theoretically perfect (all power goes to compute). 1.2 means 20% overhead for cooling and lighting. Lower is better; modern liquid-cooled facilities approach 1.1 to 1.2.
 
-**Raised floor** — A floor system with removable tiles sitting above the structural slab, creating a plenum underneath for cabling and air distribution. Standard in enterprise datacenters; the underfloor space distributes cold air up through perforated tiles to server inlets.
+**Raised floor**: A floor system with removable tiles sitting above the structural slab, creating a plenum underneath for cabling and air distribution. Standard in enterprise datacenters; the underfloor space distributes cold air up through perforated tiles to server inlets.
 
-**RDHx / Rear-Door Heat Exchanger** — A heat exchanger that replaces the rear door of a standard rack and captures heat from the rack's exhaust airflow by running chilled water through a finned coil. A hybrid approach: rack fans still run, but the liquid loop captures a large portion of the heat before it reaches the room.
+**RDHx / Rear-Door Heat Exchanger**: A heat exchanger that replaces the rear door of a standard rack and captures heat from the rack's exhaust airflow by running chilled water through a finned coil. A hybrid approach: rack fans still run, but the liquid loop captures a large portion of the heat before it reaches the room.
 
-**SiC (Silicon Carbide)** — A wide-bandgap semiconductor with better high-voltage and high-temperature performance than silicon. Used in EV traction inverters, solar inverters, and increasingly in datacenter power conversion. The same 1,200V SiC MOSFET goes into both 800V EV drivetrains and 800VDC datacenter rectifiers.
+**SiC (Silicon Carbide)**: A wide-bandgap semiconductor with better high-voltage and high-temperature performance than silicon. Used in EV traction inverters, solar inverters, and increasingly in datacenter power conversion. The same 1,200V SiC MOSFET goes into both 800V EV drivetrains and 800VDC datacenter rectifiers.
 
-**Switchgear** — High-voltage electrical equipment that controls, protects, and isolates power distribution circuits. The large metal cabinets you see at the entry point of a facility's electrical system. Lead times for datacenter-grade switchgear have extended significantly as AI buildout demand accelerates.
+**Switchgear**: High-voltage electrical equipment that controls, protects, and isolates power distribution circuits. The large metal cabinets you see at the entry point of a facility's electrical system. Lead times for datacenter-grade switchgear have extended significantly as AI buildout demand accelerates.
 
-**UPS (Uninterruptible Power Supply)** — A battery-backed power system that provides continuous power during utility outages or fluctuations. Datacenter UPS systems use a "double-conversion" topology where all power passes through the battery inverter continuously, giving true zero-transfer-time protection at the cost of some efficiency.
+**UPS (Uninterruptible Power Supply)**: A battery-backed power system that provides continuous power during utility outages or fluctuations. Datacenter UPS systems use a "double-conversion" topology where all power passes through the battery inverter continuously, giving true zero-transfer-time protection at the cost of some efficiency.
 
-**42U** — A rack size designation where "U" is a rack unit (1.75 inches). A 42U rack is 73.5 inches tall, the most common standard height. Higher-density AI racks may run 48U or more.
+**42U**: A rack size designation where "U" is a rack unit (1.75 inches). A 42U rack is 73.5 inches tall, the most common standard height. Higher-density AI racks may run 48U or more.
 
 </details>
 
@@ -88,9 +88,9 @@ This is the installed base (something like 90% of rack capacity in the world rig
 
 ## The middle tier: 80–100 kW racks being deployed today
 
-{{< figure src="nvidia-dgx-superpod-dgx-h100-systems.png" caption="NVIDIA DGX SuperPOD — a cluster of DGX H100 racks. Each populated rack runs 40 to 50 kW; a full SuperPOD row approaches 100 kW per rack footprint. Image: NVIDIA" class="right" >}}
+{{< figure src="nvidia-dgx-superpod-dgx-h100-systems.png" caption="NVIDIA DGX SuperPOD, a cluster of DGX H100 racks. Each populated rack runs 40 to 50 kW; a full SuperPOD row approaches 100 kW per rack footprint. Image: NVIDIA" class="right" >}}
 
-The first wave of purpose-built AI data centers isn't running megawatt racks. It's running GPU clusters in the 80 to 100 kW per rack range. Think DGX H100 clusters, or dense A100/H100 configurations from ODMs like Wiwynn, Quanta, or Supermicro. This is what's actually getting installed at scale right now, and it already breaks the enterprise playbook in several important ways.
+The first wave of purpose-built AI data centers is running GPU clusters in the 80 to 100 kW per rack range, not megawatt racks. Think DGX H100 clusters, or dense A100/H100 configurations from ODMs like Wiwynn, Quanta, or Supermicro. This is what's actually getting installed at scale right now, and it already breaks the enterprise playbook in several important ways.
 
 At 80 to 100 kW, air cooling is still technically possible but you're working against physics rather than with it. The airflow volumes required are substantial: roughly 2,000 to 3,000 CFM through a single rack, which means high-velocity fans, significant acoustic load, and real structural air management. Hot aisle containment stops being optional and becomes mandatory. Cold aisle containment and blanking panels have to be perfect; any bypass airflow means hot spots. A lot of facilities running these densities are running at CRAC unit limits, with CRACs located every few rows rather than around the perimeter.
 
@@ -116,11 +116,11 @@ The most acute overlap is in transformers. A 100 kW GPU row drawing several mega
 
 The UPS systems at 100 kW facilities have the same problem at the semiconductor level. Double-conversion UPS units (which virtually all purpose-built AI facilities use, since they can't tolerate even a millisecond of power interruption during GPU training runs) rely on IGBTs and increasingly SiC MOSFETs for the conversion stages. Those devices are in the same demand pool as solar inverter switching components. A 650V GaN switch or a 1,200V SiC MOSFET doesn't know if it's going into a solar microinverter, a UPS module, or a datacenter PDU. The fabs don't care either. Renesas, for example, is now explicitly marketing a single bidirectional 650V GaN device for both solar inverter and AI datacenter applications simultaneously. That's convenient for the chip vendor and a scheduling problem for anyone trying to place a large order during a tight quarter.
 
-The copper situation compounds everything at this tier too. Microsoft's 80 MW Chicago facility used roughly 2,100 tonnes of copper across on-site and near-site power connections (about 26 tonnes per megawatt). Scale that to a 100-rack GPU hall at 10 MW of IT load and you're sourcing 260 tonnes of copper just for the power infrastructure, before you run any cable to the racks themselves. That copper is competing with the solar farms and grid storage projects being built at unprecedented rates to supply the power those same facilities need. It is genuinely circular: the AI buildout is driving power demand that requires renewable buildout, and both the AI buildout and the renewable buildout are competing for the same copper, transformers, and power semiconductors to do it.
+The copper situation compounds everything at this tier too. Microsoft's 80 MW Chicago facility used roughly 2,100 tonnes of copper across on-site and near-site power connections (about 26 tonnes per megawatt). Scale that to a 100-rack GPU hall at 10 MW of IT load and you're sourcing 260 tonnes of copper just for the power infrastructure, before you run any cable to the racks themselves. That copper is competing with the solar farms and grid storage projects being built at unprecedented rates to supply the power those same facilities need. It is circular: the AI buildout is driving power demand that requires renewable buildout, and both the AI buildout and the renewable buildout are competing for the same copper, transformers, and power semiconductors to do it.
 
 ## The new world: 1+ MW in the same box
 
-{{< figure src="gb200-nvl72-rack-2-gtc24-tech-blog-1920x1080-1.png" caption="The NVIDIA GB200 NVL72 — 72 Blackwell GPUs, 18 compute trays, 9 switch trays, direct liquid cooling throughout. Over a megawatt at peak load. Image: NVIDIA" class="right" >}}
+{{< figure src="gb200-nvl72-rack-2-gtc24-tech-blog-1920x1080-1.png" caption="The NVIDIA GB200 NVL72, 72 Blackwell GPUs, 18 compute trays, 9 switch trays, direct liquid cooling throughout. Over a megawatt at peak load. Image: NVIDIA" class="right" >}}
 
 ![](nvidia-gb200-ocp-submission-highlights.png)
 
@@ -162,7 +162,7 @@ The gap between single-phase AC and HVDC, fully loaded, is roughly $96K to $115K
 
 ## Cooling: air physically cannot do this job
 
-At 80 to 100 kW, air cooling is already working hard. You're managing it with rear-door HXs, tight containment, and purpose-built facilities, but the physics are still on your side if you're disciplined. At 1 MW, you've left the realm of "air cooling is expensive" and entered "air cooling is physically impossible in any meaningful sense." I don't mean difficult. I mean the airflow velocities required to move enough heat would damage components and make the room uninhabitable.
+At 80 to 100 kW, air cooling is already working hard. You're managing it with rear-door HXs, tight containment, and purpose-built facilities, but the physics are still on your side if you're disciplined. At 1 MW, you've gone from "air cooling is expensive" to "air cooling is physically impossible in any meaningful sense." I don't mean difficult. I mean the airflow velocities required to move enough heat would damage components and make the room uninhabitable.
 
 Here's the physics. Air has a specific heat capacity of about 1 kJ/kg·°C. Water has about 4.18 kJ/kg·°C. But density matters too: water is about 830 times denser than air at standard conditions. So water carries roughly 3,400 times as much heat per unit volume as air. To remove 1 MW of heat with air at the temperature deltas you can realistically achieve in a data center (maybe 15 to 20°C rise across a rack), you'd need airflow rates that generate serious acoustic problems and create structural forces on lightweight components.
 
@@ -204,11 +204,11 @@ The coolant pumps are another one. The CDUs moving fluid through DLC loops at 1 
 
 What makes this interesting is the timing mismatch. EV demand hit a rough patch in Western markets through 2024 and into 2025, which led SiC manufacturers to overcapitalize on production capacity that then looked underutilized when EV ramp rates slowed. Wolfspeed (historically one of the most important SiC suppliers) filed for bankruptcy restructuring in early 2026 after betting heavily on continued EV growth that didn't materialize fast enough. Meanwhile datacenter demand for the same devices was accelerating sharply. The SiC market ended up with a strange combination of manufacturer financial stress and genuine tightening on specific high-specification parts. The long-term 800V EV trend is still intact (the physics of 800V drivetrains are compelling and won't reverse), which means the demand competition is real and ongoing, just with a timing phase shift between the two application domains.
 
-The practical implication for anyone building megawatt-class infrastructure: the supply chain for these racks isn't just datacenter infrastructure suppliers. It's also automotive tier-1 suppliers, SiC wafer fabs, and copper miners. Lead times on 1,200V SiC modules, high-ampacity bus bar stock, and specialty coolant pump assemblies are all being driven by a demand pool that extends well beyond the datacenter industry's historical footprint.
+The practical implication for anyone building megawatt-class infrastructure: the supply chain for these racks runs through automotive tier-1 suppliers, SiC wafer fabs, and copper miners as much as datacenter infrastructure suppliers. Lead times on 1,200V SiC modules, high-ampacity bus bar stock, and specialty coolant pump assemblies are all being driven by a demand pool that extends well beyond the datacenter industry's historical footprint.
 
 ## Where this goes
 
-I keep coming back to the physical constraint: same rack footprint, 100x the power density, and the world's data center capacity was designed for the baseline, not the frontier. The greenfield buildout happening right now (the gigawatt-scale campus announcements, the utility partnerships, the dedicated substation builds) isn't hype. It's the physical infrastructure catching up to a compute density that existing facilities simply can't support.
+I keep coming back to the physical constraint: same rack footprint, 100x the power density, and the world's data center capacity was designed for the baseline, not the frontier. The greenfield buildout happening right now (the gigawatt-scale campus announcements, the utility partnerships, the dedicated substation builds) is the physical infrastructure catching up to a compute density that existing facilities can't support.
 
 What comes after 1 MW per rack is a question I don't have a clean answer to yet. There are 2 MW designs in discussion. Immersion cooling (fully submerging hardware in dielectric fluid) becomes more compelling as density increases further, though it introduces its own operational complexity. And at some point the silicon itself has thermal limits that packaging and cooling can't engineer around.
 
