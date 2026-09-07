@@ -1,11 +1,11 @@
 ---
 title: "Research Section Changelog"
 date: 2026-04-04
-lastmod: 2026-08-27
+lastmod: 2026-09-07
 draft: false
 description: "Timestamped log of additions and modifications to the Research knowledge base."
 research_area: "research"
-last_reviewed: 2026-08-27
+last_reviewed: 2026-09-07
 stale_after_days: 90
 outputs:
   - HTML
@@ -18,6 +18,8 @@ sitemap:
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
 
+- **2026-09-07:** Created [Blue Origin]({{< relref "space-launch/blue-origin.md" >}}) — New Glenn heavy-lift launch vehicle; first booster reuse Apr 2026; $10B raised at $130B valuation Jul 2026. Added to [Space Launch]({{< relref "space-launch/_index.md" >}}) Startups & Development Partners table.
+- **2026-09-07:** Updated [Firefly Aerospace]({{< relref "space-launch/firefly-aerospace.md" >}}) — added Upcoming Missions (Eclipse 2027, Blue Ghost Mission 2, Ocula, Lockheed extension) and Employee Sentiment & Leadership History (4 CEOs since 2022, Dec 2025 COO change, Glassdoor/Indeed ratings).
 - **2026-08-27:** Created [Swarmbotics AI]({{< relref "robotics/ground-drones/swarmbotics-ai.md" >}}) — FireAnt anti-armor sUGV; $4M pre-seed 2024; Army TiC selection Feb 2026.
 - **2026-08-27:** Created [Sentinel Robotics (sentinelrobotic.com)]({{< relref "robotics/ground-drones/sentinel-robotics-pest-control.md" >}}) — stub; stealth pest-control sentry project; fixed name-collision misattribution in the [aerial-drones Sentinel Robotics]({{< relref "robotics/aerial-drones/sentinel-robotics.md" >}}) entry.
 - **2026-08-27:** Updated [Sentinel Robotics (sentinelrobotic.com)]({{< relref "robotics/ground-drones/sentinel-robotics-pest-control.md" >}}) with direct X account research — Project Sentinel pitch deck, Sentinel mini, feral hog population model, Arcane Design Works brand link (unconfirmed).

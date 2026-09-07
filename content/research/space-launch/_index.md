@@ -1,11 +1,11 @@
 ---
 title: "Space Launch"
 date: 2026-08-13
-lastmod: 2026-08-13
+lastmod: 2026-09-07
 draft: false
 description: "Orbital launch vehicles, lunar landers, and in-space orbital transfer vehicles — the companies building the hardware that gets payloads from the ground to orbit, the Moon, and beyond."
 research_area: "space-launch"
-last_reviewed: 2026-08-13
+last_reviewed: 2026-09-07
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -30,6 +30,10 @@ This section tracks companies that design, build, and operate orbital launch veh
 
 ### Startups & Development Partners
 
+| Company | HQ | Stage | Mission |
+|---------|-----|-------|---------|
+| [Blue Origin](https://www.blueorigin.com) | Kent, WA | Private ($130B valuation, Jul 2026 round) | Suborbital (New Shepard) and orbital heavy-lift (New Glenn) launch vehicles, Blue Moon lunar landers, Blue Ring orbital tug, and the BE-4/BE-3U/BE-7 engine family; also developing the TeraWave satellite-broadband constellation. |
+
 <!-- TODO: add other pre-IPO/private launch and lander companies (e.g., Stoke Space, Relativity Space, ABL Space Systems, Intuitive Machines if still applicable, ispace) as dedicated entries are researched -->
 
 ### Public Companies
@@ -46,7 +50,7 @@ This section tracks companies that design, build, and operate orbital launch veh
 |--------|---------|-----------|
 | [NOC](https://finance.yahoo.com/quote/NOC) | [Northrop Grumman](https://www.northropgrumman.com) | Co-developing the Eclipse medium launch vehicle with Firefly Aerospace ($50M investment, May 2025); contributes Antares flight heritage and avionics. |
 
-<!-- TODO: add SpaceX, ULA, Blue Origin as dedicated incumbent context entries if a notable, specific angle emerges; SpaceX's orbital-compute initiative is already documented in datacenters/orbital-compute -->
+<!-- TODO: add SpaceX, ULA as dedicated incumbent context entries if a notable, specific angle emerges; SpaceX's orbital-compute initiative is already documented in datacenters/orbital-compute -->
 
 ## Supply Chain
 
@@ -56,10 +60,10 @@ This section tracks companies that design, build, and operate orbital launch veh
 | Propulsion | Liquid rocket engines (tap-off cycle architecture), turbopumps, propellant | In-house at Firefly (Reaver/Lightning engines on Alpha; scaled-up Miranda/Vira engines on Eclipse) | — |
 | Avionics / autonomy | Flight avionics, vision-based navigation and autonomous guidance software | Firefly (in-house avionics; acquired Space-ng for vision navigation, 2026); NVIDIA (Jetson edge-compute module for Firefly's Ocula lunar imaging service) | — |
 | Mission software / national-security sensing | ISR data fusion, missile-warning, space domain awareness software | [SciTec]({{< relref "../drone-detection/hardware/scitec.md" >}}) (acquired by Firefly Aerospace, ~$855M, closed Nov 2025) | — |
-| Mechanisms / robotic payloads | Planetary rovers, robotic arms, drills for lander payloads | [Honeybee Robotics]({{< relref "../robotics/space-robotics/honeybee-robotics.md" >}}) (Blue Origin subsidiary) supplying the lunar rover for Firefly's Gruithuisen Domes mission | — |
+| Mechanisms / robotic payloads | Planetary rovers, robotic arms, drills for lander payloads | [Honeybee Robotics]({{< relref "../robotics/space-robotics/honeybee-robotics.md" >}}) ([Blue Origin]({{< relref "blue-origin.md" >}}) subsidiary) supplying the lunar rover for Firefly's Gruithuisen Domes mission | — |
 | Launch site infrastructure | Launch pads, range services, payload processing facilities | Vandenberg Space Force Base (CA), Wallops Island / Mid-Atlantic Regional Spaceport (VA), Cape Canaveral Space Force Station (FL), Esrange Space Center (Sweden, with Swedish Space Corporation) | US government-owned ranges for domestic sites; Esrange is Firefly's first European launch site |
 | End customers | NASA (CLPS, JPL science missions), US Space Force / Space Systems Command, defense primes | NASA, US Space Force, Lockheed Martin (multi-launch agreement through 2031), Air Force Research Laboratory | — |
 
-**⚑ Shared partner note:** [Honeybee Robotics]({{< relref "../robotics/space-robotics/honeybee-robotics.md" >}}) (a Blue Origin subsidiary) supplies hardware to Firefly Aerospace despite Blue Origin being a competing launch/lander developer — a reminder that supplier relationships in this sector routinely cross competitive lines. [SciTec]({{< relref "../drone-detection/hardware/scitec.md" >}}) is documented in Drone Detection (its primary business is missile warning/ISR, not drones) but is a wholly owned Firefly subsidiary as of November 2025 — see that entry for SciTec-specific detail.
+**⚑ Shared partner note:** [Honeybee Robotics]({{< relref "../robotics/space-robotics/honeybee-robotics.md" >}}) (a subsidiary of [Blue Origin]({{< relref "blue-origin.md" >}})) supplies hardware to Firefly Aerospace despite Blue Origin being a competing launch/lander developer — a reminder that supplier relationships in this sector routinely cross competitive lines. [SciTec]({{< relref "../drone-detection/hardware/scitec.md" >}}) is documented in Drone Detection (its primary business is missile warning/ISR, not drones) but is a wholly owned Firefly subsidiary as of November 2025 — see that entry for SciTec-specific detail.
 
-### Supply Chain — Last Reviewed: 2026-08-13
+### Supply Chain — Last Reviewed: 2026-09-07
