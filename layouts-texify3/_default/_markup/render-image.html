@@ -38,7 +38,7 @@
   {{- $src := .Destination | safeURL }}
   {{- if not (strings.HasPrefix $dest "http") }}
     {{- /* Local image: build full path from the page's permalink so the browser resolves it correctly */ -}}
-    {{- $src = printf "%s%s" .Page.RelPermalink $dest | strings.Replace "#" "%23" -1 }}
+    {{- $src = printf "%s%s" .Page.RelPermalink $dest }}
   {{- end }}
   <img src="{{ $src }}" alt="{{ .Text }}"{{ with $class }} class="{{ . }}"{{ end }}{{ with $width }} width="{{ . }}"{{ end }}{{ with $height }} height="{{ . }}"{{ end }} />
 {{- end }}
