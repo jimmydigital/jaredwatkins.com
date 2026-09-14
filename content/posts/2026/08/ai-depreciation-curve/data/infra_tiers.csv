@@ -1,0 +1,6 @@
+tier,years,kw_per_rack,cooling,capex_usd_per_mw,chips_hosted,notes
+1,2015-2020,5-15,air + containment,6000000,V100;A100(partial),enterprise-era racks
+2,2020-2023,15-40,dense air + rear-door HX,10000000,A100;H100;H200,4x 8-GPU nodes ~40kW is the air wall
+3,2023-2026,100-140,direct-to-chip liquid,20000000,GB200 NVL72;GB300 NVL72;Vera Rubin NVL144,DLC becomes mandatory above ~40kW; Vera Rubin NVL144 (120-130kW) confirmed same tier, in production 2026-08 per Nvidia Q2 FY27 call
+4,2027-2028,200-600,DLC at scale / hybrid,28000000,Rubin Ultra NVL576,Kyber rack quoted at 600kW; VR200 reclassified to tier 3 2026-09 (see tier 3 note)
+5,2029+,600+,immersion / unknown,35000000,unknown,400-600A breaker and floor-loading ceiling

@@ -1,9 +1,9 @@
 ---
 title: Picking hardware for local AI inference in 2026
 date: 2026-04-07
-lastmod: 2026-06-18
+lastmod: 2026-09-08
 draft: false
-description: A practical guide to choosing local AI hardware -- what actually matters, what fits where, and why hardware vendors keep getting away with marketing nonsense.
+description: A practical guide to choosing local AI hardware, what actually matters, what fits where, and why hardware vendors keep getting away with marketing nonsense.
 ---
 
 Nobody buying AI hardware in 2026 is short on opinions. Everyone has a take. The forums are full of people who swear by their setup and can't understand why anyone would choose differently. Most of those arguments are happening across completely different use cases which raises the noise floor for this subject.
@@ -42,17 +42,17 @@ Discrete GPUs win because they can drink from a firehose. They lose the moment t
 
 ### Biggest one-box memory: Apple Silicon
 
-Apple's pitch is simple: not the fastest, but more unified memory in a quiet box than anything else you can buy.
+Apple's pitch is simple: not the fastest, but more unified memory in a quiet box than anything else you can buy. That pitch got a lot stronger on [August 25](https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/), when Apple refreshed the entire Mac Studio and Mac mini line with M5 and M6 chips.
 
-Apple's current Mac Studio lineup spans two chips, and they're not interchangeable for AI work: the M3 Ultra has more memory bandwidth and more total memory than the M4 Max, which makes it the better inference box despite being the older chip.
+The new Mac Studio splits into M5 Max and M5 Ultra, and the gap between them just widened. The M5 Ultra starts at 96GB of unified memory at 1.2TB/s (1,229 GB/s, up from the M3 Ultra's 819 GB/s) for $5,499, and this time Apple didn't stop at 96GB. It configures up to [256GB for $9,499](https://appleinsider.com/articles/26/08/25/mac-studio-gets-update-to-m5-max-and-m5-ultra) (the memory upgrade alone runs $4,000), with a 512GB tier arriving in late October at a price Apple hasn't announced yet. That's a real shift in this market: Apple now sells more unified memory in a single box than the DGX Spark, RTX Spark, or Framework Desktop, full stop. 512GB is enough headroom for DeepSeek-V3 (671B MoE) at aggressive quantization or Llama 4 Maverick with room to spare, in a box that fits under a desk and doesn't sound like a server room.
 
-The Mac Studio M3 Ultra tops out at 96GB of unified memory at 819 GB/s. That's enough to run Llama 4 Scout (109B MoE) at reasonable quantization, or DeepSeek-R1 70B at Q8 with room to spare. The 96GB config starts around $3,999. There is no higher memory option: Apple does not offer a 192GB or 512GB M3 Ultra configuration; the M3 Ultra is a single fixed memory tier.
+The M5 Max starts at $2,499, spans 36GB to 128GB, and tops out at 614 GB/s on the 40-core GPU config (up from the M4 Max's 546 GB/s). Nobody's benchmarked one yet since the hardware doesn't ship until September 22, but scaling the M4 Max's measured 20 to 25 tok/s on a 70B Q4 model by that bandwidth increase puts the M5 Max in the mid-20s. Treat that as a bandwidth-based estimate, not a real number, until independent benchmarks land. If you want the top-of-line Mac Studio and don't need the CUDA stack, the M5 Ultra is now the clearer pick than ever: same silent-box premise, but the capacity ceiling that used to push people toward a DGX Spark or a multi-GPU rig is gone.
 
-The Mac Studio M4 Max (up to 64GB, 546 GB/s on the upgraded 40-core GPU config, from around $1,999) does about 20 to 25 tok/s on a 70B Q4 model and around 50 tok/s on 8B. If you want top-of-line Mac Studio and don't need the CUDA stack, the M3 Ultra is currently the stronger inference box (more bandwidth, more memory ceiling). The M4 Max is faster on smaller models where 64GB is enough, and it's cheaper. But if you're buying for capacity, the M3 Ultra is the one to get.
+The Mac mini got the same generational split. The [M6 Mac mini](https://www.apple.com/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/) (up to 32GB, 170 GB/s, from $899) replaces the old M4 base model and lands squarely in AI PC trap territory below. The Mac mini M5 Pro (up to 64GB, 307 GB/s, from $1,699) replaces the M4 Pro tier at the same bandwidth-per-dollar spot as before, just a bit faster.
 
-The MacBook Pro M5 Max (up to 128GB, 460 to 614 GB/s, from around $3,900) is in the same ballpark as the M4 Max Mac Studio. The MacBook Pro M5 Pro (up to 64GB, 307 GB/s, from around $2,200) lands around 10 to 15 tok/s on 70B when it fits. The Mac mini M4 Pro (up to 64GB, 273 GB/s, from around $1,400) is at the bottom of this tier, roughly 5 to 8 tok/s on 70B (usable for background work, slow for interactive use).
+The MacBook Pro M5 Max (up to 128GB, 460 to 614 GB/s, from around $3,900) and MacBook Pro M5 Pro (up to 64GB, 307 GB/s, from around $2,200) haven't changed since spring and still land in the same territory as the equivalent Mac Studio chip, just in a laptop.
 
-Apple wins when you want one box, you want silence, and you want to run models that won't fit on a normal GPU. It loses when raw tokens per second and concurrency start to matter more than everything else.
+Apple wins when you want one box, you want silence, and you want to run models that won't fit anywhere else, and that argument just got a lot easier to make. It loses when raw tokens per second and concurrency start to matter more than capacity.
 
 ### Coherent NVIDIA appliance: DGX Spark and RTX Spark
 
@@ -60,11 +60,11 @@ The DGX Spark (128GB unified, 273 GB/s) launched at $3,999 and has since been bu
 
 NVIDIA just announced the RTX Spark at Computex 2026, and it's essentially the same architectural premise in a consumer form factor. The RTX Spark is a superchip (Grace ARM CPU with up to 20 cores, Blackwell GPU with 6,144 CUDA cores, up to 128GB unified LPDDR5X) built for Windows laptops and compact desktops, co-developed with Microsoft. OEMs including ASUS, Dell, HP, Lenovo, and Microsoft Surface are targeting fall 2026. This is the first time the full CUDA stack ships inside a thin Windows laptop, which is new even if the rest of the specs feel familiar.
 
-The bandwidth story is the same as the DGX Spark: 273 GB/s from LPDDR5X, which puts real numbers on the table. On a 70B Q4 model, the DGX Spark decodes at around 3 tok/s. On 8B it's around 40 to 50 tok/s, where smaller models are more compute-bound so the CUDA advantage shows up. The Mac Studio M4 Max at $2,000 does 20 to 25 tok/s on 70B (6 to 8x faster on the large model that actually justifies the 128GB box) and is likely cheaper than a premium RTX Spark laptop will land.
+The bandwidth story is the same as the DGX Spark: 273 GB/s from LPDDR5X, which puts real numbers on the table. On a 70B Q4 model, the DGX Spark decodes at around 3 tok/s. On 8B it's around 40 to 50 tok/s, where smaller models are more compute-bound so the CUDA advantage shows up. The Mac Studio M5 Max at $2,499 does an estimated 20 to 25 tok/s on 70B (roughly 7 to 8x faster on the large model that actually justifies the 128GB box) and is likely cheaper than a premium RTX Spark laptop will land.
 
 NVIDIA is also marketing the RTX Spark with a [1 petaflop of AI performance](https://nvidianews.nvidia.com/news/nvidia-microsoft-windows-pcs-agents-rtx-spark) claim, which is technically accurate the same way claiming a car "can go 150 mph" on a track under ideal conditions is technically accurate. That figure is FP4 with structured sparsity enabled, a 2x multiplier that only applies when model weights are at least 50% zeros. Most aren't. At FP16 it's closer to 250 teraflops. I've already noted the same trick for the RTX 4090 (1,321 TOPS with sparsity vs. around 660 dense) in the TOPS section below, but the RTX Spark version is more brazen because the gap is bigger and the format (FP4) is less established in real inference pipelines.
 
-Pricing for RTX Spark consumer devices isn't confirmed yet, but premium laptops will likely land somewhere in the $2,000 to $3,500 range given TSMC 3nm fabrication and LPDDR5X memory costs. If that holds, the value proposition against a Mac Studio M4 Max is rough: same memory, half the bandwidth, different OS, and CUDA dependency to justify the premium. The CUDA software story is real and matters to developers who need it. But if you're just running inference, the bandwidth gap follows you everywhere.
+Pricing for RTX Spark consumer devices isn't confirmed yet, but premium laptops will likely land somewhere in the $2,000 to $3,500 range given TSMC 3nm fabrication and LPDDR5X memory costs. If that holds, the value proposition against a Mac Studio M5 Max is rough: same memory, well under half the bandwidth, different OS, and CUDA dependency to justify the premium. The CUDA software story is real and matters to developers who need it. But if you're just running inference, the bandwidth gap follows you everywhere.
 
 There's also the Windows on ARM compatibility question, which has a rough history. The Surface RT (2012) was a fiasco, Windows 10 ARM limped along for years with an emulation layer that was slow and incomplete, and even the first Snapdragon X Elite machines in 2024 had real gaps in driver support. The current picture is better. Windows 11's Prism emulator runs most x86 apps with around 10 to 15% overhead, and [over 93% of commonly used apps run natively](https://witechpedia.com/windows-on-arm-app-compatibility/) as of early 2026. The remaining compatibility failures are almost entirely kernel-mode drivers: anti-cheat software, some security tools, legacy hardware drivers. Jensen Huang claimed at Computex that RTX Spark will run "every Windows app ever made," which is the kind of thing a CEO says at a keynote and which the kernel-mode driver situation makes not quite true. For most users running standard productivity and developer software, the platform is fine. If you depend on specific kernel-level tooling (corporate endpoint security with no ARM64 driver, game anti-cheat, some DAW plugins), you'll want to check before buying.
 
@@ -74,9 +74,15 @@ Both the DGX Spark and RTX Spark are developer appliances first. Full NVIDIA sta
 
 ### First real x86 unified-memory contender: Strix Halo
 
-AMD's Ryzen AI Max / Strix Halo is the most interesting new category in local AI hardware, in my opinion. Up to 128GB of LPDDR5X at ~256 GB/s, with up to ~96GB assignable as GPU memory on Windows. The Framework Desktop implements this starting at $1,099 for 32GB, $1,599 for 64GB, and $1,999 for the 128GB config. Real-world decode on a Llama 70B Q4 model lands around 4 to 5 tok/s, similar to the DGX Spark and well below the Mac Studio M4 Max (same bandwidth ceiling, same result). On 8B models it does around 40 to 45 tok/s, comfortable for interactive use.
+AMD's Ryzen AI Max / Strix Halo is the most interesting new category in local AI hardware, in my opinion. Up to 128GB of LPDDR5X at ~256 GB/s, with up to ~96GB assignable as GPU memory on Windows. The Framework Desktop implements this starting at $1,099 for 32GB, $1,599 for 64GB, and $1,999 for the 128GB config. Real-world decode on a Llama 70B Q4 model lands around 4 to 5 tok/s, similar to the DGX Spark and well below the Mac Studio M5 Max (much higher bandwidth ceiling). On 8B models it does around 40 to 45 tok/s, comfortable for interactive use.
 
 It's the first mainstream x86 box where local AI starts feeling like a serious hardware class rather than a laptop pretending very hard. The value proposition at 128GB for $1,999 is hard to beat, especially if you're running MoE models where capacity matters more than raw bandwidth. You're paying for the ability to load the model, not for fast decode once it's loaded.
+
+AMD didn't stop at Strix Halo. At IFA in early September, AMD detailed the [Ryzen AI Max PRO 400 series](https://www.servethehome.com/amd-reveals-ryzen-ai-max-pro-400-series-192gb-ram-for-ai-systems/) ("Gorgon Halo"), the direct successor to the chip in the Framework Desktop: up to 192GB of LPDDR5X-8533 at 273 GB/s (a modest 7% bump over Strix Halo's 256 GB/s), with up to 160GB assignable as GPU memory. AMD is marketing this as the [first x86 client chip](https://www.tomshardware.com/pc-components/cpus/amd-ryzen-ai-max-400-gorgon-halo-packs-up-to-192gb-of-unified-memory-refreshed-apu-uses-zen-5-and-rdna-3-5-and-can-clock-up-to-5-2-ghz) that can run a 300 billion parameter model locally, which is true only if you squint at "run" through the same FP4 sparsity lens I've already flagged for NVIDIA's TOPS claims elsewhere in this piece. The real number is the capacity jump: 192GB is a genuine 50% increase over Strix Halo's 128GB ceiling, and bandwidth barely moved, so expect the same 4 to 5 tok/s territory on 70B dense models, just with more room for bigger MoE models to fit at all.
+
+The chips are shipping to OEMs in Q3 2026, which is to say essentially now, with ASUS, HP, Lenovo, and MINISFORUM all announcing systems built around the flagship Ryzen AI Max+ PRO 495. Framework confirmed its own [192GB Desktop refresh](https://www.notebookcheck.net/Framework-s-192-GB-Ryzen-AI-Max-400-desktop-inches-closer-to-launch.1383390.0.html) at the same event. Pricing isn't official yet; one outlet's early guess puts a fully loaded config north of $4,500, more than double the current 128GB Desktop's $1,999. If that holds, the math shifts: you're paying a lot more per gigabyte than the outgoing config, and bandwidth hasn't improved enough to change what these boxes are good for. Buy the 192GB config for the extra headroom, not for speed.
+
+Further out, AMD's roadmap points to a chip codenamed "Medusa Halo" built around LPDDR6, [leaked](https://www.tomshardware.com/pc-components/cpus/amds-future-medusa-halo-apus-could-use-lpddr6-ram-new-leak-suggests-ryzen-ai-max-500-series-could-have-80-percent-more-memory-bandwidth) at around 460 GB/s on a 256-bit bus, sometime in 2027 to 2028. AMD hasn't confirmed the chip exists yet, so treat that as a direction, not a spec sheet.
 
 ### The fully open source bet: Tenstorrent
 
@@ -144,11 +150,11 @@ The big architectural shift is MoE (Mixture of Experts). These models have enorm
 
 **24 to 32GB (RTX 5090, RX 7900 XTX, Arc Pro B65, MacBook Air M5 max):** This is Llama 4 Scout territory at Q4 (109B total, 17B active, fits in roughly 55 to 60GB quantized, so you need a second GPU or larger box), or more realistically: Qwen3 30B-A3B (only 3B active per token), Gemma 4 26B MoE (~14GB at Q4, 85+ tok/s on consumer hardware, excellent for the size), Phi-4 14B for reasoning, and Qwen2.5-Coder 14B for coding work. Useful territory, not the frontier.
 
-**48 to 64GB (Mac Studio M4 Max, MacBook Pro M5 Pro, Framework Desktop 64GB):** Dense 30 to 40B models at Q4 land comfortably here. Llama 4 Scout (109B MoE, 17B active) fits at reasonable quantization. Qwen3 235B-A22B MoE needs more room, but the smaller Qwen3 variants are excellent here. This is where local AI starts feeling like a real tool rather than an experiment.
+**48 to 64GB (Mac Studio M5 Max, Mac mini M5 Pro, MacBook Pro M5 Pro, Framework Desktop 64GB):** Dense 30 to 40B models at Q4 land comfortably here. Llama 4 Scout (109B MoE, 17B active) fits at reasonable quantization. Qwen3 235B-A22B MoE needs more room, but the smaller Qwen3 variants are excellent here. This is where local AI starts feeling like a real tool rather than an experiment.
 
-**96GB (Mac Studio M3 Ultra, RTX PRO 6000, DGX Spark + 128GB configs):** Llama 4 Scout at Q8, DeepSeek-R1 70B for serious reasoning, Qwen3 235B-A22B MoE with 22B active parameters. The DGX Spark and Framework Desktop stretch to 128GB which adds some headroom. The Mac Studio M3 Ultra maxes at 96GB (that's the only memory tier available). GPT-OSS-120B also fits here at Q4.
+**96GB (Mac Studio M5 Ultra base config, RTX PRO 6000, DGX Spark + 128GB configs):** Llama 4 Scout at Q8, DeepSeek-R1 70B for serious reasoning, Qwen3 235B-A22B MoE with 22B active parameters. GPT-OSS-120B also fits here at Q4. This used to be Apple's ceiling. Now it's just the entry point for the M5 Ultra.
 
-**128GB+ (multi-GPU rigs, DGX Spark, Framework Desktop):** The Mac Studio M3 Ultra doesn't reach this tier: its ceiling is 96GB. To get to 128GB or beyond in a single box you're looking at the DGX Spark, Framework Desktop, or multi-GPU NVIDIA setups. Llama 4 Maverick (400B MoE, 17B active) and DeepSeek-V3 (671B MoE) at aggressive quantization need this range or higher. If you need frontier-class open source models running locally with zero cloud dependency, multi-GPU is currently the path to get there.
+**128GB+ (Mac Studio M5 Ultra, Framework Desktop 192GB, multi-GPU rigs, DGX Spark):** This tier changed shape in August. The Mac Studio M5 Ultra now goes to 256GB (shipping now, $9,499) and 512GB (arriving late October, price TBD), which puts Apple ahead of everything else in this guide on raw capacity, DGX Spark and the new 192GB Framework Desktop included. Llama 4 Maverick (400B MoE, 17B active) and DeepSeek-V3 (671B MoE) at aggressive quantization need this range or higher, and a maxed-out M5 Ultra can now hold either one without dropping to a punishing quantization level. Multi-GPU NVIDIA setups still win on raw throughput if you need to serve several users at once, but for a single person running the biggest open source models locally, the M5 Ultra is now the path of least resistance.
 
 ## The quadrant chart
 
@@ -163,21 +169,23 @@ quadrantChart
     quadrant-2 High Perf Low Cost
     quadrant-3 Low Perf Low Cost
     quadrant-4 Low Perf High Cost
-    RTX PRO 6000: [0.99, 0.91]
-    RTX 5090: [0.48, 0.72]
-    Mac Studio M3 Ultra: [0.45, 0.54]
-    MBP M5 Max 128GB: [0.59, 0.53]
-    DGX Spark: [0.54, 0.43]
-    Framework 128GB: [0.21, 0.43]
-    Radeon PRO W7900: [0.40, 0.42]
-    RTX 4090: [0.27, 0.40]
-    RX 7900 XTX: [0.08, 0.39]
-    Arc Pro B65: [0.05, 0.28]
-    Mac mini M4 Pro: [0.11, 0.27]
-    Framework 64GB: [0.18, 0.25]
-    TT Blackhole: [0.15, 0.22]
-    TT Wormhole: [0.10, 0.21]
-    MacBook Air M5: [0.10, 0.11]
+    RTX PRO 6000: [0.89, 0.77]
+    RTX 5090: [0.42, 0.68]
+    Mac Studio M5 Ultra 256GB: [0.99, 0.79]
+    MBP M5 Max 128GB: [0.52, 0.35]
+    Mac Studio M5 Ultra 96GB: [0.57, 0.56]
+    DGX Spark: [0.48, 0.25]
+    Framework 192GB: [0.46, 0.34]
+    Framework 128GB: [0.18, 0.25]
+    Radeon PRO W7900: [0.36, 0.36]
+    RTX 4090: [0.24, 0.38]
+    RX 7900 XTX: [0.07, 0.36]
+    Arc Pro B65: [0.05, 0.24]
+    Mac mini M5 Pro: [0.15, 0.17]
+    Framework 64GB: [0.14, 0.16]
+    TT Blackhole: [0.12, 0.21]
+    TT Wormhole: [0.12, 0.22]
+    MacBook Air M5: [0.09, 0.07]
     SpacemiT K3: [0.01, 0.02]
 ```
 
@@ -196,27 +204,29 @@ bandwidth_score = (GB_s - min_GB_s) / (max_GB_s - min_GB_s)
 performance_score = 0.35 * capacity_score + 0.65 * bandwidth_score
 ```
 
-The dataset spans 8GB (low end) to 128GB (max single-box config shown) for capacity, and 51 GB/s (SpacemiT K3) to 1792 GB/s (RTX 5090 / PRO 6000) for bandwidth.
+The dataset spans 8GB (low end) to 256GB (the priced Mac Studio M5 Ultra config shown; the unpriced 512GB tier arriving in October isn't plotted) for capacity, and 51 GB/s (SpacemiT K3) to 1792 GB/s (RTX 5090 / PRO 6000) for bandwidth.
 
-**Cost axis:** Normalized from ~$299 (SpacemiT K3) to ~$8,500 (RTX PRO 6000). I used street price midpoints where ranges exist.
+**Cost axis:** Normalized from ~$299 (SpacemiT K3) to ~$9,499 (Mac Studio M5 Ultra 256GB). I used street price midpoints where ranges exist.
 
 | Platform | Memory (GB) | Bandwidth (GB/s) | Cap Score | BW Score | Perf Score | Cost ($) | Cost Score |
 |---|---|---|---|---|---|---|---|
-| RTX PRO 6000 | 96 | 1792 | 0.73 | 1.00 | 0.91 | 8,500 | 1.00 |
-| RTX 5090 | 32 | 1792 | 0.20 | 1.00 | 0.72 | 4,200 | 0.48 |
-| Mac Studio M3 Ultra 96GB | 96 | 819 | 0.73 | 0.44 | 0.54 | 3,999 | 0.45 |
-| MacBook Pro M5 Max 128GB | 128 | 546 | 1.00 | 0.28 | 0.53 | 5,100 | 0.59 |
-| DGX Spark | 128 | 273 | 1.00 | 0.13 | 0.43 | 4,699 | 0.54 |
-| Framework 128GB | 128 | 256 | 1.00 | 0.12 | 0.43 | 1,999 | 0.21 |
-| Radeon PRO W7900 | 48 | 864 | 0.33 | 0.47 | 0.42 | 3,600 | 0.40 |
-| RTX 4090 | 24 | 1008 | 0.13 | 0.55 | 0.40 | 2,500 | 0.27 |
-| RX 7900 XTX | 24 | 960 | 0.13 | 0.52 | 0.39 | 950 | 0.08 |
-| Arc Pro B65 | 32 | 608 | 0.20 | 0.32 | 0.28 | 750 | 0.05 |
-| Mac mini M4 Pro 64GB | 64 | 273 | 0.47 | 0.13 | 0.25 | 1,400 | 0.13 |
-| Framework 64GB | 64 | 256 | 0.47 | 0.12 | 0.24 | 1,599 | 0.16 |
-| TT Blackhole p150 | 32 | 512 | 0.20 | 0.26 | 0.24 | 1,400 | 0.13 |
-| TT Wormhole n300 | 24 | 576 | 0.13 | 0.30 | 0.24 | 1,400 | 0.13 |
-| MacBook Air M5 32GB | 32 | 153 | 0.20 | 0.06 | 0.11 | 1,100 | 0.10 |
+| RTX PRO 6000 | 96 | 1792 | 0.35 | 1.00 | 0.77 | 8,500 | 0.89 |
+| RTX 5090 | 32 | 1792 | 0.10 | 1.00 | 0.68 | 4,200 | 0.42 |
+| Mac Studio M5 Ultra 256GB | 256 | 1229 | 1.00 | 0.68 | 0.79 | 9,499 | 1.00 |
+| Mac Studio M5 Ultra 96GB | 96 | 1229 | 0.35 | 0.68 | 0.56 | 5,499 | 0.57 |
+| MacBook Pro M5 Max 128GB | 128 | 546 | 0.48 | 0.28 | 0.35 | 5,100 | 0.52 |
+| DGX Spark | 128 | 273 | 0.48 | 0.13 | 0.25 | 4,699 | 0.48 |
+| Framework 192GB | 192 | 273 | 0.74 | 0.13 | 0.34 | 4,500 | 0.46 |
+| Framework 128GB | 128 | 256 | 0.48 | 0.12 | 0.25 | 1,999 | 0.18 |
+| Radeon PRO W7900 | 48 | 864 | 0.16 | 0.47 | 0.36 | 3,600 | 0.36 |
+| RTX 4090 | 24 | 1008 | 0.06 | 0.55 | 0.38 | 2,500 | 0.24 |
+| RX 7900 XTX | 24 | 960 | 0.06 | 0.52 | 0.36 | 950 | 0.07 |
+| Arc Pro B65 | 32 | 608 | 0.10 | 0.32 | 0.24 | 750 | 0.05 |
+| Mac mini M5 Pro 64GB | 64 | 307 | 0.23 | 0.15 | 0.17 | 1,699 | 0.15 |
+| Framework 64GB | 64 | 256 | 0.23 | 0.12 | 0.16 | 1,599 | 0.14 |
+| TT Blackhole p150 | 32 | 512 | 0.10 | 0.26 | 0.21 | 1,400 | 0.12 |
+| TT Wormhole n300 | 24 | 576 | 0.06 | 0.30 | 0.22 | 1,400 | 0.12 |
+| MacBook Air M5 32GB | 32 | 153 | 0.10 | 0.06 | 0.07 | 1,100 | 0.09 |
 | SpacemiT K3 Pico-ITX (8GB) | 8 | ~51† | 0.00 | 0.00 | 0.00 | 299 | 0.00 |
 | Milk-V Jupiter 2 (8GB) | 8 | ~51† | 0.00 | 0.00 | 0.00 | 300 | 0.00 |
 
@@ -227,7 +237,7 @@ Note: Cap Score and BW Score of 0.00 for the K3 boards reflect dataset minimums 
 </details>
 
 
-A few things jump out. The RX 7900 XTX is the best value pure-bandwidth play if 24GB is enough for your models. The Framework 128GB is quietly the best price-to-capacity ratio in the whole field. The bandwidth score drags it down but nothing else gives you 128GB assignable to a GPU for $1,999. The DGX Spark is the most interesting chart anomaly: high capacity, middling bandwidth, high cost, and a software stack that might eventually justify all of it. The Mac Studio M3 Ultra at 96GB sits at a strong capacity/bandwidth sweet spot: it's the only Apple Silicon option with Ultra-class bandwidth and the most memory you can get in a single Mac Studio today.
+A few things jump out. The RX 7900 XTX is still the best value pure-bandwidth play if 24GB is enough for your models. The Framework 128GB remains the best price-to-capacity ratio in the field at $1,999, even with a 192GB config now on the way at more than double the price. The DGX Spark is still the most interesting chart anomaly: high capacity, middling bandwidth, high cost, and a software stack that might eventually justify all of it. The biggest mover is the Mac Studio M5 Ultra: at 256GB it posts the highest capacity score and the second-highest overall performance score in the dataset, behind only the RTX PRO 6000 on raw bandwidth. It's also the most expensive single box here, and the only one in this dataset that can hold something like DeepSeek-V3 at a reasonable quantization without going multi-GPU.
 
 ## Understanding TOPS
 
@@ -254,14 +264,25 @@ The bigger issue is software maturity. A 2 TOPS NPU with mature, optimized softw
 | Apple M3 Neural Engine | 18 | FP16 | NPU only | 16-core ANE; mature Core ML stack |
 | Apple M3 Ultra Neural Engine | ~36 | FP16 | NPU only | 32-core ANE (2x M3 die); estimated |
 | Apple M4 Neural Engine | 38 | INT8 (conv.) | NPU only | Per Apple; INT8 to FP16 dequant in practice |
+| Apple M5 Neural Engine | n/a | n/a | NPU only | Apple stopped disclosing an absolute TOPS figure starting with M5; still 16 cores, marketed as "faster" with no number given |
+| Apple M6 Neural Engine | n/a | n/a | NPU only | Dual 16-core (new); Apple claims "2x faster" than the previous generation, again with no absolute figure |
 | Intel Core Ultra (Lunar Lake) | ~47 | INT8 | NPU only | Core Ultra 9 288V; Copilot+ certified |
 | Qualcomm Snapdragon X Elite | 45 | INT8 | NPU only | Hexagon NPU; Windows on ARM |
 | Qualcomm Snapdragon X2 Elite | 80 | INT8 | NPU only | Latest gen (2025); 78% jump over X Elite |
+| AMD Ryzen AI Max+ 395 (Strix Halo) | 50 | INT8 | XDNA2 NPU only | 126 TOPS is AMD's combined CPU+GPU+NPU platform figure; the NPU alone is the comparable number here |
+| AMD Ryzen AI Max+ PRO 495 (Gorgon Halo) | 55 | INT8 | XDNA2 NPU only | Only a 10% bump over Strix Halo's NPU; this generation's real pitch is memory, not compute |
 | Tenstorrent Wormhole n150 | ~262 TFLOPs | FP8 | Full chip | Not a traditional TOPS figure; 72 Tensix cores |
+| Tenstorrent Wormhole n300 | ~524 TFLOPs | FP8 | Full chip (dual die) | Two Wormhole dies; a straight doubling of the n150 per Tenstorrent's own numbers |
+| Tenstorrent Blackhole p150 | 664 TFLOPs | BLOCKFP8 | Full chip | Newer architecture than Wormhole; also not a traditional TOPS figure |
 | NVIDIA RTX 4090 | 1,321 | INT8 w/ sparsity | GPU tensor | Includes structured sparsity 2x multiplier |
 | NVIDIA RTX 5090 | ~3,352 | INT8 w/ sparsity | GPU tensor | With sparsity; ~1,677 TOPS dense |
+| NVIDIA RTX PRO 6000 Blackwell | 4,000 | FP4 w/ sparsity | GPU tensor | Same sparsity/precision trick as the RTX 4090 and 5090, just a much bigger headline number |
+| NVIDIA GB10 (DGX Spark / RTX Spark) | 1,000 | FP4 w/ sparsity | Full SoC | NVIDIA's own "1 petaflop" claim, already flagged elsewhere in this piece |
+| AMD Radeon PRO W7900 | 245 (INT4) / 123 (INT8) | INT4 / INT8 | GPU matrix | AMD's own published figures; no sparsity multiplier involved |
+| AMD Radeon AI PRO R9700 | 1,531 (INT4 sparse) / 383 (INT8) | INT4 / INT8 | GPU matrix | AMD claims 4x the TOPS of the outgoing Radeon PRO W7800 |
+| Intel Arc Pro B60 / B65 | 197 | INT8 XMX, dense | GPU matrix | Both cards report identical peak TOPS despite different memory configs |
 
-A few things worth calling out: the RTX 4090's 1,321 TOPS includes structured sparsity, a 2x multiplier that only applies when model weights are 50% or more zero. Most aren't. NVIDIA's dense INT8 is closer to 660 TOPS. The Tenstorrent Wormhole reports FP8 TFLOPs rather than TOPS, which reflects a different architectural philosophy entirely. The SpacemiT K3's 60 TOPS is dependent on a software stack that's still being built.
+A few things worth calling out: the RTX 4090's 1,321 TOPS includes structured sparsity, a 2x multiplier that only applies when model weights are 50% or more zero. Most aren't. NVIDIA's dense INT8 is closer to 660 TOPS. The RTX PRO 6000 and the GB10 chip inside the DGX Spark and RTX Spark play the same game at a bigger scale, 4,000 TOPS and 1,000 TOPS respectively, both quoted at FP4 with sparsity, both numbers I've already leaned on skeptically elsewhere in this piece. The Tenstorrent Wormhole and Blackhole chips report FP8 or BLOCKFP8 TFLOPs rather than TOPS entirely, which reflects a different architectural philosophy, not an attempt to dodge comparison. The SpacemiT K3's 60 TOPS is dependent on a software stack that's still being built. Apple, meanwhile, quietly stopped publishing a Neural Engine TOPS figure at all starting with the M5. It's still 16 cores, same as M4, so a flat number would have read as no progress; the marketing moved to comparative claims about the GPU's new Neural Accelerators instead ("4x M4" for AI compute), a framing with no absolute number for anyone to hold up against Apple's own next chip. AMD's NPU took the opposite path this generation: the Ryzen AI Max PRO 400's NPU only ticked up from 50 to 55 TOPS over Strix Halo, which is why Gorgon Halo's real pitch is memory capacity, not compute. And AMD doesn't publish a TOPS figure at all for plain RDNA3 cards like the RX 7900 XTX, only for the "AI PRO" branded W7900 and R9700, which says something about which of AMD's cards TOPS was ever meant to sell.
 
 Raw TOPS is a starting point, not an answer. Match the platform to the workload, check framework support for your model architecture, and benchmark before committing.
 
@@ -269,7 +290,7 @@ Raw TOPS is a starting point, not an answer. Match the platform to the workload,
 
 Stop asking which hardware is best. Start asking which bottleneck you're willing to pay to solve.
 
-If you're doing multi-agent workflows where you need fast concurrent inference, with multiple agents running in parallel each waiting on responses, bandwidth wins and you want discrete NVIDIA. If you're running a single large reasoning model for deep analysis or long-context work, capacity wins and you want unified memory. If you're experimenting and want the best flexibility per dollar, the Framework Desktop at 128GB or a Mac mini M4 Pro are hard to beat as starting points.
+If you're doing multi-agent workflows where you need fast concurrent inference, with multiple agents running in parallel each waiting on responses, bandwidth wins and you want discrete NVIDIA. If you're running a single large reasoning model for deep analysis or long-context work, capacity wins and you want unified memory. If you're experimenting and want the best flexibility per dollar, the Framework Desktop at 128GB or a Mac mini M5 Pro are hard to beat as starting points.
 
 The local AI hardware market in 2026 is finally interesting enough that there's no single right answer, which means the space has matured past the point where CUDA was the only viable path and a $10,000 GPU was the only serious option.
 
@@ -285,7 +306,13 @@ The local AI hardware market in 2026 is finally interesting enough that there's 
 - [Apple Mac Studio](https://www.apple.com/mac-studio/)
 - [Apple MacBook Pro](https://www.apple.com/macbook-pro/)
 - [Apple Mac mini](https://www.apple.com/mac-mini/)
+- [Apple Mac Studio M5 Ultra announcement](https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/)
+- [Apple Mac mini M6 and M5 Pro announcement](https://www.apple.com/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/)
 - [AMD Ryzen AI Max (Strix Halo)](https://www.amd.com/en/products/processors/laptop/ryzen/ryzen-ai-max.html)
+- [AMD Ryzen AI Max PRO 400 series announcement](https://www.amd.com/en/blogs/2026/amd-powers-next-generation-agent-computers-with-new-ryzen-ai-hal.html)
+- [Ryzen AI Max PRO 400 "Gorgon Halo" specs (Tom's Hardware)](https://www.tomshardware.com/pc-components/cpus/amd-ryzen-ai-max-400-gorgon-halo-packs-up-to-192gb-of-unified-memory-refreshed-apu-uses-zen-5-and-rdna-3-5-and-can-clock-up-to-5-2-ghz)
+- [Framework Desktop 192GB refresh (Notebookcheck)](https://www.notebookcheck.net/Framework-s-192-GB-Ryzen-AI-Max-400-desktop-inches-closer-to-launch.1383390.0.html)
+- [AMD Medusa Halo LPDDR6 leak (Tom's Hardware)](https://www.tomshardware.com/pc-components/cpus/amds-future-medusa-halo-apus-could-use-lpddr6-ram-new-leak-suggests-ryzen-ai-max-500-series-could-have-80-percent-more-memory-bandwidth)
 - [Framework Desktop](https://frame.work/desktop)
 - [AMD Radeon PRO W7900](https://www.amd.com/en/products/graphics/workstations/radeon-pro/w7900.html)
 - [AMD Radeon AI PRO R9700](https://www.amd.com/en/products/graphics/workstations/radeon-pro/radeon-ai-pro-r9700.html)
@@ -309,13 +336,13 @@ The local AI hardware market in 2026 is finally interesting enough that there's 
 - **NVIDIA RTX 5090** -- [Best Buy](https://www.bestbuy.com/site/searchpage.jsp?st=RTX+5090), [Newegg](https://www.newegg.com/p/N82E16814133983), [B&H Photo](https://www.bhphotovideo.com/c/product/1798852-REG) (stock is spotty, prices above MSRP)
 - **NVIDIA RTX PRO 6000 Blackwell** -- [Newegg](https://www.newegg.com/p/1FT-000S-003H5), [Amazon RTX PRO 6000](https://www.amazon.com/s?k=RTX+PRO+6000+Blackwell), [Micro Center](https://www.microcenter.com/search/search_results.aspx?Ntt=RTX+PRO+6000), [B&H Photo RTX PRO 6000](https://www.bhphotovideo.com/c/search?q=RTX+PRO+6000&sort=PRICE_LOW_TO_HIGH)
 - **RTX 4090** -- secondary market, [eBay RTX 4090](https://www.ebay.com/sch/i.html?_nkw=RTX+4090+GPU), [Newegg used](https://www.newegg.com/p/N82E16814133937)
-- **Apple Mac Studio** -- [Mac Studio M4 Max (up to 64GB)](https://www.apple.com/shop/buy-mac/mac-studio), [Mac Studio M3 Ultra (96GB)](https://www.apple.com/shop/buy-mac/mac-studio)
+- **Apple Mac Studio** -- [Mac Studio M5 Max (up to 128GB)](https://www.apple.com/shop/buy-mac/mac-studio), [Mac Studio M5 Ultra (up to 512GB)](https://www.apple.com/shop/buy-mac/mac-studio)
 - **Apple MacBook Pro** -- [MacBook Pro 16" M5 Max 128GB](https://www.apple.com/shop/buy-mac/macbook-pro)
-- **Apple Mac mini** -- [Mac mini M4 Pro config selector](https://www.apple.com/shop/buy-mac/mac-mini)
+- **Apple Mac mini** -- [Mac mini M6 and M5 Pro config selector](https://www.apple.com/shop/buy-mac/mac-mini)
 - **Apple MacBook Air** -- [MacBook Air M5 configs](https://www.apple.com/shop/buy-mac/macbook-air)
 - **NVIDIA DGX Spark** -- [NVIDIA Marketplace direct](https://marketplace.nvidia.com/en-us/enterprise/personal-ai-supercomputers/dgx-spark/) (enterprise ordering)
 - **ASUS Ascent GX10** -- [ASUS store](https://www.asus.com/us/commercial-servers/asus-ascent-gx10/) (system integrator quotes)
-- **Framework Desktop** -- [Framework order page](https://frame.work/desktop) (direct from manufacturer, 128GB config available)
+- **Framework Desktop** -- [Framework order page](https://frame.work/desktop) (128GB config available now at $1,999; 192GB Ryzen AI Max PRO 400 config announced, not yet priced or orderable)
 - **AMD RX 7900 XTX** -- [Newegg RX 7900 XTX](https://www.newegg.com/p/N82E16814161643), [Amazon RX 7900 XTX](https://www.amazon.com/s?k=RX+7900+XTX), [B&H Photo RX 7900 XTX](https://www.bhphotovideo.com/c/search?q=RX+7900+XTX)
 - **AMD Radeon PRO W7900** -- [AMD.com Radeon PRO](https://www.amd.com/en/products/graphics/workstations/radeon-pro/w7900.html), [CDW PRO W7900](https://www.cdw.com/search/?searchscope=all&keyword=Radeon+PRO+W7900), [B&H Photo PRO W7900](https://www.bhphotovideo.com/c/search?q=Radeon+PRO+W7900)
 - **AMD Radeon AI PRO R9700** -- [AMD.com AI PRO](https://www.amd.com/en/products/graphics/workstations/radeon-pro/radeon-ai-pro-r9700.html), [CDW R9700](https://www.cdw.com/search/?searchscope=all&keyword=Radeon+AI+PRO+R9700)

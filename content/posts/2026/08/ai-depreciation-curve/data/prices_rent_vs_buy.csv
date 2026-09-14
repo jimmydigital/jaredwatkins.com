@@ -1,0 +1,7 @@
+chip,launch,launch_buy_usd,launch_rent_usd_hr,rent_2026_08_usd_hr,rent_floor_2026_08_usd_hr,launch_rent_list_usd_hr,rent_list_2026_08,used_2026_08_usd,rent_source
+V100 SXM2 32GB,2018-04,11458,2.48,1.28,0.40,2.48,1.50,650,"GCP on-demand 2018-04; 2026-08 median of GetDeploying (0.98) and AIMultiple (1.57); thin market, sources disagree 60%"
+A100 SXM4 80GB,2020-11,15000,4.10,1.82,1.09,4.10,3.06,8000,"AWS p4d.24xlarge 32.77/8; 2026-08 median of GetDeploying (1.77) and AIMultiple (1.86)"
+H100 SXM5 80GB,2023-03,30000,7.62,3.38,1.90,7.62,6.20,20000,"hyperscaler median 2023H2; 2026-08 median of GetDeploying (3.37) and AIMultiple (3.38)"
+H200 SXM 141GB,2024-11,31500,6.00,4.38,3.44,10.60,8.50,26000,"neocloud launch rate; 2026-08 median of GetDeploying (4.29) and AIMultiple (4.47); rising, not falling"
+B200 SXM 192GB,2025-03,40000,6.00,6.24,3.50,12.00,11.00,35000,"neocloud launch rate; 2026-08 median of GetDeploying (6.25) and AIMultiple (6.22)"
+B300 SXM 288GB,2026-01,40000,8.00,7.92,7.10,17.80,17.80,40000,"launched Jan 2026; 2026-08 median of GetDeploying (7.85) and AIMultiple (7.98); no secondary market yet"

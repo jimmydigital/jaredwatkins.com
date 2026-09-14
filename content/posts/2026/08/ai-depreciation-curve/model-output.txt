@@ -1,0 +1,203 @@
+==============================================================================
+STEP 1  Roofline fit (Llama-2-70B, dense, offline)
+==============================================================================
+  fixed:   compute roof at published dense peak (eta = 1.00)
+           KV re-read at S=1100 tokens, TP penalty 5.5% per extra GPU in the group
+  FITTED:  effective batch B_eff = 104   <- one free parameter, 4 data points
+  log-RMSE = 0.071  (7.4% typical error)
+
+  chip                    prec  TP  measured  roofline      err
+  V100 SXM2 32GB          FP16   8        --       239   (used)
+  A100 SXM4 80GB          INT8   2        --      1474   (used)
+  H100 SXM5 80GB           FP8   2      3050      2912    -4.5%
+  H200 SXM 141GB           FP8   1      4358      4023    -7.7%
+  B200 SXM 192GB           FP4   1     11264     12474   +10.7%
+  B300 SXM 288GB           FP4   1     13015     13524    +3.9%
+
+==============================================================================
+STEP 2  One unit: dollars and joules per 1M tokens
+==============================================================================
+  chip                     tok/s  W/slot  kWh/Mtok    own $   rent $   power $
+  V100 SXM2 32GB             239     506     0.588    0.676    2.878    0.0470
+  A100 SXM4 80GB            1474     675     0.127    0.149    0.773    0.0102
+  H100 SXM5 80GB            3050    1181     0.108    0.141    0.694    0.0086
+  H200 SXM 141GB            4358    1181     0.075    0.103    0.382    0.0060
+  B200 SXM 192GB           11264    1688     0.042    0.055    0.148    0.0033
+  B300 SXM 288GB           13015    2363     0.050    0.052    0.171    0.0040
+
+  (MLPerf offline units. Production serving under a latency SLO runs
+   about 35% of this, so multiply the dollar columns by
+   2.9x for a real API cost. It cancels in every ratio below.)
+
+  H100 in production terms: $0.40/Mtok owned, $1.98/Mtok rented at launch.
+
+==============================================================================
+STEP 3  Buy vs rent, on the day each chip shipped
+==============================================================================
+  chip                    own $/Mtok  rent $/Mtok  rent/own  breakeven hr   months
+  V100 SXM2 32GB               0.676        2.878      4.26         6,208     10.0
+  A100 SXM4 80GB               0.149        0.773      5.20         5,564      9.0
+  H100 SXM5 80GB               0.141        0.694      4.93         5,766      9.3
+  H200 SXM 141GB               0.103        0.382      3.72         7,710     12.4
+  B200 SXM 192GB               0.055        0.148      2.69        13,410     21.6
+  B300 SXM 288GB               0.052        0.171      3.31        11,718     18.9
+
+==============================================================================
+STEP 4  What actually decayed, and how fast
+==============================================================================
+  Rental rate, per chip:
+    V100     lambda= 0.079/yr    92.4% retained/yr   half-life  8.8yr
+    A100     lambda= 0.140/yr    86.9% retained/yr   half-life  5.0yr
+    H100     lambda= 0.234/yr    79.1% retained/yr   half-life  3.0yr
+    H200     lambda= 0.174/yr    84.0% retained/yr   half-life  4.0yr
+    B200     lambda=-0.027/yr   102.7% retained/yr   half-life   never
+    POOLED   lambda= 0.112/yr    89.4% retained/yr   half-life  6.2yr   R2=0.818
+
+    (R2 is a 6-chip cross-section regressed through the origin, one
+     launch/today ratio per chip. It says those six ratios line up in
+     age. It is NOT evidence that any chip decays exponentially.)
+
+  The answer depends entirely on which market you measure:
+    hyperscaler list -> hyperscaler list      lambda= 0.059/yr
+    launch rate -> market median (used here)  lambda= 0.112/yr
+    launch rate -> marketplace floor          lambda= 0.244/yr
+    Same chips, same dates. The spread is the basis, not the silicon.
+
+  H100 measured inside a single basis (the only real time series):
+    hyperscaler    lambda= 0.099/yr   (7 points)
+    marketplace    lambda= 0.205/yr   (5 points)
+    neocloud       lambda= 0.106/yr   (5 points)
+
+  Caveat the fit cannot see: rentals stopped falling. GetDeploying's
+  index is up 4.3% over the last 12 months, Silicon Data has the H200
+  neocloud index up 14.4% over 12 weeks. Every lambda here is an
+  average over a window whose last year runs the other way.
+
+  Resale price, per chip:
+    V100     lambda=0.342/yr    71.0% retained/yr   half-life  2.0yr
+    A100     lambda=0.108/yr    89.7% retained/yr   half-life  6.4yr
+    H100     lambda=0.117/yr    89.0% retained/yr   half-life  5.9yr
+    H200     lambda=0.106/yr    89.9% retained/yr   half-life  6.5yr
+    B200     lambda=0.091/yr    91.3% retained/yr   half-life  7.6yr
+    POOLED   lambda=0.244/yr    78.3% retained/yr   half-life  2.8yr   R2=0.819
+
+  Frontier advance (the thing doing the killing):
+    tokens/s per $ of silicon   1.37x/yr
+    tokens per kWh              1.35x/yr
+    tokens/s per GPU            1.62x/yr
+    $/Mtok owned                1.35x/yr cheaper
+
+==============================================================================
+STEP 5  Three different 'useful lives', and why people argue
+==============================================================================
+
+  'Useful life' is three questions wearing one coat. Same chip, same decay
+  curve, three answers - which is how Burry and Meta both get to be right.
+
+    T_cash     revenue falls below cash opex        -> turn it off
+    T_payback  cumulative margin repays capex       -> was it a good buy
+    T_replace  a new chip in the SAME slot wins     -> swap it out
+
+  chip        R0 $/hr   capex $   T_cash  T_payback  T_replace  peak margin
+  V100           2.48    14,496     25.4        0.9       14.7      128,035
+  A100           4.10    21,750     27.4        0.8        9.9      221,282
+  H100           7.62    41,812     27.1        0.9        5.6      408,517
+  H200           6.00    43,312     24.6        1.2        5.0      303,987
+  B200           6.00    73,750     22.2        2.0        6.2      283,435
+  B300           8.00    87,250     23.9        1.8         --      397,241
+
+  peak margin = most cash the slot can ever produce, capex excluded.
+  Where that is below capex, the purchase never repays itself.
+
+==============================================================================
+STEP 5a  Sensitivity: does the answer survive the assumptions?
+==============================================================================
+  H100 payback, base case = 0.9 yr
+
+  knob                               low        base        high
+  rental decay lam_r               0.8yr       0.9yr       0.9yr
+  power $/kWh                      0.9yr       0.9yr       0.9yr
+  utilization                      1.2yr       0.9yr       0.8yr
+  launch rate $/hr                 1.8yr       0.9yr       0.7yr
+
+  Only lam_r and the launch rate move the answer much. Power is noise
+  at these margins - which is not the story the press release tells.
+
+==============================================================================
+STEP 5b  Which challenger does the killing
+==============================================================================
+  incumbent challenger    tier jump  gap yr  evict at  note
+  V100      A100                YES     2.6      14.7  outlives the launch, tier jump
+  V100      H100                YES     4.9      18.9  outlives the launch, tier jump
+  V100      H200                YES     6.6      17.9  outlives the launch, tier jump
+  V100      B200                YES     6.9      15.2  outlives the launch, tier jump
+  V100      B300                YES     7.8      18.5  outlives the launch, tier jump
+
+  A100      H100                 no     2.3      14.2  outlives the launch
+  A100      H200                 no     4.0      12.9  outlives the launch
+  A100      B200                YES     4.3       9.9  outlives the launch, tier jump
+  A100      B300                YES     5.2      14.5  outlives the launch, tier jump
+
+  H100      B300                YES     2.8       5.6  outlives the launch, tier jump
+
+  H200      B300                YES     1.2       5.0  outlives the launch, tier jump
+
+  B200      B300                 no     0.8       6.2  outlives the launch
+
+
+  chip        economic life   killed by
+  V100                 14.7        A100
+  A100                  9.9        B200
+  H100                  5.6        B300
+  H200                  5.0        B300
+  B200                  6.2        B300
+  B300      (current frontier)          --
+
+==============================================================================
+STEP 6  The infrastructure ceiling
+==============================================================================
+  tier 1  2015-2020        5-15 kW/rack  $  6.0M/MW  air + containment
+           hosts: V100;A100(partial)
+  tier 2  2020-2023       15-40 kW/rack  $ 10.0M/MW  dense air + rear-door HX
+           hosts: A100;H100;H200
+  tier 3  2023-2026     100-140 kW/rack  $ 20.0M/MW  direct-to-chip liquid
+           hosts: GB200 NVL72;GB300 NVL72;Vera Rubin NVL144
+  tier 4  2027-2028     200-600 kW/rack  $ 28.0M/MW  DLC at scale / hybrid
+           hosts: Rubin Ultra NVL576
+  tier 5  2029+            600+ kW/rack  $ 35.0M/MW  immersion / unknown
+           hosts: unknown
+
+  Two chip generations per tier, three at the outside. Inside a tier the next
+  chip is a forklift swap and the old one gets evicted on chip economics alone.
+  Across a tier boundary the incumbent gets a stay of execution, because the
+  challenger has to fund a building before it can beat anything.
+
+  Retrofit where the shell allows it: ~$2M/MW, versus $11M+/MW greenfield
+  liquid-cooled. That gap is the entire reason tier 2 hardware kept earning
+  through 2025 while tier 3 hardware was already shipping.
+
+
+==============================================================================
+STEP 7  The formula
+==============================================================================
+
+  Put it together. Value of a deployed slot at age t:
+
+      V(t) = INT[t..T*] ( R0*e^(-lam_r*s) - C_pwr - C_opex ) ds  +  P0*e^(-lam_p*T*)
+
+      lam_r = 0.11/yr   rental revenue decay      (market-median basis;
+                           0.06 to 0.25 depending on which market you measure)
+      lam_p = 0.24/yr   resale value decay        (fit, R2=0.82)
+      T*                   set by REPLACEMENT, not wear, and gated by the
+                           infrastructure tier the slot belongs to
+
+  Straight-line depreciation over L years implies a constant 25%/yr
+  writedown. The fitted revenue curve writes down 11% in year one and
+  20% by the end of year two. Book value and economic value diverge
+  fastest in exactly the years an operator is most levered.
+
+  chip           yr1     yr2     yr3     yr4     yr5     yr6   basis
+  revenue         89      80      71      64      57      51   fitted
+  resale          78      61      48      38      30      23   fitted
+  SL 4yr          75      50      25       0       0       0   accounting
+  SL 6yr          83      67      50      33      17       0   hyperscaler

@@ -1,0 +1,7 @@
+chip,launch,launch_price_usd,tdp_w,mem_gb,mem_bw_gbs,infer_precision,dense_tflops,mlperf_llama70b_tok_s_gpu,tok_s_source
+V100 SXM2 32GB,2018-04,11458,300,32,900,FP16,125,,derived
+A100 SXM4 80GB,2020-11,15000,400,80,2039,INT8,624,,derived
+H100 SXM5 80GB,2023-03,30000,700,80,3350,FP8,1979,3050,mlperf_v4.1_offline
+H200 SXM 141GB,2024-11,31500,700,141,4800,FP8,1979,4358,mlperf_v4.1_offline
+B200 SXM 192GB,2025-03,40000,1000,192,8000,FP4,9000,11264,mlperf_v4.1_offline
+B300 SXM 288GB,2026-01,40000,1400,288,8000,FP4,15000,13015,mlperf_v5.1_offline
