@@ -15,5 +15,5 @@ Tomorrow will be day 63 of the bin watch… at day 90 I might just take it down 
 Update:  Finally.. they picked up the bin a few days after my latest request.
 
 
-[2]: /2010/05/charmeck-is-broke-but-has-money-to-track-our-garbage/
+[2]: /posts/2010/05/charmeck-is-broke-but-has-money-to-track-our-garbage/
 [3]: http://servicerequest.charmeck.org/Emweb/mnt/Request04Entry01Contact.asp?sk=VMRgCnns3Bwh4tv

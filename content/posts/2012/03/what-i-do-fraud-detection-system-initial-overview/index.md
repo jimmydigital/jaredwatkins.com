@@ -24,5 +24,5 @@ That’s the theory anyway.  There is still plenty to do before this is a compl
 [4]: http://memcached.org/
 [5]: http://www.macromedia.com/go/getflashplayer
 [6]: http://www.mozilla.com/firefox/
-[7]: /2012/04/what-i-do-fraud-management-system--update1/ "What I do – Fraud Management System -Update1"
+[7]: /posts/2012/04/what-i-do-fraud-management-system-update1/ "What I do – Fraud Management System -Update1"
 

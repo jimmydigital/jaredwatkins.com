@@ -22,5 +22,5 @@ I happened to take these at a time when one particular person was acting well ou
 
 [![](inline_intercountry.png)](intercountry.png)
 
-[1]: /2012/03/what-i-do-fraud-detection-system-initial-overview/ "What I Do – Fraud Detection System Initial Overview"
-[2]: /2012/06/fraud-system-update-2/ "Fraud System – Update 2"
+[1]: /posts/2012/03/what-i-do-fraud-detection-system-initial-overview/ "What I Do – Fraud Detection System Initial Overview"
+[2]: /posts/2012/06/fraud-system-update-2/ "Fraud System – Update 2"

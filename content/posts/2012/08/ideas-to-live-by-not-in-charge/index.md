@@ -24,6 +24,6 @@ Here they are again:
 So when I see the stunning pace of the changes in our national priorities over the last 3.5 years… I do NOT ascribe all this to being the whims of the sitting president.  The scary truth is that his views are only aligned with the shared views of those running the bureaucracy that is the federal government.  His presence was only the catalyst for putting those changes into practice… a justification for changes that, not long ago, would have been seen as impossible.
 
 
-[2]: /2010/06/ideas-to-live-by/
+[2]: /posts/2010/06/ideas-to-live-by/
 [3]: http://www.mauldineconomics.com/
 [4]: http://www.stratfor.com/

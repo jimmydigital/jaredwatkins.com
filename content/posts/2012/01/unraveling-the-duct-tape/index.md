@@ -9,7 +9,7 @@ I’ve written before about [the world being held together by duct tape][2]… a
 
 [Researchers Lay Bare Woeful SCADA Security][3].  SCADA systems are small embedded computers that help guide various kinds of industrial processes..manufacturing, power plants and water systems. Basically anything where you have sensors, motors, pumps etc that have to be monitored and controlled.  [Iran learned all about lax SCADA security][4] over the last couple years and now everyone else is finding out about it too.  The dirty little secret is that most of these systems haven’t fundamentally changed in the last 20 years… despite huge improvements in the level of sophistication of what’s out there now even for hobbyists.  Things like the [Arduino platform][5] costs an order of magnitude less than commercial systems and can perform many of the same jobs.  Actually that’s not true though.. SCADA systems have changed in one very important way.. people started plugging them into a network.  Once you do that.. you are opening yourself up for a world of hurt if those systems were not designed to operate in a hostile environment.  As the researches in the linked story found out.. some of them can’t even be probed without crashing.. never mind standing up to direct attacks.
 
- [2]: /2010/09/the-world-is-held-together-by-duct-tape/ "The world is held together by duct tape"
+ [2]: /posts/2010/09/the-world-is-held-together-by-duct-tape/ "The world is held together by duct tape"
  [3]: https://threatpost.com/en_us/blogs/looking-firesheep-moment-researchers-lay-bare-woeful-scada-security-012012
  [4]: http://en.wikipedia.org/wiki/Stuxnet
  [5]: http://www.makershed.com/Arduinos_Accessories_s/43.htm

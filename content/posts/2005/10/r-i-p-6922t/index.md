@@ -15,5 +15,5 @@ You have to wonder what he was thinking… if he was thinking… I foresee chang
 It’s really kinda sad to see both of these planes scrapped… During my training.. I would talk to people on the radio who had learned to fly in those same planes 15 and 20 years ago.. and now.. just a few months after earning my ticket in them… they are both gone. The only good thing is that neither pilot was seriously injured in these crashes.
 
 
-[2]: /2005/05/r-i-p-4tk/
+[2]: /posts/2005/05/r-i-p-4tk/
 [4]: http://avstop.com/AC/FlightTraingHandbook/CrossedControlStall.html
