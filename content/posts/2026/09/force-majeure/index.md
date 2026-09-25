@@ -3,7 +3,11 @@ title: Force Majeure
 date: 2026-09-25
 draft: false
 description: Oracle's force majeure notice on Project Jupiter shows how AI data center risk gets pushed down a chain of leveraged commitments, and Blue Owl is standing near the bottom of it.
+images:
+  - oracle_cat_on_roof.jpg
 ---
+
+![A scraggly cat wearing an Oracle name tag perched on a roof ridge](oracle_cat_on_roof.jpg "width=1200")
 
 On Thursday Oracle sent a [force majeure notice](https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/) to the developer of Project Jupiter, the 2.45 GW Stargate campus in southern New Mexico. Force majeure is French for "superior force." It came into contract law through the Napoleonic Code, which borrowed it from the Roman *vis major*, and it's the clause that excuses you when something outside your control (war, flood, the English-law favorite "act of God") keeps you from holding up your end of a contract. In this case the superior force is a 17.8 mile gas pipeline the state of NM refuses to approve.
 
