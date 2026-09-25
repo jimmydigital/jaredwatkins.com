@@ -62,7 +62,7 @@ Run it backward and the V100 comes out at 239 tokens a second. It takes eight of
 
 ## Everything in one unit
 
-| Chip | tok/s | W/slot | kWh/Mtok | Own $/Mtok | Rent $/Mtok |
+| Chip | tok/s | W/slot | kWh/Mtok | Own \$/Mtok | Rent \$/Mtok |
 |------|-------|--------|----------|------------|-------------|
 | V100 | 239 | 506 | 0.588 | 0.676 | 2.878 |
 | A100 | 1,474 | 675 | 0.127 | 0.149 | 0.773 |
@@ -83,7 +83,7 @@ Both things are true and only one of them is an excuse. Blackwell Ultra buys 96 
 
 ## Buy versus rent, on the day each chip shipped
 
-| Chip | Own $/Mtok | Rent $/Mtok | Rent/own | Breakeven | Months at 85% |
+| Chip | Own \$/Mtok | Rent \$/Mtok | Rent/own | Breakeven | Months at 85% |
 |------|-----------|-------------|----------|-----------|---------------|
 | V100 | 0.676 | 2.878 | 4.3x | 6,208 hr | 10.0 |
 | A100 | 0.149 | 0.773 | 5.2x | 5,564 hr | 9.0 |
@@ -117,7 +117,7 @@ Rental rates, fit per chip as `R(t) = R0·e^(-λt)`, against the August 2026 mar
 
 B200 doesn't have a decline to plot: it rents for more today than it did at launch, and it's eighteen months old.
 
-Today's rate is the median across two aggregators covering 40-odd and 69 providers, which put the H100 at [$3.37](https://getdeploying.com/gpus/nvidia-h100) and [$3.38](https://aimultiple.com/gpu-index) an hour in August 2026. They agree to within a third of a percent, which is the only reason I trust either of them, because the cheapest listing on any given day is a third of that.
+Today's rate is the median across two aggregators covering 40-odd and 69 providers, which put the H100 at [\$3.37](https://getdeploying.com/gpus/nvidia-h100) and [\$3.38](https://aimultiple.com/gpu-index) an hour in August 2026. They agree to within a third of a percent, which is the only reason I trust either of them, because the cheapest listing on any given day is a third of that.
 
 Which market you price turns out to matter more than which chip. Same six chips, same launch dates, same August 2026:
 
@@ -133,28 +133,28 @@ Which is also why I'm not quoting an R² on the pooled number. It comes out at 0
 
 The direction has turned, too. GetDeploying's index was up [4.3% over the last twelve months](https://getdeploying.com/gpu-price-index) when I first pulled it, and Silicon Data had the [H200 neocloud index up 14.4%](https://www.silicondata.com/blog/h200-vs-h100-rental-prices-may-july-2026) across twelve weeks that summer. Two weeks later the same GetDeploying page reads 3.2% trailing twelve months and negative 2.8% for the last four weeks alone. Every constant in that first table is an average over a window whose last year runs backwards, and now the window won't hold still either.
 
-Resale is a different shape and this is the part I didn't expect. A100, H100, H200 and B200 all show 89 to 91% annual retention, which looks great until you notice the V100 is the only chip in the set that has completed a full cycle: $11,458 list in 2018, [$650 used today](https://gpudojo.com/tesla-v100). That's 71% a year, and it didn't happen smoothly. (A September check of PCIe 80GB listings put used A100s closer to $18,900, better than double the SXM4 basis this model uses. Could be the form factor, could be the same source problem the rentals had in August. I haven't audited it, so the number above stands until I do.)
+Resale is a different shape and this is the part I didn't expect. A100, H100, H200 and B200 all show 89 to 91% annual retention, which looks great until you notice the V100 is the only chip in the set that has completed a full cycle: \$11,458 list in 2018, [\$650 used today](https://gpudojo.com/tesla-v100). That's 71% a year, and it didn't happen smoothly. (A September check of PCIe 80GB listings put used A100s closer to \$18,900, better than double the SXM4 basis this model uses. Could be the form factor, could be the same source problem the rentals had in August. I haven't audited it, so the number above stands until I do.)
 
-Those 90% numbers are all measured on chips that still have somewhere to live. Pull an A100 or an H100 out of a rack today and it goes straight into another rack, because the buildings that host them are everywhere and they aren't full. The V100 is the only chip here that ran out of buildings, and its 71% a year is an average drawn through eight good years and one cliff. The bid held while people were still buying 15 kW racks. Then they stopped, and $11,458 of silicon became $650 of silicon. A used GPU is only worth what a building can still plug it into.
+Those 90% numbers are all measured on chips that still have somewhere to live. Pull an A100 or an H100 out of a rack today and it goes straight into another rack, because the buildings that host them are everywhere and they aren't full. The V100 is the only chip here that ran out of buildings, and its 71% a year is an average drawn through eight good years and one cliff. The bid held while people were still buying 15 kW racks. Then they stopped, and \$11,458 of silicon became \$650 of silicon. A used GPU is only worth what a building can still plug it into.
 
 ## Three different useful lives
 
 "Useful life" is three questions wearing one coat, which is how [Burry's 2 to 3 years](https://www.cnbc.com/2025/11/14/ai-gpu-depreciation-coreweave-nvidia-michael-burry.html) and Meta's 6 years can both get defended.
 
-| Chip | R0 $/hr | Capex/slot | Turn it off | Payback | Replace it |
+| Chip | R0 \$/hr | Capex/slot | Turn it off | Payback | Replace it |
 |------|---------|-----------|-------------|---------|-----------|
-| V100 | 2.48 | $14,496 | 25.4 yr | 0.9 yr | 14.7 yr |
-| A100 | 4.10 | $21,750 | 27.4 yr | 0.8 yr | 9.9 yr |
-| H100 | 7.62 | $41,812 | 27.1 yr | 0.9 yr | 5.6 yr |
-| H200 | 6.00 | $43,312 | 24.6 yr | 1.2 yr | 5.0 yr |
-| B200 | 6.00 | $73,750 | 22.2 yr | 2.0 yr | 6.2 yr |
-| B300 | 8.00 | $87,250 | 23.9 yr | 1.8 yr | n/a |
+| V100 | 2.48 | \$14,496 | 25.4 yr | 0.9 yr | 14.7 yr |
+| A100 | 4.10 | \$21,750 | 27.4 yr | 0.8 yr | 9.9 yr |
+| H100 | 7.62 | \$41,812 | 27.1 yr | 0.9 yr | 5.6 yr |
+| H200 | 6.00 | \$43,312 | 24.6 yr | 1.2 yr | 5.0 yr |
+| B200 | 6.00 | \$73,750 | 22.2 yr | 2.0 yr | 6.2 yr |
+| B300 | 8.00 | \$87,250 | 23.9 yr | 1.8 yr | n/a |
 
 ![](chart-payback-vs-replace.png)
 
 Bars are replace-it, the line is payback. B300 is off the chart because nothing had shipped yet that could take its slot, as of August. That's already stale: Vera Rubin is in production now, just without a public MLPerf Llama-2-70B number to run through the same roofline model. The slot has a challenger. It doesn't have a row in this table yet.
 
-Turn-it-off is where the model stops being worth much. Two decades and change is what you get when you take a decay constant fitted over three years and integrate it out to where revenue finally crosses power and opex, and I don't believe a number that far outside the data. Directionally it's the same answer the [T4s still renting at $0.15/hr](https://intuitionlabs.ai/articles/nvidia-ai-gpu-pricing-guide) eight years on are giving, which is that nobody unplugs a paid-off GPU. Treat it as "longer than you'd think" and move on.
+Turn-it-off is where the model stops being worth much. Two decades and change is what you get when you take a decay constant fitted over three years and integrate it out to where revenue finally crosses power and opex, and I don't believe a number that far outside the data. Directionally it's the same answer the [T4s still renting at \$0.15/hr](https://intuitionlabs.ai/articles/nvidia-ai-gpu-pricing-guide) eight years on are giving, which is that nobody unplugs a paid-off GPU. Treat it as "longer than you'd think" and move on.
 
 Replace-it is the one that matters, and on these numbers Meta's six years is close to right for Hopper and Blackwell. Burry's two to three doesn't match any column in this table. It matches the 2.8 year half-life you get off the marketplace floor, which is a real number for anyone selling into that market and the wrong one for anyone who owns the rack. CoreWeave's CEO put a number on the other side three weeks after I first ran this: [contracting 2020-vintage GPUs out to 2029](https://247wallst.com/investing/2026/08/12/coreweave-ceo-were-booking-2020-era-nvidia-gpus-through-2029-at-full-freight/), at full price. Nine years on an A100 is not a company talking its book down.
 
@@ -164,13 +164,13 @@ Every chip repaid its capex inside two years, most inside one. What changed is h
 
 The replace-it column has a wrinkle: a challenger can only evict an incumbent if it fits the same building.
 
-| Tier | Years | kW/rack | Cooling | $/MW | Chips |
+| Tier | Years | kW/rack | Cooling | \$/MW | Chips |
 |------|-------|---------|---------|------|-------|
-| 1 | 2015 to 2020 | 5 to 15 | air + containment | $6M | V100 |
-| 2 | 2020 to 2023 | 15 to 40 | dense air, rear-door HX | $10M | A100, H100, H200 |
-| 3 | 2023 to 2026 | 100 to 140 | direct-to-chip liquid | $20M | GB200, GB300 NVL72, Vera Rubin NVL144 |
-| 4 | 2027 to 2028 | 200 to 600 | DLC at scale | $28M | Rubin Ultra |
-| 5 | 2029+ | 600+ | immersion, or nobody knows | $35M | ? |
+| 1 | 2015 to 2020 | 5 to 15 | air + containment | \$6M | V100 |
+| 2 | 2020 to 2023 | 15 to 40 | dense air, rear-door HX | \$10M | A100, H100, H200 |
+| 3 | 2023 to 2026 | 100 to 140 | direct-to-chip liquid | \$20M | GB200, GB300 NVL72, Vera Rubin NVL144 |
+| 4 | 2027 to 2028 | 200 to 600 | DLC at scale | \$28M | Rubin Ultra |
+| 5 | 2029+ | 600+ | immersion, or nobody knows | \$35M | ? |
 
 ![](chart-rack-power-tiers.png)
 
@@ -178,9 +178,9 @@ The flat pairs are the tiers. H100 and H200 sit in the same building. B200 and B
 
 Two chip generations per tier, three at the outside. Inside a tier the next chip is a forklift swap. Across a boundary the incumbent gets a stay of execution, because the challenger has to fund a building before it can beat anything.
 
-A liquid retrofit into a shell that can take it runs [about $2M per MW against $11M+ for greenfield](https://stlpartners.com/press/liquid-cooling-retrofits-can-cost-roughly-80-less/). That 5x gap is most of why Hopper kept earning through 2025 while Blackwell was already shipping.
+A liquid retrofit into a shell that can take it runs [about \$2M per MW against \$11M+ for greenfield](https://stlpartners.com/press/liquid-cooling-retrofits-can-cost-roughly-80-less/). That 5x gap is most of why Hopper kept earning through 2025 while Blackwell was already shipping.
 
-Rubin Ultra wants 600 kW in a single rack, which is what forty tier-1 racks pulled between them. At that density, breaker capacity and floor loading are still open engineering problems, not something a better cold plate fixes. Tier 5 in that table is priced at $35M per MW with the cooling column left blank, because nobody has built the cooling for it yet. Everything past tier 4 here is a trend line into a building that doesn't exist.
+Rubin Ultra wants 600 kW in a single rack, which is what forty tier-1 racks pulled between them. At that density, breaker capacity and floor loading are still open engineering problems, not something a better cold plate fixes. Tier 5 in that table is priced at \$35M per MW with the cooling column left blank, because nobody has built the cooling for it yet. Everything past tier 4 here is a trend line into a building that doesn't exist.
 
 The standard Vera Rubin chip is a different story, and it's the one that actually matters for the table above. NVL144 draws [120 to 130 kW a rack](https://introl.com/blog/nvidia-vera-rubin-gpu-600kw-racks-2027), which is tier 3, the same building B300 already lives in. Nvidia's fiscal Q2 earnings call on August 26 had it "ramping into full production" at CoreWeave, Google Cloud, Azure, Oracle and Nebius, not a roadmap slide. The boundary that was supposed to buy B300 a stay of execution isn't there this time. Whatever replaces it doesn't need a new building.
 

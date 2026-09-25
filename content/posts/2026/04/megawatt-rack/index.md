@@ -108,7 +108,7 @@ The second approach is direct liquid cooling (DLC), where coolant runs through c
 
 At 100 kW, both approaches are viable. The choice comes down to how the facility was built and what the next GPU generation will demand.
 
-The critical point is that 100 kW racks are demanding but solvable within a purpose-built or heavily upgraded facility. Building new infrastructure to this spec costs somewhere between $200K and $300K per rack in facility-side capital (not counting the compute itself). That's a real number. Retrofitting an existing facility up to 40 kW density is cheaper, around $50K to $100K per rack, but leaves headroom on the table when the next GPU generation arrives. The challenges are well understood, the vendor ecosystem is mature, and there's enough operational experience to draw from. None of it requires fundamentally new infrastructure categories. It just requires actually building the right infrastructure rather than adapting what's already there.
+The critical point is that 100 kW racks are demanding but solvable within a purpose-built or heavily upgraded facility. Building new infrastructure to this spec costs somewhere between \$200K and \$300K per rack in facility-side capital (not counting the compute itself). That's a real number. Retrofitting an existing facility up to 40 kW density is cheaper, around \$50K to \$100K per rack, but leaves headroom on the table when the next GPU generation arrives. The challenges are well understood, the vendor ecosystem is mature, and there's enough operational experience to draw from. None of it requires fundamentally new infrastructure categories. It just requires actually building the right infrastructure rather than adapting what's already there.
 
 What it does require is supply chain access that's getting harder to take for granted, because a lot of the components that make 100 kW infrastructure work are the same ones going into utility-scale solar farms by the thousands.
 
@@ -148,17 +148,17 @@ High-voltage DC delivery eliminates one to two of those conversion stages. The O
 
 The difference between 85% end-to-end efficiency and 95% efficiency is 100 kW of waste heat per megawatt rack. A hundred kilowatts that you're paying for, generating heat from, and then paying again to cool. That "paying again to cool" part is real and it compounds the loss. Modern liquid-cooled facilities run a PUE around 1.2 to 1.3, meaning roughly 0.2 to 0.3 kW of cooling energy is consumed for every kW of heat the facility has to reject. Apply that to the waste heat alone (the heat that never needed to exist in the first place) and the cooling overhead adds another 25% or so on top of the direct conversion loss cost.
 
-At 1,000 racks (a medium-sized hyperscale hall), the annual cost difference between efficient and inefficient power delivery, counting both the losses and the cost to cool those losses, is somewhere between $130 and $175 million per year. That's the business case for a 9-figure investment in HVDC infrastructure. The math isn't subtle.
+At 1,000 racks (a medium-sized hyperscale hall), the annual cost difference between efficient and inefficient power delivery, counting both the losses and the cost to cool those losses, is somewhere between \$130 and \$175 million per year. That's the business case for a 9-figure investment in HVDC infrastructure. The math isn't subtle.
 
-Here's a rough comparison across delivery methods for a 1 MW rack, at $0.065/kWh with a 1.25 cooling overhead factor applied to waste heat:
+Here's a rough comparison across delivery methods for a 1 MW rack, at \$0.065/kWh with a 1.25 cooling overhead factor applied to waste heat:
 
 | Power delivery           | Efficiency  | Loss (kW)    | Annual power cost of losses | Annual cooling cost of losses | Total annual waste cost |
 | ------------------------ | ----------- | ------------ | --------------------------- | ----------------------------- | ----------------------- |
-| Single phase 120V AC     | 80 to 82%   | 180 to 200   | $100K to $115K              | $25K to $29K                  | $125K to $144K          |
-| Three phase 208V/480V AC | 88 to 91%   | 90 to 120    | $51K to $70K                | $13K to $18K                  | $64K to $88K            |
-| 48V HVDC (OCP ORV3)      | 94 to 96%   | 40 to 60     | $23K to $35K                | $6K to $9K                    | $29K to $44K            |
+| Single phase 120V AC     | 80 to 82%   | 180 to 200   | \$100K to \$115K              | \$25K to \$29K                  | \$125K to \$144K          |
+| Three phase 208V/480V AC | 88 to 91%   | 90 to 120    | \$51K to \$70K                | \$13K to \$18K                  | \$64K to \$88K            |
+| 48V HVDC (OCP ORV3)      | 94 to 96%   | 40 to 60     | \$23K to \$35K                | \$6K to \$9K                    | \$29K to \$44K            |
 
-The gap between single-phase AC and HVDC, fully loaded, is roughly $96K to $115K per rack per year in pure waste: power you bought, converted to heat you didn't want, and then spent more money to remove. These numbers are why you see hyperscalers spending billions on power infrastructure before they spend anything on compute.
+The gap between single-phase AC and HVDC, fully loaded, is roughly \$96K to \$115K per rack per year in pure waste: power you bought, converted to heat you didn't want, and then spent more money to remove. These numbers are why you see hyperscalers spending billions on power infrastructure before they spend anything on compute.
 
 ## Cooling: air physically cannot do this job
 
@@ -182,15 +182,15 @@ This is a ground-up design requirement, and increasingly one with published refe
 
 Let's put numbers on the full picture. One megawatt of IT load, operating 24/7/365:
 
-- Raw power cost: 1 MW × 8,760 hours × $0.065/kWh = **$569,400 per year**
+- Raw power cost: 1 MW × 8,760 hours × \$0.065/kWh = **\$569,400 per year**
 - Apply a PUE (Power Usage Effectiveness) of 1.2, which is realistic for a modern liquid-cooled facility: total facility load is 1.2 MW
-- Total facility power cost: **$683,000 per year per rack**
+- Total facility power cost: **\$683,000 per year per rack**
 
-That's before amortizing the cost of the rack itself (the NVL72 is reportedly in the $3 to $4M range per system, before networking), the facility infrastructure, or the power delivery and cooling buildout.
+That's before amortizing the cost of the rack itself (the NVL72 is reportedly in the \$3 to \$4M range per system, before networking), the facility infrastructure, or the power delivery and cooling buildout.
 
-Scale to 1,000 racks and you're looking at roughly $683M per year in power costs alone. A mid-sized hyperscale AI hall. The infrastructure to support those racks (power substations, cooling towers, HVDC distribution, DLC manifolds) runs another $1 to $2 billion in capital. The compute itself is additional.
+Scale to 1,000 racks and you're looking at roughly \$683M per year in power costs alone. A mid-sized hyperscale AI hall. The infrastructure to support those racks (power substations, cooling towers, HVDC distribution, DLC manifolds) runs another \$1 to \$2 billion in capital. The compute itself is additional.
 
-This is why the conversation in data center infrastructure has shifted so completely in the last two years. The decisions about PUE targets, power delivery topology, and cooling architecture are not engineering preferences. They're P&L items. The difference between a 1.4 PUE facility and a 1.2 PUE facility, at this scale, is $136M per year in wasted power costs for that same 1,000-rack hall. Every tenth of a PUE point is worth fighting for.
+This is why the conversation in data center infrastructure has shifted so completely in the last two years. The decisions about PUE targets, power delivery topology, and cooling architecture are not engineering preferences. They're P&L items. The difference between a 1.4 PUE facility and a 1.2 PUE facility, at this scale, is \$136M per year in wasted power costs for that same 1,000-rack hall. Every tenth of a PUE point is worth fighting for.
 
 ## The supply chain you didn't expect: this stuff competes with electric cars
 

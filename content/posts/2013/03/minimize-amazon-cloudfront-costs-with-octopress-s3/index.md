@@ -10,7 +10,7 @@ option for "--cf-invalidate" you should be aware that this will drive up your co
 I didn't understand what that was doing.<!--more-->
 
 This isn't as bad as it sounds.. as my expected yearly
-bill should be less than $30 for S3 and CF assuming I don't get super famous in the next year.
+bill should be less than \$30 for S3 and CF assuming I don't get super famous in the next year.
 
 When setting up your CloudFront deployment you tell it what you want the ttl to be for caching
 your content.  12 or 24 hours is typical.. so that means if you publish an update it could take
@@ -27,5 +27,5 @@ If you really need to expire a file or two early you can still do it... just run
 Another cost saving tip for working with EC2 servers.  If you need a very small server that's
 always up.. don't buy a spot instance... buy a t1.micro reserved instance for 'heavy usage'.
 You can use their pricing tool to see how cheap this is.. much cheaper than an m1.small which
-is their default ec2 server type. Current numbers put it at about $45/yr verses about $250/yr.
+is their default ec2 server type. Current numbers put it at about \$45/yr verses about \$250/yr.
 
