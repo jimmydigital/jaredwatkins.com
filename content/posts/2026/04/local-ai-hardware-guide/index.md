@@ -10,6 +10,8 @@ Nobody buying AI hardware in 2026 is short on opinions. The forums are full of p
 
 <!--more-->
 
+![Surfing the information superhighway, 1990s edition](internetsurfing.gif#floatright "width=300")
+
 "What's the best hardware for running AI locally?" is roughly as useful as asking what's the best vehicle without mentioning whether you're hauling gravel or commuting to an office. The answer depends entirely on what you're trying to do, and getting that wrong is an expensive mistake.
 ## The three things that matter
 
