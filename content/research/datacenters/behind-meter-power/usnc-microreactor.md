@@ -1,17 +1,19 @@
 ---
 title: "USNC / NANO Nuclear — MMR Microreactor (KRONOS MMR) for Data Center BTM"
 date: 2026-04-24
-lastmod: 2026-04-28
+lastmod: 2026-10-21
 draft: false
-description: "Ultra Safe Nuclear Corporation (USNC) filed Chapter 11 bankruptcy (2024). NANO Nuclear Energy acquired USNC's MMR and Pylon reactor IP assets for $8.5M (December 2024 court approval; March 2025 close). Rebranded as KRONOS MMR. High-temperature gas-cooled reactor (HTGR); TRISO fuel; 15 MWe / 45 MWt. INL DOME demonstration (Pylon reactor, target 2027). Data center AI applications targeted. No signed data center customer agreements."
+description: "Ultra Safe Nuclear (Chapter 11, 2024); NANO Nuclear acquired its MMR and Pylon assets (rebranded KRONOS MMR and LOKI MMR). NRC construction permit application for a KRONOS MMR at the University of Illinois accepted for review May 2026; no data center deployment identified."
 research_area: "datacenters/behind-meter-power"
 source_urls:
+  - "https://www.globenewswire.com/news-release/2026/10/13/3379685/0/en/nano-nuclear-s-kronos-mmr-program-advancing-through-u-s-nrc-review-with-the-university-of-illinois-urbana-champaign.html"
+  - "https://www.world-nuclear-news.org/articles/nano-announces-mmr-rebrand-on-completion-of-usnc-technology-acquisition"
   - "https://nanonuclearenergy.com/nano-nuclear-energy-enters-into-agreement-to-acquire-ultra-safe-nuclear-corp-s-patented-micro-modular-reactor-mmr-and-pylon-space-reactors-for-8-5-million-along-with-worldwide-demonstr/"
   - "https://www.globenewswire.com/news-release/2024/12/24/3001707/0/en/NANO-Nuclear-Energy-Enters-into-Agreement-to-Acquire-Ultra-Safe-Nuclear-Corp-s-Patented-Micro-Modular-Reactor-MMR-and-Pylon-Space-Reactors-for-8-5-Million-along-with-Worldwide-Demo.html"
   - "https://nuclear-news.net/2025/04/04/update-on-the-bankruptcy-of-usnc-ultra-safe-nuclear/"
   - "https://www.usnc.com/"
-last_reviewed: 2026-04-28
-stale_after_days: 90
+last_reviewed: 2026-10-21
+stale_after_days: 60
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
@@ -44,6 +46,16 @@ USNC filed for Chapter 11 bankruptcy in 2024 after failing to secure sufficient 
 **Status as of April 2026:** NANO Nuclear is an early-stage public company (NASDAQ: NNE) that acquired USNC's IP but has limited resources to advance the technology to commercialization. The INL DOME demonstration (Pylon reactor, targeting 2027) is the key near-term milestone. No data center customers have signed binding agreements.
 
 **⚑ Key risk:** NANO Nuclear is a very small company with limited capital. The $8.5M acquisition price reflects distressed-asset pricing, not commercialized technology. Advancing the KRONOS MMR to commercial deployment requires tens to hundreds of millions in additional capital, regulatory approval, and execution capability that NANO Nuclear has not yet demonstrated.
+
+---
+
+## October 2026 Update
+
+**Regulatory track:** NRC construction permit application (Part 50) for the KRONOS MMR at the University of Illinois Urbana-Champaign, under review. Not yet a permit.
+
+- **Application:** submitted by the University of Illinois on 2026-03-31; NRC formally accepted it for review on 2026-05-18; formal review began 2026-06-23. NRC's public schedule, as cited by NANO: draft environmental assessment and draft safety evaluation February 2027, final environmental assessment May 2027, final safety evaluation September 2027. NANO's expectation is that initial construction begins in the second half of 2027, subject to approvals. ([NANO Nuclear release, 2026-10-13](https://www.globenewswire.com/news-release/2026/10/13/3379685/0/en/nano-nuclear-s-kronos-mmr-program-advancing-through-u-s-nrc-review-with-the-university-of-illinois-urbana-champaign.html))
+- **What it is not:** this is a research-campus reactor application; it is not a data center power agreement. The release does not state the reactor's size or fuel.
+- **Acquisition record:** NANO completed acquisition of USNC's MMR and Pylon technology assets in January 2025 and rebranded them KRONOS MMR and LOKI MMR; the price is reported as $8.5M by NANO and as USD 85 million in one trade-press piece, so verify against NANO's filing. ([World Nuclear News](https://www.world-nuclear-news.org/articles/nano-announces-mmr-rebrand-on-completion-of-usnc-technology-acquisition))
 
 ---
 
@@ -209,12 +221,11 @@ The KRONOS MMR uses TRISO fuel — the same fuel type as Kairos Power (FHR) and 
 
 ---
 
-## Regulatory Status (April 2026)
+## Regulatory Status (October 2026)
 
-- USNC had engaged in NRC pre-application interactions under both 10 CFR 50 and the new 10 CFR 53 framework
-- These interactions transferred to NANO Nuclear as part of the acquisition
-- No Combined License Application (COLA) has been submitted
-- The technology is in early pre-licensing phase; several years of NRC engagement required before formal license submission
+- NRC construction permit application for a KRONOS MMR at the University of Illinois Urbana-Champaign: submitted 2026-03-31, accepted 2026-05-18, review ongoing (see October 2026 Update).
+- No combined license application for a data center deployment has been identified.
+- Earlier NRC pre-application interactions under 10 CFR 50 and the 10 CFR 53 framework transferred to NANO as part of the acquisition (from the previous review).
 
 ---
 

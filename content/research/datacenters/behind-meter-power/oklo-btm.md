@@ -1,19 +1,22 @@
 ---
 title: "Oklo — Behind-the-Meter Aurora Deployment"
 date: 2026-04-21
-lastmod: 2026-04-28
+lastmod: 2026-10-21
 draft: false
 description: "BTM-focused profile of Oklo's Aurora reactor for data center deployment. 75 MWe sodium-cooled fast microreactor. ~18 GW order book (mostly nonbinding LOIs) from Meta, Switch, Equinix, Wyoming Hyperscale. First deployment at Idaho National Lab (groundbreaking Sept 2025, target 2027–2028 criticality). Key risks: HALEU fuel supply, NRC licensing, order book / binding commitment gap."
 research_area: "datacenters/behind-meter-power"
 related:
   - "energy/nuclear/oklo.md"
 source_urls:
+  - "https://www.powermag.com/oklos-groves-becomes-fifth-doe-pilot-reactor-to-reach-criticality-first-on-private-land/"
+  - "https://ans.org/news/2026-10-15/article-8492/oklo-announces-plans-for-groves2"
+  - "https://oklo.com/newsroom/news-details/2026/U-S--Department-of-Energy-Approves-Preliminary-Documented-Safety-Analysis-for-Aurora-Powerhouse-at-Idaho-National-Laboratory/default.aspx"
   - "https://oklo.com/"
   - "https://oklo.com/newsroom/news-details/2025/Oklo-Breaks-Ground-on-First-Aurora-Powerhouse/default.aspx"
   - "https://www.datacenterdynamics.com/en/news/oklo-boosts-aurora-reactor-capacity-to-75mw-to-power-ai-data-centers/"
   - "https://www.utilitydive.com/news/oklo-aurora-smr-advanced-reactor-supply-agreement-data-center-developer-switch/735933/"
-last_reviewed: 2026-04-28
-stale_after_days: 90
+last_reviewed: 2026-10-21
+stale_after_days: 60
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
@@ -54,6 +57,18 @@ This profile focuses on Oklo's behind-the-meter (BTM) power value proposition fo
 - **NRC licensing:** First-of-a-kind; COLA resubmission 2025, approval uncertain, could slip 12–24 months
 - **Order book reality:** ~18 GW is 90% nonbinding LOIs; binding PPAs likely <5 GW as of April 2026
 - **Execution risk:** Single first project (INL); if delays >12 months, entire timeline cascades backward
+
+---
+
+## October 2026 Update
+
+**Regulatory track (read first):** Oklo's Groves test reactor operates under DOE's Reactor Pilot Program authorization, not an NRC license. Aurora-INL has DOE preliminary safety analysis approval but no operating authorization or NRC commercial license.
+
+- **Groves first criticality (2026-08-05, announced 08-06):** a low-power (designed and authorized up to 100 We) pool-type, water-cooled isotope test reactor at a private site in Lockhart, Texas; fifth reactor to go critical under the DOE pilot program and the first on private land. Oklo completed all five DOE steps (OTA, NSDA, PDSA, DSA approved 2026-07-01, readiness review and startup approval 2026-07-23). **What it demonstrated:** reactor physics, procedures, safety programs and workforce readiness for future isotope facilities. **What it did not:** it does not produce isotopes or electricity for customers and is not a data center power source. ([POWER](https://www.powermag.com/oklos-groves-becomes-fifth-doe-pilot-reactor-to-reach-criticality-first-on-private-land/))
+- **Aurora-INL (75 MWe):** DOE's Idaho Operations Office approved the preliminary documented safety analysis on 2026-06-11 (the fuel fabrication facility's PDSA was approved December 2025). Groundbreaking was September 2025; neither the company release nor the October coverage gives a startup date, so the 2027-2028 target in earlier text is not re-confirmed. ([Oklo](https://oklo.com/newsroom/news-details/2026/U-S--Department-of-Energy-Approves-Preliminary-Documented-Safety-Analysis-for-Aurora-Powerhouse-at-Idaho-National-Laboratory/default.aspx))
+- **Groves-2 (announced 2026-10-15):** planned isotope irradiation and processing facility starting with lutetium-177; in September Oklo received 2 grams of enriched ytterbium-176 feedstock; commercial-scale production would need NRC licensing, and no details of that transition were given. Enabled by DOE's Nuclear Energy Launch Pad program (March 2026). ([ANS](https://ans.org/news/2026-10-15/article-8492/oklo-announces-plans-for-groves2))
+- **Other pilot projects:** Pluto (plutonium-fueled sodium fast reactor) and the Aurora Fuel Fabrication Facility under DOE's Fuel Line Pilot Program.
+- **Commercial relationships:** no new binding data center agreements were found in this review; the order book remains predominantly nonbinding frameworks and letters of intent, as described below.
 
 ---
 

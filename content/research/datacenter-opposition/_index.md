@@ -88,22 +88,6 @@ When documenting opposition claims:
 
 ---
 
-### Tags
-
-**Opposition tactic:** `zoning-challenge`, `environmental-litigation`, `rate-dispute`, `legislative-moratorium`, `community-organizing`, `ballot-initiative`, `permit-appeal`
-
-**Scale:** `hyperscale`, `large-ai-cluster`, `edge-computing`
-
-**Region:** `virginia`, `iowa`, `ohio`, `texas`, `maine`, `georgia`, `north-carolina`, `colorado`, `maryland`, `pennsylvania`
-
-**Concern:** `water-usage`, `grid-reliability`, `noise-pollution`, `air-quality`, `property-values`, `tax-subsidies`, `transparency`
-
-**Group type:** `national-advocacy`, `local-nimby`, `environmental`, `utility-watchdog`, `labor`, `preservation`, `indigenous-rights`
-
-**Status:** `blocked`, `delayed`, `pending-decision`, `under-construction-despite-opposition`, `completed`
-
----
-
 ### Review Cadence
 
 - **90 days** — Main index and project tracker (opposition dynamics move fast; new projects surface regularly)

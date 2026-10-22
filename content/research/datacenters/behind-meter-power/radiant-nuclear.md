@@ -1,18 +1,21 @@
 ---
 title: "Radiant Nuclear: Kaleidos Microreactor for Data Centers"
 date: 2026-04-25
-lastmod: 2026-04-28
+lastmod: 2026-10-21
 draft: false
-description: "Radiant Nuclear's 1.2 MWe Kaleidos microreactor—high-temperature gas-cooled HTGR with HALEU/TRISO fuel. Equinix 20-unit preorder signals microreactor scaling for colocation data centers."
+description: "Radiant Nuclear's roughly 1 MWe Kaleidos high-temperature gas-cooled microreactor (TRISO fuel). Unit shipped to INL's DOME in August 2026 for DOE-supervised testing; up to $750M Army Janus agreement (September 2026); Equinix 20-unit preorder status unconfirmed."
 research_area: "datacenters/behind-meter-power"
 source_urls:
+  - "https://www.world-nuclear-news.org/articles/kaleidos-microreactor-begins-journey-to-idaho"
+  - "https://nric.inl.gov/subject-matter/kaleidos/"
+  - "https://www.ans.org/news/2026-08-28/article-8347/five-companies-five-bases-the-armys-janus-program-takes-shape/"
   - "https://www.radiantnuclear.com/"
   - "https://www.equinix.com/"
   - "https://www.bwxt.com/what-we-do/nuclear-fuel/triso"
   - "https://www.nrc.gov/reactors/new-reactors/advanced/microreactors.html"
   - "https://inl.gov/research-program/dome/"
-last_reviewed: 2026-04-28
-stale_after_days: 90
+last_reviewed: 2026-10-21
+stale_after_days: 60
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
@@ -42,6 +45,17 @@ stale_after_days: 90
 ## Summary
 
 Radiant Nuclear is developing the Kaleidos, a 1.2 MWe factory-built high-temperature gas-cooled microreactor designed for clustered deployment at colocation data centers; the company holds the largest microreactor customer commitment to date — a 20-unit (24 MW+) preorder from Equinix (August 2025) — with commercial validation hinging on successful demonstration at Idaho National Laboratory's DOME facility.
+
+---
+
+## October 2026 Update
+
+**Regulatory track:** Kaleidos testing at INL's DOME is under DOE authority. The Army's Janus program is a separate Army-regulated route. Neither is an NRC commercial license.
+
+- **Shipment to INL (2026-08-12):** the 1 MWe Kaleidos left El Segundo, California by truck (more than 1,000 miles) for the DOME test bed. Planned five-phase test program: zero-power criticality through full heat and power generation, ending with 150 continuous hours without operator assistance; fuel is TRISO fabricated by Standard Nuclear earlier in 2026. The campaign was targeted for completion in Q3 2026; as of 2026-10-21 no report of installation, criticality or test results was found (INL's Kaleidos page last listed the transit). ([World Nuclear News](https://www.world-nuclear-news.org/articles/kaleidos-microreactor-begins-journey-to-idaho), [INL NRIC](https://nric.inl.gov/subject-matter/kaleidos/))
+- **Army Janus (2026-09-01):** Radiant announced a binding agreement with the U.S. Army and Defense Innovation Unit worth up to $750M to develop and deploy 15 Kaleidos microreactors; the Army selected five companies (Antares Nuclear, BWXT Advanced Technologies, General Atomics Electromagnetic Systems, Radiant, Westinghouse Government Services). ([INL NRIC](https://nric.inl.gov/subject-matter/kaleidos/), [ANS](https://www.ans.org/news/2026-08-28/article-8347/five-companies-five-bases-the-armys-janus-program-takes-shape/)) "Up to" values are ceilings, not committed spend.
+- **DOME priority:** Radiant is first in line at DOME; reporting says DOE gave it exclusive access for a year. Deployable Energy was selected on 2026-09-30 to test in DOME in 2027.
+- **Datacenter relevance:** no new Equinix milestone was found; the 20-unit preorder discussed below should be treated as unconfirmed until a primary release is checked.
 
 ---
 

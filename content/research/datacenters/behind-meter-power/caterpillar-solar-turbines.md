@@ -1,18 +1,20 @@
 ---
 title: "Caterpillar & Solar Turbines: Gas Turbines for Data Center BTM"
 date: 2026-04-25
-lastmod: 2026-04-28
+lastmod: 2026-10-21
 draft: false
 description: "Caterpillar (parent) and Solar Turbines subsidiary—industrial gas turbine manufacturer pivoting to data center BTM power. Solar Turbines 1–39 MW class turbines; Vertiv integration partnership (Nov 2025)."
 research_area: "datacenters/behind-meter-power"
 source_urls:
+  - "https://www.utilitydive.com/news/caterpillar-sales-surpass-20b-growing-data-center-demand-q2-2026/827569/"
+  - "https://www.heavyquipmag.com/2026/07/29/caterpillar-is-finding-its-next-growth-engine-inside-the-ai-power-crunch/"
   - "https://www.cat.com/"
   - "https://www.solarturbines.com/"
   - "https://www.vertivco.com/"
   - "https://www.vertivco.com/en-us/about/news-and-insights/articles/press-releases/vertiv-and-caterpillar-collaborate-to-power-data-centers-with-natural-gas-turbine-technology/"
   - "https://finance.yahoo.com/quote/CAT"
-last_reviewed: 2026-04-28
-stale_after_days: 180
+last_reviewed: 2026-10-21
+stale_after_days: 90
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
@@ -40,6 +42,15 @@ stale_after_days: 180
 ## Summary
 
 Solar Turbines (a wholly-owned subsidiary of Caterpillar Inc.) manufactures industrial gas turbines in the 1–39 MW class and is pivoting toward data center behind-the-meter (BTM) power, partnering with Vertiv in November 2025 to offer integrated turnkey power plant solutions; as of April 2026 the company has no publicly named data center BTM contracts and remains a secondary entrant relative to GE Vernova and Wärtsilä.
+
+---
+
+## October 2026 Update
+
+- **Q2 2026 results (reported August 2026):** record $20.5B sales and revenue (+24%); Power & Energy segment sales $8.2B (+17%) with segment profit up 30% to $2.0B; power generation retail sales up 72%; order backlog $72B with about 59% expected to ship within 12 months. CEO Joseph Creed cited very strong demand for large generator sets and turbines for data centers. ([Utility Dive](https://www.utilitydive.com/news/caterpillar-sales-surpass-20b-growing-data-center-demand-q2-2026/827569/))
+- **Capacity:** Caterpillar is restarting production of its 10 MW medium-speed gas reciprocating engine platform (stopped in 2022), restoring 1.5 GW of capacity with shipments starting Q4 2026. The report does not mention Solar Turbines specifically.
+- **Joule (Utah):** the August 2025 agreement covers a campus of about 4,000 acres, Caterpillar G3520K gensets, CCHP and 1.1 GWh of battery storage, with operations expected to begin in 2026; no construction or commissioning update was found in this review. ([POWER](https://www.powermag.com/caterpillar-among-groups-working-on-massive-utah-data-center-campus/))
+- **Solar Turbines:** no new data-center-specific announcement was found in October 2026 searches; the Vertiv collaboration (November 2025) remains the latest item reviewed.
 
 ---
 

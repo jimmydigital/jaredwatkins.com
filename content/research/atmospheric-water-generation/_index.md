@@ -25,8 +25,6 @@ sitemap:
 
 **Claim verification for this section:** AWH performance claims are usually reported as liters of water per kilogram of sorbent per day, or liters per day per unit — these two units are not interchangeable and must not be conflated. Distinguish lab/prototype results (often per-kilogram sorbent figures from peer-reviewed papers) from company-reported unit-level production claims (often per-device-per-day figures from press materials), and note which regime (relative humidity, temperature swing, energy input) each claim was measured under. "Off-grid" or "ambient energy" claims should specify the actual energy source (passive solar heating, waste heat) rather than being taken as literally energy-free.
 
-**Tags:** `atmospheric-water-harvesting`, `mof`, `reticular-chemistry`, `desiccant`, `water-scarcity`
-
 **Review cadence:** 90 days — this is a fast-moving field with active commercialization following Omar Yaghi's 2025 Nobel Prize in Chemistry.
 
 {{</steering>}}

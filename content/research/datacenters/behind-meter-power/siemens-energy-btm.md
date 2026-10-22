@@ -1,18 +1,19 @@
 ---
 title: "Siemens Energy: Modular Gas Turbine Power Plants for Data Centers"
 date: 2026-04-25
-lastmod: 2026-04-28
+lastmod: 2026-10-21
 draft: false
 description: "Siemens Energy gas turbines (SGT series) and modular 500 MW power plant architecture for data center BTM. Eaton partnership (2025) for integrated power + cooling solutions."
 research_area: "datacenters/behind-meter-power"
 source_urls:
+  - "https://blockspace.media/insight/siemens-energy-q3-earnings-record-orders-2026/"
   - "https://www.siemens-energy.com/"
   - "https://www.eaton.com/"
   - "https://www.siemens-energy.com/global/en/offerings/power-generation/gas-turbines.html"
   - "https://finance.yahoo.com/quote/ENR.DE"
   - "https://www.powermag.com/siemens-energy-targets-data-center-power-with-gas-turbines/"
-last_reviewed: 2026-04-28
-stale_after_days: 180
+last_reviewed: 2026-10-21
+stale_after_days: 90
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
@@ -41,6 +42,14 @@ stale_after_days: 180
 ## Summary
 
 Siemens Energy is a German power generation equipment manufacturer that in 2024–2025 made a formal push into data center behind-the-meter power, leveraging its SGT heavy-frame gas turbine portfolio (40–200+ MW) and an Eaton partnership (November 2025) to offer standardized 500 MW modular power plants; turbine orders nearly doubled from 100 units in 2024 to 194 units in 2025 driven in part by data center demand, though the company has no publicly named data center BTM contracts as of April 2026.
+
+---
+
+## October 2026 Update
+
+- **Q3 FY2026 (April-June 2026, reported 2026-08-05):** orders of EUR 17.93B and a record backlog of EUR 162B; 73 gas turbines booked in the quarter totaling 15 GW. U.S. data center demand supported order growth, and medium-sized turbines are often chosen for data centers, but the share attributable to data centers was not quantified. ([Blockspace](https://blockspace.media/insight/siemens-energy-q3-earnings-record-orders-2026/))
+- **Backlog context:** a Utility Dive headline puts the gas turbine backlog near 70 GW alongside manufacturing expansion (article not fetched).
+- **Eaton partnership:** no new milestone found in October 2026 searches.
 
 ---
 

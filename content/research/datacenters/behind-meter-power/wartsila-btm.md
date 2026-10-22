@@ -1,11 +1,13 @@
 ---
 title: "Wärtsilä — Engines, Battery Storage & Marine Power"
 date: 2026-04-21
-lastmod: 2026-04-28
+lastmod: 2026-10-21
 draft: false
 description: "Wärtsilä, Helsinki, Finland. Reciprocating gas engines (50SG, 34SG), grid-scale BESS (19+ GWh deployed globally), and marine propulsion (every third ship worldwide). Data center BTM orders: 2.4+ GW U.S. 2025–2026. Key markets: data centers, island grids, Caribbean utilities, cruise ships, container ships."
 research_area: "datacenters/behind-meter-power"
 source_urls:
+  - "https://www.wartsila.com/media/news/05-10-2026-wartsila-to-supply-282-mw-onsite-power-solution-for-a-u-s-data-center-as-ai-growth-intensifies-demand-for-reliable-power-3797450"
+  - "https://www.wartsila.com/media/news/29-06-2026-wartsila-secures-new-order-to-power-next-wave-of-ai-driven-data-center-growth-in-the-u-s--3767555"
   - "https://www.wartsila.com/"
   - "https://www.wartsila.com/investors/governance/board-of-management/president-and-ceo-and-deputy-ceo"
   - "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine"
@@ -29,8 +31,8 @@ source_urls:
   - "https://www.wartsila.com/investors/markets/market-shares"
   - "https://www.gminsights.com/industry-analysis/marine-reciprocating-engine-market"
   - "https://www.emergenresearch.com/industry-report/reciprocating-engine-market"
-last_reviewed: 2026-04-28
-stale_after_days: 90
+last_reviewed: 2026-10-21
+stale_after_days: 60
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
@@ -46,6 +48,16 @@ Wärtsilä, a Helsinki, Finland-based power and propulsion company, is a major O
 - **429 MW order** (Jan 2026) — 24 × Wärtsilä 50SG engines
 - **412 MW Ohio order** (Apr 16, 2026) — 40 × Wärtsilä 34SG engines (first 34SG data center deployment)
 - **790 MW Texas order** (Apr 23, 2026) — 42 × Wärtsilä 50SG engines
+
+---
+
+## October 2026 Update: Q2-Q3 2026 Orders
+
+- **2026-10-05:** 282 MW onsite power for a U.S. data center from a major independent power producer: 15 Wärtsilä 50SG engines, delivery 2028, full operation 2029, booked in Q3 2026. The release does not name the customer; its size and engine count match the July 2025 Ohio order listed below, and the relationship between the two is not stated, so verify before summing capacity. ([Wärtsilä](https://www.wartsila.com/media/news/05-10-2026-wartsila-to-supply-282-mw-onsite-power-solution-for-a-u-s-data-center-as-ai-growth-intensifies-demand-for-reliable-power-3797450))
+- **2026-06-29:** order from Liberty Energy (Denver) for Wärtsilä 34SG engines for a U.S. data center power plant, valued at EUR 292M, booked Q3 2026, equipment delivery 2029-2030; the release says the modular design can be phased in blocks of up to 1 GW and beyond but gives no MW rating for this order. ([Wärtsilä](https://www.wartsila.com/media/news/29-06-2026-wartsila-secures-new-order-to-power-next-wave-of-ai-driven-data-center-growth-in-the-u-s--3767555))
+- **2026-04-23:** 790 MW Texas order, 42 × 50SG, unnamed customer, off-grid, equipment 2028, full operation late 2029, booked Q2 2026. ([Wärtsilä](https://www.wartsila.com/media/news/23-04-2026-wartsila-continues-to-expand-its-data-center-footprint-with-new-790-mw-order-in-texas-the-next-data-center-alley-3744599))
+- **2026-04-16:** 412 MW Ohio hyperscale order, 40 × 34SG, unnamed customer, commercial operation expected early 2028, booked Q2 2026. ([Wärtsilä](https://www.wartsila.com/media/news/16-04-2026-wartsila-s-34sg-engine-makes-its-data-center-debut-with-new-412-mw-u-s-project-3740972))
+- **Binding status:** these are announced equipment orders from the vendor; none names the data center operator, and delivery dates sit in 2028-2030.
 
 ---
 

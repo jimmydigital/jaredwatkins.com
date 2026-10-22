@@ -1,17 +1,19 @@
 ---
 title: "Boom Supersonic (Superpower)"
 date: 2026-04-21
-lastmod: 2026-04-21
+lastmod: 2026-10-21
 draft: false
-description: "Boom Supersonic, Denver, CO. Aerospace-derived aeroderivative gas turbine (Superpower, 42 MW) for data center behind-the-meter power. Crusoe Energy 29-unit order (1.21 GW). Raised $300M for turbine manufacturing. Symphony engine core from supersonic aircraft program. Fast-start, waterless operation. Natural gas feedstock."
+description: "Boom Supersonic's Superpower: 42 MW aeroderivative natural gas turbine derived from the Overture airliner engine core, marketed for behind-the-meter data center power. Crusoe's 29-unit (1.21 GW) order from December 2025 was ended on 2026-09-25; Boom projects about 250 MW of 2027 deliveries to other sites (company projection)."
 research_area: "datacenters/behind-meter-power"
 source_urls:
+  - "https://www.techrepublic.com/article/news-crusoe-boom-turbine-deal/"
+  - "https://theaiinsider.tech/2026/09/29/crusoe-ends-1-25b-turbine-deal-with-boom-supersonic-for-ai-data-centers/"
   - "https://boomsupersonic.com/superpower"
   - "https://boomsupersonic.com/press-release/boom-supersonic-to-power-ai-data-centers-with-superpower-natural-gas-turbines-adds-300-million-in-new-funding"
   - "https://techcrunch.com/2025/12/09/boom-supersonic-raises-300m-to-build-natural-gas-turbines-for-crusoe-data-centers/"
   - "https://www.datacenterfrontier.com/energy/article/55358731/aeroderivative-turbines-move-to-the-center-of-ai-data-center-power-strategy"
-last_reviewed: 2026-04-21
-stale_after_days: 90
+last_reviewed: 2026-10-21
+stale_after_days: 60
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
@@ -19,11 +21,20 @@ stale_after_days: 90
 
 ## Summary
 
-Boom Supersonic, a Denver, Colorado aerospace company best known for developing the Overture supersonic airliner, has pivoted into data center power generation with Superpower — a 42 MW aeroderivative natural gas turbine designed for behind-the-meter (BTM) deployment. The company leverages the high-temperature, high-efficiency engine core developed for Overture to create a fast-start, compact power generation solution packaged in an ISO shipping container footprint. In December 2025, Crusoe Energy placed an order for 29 Superpower units (1.21 GW total), with Boom Supersonic raising $300 million to ramp manufacturing.
+Boom Supersonic, a Denver, Colorado aerospace company best known for developing the Overture supersonic airliner, has pivoted into data center power generation with Superpower — a 42 MW aeroderivative natural gas turbine designed for behind-the-meter (BTM) deployment. The company leverages the high-temperature, high-efficiency engine core developed for Overture to create a fast-start, compact power generation solution packaged in an ISO shipping container footprint. In December 2025, Crusoe Energy announced an order for 29 Superpower units (1.21 GW total) and Boom raised $300 million to ramp manufacturing; on 2026-09-25 Crusoe ended the agreement (see October 2026 Update below).
 
 **Key appeal:** Waterless operation (critical for water-scarce data center regions), 42 MW per unit (larger than most aeroderivatives, smaller than heavy-frame turbines), five-minute fast-start capability, and a proven aerospace engine heritage in an untested turbine market for data centers.
 
 **Risks:** First turbine deployment for Boom; engine core is heritage aerospace design (not originally designed for continuous baseload); supply chain ramp-up unproven; natural gas feedstock (not carbon-free).
+
+---
+
+## October 2026 Update: Crusoe Ends the Superpower Order
+
+- **2026-09-25:** Crusoe announced it was ending its agreement with Boom for 29 Superpower turbines. The deal was reported at $1.25 billion; Boom's December 2025 launch described 29 units of 42 MW (1.21 GW) with deliveries expected from 2027. The reporting reviewed gives no detailed reason; Crusoe says it "remains flexible about power sourcing" across turbines, wind, solar, batteries and grid power. No replacement supplier for this order was named. ([TechRepublic](https://www.techrepublic.com/article/news-crusoe-boom-turbine-deal/))
+- **Boom's stated outlook (company projections, via the same report):** about 250 MW of Superpower deliveries to other sites in 2027 and 1 GW in 2028. Boom has lost its launch customer; no other named customer was found in this review.
+- **Crusoe's other power commitments:** 29 GE Vernova LM2500XPRESS aeroderivatives (nearly 1 GW combined) and a June 2026 agreement with Bergen Engines covering about 750 MW (a 438 MW contract plus a 310 MW letter of intent).
+- **Order-book consequence:** Any section below describing the Crusoe order as contracted reflects the December 2025 announcement and is superseded by the cancellation.
 
 ---
 
@@ -224,6 +235,6 @@ If Superpower units are configured for "grid-parallel" backup (not pure BTM isla
 
 Boom Superpower represents a novel entry into data center BTM turbine market, bringing aerospace efficiency and innovation to stationary power. The waterless operation differentiator is genuinely valuable for water-scarce data center regions. However, execution risk is high: Boom is entering industrial power generation with no track record, while facing mature competitors (GE Vernova, Siemens, Wärtsilä) with established supply chains and global service networks.
 
-**Crusoe's 29-unit order is the critical near-term test.** If Boom delivers on time and without major reliability issues, the company could establish itself as a credible third force in aeroderivative data center turbines alongside GE Vernova. If delays or failures occur, Boom's energy division could be repositioned as a contract manufacturer or acquired by an incumbent OEM.
+**Boom lost its launch customer in September 2026.** Whether Superpower reaches deployment now depends on securing other buyers and meeting delivery schedules; no replacement order had been identified in sources reviewed on 2026-10-21.
 
-**Investment thesis:** Boom is a high-risk/high-reward bet on aerospace-to-industrial transition and data center power market growth. Upside: $10B+ valuation if Superpower becomes industry-standard for data center BTM. Downside: supply chain failure or technical issues could crater the energy division's prospects within 12–24 months.
+**Outlook:** Boom must secure replacement customers and demonstrate certification and delivery; its own projections are 250 MW in 2027 and 1 GW in 2028.

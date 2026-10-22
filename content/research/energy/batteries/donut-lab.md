@@ -1,17 +1,21 @@
 ---
 title: "Donut Lab"
 date: 2026-03-23
-lastmod: 2026-03-24
+lastmod: 2026-10-20
 draft: false
-description: "Finnish-Estonian battery startup claiming the world's first solid-state battery in production vehicles, powering 2026 Verge Motorcycles models — though headline performance specs remain independently unverified."
+description: "Estonia-headquartered battery company spun out of Verge Motorcycles in 2024; a September 2026 VTT test measured 409 Wh/kg on one V1.5 cell, but chemistry, cycle life and production status remain unverified and disputed."
 research_area: "energy/batteries"
 source_urls:
-  - "https://electrek.co/2026/03/16/donut-lab-solid-state-battery-pack-test-verge-motorcycles/"
-  - "https://www.vergemotorcycles.com/gl_en/solid-state-battery-announcement/"
+  - "https://electrek.co/?p=482309"
+  - "https://electrek.co/wp-content/uploads/sites/3/2026/09/VTT-CR-00391-26_Energy_Density_Test.pdf"
+  - "https://www.automotiveworld.com/news/donut-lab-solid-state-battery-passes-intertek-nail-test/"
+  - "https://www.notateslaapp.com/news/3686/donut-labs-solid-state-battery-miracle-or-illusion"
+  - "https://en.wikipedia.org/wiki/Verge_Motorcycles"
   - "https://electrek.co/2026/03/23/donut-lab-solid-state-battery-5-tests-no-energy-density-cycle-life/"
+  - "https://electrek.co/2026/03/16/donut-lab-solid-state-battery-pack-test-verge-motorcycles/"
   - "https://www.donutlab.com/ces-battery-announcement/"
-last_reviewed: 2026-03-24
-stale_after_days: 90
+last_reviewed: 2026-10-20
+stale_after_days: 60
 related:
   - "energy/batteries/solid-state-batteries.md"
 ---
@@ -21,51 +25,47 @@ related:
 
 ## Summary
 
-Donut Lab is a Finnish/Estonian technology company that claims to have developed the world's first solid-state battery in production vehicles, powering the 2026 Verge TS Pro motorcycle lineup. The company has attracted significant attention — and skepticism — for its headline claims of 400 Wh/kg energy density and 100,000-cycle life, which have not yet been verified by independent testing. Its corporate relationship with Verge Motorcycles makes it an unusual case: a battery startup with an in-house vehicle platform as its launch customer.
+Donut Lab is an Estonia-headquartered company founded in August 2024 as a spin-off of Verge Motorcycles. At CES 2026 it announced what it called a production-ready solid-state battery with 400 Wh/kg energy density, 100,000-cycle life and very fast charging. Independent VTT tests have confirmed fast charging and thermal behaviour on cells; in September 2026 VTT measured 409.3 Wh/kg on a single V1.5 cell at a slow discharge rate. No independent party has published a chemistry determination or cycle-life data, and critics, including Electrek, dispute that the product is solid-state or in production.
 
 ## Key Facts
 
-- **Headquarters:** Estonia (with Finnish research roots)
-- **Founded:** Spun from research at Tampere University (Finland)
-- **Manufacturing partner:** Nordic Nano
-- **Type:** Private company / battery technology startup
-- **Status:** Claims production-stage; headline specs contested
-- **Launch customer:** Verge Motorcycles (same corporate family)
-- **Cell chemistry basis:** Amorphous titanium dioxide nanostructures; pseudocapacitance mechanism (proprietary)
-- **Claimed energy density:** 400 Wh/kg (~60% above best lithium-ion)
-- **Claimed cycle life:** 100,000 cycles (vs. 1,500–3,000 for lithium-ion)
-- **Claimed charge time:** 10–80% in 12 minutes; 10–50% in 5 minutes at pack level
+- **Headquarters:** Estonia (Donut Lab OÜ); manufacturing partner Nordic Nano, Finland
+- **Founded:** August 2024 as a spin-off of Verge Motorcycles; €25M seed round July 2025 ([Wikipedia](https://en.wikipedia.org/wiki/Verge_Motorcycles))
+- **Type:** Private
+- **Launch customer:** [Verge Motorcycles]({{< relref "verge-motorcycles.md" >}}) (affiliated)
+- **Company claims (CES 2026):** 400 Wh/kg, 100,000 cycles, 0–80% in about 4.5 minutes, solid-state construction ([Donut Lab](https://www.donutlab.com/ces-battery-announcement/))
+- **VTT measurement (report dated 2026-09-01):** 409.3 Wh/kg and 804.7 Wh/L on one V1.5 cell (designation DL6), +25 °C, 0.1C discharge to 2.3 V, second capacity cycle; report does not address chemistry or cycle life ([VTT report](https://electrek.co/wp-content/uploads/sites/3/2026/09/VTT-CR-00391-26_Energy_Density_Test.pdf))
+- **Intertek (reported 2026-09):** cell structure found bipolar (series-connected layers in one cell); nail penetration with nail left in for one hour showed no thermal runaway, smoke or fire ([Automotive World](https://www.automotiveworld.com/news/donut-lab-solid-state-battery-passes-intertek-nail-test/))
+- **Disputed:** cell chemistry, production status and cycle life (see Claim Verification)
 
 ## What It Is / How It Works
 
-Donut Lab's technology reportedly originates from research into amorphous titanium dioxide nanostructures at Tampere University. The company describes a pseudocapacitance mechanism — rapid ion adhesion at the electrode surface rather than conventional intercalation — as responsible for its claimed fast-charge and long-cycle-life characteristics. Manufacturing is handled through Nordic Nano, a related entity.
+Donut Lab says its battery is a solid-state design and has described a titanium-dioxide-based, pseudocapacitive mechanism; these chemistry descriptions are company statements that no independent test has confirmed. The company supplies cells for the Verge TS Pro motorcycle in 18 kWh and 30 kWh pack variants, air-cooled without liquid thermal management.
 
-The battery is designed as a drop-in pack for the Verge TS Pro electric motorcycle, with an 18 kWh base pack and a 30 kWh extended-range variant. The cell-to-pack design is air-cooled with no liquid thermal management, which the company attributes to the thermal stability of the solid electrolyte.
+Independent testing so far, by VTT and Intertek, has covered fast charging (a 26 Ah cell charged 0–80% in about 4.5 minutes at 11C), thermal behaviour, self-discharge, structure and a nail penetration test, and in September 2026 energy density ([Not a Tesla App](https://www.notateslaapp.com/news/3686/donut-labs-solid-state-battery-miracle-or-illusion), [Electrek](https://electrek.co/2026/03/23/donut-lab-solid-state-battery-5-tests-no-energy-density-cycle-life/)). The September VTT report states that the device specification and test plan were supplied by the customer and that the cell is an "energy-optimised variant" of the earlier V1 cell. Electrek reports that an earlier independent analysis identified the V1 cell as lithium-ion, and that CEO Marko Lehtimäki told Finnish media the tested cell is not the one that will ship; Donut Lab denies wrongdoing in the related legal dispute ([Electrek](https://electrek.co/?p=482309)).
 
-Industry reception has been divided. Battery experts have noted that the five independent test reports released by Donut Lab through VTT Technical Research Centre of Finland focus on thermal and abuse performance (e.g., maintaining 107% of nominal capacity after extended testing at 100°C) without directly measuring the two headline claims that matter most: the 400 Wh/kg energy density and the 100,000-cycle life. As of March 2026, neither claim has been verified by any published independent test.
-
-The company's position as both battery developer and motorcycle OEM (through its relationship with Verge Motorcycles) makes independent validation of production-volume claims more difficult to assess than for companies supplying external automotive customers.
+The group structure, in which battery developer and launch vehicle maker share founders and owners, makes production claims harder to assess than for suppliers to unaffiliated OEMs.
 
 ## Notable Developments
 
-- **2026-03-23:** Fifth independent test report from VTT released; Electrek notes none of the five reports address energy density or cycle life. ([Electrek](https://electrek.co/2026/03/23/donut-lab-solid-state-battery-5-tests-no-energy-density-cycle-life/))
-- **2026-03-16:** Pack-level test result announced: 18 kWh pack sustains 100 kW (5C) charging for five minutes inside a Verge TS Pro motorcycle. VTT confirms cell thermal stability at 100°C. ([Electrek](https://electrek.co/2026/03/16/donut-lab-solid-state-battery-pack-test-verge-motorcycles/))
-- **2026-01 (CES):** Donut Lab announces "world's first solid-state battery ready to power production vehicles," claiming 400 Wh/kg, 100,000-cycle life, and five-minute charging. Immediate pushback from battery industry experts.
-- **2026 Q1:** Verge Motorcycles begins delivering TS Pro Evolution with Donut Lab solid-state pack; 217-mile standard range, 370-mile extended-range option; 0–62 mph in 3.5 seconds; 186 miles of range added in 10 minutes.
+- **2026-09-02:** Donut Lab publishes the VTT report (409.3 Wh/kg, 804.7 Wh/L, one V1.5 cell) and Intertek findings (bipolar structure, nail test). Electrek notes no cycle-life data, a slow discharge rate that favours the result, and no chemistry determination. ([Electrek](https://electrek.co/?p=482309), [Automotive World](https://www.automotiveworld.com/news/donut-lab-solid-state-battery-passes-intertek-nail-test/))
+- **2026-06:** Donut Lab says it is ramping toward gigawatt-hour annual production by end of 2026, which Wikipedia notes contradicts its January claim of GWh-scale production already under way. ([Wikipedia](https://en.wikipedia.org/wiki/Verge_Motorcycles))
+- **2026-04:** Former Nordic Nano commercial chief Lauri Peltola files a criminal complaint alleging the independently tested battery was an older generation abandoned by Donut and its partners; Donut Lab denies wrongdoing. ([Electrek](https://electrek.co/?p=482309)) Helsingin Sanomat reports the battery was still in development and the companies lacked manufacturing equipment, per Wikipedia (allegation).
+- **2026-03-23:** Fifth VTT report released; none addresses energy density or cycle life. ([Electrek](https://electrek.co/2026/03/23/donut-lab-solid-state-battery-5-tests-no-energy-density-cycle-life/))
+- **2026-03-16:** 18 kWh pack sustains 100 kW (5C) charging for five minutes inside a Verge TS Pro. ([Electrek](https://electrek.co/2026/03/16/donut-lab-solid-state-battery-pack-test-verge-motorcycles/))
+- **2026-01 (CES):** Donut Lab announces its battery as ready for production vehicles; industry pushback follows.
+- **2025-07:** €25M seed round. **2024-08:** Founded as Verge spin-off. ([Wikipedia](https://en.wikipedia.org/wiki/Verge_Motorcycles))
 
 ## Key People / Key Organizations
 
-### Marko Lehtimäki — CEO, Donut Lab; Founder
+### Marko Lehtimäki — Founder, Donut Lab
 - **LinkedIn:** [linkedin.com/in/youngkasi](https://www.linkedin.com/in/youngkasi/)
-- **Role:** CEO of Donut Lab; founding force behind both Donut Lab and Verge Motorcycles
-- **Education:** University of Helsinki (Computer Science)
+- **Role:** Founded Donut Lab (August 2024); previously Verge's CTO and a founding investor ([Wikipedia](https://en.wikipedia.org/wiki/Verge_Motorcycles)); quoted by Finnish media in 2026 saying the tested cell is not the shipping cell (per Electrek)
 - **Career (reverse-chronological):**
-  - Donut Lab (~2024–present): CEO and co-founder
-  - Cova Power: Chairman of the Board (concurrent/advisory)
-  - DeFinance Technologies: Board Member
-  - Damon Motors (~2017–2024): Founder and CEO — led the Vancouver-based EV motorcycle startup for approximately 7 years before transitioning to focus on Verge/Donut Lab
-  - Verge Motorcycles (2018–present): Founder; day-to-day CEO role transitioned to brother Tuomo Lehtimäki
-- **Notes:** Marko's tenure at Damon — another EV motorcycle company — is his most notable prior role. Damon is a direct competitor to Verge in the premium electric motorcycle market, making Marko the only documented founder in this knowledge base who built competing companies in the same vehicle category before his current venture. **⚑ Overlap (corporate family):** Marko controls both Donut Lab and Verge Motorcycles — these are affiliated entities, not arm's-length customer/supplier.
+  - Donut Lab (2024–present): Founder
+  - Verge Motorcycles (2018–2024): CTO and founding investor
+  - Other roles in previous versions of this entry were not confirmed in the sources reviewed and are omitted.
+- **⚑ Overlap (corporate family):** Same individual leads Donut Lab and is a founding investor in [Verge Motorcycles]({{< relref "verge-motorcycles.md" >}}).
 
 ### Ville Piippo — Co-Founder and CTO, Donut Lab; also CTO, Verge Motorcycles
 - **LinkedIn:** [linkedin.com/in/ville-piippo-b003877b](https://www.linkedin.com/in/ville-piippo-b003877b/)
@@ -74,7 +74,7 @@ The company's position as both battery developer and motorcycle OEM (through its
 - **Career (reverse-chronological):**
   - Donut Lab / Verge Motorcycles (2018–present): Co-founder and CTO of both entities
   - Planmeca (prior): Industrial Design Intern — Finnish medical device and dental equipment manufacturer; Piippo's pre-Verge background is in product/industrial design rather than battery chemistry or electrical engineering
-- **Notes:** Piippo's industrial design background (rather than electrochemistry or electrical engineering) is unusual for a battery CTO; his primary contribution is likely the cell-to-pack integration and product design rather than the underlying cell chemistry, which originates from Tampere University.
+- **Notes:** Piippo's industrial design background (rather than electrochemistry or electrical engineering) is unusual for a battery CTO; his primary contribution is likely the cell-to-pack integration and product design rather than the underlying cell chemistry.
 
 ### Tuomo Lehtimäki — CEO, Verge Motorcycles
 - **LinkedIn:** [linkedin.com/in/tuomo-lehtimäki-3462b825](https://www.linkedin.com/in/tuomo-lehtim%C3%A4ki-3462b825/)
@@ -90,41 +90,41 @@ The company's position as both battery developer and motorcycle OEM (through its
 
 ### Dr. Bela Bhuskute — Chief Scientist, Nordic Nano; Academic Origin of Cell Chemistry
 - **LinkedIn:** [linkedin.com/in/belabhuskute](https://www.linkedin.com/in/belabhuskute/)
-- **Role:** Chief Scientist at Nordic Nano (since January 2025); the academic originator of the TiO₂-based nanostructure research that underlies Donut Lab's cell chemistry
-- **Education:** Pune University, India (Master's degree) → CSIR-National Chemical Laboratory, India (research) → Tampere University, Finland (PhD, Physics; defended May 28, 2025; dissertation: "TiO₂-based Photocatalysts for Solar Fuel Production")
+- **Role:** Chief Scientist at Nordic Nano (since January 2025, per previous review)
+- **Education:** Pune University, India (Master's degree) → CSIR-National Chemical Laboratory, India (research) → Tampere University, Finland (PhD, Physics, 2025)
 - **Career (reverse-chronological):**
   - Nordic Nano (Jan 2025–present): Chief Scientist
-  - Tampere University (Jan 2018–2025): Doctoral researcher, Faculty of Engineering and Natural Sciences — developed the TiO₂ nanostructure photocatalyst research that Nordic Nano licensed and adapted for battery applications
+  - Tampere University (2018–2025): Doctoral researcher
   - CSIR-National Chemical Laboratory, Pune, India: Research position (prior to doctoral studies)
-- **Notes:** Bhuskute is the critical technical link between the academic research and the commercial product. Her PhD work was in photocatalysis (solar fuel production using TiO₂), not battery technology directly — the adaptation of that TiO₂ nanostructure science to energy storage is the core of Donut Lab/Nordic Nano's technical differentiation. Her doctoral defense occurred in May 2025, shortly after joining Nordic Nano full-time.
+- **Notes:** Role and education as of the previous review; the link between her photocatalysis research and Donut Lab's cell chemistry was not independently confirmed in the sources reviewed.
 
 ### Key Organizations
-- **Nordic Nano** (Finland) — Manufacturing entity for Donut Lab cells; founded on Tampere University TiO₂ nanostructure research
-- **VTT Technical Research Centre of Finland** — Independent test body; has conducted five cell-level test series as of March 2026
-- **Tampere University** (Finland) — Academic origin of the underlying amorphous titanium dioxide nanostructure research
+- **Nordic Nano** (Finland) — Manufacturing entity for Donut Lab cells
+- **VTT Technical Research Centre of Finland** — Independent test body; conducted the cell-level test series, including the September 2026 energy-density test
+- **Intertek** — structure analysis and nail penetration test (reported September 2026)
 
-### People — Last Reviewed: 2026-03-24
+Details for Piippo, Tuomo Lehtimäki and Bhuskute are as of the previous review and were not re-verified.
+
+### People — Last Reviewed: 2026-10-20
 
 
 
 ## Supply Chain Position
 
-Donut Lab operates at the **Cell Manufacturing → Pack Assembly** layers, with cell production handled by Nordic Nano (its manufacturing affiliate) and pack integration done for Verge Motorcycles (its launch customer). The cell chemistry uses amorphous titanium dioxide (TiO₂) nanostructures — no lithium sulfide precursor, no nickel or cobalt in the cathode, and no graphite anode. The primary upstream material requirement is titanium oxide (abundant, widely produced as a white pigment and industrial chemical with no critical supply concentration). [Lithium]({{< relref "../resources/lithium.md" >}}) metal or lithium-ion chemistry details at the anode level are not publicly disclosed. No documented shared upstream supplier overlaps with other battery companies in this knowledge base, reflecting the fundamentally different chemistry.
+Donut Lab operates at the **Cell Manufacturing → Pack Assembly** layers, with cell production attributed to Nordic Nano and pack integration for [Verge Motorcycles]({{< relref "verge-motorcycles.md" >}}). Because the cell chemistry has not been independently disclosed or determined, upstream material dependencies (including whether [lithium]({{< relref "../resources/lithium.md" >}}) is used in the cathode or anode) cannot be assessed from public sources. Reported claims that the companies lacked manufacturing equipment as of April 2026 remain unresolved allegations.
 
 ## Claim Verification
 
 ### Claim: 400 Wh/kg energy density
-**Status:** Unverified
+**Status:** Partially measured (one cell, different variant, slow discharge)
 
 **Supporting sources:**
-- [Donut Lab CES Announcement](https://www.donutlab.com/ces-battery-announcement/) — Company's own claim; no independent confirmation
+- [VTT report CR 00391-26](https://electrek.co/wp-content/uploads/sites/3/2026/09/VTT-CR-00391-26_Energy_Density_Test.pdf) — 409.3 Wh/kg, 804.7 Wh/L on one V1.5 (DL6) cell at 0.1C, +25 °C, customer test plan
 
 **Refuting / questioning sources:**
-- [Donut Lab: 5 independent tests in, still no energy density or cycle life data — Electrek (Mar 23, 2026)](https://electrek.co/2026/03/23/donut-lab-solid-state-battery-5-tests-no-energy-density-cycle-life/) — Notes that none of five VTT test reports have measured energy density; verifying it requires only weighing the cell and measuring output, making the omission conspicuous
-- [Inside Donut Lab's 400 Wh/kg Claims & Missing Test Details — Geeky Gadgets](https://www.geeky-gadgets.com/solid-state-battery-donut-lab-2026/) — Reports that Svolt's chairman characterized the 400 Wh/kg figure as physically impossible
-- [Donut Lab Solid-State Battery Passes Its First Independent Test — But The Hardest Claims Are Still Unproven — EVXL (Feb 25, 2026)](https://evxl.co/2026/02/25/donut-labs-solid-state-battery-test/) — Distinguishes confirmed results (fast charging) from unverified headline specs
+- [Electrek (Sep 2026)](https://electrek.co/?p=482309) — conventional lithium-ion cells reach similar figures; slow discharge and deeper cutoff flatter the result; tested cell is reportedly not the shipping cell
 
-**Summary:** As of March 2026, no independent party has published a measurement of Donut Lab's energy density. The claim is unverified and disputed by at least one senior industry figure.
+**Summary:** A real single-cell measurement exists, but it does not demonstrate solid-state chemistry or the production product.
 
 ---
 
@@ -132,42 +132,59 @@ Donut Lab operates at the **Cell Manufacturing → Pack Assembly** layers, with 
 **Status:** Unverified
 
 **Supporting sources:**
-- [Donut Lab CES Announcement](https://www.donutlab.com/ces-battery-announcement/) — Company's own claim; no independent confirmation
+- [Donut Lab](https://www.donutlab.com/ces-battery-announcement/) — company claim
 
 **Refuting / questioning sources:**
-- [Donut Lab: 5 independent tests in, still no energy density or cycle life data — Electrek (Mar 23, 2026)](https://electrek.co/2026/03/23/donut-lab-solid-state-battery-5-tests-no-energy-density-cycle-life/) — Notes that no VTT report has tested cycle degradation at any scale; even 100 cycles with capacity measurement would be a start
+- [Electrek (Sep 2026)](https://electrek.co/?p=482309) — no cycle-life data; the VTT energy test ran two capacity cycles
 
-**Summary:** Completely untested by any independent party as of March 2026.
-
----
-
-### Claim: 0–80% charge in 4.5 minutes (11C rate)
-**Status:** Verified (cell level)
-
-**Supporting sources:**
-- [Donut Lab VTT solid-state battery test results: fast charging — Electrek (Feb 23, 2026)](https://electrek.co/2026/02/23/donut-lab-vtt-solid-state-battery-test-results-fast-charging/) — VTT Technical Research Centre of Finland independently confirmed 0–80% in 4.5 minutes at 11C
-- [Donut Lab shows solid-state battery pack charging at 100 kW — Electrek (Mar 16, 2026)](https://electrek.co/2026/03/16/donut-lab-solid-state-battery-pack-test-verge-motorcycles/) — Pack-level test confirms 18 kWh pack sustained 100 kW (5C) for five minutes in a Verge TS Pro
-
-**Refuting / questioning sources:** None identified.
-
-**Summary:** Fast-charging performance is the best-verified claim; independently confirmed at both cell and pack level.
+**Summary:** No independent cycle-life test has been published.
 
 ---
 
-### Claim: Thermal stability at 100°C
+### Claim: Solid-state chemistry / pseudocapacitive TiO₂ mechanism
+**Status:** Disputed
+
+**Supporting sources:**
+- [Automotive World](https://www.automotiveworld.com/news/donut-lab-solid-state-battery-passes-intertek-nail-test/) — Intertek found a bipolar structure that the article says requires a solid electrolyte (article draws on Donut Lab's publication)
+
+**Refuting / questioning sources:**
+- [Electrek (Sep 2026)](https://electrek.co/?p=482309) — bipolar structure does not establish a solid electrolyte; an earlier independent analysis reportedly identified V1 as lithium-ion; VTT makes no chemistry determination
+
+**Summary:** No independent chemistry determination has been published.
+
+---
+
+### Claim: Fast charging (0–80% in 4.5 minutes, 11C)
+**Status:** Verified (cell level); pack level 100 kW (5C) for five minutes confirmed
+
+**Supporting sources:**
+- [Electrek (Feb 23, 2026)](https://electrek.co/2026/02/23/donut-lab-vtt-solid-state-battery-test-results-fast-charging/), [Electrek (Mar 16, 2026)](https://electrek.co/2026/03/16/donut-lab-solid-state-battery-pack-test-verge-motorcycles/)
+
+**Refuting / questioning sources:** None identified; test variants differ from later cells.
+
+**Summary:** Best-supported claim, for the V1 cell.
+
+---
+
+### Claim: Thermal stability at 100 °C
 **Status:** Verified (cell level)
 
 **Supporting sources:**
-- [Donut Lab solid-state battery survives 100°C discharge — Electrek (Mar 2, 2026)](https://electrek.co/2026/03/02/donut-lab-solid-state-battery-high-temperature-test-vtt/) — VTT confirmed cell maintained 107% of nominal capacity after extended testing at 100°C
+- [Electrek (Mar 2, 2026)](https://electrek.co/2026/03/02/donut-lab-solid-state-battery-high-temperature-test-vtt/) — 107% of nominal capacity after extended testing at 100 °C
 
 **Refuting / questioning sources:** None identified.
 
-**Summary:** High-temperature stability verified by VTT.
+**Summary:** Verified by VTT on tested cells.
 
 ---
 
 ## Sources
 
+- [Donut Lab hits 409 Wh/kg in battery lab test, but credibility is gone — Electrek (Sep 2026)](https://electrek.co/?p=482309)
+- [VTT Test Report CR 00391-26: Energy Density Test (Sep 2026)](https://electrek.co/wp-content/uploads/sites/3/2026/09/VTT-CR-00391-26_Energy_Density_Test.pdf)
+- [Donut Lab solid-state battery passes Intertek nail test — Automotive World (Sep 2026)](https://www.automotiveworld.com/news/donut-lab-solid-state-battery-passes-intertek-nail-test/)
+- [Donut Lab's Solid-State Battery: Miracle or Illusion? — Not a Tesla App](https://www.notateslaapp.com/news/3686/donut-labs-solid-state-battery-miracle-or-illusion)
+- [Verge Motorcycles — Wikipedia](https://en.wikipedia.org/wiki/Verge_Motorcycles)
 - [Donut Lab shows solid-state battery pack charging at 100 kW in Verge motorcycle — Electrek (Mar 16, 2026)](https://electrek.co/2026/03/16/donut-lab-solid-state-battery-pack-test-verge-motorcycles/)
 - [Donut Lab solid-state battery: 5 independent tests in, still no energy density or cycle life data — Electrek (Mar 23, 2026)](https://electrek.co/2026/03/23/donut-lab-solid-state-battery-5-tests-no-energy-density-cycle-life/)
 - [Donut Lab's solid-state battery confirms 0–80% charge in 4.5 min — Electrek (Feb 23, 2026)](https://electrek.co/2026/02/23/donut-lab-vtt-solid-state-battery-test-results-fast-charging/)

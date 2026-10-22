@@ -1,18 +1,21 @@
 ---
 title: "TerraPower: Natrium SMR for Data Centers"
 date: 2026-04-25
-lastmod: 2026-04-28
+lastmod: 2026-10-21
 draft: false
-description: "TerraPower's Natrium sodium-cooled fast reactor with molten-salt thermal storage for flexible, load-following power to data centers. Built-in storage enables ramp from 345 MW to 500+ MW for 5+ hours."
+description: "TerraPower's Natrium sodium-cooled fast reactor with molten-salt storage (345 MWe, up to 500 MWe). NRC construction permit issued March 2026 and construction under way at Kemmerer, Wyoming; Bechtel exited the EPC role in September 2026; Meta framework for up to eight units."
 research_area: "datacenters/behind-meter-power"
 source_urls:
+  - "https://www.ans.org/news/2026-04-24/article-7975/terrapower-begins-construction-on-natrium-power-plant-in-kemmerer/"
+  - "https://www.power-eng.com/nuclear/bechtel-terrapowers-natrium-epc-contract/"
+  - "https://cowboystatedaily.com/2026/09/21/terrapower-replacing-bechtel-as-lead-contractor-on-its-kemmerer-nuclear-plant/"
   - "https://www.terrapower.com/"
   - "https://www.terrapower.com/our-technology/natrium"
   - "https://www.nrc.gov/reactors/new-reactors/advanced/natrium.html"
   - "https://www.energy.gov/ne/articles/doe-awards-80-million-terrapower-natrium-advanced-nuclear-reactor-demonstration"
   - "https://www.bwxt.com/"
-last_reviewed: 2026-04-28
-stale_after_days: 90
+last_reviewed: 2026-10-21
+stale_after_days: 60
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
@@ -38,6 +41,16 @@ stale_after_days: 90
 ## Summary
 
 TerraPower is developing the Natrium sodium-cooled fast reactor — a 345 MWe baseload unit with integrated molten-salt thermal storage capable of dispatching 500+ MW for 5+ hours — uniquely suited to variable data center loads; the company holds the largest binding SMR data center contract to date (Meta, 8 units / 2.76 GW, signed spring 2025) with first commercial unit targeting ~2030 at Kemmerer, Wyoming.
+
+---
+
+## October 2026 Update
+
+**Regulatory track:** NRC construction permit issued for Kemmerer Unit 1 in early March 2026 (Part 50 construction permit, not an operating license). An operating license, fuel loading and commissioning remain ahead.
+
+- **Construction (reported 2026-04-24):** nuclear construction officially began on Kemmerer Unit 1, a 345 MWe sodium-cooled fast reactor with molten-salt heat storage that can temporarily raise output to 500 MWe. TerraPower's stated schedule: construction complete 2030, commercial operation 2031. ([ANS](https://www.ans.org/news/2026-04-24/article-7975/terrapower-begins-construction-on-natrium-power-plant-in-kemmerer/))
+- **Meta (January 2026):** agreement for up to eight Natrium units by 2035, with the first two possibly as early as 2032. This covers Meta units, not Kemmerer; PacifiCorp has not announced a PPA for Kemmerer. Treat the eight-unit figure as a framework, not firm orders.
+- **EPC change (2026-09-24 report):** Bechtel and TerraPower could not agree on the next phase and are moving forward separately; Bechtel stays through completion of the sodium test and fill facility and a handover. TerraPower plans to rebid the full EPC contract for Kemmerer Unit 1 and says the 2030/2031 schedule is unchanged. No replacement contractor was named; Hyundai Engineering & Construction is TerraPower's selected EPC partner for up to eight 345 MWe reactors, but reporting does not say it will take over Kemmerer. A local outlet reported (2026-10-13) that plans for about 1,600 workers were in limbo. ([POWER](https://www.power-eng.com/nuclear/bechtel-terrapowers-natrium-epc-contract/), [Cowboy State Daily](https://cowboystatedaily.com/2026/10/13/kemmerer-plans-for-1-600-nuclear-plant-workers-in-limbo-after-contractor-backs-out/))
 
 ---
 
@@ -202,7 +215,7 @@ The **distinguishing feature** of Natrium is integrated molten-salt thermal stor
 
 **Location:** Kemmerer, Wyoming (Sweetwater County) — formerly a coal plant site
 **Site Preparation:** Underway (site survey, environmental baseline, infrastructure planning)
-**Expected Permit Status:** Construction permit application expected 2026; NRC review 24–36 months nominal
+**Permit Status:** NRC construction permit issued March 2026 (see October 2026 Update)
 **Target First Power:** ~2030
 
 **Advantages of Wyoming:**
@@ -275,11 +288,9 @@ Natrium uses **low-enriched uranium (LEU) metallic fuel**, not HALEU:
 
 ### NRC Licensing
 
-TerraPower's Natrium design is undergoing **pre-application phase** reviews with NRC:
-- **Design Certification Application (DCA):** Expected to be filed 2026–2027 (ahead of specific project COLAs)
-- **Kemmerer Combined License Application (COLA):** Expected 2027–2028
-- **NRC review timeline:** 18–24 months nominal; first-of-a-kind designs often slip to 24–36 months
-- **Operating License:** Earliest issuance ~2029; construction then 36–48 months → first power ~2030–2031
+- **Kemmerer Unit 1 construction permit:** issued by the NRC in early March 2026; construction under way (see October 2026 Update).
+- **Still ahead:** operating license application and NRC operational review, fuel supply (HALEU) and commissioning. TerraPower's stated commercial operation target is 2031.
+- **Prior text on expected design certification and COLA timing is superseded** by the construction permit pathway above.
 
 ### Wyoming State Regulatory
 

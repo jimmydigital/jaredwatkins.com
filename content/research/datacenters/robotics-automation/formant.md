@@ -1,17 +1,20 @@
 ---
 title: "Formant"
 date: 2026-03-24
-lastmod: 2026-03-24
+lastmod: 2026-10-20
 draft: false
-description: "San Francisco cloud robotics platform; founded by ex-Google Robotics engineers; $45M raised through Series B (Oct 2023, BMW i Ventures lead); fleet management, teleoperation, AI-driven incident management and analytics for multi-robot deployments. SoftBank Robotics America is a named customer. Relevant to datacenter robot fleet orchestration as the servicing-robot layer matures."
+description: "San Francisco robot-operations software company (Software/AI layer): fleet management, teleoperation and analytics, plus the F3 generative-AI platform launched 2025-06-30. $21M round led by BMW i Ventures (2023-10-11). Named customers include SoftBank and BP; no datacenter deployment found. No funding or major announcement found since mid-2025 in a 2026-10-20 search."
 research_area: "datacenters/robotics-automation"
 source_urls:
+  - "https://www.businesswire.com/news/home/20250630008190/en/Formant-F3-Brings-Generative-AI-and-Agentic-Reasoning-to-Robot-Ops"
+  - "https://www.press.bmwgroup.com/usa/article/detail/T0437645EN_US/bmw-i-ventures-leads-investment-in-robotics-data-and-operations-platform-formant"
+  - "https://www.therobotreport.com/tag/formant/"
   - "https://formant.io/"
   - "https://www.robotics247.com/article/formant_using_latest_funding_hires_experts_secure_cloud_robotics_platform"
   - "https://www.intelcapital.com/investing-in-formant-navigating-the-path-to-mass-adoption/"
   - "https://www.signalfire.com/blog/formant-robotics-investor"
-last_reviewed: 2026-03-24
-stale_after_days: 90
+last_reviewed: 2026-10-20
+stale_after_days: 60
 related:
   - "datacenters/robotics-automation/_index.md"
   - "datacenters/robotics-automation/softbank-robot-rack.md"
@@ -22,7 +25,7 @@ related:
 
 ## Summary
 
-Formant is a San Francisco cloud robotics platform founded in 2018 by Jeff Linnell and a team of alumni from Google Robotics, Savioke, and Redwood Robotics. The company provides a software layer above individual robots — handling fleet management, teleoperation, mission tasking, incident management, and AI-driven analytics across heterogeneous robot deployments. It is not a robot manufacturer; it is the orchestration and observability platform that sits between robots on the floor and the operations teams monitoring them. SoftBank Robotics America is a named customer. Formant has raised $45M through a Series B in October 2023, led by BMW i Ventures with participation from Intel Capital. Its relevance to datacenter robotics automation is as the likely software layer for any multi-robot datacenter servicing program — if SoftBank (or others) deploy AMRs for server handling at Tomakomai or similar facilities, Formant-class platforms are the natural fleet management solution.
+**Value-chain position: Software/AI layer** (robot operations software; Formant builds no hardware). Formant is a San Francisco cloud robotics platform founded in 2018 by Jeff Linnell and a team of alumni from Google Robotics, Savioke, and Redwood Robotics. The company provides a software layer above individual robots — handling fleet management, teleoperation, mission tasking, incident management, and AI-driven analytics across heterogeneous robot deployments. It is not a robot manufacturer; it is the orchestration and observability platform that sits between robots on the floor and the operations teams monitoring them. SoftBank Robotics America is a named customer. Formant has raised $45M through a Series B in October 2023, led by BMW i Ventures with participation from Intel Capital. Its relevance to datacenter robotics automation is as the likely software layer for any multi-robot datacenter servicing program — if SoftBank (or others) deploy AMRs for server handling at Tomakomai or similar facilities, Formant-class platforms are the natural fleet management solution.
 
 ## Key Facts
 
@@ -31,12 +34,12 @@ Formant is a San Francisco cloud robotics platform founded in 2018 by Jeff Linne
 - **Type:** Private
 - **CEO / Founder:** Jeff Linnell (former Google Robotics group lead)
 - **Founding team:** Ex-Google Robotics, Savioke, Redwood Robotics engineers and product managers
-- **Total funding:** $45M across 3 rounds
-- **Series B:** $21M, October 2023; led by BMW i Ventures; participants include Intel Capital, GS Futures, SignalFire, Hillsven, Pelion Ventures, Ericsson, Goodyear Ventures, PICUS Capital
-- **Business model:** SaaS subscription; per-robot or per-fleet pricing (specifics not public)
-- **Named customers:** SoftBank Robotics America (Brady Watkins, President of SoftBank Robotics America, quoted in customer materials)
-- **Core products:** Formant Platform (fleet management, teleoperation, mission tasking, incident management, performance analytics); F3 AI Engine (voice commands, predictive insights, automated root cause analysis)
-- **Robot compatibility:** Broad heterogeneous fleet support; publishes a supported robot database; integrates via ROS, custom SDKs
+- **Funding:** $21M round announced 2023-10-11; no later round found (total raised not stated in sources reviewed)
+- **Latest round (2023-10-11):** $21M led by BMW i Ventures; Intel Capital and GS Futures joined; returning investors include SignalFire, Hillsven, Goodyear Ventures, Pelion Ventures, Holman, Ericsson, PICUS Capital and Thursday Ventures ([BMW Group](https://www.press.bmwgroup.com/usa/article/detail/T0437645EN_US/bmw-i-ventures-leads-investment-in-robotics-data-and-operations-platform-formant)); the sources fetched do not name the round (previous review called it Series B)
+- **Business model:** SaaS; pricing not public
+- **Named customers (company release, June 2025):** SoftBank and BP; the release says Formant has also worked with Google, John Deere, Shell and Westinghouse ([Business Wire](https://www.businesswire.com/news/home/20250630008190/en/Formant-F3-Brings-Generative-AI-and-Agentic-Reasoning-to-Robot-Ops)); SoftBank Robotics cleaning-robot data platform announced December 2023 ([The Robot Report](https://www.therobotreport.com/tag/formant/))
+- **Core products:** Formant platform (fleet management, teleoperation, mission control, incident resolution, analytics); **F3** (launched 2025-06-30): voice/text command interface, AI insights (anomaly and failure prediction, incident summaries), smart knowledge base and deep-research agents
+- **Robot compatibility:** heterogeneous fleets; earlier coverage shows Spot, Kinova Gen 3 and ROS-based integrations (2019-2022)
 
 ## What It Is / How It Works
 
@@ -50,22 +53,26 @@ Formant operates at the **Robot Operations** layer — the software infrastructu
 
 **Performance Analytics:** Fleet utilization metrics, task completion rates, downtime analysis, and capacity planning data. For datacenter operators evaluating ROI on robot deployments, this layer is what produces the business case metrics.
 
-**Formant's datacenter relevance:** Formant itself does not operate in the datacenter automation space today — its current customers are in enterprise warehouse, logistics, security, and industrial settings. However, its architecture is directly applicable: as SoftBank, Submer, or other operators deploy AMRs for server handling or immersion tank servicing, they will need exactly this class of platform. Formant's SoftBank Robotics America relationship is a direct link to the SoftBank datacenter automation program.
+**Datacenter relevance:** No Formant datacenter deployment was found in this review. The platform is generic to robot fleets; any datacenter role is an inference from its architecture, not a reported engagement. Its named customer SoftBank is also the operator behind the robot-friendly rack work tracked in [SoftBank robot rack]({{< relref "softbank-robot-rack.md" >}}), but no connection between Formant and that program is reported.
 
-**F3 AI Engine:** Formant's newer AI-layer product (announced 2024–2025) adds voice-command interaction ("show me all robots with battery below 20%"), predictive analytics (flagging robots likely to fail before they do), and a knowledge base for troubleshooting. This positions Formant as an AI-native platform rather than a traditional SCADA-style control system — relevant for the complexity of multi-vendor robot fleets in a datacenter environment.
+**F3:** Announced 2025-06-30 as an "AI-native" robotics management platform built on generative AI and agentic reasoning, positioned as the orchestration layer of a "Physical AI" strategy (Brain, Body, Context). Features per the company: voice/text commands that return live visualizations and control robots, an always-on insights layer, a knowledge base answering from PDFs and SOPs with citations, and autonomous multi-step investigation agents ([Business Wire](https://www.businesswire.com/news/home/20250630008190/en/Formant-F3-Brings-Generative-AI-and-Agentic-Reasoning-to-Robot-Ops)).
 
 ## Notable Developments
 
-- **2023-10:** Series B — $21M led by BMW i Ventures; Intel Capital and GS Futures join as new investors; proceeds directed at hiring security and platform engineers. ([Robotics 24/7](https://www.robotics247.com/article/formant_using_latest_funding_hires_experts_secure_cloud_robotics_platform))
-- **~2022–2023:** F3 AI Engine introduced; adds voice commands and AI-native analytics layer to the platform
-- **2021:** Series A funding; SignalFire publishes investment thesis citing Formant as infrastructure play for the coming robotics deployment wave
-- **2018:** Founded by Jeff Linnell and team; early focus on ROS-compatible fleet management for heterogeneous robots
+No Formant funding, acquisition or product announcement dated after June 2025 was found in searches on 2026-10-20 (company site, Business Wire, The Robot Report, PitchBook and Tracxn listings); absence of news is not confirmation that nothing happened.
+
+- **2025-06-30:** F3 platform launched (generative AI, agentic reasoning). ([Business Wire](https://www.businesswire.com/news/home/20250630008190/en/Formant-F3-Brings-Generative-AI-and-Agentic-Reasoning-to-Robot-Ops))
+- **2024-10-11:** Partnership with Slalom debuted at RoboBusiness 2024. ([The Robot Report](https://www.therobotreport.com/tag/formant/))
+- **2023-12-21:** Formant Analytics launched; Formant data platform announced for SoftBank's cleaning robots. ([The Robot Report](https://www.therobotreport.com/tag/formant/))
+- **2023-10-11:** $21M round led by BMW i Ventures. ([BMW Group](https://www.press.bmwgroup.com/usa/article/detail/T0437645EN_US/bmw-i-ventures-leads-investment-in-robotics-data-and-operations-platform-formant), [Robotics 24/7](https://www.robotics247.com/article/formant_using_latest_funding_hires_experts_secure_cloud_robotics_platform))
+- **2022-06:** Freemium Formant Studio (ROS) launched. ([The Robot Report](https://www.therobotreport.com/tag/formant/))
+- **2019-08:** Cloud fleet-monitoring platform launched. ([The Robot Report](https://www.therobotreport.com/tag/formant/))
 
 ## Key People
 
 ### Jeff Linnell — CEO and Founder
-- **LinkedIn:** [linkedin.com/in/jefflinnell](https://www.linkedin.com/in/jefflinnell/) *(verify — common profile pattern)*
-- **Role:** Co-founder and CEO
+- **LinkedIn:** not found (unverified profile URL removed)
+- **Role:** Founder and CEO (per the June 2025 company release)
 - **Background:** Led Google's robotics group before founding Formant; identified the lack of a generalized robot data and operations platform as the key missing layer for commercial robotics deployment
 - **Education:** Not confirmed in public sources reviewed
 - **Career (reverse-chronological):**
@@ -73,7 +80,9 @@ Formant operates at the **Robot Operations** layer — the software infrastructu
   - Google: Robotics group lead (role predating Formant)
   - Savioke / Redwood Robotics: (other founding team members had these backgrounds; Linnell's specific earlier roles outside Google not confirmed)
 
-### People — Last Reviewed: 2026-03-24
+Biographical details are as of the previous review and were not re-verified.
+
+### People — Last Reviewed: 2026-10-20
 
 ## Supply Chain Position
 
@@ -87,25 +96,33 @@ Formant is a software company with no hardware supply chain dependency. Its posi
 
 **Integration risk:** Formant's value depends on broad robot hardware compatibility. If a datacenter operator deploys a robot fleet from a vendor with a closed ecosystem (Boston Dynamics Spot has a proprietary API; DJI drones operate within DJI's ecosystem), integration complexity increases. Formant's stated support for heterogeneous fleets is a direct response to this risk.
 
-**⚑ SoftBank Robotics connection:** SoftBank Robotics America is a named Formant customer. SoftBank Corp. (the parent, different entity) is building the Tomakomai robot-friendly datacenter. The connection between SoftBank Robotics (humanoid and service robots) and SoftBank Corp.'s datacenter program is not confirmed, but the organizational adjacency is worth monitoring. If Formant is embedded in SoftBank Robotics' platform, it may be positioned to serve SoftBank Corp.'s datacenter fleet as well.
+**⚑ SoftBank overlap:** SoftBank is a named Formant customer. SoftBank Corp. builds the robot-friendly datacenter rack program; whether Formant is used there is not reported.
 
 ## Claim Verification
 
-### Claim: "60% reduction in downtime," "8x increase in utilization," "72% faster rollout"
-**Status:** Customer-reported metrics; not independently audited
+### Claim: Formant customers see "60% less downtime," "8x utilization," "72% faster rollout"
+**Status:** Unverified (marketing claim not found in sources fetched this review)
 
-**Supporting:**
-- These are characteristic performance improvement figures for fleet management software in warehouse/logistics robotics — plausible directionally
-- Series B investors including BMW i Ventures (automotive/industrial robotics focus) and Intel Capital conducted due diligence before investing
+**Supporting:** None found in the June 2025 release or BMW release.
 
-**Refuting / questioning:**
-- No third-party study or customer case study methodology is published; figures appear in marketing materials without attribution to specific customers or defined measurement periods
-- "8x increase in utilization" is an unusually high figure that likely reflects a baseline with very poor utilization (common in early-stage robot deployments without fleet management software)
+**Refuting / questioning:** No methodology, customer or measurement period was found.
 
-**Summary:** Treat as directionally illustrative rather than precisely accurate. The order of magnitude of improvement is consistent with industry experience in fleet management software, but the specific numbers are unverified marketing claims.
+**Summary:** Removed from the Key Facts as unverified; treat any such figures as marketing.
+
+### Claim: Formant is relevant to datacenter robot fleets
+**Status:** Inference, not reported
+
+**Supporting:** SoftBank is a named customer; the platform is robot-agnostic.
+
+**Refuting / questioning:** No datacenter customer, pilot or partnership was found.
+
+**Summary:** Keep as a watch item only.
 
 ## Sources
 
+- [Business Wire — Formant F3 (2025-06-30)](https://www.businesswire.com/news/home/20250630008190/en/Formant-F3-Brings-Generative-AI-and-Agentic-Reasoning-to-Robot-Ops)
+- [BMW Group — BMW i Ventures leads investment in Formant (2023-10-11)](https://www.press.bmwgroup.com/usa/article/detail/T0437645EN_US/bmw-i-ventures-leads-investment-in-robotics-data-and-operations-platform-formant)
+- [The Robot Report — Formant archive](https://www.therobotreport.com/tag/formant/)
 - [Formant Platform — Formant.io](https://formant.io/)
 - [Formant to Use Latest Funding to Hire Experts — Robotics 24/7 (Oct 2023)](https://www.robotics247.com/article/formant_using_latest_funding_hires_experts_secure_cloud_robotics_platform)
 - [Investing in Formant — Intel Capital](https://www.intelcapital.com/investing-in-formant-navigating-the-path-to-mass-adoption/)

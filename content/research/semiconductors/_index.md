@@ -59,16 +59,6 @@ content/research/semiconductors/
 
 ---
 
-### Semiconductor-Specific Tags
-
-- **Node tier:** `advanced-node` (3nm and below), `leading-edge` (3–7nm), `mature-node` (28nm+)
-- **Equipment type:** `lithography`, `etch`, `deposition`, `cvd`, `pvd`, `ald`, `inspection`, `metrology`, `cmp`, `ion-implant`
-- **Technology:** `euv`, `duv`, `high-na-euv`, `ebeam`, `actinic`, `photomask`, `wafer`
-- **Geography:** `japan`, `netherlands`, `us`, `south-korea`, `taiwan`
-- **Strategic:** `export-controls`, `monopoly`, `dual-use`, `wassenaar`
-
----
-
 ### Export Controls and Geopolitical Dimensions
 
 Advanced semiconductor equipment is subject to export control regimes from multiple jurisdictions (US BIS Entity List/FDPR, Japanese METI restrictions, Dutch ASML controls). Every equipment vendor entry should document:

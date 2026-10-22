@@ -28,8 +28,6 @@ sitemap:
 - **Inference runtime** — a server or library that serves models locally (Ollama, llama.cpp, vLLM)
 - **Company** — where a tool has a company behind it, use the standard company entry template
 
-**Tags:** `voice-ai`, `tts`, `stt`, `local-inference`, `mcp`, `open-source`, `inference-runtime`, `model-serving`
-
 **Review cadence:** 90 days — this space ships new releases and competing tools quickly.
 
 {{</steering>}}

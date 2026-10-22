@@ -1,16 +1,22 @@
 ---
 title: "Lyten"
 date: 2026-03-23
-lastmod: 2026-03-24
+lastmod: 2026-10-20
 draft: false
-description: "San Jose startup pioneering 3D Graphene-enabled lithium-sulfur batteries; claims ~2× energy density vs lithium-ion with no nickel, cobalt, or graphite; $625M+ raised; acquired Northvolt's European BESS facility; gigafactory planned near Reno."
+description: "San Jose startup commercializing 3D Graphene lithium-sulfur batteries; completed its Northvolt Sweden acquisition on 2026-02-27, agreed to buy the Revolt recycling plant (March 2026) and has begun test work at Skellefteå, with customer cells now expected Q1 2027; Heide pending."
 research_area: "energy/batteries"
 source_urls:
   - "https://lyten.com/technology/lithium-sulfur/"
+  - "https://lyten.com/2026/02/26/lyten-completes-acquisition-of-northvolt-sweden/"
+  - "https://electrek.co/2026/02/27/lyten-completes-takeover-of-northvolt-battery-sites-in-sweden/"
   - "https://lyten.com/2025/07/01/lyten-acquires-europes-largest-battery-energy-storage-systems-manufacturing-operation-from-northvolt/"
   - "https://cleantechnica.com/2025/08/07/us-startup-lyten-is-still-determined-to-make-a-lithium-sulfur-ev-battery-happen/"
   - "https://lyten.com/2026/03/20/lyten-to-establish-a-lyten-industrial-hub-in-poland/"
-last_reviewed: 2026-03-24
+  - "https://lyten.com/2026/03/13/lyten-to-acquire-northvolt-revolt-battery-recycling-plant/"
+  - "https://news.cision.com/lyten/ListItems"
+  - "https://www.norran.se/english/engelska/artikel/inside-lytens-restart-of-northvolts-former-battery-factory/l78ongxj"
+  - "https://en.wikipedia.org/wiki/Lyten"
+last_reviewed: 2026-10-20
 stale_after_days: 90
 related:
   - "energy/batteries/solid-state-batteries.md"
@@ -21,21 +27,25 @@ related:
 
 ## Summary
 
-Lyten is a San Jose, California company commercializing 3D Graphene — a tunable carbon supermaterial — as the enabling scaffold for lithium-sulfur (Li-S) batteries. Unlike lithium-ion, lithium-sulfur uses sulfur as the cathode and eliminates nickel, cobalt, graphite, and iron/phosphorus entirely, reducing the battery weight by up to 50% versus NMC and 75% versus LFP while approaching twice the energy density. Lyten has raised over $625M in equity, acquired Northvolt's European BESS manufacturing operation, and is planning a $1 billion gigafactory near Reno, Nevada, with early commercial deliveries targeting defense, drones, and satellites before automotive applications.
+Lyten is a San Jose, California company commercializing 3D Graphene as the cathode scaffold for lithium-sulfur (Li-S) batteries, a chemistry that avoids nickel, cobalt and graphite. Its near-term business has shifted toward acquired manufacturing: on 2026-02-27 it completed the purchase of Northvolt's Ett and Ett Expansion plants in Skellefteå and the Labs R&D centre in Västerås, with 16 GWh of existing capacity, to make conventional NMC lithium-ion cells while Li-S is industrialized. It has also bought Northvolt's Dwa storage plant in Gdańsk, and its Heide, Germany acquisition was still pending. It reports raising more than $625M in equity.
 
 ## Key Facts
 
 - **Founded:** ~2015
 - **HQ:** San Jose, CA, USA
-- **Type:** Private
-- **Stage:** Series B+ (~$625M total equity raised, plus $650M US Ex-Im Bank letter of intent)
+- **Type:** Private; more than $625M equity raised and letters of intent for $650M from the US Export-Import Bank (company statements, Feb 2026)
 - **Technology:** 3D Graphene-enabled lithium-sulfur batteries
-- **Key investors:** Stellantis, FedEx, Honeywell, Prime Movers Lab, European Investment Fund, Luxembourg Future Fund; 1,000+ investors total
-- **Claimed energy density:** ~2× lithium-ion (approaching but not yet at 3×; earlier 3× claims were long-term roadmap)
-- **Key materials eliminated:** Nickel, cobalt, graphite, iron, phosphorus — reduces strategic mineral dependency
-- **Weight reduction:** Up to 50% vs NMC, up to 75% vs LFP at equivalent energy
-- **Near-term targets:** Defense, drones, satellites (2024–2025); micromobility, mobile equipment (2025–2026); automotive (longer-term)
-- **Manufacturing:** $1B gigafactory near Reno, NV planned; acquired Northvolt Gdańsk BESS facility (25,000 m²) in July 2025; Lyten Industrial Hub in Sweden announced Feb 2026; Poland feasibility study underway March 2026
+- **Key investors:** Stellantis, FedEx, Honeywell, Prime Movers Lab, European Investment Fund, Luxembourg Future Fund
+- **Company claims:** ~2× energy density vs lithium-ion (earlier "up to 3×" was a long-term target); up to 50% lighter than NMC and 75% lighter than LFP at equal energy ([Lyten](https://lyten.com/technology/lithium-sulfur/))
+- **Northvolt Sweden acquisition (completed 2026-02-27):** Northvolt Ett and Ett Expansion (Skellefteå) and Northvolt Labs (Västerås); 16 GWh existing manufacturing capacity; more than 160 hectares; Ett to make NMC cells for storage, automotive and mobility, with cell sales to the Gdańsk plant were expected in the second half of 2026 (February release) ([Lyten](https://lyten.com/2026/02/26/lyten-completes-acquisition-of-northvolt-sweden/))
+- **Data centers:** EdgeConneX plans to acquire a Skellefteå site from Lyten that could scale to a campus of up to 1 GW
+- **Heide, Germany:** acquisition of Northvolt assets "progressing", not closed as of the Feb 2026 release
+- **Gdańsk:** Northvolt Dwa storage plant (25,000 m²) acquisition announced July 2025 and completed 2025-10-16
+- **Revolt recycling (Skellefteå):** binding agreement 2026-03-13 for 8,500 t per year capacity; closing unconfirmed
+- **Skellefteå status (Sep 2026):** test work under way; customer cells expected Q1 2027 ([Norran](https://www.norran.se/english/engelska/artikel/inside-lytens-restart-of-northvolts-former-battery-factory/l78ongxj))
+- **Reno gigafactory:** announced October 2024 (over $1B, 10 GWh per year target per Wikipedia); no construction status found
+- **Hiring:** plans 600+ additional employees over 12 months (company statement)
+- **Near-term Li-S markets:** defense, drones, satellites; automotive longer term. A previously announced Reno, Nevada gigafactory is not covered in the sources reviewed and its status is unconfirmed.
 
 ## What It Is / How It Works
 
@@ -49,13 +59,13 @@ The automotive application is the hardest and longest-horizon target. Cycle life
 
 ## Notable Developments
 
-- **2026-03:** Lyten announces interest in establishing a Lyten Industrial Hub in Poland; feasibility study to assess manufacturing and energy infrastructure requirements. ([Lyten](https://lyten.com/2026/03/20/lyten-to-establish-a-lyten-industrial-hub-in-poland/))
-- **2026-02:** Lyten Industrial Hub announced in Sweden, combining battery production with a 1 GW AI data center campus.
-- **2025-07:** Lyten acquires Northvolt's Dwa ESS operations in Gdańsk, Poland — a 25,000 m² BESS manufacturing and R&D facility, the largest BESS manufacturing facility in Europe. ([Lyten](https://lyten.com/2025/07/01/lyten-acquires-europes-largest-battery-energy-storage-systems-manufacturing-operation-from-northvolt/))
-- **2025:** Li-S cells selected for demonstration on the International Space Station (NASA); targets for satellites, space suits, and EVA applications.
-- **2025:** Targeting commercial-ready batteries for micromobility and mobile equipment.
-- **2024–2025:** Commercial-ready drone, satellite, and defense deliveries targeted.
-- **Prior:** $650M letter of intent from US Export-Import Bank secured; $1B gigafactory near Reno, NV announced.
+- **2026-09-06:** Norran reports test work has started in the former Northvolt factory in Skellefteå (site visit 1 September); Lyten Sweden CEO Matthias Arleth says many customers are interested, none named; customer cells are expected in Q1 2027, later than the second-half 2026 timing given in February. ([Norran](https://www.norran.se/english/engelska/artikel/inside-lytens-restart-of-northvolts-former-battery-factory/l78ongxj))
+- **2026-03-13:** Binding agreement to acquire Northvolt Revolt Ett, a battery recycling site in Skellefteå (8,500 t per year installed capacity; equity-funded; terms undisclosed; closing expected Q2 2026, closing not confirmed in sources reviewed). ([Lyten](https://lyten.com/2026/03/13/lyten-to-acquire-northvolt-revolt-battery-recycling-plant/))
+- **2025-10-16:** Acquisition of Northvolt Dwa (Gdańsk) completed; production restarting with sales targeted before year-end. **2025-09-04:** New European leadership named. ([Lyten releases](https://news.cision.com/lyten/ListItems))
+- **2026-03:** Lyten announces interest in a Lyten Industrial Hub in Poland and a feasibility study. ([Lyten](https://lyten.com/2026/03/20/lyten-to-establish-a-lyten-industrial-hub-in-poland/))
+- **2026-02-27:** Acquisition of Northvolt Ett, Ett Expansion and Labs completed; first Lyten Industrial Hub in Sweden; EdgeConneX data-center site agreement; Heide pending. ([Lyten](https://lyten.com/2026/02/26/lyten-completes-acquisition-of-northvolt-sweden/), [Electrek](https://electrek.co/2026/02/27/lyten-completes-takeover-of-northvolt-battery-sites-in-sweden/))
+- **2025-07:** Acquisition of Northvolt Dwa storage operations in Gdańsk announced. ([Lyten](https://lyten.com/2025/07/01/lyten-acquires-europes-largest-battery-energy-storage-systems-manufacturing-operation-from-northvolt/))
+- **Prior:** US Ex-Im Bank letter of intent for $650M; Reno gigafactory plan announced.
 
 ## Key People
 
@@ -81,29 +91,31 @@ The automotive application is the hardest and longest-horizon target. Cycle life
   - Uber (2018–2019): Director of Battery Engineering (Uber Elevate / Jump micromobility)
   - Tesla (2012–2018): Head of Cell Quality and Materials Engineering (launched Model S, X, 3; Powerwall; Powerpack)
   - Exponent (1999–2012): Consulting firm; lithium-ion safety and failure modes for consumer electronics
-- **Notes:** One of the most experienced battery engineers in the US startup ecosystem, with hands-on roles across the full history of lithium-ion commercialization. **⚑ Overlap:** Mikolajczak worked at [QuantumScape]({{< relref "quantumscape.md" >}}) in 2021 as VP Manufacturing before joining Lyten in 2022 — the only documented person to have held senior roles at two competing solid-state/advanced battery companies in this knowledge base.
+- **Notes:** (As of the previous review.) One of the most experienced battery engineers in the US startup ecosystem, with hands-on roles across the full history of lithium-ion commercialization. **⚑ Overlap:** Mikolajczak worked at [QuantumScape]({{< relref "quantumscape.md" >}}) in 2021 as VP Manufacturing before joining Lyten in 2022 — the only documented person to have held senior roles at two competing solid-state/advanced battery companies in this knowledge base.
 
 **⚑ Shared background:** Celina Mikolajczak (Lyten) worked at QuantumScape in 2021. See QuantumScape Key People for the cross-reference note.
 
-### People — Last Reviewed: 2026-03-24
+Executive roles are as of the previous review and were not re-verified.
+
+### People — Last Reviewed: 2026-10-20
 
 ## Supply Chain Position
 
-Lyten operates across multiple supply chain layers: it manufactures 3D Graphene (a proprietary **Active Material**) from methane via pyrolysis at its San Jose fab, and assembles lithium-sulfur cells using commodity [sulfur]({{< relref "../resources/sulfur.md" >}}) as the cathode material. [Lithium]({{< relref "../resources/lithium.md" >}}) metal for the anode is sourced conventionally. Unlike solid-state programs, Lyten's upstream supply chain is almost entirely commodity-grade — sulfur is a refinery byproduct with no concentration risk; methane for graphene synthesis is widely available. Downstream customers include defense and drone programs (US DoD, In-Q-Tel), followed by micromobility and eventually automotive. Lyten has no documented shared upstream suppliers with other battery companies in this knowledge base, reflecting its fundamentally different chemistry.
+Lyten now spans several layers. It makes 3D Graphene (an **Active Material**) from methane and assembles Li-S cells using commodity [sulfur]({{< relref "../resources/sulfur.md" >}}) cathodes with lithium metal anodes ([lithium]({{< relref "../resources/lithium.md" >}})). Through the Northvolt acquisitions it also inherits conventional **Cell Manufacturing** capacity (16 GWh at Skellefteå) for NMC lithium-ion cells, which brings the usual nickel, cobalt and graphite dependencies that Li-S avoids (see [Cobalt]({{< relref "../resources/cobalt.md" >}}) and [Nickel]({{< relref "../resources/nickel.md" >}})). Downstream customers named are storage and mobility buyers, including Lyten's own Gdańsk plant, and defense and drone programs for Li-S. No shared upstream suppliers with other battery companies in this knowledge base are documented.
 
 ## Claim Verification
 
 ### Claim: ~2× energy density vs. lithium-ion
-**Status:** Partially verified (cell-level demonstrations; not validated in production-format automotive cells)
+**Status:** Unverified (company claim; no third-party measurements found)
 
 **Supporting sources:**
 - [Lyten technology page](https://lyten.com/technology/lithium-sulfur/) — Describes approaching 2× energy density vs lithium-ion; earlier marketing used "up to 3×" which referred to theoretical ceiling
-- [CleanTechnica (Aug 2025)](https://cleantechnica.com/2025/08/07/us-startup-lyten-is-still-determined-to-make-a-lithium-sulfur-ev-battery-happen/) — Reviews commercial progress; notes the company has credibly demonstrated high energy density in near-commercial cell formats for defense and drone applications
+- [CleanTechnica (Aug 2025)](https://cleantechnica.com/2025/08/07/us-startup-lyten-is-still-determined-to-make-a-lithium-sulfur-ev-battery-happen/) — Reviews commercial progress; reviews commercial progress and the company's drone and defense focus
 
 **Refuting / questioning sources:**
 - [AutoEvolution](https://www.autoevolution.com/news/lyten-li-s-cells-promise-three-times-ternary-batteries-energy-density-by-2025-170165.html) — Notes the original "3×" figure was a long-term roadmap target and production cells have not reached that; the near-term commercial product is closer to 2× for suitable applications
 
-**Summary:** 2× energy density is credible at cell level for targeted applications (drones, satellites). Automotive-grade large-format cycle life validation remains the unresolved question.
+**Summary:** The figure is a company claim; Wikipedia reports that in third-party testing pouch cells reached a maximum of 110 cycles before the test was halted for soft-shorting (secondary source, not independently confirmed); the February 2026 acquisition release gives no energy density or cycle-life data. Large-format cycle life remains the unresolved question.
 
 ---
 
@@ -117,8 +129,13 @@ Lyten operates across multiple supply chain layers: it manufactures 3D Graphene 
 
 ## Sources
 
+- [Lyten to Acquire Northvolt Revolt Battery Recycling Plant — Lyten (Mar 2026)](https://lyten.com/2026/03/13/lyten-to-acquire-northvolt-revolt-battery-recycling-plant/)
+- [Lyten press releases — Cision](https://news.cision.com/lyten/ListItems)
+- [First look inside Lyten's restart of Northvolt's former factory — Norran (Sep 2026)](https://www.norran.se/english/engelska/artikel/inside-lytens-restart-of-northvolts-former-battery-factory/l78ongxj)
+- [Lyten — Wikipedia](https://en.wikipedia.org/wiki/Lyten)
 - [Lyten Lithium-Sulfur Technology](https://lyten.com/technology/lithium-sulfur/)
 - [Lyten acquires Northvolt Gdańsk BESS facility — Lyten (Jul 2025)](https://lyten.com/2025/07/01/lyten-acquires-europes-largest-battery-energy-storage-systems-manufacturing-operation-from-northvolt/)
 - [US Startup Lyten Still Aims For Lithium-Sulfur EV Battery — CleanTechnica (Aug 2025)](https://cleantechnica.com/2025/08/07/us-startup-lyten-is-still-determined-to-make-a-lithium-sulfur-ev-battery-happen/)
+- [Lyten Completes Acquisition of Northvolt Sweden — Lyten (Feb 2026)](https://lyten.com/2026/02/26/lyten-completes-acquisition-of-northvolt-sweden/)
+- [Lyten completes takeover of Northvolt battery sites in Sweden — Electrek (Feb 2026)](https://electrek.co/2026/02/27/lyten-completes-takeover-of-northvolt-battery-sites-in-sweden/)
 - [Lyten Poland Industrial Hub — Lyten (Mar 2026)](https://lyten.com/2026/03/20/lyten-to-establish-a-lyten-industrial-hub-in-poland/)
-- [Lyten Pioneers Tunable 3D Graphene — Power Electronics News](https://www.powerelectronicsnews.com/lyten-pioneering-tunable-3d-graphene-for-next-generation-lithium-sulfur-batteries/)

@@ -1,11 +1,11 @@
 ---
 title: "Behind-the-Meter Power for Data Centers"
 date: 2026-04-21
-lastmod: 2026-06-04
+lastmod: 2026-10-21
 draft: false
 description: "Comprehensive research on behind-the-meter (BTM) power solutions for data centers: technology categories, companies, regulatory challenges, and 18+ GW of announced projects targeting grid-independent power for AI and hyperscale facilities."
 research_area: "datacenters/behind-meter-power"
-last_reviewed: 2026-04-25
+last_reviewed: 2026-10-21
 stale_after_days: 90
 sitemap:
   changefreq: "weekly"
@@ -49,6 +49,14 @@ Behind-the-meter (BTM) power solutions for data centers are reshaping energy inf
 BTM power avoids regulatory delays, ensures availability independent of grid constraints, and enables deployment within months rather than years. Current deployments span **natural gas turbines (75% of identified generation), nuclear reactors (SMRs and microreactors targeting 2027–2035 online), fuel cells (Bloom Energy leading deployment), solar+storage (Amazon leading), and hydrogen-capable flexible engines.**
 
 **Key regulatory challenge:** ⚑ Grid operators and utilities are increasingly opposing BTM power arrangements as regulatory arbitrage — operators are bypassing interconnection review, transmission pricing, and capacity reserve requirements. This friction will likely define the 2026–2028 period.
+
+### October 2026 Significant Developments (Last Reviewed: 2026-10-21)
+
+- **Crusoe ended its Boom Superpower order (2026-09-25):** the reported $1.25B, 29-unit (1.21 GW) agreement is cancelled; Crusoe cites flexibility across turbines, renewables, batteries and grid, and signed Bergen Engines (about 750 MW) in June 2026. See [Boom Supersonic]({{< relref "boom-supersonic-superpower.md" >}}).
+- **Gas equipment backlogs keep growing:** GE Vernova reported 116 GW of backlog plus slot reservations (Q2 2026); Siemens Energy a record EUR 162B backlog with 15 GW of gas turbines booked in April-June; Caterpillar a $72B backlog and a restart of its 10 MW engine platform (1.5 GW, shipments from Q4 2026); Wärtsilä added U.S. engine orders through Q3 2026. See [GE Vernova]({{< relref "ge-vernova-aeroderivative.md" >}}), [Siemens Energy]({{< relref "siemens-energy-btm.md" >}}), [Caterpillar]({{< relref "caterpillar-solar-turbines.md" >}}), [Wärtsilä]({{< relref "wartsila-btm.md" >}}).
+- **Williams sold 49% of five Power Innovation projects to Blackstone for $5.34B (2026-07-15).** See [Williams]({{< relref "williams-companies-btm.md" >}}).
+- **Nuclear status changes (DOE vs NRC tracks kept separate):** Oklo's Groves test reactor went critical under DOE's pilot program (2026-08-05; not a power plant); TerraPower's Kemmerer 1 has an NRC construction permit and is under construction, but Bechtel exited the EPC role in September; Kairos reportedly closed $643M for Hermes 2; Radiant's Kaleidos is at INL's DOME awaiting test results and signed a Janus agreement worth up to $750M; Westinghouse completed a zero-power eVinci test; NANO's KRONOS construction permit application is under NRC review; NuScale still has no binding TVA order. See [Oklo]({{< relref "oklo-btm.md" >}}), [TerraPower]({{< relref "terrapower-btm.md" >}}), [Kairos]({{< relref "kairos-power-btm.md" >}}), [Radiant]({{< relref "radiant-nuclear.md" >}}), [Westinghouse]({{< relref "westinghouse-evinci.md" >}}), [NANO/USNC]({{< relref "usnc-microreactor.md" >}}), [NuScale]({{< relref "nuscale-power.md" >}}).
+- **Capstone rebranded as Capstone Energy+ (Nasdaq: CEPL) after a $112.5M investment.** See [Capstone]({{< relref "capstone-green-energy.md" >}}).
 
 ### April 2026 Significant Developments (Last Reviewed: 2026-04-24)
 
@@ -326,7 +334,7 @@ The "AI boom" timeline is compressing all decisions. OpenAI's Stargate initiativ
 | **Wärtsilä 507 MW Project** — U.S. (location TBD) | Unnamed operator | Wärtsilä | Reciprocating engines (50SG) | 507 MW | Contracted | 2026–2027 | 27-unit deployment |
 | **Wärtsilä 429 MW Project** — U.S. | Unnamed operator | Wärtsilä | Reciprocating engines (50SG) | 429 MW | Contracted | 2027 | 24-unit deployment; January 2026 announcement |
 | **Wärtsilä 790 MW Texas Project** — Texas | Unnamed operator | Wärtsilä | Reciprocating engines (50SG) | 790 MW | Contracted | 2027–2028 | 42-unit deployment; April 23, 2026 announcement; largest single Wärtsilä data center order |
-| **Boom Supersonic (Superpower) Turbines** — Multiple Crusoe sites | Crusoe (internal) | Boom Supersonic | Aeroderivative gas turbine (42 MW each) | 1.21 GW (29 units) | Contracted | 2026–2027 | Symphony engine derivative; waterless operation; major Crusoe order |
+| **Boom Supersonic (Superpower) Turbines** — Multiple Crusoe sites | Crusoe (internal) | Boom Supersonic | Aeroderivative gas turbine (42 MW each) | 1.21 GW (29 units) | **Cancelled (2026-09-25)** | n/a | Crusoe ended the agreement; Boom projects ~250 MW of 2027 deliveries to other sites (company projection) |
 | **Advanced Energy & Intelligence Campus** — Texas | Multiple (Permian Basin operators) | TBD mix | Mixed (gas + future nuclear/SMR) | 18 million sq ft campuses; 5 GW+ | Early | 2026+ (first 1 GW) | 5,800-acre multi-operator campus |
 | **Sabey Data Centers + TerraPower** — Multiple sites | Sabey Data Centers | TerraPower | Natrium SMR | TBD | MOU / Early | 2030s | Sabey is smaller colocation provider; wide-scale deployment target |
 | **Equinix Radiant Kaleidos** — Global sites TBD | Equinix | Radiant Nuclear | Microreactor (1.2 MW each) | 24 MW+ (20-unit preorder) | Preorder / Contracted | 2028–2030 | Major scaling signal for microreactors; modular deployment strategy |
@@ -338,6 +346,7 @@ The "AI boom" timeline is compressing all decisions. OpenAI's Stargate initiativ
 | **Meta + Sage Geosystems** — U.S. (location TBD) | Meta | Sage Geosystems | Advanced geothermal | Up to 150 MW | Contracted | 2027 (initial stage) | Baseload clean power for Meta data center operations |
 | **International Electric Power** — Pennsylvania | Unnamed data center operator | International Electric Power | Gas plant + battery storage | 944 MW | Contracted | 2026–2027 | Avoiding PJM interconnection; BTM gas plant + BESS |
 | **Meta Socrates (Prometheus campus)** — New Albany, Ohio | Meta | [Williams Companies]({{< relref "williams-companies-btm.md" >}}) | Natural gas turbines (modular; Solar Turbines Titan 250/PGM 130, Siemens SGT-400, CAT 3520) | 400 MW (2 × 200 MW plants) | Under Construction | Q3 2026 | 10-year agreement; off-grid, physically disconnected from grid; paired with five ~125,000 sq ft rapid deployment structures (tents); $1.6B estimated construction cost |
+| **Williams Power Innovation portfolio (Blackstone-backed)** — Ohio, Utah, other | Meta (Socrates); others not named | Williams Companies (51%) with Blackstone (49%, $5.34B committed) | Natural gas generation | Socrates 200 MW; Socrates the Younger 340 MW; Neo 682 MW; Aquila (Utah, n/d) | Socrates nearing completion; others pre-service | Aquila 1H 2027; Neo 2H 2028 | DCD, 2026-07-15; Socrates capacity differs from the 400 MW figure above, verify |
 | **Meta Tennessee tent data center** — Gallatin, Tennessee | Meta | Williams Companies (pipeline supply) | Natural gas (Williams infrastructure; generation partner TBD) | TBD | Early / Under Construction | 2026–2027 | Same rapid deployment structure strategy as Ohio; third tent-based data center campus in Meta's portfolio |
 
 **Note on project status:**

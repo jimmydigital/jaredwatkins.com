@@ -1,17 +1,19 @@
 ---
 title: "Capstone Green Energy — Micro-Turbines for Data Center BTM & CHP"
 date: 2026-04-24
-lastmod: 2026-04-24
+lastmod: 2026-10-21
 draft: false
 description: "Capstone Green Energy (NASDAQ: CGEH), Van Nuys, CA. Micro-turbine manufacturer (65 kW – 1 MW per unit, scalable). Air-bearing technology; no lubricating oil. Natural gas, propane, biogas, hydrogen blends. CHP applications in colocation data centers. New 800 VDC microturbine (with Microgrids 4 AI) targeting AI data center power. FY2026 revenue ~$103M TTM; $15M private placement Nov 2025. ITC phaseout headwind for gas/biogas CHP (post-Dec 2024)."
 research_area: "datacenters/behind-meter-power"
 source_urls:
+  - "https://www.businesswire.com/news/home/20260331252800/en/Capstone-Green-Energy-Secures-Transformative-$112.5-Million-Strategic-Investment-to-Streamline-Its-Capital-Structure"
+  - "https://www.turbomachinerymag.com/view/capstone-microgrids-4-ai-launch-800-volt-microturbine-to-power-data-centers"
   - "https://www.capstonegreenenergy.com/"
   - "https://www.turbomachinerymag.com/view/capstone-microgrids-4-ai-launch-800-volt-microturbine-to-power-data-centers"
   - "https://www.businesswire.com/news/home/20251124992313/en/Capstone-Green-Energy-Holdings-Inc.-Announces-$15-Million-Private-Placement"
   - "https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/CHP_Microturbines.pdf"
-last_reviewed: 2026-04-24
-stale_after_days: 90
+last_reviewed: 2026-10-21
+stale_after_days: 60
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
@@ -19,13 +21,21 @@ stale_after_days: 90
 
 ## Summary
 
-Capstone Green Energy Holdings (NASDAQ: CGEH), headquartered in Van Nuys, California, is the primary U.S. manufacturer of micro-turbines — small, air-bearing natural gas generators in the 65 kW to 1 MW range. The company's core products use patented foil air bearings (no lubricating oil required), a single moving part, and a compact form factor that makes them attractive for Combined Heat and Power (CHP) applications in commercial buildings, hospitals, industrial facilities — and colocation data centers.
+Capstone Energy+, Inc. (Nasdaq: CEPL; formerly Capstone Green Energy Holdings, CGEH), headquartered in Van Nuys, California, is the primary U.S. manufacturer of micro-turbines — small, air-bearing natural gas generators in the 65 kW to 1 MW range. The company's core products use patented foil air bearings (no lubricating oil required), a single moving part, and a compact form factor that makes them attractive for Combined Heat and Power (CHP) applications in commercial buildings, hospitals, industrial facilities — and colocation data centers.
 
 Capstone is **not** a primary candidate for large-scale hyperscaler BTM deployments (where 100–1,000 MW is needed); its strength is in **distributed, smaller-scale CHP applications** where the recoverable heat improves site PUE and the modularity enables phased scaling. The company is increasingly targeting AI data center power with a new 800 VDC microturbine product developed with Microgrids 4 AI, Inc.
 
 **Key appeal:** No oil (zero lube-oil maintenance), low emissions compared to reciprocating engines, fuel flexibility (natural gas, propane, biogas, RNG, hydrogen blends), compact form factor, CHP capability.
 
-**Risks:** Not cost-competitive with GE Vernova or Wärtsilä for large-scale BTM; ITC phaseout (post-Dec 2024) removes key incentive for gas/biogas CHP; financial fragility (sub-$30M quarterly revenue; needs continued equity raises); market positioning squeezed between large gas turbines (above) and battery storage (below).
+**Risks:** Not cost-competitive with GE Vernova or Wärtsilä for large-scale BTM; ITC phaseout (post-Dec 2024) removes key incentive for gas/biogas CHP; financial fragility (history of equity raises; a $112.5M investment closed in March 2026); market positioning squeezed between large gas turbines (above) and battery storage (below).
+
+---
+
+## October 2026 Update
+
+- **Rename and listing:** the company now reports as Capstone Energy+, Inc. (Nasdaq: CEPL), formerly Capstone Green Energy Holdings, Inc. (OTCQX: CGEH); trading on Nasdaq began 2026-07-08. ([Business Wire](https://www.businesswire.com/news/home/20260331252800/en/Capstone-Green-Energy-Closes-$112.5-Million-Strategic-Investment))
+- **$112.5M strategic investment (closed 2026-03-31):** led by funds managed by Monarch Alternative Capital ($80M senior convertible preferred plus $15M common), with $17.5M of common stock or pre-funded warrants sold to accredited investors; $85M redeemed the preferred interest in Capstone Green Energy LLC held by a Goldman Sachs-controlled entity; remaining proceeds fund growth including the AI data center market. Monarch can appoint two independent directors.
+- **800 VDC microturbine:** unveiled with Microgrids 4 AI on 2025-10-22 for MW-scale AI workloads; claims of up to 45% less copper and up to 5% better efficiency than 54 V systems are company claims; no kW rating or ship date was given. ([Turbomachinery Magazine](https://www.turbomachinerymag.com/view/capstone-microgrids-4-ai-launch-800-volt-microturbine-to-power-data-centers))
 
 ---
 

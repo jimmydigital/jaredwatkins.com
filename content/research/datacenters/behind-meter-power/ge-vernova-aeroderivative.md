@@ -1,19 +1,21 @@
 ---
 title: "GE Vernova — Aeroderivative Gas Turbines for Data Center BTM"
 date: 2026-04-21
-lastmod: 2026-04-24
+lastmod: 2026-10-21
 draft: false
-description: "GE Vernova Gas Power (Boston, MA). Aeroderivative turbines: LM2500XPRESS (35 MW), LM6000 (40+ MW). Crusoe Energy 29-unit LM2500XPRESS order (1 GW total). Project Stargate 29-unit deployment. Q1 2026: $2.4B in data center electrification orders (more than all 2025 combined); 20 GW annualized output by Q3 2026 target; ~20% of 100 GW backlog explicitly tied to data center load. Raised 2026 revenue guidance to $44.5–$45.5B. Market leader in data center BTM gas turbines."
+description: "GE Vernova Gas Power aeroderivative turbines (LM2500XPRESS 35 MW, LM6000 40+ MW) for data center behind-the-meter power. Crusoe's 29-unit LM2500XPRESS order (nearly 1 GW) and Stargate deployments; Q2 2026 gas backlog plus slot reservations of 116 GW and data center orders above $5B year-to-date."
 research_area: "datacenters/behind-meter-power"
 source_urls:
+  - "https://www.turbomachinerymag.com/view/ge-vernova-gas-turbine-backlog-hits-116-gw-as-power-orders-more-than-double"
+  - "https://www.turbomachinerymag.com/view/ge-vernova-delivers-29-lm2500xpress-aeroderivative-gas-turbine-packages-to-crusoe-ai-data-centers"
   - "https://www.gevernova.com/"
   - "https://www.gevernova.com/news/press-releases/ge-vernova-crusoe-announce-major-29-unit-aeroderivative-gas-turbine-deliver-ai-data-centers"
   - "https://www.datacenterdynamics.com/en/news/crusoe-orders-19-natural-gas-turbines-from-ge-vernova-to-power-data-centers/"
   - "https://www.gevernova.com/gas-power/resources/case-studies/crusoe-ai-data-centers-lm2500xpress"
   - "https://www.power-eng.com/gas/turbines/data-centers-drive-record-surge-in-ge-vernova-power-equipment-orders-as-turbine-slots-tighten-through-2030/"
   - "https://intellectia.ai/blog/ge-vernova-stock-analysis-april-2026"
-last_reviewed: 2026-04-24
-stale_after_days: 90
+last_reviewed: 2026-10-21
+stale_after_days: 60
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
@@ -33,6 +35,14 @@ This positions GE Vernova as the dominant OEM for large-scale gas turbine BTM pr
 **Key appeal:** Jet engine heritage ensures reliability; fast-start (5 min) and high efficiency make aeroderivatives ideal for peaking power and grid-stability applications; proven track record (LM2500 has 30+ year operational history); modular architecture allows scaling from 100 MW to 1+ GW on single site.
 
 **Risks:** Natural gas feedstock (not carbon-free); high capex ($2–3M/MW for complete power plant); supply chain constraints (turbine manufacturing lead times); air quality permitting delays (NOx emissions in California, New York, Pennsylvania).
+
+---
+
+## October 2026 Update
+
+- **Q2 2026 (reported 2026-07-23):** gas equipment backlog plus slot reservations of 116 GW (53 GW backlog, 63 GW slot reservations), up from 100 GW a quarter earlier; GE Vernova expects at least 125 GW under contract by year-end 2026. Data center orders topped $5B year-to-date, more than double all of 2025; 61 aeroderivative units and 52 heavy-duty units were ordered in the quarter. ([Turbomachinery Magazine](https://www.turbomachinerymag.com/view/ge-vernova-gas-turbine-backlog-hits-116-gw-as-power-orders-more-than-double))
+- **Crusoe:** GE Vernova's 29 LM2500XPRESS packages (nearly 1 GW) for Crusoe were booked as 10 units in December 2024 and 19 in June 2025; Crusoe also signed with Bergen Engines (about 750 MW) in June 2026 and ended its Boom turbine agreement in September 2026. ([Turbomachinery Magazine](https://www.turbomachinerymag.com/view/ge-vernova-delivers-29-lm2500xpress-aeroderivative-gas-turbine-packages-to-crusoe-ai-data-centers), [TechRepublic](https://www.techrepublic.com/article/news-crusoe-boom-turbine-deal/))
+- **Next catalyst:** Q3 2026 results had not been published at time of writing.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Energy Research
 date: 2026-03-23
-lastmod: 2026-07-18
+lastmod: 2026-10-21
 draft: false
 description: Research on emerging energy technologies including solar, batteries, grid storage, virtual power plants, and the grid market structures that enable or constrain them.
 research_area: "energy"
@@ -18,7 +18,7 @@ sitemap:
 
 ## Overview
 
-Tracks breakthrough technologies and key players in the energy transition — with a focus on solar generation, battery storage, and the companies and researchers driving progress. Subsections: [Batteries](./batteries/), [Solar](./solar/), [Nuclear](./nuclear/), [Resources](./resources/), [Grid Markets & Policy](./grid-markets/) — covering electricity market design and regulatory structure (using ERCOT/Texas as the lead case study) and how it enables or constrains distributed energy innovation — and [Virtual Power Plants](./virtual-power-plants/), covering the companies aggregating home batteries, thermostats, and commercial/industrial load into VPPs sold to utilities and, increasingly, to AI datacenter operators.
+Tracks breakthrough technologies and key players in the energy transition — with a focus on solar generation, battery storage, and the companies and researchers driving progress. Subsections: [Batteries](./batteries/), [Solar](./solar/), [Nuclear](./nuclear/), [Resources](./resources/), [Grid Markets & Policy](./grid-markets/) — covering electricity market design and regulatory structure (using ERCOT/Texas as the lead case study) and how it enables or constrains distributed energy innovation — and [Virtual Power Plants](./virtual-power-plants/), covering the companies aggregating home batteries, thermostats, and commercial/industrial load into VPPs sold to utilities and, increasingly, to AI datacenter operators, and [Pipelines](./pipelines/), covering natural gas pipeline operators and builders (Kinder Morgan, Energy Transfer, ONEOK, MasTec and others) with a focus on gas supply for datacenter and behind-the-meter power.
 
 ## Key Themes
 

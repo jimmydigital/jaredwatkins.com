@@ -1,18 +1,20 @@
 ---
 title: "NuScale Power — VOYGR SMR for Data Center BTM"
 date: 2026-04-24
-lastmod: 2026-04-24
+lastmod: 2026-10-21
 draft: false
-description: "NuScale Power (NYSE: SMR), Portland, OR. VOYGR small modular reactor: 77 MWe per module, up to 12-module plant (924 MWe total). Only SMR with NRC Standard Design Approval (SDA, July 2022; uprated to 77 MWe, May 2025). UAMPS Carbon Free Power Project cancelled November 2023 (cost overruns). Pivoting to data center market: Standard Power (Ohio/Pennsylvania, 24-module, ~1.8 GW), TVA/ENTRA1 partnership. Stock down 70%+ from 2025 highs; class action lawsuits; $532M Q3 2025 loss. ~$1.3B liquidity (end 2025). High-risk; pre-revenue; no construction started."
+description: "NuScale Power (NYSE: SMR) VOYGR small modular reactor: 77 MWe per module, NRC-approved standard design (SDA May 2025 uprate). UAMPS project cancelled in 2023; ENTRA1/TVA discussions for up to 6 GW still without a definitive agreement or binding order as of October 2026."
 research_area: "datacenters/behind-meter-power"
 source_urls:
+  - "https://www.nuscalepower.com/press-releases/2026/nuscale-power-reports-first-quarter-2026-results"
+  - "https://247wallst.com/investing/2026/10/20/nuscale-power-sinks-7-to-new-52-week-low-as-barclays-cuts-to-underweight-oklo-falls-5-centrus-energy-drops-3/"
   - "https://www.nuscalepower.com/"
   - "https://www.utilitydive.com/news/nuscale-uamps-terminate-small-modular-nuclear-reactor-smr-project-idaho/699281/"
   - "https://www.powermag.com/nuscale-gets-a-win-with-smrs-for-data-centers-in-ohio-and-pennsylvania/"
   - "https://www.datacenterdynamics.com/en/news/blockchain-firm-standard-power-to-procure-24-small-modular-reactors-from-nuscale-for-two-us-data-center-sites/"
   - "https://ts2.tech/en/nuscale-power-stock-nyse-smr-news-forecasts-and-analysis-on-dec-21-2025-dilution-vote-tva-catalysts-and-analyst-targets/"
-last_reviewed: 2026-04-24
-stale_after_days: 90
+last_reviewed: 2026-10-21
+stale_after_days: 60
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
@@ -27,6 +29,15 @@ Despite being the regulatory leader, NuScale faces severe execution and financia
 **However:** As of April 2026, no NuScale module has broken ground. The stock is down 70%+ from 2025 highs, the company faces class action lawsuits related to the ENTRA1 partnership, and the path to first construction remains uncertain.
 
 **For data center BTM:** NuScale's VOYGR is a **grid-connected** SMR plant (77 MWe modules, 300–900 MWe plant size) — it is not a behind-the-meter product in the traditional sense. Data center operators contracting NuScale power would receive energy through a long-term PPA, not via co-located on-site generation. For true BTM nuclear (reactor physically on or adjacent to the data center campus), Oklo (75 MWe), Kairos (50 MWe), or microreactors (Radiant, eVinci) are better fits.
+
+---
+
+## October 2026 Update
+
+- **TVA / ENTRA1:** per NuScale's Q1 2026 release (2026-05-07), ENTRA1 Energy, NuScale's exclusive global strategic partner, is working with TVA on planning for up to 6 GW of NuScale SMR capacity. As of 2026-10-20 coverage, no definitive agreement is signed and NuScale still has no binding customer order; ENTRA1 is "advancing discussions" toward a power purchase agreement. ([NuScale](https://www.nuscalepower.com/press-releases/2026/nuscale-power-reports-first-quarter-2026-results), [24/7 Wall St.](https://247wallst.com/investing/2026/10/20/nuscale-power-sinks-7-to-new-52-week-low-as-barclays-cuts-to-underweight-oklo-falls-5-centrus-energy-drops-3/))
+- **Financials (Q1 2026):** about $1.0B in cash and investments at 2026-03-31; revenue fell $12.8M year over year, mainly because Q1 2025 included RoPower license revenue and Fluor FEED Phase 2 work that ended in late 2025; no financial guidance. Romania: Nuclearelectrica shareholders approved the next phase of the RoPower project (six modules at Doicesti).
+- **Market reaction (2026-10-20):** Barclays cut NuScale to Underweight with a price target below the last close; the shares set a new 52-week low. The reasoning was not given in the article reviewed. ([24/7 Wall St.](https://247wallst.com/investing/2026/10/20/nuscale-power-sinks-7-to-new-52-week-low-as-barclays-cuts-to-underweight-oklo-falls-5-centrus-energy-drops-3/))
+- **Order-book credibility:** the TVA program is a planning-stage framework, not a binding order.
 
 ---
 

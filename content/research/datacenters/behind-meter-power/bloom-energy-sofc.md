@@ -1,19 +1,21 @@
 ---
 title: "Bloom Energy (NASDAQ: BE)"
 date: 2026-04-21
-lastmod: 2026-04-24
+lastmod: 2026-10-21
 draft: false
 description: "Bloom Energy, San Jose, CA. Public company (NASDAQ: BE). Solid oxide fuel cell (SOFC) developer. Bloom Energy Server 5 (500 kW modules, scalable). Major data center deployments: Apple, Google, Samsung, Equinix (19 facilities, 100+ MW), Oracle (2.8 GW expanded MSA, April 13, 2026; 1.2 GW initial deployed + expanding). Brookfield $5B partnership. AEP 1 GW procurement. Target 2 GW annual production by end 2026. BE stock up 150% YTD (April 2026). Delivered Oracle system in 55 days — record speed."
 research_area: "datacenters/behind-meter-power"
 source_urls:
+  - "https://www.fool.com/investing/2026/10/04/bloom-energy-says-its-fuel-cells-can-save-a-big-ai-data-center-usd3-6-billion-i-d-still-wait-to-buy-the-stock/"
+  - "https://www.fool.com/investing/2026/09/19/bloom-energy-is-riding-the-data-center-boom-to-a-2/"
   - "https://www.bloomenergy.com/"
   - "https://investor.bloomenergy.com/press-releases/press-release-details/2025/Brookfield-and-Bloom-Energy-Announce-5-Billion-Strategic-AI-Infrastructure-Partnership/default.aspx"
   - "https://investor.bloomenergy.com/press-releases/press-release-details/2026/Bloom-Energy-and-Oracle-Expand-Strategic-Partnership-to-Deploy-up-to-2-8-GW-to-Accelerate-AI-Infrastructure-Build-Out/default.aspx"
   - "https://www.utilitydive.com/news/bloom-energy-says-its-on-track-for-2-gw-annual-production-capacity/804291/"
   - "https://www.datacenterdynamics.com/en/news/bloom-energy-signs-5bn-partnership-with-brookfield-to-deploy-fuel-cell-tech-across-ai-data-centers/"
   - "https://fuelcellsworks.com/2026/04/14/fuel-cells/bloom-energy-and-oracle-expand-strategic-partnership-to-deploy-up-to-2-8-gw-to-accelerate-ai-infrastructure-build-out"
-last_reviewed: 2026-04-24
-stale_after_days: 90
+last_reviewed: 2026-10-21
+stale_after_days: 60
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
@@ -42,6 +44,15 @@ On **April 13, 2026**, Bloom Energy and Oracle announced an expanded strategic p
 - [Bloom Energy and Oracle Expand Strategic Partnership (Investor Press Release, April 2026)](https://investor.bloomenergy.com/press-releases/press-release-details/2026/Bloom-Energy-and-Oracle-Expand-Strategic-Partnership-to-Deploy-up-to-2-8-GW-to-Accelerate-AI-Infrastructure-Build-Out/default.aspx)
 - [Bloomberg: Oracle Agrees to Buy Power From Bloom for AI Data Centers (April 13, 2026)](https://www.bloomberg.com/news/articles/2026-04-13/oracle-agrees-to-buy-power-from-bloom-for-ai-data-centers)
 - [Fuel Cells Works analysis](https://fuelcellsworks.com/2026/04/17/energy-innovation/bloom-energy-and-oracle-are-building-the-ai-power-grid-of-the-future-with-fuel-cells-renixx-stock-surges)
+
+---
+
+## October 2026 Update
+
+- **Q2 2026 results:** product revenue of about $935 million, more than three times the year-earlier level; CEO KR Sridhar said every major U.S. hyperscaler and more than a dozen neoclouds, AI labs and colocation operators have validated Bloom's power solutions (company statement, as relayed by Motley Fool). ([Motley Fool, 2026-10-04](https://www.fool.com/investing/2026/10/04/bloom-energy-says-its-fuel-cells-can-save-a-big-ai-data-center-usd3-6-billion-i-d-still-wait-to-buy-the-stock/), [Motley Fool, 2026-09-19](https://www.fool.com/investing/2026/09/19/bloom-energy-is-riding-the-data-center-boom-to-a-2/))
+- **Brookfield:** the September 2026 coverage describes Brookfield expanding its agreement to fund AI-related power infrastructure with a figure of $25 billion; one headline calls this a "$25 billion backlog" while the article body describes financing. The two are not reconciled here; verify against Bloom's investor releases.
+- **Cost model (company claim):** for a hypothetical 1 GW AI data center, Bloom estimates fuel-cell-based power with 800 V DC distribution cuts non-chip construction cost by $3.6 billion (27%) and five-year total cost of ownership by $5.5 billion (9%) versus standard AC; the savings come from power and equipment, not chips, and project economics vary by site.
+- **Next catalyst:** Q3 2026 results were reported as due Thursday 2026-10-22 (not yet available at time of writing).
 
 ---
 

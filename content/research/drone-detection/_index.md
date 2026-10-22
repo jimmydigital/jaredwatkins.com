@@ -70,14 +70,6 @@ content/research/drone-detection/
     rafael-hunter-eagle.md           ← Rafael Hunter Eagle / Ghost Hunter
 ```
 
-### Tags for This Section
-
-- Detection method: `micro-doppler`, `rf-detection`, `acoustic`, `optical`, `thermal`, `multi-sensor-fusion`, `remote-id`
-- Threat type: `fiber-optic-threat`, `rf-dark`, `autonomous-waypoint`, `swarm`
-- Platform: `fixed-site`, `mobile`, `man-portable`, `vehicle-mounted`
-- Application: `critical-infrastructure`, `defense`, `public-safety`
-- Regulatory: `dhs-authorized`, `dod-authorized`, `commercial-legal`
-
 ### Review Cadence
 
 90 days — fast-moving space with regulatory changes and new threat vectors (fiber-optic FPV drone proliferation).

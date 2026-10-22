@@ -1,15 +1,20 @@
 ---
 title: "Solid-State Batteries"
 date: 2026-03-23
-lastmod: 2026-03-23
+lastmod: 2026-10-20
 draft: false
-description: "Overview of solid-state battery technology — replacing liquid electrolytes with solid materials for higher energy density, improved safety, and longer cycle life."
+description: "Overview of solid-state battery technology: pilot-line production at QuantumScape and Solid Power, Factorial's June 2026 Nasdaq listing, and the 2027 and later automotive timelines that remain company targets."
 research_area: "energy/batteries"
 source_urls:
   - "https://www.idtechex.com/en/research-article/solid-state-battery-commercialization-mass-production-taking-off/32942"
   - "https://interactanalysis.com/insight/when-will-solid-state-batteries-enter-commercial-production/"
-  - "https://solartechonline.com/blog/solid-state-batteries-complete-guide/"
-last_reviewed: 2026-03-23
+  - "https://electrek.co/2025/10/08/toyota-aims-to-launch-worlds-first-all-solid-state-ev-batteries/"
+  - "https://www.sec.gov/Archives/edgar/data/0001811414/000119312526312423/qs-ex99_1.htm"
+  - "https://www.nasdaq.com/press-release/solid-power-reports-second-quarter-2026-results-2026-08-04"
+  - "https://electrek.co/2026/06/08/solid-state-ev-battery-maker-joins-nasdaq-after-745-mi-range-test/"
+  - "https://electrek.co/2026/03/23/donut-lab-solid-state-battery-5-tests-no-energy-density-cycle-life/"
+  - "https://www.press.bmwgroup.com/usa/article/detail/T0453702EN_US/bmw-group-and-solid-power-take-next-step-in-assb-development-path:-new-partner-samsung-sdi-joins-the-effort"
+last_reviewed: 2026-10-20
 stale_after_days: 90
 ---
 
@@ -17,65 +22,82 @@ stale_after_days: 90
 
 ## Summary
 
-Solid-state batteries replace the liquid or gel electrolyte in conventional lithium-ion cells with a solid material, enabling higher energy density, improved thermal safety, and longer cycle life. As of early 2026, the technology is transitioning from advanced prototype to early commercial production, with mass automotive deployment projected from 2027–2028 for leading incumbents.
+Solid-state batteries replace the liquid or gel electrolyte in conventional lithium-ion cells with a solid material, aiming at higher energy density, better thermal safety and longer cycle life. As of October 2026 the technology is moving from advanced prototypes to pilot-scale production: QuantumScape is ramping a pilot line and shipping samples to automakers, Solid Power is installing a continuous electrolyte pilot line, and Factorial Energy went public in June 2026. Automotive mass-production dates remain company announcements, generally 2027 or later, and the term "solid-state" in announcements often includes semi-solid cells.
 
 ## Key Facts
 
-- **Key difference from Li-ion:** Solid electrolyte instead of liquid/gel; enables use of lithium metal anode
-- **Energy density advantage:** Leading cells demonstrate 300–500 Wh/kg vs. ~250–280 Wh/kg for best lithium-ion
-- **Market size:** ~USD 1.6 billion in 2025; projected USD 27.7 billion by 2035 (CAGR ~38%)
-- **Status:** Early commercial production (niche/EV motorcycle), automotive mass production 2027–2030
-- **Main electrolyte approaches:** Oxide (LLZO), sulfide, polymer — each with distinct tradeoffs
+- **Key difference from Li-ion:** a solid electrolyte instead of liquid or gel, which makes a lithium metal anode practical
+- **Energy density:** company-reported cell figures vary by platform and by whether the cell is semi-solid or all-solid-state; see the individual entries for [QuantumScape]({{< relref "quantumscape.md" >}}), [Factorial Energy]({{< relref "factorial-energy.md" >}}) and [Donut Lab]({{< relref "donut-lab.md" >}}) rather than a single range
+- **Commercial status:** pilot-line production and sample shipments; vehicle programs targeting 2027 and later; no independently confirmed automotive-scale production as of this review
+- **Stated timelines:** Toyota aims to launch its first all-solid-state battery EV in 2027 or 2028 ([Electrek](https://electrek.co/2025/10/08/toyota-aims-to-launch-worlds-first-all-solid-state-ev-batteries/)); Samsung SDI targets mass production of all-solid-state batteries by 2027 from its Suwon "S-Line" pilot line ([IDTechEx](https://www.idtechex.com/en/research-article/solid-state-battery-commercialization-mass-production-taking-off/32942)); Hyundai plans partial mass production by 2027 and full-scale operations by 2030 ([IDTechEx](https://www.idtechex.com/en/research-article/solid-state-battery-commercialization-mass-production-taking-off/32942)); BYD and CATL plan small-scale production around 2027 ([Interact Analysis](https://interactanalysis.com/insight/when-will-solid-state-batteries-enter-commercial-production/))
+- **Main electrolyte approaches:** oxide (e.g., LLZO), sulfide and polymer, each with distinct trade-offs
 
 ## What It Is / How It Works
 
-In a conventional lithium-ion battery, lithium ions move between electrodes through a liquid electrolyte. That liquid is flammable, degrades over cycles, and limits the battery to a graphite anode (lithium metal would react violently with the liquid). Solid-state batteries swap the liquid for a solid ionic conductor, which eliminates the flammability risk, allows a lithium metal anode (roughly 10× the theoretical capacity of graphite), and enables higher cell voltages.
+In a conventional lithium-ion battery, lithium ions move between electrodes through a liquid electrolyte. That liquid is flammable, degrades over cycles, and effectively limits the cell to a graphite anode, because lithium metal reacts badly with the liquid. Solid-state cells swap the liquid for a solid ionic conductor, which removes the flammability risk, allows a lithium metal anode (roughly 10 times the theoretical capacity of graphite) and enables higher cell voltages.
 
-**Oxide electrolytes** (e.g., LLZO — lithium lanthanum zirconium oxide) are chemically stable and have high electrochemical windows, but are brittle, hard to manufacture in thin layers, and exhibit high interface resistance with electrodes. Toyota and several academic groups work extensively in this space.
+**Oxide electrolytes** (e.g., LLZO) are chemically stable with wide electrochemical windows, but are brittle, hard to make in thin layers and have high interface resistance. Toyota and several academic groups work extensively in this area.
 
-**Sulfide electrolytes** have ionic conductivity close to liquid electrolytes, making them the most performance-competitive. They are more processable than oxides but react with moisture and air, complicating manufacturing. QuantumScape and Samsung SDI are among the companies pursuing sulfide-based cells.
+**Sulfide electrolytes** have ionic conductivity close to liquid electrolytes and are the most performance-competitive, but they react with moisture and air, which complicates manufacturing. [Solid Power]({{< relref "solid-power.md" >}}) and [Idemitsu Kosan]({{< relref "idemitsu-solid-state.md" >}}) are sulfide-route developers, and the lithium sulfide precursor is a supply bottleneck; see [Sulfur]({{< relref "../resources/sulfur.md" >}}).
 
-**Polymer electrolytes** are mechanically flexible and easier to process but require elevated operating temperatures and have lower ionic conductivity. They are the most commercially mature but offer less dramatic performance gains than oxide or sulfide.
+**Polymer electrolytes** are flexible and easier to process but typically need elevated operating temperatures and have lower ionic conductivity. They are the most commercially mature but offer less dramatic performance gains.
 
-The key remaining challenges are: achieving low interface resistance between the solid electrolyte and electrodes (especially at the anode); manufacturing solid electrolyte layers thin and uniform enough at scale; and managing the volume changes in lithium metal anodes during cycling, which can crack solid electrolytes and degrade performance.
+The key open challenges are low interface resistance between the solid electrolyte and the electrodes (especially at the anode), thin and uniform solid electrolyte layers at scale, and managing lithium metal volume change during cycling, which can crack solid electrolytes. Timelines are also affected by upstream inputs, notably [lithium]({{< relref "../resources/lithium.md" >}}) metal, sulfur-derived Li₂S, and cathode materials from suppliers such as [POSCO Future M]({{< relref "../resources/posco-future-m.md" >}}).
 
 ## Notable Developments
 
-- **2026-03:** Donut Lab demonstrates 18 kWh solid-state pack at 100 kW (5C) in a Verge TS Pro; VTT confirms thermal and fast-charge performance. Energy density and cycle-life claims remain unverified. ([Electrek](https://electrek.co/2026/03/16/donut-lab-solid-state-battery-pack-test-verge-motorcycles/))
-- **2026-03:** Factorial Energy expands into drones and robotics markets via IQT and POSCO Future M partnerships. ([BusinessWire](https://www.businesswire.com/news/home/20260310039385/en/Factorial-Drives-Solid-State-Battery-Expansion-to-Drones-and-Robotics-with-IQT-and-Strategic-Partners))
-- **2026-02:** Karma Automotive validates Factorial Energy FEST® cells for the upcoming Kaveya EV. ([Electrive](https://www.electrive.com/2026/02/16/karma-automotive-validates-solid-state-battery-cells-from-factorial/))
-- **2026-01:** Donut Lab claims first production-vehicle deployment at CES; industry skepticism over unverified headline specs.
-- **2025:** Factorial Energy validates 77 Ah FEST® cells at 375 Wh/kg with Stellantis; 15–90% charge in 18 minutes confirmed. Compatible with ~80% of existing Li-ion manufacturing equipment. ([Stellantis](https://www.stellantis.com/en/news/press-releases/2025/april/stellantis-and-factorial-energy-reach-key-milestone-in-solid-state-battery-development))
-- **2025:** QuantumScape ships QSE-5 B-samples; cell density verified at 844 Wh/L and 301 Wh/kg; signs manufacturing collaboration with Murata Manufacturing for ceramic separator scale-up.
-- **2025:** Solid Power integrates large-format cells into BMW i7 test vehicles.
-- **2025:** Idemitsu Kosan announces ¥21.3 billion lithium sulfide plant for Toyota's solid-state supply chain.
+- **2026-08-04:** Solid Power reports Q2 2026: SK On line installation agreement complete, Joint Evaluation Agreement with Samsung SDI and BMW advancing, pilot line startup planned Q4 2026, liquidity $419.3 million. ([Nasdaq](https://www.nasdaq.com/press-release/solid-power-reports-second-quarter-2026-results-2026-08-04))
+- **2026-07:** QuantumScape's Q2 shareholder letter reports Eagle Line core tool uptime above 90%, plans to double cell output again in H2 2026, an updated PowerCo arrangement, and liquidity of $859.0 million. ([SEC](https://www.sec.gov/Archives/edgar/data/0001811414/000119312526312423/qs-ex99_1.htm))
+- **2026-06-18:** Honda announces a multi-year agreement with QuantumScape on solid-state lithium-metal batteries. ([SEC](https://www.sec.gov/Archives/edgar/data/0001811414/000119312526312423/qs-ex99_1.htm))
+- **2026-06-08:** Factorial Energy begins trading on Nasdaq (FAC) after a merger with SPAC Cartesian Growth Corp III, valued at about $1.3 billion with about $110 million in gross proceeds. ([Electrek](https://electrek.co/2026/06/08/solid-state-ev-battery-maker-joins-nasdaq-after-745-mi-range-test/))
+- **2026-03-23:** Donut Lab's fifth VTT test report released; none of the five tests measured the claimed 400 Wh/kg energy density or 100,000-cycle life. ([Electrek](https://electrek.co/2026/03/23/donut-lab-solid-state-battery-5-tests-no-energy-density-cycle-life/))
+- **2025-10-31:** Samsung SDI joins the BMW and Solid Power all-solid-state effort. ([BMW Group Press](https://www.press.bmwgroup.com/usa/article/detail/T0453702EN_US/bmw-group-and-solid-power-take-next-step-in-assb-development-path:-new-partner-samsung-sdi-joins-the-effort))
+- **2025-10:** Toyota, Sumitomo Metal Mining and Idemitsu detail their path to the first all-solid-state battery EV in 2027 or 2028, including a planned 1,000 t per year lithium sulfide plant. ([Electrek](https://electrek.co/2025/10/08/toyota-aims-to-launch-worlds-first-all-solid-state-ev-batteries/))
 
 ## Key Organizations
 
-**Startups & development partners — primary focus:**
+**Startups and development partners (primary focus):**
 
-- **Factorial Energy** (Cambridge, MA) — Semi-solid FEST® platform; 375 Wh/kg validated; multi-OEM JDAs; expanding into drones and robotics. See dedicated entry. 
-- **Donut Lab** (Estonia) — Production-vehicle deployment in Verge Motorcycles; fast-charge and thermal claims verified; energy density and cycle-life claims unverified. See dedicated entry.
-- **ProLogium Technology** (Taiwan) — Oxide-based solid-state; gigafactory in Dunkirk, France planned for 2028; Mitsubishi Chemical Group partner. 
-- **Adden Energy** (Cambridge, MA) — Harvard spinout; thin-film solid-state cells; sub-3-minute charge at cell level; $20M raised. 
-- **Lyten** (San Jose, CA) — Lithium-sulfur with 3D graphene; claims 3× energy density vs Li-ion; $367M+ raised. 
-- **Idemitsu Kosan** (Japan) — Oil company pivoting to lithium sulfide electrolyte production; Toyota's primary solid-state materials supplier. 
+- **Factorial Energy** (Nasdaq: FAC) — FEST® semi-solid platform and Solstice™ all-solid-state platform; multi-OEM joint development agreements; listed June 2026. See [dedicated entry]({{< relref "factorial-energy.md" >}}).
+- **Donut Lab** — claims production-vehicle deployment through Verge Motorcycles; thermal and fast-charge tests published via VTT, energy density and cycle life unverified. See [dedicated entry]({{< relref "donut-lab.md" >}}).
+- **ProLogium** — oxide-based solid-state developer. See [dedicated entry]({{< relref "prologium.md" >}}).
+- **Adden Energy** — Harvard spinout developing thin-film solid-state cells. See [dedicated entry]({{< relref "adden-energy.md" >}}).
+- **Lyten** — lithium-sulfur with 3D graphene, adjacent to solid-state. See [dedicated entry]({{< relref "lyten.md" >}}).
+- **Idemitsu Kosan** — lithium sulfide and sulfide electrolyte supplier tied to Toyota. See [dedicated entry]({{< relref "idemitsu-solid-state.md" >}}).
 
 **Public pure-plays:**
 
-- **QuantumScape** (San Jose, CA, NYSE: QS) — Sulfide-based solid-state; backed by Volkswagen; manufacturing partnership with Murata. 
-- **Solid Power** (Louisville, CO, NASDAQ: SLDP) — Roll-to-roll all-solid-state production; BMW validation partner. 
+- **QuantumScape** (NYSE: QS) — see [dedicated entry]({{< relref "quantumscape.md" >}}).
+- **Solid Power** (NASDAQ: SLDP) — electrolyte supplier model; see [dedicated entry]({{< relref "solid-power.md" >}}).
 
 **Incumbents (context only):**
 
-- **Toyota** — Largest patent holder; mass production target 2027–2028; signals when technology reaches mainstream automotive.
-- **Samsung SDI** — S-Line pilot; 500 Wh/kg target; 2027 mass production goal.
-- **CATL** (China) — Largest EV battery maker; solid-state target ~2027; treat claims with additional skepticism.
-- **Panasonic** — Tier-1 Li-ion incumbent; solid-state R&D ongoing; no firm timeline as of early 2026.
+- **Toyota** — targets first all-solid-state BEV in 2027 or 2028.
+- **Samsung SDI** — S-Line pilot line in Suwon; stated 2027 mass-production goal.
+- **CATL** 🇨🇳 and **BYD** 🇨🇳 — small-scale production planned around 2027 per Interact Analysis; treat company-issued claims with additional skepticism.
+
+## Claim Verification
+
+### Claim: All-solid-state batteries will reach automotive mass production in 2027–2028
+**Status:** Unverified
+
+**Supporting sources:**
+- [Electrek](https://electrek.co/2025/10/08/toyota-aims-to-launch-worlds-first-all-solid-state-ev-batteries/) — Toyota states a 2027 or 2028 launch target and has METI certification to manufacture the batteries in Japan
+- [IDTechEx](https://www.idtechex.com/en/research-article/solid-state-battery-commercialization-mass-production-taking-off/32942) — Samsung SDI and Hyundai state 2027 targets
+
+**Refuting / questioning sources:**
+- [Electrek](https://electrek.co/2025/10/08/toyota-aims-to-launch-worlds-first-all-solid-state-ev-batteries/) — notes Toyota has promised this technology for years and that Mercedes-Benz has already claimed a first on-road car with a lithium-metal solid-state battery
+- [Interact Analysis](https://interactanalysis.com/insight/when-will-solid-state-batteries-enter-commercial-production/) — timelines are company announcements rather than confirmed schedules, and "solid-state" announcements include semi-solid cells
+
+**Summary:** The 2027–2028 dates are stated targets without independently confirmed production; pilot-line progress at QuantumScape and Solid Power is real but sub-commercial.
 
 ## Sources
 
 - [Solid-State Battery Commercialization: Mass Production Taking Off — IDTechEx](https://www.idtechex.com/en/research-article/solid-state-battery-commercialization-mass-production-taking-off/32942)
 - [When Will Solid-State Batteries Enter Commercial Production? — Interact Analysis](https://interactanalysis.com/insight/when-will-solid-state-batteries-enter-commercial-production/)
-- [Solid State Batteries: Complete Guide — Solar Tech Online](https://solartechonline.com/blog/solid-state-batteries-complete-guide/)
-- [Donut Lab shows solid-state battery pack charging at 100 kW — Electrek](https://electrek.co/2026/03/16/donut-lab-solid-state-battery-pack-test-verge-motorcycles/)
+- [Toyota aims to launch world's first all-solid-state EV batteries — Electrek (Oct 2025)](https://electrek.co/2025/10/08/toyota-aims-to-launch-worlds-first-all-solid-state-ev-batteries/)
+- [QuantumScape Q2 2026 shareholder letter — SEC](https://www.sec.gov/Archives/edgar/data/0001811414/000119312526312423/qs-ex99_1.htm)
+- [Solid Power Reports Second Quarter 2026 Results — Nasdaq](https://www.nasdaq.com/press-release/solid-power-reports-second-quarter-2026-results-2026-08-04)
+- [Solid-state EV battery maker joins Nasdaq — Electrek (Jun 2026)](https://electrek.co/2026/06/08/solid-state-ev-battery-maker-joins-nasdaq-after-745-mi-range-test/)
+- [Donut Lab: 5 independent tests in, still no energy density or cycle life data — Electrek (Mar 2026)](https://electrek.co/2026/03/23/donut-lab-solid-state-battery-5-tests-no-energy-density-cycle-life/)
+- [BMW and Solid Power: New Partner Samsung SDI Joins — BMW Group Press (Oct 2025)](https://www.press.bmwgroup.com/usa/article/detail/T0453702EN_US/bmw-group-and-solid-power-take-next-step-in-assb-development-path:-new-partner-samsung-sdi-joins-the-effort)

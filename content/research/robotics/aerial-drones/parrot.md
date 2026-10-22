@@ -1,17 +1,22 @@
 ---
 title: "Parrot SA"
 date: 2026-03-24
-lastmod: 2026-03-24
+lastmod: 2026-10-20
 draft: false
-description: "Paris-headquartered micro-UAV OEM; ANAFI USA assembled in Massachusetts (Blue UAS cleared, NDAA-compliant); ANAFI UKR (2025) with tactical EW resilience, optical navigation, offline autonomy; €79.8M revenue (2025), operating losses; NATO NSPA contracts with Finnish Defence Forces (Q1 2026 shipments); SEALSQ post-quantum cryptography partnership (March 2026); Euronext Paris (PARRO)."
+description: "Paris-based micro-UAV OEM (Euronext Paris: PARRO). H1 2026 revenue a record €57.3M (+71%), micro-drones €42.1M (+134%) on ANAFI UKR, operating breakeven excluding a €2.5M insurance gain; ~$2M of ANAFI UKR orders via the U.S. Army UAS Marketplace and one of five makers advanced in the Army SRR program (Oct 2026). Blue UAS status is reported inconsistently across sources."
 research_area: "robotics/aerial-drones"
 source_urls:
+  - "https://www.suasnews.com/2026/10/parrot-strengthens-its-position-in-u-s-army-drone-procurement-programs/"
+  - "https://www.parrot.com/en/newsroom/parrot-anafi-ukr-blue-uas-nato-ndaa-taa-compliant"
+  - "https://fr.investing.com/news/global-filings/parrot-affiche-un-chiffre-daffaires-record-de-573-m-au-s1-2026-en-hausse-de-71-93CH-3530464"
+  - "https://www.jaimelesstartups.fr/news/parrot-signe-un-premier-semestre-2026-record-grace-a-lessor-des-micro-drones-professionnels/"
+  - "https://www.boursorama.com/bourse/actualites/parrot-parrot-resultats-du-1er-semestre-2026-969c5c4d45c92a5f04819d6144debd91"
   - "https://www.parrot.com/en/"
   - "https://www.parrot.com/en/drones/anafi-usa/"
   - "https://www.parrot.com/en/drones/anafi-ai/"
   - "https://www.parrot.com/en/newsroom/first-nato-support-and-procurement-agency-nspa-call-orders-placed-parrot-anafi-ukr"
   - "https://finance.yahoo.com/quote/PARRO.PA"
-last_reviewed: 2026-03-24
+last_reviewed: 2026-10-20
 stale_after_days: 90
 related:
   - "robotics/aerial-drones/_index.md"
@@ -24,7 +29,7 @@ related:
 
 ## Summary
 
-Parrot SA (Euronext Paris: PARRO) is a Paris-headquartered micro-unmanned aerial vehicle (micro-UAV) original equipment manufacturer (OEM) serving commercial, government, and defense markets. The company is the manufacturer of two primary platforms: the ANAFI USA (Blue UAS-cleared small tactical reconnaissance system assembled in Massachusetts, NDAA-compliant) and the ANAFI Ai (first off-the-shelf 4G robotic UAV with 48 MP autonomous photogrammetry). In 2025, Parrot launched the ANAFI UKR — a tactical micro-UAV designed specifically for GNSS-denied, electronic warfare (EW) environments with embedded AI navigation, full offline autonomy, and anti-spoofing military radio (MARS). The company reported €79.8 million in consolidated revenues for full-year 2025 (up 6% at constant exchange rates), with the micro-UAV segment contributing approximately €47.9 million (defense-driven). Parrot remains unprofitable, with consolidated EBIT of -€13.1M in H1 2025, but is reducing losses year-over-year. In March 2026, Parrot announced the first NATO Support and Procurement Agency (NSPA) call-off orders for ANAFI UKR systems, with initial shipments to Finnish Defence Forces and a second NSPA-eligible customer commencing in Q1 2026. Henri Seydoux has been founder and sole CEO since 1994.
+Parrot SA (Euronext Paris: PARRO) is a Paris-headquartered micro-UAV **Platform OEM** serving defense, public-safety and commercial customers, with a software unit (Pix4D) for photogrammetry and critical-infrastructure workflows. Its main platforms are the ANAFI USA (assembled in Massachusetts), the ANAFI Ai (4G robotic UAV) and the ANAFI UKR (introduced June 2025, aimed at GNSS-denied and electronic-warfare environments). Parrot reported record H1 2026 revenue of €57.3M (+71%), with micro-drones at €42.1M (+134%), a current operating result of +€2.6M (including a €2.5M non-recurring insurance gain) and net income of €2.1M, versus a net loss of €14.4M a year earlier ([Investing.com](https://fr.investing.com/news/global-filings/parrot-affiche-un-chiffre-daffaires-record-de-573-m-au-s1-2026-en-hausse-de-71-93CH-3530464)). On 2026-10-12 Parrot said it had nearly $2M of ANAFI UKR orders through the U.S. Army UAS Marketplace and was one of five manufacturers advanced to the manufacturing readiness phase of the Army's Short Range Reconnaissance (SRR) program ([sUAS News](https://www.suasnews.com/2026/10/parrot-strengthens-its-position-in-u-s-army-drone-procurement-programs/)). **Blue UAS status is inconsistently reported:** DroneXL reported Parrot among eight vendors removed from the list in March 2025, FrenchWeb reported a new-generation ANAFI added in May 2025, and Parrot's own page describes the ANAFI UKR as "Blue UAS compliant" without stating list membership. Henri Seydoux has been founder and CEO since 1994.
 
 ## Key Facts
 
@@ -36,17 +41,19 @@ Parrot SA (Euronext Paris: PARRO) is a Paris-headquartered micro-unmanned aerial
   - ANAFI USA (Blue UAS; NDAA-compliant; 32-min flight time; tri-sensor: 2× 32× zoom 21 MP optical + 320×256 px FLIR thermal; IP53; 3400 mAh LiPo; assembled in Massachusetts via NEOTech)
   - ANAFI Ai (4G LTE robotic UAV; 48 MP main camera + dual stereoscopic obstacle detection; IPX3; unlimited range via 4G; P-Log & HDR10 4K @ 30fps)
   - ANAFI UKR (2025; <1 kg; 38-min standard battery / 50-min XLR extended-range battery; 40 km max range with XLR; 35× zoom daylight camera + 640×512 px thermal; EW resilience; optical navigation + AI + offline autonomy; anti-spoofing MARS frequency-hopping military radio; GNSS-denied operation; NATO NSPA-cleared)
-- **Revenue (2025):** €79.8M consolidated (+6% at constant exchange rates)
-  - Micro-UAV segment: €47.9M (defense-driven)
-  - Pix4D (photogrammetry software): €31.8M / €33.3M at constant rates (+11% at constant rates)
-- **Profitability:** Operating loss -€13.1M (H1 2025); net income -€9.23M (FY 2024); company is in active investment/development phase; gross margin 74.1% (FY 2024)
+- **Revenue (H1 2026):** €57.3M (+71%); micro-drones €42.1M (+134%, Q2 alone €20.8M); critical-infrastructure solutions including Pix4D €15.1M (-3% at current rates, stable at constant rates)
+- **Profitability (H1 2026):** current operating result +€2.6M (includes €2.5M non-recurring insurance gain; breakeven excluding it, per the company); net income (group share) +€2.1M vs -€14.4M; gross margin 71.2% vs 74.8% (ANAFI UKR ramp-up mix); operating cash burn €2.2M vs €13.7M
+- **Cash and financing (2026-06-30):** €18.8M cash (€23.0M at end-2025); shareholder Horizon SAS current-account facility up to €20M available to end-February 2028, undrawn in H1
+- **Headcount:** 469 at 2026-06-30 (about 59% micro-drones, 41% critical-infrastructure solutions)
+- **Guidance:** double-digit revenue growth expected in Q3 2026; management cautions on a much higher comparison base in Q4 and a temporary rise in working capital in H2 ([Boursorama / JAimeLesStartups](https://www.jaimelesstartups.fr/news/parrot-signe-un-premier-semestre-2026-record-grace-a-lessor-des-micro-drones-professionnels/))
+- **FY2025:** the company reported record 2025 revenue and a continued loss (27-30 March 2026 releases); the €79.8M figure carried in the previous review was not re-verified against the primary release in this pass
 - **Manufacturing:** Paris HQ; Massachusetts assembly (ANAFI USA via NEOTech partner); South Korea manufacturing footprint
 - **Data sovereignty:** GDPR-compliant; European-hosted cloud servers; user-controlled data; zero unencrypted data sharing without consent; 1-click data deletion (ANAFI Ai)
 - **Encryption:** ANAFI USA: AES-XTS 512-bit (SD card); ANAFI UKR: AES-256 + secure boot + FIPS140-2/CC EAL5+ certified Secure Elements; WPA2 Wi-Fi authentication
 - **Post-quantum security:** Partnership with SEALSQ Corp (March 2026) to integrate NIST-standard PQC (CRYSTALS-Kyber, CRYSTALS-Dilithium) into next-generation platforms
-- **Blue UAS status:** ANAFI USA on GSA schedule (effective Sep 2020); Authority to Operate (ATO) achieved post-cybersecurity validation; ANAFI UKR marketed as Blue UAS / NDAA-compliant successor
+- **Blue UAS status:** inconsistent across sources (see Claim Verification); ANAFI USA was added to the GSA schedule in September 2020 per earlier sources
 - **NATO contracts:** ANAFI UKR call-off orders via NSPA (March 2026) — Finnish Defence Forces + one additional NSPA-eligible customer; initial tranches 100–500 units Q1 2026, scaling to thousands
-- **Recent major contracts:** €100M+ multi-year agreement with French DGA (Defense procurement); November 2025 multi-year contract from European Defence Force for ANAFI UKR tactical systems
+- **Contracts (company-reported):** NSPA call-off orders for ANAFI UKR (March 2026); French DGA and other European defence orders previously cited (the "€100M+" DGA figure was not re-verified); about $2M of ANAFI UKR orders via the U.S. Army UAS Marketplace (October 2026)
 - **Distribution expansion:** Five new partners (2025) — Allies Incorporated, Panna Plus, Pramacom-HT, MarcTel, Advance Homeland Defense Incorporated — for Central/Eastern Europe and Southeast Asia defense/public safety markets
 
 ## What It Is / How It Works
@@ -80,6 +87,11 @@ The ANAFI UKR is positioned as an evolved successor to ANAFI USA for NATO and al
 
 ## Notable Developments
 
+- **2026-10-12:** Parrot announced nearly $2M in ANAFI UKR orders via the U.S. Army UAS Marketplace (launched March 2026; Parrot went live in Q3 2026 after Army qualification including cybersecurity assessments) and selection with four U.S. companies for the SRR manufacturing readiness assessment after June 2026 flight trials; Parrot has participated in SRR since 2019. ([sUAS News](https://www.suasnews.com/2026/10/parrot-strengthens-its-position-in-u-s-army-drone-procurement-programs/))
+- **2026-08-27:** Parrot's ANAFI UKR page describes the drone as Blue UAS, NDAA, TAA and NATO stock number compliant (company claim; no supporting certification shown). ([Parrot](https://www.parrot.com/en/newsroom/parrot-anafi-ukr-blue-uas-nato-ndaa-taa-compliant))
+- **2026-07-31:** H1 2026 results: record €57.3M revenue (+71%); first net profit in the period compared (€2.1M); ANAFI UKR XLR battery cited at up to 70 minutes and 40 km (company figures); CHUCK 3.0 autopilot moving toward certification. ([Investing.com](https://fr.investing.com/news/global-filings/parrot-affiche-un-chiffre-daffaires-record-de-573-m-au-s1-2026-en-hausse-de-71-93CH-3530464), [AbcBourse](https://www.abcbourse.com/marches/newsContent/700856))
+- **2026-05-20:** Q1 2026 revenue release (a record quarter for micro-drones per the title of the release). ([WebDisclosure](https://www.webdisclosure.fr/press-release/parrot-epa-parro-activite-du-1er-trimestre-2026-un-nouveau-trimestre-record-pour-les-micro-drones-OBLtfhf2MXw))
+- **2026-03-27:** FY2025 results release: record revenue, still loss-making. ([Boursorama](https://www.boursorama.com/bourse/actualites/parrot-parrot-resultats-annuels-2025-5eb024410bacd3cba20239431b7938fb))
 - **2026-03 (March 17):** First NATO Support and Procurement Agency (NSPA) call-off orders announced for ANAFI UKR micro-UAV systems; initial orders from Finnish Defence Forces and one additional NSPA-eligible customer; shipments underway Q1 2026 in tranches of 100–500 units, scaling to thousands. ([sUAS News](https://www.suasnews.com/2026/03/first-nato-support-and-procurement-agency-nspa-call-off-orders-placed-for-parrot-anafi-ukr-micro-uav-systems/), [EDR Magazine](https://www.edrmagazine.eu/first-nato-support-and-procurement-agency-nspa-call-off-orders-placed-for-parrot-anafi-ukr-micro-uav-systems/), [Parrot Newsroom](https://www.parrot.com/en/newsroom/first-nato-support-and-procurement-agency-nspa-call-orders-placed-parrot-anafi-ukr))
 - **2026-03 (March 13):** Strategic partnership expansion with SEALSQ Corp to integrate Post-Quantum Cryptography (PQC) into next-generation Parrot drones; NIST-standard PQC (CRYSTALS-Kyber, CRYSTALS-Dilithium) targeting FIPS-compliant and Common Criteria EAL5+ Secure Elements. ([The Quantum Insider](https://thequantuminsider.com/2026/03/13/sealsq-parrot-post-quantum-cryptography-secure-drones/), [Quiver Quantitative](https://www.quiverquant.com/news/Parrot+SA+and+SEALSQ+Corp+Expand+Collaboration+to+Integrate+Post-Quantum+Cryptography+into+Next-Generation+Drones))
 - **2026 (Q1):** ANAFI UKR NATO NSPA shipments commence
@@ -97,13 +109,13 @@ The ANAFI UKR is positioned as an evolved successor to ANAFI USA for NATO and al
 ## Key People
 
 ### Henri Seydoux — Founder, Chairman, and CEO
-- **Role:** Founded Parrot in 1994; sole CEO throughout company history; serves as Chairman and CEO to present (2026-03)
+- **Role:** Founded Parrot in 1994; sole CEO throughout company history; serves as Chairman and CEO to present (as of the previous review, 2026-03; verify current status)
 - **Background:** Self-taught entrepreneur (no formal university credentials disclosed); career began 1978 as trainee and journalist for magazine *Actuel*; 1981 sales role at Matin de Paris newspaper; 1982–1984 software developer (Microarchi); 1986–1990 founded and led BSCA (3D computer graphics rendering firm); 1991 co-founded Christian Louboutin luxury footwear company (alongside three partners); 1994–present Parrot SA
 - **LinkedIn:** [linkedin.com/in/henri-seydoux-343033a0](https://www.linkedin.com/in/henri-seydoux-343033a0) (multiple profiles with similar names; verify via Parrot official corporate directory)
 - **Business philosophy:** Characterized as visionary entrepreneur with focus on bringing innovative robotics/drone technology to mainstream commercial and government adoption; known for long-term product vision and brand building across consumer, commercial, and defense segments
 - **Notes:** Seydoux is Parrot's only CEO in its 32-year history; this continuity of leadership is rare in the robotics/defense sector and reflects consistent strategic vision, but also concentrates execution risk in a single individual
 
-### Leadership Team — Last Reviewed: 2026-03-24
+### People — Last Reviewed: 2026-10-20
 
 Parrot's management structure includes additional officers responsible for operations, finance, and engineering; detailed org chart is available via Parrot's [Corporate Governance](https://www.parrot.com/en/corporate/corporate-governance-key-managers) pages. For this profile, Henri Seydoux is the primary named executive given his unique founding and CEO-throughout-history role.
 
@@ -186,7 +198,7 @@ None identified; claim is consistent across all sources
 **Refuting/questioning sources:**
 - [Blue UAS Refresh List, Framework Platforms and Capabilities Selected](https://www.diu.mil/latest/blue-uas-refresh-list-and-framework-platforms-and-capabilities-selected) — March 2025 Blue UAS list refresh: **Eight vendors were removed from the Cleared List, including Parrot.** ([Blue Unmanned Aircraft Systems for First Responders Market Survey Report](https://www.dhs.gov/sites/default/files/2025-02/25_0210_st_nustl_saver_blue_uas_market_survey.pdf))
 
-**Summary:** ANAFI USA was on the original Blue UAS Cleared List (2020) and achieved DoD ATO certification. However, as of March 2025, Parrot was removed from the Blue UAS Cleared List in a dramatic list refresh that also removed Inspired Flight, Ascent AeroSystems Spirit, and Vantage. The reasons for removal were not disclosed in public statements. This is a material regulatory setback for the ANAFI USA in the U.S. government market. ANAFI UKR is being marketed as "Blue UAS-compliant" or "Blue UAS / NDAA-compliant" hardware, but as of March 2026 there is **no published confirmation that ANAFI UKR has been added to the refreshed Blue UAS Cleared List.** The removal creates uncertainty for federal agencies with existing ANAFI USA procurement, though the platform remains legal to operate under general NDAA guidelines. Parrot has not published a statement addressing the March 2025 removal.
+**Summary:** Sources conflict and the matter is unresolved. The ANAFI USA was on the original Blue UAS list (2020). DroneXL (2025-03-06) reported Parrot among eight vendors removed in March 2025 (cause not stated); FrenchWeb (2025-05-15) reported a new-generation ANAFI added to the cleared list; Parrot (2026-08-27) calls the ANAFI UKR "Blue UAS compliant". Verify current list membership on the DIU Blue UAS list before relying on any of these.
 
 ---
 
@@ -232,7 +244,7 @@ None identified; no published independent validation of EW performance (would re
 ---
 
 ### Claim: 2025 revenue €79.8M (+6% at constant exchange rates); 2024 revenue €78.1M (+20%)
-**Status:** Verified from official financial publications
+**Status:** Partially verified (third-party report; primary FY2025 release not re-fetched in the October 2026 review)
 **Supporting sources:**
 - [PARROT Q4 and Full-Year 2025 Earnings: Revenue Hits €79.8M](https://bayelsawatch.com/parrot-q4-and-full-year-2025-earnings/) — Q4 2025 €29.2M (+15% constant); FY 2025 €79.8M (+6% constant)
 - [PARROT: 2024 FULL-YEAR EARNINGS](https://www.actusnews.com/en/parrot/pr/2025/03/21/parrot-2024-full-year-earnings) — FY 2024 €78.1M (+20%)
@@ -245,16 +257,16 @@ None identified; figures are consistent across official filings
 
 ---
 
-### Claim: Parrot remains unprofitable; H1 2025 EBIT -€13.1M vs. -€9.9M H1 2024; FY 2024 net income -€9.23M
-**Status:** Verified from official financial publications
+### Claim: Parrot remains unprofitable
+**Status:** Superseded by H1 2026 results
+
 **Supporting sources:**
-- [2025 FIRST-HALF EARNINGS - Parrot](https://www.parrot.com/assets/s3fs-public/media-public/PARROT_CP_S1-2025_20250801_EN_DEF.pdf) — H1 2025 EBIT -€13.1M (after €200k non-recurring costs); H1 2024 EBIT -€9.9M
-- [2024 FULL-YEAR EARNINGS page 1 PRESS RELEASE March 21, 2025](https://www.parrot.com/assets/s3fs-public/media-public/PARROT_CP_FY-2024_20250321_EN.pdf) — FY 2024 net income -€9.23M
+- [Investing.com — H1 2026 results](https://fr.investing.com/news/global-filings/parrot-affiche-un-chiffre-daffaires-record-de-573-m-au-s1-2026-en-hausse-de-71-93CH-3530464) — current operating result +€2.6M including a €2.5M insurance gain; net income +€2.1M versus -€14.4M in H1 2025
+- [Boursorama — FY2025 results summary](https://www.boursorama.com/bourse/actualites/parrot-parrot-resultats-annuels-2025-5eb024410bacd3cba20239431b7938fb) — FY2025 described as record revenue, still loss-making
 
-**Refuting/questioning sources:**
-None identified; losses are audited and disclosed
+**Refuting / questioning sources:** The H1 profit depends on a non-recurring insurance gain; excluding it the company reports breakeven.
 
-**Summary:** Parrot remains in an investment/development phase with operating losses. However, gross margin is strong (74.1% FY 2024), indicating healthy underlying business unit margins masked by operating expenses (R&D, sales, admin). The company is on a trajectory toward profitability if the defense contract wins (NATO NSPA, French DGA €100M+) can be scaled. EBIT deterioration H1 2024 to H1 2025 reflects investment in ANAFI UKR development and NATO qualification, not declining unit economics. This is documented and honest — claim should be stated plainly in profile to avoid overstating financial strength.
+**Summary:** Parrot was loss-making through FY2025 and reported a small profit in H1 2026; the sustainability of that result is untested.
 
 ---
 
@@ -325,16 +337,13 @@ Parrot's March 2026 partnership with SEALSQ to integrate NIST-standard Post-Quan
 
 ## Financial Health Assessment
 
-**Revenue:** €79.8M (2025) is respectable for a tactical micro-UAV OEM but is small relative to DJI (est. $3–5B annually) or large defense contractors. Growth rate moderation (20% → 6%) is a near-term concern but is offset by mix shift toward higher-margin defense business.
+**Revenue and growth:** H1 2026 revenue was €57.3M (+71%); micro-drones grew 134% to €42.1M while critical-infrastructure solutions (including Pix4D) were stable at constant rates as the business moves from perpetual licences to subscriptions.
 
-**Profitability:** Operating loss of -€13.1M (H1 2025) is the primary concern. Gross margin of 74.1% indicates strong unit economics, but operating expenses (R&D, sales, admin) exceed gross profit. However:
-- Investment in ANAFI UKR R&D and NATO qualification is discretionary and will diminish once platforms are fielded
-- Defense contract scaling (NATO NSPA, French DGA) will improve leverage as fixed costs are spread across larger volumes
-- Company is reducing losses year-over-year on a compound annual basis (not currently, but trajectory suggests profitability within 2–3 years if defense contracts are executed)
+**Profitability:** The company reports operating breakeven excluding a €2.5M insurance gain for the second consecutive half-year; gross margin fell to 71.2% from 74.8% as ANAFI UKR ramps. R&D was €23.8M in H1 2026.
 
-**Cash position:** Not explicitly stated in available financial documents; need access to balance sheet (Parrot's quarterly SEC/Euronext filings) to assess liquidity. With €79.8M annual revenue and €13.1M H1 loss run rate, cash burn is sustainable short-term but requires monitoring.
+**Liquidity:** Cash was €18.8M at 2026-06-30 with a €20M shareholder current-account facility undrawn through February 2028. Management expects a temporary working-capital increase in H2 2026 from advance purchasing and capacity expansion, so liquidity is worth monitoring.
 
-**Risk:** If defense contract scaling stalls (e.g., if NSPA orders do not materialize or are cancelled), operating losses will accelerate and cash position becomes critical. Conversely, if NATO NSPA volumes scale to "thousands" as claimed, profitability is probable by 2027–2028.
+**Concentration:** Growth is concentrated in ANAFI UKR defense and public-safety demand; Q4 2026 faces a much higher comparison base (company statement).
 
 ## Geopolitical and Regulatory Risks
 
@@ -350,23 +359,14 @@ Parrot's March 2026 partnership with SEALSQ to integrate NIST-standard Post-Quan
 
 ## Strategic Outlook
 
-**Near-term (2026–2027):**
-- NATO NSPA scaling and French DGA contract execution are critical to demonstrating that defense deals can drive profitability
-- Platform maturation and operational validation (Finnish Defence Forces deployment) will establish real-world performance data
-- Post-quantum cryptography integration (SEALSQ partnership) positions Parrot ahead of regulatory timelines
-
-**Medium-term (2027–2029):**
-- If NATO procurement succeeds (scaling to "thousands" of units), profitability is achievable
-- ANAFI Ai (4G robotic platform) remains a niche commercial offering; scaling this segment is challenging vs. DJI's consumer/commercial dominance
-- Pix4D (photogrammetry software) is a stable but low-growth software business; unlikely to drive overall company growth
-
-**Long-term risks:**
-- Blue UAS Cleared List removal may be permanent; federal procurement may never return to pre-2025 levels
-- European dependence: if geopolitical friction increases (EU-China trade friction, NATO burden-sharing disputes), Parrot's positioning as a "European vendor" could become a competitive liability if U.S. partners defect to Skydio
-- Financial runway: profitability must be achieved within 2–3 years to avoid capital restructuring (debt, equity dilution, or strategic acquisition)
+Parrot's stated near-term outlook is double-digit Q3 2026 revenue growth, with caution about H2 comparisons and the timing of institutional contracts. Items to watch: conversion of the U.S. Army SRR manufacturing readiness phase and UAS Marketplace orders into larger awards, NSPA call-off volumes, clarification of Blue UAS list status, and H2 working-capital needs.
 
 ## Sources
 
+- [sUAS News — Parrot strengthens position in U.S. Army programs (Oct 2026)](https://www.suasnews.com/2026/10/parrot-strengthens-its-position-in-u-s-army-drone-procurement-programs/)
+- [Investing.com — Parrot H1 2026 results](https://fr.investing.com/news/global-filings/parrot-affiche-un-chiffre-daffaires-record-de-573-m-au-s1-2026-en-hausse-de-71-93CH-3530464)
+- [J'aime les startups — Parrot H1 2026 (Aug 2026)](https://www.jaimelesstartups.fr/news/parrot-signe-un-premier-semestre-2026-record-grace-a-lessor-des-micro-drones-professionnels/)
+- [Parrot — ANAFI UKR compliance page](https://www.parrot.com/en/newsroom/parrot-anafi-ukr-blue-uas-nato-ndaa-taa-compliant)
 - [Parrot SA — Official Website](https://www.parrot.com/en/)
 - [Parrot ANAFI USA — Technical Specifications](https://www.parrot.com/en/drones/anafi-usa/technical-specifications)
 - [Parrot ANAFI USA — Made in the USA, Trusted & Proven Globally](https://www.parrot.com/en/drones/anafi-usa/proven-and-trusted)

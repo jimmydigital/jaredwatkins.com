@@ -1,11 +1,13 @@
 ---
 title: "Kairos Power — Molten-Salt SMR for Data Centers"
 date: 2026-04-21
-lastmod: 2026-04-24
+lastmod: 2026-10-21
 draft: false
-description: "Kairos Power, Albuquerque, NM. Molten-salt-cooled SMR (50 MWe, Hermes design). Google partnership: 500 MW across 6–7 units by 2035. MAJOR UPDATE: Hermes 2 groundbreaking April 17, 2026 at Oak Ridge, TN — first Gen IV reactor to receive NRC construction permit; first commercial-scale advanced reactor under construction in U.S. Supplies up to 50 MW to TVA grid for Google data centers in TN and AL. TRISO fuel dependency. Binding Google PPA differentiator."
+description: "Kairos Power molten-salt reactors for Google: Hermes 2 (50 MWe, Oak Ridge, Tennessee; groundbreaking 2026-04-17; NRC construction permit) delivering to the TVA grid for Google data centers, with $643M of reported financing (October 2026). Not yet operating."
 research_area: "datacenters/behind-meter-power"
 source_urls:
+  - "https://neutronbytes.com/2026/10/16/kairos-lands-643m-for-hermes-2-reactor-in-tennessee/"
+  - "https://www.kairospower.com/updates/kairos-power-breaks-ground-on-hermes-2-demonstration-plant"
   - "https://www.kairospower.com/"
   - "https://www.world-nuclear-news.org/articles/google-and-kairos-power-team-up-for-smr-deployments-in-us-first"
   - "https://www.cnbc.com/2025/08/18/google-kairos-nuclear-smr-tennessee-valley-authority-tva-data-center-ai.html"
@@ -13,8 +15,8 @@ source_urls:
   - "https://www.globenewswire.com/news-release/2026/04/17/3276457/0/en/kairos-power-breaks-ground-on-hermes-2-demonstration-plant.html"
   - "https://www.world-nuclear-news.org/articles/kairos-breaks-ground-for-hermes-2-reactor"
   - "https://interestingengineering.com/energy/us-kairos-breaks-ground-hermes-nuclear-reactor"
-last_reviewed: 2026-04-24
-stale_after_days: 90
+last_reviewed: 2026-10-21
+stale_after_days: 60
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
@@ -52,6 +54,14 @@ In August 2025, Google signed the **first corporate SMR power purchase agreement
 - [Kairos Power Breaks Ground on Hermes 2 Demonstration Plant (GlobeNewswire, April 17, 2026)](https://www.globenewswire.com/news-release/2026/04/17/3276457/0/en/kairos-power-breaks-ground-on-hermes-2-demonstration-plant.html)
 - [World Nuclear News: Kairos breaks ground for Hermes 2 reactor](https://www.world-nuclear-news.org/articles/kairos-breaks-ground-for-hermes-2-reactor)
 - [Interesting Engineering: First 4th-gen US nuclear reactor breaks ground to power Google data centers](https://interestingengineering.com/energy/us-kairos-breaks-ground-hermes-nuclear-reactor)
+
+---
+
+## October 2026 Update
+
+- **Financing (reported 2026-10-16):** Kairos reportedly secured $643M in combined financing for the Hermes 2 demonstration reactor in Tennessee: $368M of private investment (including Google Ventures and DCVC) and $275M from the U.S. Department of Energy. This comes from a Bloomberg report quoting a Kairos spokesperson and CEO Mike Laufer; no formal press release was found. A separate Samsung C&T commitment of up to $100M ($70M cash) from a partnership announced in September 2026 is not part of the $643M. ([Neutron Bytes](https://neutronbytes.com/2026/10/16/kairos-lands-643m-for-hermes-2-reactor-in-tennessee/))
+- **Hermes 2 (groundbreaking 2026-04-17):** up to 50 MWe at the former K-33 site, Oak Ridge, Tennessee; power to the TVA grid to help supply Google data centers in Tennessee and Alabama; Kairos describes it as the first power-producing Gen IV reactor to receive an NRC construction permit. Hermes 1 (the low-power demonstration reactor at the same site) began nuclear construction in 2025. No operating date has been published. ([Kairos Power](https://www.kairospower.com/updates/kairos-power-breaks-ground-on-hermes-2-demonstration-plant))
+- **Regulatory track:** NRC construction permits (Hermes 1 and Hermes 2); an operating license and commissioning remain ahead, so Hermes 2 is not yet an operating plant.
 
 ---
 

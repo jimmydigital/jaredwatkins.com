@@ -36,12 +36,6 @@ sitemap:
 
 **Review cadence:** 90 days — this is a fast-moving space with quarterly product announcements.
 
-**Tags:**
-- Vendor: `amd`, `nvidia`, `intel`, `google`, `amazon`
-- Architecture: `cdna`, `hopper`, `blackwell`, `rubin`, `gaudi`
-- Form factor: `rack-scale`, `oam-module`, `pcie-card`
-- Interconnect: `nvlink`, `infinity-fabric`, `ualink`, `ultraethernet`, `infiniband`
-
 {{</steering>}}
 
 ## Overview

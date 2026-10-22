@@ -68,9 +68,9 @@ Unlike most research areas, the major incumbents (IBM, Google, Microsoft) are pr
 
 ---
 
-### Hardware Modality Tags
+### Hardware Modalities
 
-Tag every hardware company entry with its primary qubit modality:
+State each hardware company's primary qubit modality in Key Facts:
 - `superconducting` — IBM, Google, Rigetti
 - `trapped-ion` — IonQ, Quantinuum
 - `photonic` — Xanadu, PsiQuantum
@@ -88,16 +88,6 @@ In addition to the standard Claim Verification section, every quantum computing 
 - **Classical simulation feasibility:** Has the computation been simulated classically at comparable or better performance?
 - **Peer review status:** Is the underlying result published in a peer-reviewed journal? If only a preprint, note it.
 - **Roadmap history:** List prior published timelines for the same milestone and whether they were met.
-
----
-
-### Quantum-Specific Tags
-
-In addition to global tags:
-- Modality: `superconducting`, `trapped-ion`, `photonic`, `topological`, `neutral-atom`, `annealing`
-- Stage: `nisq`, `fault-tolerant-research`, `fault-tolerant-demonstrated` (use the last only when peer-reviewed evidence exists)
-- Application focus: `optimization`, `simulation`, `cryptography`, `machine-learning`, `chemistry`
-- Market: `cloud-access`, `hardware-vendor`, `software-layer`, `hybrid-classical-quantum`
 
 ---
 

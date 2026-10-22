@@ -1,9 +1,9 @@
 ---
 title: Research
 date: 2026-03-23
-lastmod: 2026-08-04
+lastmod: 2026-10-21
 draft: false
-last_reviewed: 2026-08-04
+last_reviewed: 2026-10-21
 description: AI-maintained knowledge base on emerging technology topics.
 sitemap:
   changefreq: "monthly"
@@ -146,7 +146,7 @@ stale_after_days: 180
 
 Required fields: `title`, `date`, `lastmod`, `draft`, `description`, `research_area`, `source_urls`, `last_reviewed`.
 
-**Do not add `tags` or `categories` to research entries.** Both generate Hugo taxonomy pages at scale and degrade build/deploy performance. Use `research_area` for all classification and filtering.
+**Do not add `tags` or `categories` to research entries.** Hugo taxonomies are disabled sitewide; use `research_area` for all classification and filtering. Do not introduce tag vocabularies in any section steering block.
 Optional but encouraged: `stale_after_days` (default 180 if omitted), `related` (list of relative paths to related entries).
 
 **Section landing pages (`_index.md`)** use a slightly different template — no `source_urls`, but always include the `sitemap` block:
@@ -523,12 +523,6 @@ When a company entry covers a Chinese-owned entity (headquartered in mainland Ch
 - OUT: Cloud computing software, AI model development, chip design (separate sections); routine hyperscaler earnings or campus announcements without a novel infrastructure angle
 - BORDERLINE: Rack-scale compute systems (NVIDIA NVL72, HPE Cray EX) — include only when the physical infrastructure or cooling integration is the notable element, not the compute itself
 
-**Datacenter-specific tags** (in addition to global tags):
-- Subsection: `cooling`, `robotics-automation`, `design-construction`, `power-infrastructure`
-- Technology: `immersion-cooling`, `direct-to-chip`, `liquid-cooling`, `air-cooling`, `blind-mate`, `prefab`, `modular`, `smr`, `fuel-cell`, `behind-the-meter`
-- Segment: `hyperscaler`, `colocation`, `edge`, `hpc`, `ai-datacenter`
-- Density: `high-density` (>20 kW/rack), `ultra-high-density` (>100 kW/rack)
-
 **Key metrics to document** for cooling technologies and products: PUE (target and measured annualized — not just design); WUE (liters per kWh IT load); rack density supported (kW/rack — air tops out ~15–20 kW, liquid starts at 20 kW); coolant temperature range (supply and return); ERE (Energy Reuse Effectiveness). For construction/design entries: time to power (months greenfield to live), cost per MW (verify whether figure includes land, power infrastructure, fit-out, and redundancy — not just shell-and-core), PUE target, and total MW at full buildout.
 
 **Claim verification flags for datacenters:** Distinguish design PUE from measured annualized PUE. For "supports X kW/rack" claims, verify that figures account for real-world fluid distribution, manifold pressure drops, and redundancy — not just tank theoretical capacity. For autonomous operation claims, establish what fraction of tasks are genuinely automated vs. still requiring human intervention. For "100% renewable" power claims, determine whether the mechanism is RECs (does not change the physical grid mix) or 24/7 matched clean power. For cost per MW claims, see metrics note above.
@@ -553,7 +547,7 @@ When a company entry covers a Chinese-owned entity (headquartered in mainland Ch
 - **MIL-STD-461**: EMI/EMC standard — critical for airborne and naval platforms
 - **ATAK**: Android Team Awareness Kit — DoD tactical situational awareness platform; ATAK compatibility indicates field soldier/operator integration
 
-**Platform tiers** — tag and describe entries by tier: (1) Rack/server tier (1U–4U rackmount for vehicle/aircraft/ship bays); (2) VPX module tier (individual 3U or 6U OpenVPX cards sold to prime contractors); (3) Man-portable/wearable tier (battery-powered, body-worn AI inference, typically NVIDIA Jetson Orin class, ATAK-compatible).
+**Platform tiers** — describe entries by tier: (1) Rack/server tier (1U–4U rackmount for vehicle/aircraft/ship bays); (2) VPX module tier (individual 3U or 6U OpenVPX cards sold to prime contractors); (3) Man-portable/wearable tier (battery-powered, body-worn AI inference, typically NVIDIA Jetson Orin class, ATAK-compatible).
 
 **AI inference metrics:** Track GPU/NPU generation (H100, H200, GB200, RTX PRO 5000 Blackwell, Jetson Orin NX/AGX) and TFLOPS/PetaOPS claims. DoD customers care about INT8/INT4 throughput for inference, not FP64 for training.
 
@@ -591,7 +585,7 @@ When a company entry covers a Chinese-owned entity (headquartered in mainland Ch
 
 **Datacenter nuclear overlap:** Document any company with a named datacenter or hyperscaler customer or LOI. Cross-reference with `research/datacenters/power-infrastructure`. Key tracked connections: Blue Energy → Crusoe (Port of Victoria TX); Kairos Power → Google (500 MW PPA by 2035); X-energy → Amazon (multiple sites). Note: NuScale's CFPP project was cancelled 2023 — document and do not treat as active.
 
-**Nuclear-specific tags:** `smr`, `microreactor`, `gen-iv`, `haleu`, `behind-the-meter`, `shipyard-construction`, `nrc-licensed` (only after NRC Design Certification or COL is granted).
+**NRC-licensed wording:** describe an entry as NRC-licensed only after NRC Design Certification or COL is granted.
 
 **Review cadence:** 90 days for active pre-construction companies (NRC milestones can change fast); 180 days for early-stage designs; 365 days for stable operational facilities.
 
@@ -613,11 +607,27 @@ When a company entry covers a Chinese-owned entity (headquartered in mainland Ch
 
 ---
 
+### Topic-Area Steering: Energy — Pipelines (`research/energy/pipelines/`)
+
+**Scope:** Natural gas pipeline operators and pipeline/power contractors, with emphasis on gas supply to AI datacenters and behind-the-meter (BTM) generation. In scope: interstate and intrastate transporters, midstream gatherers/processors with data center exposure, and builders. Equipment vendors and on-site power developers belong in `datacenters/behind-meter-power/` (Williams lives there; cross-link rather than duplicate).
+
+**Value chain position** — label every entry as pipeline operator, gatherer-processor, or builder/contractor.
+
+**Editorial framing:** Separate (1) signed firm-transport agreements, (2) letters of intent, (3) agreements conditional on a customer FID, and (4) "potential demand" language. Do not report a company-wide contracted-capacity figure as a data center figure. State whether the delivery point is a grid-connected plant, a utility, or an on-site BTM plant. Treat data center demand as contested where litigation or independent analysis disputes it, and cite both sides. Distinguish regulatory track: FERC certificates for interstate projects vs state jurisdiction for intrastate (Texas). KMP is Kinder Morgan Energy Partners, merged into KMI in 2014.
+
+**Components subsection (`energy/pipelines/components/`):** input suppliers (line pipe, steel, coatings, valves). Purpose is early demand signals: tie each supplier order, filing or local news item to a named project only when owner and supplier sources agree on diameter, volume or schedule; otherwise list it as unmatched. Note supplier country and applicable trade actions. Map prior-employer overlaps among supplier, builder and operator executives with ⚑ flags.
+
+**Cross-reference:** `datacenters/behind-meter-power/` for Williams and generation equipment; `energy/grid-markets/` for interconnection context.
+
+**Review cadence:** 90 days; re-check after each quarterly earnings cycle.
+
+---
+
 ### Topic-Area Steering: Robotics (`research/robotics/`)
 
 **Editorial priority:** The component and subsystem layer — motors, gearboxes, LiDAR sensors, radio subsystems, battery packs — not the platform OEMs. Platform OEM entries (DJI, Boston Dynamics, etc.) provide market context, but the more interesting entries are the materials company solving motor efficiency, the startup building a better harmonic drive, or the researcher commercializing a new LiDAR architecture.
 
-**Value chain position** — every company entry must be tagged and described by its position:
+**Value chain position** — every company entry must be described by its position:
 - **Platform OEM** — sells a complete, ready-to-use robot to end customers (DJI, Boston Dynamics, Knightscope, AeroVironment)
 - **Component/subsystem supplier** — sells components or subsystems to OEMs or integrators (T-Motor, Maxon, Ouster, u-blox, Silvus, Intelligent Energy)
 - **Software/AI layer** — sells autonomy software that runs on hardware platforms (Shield AI Hivemind, Skydio AI stack)
@@ -625,15 +635,9 @@ When a company entry covers a Chinese-owned entity (headquartered in mainland Ch
 
 When a company operates at multiple layers (e.g., DJI makes its own motors AND sells complete drones), note both roles and describe the vertical integration explicitly — it is a significant competitive moat worth documenting.
 
-**Robotics-specific tags** (in addition to global tags):
-- Platform type: `aerial-drone`, `ugv`, `amr`, `humanoid`, `surgical`, `agricultural`
-- Component category: `actuator`, `sensor`, `lidar`, `radar`, `gnss`, `communications`, `battery`, `fuel-cell`, `motor`, `gearbox`
-- Market: `defense`, `commercial`, `consumer`, `industrial`, `logistics`
-- Technology: `bldc`, `harmonic-drive`, `slam`, `autonomous`, `swarm`, `bvlos`
-
 **Claim verification for robotics — categories requiring scrutiny in every entry:** Endurance claims (confirm test conditions: payload, speed, altitude, temperature — quoted figures almost always assume ideal/unloaded conditions); autonomy claims ("fully autonomous," "zero operator required" — establish human-in-the-loop reality and what regulatory approvals are required and obtained, including FAA Part 107 waivers, BVLOS approvals); unit deployment figures (distinguish units sold vs. units in active service vs. cumulative lifetime deliveries); defense contract claims (verify against USASpending.gov or SAM.gov where possible — press releases routinely overstate contract scope).
 
-**Defense and dual-use notation** for entries with significant defense business: add `defense` tag to frontmatter; note active DoD contracts and programs (public); note ITAR or EAR implications for export; if a UAS platform appears on the Blue UAS framework (DoD-approved drone procurement list), note explicitly — it is a material commercial differentiator in the US government market. For defense UGV programs, reference the relevant Army program office (DEVCOM GVSC, PEO Soldier) when documenting contracts.
+**Defense and dual-use notation** for entries with significant defense business: note active DoD contracts and programs (public); note ITAR or EAR implications for export; if a UAS platform appears on the Blue UAS framework (DoD-approved drone procurement list), note explicitly — it is a material commercial differentiator in the US government market. For defense UGV programs, reference the relevant Army program office (DEVCOM GVSC, PEO Soldier) when documenting contracts.
 
 **DJI specifically:** DJI is on the US DoD Chinese military company list and the FCC Covered List (as of 2022–present). The American Security Drone Act (signed 2023) prohibits US federal agencies from procuring DJI and other covered drones. Every DJI entry must prominently note these designations and their practical implications — the regulatory overhang is a material risk that must be documented.
 
@@ -694,6 +698,25 @@ When a company operates at multiple layers (e.g., DJI makes its own motors AND s
 
 ---
 
+### Topic-Area Steering: Textiles (`research/textiles/`)
+
+**Scope:** IN — fiber-to-fabric manufacturing (ginning, spinning, weaving, dyeing, finishing, printing), the machines and dye chemistry behind it, and companies rebuilding or reinventing textile production. Subsections: `quilting-fabrics/`, `machinery/`, `us-innovators/`. OUT — fashion-brand and retail coverage except where it explains sourcing; apparel brands as standalone entries; commodity cotton price forecasting (cite USDA/ICAC instead).
+
+**Editorial priority:** U.S. companies and U.S. capacity, as part of the reindustrialization theme. Startups, spinouts, equipment builders, and input suppliers come before incumbents. Non-U.S. companies are in scope where they define a product category's supply chain (quilting fabric is almost entirely non-U.S.); mark them non-U.S. in tables and say so in Key Facts.
+
+**Value chain position** — every company entry must state its position: fiber grower/ginner; spinner; weaver/knitter; dyer/finisher/printer; converter/brand; machine builder; dye/chemical supplier; integrator (cut-and-sew, product development); or software/traceability. Note vertical integration explicitly.
+
+**Claim verification flags for textiles:**
+- "Made in USA" and "domestically sourced" claims — record which stage each covers (fiber grown, spun, woven, dyed/printed, sewn). Brands often mean only the last stage.
+- Thread count — always state the metric (ends × picks per inch, threads per inch, or metric yarn number); the three are not interchangeable.
+- Mill and country-of-manufacture claims — record disclosure status ("undisclosed" is a finding) and the date of the source; the only brand-origin survey found for quilting fabric is from 2017.
+- Market-size figures — distinguish fabric revenue from total quilting-industry revenue; USDA cotton volumes are in 480-lb bales, so label units or convert.
+- Prices — record retail versus wholesale and the type of source (retailer listing, retailer blog, distributor); do not present retailer-blog ranges as verified.
+
+**Review cadence:** Quilting fabrics and U.S. innovators: 90 days (tariffs, reshoring announcements, funding). Machinery: 180 days.
+
+---
+
 ### What NOT to Include
 
 - Opinion or advocacy ("X is the future of energy")
@@ -735,7 +758,7 @@ A living, AI-maintained knowledge base on emerging technology topics. Each area 
 - [Compute Marketplaces]({{< relref "compute-marketplaces/_index.md" >}}) — Discovery, latency-aware routing, matchmaking, and machine-payment protocols for on-demand, ad-hoc inference-compute markets; includes prior art from multiplayer game server matchmaking
 - [Datacenters]({{< relref "datacenters/_index.md" >}}) — Physical datacenter infrastructure: cooling, power, construction, rugged edge compute
 - [Drone Detection]({{< relref "drone-detection/_index.md" >}}) — C-UAS detection methods, hardware, open-source tools, and counter-drone platforms for critical infrastructure protection
-- [Energy]({{< relref "energy/_index.md" >}}) — Solar, batteries, nuclear, energy resources, and grid market structure/policy
+- [Energy]({{< relref "energy/_index.md" >}}) — Solar, batteries, nuclear, energy resources, grid market structure/policy, virtual power plants, and natural gas pipeline operators, builders and input suppliers
 - [HALE / HAPS]({{< relref "hale-haps/_index.md" >}}) — High-altitude long-endurance platforms: solar/fuel-cell fixed-wing aircraft, stratospheric airships, and balloons for telecom, Earth observation, and ISR
 - [Large Format Additive Manufacturing (LFAM)]({{< relref "lfam/_index.md" >}}) — Industrial-scale 3D printing: gantry and robotic pellet extrusion, WAAM for metal naval components, defense and aerospace applications
 - [Local AI Tools]({{< relref "local-ai-tools/_index.md" >}}) — Local-first AI applications: voice cloning/TTS/STT studios, inference runtimes, and MCP agent-voice integration
@@ -747,3 +770,4 @@ A living, AI-maintained knowledge base on emerging technology topics. Each area 
 - [Semiconductors]({{< relref "semiconductors/_index.md" >}}) — Fabrication equipment, materials, and supply chain enabling advanced node chip manufacturing
 - [Software Philosophy]({{< relref "software-philosophy/_index.md" >}}) — Foundational ideas shaping how software is designed: Unix philosophy, composability, open source, and their critics
 - [Space Launch]({{< relref "space-launch/_index.md" >}}) — Orbital launch vehicle developers, lunar lander developers, and in-space orbital transfer vehicle companies
+- [Textiles]({{< relref "textiles/_index.md" >}}) — U.S.-focused textile manufacturing: fibers, mills, dyeing and printing, machinery, and reshoring startups, starting with quilting fabric

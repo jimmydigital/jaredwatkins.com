@@ -1,18 +1,20 @@
 ---
 title: "Westinghouse eVinci — Heat-Pipe Microreactor for Remote & Data Center BTM"
 date: 2026-04-24
-lastmod: 2026-04-24
+lastmod: 2026-10-21
 draft: false
-description: "Westinghouse Electric Company eVinci microreactor. 5 MWe / 15 MWt heat-pipe reactor; no coolant pumps; walk-away safe. TRISO fuel; 8+ year refueling interval; factory-assembled, rail/truck-transportable. NRC Principal Design Criteria approved March 2025; I&C platform approved Dec 2024. First customer: Saskatchewan Research Council (pilot 2029). Penn State university partnership. No commercial data center deployments announced. Parent: Westinghouse Electric Company (Brookfield Asset Management / Cameco JV)."
+description: "Westinghouse eVinci 5 MWe / 15 MWt heat-pipe microreactor (TRISO fuel). One-fifth-scale test reactor completed zero-power criticality testing in August 2026; NRC pre-application only; DOME test date not set."
 research_area: "datacenters/behind-meter-power"
 source_urls:
+  - "https://www.ans.org/news/2026-08-26/article-8341/evinci-completes-cold-criticality-test-at-ncerc/"
+  - "https://www.ans.org/news/2026-08-28/article-8347/five-companies-five-bases-the-armys-janus-program-takes-shape/"
   - "https://westinghousenuclear.com/innovation/evinci-microreactor/"
   - "https://www.businesswire.com/news/home/20250331678087/en/Westinghouse-eVinci-Design-Reaches-Key-US-Licensing-Milestone"
   - "https://www.powermag.com/westinghouse-secures-first-customer-for-evinci-nuclear-microreactor/"
   - "https://www.ans.org/news/2025-03-05/article-6829/penn-state-and-westinghouse-make-evinci-microreactor-plan-official/"
   - "https://www.nrc.gov/reactors/new-reactors/advanced/who-were-working-with/pre-application-activities/evinci"
-last_reviewed: 2026-04-24
-stale_after_days: 90
+last_reviewed: 2026-10-21
+stale_after_days: 60
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
@@ -27,6 +29,17 @@ The eVinci is factory-assembled and designed to fit in a standard shipping conta
 **Key 2025 milestones:** NRC approved the Principal Design Criteria (PDC) topical report (March 31, 2025) and the Instrumentation & Control System platform (December 2024). These are meaningful pre-licensing steps, but a Combined License Application (COLA) has not yet been submitted as of April 2026. Commercial deployment is likely **mid-2030s** for U.S. applications.
 
 **No data center BTM customers with signed agreements have been announced as of April 2026.** The most developed customer relationship is the Saskatchewan Research Council (SRC) pilot (~2029) in Canada.
+
+---
+
+## October 2026 Update
+
+**Regulatory track:** DOE-supported testing; NRC pre-application only (principal design criteria and I&C approvals from the previous review). No combined license application has been identified.
+
+- **Zero-power criticality test (announced 2026-08-25):** Westinghouse completed zero-power criticality testing of an eVinci test reactor at the National Criticality Experiments Research Center in Nevada with Los Alamos and Idaho National Laboratories, to validate models and core design assumptions. The test reactor is a one-fifth-scale version of the commercial 5 MWe (15 MWt) design. **What it demonstrated:** core physics modelling at zero power. **What it did not:** no heat-pipe power operation, electricity generation or integrated system performance. ([ANS](https://www.ans.org/news/2026-08-26/article-8341/evinci-completes-cold-criticality-test-at-ncerc/))
+- **DOME schedule:** DOE conditionally selected Westinghouse and Radiant for the first DOME projects, with Radiant first in line; no date was given for an eVinci test at DOME.
+- **Army Janus:** Westinghouse Government Services is one of five companies the Army selected under Janus (August 2026); the source excerpt reviewed does not state which reactor design it will deploy.
+- **Penn State:** a 2025 letter of intent to the NRC to host an eVinci as a campus research reactor remains the only NRC reference in the coverage reviewed.
 
 ---
 

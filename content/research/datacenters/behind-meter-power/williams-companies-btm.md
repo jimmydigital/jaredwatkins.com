@@ -1,11 +1,13 @@
 ---
 title: "Williams Companies (Power Innovation)"
 date: 2026-06-04
-lastmod: 2026-06-04
+lastmod: 2026-10-21
 draft: false
 description: "Williams Companies' Power Innovation program: natural gas pipeline operator turned BTM power provider, deploying modular gas turbine plants directly serving AI data centers."
 research_area: "datacenters/behind-meter-power"
 source_urls:
+  - "https://www.datacenterdynamics.com/en/news/blackstone-invests-534bn-in-williams-behind-the-meter-natural-gas-power-projects-for-the-data-center-sector/"
+  - "https://www.williams.com/2026/05/05/q1-earnings-recap-data-centers-accelerate-new-growth-paths-for-williams/"
   - "https://www.williams.com/power-innovation/"
   - "https://www.williams.com/2026/03/17/powering-data-centers-behind-the-meter-power-explained/"
   - "https://www.datacenterdynamics.com/en/news/ohio-regulators-approve-construction-of-200mw-gas-power-plant-to-serve-meta-data-center-in-new-albany-ohio/"
@@ -15,8 +17,8 @@ source_urls:
   - "https://www.power-eng.com/onsite-power/onsite-gas-turbines-reciprocating-engines-to-power-meta-data-center/"
   - "https://www.cat.com/en_US/products/new/power-systems/electric-power/gas-generator-sets/130060.html"
   - "https://www.solarturbines.com/en_US/products/power-generation-packages/titan-130.html"
-last_reviewed: 2026-06-04
-stale_after_days: 90
+last_reviewed: 2026-10-21
+stale_after_days: 60
 related:
   - "datacenters/design-construction/meta-rapid-deployment-structures.md"
   - "datacenters/behind-meter-power/ge-vernova-aeroderivative.md"
@@ -39,6 +41,14 @@ Williams Companies is a Tulsa, Oklahoma-based natural gas pipeline and processin
 - **Target capacity:** 6+ GW of BTM power across Texas, Tennessee, and Ohio by 2027
 - **First project:** Socrates — two × 200 MW gas plants at New Albany, Ohio for Meta (10-year agreement)
 - **Turbine OEMs used:** Solar Turbines (Titan 250, PGM 130), Siemens Energy (SGT-400), Caterpillar (3520 engines)
+
+## October 2026 Update
+
+- **Blackstone investment (2026-07-15):** Blackstone and partners committed $5.34B for a 49% noncontrolling interest in five Williams Power Innovation projects; Williams keeps 51% control and may buy Blackstone out between years seven and 14 at Blackstone's outstanding investment balance. Projects named: Socrates (200 MW, New Albany, Ohio, Meta campus, nearing completion), Socrates the Younger (340 MW, Ohio, customer not named), Neo (682 MW, in service targeted second half of 2028), Aquila (Utah, first half of 2027, capacity not disclosed) and Apollo (details not stated). Williams' Power Innovation portfolio is expected to reach about 2.6 GW. ([DCD](https://www.datacenterdynamics.com/en/news/blackstone-invests-534bn-in-williams-behind-the-meter-natural-gas-power-projects-for-the-data-center-sector/))
+- **Q1 2026 update (2026-05-05):** Neo (682 MW) is the fifth commercialized Power Innovation project and largest behind-the-meter build so far; Atlas provides up to 164 MMcf/d of pipeline capacity to an investment-grade Northeast data center customer (in service by year-end 2026); Silver Spur is a proposed 275 MMcf/d Northwest Pipeline expansion targeted for early 2030. ([Williams](https://www.williams.com/2026/05/05/q1-earnings-recap-data-centers-accelerate-new-growth-paths-for-williams/))
+- **Capacity discrepancy:** earlier text in this entry describes Socrates as 400 MW (2 × 200 MW); July 2026 coverage lists Socrates at 200 MW and a separate 340 MW Socrates the Younger. Verify against Williams' filings before relying on either figure.
+
+---
 
 ## What It Is / How It Works
 
@@ -109,8 +119,8 @@ Williams' equipment selection reflects several deliberate tradeoffs:
 
 ## Notable Developments
 
-- **2026-Q3 (projected):** Socrates power plants (New Albany, Ohio) scheduled to enter service — 400 MW total, serving Meta's Prometheus campus and adjacent rapid deployment structures
-- **2026-Q1:** Williams reported expanding Power Innovation pipeline; 6+ GW target across Texas, Tennessee, Ohio by 2027; $5.1B committed capital; Q1 2026 earnings showed strong data center pipeline growth
+- **2026-Q3 (projected, not confirmed in service as of 2026-07):** Socrates (New Albany, Ohio) described as nearing completion, serving Meta's campus
+- **2026-Q1:** Williams reported Neo (682 MW) as its fifth commercialized Power Innovation project; earlier "6+ GW" and "$5.1B committed capital" figures were not re-verified.
 - **2026-Mar:** Williams published explainer on BTM power model for data centers, signaling intent to market the model broadly — [Williams.com](https://www.williams.com/2026/03/17/powering-data-centers-behind-the-meter-power-explained/)
 - **~2025-Q3:** Broke ground on Socrates (Ohio) project following Ohio Public Utilities Commission approval; two-plant design using modular gas units
 - **2025:** Ohio regulators approved construction of 200 MW gas plant (first Socrates unit) to serve Meta New Albany campus — [Data Center Dynamics](https://www.datacenterdynamics.com/en/news/ohio-regulators-approve-construction-of-200mw-gas-power-plant-to-serve-meta-data-center-in-new-albany-ohio/)

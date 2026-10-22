@@ -100,18 +100,6 @@ Do not accept "PQC-ready" or "quantum-safe" marketing language without decomposi
 
 ---
 
-### PQC-Specific Tags
-
-In addition to global tags:
-- Algorithm: `ml-kem`, `ml-dsa`, `slh-dsa`, `fn-dsa`, `kyber`, `dilithium`, `sphincs-plus`, `classic-mceliece`, `hqc`
-- Approach: `hybrid-pqc`, `pqc-only`, `pre-standard-pqc`
-- Protocol layer: `ike-pqc`, `tls-pqc`, `ssh-pqc`, `macsec-pqc`
-- Standard status: `nist-final`, `nist-draft`, `ietf-rfc`, `ietf-draft`
-- Sector: `networking`, `cryptocurrency`, `blockchain`, `enterprise`
-- Threat model: `hndl`
-
----
-
 ### Review Cadence
 
 - **90 days** — vendor entries in networking and crypto sections (PQC roadmaps are moving fast; NIST and IETF standards activity is ongoing)
