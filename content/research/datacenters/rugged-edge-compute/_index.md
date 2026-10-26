@@ -1,10 +1,10 @@
 ---
 title: "Rugged & Edge Compute"
 date: 2026-03-25
-lastmod: 2026-04-25
+lastmod: 2026-10-23
 description: "Rugged compute platforms, AI inference at the edge, military/maritime/aviation deployments, man-portable compute, semi-industrial fanless edge AI servers"
 research_area: "datacenters/rugged-edge-compute"
-last_reviewed: 2026-04-25
+last_reviewed: 2026-10-23
 stale_after_days: 180
 sitemap:
   changefreq: "monthly"
@@ -29,8 +29,8 @@ A separate but related subsection — [Edge AI Accelerators](../edge-ai-accelera
 
 | Company | Form Factor | GPU/NPU | Key Platform | Key Customer |
 |---------|-------------|---------|--------------|--------------|
-| Mercury Systems (MRCY) | VPX modules, rackmount subsystems | NVIDIA H-series, Intel/Xilinx FPGA | RES Trust XR6 | Navy, Army, classified programs |
-| One Stop Systems (OSTO) | Rackmount AI compute servers | NVIDIA H100/H200 | AI on the Fly (AIFLY) | P-8A Poseidon, Virginia-class sub, USSOCOM |
+| Mercury Systems (MRCY) | VPX modules, rackmount subsystems | NVIDIA H-series, Intel/Xilinx FPGA | Common Processing Architecture | Navy, Army, classified programs |
+| One Stop Systems (OSS) | Rackmount AI compute servers | NVIDIA H100/H200 | AI on the Fly (AIFLY) | P-8A Poseidon, Virginia-class sub, USSOCOM |
 | Curtiss-Wright (CW) | VPX modules, tactical servers | NVIDIA RTX PRO 5000 Blackwell | VPX3-730, PacStar 431/452 | DoD primes, SOSA programs |
 | EDT / EDGETAK (HEI) | Man-portable / wearable | NVIDIA Jetson Orin NX | EDGETAK, EDGETAK RF | SOCOM, dismounted soldiers |
 | Anduril Industries | C4 systems (vehicle + man-portable), autonomous platforms | NVIDIA Jetson (edge); Klas Voyager compute | Menace-T, Menace-X, Lattice OS | US Army ($20B), US Space Force, USSOCOM, allied MoDs |
@@ -51,10 +51,10 @@ A separate but related subsection — [Edge AI Accelerators](../edge-ai-accelera
 
 | Company | HQ | Stage | Mission |
 |---------|-----|-------|---------|
-| [Anduril Industries](https://www.anduril.com) | Costa Mesa, CA, USA | Late Private (~$28–30B valuation, Series G) | Defense technology prime; Lattice OS autonomous C2 platform; Menace-T/X rugged C4 systems on Klas Voyager hardware; $20B Army enterprise contract (March 2026); autonomous aerial, surface, and undersea vehicles. |
+| [Anduril Industries](https://www.anduril.com) | Costa Mesa, CA, USA | Late Private ($61B valuation, Series H, May 2026) | Defense technology prime; Lattice OS autonomous C2 platform; Menace-T/X rugged C4 systems on Klas Voyager hardware; Army enterprise agreement with a $20B ceiling (March 2026); autonomous aerial, surface, and undersea vehicles. |
 | [EDT / EDGETAK](https://edt.com) | Hillsboro, OR, USA | Private (HEICO subsidiary) | Man-portable wearable tactical AI inference platform (EDGETAK, launched April 2025); NVIDIA Jetson Orin NX; ATAK compatible; EDGETAK RF SDR variant (Summer 2026). |
 | [Systel](https://www.systelusa.com) | San Marcos, TX, USA | Private | Kite-Strike rugged AI server; small-form-factor tactical compute for defense ground vehicles and maritime platforms. |
-| [Kontron](https://www.kontron.com) | Augsburg, Germany | Public (SDAX: KTN) | European COTS rugged embedded compute; µDARC microserver for tactical edge; established embedded compute and VME/VPX board supplier to defense primes globally. |
+| [Kontron](https://www.kontron.com) | Augsburg, Germany | Public (Xetra: KTN) | European COTS rugged embedded compute; µDARC microserver for tactical edge; established embedded compute and VME/VPX board supplier to defense primes globally. |
 | [Crystal Group](https://www.crystalrugged.com) | Cedar Rapids, IA, USA | Private | Rugged servers and vehicle-mount compute; RE4100 Series shipboard AI rackmount (MIL-STD-901D); RE1900M vehicle-mount server; US-owned with Buy American compliance; Navy surface ship and Army ground vehicle programs. |
 | [VadaTech](https://www.vadatech.com) | Henderson, NV, USA | Private | Largest dedicated MicroTCA platform vendor in North America; full-stack MCH + chassis + AMC modules across MTCA.0/1/3/4 variants; UTC040C conduction-cooled MCH (Apr 2024); defense, scientific instruments, telecom, and industrial markets. See [entry]({{< relref "vadatech.md" >}}). |
 | [N.A.T. GmbH (NAT Europe)](https://nateurope.com) | Hennef, Germany | Private | Reference MicroTCA Carrier Hub (MCH) specialist; NAT-MCH-G4 with 100 GbE optical uplinks, GPS/PTP/SyncE timing, PCIe Gen 4/5; primary MCH for European particle accelerator control (DESY, CERN, PSI) and 5G RAN timing. See [entry]({{< relref "nat-europe.md" >}}). |
@@ -80,8 +80,8 @@ Mid-tier platforms between full MIL-spec defense compute and commercial servers 
 
 | Ticker | Company | Location | Focus | Notes |
 |--------|---------|----------|-------|-------|
-| [MRCY](https://finance.yahoo.com/quote/MRCY) | [Mercury Systems](https://www.mrcy.com) | Andover, MA | Rugged embedded computing; VPX modules and rackmount subsystems; Navy/Army programs | Sole-source supplier on key programs; RES Trust XR6; SOSA transition underway |
-| [OSTO](https://finance.yahoo.com/quote/OSTO) | [One Stop Systems](https://onestopsystems.com) | Escondido, CA | "AI on the Fly" (AIFLY) rackmount AI compute servers | P-8A Poseidon, Virginia-class submarine, USSOCOM CRADA; Q4 2025 +70% YoY |
+| [MRCY](https://finance.yahoo.com/quote/MRCY) | [Mercury Systems](https://www.mrcy.com) | Andover, MA | Rugged embedded computing; VPX modules and rackmount subsystems; Navy/Army programs | FY2026 revenue $984M, backlog $1.9B+; sole-source claims in 10-K; SOSA member |
+| [OSS](https://finance.yahoo.com/quote/OSS) | [One Stop Systems](https://onestopsystems.com) | Escondido, CA | "AI on the Fly" (AIFLY) rackmount AI compute servers | P-8A Poseidon, Virginia-class submarine, USSOCOM CRADA; Q2 2026 revenue +62% YoY |
 | [CW](https://finance.yahoo.com/quote/CW) | [Curtiss-Wright Defense Solutions](https://defense-solutions.curtisswright.com) | Davidson, NC | Defense electronics; VPX3-730/VPX6-731 Blackwell SOSA-aligned modules; PacStar 431/452 tactical AI servers | Established defense prime; both VPX module and integrated server tiers |
 
 <!-- TradingView Widget BEGIN -->
@@ -102,7 +102,7 @@ Mid-tier platforms between full MIL-spec defense compute and commercial servers 
         "title": "Rugged Edge Compute",
         "symbols": [
           {"s": "NASDAQ:MRCY", "d": "Mercury Systems"},
-          {"s": "NASDAQ:OSTO", "d": "One Stop Systems"},
+          {"s": "NASDAQ:OSS", "d": "One Stop Systems"},
           {"s": "NYSE:CW", "d": "Curtiss-Wright"}
         ],
         "originalTitle": "Rugged Edge Compute"

@@ -1,346 +1,212 @@
 ---
 title: "Zipline International"
 date: 2026-03-24
-lastmod: 2026-03-24
+lastmod: 2026-10-23
 draft: false
-description: "South San Francisco autonomous drone delivery leader; P2 Zip platform (8 lb payload, 10 mi range, 70 mph cruise, 1 m delivery precision via tethered droid); 2+ million cumulative deliveries as of Jan 2026; 17 active Walmart locations in DFW metroplex (P2 operations since Apr 2025); FAA Part 135 air carrier certificate (Jun 2022) + BVLOS waivers; $7.6B valuation (Jan 2026 Series H, $600M Valor Equity Partners lead); operations across US, Rwanda, Ghana, Nigeria, Kenya, Côte d'Ivoire; 100M+ autonomous miles flown, zero reported safety incidents as of Mar 2026."
+description: "South San Francisco autonomous drone delivery operator; Platform 2 home delivery (8 lb, 10-mile radius) with Walmart in DFW and Arkansas; 2.5M+ deliveries and 140M+ autonomous miles (company, Sept 2026); $800M Series H at $7.6B (Jan–Mar 2026); Uber partnership targeting 1M daily deliveries by 2029; reportedly in talks at about $20B; two P2 parachute landings in Texas in 2026."
 research_area: "robotics/aerial-drones"
 source_urls:
+  - "https://www.zipline.com/about/zipline-fact-sheet"
+  - "https://techcrunch.com/2026/01/21/zipline-charts-drone-delivery-expansion-with-600m-in-new-funding/"
+  - "https://dronexl.co/2026/03/23/zipline-repeat-orders-drive-growth/"
+  - "https://techcrunch.com/2026/03/23/zipline-snaps-up-another-200m-to-fuel-its-drone-delivery-expansion/"
+  - "https://dronelife.com/2026/08/17/uber-and-zipline-target-one-million-drone-deliveries-a-day-by-2029/"
+  - "https://www.stattimes.com/amp/aviation/zipline-in-talks-to-raise-1billion-at-a-20billion-valuation-1360718"
+  - "https://dronexl.co/tracker/drone-delivery/operators/zipline/"
+  - "https://www.click2houston.com/news/local/2026/09/04/food-delivery-drone-crashes-onto-highway-6-in-nw-harris-county/"
+  - "https://dronexl.co/2026/09/16/zipline-answers-drone-safety-questions-amazon-wing-silent/"
+  - "https://dronexl.co/2026/02/05/zipline-rwanda-nationwide-autonomous-delivery/"
+  - "https://techcabal.com/2025/11/25/zipline-secures-150m-to-scale-ai-drone-delivery-across-africa/"
+  - "https://dronexl.co/2025/11/05/zipline-drone-delivery-mckinney-texas-walmart/"
+  - "https://www.cnbc.com/2025/04/08/drone-delivery-startup-zipline-expands-to-texas-with-walmart.html"
   - "https://www.cnbc.com/2023/03/15/zipline-unveils-p2-delivery-drones-that-dock-and-recharge-autonomously.html"
   - "https://spectrum.ieee.org/delivery-drone-zipline-design"
-  - "https://dronexl.co/2025/01/16/zipline-completes-first-customer-delivery-p2-drone/"
-  - "https://www.cnbc.com/2025/04/08/drone-delivery-startup-zipline-expands-to-texas-with-walmart.html"
-  - "https://dronexl.co/2025/11/05/zipline-drone-delivery-mckinney-texas-walmart/"
-  - "https://techcrunch.com/2026/01/21/zipline-charts-drone-delivery-expansion-with-600m-in-new-funding/"
-  - "https://dronexl.co/2026/01/20/zipline-reaches-7-6-billion-valuation-drone/"
   - "https://www.aopa.org/news-and-media/all-news/2022/june/27/zipline-gets-faa-part-135-certification"
-  - "https://hir.harvard.edu/scaling-autonomous-solutions-an-interview-with-ceo-of-zipline-keller-rinaudo-cliffton/"
-  - "https://dronedj.com/2025/11/17/zipline-drone-delivery-safety/"
-  - "https://dronexl.co/2026/02/05/zipline-rwanda-nationwide-autonomous-delivery/"
-  - "https://www.axios.com/2025/11/25/state-department-africa-zipline"
-last_reviewed: 2026-03-24
+  - "https://www.faa.gov/newsroom/faa-authorizes-zipline-deliver-commercial-packages-beyond-line-sight"
+  - "https://computerhistory.org/profile/keller-rinaudo/"
+last_reviewed: 2026-10-23
 stale_after_days: 90
 related:
   - "robotics/aerial-drones/_index.md"
-  - "robotics/aerial-drones/wing-aviation.md"
+  - "robotics/aerial-drones/wingcopter.md"
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
 
-
 ## Summary
 
-Zipline International (South San Francisco, CA) is the leading commercial autonomous drone delivery platform operator globally, with 2+ million cumulative deliveries completed as of January 2026. The company operates across eight countries: the United States, Rwanda, Ghana, Nigeria, Kenya, Côte d'Ivoire, Japan, and operations expanding to new markets. Its Platform 2 (P2 Zip) system—a hybrid VTOL fixed-wing drone paired with a tethered autonomous "droid" for precision delivery—became commercially operational with Walmart in Dallas-Fort Worth in April 2025. Zipline holds FAA Part 135 air carrier certification (June 2022) and multiple BVLOS (beyond visual line of sight) operational waivers enabling fully autonomous commercial delivery without human visual observers. As of January 2026, the company was valued at $7.6 billion following a $600 million Series H funding round led by Valor Equity Partners, up from $4.2 billion (April 2023). The company has flown over 100 million autonomous miles with zero reported safety incidents as of March 2026.
+Zipline International (South San Francisco, CA) designs, builds and operates its own delivery drones and sells delivery as a service rather than licensing aircraft. Its Platform 2 (P2 Zip) home-delivery system, a VTOL fixed-wing aircraft that lowers a tethered "droid" to the drop point, has been in commercial US service with Walmart since April 2025. Zipline says it has completed more than 2.5 million deliveries and flown more than 140 million autonomous miles (September 2026, company figures). In 2026 it raised an $800M Series H at a $7.6B valuation, announced a partnership with Uber (August) and was reported by Bloomberg in September to be in early talks to raise about $1B at roughly $20B. Two P2 parachute landings in Texas (July and September 2026) are the first publicly reported operational events of that kind in the sources reviewed.
 
 ## Key Facts
 
-- **Founded:** 2014
+- **Founded:** 2014; first delivery in 2016 (Rwanda)
 - **HQ:** South San Francisco, CA, USA
-- **Type:** Private (Series H, $7.6B valuation)
-- **Key platform:** Platform 2 Zip (P2); Platform 1 Zip (P1, legacy)
-- **P2 Zip specs (verified):** 8 lb (3.6 kg) payload; 10 mi (16 km) service radius; 70 mph (110 km/h) cruise speed; 300 ft hover altitude; tethered droid delivery mechanism achieving ~1 m (3.3 ft) precision; autonomous dock-to-dock recharge up to 24 mi one-way
-- **P1 Zip specs (legacy):** 5 lb payload; 60 mi radius; parachute descent; manual ground assembly between flights
-- **Cumulative deliveries:** 2+ million (as of Jan 2026); 100+ million autonomous miles flown
-- **US operations:** 17 active Walmart locations in Dallas-Fort Worth metroplex (as of Nov 2025); FAA Part 135 air carrier certificate; BVLOS waivers in Arkansas, Utah, Texas
-- **International operations:** Rwanda (2 distribution centers, 3rd hub in construction; first nationwide autonomous delivery network); Ghana (3 centers temporarily suspended Nov 2025 due to unpaid government debt); Nigeria, Kenya, Côte d'Ivoire; Japan (regulatory status: operational as of May 2025)
-- **Funding:** Approximately $1.78 billion raised cumulatively; most recent $600M Series H (Jan 2026, Valor Equity Partners lead); additional $200M Series H tranche (Mar 2026)
-- **Valuation trajectory:** $4.2B (Apr 2023, Series F) → $7.6B (Jan 2026, Series H)
-- **Key partnerships:** Walmart (primary US commercial partner; 17 DFW locations); US State Department ($150M Africa expansion contract, Nov 2025); GAVI, COVAX, UPS Foundation (humanitarian medical delivery in Africa)
-- **Safety record:** Zero reported incidents as of March 2026; 120+ million incident-free autonomous miles; parachute system on all units
+- **Type:** Private
+- **Funding:** $800M Series H: $600M announced January 2026 at $7.6B (Fidelity, Baillie Gifford, Valor Equity Partners, Tiger Global) plus $200M extension in March 2026 (Paradigm participating). Cumulative funding not stated in sources reviewed.
+- **Reported next round:** early talks for about $1B at about $20B, led by Paradigm per Bloomberg (reported 2026-09-16, unconfirmed by the company)
+- **Platform 2 (P2 Zip):** up to 8 lb payload; 10-mile service radius (24 miles one way dock to dock); 70 mph cruise; tethered droid delivery
+- **Platform 1 (P1 Zip):** long-range enterprise, business and government deliveries; 4 lb payload; 120+ miles round trip; 60 mph cruise (per Zipline fact sheet)
+- **Company-reported scale:** 2.5M+ deliveries and 140M+ autonomous miles since 2016 (September 2026); 5,000+ hospitals and health facilities served regularly
+- **US markets:** Dallas-Fort Worth suburbs and Pea Ridge, Arkansas (Walmart); Cypress/Houston area; Austin; Beachwood, Ohio (Cleveland Clinic, since August 2026); Tampa Bay (BayCare, announced July 2026); Seattle under FAA review
+- **Africa:** Rwanda, Ghana, Nigeria, Kenya, Côte d'Ivoire
+- **Regulatory:** FAA Part 135 air carrier certificate (2022, per AOPA); FAA authorized up to 400 flights per day at Pea Ridge (2026-03-24, per DroneXL tracker); Part 108 (BVLOS rule) was still unsigned as of September 2026 per DroneXL
+- **Key partners:** Walmart, Uber (strategic investment, undisclosed), Cleveland Clinic, BayCare, US State Department (up to $150M for African expansion)
 
 ## What It Is / How It Works
 
-Zipline operates a **platform OEM + services integration model**, manufacturing its own drones and operating them directly for end customers rather than licensing to third-party operators. This vertical integration extends from drone design and manufacturing to autonomous flight operations, regulatory compliance, and customer logistics.
+Zipline operates a **platform OEM + operator** model: it manufactures its aircraft and runs the delivery network itself, handling flight operations, regulatory approvals and customer integration.
 
-### Platform 2 (P2 Zip) System
+### Platform 2 (P2 Zip)
 
-The P2 Zip is a **hybrid VTOL fixed-wing platform** with two independent functional subsystems:
+The P2 is a hybrid VTOL fixed-wing aircraft with lift rotors for takeoff and hover and cruise propellers for forward flight. At the delivery point it lowers a tethered autonomous droid that places the package; Zipline and press coverage cite placement within about 1 meter (3.3 ft) ([CNBC](https://www.cnbc.com/2023/03/15/zipline-unveils-p2-delivery-drones-that-dock-and-recharge-autonomously.html), [IEEE Spectrum](https://spectrum.ieee.org/delivery-drone-zipline-design)). The aircraft returns to a dock that recharges it. Zipline says its aircraft carry redundant propellers, communications equipment and a parachute.
 
-1. **Drone (the Zip):** A vertical takeoff and landing aircraft with both lift propellers (for VTOL and hover) and cruise propellers (for forward flight). The airframe is fixed-wing, enabling efficient cruise flight at 70 mph and up to 24 miles one-way range dock-to-dock. The drone maintains a cruising altitude of 300 feet to minimize noise pollution while remaining above urban obstacles.
+### Platform 1 (P1 Zip)
 
-2. **Droid (the delivery mechanism):** A tethered autonomous micro-aircraft deployed from the Zip's belly at the delivery location. The droid descends on a thin tether, uses three electrically driven fans for position control, and can maneuver into tight residential spaces with ±1 meter (3.3 feet) precision. The droid is fully autonomous—it navigates itself to the delivery point, orients the package, and initiates pickup without requiring manual retrieval. The tether is the critical safety feature: it enables the droid to pull back if it encounters unexpected obstacles or adverse wind, and allows the Zip to recover it immediately.
+P1 is the earlier long-range fixed-wing aircraft used for enterprise, health-care and government deliveries over up to 120 miles round trip. It remains the platform for much of the African network.
 
-### Regulatory Integration
+### Operations
 
-Zipline's P2 operations under FAA Part 135 certification and BVLOS waivers operate **without visual observers** or chase vehicles, enabling true point-to-point autonomous delivery. The company uses onboard acoustic detect-and-avoid (DAA) systems to continuously monitor airspace in real time. Each unit carries a ballistic parachute system as a final safety failsafe.
-
-### Operational Model
-
-- Deliveries are ordered through Walmart's mobile app or web interface; eligible delivery zones display 30-minute delivery windows.
-- Zipline operates from fixed distribution hubs (docks that resemble street lamp installations with autonomous charging arms).
-- The P2 can recharge autonomously at dock stations between flights, enabling continuous on-demand operation without manual ground crew intervention between flights.
-- Payload is limited to 8 pounds (3.6 kg), targeting fast-moving consumer goods: groceries, over-the-counter medications, household items, small apparel.
-
-### Comparison to Platform 1 (P1 Zip — Legacy)
-
-The P1 Zip (2014–2024) was a fixed-wing glider design with a 60-mile radius and 5-pound payload capacity. Deliveries were made via parachute descent into areas roughly the size of two parking spaces. The P1 required manual disassembly and battery swaps between flights, limiting operational cadence. Zipline has transitioned all new US commercial deployments to P2; P1 units remain in legacy international operations (primarily Africa).
+Customers order through partner apps (Walmart, restaurant brands, and from late 2026 Uber Eats). Zipline says basket size and the number of brands on its own app have grown quickly in 2026 (average items per order up more than 20% in the three weeks before March 2026; business count on the app up 13-fold in the first half of 2026 per Bloomberg via STAT Times). Delivery volumes are company-reported and include all platforms and geographies.
 
 ## Notable Developments
 
-### 2026
-
-- **2026-03:** Zipline announces additional $200M Series H funding, bringing total Series H to $800M; repeat orders from Walmart accelerate deployment beyond initial projections. ([DroneXL](https://dronexl.co/2026/03/23/zipline-repeat-orders-drive-growth/))
-- **2026-02:** Rwanda becomes first country to sign nationwide autonomous delivery expansion agreement; P2 (urban delivery) launch planned for Kigali, Musanze, and Rubavu; third distribution hub announced for Karongi District; AI/robotics R&D facility opening in Rwanda. ([DroneXL](https://dronexl.co/2026/02/05/zipline-rwanda-nationwide-autonomous-delivery/))
-- **2026-03:** Zipline surpasses 2M cumulative deliveries; operations expand to Houston, Phoenix, and Seattle announced. ([TechFunding News](https://techfundingnews.com/zipline-surpasses-2m-drone-deliveries-bags-600m-from-tiger-global-and-others-at-7-6b-valuation/))
-
-### 2025
-
-- **2025-11:** US State Department awards Zipline $150M contract for African medical drone delivery expansion across Rwanda, Ghana, Nigeria, Kenya, Côte d'Ivoire; pay-for-performance structure with African governments contributing up to $400M in utilization fees; expansion from 5,000 to 15,000 health facilities. ([Axios](https://www.axios.com/2025/11/25/state-department-africa-zipline); [Tech Cabal](https://techcabal.com/2025/11/25/zipline-secures-150m-to-scale-ai-drone-delivery-across-africa/))
-- **2025-11:** Ghana temporarily suspends three distribution centers (Nov 2025) due to ~$15M in unpaid government bills; political backlash in Parliament. ([DroneXL / news coverage](https://dronexl.co/2025/11/05/zipline-drone-delivery-mckinney-texas-walmart/))
-- **2025-11:** McKinney, TX launch expands Walmart partnership to 17 locations across Dallas-Fort Worth metroplex. ([Community Impact](https://communityimpact.com/dallas-fort-worth/mckinney/business/2025/11/05/zipline-drone-delivery-launches-in-mckinney/))
-- **2025-10:** Walmart announces plans to bring drone deliveries to "most areas we operate in"; Zipline and Wing (Alphabet) together offer coverage to ~75% of DFW population (~1.8M households).
-- **2026-01:** Zipline raises $600M Series H at $7.6B valuation; led by Valor Equity Partners, includes Fidelity Management & Research, Baillie Gifford, Tiger Global. ([Bloomberg](https://www.bloomberg.com/news/articles/2026-01-20/drone-delivery-startup-zipline-hits-7-6-billion-valuation); [DroneXL](https://dronexl.co/2026/01/20/zipline-reaches-7-6-billion-valuation-drone/))
-- **2025-03:** Zipline achieves 100 million autonomous miles milestone. ([The Drone Girl](https://www.thedronegirl.com/2025/03/14/zipline-100-million-miles/))
-- **2025-04:** P2 Zip makes first Walmart delivery in Mesquite, Texas (Dallas-Fort Worth); commercial Platform 2 operations officially begin. ([CNBC](https://www.cnbc.com/2025/04/08/drone-delivery-startup-zipline-expands-to-texas-with-walmart.html))
-
-### 2024–2023
-
-- **2023-03:** Platform 2 (P2 Zip) unveiled with autonomous droid delivery mechanism; system announced as capable of delivering within 1–3.3 feet precision and recharging autonomously. ([CNBC](https://www.cnbc.com/2023/03/15/zipline-unveils-p2-delivery-drones-that-dock-and-recharge-autonomously.html); [IEEE Spectrum](https://spectrum.ieee.org/delivery-drone-zipline-design))
-- **2023-04:** Series F funding: $330M led by Baillie Gifford and Temasek; valuation $4.2B. ([Crunchbase](https://www.crunchbase.com/organization/zipline-international))
-
-### 2022 & Earlier
-
-- **2022-06:** Zipline receives FAA Part 135 air carrier certification; first fixed-wing UAS operator certified under BEYOND program; enables BVLOS commercial delivery operations without human visual observers. ([AOPA](https://www.aopa.org/news-and-media/all-news/2022/june/27/zipline-gets-faa-part-135-certification); [Flying Magazine](https://www.flyingmag.com/zipline-receives-faa-part-135-carrier-certificate/))
-- **2022:** Operational in Arkansas and Utah under Part 135.
-- **2016–2019:** International deployment phase; Rwanda (Muhanga distribution center, 2016; Kayonza center, 2018); Ghana (first distribution center, Apr 2019).
-- **2014:** Company founded by Keller Rinaudo Cliffton and team.
+- **2026-10:** Zipline marks its tenth anniversary; deliveries reported in Austin and Denton, TX. ([DroneXL tracker](https://dronexl.co/tracker/drone-delivery/operators/zipline/))
+- **2026-09:** Bloomberg reports early talks to raise about $1B at about $20B, led by Paradigm (2026-09-16); Zipline asks the FAA for 220,000 daily deliveries across Texas (2026-09-15); FAA draft environmental assessment for five Texas metros posted 2026-09-11. ([STAT Times](https://www.stattimes.com/amp/aviation/zipline-in-talks-to-raise-1billion-at-a-20billion-valuation-1360718), [DroneXL tracker](https://dronexl.co/tracker/drone-delivery/operators/zipline/))
+- **2026-09-04:** A P2 aircraft makes a parachute landing on Highway 6 in Cypress, TX after a "midflight issue"; Zipline reported no injuries or property damage, and the cause was undetermined. ([KPRC 2](https://www.click2houston.com/news/local/2026/09/04/food-delivery-drone-crashes-onto-highway-6-in-nw-harris-county/))
+- **2026-08-17:** Uber and Zipline announce a partnership with an Uber strategic investment (terms undisclosed); first Uber Eats drone deliveries in Dallas and Houston later in 2026; shared target of 1M deliveries per day by end of 2029. ([DroneLife](https://dronelife.com/2026/08/17/uber-and-zipline-target-one-million-drone-deliveries-a-day-by-2029/))
+- **2026-08:** Cleveland Clinic prescription deliveries go live in Beachwood, OH. ([DroneXL tracker](https://dronexl.co/tracker/drone-delivery/operators/zipline/))
+- **2026-07-26:** A P2 parachute landing in Greenville, TX with no injuries reported. ([DroneXL tracker](https://dronexl.co/tracker/drone-delivery/operators/zipline/))
+- **2026-03-24:** FAA authorizes up to 400 flights per day at Pea Ridge, AR. ([DroneXL tracker](https://dronexl.co/tracker/drone-delivery/operators/zipline/))
+- **2026-03-23:** $200M added to the Series H, bringing it to $800M; Seattle confirmed as a 2026 market; national Rwanda contract adds P2 urban delivery and a third distribution center. ([TechCrunch](https://techcrunch.com/2026/03/23/zipline-snaps-up-another-200m-to-fuel-its-drone-delivery-expansion/), [DroneXL](https://dronexl.co/2026/03/23/zipline-repeat-orders-drive-growth/))
+- **2026-02-05:** Rwanda signs the first expansion under the State Department award; Kigali, Musanze and Rubavu planned for P2 home delivery; AI/robotics R&D facility to be hosted in Rwanda. ([DroneXL](https://dronexl.co/2026/02/05/zipline-rwanda-nationwide-autonomous-delivery/))
+- **2026-01-20:** $600M Series H at $7.6B; Houston and Phoenix early-2026 launches, at least four US states planned for the year. ([TechCrunch](https://techcrunch.com/2026/01/21/zipline-charts-drone-delivery-expansion-with-600m-in-new-funding/))
+- **2025-11:** McKinney, TX becomes Zipline's seventh operating Walmart location in the Dallas-Fort Worth area. ([DroneXL](https://dronexl.co/2025/11/05/zipline-drone-delivery-mckinney-texas-walmart/))
+- **2025-11:** US State Department pay-for-performance award of up to $150M to expand Zipline's African health delivery, released as governments sign national contracts. ([TechCabal](https://techcabal.com/2025/11/25/zipline-secures-150m-to-scale-ai-drone-delivery-across-africa/))
+- **2025-04:** First P2 commercial deliveries with Walmart in the Dallas-Fort Worth area. ([CNBC](https://www.cnbc.com/2025/04/08/drone-delivery-startup-zipline-expands-to-texas-with-walmart.html))
+- **2023-09:** FAA authorizes beyond-visual-line-of-sight delivery around Salt Lake City without visual observers. ([FAA](https://www.faa.gov/newsroom/faa-authorizes-zipline-deliver-commercial-packages-beyond-line-sight))
+- **2023-03:** P2 and the tethered droid unveiled. ([CNBC](https://www.cnbc.com/2023/03/15/zipline-unveils-p2-delivery-drones-that-dock-and-recharge-autonomously.html))
+- **2022-06:** FAA Part 135 air carrier certification. ([AOPA](https://www.aopa.org/news-and-media/all-news/2022/june/27/zipline-gets-faa-part-135-certification))
+- **2016:** First delivery, to a hospital in Rwanda. ([Zipline](https://www.zipline.com/about/zipline-fact-sheet))
 
 ## Key People
 
 ### Keller Rinaudo Cliffton — Co-Founder and CEO
 - **LinkedIn:** [linkedin.com/in/kellerrc](https://www.linkedin.com/in/kellerrc)
-- **Role:** Co-founder; CEO from 2014–present
-- **Education:** Harvard University (B.S., 2009); minor in applied mathematics; specialized in synthetic biology and robotics
-- **Earlier research:** Bauer Genomics Lab, Harvard (2005–2008), building molecular computers from RNA/DNA for in-vivo therapeutic applications; first-author publication in *Nature Biotechnology*
-- **Pre-Zipline career:** Software engineer with focus on robotics and autonomous systems
-- **Other expertise:** Professional rock climber; international climbing experience
-- **Notes:** Rinaudo represents the rare intersection of synthetic biology (molecular engineering) and robotics; founded Zipline at age 23 directly after Harvard graduation. His research background in cellular computation informs Zipline's autonomous decision-making systems.
+- **Role:** Co-founder and CEO
+- **Education:** Harvard University graduate
+- **Background:** Software engineer and professional rock climber; as a researcher built RNA/DNA-based molecular computers and published the work in *Nature Biotechnology* ([Computer History Museum](https://computerhistory.org/profile/keller-rinaudo/))
 
-### Co-Founders (Core Team)
-The company was founded by Keller Rinaudo Cliffton alongside:
-- **Keenan Wyrobek** — Early technical lead (robotics engineering)
-- **William Hetzler** — Founding team
-- **Peter Seid** — Founding team
-- **Phu Nguyen** — Founding team
+### Keenan Wyrobek — Co-Founder
+- **Role:** Co-founder; head of product and engineering (per IEEE Spectrum author page, not fetched in full)
+- **LinkedIn:** not found
 
-### Executive Leadership (Current)
-Detailed current executive team information is limited in public sources. Zipline maintains selective executive disclosure. The company is known for technical depth in autonomy, sensor fusion, and regulatory operations, but does not extensively promote executive biographies beyond CEO-level.
+Other founding-team members and current executives were not confirmed from fetched sources.
 
-**⚑ People note:** Zipline's technical culture emphasizes engineering talent from robotics, aerospace, and autonomous systems backgrounds. Several early hires came from academic robotics programs (Carnegie Mellon, MIT, Stanford) and from prior autonomous vehicle work. No overlapping DARPA program manager relationships documented at founding. Strong recruitment from West Coast robotics clusters (Stanford AI Lab, UC Berkeley EECS).
+### People — Last Reviewed: 2026-10-23
 
 ## Supply Chain Position
 
-Zipline operates at the **Platform Integration + Direct Operations** layer, manufacturing complete P2 Zip drones in-house and operating them as a commercial service (not licensing to third parties). The company does NOT primarily supply components to other OEMs; instead, it is a **vertically integrated platform operator** — similar to Amazon or Alphabet's Wing in structure, not to a supplier like DJI or motor manufacturers.
+Zipline sits at the **Platform Integration + Direct Operations** layer, assembling P2 aircraft at a US manufacturing facility and operating them as a service. Zipline does not publish its component suppliers.
 
-### Component Suppliers (Inferred)
+**Compute:** Zipline has been described as using NVIDIA Jetson edge AI modules ([DroneLife, 2023](https://dronelife.com/2023/12/14/whats-inside-the-zipline-platform-nvidia-jetson-edge-ai/); page not retrievable for verification).
 
-**Compute & Autonomy:**
-- Flight control: Custom onboard compute stack; references in public materials to edge AI inference suggest **NVIDIA Jetson** modules for onboard perception/decision-making. ([DRONELIFE](https://dronelife.com/2023/12/14/whats-inside-the-zipline-platform-nvidia-jetson-edge-ai/))
-- Acoustic detect-and-avoid (DAA): Proprietary; announced as differentiation point vs. competitors.
+**Not disclosed:** motors, batteries, structural materials, GNSS, parachute supplier.
 
-**Propulsion:**
-- Motors: Unannounced; likely BLDC units custom-matched to P2 aerodynamics.
-- ESCs (electronic speed controllers): Proprietary or custom-sourced.
+**Rare earth dependency:** Brushless propulsion motors generally rely on NdFeB magnets with processing concentrated in China; Zipline has not described mitigation.
 
-**Structural & Mechanics:**
-- Airframe: Carbon fiber / advanced composites (inferred from weight/performance targets).
-- Tether & droid mechanism: Proprietary mechanical design; high-precision deployment system is core IP.
-
-**Power:**
-- Battery packs: Chemistry and supplier not disclosed; typical practice for similar platforms is LiPo or LiPo-compatible cells. Zipline emphasizes dock-based autonomous charging as a logistics advantage rather than battery depth.
-
-**Sensors:**
-- GNSS/IMU: Likely u-blox or similar high-reliability modules; acoustic DAA is primary sensor differentiation.
-- Camera/vision: Unannounced; droid requires position sensing for descent and placement.
-
-**Regulatory & Safety:**
-- Parachute system: Supplier unannounced; ballistic parachute is standard in advanced drone designs (similar to DJI Enterprise parachute systems).
-
-### Supply Chain Risks
-
-**⚑ Shared supplier risk — NVIDIA Jetson availability:** If Zipline relies on NVIDIA Jetson modules for onboard autonomy compute, it shares a supplier with Wing Aviation, Amazon Prime Air, and numerous autonomous vehicle companies. NVIDIA's Jetson product line has experienced supply constraints; this is a potential operational scaling bottleneck. Not independently verified by Zipline; inferred from public technology discussions.
-
-**⚑ Rare earth dependency (propulsion motors):** All BLDC motors in the P2 depend on permanent magnet rotors (NdFeB magnets). China controls ~85% of global rare earth mining and >90% of processing. Zipline has not publicly disclosed supply chain mitigation for rare earth inputs. This is a systemic risk across the entire aerial robotics industry, but it is not uniquely called out by Zipline.
-
-**International operations geopolitical risk:** Zipline's presence in Rwanda, Ghana, Kenya, Nigeria, and Côte d'Ivoire positions it favorably for emerging market medical logistics. However, operations in Ghana face near-term risk due to government payment defaults (Nov 2025 suspension of 3 distribution centers). Dependency on State Department funding for Africa expansion ($150M contract, Nov 2025) creates policy risk if US priorities shift.
+**Operating dependencies:** US State Department funding underpins the African expansion; Africa-based service depends on national government contracts and payment. In the US, scale depends on FAA approvals (Part 108 unsigned as of September 2026).
 
 ## Claim Verification
 
-### Claim 1: P2 Zip Delivery Precision — "Within 1 meter (3.3 feet)"
+### Claim: 2.5M+ deliveries and 140M+ autonomous miles
 
-**Status:** Verified via product specification and independent media documentation.
-
-**Supporting sources:**
-- [Zipline Platform 2 unveiling (CNBC, Mar 2023)](https://www.cnbc.com/2023/03/15/zipline-unveils-p2-delivery-drones-that-dock-and-recharge-autonomously.html) — "Packages delivered within a 1 metre (3.3 ft) diameter"
-- [IEEE Spectrum (Platform 2 design deep dive)](https://spectrum.ieee.org/delivery-drone-zipline-design) — Technical validation of droid sensor and thrust vectoring; confirms 1-meter delivery zone feasibility
-- [TechCrunch (Mar 2023)](https://techcrunch.com/2023/03/15/zipline-unveils-cute-little-droid-to-make-drone-delivery-more-accurate/) — Third-party confirmation of droid precision mechanism
-- Zipline's own product documentation and fact sheet
-
-**Earlier claim ("6 feet" / "2 meters"):** Early public statements mentioned broader delivery zones; Zipline subsequently clarified that the droid achieves narrower precision (~1 m; ~3.3 ft) than original messaging. No independent third-party validation of actual field performance yet available (as of Mar 2026), but design reviews by IEEE and technical media confirm the mechanism is sound.
-
-**Summary:** The 1-meter specification is credible and widely cited, but field performance data from actual Walmart deliveries (operational since Apr 2025) has not been publicly reported by independent sources. The design is validated; real-world performance validation pending.
-
----
-
-### Claim 2: 100+ Million Autonomous Miles Flown, Zero Incidents
-
-**Status:** Partially verified; incident definition and scope require clarification.
+**Status:** Partially verified
 
 **Supporting sources:**
-- [The Drone Girl (Mar 2025)](https://www.thedronegirl.com/2025/03/14/zipline-100-million-miles/) — Documents 100M autonomous miles milestone
-- [Zipline Safety Fact Sheet](https://www.zipline.com/about/zipline-fact-sheet) — Cites 120+ million incident-free autonomous miles
-- [DroneXL / various coverage](https://dronexl.co/2025/11/17/zipline-drone-delivery-safety/) — References to clean safety record
+- [DroneXL tracker](https://dronexl.co/tracker/drone-delivery/operators/zipline/) — Zipline statement of 2.5M+ deliveries and 140M+ miles (2026-09-04)
+- [KPRC 2](https://www.click2houston.com/news/local/2026/09/04/food-delivery-drone-crashes-onto-highway-6-in-nw-harris-county/) — Zipline quoted with the same figures
 
-**Documented incident (Mar 2025):**
-- [DroneXL / Safety Testing article](https://dronexl.co/2025/11/17/zipline-drone-delivery-safety/) — Zipline conducted a deliberate stress test on March 24, 2025, where new flight-control software caused undamped oscillation in one motor. The drone's parachute safety system deployed as designed; the aircraft landed safely on a protective barrier. This was a **controlled test incident**, not an operational failure. The issue was resolved in <24 hours via software patch, and the same test was re-run successfully.
+**Refuting / questioning sources:**
+- [DroneXL](https://dronexl.co/2026/09/16/zipline-answers-drone-safety-questions-amazon-wing-silent/) — cannot verify the miles figure
+- STAT Times (Bloomberg-based) says Zipline's website claims nearly 3M deliveries, which does not match the 2.5M figure
 
-**Interpretation:** Zipline's claim of "zero incidents" refers to **operational/commercial deliveries**, not to all testing or engineering work. The March 2025 stress test was intentional (motor power deliberately cut mid-flight) and resulted in successful parachute deployment—the system worked as designed. This does not constitute a safety incident in the operational sense.
+**Summary:** Figures are company-reported and have not been independently audited.
 
-**Refuting sources:** None found. No reports of crashes, lost packages, injuries, or safety violations in commercial operations (US or Africa) as of March 2026.
+### Claim: Safety record ("without injury")
 
-**Comparison to competitors:**
-- Amazon Prime Air: Reported multiple incidents in early 2025 (cable entanglement in Waco TX; collision with construction crane near Phoenix); temporary suspension of operations in Jan 2025 pending FAA investigation. ([DroneXL](https://dronexl.co/2025/01/21/amazon-drone-delivery-crash-mk30/))
-- Wing Aviation: No major reported incidents in 2025 public disclosures.
-
-**Summary:** Zipline's operational safety record appears clean relative to competitors. The "zero incidents" claim is credible for commercial operations. Parachute system has been demonstrated to work in controlled stress tests. No field delivery failures reported.
-
----
-
-### Claim 3: 2+ Million Cumulative Deliveries (as of Jan 2026)
-
-**Status:** Verified via company announcement and financial reporting.
+**Status:** Partially verified
 
 **Supporting sources:**
-- [TechFunding News (Jan 2026)](https://techfundingnews.com/zipline-surpasses-2m-drone-deliveries-bags-600m-from-tiger-global-and-others-at-7-6b-valuation/) — "Zipline surpasses 2M drone deliveries"
-- [DroneXL / Expansion announcement](https://dronexl.co/2026/01/21/zipline-drone-delivery-valuation-expansion/) — Confirms 2M deliveries, 1M achieved in 2024
-- Multiple Series H press releases (Jan 2026) cite the milestone
+- [KPRC 2](https://www.click2houston.com/news/local/2026/09/04/food-delivery-drone-crashes-onto-highway-6-in-nw-harris-county/) — Zipline reports no injuries or property damage in the 2026-09-04 event
 
-**Growth trajectory:**
-- 1M deliveries cumulative by end of 2024
-- 2M deliveries cumulative by Jan 2026 (~1M in 2025 alone)
-- Growth rate ~15% week-over-week in late 2025
+**Refuting / questioning sources:**
+- [DroneXL](https://dronexl.co/2026/09/16/zipline-answers-drone-safety-questions-amazon-wing-silent/) — two P2 parachute landings in Texas (2026-07-26 Greenville, 2026-09-04 Cypress); Zipline did not explain either; a safety document was said to be forthcoming
 
-**Interpretation:** The 2M figure is company-reported but corroborated by multiple press outlets and investor presentations. It counts all deliveries across all geographies (US, Africa) and platforms (P1 legacy + P2 commercial). The US P2 Walmart program (operational since Apr 2025, 7 months by Jan 2026) likely accounts for several hundred thousand of these; the remainder are historical Africa operations and residual P1 flights.
+**Summary:** No injuries have been reported, but the aircraft has landed under parachute twice in Texas in 2026 and the cause of the September event was undetermined.
 
-**Summary:** 2M cumulative deliveries is verified. Growth trajectory is consistent with public operational reporting.
+### Claim: Delivery precision of about 1 meter
 
----
-
-### Claim 4: Platform 2 (P2 Zip) Payload Capacity — 8 pounds (3.6 kg)
-
-**Status:** Verified; matches specifications across multiple independent sources.
+**Status:** Partially verified
 
 **Supporting sources:**
-- [CNBC (Mar 2023) — P2 announcement](https://www.cnbc.com/2023/03/15/zipline-unveils-p2-delivery-drones-that-dock-and-recharge-autonomously.html) — "up to 8 pounds of cargo"
-- [DroneXL / First Customer Delivery](https://dronexl.co/2025/01/16/zipline-completes-first-customer-delivery-p2-drone/) — Reiterates 8-pound payload
-- [Loyalty Drones / Partnership coverage](https://loyaltydrones.com/zipline-expands-drone-delivery-with-walmart-partnership/) — Confirms payload spec
+- [CNBC](https://www.cnbc.com/2023/03/15/zipline-unveils-p2-delivery-drones-that-dock-and-recharge-autonomously.html) and [IEEE Spectrum](https://spectrum.ieee.org/delivery-drone-zipline-design) — design-stage description of the droid placement mechanism
 
-**Droid specifications (internal):**
-- Droid carries 2.5–3.5 kg (5.5–7.7 lb) payload
-- Total P2 system payload margin suggests 8 lb is the design ceiling including droid weight
+**Refuting / questioning sources:**
+- No independent field-performance data from Walmart operations was found.
 
-**Summary:** 8-pound payload is consistently reported and credible for the stated 10-mile service radius and speed envelope.
+**Summary:** A design specification with no independent measurement found.
 
----
+### Claim: $7.6B valuation and reported $20B round
 
-### Claim 5: FAA Part 135 Air Carrier Certification (June 2022) + BVLOS Waivers
-
-**Status:** Verified; official FAA records confirm.
+**Status:** Verified (7.6B); Unverified (20B)
 
 **Supporting sources:**
-- [FAA Newsroom (Jun 2022) — official announcement](https://www.faa.gov/newsroom/faa-authorizes-zipline-deliver-commercial-packages-beyond-line-sight) — "Zipline International, Inc. was authorized to deliver commercial packages using drones that fly beyond operator's line of sight"
-- [AOPA (Jun 2022)](https://www.aopa.org/news-and-media/all-news/2022/june/27/zipline-gets-faa-part-135-certification) — "Zipline Receives FAA Part 135 Air Carrier Certification"
-- [Flying Magazine (Jun 2022)](https://www.flyingmag.com/zipline-receives-faa-part-135-carrier-certificate/) — Details of first Part 135 certification under BEYOND program
+- [TechCrunch](https://techcrunch.com/2026/01/21/zipline-charts-drone-delivery-expansion-with-600m-in-new-funding/) — $600M at $7.6B
+- [TechCrunch](https://techcrunch.com/2026/03/23/zipline-snaps-up-another-200m-to-fuel-its-drone-delivery-expansion/) — Series H extended to $800M
 
-**BVLOS waiver status:**
-- Authorized for operations in Arkansas, Utah, Texas (as of 2022–2025 public records)
-- Additional waivers for expanded markets (Houston, Phoenix, Seattle expansions announced 2026) likely pending or in approval phase
-- No public disclosure of FAA denials or rejections of Zipline BVLOS requests
+**Refuting / questioning sources:**
+- [STAT Times](https://www.stattimes.com/amp/aviation/zipline-in-talks-to-raise-1billion-at-a-20billion-valuation-1360718) — the $20B figure rests on anonymous sources; Zipline and Paradigm declined to comment
 
-**Summary:** Part 135 certification and BVLOS waivers are official and verified. Zipline is the fourth drone operator to receive Part 135 and the first fixed-wing UAS operator certified under the BEYOND program.
+**Summary:** The $7.6B round is confirmed; the $20B round is a report of early talks.
 
----
+### Claim: Part 135 certification and BVLOS authority
 
-### Claim 6: Valuation $7.6 Billion (Jan 2026)
-
-**Status:** Verified via Series H funding announcement.
+**Status:** Verified
 
 **Supporting sources:**
-- [Bloomberg (Jan 2026)](https://www.bloomberg.com/news/articles/2026-01-20/drone-delivery-startup-zipline-hits-7-6-billion-valuation) — Official valuation in Series H funding round
-- [DroneXL](https://dronexl.co/2026/01/20/zipline-reaches-7-6-billion-valuation-drone/) — Valor Equity Partners lead; confirms $7.6B post-money valuation
-- [TechCrunch (Jan 2026)](https://techcrunch.com/2026/01/21/zipline-charts-drone-delivery-expansion-with-600m-in-new-funding/) — Confirms funding round and valuation
+- [AOPA](https://www.aopa.org/news-and-media/all-news/2022/june/27/zipline-gets-faa-part-135-certification) — Part 135 certification (2022)
+- [FAA](https://www.faa.gov/newsroom/faa-authorizes-zipline-deliver-commercial-packages-beyond-line-sight) — BVLOS delivery authorization (September 2023, Salt Lake City)
 
-**Valuation history:**
-- $4.2B (Apr 2023, Series F, $330M raise by Baillie Gifford + Temasek)
-- $7.6B (Jan 2026, Series H, $600M raise by Valor Equity Partners)
-- Appreciation: ~80% in ~2.75 years
+**Refuting / questioning sources:**
+- None found.
 
-**Summary:** $7.6B valuation is verified and reflects strong investor confidence following 2M delivery milestone and US market traction.
+**Summary:** Certification is documented; approvals for new US metros are still in FAA process.
 
----
+## Competitive Position
 
-### Claim 7: International Operations — Japan Status
+Zipline's closest US rival is Wing (Alphabet), also a Walmart partner; TechCrunch reports Wing plans to expand to 150 more Walmart stores through 2027 ([TechCrunch](https://techcrunch.com/2026/01/21/zipline-charts-drone-delivery-expansion-with-600m-in-new-funding/)). Amazon Prime Air is the other large US operator.
 
-**Status:** Operational as of May 2025; specific regulatory details limited.
+<!-- TODO: create entries for Wing and Amazon Prime Air and compare payload, range and volume with sourced figures -->
 
-**Supporting sources:**
-- [Wikipedia — Zipline](https://en.wikipedia.org/wiki/Zipline_(drone_delivery_company)) — Lists Japan as one of seven operational countries (as of May 2025)
-- No independent FAA, MLIT (Japan Ministry of Land, Infrastructure, Transport and Tourism), or JCAB (Japan Civil Aviation Bureau) approvals explicitly documented in English-language public sources.
-
-**Interpretation:** Zipline states it operates in Japan, but regulatory approval details (which Japanese prefectures, waiver scope, partnership structure) are not publicly disclosed. Likely partnership structure similar to Africa (state-level agreement) but specific terms are not available.
-
-**Summary:** Japan operations confirmed as active (May 2025) but regulatory details not independently verified.
-
----
-
-## Competitive Position vs. Wing Aviation and Amazon Prime Air
-
-### Zipline P2 vs. Wing (Alphabet) vs. Amazon Prime Air (MK30)
-
-| Factor | Zipline P2 | Wing | Amazon MK30 |
-|--------|-----------|------|------------|
-| **Payload** | 8 lb | ~3–4 lb | 5 lb |
-| **Service Radius** | 10 mi (16 km) | 6 mi | ~7 mi |
-| **Cruise Speed** | 70 mph | ~60 mph | ~60 mph |
-| **Delivery Mechanism** | Tethered autonomous droid (~1 m precision) | Direct parachute drop | Direct parachute/precision drop |
-| **Dock/Recharge** | Autonomous dock recharge | Fixed-site launch/landing | Fixed-site launch/landing |
-| **FAA Part 135 / BVLOS** | Yes (Jun 2022) | Yes (Nov 2019) | Yes (Jun 2020) |
-| **Retail Partnership** | Walmart (17 DFW locations, Apr 2025) | Walmart (100 stores planned, 2025) + other retail | Amazon (limited rollout 2024–2025) |
-| **Cumulative Deliveries** | 2M+ (Jan 2026) | ~500K–1M (est. 2025) | ~100 (as of mid-2025) |
-| **International Presence** | 8 countries (US, Rwanda, Ghana, Nigeria, Kenya, Côte d'Ivoire, Japan) | Australia, US | US only (2025) |
-| **Valuation** | $7.6B (Jan 2026) | Undisclosed (subsidiary of Alphabet) | Amazon subsidiary (no separate valuation) |
-
-**Key Differentiators:**
-
-- **Zipline:** Tethered droid delivery system provides highest precision (1 m vs. 2–10 m for competitors); autonomous dock charging reduces ground crew dependency; international market penetration (Africa + Japan) vs. competitors' US-focus.
-- **Wing:** Broadest announced retail footprint (100 Walmart stores vs. Zipline's 17); earliest FAA Part 135 approval (2019 vs. Zipline's 2022); Australian commercial proof-of-concept (multi-suburb daily operations).
-- **Amazon Prime Air:** Latest technology (MK30 drone more advanced than earlier Gen 1); smallest current operational footprint; paused operations in early 2025 following safety incidents; tighter integration with Amazon's logistics ecosystem but slower public deployment.
-
-**Market Share (Delivery Volume):**
-- Zipline: 2M+ cumulative, ~1M in 2025
-- Wing: ~500K–1M (estimated)
-- Amazon Prime Air: ~100–500 (minimal operational volume as of mid-2025)
-
-Zipline has established the strongest commercial traction by delivery volume and geographic reach. Wing has the broadest announced retail commitments. Amazon is the most technologically advanced but operationally constrained.
+Zipline's differentiators are payload (8 lb on P2), the tethered-droid drop, a health-care and government business in Africa, and the Uber distribution deal. Its main risks are regulatory scale-up (FAA approvals for large Texas networks, Part 108), unexplained 2026 aircraft landings and dependence on government payers abroad.
 
 ## Sources
 
-- [Zipline Completes First Customer Delivery With Revolutionary P2 Drone System — DroneXL (Jan 2025)](https://dronexl.co/2025/01/16/zipline-completes-first-customer-delivery-p2-drone/)
-- [Zipline Unveils P2 Delivery Drones That Dock and Recharge Autonomously — CNBC (Mar 2023)](https://www.cnbc.com/2023/03/15/zipline-unveils-p2-delivery-drones-that-dock-and-recharge-autonomously.html)
-- [How Zipline Designed Its Droid Delivery System — IEEE Spectrum](https://spectrum.ieee.org/delivery-drone-zipline-design)
-- [Drone Delivery Startup Zipline Expands to Texas with Walmart Partnership — CNBC (Apr 2025)](https://www.cnbc.com/2025/04/08/drone-delivery-startup-zipline-expands-to-texas-with-walmart.html)
-- [Zipline Launches Drone Delivery In McKinney, Texas — DroneXL (Nov 2025)](https://dronexl.co/2025/11/05/zipline-drone-delivery-mckinney-texas-walmart/)
-- [Zipline Charts Drone Delivery Expansion With $600M in New Funding — TechCrunch (Jan 2026)](https://techcrunch.com/2026/01/21/zipline-charts-drone-delivery-expansion-with-600m-in-new-funding/)
-- [Zipline Reaches $7.6 Billion Valuation as Valor Equity Partners Leads $600 Million Funding Round — DroneXL (Jan 2026)](https://dronexl.co/2026/01/20/zipline-reaches-7-6-billion-valuation-drone/)
-- [Zipline Receives FAA Part 135 Air Carrier Certification to Grow Its Automated, On-Demand Delivery Service in the U.S. — FAA Newsroom (Jun 2022)](https://www.faa.org/newsroom/faa-authorizes-zipline-deliver-commercial-packages-beyond-line-sight)
-- [Zipline Gets FAA Part 135 Certification — AOPA (Jun 2022)](https://www.aopa.org/news-and-media/all-news/2022/june/27/zipline-gets-faa-part-135-certification)
-- [Scaling Autonomous Solutions: An Interview with CEO of Zipline, Keller Rinaudo Cliffton — Harvard Innovation Review](https://hir.harvard.edu/scaling-autonomous-solutions-an-interview-with-ceo-of-zipline-keller-rinaudo-cliffton/)
-- [How Zipline Solves Drone Safety Issues Before They Reach You — DroneXL (Nov 2025)](https://dronedj.com/2025/11/17/zipline-drone-delivery-safety/)
-- [Zipline and Rwanda Sign Expansion Agreement as Country Becomes First to Build Nationwide Autonomous Delivery — DroneXL (Feb 2026)](https://dronexl.co/2026/02/05/zipline-rwanda-nationwide-autonomous-delivery/)
-- [State Department to Fund Expansion of Zipline Drone Deliveries in Africa — Axios (Nov 2025)](https://www.axios.com/2025/11/25/state-department-africa-zipline)
-- [Zipline Surpasses 2M Drone Deliveries, Bags $600M from Tiger Global and Others at $7.6B Valuation — Tech Funding News (Jan 2026)](https://techfundingnews.com/zipline-surpasses-2m-drone-deliveries-bags-600m-from-tiger-global-and-others-at-7-6b-valuation/)
-- [Zipline Drones Surpass Flying More Than 100 Million Miles — Flying Magazine (Mar 2025)](https://www.flyingmag.com/zipline-drones-surpass-flying-more-than-100-million-miles/)
-- [Drone Delivery Showdown: Wing vs. Zipline P2 vs. Amazon Prime Air MK30 — TS2 (2025)](https://ts2.tech/en/drone-delivery-showdown-wing-vs-zipline-p2-vs-amazon-prime-air-mk30/)
-- [What's Inside the Zipline Platform: NVIDIA's Jetson Edge AI — DroneLife (Dec 2023)](https://dronelife.com/2023/12/14/whats-inside-the-zipline-platform-nvidia-jetson-edge-ai/)
-- [Zipline Safety Fact Sheet — Zipline International](https://www.zipline.com/about/zipline-fact-sheet)
-- [Zipline (drone delivery company) — Wikipedia](https://en.wikipedia.org/wiki/Zipline_(drone_delivery_company))
+- [Zipline fact sheet](https://www.zipline.com/about/zipline-fact-sheet)
+- [TechCrunch — $600M Series H (Jan 2026)](https://techcrunch.com/2026/01/21/zipline-charts-drone-delivery-expansion-with-600m-in-new-funding/)
+- [TechCrunch — $200M extension (Mar 2026)](https://techcrunch.com/2026/03/23/zipline-snaps-up-another-200m-to-fuel-its-drone-delivery-expansion/)
+- [DroneXL — repeat orders (Mar 2026)](https://dronexl.co/2026/03/23/zipline-repeat-orders-drive-growth/)
+- [DroneLife — Uber and Zipline (Aug 2026)](https://dronelife.com/2026/08/17/uber-and-zipline-target-one-million-drone-deliveries-a-day-by-2029/)
+- [STAT Times — $20B talks (Sept 2026)](https://www.stattimes.com/amp/aviation/zipline-in-talks-to-raise-1billion-at-a-20billion-valuation-1360718)
+- [DroneXL — Zipline operator tracker](https://dronexl.co/tracker/drone-delivery/operators/zipline/)
+- [KPRC 2 — Highway 6 parachute landing](https://www.click2houston.com/news/local/2026/09/04/food-delivery-drone-crashes-onto-highway-6-in-nw-harris-county/)
+- [DroneXL — Zipline answers safety questions](https://dronexl.co/2026/09/16/zipline-answers-drone-safety-questions-amazon-wing-silent/)
+- [DroneXL — Rwanda expansion (Feb 2026)](https://dronexl.co/2026/02/05/zipline-rwanda-nationwide-autonomous-delivery/)
+- [TechCabal — State Department award](https://techcabal.com/2025/11/25/zipline-secures-150m-to-scale-ai-drone-delivery-across-africa/)
+- [DroneXL — McKinney launch (Nov 2025)](https://dronexl.co/2025/11/05/zipline-drone-delivery-mckinney-texas-walmart/)
+- [CNBC — Walmart Texas expansion (Apr 2025)](https://www.cnbc.com/2025/04/08/drone-delivery-startup-zipline-expands-to-texas-with-walmart.html)
+- [CNBC — P2 unveiling (Mar 2023)](https://www.cnbc.com/2023/03/15/zipline-unveils-p2-delivery-drones-that-dock-and-recharge-autonomously.html)
+- [IEEE Spectrum — P2 design](https://spectrum.ieee.org/delivery-drone-zipline-design)
+- [AOPA — Part 135 (Jun 2022)](https://www.aopa.org/news-and-media/all-news/2022/june/27/zipline-gets-faa-part-135-certification)
+- [FAA — BVLOS authorization (Sept 2023)](https://www.faa.gov/newsroom/faa-authorizes-zipline-deliver-commercial-packages-beyond-line-sight)
+- [Computer History Museum — Keller Rinaudo](https://computerhistory.org/profile/keller-rinaudo/)

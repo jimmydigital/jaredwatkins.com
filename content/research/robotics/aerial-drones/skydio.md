@@ -1,249 +1,237 @@
 ---
 title: "Skydio"
 date: 2026-03-24
-lastmod: 2026-03-24
+lastmod: 2026-10-23
 draft: false
-description: "San Jose-based autonomous drone manufacturer; X10/X10D tactical small UAS platforms with onboard NVIDIA Jetson Orin compute; Blue UAS certified; $52M+ US Army procurement (2,500+ units, March 2026); $715M+ total funding, $2.5B valuation (Nov 2024); founded 2014; US-manufactured, NDAA-compliant."
+description: "San Mateo-based autonomous drone maker; X10/X10D tactical sUAS with onboard NVIDIA Jetson Orin compute; full lineup on the DoD Blue UAS Cleared List (July 2026); $110M Series F at $4.4B (April 2026); $52M+ Army X10D order (2,500+ units, March 2026); $3.5B five-year US manufacturing pledge."
 research_area: "robotics/aerial-drones"
 source_urls:
   - "https://www.skydio.com/x10"
   - "https://www.skydio.com/x10/technical-specs"
+  - "https://www.skydio.com/resources/podcasts/skydio-raises-usd110m-series-f-at-usd4-4b-valuation-ceo-adam-bry"
+  - "https://dronexl.co/2026/04/23/skydio-110m-series-f-44-billion-valuation/"
+  - "https://www.tectonicdefense.com/skydio-raises-110m-at-4-4b-valuation/"
+  - "https://www.skydio.com/blog/skydio-commits-usd3-5-billion-to-expand-u-s-manufacturing-and-secure-american-drone-leadership"
+  - "https://dronexl.co/2026/07/23/skydio-full-lineup-blue-uas-cleared-list/"
+  - "https://dronexl.co/2026/09/24/skydio-f10-lightrunner-ascend-2026-lobbying/"
   - "https://www.asdnews.com/news/defense/2026/03/22/us-army-places-52m-order-skydio-x10d-largest-singlevendor-tactical-suas-order-army-history"
-  - "https://www.skydio.com/blog/skydio-raises-230-million-series-e-funding-round"
-  - "https://www.linkedin.com/in/adambry/"
-  - "https://www.linkedin.com/in/abachrach/"
-  - "https://www.skydio.com/blog/u-s-department-of-defense-adds-skydio-x10d-drone-to-blue-uas-cleared-list"
-  - "https://dronelife.com/2025/05/21/faa-waiver-enables-fully-remote-drone-inspections-with-docked-systems/"
+  - "https://dronexl.co/2026/03/22/skydio-x10d-army-52-million-order/"
+  - "https://www.asdnews.com/news/defense/2025/10/14/us-army-awards-79m-contract-skydio-short-range-reconnaissance-tranche-2"
   - "https://www.skydio.com/blog/USAF-Awards-Skydio-Initial-Contracts-to-Bring-Advanced-Autonomy-to-Mission-Critical-specialties"
-last_reviewed: 2026-03-24
+  - "https://www.skydio.com/blog/skydio-drones-selected-NATO-nspa-for-nano-uas-framework-agreement"
+  - "https://www.skydio.com/blog/skydio-raises-230-million-series-e-funding-round"
+  - "https://techcrunch.com/2024/11/15/drone-manufacturer-skydio-raises-170-million-extension-round/"
+  - "https://www.skydio.com/blog/u-s-department-of-defense-adds-skydio-x10d-drone-to-blue-uas-cleared-list"
+  - "https://www.skydio.com/blog/skydio-nightsense-is-now-blue-uas-approved"
+  - "https://www.diu.mil/latest/blue-uas-refresh-list-and-framework-platforms-and-capabilities-selected"
+  - "https://spectrum.ieee.org/skydios-dock-in-a-box-enables-longterm-autonomy-for-drone-applications"
+  - "https://investor.axon.com/2024-06-20-Axon-and-Skydio-partner-to-deliver-scalable-drone-offering-for-public-safety,-including-Drone-as-First-Responder-solution"
+  - "https://en.wikipedia.org/wiki/Skydio"
+  - "https://www.linkedin.com/in/abachrach/"
+last_reviewed: 2026-10-23
 stale_after_days: 90
 related:
   - "robotics/aerial-drones/_index.md"
+  - "robotics/aerial-drones/dji.md"
+  - "robotics/aerial-drones/anduril.md"
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
 
-
 ## Summary
 
-Skydio is a San Jose, California manufacturer of small unmanned aircraft systems (sUAS) focused on autonomous flight technology for defense, public safety, and enterprise applications. Founded in 2014 by Adam Bry, Abraham Bachrach, and Matt Donahoe, Skydio has positioned itself as the primary US-based alternative to DJI in the tactical small UAS market. The company's flagship platform is the X10 (commercial) and X10D (defense-specific) — 4.7 lb tactical drones with six 32MP navigation cameras, NVIDIA Jetson Orin compute, FLIR thermal imaging, and proprietary autonomy software for obstacle avoidance and autonomous mission execution. The X10D is certified on the Department of Defense Blue UAS Cleared List. In March 2026, the US Army placed a record $52+ million single-vendor procurement order for 2,500+ X10D systems — the largest tactical sUAS purchase in Army history. Skydio has raised $715 million across seven funding rounds (as of November 2024) at a $2.5 billion valuation. Key investors include Andreessen Horowitz, DoCoMo, NVIDIA, Axon, and KDDI.
+Skydio is a San Mateo, California maker of small unmanned aircraft systems (sUAS) built around onboard computer-vision autonomy, selling to defense, public safety, utility and enterprise customers. It was founded in 2014 by Adam Bry, Abraham Bachrach and Matt Donahoe and is the leading US-built alternative to DJI in tactical and public-safety drones. The core platform is the X10 (commercial) and X10D (defense) quadcopter, with an NVIDIA Jetson Orin compute module, a FLIR Boson+ thermal camera and a 360° navigation camera array. As of July 2026 Skydio says every current platform (X10, X10D, X10 Dock, R10) is on the DoD Blue UAS Cleared List. In 2026 it raised a $110M Series F at a $4.4B valuation (April), received a US Army X10D order of more than $52M (March) and announced a $3.5B five-year US manufacturing commitment (April).
 
 ## Key Facts
 
 - **Founded:** 2014
-- **HQ:** San Jose, CA, USA
+- **HQ:** San Mateo, CA, USA
 - **Type:** Private (venture-backed)
 - **Status:** Active production and deployment
-- **Key backers:** Andreessen Horowitz (early investor), Next47, IVP, DoCoMo, NVIDIA, UP.Partners, Hercules Capital, Axon, KDDI (strategic investor, 2024)
-- **Platform:** X10 (commercial) / X10D (defense); 4.7 lbs; folding design
-- **Autonomy:** Computer-vision based obstacle avoidance; proprietary Autonomy Engine; does **not** eliminate remote pilot requirement under FAA Part 107 (pilot must retain control authority); advanced FAA BVLOS waivers obtained for specific use cases (energy, law enforcement, logistics)
-- **Compute:** Onboard NVIDIA Jetson Orin GPU; six 32MP navigation cameras (360° visibility); 50MP wide-angle camera (1" module, 93° FOV); 64MP narrow-angle camera (50° FOV); FLIR Boson+ 640x512 thermal; 4K/60fps video
-- **Flight endurance:** 40 minutes (X10 commercial load); up to 35 minutes (X2D tactical variant)
-- **Regulatory compliance:** NDAA-compliant; US-manufactured; Blue UAS certified (X10D); Remote ID compatible; IP55 weather rating; -4° to 113°F operating range
-- **Government programs:** US Army Short Range Reconnaissance (SRR) Program of Record (2022, 2025); US Air Force Tactical Air Control Party (TACP) and Explosive Ordnance Disposal (EOD) contracts (2025); NATO NSPA nano UAS framework agreement (2025)
-- **Total funding:** $715M (seven rounds); latest Series E extension: $170M (November 2024)
-- **Current valuation:** $2.5B (November 2024)
-- **Mass production:** X10D ramping for large-scale military deployment (2026 onwards)
+- **Latest round:** $110M Series F at $4.4B post-money, announced 2026-04-23; lead investor not named in the sources reviewed. Previous valuation $2.5B (November 2024 Series E extension)
+- **Earlier backers:** Andreessen Horowitz (led 2021 round), Linse Capital (led 2023 Series E), NVIDIA, DoCoMo, Next47, IVP, UP.Partners, Axon, KDDI (strategic, 2024)
+- **Platforms:** X10 (commercial), X10D (defense), R10 (indoor), X10 Dock; F10 "Lightrunner" fixed-wing shown September 2026 (no price or ship date published)
+- **Airframe:** X10 weighs about 4.65–4.75 lb (2.11–2.16 kg) depending on configuration; folding arms; IP55 aircraft rating
+- **Compute and sensors:** NVIDIA Jetson Orin plus Qualcomm Snapdragon 865; six navigation cameras; 50.3MP wide, 64MP narrow and 48MP telephoto cameras; FLIR Boson+ 640×512 thermal
+- **Endurance:** up to 40 minutes flight, up to 35 minutes hover (specifications measured under ideal lab conditions per Skydio)
+- **Autonomy:** computer-vision obstacle avoidance; under FAA Part 107 a remote pilot still retains control authority; BVLOS operations depend on FAA waivers
+- **Compliance:** NDAA-compliant; Blue UAS Cleared List (X10D since 2024; X10, Dock and R10 added 2026-07-23 per Skydio, as reported by DroneXL)
+- **Company-reported scale (April 2026):** 60,000+ drones shipped; 3,800+ customers; 1,200+ public-safety agencies; roughly 900 employees per DroneXL (Skydio's April blog cites 2,000+ planned new jobs)
+- **Government programs:** US Army Short Range Reconnaissance (SRR) Program of Record (selected 2022 and 2025); US Air Force TACP and EOD contracts (2025); NATO NSPA nano UAS framework (2025)
 
 ## What It Is / How It Works
 
-The Skydio X10 is a tactical small unmanned aircraft system designed as a portable, rapidly-deployable platform for autonomous visual reconnaissance, surveillance, and inspection. The platform consists of three key elements:
+The X10 is a tactical sUAS for autonomous visual reconnaissance, inspection and public-safety work. Folding arms let it be carried in a backpack and launched quickly, and the battery is swappable in the field.
 
-**Hardware Platform:**
-The X10 is a quadcopter with a 4.7 lb airframe and folding arms, enabling deployment from a backpack in under 40 seconds. The battery is hot-swappable for extended mission cycles. The platform incorporates IP55 weather sealing (resistant to dust and water jets) and operates across a broad temperature range, making it suitable for field deployment in harsh environments.
+**Sensor suite.** Redundant perception combines six navigation cameras with a 50.3MP 1-inch wide camera (93° field of view), a 64MP narrow camera (50°), a 48MP telephoto camera (13°) and a FLIR Boson+ uncooled thermal imager (640×512, 41° field of view). Skydio's NightSense mode uses these sensors for obstacle avoidance in low light.
 
-**Sensor Suite:**
-The X10 integrates redundant perception: six 32MP navigation cameras (optimized for motion planning), a 50MP wide-angle RGB camera (1" sensor for image quality), a 64MP telephoto narrow-angle camera, and a FLIR Boson+ thermal imager (640x512, radiometric). This multi-modal sensor design enables obstacle avoidance, target detection, and situation awareness in zero-light and smoky/obscured conditions (NightSense mode).
+**Autonomy engine.** Skydio's proprietary software builds a real-time 3D map of surroundings from camera data, running on the onboard NVIDIA Jetson Orin. It supports obstacle avoidance in cluttered or GPS-degraded environments, subject tracking and waypoint missions with replanning around obstacles. It does not remove the pilot-in-command requirement under FAA Part 107; it reduces manual flight workload.
 
-**Autonomy Engine:**
-Skydio's proprietary Autonomy Engine is a computer-vision-based system developed over 10+ years (since the R1 launch in 2018). It uses deep learning and stereo vision to build a real-time 3D occupancy map of the environment, enabling:
-- **Autonomous obstacle avoidance:** Flight in GPS-denied, cluttered environments (urban, indoor, forest)
-- **Subject tracking:** Ability to follow a moving target while maintaining safety margins
-- **Autonomous mission execution:** Pre-programmed waypoint navigation with dynamic replanning around obstacles
-- **NightSense mode:** Visual and infrared perception without external illumination (using either visible-light or IR sensors)
+**Connectivity and docking.** The X10D adds encrypted data links and NDAA-compliant components. Optional 5G/LTE modems extend control beyond radio line of sight where FAA waivers allow. The Dock charges the aircraft and launches it remotely; paired with Remote Ops it supports unattended drone-as-first-responder and inspection missions under FAA BVLOS waivers.
 
-The Autonomy Engine is proprietary software running on the onboard NVIDIA Jetson Orin. It is **not** a replacement for the remote pilot — regulatory compliance under FAA Part 107 requires that the remote pilot in command retain the ability to direct the aircraft at all times. However, Skydio's technology enables mission automation that reduces pilot workload and enables operations under specific FAA waivers for BVLOS (beyond visual line of sight) scenarios.
-
-**Connectivity & Security:**
-The X10D variant includes AES-256 encryption, full NDAA compliance, and secure data architecture. Optional 5G/LTE modems enable remote operation beyond RF line-of-sight (under approved FAA waivers). The X10 supports modular payloads including RTK surveying, spotlight, and speaker modules.
-
-**Dock & Remote Operations:**
-Skydio offers a "Dock" accessory for autonomous charging and mission continuity. The Dock + Remote Ops combination enables 24/7 autonomous surveillance and rapid-response launch without human presence on-site (under approved FAA BVLOS waivers, e.g., for energy utilities and law enforcement).
+**Fixed-wing line.** At Ascend 2026 (2026-09-23) Skydio showed the F10 Lightrunner, a fixed-wing aircraft launched from a robotic MegaDock. Skydio's stated figures are 100 mph, a 30-mile radius and up to 120 minutes of flight (per DroneXL coverage of the event); no price or ship date has been published.
 
 ## Notable Developments
 
-- **2026-03 (22 March):** US Army awards Skydio $52+ million contract for 2,500+ X10D systems — largest single-vendor tactical sUAS procurement in Army history. Order moved from bid to award in less than 72 hours, reflecting operational urgency. ([ASD News](https://www.asdnews.com/news/defense/2026/03/22/us-army-places-52m-order-skydio-x10d-largest-singlevendor-tactical-suas-order-army-history))
-- **2025-11 (13 November):** US Air Force awards Skydio initial multi-million dollar contracts for Tactical Air Control Party (TACP) and Explosive Ordnance Disposal (EOD) unit deployment. ([Skydio blog](https://www.skydio.com/blog/USAF-Awards-Skydio-Initial-Contracts-to-Bring-Advanced-Autonomy-to-Mission-Critical-specialties))
-- **2025-10 (14 October):** US Army awards Skydio $7.9M contract for Short Range Reconnaissance Tranche 2. Skydio is sole manufacturer to win both SRR Tranche 1 (2022) and Tranche 2 awards. ([ASD News](https://www.asdnews.com/news/defense/2025/10/14/us-army-awards-79m-contract-skydio-short-range-reconnaissance-tranche-2))
-- **2025-08:** NATO Support and Procurement Agency (NSPA) selects Skydio for nano UAS framework agreement to supply small ISR drones across NATO member nations (in partnership with COBBS BELUX BV). ([Skydio blog](https://www.skydio.com/blog/skydio-drones-selected-NATO-nspa-for-nano-uas-framework-agreement))
-- **2025-05:** FAA grants waivers enabling fully remote BVLOS operations using Skydio Dock + Remote Ops for Dominion Energy and New York Power Authority; FAA extends nation-wide Tactical BVLOS waiver to all public safety agencies based on Chula Vista Police Department deployment. ([Drone Life](https://dronelife.com/2025/05/21/faa-waiver-enables-fully-remote-drone-inspections-with-docked-systems/))
-- **2025-06:** Skydio X10 Gen 2 announced with hardware upgrades focusing on cellular/LTE performance (narrowband LTE, 5G readiness). ([Skydio support docs](https://support.skydio.com/hc/en-us/articles/39423158528795-Skydio-X10-Gen-2))
-- **2024-11 (15 November):** Series E extension round of $170M closes; investors include strategic partners KDDI (Japanese telecom, plans 1,000-unit deployment across Japan) and Axon (police technology, Drone as First Responder partnership). Brings total funding to $715M+ at $2.5B valuation. ([TechCrunch](https://techcrunch.com/2024/11/15/drone-manufacturer-skydio-raises-170-million-extension-round/))
-- **2024-08:** Optelos and Skydio announce technology partnership for autonomous asset inspection workflows. ([Optelos](https://optelos.com/skydiopartnership/))
-- **2024-06:** Axon and Skydio partner to deliver end-to-end offering for public safety, including Drone as First Responder (DFR) solution. ([Axon investor relations](https://investor.axon.com/2024-06-20-Axon-and-Skydio-partner-to-deliver-scalable-drone-offering-for-public-safety,-including-Drone-as-First-Responder-solution))
-- **2024-11:** Series E round ($230M) closed in early 2023, led by Linse Capital; co-investors Andreessen Horowitz, Next47, IVP, DoCoMo, NVIDIA, UP.Partners.
-- **2018:** Skydio launches R1 — first commercial autonomous drone with obstacle avoidance and subject tracking (no pilot input required for basic missions).
+- **2026-09:** Ascend 2026 (Summerlin, NV, 2026-09-23): F10 Lightrunner fixed-wing and MegaDock (up to five F10s) shown, plus power-line detection and "Thermal Boost" software updates. ([DroneXL](https://dronexl.co/2026/09/24/skydio-f10-lightrunner-ascend-2026-lobbying/))
+- **2026-07:** Skydio announces X10, X10 Dock and R10 are on the Blue UAS Cleared List, completing clearance for its current lineup; it claims the first Blue UAS-cleared drone-as-first-responder system. ([DroneXL](https://dronexl.co/2026/07/23/skydio-full-lineup-blue-uas-cleared-list/))
+- **2026-04:** Skydio commits $3.5B over five years to US manufacturing, R&D and supply chain, including a new factory about five times its current space, more than $1B to domestic suppliers and 2,000+ new Skydio jobs. The site is not named. ([Skydio blog](https://www.skydio.com/blog/skydio-commits-usd3-5-billion-to-expand-u-s-manufacturing-and-secure-american-drone-leadership))
+- **2026-04-23:** $110M Series F at $4.4B post-money; CEO Adam Bry said the notable fact of the round was "how little we are raising." ([Skydio](https://www.skydio.com/resources/podcasts/skydio-raises-usd110m-series-f-at-usd4-4b-valuation-ceo-adam-bry), [DroneXL](https://dronexl.co/2026/04/23/skydio-110m-series-f-44-billion-valuation/))
+- **2026-03-22:** US Army places a $52M+ order for 2,500+ X10D under the SRR Program of Record via Atlantic Diving Supply; moved from bid to award in under 72 hours. ([ASD News](https://www.asdnews.com/news/defense/2026/03/22/us-army-places-52m-order-skydio-x10d-largest-singlevendor-tactical-suas-order-army-history))
+- **2025-11:** US Air Force awards initial contracts for Tactical Air Control Party and Explosive Ordnance Disposal units. ([Skydio blog](https://www.skydio.com/blog/USAF-Awards-Skydio-Initial-Contracts-to-Bring-Advanced-Autonomy-to-Mission-Critical-specialties))
+- **2025-10:** US Army awards a $7.9M SRR Tranche 2 contract. ([ASD News](https://www.asdnews.com/news/defense/2025/10/14/us-army-awards-79m-contract-skydio-short-range-reconnaissance-tranche-2))
+- **2025-08:** NATO Support and Procurement Agency selects Skydio for a nano UAS framework agreement. ([Skydio blog](https://www.skydio.com/blog/skydio-drones-selected-NATO-nspa-for-nano-uas-framework-agreement))
+- **2025-03:** China's Ministry of Commerce adds Skydio and 14 other US entities to its export control list. ([Wikipedia](https://en.wikipedia.org/wiki/Skydio))
+- **2024-11:** $170M extension to the Series E, with KDDI and Axon participating, at a $2.5B valuation. ([TechCrunch](https://techcrunch.com/2024/11/15/drone-manufacturer-skydio-raises-170-million-extension-round/))
+- **2024-06:** Axon and Skydio partner on a drone-as-first-responder offering for public safety. ([Axon](https://investor.axon.com/2024-06-20-Axon-and-Skydio-partner-to-deliver-scalable-drone-offering-for-public-safety,-including-Drone-as-First-Responder-solution))
+- **2023-02:** $230M Series E led by Linse Capital. ([Skydio blog](https://www.skydio.com/blog/skydio-raises-230-million-series-e-funding-round))
+- **2023-09:** X10 announced. ([Wikipedia](https://en.wikipedia.org/wiki/Skydio))
+- **2018:** R1 launched, the first consumer drone with autonomous subject tracking and obstacle avoidance.
 
 ## Key People
 
 ### Adam Bry — Co-Founder and CEO
 - **LinkedIn:** [linkedin.com/in/adambry](https://www.linkedin.com/in/adambry/)
 - **Role:** Co-founder (2014); CEO
-- **Education:**
-  - Franklin W. Olin College of Engineering: BS Mechanical Engineering (2008)
-  - Massachusetts Institute of Technology (MIT): MS Computer Science, Aerospace, Aeronautical and Astronautical Engineering (2012, AI/robotics focus)
+- **Education:** Franklin W. Olin College of Engineering (BS Mechanical Engineering); MIT (MS)
 - **Career (reverse-chronological):**
   - Skydio (2014–present): Co-founder and CEO
-  - MIT Computer Science and Artificial Intelligence Laboratory (CSAIL) (2010–2014): Led award-winning autonomous flight research; pioneered computer-vision-based drone autonomy
-  - DARPA Urban Challenge (2007): Member of winning autonomous ground vehicle team
-  - Hewlett Packard: Early-career role
-- **Notes:** Bry's MIT CSAIL work on autonomous flight forms the technical foundation for Skydio's Autonomy Engine. He is a licensed R/C pilot and transferred hands-on flight experience into software architecture for autonomy.
+  - MIT CSAIL: research on autonomous flight
+- **Notes:** His MIT autonomous-flight research is the technical origin of Skydio's autonomy approach.
 
 ### Abraham (Abe) Bachrach — Co-Founder and CTO
 - **LinkedIn:** [linkedin.com/in/abachrach](https://www.linkedin.com/in/abachrach/)
 - **Role:** Co-founder (2014); CTO
-- **Education:**
-  - University of California, Berkeley: BS Electrical Engineering and Computer Sciences (EECS)
-  - Massachusetts Institute of Technology (MIT): PhD under Professor Nicholas Roy, focus on "Trajectory Bundle Estimation for Perception-Driven Planning" (robotics, estimation theory)
+- **Education:** UC Berkeley (BS EECS); MIT (PhD, robotics, advised by Nicholas Roy)
 - **Career (reverse-chronological):**
-  - Skydio (2014–present): Co-founder and CTO; led development of Autonomy Engine and computer-vision perception stack
-  - MIT Robotics Laboratory (2008–2014): PhD research under Prof. Nicholas Roy on trajectory estimation and motion planning
-- **Notes:** Bachrach's PhD focus on sensor-based planning and estimation directly informed Skydio's vision-based autonomy approach. He is the primary architect of the obstacle avoidance and trajectory planning algorithms. Bachrach came from MIT's renowned Robotics Lab, one of the primary origin clusters for US drone company founders.
+  - Skydio (2014–present): Co-founder and CTO
+  - MIT Robotics Laboratory: PhD research on planning and estimation
+- **Notes:** Leads the perception and planning stack.
 
 ### Matt Donahoe — Co-Founder
-- **Role:** Co-founder (2014); Chief Operating Officer (operations, manufacturing, scaling)
-- **LinkedIn:** LinkedIn profile not publicly confirmed at time of research
-- **Notes:** Donahoe led Skydio's manufacturing scale-up and production operations, particularly critical for the NDAA-compliant, US-manufactured supply chain.
+- **Role:** Co-founder (2014); current title not confirmed from a fetched source
+- **LinkedIn:** not found
 
-### People — Last Reviewed: 2026-03-24
+**⚑ Shared background:** Bry, Bachrach and Donahoe all studied at MIT before founding Skydio (per Wikipedia).
+
+### People — Last Reviewed: 2026-10-23
 
 ## Supply Chain Position
 
-Skydio operates at the **Platform Integration** layer, manufacturing complete X10/X10D sUAS systems in the United States (San Jose, California). The platform is vertically integrated in key subsystems:
+Skydio sits at the **Platform Integration** layer, building complete X10/X10D systems in California and, per the April 2026 commitment, planning a larger US factory plus a supplier co-location program called SkyForge.
 
-**Proprietary Elements:**
-- Autonomy Engine (computer-vision stack, obstacle avoidance, motion planning) — fully proprietary
-- Custom multi-lens navigation camera array (six 32MP lenses, designed for stereo perception)
-- Firmware and embedded software stack
+**Proprietary:** autonomy software, navigation camera array design and firmware.
 
-**Third-Party Components (Verified):**
-- **Compute:** NVIDIA Jetson Orin (GPU for real-time perception and planning)
-- **Thermal imaging:** Teledyne FLIR Boson+ 640x512 radiometric imager (module supply)
-- **RF/Connectivity:** Cellular modems (optional 5G/LTE); standard ISM-band RF for command/control
-- **Battery/Power:** Not publicly disclosed; Skydio has indicated supply chain constraints from international sanctions (restricting battery distribution internationally per search results)
-- **Structural materials:** Carbon fiber, aluminum (standard aerospace suppliers)
-- **Optical elements:** Custom lens fabrication for navigation and main cameras
+**Third-party components (confirmed on Skydio's spec page):**
+- **Compute:** NVIDIA Jetson Orin and Qualcomm Snapdragon 865
+- **Thermal imaging:** Teledyne FLIR Boson+ 640×512
+- **Batteries, motors, structure:** suppliers not publicly disclosed
 
-**Rare Earth Dependency:** Like all BLDC motor-driven platforms, the X10's propulsion system depends on neodymium-iron-boron (NdFeB) permanent magnet motors. China controls ~85% of global rare earth mining and 90%+ of rare earth processing/separation, creating a systemic geopolitical risk — though Skydio's US manufacturing and NDAA compliance are designed to mitigate supply chain vulnerability compared to DJI.
+**Rare earth dependency:** Brushless motors typically use NdFeB magnets, and China dominates rare earth processing, so US assembly does not remove upstream exposure. Skydio's April 2026 statement says more than $1B will go to domestic suppliers, which targets this risk.
 
-**Regulatory Advantage:** NDAA compliance and Blue UAS certification create exclusive access to US federal procurement, a significant competitive moat. However, this also creates dependency on US regulatory continuity and military budget appropriations.
+**China sanctions:** China's October 2024 sanctions and March 2025 export control listing bar Chinese entities from doing business with Skydio, which constrains component sourcing.
 
-**⚑ Shared supplier risk:** Skydio's thermal imaging (FLIR Boson), compute (NVIDIA Jetson), and optical subsystems are also used by competing US drone platforms (Autel, Teal). The NVIDIA Jetson supply chain became a bottleneck during the post-2022 AI compute shortage, though this has eased.
+**⚑ Shared supplier:** Teledyne FLIR Boson modules and NVIDIA Jetson modules are also used by other drone makers documented in this section (see the [Aerial Drones]({{< relref "_index.md" >}}) supply chain table).
 
 ## Claim Verification
 
-### Claim: "Fully Autonomous" Operations
+### Claim: "Autonomous" operation
 
-**Company claim:** Skydio markets the X10 as capable of "fully autonomous" flight, obstacle avoidance, subject tracking, and mission execution without continuous pilot input.
-
-**Status:** Partially verified with important regulatory caveats.
+**Status:** Partially verified
 
 **Supporting sources:**
-- [Skydio Autonomy blog](https://www.skydio.com/blog/part-107-autonomy-skydio-drone) — Confirms autonomous mission modes (waypoint navigation, subject tracking, obstacle avoidance)
-- [Imatest evaluation](https://www.originofbots.com/robot/skydio-x10-by-skydio-details-specifications-rating) — Independent test confirms obstacle avoidance in GPS-denied cluttered environments (urban, indoor)
-- [IEEE Spectrum — Dock autonomy](https://spectrum.ieee.org/skydios-dock-in-a-box-enables-longterm-autonomy-for-drone-applications) — Confirms Dock + Remote Ops enables 24/7 autonomous surveillance under FAA waivers
+- [IEEE Spectrum](https://spectrum.ieee.org/skydios-dock-in-a-box-enables-longterm-autonomy-for-drone-applications) — describes Dock-based unattended operation
+- [Skydio X10 page](https://www.skydio.com/x10) — documents autonomous obstacle avoidance, tracking and missions
 
 **Refuting / questioning sources:**
-- [Skydio regulatory services blog](https://www.skydio.com/blog/part-107-autonomy-skydio-drone) — **Explicitly clarifies:** FAA Part 107 requires remote pilot to retain ability to direct aircraft at all times; "autonomous" refers to mission automation, not elimination of human control
-- [FAA Remote ID and Part 107 regulations](https://www.faa.gov/uas/commercial_operators) — Remote pilot certificate required; pilot must maintain authority to redirect for safety/compliance
+- [FAA commercial operators](https://www.faa.gov/uas/commercial_operators) — Part 107 requires a remote pilot in command with authority over the aircraft; beyond-visual-line-of-sight flight needs specific waivers
 
-**Summary:**
-- **Obstacle avoidance:** Verified independent of human input; computer-vision-based detection and dynamic replanning confirmed
-- **Subject tracking:** Verified in field conditions
-- **Autonomous missions:** Verified (waypoint nav, patrol patterns) but **NOT** true autonomy-without-operator — pilot must remain available to assume control
-- **BVLOS operations:** Only enabled under FAA-granted waivers (not standard Part 107 authority); limited to specific operators (energy utilities, law enforcement, select public safety) and require pilot monitoring of data feed
-- **Operational reality:** The X10 is best characterized as "highly automated with autonomous mission modes" rather than "fully autonomous." The remote pilot in command (PIC) is always required under US law; what Skydio's tech eliminates is **continuous manual flight control**, not **human presence in the loop**. This distinction is material for customers evaluating deployment in remote or dangerous areas.
+**Summary:** Obstacle avoidance and mission automation are documented; "fully autonomous" overstates what regulation allows, since a pilot remains responsible.
 
-### Claim: X10D Specifications — 40-minute flight time, 4.7 lbs, 360° vision, NightSense zero-light nav
+### Claim: X10 specifications (40-minute flight, ~4.7 lb, IP55)
 
-**Status:** Verified (company-reported; independent field testing in progress).
+**Status:** Partially verified
 
 **Supporting sources:**
-- [Skydio X10 technical specs](https://www.skydio.com/x10/technical-specs) — Flight time 40 minutes (commercial payload); weight 4.7 lbs; camera/thermal specs confirmed
-- [Skydio blog — X10 Gen 2 improvements](https://support.skydio.com/hc/en-us/articles/39423158528795-Skydio-X10-Gen-2) — Hardware upgrades focus on cellular connectivity, confirms baseline X10 endurance spec
-- [Loyaltydrones review (2025)](https://loyaltydrones.com/skydio-x10-ultimate-guide-2025-breaking-news-latest-updates-complete-analysis/) — Field testing confirms 40-minute endurance under standard operating conditions
-- [Imatest visual quality evaluation](https://www.originofbots.com/robot/skydio-x10-by-skydio-details-specifications-rating) — Confirms image quality across visible and thermal bands
+- [Skydio X10 technical specs](https://www.skydio.com/x10/technical-specs) — up to 40 minutes flight, 35 minutes hover, 4.65–4.75 lb, IP55 aircraft rating
 
 **Refuting / questioning sources:**
-- None identified; however, endurance figures assume moderate wind, hover-heavy profiles, and commercial payload; surveillance missions with constant altitude hold may see shorter effective endurance
+- The same page states figures were measured under ideal lab conditions, so field endurance will be lower. No independent benchmark was found.
 
-**Summary:** Specifications are company-reported and appear consistent with field deployments by Army and law enforcement (2025–2026). No independent peer-reviewed publication yet; B1-equivalent testing by federal agencies is ongoing as of early 2026.
+**Summary:** Figures are company-reported lab values.
 
-### Claim: US Army "Largest Single-Vendor Tactical sUAS Purchase in Army History" ($52M, 2,500+ units, March 2026)
+### Claim: Army order — $52M+, 2,500+ X10D units, March 2026
 
-**Status:** Verified.
+**Status:** Verified
 
 **Supporting sources:**
-- [ASD News, 22 March 2026](https://www.asdnews.com/news/defense/2026/03/22/us-army-places-52m-order-skydio-x10d-largest-singlevendor-tactical-suas-order-army-history) — Official announcement of $52M+ award
-- [Soldier Systems Daily, 22 March 2026](https://soldiersystems.net/2026/03/22/us-army-places-52m-order-for-skydio-x10d-the-largest-single-vendor-tactical-suas-order-in-army-history/) — Corroborates "largest single-vendor" designation and 72-hour bid-to-award timeline
-- [Drone XL coverage](https://dronexl.co/2026/03/22/skydio-x10d-army-52-million-order/) — Confirms 2,500+ unit count
+- [ASD News](https://www.asdnews.com/news/defense/2026/03/22/us-army-places-52m-order-skydio-x10d-largest-singlevendor-tactical-suas-order-army-history) — over $52M, over 2,500 X10D, bid to award in under 72 hours
+- [DroneXL](https://dronexl.co/2026/03/22/skydio-x10d-army-52-million-order/) — corroborating coverage
 
 **Refuting / questioning sources:**
-- None; this is a recent government procurement and the largest Army sUAS award on record
+- DroneXL's April coverage of the Series F describes the order as "nearly 3,000" drones; ASD News's "over 2,500" is used here. The "largest single-vendor tactical sUAS order in Army history" wording comes from the ASD News headline and was not confirmed against an Army source.
 
-**Summary:** The March 2026 Army award is a landmark procurement, representing rapid military adoption and confidence in the X10D platform. The 72-hour acceleration (unusual for federal procurement) suggests either urgent operational need or successful demonstration/evaluation in prior tranches.
+**Summary:** Order value and minimum unit count are consistent across sources; the "largest" superlative is secondary-source only.
 
-### Claim: Blue UAS Certification and Security Compliance
+### Claim: Blue UAS clearance for the full lineup
 
-**Status:** Verified.
+**Status:** Partially verified
 
 **Supporting sources:**
-- [DIU Blue UAS Cleared List](https://www.diu.mil/latest/blue-uas-refresh-list-and-framework-platforms-and-capabilities-selected) — X10D listed as approved platform
-- [Skydio blog — X10D Blue UAS approved](https://www.skydio.com/blog/u-s-department-of-defense-adds-skydio-x10d-drone-to-blue-uas-cleared-list) — Confirms NDAA compliance, AES-256 encryption, cybersecurity review passed
-- [Skydio blog — NightSense approved](https://www.skydio.com/blog/skydio-nightsense-is-now-blue-uas-approved) — Extended certification for thermal/NightSense operations
+- [DroneXL, 2026-07-23](https://dronexl.co/2026/07/23/skydio-full-lineup-blue-uas-cleared-list/) — reports Skydio's announcement that X10, Dock and R10 were added; X10D was already listed
+- [Skydio blog](https://www.skydio.com/blog/u-s-department-of-defense-adds-skydio-x10d-drone-to-blue-uas-cleared-list) — X10D clearance
 
 **Refuting / questioning sources:**
-- None; Blue UAS is a DoD-controlled list with rigorous cybersecurity review — inclusion is a genuine credential
+- None found, but the July 2026 additions were not checked against the current list at [DIU](https://www.diu.mil/latest/blue-uas-refresh-list-and-framework-platforms-and-capabilities-selected).
 
-**Summary:** X10D is certified on the DoD's definitive approved-vendor list. Certification requires passing rigorous source-code review, supply-chain audits, and secure data architecture validation. This is a significant differentiator from non-certified platforms (including most DJI models, which are excluded due to Chinese ownership).
+**Summary:** X10D clearance is documented by Skydio; the 2026 additions rest on Skydio's announcement as reported by a trade outlet.
+
+### Claim: $4.4B valuation and funding totals
+
+**Status:** Partially verified
+
+**Supporting sources:**
+- [Skydio](https://www.skydio.com/resources/podcasts/skydio-raises-usd110m-series-f-at-usd4-4b-valuation-ceo-adam-bry), [DroneXL](https://dronexl.co/2026/04/23/skydio-110m-series-f-44-billion-valuation/), [Tectonic Defense](https://www.tectonicdefense.com/skydio-raises-110m-at-4-4b-valuation/) — $110M at $4.4B
+
+**Refuting / questioning sources:**
+- Cumulative funding differs by source (about $672M in DroneXL, about $951M in Tectonic Defense); no company-stated total was found, so none is given here.
+
+**Summary:** Round size and valuation agree; cumulative funding is unresolved.
 
 ## Competitive Position vs. DJI
 
-Skydio's strategy explicitly positions against DJI's market dominance. Key differentiation:
+DJI was added to the FCC Covered List on 2025-12-22, which blocks new US equipment authorizations (see [DJI]({{< relref "dji.md" >}})). Skydio's position is the compliant alternative: US-built, NDAA-compliant, Blue UAS-listed, and focused on public safety, defense and utilities rather than consumer or prosumer sales.
 
-| Factor | Skydio X10D | DJI Matrice / Mavic (typical) |
-|--------|-------------|------|
-| **US Manufacturing** | San Jose, CA; NDAA-compliant; source-code access for government | Chinese; subject to FCC Covered List; US federal procurement prohibited |
-| **Autonomy** | Computer-vision obstacle avoidance; 10+ years R&D; BVLOS waivers obtained | Assisted flight modes; no native obstacle avoidance in most models |
-| **Endurance** | 40 min (X10); modular payloads | 30–35 min typical; less modular |
-| **Thermal/Low-Light** | FLIR Boson+ 640x512; NightSense zero-light nav | Optional thermal; limited night capability |
-| **Blue UAS** | Certified (X10D) | Not eligible (Chinese manufacturer) |
-| **Price** | ~$15K–20K per unit (government pricing); $20K–25K commercial | $1K–5K (consumer/prosumer); $15K+ (enterprise Matrice) |
-| **Supply Chain** | Constrained by US manufacturing and rare-earth availability; restricted international battery distribution | Global scale; lower cost; subject to US export controls and potential bans |
+| Factor | Skydio X10/X10D | DJI enterprise (typical) |
+|--------|-----------------|---------------------------|
+| **Manufacturing** | California; NDAA-compliant | China; FCC Covered List; not on Blue UAS |
+| **Federal procurement** | Blue UAS Cleared List; Army SRR | Restricted under US federal procurement law |
+| **Thermal** | FLIR Boson+ 640×512 | Model-dependent |
+| **Market focus** | Defense, public safety, utilities | Global commercial and consumer |
 
-**Strategic implication:** Skydio concedes the consumer/prosumer drone market to DJI (where cost is paramount). Skydio's moat is in defense, government, and regulated enterprise where NDAA compliance, US manufacturing, and security clearance are non-negotiable. The $52M Army contract signals that this bet is validated — the federal procurement market is large enough to support a capital-intensive US-centric manufacturer.
+Critics tie Skydio's federal lobbying to the policy shift against DJI; CEO Adam Bry has denied lobbying for the Countering CCP Drones Act ([DroneXL](https://dronexl.co/2026/09/24/skydio-f10-lightrunner-ascend-2026-lobbying/)).
 
 ## Sources
 
-- [Skydio X10 Product Page](https://www.skydio.com/x10)
-- [Skydio X10 Technical Specifications](https://www.skydio.com/x10/technical-specs)
-- [US Army Awards Skydio $52M Contract for 2,500+ X10D (ASD News, March 2026)](https://www.asdnews.com/news/defense/2026/03/22/us-army-places-52m-order-skydio-x10d-largest-singlevendor-tactical-suas-order-army-history)
-- [US Army Awards Skydio $7.9M for Short Range Reconnaissance Tranche 2 (ASD News, October 2025)](https://www.asdnews.com/news/defense/2025/10/14/us-army-awards-79m-contract-skydio-short-range-reconnaissance-tranche-2)
-- [Skydio Raises $230M Series E Funding (Skydio Blog)](https://www.skydio.com/blog/skydio-raises-230-million-series-e-funding-round)
-- [Skydio Raises $170M Extension (TechCrunch, November 2024)](https://techcrunch.com/2024/11/15/drone-manufacturer-skydio-raises-170-million-extension-round/)
-- [Adam Bry LinkedIn Profile](https://www.linkedin.com/in/adambry/)
-- [Abraham Bachrach LinkedIn Profile](https://www.linkedin.com/in/abachrach/)
-- [Skydio X10D Certified on Blue UAS Cleared List (Skydio Blog)](https://www.skydio.com/blog/u-s-department-of-defense-adds-skydio-x10d-drone-to-blue-uas-cleared-list)
-- [FAA BVLOS Waivers and Remote Operations (Drone Life, May 2025)](https://dronelife.com/2025/05/21/faa-waiver-enables-fully-remote-drone-inspections-with-docked-systems/)
-- [US Air Force Awards Skydio Multi-Million Dollar Contracts (Skydio Blog, November 2025)](https://www.skydio.com/blog/USAF-Awards-Skydio-Initial-Contracts-to-Bring-Advanced-Autonomy-to-Mission-Critical-specialties)
-- [NATO NSPA Selects Skydio for Nano UAS Framework (Skydio Blog, August 2025)](https://www.skydio.com/blog/skydio-drones-selected-NATO-nspa-for-nano-uas-framework-agreement)
-- [Axon and Skydio Partnership for Public Safety (Axon Investor Relations, June 2024)](https://investor.axon.com/2024-06-20-Axon-and-Skydio-partner-to-deliver-scalable-drone-offering-for-public-safety,-including-Drone-as-First-Responder-solution)
-- [Optelos and Skydio Partnership (Optelos Blog, August 2024)](https://optelos.com/skydiopartnership/)
-- [FAA Part 107 Autonomy and Remote Pilot Requirements (Skydio Blog)](https://www.skydio.com/blog/part-107-autonomy-skydio-drone)
-- [FAA Regulations on Remote Pilots in Command](https://www.faa.gov/uas/commercial_operators)
-- [Skydio X10 Gen 2 Hardware Upgrades (Skydio Support, June 2025)](https://support.skydio.com/hc/en-us/articles/39423158528795-Skydio-X10-Gen-2)
-- [DIU Blue UAS Cleared List and Framework Platforms](https://www.diu.mil/latest/blue-uas-refresh-list-and-framework-platforms-and-capabilities-selected)
-- [Skydio NightSense Approved for Blue UAS (Skydio Blog)](https://www.skydio.com/blog/skydio-nightsense-is-now-blue-uas-approved)
-- [IEEE Spectrum — Skydio Dock Enables Long-Term Autonomy](https://spectrum.ieee.org/skydios-dock-in-a-box-enables-longterm-autonomy-for-drone-applications)
-- [Independent Evaluation of Skydio X10 Specifications (Origin of Bots, 2026)](https://www.originofbots.com/robot/skydio-x10-by-skydio-details-specifications-rating)
-- [Loyalty Drones Skydio X10 Review (2025)](https://loyaltydrones.com/skydio-x10-ultimate-guide-2025-breaking-news-latest-updates-complete-analysis/)
+- [Skydio X10](https://www.skydio.com/x10)
+- [Skydio X10 technical specifications](https://www.skydio.com/x10/technical-specs)
+- [Skydio Series F announcement](https://www.skydio.com/resources/podcasts/skydio-raises-usd110m-series-f-at-usd4-4b-valuation-ceo-adam-bry)
+- [DroneXL — Series F](https://dronexl.co/2026/04/23/skydio-110m-series-f-44-billion-valuation/)
+- [Tectonic Defense — Series F](https://www.tectonicdefense.com/skydio-raises-110m-at-4-4b-valuation/)
+- [Skydio — $3.5B US manufacturing commitment](https://www.skydio.com/blog/skydio-commits-usd3-5-billion-to-expand-u-s-manufacturing-and-secure-american-drone-leadership)
+- [DroneXL — Blue UAS full lineup](https://dronexl.co/2026/07/23/skydio-full-lineup-blue-uas-cleared-list/)
+- [DroneXL — Ascend 2026](https://dronexl.co/2026/09/24/skydio-f10-lightrunner-ascend-2026-lobbying/)
+- [ASD News — Army $52M order](https://www.asdnews.com/news/defense/2026/03/22/us-army-places-52m-order-skydio-x10d-largest-singlevendor-tactical-suas-order-army-history)
+- [DroneXL — Army order](https://dronexl.co/2026/03/22/skydio-x10d-army-52-million-order/)
+- [ASD News — SRR Tranche 2](https://www.asdnews.com/news/defense/2025/10/14/us-army-awards-79m-contract-skydio-short-range-reconnaissance-tranche-2)
+- [Skydio — USAF contracts](https://www.skydio.com/blog/USAF-Awards-Skydio-Initial-Contracts-to-Bring-Advanced-Autonomy-to-Mission-Critical-specialties)
+- [Skydio — NATO NSPA](https://www.skydio.com/blog/skydio-drones-selected-NATO-nspa-for-nano-uas-framework-agreement)
+- [Skydio — Series E](https://www.skydio.com/blog/skydio-raises-230-million-series-e-funding-round)
+- [TechCrunch — Series E extension](https://techcrunch.com/2024/11/15/drone-manufacturer-skydio-raises-170-million-extension-round/)
+- [Skydio — X10D Blue UAS](https://www.skydio.com/blog/u-s-department-of-defense-adds-skydio-x10d-drone-to-blue-uas-cleared-list)
+- [Skydio — NightSense Blue UAS](https://www.skydio.com/blog/skydio-nightsense-is-now-blue-uas-approved)
+- [DIU — Blue UAS list](https://www.diu.mil/latest/blue-uas-refresh-list-and-framework-platforms-and-capabilities-selected)
+- [IEEE Spectrum — Skydio Dock](https://spectrum.ieee.org/skydios-dock-in-a-box-enables-longterm-autonomy-for-drone-applications)
+- [Axon — partnership](https://investor.axon.com/2024-06-20-Axon-and-Skydio-partner-to-deliver-scalable-drone-offering-for-public-safety,-including-Drone-as-First-Responder-solution)
+- [FAA — commercial operators](https://www.faa.gov/uas/commercial_operators)
+- [Wikipedia — Skydio](https://en.wikipedia.org/wiki/Skydio)

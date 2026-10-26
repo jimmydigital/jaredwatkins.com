@@ -1,13 +1,15 @@
 ---
 title: "Freefly Systems"
 date: 2026-07-15
-lastmod: 2026-07-15
+lastmod: 2026-10-26
 draft: false
-description: "Woodinville, Washington-based maker of the Mōvi brushless camera stabilizer line and its own cinema drone platforms (CineStar, Alta), credited with popularizing brushless gimbal stabilization as a lightweight Steadicam alternative."
+description: "Woodinville, Washington-based maker of the Mōvi brushless camera stabilizer line and its own cinema drone platforms (CineStar, Alta) and the Astro mapping/inspection drone line, including the NDAA-compliant, Blue UAS-listed Astro Max bundle; credited with popularizing brushless gimbal stabilization as a lightweight Steadicam alternative."
 research_area: "robotics/gimbals"
 source_urls:
   - "https://en.wikipedia.org/wiki/Freefly_Systems"
-last_reviewed: 2026-07-15
+  - "https://advexure.com/blogs/news/freefly-astro-max-blue-approved-ready-to-work"
+  - "https://www.defence-industries.com/pressreleases/freefly-systems-integrates-doodle-labs-radios-into-new-ndaa-compliant-astro-uas"
+last_reviewed: 2026-10-26
 stale_after_days: 180
 ---
 
@@ -21,8 +23,10 @@ Freefly Systems is a Woodinville, Washington-based manufacturer of brushless cam
 
 - Founded: 2011, in Woodinville, Washington, by Tabb Firchau, David Bloomfield, Hugh Bell, and Megan Fogel
 - Type: Platform OEM and component/subsystem supplier (sells both finished drones and standalone handheld/mountable gimbal stabilizers)
+- HQ: Woodinville, Washington (confirmed by 2024 Doodle Labs release and a 2025 retailer article)
 - Status: Active, privately held; approximately 70 employees (per Wikipedia, unverified against a primary company source in this session)
 - Key metric(s): Mōvi M10 (2013) supported up to 12 lb payload; Mōvi XL (2017) supports up to 50 lb payload; Alta 6 drone platform supports up to 15 lb combined gimbal/camera payload
+- Astro Max (launched February 2025): 3 kg (6.6 lb) max payload; manufacturer zero-wind flight time 39 min with no payload, about 28 min with a Sony ILX-LR1 and 18 min at max payload; starting prices $27,200 (Doodle Labs radio, NDAA/Blue-listed bundle) and $21,000 (Herelink, non-NDAA), per retailer Advexure (July 2025)
 - Value chain position: Platform OEM for its own drone line (CineStar, Alta) and component/subsystem supplier for its standalone Mōvi stabilizer line sold independently of any drone
 
 ## What It Is / How It Works
@@ -33,6 +37,8 @@ In 2015, Freefly applied its stabilization expertise to a purpose-built aerial c
 
 ## Notable Developments
 
+- **2025-02:** Freefly launches the Astro Max; only the bundle with the Pilot Pro controller and Doodle Labs radio is described as fully NDAA-compliant and DIU Blue-listed from airframe to ground link. ([Advexure](https://advexure.com/blogs/news/freefly-astro-max-blue-approved-ready-to-work))
+- **2024-04-19:** Freefly and Doodle Labs announce a new NDAA-compliant Astro using a Mini Mesh Rider radio; the Astro was then in final validation for the Blue UAS Cleared List. ([Defence Industries](https://www.defence-industries.com/pressreleases/freefly-systems-integrates-doodle-labs-radios-into-new-ndaa-compliant-astro-uas))
 - **2017-04-22:** Freefly launches the Mōvi XL (50 lb payload capacity, cinema lens-class) and Mōvi Carbon (described as the world's first handheld 5-axis camera stabilizer) at NAB.
 - **2016-11-02:** Freefly announces the Mōvi Pro, adding integrated hot-swap smart batteries and a built-in stand.
 - **2015-08-03:** Freefly launches the Alta 6, a ready-to-fly hexacopter drone platform with top- or bottom-mounted camera/gimbal payload capability and an integrated Synapse flight controller.
@@ -46,8 +52,10 @@ In 2015, Freefly applied its stabilization expertise to a purpose-built aerial c
 - **Hugh Bell** — Co-founder, Freefly Systems (2011). LinkedIn: not found.
 - **Megan Fogel** — Co-founder, Freefly Systems (2011). LinkedIn: not found.
 
-### People — Last Reviewed: 2026-07-15
+### People — Last Reviewed: 2026-10-26
 
 ## Sources
 
+- [Freefly Astro Max: Blue approved — Advexure (Jul 30, 2025)](https://advexure.com/blogs/news/freefly-astro-max-blue-approved-ready-to-work) — specs, pricing and compliance bundles (retailer source)
+- [Freefly integrates Doodle Labs radios into NDAA-compliant Astro — Defence Industries (Apr 19, 2024)](https://www.defence-industries.com/pressreleases/freefly-systems-integrates-doodle-labs-radios-into-new-ndaa-compliant-astro-uas)
 - [Freefly Systems - Wikipedia](https://en.wikipedia.org/wiki/Freefly_Systems) — company founding, headquarters, product history and specifications (CineStar, Mōvi line, Alta, TERO), employee count

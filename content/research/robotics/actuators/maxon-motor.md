@@ -1,94 +1,112 @@
 ---
 title: "Maxon Motor (maxon group)"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-25
 draft: false
-description: "Sachseln, Switzerland precision DC/BLDC motor and actuator manufacturer; private; ~$572M revenue; 3,200 employees; 100+ drives on Mars rovers (Curiosity, Perseverance, Ingenuity); strategic partnership with ANYbotics; launched 15-actuator robotics joint portfolio (High Efficiency + High Precision families) for humanoid and collaborative robot market."
+description: "Sachseln, Switzerland precision drive maker (private, Braun family); 2024 revenue CHF 594.7M (-10.5%); about 3,150 employees at 2024 year-end; CEO Eugen Elmiger hands over to Andreas Richter in March 2027; High Efficiency Joints for collaborative robotics; SpaceLab revenue +25% in 2024; Mars rover drives."
 research_area: "robotics/actuators"
 source_urls:
-  - "https://www.maxongroup.com/en/market-solutions/mobility-solutions/robotics"
+  - "https://www.maxongroup.com/en/news-and-events/news/maxon-achieves-a-respectable-result-with-chf-594-7-million-revenue-despite-challenging-conditions-283946"
+  - "https://www.maxongroup.com/en/news-and-events/news"
+  - "https://www.ingenieur.de/karriere/arbeitsleben/fuehrung/neue-spitze-bei-maxon-andreas-richter-ubernimmt-ceo-posten/"
   - "https://www.therobotreport.com/maxon-launches-drive-systems-portfolio-designed-for-robotics/"
   - "https://www.therobotreport.com/perseverance-rover-helicopter-take-maxon-brushless-motors-mars/"
   - "https://www.therobotreport.com/maxon-anybotics-partner-drives-anymal-legged-inspection-robot/"
-last_reviewed: 2026-03-31
+last_reviewed: 2026-10-25
 stale_after_days: 90
 related: []
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
 
-
 ## Summary
 
-Maxon (maxon group), headquartered in Sachseln, Obwalden, Switzerland, is the world's leading manufacturer of precision brushed DC and brushless DC (BLDC) motors for demanding applications in robotics, medical devices, aerospace, and industrial automation. Founded in 1961, the private company employs approximately 3,200 people globally (~1,300 at headquarters) and generates roughly $572 million in annual revenue. Maxon has supplied over 100 drives to NASA Mars missions — including 10 drives for the Perseverance rover and Ingenuity helicopter — establishing its reputation as the precision motor standard for the most demanding environments on Earth and beyond. In response to the humanoid and collaborative robot build-out, maxon launched a new 15-actuator robotics drive systems portfolio (two families: High Efficiency Joints and High Precision Joints) targeting robot integrators building full joint assemblies.
+Maxon (maxon group) is a Swiss maker of precision DC and brushless motors, gearheads and integrated drives for robotics, medical technology, aerospace and industrial automation. It is privately owned by the Braun family and headquartered in Sachseln. Its latest published annual result is for 2024: revenue of CHF 594.7M, down 10.5% from CHF 664.4M, the second straight decline, driven by weak European demand. Management pointed to High Efficiency Joints for collaborative robots, exoskeletons and precision medical systems as growth areas. In 2026 the company announced that Eugen Elmiger will hand the CEO role to COO Andreas Richter in March 2027.
 
 ## Key Facts
 
 - **Founded:** 1961
-- **HQ:** Sachseln, Obwalden, Switzerland
-- **Type:** Private
-- **Revenue:** ~$572M (D&B/Craft.co estimate; company-reported figures not publicly disclosed)
-- **Employees:** ~3,200 globally; ~1,300 at headquarters
-- **CEO:** Eugen Elmiger (Board member since 2006; long-tenured CEO)
-- **Key products:** EC frameless DT motors (brushless DC, torque-dense); EC 32 flat / EC 20 flat (for Mars rovers); GP planetary gearheads; new High Efficiency Joints (15 actuators); High Precision Joints (strain-wave based)
-- **Key customers / programs:** NASA Mars rovers (Curiosity, Perseverance, Ingenuity); ANYbotics ANYmal; surgical robot OEMs; industrial robot OEMs; Boston Dynamics (actuator supply relationship noted in industry sources, not officially confirmed by either company)
+- **HQ:** Sachseln, Switzerland
+- **Ownership:** private, Braun family; Bianca Braun succeeds Karl-Walter Braun as chair (2026)
+- **Revenue (2024):** CHF 594.7M (2023: CHF 664.4M); Europe CHF 294M, Americas CHF 181.8M, Asia-Pacific CHF 118.4M
+- **R&D (2024):** CHF 47.8M, about 8% of sales
+- **Employees:** 3,150 at end of 2024 (3,262 a year earlier); about 3,200 across eleven production sites in more than 40 countries per a September 2026 article
+- **CEO:** Eugen Elmiger (about 15 years as CEO, 35 with maxon); Andreas Richter, COO and deputy CEO since joining in 2020, takes over March 2027; Elmiger becomes vice chairman
+- **SpaceLab:** revenue +25% in 2024, mainly commercial space
+- **Products:** EC motors, GP planetary gearheads, High Efficiency Joints and High Precision Joints actuator families
+- **Programs:** Mars rovers (Curiosity, Perseverance) and Ingenuity; ANYbotics ANYmal partnership (2020)
+- **Value chain position:** component and subsystem supplier moving toward integrated joints
 
 ## What It Is / How It Works
 
-Maxon's core product is the precision brushed and brushless DC motor: small (typically 6mm to 90mm diameter), high efficiency, and capable of operating precisely across demanding temperature and vibration conditions. The company's EC (electronically commutated) motor series uses slotless winding configurations that eliminate cogging torque — a key requirement for precision positioning in surgical robots, collaborative arms, and space hardware. The flat motor designs (EC 32 flat, EC 20 flat) used on Mars rovers are optimized for low mass and compact packaging, critical for interplanetary payloads where every gram is monetized.
+Maxon's motors are small, slotless-winding designs known for low cogging and high efficiency, which matters where torque ripple affects precision: surgical robots, legged robots and space hardware. The price premium over commodity BLDC motors limits it to high-value applications.
 
-The critical differentiator for maxon motors in precision robotics is zero cogging, high continuous torque-to-weight ratio, and a long track record of qualifying to aerospace and medical regulatory standards. These properties come at a cost premium: a single maxon actuator unit can cost 10–50x more than a comparable-size commodity BLDC motor from a Chinese supplier. This price premium makes maxon economically rational for surgical robotics, space, defense, and high-value inspection robots (like the ANYbotics ANYmal), while typically not competitive for consumer or lower-cost industrial AMR applications where BLDC motor quality requirements are lower.
+**Move to systems.** The 2024 release says the company is shifting toward complete systems, which needs less assembly labor, and names High Efficiency Joints for collaborative robotics, exoskeletons and precision medical systems as growth potential. The Robot Report describes the robotics portfolio as 15 actuators in two families: High Efficiency Joints (integrated motor, planetary gear, electronics and encoder in an IP67 structure) and High Precision Joints (strain-wave gearbox with a high-resolution encoder). The 2026 news page lists maxon's Hannover Messe appearance (April 20–24, 2026) covering robotics drives and functional safety; it mentions no humanoid-specific products.
 
-The new robotics actuator portfolio (launched ~2023) signals maxon's strategic response to the humanoid and collaborative robot boom. The 15 actuators span two families. The High Efficiency Joints integrate frameless DT motors with planetary gears, electronics, encoders, and an IP67-rated structure into a fully integrated actuator module capable of up to 86% efficiency and active cooling for sustained high-power output. The High Precision Joints pair strain-wave gearboxes (competing with Harmonic Drive Systems' product category) with high-resolution output encoders, targeting collaborative robot OEMs and surgical robot integrators who need sub-arcminute joint repeatability. This product direction positions maxon to compete not just as a motor supplier but as an actuator module supplier — moving up the value chain into the assembled joint level.
-
-The ANYbotics partnership (strategic, 2020) is illustrative: ANYbotics' ANYmal legged robot uses maxon drive systems for its 12 joints, leveraging the zero-cogging, high-efficiency properties that are critical for legged locomotion where joint torque ripple creates gait instability.
+**Mars heritage.** Perseverance and Ingenuity carry 10 maxon drives (nine EC 32 flat, one EC 20 flat); Curiosity also used maxon drives.
 
 ## Notable Developments
 
-- **~2023:** Maxon launches new 15-actuator robotics drive systems portfolio — High Efficiency Joints (planetary gear, active cooling, IP67) and High Precision Joints (strain-wave gearbox, high-res encoder) targeting humanoid and collaborative robot OEMs. ([The Robot Report](https://www.therobotreport.com/maxon-launches-drive-systems-portfolio-designed-for-robotics/))
-- **2021-02:** Perseverance rover and Ingenuity helicopter land on Mars with 10 maxon drives aboard — nine EC 32 flat and one EC 20 flat brushless motors with GP 22 UP planetary gearheads. ([The Robot Report](https://www.therobotreport.com/perseverance-rover-helicopter-take-maxon-brushless-motors-mars/))
-- **2020-09:** ANYbotics strategic partnership for drive systems in ANYmal legged inspection robot. ([The Robot Report](https://www.therobotreport.com/maxon-anybotics-partner-drives-anymal-legged-inspection-robot/))
-- **2012:** Curiosity rover lands on Mars with maxon drives.
-- **1961:** Founded in Sachseln, Obwalden, Switzerland.
+- **2026:** CEO succession announced: Andreas Richter takes over operations in March 2027; Elmiger moves to vice chairman. ([Ingenieur.de](https://www.ingenieur.de/karriere/arbeitsleben/fuehrung/neue-spitze-bei-maxon-andreas-richter-ubernimmt-ceo-posten/))
+- **2026-04:** Hannover Messe presentation of robotics drives and functional safety. ([maxon news](https://www.maxongroup.com/en/news-and-events/news))
+- **2025-06-25:** 2024 results: revenue CHF 594.7M. ([maxon](https://www.maxongroup.com/en/news-and-events/news/maxon-achieves-a-respectable-result-with-chf-594-7-million-revenue-despite-challenging-conditions-283946))
+- **2021-02:** Perseverance and Ingenuity land with maxon drives. ([The Robot Report](https://www.therobotreport.com/perseverance-rover-helicopter-take-maxon-brushless-motors-mars/))
+- **2020-09:** ANYbotics partnership. ([The Robot Report](https://www.therobotreport.com/maxon-anybotics-partner-drives-anymal-legged-inspection-robot/))
 
 ## Key People
 
-### Eugen Elmiger — CEO
-- **LinkedIn:** [bloomberg.com/profile/person/17758625](https://www.bloomberg.com/profile/person/17758625) (Bloomberg profile; LinkedIn not confirmed)
-- **Education:** Not publicly disclosed
-- **Career (reverse-chronological):**
-  - Maxon Group (1991–present): CEO; Board member since 2006; International Sales & Marketing lead from ~late 1990s
-- **Notes:** Long-tenured insider CEO. Joined maxon in 1991 and built the Asian sales network; transitioned to Board in 2006 and to CEO role subsequently.
+### Eugen Elmiger — CEO (until March 2027)
+- **LinkedIn:** not found
+- **Role:** CEO for about 15 years; becomes vice chairman ([Ingenieur.de](https://www.ingenieur.de/karriere/arbeitsleben/fuehrung/neue-spitze-bei-maxon-andreas-richter-ubernimmt-ceo-posten/))
 
-### People — Last Reviewed: 2026-03-31
+### Andreas Richter — COO and deputy CEO; CEO from March 2027
+- **LinkedIn:** not found
+- **Role:** with maxon since 2020; industrial engineer with a master's in strategic management; previously ran global production and the supply network at ABB Turbo Systems AG
+
+### Bianca Braun — incoming chair
+- **LinkedIn:** not found
+- **Role:** succeeds Karl-Walter Braun as chair, per maxon's news page
+
+### People — Last Reviewed: 2026-10-25
 
 ## Supply Chain Position
 
-Maxon operates as a **Component-Subsystem Supplier** at the precision motor and actuator layer — not a platform OEM. Maxon sells to robot OEMs (Boston Dynamics, ANYbotics, surgical robot makers) who integrate maxon motors into joint assemblies. With the new High Efficiency and High Precision Joints product line, maxon is moving toward the **actuator module** level, where it competes more directly with Harmonic Drive Systems (at the gearbox layer) and with integrated joint module suppliers.
-
-**⚑ Rare earth dependency:** All BLDC motors use NdFeB permanent magnets in the rotor; Chinese rare earth supply chain applies even for Swiss-assembled precision motors. This is an inherent vulnerability for maxon and all precision motor makers regardless of assembly geography.
-
-**⚑ Component cluster:** Maxon GP planetary gearheads and Harmonic Drive Systems strain-wave gearboxes serve the same joint application; some maxon customers use both (maxon motor + Harmonic Drive gearbox) in the same joint, creating a compound rare-earth + Japanese precision supplier dependency.
+Maxon is a component and subsystem supplier selling motors and drives to robot, medical and space OEMs. **⚑ Rare earth dependency:** its brushless motors use NdFeB magnets, regardless of Swiss assembly. **⚑ Component cluster:** customers often pair maxon motors with strain-wave gearboxes from [Harmonic Drive Systems]({{< relref "harmonic-drive.md" >}}).
 
 ## Claim Verification
 
-### Claim: Maxon has supplied 100+ drives for Mars missions
-**Status:** Verified
+### Claim: Revenue about $572M
 
-**Supporting sources:**
-- [The Robot Report Perseverance article](https://www.therobotreport.com/perseverance-rover-helicopter-take-maxon-brushless-motors-mars/) — Documents specific motors on Perseverance (10 drives: EC 32 flat and EC 20 flat) and Ingenuity helicopter
-- Curiosity rover (2012) also used maxon drives; Spirit and Opportunity earlier
-- [Maxon group website](https://www.maxongroup.com/) — "more than 100 drives on Mars" stated in company marketing
+**Status:** Refuted
 
 **Refuting / questioning sources:**
-- None identified; multiple independent engineering sources confirm Mars mission motor content
+- [maxon 2024 results](https://www.maxongroup.com/en/news-and-events/news/maxon-achieves-a-respectable-result-with-chf-594-7-million-revenue-despite-challenging-conditions-283946) — CHF 594.7M for 2024, company-reported
 
-**Summary:** The 100+ Mars drives claim is well-documented across multiple NASA missions spanning two decades; specific motors are documented in engineering publications.
+**Summary:** Company-reported figures are used.
+
+### Claim: 100+ drives on Mars
+
+**Status:** Partially verified
+
+**Supporting sources:**
+- [The Robot Report](https://www.therobotreport.com/perseverance-rover-helicopter-take-maxon-brushless-motors-mars/) — 10 drives on Perseverance and Ingenuity
+
+**Refuting / questioning sources:**
+- The 100+ total was not found in the sources fetched.
+
+**Summary:** The 10-drive figure is sourced; the cumulative total is a company marketing claim.
+
+### Claim: Boston Dynamics actuator supply
+
+**Status:** Unverified
+
+**Summary:** No confirming source found.
 
 ## Sources
 
-- [Maxon Robotics Solutions — maxongroup.com](https://www.maxongroup.com/en/market-solutions/mobility-solutions/robotics)
-- [Maxon Launches Robotics Drive Portfolio — The Robot Report](https://www.therobotreport.com/maxon-launches-drive-systems-portfolio-designed-for-robotics/)
-- [Perseverance Rover maxon Motors — The Robot Report](https://www.therobotreport.com/perseverance-rover-helicopter-take-maxon-brushless-motors-mars/)
-- [ANYbotics / maxon Strategic Partnership — The Robot Report (Sep 2020)](https://www.therobotreport.com/maxon-anybotics-partner-drives-anymal-legged-inspection-robot/)
-- [Maxon Group Wikipedia](https://en.wikipedia.org/wiki/Maxon_Group)
+- [maxon — 2024 results (Jun 2025)](https://www.maxongroup.com/en/news-and-events/news/maxon-achieves-a-respectable-result-with-chf-594-7-million-revenue-despite-challenging-conditions-283946)
+- [maxon news](https://www.maxongroup.com/en/news-and-events/news)
+- [Ingenieur.de — new CEO](https://www.ingenieur.de/karriere/arbeitsleben/fuehrung/neue-spitze-bei-maxon-andreas-richter-ubernimmt-ceo-posten/)
+- [The Robot Report — drive portfolio](https://www.therobotreport.com/maxon-launches-drive-systems-portfolio-designed-for-robotics/)
+- [The Robot Report — Perseverance](https://www.therobotreport.com/perseverance-rover-helicopter-take-maxon-brushless-motors-mars/)
+- [The Robot Report — ANYbotics](https://www.therobotreport.com/maxon-anybotics-partner-drives-anymal-legged-inspection-robot/)

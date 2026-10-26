@@ -1,16 +1,18 @@
 ---
 title: "Echodyne"
 date: 2026-07-07
-lastmod: 2026-07-07
+lastmod: 2026-10-26
 draft: false
-description: "US electronically-scanned-array (ESA) radar maker whose miniaturized MESA radars (EchoShield, EchoGuard) are widely embedded in third-party counter-drone systems; selected for a $490M USAF counter-drone program and integrated into Axon/Dedrone."
+description: "US electronically-scanned-array (ESA) radar maker whose miniaturized MESA radars (EchoShield, EchoGuard) are widely embedded in third-party counter-drone systems; selected for a $490M USAF counter-drone program and integrated into Axon/Dedrone; awarded a ceiling-$250M Army Domestic Shield IDIQ in September 2026."
 research_area: "drone-detection/hardware"
 source_urls:
   - "https://www.echodyne.com/applications/government/counter-drone-radar/"
   - "https://www.defensenews.com/industry/2026/07/02/in-red-hot-counter-drone-market-echodyne-ceo-sees-radar-demand-boom/"
   - "https://uasmagazine.com/articles/echodyne-selected-as-radar-provider-for-air-force-counter-drone-program"
   - "https://www.echodyne.com/newsroom/echodyne-expands-public-safety-radar-applications-through-partnership-with-axon"
-last_reviewed: 2026-07-07
+  - "https://www.highergov.com/news/echodyne-wins-up-to-250-million-army-counter-dron-6490113/"
+  - "https://dronedj.com/2026/10/01/echodyne-radar-counter-drone-mesa/"
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -28,7 +30,8 @@ Echodyne (Kirkland, Washington) makes miniaturized electronically-scanned-array 
 - **Stated detection ranges (EchoShield):** ~1.5 km for very small UAS, ~3 km for small quadcopters, ~5.3 km for larger multirotor drones, ~7.9 km for small fixed-wing drones
 - **Major contract:** Selected in 2026 as primary radar for Trust Automation's Small-Unmanned Air Defense System (SUADS) under a $490M US Air Force IDIQ contract (awarded August 2025)
 - **Integration breadth:** Radars integrated into offerings from at least 29 exhibitors at Eurosatory 2026; used on high-powered microwave systems (Epirus, ThinKom) and laser-based systems (AeroVironment, Electro Optic Systems)
-- **Status:** Active; rapidly scaling production — opened a new facility in mid-2026 intended to lift production capacity roughly tenfold at full rate
+- **Domestic Shield IDIQ:** awarded 2026-09-28 by the US Army (Army Contracting Command, Detroit Arsenal); firm-fixed-price, indefinite-delivery, ceiling up to $250M (a ceiling, not funds obligated); 36-month ordering period, estimated completion 2029-09-27; 50 bids received; supports JIATF-401 and its C-UAS Marketplace
+- **Status:** Active; rapidly scaling production — new 86,350 sq ft Washington State facility described as able to produce more than 30,000 radars per year (company statement via DroneDJ, October 2026)
 
 ## How It Works
 
@@ -38,6 +41,7 @@ AI/ML classification distinguishes drone, fixed-wing, multi-rotor, vehicle, vess
 
 ## Notable Developments
 
+- **2026-09-28:** Army awards Echodyne a firm-fixed-price IDIQ with a $250M ceiling under the JIATF-401 Domestic Shield program for commercial counter-UAS capabilities; the notice names no product, quantity or delivery schedule. MESA radars will be offered through the JIATF-401 C-UAS Marketplace to US and allied forces. ([HigherGov](https://www.highergov.com/news/echodyne-wins-up-to-250-million-army-counter-dron-6490113/); [DroneDJ](https://dronedj.com/2026/10/01/echodyne-radar-counter-drone-mesa/))
 - **2026-07:** Defense News reports Echodyne CEO describing "red hot" counter-drone radar demand, with short-range radar demand potentially growing tenfold by 2030; company opens new production facility to scale roughly 10x
 - **2026-05-27:** Axon announces integration of Echodyne radar into Axon Air and Dedrone platforms
 - **2026-04:** Echodyne selected as radar provider for Trust Automation's SUADS program under a $490M US Air Force IDIQ counter-drone contract (originally awarded August 2025)
@@ -54,9 +58,14 @@ AI/ML classification distinguishes drone, fixed-wing, multi-rotor, vehicle, vess
 - **Eben Frankenberg** — Co-founder (2014), President and CEO; previously COO of Intellectual Ventures (grew from 50 to 550 people, $250M to $5B+ under management, incubated Evolv Technologies and Kymeta); earlier spent 9 years at Onyx Software in sales/marketing leadership. Bachelor's in geophysics from Harvard, MS in geophysics from Stanford
 - Series A ($15M) led by Bill Gates and Madrona Venture Group
 
-### People — Last Reviewed: 2026-07-07
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
+
+### Claim: Domestic Shield IDIQ worth up to $250M
+**Status:** Verified as a ceiling only.
+**Supporting sources:** [HigherGov](https://www.highergov.com/news/echodyne-wins-up-to-250-million-army-counter-dron-6490113/) (award notice, 2026-09-28) and [DroneDJ](https://dronedj.com/2026/10/01/echodyne-radar-counter-drone-mesa/) agree on the figure and the 36-month ordering window.
+**Summary:** Orders depend on individual task orders; the $250M is not committed spending.
 
 ### Claim: $490M USAF SUADS contract
 **Status:** Verified via multiple independent trade press outlets.
@@ -74,4 +83,6 @@ AI/ML classification distinguishes drone, fixed-wing, multi-rotor, vehicle, vess
 - [Echodyne Counter-Drone Radar overview](https://www.echodyne.com/applications/government/counter-drone-radar/)
 - [In 'red hot' counter-drone market, Echodyne CEO sees radar demand boom — Defense News](https://www.defensenews.com/industry/2026/07/02/in-red-hot-counter-drone-market-echodyne-ceo-sees-radar-demand-boom/)
 - [Echodyne selected as radar provider for Air Force counter-drone program — UAS Magazine](https://uasmagazine.com/articles/echodyne-selected-as-radar-provider-for-air-force-counter-drone-program)
+- [Army Domestic Shield award — HigherGov (Sep 30, 2026)](https://www.highergov.com/news/echodyne-wins-up-to-250-million-army-counter-dron-6490113/)
+- [Echodyne MESA radar and counter-drone contract — DroneDJ (Oct 1, 2026)](https://dronedj.com/2026/10/01/echodyne-radar-counter-drone-mesa/)
 - [Echodyne expands public safety radar applications through partnership with Axon](https://www.echodyne.com/newsroom/echodyne-expands-public-safety-radar-applications-through-partnership-with-axon)

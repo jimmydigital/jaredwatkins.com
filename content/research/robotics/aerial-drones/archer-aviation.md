@@ -1,99 +1,97 @@
 ---
 title: "Archer Aviation"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-25
 draft: false
-description: "NYSE-listed eVTOL developer (San Jose, CA); Midnight six-tilt-rotor air taxi targeting 60-mile range; Stellantis $400M contract manufacturing partnership for 650 aircraft/year; FAA type certificate in progress with commercial launch targeted for Abu Dhabi in 2025–2026."
+description: "eVTOL developer (NYSE: ACHR); Midnight piloted tilt-rotor air taxi; first eVTOL company to close Phase 3 of FAA type certification (April 2026), Phase 4 underway; Q2 2026 cash $1.56B, net loss $263.2M, revenue $5.0M; eIPP operations targeted for late 2026; agreed to acquire Boeing's Wisk, Insitu and SkyGrid (August 2026); Thunder/Halo hybrid VTOL with Anduril."
 research_area: "robotics/aerial-drones"
 source_urls:
-  - "https://en.wikipedia.org/wiki/Archer_Aviation"
-  - "https://news.archer.com/archer-receives-faa-part-135-certification-to-begin-operating-commerical-airline"
-  - "https://investors.archer.com/news/news-details/2024/Archer-Announces-Key-Terms-Of-Contract-Manufacturing-Relationship-With-StellantisRepresenting-Up-To-400M-To-Help-Scale-Midnight-Production-To-650-Aircraft-AnnuallySecures-230M-In-Additional-Equity-Capital-From-Strategic--Institutional-Investors/default.aspx"
-  - "https://www.stellantis.com/en/news/press-releases/2024/july/stellantis-invests-additional-55-million-in-archer-following-recent-flight-test-milestone"
-  - "https://www.fool.com/investing/2025/11/26/archer-aviations-faa-certification-progress/"
-last_reviewed: 2026-03-31
+  - "https://investors.archer.com/news/news-details/2026/Archer-Announces-First-Quarter-2026-Results-Highlighting-Record-FAA-Certification-Progress-With-Initial-US-Operations-Expected-In-2026/"
+  - "https://www.sec.gov/Archives/edgar/data/0001824502/000182450226000056/archerq226earningspressr.htm"
+  - "https://avm-mag.com/archer-to-acquire-boeings-wisk-aero-insitu-and-skygrid-subsidiaries-boeing-to-invest-in-archer-and-collaborate"
+last_reviewed: 2026-10-25
 stale_after_days: 90
 related: []
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
 
-
 ## Summary
 
-Archer Aviation (NYSE: ACHR) is a San Jose, California eVTOL developer founded in 2018, building the Midnight air taxi — a six-tilt-rotor aircraft targeting 60-mile urban range and 150 mph cruise speed. Archer holds a Part 135 air carrier certificate, has delivered test aircraft to the US Air Force under a $142M DoD AGILITY Prime contract, and is building a manufacturing facility in Covington, Georgia via a contract manufacturing agreement with Stellantis worth up to $400M. Full FAA type certification is in progress, with commercial launch targeted for Abu Dhabi in 2025–2026 and US operations to follow.
+Archer Aviation (NYSE: ACHR) is building Midnight, a piloted electric tilt-rotor air taxi. In April 2026 it became the first eVTOL company to close Phase 3 of the FAA's four-phase type certification process, and Phase 4 (formal compliance testing) is underway. It is still pre-commercial: Q2 2026 revenue was $5.0M, mostly from Hawthorne Airport operations in Los Angeles, against a net loss of $263.2M and cash of $1.56B. On 2026-08-10 it signed definitive agreements to acquire Boeing's Wisk, Insitu and SkyGrid units, with closing expected by the end of 2026, and it is developing a hybrid VTOL aircraft with Anduril.
 
 ## Key Facts
 
-- **Founded:** 2018 (incorporated October 16, 2018)
-- **HQ:** San Jose, CA (manufacturing: Covington, GA)
-- **Type:** Public (NYSE: ACHR)
-- **Key backers:** Stellantis (strategic investor and contract manufacturer; $400M+ total commitment); United Airlines; Boeing; ARK Invest
-- **Key products:** Midnight (six-tilt-rotor eVTOL air taxi)
-- **Aircraft specs (claimed):** 150 mph cruise speed; 60-mile range; 5 seats (pilot + 4 passengers); six tilt-rotors; fully electric
-- **Revenue / valuation:** Pre-commercial revenue; $1.4B+ in cash and committed capital (as of early 2025); DoD contract up to $142M
-- **DoD contract:** Up to $142M AGILITY Prime (USAF)
+- **Ticker:** NYSE: ACHR
+- **HQ:** San Jose, CA (not re-verified in this review)
+- **CEO:** Adam Goldstein, founder and CEO
+- **Product:** Midnight piloted eVTOL air taxi
+- **FAA type certification:** Phase 3 of 4 closed April 2026 (company-stated first for an eVTOL); Phase 4 underway
+- **Cash (2026-06-30):** $1,560.6M in cash, equivalents and short-term investments, plus $7.3M restricted; $1,775.9M at 2026-03-31
+- **Q2 2026:** revenue $5.0M; net loss $263.2M; adjusted EBITDA loss $177.1M; Q3 guidance adjusted EBITDA loss $170–200M
+- **Debt:** about $80.2M (Q1 2026)
+- **Operations:** took over Hawthorne Airport operations (LA); $25.0M Hawthorne FBO acquisition in Q2; Official Air Taxi Provider for LA28
+- **eIPP:** selected as air taxi partner in three winning applications covering eight states (Florida, Texas, New York among them); US Midnight operations expected in 2026; piloted Midnight flights between Salinas and Monterey in July 2026
+- **Defense:** Thunder (defense) and Halo (commercial) hybrid VTOL platform with Anduril unveiled at Farnborough, July 2026
+- **Boeing transaction:** announced 2026-08-10; price not disclosed in the sources reviewed; closing by end of 2026 subject to conditions including Hart-Scott-Rodino
 
 ## What It Is / How It Works
 
-Midnight is Archer's production-intent eVTOL aircraft, a six-motor tilt-rotor design that transitions from vertical hover to forward flight. The aircraft's six propeller pods rotate from upward-facing (VTOL mode) to forward-facing (cruise mode), with the wing generating lift during cruise to reduce motor load. The design targets 60-mile urban air taxi trips — sufficient for airport-to-city and inter-city routes in most metropolitan markets.
+Midnight is a piloted, six-motor tilt-rotor aircraft that lifts off vertically and transitions to wing-borne cruise. FAA certification for eVTOLs follows a four-phase process; Archer says it has closed the third and begun formal compliance demonstration, the phase that produces the data supporting a type certificate. The sources reviewed give no certification date.
 
-Archer went public via SPAC merger in September 2021. The company navigated an early legal dispute with Joby Aviation (resolved in 2022 with a settlement) over alleged trade secret misappropriation by former Joby engineers who joined Archer.
+**Near-term revenue path.** Archer's first US flights are tied to the FAA's eVTOL Integration Pilot Program (eIPP), under which it is a partner in three winning applications across eight states. It also now operates Hawthorne Airport, which it expects to anchor its Los Angeles service.
 
-Stellantis is Archer's exclusive contract manufacturer for mass production. The partnership covers manufacturing labor and certain capital expenditures at the Covington, Georgia facility through 2030, with a target of 650 aircraft per year at full rate. Stellantis has invested cumulatively $400M+ including equity investments and manufacturing commitments. The Covington facility was nearing completion as of mid-2024.
-
-On the regulatory front, Archer received its Part 135 air carrier certificate and has been conducting flight operations under that certificate. FAA type certification for Midnight uses the same novel certification basis as other eVTOL aircraft; some analysts project type certification occurring in 2028, later than Archer's internal targets. Archer has pursued commercial launch in Abu Dhabi first, where regulatory timelines may be faster than the US.
-
-United Airlines holds a significant order commitment for Midnight aircraft and has invested in the company, with a planned role as commercial operator. The partnership positions United to launch urban air taxi operations as part of its broader multimodal transportation strategy.
+**Boeing deal.** Wisk (autonomy and eVTOL development), SkyGrid (air traffic management software) and Insitu (military uncrewed aircraft, more than 3,500 systems fielded to armed forces of 35 nations per Boeing's description) would come to Archer, with Boeing taking a strategic stake and keeping access to Wisk's autonomy technology. Archer said Insitu alone adds over $200M of annual revenue.
 
 ## Notable Developments
 
-- **2025-07:** Archer announces target for initial commercial operations in Abu Dhabi. ([AInvest](https://www.ainvest.com/news/archer-aviation-aims-2025-commercial-launch-faa-approval-production-ramps-2507/))
-- **2025:** $850M additional funding round closes; cash and committed capital exceed $1.4B.
-- **2024-07:** Stellantis invests additional $55M following Midnight transition flight test milestone. ([Stellantis](https://www.stellantis.com/en/news/press-releases/2024/july/stellantis-invests-additional-55-million-in-archer-following-recent-flight-test-milestone))
-- **2024:** Delivers first Midnight test aircraft to US Air Force for AGILITY Prime evaluation at Edwards AFB.
-- **2024:** Stellantis contract manufacturing relationship formalized — up to $400M, 650 aircraft/year capacity target, Covington GA facility. ([Archer IR](https://investors.archer.com/news/news-details/2024/Archer-Announces-Key-Terms-Of-Contract-Manufacturing-Relationship-With-StellantisRepresenting-Up-To-400M-To-Help-Scale-Midnight-Production-To-650-Aircraft-AnnuallySecures-230M-In-Additional-Equity-Capital-From-Strategic--Institutional-Investors/default.aspx))
-- **2024:** Receives FAA Part 135 Air Carrier Certificate. ([Archer news](https://news.archer.com/archer-receives-faa-part-135-certification-to-begin-operating-commerical-airline))
-- **2023-06:** Stellantis-Archer partnership moves from concept to execution phase. ([Stellantis](https://www.stellantis.com/en/news/press-releases/2023/june/stellantis-archer-move-partnership-from-concept-phase-to-execution-phase))
-- **2022:** Trade secret lawsuit with Joby Aviation settled.
-- **2021-09:** IPO on NYSE via SPAC merger.
-- **2018-10:** Founded by Adam Goldstein and Brett Adcock.
+- **2026-08-10:** Definitive agreements to acquire Wisk, Insitu and SkyGrid from Boeing. ([AVM](https://avm-mag.com/archer-to-acquire-boeings-wisk-aero-insitu-and-skygrid-subsidiaries-boeing-to-invest-in-archer-and-collaborate))
+- **2026-08:** Q2 results: cash $1.56B, net loss $263.2M, revenue $5.0M. ([SEC 8-K](https://www.sec.gov/Archives/edgar/data/0001824502/000182450226000056/archerq226earningspressr.htm))
+- **2026-07:** Thunder/Halo hybrid VTOL with Anduril unveiled at Farnborough; piloted Salinas–Monterey flights. ([SEC 8-K](https://www.sec.gov/Archives/edgar/data/0001824502/000182450226000056/archerq226earningspressr.htm))
+- **2026-05-11:** Q1 results: Phase 3 closed in April; eIPP selections; LA28 role. ([Archer IR](https://investors.archer.com/news/news-details/2026/Archer-Announces-First-Quarter-2026-Results-Highlighting-Record-FAA-Certification-Progress-With-Initial-US-Operations-Expected-In-2026/))
 
 ## Key People
 
-### Adam Goldstein — Co-Founder, CEO, and Chairman
-- **LinkedIn:** [linkedin.com/in/adam-goldstein-7b662121](https://www.linkedin.com/in/adam-goldstein-7b662121/)
-- **Education:** University of Florida, Herbert Wertheim College of Engineering
-- **Career (reverse-chronological):**
-  - Archer Aviation (2018–present): Co-founder, CEO, Chairman
-- **Notes:** Co-founded Archer with Brett Adcock in 2018. Adcock departed in 2021 to pursue other ventures (Figure AI, humanoid robots). Goldstein serves as sole CEO.
+### Adam Goldstein — Founder and CEO
+- **LinkedIn:** not re-verified
+- **Role:** quoted as CEO on the Boeing transaction (2026-08-10) ([AVM](https://avm-mag.com/archer-to-acquire-boeings-wisk-aero-insitu-and-skygrid-subsidiaries-boeing-to-invest-in-archer-and-collaborate))
 
-### People — Last Reviewed: 2026-03-31
+Prior employers were not confirmed from fetched sources.
+
+### People — Last Reviewed: 2026-10-25
 
 ## Supply Chain Position
 
-Archer operates as a **Platform OEM** designing complete eVTOL aircraft with contract manufacturing by Stellantis at Covington, Georgia. Motor and power electronics sourcing is not publicly disclosed. Battery cell supplier undisclosed. **⚑ Rare earth dependency:** Tilt-rotor motors require NdFeB permanent magnets; China controls ~85% of rare earth processing. **⚑ Shared context with Joby:** Both Joby and Archer are pursuing eVTOL type certification on similar regulatory timelines and compete for the same US pilot talent pool and air taxi market.
+Archer is a platform OEM. Supplier details for motors, batteries and manufacturing were not disclosed in the sources reviewed; a Stellantis warrant expense appears in its filings (zero in Q1 and Q2 2026) tied to services Stellantis provides. **⚑ Shared context:** eVTOL motors typically depend on NdFeB magnets; Archer has not disclosed its sourcing.
 
 ## Claim Verification
 
-### Claim: Midnight achieves 60-mile range and 150 mph cruise speed
-**Status:** Partially verified
+### Claim: First eVTOL company to close FAA Phase 3
+
+**Status:** Unverified
 
 **Supporting sources:**
-- [Archer Aviation product page](https://www.archer.com/midnight) — Company-stated specifications: 150 mph cruise, 60-mile range
-- [Archer flight test milestones (2024)](https://www.stellantis.com/en/news/press-releases/2024/july/stellantis-invests-additional-55-million-in-archer-following-recent-flight-test-milestone) — Transition flight (VTOL to fixed-wing cruise) confirmed achieved in 2024 flight test milestone
+- [Archer IR (May 2026)](https://investors.archer.com/news/news-details/2026/Archer-Announces-First-Quarter-2026-Results-Highlighting-Record-FAA-Certification-Progress-With-Initial-US-Operations-Expected-In-2026/) — states it was the first eVTOL company to close Phase 3
 
 **Refuting / questioning sources:**
-- FAA type certificate not yet issued; final certified performance data not yet public
-- [Motley Fool analysis (Nov 2025)](https://www.fool.com/investing/2025/11/26/archer-aviations-faa-certification-progress/) — Some analysts project type certification not occurring until 2028, noting the gap between company commercial timeline aspirations and actual FAA process maturity
+- No FAA statement was retrieved to confirm priority; a type certificate has not been issued.
 
-**Summary:** Transition flight has been demonstrated, confirming basic flight mode, but certified range and speed data under passenger load and FAA-standard test conditions have not been publicly released.
+**Summary:** A company statement; certification remains incomplete.
+
+### Claim: US operations in 2026
+
+**Status:** Unverified
+
+**Supporting sources:**
+- [SEC 8-K (Q2 2026)](https://www.sec.gov/Archives/edgar/data/0001824502/000182450226000056/archerq226earningspressr.htm) — eIPP operations "later this year"
+
+**Refuting / questioning sources:**
+- Quarterly revenue is $5.0M and no passenger operations date is given.
+
+**Summary:** A stated target under the eIPP, not yet achieved.
 
 ## Sources
 
-- [Archer Aviation — Wikipedia](https://en.wikipedia.org/wiki/Archer_Aviation)
-- [Archer Receives Part 135 Certification — Archer News](https://news.archer.com/archer-receives-faa-part-135-certification-to-begin-operating-commerical-airline)
-- [Stellantis $400M Contract Manufacturing Terms — Archer IR (2024)](https://investors.archer.com/news/news-details/2024/Archer-Announces-Key-Terms-Of-Contract-Manufacturing-Relationship-With-StellantisRepresenting-Up-To-400M-To-Help-Scale-Midnight-Production-To-650-Aircraft-AnnuallySecures-230M-In-Additional-Equity-Capital-From-Strategic--Institutional-Investors/default.aspx)
-- [Stellantis Additional $55M Investment — Stellantis (Jul 2024)](https://www.stellantis.com/en/news/press-releases/2024/july/stellantis-invests-additional-55-million-in-archer-following-recent-flight-test-milestone)
-- [Archer FAA Certification Progress — Motley Fool (Nov 2025)](https://www.fool.com/investing/2025/11/26/archer-aviations-faa-certification-progress/)
-- [Adam Goldstein LinkedIn](https://www.linkedin.com/in/adam-goldstein-7b662121/)
+- [Archer Q1 2026 results](https://investors.archer.com/news/news-details/2026/Archer-Announces-First-Quarter-2026-Results-Highlighting-Record-FAA-Certification-Progress-With-Initial-US-Operations-Expected-In-2026/)
+- [Archer Q2 2026 results (SEC 8-K)](https://www.sec.gov/Archives/edgar/data/0001824502/000182450226000056/archerq226earningspressr.htm)
+- [AVM — Boeing transaction](https://avm-mag.com/archer-to-acquire-boeings-wisk-aero-insitu-and-skygrid-subsidiaries-boeing-to-invest-in-archer-and-collaborate)

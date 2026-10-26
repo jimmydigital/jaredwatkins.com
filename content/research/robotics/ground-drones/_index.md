@@ -45,7 +45,7 @@ The ground robot market splits into three commercially distinct segments that sh
 | [Serve Robotics](https://www.serverobotics.com) | Redwood City, CA, USA | Public (NASDAQ: SERV) | Sidewalk delivery robots; LA operations via Uber Eats partnership; spun out from Uber 2021. |
 | [Nuro](https://www.nuro.ai) | Mountain View, CA, USA | Late Private ($2B+ raised) | Road-going autonomous delivery vehicle; first NHTSA special permit for a vehicle without human controls. |
 | [Monarch Tractor](https://www.monarchtractor.com) | Livermore, CA, USA | Series B | Electric autonomous tractor for specialty crops (vineyards, orchards); farmer-in-the-loop autonomy. |
-| [Carbon Robotics](https://carbonrobotics.com) | Seattle, WA, USA | Series C | LaserWeeder — CO2 laser-based autonomous weed elimination; no herbicides; targets organic and conventional growers. |
+| [Carbon Robotics](https://carbonrobotics.com) | Seattle, WA, USA | Private ($157M raised) | LaserWeeder — CO2 laser-based autonomous weed elimination; no herbicides; targets organic and conventional growers. |
 | [Built Robotics](https://www.builtrobotics.com) | San Francisco, CA, USA | Series B | Autonomous guidance retrofit for heavy construction equipment (excavators, graders); GPS-guided earthmoving. |
 | [Knightscope](https://www.knightscope.com) | Mountain View, CA, USA | Public (NASDAQ: KSCP) | Autonomous security robots (K1, K3, K5); RaaS model; cameras, ALPR, thermal sensors; >50 deployments. |
 | [Milrem Robotics](https://milremrobotics.com) | Tallinn, Estonia | Private (EDGE Group majority) | THeMIS tracked UGV; widely deployed in NATO countries; Mission Master light combat variant. |

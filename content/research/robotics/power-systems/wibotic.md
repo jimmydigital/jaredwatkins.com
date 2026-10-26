@@ -1,15 +1,16 @@
 ---
 title: "WiBotic"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-26
 draft: false
-description: "Seattle startup (University of Washington spinout) providing adaptive resonant inductive wireless charging systems for autonomous drones and ground robots; OC-110/TR-110 system supports up to 125W; Series A funded; remains independent as of March 2026."
+description: "Seattle startup (University of Washington spinout) providing adaptive resonant inductive wireless charging systems for autonomous drones and ground robots; OC-110/TR-110 system supports up to 125W; Series A funded; remains independent as of October 2026."
 research_area: "robotics/power-systems"
 source_urls:
   - "https://www.wibotic.com/about-us/"
   - "https://www.wibotic.com/products/tr-100/"
   - "https://www.therobotreport.com/wibotic-raises-series-a-funding-expand-wireless-robot-charging/"
-last_reviewed: 2026-03-31
+  - "https://www.therobotreport.com/why-opportunity-charging-is-winning-as-robot-fleets-scale/"
+last_reviewed: 2026-10-26
 stale_after_days: 180
 related: []
 ---
@@ -19,14 +20,14 @@ related: []
 
 ## Summary
 
-WiBotic is a Seattle, Washington startup founded in 2015 as a spinout from the University of Washington's Sensor Systems Lab (Professor Joshua Smith's lab). The company develops adaptive resonant inductive wireless charging systems for autonomous mobile robots and drones, allowing robots to autonomously charge without plug-in intervention. Its OC-110 onboard charger (up to 125W) and TR-110 transmitter pad form the core product for lighter robot and drone applications; the TR-110 PowerPad can be embedded in floors or landing pads for fully autonomous charge cycles. WiBotic remains a private independent company as of March 2026, having raised a Series A in 2022 and additional seed funding through 2024–2025. A strategic partnership with Nabtesco Corporation for distribution in Japan was announced in 2023. **Note:** The task briefing stated WiBotic was "Acquired by Vertiv Holdings (VRT) in 2023" — no public record of such an acquisition was found; available sources confirm WiBotic remains independent.
+WiBotic is a Seattle, Washington startup founded in 2015 as a spinout from the University of Washington's Sensor Systems Lab (Professor Joshua Smith's lab). The company develops adaptive resonant inductive wireless charging systems for autonomous mobile robots and drones, allowing robots to autonomously charge without plug-in intervention. Its OC-110 onboard charger (up to 125W) and TR-110 transmitter pad form the core product for lighter robot and drone applications; the TR-110 PowerPad can be embedded in floors or landing pads for fully autonomous charge cycles. WiBotic remains a private independent company as of October 2026, having raised a $5.7M Series A in 2022 and about $2M of additional seed funding in December 2024; no later round was found. A strategic partnership with Nabtesco Corporation for distribution in Japan was announced in 2023.
 
 ## Key Facts
 
 - **Founded:** 2015 (Seattle, WA; UW spinout)
 - **HQ:** Seattle, WA
 - **Type:** Private; Series A funded
-- **Key backers:** Series A (2022); Nabtesco Corporation (distribution partnership, Japan, 2023); seed investors including Flying Fish VC and others; $13M+ total raised through Series A and subsequent rounds
+- **Key backers:** Series A (2022); Nabtesco Corporation (distribution partnership, Japan, 2023); seed investors including Flying Fish VC and others; about $7.7M in the two rounds cited below ($5.7M Series A, about $2M seed); total raised not confirmed
 - **Key products:** TR-110 Transmitter (up to 125W, floor/pad mount); OC-110 Onboard Charger (robot-side receiver); TR-1000 / TR-3000 higher power transmitters (for larger robots, up to 1000W+); PowerPad landing pad for drones; OmniCharge software
 - **Co-founders:** Ben Waters (CEO) and Joshua Smith (Professor of Electrical Engineering, UW)
 - **Commercial status:** Active; partnership with Nabtesco for Japan sales; products available through distributors including InDro Robotics
@@ -43,6 +44,7 @@ The OC-110 / TR-110 combination supports up to 125W — appropriate for lightwei
 
 ## Notable Developments
 
+- **2026-10-16:** CEO Ben Waters appeared on Episode 266 of The Robot Report Podcast on opportunity charging for scaling robot fleets; the company describes its business as wireless charging and fleet energy management for AMRs, drones, floor scrubbers and humanoids. No customers or numbers were given on the page. ([The Robot Report](https://www.therobotreport.com/why-opportunity-charging-is-winning-as-robot-fleets-scale/))
 - **2024-12:** WiBotic raises additional seed funding (~$2M). ([Fundz](https://app.fundz.net/fundings/wibotic-funding-round-0f33d7))
 - **2023-11:** Strategic distribution partnership with Nabtesco Corporation announced for WiBotic products in Japan. ([WiBotic](https://www.wibotic.com/news-releases/wibotic-signs-partnership-with-nabtesco-corporation-for-sales-in-japan/))
 - **2022:** Series A funding ($5.7M) closed; investors include Flying Fish, Catapult Ventures, and others. ([Automated Warehouse](https://www.automatedwarehouseonline.com/wibotic-gets-a-jolt-to-wireless-battery-charging-with-5-7m-series-a-round/))
@@ -64,7 +66,7 @@ The OC-110 / TR-110 combination supports up to 125W — appropriate for lightwei
 - **Role:** Professor of Electrical Engineering at University of Washington; co-founder of WiBotic
 - **Notes:** Smith's Sensor Systems Lab is the academic origin of WiBotic's technology. He continues in his academic role while WiBotic commercializes the research.
 
-### People — Last Reviewed: 2026-03-31
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 
@@ -90,5 +92,6 @@ WiBotic operates at the **Subsystem Supplier** layer in the robotics power chain
 - [TR-110 Product Page — WiBotic](https://www.wibotic.com/products/tr-100/)
 - [Series A Funding — Automated Warehouse / Robot Report](https://www.therobotreport.com/wibotic-raises-series-a-funding-expand-wireless-robot-charging/)
 - [Nabtesco Japan Partnership — WiBotic (Nov 2023)](https://www.wibotic.com/news-releases/wibotic-signs-partnership-with-nabtesco-corporation-for-sales-in-japan/)
+- [The Robot Report Podcast Ep. 266 (Oct 2026)](https://www.therobotreport.com/why-opportunity-charging-is-winning-as-robot-fleets-scale/)
 - [Ben Waters LinkedIn](https://www.linkedin.com/in/benwaters/)
 - [UW ECE WiBotic Profile](https://www.ece.uw.edu/entrepreneurship/wibotic-charged-up-about-wireless-power-for-robots/)

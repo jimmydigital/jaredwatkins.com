@@ -1,100 +1,151 @@
 ---
 title: "Carbon Robotics"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-26
 draft: false
-description: "Seattle, WA agricultural robotics company; LaserWeeder uses 30 CO₂ lasers to eliminate weeds with millimeter precision without herbicides; LaserWeeder G2 launched 2024; $70M raised; peer-reviewed 2024 study confirms effectiveness comparable to herbicides in vegetable crops."
+description: "Seattle agricultural robotics company; LaserWeeder G2 (6.6-60 ft) and Carbon ATK autonomous tractor kit; Large Plant Model (150M labeled plants, Feb 2026); revenue above $100M for fiscal year ended Jan 31, 2026; Carbon Autonomy Ready program (Sep 2026); CNBC Disruptor 50 (2026); layoffs reported Oct 2026."
 research_area: "robotics/ground-drones"
 source_urls:
-  - "https://carbonrobotics.com/laserweeder"
-  - "https://carbonrobotics.com/laserweeder-g2"
-  - "https://www.agriculturedive.com/news/carbon-robotics-raises-70m-for-its-ai-powered-laserweeder/730725/"
-  - "https://pmc.ncbi.nlm.nih.gov/articles/PMC12268811/"
-  - "https://wga.s3.us-west-1.amazonaws.com/cit/2024/cit_case-study_carbon-robotics.pdf"
-last_reviewed: 2026-03-31
+  - "https://geekwire.com/2026/seattle-ag-tech-startup-carbon-robotics-reduces-workforce-citing-economic-conditions/"
+  - "https://theaiinsider.tech/2026/09/01/carbon-robotics-launches-carbon-autonomy-ready-program-for-autonomous-tractors/"
+  - "https://www.businesswire.com/news/home/20260202630325/en/Carbon-Robotics-Launches-the-Worlds-First-Ever-Large-Plant-Model"
+  - "https://www.geekwire.com/2025/carbon-robotics-releases-new-line-of-laser-weed-zappers-for-more-types-of-farms-and-budgets/"
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related: []
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
 
-
 ## Summary
 
-Carbon Robotics (Seattle, WA) develops the LaserWeeder — a tractor-pulled implement that uses AI-guided CO₂ lasers to eliminate weeds in specialty vegetable crops without herbicides or soil disturbance. Founded in 2018 by Paul Mikesell (serial entrepreneur, ex-Isilon Systems co-founder), the company has raised $70M+ in funding. The LaserWeeder G2, launched in 2024, offers double the operating speed of the original and supports widths from 6.6 to 60 feet with 30 lasers. A 2024 peer-reviewed study confirmed that laser weeding reduced weed biomass by ≥97% — comparable to conventional herbicide applications.
+Carbon Robotics, headquartered in Seattle, builds the LaserWeeder, a tractor-pulled implement that uses AI-guided lasers to kill weeds without herbicide, and the Carbon ATK retrofit kit that makes tractors autonomous. It sells direct to growers rather than through dealers. The company says revenue passed $100M for the fiscal year ended 2026-01-31, that customers in 15 countries use its machines, and that it was named to the CNBC Disruptor 50 list for the third straight year in May 2026. In February 2026 it launched the Large Plant Model (LPM), trained on 150 million labeled plants. In September 2026 it opened its autonomy platform to implement makers through the Carbon Autonomy Ready program, with Great Plains Manufacturing as first member. In October 2026 it cut jobs across departments, citing economic conditions.
 
 ## Key Facts
 
-- **Founded:** 2018
-- **HQ:** Seattle, WA
-- **Type:** Private
-- **Key backers:** Sozo Ventures (Series C lead), Anthos Capital, Fuse VC, Ignition Partners, Liquid2, Voyager Capital; $70M+ raised (Agriculture Dive, April 2024)
-- **Key products:** LaserWeeder G2 (tractor-pulled, 30 CO₂ lasers, 6.6–60 ft width, 4,250 lb minimum); LaserWeeder (original, legacy)
-- **Revenue / valuation:** Private; not disclosed
-- **Series C:** $30M (April 2023); subsequent $70M+ round (Agriculture Dive reports $70M in 2024)
+- **HQ:** Seattle, WA; units built at a manufacturing facility in Eastern Washington (GeekWire, 2025); a Richland, WA refurbishment site was reported in 2023 (Tri-City Business News)
+- **CEO:** Paul Mikesell, founder and CEO
+- **CFO:** Kevan Krysler, appointed 2026-03-19 (company release, May 2026)
+- **Funding:** $157M total including the $70M Series D (October 2024) per GeekWire (February 2025); a September 2026 trade-show page states $177M from investors including BOND and NVIDIA. The difference is unreconciled (see Claim Verification)
+- **Employees:** 160 (February 2025, GeekWire); a company marketing VP cited 275 people worldwide in October 2026 (GeekWire)
+- **Revenue:** more than $100M for fiscal year ended 2026-01-31 (company release, 2026-05-19)
+- **Customers:** in 15 countries, mainly North America, Europe, and Australia/New Zealand (company release)
+- **Company-stated cumulative results:** more than 40 billion weeds eliminated across more than half a million acres (release, May 2026)
+- **Sales model:** direct, with global sales and service staff (Mikesell, June 2026, via GeekWire)
+- **LaserWeeder G2 (announced 2025-02-10):** up to 2x faster than the original; lighter and modular; 6.6–60 ft; 4.7 million high-resolution images per hour on multiple Nvidia GPUs
+- **LPM (2026-02-02):** 150 million labeled plants; Plant Profiles adapts the model from 2–3 images through the iPad Operator App
+- **Carbon ATK (launched 2025-04-02):** retrofit autonomy kit, initially for John Deere 6R and 8R tractors, installs in under a day, pay-per-hour pricing
+- **Named customers:** Bland Farms (Vidalia onions); Columbia Basin Onion LLC (ATK); Skone & Connors (Warden, WA; 2023); Carzalia Farm (2021)
 
 ## What It Is / How It Works
 
-The LaserWeeder is a large tractor-pulled implement that uses an array of high-powered CO₂ lasers to destroy weeds at the meristem — the growing point at the base of the plant — with millimeter-level precision. Computer vision and deep learning models identify weeds in real time as the implement moves through the field; the laser fires only at confirmed weed meristems, leaving crop plants undisturbed. The process eliminates the need for herbicide application in the treated zone.
+Cameras and deep learning models classify plants in real time and a laser fires at weed growth points, leaving crops untouched. The LPM is a base model for plant detection; Plant Profiles adapts it to a farmer's crop in minutes. The company says the learning loop improves performance across the fleet.
 
-The key technical challenge is the computer vision task: distinguishing weeds from crops in real time, across variable soil conditions, at the speed needed for commercial field operations. Carbon Robotics built what it calls a "large plant model" — a deep learning system trained on millions of plant images that can classify plants quickly enough to fire the laser accurately at field speeds. The 2025 GeekWire article noted Carbon Robotics was developing a new "AI robot" product (undisclosed specifications) suggesting expansion beyond the tractor-pull LaserWeeder format.
+**Product range.** An April 2026 industry blog post reporting on a Mikesell podcast appearance at World Ag Expo (Tulare) lists G2 200/400/600 models for specialty crops and 1200/1800 models for Midwest row crops, the latter rolled out in 2025; the post also describes a laser weeder add-on for the farm-ng Amiga robot shown at Tulare. These details are the author's account, not direct quotes. A September 2026 trade-show page lists configurations from 2 to 6 m.
 
-The LaserWeeder G2 (launched February 2024) is 2x faster than the original, weighing from 4,250 lbs, with modularity supporting variable widths from 6.6 ft (for tight row crops) to 60 ft (for broad field applications). The 30 CO₂ lasers provide high throughput — up to 200,000 weeds per hour per company claims.
+**Carbon ATK.** Combines RTK-GPS, 360-degree cameras, radar safety sensors and remote e-stops over satellite link. Staff at a Remote Operations Control Center can intervene. At launch it was offered to select LaserWeeder customers in key US regions. ([The Robot Report](https://www.therobotreport.com/))
 
-Independent validation came in 2024 from two sources: a peer-reviewed PMC/Wiley study in three vegetable production systems (beet, spinach, pea) found laser weeding reduced weed biomass by ≥97% — comparable to or better than herbicide benchmarks; and a Western Growers case study found farms in the Salinas Valley cut weeding costs from $900/acre to $268/acre (70% reduction). These represent meaningful independent corroboration of the core technology claims.
+**Carbon Autonomy Ready.** Announced around 2026-09-01 per trade coverage; opens the autonomy platform to implement manufacturers, with Great Plains Manufacturing as the first member.
 
-Competitive context: John Deere's See & Spray (acquired from Blue River Technology) uses herbicide spot-spraying guided by computer vision rather than lasers — lower capital cost but still involves chemical inputs. FarmWise/Trimble uses mechanical weeding. Carbon Robotics is the only commercial pure-laser-weeding system in the market.
+**Competition.** Herbicide spot-spraying and mechanical weeders compete on cost; the sources reviewed give no comparative pricing.
 
 ## Notable Developments
 
-- **2025-06:** Named to CNBC Disruptor 50 list. ([CNBC](https://www.cnbc.com/2025/06/10/carbon-robotics-cnbc-disruptor-50.html))
-- **2025-04:** Carbon Robotics raises $20M and announces new "AI robot" product in development. ([GeekWire](https://www.geekwire.com/2025/carbon-robotics-raises-20m-as-laserweeder-maker-plans-secretive-new-ai-robot-for-farms/))
-- **2024:** Peer-reviewed study (PMC, Wiley Open Access) confirms LaserWeeder effectiveness ≥97% weed biomass reduction in vegetable crops, comparable to herbicides. ([PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC12268811/))
-- **2024-02:** LaserWeeder G2 launched — 2x faster, lighter (4,250 lb base), modular widths 6.6–60 ft, 30 CO₂ lasers. ([Carbon Robotics](https://carbonrobotics.com/laserweeder-g2))
-- **2024:** Agriculture Dive reports $70M funding round. ([Agriculture Dive](https://www.agriculturedive.com/news/carbon-robotics-raises-70m-for-its-ai-powered-laserweeder/730725/))
-- **2024-03:** Western Growers case study documents 70% weeding cost reduction at Salinas Valley farms. ([Western Growers](https://wga.s3.us-west-1.amazonaws.com/cit/2024/cit_case-study_carbon-robotics.pdf))
-- **2023-04:** $30M Series C (Sozo Ventures lead). ([Business Wire](https://www.businesswire.com/news/home/20230411005018/en/Carbon-Robotics-Raises-30-Million-in-Funding-to-Scale-AI-Powered-LaserWeeder-Platform))
-- **2018:** Founded by Paul Mikesell in Seattle, WA.
+- **2026-10-19 (confirmed):** Layoffs across several departments in the US and abroad; number not disclosed; the company cited cost realignment amid broader economic conditions. ([GeekWire](https://geekwire.com/2026/seattle-ag-tech-startup-carbon-robotics-reduces-workforce-citing-economic-conditions/))
+- **2026-10-06 to 10-08:** Exhibited at Fruit Attraction, Madrid (stand 5E13). ([IFEMA](https://www.ifema.es/en/fruit-attraction))
+- **~2026-09-01:** Carbon Autonomy Ready program launched with Great Plains Manufacturing. ([The AI Insider](https://theaiinsider.tech/2026/09/01/carbon-robotics-launches-carbon-autonomy-ready-program-for-autonomous-tractors/))
+- **2026-06-09:** Mikesell showed a LaserWeeder optical scanner at a Deep Tech Week Seattle event and said Carbon had connected Claude to an oscilloscope to generate firmware that was "proving out what we needed." ([GeekWire](https://www.geekwire.com/))
+- **2026-05-19:** Named to the CNBC Disruptor 50 list for the third consecutive year (2024, 2025, 2026); company reported revenue above $100M. ([Business Wire](https://www.businesswire.com/))
+- **2026-03-19:** Kevan Krysler appointed CFO.
+- **2026-02-02:** Large Plant Model launched, with demos at Fruit Logistica and World Ag Expo. ([Business Wire](https://www.businesswire.com/news/home/20260202630325/en/Carbon-Robotics-Launches-the-Worlds-First-Ever-Large-Plant-Model))
+- **2025-04-02:** Carbon AutoTractor (ATK) launched. ([The Robot Report](https://www.therobotreport.com/))
+- **2025-02-10:** LaserWeeder G2 line announced. ([GeekWire](https://www.geekwire.com/2025/carbon-robotics-releases-new-line-of-laser-weed-zappers-for-more-types-of-farms-and-budgets/))
+- **2024-10:** $70M Series D. ([GeekWire](https://www.geekwire.com/2025/carbon-robotics-releases-new-line-of-laser-weed-zappers-for-more-types-of-farms-and-budgets/))
+- **2024-05:** Investment from Nvidia's NVentures. ([GeekWire](https://www.geekwire.com/2024/ag-tech-startup-carbon-robotics-lands-nvidia-funding-to-fuel-ai-powered-weed-zapping/))
+
+## Customers, Partners and Media
+
+### Customers
+- **Columbia Basin Onion LLC:** early Carbon ATK user. Farm manager Brandon Munn said the kit lets the farm run more hours and makes night shifts safer. ([The Robot Report](https://www.therobotreport.com/))
+- **Skone & Connors (Warden, WA):** co-owner Bruce Swindler bought a LaserWeeder jointly with a neighbor and used it on a 167-acre onion field, deciding spraying was unnecessary there; about eight units were in Eastern Washington at the time. ([Tri-City Business News, 2023-06-14](https://www.tricitiesbusinessnews.com/))
+- **Bland Farms:** named in the LPM release.
+- **Carzalia Farm:** grower James Johnson called it "one of the most innovative and valuable technologies that I've seen as a farmer" (Good News Network, 2021; older mention).
+
+### Partners and investors
+- **Nvidia:** NVentures invested in 2024; the company runs its models on Nvidia GPUs. An industry blog post states Nvidia holds a board seat, which is not confirmed by a primary source here.
+- **BOND:** named as an investor on the Fruit Attraction page.
+- **Great Plains Manufacturing:** first Carbon Autonomy Ready member.
+- **farm-ng:** an Amiga-based laser weeder add-on was shown at Tulare 2026, per the April 2026 blog post.
+
+### Media appearances
+- **Podcast, reported April 2026:** Mikesell said sales exceeded $100M in 2025. The same post estimated 2025 specialty-crop automation sales of about $310M, a figure the author derived from startup feedback; the post names no author or organization.
+- **Deep Tech Week Seattle, 2026-06-09:** product demo and AI-tooling remarks (GeekWire).
+- **Other coverage not read in full:** a YouTube interview on physical AI in farming, a PMF Show episode, AgFunder News and Farm Equipment pieces.
 
 ## Key People
 
 ### Paul Mikesell — Founder and CEO
 - **LinkedIn:** not found
-- **Education:** Not publicly disclosed in available sources
-- **Career (reverse-chronological):**
-  - Carbon Robotics (2018–present): Founder and CEO
-  - Isilon Systems: Co-founder; company went public 2006, acquired by EMC for $2.5B in 2010
-- **Notes:** Serial entrepreneur with a prior successful hardware+software company exit. Isilon Systems built distributed storage systems — a background in large-scale data management systems that translates to Carbon Robotics' AI inference workloads.
+- **Role:** quoted as Founder and CEO in the February 2026 release ([Business Wire](https://www.businesswire.com/news/home/20260202630325/en/Carbon-Robotics-Launches-the-Worlds-First-Ever-Large-Plant-Model)) and at the June 2026 Seattle event.
+- **Prior ventures (author-reported, April 2026 blog post):** Isilon, sold to EMC in 2010 for about $2.5B, and Clustrix. Not confirmed from a primary source here.
 
-### People — Last Reviewed: 2026-03-31
+### Kevan Krysler — Chief Financial Officer
+- **Role:** appointed CFO, announced 2026-03-19 (company release, May 2026).
+- **LinkedIn:** not found
+
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 
-Carbon Robotics is a **Platform OEM** at the agricultural robotics layer. The LaserWeeder is designed and manufactured in Seattle. CO₂ laser sources are commercial industrial laser components (supplier not disclosed); computer vision runs on embedded GPU compute (NVIDIA Jetson or equivalent). The implement is powered by the tractor's PTO (power take-off), not a self-contained power source. **⚑ Rare earth dependency:** If servo or stepper motors are used for laser beam steering or implement positioning, NdFeB magnets apply; the primary CO₂ laser mechanism itself does not require rare earth materials.
+Carbon Robotics is a platform OEM in agricultural robotics. Nvidia GPUs run the vision models. Laser and other component suppliers were not disclosed in the sources reviewed. Equipment is sold direct, with the Autonomy Ready program extending the platform to third-party implement makers.
 
 ## Claim Verification
 
-### Claim: LaserWeeder eliminates 200,000 weeds per hour at 99% efficiency
+### Claim: Weed kill rates comparable to herbicides
+
+**Status:** Unverified
+
+**Supporting sources:**
+- None re-checked in this review. A September 2026 trade-show page claims weed-control cost cuts of "up to 80%", a marketing figure with no method given.
+
+**Summary:** Company-stated performance is not independently confirmed here.
+
+### Claim: Revenue above $100M
+
 **Status:** Partially verified
 
 **Supporting sources:**
-- [Carbon Robotics LaserWeeder page](https://carbonrobotics.com/laserweeder) — Company-stated: "eliminate more than 200,000 weeds per hour"; "up to 99% efficiency in weed death"
-- [PMC peer-reviewed study (2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12268811/) — Independent academic study confirms ≥97% weed biomass reduction across three vegetable crop types; this is close to the 99% claim and provides genuine academic validation
-- [Western Growers case study (Mar 2024)](https://wga.s3.us-west-1.amazonaws.com/cit/2024/cit_case-study_carbon-robotics.pdf) — Farm-level cost reduction data corroborates practical effectiveness
+- Company release of 2026-05-19 (fiscal year ended 2026-01-31)
+- Mikesell's reported podcast remark of over $100M in 2025 (April 2026 blog post, secondhand)
 
-**Refuting / questioning sources:**
-- "200,000 weeds per hour" depends heavily on weed density per acre, operating speed, and field conditions; this is a throughput maximum under favorable conditions, not a consistent field average
-- 99% efficiency claim is slightly higher than the 97% in the peer-reviewed study; the gap is small but the peer-reviewed figure is more credible
-- Performance in different crop types (vs. the vegetable crops studied) has not been independently verified
+**Summary:** Consistent across company statements; no audited figures.
 
-**Summary:** The peer-reviewed 2024 study provides strong independent validation that laser weeding is as effective as herbicides in vegetable crops; the specific 200,000 weeds/hour and 99% efficiency figures are company-stated maximums, with independent science supporting the general effectiveness claim at a similar level.
+### Claim: Total funding
+
+**Status:** Discrepancy
+
+**Supporting sources:**
+- $157M including the $70M Series D (GeekWire, February 2025)
+- $177M (Fruit Attraction page, September 2026)
+- "Well over $150M" (April 2026 blog post)
+
+**Summary:** A later round may account for the gap; none was confirmed.
+
+### Claim: Weeds eliminated
+
+**Status:** Company-stated
+
+**Summary:** The May 2026 release says over 40 billion; the September 2026 trade-show page says over 35 billion. The figures likely reflect different dates; neither is independently verified.
 
 ## Sources
 
-- [LaserWeeder — Carbon Robotics](https://carbonrobotics.com/laserweeder)
-- [LaserWeeder G2 — Carbon Robotics](https://carbonrobotics.com/laserweeder-g2)
-- [Carbon Robotics $70M Raise — Agriculture Dive](https://www.agriculturedive.com/news/carbon-robotics-raises-70m-for-its-ai-powered-laserweeder/730725/)
-- [Peer-Reviewed Laser Weeding Study — PMC (2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12268811/)
-- [Western Growers Case Study (Mar 2024)](https://wga.s3.us-west-1.amazonaws.com/cit/2024/cit_case-study_carbon-robotics.pdf)
-- [Carbon Robotics $20M Raise + New AI Robot — GeekWire (Apr 2025)](https://www.geekwire.com/2025/carbon-robotics-raises-20m-as-laserweeder-maker-plans-secretive-new-ai-robot-for-farms/)
-- [Series C $30M — Business Wire (Apr 2023)](https://www.businesswire.com/news/home/20230411005018/en/Carbon-Robotics-Raises-30-Million-in-Funding-to-Scale-AI-Powered-LaserWeeder-Platform)
+- [Business Wire — Large Plant Model (Feb 2026)](https://www.businesswire.com/news/home/20260202630325/en/Carbon-Robotics-Launches-the-Worlds-First-Ever-Large-Plant-Model)
+- [GeekWire — LaserWeeder G2 (Feb 2025)](https://www.geekwire.com/2025/carbon-robotics-releases-new-line-of-laser-weed-zappers-for-more-types-of-farms-and-budgets/)
+- [GeekWire — workforce reduction (Oct 2026)](https://geekwire.com/2026/seattle-ag-tech-startup-carbon-robotics-reduces-workforce-citing-economic-conditions/)
+- [GeekWire — Nvidia funding (2024)](https://www.geekwire.com/2024/ag-tech-startup-carbon-robotics-lands-nvidia-funding-to-fuel-ai-powered-weed-zapping/)
+- [The AI Insider — Carbon Autonomy Ready (Sep 2026)](https://theaiinsider.tech/2026/09/01/carbon-robotics-launches-carbon-autonomy-ready-program-for-autonomous-tractors/)
+- [Business Wire — CNBC Disruptor 50 release (May 2026)](https://www.businesswire.com/)
+- [The Robot Report — Carbon AutoTractor (Apr 2025)](https://www.therobotreport.com/)
+- [Tri-City Business News (Jun 2023)](https://www.tricitiesbusinessnews.com/)
+- [Good News Network (May 2021)](https://www.goodnewsnetwork.org/carbon-robotics-autonomous-weeder-destroys-weeds-with-lasers/)
+- [IFEMA — Fruit Attraction exhibitor page (Sep 2026)](https://www.ifema.es/en/fruit-attraction)

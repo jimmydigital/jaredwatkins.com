@@ -1,17 +1,15 @@
 ---
 title: "T-Motor (Tiger Motor)"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-25
 draft: false
-description: "Nanchang, China-based drone motor and propulsion system manufacturer; legally named Jiangxi Xintuo Enterprise Co. Ltd.; added to the US Commerce Department Entity List in May 2024 for supporting Russian UAV programs; dominant OEM supplier for the global commercial drone motor market."
+description: "Nanchang, China UAV propulsion maker (motors, ESCs, propellers) with 300+ distributors; legal entity Jiangxi Xintuo Enterprise Co., Ltd. added to the US Commerce Entity List effective April 11, 2024 for supporting Russia's military UAV programs; exhibited at UMEX 2026 in Abu Dhabi."
 research_area: "robotics/aerial-drones"
 chinese-owned: true
 source_urls:
   - "https://uav-en.tmotor.com/"
   - "https://www.suasnews.com/2024/05/t-motor-jiangxi-xintuo-enterprise-co-ltd-added-to-bureau-of-industry-and-security-department-of-commerce-entity-list/"
-  - "https://www.auvsi.org/t-motor-sanctions-auvsis-analysis-and-recommendations/"
-  - "https://www.digitimes.com/news/a20240326VL204/geosat-t-motor-defense-drone.html"
-last_reviewed: 2026-03-31
+last_reviewed: 2026-10-25
 stale_after_days: 90
 related: []
 ---
@@ -23,70 +21,62 @@ related: []
 
 ## Summary
 
-T-Motor (legal entity: Jiangxi Xintuo Enterprise Co. Ltd., also known as Nanchang Sanrui Intelligent Technology) is a Nanchang, Jiangxi Province, China-based manufacturer of brushless DC motors, electronic speed controllers (ESCs), and propellers for professional and commercial drones. Founded in 2009 by Wu Min, T-Motor supplies OEM propulsion systems to hundreds of drone manufacturers globally and has approximately 300+ distributors. In May 2024, the US Department of Commerce added T-Motor to the Bureau of Industry and Security's Entity List for alleged support to Russian UAV programs, sharply restricting US access to its products.
+T-Motor is a Nanchang, China maker of UAV propulsion systems: motors, electronic speed controllers and propellers for multirotor, fixed-wing, VTOL and FPV aircraft. Its site says it was founded in 2009 and has more than 300 distributors worldwide. The Commerce Department's Bureau of Industry and Security added Jiangxi Xintuo Enterprise Co., Ltd. (alias T-MOTOR) to the Entity List effective 2024-04-11, finding that it supports Russia's military through procurement, development and proliferation of Russian UAVs; the entry carries a license requirement for all items subject to the EAR with a policy of denial. T-Motor continues to exhibit internationally, including UMEX 2026 in Abu Dhabi.
 
 ## Key Facts
 
-- **Founded:** 2009
-- **HQ:** Nanchang, Jiangxi Province, China
-- **Legal entity:** Jiangxi Xintuo Enterprise Co. Ltd. (also Nanchang Sanrui Intelligent Technology Co., Ltd.)
-- **Type:** Private (Chinese)
-- **Key backers:** Not publicly disclosed; private company
-- **Key products:** MN Antigravity series motors, U series motors, P series motors, F series motors; FLAME ESC line; carbon propellers
-- **Revenue / valuation:** ~$42M annual revenue (reported; not independently verified)
-- **US Status:** On the BIS Entity List as of May 2024
+- **Founded:** 2009 (company site)
+- **HQ:** Nanchang, China
+- **Legal entity:** Jiangxi Xintuo Enterprise Co., Ltd. (BIS Entity List alias: T-MOTOR)
+- **Type:** private, Chinese
+- **Entity List:** effective 2024-04-11 (89 FR, document 2024-07760); reason: supporting Russia's military UAV programs; Russia/Belarus military end-user foreign direct product rule footnote applies; license requirement for all items subject to the EAR, review policy of denial
+- **Products:** multirotor propulsion systems and motors (U, P, Navigator, Antigravity, QAD), ESCs (ALPHA, V Series FOC, THUNDER, FLAME, AIR), carbon and polymer propellers; fixed-wing (AX, AT), VTOL (V Series, VL) and FPV lines
+- **Certifications:** none listed on the company page
+- **Revenue:** not disclosed in sources reviewed
 
 ## What It Is / How It Works
 
-T-Motor is positioned as the world's leading commercial UAV motor brand by claimed market share. Its product lines span the full range of drone propulsion sizes: small consumer drones (F series, below 250g class) through heavy-lift professional drones (MN antigravity and U series, for 5–50 kg MTOW aircraft). The MN series are particularly prominent in the professional cinematography and survey drone segments, while the U series targets heavy-lift commercial platforms. T-Motor also produces matched ESC systems (the FLAME and ALPHA series) and carbon fiber propellers, enabling OEM customers to purchase complete propulsion packages rather than sourcing components individually.
+T-Motor sells complete propulsion packages (motor, ESC, propeller) so drone makers can buy matched components. The company page describes standard and customized products and does not publish production volumes or customer names.
 
-T-Motor's market dominance in commercial drone motors derives from a combination of competitive pricing (Chinese manufacturing cost structure), broad product range, and established OEM relationships built since 2009. The company has reported serving 300,000+ global users and having delivered 1,000+ custom OEM propulsion projects. Specific OEM customer relationships are not publicly disclosed, but T-Motor motors appear in drone platforms from a range of manufacturers across Europe, Asia, and the US.
-
-The US Entity List designation in May 2024 significantly disrupts T-Motor's access to the US market. The Entity List requires US exporters to obtain a license before selling to T-Motor, and reverse — US drone manufacturers sourcing T-Motor components face compliance scrutiny. The AUVSI (Association for Unmanned Vehicle Systems International) published an analysis noting the practical difficulty this creates for US commercial drone operators who had built supply chains around T-Motor propulsion systems.
-
-Investigative reporting and US government findings linked T-Motor motors to Russia's Orlan-10 military reconnaissance drone. Founder Wu Min has reported academic ties to Beihang University's School of Reliability and Systems Engineering, whose leadership includes Chinese national defense researchers. The combination of these connections formed the evidentiary basis for the Entity List designation.
+**Entity List effect.** Items subject to the EAR require a license to be exported to T-Motor, with a denial policy; the rule restricts exports to T-Motor rather than prohibiting US firms from buying its products. The BIS finding is the sourced basis for the designation; the claims in the earlier entry about Orlan-10 links and the founder's academic ties were not confirmed in sources fetched here.
 
 ## Notable Developments
 
-- **2024-05:** Jiangxi Xintuo Enterprise Co. Ltd. (T-Motor) added to BIS Entity List for supporting Russian UAV programs. ([sUAS News](https://www.suasnews.com/2024/05/t-motor-jiangxi-xintuo-enterprise-co-ltd-added-to-bureau-of-industry-and-security-department-of-commerce-entity-list/))
-- **2024-03:** Digitimes reporting documents T-Motor's supply of motors used in weaponized drone programs globally. ([Digitimes](https://www.digitimes.com/news/a20240326VL204/geosat-t-motor-defense-drone.html))
-- **2024:** AUVSI publishes impact analysis on T-Motor Entity List designation for US commercial drone operators. ([AUVSI](https://www.auvsi.org/t-motor-sanctions-auvsis-analysis-and-recommendations/))
-- **2009:** Founded in Nanchang by Wu Min.
+- **2026:** T-Motor shows X-A16L, S-series and VZ-series propulsion at UMEX 2026, Abu Dhabi. ([T-Motor](https://uav-en.tmotor.com/))
+- **2024-04-11:** Jiangxi Xintuo Enterprise Co., Ltd. (T-Motor) added to BIS Entity List for supporting Russian UAV programs. ([sUAS News](https://www.suasnews.com/2024/05/t-motor-jiangxi-xintuo-enterprise-co-ltd-added-to-bureau-of-industry-and-security-department-of-commerce-entity-list/))
+- **2009:** Founded in Nanchang (company site).
 
 ## Key People
 
-### Wu Min — Founder
-- **LinkedIn:** not found
-- **Education:** Beihang University, School of Reliability and Systems Engineering (reported class of 1991)
-- **Career (reverse-chronological):**
-  - T-Motor / Jiangxi Xintuo Enterprise (2009–present): Founder
-- **Notes:** Reported alumni connection to Beihang University's Reliability Control Group, which has PLA-connected leadership. This connection was cited in US government national security analysis of T-Motor.
+Leadership names (including the founder named in the earlier entry) were not confirmed from a current dated source in this review.
 
-### People — Last Reviewed: 2026-03-31
+### People — Last Reviewed: 2026-10-25
 
 ## Supply Chain Position
 
-T-Motor operates at the **Component/Subsystem Supplier** layer in the aerial drone value chain, providing propulsion systems (motor + ESC + propeller) to drone OEMs. The company sources rare earth permanent magnets (neodymium-iron-boron) from Chinese suppliers for its BLDC motors. **⚑ Rare earth dependency:** NdFeB magnets are the core enabling component for T-Motor's BLDC motors; China controls ~85% of global rare earth processing, giving T-Motor structural cost and supply advantages that are not replicable by non-Chinese motor manufacturers in the short term. KDE Direct (Bend, Oregon) is the primary US-manufactured alternative for professional-grade drone motors, though at higher price points. Post-Entity-List designation, US drone manufacturers are accelerating qualification of alternative propulsion suppliers.
+T-Motor is a component and subsystem supplier of propulsion systems to drone OEMs. **⚑ Rare earth dependency:** BLDC motors rely on NdFeB magnets processed largely in China. Alternatives for US builds include [KDE Direct]({{< relref "kde-direct.md" >}}), whose manufacturing locations are not disclosed.
 
 ## Claim Verification
 
-### Claim: T-Motor is the "world's largest professional drone motor manufacturer"
+### Claim: Entity List designation for supporting Russian UAV programs
+
+**Status:** Verified
+
+**Supporting sources:**
+- [sUAS News (BIS rule summary)](https://www.suasnews.com/2024/05/t-motor-jiangxi-xintuo-enterprise-co-ltd-added-to-bureau-of-industry-and-security-department-of-commerce-entity-list/) — effective 2024-04-11; Nanchang addresses; supports Russia's military through UAV procurement, development and proliferation
+
+**Summary:** The designation is documented; the underlying evidence is not published in the rule summary.
+
+### Claim: World's largest professional drone motor maker
+
 **Status:** Unverified
 
 **Supporting sources:**
-- [T-Motor website](https://uav-en.tmotor.com/) — Self-stated claim of market leadership with "300,000+ global users"
-- General industry observation: T-Motor products appear consistently in professional drone platforms across multiple brands globally
+- [T-Motor](https://uav-en.tmotor.com/) — says it has more than 300 distributors worldwide; the page makes no market-share claim
 
-**Refuting / questioning sources:**
-- No independent third-party market share study found in public sources
-- The Entity List designation implies supply chain disruption that may have reduced T-Motor's effective global market position since May 2024
-- Chinese revenue figure (~$42M) is modest for a claimed global market leader and is from unverified secondary sources
-
-**Summary:** T-Motor's market leadership claim is widely repeated but not supported by published independent market share data; the Entity List designation creates material uncertainty about the claim's continued validity.
+**Summary:** No independent market-share data found.
 
 ## Sources
 
 - [T-Motor UAV Products — T-Motor official site](https://uav-en.tmotor.com/)
-- [T-Motor Added to BIS Entity List — sUAS News (May 2024)](https://www.suasnews.com/2024/05/t-motor-jiangxi-xintuo-enterprise-co-ltd-added-to-bureau-of-industry-and-security-department-of-commerce-entity-list/)
-- [AUVSI T-Motor Sanctions Analysis — AUVSI](https://www.auvsi.org/t-motor-sanctions-auvsis-analysis-and-recommendations/)
-- [T-Motor: The Chinese drone maker making a killing on global conflict — Digitimes (Mar 2024)](https://www.digitimes.com/news/a20240326VL204/geosat-t-motor-defense-drone.html)
+- [T-Motor Added to BIS Entity List — sUAS News (2024)](https://www.suasnews.com/2024/05/t-motor-jiangxi-xintuo-enterprise-co-ltd-added-to-bureau-of-industry-and-security-department-of-commerce-entity-list/)

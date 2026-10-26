@@ -1,109 +1,122 @@
 ---
 title: "One Stop Systems"
 date: 2026-03-25
-lastmod: 2026-03-26
+lastmod: 2026-10-23
 draft: false
-description: "Escondido, CA rugged AI compute company (NASDAQ: OSTO); 'AI on the Fly' (AIFLY) rackmount GPU servers for airborne and maritime military platforms; P-8A Poseidon maritime patrol aircraft, Virginia-class submarine sonar, USSOCOM CRADA; Q4 2025 revenue $12M (+70% YoY); 2026 guidance of 20–25% growth."
+description: "Rugged GPU compute and storage supplier (NASDAQ: OSS); FY2025 continuing-ops revenue $32.2M (+31.2%); Q2 2026 revenue $9.3M (+62.3%) with record $15.1M bookings and raised 2026 growth guidance of 25-30%; P-8A Poseidon, Virginia-class and USSOCOM CRADA programs; Bressner sold December 2025 for about $22.4M; Tamarack-G OCP/VPX hybrid unveiled October 2026."
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://onestopsystems.com/"
-  - "https://finance.yahoo.com/quote/OSTO"
-last_reviewed: 2026-03-26
+  - "https://onestopsystems.com/blogs/press-releases"
+  - "https://onestopsystems.com/blogs/press-releases/one-stop-systems-reports-q2-2026-results"
+  - "https://www.streetinsider.com/Press+Releases/One+Stop+Systems+Reports+Q4+2025+Results/26179644.html"
+  - "https://www.edgeir.com/oss-secures-6m-in-dod-contracts-strengthening-edge-computing-in-defense-systems-20250228"
+  - "https://www.tipranks.com/news/the-fly/one-stop-systems-enters-into-crada-with-ussocom-thefly"
+last_reviewed: 2026-10-23
 stale_after_days: 90
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
 
-
 ## Summary
 
-One Stop Systems (NASDAQ: OSTO) builds rugged GPU compute servers — branded "AI on the Fly" (AIFLY) — that run at altitude, in submarine electronics bays, and inside ground vehicles where commercial servers would fail. The company occupies the rack/server tier of rugged compute, integrating high-density NVIDIA GPU clusters into conduction-cooled or air-cooled enclosures qualified to MIL-STD-810 standards. Revenue is accelerating sharply on defense AI demand: Q4 2025 saw 70% year-over-year growth, and the company is targeting 20–25% growth in 2026. Its USSOCOM cooperative R&D agreement and deployments on major Navy platforms (P-8A Poseidon, Virginia-class submarines) validate its positioning at the frontier of military AI inference.
+One Stop Systems (NASDAQ: OSS) builds rugged GPU servers and storage for airborne, maritime and ground platforms, selling mainly to defense primes and integrators. FY2025 revenue from continuing operations was $32.2M (+31.2%) after the Bressner Technology sale. Q2 2026 revenue was $9.3M (+62.3%) with record bookings of $15.1M, and management raised 2026 growth guidance to 25% to 30%. A $6.25M legal settlement charge pushed Q2 loss from continuing operations to $7.3M.
 
 ## Key Facts
 
-- **Founded:** 1998 (originally high-density compute; pivoted to rugged defense AI focus under current leadership)
-- **HQ:** Escondido, CA (San Diego area)
-- **Ticker:** NASDAQ: OSTO
-- **Value chain position:** Component/subsystem supplier — complete rugged AI compute servers and storage systems to defense primes and system integrators
-- **CEO:** Mike Knowles (since June 2023)
-- **Revenue:** Q4 2025: $12.0M (+70.2% YoY); FY2025 full year approximately $57–60M; 2026 guidance: 20–25% growth, ~40% gross margin, positive EBITDA
-- **Balance sheet (end 2025):** $31.2M cash, $45.3M working capital — no debt pressure
-- **Flagship product:** "AI on the Fly" (AIFLY) — rackmount GPU servers designed for extreme environments (altitude, vibration, humidity, temperature)
-- **Performance spec:** Up to 9.9 PetaOPS INT8 at maximum GPU density configuration
-- **Platform tier:** Rack/server tier — complete integrated systems, not individual VPX modules
-- **Standards compliance:** MIL-STD-810 (environmental); conduction-cooled variants for sealed enclosures; air-cooled variants for accessible bays
-- **Key programs:**
-  - P-8A Poseidon: ~$4M contract for data recording and compute on Boeing maritime patrol aircraft (US Navy, Royal Australian Air Force, UK RAF)
-  - Virginia-class submarine: ~$2M sonar upgrade contract — GPU-accelerated underwater acoustic processing in one of the world's most demanding environments
-  - US Army combat vehicles: $1.2M order
-  - USSOCOM: CRADA (Cooperative Research and Development Agreement) — joint R&D for special operations compute requirements
-- **Divestiture (Dec 2025):** Sold Bressner Technology (European commercial division) for $22.4M, booking $8.2M gain; sharpens focus on US defense market
+- **Ticker:** NASDAQ: OSS; joined the Russell 2000 index in June 2026 per company release
+- **HQ:** Escondido, CA (not re-verified in this review)
+- **Value chain position:** system supplier at the rack/server tier
+- **CEO:** Mike Knowles, President and CEO (quoted in the August 2026 release)
+- **FY2025 (continuing operations):** revenue $32.2M (+31.2%); gross margin 49.6%; net loss $3.1M; book-to-bill 1.2x
+- **Q4 2025:** revenue $12.0M (+70.2%); gross margin 58.5%
+- **Q2 2026:** revenue $9.3M (+62.3%); bookings $15.1M (company record); gross margin 39.1%; loss from continuing operations $7.3M including a $6.25M legal settlement charge
+- **H1 2026:** revenue $17.4M (+58.8%)
+- **Balance sheet (2026-06-30):** cash and short-term investments $31.4M; working capital $38.1M
+- **2026 guidance (raised 2026-08-05):** revenue growth 25–30%, gross margin about 40%, positive EBITDA
+- **Divestiture:** Bressner Technology GmbH sold 2025-12-30 for about $22.4M (per CEO); pre-tax gain $6.7M
+- **Programs:** P-8A Poseidon, Virginia-class sonar, USSOCOM CRADA, a new DoD intelligence platform expected to generate about $44M over four years
 
 ## What It Is / How It Works
 
-One Stop Systems builds GPU compute servers for the spaces where commercial servers cannot operate. A commercial NVIDIA H100 server is designed for a climate-controlled datacenter: air-cooled fans, standard rack mounting, no vibration hardening. An AIFLY server from OSS takes equivalent GPU compute density and re-engineers the thermal management, structural mounting, power distribution, and connector systems for operation in an aircraft avionics bay at 40,000 feet, a submarine electronics room subject to shock and vibration, or an armored vehicle computer bay at desert temperatures.
+OSS packages high-density GPU and PCIe compute for environments commercial servers cannot tolerate: shock, vibration, altitude and tight bay volumes. It sells at the rack/server tier, in contrast to VPX module vendors such as [Mercury Systems]({{< relref "mercury-systems.md" >}}) and [Curtiss-Wright]({{< relref "curtiss-wright.md" >}}).
 
-The **P-8A Poseidon deployment** is the clearest illustration of the value proposition. The P-8A is a Boeing 737-derived maritime patrol aircraft that uses sonobuoys to detect and track submarines. OSS's system sits in the aircraft's electronics bay, processing acoustic sensor data in flight using GPU-accelerated AI algorithms that classify acoustic signatures in real time. Prior generations used specialized DSP hardware; OSS replaces those with general-purpose GPU inference that can be updated with new algorithms via software without hardware changes — a critical operational flexibility advantage.
+**Navy programs.** On 2025-02-28 OSS announced $6M of renewals: $4M for P-8A Poseidon radar processing (five-year support extension, NVMe storage and data-transport software) and $2M for Virginia-class sonar processing, which the report describes as extending a sole-source role dating to 2010. On 2026-02-19 it announced $10.5M of new P-8A awards.
 
-The **Virginia-class submarine contract** is a particularly strong validation signal. Submarine electronics bays have extreme volume constraints and among the strictest EMI requirements of any military platform (submarine systems must not radiate signals detectable by adversaries). An OSS win in this environment confirms ruggedization capability at the high end of the MIL-spec spectrum.
+**USSOCOM CRADA.** OSS has a Cooperative Research and Development Agreement with US Special Operations Command to develop rugged HPEC solutions for maritime platforms. A CRADA is a joint R&D mechanism, not a production contract; the announcement date was not confirmed (a TipRanks page was last updated 2025-05-29).
 
-**USSOCOM CRADA:** A Cooperative Research and Development Agreement is not a production contract — it is a collaborative R&D mechanism where DoD and a commercial company jointly develop technology. The company retains some intellectual property rights. SOCOM CRADAs are a strong pipeline signal: SOCOM brings operational requirements; OSS brings commercial AI compute engineering; the result typically leads to a production contract if the collaboration succeeds.
-
-**SWaP constraint:** OSS systems must deliver GPU compute performance within the fixed size, weight, and power budget of a military platform bay. At 9.9 PetaOPS INT8 in a rackmount form factor, OSS is approaching the practical limit of what current GPU generations can deliver in a ruggedized enclosure — future growth in this metric will depend on NVIDIA's next-generation GPU architectures (Blackwell successors) reducing power-per-FLOP.
+**Tamarack-G.** On 2026-10-12 OSS unveiled Tamarack-G, described as a next-generation OCP/VPX hybrid system, at AUSA 2026. The press-release index reviewed gives no specifications.
 
 ## Notable Developments
 
-- **2026-03:** Full year 2025 results announced — FY2025 revenue trajectory confirmed; 2026 guidance of 20–25% growth and ~40% gross margin
-- **2025-Q4:** $12.0M revenue, +70.2% YoY — record quarterly growth driven by custom server production for defense, defense prime data storage, and medical/maritime AI applications
-- **2025-12:** Bressner Technology (European commercial division) divested for $22.4M; $8.2M gain — strategic refocus on US defense
-- **2025:** $4M P-8A Poseidon data recording and compute contract
-- **2025:** $2M Virginia-class submarine sonar upgrade contract
-- **2025:** $1.2M US Army combat vehicle order
-- **Active:** USSOCOM CRADA — joint R&D for special operations tactical compute requirements
+- **2026-10-12:** Tamarack-G unveiled at AUSA 2026.
+- **2026-10-08:** $1M follow-on production order from a defense and intelligence contractor.
+- **2026-09-16:** award supporting the US Missile Defense Agency.
+- **2026-08-19:** new US Navy relationship with a $1.3M rugged data storage order.
+- **2026-08-05:** Q2 2026 results and raised guidance. ([OSS](https://onestopsystems.com/blogs/press-releases/one-stop-systems-reports-q2-2026-results))
+- **2026-06-18:** Paul Averna appointed VP of Business Development and Growth.
+- **2026-03-18:** FY2025 results; Bressner sale detailed. ([StreetInsider](https://www.streetinsider.com/Press+Releases/One+Stop+Systems+Reports+Q4+2025+Results/26179644.html))
+- **2026-02-19:** $10.5M of new P-8A Poseidon awards.
+- **2025-02-28:** $6M P-8A and Virginia-class renewals. ([EdgeIR](https://www.edgeir.com/oss-secures-6m-in-dod-contracts-strengthening-edge-computing-in-defense-systems-20250228))
 
 ## Key People
 
-**Mike Knowles** — President & CEO (June 2023–present)
-- LinkedIn: [linkedin.com/in/michael-knowles-cubic](https://www.linkedin.com/in/michael-knowles-cubic/)
-- Education: BS Aerospace Engineering (US Naval Academy); MS Aerospace Engineering (Naval Postgraduate School); MBA (George Mason University)
-- Prior employment (reverse-chronological):
-  - One Stop Systems: President & CEO (June 2023–present)
-  - Cubic Corporation: President and General Manager, Mission and Performance Solutions (~$700M business unit, ~2,000 employees)
-  - Curtiss-Wright Defense Solutions: Senior leadership roles
-  - Rockwell Collins: Senior leadership roles
-  - Lockheed Martin: Senior leadership roles
-  - US Navy: Retired officer; Naval Test Pilot School graduate; operational flying roles
-- **⚑ Overlap:** Mike Knowles previously held senior leadership roles at Curtiss-Wright Defense Solutions, another company documented in this section.
+### Mike Knowles — President and CEO
+- **LinkedIn:** not re-verified
+- **Role:** quoted as President and CEO in the 2026-08-05 release ([OSS](https://onestopsystems.com/blogs/press-releases/one-stop-systems-reports-q2-2026-results))
 
-### People — Last Reviewed: 2026-03-26
+### Paul Averna — VP, Business Development and Growth
+- **LinkedIn:** not found
+- **Role:** appointed 2026-06-18 ([OSS press releases](https://onestopsystems.com/blogs/press-releases))
+
+Prior employers were not confirmed from fetched sources.
+
+### People — Last Reviewed: 2026-10-23
 
 ## Claim Verification
 
-### Claim: 9.9 PetaOPS inference performance
+### Claim: 9.9 PetaOPS INT8 at maximum density
 
-**Status:** Partially verified
+**Status:** Unverified
 
 **Supporting sources:**
-- [One Stop Systems AIFLY product documentation](https://onestopsystems.com/) — company cites 9.9 PetaOPS for maximum-density GPU configuration; NVIDIA H200 SXM specification is approximately 3.958 PetaOPS INT8 per card, meaning 2–3 H200 SXM GPUs in a ruggedized chassis could approach this figure at INT8 precision
+- None. The 2026 press-release index reviewed contains no AIFLY or PetaOPS performance claims.
 
 **Refuting / questioning sources:**
-- No independent third-party benchmark of AIFLY systems in ruggedized deployment has been identified; figure is from OSS marketing materials
-- PetaOPS figures for ruggedized systems may not account for thermal throttling under sustained inference load — military systems often operate at elevated ambient temperatures that reduce GPU boost frequency; sustained (not burst) throughput may be materially lower
+- A peak INT8 rating would not reflect sustained throughput in a rugged enclosure, and no independent benchmark was found.
 
-**Summary:** The 9.9 PetaOPS figure is plausible based on GPU specifications but represents peak theoretical throughput at maximum GPU density — sustained performance in a deployed military environment may be lower due to thermal constraints; no independent lab validation found.
+**Summary:** Removed from Key Facts until a current OSS source is found.
 
-### Claim: P-8A Poseidon and Virginia-class deployments
+### Claim: P-8A Poseidon and Virginia-class awards
 
 **Status:** Verified
 
 **Supporting sources:**
-- [One Stop Systems press releases](https://onestopsystems.com/) — company has formally announced both the P-8A Poseidon contract (~$4M) and the Virginia-class submarine sonar upgrade contract (~$2M) via press releases and SEC disclosures
+- [EdgeIR](https://www.edgeir.com/oss-secures-6m-in-dod-contracts-strengthening-edge-computing-in-defense-systems-20250228) — $4M P-8A and $2M Virginia-class (2025-02-28)
+- [OSS press releases](https://onestopsystems.com/blogs/press-releases) — $10.5M P-8A awards (2026-02-19)
 
-**Summary:** Both platform deployments are confirmed via company press releases and are consistent with the platforms' known upgrade cycles.
+**Summary:** Both programs are confirmed in company announcements.
+
+### Claim: FY2025 revenue
+
+**Status:** Verified
+
+**Supporting sources:**
+- [StreetInsider](https://www.streetinsider.com/Press+Releases/One+Stop+Systems+Reports+Q4+2025+Results/26179644.html) — continuing-operations revenue $32.2M for FY2025
+
+**Summary:** Continuing operations exclude Bressner.
+
+### Claim: US Army combat vehicle order of $1.2M
+
+**Status:** Unverified
+
+**Summary:** No source found.
 
 ## Sources
 
-- [One Stop Systems — Official Website](https://onestopsystems.com/)
-- [One Stop Systems — NASDAQ: OSTO](https://finance.yahoo.com/quote/OSTO)
-- [NVIDIA H200 SXM Datasheet](https://www.nvidia.com/en-us/data-center/h200/) — basis for PetaOPS cross-check
-- [US Navy P-8A Poseidon Program](https://www.navair.navy.mil/product/P-8A-Poseidon) — platform context
+- [One Stop Systems](https://onestopsystems.com/)
+- [OSS press releases](https://onestopsystems.com/blogs/press-releases)
+- [Q2 2026 results](https://onestopsystems.com/blogs/press-releases/one-stop-systems-reports-q2-2026-results)
+- [Q4 and FY2025 results — StreetInsider](https://www.streetinsider.com/Press+Releases/One+Stop+Systems+Reports+Q4+2025+Results/26179644.html)
+- [EdgeIR — DoD renewals (Feb 2025)](https://www.edgeir.com/oss-secures-6m-in-dod-contracts-strengthening-edge-computing-in-defense-systems-20250228)
+- [TipRanks — USSOCOM CRADA](https://www.tipranks.com/news/the-fly/one-stop-systems-enters-into-crada-with-ussocom-thefly)

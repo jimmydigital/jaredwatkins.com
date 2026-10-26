@@ -1,12 +1,14 @@
 ---
 title: "Blue Origin"
 date: 2026-09-07
-lastmod: 2026-09-07
+lastmod: 2026-10-26
 draft: false
 description: "Kent, WA–based launch, lunar lander, and satellite-broadband company founded by Jeff Bezos in 2000; New Glenn achieved its first booster reuse in April 2026 but lost a vehicle in a May 2026 pad explosion; raised $10B at a $130B valuation in July 2026, its first outside capital in 26 years; developing the Blue Moon MK2 crewed lunar lander for NASA Artemis V."
 research_area: "space-launch"
 source_urls:
   - "https://en.wikipedia.org/wiki/Blue_Origin"
+  - "https://spaceflightnow.com/2026/10/16/blue-origin-to-add-new-florida-launch-pads-seeks-aggressive-increase-in-new-glenn-flight-rate/"
+  - "https://space.com/space-exploration/artemis/blue-origin-tests-1st-moon-lander-ahead-of-lunar-launch-later-this-year-photo"
   - "https://en.wikipedia.org/wiki/List_of_New_Glenn_launches"
   - "https://www.blueorigin.com/news/new-glenn-ng-3-mission"
   - "https://spaceflightnow.com/2026/06/03/blue-origin-vows-to-resume-new-glenn-flights-by-years-end/"
@@ -20,7 +22,7 @@ source_urls:
   - "https://www.blueorigin.com/news/blue-origin-introduces-terawave-space-based-network-for-global-connectivity"
   - "https://www.globalsecurity.org/space/library/news/2023/space-230519-nasa01.htm"
   - "https://en.wikipedia.org/wiki/Corn_Ranch"
-last_reviewed: 2026-09-07
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "space-launch/_index.md"
@@ -57,6 +59,9 @@ Blue Origin acquired planetary-robotics firm [Honeybee Robotics]({{< relref "../
 
 ## Notable Developments
 
+- **2026-10-16:** Blue Origin outlined plans for new Florida launch pads modeled on Launch Complex 36, two new landing vessels, a booster-servicing vertical integration facility, and a payload processing facility built with the Space Force. LC-36A is being rebuilt after the May explosion (7×2 variant) and LC-36B is under construction for the 9×4 variant. The FAA is considering raising LC-36A's permitted launches from 12 to 50 (virtual hearing 2026-10-22, comment period closing 2026-10-30). A $330M, 1.37-million-sq-ft Rocket Park expansion for 9×4 upper stages (up to 150 a year) is due by summer 2027. Bezos said the company still aims to fly the 7×2 again before the end of 2026; a Blue Origin executive said the infrastructure supports "multiple flights per week by the end of the decade." ([Spaceflight Now](https://spaceflightnow.com/2026/10/16/blue-origin-to-add-new-florida-launch-pads-seeks-aggressive-increase-in-new-glenn-flight-rate/))
+- **2026-05-08:** Blue Moon MK1 "Endurance" finished vacuum-chamber testing at NASA Johnson and moved to Florida in April for RF-compatibility and other pre-launch tests; an uncrewed lunar landing is hoped for later in 2026 and depends on New Glenn returning to flight. ([Space.com](https://space.com/space-exploration/artemis/blue-origin-tests-1st-moon-lander-ahead-of-lunar-launch-later-this-year-photo))
+- **2026-04:** Space Force selected Blue Origin for final discussions on developing Space Launch Complex 14 at Vandenberg; the site is undeveloped and needs a full environmental review. ([Spaceflight Now](https://spaceflightnow.com/2026/10/16/blue-origin-to-add-new-florida-launch-pads-seeks-aggressive-increase-in-new-glenn-flight-rate/))
 - **2026-07-25/26:** Raised $10 billion at a $130 billion valuation in its first outside funding round in 26 years; Bezos contributed $2B, Coatue Management $4B, other investors $4B; proceeds earmarked for rebuilding Launch Complex 36, ramping New Glenn production toward ~100 annual launches, and funding TeraWave, Blue Moon, and Orbital Reef.
 - **2026-05-30:** A completed New Glenn rocket was destroyed and Launch Complex 36's transporter-erector and a lightning tower were demolished in an explosion during a hot-fire (static-fire) engine test at Cape Canaveral; root cause undetermined at time of reporting; CEO Dave Limp pledged to resume flights before year-end.
 - **2026-04-19:** NG-3 achieved New Glenn's first successful booster reuse (the NG-2 booster, "Never Tell Me The Odds"), but the AST SpaceMobile BlueBird 7 satellite payload was deployed to an incorrect orbit due to an off-nominal thermal condition affecting engine performance and was later de-orbited — a partial mission failure despite the successful reuse milestone.
@@ -103,7 +108,7 @@ Blue Origin acquired planetary-robotics firm [Honeybee Robotics]({{< relref "../
 - **LinkedIn:** Not confirmed via public search in this review
 - **Career:** Not independently confirmed via public search in this review
 
-### People — Last Reviewed: 2026-09-07
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 
@@ -142,6 +147,8 @@ Blue Origin acquired planetary-robotics firm [Honeybee Robotics]({{< relref "../
 ## Sources
 
 - [Blue Origin — Wikipedia](https://en.wikipedia.org/wiki/Blue_Origin)
+- [Spaceflight Now — Blue Origin to add new Florida launch pads (Oct 16, 2026)](https://spaceflightnow.com/2026/10/16/blue-origin-to-add-new-florida-launch-pads-seeks-aggressive-increase-in-new-glenn-flight-rate/)
+- [Space.com — Blue Origin tests first moon lander (May 8, 2026)](https://space.com/space-exploration/artemis/blue-origin-tests-1st-moon-lander-ahead-of-lunar-launch-later-this-year-photo)
 - [List of New Glenn launches — Wikipedia](https://en.wikipedia.org/wiki/List_of_New_Glenn_launches)
 - [Blue Origin — New Glenn's Third Mission (official)](https://www.blueorigin.com/news/new-glenn-ng-3-mission)
 - [Spaceflight Now — Blue Origin vows to resume New Glenn flights by year's end (Jun 3, 2026)](https://spaceflightnow.com/2026/06/03/blue-origin-vows-to-resume-new-glenn-flights-by-years-end/)

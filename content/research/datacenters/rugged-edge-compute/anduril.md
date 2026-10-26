@@ -1,159 +1,118 @@
 ---
 title: "Anduril Industries"
 date: 2026-03-25
-lastmod: 2026-04-05
+lastmod: 2026-10-23
 draft: false
-description: "Costa Mesa, CA defense technology prime (private, ~$28–30B valuation, Series G); Lattice OS autonomous C2 software platform; Menace-T/X rugged edge C4 systems built on Klas Voyager compute; $20B US Army Lattice enterprise contract (March 2026, 10-year term); Golden Dome missile defense software (with Palantir); ExoAnalytic Solutions acquisition (March 2026); ~$6.84B total funding."
-research_area: "datacenters/rugged-edge-compute"
 canonical: true
+description: "Defense technology company (private, founded 2017); $5B Series H at $61B valuation (2026-05-13, Thrive Capital and Andreessen Horowitz); 2025 sales $2.2B per CEO; Army enterprise agreement with a $20B ceiling (March 2026) with an $87M first task order; Menace-T tactical edge C4 system built on Klas Voyager hardware; ExoAnalytic Solutions acquisition announced 2026-03-11, pending."
+research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://www.anduril.com/"
-  - "https://www.anduril.com/article/army-lattice-enterprise-contract/"
-last_reviewed: 2026-03-26
+  - "https://techcrunch.com/2026/05/13/anduril-raises-5b-doubles-valuation-to-61b/"
+  - "https://defensedaily.com/anduril-raises-5-billion-in-new-round-company-valuation-at-61-billion/business-financial"
+  - "https://www.nextgov.com/defense/2026/03/army-anduril-enter-new-20b-enterprise-agreement/412153"
+  - "https://breakingdefense.com/2026/03/army-awards-anduril-counter-drone-task-order-as-first-in-new-20b-contract-vehicle/"
+  - "https://techcrunch.com/2025/05/05/anduril-is-working-on-the-difficult-ai-related-task-of-real-time-edge-computing/"
+  - "https://breakingdefense.com/2026/03/anduril-to-buy-space-missile-tracking-firm-exoanalytic/"
+last_reviewed: 2026-10-23
 stale_after_days: 90
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
 
-
 ## Summary
 
-Anduril Industries is the most significant new entrant to the defense prime market in a generation — a pure software/AI-first defense company that builds complete autonomous weapon and sensor systems, with Lattice OS as the AI command-and-control software layer running across its platforms. In the context of this research section, Anduril is relevant primarily through its Menace-T and Menace-X tactical edge C4 systems, which are the highest-integration-level rugged compute offerings in this section: not bare compute modules (Mercury, Curtiss-Wright) or compute servers (OSS), but complete deployable C4 systems with compute, networking, and AI software in a package deployable by a single operator. The $20B US Army enterprise contract awarded March 2026 for Lattice as the Army's open AI battlefield network is the single largest signal of where DoD AI-at-the-edge investment is heading. Anduril's March 2026 acquisition of ExoAnalytic Solutions extends Lattice's sensor fusion reach to space domain awareness.
+Anduril is a private defense technology company that builds autonomous systems and sells the Lattice software that fuses sensor data into a shared picture. In this section it matters for Menace-T, a compact tactical edge command-and-control (C4) system, and for Klas, the Dublin-based rugged-computing maker it agreed to buy in May 2025. On 2026-05-13 it announced a $5B Series H at a $61B valuation, co-led by Thrive Capital and Andreessen Horowitz; CEO Brian Schimpf said 2025 sales were $2.2B. In March 2026 the Army announced an enterprise agreement with a potential $20B ceiling over up to ten years, consolidating 120 existing Anduril contracts, and the first task order was $87M.
 
 ## Key Facts
 
-- **Founded:** 2017
-- **HQ:** Costa Mesa, CA (Orange County)
-- **Status:** Private; total funding ~$6.84B (through Series G)
-- **Valuation:** ~$28–30B post-Series G (June 2025); reported $4B fundraise targeting $60B valuation (March 2026, Andreessen Horowitz and Thrive Capital leading)
-- **CEO:** Brian Schimpf (Co-Founder)
-- **Founder / CTO:** Palmer Luckey (Co-Founder; previously founder of Oculus VR, sold to Meta 2014)
-- **Employees:** ~2,200+ globally
-- **Value chain position:** Defense prime — builds complete autonomous systems, AI-enabled weapons platforms, and C2 software; sells directly to DoD and allied governments; vertically integrated from rugged compute hardware (Klas Voyager) to software (Lattice OS) to airframe/munition manufacturing
-- **Flagship software:** Lattice OS — AI-powered command-and-control platform fusing sensor data from drones, radars, and satellites into a shared operational picture; open-architecture SDK for third-party integration
-- **Key rugged compute products:**
-  - Menace-T: Two-case C4 system deployable by single operator; runs Lattice Mesh on Klas Voyager ruggedized compute and networking hardware; supports third-party software including Palantir's Edge
-  - Menace-X: Vehicle-mounted expeditionary C4 predecessor to Menace-T; higher weight/power for command post environments
-- **Klas Voyager:** Ruggedized compute and networking hardware (acquired ~2025) — the underlying hardware backbone for Menace-T and Menace-X
-- **Major contract:** $20B US Army enterprise contract to deploy Lattice as the AI-driven open-architecture battlefield network; awarded March 13–14, 2026; 10-year term; awarded at Aberdeen Proving Ground
-- **Other programs:** US Space Force surveillance network (Lattice, 2024); Golden Dome missile defense software (with Palantir, 2026); USSOCOM; multiple allied Ministry of Defence contracts
-- **Manufacturing:** $1B manufacturing facility in Pickaway County, Ohio (announced January 2025) for aerial and maritime drones; first new US solid rocket motor production facility in 50 years operational August 2025
+- **Founded:** 2017 (TechCrunch)
+- **HQ:** Costa Mesa, CA (not re-verified in this review)
+- **Status:** private; Series H $5B at $61B (announced 2026-05-13); prior round $2.5B at $30.5B (June 2025)
+- **Total raised:** more than $11B per Tracxn, as cited by TechCrunch
+- **Revenue:** $2.2B in 2025, per a letter from CEO Brian Schimpf
+- **CEO:** Brian Schimpf
+- **Value chain position:** defense prime; vertically integrated from rugged compute (Klas) to software (Lattice)
+- **Menace-T:** compact field-deployable C4 system; one person can set it up in minutes from two carry-on cases; used in ground vehicles and maritime vessels (TechCrunch, 2025-05-05)
+- **Klas:** announced 2025-05-05 as Anduril's ninth acquisition; about 150 employees; price undisclosed; flagship Voyager rugged compute and networking family, already used in Menace products and integrated with Lattice
+- **Army enterprise agreement:** potential $20B ceiling; up to 10 years (5-year base plus one 5-year option); consolidates 120 existing Army contracts; covers Lattice, software platforms, integrated hardware, data and compute infrastructure and support
+- **First task order:** $87M, Lattice as the command-and-control backbone for the Army counter-drone task force under Joint Interagency Task Force 401
+- **ExoAnalytic Solutions:** definitive agreement announced 2026-03-11, not closed at the time of reporting; about 400 telescopes tracking geosynchronous objects; about 130 employees to be absorbed; price undisclosed
 
 ## What It Is / How It Works
 
-Anduril is structurally different from every other company in this section. Mercury, OSS, and Curtiss-Wright are component and subsystem suppliers — they make the rugged compute building blocks that defense primes integrate into platforms. Anduril is itself a defense prime: it builds complete autonomous weapon and sensor systems from the ground up, with Lattice OS as the differentiating software layer.
+Unlike the module and server vendors in this section ([Mercury]({{< relref "mercury-systems.md" >}}), [Curtiss-Wright]({{< relref "curtiss-wright.md" >}}), [One Stop Systems]({{< relref "one-stop-systems.md" >}})), Anduril competes for whole programs. Its rugged compute is a means of running its own software at the edge, not a product line sold to other integrators.
 
-**Lattice OS / Lattice Mesh** is the software core. It ingests data from heterogeneous sensors — Anduril's own drones, third-party radars, satellite feeds, space surveillance systems — and processes it through AI/ML algorithms to produce a fused 3D common operating picture. Lattice then supports autonomous decision-making: identifying and classifying threats, prioritizing targets, and coordinating responses across a network of autonomous systems. The $20B Army enterprise contract positions Lattice as an open-architecture AI backbone for the Army battlefield network — other vendors can interoperate through Lattice's SDK, which means Anduril is building toward an OS-layer monopoly analogous to how commercial cloud platforms captured developer ecosystems.
+**Menace-T and Klas.** Menace-T bundles compute and network connectivity so a unit can run command and control off-grid. Anduril SVP of Engineering Tom Keane said Klas has supplied technology to the Army's IVAS headset program for several years. TechCrunch gives no processor, weight or power specifications for Menace-T.
 
-**Menace-T** (launched May 2025) is the product most directly relevant to this research section: a two-case C4 system deployable by a single operator in minutes. It runs Lattice Mesh software on Klas Voyager ruggedized compute and networking hardware. Anduril acquired Klas specifically to control this hardware layer rather than depending on a third-party supplier. Menace-T can run third-party software stacks including Palantir's Edge — making it a general-purpose tactical edge compute platform, not just an Anduril-only node. Edge AI inference for sensor processing, threat classification, and communications management are core use cases.
+**Lattice and the Army agreement.** The Army agreement is a contract vehicle with negotiated pricing, not money obligated. Anduril's president described it as having no money itself; the $20B is a ceiling. The Army's August 2025 Palantir agreement follows the same model with a $10B ceiling over up to ten years.
 
-**Menace-X** is the vehicle-mounted C4 predecessor: a heavier expeditionary system designed for commanders operating in denied, disrupted, or intermittent communications (DDIL) environments. Menace-T is the man-portable, individual-operator version.
-
-**Vertical integration strategy:** By acquiring Klas (ruggedized compute), building its own SRM production, and owning airframe manufacturing (Ohio facility), Anduril is systematically removing external suppliers from its value chain. This is strategically opposite to Mercury, OSS, and Curtiss-Wright, who depend on DoD primes choosing their components. Anduril competes for the entire program, not just the compute component.
+**Space.** ExoAnalytic supplies missile-tracking sensors and software to the Pentagon and shares tracking data with the Space Force; Anduril said it will keep serving its commercial space-awareness customers.
 
 ## Notable Developments
 
-- **2026-03:** ExoAnalytic Solutions acquisition — space domain awareness company; extends Lattice's sensor fusion to satellite tracking and space situational awareness
-- **2026-03:** $20B US Army Lattice enterprise contract awarded (Aberdeen Proving Ground, 10-year term) — positions Lattice as open AI backbone for Army-wide C2
-- **2026-03:** Anduril and Palantir reported as software developers for Golden Dome missile defense system ($185B program); with Aalyria, Scale AI, and Swoop Technologies
-- **2026-03:** Reported $4B fundraise targeting $60B valuation (Andreessen Horowitz, Thrive Capital)
-- **2025-08:** First new US solid rocket motor production facility in 50 years operational
-- **2025-06:** $2.5B Series G funding (Founders Fund leading)
-- **2025-05:** Menace-T launched — compact two-case C4 system for single-operator tactical edge deployment; built on Klas Voyager hardware
-- **2025-05:** Anduril Menace systems become preferred hardware for Palantir's Edge software
-- **2025-01:** $1B Ohio manufacturing facility announced for aerial and maritime drones
-- **2024-12:** Japan operations launched for local manufacturing and supply chain partnerships
-- **2024:** US Space Force selected Lattice for surveillance network operations
+- **2026-05-13:** $5B Series H at $61B announced; funds directed to manufacturing capacity, development and infrastructure. ([TechCrunch](https://techcrunch.com/2026/05/13/anduril-raises-5b-doubles-valuation-to-61b/), [Defense Daily](https://defensedaily.com/anduril-raises-5-billion-in-new-round-company-valuation-at-61-billion/business-financial))
+- **2026-03:** Army enterprise agreement announced (Nextgov, 2026-03-16; ceiling up to $20B); $87M counter-drone task order first under it. ([Nextgov](https://www.nextgov.com/defense/2026/03/army-anduril-enter-new-20b-enterprise-agreement/412153), [Breaking Defense](https://breakingdefense.com/2026/03/army-awards-anduril-counter-drone-task-order-as-first-in-new-20b-contract-vehicle/))
+- **2026-03-11:** definitive agreement to acquire ExoAnalytic Solutions. ([Breaking Defense](https://breakingdefense.com/2026/03/anduril-to-buy-space-missile-tracking-firm-exoanalytic/))
+- **2025-05-05:** Klas acquisition and Menace-T announced. ([TechCrunch](https://techcrunch.com/2025/05/05/anduril-is-working-on-the-difficult-ai-related-task-of-real-time-edge-computing/))
+- **2025-06:** $2.5B round at $30.5B (per TechCrunch's prior-round reference).
 
 ## Key People
 
-**Brian Schimpf** — Co-Founder & CEO
-- LinkedIn: [linkedin.com/in/bschimpf](https://www.linkedin.com/in/bschimpf/)
-- Education: Not publicly documented
-- Prior employment (reverse-chronological):
-  - Anduril Industries: Co-Founder & CEO (2017–present)
-  - Palantir Technologies: Senior engineer/leadership role — core team member before founding Anduril
+### Brian Schimpf — CEO
+- **LinkedIn:** not re-verified
+- **Role:** author of the 2025 revenue letter cited by TechCrunch (2026-05-13)
 
-**Palmer Luckey** — Co-Founder & CTO
-- LinkedIn: [linkedin.com/in/palmer-luckey-21a16959](https://www.linkedin.com/in/palmer-luckey-21a16959/)
-- Education: Self-taught; California State University Long Beach (partial enrollment)
-- Prior employment (reverse-chronological):
-  - Anduril Industries: Co-Founder & CTO (2017–present)
-  - Facebook / Meta: VP of VR (2014–2017) — post-Oculus acquisition; departed 2017
-  - Oculus VR: Founder (2012–2014) — created Oculus Rift VR headset; sold to Facebook for ~$2B (2014)
+### Tom Keane — SVP of Engineering
+- **LinkedIn:** not found
+- **Role:** quoted on Klas and IVAS in TechCrunch (2025-05-05)
 
-**Trae Stephens** — Co-Founder & Executive Chairman
-- LinkedIn: [linkedin.com/in/trae-stephens-485a811](https://www.linkedin.com/in/trae-stephens-485a811/)
-- Prior employment (reverse-chronological):
-  - Anduril Industries: Co-Founder & Executive Chairman (2017–present)
-  - Founders Fund: Partner (2016–present) — primary investor role; Founders Fund is Anduril's lead investor
-  - Palantir Technologies: Business development and government affairs roles
+Other executives were not confirmed from a current dated source and are not listed.
 
-**Christian Brose** — President & Chief Strategy Officer
-- LinkedIn: [linkedin.com/in/christian-brose-50b026ab](https://www.linkedin.com/in/christian-brose-50b026ab/)
-- Prior employment (reverse-chronological):
-  - Anduril Industries: President & CSO (joined ~2019)
-  - US Senate Armed Services Committee: Staff Director (under Senator John McCain) — shaped US defense modernization policy; authored "The Kill Chain" (2020), articulating the DoD's need for AI-enabled networked warfare — the intellectual framework Anduril is executing against
-  - US Department of State: Policy roles
-- **⚑ Overlap:** Christian Brose's "The Kill Chain" thesis — that the US must shift from expensive exquisite platforms to AI-networked affordable autonomous systems — is the policy foundation for Anduril's $20B Army Lattice contract. Brose is both an architect of the policy and the commercial beneficiary executing against it.
-
-**Matt Grimm** — Co-Founder & COO
-- LinkedIn: not found
-- Prior: Palantir Technologies (early team)
-
-**Babak Siavoshy** — CFO
-- LinkedIn: not found
-- Details not publicly documented
-
-### People — Last Reviewed: 2026-03-26
+### People — Last Reviewed: 2026-10-23
 
 ## Claim Verification
 
-### Claim: $20B Army contract makes Lattice the DoD-wide AI battlefield network
+### Claim: $20B Army contract
 
-**Status:** Partially accurate — contract is real; framing is oversimplified
+**Status:** Partially verified
 
 **Supporting sources:**
-- [US Army / DoD announcements (March 13–14, 2026)](https://www.anduril.com/article/army-lattice-enterprise-contract/) — Army enterprise contract awarded to Anduril for Lattice; confirmed at Aberdeen Proving Ground
-- [Anduril press release](https://www.anduril.com/) — details open-architecture nature and 10-year term
+- [Nextgov](https://www.nextgov.com/defense/2026/03/army-anduril-enter-new-20b-enterprise-agreement/412153) — "potential $20 billion ceiling value"; 10-year structure; 120 contracts consolidated
+- [Breaking Defense](https://breakingdefense.com/2026/03/army-awards-anduril-counter-drone-task-order-as-first-in-new-20b-contract-vehicle/) — $87M first task order
 
 **Refuting / questioning sources:**
-- "Enterprise contract" means a procurement vehicle that enables task orders, not a guaranteed $20B payment — actual spend depends on program execution, congressional appropriations, and task order awards over 10 years
-- "Open architecture" framing means other vendors can interoperate with Lattice; Anduril is not the sole platform for all Army AI; the contract creates Lattice as a preferred platform, not a mandated monopoly
-- No independent DoD budget document confirming the full $20B commitment found; ceiling value versus obligated value distinction is important
+- The $20B is a ceiling, not obligated spending; Anduril's own page for the announcement could not be fetched.
 
-**Summary:** The Army enterprise contract is real, significant, and positions Lattice as the Army's preferred open-architecture AI C2 platform. The $20B ceiling is the maximum contract value over 10 years, not a guaranteed payout; actual spend will depend on appropriations and program execution. Treating Lattice as the de facto Army AI network is directionally accurate but overstated as a certain outcome.
+**Summary:** Real and large, but a ceiling and vehicle.
 
-### Claim: First new US solid rocket motor production facility in 50 years
+### Claim: ExoAnalytic acquisition completed
 
-**Status:** Reported as accurate (August 2025)
+**Status:** Unverified (reported as pending)
 
 **Supporting sources:**
-- Multiple US defense publications reported this as accurate at the August 2025 facility opening; the US SRM industrial base has been a documented DoD concern with only Northrop Grumman and L3Harris as prior producers
+- [Breaking Defense](https://breakingdefense.com/2026/03/anduril-to-buy-space-missile-tracking-firm-exoanalytic/) — definitive agreement, legal paperwork pending
 
-**Refuting / questioning sources:**
-- "First in 50 years" framing has not been independently verified against the full history of US SRM production facilities; there may be smaller-scale SRM production not counted in this claim; framing may reflect production scale rather than absolute first-ever
+**Summary:** Closure not confirmed in the sources reviewed.
 
-**Summary:** Broadly accurate based on defense publication reporting and DoD concerns about SRM industrial base concentration; specific "50 years" framing should be verified against DoD industrial base assessments before citing.
+### Claim: $61B valuation
 
-### Claim: ExoAnalytic Solutions acquisition extends Lattice to space domain awareness
-
-**Status:** Verified (March 2026)
+**Status:** Verified
 
 **Supporting sources:**
-- Multiple defense technology publications confirmed the ExoAnalytic Solutions acquisition in March 2026; ExoAnalytic operates a commercial network of optical telescopes for satellite tracking
-
-**Summary:** Acquisition confirmed; strategic logic is coherent — ExoAnalytic's satellite tracking data integrates with Lattice's multi-domain sensor fusion architecture, extending Lattice's common operating picture from ground/air domains to space.
+- [TechCrunch](https://techcrunch.com/2026/05/13/anduril-raises-5b-doubles-valuation-to-61b/) — $5B at $61B, more than double the prior valuation
+- [Defense Daily](https://defensedaily.com/anduril-raises-5-billion-in-new-round-company-valuation-at-61-billion/business-financial) — same figures
 
 ## Related Research
 
-- [Anduril — Autonomous Systems (Drones & CUAS)]({{< relref "/research/robotics/aerial-drones/anduril.md" >}}) — Fury YFQ-44A CCA, Roadrunner, Altius, Anvil CUAS stack, Ghost Shark XL-AUV, Arsenal-1 manufacturing
+- [Anduril — Autonomous Systems (Drones & CUAS)]({{< relref "../../robotics/aerial-drones/anduril.md" >}}) — aircraft, munitions and counter-drone products
 
 ## Sources
 
-- [Anduril Industries — Official Website](https://www.anduril.com/)
-- [Anduril — Army Lattice Enterprise Contract](https://www.anduril.com/article/army-lattice-enterprise-contract/)
-- [Klas Government — Voyager Tactical Edge Compute](https://www.klasgov.com/) — hardware backbone for Menace-T/X
-- [Palantir — Edge Software / Menace Integration](https://www.palantir.com/platforms/apollo/) — software partner context
-- Christian Brose, "The Kill Chain" (2020) — policy framework context for Lattice strategy
-- [NVIDIA Jetson Orin — Embedded AI Platform](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/) — edge inference silicon used in Anduril autonomous systems
+- [Anduril](https://www.anduril.com/)
+- [TechCrunch — Series H](https://techcrunch.com/2026/05/13/anduril-raises-5b-doubles-valuation-to-61b/)
+- [Defense Daily — Series H](https://defensedaily.com/anduril-raises-5-billion-in-new-round-company-valuation-at-61-billion/business-financial)
+- [Nextgov — Army enterprise agreement](https://www.nextgov.com/defense/2026/03/army-anduril-enter-new-20b-enterprise-agreement/412153)
+- [Breaking Defense — first task order](https://breakingdefense.com/2026/03/army-awards-anduril-counter-drone-task-order-as-first-in-new-20b-contract-vehicle/)
+- [TechCrunch — Menace-T and Klas](https://techcrunch.com/2025/05/05/anduril-is-working-on-the-difficult-ai-related-task-of-real-time-edge-computing/)
+- [Breaking Defense — ExoAnalytic](https://breakingdefense.com/2026/03/anduril-to-buy-space-missile-tracking-firm-exoanalytic/)

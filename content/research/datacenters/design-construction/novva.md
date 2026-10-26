@@ -1,15 +1,24 @@
 ---
 title: "Novva Data Centers"
 date: 2026-03-25
-lastmod: 2026-03-25
+lastmod: 2026-10-23
 draft: false
-description: "West Jordan, UT wholesale colocation operator; founded 2019 by Wes Swenson and CIM Group; $2B financing (J.P. Morgan + Starwood, March 2025) to complete 175 MW Salt Lake City campus — one of the largest direct-to-chip cooled AI datacenters in the world; waterless cooling; autonomous robot dog and drone security monitoring; Western US footprint across 6 markets."
+description: "West Jordan, UT wholesale colocation operator launched in 2020 by Wes Swenson with CIM Group; $2B J.P. Morgan/Starwood financing (March 2025) to finish a 175 MW Salt Lake City campus; 60 MW Tahoe Reno facility launched July 2025; 300 MW Mesa, AZ campus with first 96 MW planned for late 2026; water-free direct-to-chip cooling; Boston Dynamics Spot 'WIRE' security robots."
 research_area: "datacenters/design-construction"
 source_urls:
   - "https://www.novva.com/"
+  - "https://www.novva.com/about/"
+  - "https://www.novva.com/media-center/novva-launches/"
+  - "https://www.novva.com/media-center/robotic-dogs-trained-with-gen-ai-novvas-wire-robots-receive-enhanced-security-features/"
   - "https://www.cimgroup.com/press-releases/cim-group-and-novva-data-centers-announce-2-billion-in-new-financing-to-accelerate-growth-in-delivering-sustainable-efficient-data-centers-across-the-western-u-s"
+  - "https://convergedigest.com/novva-secures-2b-to-expand-175mw-data-center-in-utah/"
   - "https://www.prnewswire.com/news-releases/novva-data-centers-receives-355m-growth-equity-investment-from-cim-group-to-aid-expansion-efforts-301558538.html"
-last_reviewed: 2026-03-25
+  - "https://www.datacenterdynamics.com/en/news/american-data-center-operator-novva-launches-facility-in-nevada/"
+  - "https://www.datacenterdynamics.com/en/news/novva-data-centers-buys-205-acres-of-land-in-las-vegas-nevada/"
+  - "https://www.datacenterdynamics.com/en/news/novva-confirmed-as-behind-project-borealis-data-center-campus-in-phoenix-arizona"
+  - "https://www.connectcre.com/stories/3b-data-center-slated-for-mesa/"
+  - "https://www.genpact.com/insight/strengthening-data-center-security-with-gen-ai-and-autonomous-robots"
+last_reviewed: 2026-10-23
 stale_after_days: 90
 related:
   - "datacenters/design-construction/_index.md"
@@ -19,110 +28,134 @@ related:
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
 
-
 ## Summary
 
-Novva Data Centers is a West Jordan, Utah wholesale colocation operator and datacenter developer founded in 2019 by CEO Wes Swenson and CIM Group. Swenson previously founded C7 Data Centers, a Utah-based colocation operator acquired by DataBank in 2017. Novva's flagship project is a 100-acre, 1 million square foot campus in West Jordan that will deliver 175 MW of critical IT capacity across three phases — positioning it as one of the largest direct-to-chip cooled AI datacenters in the world when complete. In March 2025, Novva closed $2B in financing from J.P. Morgan and Starwood Property Trust to complete Phases 2 and 3. Novva operates across six Western US markets (Salt Lake City, Colorado Springs, Las Vegas, Tahoe Reno, San Francisco, Mesa AZ) and differentiates on waterless cooling, low power costs from Western US geography, and an autonomous security posture using robot dogs and drones — an unusual operational deployment of robotics automation in a live production facility.
+Novva Data Centers is a privately held wholesale and multi-tenant colocation developer and operator based in West Jordan, Utah. It launched in July 2020 under CEO Wes Swenson, previously CEO of C7 Data Centers (acquired by DataBank in 2017), in partnership with CIM Group. Its flagship is a 100-acre West Jordan campus planned at 175 MW of critical IT load across three phases; in March 2025 it closed $2B of financing from J.P. Morgan and Starwood Property Trust to complete Phases 2 and 3, which are expected to finish in 2026. Novva also operates in Colorado Springs and North Las Vegas, opened a 60 MW Tahoe Reno facility in July 2025, and is building a 300 MW campus in Mesa, Arizona. It uses a water-free direct-to-chip cooling design and patrols its Utah site with Boston Dynamics Spot robots it calls "WIRE."
 
 ## Key Facts
 
-- **Founded:** 2019
+- **Launched:** July 2020 (Novva Inc., announced 2020-07-21)
 - **HQ:** West Jordan, UT
-- **Type:** Private
-- **CEO / Founder:** Wes Swenson (also founded C7 Data Centers, sold to DataBank 2017)
-- **Co-founder:** CIM Group (institutional real estate and infrastructure investor)
-- **Total financing committed:** ~$2.35B+ (CIM $355M growth equity + $2B J.P. Morgan / Starwood)
-- **Key investors:** CIM Group, J.P. Morgan Chase, Starwood Property Trust
-- **Flagship campus:** West Jordan, UT — 100 acres, 1M sqft, 175 MW total critical IT load (3 phases)
-  - Phase 1: Live (first building)
-  - Phase 2: 318,000 sqft, 72 MW; construction started December 2023; expected complete 2026
-  - Phase 3: 318,000 sqft, 72 MW; construction started January 2024; expected complete 2026
-- **Cooling:** Waterless cooling system; direct-to-chip liquid cooling for AI workloads
-- **Power:** Redundant feeds; low-cost power leveraging Western US regional geography; renewable energy and solar offsets
-- **Certifications:** SOC 2, ISO 27001
-- **SLA:** 99.99% availability commitment
-- **Capacity range:** 250 kW to 30 MW per customer (wholesale colocation)
-- **Western US markets:** Salt Lake City, Colorado Springs, Las Vegas, Tahoe Reno, San Francisco, Mesa AZ
-- **Security automation:** Autonomous drone surveillance and robot dog facility monitoring — a live production deployment of robotics, not a pilot
-- **Target customers:** Enterprise, SMB, government, healthcare, financial institutions, technology companies
+- **Type:** Private; partnered with CIM Group
+- **CEO:** Wes Swenson (as of March 2025; verify current status)
+- **Equity:** CIM Group committed up to $355M more in June 2022, bringing its total equity commitment to $450M
+- **Debt:** $2B financing (J.P. Morgan lead arranger, Starwood Property Trust arranger), announced 2025-03-05
+- **Flagship campus (West Jordan, UT):** 100 acres, about 1M sq ft, 175 MW total
+  - Phase 1: operating since 2023, fully leased that year to a global technology company
+  - Phase 2: 318,000 sq ft, 72 MW; construction began December 2023; expected complete 2026
+  - Phase 3: 318,000 sq ft, 72 MW; construction began January 2024; expected complete 2026
+- **Other sites:** Colorado Springs, CO (operating); North Las Vegas, NV (operating; reported 100 MW); Tahoe Reno, NV (60 MW, launched July 2025); San Francisco, CA (planned); Mesa, AZ (300 MW, under construction)
+- **Cooling:** company describes waterless / water-free direct-to-chip cooling; no PUE or WUE figures published in sources reviewed
+- **Customer size range:** 250 kW to 30 MW (wholesale colocation)
+- **Water claim:** Novva states 84% less water use than conventional facilities (per the March 2025 financing coverage)
+- **Security automation:** Boston Dynamics Spot robots ("WIRE") on 24/7 patrol at the Utah site since 2021, upgraded with generative AI in 2024
 
 ## What It Is / How It Works
 
-Novva is a wholesale colocation operator — it builds, owns, and operates datacenter facilities and leases capacity to customers on a wholesale basis, rather than building for a single anchor tenant (Applied Digital/Crusoe model) or operating a cloud platform. Customers range from 250 kW (a single cage or cabinet suite) to 30 MW (a large private wholesale building), giving Novva both mid-market enterprise and hyperscale-adjacent customers.
+Novva builds, owns and operates datacenters and leases capacity wholesale, from a single cabinet-scale deployment up to about 30 MW per customer, rather than building for one anchor tenant. Its 2022 release describes a "wholocation" model combining wholesale and retail colocation and build-to-suit options intended to cut customer go-live time to about 12 months.
 
-**Western US geographic strategy:** Novva's site selection is concentrated in Western US markets with access to low-cost power, cool ambient air for free cooling, and renewable energy resources. Salt Lake City specifically benefits from cold winters (free cooling hours are high), access to Utah Power's renewable mix, and lower land and construction costs than coastal markets. This is the same logic as Applied Digital's North Dakota and Crusoe's West Texas strategies — avoid high-cost coastal power grids.
+**Siting.** Campuses sit in Western US markets with lower-cost power, dry climates and cooler ambient air: Salt Lake City, Colorado Springs, Las Vegas, the Tahoe-Reno Industrial Center, San Francisco and Mesa. The Tahoe Reno facility is six 10 MW raised-floor halls on a 100 MW on-site substation fed by NV Energy.
 
-**Waterless direct-to-chip cooling:** The West Jordan flagship is described as one of the largest direct-to-chip cooled AI datacenters in the world. Direct-to-chip cooling routes chilled liquid directly to cold plates mounted on GPU and CPU heat spreaders — more efficient than air cooling for high-density AI workloads (>20–30 kW/rack) and avoids the operational complexity of full immersion. "Waterless" (similar to Applied Digital's terminology) likely refers to a closed-loop system without cooling tower evaporation, using dry coolers for heat rejection — well-suited to Utah's low humidity and cool ambient temperatures much of the year.
+**Cooling.** Novva says its newer halls use water-free direct-to-chip cooling designed for AI loads. The company does not publish PUE, WUE or per-rack density figures in the sources reviewed, so claims about efficiency remain design-level.
 
-**Autonomous robot security:** Novva's live deployment of autonomous drones and robot dogs for facility security and monitoring is operationally notable — this is not a pilot program but a described feature of the production facility. Robot dog patrol (likely Boston Dynamics Spot or similar) and drone surveillance are used for 24/7 perimeter and facility monitoring, supplementing human security staff. This makes Novva one of the few named examples of robotics automation deployed in a live production datacenter environment today — worth tracking as a reference case for the `robotics-automation` section.
-
-**Biometric access:** Facial recognition, palm recognition, and biometric gate authorization at access points — a dense biometric security posture consistent with ISO 27001 and government/financial customer requirements.
+**Security robotics.** The WIRE robots are Boston Dynamics Spot units first programmed with Brigham Young University engineering students, then upgraded by Rightpoint (a Genpact company) with a generative AI layer using OpenAI's ChatGPT API. Tasks include scheduled patrols, thermal checks of equipment, facial recognition of authorized personnel and flagging vehicles without license plates ([Novva](https://www.novva.com/media-center/robotic-dogs-trained-with-gen-ai-novvas-wire-robots-receive-enhanced-security-features/), [Genpact](https://www.genpact.com/insight/strengthening-data-center-security-with-gen-ai-and-autonomous-robots)). Genpact's reported results are self-reported with no quantitative metrics.
 
 ## Notable Developments
 
-- **2025-03:** $2B financing commitment from J.P. Morgan and Starwood Property Trust to complete Salt Lake City campus Phases 2 and 3. ([CIM Group](https://www.cimgroup.com/press-releases/cim-group-and-novva-data-centers-announce-2-billion-in-new-financing-to-accelerate-growth-in-delivering-sustainable-efficient-data-centers-across-the-western-u-s))
-- **2024-01:** Phase 3 construction begins (318,000 sqft, 72 MW); completion expected 2026.
-- **2023-12:** Phase 2 construction begins (318,000 sqft, 72 MW); completion expected 2026.
-- **2022:** $355M growth equity investment from CIM Group. ([PR Newswire](https://www.prnewswire.com/news-releases/novva-data-centers-receives-355m-growth-equity-investment-from-cim-group-to-aid-expansion-efforts-301558538.html))
-- **2019:** Founded by Wes Swenson and CIM Group; initial $100M backing.
-- **2019 (prior):** Wes Swenson's previous company C7 Data Centers acquired by DataBank in 2017; Novva represents his second Utah datacenter company.
+- **2025-09:** DCD reports a $181M, nearly 205-acre land purchase in the Apex Industrial Park, North Las Vegas; the seller confirmed the sale but did not name the buyer and Novva did not comment; no capacity disclosed. ([DCD](https://www.datacenterdynamics.com/en/news/novva-data-centers-buys-205-acres-of-land-in-las-vegas-nevada/))
+- **2025-07-08:** Tahoe Reno Data Center launches: 60 MW, 300,000 sq ft, water-free direct-to-chip cooling. ([DCD](https://www.datacenterdynamics.com/en/news/american-data-center-operator-novva-launches-facility-in-nevada/))
+- **2025-03-05:** $2B financing from J.P. Morgan and Starwood to complete the West Jordan campus (Phases 2 and 3) and support Western US growth. ([CIM Group](https://www.cimgroup.com/press-releases/cim-group-and-novva-data-centers-announce-2-billion-in-new-financing-to-accelerate-growth-in-delivering-sustainable-efficient-data-centers-across-the-western-u-s))
+- **2024-09-30:** WIRE robots receive generative AI upgrade. ([Novva](https://www.novva.com/media-center/robotic-dogs-trained-with-gen-ai-novvas-wire-robots-receive-enhanced-security-features/))
+- **2024-08:** Novva confirmed as the developer of Project Borealis, a 300 MW, five-building campus in Mesa, AZ on 165 acres bought at auction for $62.7M; first 96 MW phase targeted for late 2026. ([DCD](https://www.datacenterdynamics.com/en/news/novva-confirmed-as-behind-project-borealis-data-center-campus-in-phoenix-arizona), [ConnectCRE](https://www.connectcre.com/stories/3b-data-center-slated-for-mesa/))
+- **2024-01:** Phase 3 construction begins at West Jordan.
+- **2023-12:** Phase 2 construction begins; San Francisco site announced.
+- **2023:** Phase 1 at West Jordan operating and fully leased.
+- **2022-06:** CIM Group commits up to $355M more equity (total $450M); target of 1,000 MW of designed capacity by 2027. ([PR Newswire](https://www.prnewswire.com/news-releases/novva-data-centers-receives-355m-growth-equity-investment-from-cim-group-to-aid-expansion-efforts-301558538.html))
+- **2020-07-21:** Novva launches to build a hyperscale campus in West Jordan. ([Novva](https://www.novva.com/media-center/novva-launches/))
 
 ## Key People
 
 ### Wes Swenson — Founder and CEO
-- **LinkedIn:** Search "Wes Swenson Novva"
-- **Role:** Co-founder and CEO
-- **Background:** Serial datacenter entrepreneur in the Utah market; founded C7 Data Centers (Utah colocation), grew it and sold to DataBank in 2017; founded Novva in 2019 applying the same regional strategy at larger scale with CIM Group's institutional capital
-- **Notes:** Swenson's C7→DataBank track record gives Novva operational credibility that pure finance-backed startups lack; he has built and sold a datacenter business in this exact geography before
+- **LinkedIn:** not found
+- **Role:** Founder and CEO, quoted as CEO in the March 2025 financing release
+- **Previous employers:** C7 Data Centers (CEO; acquired by DataBank in 2017)
+- **Source:** [Novva launch release](https://www.novva.com/media-center/novva-launches/)
 
-### People — Last Reviewed: 2026-03-25
+### Avi Shemesh — Co-Founder and Principal, CIM Group
+- **Role:** CIM Group principal quoted in Novva's financing and equity releases; CIM is Novva's equity partner
+- **LinkedIn:** not found
+
+**⚑ Shared background:** Swenson ran C7 Data Centers (acquired by DataBank), a Utah colocation operator; DataBank is not currently documented in this section.
+
+### People — Last Reviewed: 2026-10-23
 
 ## Supply Chain Position
 
-Novva sits at the **Wholesale Colocation Operator** layer — downstream of construction, cooling equipment, and power suppliers; upstream of its enterprise and hyperscale tenant customers.
+Novva sits at the **wholesale colocation operator** layer, downstream of land, utility power, construction and cooling equipment and upstream of enterprise and hyperscale tenants.
 
 | Layer | Detail |
 |-------|--------|
-| **Land and site** | Owned campus, West Jordan UT; additional leased/owned sites across Western US |
-| **Construction** | General contractor(s) for phased campus build-out (not named publicly) |
-| **Direct-to-chip cooling** | System vendor not disclosed; likely CoolIT, Vertiv, or similar for rack-level cold plate distribution |
-| **Power** | Utah utility (Rocky Mountain Power / PacifiCorp); redundant feeds; renewable mix |
-| **Security robotics** | Autonomous drone and robot dog vendors not named; Boston Dynamics Spot and DJI Enterprise drones are the dominant platforms in this category |
-| **Connectivity** | Multiple carrier fiber; blended bandwidth product |
-| **Customers (downstream)** | Enterprise, government, financial, healthcare tenants; unnamed AI/cloud customers implied by AI datacenter positioning |
+| Land and site | Owned campuses in UT, CO, NV and AZ; Mesa land bought at auction |
+| Power | Utility feeds; Tahoe Reno substation supplied by NV Energy; a Rolls-Royce partnership for power was announced July 2024 per Novva's media center |
+| Cooling | Direct-to-chip system; vendor not disclosed |
+| Construction | General contractors not named in sources reviewed |
+| Security robotics | Boston Dynamics Spot; software by Rightpoint/Genpact and OpenAI API |
+| Tenants | Phase 1 West Jordan: a global technology company (unnamed); other tenants not disclosed |
 
-**⚑ Robot dog security deployment — vendor flag:** Novva operates robot dog patrol as a production security feature. If Boston Dynamics Spot is the platform, note that Hyundai acquired Boston Dynamics in 2021 — no Chinese ownership concern. If the platform is a lower-cost Chinese alternative (Unitree, Deep Robotics), this warrants the same scrutiny applied to DJI drones in the aerial drone section. Vendor should be confirmed.
+**⚑ Capital concentration:** CIM Group is both equity partner and co-founder; the $2B debt facility is separate but finances the same buildout.
 
-**⚑ CIM Group concentration:** CIM Group is both an equity investor and, through its real estate and infrastructure mandate, likely a debt/financing facilitator. The $2B J.P. Morgan / Starwood facility is separate from CIM's equity position, but CIM's continued involvement as investor, co-founder, and likely board presence represents governance concentration. If CIM's institutional mandates or capital allocation change, it could affect Novva's expansion trajectory.
+**⚑ Cloud-API dependency:** The WIRE robots' conversational features rely on OpenAI's API, an external service dependency in a security setting.
 
 ## Claim Verification
 
-### Claim: "One of the largest direct-to-chip cooled AI datacenters in the world" (175 MW, West Jordan)
-**Status:** Plausible at completion; not independently ranked; comparisons depend on how "direct-to-chip" and "completed" are defined
+### Claim: 175 MW campus completes in 2026 and is "one of the largest" direct-to-chip cooled AI datacenters
 
-**Supporting:**
-- 175 MW of direct-to-chip cooled capacity is genuinely large — most hyperscale AI compute campuses are in the 100–300 MW range per campus; 175 MW in a single Western US colocation campus is notable
-- Phases 2 and 3 are under construction with $2B committed financing, making completion likely
+**Status:** Unverified
 
-**Refuting / questioning:**
-- "At completion" — Phases 2 and 3 are expected complete in 2026; the claim reflects full buildout, not current operational capacity
-- Major hyperscaler owned-and-operated AI campuses (Meta, Google, Microsoft) may exceed 175 MW at single sites and use direct-to-chip cooling; the "largest" claim in a colocation context is more plausible than globally
+**Supporting sources:**
+- [CIM Group release](https://www.cimgroup.com/press-releases/cim-group-and-novva-data-centers-announce-2-billion-in-new-financing-to-accelerate-growth-in-delivering-sustainable-efficient-data-centers-across-the-western-u-s) — 175 MW at completion; Phases 2 and 3 expected complete in 2026
 
-**Summary:** The claim is credible for the wholesale colocation segment in the Western US at completion. Treat as aspirational until Phases 2 and 3 are commissioned and independently measured.
+**Refuting / questioning sources:**
+- No source reviewed confirms Phase 2 or 3 commissioning as of October 2026, and no independent ranking of direct-to-chip campuses was found.
 
-### Claim: "Waterless cooling"
-**Status:** Consistent with closed-loop dry-cooled direct-to-chip systems; specific WUE not published
+**Summary:** Completion is planned, not confirmed; the "largest" framing is marketing.
 
-**Supporting:** Same logic as Applied Digital and Crusoe — Utah's low humidity and cold winters favor dry-cooler heat rejection with minimal or zero evaporative loss
+### Claim: Waterless cooling and 84% less water
 
-**Refuting / questioning:** "Waterless" is marketing shorthand; closed-loop systems require initial fill and top-up; the term likely means zero consumptive water use (no evaporative cooling towers), not zero water in the system
+**Status:** Unverified
 
-**Summary:** Directionally accurate for the architecture; specific WUE figures needed for independent verification.
+**Supporting sources:**
+- [Novva](https://www.novva.com/about/) — describes a "unique" waterless cooling system without technical detail
+- [Converge Digest](https://convergedigest.com/novva-secures-2b-to-expand-175mw-data-center-in-utah/) — reports the 84% reduction versus conventional facilities
+
+**Refuting / questioning sources:**
+- No WUE or PUE data and no stated baseline for the 84% comparison.
+
+**Summary:** Directionally plausible for closed-loop dry-cooled designs; not independently measured.
+
+### Claim: Mesa campus of 300 MW with first 96 MW in late 2026
+
+**Status:** Partially verified
+
+**Supporting sources:**
+- [DCD](https://www.datacenterdynamics.com/en/news/novva-confirmed-as-behind-project-borealis-data-center-campus-in-phoenix-arizona) and [ConnectCRE](https://www.connectcre.com/stories/3b-data-center-slated-for-mesa/) — 300 MW, 96 MW first phase, late 2026
+
+**Refuting / questioning sources:**
+- Both reports date from the 2024 announcement; no 2026 construction update was found.
+
+**Summary:** Capacity and schedule are announced plans; status is not confirmed.
 
 ## Sources
 
-- [NOVVA Data Centers — novva.com](https://www.novva.com/)
-- [$2B Financing Announcement — CIM Group (Mar 2025)](https://www.cimgroup.com/press-releases/cim-group-and-novva-data-centers-announce-2-billion-in-new-financing-to-accelerate-growth-in-delivering-sustainable-efficient-data-centers-across-the-western-u-s)
-- [$355M CIM Group Growth Equity — PR Newswire (2022)](https://www.prnewswire.com/news-releases/novva-data-centers-receives-355m-growth-equity-investment-from-cim-group-to-aid-expansion-efforts-301558538.html)
-- [Novva Launches Utah's Largest Multi-Tenant Data Center — Novva Media Center](https://www.novva.com/media-center/novva-launches/)
-- [About Novva — novva.com/about](https://www.novva.com/about/)
+- [Novva](https://www.novva.com/)
+- [Novva — About](https://www.novva.com/about/)
+- [Novva launches — Novva (Jul 2020)](https://www.novva.com/media-center/novva-launches/)
+- [WIRE robots upgrade — Novva (Sep 2024)](https://www.novva.com/media-center/robotic-dogs-trained-with-gen-ai-novvas-wire-robots-receive-enhanced-security-features/)
+- [$2B financing — CIM Group (Mar 2025)](https://www.cimgroup.com/press-releases/cim-group-and-novva-data-centers-announce-2-billion-in-new-financing-to-accelerate-growth-in-delivering-sustainable-efficient-data-centers-across-the-western-u-s)
+- [$2B financing — Converge Digest (Mar 2025)](https://convergedigest.com/novva-secures-2b-to-expand-175mw-data-center-in-utah/)
+- [$355M CIM equity — PR Newswire (Jun 2022)](https://www.prnewswire.com/news-releases/novva-data-centers-receives-355m-growth-equity-investment-from-cim-group-to-aid-expansion-efforts-301558538.html)
+- [Tahoe Reno launch — DCD (Jul 2025)](https://www.datacenterdynamics.com/en/news/american-data-center-operator-novva-launches-facility-in-nevada/)
+- [Las Vegas land purchase — DCD (Aug 2025)](https://www.datacenterdynamics.com/en/news/novva-data-centers-buys-205-acres-of-land-in-las-vegas-nevada/)
+- [Project Borealis — DCD (Aug 2024)](https://www.datacenterdynamics.com/en/news/novva-confirmed-as-behind-project-borealis-data-center-campus-in-phoenix-arizona)
+- [$3B Mesa campus — ConnectCRE](https://www.connectcre.com/stories/3b-data-center-slated-for-mesa/)
+- [Genpact — gen AI and autonomous robots](https://www.genpact.com/insight/strengthening-data-center-security-with-gen-ai-and-autonomous-robots)

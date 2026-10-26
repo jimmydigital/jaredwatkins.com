@@ -1,18 +1,19 @@
 ---
 title: "Starcloud"
 date: 2026-04-29
-lastmod: 2026-04-29
+lastmod: 2026-10-26
 draft: false
-description: "Seattle-area startup building and operating orbital data centers; first to train an LLM in space; YC unicorn at $1.1B valuation after Series A in March 2026."
+description: "Seattle-area startup building and operating orbital data centers; first to train an LLM in space; YC unicorn; $170M Series A at $1.1B (March 2026), then a $250M extension at $2.3B post-money (August 2026), about $450M raised in total."
 research_area: "datacenters/orbital-compute"
 source_urls:
   - "https://www.starcloud.com/"
+  - "https://www.unite.ai/starcloud-raises-250m-series-a-extension-at-2-3b-valuation/"
   - "https://techcrunch.com/2026/03/30/starcloud-raises-170-million-series-ato-build-data-centers-in-space/"
   - "https://www.cnbc.com/2025/12/10/nvidia-backed-starcloud-trains-first-ai-model-in-space-orbital-data-centers.html"
   - "https://www.geekwire.com/2026/orbital-ai-seattle-area-startup-starcloud-hits-1-1b-valuation-to-build-space-based-data-centers/"
   - "https://blogs.nvidia.com/blog/starcloud/"
   - "https://nvidianews.nvidia.com/news/space-computing"
-last_reviewed: 2026-04-29
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -20,19 +21,20 @@ stale_after_days: 90
 
 ## Summary
 
-Starcloud (formerly Lumen Orbit) is a Redmond, Washington startup building commercial orbital data centers. In November 2025, it launched Starcloud-1 — the first satellite to carry a high-performance GPU (NVIDIA H100 class) — and subsequently became the first company to train a large language model in space. It raised a $170M Series A at a $1.1B valuation in March 2026, becoming the fastest YC company to reach unicorn status (17 months post-YC). Starcloud-2, with multiple Blackwell GPUs and an AWS server blade, is planned for October 2026.
+Starcloud (formerly Lumen Orbit) is a Redmond, Washington startup building commercial orbital data centers. In November 2025, it launched Starcloud-1 — the first satellite to carry a high-performance GPU (NVIDIA H100 class) — and subsequently became the first company to train a large language model in space. It raised a $170M Series A at a $1.1B valuation in March 2026, becoming the fastest YC company to reach unicorn status (17 months post-YC), and announced a $250M Series A extension at a $2.3B post-money valuation on 2026-08-21, bringing total funding to about $450M. Starcloud-2, with multiple Blackwell GPUs and an AWS server blade, is now described as planned for later in 2026 and as serving early customer Crusoe.
 
 ## Key Facts
 
 - **Founded:** January 2024 (as Lumen Orbit); rebranded Starcloud March 2025
 - **HQ:** Redmond, WA, USA
 - **Type:** Company — orbital data center operator
-- **Status:** Active — commercial operations from Starcloud-1; Starcloud-2 planned Oct 2026
-- **Funding:** ~$200M total raised; Series A ($170M) led by Benchmark and EQT Ventures, March 2026; seed rounds totaling ~$34M in 2024–2025
-- **Valuation:** $1.1B (March 2026)
-- **Investors:** Benchmark, EQT Ventures, NFX, Y Combinator, FUSE, Soma Capital, Andreessen Horowitz (scout), Sequoia (scout), NVIDIA (Inception program)
+- **Status:** Active — commercial operations from Starcloud-1; Starcloud-2 planned for later in 2026
+- **Funding:** about $450M total raised; $250M Series A extension (2026-08-21) led by Manhattan West; Series A ($170M) led by Benchmark and EQT Ventures, March 2026; seed rounds totaling ~$34M in 2024–2025
+- **Valuation:** $2.3B post-money (August 2026); $1.1B at the March 2026 Series A
+- **Investors:** Benchmark, EQT Ventures, NFX, Y Combinator, FUSE, Soma Capital, Andreessen Horowitz (scout), Sequoia (scout), NVIDIA (Inception program; invested in the August 2026 extension), Manhattan West, Cisco Investments, Cedar Capital, Goanna Capital, Standard Capital, 776
 - **Key metric:** First LLM trained in space (Nov 2025); first high-power GPU in orbit (100× more powerful than prior space GPUs)
-- **FCC filing:** Feb 2026 proposal for constellation of up to 88,000 orbital data center satellites
+- **FCC filing:** Feb 2026 proposal for constellation of up to 88,000 orbital data center satellites; 20 GW of orbital compute targeted
+- **Manufacturing:** 100,000 sq ft site in Woodinville, WA
 
 ## What It Is / How It Works
 
@@ -40,12 +42,14 @@ Starcloud designs, builds, and operates satellites that carry commercial GPU and
 
 Starcloud-1, launched November 2025 aboard a SpaceX Falcon 9, carried an NVIDIA H100-class GPU — described as approximately 100× more capable than any prior GPU flown to space. On-orbit, the satellite ran inference on Google DeepMind's Gemma model (a version of Gemini) and trained nanoGPT (Andrej Karpathy's LLM) on the complete works of Shakespeare, achieving the first in-space LLM training run. The satellite communicates to ground via radio links; optical ISLs are planned for future satellites.
 
-Starcloud-2, targeted for October 2026, adds multiple NVIDIA Blackwell GPUs, an AWS server blade, and a Bitcoin mining computer — the last reflecting the company's multi-workload revenue diversification strategy. The company has also proposed a constellation of up to 88,000 satellites to the FCC, which would substantially exceed current Starlink constellation size.
+Starcloud-2, now targeted for later in 2026, adds multiple NVIDIA Blackwell GPUs, an AWS server blade, and a Bitcoin mining computer — the last reflecting the company's multi-workload revenue diversification strategy. The company has also proposed a constellation of up to 88,000 satellites to the FCC, which would substantially exceed current Starlink constellation size.
 
 The company was originally founded as Lumen Orbit. Following a trademark challenge from Lumen Technologies (the fiber network operator), it rebranded to Starcloud in March 2025.
 
 ## Notable Developments
 
+- **2026-08-21:** Announced $250M Series A extension at $2.3B post-money valuation, led by Manhattan West with Benchmark, EQT, Soma, NFX and 776 participating and NVIDIA and Cisco Investments among the new investors; total raised about $450M. ([Unite.AI](https://www.unite.ai/starcloud-raises-250m-series-a-extension-at-2-3b-valuation/))
+- **2026-05:** Starlink deal for more than 50 Starlink Mini Laser terminals across at least 25 satellites, enabling up to 25 Gbps intersatellite optical links. ([Unite.AI](https://www.unite.ai/starcloud-raises-250m-series-a-extension-at-2-3b-valuation/))
 - **2026-03:** Raised $170M Series A led by Benchmark and EQT Ventures at $1.1B valuation; fastest YC unicorn (17 months post-program)
 - **2026-02:** Filed FCC proposal for constellation of up to 88,000 orbital data center satellites
 - **2025-12:** Announced first in-space LLM training (nanoGPT on Shakespeare corpus) and first inference of Gemma on-orbit
@@ -67,7 +71,7 @@ The company was originally founded as Lumen Orbit. Following a trademark challen
   - LinkedIn: not confirmed — TODO: verify
   - Previous: Airbus Defence and Space
 
-### People — Last Reviewed: 2026-04-29
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 
@@ -100,6 +104,7 @@ The company was originally founded as Lumen Orbit. Following a trademark challen
 ## Sources
 
 - [Starcloud official site](https://www.starcloud.com/)
+- [Unite.AI: Starcloud raises $250M Series A extension at $2.3B valuation (Aug 2026)](https://www.unite.ai/starcloud-raises-250m-series-a-extension-at-2-3b-valuation/)
 - [TechCrunch: Starcloud raises $170M Series A](https://techcrunch.com/2026/03/30/starcloud-raises-170-million-series-ato-build-data-centers-in-space/)
 - [CNBC: First LLM trained in space](https://www.cnbc.com/2025/12/10/nvidia-backed-starcloud-trains-first-ai-model-in-space-orbital-data-centers.html)
 - [GeekWire: Starcloud unicorn](https://www.geekwire.com/2026/orbital-ai-seattle-area-startup-starcloud-hits-1-1b-valuation-to-build-space-based-data-centers/)

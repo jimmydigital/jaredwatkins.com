@@ -1,103 +1,104 @@
 ---
 title: "Mercury Systems"
 date: 2026-03-25
-lastmod: 2026-03-26
+lastmod: 2026-10-23
 draft: false
-description: "Andover, MA defense electronics company (NASDAQ: MRCY); leading provider of rugged mission-critical embedded computing for DoD; sole-source positions on Navy/Army/Air Force signal processing and EW programs; ~$900M annual revenue; RES Trust XR6 AI subsystem; HPEC modules and subsystems at VPX and rackmount tiers."
+description: "Andover, MA defense electronics company (NASDAQ: MRCY); FY2026 revenue $984M, record backlog $1.9B+, bookings $1.5B; rugged processing subsystems sold through primes (RTX 15%, Lockheed Martin 11%, Northrop Grumman 10% of revenue); Common Processing Architecture record bookings; Palantir AI factory partnership; CEO Ballhaus extended through August 2030."
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://www.mrcy.com/"
-  - "https://ir.mrcy.com/sec-filings/sec-filing/10-k"
-  - "https://ir.mrcy.com/"
-last_reviewed: 2026-03-26
+  - "https://www.sec.gov/Archives/edgar/data/0001049521/000104952126000043/a2026q4earningsreleaseex.htm"
+  - "https://www.sec.gov/Archives/edgar/data/0001049521/000104952126000045/mrcy-20260703.htm"
+  - "https://www.sec.gov/Archives/edgar/data/0001049521/000104952126000043/q4fy26earningspresentati.htm"
+  - "https://www.marketbeat.com/instant-alerts/mercury-systems-q4-earnings-call-highlights-2026-08-18/"
+  - "https://briefglance.com/articles/the-blueprint-of-resilience-mercury-systems-extends-ceo-ballhaus-to-2030"
+  - "https://intelligencecommunitynews.com/mercury-systems-completes-acquisition-of-themis-computer/"
+last_reviewed: 2026-10-23
 stale_after_days: 90
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
 
-
 ## Summary
 
-Mercury Systems is the leading US supplier of commercial-off-the-shelf (COTS) rugged processing subsystems for defense applications, transforming commercial silicon from NVIDIA, Intel, AMD, and Xilinx into MIL-spec embedded computing modules that survive the thermal, vibration, and EMI environments of military aircraft, ships, and vehicles. With approximately $900M in annual revenue and sole-source positions on numerous signal processing and electronic warfare programs, Mercury occupies a critical chokepoint in the DoD's ability to field AI-capable sensing and weapons platforms. It is not a defense prime — it supplies the compute building blocks that primes integrate into systems — but its sole-source positions make it as strategically important as many primes.
+Mercury Systems (NASDAQ: MRCY, Andover, Massachusetts) turns commercial silicon into rugged processing subsystems for defense platforms and sells them largely through prime contractors: RTX, Lockheed Martin and Northrop Grumman together were 36% of fiscal 2026 revenue, and about 97% of revenue came from US and foreign governments, mostly via primes. FY2026 (ended 2026-07-03) revenue was $984M, up from $912M, with record bookings of $1.5B and record backlog above $1.9B. The company reports record bookings for its Common Processing Architecture (CPA) products and, in August 2026, announced an AI software agreement with Palantir for factory planning. Its 10-K describes it as holding "the sole source for many unique capabilities," while it says it is a member of the SOSA initiative.
 
 ## Key Facts
 
-- **Founded:** 1981
-- **HQ:** Andover, MA
+- **HQ:** 50 Minuteman Road, Andover, MA (10-K)
 - **Ticker:** NASDAQ: MRCY
-- **Value chain position:** Component/subsystem supplier — COTS rugged compute modules and subsystems to defense prime contractors
-- **CEO:** Bill Ballhaus (since August 2023, interim from June 2023)
-- **Revenue:** ~$900M+ (FY2025; company experienced headwinds from supply chain delays and program slippage post-COVID, now recovering)
-- **Key acquisition:** Themis Computer (Fremont CA, 2022) — added 1U–4U rackmount rugged servers and OpenVPX chassis to Mercury's VPX module portfolio
-- **Platform tier:** Both VPX module tier (individual compute cards) and rack/server tier (complete integrated subsystems)
-- **Key product:** RES Trust XR6 — rugged AI compute subsystem targeting C4ISR, EW, and AI inference workloads
-- **Primary programs:** US Navy (sensor processing, EW — multiple classified programs), US Army (ground vehicle computing), US Air Force (airborne signal processing)
-- **Sole-source positions:** Mercury holds sole-source status on multiple DoD programs — high margin advantage but subject to structural pressure from DoD's MOSA/SOSA open-competition policy
-- **Standards compliance:** MIL-STD-810H (environmental), MIL-STD-461 (EMI/EMC), OpenVPX (VITA 65), SOSA-aligned products
+- **Value chain position:** component and subsystem supplier to defense primes (module tier and rack/server tier)
+- **FY2026 (ended 2026-07-03):** revenue $984M (FY2025: $912M); bookings $1.5B (book-to-bill 1.57); GAAP net loss $30M; adjusted EBITDA $150M (15.3% margin); free cash flow $68M (FY2025: $119M)
+- **Q4 FY2026:** revenue about $290M (+6.1%); bookings $660M (+93.1%); book-to-bill 2.28
+- **Backlog:** above $1.9B at 2026-07-03 (+38.4%); about $1.0B expected to convert within 12 months
+- **FY2027 outlook (company):** revenue approaching $1.1B; adjusted EBITDA near $200M; free-cash-flow conversion near 35%
+- **Customers (FY2026):** RTX 15%, Lockheed Martin 11%, Northrop Grumman 10%; no single program 10% or more of revenue; domestic sales about 85.8% of revenue
+- **Employees:** 2,102 at 2026-07-03, excluding contractors
+- **CEO:** Bill Ballhaus, Chairman and CEO; extension announced 2026-09-16 through 2030-08-15
+- **CFO:** David Farnsworth
+- **Acquisition:** Themis Computer, completed 2018-02-01 for $180M cash (adds C4I rugged servers)
+- **Standards:** OpenVPX; the 10-K says Mercury is a SOSA member
 
 ## What It Is / How It Works
 
-Mercury's core value proposition is taking commercial silicon — NVIDIA GPUs, Intel and AMD processors, Xilinx/AMD and Intel FPGAs — and ruggedizing it into MIL-spec subsystems capable of operating in the thermal extremes, shock, vibration, and electromagnetic environments of military platforms. Mercury does not design its own chips; it integrates commercial components into purpose-built chassis and backplane designs that meet the military's environmental and emissions standards.
+Mercury does not design GPUs or FPGAs. It integrates commercial processors, FPGAs and memory into modules and chassis that survive military environments, then sells them as building blocks that primes integrate into radar, electronic warfare, mission-computer and space systems. The 10-K describes a "Mercury Processing Platform" as an end-to-end processing ecosystem spanning signal, compute, data management, display and security.
 
-The company's "processing chain" covers the signal path from sensor input to decision output: RF front-end → ADC/DAC conversion → FPGA real-time signal processing → GPU-accelerated AI inference → output to mission system. For an airborne electronic warfare system, this chain processes radar emissions in real time, classifies threats, and cues countermeasure systems — entirely within a ruggedized subsystem that fits an aircraft avionics bay. For a naval sonar processor, the same architecture classifies acoustic signatures and supports weapon release decisions.
+**Common Processing Architecture.** The Q4 FY2026 presentation reports the "largest quarter ever for CPA bookings." CPA is Mercury's standardized, open-architecture product line; the sources reviewed do not describe its hardware in detail.
 
-**SWaP optimization** is the constant design pressure. Military platform bays have fixed dimensions, fixed power budgets, and fixed cooling capacity. Mercury's value is maximizing compute performance within those constraints — packing more FLOPS into a given 3U card than a competitor can, or dissipating more heat from a conduction-cooled chassis in a sealed aircraft pod.
+**Strategic shift.** An analyst-style summary of the CEO extension describes a move from customized, low-margin engineering contracts toward standardized, open-architecture modular components aligned with DoD SOSA and MOSA. That framing is the article's, not Mercury's own words.
 
-The Themis acquisition added 1U–4U rackmount COTS rugged servers to Mercury's VPX module portfolio. This means Mercury can sell either the modular building blocks (VPX cards that a prime slots into their chassis) or a complete integrated system (a rackmount server that a prime installs as a black box). The dual-tier capability captures more of the value chain.
-
-**MOSA/SOSA headwind:** DoD acquisition policy explicitly pushes programs toward open-architecture, competitively re-sourceable components. Mercury's sole-source positions are a legacy of proprietary architectures that DoD is actively trying to replace. Mercury has responded by offering SOSA-aligned products, but the long-term pressure on sole-source margins is real and acknowledged in Mercury's 10-K risk factors.
+**Sole-source cuts both ways.** The 10-K says Mercury holds "the sole source for many unique capabilities," and separately lists components bought from sole-source suppliers (FPGAs, ASICs, processors, memory, specialty glass) as a supply risk. DoD's open-architecture push is the pressure on the first point; see [Curtiss-Wright]({{< relref "curtiss-wright.md" >}}) for the competing SOSA-aligned module line.
 
 ## Notable Developments
 
-- **2026-01:** $60M+ in contract extensions and new awards for US space and strategic weapons programs — including radiation-hardened processing on a strategic weapons program extended through 2031, and a new national security space program subsystem contract
-- **2025-09:** Multi-year cost-plus-fixed-fee development contract for multi-mission subsystem using Mercury Processing Platform (open standards, mixed signal conversion, thermal management)
-- **2024-12:** $17M two-year contract for Common Processing Architecture implementation
-- **2022:** Acquires Themis Computer — expands into 1U–4U rackmount rugged servers, adding rack/server tier to existing VPX module portfolio
-- **2022-2023:** CEO transition from Mark Aslett to Bill Ballhaus; company navigates supply chain delays and program slippage reducing revenue and margins; recovery underway by FY2025
-- **Ongoing:** AI inference demand from military customers (C4ISR, EW, autonomous systems) creating new program opportunities; GPU inference workloads replacing legacy FPGA/DSP architectures
+- **2026-09-16:** Board extends Ballhaus through 2030-08-15; summary cites FY27 guidance reaffirmed. ([BriefGlance](https://briefglance.com/articles/the-blueprint-of-resilience-mercury-systems-extends-ceo-ballhaus-to-2030))
+- **2026-08-18:** FY2026 results; Q4 bookings $660M; FY2027 outlook of revenue near $1.1B; Palantir strategic agreement applying AI software to material planning and factory operations (benefits not in the outlook). ([SEC](https://www.sec.gov/Archives/edgar/data/0001049521/000104952126000043/a2026q4earningsreleaseex.htm), [MarketBeat](https://www.marketbeat.com/instant-alerts/mercury-systems-q4-earnings-call-highlights-2026-08-18/))
+- **2026-08 (Q4 FY26):** production awards across effectors, airborne, space and missile defense; international sales fell about 15%, attributed to a temporary slowdown while an outsourced contract manufacturer ramped. ([MarketBeat](https://www.marketbeat.com/instant-alerts/mercury-systems-q4-earnings-call-highlights-2026-08-18/))
+- **2018-02-01:** Themis Computer acquisition completed for $180M. ([Intelligence Community News](https://intelligencecommunitynews.com/mercury-systems-completes-acquisition-of-themis-computer/))
 
 ## Key People
 
-**Bill Ballhaus** — President & CEO (August 2023–present)
-- LinkedIn: [linkedin.com/in/bill-ballhaus-a9451395](https://www.linkedin.com/in/bill-ballhaus-a9451395)
-- Education: BS Mechanical Engineering (UC Davis); MS and PhD Aeronautics & Astronautics (Stanford); MBA (UCLA Anderson)
-- Prior employment (reverse-chronological):
-  - Mercury Systems: Interim CEO (June 2023); President & CEO (August 2023–present)
-  - Blackboard / Anthology: Chairman, President, and CEO (2016–2022) — led EdTech company through merger with Anthology
-  - SRA International: President & CEO (2011–2015) — led merger with CSC federal business to form CSRA (~$6B revenue)
-  - DynCorp International: CEO and President (2008–2010) — ~22,500 employees, >$3B annual revenue
-  - BAE Systems: President, Network Systems and National Security Solutions (2003–2008)
+### Bill Ballhaus — Chairman and CEO
+- **LinkedIn:** not re-verified
+- **Role:** interim CEO June 2023, permanent two months later; contract extended through 2030-08-15 ([BriefGlance](https://briefglance.com/articles/the-blueprint-of-resilience-mercury-systems-extends-ceo-ballhaus-to-2030))
 
-**Mark Aslett** — President & CEO (2007–June 2023); departed after 15-year tenure
-- LinkedIn: [linkedin.com/in/maslett](https://www.linkedin.com/in/maslett/)
-- Education: Harvard Business School MBA (1995–1997); University of Sunderland BS (1987–1991)
-- Prior employment (reverse-chronological):
-  - Mercury Systems: President & CEO (2007–2023) — transformed Mercury from a niche COTS vendor into a ~$900M prime-adjacent defense electronics supplier
-  - Enterasys Networks: CEO (2005–2006); COO and President
-  - Marconi Networks: EVP Marketing (2001–2002)
-  - Marconi Ventures: Managing Partner (2000–2001)
+### David Farnsworth — EVP and CFO
+- **LinkedIn:** not found
+- **Role:** named on the Q4 FY2026 earnings call ([MarketBeat](https://www.marketbeat.com/instant-alerts/mercury-systems-q4-earnings-call-highlights-2026-08-18/))
 
-### People — Last Reviewed: 2026-03-26
+Prior employers were not confirmed from fetched sources.
+
+### People — Last Reviewed: 2026-10-23
 
 ## Claim Verification
 
-### Claim: Sole-source supplier on key DoD programs
+### Claim: Sole-source positions on key DoD programs
 
-**Status:** Verified (per SEC filings), with strategic caveat
+**Status:** Partially verified
 
 **Supporting sources:**
-- [Mercury Systems 10-K Annual Reports](https://ir.mrcy.com/sec-filings/sec-filing/10-k) — annual filings explicitly cite sole-source program positions and the associated revenue concentration as both a competitive advantage and a risk factor
-- [Mercury Systems Investor Relations](https://ir.mrcy.com/) — program wins and contract announcements consistent with sole-source relationships
+- [FY2026 10-K](https://www.sec.gov/Archives/edgar/data/0001049521/000104952126000045/mrcy-20260703.htm) — "the sole source for many unique capabilities"
 
 **Refuting / questioning sources:**
-- [DoD MOSA/SOSA policy documentation](https://www.acq.osd.mil/se/initiatives/init_mosa.html) — DoD acquisition policy explicitly requires open-architecture, competitively sourceable systems; Mercury's 10-K acknowledges these positions face re-competition pressure as programs refresh under SOSA requirements
+- The same 10-K says no single program was 10% or more of revenue, and the business section cites DoD's focus on MOSA; the sources reviewed name no specific sole-source programs.
 
-**Summary:** Sole-source positions are real and documented in SEC filings, but face structural pressure from DoD open-architecture policies — Mercury is managing a transition from proprietary to SOSA-aligned products to maintain its competitive position.
+**Summary:** The sole-source position is a company statement; which programs it covers is not documented here.
+
+### Claim: FY2026 revenue $984M
+
+**Status:** Verified
+
+**Supporting sources:**
+- [Q4 FY2026 release](https://www.sec.gov/Archives/edgar/data/0001049521/000104952126000043/a2026q4earningsreleaseex.htm) — revenue $984M versus $912M in FY2025; another summary cites $983.6M
+
+**Summary:** Company-reported.
 
 ## Sources
 
-- [Mercury Systems — Official Website](https://www.mrcy.com/)
-- [Mercury Systems — Annual Reports (10-K)](https://ir.mrcy.com/sec-filings/sec-filing/10-k)
-- [Mercury Systems — Investor Relations](https://ir.mrcy.com/)
-- [DoD MOSA Policy](https://www.acq.osd.mil/se/initiatives/init_mosa.html) — context on sole-source competitive pressure
-- [SOSA Consortium](https://www.sosa.technology/) — open-architecture standard Mercury is transitioning toward
+- [Mercury Systems](https://www.mrcy.com/)
+- [Q4 and FY2026 earnings release (Aug 2026)](https://www.sec.gov/Archives/edgar/data/0001049521/000104952126000043/a2026q4earningsreleaseex.htm)
+- [FY2026 Form 10-K](https://www.sec.gov/Archives/edgar/data/0001049521/000104952126000045/mrcy-20260703.htm)
+- [Q4 FY2026 earnings presentation](https://www.sec.gov/Archives/edgar/data/0001049521/000104952126000043/q4fy26earningspresentati.htm)
+- [MarketBeat — Q4 call highlights](https://www.marketbeat.com/instant-alerts/mercury-systems-q4-earnings-call-highlights-2026-08-18/)
+- [BriefGlance — CEO extension](https://briefglance.com/articles/the-blueprint-of-resilience-mercury-systems-extends-ceo-ballhaus-to-2030)
+- [Intelligence Community News — Themis completion](https://intelligencecommunitynews.com/mercury-systems-completes-acquisition-of-themis-computer/)

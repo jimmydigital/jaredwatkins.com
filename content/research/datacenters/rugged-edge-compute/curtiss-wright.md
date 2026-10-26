@@ -1,105 +1,104 @@
 ---
 title: "Curtiss-Wright Defense Solutions"
 date: 2026-03-25
-lastmod: 2026-03-26
+lastmod: 2026-10-23
 draft: false
-description: "Davidson, NC defense electronics company (NYSE: CW); VPX/OpenVPX GPU compute modules and tactical AI servers; VPX3-730 (3U NVIDIA RTX PRO 5000 Blackwell) and VPX6-731 (6U dual GPU Blackwell) SOSA-aligned modules; PacStar 431 AI Server (2,070 TFLOPS); ~$3B total corporate revenue; established defense electronics supplier across land, sea, and air platforms."
+description: "Defense electronics division of Curtiss-Wright (NYSE: CW), Ashburn, VA; SOSA-aligned 3U VPX3-730 (RTX PRO 5000 Blackwell, July 2025) and 6U VPX6-731 (one or two GPUs, October 2025) modules; PacStar 431 compact edge AI module on NVIDIA IGX Thor (2,070 TFLOPS vendor rating); Q2 2026 Defense Electronics sales $246M; CEO succession announced September 2026."
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://defense-solutions.curtisswright.com/"
-  - "https://curtisswright.com/investor-relations/"
-last_reviewed: 2026-03-26
-stale_after_days: 180
+  - "https://militaryaerospace.com/computers/article/55305932/curtiss-wright-defense-solutions-sosa-aligned-imbedded-computing-module-for-artificial-intelligence-ai"
+  - "https://www.eejournal.com/industry_news/curtiss-wright-expands-nvidia-accelerated-gpu-family-with-6u-vpx-module-for-ai-at-the-edge"
+  - "https://www.eejournal.com/industry_news/curtiss-wright-introduces-new-pacstar-431-edge-ai-module-accelerated-by-nvidia-igx-thor"
+  - "https://www.businesswire.com/news/home/20260805430638/en/Curtiss-Wright-Reports-Second-Quarter-2026-Financial-Results-and-Raises-Full-Year-2026-Guidance"
+  - "https://www.sec.gov/Archives/edgar/data/0000026324/000162828026062997/ex991_ceosuccession.htm"
+  - "https://www.curtisswrightds.com/company/leadership.html"
+last_reviewed: 2026-10-23
+stale_after_days: 90
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
 
-
 ## Summary
 
-Curtiss-Wright Defense Solutions is one of the longest-established defense electronics suppliers in the US, providing rugged embedded computing across two complementary tiers: individual VPX GPU compute modules that slot into a prime contractor's chassis, and complete integrated tactical servers (PacStar family) that package compute and tactical communications in a single ruggedized system. The company's VPX3-730 and VPX6-731 are the first SOSA-aligned VPX modules based on NVIDIA's Blackwell architecture (RTX PRO 5000), placing Curtiss-Wright at the front of the SOSA transition wave. Unlike the smaller specialists in this section, Curtiss-Wright operates within a ~$3B publicly traded corporation with deep prime contractor relationships across every DoD branch — a distribution and procurement advantage that smaller competitors cannot match.
+Curtiss-Wright Defense Solutions, based in Ashburn, Virginia, is the defense computing arm of Curtiss-Wright Corporation (NYSE: CW). It sells rugged compute at two tiers: OpenVPX GPU modules that defense primes slot into their own chassis, and compact PacStar edge computers. The VPX3-730 (3U, announced 2025-07-29) and VPX6-731 (6U, announced 2025-10-28) use NVIDIA RTX PRO 5000 Blackwell GPUs and are described as SOSA-aligned. In the same October 2025 announcement cycle it introduced the PacStar 431, built on NVIDIA IGX Thor. The parent reported Q2 2026 sales of $924M, of which Defense Electronics was $246M (down 3%), and on 2026-09-22 announced that COO Kevin Rayment will succeed CEO Lynn Bamford on 2027-01-01.
 
 ## Key Facts
 
-- **Founded:** 1929 (Curtiss-Wright Corporation — Wright Brothers aviation heritage); Defense Solutions division is the relevant entity
-- **HQ:** Davidson, NC (corporate); defense electronics operations in Ashburn VA, Newtown PA, Portland OR
-- **Ticker:** NYSE: CW (full Curtiss-Wright Corp)
-- **Value chain position:** Component/subsystem supplier — VPX compute modules to defense primes (module tier) and complete integrated tactical servers (rack/system tier)
-- **Revenue:** ~$3B total (Curtiss-Wright Corp); Defense Solutions segment ~$1.5–2B
-- **Key products — VPX modules:**
-  - VPX3-730: 3U OpenVPX GPU compute module with NVIDIA RTX PRO 5000 Blackwell; SOSA-aligned; air-cooled and conduction-cooled variants
-  - VPX6-731: 6U OpenVPX module with dual NVIDIA RTX PRO 5000 Blackwell; maximum GPU density in 6U form factor; highest Blackwell GPU performance in a SOSA VPX card
-- **Key products — integrated systems:**
-  - PacStar 431 AI Server: Tactical AI compute server; up to 2,070 TFLOPS; ruggedized rackmount; network-integrated for tactical communications
-  - PacStar 452: Next-generation tactical compute server announced 2026
-  - PacStar family: Tactical communications and compute systems (acquired via PacStar acquisition)
-- **Standards compliance:** MIL-STD-810H (environmental), MIL-STD-461 (EMI/EMC), OpenVPX (VITA 65), SOSA Technical Standard
-- **GPU supply:** NVIDIA (RTX PRO 5000 Blackwell for VPX modules; H-series for higher compute configurations)
-- **FPGA:** Xilinx/AMD and Intel FPGAs used in signal processing modules
+- **Parent:** Curtiss-Wright Corporation, NYSE: CW; CEO Lynn M. Bamford (to 2026-12-31); Kevin M. Rayment becomes President and CEO 2027-01-01, with Bamford as Executive Chair
+- **Division location:** Ashburn, VA (per product announcements)
+- **Parent financials (Q2 2026):** sales $924M (+5%); Defense Electronics $246M (−3% from $253M), 28.0% operating margin; FY2026 sales guidance raised to $3,768–3,813M
+- **Value chain position:** component/subsystem supplier at the VPX module tier and the compact edge-system tier
+- **VPX3-730:** 3U OpenVPX GPU module; NVIDIA RTX PRO 5000 Blackwell; up to 50 TFLOPS peak; 100 GbE via ConnectX-7 over PCIe Gen5; SOSA-aligned (announced 2025-07-29)
+- **VPX6-731:** 6U OpenVPX; one or two RTX PRO 5000 Blackwell GPUs; up to 100 TFLOPS peak and 48 GB GDDR7; conduction-cooled, liquid flow-through and air flow-through options; designed for SOSA-aligned systems (announced 2025-10-28)
+- **PacStar 431:** NVIDIA IGX Thor with Blackwell GPU (IGX T5000); up to 2,070 TFLOPS AI performance (vendor rating); 14-core Arm Neoverse V3AE CPU; 128GB DDR5X; 25 GbE interfaces; enclosure 5.3" × 7.1" × 1.7" (announced 2025-10-28)
+- **Standards:** OpenVPX (VITA 65) and the SOSA Technical Standard for the VPX modules
 
 ## What It Is / How It Works
 
-Curtiss-Wright operates at two levels in the rugged compute stack:
+**VPX module tier.** The VPX3-730 and VPX6-731 are cards a prime contractor adds to its own chassis, next to RF front-ends and FPGA processing. The company's stated targets are radar, display and sensor-fusion systems that need deep-learning inference. SOSA alignment means the module is designed to the Sensor Open Systems Architecture technical standard so cards from different vendors can interoperate in aligned chassis.
 
-**VPX module tier:** Individual 3U or 6U cards that slot into a VPX chassis. The VPX3-730 and VPX6-731 are GPU compute cards — a defense prime contractor designing a sensor processing system (radar, EW, sonar) can slot these into their chassis design and immediately have NVIDIA Blackwell GPU compute available within their VPX system. This is the "lego brick" model: Curtiss-Wright supplies the GPU compute brick; the prime integrates it with their RF front-end, FPGA processing chain, and software.
+**PacStar tier.** PacStar began as a tactical-communications line. The PacStar 431 is a compact enclosure rather than a rackmount server: a Blackwell-based IGX Thor module with 128GB of memory aimed at real-time inference, sensor fusion and autonomous processing at the edge. The 2,070 TFLOPS figure is the NVIDIA-platform AI rating cited by the vendor; the numeric precision behind it (and whether it assumes sparsity) is not stated in the sources reviewed.
 
-SOSA alignment means the module meets the Sensor Open Systems Architecture technical standard — standardized pin assignments, power profiles, and connector types that allow interoperability across SOSA-compliant chassis from multiple vendors. This is strategically important as DoD pushes MOSA/SOSA compliance in new programs. The VPX3-730 and VPX6-731 being first-to-market with Blackwell in a SOSA form factor creates a window advantage before competitors qualify their Blackwell modules.
-
-**PacStar tier:** A complete integrated tactical server system, not just a module. PacStar came through acquisition and targets the tactical network/compute market — vehicles and command posts needing compute and communications in a single ruggedized package. The PacStar 431's 2,070 TFLOPS rating positions it among the highest-performance tactical AI servers available; the 2026-announced PacStar 452 is the next generation.
-
-**SOSA transition context:** Legacy DoD programs use VME/cPCI; current-generation programs use VPX; SOSA-compliant programs represent the leading edge of new DoD procurement. Curtiss-Wright must maintain backward compatibility with legacy form factors while leading on SOSA. The transition creates opportunity (new program starts requiring SOSA compliance) and risk (legacy revenue streams decline as programs age out).
+**SOSA context.** DoD policy favors open, re-competable architectures. For a module vendor this opens new program starts but weakens proprietary lock-in; see the [Mercury Systems]({{< relref "mercury-systems.md" >}}) entry for the same dynamic.
 
 ## Notable Developments
 
-- **2026:** PacStar 452 announced — next-generation tactical AI compute server
-- **2025:** VPX3-730 and VPX6-731 released with NVIDIA RTX PRO 5000 Blackwell — first Blackwell-generation SOSA-aligned VPX GPU modules
-- **2025:** PacStar 431 released with 2,070 TFLOPS capability
-- **Active:** Participation in SOSA technical working groups; alignment with DoD MOSA policy requirements
+- **2026-09-22:** CEO succession announced: Kevin Rayment (COO) becomes President and CEO on 2027-01-01; Lynn Bamford becomes Executive Chair. ([SEC 8-K](https://www.sec.gov/Archives/edgar/data/0000026324/000162828026062997/ex991_ceosuccession.htm))
+- **2026-08-05:** Q2 2026 results: Defense Electronics sales $246M; management cites record defense electronics orders and embedded computing demand from fighter and UAV programs; full-year guidance raised. ([Business Wire](https://www.businesswire.com/news/home/20260805430638/en/Curtiss-Wright-Reports-Second-Quarter-2026-Financial-Results-and-Raises-Full-Year-2026-Guidance))
+- **2025-10-28:** VPX6-731 (6U) and PacStar 431 (IGX Thor) announced. ([EE Journal — VPX6-731](https://www.eejournal.com/industry_news/curtiss-wright-expands-nvidia-accelerated-gpu-family-with-6u-vpx-module-for-ai-at-the-edge), [EE Journal — PacStar 431](https://www.eejournal.com/industry_news/curtiss-wright-introduces-new-pacstar-431-edge-ai-module-accelerated-by-nvidia-igx-thor))
+- **2025-07-29:** VPX3-730 3U SOSA-aligned GPU module announced with NVIDIA RTX PRO 5000 Blackwell. ([Military & Aerospace Electronics](https://militaryaerospace.com/computers/article/55305932/curtiss-wright-defense-solutions-sosa-aligned-imbedded-computing-module-for-artificial-intelligence-ai))
 
 ## Key People
 
-**Brian Perry** — Senior Vice President and General Manager, Defense Solutions Division
-- LinkedIn: not found
-- Education: Not publicly documented
-- Prior employment (reverse-chronological):
-  - Curtiss-Wright Defense Solutions: SVP and GM, Defense Solutions (current)
-  - Mercury Systems: Senior leadership role (defense embedded computing)
-  - Lockheed Martin: Senior technical/program leadership role
-  - GE Aerospace: Engineering/program leadership role
-- **⚑ Overlap:** Brian Perry previously held a senior leadership role at Mercury Systems, Curtiss-Wright's primary direct competitor in the COTS rugged VPX compute market. This is a common career path in the defense electronics sector — the competitive set is small and executive mobility between Mercury, Curtiss-Wright, and Elbit/DRS is frequent.
+### Brian Perry — Senior Vice President and General Manager, Defense Solutions Division
+- **LinkedIn:** not found
+- **Role:** named as head of the Defense Solutions division on Curtiss-Wright's leadership page ([Curtiss-Wright](https://www.curtisswrightds.com/company/leadership.html))
 
-### People — Last Reviewed: 2026-03-26
+### Lynn M. Bamford — Chair and CEO (CEO through 2026-12-31)
+- **LinkedIn:** not found
+- **Role:** becomes Executive Chair on 2027-01-01
+
+### Kevin M. Rayment — EVP and COO; incoming President and CEO (2027-01-01)
+- **LinkedIn:** not found
+
+Prior employers were not confirmed from fetched sources.
+
+### People — Last Reviewed: 2026-10-23
 
 ## Claim Verification
 
-### Claim: VPX3-730 and VPX6-731 are SOSA-aligned
+### Claim: First SOSA-aligned Blackwell VPX modules
 
-**Status:** Verified (per company product specifications)
+**Status:** Unverified
 
 **Supporting sources:**
-- [Curtiss-Wright Defense Solutions product documentation](https://defense-solutions.curtisswright.com/) — company explicitly positions both modules as SOSA-aligned; specific SOSA slot profiles and pin assignments are documented in product datasheets
+- [Military & Aerospace Electronics](https://militaryaerospace.com/computers/article/55305932/curtiss-wright-defense-solutions-sosa-aligned-imbedded-computing-module-for-artificial-intelligence-ai) — describes the VPX3-730 as a rugged, SOSA-aligned 3U GPU module with an RTX PRO 5000 Blackwell
+- [EE Journal](https://www.eejournal.com/industry_news/curtiss-wright-expands-nvidia-accelerated-gpu-family-with-6u-vpx-module-for-ai-at-the-edge) — VPX6-731 designed for systems aligned with the SOSA standard
 
 **Refuting / questioning sources:**
-- SOSA alignment requires verification against the published SOSA Technical Standard profiles; independent third-party SOSA certification bodies have not published public test results for these specific modules; "SOSA-aligned" is a vendor claim that may represent aspirational compliance at announcement prior to full profile ratification
+- "Aligned" is a vendor term, not an independent conformance certification. Competing SOSA-aligned 6U GPU cards from other vendors appear in trade coverage, so "first" was not confirmed.
 
-**Summary:** SOSA-aligned claim is standard company positioning for defense compute products targeting new DoD programs; alignment is product-team verified, but full SOSA profile ratification and independent validation should be confirmed before program design-in.
+**Summary:** Alignment is a vendor assertion; priority over competitors is unconfirmed.
 
 ### Claim: PacStar 431 delivers 2,070 TFLOPS
 
-**Status:** Plausible; not independently verified
+**Status:** Partially verified
 
 **Supporting sources:**
-- [Curtiss-Wright Defense Solutions PacStar documentation](https://defense-solutions.curtisswright.com/) — company cites 2,070 TFLOPS in product marketing materials; figure is consistent with multi-GPU H-series configuration in a ruggedized 2U–4U rackmount form factor
+- [EE Journal](https://www.eejournal.com/industry_news/curtiss-wright-introduces-new-pacstar-431-edge-ai-module-accelerated-by-nvidia-igx-thor) — "up to 2070 TFLOPS of AI performance," described as 8x the prior IGX Orin 500
 
 **Refuting / questioning sources:**
-- TFLOPS figures from vendor marketing materials typically represent peak FP16/INT8 theoretical throughput; sustained performance in a deployed system operating at elevated ambient temperature in a vehicle bay may be materially lower due to thermal throttling; no independent benchmark data found
+- Precision (for example FP4) and sparsity assumptions are not stated, so the number is not comparable with FP16 or INT8 figures; no sustained thermal data for the 5.3" × 7.1" × 1.7" enclosure.
 
-**Summary:** 2,070 TFLOPS is plausible based on NVIDIA H-series GPU specifications but represents theoretical peak — treat as a rough upper bound for comparative purposes; actual sustained throughput in deployment conditions is unverified.
+**Summary:** A vendor peak AI rating, not a sustained throughput.
 
 ## Sources
 
-- [Curtiss-Wright Defense Solutions — Official Website](https://defense-solutions.curtisswright.com/)
-- [Curtiss-Wright Corporation — Investor Relations](https://curtisswright.com/investor-relations/)
-- [SOSA Consortium — Technical Standard](https://www.sosa.technology/)
-- [DoD MOSA Policy](https://www.acq.osd.mil/se/initiatives/init_mosa.html) — open-architecture acquisition context
-- [NVIDIA RTX PRO 5000 Blackwell](https://www.nvidia.com/en-us/design-visualization/rtx-pro/) — GPU specification basis for VPX3-730/VPX6-731
+- [Curtiss-Wright Defense Solutions](https://defense-solutions.curtisswright.com/)
+- [VPX3-730 — Military & Aerospace Electronics (Jul 2025)](https://militaryaerospace.com/computers/article/55305932/curtiss-wright-defense-solutions-sosa-aligned-imbedded-computing-module-for-artificial-intelligence-ai)
+- [VPX6-731 — EE Journal (Oct 2025)](https://www.eejournal.com/industry_news/curtiss-wright-expands-nvidia-accelerated-gpu-family-with-6u-vpx-module-for-ai-at-the-edge)
+- [PacStar 431 — EE Journal (Oct 2025)](https://www.eejournal.com/industry_news/curtiss-wright-introduces-new-pacstar-431-edge-ai-module-accelerated-by-nvidia-igx-thor)
+- [Q2 2026 results — Business Wire](https://www.businesswire.com/news/home/20260805430638/en/Curtiss-Wright-Reports-Second-Quarter-2026-Financial-Results-and-Raises-Full-Year-2026-Guidance)
+- [CEO succession 8-K (Sep 2026)](https://www.sec.gov/Archives/edgar/data/0000026324/000162828026062997/ex991_ceosuccession.htm)
+- [Defense Solutions leadership](https://www.curtisswrightds.com/company/leadership.html)

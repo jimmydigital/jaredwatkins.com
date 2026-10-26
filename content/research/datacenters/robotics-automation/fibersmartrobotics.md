@@ -1,14 +1,19 @@
 ---
 title: "FiberSmart Robotics"
 date: 2026-03-25
-lastmod: 2026-03-25
+lastmod: 2026-10-23
 draft: false
-description: "Napa, CA robotic fiber patch management company; founded 2003 (as Wave2Wave Solution Corp); CEO David Wang; ROME (Robotic Optical Management Engine) automates optical fiber connections — two robots per unit managing hundreds of fibers with software-directed precision; 100+ customers including Microsoft, Booking.com, Vodafone, NTT; $500K annual savings per unit claimed; $35M revenue (2025)."
+description: "Robotic fiber patch management company (formerly Wave2Wave Solution); ROME robotic optical switch (200 to 2,000+ fibers per unit, 1 µm positioning claimed), ROMER mobile robot (launch pending), DC Twin digital twin; customer logos include Microsoft, Vodafone, NTT, Juniper and Booking.com; $500K annual savings per unit claimed; HQ listed as San Francisco on company site and Napa by CB Insights."
 research_area: "datacenters/robotics-automation"
 source_urls:
   - "https://fibersmartrobotics.ai/"
+  - "https://fibersmartrobotics.ai/rome/"
+  - "https://fibersmartrobotics.ai/about/"
+  - "https://blog.fibersmart.ai/rome-from-fibersmart-the-coolest-tech-you-didnt-know-you-needed/"
+  - "https://convergedigest.com/wave2wave-expands-its-line-of-robotic/"
+  - "https://www.cbinsights.com/company/fibersmart"
   - "https://fibersmart.net/"
-last_reviewed: 2026-03-25
+last_reviewed: 2026-10-23
 stale_after_days: 180
 related:
   - "datacenters/robotics-automation/_index.md"
@@ -18,113 +23,125 @@ related:
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
 
-
 ## Summary
 
-FiberSmart Robotics (formerly Wave2Wave Solution Corp) is a Napa, California company founded in 2003 by David Wang that automates optical fiber patch management in datacenters and carrier facilities. Its flagship product, ROME (Robotic Optical Management Engine), deploys two precision robots per unit to manage hundreds of fiber optic patch connections under software control — enabling network reconfiguration via drag-and-drop GUI without human technicians touching physical cables. The company has 100+ customers including Microsoft, Booking.com, Vodafone, KPN, NTT Group, Salesforce, and Fujitsu; Microsoft has cited $500,000 in annual savings per unit. FiberSmart had approximately $35M revenue and 201 employees as of early 2025, operating across North America, Asia, and Europe. A second-generation mobile robot (ROMER) is in development to extend beyond fixed fiber patch panels to free-navigation datacenter tasks. FiberSmart occupies a distinct and commercially proven niche in datacenter automation — not server handling or cooling (like SoftBank/Submer's focus), but the fiber connectivity layer that is currently one of the most labor-intensive and error-prone aspects of datacenter operations.
+FiberSmart Robotics, formerly Wave2Wave Solution, makes software-directed robotic fiber switches that reconfigure optical patch connections in datacenters and carrier facilities without a technician handling cables. The flagship ROME (Robotic Optical Management Engine) comes in sizes from about 200 fibers (ROME Mini) to up to 2,000 fibers in a single bay (ROME MAX), with a mobile robot, ROMER, listed as "expected to launch soon" and a cloud digital twin, DC Twin. The company shows logos for Microsoft, Vodafone, KPN, NTT, Salesforce, Juniper, Ciena and others and states a lights-out datacenter goal. Revenue, headcount and funding were not found in any source reviewed; the company's own figures (100+ customers, $500,000 annual savings per unit) are unaudited.
 
 ## Key Facts
 
-- **Founded:** 2003 (as Wave2Wave Solution Corp; rebranded to FiberSmart Robotics)
-- **HQ:** Napa, California
-- **Type:** Private
-- **Founder / CEO:** David Wang
-- **Revenue:** ~$35M (as of early 2025)
-- **Employees:** ~201 across North America, Asia, and Europe
-- **Customers:** 100+ (named: Microsoft, Booking.com, Vodafone, KPN, Ciena, Salesforce, Fujitsu, NTT Group, Hitachi Vantara, Virgin Media, Juniper Networks)
-- **Flagship product:** ROME — Robotic Optical Management Engine
-- **In-development product:** ROMER — mobile free-navigation datacenter robot
-- **Digital twin product:** DC Twin — cloud-based 3D virtual model with port-level visibility
-- **Key customer metric:** $500,000 annual savings per ROME unit (Microsoft-cited)
-- **Claimed downtime reduction:** 70–75% reduction in human-caused network downtime
-- **Provisioning speed:** Reduces fiber reconfiguration from hours to seconds
-- **Deployment scope:** Edge computing, hyperscale, carrier/telecom facilities
+- **Name history:** Wave2Wave Solution (David Wang, President and CEO in 2018), now FiberSmart Robotics; founding year not stated on the company's About page
+- **HQ:** San Francisco, CA per the company's website; Napa, CA (1300 1st St., Suite 368) per CB Insights
+- **Type:** Private; no funding disclosure found
+- **Products:** ROME (robotic optical switch), ROMER (mobile datacenter robot, not yet launched per the website), DC Twin (cloud 3D digital twin with port-level visibility)
+- **ROME models (per company):**
+  - ROME Mini: 7RU, 200 fibers
+  - ROME 500: 10+1RU, 512 fibers
+  - ROME Q: 64Q or 128Q, MPO interfaces for QSFP devices
+  - ROME MAX: up to 2,000 fibers in one bay
+- **Company-stated performance:** 1 µm positioning accuracy; 50–150 W power; 3 million connect/disconnect cycles; passive mechanical latching keeps circuits up during power loss; single-mode and multi-mode fiber
+- **Customer logos shown:** Hitachi Vantara, Virgin Media, Vodafone, KPN, Ciena, Salesforce, Fujitsu, NTT, Booking.com, Juniper Networks, Microsoft
+- **Company-stated outcome:** $500,000 savings per ROME unit per year (the website attributes it to Microsoft in one place and Juniper in another)
+- **Competitors named by CB Insights:** SENKO Advanced Components, Telescent, Summit Infrastructure Group
 
 ## What It Is / How It Works
 
-Fiber optic patch management is one of the most persistent operational pain points in large datacenters and carrier facilities. In a typical installation, hundreds to thousands of fiber patch cables connect servers, switches, routers, and optical transport equipment through a patch panel — a physical matrix where any port can be connected to any other port via a jumper cable. When network topology needs to change (new circuit provisioned, equipment replaced, capacity rebalanced), a technician must physically locate the correct fiber port, remove the existing jumper, route a new jumper, and seat both connectors — all while managing the physical density of cables that makes errors highly likely and the root cause of a large fraction of unplanned network outages.
+Fiber patch panels connect servers, switches and optical transport gear through manually placed jumpers. Changing a circuit means a technician finds the ports, moves the jumper and reseats the connectors, which is slow in dense panels and a common source of errors.
 
-**ROME** replaces this human operation with software-directed robotics:
+**ROME** replaces that step with robots inside a rack-mounted unit. Per the company, two robots in each unit handle hundreds of fibers, and a software interface lets an operator or automation system request a connection that ROME makes physically. The system keeps a live record of what is connected to what, and passive latching holds circuits when power is lost. The company says ROME is protocol agnostic and works with both single-mode and multi-mode fiber.
 
-- Two precision robots are mounted to a frame that spans the patch panel
-- Each robot can navigate to any port in the panel, pick up a fiber jumper, and seat it with sufficient accuracy and consistent insertion force to make a low-loss optical connection
-- Circuit reconfiguration is initiated through a drag-and-drop GUI — an operator (or an automated system) specifies the desired connection, and ROME executes the physical patch change
-- The system maintains a real-time digital record of every physical connection — eliminating the "as-built vs. as-documented" discrepancy that plagues manually patched facilities
-- Real-time analytics on circuit utilization and device connectivity are derived from the physical connection map
+**ROMER** is described as a mobile robot for cabling, equipment swaps and diagnostics across a datacenter. The website says it is "expected to launch soon"; the About page calls it recent without a date. It remains unlaunched in sources reviewed.
 
-The $500,000 annual savings per unit (Microsoft) primarily reflects reduced headcount for fiber operations and the elimination of costly network outages caused by human patching errors. The "hours to seconds" provisioning claim is accurate for the physical patch step — automated robots can execute a patch change in seconds; human technicians may take 30–60 minutes to locate, manage, and seat fibers correctly in a dense panel.
+**DC Twin** is a cloud-based 3D model synchronized to port-level connection data.
 
-**ROMER** (in development) extends the ROME concept from fixed patch panels to free navigation. Where ROME is a fixed-installation robot that can only service the panel it's mounted to, ROMER is a mobile robot designed to navigate datacenter aisles and handle cabling, equipment swaps, and diagnostics at any location. This is a substantially harder problem (navigation, collision avoidance, diverse connector types across manufacturers) and represents FiberSmart's longer-term roadmap toward a more general datacenter robotics platform.
-
-**DC Twin** provides a cloud-based 3D virtual model of the physical datacenter synchronized with ROME's physical connection data — port-level visibility of what is physically connected where, accessible remotely. For large distributed datacenter estates, this remote management capability was highlighted by Booking.com as critical during COVID lockdowns when on-site access was restricted.
-
-**Positioning relative to other approaches:** FiberSmart addresses the fiber connectivity layer specifically — the software-defined networking world has abstracted routing and switching, but physical fiber connections remain manual. SoftBank's cable-less rack (see [SoftBank Robot Rack]({{< relref "softbank-robot-rack.md" >}})) eliminates fiber patch cables at the server level via blind-mate optical connectors — a different approach to the same underlying problem. At hyperscale, the cable-less rack approach (no patch panels, blind-mate at server insertion) and ROME (robotic management of existing patch panels) are complementary: cable-less racks eliminate new patch requirements for AI compute servers; ROME manages the existing legacy fiber plant that will persist in mixed-technology facilities for years.
+**Context.** ROME manages existing patch-panel plant and complements approaches that remove patch cables, such as the blind-mate optical connections in the [SoftBank Robot Rack]({{< relref "softbank-robot-rack.md" >}}). Connector makers such as [Senko]({{< relref "senko.md" >}}) address the same layer from the connector side.
 
 ## Notable Developments
 
-- **2025 (early):** Revenue at ~$35M; 201 employees; 100+ ROME installations across 3 continents
-- **Active (2025):** ROMER mobile robot in development; no commercial release date announced
-- **~2020 (COVID):** Booking.com deployment highlighted as enabling remote datacenter management during facility access restrictions — important reference case for the value of remote fiber management
-- **~2019–2021 (rebrand):** Wave2Wave Solution Corp rebrands to FiberSmart Robotics; signals strategic shift from services to product company identity
-- **2003:** Founded by David Wang as Wave2Wave Solution Corp
+- **2025-09:** Company website last updated; positions ROME as part of a "lights-out" datacenter goal and lists ROMER as expected to launch soon. ([FiberSmart](https://fibersmartrobotics.ai/))
+- **2025-03:** Company blog post describes ROME as protocol agnostic, citing 800G and beyond, with no named customers or measurements. ([FiberSmart blog](https://blog.fibersmart.ai/rome-from-fibersmart-the-coolest-tech-you-didnt-know-you-needed/))
+- **2024-08:** Lightstorm launches the Polarin DCI Wave, a Layer 1 product built with FiberSmart that lets enterprises self-provision optical connections across more than 60 datacenters in India in about 10 minutes (per CB Insights). ([CB Insights](https://www.cbinsights.com/company/fibersmart))
+- **2018-11:** Wave2Wave adds ROME 64Q and ROME 128Q with MPO interfaces (512 and 1,024 fiber connections). ([Converge Digest](https://convergedigest.com/wave2wave-expands-its-line-of-robotic/))
+- **2014:** Wave2Wave acquires a company in Israel, according to the company's About page. ([FiberSmart](https://fibersmartrobotics.ai/about/))
 
 ## Key People
 
-### David Wang — Founder and CEO
-- **LinkedIn:** Search "David Wang FiberSmart" (common name — verify carefully against Napa, CA location)
-- **Role:** Founder and CEO since 2003
-- **Background:** Founded Wave2Wave; built the company from a services business to a product company with a proprietary robotic platform over 20+ years; the long tenure suggests deep domain expertise in fiber connectivity operations at scale
-- **Notes:** No public investor relations profile or frequent media presence; the company appears to have grown primarily through product adoption and word-of-mouth rather than venture capital and PR
+### David Wang — President and CEO (as of November 2018)
+- **LinkedIn:** not found
+- **Role:** President and CEO of Wave2Wave Solution in 2018 per Converge Digest; current title not confirmed on the company's website, which lists no leadership
+- **Source:** [Converge Digest](https://convergedigest.com/wave2wave-expands-its-line-of-robotic/)
 
-### People — Last Reviewed: 2026-03-25
+No other people were confirmed from fetched sources.
+
+### People — Last Reviewed: 2026-10-23
 
 ## Supply Chain Position
 
-FiberSmart is a robotics hardware and software company. Its position in the datacenter automation supply chain:
-
 | Layer | Detail |
 |-------|--------|
-| **Hardware (ROME unit)** | Precision robotic arms, linear motion systems, fiber-compatible end effectors; component suppliers not disclosed |
-| **Optical connectors** | ROME handles standard LC, SC, MPO/MTP fiber connectors — it works with existing fiber plant, not a proprietary connector format |
-| **Software** | Proprietary GUI, connection management database, analytics platform, DC Twin digital twin |
-| **FiberSmart's position** | Full-stack (hardware + software + service) for robotic fiber patch management |
-| **Customers (downstream)** | Hyperscalers, telecoms, carriers, enterprise IT; named customers span multiple verticals |
-| **Competitors** | No direct named competitor in robotic fiber patching occupies the same commercial scale; Telescent (acquired by AFL) is in a related space; manual patching services from CDW, Siemon, Panduit are the primary alternative |
+| **Hardware (ROME unit)** | Servo-driven robots, encoders and fiber-compatible end effectors; component suppliers not disclosed |
+| **Connectors supported** | MPO interfaces on ROME Q; other connector types not stated on the product page |
+| **Software** | Connection management, analytics and DC Twin; details not published |
+| **Customers (downstream)** | Hyperscale, carrier and enterprise logos listed; NTT says testing and deployment at select facilities per FiberSmart |
+| **Competitors** | Telescent, SENKO and others per CB Insights |
 
-**⚑ Telescent / AFL as indirect competitor:** AFL (a subsidiary of Fujikura, Japan) acquired Telescent, a robotic fiber patching startup. Fujikura is one of the world's largest fiber optic cable manufacturers. This acquisition means FiberSmart faces a well-capitalized competitor backed by a fiber industry incumbent. The fact that Fujitsu is a named FiberSmart customer despite the Fujikura/AFL/Telescent competitive dynamic is worth monitoring.
-
-**⚑ No VC funding identified:** FiberSmart does not appear to have raised venture capital. $35M revenue with 201 employees over 20 years suggests a bootstrapped or organically funded company — which means its growth is constrained by cash flow rather than runway burn. This is unusual in the current robotics investment environment and could reflect either deliberate independence or difficulty raising institutional capital for a 20-year-old company that doesn't fit typical VC investment profiles.
+**⚑ Shared theme:** Robotic fiber patching is one of several approaches to removing manual cabling in this section; see [SoftBank Robot Rack]({{< relref "softbank-robot-rack.md" >}}) for the blind-mate alternative.
 
 ## Claim Verification
 
-### Claim: $500,000 annual savings per ROME unit (Microsoft)
-**Status:** Customer-attributed; not independently audited; plausible given the cost components
+### Claim: $500,000 annual savings per ROME unit
 
-**Mechanism:** Savings attributed to headcount reduction (fiber operations technicians are specialized and expensive, especially in Microsoft's Seattle/Bay Area/Dublin facility locations) and reduced outage cost (human patching errors are a leading cause of network incidents).
+**Status:** Unverified
 
-**Supporting:**
-- Microsoft is a named customer — this is not an anonymous case study
-- The cost of a single high-severity network outage in a hyperscale facility (lost compute time, engineer response, customer SLA penalties) can easily reach or exceed $500K; preventing even one such incident per year covers the savings claim
-- Fiber technician labor in high-cost-of-living markets where hyperscalers operate is $80,000–$150,000+ annually; replacing 3–5 FTE's workload on a panel achieves the savings
+**Supporting sources:**
+- [FiberSmart website](https://fibersmartrobotics.ai/) — states the figure and attributes it to Microsoft in one section
 
-**Refuting / questioning:**
-- "Per unit" savings assume the unit is serving a high-density, high-change-rate environment; a ROME unit on a rarely-touched legacy panel would show much lower savings
-- Microsoft may be the best-case customer (large, dense facility, high labor cost geography); savings at a regional enterprise datacenter would be lower
+**Refuting / questioning sources:**
+- The same page attributes the figure to Juniper Networks in another section. No customer statement or audit was found.
 
-**Summary:** The $500K figure is credible for hyperscale deployment in a high-labor-cost location. Apply a discount for enterprise or lower-change-rate environments.
+**Summary:** A company-published number with inconsistent attribution.
 
-### Claim: "70–75% reduction in human-caused network downtime"
-**Status:** Company-stated; no methodology published; directionally credible
+### Claim: Human error causes 70–75% of network downtime
 
-**Supporting:** Physical patching errors (incorrect port, damaged connector, inadequate insertion) are well-documented causes of network incidents; removing human hands from the operation eliminates this class of errors
+**Status:** Unverified
 
-**Refuting / questioning:** Residual downtime causes (software, hardware failure, power) are unaffected by ROME; the 70–75% figure applies only to the subset of downtime attributable to human patching, not total downtime
+**Supporting sources:**
+- [FiberSmart website](https://fibersmartrobotics.ai/) — cites the Uptime Institute for 70–75%; the ROME page cites "industry studies" for 70%
 
-**Summary:** Directionally accurate for the specific failure mode addressed. Total facility downtime reduction would be a smaller percentage.
+**Refuting / questioning sources:**
+- The underlying Uptime Institute figure was not retrieved. The figure covers human-caused downtime generally, not only patching.
+
+**Summary:** A third-party statistic repeated by the company; it does not show how much downtime ROME removes.
+
+### Claim: 1 µm positioning accuracy and 3 million cycles
+
+**Status:** Unverified
+
+**Supporting sources:**
+- [ROME product page](https://fibersmartrobotics.ai/rome/) — 1 µm from servo control and encoders; 3 million connect/disconnect cycles
+
+**Refuting / questioning sources:**
+- The same page elsewhere describes accuracy as "sub-millimeter," and the page gives no insertion loss, switching speed or test data.
+
+**Summary:** Specifications are claims without published test results.
+
+### Claim: Earthquake and cyber resilience
+
+**Status:** Unverified
+
+**Supporting sources:**
+- [ROME product page](https://fibersmartrobotics.ai/rome/) — claims shake-table tests to magnitude 7.0 with no signal loss afterward
+
+**Refuting / questioning sources:**
+- No test report or third-party certification found.
+
+**Summary:** Marketing claim only.
 
 ## Sources
 
-- [FiberSmart Robotics — fibersmartrobotics.ai](https://fibersmartrobotics.ai/)
-- [FiberSmart Products — fibersmart.net](https://fibersmart.net/)
-- [FiberSmart LinkedIn (formerly Wave2Wave Solution) — LinkedIn](https://es.linkedin.com/company/wave-2-wave-solution)
-- [Wave2Wave / FiberSmart Crunchbase Profile](https://www.crunchbase.com/organization/wave2wave)
+- [FiberSmart Robotics](https://fibersmartrobotics.ai/)
+- [FiberSmart — ROME](https://fibersmartrobotics.ai/rome/)
+- [FiberSmart — About](https://fibersmartrobotics.ai/about/)
+- [FiberSmart blog — ROME (Mar 2025)](https://blog.fibersmart.ai/rome-from-fibersmart-the-coolest-tech-you-didnt-know-you-needed/)
+- [Converge Digest — Wave2Wave expands robotic patch panels (Nov 2018)](https://convergedigest.com/wave2wave-expands-its-line-of-robotic/)
+- [CB Insights — FiberSmart](https://www.cbinsights.com/company/fibersmart)
+- [FiberSmart Networks](https://fibersmart.net/)

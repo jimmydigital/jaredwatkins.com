@@ -85,7 +85,7 @@ Communications is a layer where robotics splits sharply along use-case lines. Co
 
 | Ticker | Company | Relevance |
 |--------|---------|-----------|
-| [Quectel](https://www.quectel.com) 🇨🇳 | Quectel Wireless Solutions (private, Chinese) | World's largest cellular IoT module supplier by volume (~30–35% global market); LTE Cat-1 through 5G NR modules embedded in AMRs, delivery robots, and commercial drones globally. |
+| [Quectel](https://www.quectel.com) 🇨🇳 | Quectel Wireless Solutions (Shanghai-listed, Chinese) | World's largest cellular IoT module supplier by volume (about 40% of global module shipments, Q1 2025, IoT Analytics); LTE Cat-1 through 5G NR modules embedded in AMRs, delivery robots, and commercial drones globally. |
 | [UBXN.SW](https://finance.yahoo.com/quote/UBXN.SW) | [u-blox](https://www.u-blox.com) | Expanded from GNSS into cellular modules (SARA, LARA, LEXI series); Swiss-owned alternative to Quectel. |
 | [TLIT.L](https://finance.yahoo.com/quote/TLIT.L) | [Telit Cinterion](https://www.telit.com) | UK-listed cellular module maker (merged with Thales/Cinterion); LTE and 5G modules for industrial IoT and robotics. |
 | [ERIC](https://finance.yahoo.com/quote/ERIC) | [Ericsson / Cradlepoint](https://cradlepoint.com) | Cradlepoint (Ericsson subsidiary since 2020); enterprise private LTE and 5G routers for industrial AMR deployments. |

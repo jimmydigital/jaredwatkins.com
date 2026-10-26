@@ -1,99 +1,91 @@
 ---
 title: "Quectel"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-25
 draft: false
-description: "Shanghai cellular IoT module maker (603236.SS); world's largest by shipment volume at ~47% global unit market share; EC/RG series modules are de facto standard in AMR and drone platforms globally; added to DoD Section 1260H Chinese Military Company list and subject to FCC national security scrutiny."
+description: "Shanghai cellular IoT module maker (603236.SS); H1 2026 revenue RMB 15.26B (+32.2%) and net profit RMB 602M (+27.8%); about 40% of global cellular IoT module shipments in Q1 2025 (IoT Analytics); added to the DoD Section 1260H list on January 6, 2025, which Quectel contests."
 research_area: "robotics/communications"
 chinese-owned: true
 source_urls:
-  - "https://iotbusinessnews.com/2025/02/19/02010-2024-cellular-iot-module-market-update/"
-  - "https://www.scmp.com/tech/tech-war/article/3233671/us-fcc-chair-says-chinas-iot-cellular-components-makers-quectel-fibocom-may-pose-national-security"
-  - "https://iotdesignpro.com/news/fcc-now-urges-to-blacklist-chinese-iot-module-firms-quectel-and-fibocom-wireless-why"
-last_reviewed: 2026-03-31
+  - "https://www.quectel.com/content/uploads/2026/08/Quectel_2026_Semi-Annual_Financial_Report.pdf"
+  - "https://iot-analytics.com/cellular-iot-market-q1-2025-module-shipments-23-percent-us-china-tensions-vendor-impact/"
+  - "https://www.quectel.com/news-and-pr/quectel-response-pentagon-1260h-list-no-military-link/"
+last_reviewed: 2026-10-25
 stale_after_days: 90
 related: []
 ---
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
 
-
 > **Note:** This company is Chinese-owned. Performance claims and publicly reported figures should be treated with additional skepticism until independently verified by non-affiliated third parties.
 
 ## Summary
 
-Quectel Wireless Solutions (Shanghai STAR Market: 603236.SS) is the world's largest cellular IoT module maker by unit shipments, holding approximately 46.6% global market share on a shipment basis in 2024. Founded in 2010 by Patrick Qian, Quectel supplies LTE, 5G, NB-IoT, and GNSS modules that are widely integrated into AMR platforms, autonomous drones, industrial robots, and connected devices globally. Its dominant market position is achieved through aggressive pricing at low margins (~3%) and broad product coverage. The company's scale and Chinese ownership have generated significant US national security scrutiny: Quectel is listed on the DoD's Section 1260H Chinese Military Company list, the FCC has flagged its modules as a potential national security risk in critical infrastructure, and Quectel has denied any military affiliation while pledging to contest the designations.
+Quectel Wireless Solutions (Shanghai: 603236) makes cellular and GNSS modules that robot, drone and IoT makers solder onto their boards for connectivity. It reported H1 2026 operating revenue of RMB 15.26B (+32.16%) and net profit attributable to shareholders of RMB 602.3M (+27.84%), with negative operating cash flow of RMB 378M. IoT Analytics put it at about 40% of global cellular IoT module shipments in Q1 2025, with shipments up 31%. On 2025-01-06 the Pentagon added it to the Section 1260H list; the designation does not itself impose sanctions, and Quectel said it expects to be removed.
 
 ## Key Facts
 
-- **Founded:** 2010 (Shanghai, China)
-- **HQ:** Shanghai, China
-- **Type:** Public (Shanghai STAR Market: 603236.SS)
-- **Ownership:** Chinese private company; Patrick Qian is founder and controlling shareholder
-- **Key products:** EC series (LTE Cat 1/4/6/M1 modules); RG series (5G NR modules, including RG500Q); SC series (smart Android modules); GNSS standalone modules (LC29H series)
-- **Revenue:** Part of the ~$5.6B global cellular IoT module market (2024); Quectel holds ~31% revenue market share (~$1.7B estimated)
-- **Market share:** ~46.6% of global cellular IoT module unit shipments in 2024 (Statista/IoT Analytics); revenue leader among IoT module companies
-- **US regulatory status:** Listed on DoD Section 1260H Chinese Military Company list; FCC flagged as potential national security risk (October 2025); Quectel denies military ties and has contested the designation
+- **HQ:** No. 8 Waipojing Road, Sijing Town, Songjiang District, Shanghai
+- **Ticker:** 603236.SS (Shanghai)
+- **H1 2026:** revenue RMB 15,259M (+32.16%); net profit attributable RMB 602.3M (+27.84%); basic EPS RMB 1.49; weighted ROE 8.38%
+- **Market share:** about 40% of global cellular IoT module shipments, Q1 2025 (IoT Analytics); rivals China Mobile 15%, Fibocom 8%, Sunsea AIoT 5%, Telit Cinterion 4%
+- **1260H:** added 2025-01-06 among 134 entities; Quectel stated on 2025-01-07 it was "confident that we will be removed"
+- **US localization:** licensed manufacturing technology and reference designs to Eagle Electronics, an Ohio startup (IoT Analytics)
+- **Value chain position:** component supplier of connectivity modules
 
 ## What It Is / How It Works
 
-A cellular IoT module is a self-contained circuit board that combines a cellular radio (modem) chip, RF transceiver, SIM interface, power management, and antenna connections into a standard form factor that a device maker can solder onto their circuit board. The module handles all the complexity of connecting to LTE, 5G, NB-IoT, or LTE-M networks — the host device simply sends AT commands over UART or USB to initiate connections and exchange data. For robotics applications, this means a drone or AMR manufacturer can add cloud connectivity and cellular positioning without designing RF circuitry from scratch.
+A cellular module integrates modem, RF front end and interfaces so a device maker can add LTE or 5G without designing the radio. Robots, drone ground stations and fleet systems use them for cloud links, positioning and updates. Once a product is certified with a module, switching requires re-engineering and recertification, which is the lock-in effect behind volume leadership.
 
-Quectel's EC series (LTE) and RG series (5G) are its primary robotics-relevant product lines. The EC21, EC25, and related variants are the LTE modules embedded in most commercial drone ground control station modems, AMR fleet management systems, and warehouse robot connectivity modules. The RG500Q and RG520N are the 5G variants used in next-generation autonomous vehicle and AMR platforms requiring low-latency, high-bandwidth cloud connectivity. Many AMR platforms from Geek+, Locus Robotics, and similar companies use Quectel modules for their cellular uplink because no Western supplier approaches Quectel's price at equivalent integration levels.
+**Security concern.** US scrutiny is structural: PRC law can compel cooperation with state agencies, and a module sees device location and connectivity. IoT Analytics reports Western device makers running risk assessments, dual-sourcing and in some cases redesigning. No public evidence of backdoors was found in the sources reviewed; Quectel denies military ties.
 
-Quectel's competitive strategy is volume over margin: the company accepts approximately 3% net profit margins to maximize market share. This is a deliberate choice to lock in design wins and create switching costs — once a robot OEM's firmware and supply chain is certified for a specific Quectel module, switching to a competing module requires significant re-engineering and re-certification effort. The ~46.6% unit market share in 2024 (up 5.2% year-over-year) indicates this strategy is succeeding.
-
-The national security concerns center on PRC law requiring companies to cooperate with state intelligence agencies upon request. A cellular module with access to device location, network traffic metadata, and connectivity state — deployed in critical infrastructure, autonomous vehicles, or military-adjacent logistics robots — could theoretically be exploited for intelligence collection or remote disabling. Whether Quectel modules actually contain backdoors or have been used for such purposes is not established by public evidence. The US government's concern is structural: the legal and political environment in China means Quectel could be compelled to act as an intelligence asset regardless of its intentions. Quectel disputes this characterization.
-
-Western alternative module suppliers include Sierra Wireless (Semtech), Telit Cinterion, Fibocom, and u-blox's cellular line. None match Quectel's breadth, volume, or pricing. This creates a genuine market problem: US robotics companies face a choice between security-compliant but more expensive modules that may lack certain form factors or certifications, or Quectel modules with better price-performance but national security exposure.
+**Vendor landscape.** IoT Analytics notes u-blox exited cellular modules, transferring the unit to Trasna on 2025-06-06 (about 1.2% of shipments), and Telit Cinterion is the only Western vendor in the top five.
 
 ## Notable Developments
 
-- **2025-10:** FCC publishes fact sheet specifically noting Chinese-produced cellular modules (including Quectel) as potential security threats in IoT infrastructure. ([FCC](https://docs.fcc.gov/public/attachments/DOC-415051A1.pdf))
-- **2025:** DoD adds Quectel to Section 1260H Chinese Military Company list; Quectel denies affiliation and pledges to fight the designation. ([Light Reading](https://www.lightreading.com/security/baicells-quectel-pledge-to-fight-us-government-s-new-warning))
-- **2024:** Full year 2024 — Quectel holds 46.6% global cellular IoT module shipment share (+5.2% YoY); cellular IoT module revenue leader globally; market grew to ~$5.6B total.
-- **2024-Q1:** 19% YoY revenue growth in Q1 2024; managed to match full year 2023 revenue by Q3 2024.
-- **2023:** House Select Committee on CCP writes to FCC warning about Quectel and Fibocom modules in IoT devices used by law enforcement and critical infrastructure operators. ([House Select Committee](https://chinaselectcommittee.house.gov/media/letters/letter-fcc-chair-chinese-internet-connectivity-modules))
-- **2023:** FCC Chair Rosenworcel asks federal agencies to assess whether Quectel and Fibocom should be added to the Covered List. ([SCMP](https://www.scmp.com/tech/tech-war/article/3233671/us-fcc-chair-says-chinas-iot-cellular-components-makers-quectel-fibocom-may-pose-national-security))
-- **2010:** Company founded by Patrick Qian in Shanghai; listed on Shanghai STAR Market.
+- **2026-08:** H1 2026 report: revenue +32.16%. ([Quectel](https://www.quectel.com/content/uploads/2026/08/Quectel_2026_Semi-Annual_Financial_Report.pdf))
+- **2025-06-06:** u-blox cellular unit transferred to Trasna. ([IoT Analytics](https://iot-analytics.com/cellular-iot-market-q1-2025-module-shipments-23-percent-us-china-tensions-vendor-impact/))
+- **2025-01-07:** Quectel responds to its 1260H listing. ([IoT Analytics](https://iot-analytics.com/cellular-iot-market-q1-2025-module-shipments-23-percent-us-china-tensions-vendor-impact/))
+- **2025-01-06:** DoD adds Quectel to the 1260H list. ([IoT Analytics](https://iot-analytics.com/cellular-iot-market-q1-2025-module-shipments-23-percent-us-china-tensions-vendor-impact/))
 
 ## Key People
 
-### Patrick Qian — Founder and CEO
-- **LinkedIn:** Not found (no confirmed public LinkedIn profile for Patrick Qian)
-- **Education:** Not publicly disclosed in detail
-- **Career (reverse-chronological):**
-  - Quectel (2010–present): Co-founder and CEO; Chairman of Board
-  - Simcom (2002–2009): Vice General Manager of R&D (Chinese cellular module competitor)
-  - ZTE (2000–2002): Project Manager
-- **Notes:** Qian is described as one of the first engineers in China to dedicate his career to wireless module development. The Simcom → Quectel trajectory mirrors the broader Chinese electronics industry pattern of technical talent from state-adjacent companies spinning out to found competing ventures. His 7 years at Simcom before founding Quectel gave him deep knowledge of the module market and customer relationships.
+Leadership names were not available in the sources fetched (the H1 2026 report excerpt did not name the chairman or general manager).
 
-### People — Last Reviewed: 2026-03-31
+### People — Last Reviewed: 2026-10-25
 
 ## Supply Chain Position
 
-Quectel operates at the **Component/Subsystem Supplier** layer, selling modules to device OEMs, system integrators, and robotics manufacturers. Its modules incorporate cellular modem chips from Qualcomm (MDM9205/9607), MediaTek, and proprietary Quectel/Unisoc chips depending on the tier. Assembly is in China. The company offers over 500 module variants and 250 antennas, spanning every cellular technology from 2G through 5G and NB-IoT/LTE-M. **⚑ Shared supply chain exposure:** Many Quectel competitors (Fibocom, Sierra Wireless/Semtech) also use Qualcomm modem chips, creating shared supply chain exposure to Qualcomm chipset allocation constraints. The broader bifurcation risk — Western governments restricting Chinese cellular modules in critical applications — creates an opportunity for u-blox, Telit, and Sierra Wireless to capture volume currently going to Quectel.
+Quectel sells modules to device OEMs and integrators. Chipset sourcing was not confirmed in the sources reviewed. **⚑ Shared exposure:** the 1260H listing flags it as a potential military end user under export regulations, raising compliance scrutiny for US buyers.
 
 ## Claim Verification
 
-### Claim: Quectel holds ~46.6% global cellular IoT module unit market share (2024)
-**Status:** Verified (by independent market research)
+### Claim: About 47% global module unit share (2024)
+
+**Status:** Partially verified
 
 **Supporting sources:**
-- [IoT Business News — 2024 Cellular IoT Module Market Update (Feb 2025)](https://iotbusinessnews.com/2025/02/19/02010-2024-cellular-iot-module-market-update/) — Cites Quectel at 46.6% unit share in 2024, +5.2% YoY; independent analysis
-- [Statista — Global Cellular IoT Module Shipments Share 2024](https://www.statista.com/statistics/787755/global-cellular-iot-module-shipments-share/) — Independent data confirming Quectel as dominant shipment leader
+- [IoT Analytics (Q1 2025)](https://iot-analytics.com/cellular-iot-market-q1-2025-module-shipments-23-percent-us-china-tensions-vendor-impact/) — about 40% in Q1 2025
 
 **Refuting / questioning sources:**
-- Revenue market share (~31%) is substantially lower than unit share (~47%), suggesting Quectel's average selling price per module is below market average — consistent with the known 3% margin / volume strategy; the unit share figure is accurate but overstates Quectel's economic significance relative to its shipment dominance
+- The 46.6% 2024 figure from an earlier source was not re-verified, and tracker methodologies differ.
 
-**Summary:** The ~47% unit shipment market share is independently verified; the revenue share (~31%) is a more relevant economic metric and is also well-documented.
+**Summary:** Roughly 40% is the latest sourced figure.
+
+### Claim: Listed on the 1260H list
+
+**Status:** Verified
+
+**Supporting sources:**
+- [IoT Analytics](https://iot-analytics.com/cellular-iot-market-q1-2025-module-shipments-23-percent-us-china-tensions-vendor-impact/) — added 2025-01-06
+
+**Refuting / questioning sources:**
+- Inclusion does not automatically trigger sanctions; Quectel contests it.
+
+**Summary:** Listing confirmed; effects are compliance and procurement scrutiny.
 
 ## Sources
 
-- [2024 Cellular IoT Module Market Update — IoT Business News (Feb 2025)](https://iotbusinessnews.com/2025/02/19/02010-2024-cellular-iot-module-market-update/)
-- [FCC Chair: Quectel and Fibocom May Pose National Security Risk — SCMP](https://www.scmp.com/tech/tech-war/article/3233671/us-fcc-chair-says-chinas-iot-cellular-components-makers-quectel-fibocom-may-pose-national-security)
-- [FCC Fact Sheet on Cellular Modules (Oct 2025)](https://docs.fcc.gov/public/attachments/DOC-415051A1.pdf)
-- [House Select Committee Letter to FCC on Chinese IoT Modules](https://chinaselectcommittee.house.gov/media/letters/letter-fcc-chair-chinese-internet-connectivity-modules)
-- [FCC Urges Blacklist of Quectel and Fibocom — IoT Design Pro](https://iotdesignpro.com/news/fcc-now-urges-to-blacklist-chinese-iot-module-firms-quectel-and-fibocom-wireless-why)
-- [Patrick Qian — Quectel](https://www.quectel.com/team/patrick-qian/)
-- [Quectel Pledges to Fight US Government Warning — Light Reading](https://www.lightreading.com/security/baicells-quectel-pledge-to-fight-us-government-s-new-warning)
+- [Quectel H1 2026 report](https://www.quectel.com/content/uploads/2026/08/Quectel_2026_Semi-Annual_Financial_Report.pdf)
+- [IoT Analytics — Q1 2025 cellular IoT market](https://iot-analytics.com/cellular-iot-market-q1-2025-module-shipments-23-percent-us-china-tensions-vendor-impact/)
+- [Quectel — response to 1260H listing](https://www.quectel.com/news-and-pr/quectel-response-pentagon-1260h-list-no-military-link/)

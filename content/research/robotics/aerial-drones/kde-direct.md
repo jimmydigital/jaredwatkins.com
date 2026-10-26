@@ -1,16 +1,13 @@
 ---
 title: "KDE Direct"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-25
 draft: false
-description: "Bend, Oregon-based designer and manufacturer of brushless DC motors and ESCs for professional drones and robotics; positioned as the primary US-sourced alternative to Chinese drone motor suppliers (T-Motor) for NDAA-compliant and defense-adjacent drone builds."
+description: "Brushless motor, ESC and propeller maker for multirotor and single-rotor UAS and robotics (private); says it manufactures in the United States and abroad without naming locations; no NDAA or Blue UAS claim on its motors page; no financials, ownership or leadership published."
 research_area: "robotics/aerial-drones"
 source_urls:
   - "https://www.kdedirect.com/pages/brushless-motors"
-  - "https://www.kdedirect.com/pages/aerospace"
-  - "https://www.kdedirect.com/blogs/news/why-choose-kde-direct-design-engineering"
-  - "https://www.streetwisereports.com/article/2025/11/11/defense-grade-drone-parts-just-got-a-massive-u-s-upgrade.html"
-last_reviewed: 2026-03-31
+last_reviewed: 2026-10-25
 stale_after_days: 180
 related: []
 ---
@@ -20,32 +17,29 @@ related: []
 
 ## Summary
 
-KDE Direct is a private company headquartered in Bend, Oregon that designs and manufactures brushless DC (BLDC) motors, electronic speed controllers (ESCs), and carbon fiber propeller blades for professional and industrial unmanned aircraft systems. It is notable as one of the few US-based manufacturers of professional-grade drone motors, and its positioning as a non-Chinese propulsion source has become commercially significant following Entity List and NDAA restrictions on Chinese drone component suppliers like T-Motor. KDE Direct states its products are designed and engineered in the US, though the company maintains manufacturing facilities both domestically and overseas.
+KDE Direct is a private company that sells brushless DC motors, electronic speed controllers and carbon propellers for multirotor and single-rotor unmanned aircraft and for robotics, aerospace, marine and medical customers. Its motors page says it has manufacturing facilities in both the United States and abroad without naming locations, and describes stator laminations as Japanese-built silicon steel. The page makes no NDAA, Blue UAS or country-of-origin claims. It is often named as a US-based alternative to [T-Motor]({{< relref "t-motor.md" >}}), whose operating company was added to the Commerce Entity List in April 2024, but KDE Direct publishes no financials, ownership or leadership information.
 
 ## Key Facts
 
-- **Founded:** Not publicly disclosed (operating at least since the early 2010s)
-- **HQ:** Bend, Oregon, USA
+- **Founded:** Not publicly disclosed
+- **HQ:** Bend, Oregon (not stated on the brushless motors page; not re-verified)
 - **Type:** Private
 - **Ownership:** Privately held; ownership structure not publicly disclosed
-- **Key products:** KDE2315 series motors (small-to-medium UAV), KDE4215 series (heavy-lift multirotor), KDE7215 series (large industrial UAV); KDEXF ESC series; carbon propeller blades
+- **Key products:** direct-drive (multirotor) and shaft-drive (single-rotor) brushless motors; ESCs and UBECs; carbon propellers and adapters; CAN bus wiring
+- **Industries served (company):** aerospace, manufacturing, marine, robotics, medical, transportation, custom design
+- **Manufacturing:** "facilities in both the United States and abroad," locations not named; stator laminations described as Japanese-built silicon steel
+- **Compliance statements:** the motors page makes no NDAA, Blue UAS or country-of-origin claim
 - **Revenue / valuation:** Not publicly disclosed
 
 ## What It Is / How It Works
 
-KDE Direct's motor product line spans from miniature-class multirotor motors for smaller drones up to heavy-lift industrial motors used in platforms with 20+ kg maximum takeoff weights. The naming convention encodes frame diameter: the KDE2315 is a 23mm stator diameter, 15mm tall motor; the KDE4215 is a 42mm stator, 15mm tall motor — dimensions that map to specific drone weight classes and thrust requirements. Each motor is rated at multiple KV (RPM per volt) values within a series, enabling optimization for different battery voltages and propeller sizes.
+KDE Direct's catalog covers direct-drive motors for multirotors, shaft-drive motors for single-rotor aircraft, ESCs, UBECs, carbon propellers and adapters, and replacement kits. It also offers custom design. The motors page mentions military-grade windings and military flight operations but claims no specific compliance status.
 
-The company offers an OEM/custom design service for drone manufacturers requiring specific propulsion configurations, including motors wound for particular voltages, with specialized bearing arrangements, or with modified mounting patterns. KDE Direct has marketed to the defense and aerospace segment, emphasizing extended endurance testing and documentation (performance test data sheets, design geometry specifications) that professional and government buyers require.
-
-The "designed and engineered in the United States" claim is KDE Direct's primary differentiator in an era of growing scrutiny of Chinese drone hardware. However, the company's public materials acknowledge manufacturing occurs "in both the United States and abroad" — meaning final assembly and some manufacturing may be offshore. The specific split between domestic and offshore manufacturing has not been publicly disclosed. This distinction matters for NDAA compliance and Blue UAS certification purposes, where "manufactured in the US" has specific legal definitions.
-
-KDE Direct has not been publicly listed on the Blue UAS framework cleared list as of early 2026, meaning its motors alone do not qualify a drone platform as Blue UAS approved. However, drone manufacturers building platforms for US government customers can source KDE motors as part of a domestically-compliant build-of-materials strategy, provided the overall platform meets Blue UAS or NDAA requirements.
+**Origin is not documented.** Where the motors are made, and how much of the value is added in the US, is not published. That matters for NDAA and Blue UAS purposes, where origin has specific legal definitions; no Blue UAS listing for KDE Direct was found in this review.
 
 ## Notable Developments
 
-- **2025-11:** KDE Direct components cited in industry analysis of US-manufactured defense-grade drone parts as T-Motor alternatives. ([Streetwise Reports](https://www.streetwisereports.com/article/2025/11/11/defense-grade-drone-parts-just-got-a-massive-u-s-upgrade.html))
-- **2024:** T-Motor Entity List designation (May 2024) increases demand for US-sourced drone motor alternatives; KDE Direct is positioned as the primary professional-grade US option.
-- **Ongoing:** KDE Direct maintains aerospace product line for UAV, manned aircraft, and commercial applications.
+- **2026-10:** No dated company announcements were found in this review; the company's catalog and technical pages are the only primary sources. ([KDE Direct](https://www.kdedirect.com/pages/brushless-motors))
 
 ## Key People
 
@@ -54,7 +48,7 @@ KDE Direct has not been publicly listed on the Blue UAS framework cleared list a
 - **LinkedIn:** not found
 - **Notes:** KDE Direct's ownership and leadership are not publicly documented. The company maintains a minimal public profile beyond its product catalog and technical documentation. This is not unusual for small US defense-adjacent hardware companies.
 
-### People — Last Reviewed: 2026-03-31
+### People — Last Reviewed: 2026-10-25
 
 ## Supply Chain Position
 
@@ -63,11 +57,10 @@ KDE Direct operates at the **Component/Subsystem Supplier** layer in the aerial 
 ## Claim Verification
 
 ### Claim: KDE Direct motors are "designed and engineered in the United States"
-**Status:** Partially verified
+**Status:** Unverified
 
 **Supporting sources:**
-- [KDE Direct brushless motors page](https://www.kdedirect.com/pages/brushless-motors) — Company states "custom products are designed in the United States at their headquarters location in Bend, Oregon"
-- [Why Choose KDE Direct blog](https://www.kdedirect.com/blogs/news/why-choose-kde-direct-design-engineering) — Emphasizes US engineering design process
+- [KDE Direct brushless motors page](https://www.kdedirect.com/pages/brushless-motors) — acknowledges "manufacturing facilities in both the United States and abroad"; the design-in-US statement was not found on the page fetched in this review
 
 **Refuting / questioning sources:**
 - [KDE Direct brushless motors page](https://www.kdedirect.com/pages/brushless-motors) — Same page acknowledges "manufacturing facilities in both the United States and abroad"; the domestic vs. offshore manufacturing split is not disclosed
@@ -78,7 +71,3 @@ KDE Direct operates at the **Component/Subsystem Supplier** layer in the aerial 
 ## Sources
 
 - [KDE Direct Brushless Motors — KDE Direct](https://www.kdedirect.com/pages/brushless-motors)
-- [KDE Direct Aerospace Applications — KDE Direct](https://www.kdedirect.com/pages/aerospace)
-- [Why Choose KDE Direct — KDE Direct Blog](https://www.kdedirect.com/blogs/news/why-choose-kde-direct-design-engineering)
-- [Defense-Grade Drone Parts US Upgrade — Streetwise Reports (Nov 2025)](https://www.streetwisereports.com/article/2025/11/11/defense-grade-drone-parts-just-got-a-massive-u-s-upgrade.html)
-- [2025 US Drone Manufacturers — ModalAI](https://www.modalai.com/pages/us-drone-manufacturers-comprehensive-list)

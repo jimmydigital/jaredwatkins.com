@@ -1,7 +1,7 @@
 ---
 title: Aerial Drones
 date: 2026-03-24
-lastmod: 2026-08-27
+lastmod: 2026-10-23
 draft: false
 description: Commercial, industrial, and defense unmanned aerial vehicles — platform OEMs, component suppliers, and the supply chain connecting them.
 research_area: "robotics/aerial-drones"
@@ -35,14 +35,14 @@ The commercial drone industry is dominated by a single vertically integrated Chi
 
 | Company | HQ | Stage | Mission |
 |---------|-----|-------|---------|
-| [Skydio](https://skydio.com) | San Mateo, CA, USA | Late Private (~$340M raised) | AI-powered autonomous drones; onboard NVIDIA Jetson vision stack; US government and defense focus; Blue UAS listed. |
+| [Skydio](https://skydio.com) | San Mateo, CA, USA | Late Private ($4.4B valuation, Apr 2026) | AI-powered autonomous drones; onboard NVIDIA Jetson vision stack; US government and defense focus; Blue UAS listed. |
 | [Anduril Industries](https://anduril.com) | Costa Mesa, CA, USA | Late Private (~$28–30B valuation) | Multi-domain autonomous systems prime; Fury YFQ-44A CCA (in production March 2026); Roadrunner reusable interceptor; Altius loitering munitions; Anvil/Pulsar CUAS stack; Ghost Shark XL-AUV; all unified under Lattice OS. |
 | [Shield AI](https://shield.ai) | San Diego, CA, USA | Late Private (~$2.7B valuation, 2023) | Autonomous AI pilot software (Hivemind); V-BAT VTOL UAS; DoD programs including US Air Force and Navy. |
-| [Zipline](https://flyzipline.com) | South San Francisco, CA, USA | Late Private (~$4.2B valuation) | Fixed-wing autonomous delivery drones; medical and commercial cargo; Walmart partnership in US; operations in Rwanda, Ghana, Japan. |
-| [Wingcopter](https://wingcopter.com) | Darmstadt, Germany | Series B | VTOL fixed-wing hybrid for medical and commercial cargo delivery; tilt-rotor design for wind resistance. |
-| [Joby Aviation](https://www.jobyaviation.com) | Santa Cruz, CA, USA | Public (NYSE: JOBY) | eVTOL air taxi; FAA type certificate process ongoing; Toyota, Delta, and US Air Force partnerships. |
-| [Archer Aviation](https://archer.com) | San Jose, CA, USA | Public (NYSE: ACHR) | eVTOL air taxi; Midnight aircraft; United Airlines launch partner; DoD AGILITY Prime participant. |
-| [Autel Robotics](https://www.autelrobotics.com) | Bothell, WA, USA (parent: China) | Private | Consumer and enterprise drones; EVO II series; US-registered subsidiary of Autel Intelligent Technology (Shenzhen). |
+| [Zipline](https://flyzipline.com) | South San Francisco, CA, USA | Late Private ($7.6B valuation, Jan 2026) | Fixed-wing autonomous delivery drones; medical and commercial cargo; Walmart partnership in US; operations in Rwanda, Ghana, Japan. |
+| [Wingcopter](https://wingcopter.com) | Darmstadt, Germany | Private | Tilt-rotor VTOL drones: Wingcopter 198 delivery and W262 tactical drone (Sep 2026); Security & Defence unit. |
+| [Joby Aviation](https://www.jobyaviation.com) | Santa Cruz, CA, USA | Public (NYSE: JOBY) | eVTOL air taxi; final stage of FAA type certification; $2.3B cash (Jun 2026); Blade passenger business. |
+| [Archer Aviation](https://archer.com) | San Jose, CA, USA | Public (NYSE: ACHR) | eVTOL air taxi; Midnight aircraft; FAA type certification Phase 4 underway; agreed to acquire Boeing's Wisk, Insitu and SkyGrid (Aug 2026). |
+| [Autel Robotics](https://www.autelrobotics.com) | Bothell, WA, USA (parent: China) | Private | Enterprise drones after retiring Evo Nano/Lite consumer lines (2025); on Entity List, 1260H and FCC Covered List. |
 | [Sentinel Robotics]({{< relref "sentinel-robotics.md" >}}) | Cluj-Napoca, Romania | Private (undisclosed; **stub entry — unverified**) | Dual-use tactical reconnaissance and industrial monitoring UAVs; onboard edge-AI visual navigation for GPS-denied, telemetry-independent operation; "sovereign" EU manufacturing positioning. **No independent coverage, funding, team, or specifications identified — all claims company-sourced.** |
 
 ### Public Companies
