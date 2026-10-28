@@ -1,11 +1,12 @@
 ---
 title: "Fluence Energy"
 date: 2026-04-03
-lastmod: 2026-04-03
+lastmod: 2026-10-26
 draft: false
 description: "Fluence Energy is the leading Western-headquartered battery energy storage systems (BESS) integrator, competing against Chinese manufacturers on Fluence IQ software, project bankability, and domestic-content supply chains rather than cell-level pricing."
 research_area: "energy/batteries"
 source_urls:
+  - "https://taiyangnews.info/business/fluence-energy-q3-2026-financial-results"
   - "https://www.globenewswire.com/news-release/2025/12/11/3203953/0/en/Fluence-Named-a-Leading-Global-Battery-Energy-Storage-Provider-in-S-P-Global-Commodity-Insights-Report.html"
   - "https://www.energy-storage.news/fluence-expects-to-meet-feoc-compliance-by-regulatory-deadlines-offers-2026-guidance/"
   - "https://fluenceenergy.com/fluence-iq-digital-platform/"
@@ -14,7 +15,7 @@ source_urls:
   - "https://fluenceenergy.com/"
   - "https://www.energy-storage.news/the-dynamics-of-bess-and-cell-supplier-relationships/"
   - "https://portersfiveforce.com/blogs/competitors/fluenceenergy"
-last_reviewed: 2026-04-03
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -33,7 +34,8 @@ Fluence Energy, Inc. (NASDAQ: FLNC) is the largest Western-headquartered battery
 - **HQ:** Arlington, Virginia, USA
 - **CEO:** Julian Nebreda (President & Chief Executive Officer)
 - **Global rank (2025):** Top 3 BESS integrators globally by installed/contracted capacity; #2 in Western-headquartered integrators (after Tesla Energy); leading non-Chinese player
-- **Fiscal year 2025 (ended Sept 30, 2025):** Revenue $2.3 billion; 2026 guidance: $3.2B–$3.6B (midpoint $3.4B)
+- **Fiscal year 2025 (ended Sept 30, 2025):** Revenue $2.3 billion; FY2026 guidance cut in August 2026 to $2.9B–$3.1B (from $3.2B–$3.6B)
+- **Q3 FY2026 (June 30, 2026):** revenue ~$649.8M, net loss $44.3M, record backlog $6.4B, order intake $1.44B+
 - **Ownership structure post-IPO:** Public company; Siemens and AES Corporation remain shareholders but do not control
 - **Supply chain footprint:** Six U.S. manufacturing/assembly facilities; sources battery cells externally (primarily CATL; also Samsung SDI, BYD, EVE Energy)
 - **Key competitive mechanism:** Software platform (Fluence IQ) for revenue stacking and real-time bidding, combined with project bankability and U.S. domestic content compliance
@@ -110,6 +112,7 @@ Additionally, Fluence's growth trajectory and margin expansion (2026 EBITDA guid
 
 ## Notable Developments
 
+- **2026-08:** Q3 FY2026 revenue of ~$649.8M missed expectations on contract-manufacturing delays; gross margin fell to 5.1%; FY2026 revenue guidance cut to $2.9–3.1B and adjusted EBITDA guidance to a $30M loss to $10M profit, with ~$400M of deliveries shifting into FY2027; record backlog of $6.4B and about $850M of data center business secured. ([TaiyangNews](https://taiyangnews.info/business/fluence-energy-q3-2026-financial-results))
 - **2026-Q1 (estimated):** Gridstack Pro 5000 Phase 2 (UK project) construction ongoing; commercial operation expected before end of 2026
 - **2026-01:** Fluence Energy reports FY 2025 results (ending Sept 30, 2025) with $2.3B revenue; issues 2026 guidance of $3.2–3.6B revenue (midpoint $3.4B) and $40–60M adjusted EBITDA
 - **2025-12:** Fluence named a "leading global battery energy storage provider" in S&P Global Commodity Insights BESS ranking; ranked in top three globally

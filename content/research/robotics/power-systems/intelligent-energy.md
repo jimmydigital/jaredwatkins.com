@@ -1,16 +1,17 @@
 ---
 title: "Intelligent Energy"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-26
 draft: false
-description: "Loughborough, UK-based hydrogen PEM fuel cell manufacturer; IE-SOAR product line provides 800W–2.4kW+ modules for commercial drones and UAVs; owned by Meditor Energy since 2017; powered the UK's first long-range BVLOS hydrogen drone trial in November 2025."
+description: "Loughborough, UK-based hydrogen PEM fuel cell manufacturer; IE-SOAR product line provides 800W–2.4kW+ modules for commercial drones and UAVs; owned by Meditor Energy since 2017; powered the UK's first long-range BVLOS hydrogen drone trial in November 2025; unveiled the 120 kW IE-FLIGHT 120 powertrain and reported its largest commercial UAV order in July 2026."
 research_area: "robotics/power-systems"
 source_urls:
+  - "https://dronexl.co/2026/07/17/intelligent-energy-120kw-hydrogen-powertrain-record-uav-order/"
   - "https://www.intelligent-energy.com/our-products/ie-soar-fuel-cells-for-uavs/"
   - "https://www.intelligent-energy.com/news/intelligent-energy-powers-uks-first-long-range-hydrogen-drone-trial/"
   - "https://en.wikipedia.org/wiki/Intelligent_Energy"
   - "https://www.lboro.ac.uk/internal/research-innovation-support/commercialisation-research/case-studies/intelligent-energy/"
-last_reviewed: 2026-03-31
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related: []
 ---
@@ -31,6 +32,9 @@ Intelligent Energy Limited is a Loughborough, UK-based PEM (Proton Exchange Memb
 - **Key products:** IE-SOAR 800W, IE-SOAR 1.2kW, IE-SOAR 2.4kW fuel cell modules for UAV; scalable to higher power via parallel systems
 - **Revenue / valuation:** Not publicly disclosed
 - **CEO:** David Woolhouse (as of available reports)
+- **IE-FLIGHT 120 (July 2026):** 120 kW hydrogen powertrain for heavy-lift fixed-wing drones, 150–750 kg payload, claimed 3–5x the endurance of comparable battery systems
+- **Record order (July 2026):** largest commercial UAV order in company history, for IE-SOAR systems; customer and value undisclosed
+- **Funding:** £17M (about $23M) via the UK Aerospace Technology Institute HEIGHTS programme, secured in 2026; building a high-power fuel cell test centre in Chelveston, Northamptonshire
 
 ## What It Is / How It Works
 
@@ -44,8 +48,9 @@ In November 2025, Intelligent Energy powered the UK's first BVLOS hydrogen drone
 
 ## Notable Developments
 
+- **2026-07-17:** Intelligent Energy unveils the IE-FLIGHT 120 powertrain and discloses a record commercial UAV order for IE-SOAR fuel cell systems; the customer and contract value were not disclosed. ([DroneXL](https://dronexl.co/2026/07/17/intelligent-energy-120kw-hydrogen-powertrain-record-uav-order/))
 - **2025-11:** IE-SOAR-powered 25kg hexacopter completes UK's first long-range BVLOS hydrogen drone trial; 10 km offshore flight from Llanbedr, Wales. ([Intelligent Energy](https://www.intelligent-energy.com/news/intelligent-energy-powers-uks-first-long-range-hydrogen-drone-trial/))
-- **2025:** £17M secured to accelerate hydrogen fuel cell system development for aviation.
+- **2026:** £17M (about $23M) secured through the UK ATI HEIGHTS programme to accelerate hydrogen fuel cell system development for aviation. ([DroneXL](https://dronexl.co/2026/07/17/intelligent-energy-120kw-hydrogen-powertrain-record-uav-order/))
 - **2024-02:** Intelligent Energy Trust (Loughborough University-connected) announces 2024 activities.
 - **2019:** Company relaunched with global HQ and prototype manufacturing at LUSEP (Loughborough University Science and Enterprise Park).
 - **2017-10:** Acquired by Meditor Energy.
@@ -59,7 +64,7 @@ In November 2025, Intelligent Energy powered the UK's first BVLOS hydrogen drone
   - Intelligent Energy (current): CEO
 - **Notes:** CEO post-Meditor acquisition; limited public profile.
 
-### People — Last Reviewed: 2026-03-31
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

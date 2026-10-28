@@ -1,11 +1,12 @@
 ---
 title: "AeroVironment"
 date: 2026-03-24
-lastmod: 2026-07-26
+lastmod: 2026-10-26
 draft: false
 description: "Arlington, VA–based defense robotics and autonomous systems OEM; Nasdaq-listed (AVAV); record FY2026 (ended Apr 30, 2026) revenue $1,976.8M (+141% YoY, post-BlueHalo acquisition), funded backlog $1.2B; FY2030 targets $3.5–4.0B revenue at 2026 Investor Day; operates two segments: Autonomous Systems (Group 1–3 UAS, loitering munitions Switchblade 300/600, SUAS/Puma/Raven, Titan C-UAS, ground/maritime robots, Sunglider HAPS) and Space/Cyber/Directed Energy (BlueHalo portfolio); $500M IDIQ for JIATF-401 Domestic Shield counter-UAS support (Jul 2026); BlueHalo acquisition closed May 2025 ($4.1B enterprise value); major Ukraine loitering munition supplier."
 research_area: "robotics/aerial-drones"
 source_urls:
+  - "https://pulse2.com/aerovironment-q1-revenue-hits-record-480-5-million-as-funded-backlog-reaches-1-5-billion/"
   - "https://investor.avinc.com/news-releases/news-release-details/aerovironment-announces-fiscal-2026-second-quarter-results"
   - "https://defensescoop.com/2024/08/28/army-aerovironment-switchblade-contract-1b-killer-drones/"
   - "https://bluehalo.com/aerovironment-and-bluehalo-complete-transaction-creating-a-global-defense-technology/"
@@ -17,7 +18,7 @@ source_urls:
   - "https://investor.avinc.com/news-releases/news-release-details/av-awarded-500-million-idiq-support-jiatf-401-domestic-shield"
   - "https://investor.avinc.com/news-releases/news-release-details/avs-titantm-selected-jiatf-401-805-m-award"
   - "https://investor.avinc.com/news-releases/news-release-details/av-awarded-1173-million-us-army-production-contract-p550tm"
-last_reviewed: 2026-07-26
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "robotics/aerial-drones/_index.md"
@@ -45,6 +46,7 @@ AeroVironment, Inc. (NASDAQ: AVAV) is a public defense robotics and autonomous s
   - Bookings: $2.7B; book-to-bill ratio 1.4
   - Funded backlog: $1.2B (vs. $726.6M as of April 30, 2025)
   - Non-GAAP adjusted EBITDA margin: ~22% (Q4)
+- **FY2027 Q1 (reported Sep 2026):** record revenue $480.5M (+6% YoY; Autonomous Systems $346M, Space/Cyber/DE $134.5M); bookings $700M (book-to-bill 1.4); record funded backlog $1.5B (+37% YoY); gross margin 26% (from 21%); net loss $5.1M (from $67.4M); non-GAAP adjusted EBITDA $53.4M (from $56.6M); FY2027 guidance maintained (Pulse 2.0 summary of the company release)
 - **FY2027 guidance (issued Jun 29, 2026):** Revenue $2.125–2.225B; Non-GAAP adjusted EBITDA $305–325M; Non-GAAP EPS $3.02–$3.34
 - **FY2030 targets (2026 Investor Day, Jul 8, 2026):** Revenue $3.5–4.0B (15–20% organic CAGR); R&D investment 7–9% of revenue; Non-GAAP adjusted EBITDA margin 18–20%
 - **FY2026 Q2 (ended Nov 1, 2025), for reference:** Revenue $472.5M (151% YoY; BlueHalo $245.1M, legacy AV $227.4M +21% YoY); net loss $(17.1)M; funded backlog $1.1B
@@ -154,6 +156,7 @@ AeroVironment, Inc. (NASDAQ: AVAV) is a public defense robotics and autonomous s
 
 ## Notable Developments & Recent Contracts
 
+- **2026-09 (Q1 FY2027):** Record quarterly revenue of $480.5M and funded backlog of $1.5B; FY2027 revenue guidance of $2.125–2.225B maintained. ([Pulse 2.0](https://pulse2.com/aerovironment-q1-revenue-hits-record-480-5-million-as-funded-backlog-reaches-1-5-billion/))
 ### FY2025–FY2026 Major Contract Awards
 
 | Contract | Value | Program | Status |
@@ -359,6 +362,7 @@ AeroVironment, Inc. (NASDAQ: AVAV) is a public defense robotics and autonomous s
 
 ### Financial & Acquisition
 
+- [AeroVironment Q1 FY2027 results — Pulse 2.0 (Sep 2026)](https://pulse2.com/aerovironment-q1-revenue-hits-record-480-5-million-as-funded-backlog-reaches-1-5-billion/)
 - [AeroVironment Announces Fiscal 2026 Second Quarter Results — AeroVironment, Inc. (Dec 9, 2025)](https://investor.avinc.com/news-releases/news-release-details/aerovironment-announces-fiscal-2026-second-quarter-results)
 - [AeroVironment and BlueHalo Complete Transaction — BlueHalo official (May 2025)](https://bluehalo.com/aerovironment-and-bluehalo-complete-transaction-creating-a-global-defense-technology/)
 - [AeroVironment Stockholders Approve Acquisition of BlueHalo — AeroVironment, Inc.](https://www.avinc.com/resources/press-releases/view/aerovironment-stockholders-approve-acquisition-of-bluehalo)

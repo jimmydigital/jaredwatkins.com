@@ -1,7 +1,7 @@
 ---
 title: "MicroTCA in 5G RAN"
 date: 2026-04-25
-lastmod: 2026-04-25
+lastmod: 2026-10-26
 draft: false
 description: "MicroTCA platform adoption in 5G Radio Access Network baseband processing, fronthaul switching, and precision timing distribution — the standard's strongest current growth market."
 research_area: "datacenters/rugged-edge-compute"
@@ -10,7 +10,7 @@ source_urls:
   - "https://www.picmg.org/microtca-0-revision-3-delivers-4x-performance-improvement-with-100-gigabit-ethernet-pcie-gen-5-in-up-to-12-slots/"
   - "https://nateurope.com/microtca-0-revision-3-released/"
   - "https://www.nvent.com/en-ba/schroff/resources/news/microtca-taking-over-industrial-applications"
-last_reviewed: 2026-04-25
+last_reviewed: 2026-10-26
 stale_after_days: 180
 ---
 

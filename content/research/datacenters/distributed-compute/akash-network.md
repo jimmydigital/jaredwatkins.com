@@ -1,15 +1,16 @@
 ---
 title: "Akash Network"
 date: 2026-07-18
-lastmod: 2026-07-18
+lastmod: 2026-10-26
 draft: false
 description: "Blockchain-coordinated decentralized GPU compute marketplace (built by Overclock Labs) matching idle GPU capacity — data-center providers and, via the new Homenode product, home gaming rigs — with AI developers through a reverse-auction model."
 research_area: "datacenters/distributed-compute"
 source_urls:
+  - "https://akash.network/blog/akash-network-q1-2026-report/"
   - "https://homenode.akash.network/"
   - "https://akash.network/"
   - "https://ovrclk.com/about"
-last_reviewed: 2026-07-18
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "datacenters/distributed-compute/_index.md"
@@ -49,6 +50,7 @@ Akash cites a case study with Razer, which integrated its AIKit platform with Ak
 
 ## Notable Developments
 
+- **2026-Q1:** Burn-Mint Equilibrium went live on mainnet March 23 (Proposal 318); all-time compute spend passed $5M; AkashML listed on OpenRouter processing 1.7B tokens per day; Homenode beta opened for consumer GPUs (RTX 4090/5090, RTX 6000 Ada)
 - **2026 (waitlist open, no public launch date confirmed):** Akash Homenode announced — simplified provider onboarding for individual consumer GPU owners, explicitly positioned as tapping "dispersed power and hardware already running in homes" to address AI compute/energy constraints.
 - **2025-11:** Mainnet 15 (v1.1.0) — bug-fix release resolving overdrawn escrow accounts blocking deployment closure.
 - **2025-10:** Mainnet 14 (v1.0) — Cosmos SDK v0.53 upgrade, multi-depositor escrow accounts (AEP-75), lease termination reasons (AEP-39).
@@ -75,7 +77,7 @@ Akash cites a case study with Razer, which integrated its AIKit platform with Ak
 - LinkedIn: [linkedin.com/in/cheng-wang-10900621](https://www.linkedin.com/in/cheng-wang-10900621)
 - [X](https://www.twitter.com/LeChenghiskhan)
 
-### Key People — Last Reviewed: 2026-07-18
+### Key People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

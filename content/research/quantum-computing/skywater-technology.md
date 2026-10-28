@@ -1,10 +1,10 @@
 ---
 title: "SkyWater Technology"
 date: 2026-04-07
-lastmod: 2026-04-07
-last_reviewed: 2026-04-07
+lastmod: 2026-10-26
+last_reviewed: 2026-10-26
 draft: false
-description: "U.S. pure-play semiconductor foundry serving defense, commercial, and quantum computing customers; pending acquisition by IonQ; fabricates superconducting qubits for D-Wave, photonic chips for PsiQuantum (prior to GlobalFoundries transition), and cryogenic control electronics."
+description: "U.S. pure-play semiconductor foundry serving defense, commercial, and quantum computing customers; acquired by IonQ (completed 2026); fabricates superconducting qubits for D-Wave, photonic chips for PsiQuantum (prior to GlobalFoundries transition), and cryogenic control electronics."
 research_area: "quantum-computing"
 source_urls:
   - "https://www.skywatertechnology.com"
@@ -46,7 +46,7 @@ SkyWater Technology (NASDAQ: SKYT) is a U.S.-based pure-play semiconductor found
 - **Employees:** Approximately 1,000 added via Fab 25 acquisition in mid-2025
 - **Process nodes (standard):** 130nm (SKY130), 65nm, down to 55nm; 200mm wafer platform
 - **Quantum-specific:** Niobium-based superconducting process integrations; cryogenic CMOS; photonics structures; SFQ (Single Flux Quantum) process development
-- **Pending acquisition:** IonQ, $1.8B cash-and-stock deal announced January 26, 2026; shareholder vote scheduled May 8, 2026; expected close Q2–Q3 2026
+- **Acquisition:** IonQ, $1.8B cash-and-stock deal announced January 26, 2026; completed by early August 2026 (IonQ Q2 2026 report)
 
 ## What It Is / How It Works
 
@@ -62,6 +62,7 @@ SkyWater's IonQ acquisition rationale is straightforward: IonQ uses trapped-ion 
 
 ## Notable Developments
 
+- **2026-08:** IonQ reports the SkyWater acquisition completed after Q2 2026 ended. ([The Quantum Insider](https://thequantuminsider.com/2026/08/05/ionq-raises-2026-revenue-outlook-after-record-quarter-fueled-by-commercial-growth-skywater-acquisition/))
 - **2026-01-26:** IonQ announced agreement to acquire SkyWater Technology for $35.00 per share ($15.00 cash + $20.00 in IonQ stock, subject to exchange ratio collar), implying ~$1.8B total equity value. Both boards unanimously approved. SkyWater shareholder vote scheduled for May 8, 2026; deal expected to close Q2–Q3 2026. SkyWater would operate as a wholly owned subsidiary under its existing name and CEO.
 - **2026-04:** SkyWater reported FY2025 full year revenue of $442.1M (record; +29% YoY) and Adjusted EBITDA of $53.2M (+57% YoY). Record performance attributed to Fab 25 contribution and growing quantum ATS revenue.
 - **2025-11-20:** SkyWater and Silicon Quantum Computing (SQC, the Australian government-backed silicon spin qubit company) announced a joint program to advance hybrid quantum-classical computing. SQC will supply atomically-engineered QPUs; SkyWater will provide superconducting resonators and tailored silicon wafers from its secure production line.

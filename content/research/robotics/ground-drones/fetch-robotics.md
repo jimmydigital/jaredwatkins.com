@@ -1,16 +1,17 @@
 ---
 title: "Fetch Robotics (Zebra Technologies)"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-26
 draft: false
 description: "Fremont, CA-origin AMR company acquired by Zebra Technologies for $290M in 2021; integrated into Zebra's enterprise workflow stack; Zebra announced in late 2025 it was winding down the Fetch-based mobile robotics group and seeking to sell or shut down the division."
 research_area: "robotics/ground-drones"
 source_urls:
   - "https://www.therobotreport.com/zebra-technologies-winding-down-fetch-based-mobile-robot-group/"
+  - "https://www.therobotreport.com/zebra-technologies-winding-down-fetch-based-mobile-robot-group/"
   - "https://investors.zebra.com/news-and-events/news/news-details/2021/Zebra-Technologies-Completes-Acquisition-of-Fetch-Robotics/default.aspx"
   - "https://spectrum.ieee.org/zebra-technologies-acquire-fetch-robotics"
   - "https://www.therobotreport.com/fetch-robotics-acquired-by-zebra-technologies-for-290m/"
-last_reviewed: 2026-03-31
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related: []
 ---
@@ -43,6 +44,7 @@ Melonee Wise, Fetch's co-founder and CEO through the acquisition, left after the
 
 ## Notable Developments
 
+- **2025-12-12:** Zebra confirms it is winding down the Fetch-based AMR group and exploring a sale or shutdown; most robotics staff laid off by year-end, about 25% retained until March 2026 to manage existing deployments. ([The Robot Report](https://www.therobotreport.com/zebra-technologies-winding-down-fetch-based-mobile-robot-group/))
 - **2025-12:** Zebra Technologies announces wind-down of Fetch-based mobile robotics group; seeks buyer or plans shutdown. ([The Robot Report](https://www.therobotreport.com/zebra-technologies-winding-down-fetch-based-mobile-robot-group/))
 - **2025-Q1:** Zebra Symmetry Fulfillment launched — AMR + wearables + analytics platform integrating Fetch hardware with Zebra enterprise software stack.
 - **2024:** New AMR variants and picking enhancements shown at MODEX 2024.
@@ -60,7 +62,7 @@ Melonee Wise, Fetch's co-founder and CEO through the acquisition, left after the
   - Willow Garage (prior to Fetch): Software engineer / robotics researcher
 - **Notes:** Leading figure in ROS (Robot Operating System) ecosystem; Fetch was built on ROS. Moved to Amazon Robotics following the Zebra integration.
 
-### People — Last Reviewed: 2026-03-31
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

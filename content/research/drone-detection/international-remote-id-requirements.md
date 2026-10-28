@@ -1,11 +1,13 @@
 ---
 title: "International Remote ID Requirements"
 date: 2026-07-07
-lastmod: 2026-07-07
+lastmod: 2026-10-26
 draft: false
 description: "Comparison of drone Remote ID / remote identification mandates across the UK, EU, China, and Japan — timelines, technical scope, and how each regime differs from the US FAA Remote ID rule."
 research_area: "drone-detection"
 source_urls:
+  - "https://www.heliguy.com/blogs/posts/remote-id-what-it-means-for-uk-drone-pilots/"
+  - "https://dronexl.co/2026/06/09/transport-canada-drone-remote-id-npa-2026-005/"
   - "https://www.caa.co.uk/drones/moving-on-to-more-advanced-flying/remote-id-rid/"
   - "https://www.heliguy.com/blogs/posts/remote-id-what-it-means-for-uk-drone-pilots/"
   - "https://www.airhub.app/resources/news/remote-id-easa-vs-uk-2026"
@@ -13,7 +15,7 @@ source_urls:
   - "https://lowaltitudeeconomy.aero/evtol-news-and-electric-aircraft-news/cargo-drones/china-drone-identification-standards-2026"
   - "https://www.sixthtone.com/news/1017964/china-mandates-registration%2C-real-time-tracking-for-civilian-drones"
   - "https://www.flyeye.io/japan-drone-laws/"
-last_reviewed: 2026-07-07
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -65,6 +67,8 @@ Japan's requirement is narrower in scope: registered drones must carry a visible
 
 ## Notable Developments
 
+- **2026-01-01 (UK):** Remote ID applies to UK class-marked drones (UK1–UK3, UK5, UK6) from Jan 1, 2026; legacy and privately built drones have until the end of 2027, and UK0, UK4 and legacy drones of 100 g or more with a camera become mandatory Jan 1, 2028
+- **2026-06-08 (Canada):** Transport Canada NPA 2026-005 proposes performance-based Remote ID (broadcast or network, ASTM F3411) for drones 250 g to 150 kg; comments closed Sept 9, draft regulations in Canada Gazette Part I targeted winter 2027, final publication 2028 and mandatory Remote ID for standard certificate operations in 2030
 - **2026-07:** Sixth Tone and Low Altitude Economy report on China's GB 46761-2025 / GB 46750-2025 standards taking effect May 1, 2026, with June 2027 retrofit deadline for existing drones
 - **2026-01:** UK CAA begins phase-in of Direct Remote ID as a product requirement for new class-marked UAS
 - **2024-01:** EU EASA Direct Remote ID becomes mandatory for C1/C2/C3 Open category drones

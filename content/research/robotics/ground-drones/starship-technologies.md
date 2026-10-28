@@ -1,7 +1,7 @@
 ---
 title: "Starship Technologies"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-26
 draft: false
 description: "Tallinn, Estonia-based sidewalk delivery robot company; 9M+ deliveries completed; 2,700+ robots in 270+ locations across 7 countries; founded by Skype co-founders Ahti Heinla and Janus Friis; $50M Series C raised October 2025; Uber Eats partnership launched November 2025."
 research_area: "robotics/ground-drones"
@@ -10,7 +10,7 @@ source_urls:
   - "https://www.starship.xyz/press/starship-technologies-raises-50m-series-c/"
   - "https://en.wikipedia.org/wiki/Starship_Technologies"
   - "https://www.businesswire.com/news/home/20251120298420/en/Starship-Technologies-and-Uber-Eats-Launch-Autonomous-Delivery-Partnership"
-last_reviewed: 2026-03-31
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related: []
 ---
@@ -66,7 +66,7 @@ The "99%+ autonomous" figure warrants scrutiny: Starship's robots can request hu
   - NASA Centennial Challenge: Participated in autonomous robot competition (origins of delivery robot concept)
 - **Notes:** One of Estonia's most prominent tech entrepreneurs. Skype was sold to Microsoft for $8.5B in 2011. Heinla's dual CEO/CTO role reflects the technical founder staying close to the product.
 
-### People — Last Reviewed: 2026-03-31
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

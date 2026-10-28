@@ -1,7 +1,7 @@
 ---
 title: "Hemeria / Safran BalMan"
 date: 2026-07-17
-lastmod: 2026-07-17
+lastmod: 2026-10-26
 draft: false
 description: "French aerospace company Hemeria's maneuverable BalMan stratospheric balloon, paired with Safran.AI-enabled real-time ELINT/electronic-warfare signal detection, per a June 2026 Safran-Hemeria MoU announced at Eurosatory — a HAPS platform purpose-built for detecting and classifying radar, comms, and other electromagnetic emissions."
 research_area: "drone-detection/high-altitude-platforms"
@@ -10,7 +10,7 @@ source_urls:
   - "https://www.safran-group.com/download/press_release/file/2272707"
   - "https://thedefensepost.com/2026/06/25/france-balloon-ew-elint/"
   - "https://www.c4defence.com/en/stratospheric-elint-warfare/"
-last_reviewed: 2026-07-17
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

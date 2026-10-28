@@ -1,7 +1,7 @@
 ---
 title: "ROCm — AMD GPU Software Platform"
 date: 2026-06-07
-lastmod: 2026-06-07
+lastmod: 2026-10-26
 draft: false
 description: "AMD's open-source GPU software stack for AI and HPC workloads, competing with CUDA. Includes HIP (CUDA compatibility layer), ROCm runtime, and AI libraries."
 research_area: "ai-accelerators/amd-instinct"
@@ -9,7 +9,7 @@ source_urls:
   - "https://www.amd.com/en/products/software/rocm.html"
   - "https://www.storagereview.com/news/amd-instinct-mi355x-achieves-mlperf-inference-v6-0-gains-with-over-1-million-tokens-per-second-and-supports-scalable-rocm-stack"
   - "https://www.amd.com/en/newsroom/press-releases/2025-6-12-amd-unveils-vision-for-an-open-ai-ecosystem-detai.html"
-last_reviewed: 2026-06-07
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

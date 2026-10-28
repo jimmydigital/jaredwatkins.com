@@ -1,11 +1,11 @@
 ---
 title: "Distributed & Decentralized Compute"
 date: 2026-07-18
-lastmod: 2026-07-18
+lastmod: 2026-10-26
 draft: false
 description: "Compute infrastructure sited outside centralized datacenter campuses — home and small-commercial GPU nodes, grid-edge inference deployments, and blockchain-coordinated compute marketplaces — pitched as a faster alternative to grid interconnection queues."
 research_area: "datacenters/distributed-compute"
-last_reviewed: 2026-07-18
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"

@@ -1,19 +1,20 @@
 ---
 title: "HyperStrong"
 date: 2026-04-04
-lastmod: 2026-04-04
+lastmod: 2026-10-26
 draft: false
 description: "Chinese BESS system integrator and top-5 global player by H1 2025 shipments; operates LFP containerized solutions across utility, C&I, and residential scales; publicly traded January 2025 on Shanghai SSE at ¥688411."
 research_area: "energy/batteries"
 chinese-owned: true
 source_urls:
+  - "https://equalocean.com/news/2026042921865-catl-hyperstrong-secure-60gwh-mega-order-launching-mass-production-era-worlds"
   - "https://www.hyperstrong.com/en/"
   - "https://www.infolink-group.com/energy-article/energy-storage-topic-1h25-global-bess-integrator-shipments-ranking"
   - "https://source.benchmarkminerals.com/article/bess-system-integrator-ranking-in-h1-2025-shows-change-is-on-the-horizon-for-the-industry"
   - "https://www.energy-storage.news/chinas-largest-bess-integrator-hyperstrong-targets-us-and-international-markets/"
   - "https://www.prnewswire.com/news-releases/hyperstrong-retains-top-three-position-in-sp-global-energy-storage-rankings-sustaining-leadership-in-global-new-installations-302640078.html"
   - "https://www.crunchbase.com/organization/hyperstrong"
-last_reviewed: 2026-04-04
+last_reviewed: 2026-10-26
 stale_after_days: 180
 related:
   - "energy/batteries/_index.md"
@@ -58,6 +59,7 @@ The company's global footprint — with offices in California (US), Frankfurt (G
 
 ## Notable Developments
 
+- **2026-04-27:** CATL and HyperStrong sign a strategic agreement for 60 GWh of sodium-ion energy storage batteries over three years, described as the largest sodium-ion order to date. ([EqualOcean](https://equalocean.com/news/2026042921865-catl-hyperstrong-secure-60gwh-mega-order-launching-mass-production-era-worlds))
 - **2025-01:** HyperStrong debuts on Shanghai Stock Exchange (STAR Market, 688411.SS) at RMB 19.38, closes first day at RMB 63.80 (+229%); initial market cap ~USD 1.56 billion.
 - **2026-01:** HyperStrong and CATL sign 10-year Strategic Cooperation Agreement (2026–2035) committing to procure minimum 200 GWh of battery cells and systems from CATL during 2026–2028 (valued ~CNY 20 billion / USD 2.8 billion); includes priority supply guarantees and competitive pricing.
 - **2025-02:** HyperStrong and EVE Energy's subsidiary Hubei EVE Power sign 50 GWh cell supply agreement for 2025–2027, signaling shift in battery sourcing strategy as EVE gains share against CATL.
@@ -87,7 +89,7 @@ Three structural observations:
 
 **Additional Co-founders:** Not publicly named in available English-language sources. LinkedIn: https://hk.linkedin.com/company/hyperstrong
 
-### People — Last Reviewed: 2026-04-04
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

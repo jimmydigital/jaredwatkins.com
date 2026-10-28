@@ -1,17 +1,18 @@
 ---
 title: "CoreWeave"
 date: 2026-04-02
-lastmod: 2026-04-02
+lastmod: 2026-10-26
 draft: false
 description: "Livingston, NJ GPU cloud company; co-founded 2017 (as Atlantic Crypto) by Michael Intrator, Brian Venturo, Brannin McBee, and Peter Salanki; pivoted from Ethereum mining to AI cloud 2019; IPO March 2025 (CRWV, ~$35B market cap); $5.1B revenue FY2025; $66.8B contracted backlog; designs entire data centers for 130kW+ liquid-cooled racks; NVIDIA strategic partner and preferred GPU allocatee; 5 GW capacity expansion target by 2030; largest 'neocloud' in the AI infrastructure market."
 research_area: "datacenters/design-construction"
 source_urls:
+  - "https://pulse2.com/coreweave-revenue-backlog-reaches-104-billion-before-another-25-billion-of-new-commitments/"
   - "https://www.coreweave.com/"
   - "https://www.sec.gov/Archives/edgar/data/1769628/000119312525044231/d899798ds1.htm"
   - "https://investors.coreweave.com/governance/executive-management/default.aspx"
   - "https://www.datacenterdynamics.com/en/news/coreweave-aims-to-add-5gw-more-data-center-capacity-by-2030-anticipates-capex-in-2026-to-double/"
   - "https://nvidianews.nvidia.com/news/nvidia-and-coreweave-strengthen-collaboration-to-accelerate-buildout-of-ai-factories"
-last_reviewed: 2026-04-02
+last_reviewed: 2026-10-26
 stale_after_days: 60
 related:
   - "datacenters/design-construction/_index.md"
@@ -42,7 +43,8 @@ CoreWeave's technical differentiation is its facility design philosophy: rather 
 - **Revenue (FY2022–FY2025):** $16M → $229M → $1.9B → ~$5.1B (FY2025 estimated)
 - **Net loss (FY2022–FY2025):** -$31M → -$594M → -$863M → -$1.167B
 - **Adjusted EBITDA FY2025:** $3.093B (vs. $1.219B in FY2024)
-- **Revenue backlog:** $66.8B as of December 31, 2025 (up from $55.6B at Q3 2025 end)
+- **Revenue backlog:** ~$104B as of June 30, 2026 (up from $66.8B at December 31, 2025), with more than $25B of further net commitments signed in early Q3 2026
+- **Q2 2026:** revenue ~$2.58B (vs. $1.21B), net loss ~$626M, active power ~1.5 GW (+500 MW in the quarter), contracted power ~3.7 GW
 - **Anchor customers:** OpenAI (~$22.4B total committed); Meta (~$14.2B through Dec 14, 2031); Microsoft (historically ~70% of annual revenue)
 - **NVIDIA relationship:** NVIDIA invested $2B in CoreWeave Class A stock (January 2026); NVIDIA signed $6.3B capacity purchase deal (September 2025, through April 2032 — NVIDIA buys unused CoreWeave capacity); CoreWeave receives early access to new NVIDIA GPU generations before hyperscalers
 - **Total debt:** ~$11.17B (June 30, 2025); $1.21–$1.25B annual interest expense
@@ -72,6 +74,7 @@ CoreWeave occupies a unique structural position in the AI infrastructure stack: 
 
 ## Notable Developments
 
+- **2026-08 (Q2 earnings):** Revenue ~$2.58B, backlog ~$104B plus $25B+ of new commitments after quarter-end, a $3.1B term loan and a $1B strategic investment from Jane Street. ([Pulse 2.0](https://pulse2.com/coreweave-revenue-backlog-reaches-104-billion-before-another-25-billion-of-new-commitments/))
 - **2026-01:** NVIDIA invests $2B in CoreWeave Class A common stock at $87.20/share (~23M shares); gives NVIDIA 5+ GW of AI factory exposure by 2030. CoreWeave gets early deployment rights for NVIDIA Rubin, Vera CPU, BlueField storage. ([NVIDIA Newsroom](https://nvidianews.nvidia.com/news/nvidia-and-coreweave-strengthen-collaboration-to-accelerate-buildout-of-ai-factories))
 - **2025-12:** $2.25B in 1.75% convertible senior notes due 2031 issued.
 - **2025-11 (Q3 earnings):** Revenue backlog reaches $56.6B; Q3 revenue up 420% YoY; stock slides on guidance revision below analyst consensus. ([Data Center Dynamics](https://www.datacenterdynamics.com/en/news/coreweaves-revenue-up-420-yoy-in-first-earnings-call-since-ipo/))
@@ -111,7 +114,7 @@ CoreWeave occupies a unique structural position in the AI infrastructure stack: 
 - **Background:** Technical co-founder; the engineering counterpart to the three commodities-trader co-founders
 - **Notes:** Architects CoreWeave's software layer — the orchestration, scheduling, and reliability engineering that the company argues differentiates it from simpler GPU resellers.
 
-### People — Last Reviewed: 2026-04-02
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

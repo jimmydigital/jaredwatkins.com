@@ -1,11 +1,11 @@
 ---
 title: "AI Accelerators"
 date: 2026-06-07
-lastmod: 2026-06-07
+lastmod: 2026-10-26
 draft: false
 description: "GPU and AI accelerator hardware for datacenter-scale training and inference, including rack-scale systems and interconnect ecosystems."
 research_area: "ai-accelerators"
-last_reviewed: 2026-06-07
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"

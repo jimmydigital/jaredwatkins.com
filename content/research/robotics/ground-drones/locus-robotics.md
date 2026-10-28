@@ -1,7 +1,7 @@
 ---
 title: "Locus Robotics"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-26
 draft: false
 description: "Wilmington, MA warehouse AMR developer; LocusBot goods-to-robot platform deployed at DHL, Quiet Logistics, and other 3PLs; $438M raised through Series F; conducted layoffs in 2023–2024 as post-pandemic e-commerce volumes normalized; DHL reached 1 billion picks milestone with Locus robots in March 2026."
 research_area: "robotics/ground-drones"
@@ -10,7 +10,7 @@ source_urls:
   - "https://roboticsandautomationnews.com/2026/03/09/dhl-and-locus-robotics-reach-one-billion-warehouse-picks-milestone/99384/"
   - "https://group.dhl.com/en/media-relations/press-releases/2024/dhl-supply-chain-passes-unprecedented-500-million-picks-milestone-using-locus-robotics-autonomous-mobile-robots.html"
   - "https://www.therobotreport.com/locus-robotics-reduces-staff-but-ceo-still-bullish-mobile-robot-market-growth/"
-last_reviewed: 2026-03-31
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related: []
 ---
@@ -61,7 +61,7 @@ The company's financial trajectory reflects pandemic distortion: e-commerce volu
   - Locus Robotics (2016–present): CEO
 - **Notes:** Not a founder; joined as CEO in 2016. Has navigated the company through pandemic growth surge and subsequent normalization.
 
-### People — Last Reviewed: 2026-03-31
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

@@ -1,7 +1,7 @@
 ---
 title: "Lockheed Martin — Lamprey MMAUV"
 date: 2026-06-29
-lastmod: 2026-06-29
+lastmod: 2026-10-26
 draft: false
 description: "Lockheed Martin's Lamprey MMAUV (Multi-Mission Autonomous Underwater Vehicle) is a 24-foot hull-attaching AUV that hitches rides on surface ships or submarines to conserve battery, then operates independently. Hydrogen-powered; can launch aerial drones and torpedo-class weapons. Developed internally in 14 months; unveiled February 2026."
 research_area: "robotics/undersea-drones"
@@ -10,7 +10,7 @@ source_urls:
   - "https://www.defensenews.com/unmanned/2026/02/10/lockheeds-unveils-lamprey-undersea-drone-that-can-attach-to-ships/"
   - "https://www.twz.com/sea/drone-mini-submarine-that-attaches-itself-to-other-vessels-unveiled-by-lockheed"
   - "https://www.navalnews.com/naval-news/2026/02/lockheed-martin-rapidly-developed-lamprey-drone-new-variants-on-the-way/"
-last_reviewed: 2026-06-29
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

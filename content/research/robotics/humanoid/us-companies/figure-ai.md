@@ -1,11 +1,12 @@
 ---
 title: "Figure AI"
 date: 2026-06-19
-lastmod: 2026-06-19
+lastmod: 2026-10-26
 draft: false
 description: "Sunnyvale, CA humanoid robot startup; highest private valuation in the sector at $39B; ~$1.9B raised; Figure 03 general-purpose industrial robot; BotQ manufacturing facility; 619 employees."
 research_area: "robotics/humanoid"
 source_urls:
+  - "https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/"
   - "https://figure.ai"
   - "https://techmarketbriefs.com/pre-ipo/figure-ai/"
   - "https://www.therobotreport.com/figure-ai-raises-675m-to-commercialize-humanoids/"
@@ -13,7 +14,7 @@ source_urls:
   - "https://www.bloomberg.com/news/videos/2026-05-15/figure-ceo-says-humanoid-robot-test-had-no-outside-aid-video"
   - "https://sacra.com/c/figure-ai/"
   - "https://en.wikipedia.org/wiki/Brett_Adcock"
-last_reviewed: 2026-06-19
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -75,7 +76,7 @@ Figure AI was founded by Brett Adcock with the stated goal of building a general
 
 **Pattern:** Adcock is a serial hardware entrepreneur who explicitly applies lessons from Archer Aviation's vertical integration to Figure — own the actuators, own the supply chain, do not depend on third-party component vendors who may not be able to scale with you.
 
-### People — Last Reviewed: 2026-06-19
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain & Dependencies
 
@@ -118,6 +119,10 @@ Figure AI was founded by Brett Adcock with the stated goal of building a general
 - [Humanoid Robot Bubble — Talking Logistics, Jan 2026](https://talkinglogistics.com/2026/01/12/the-humanoid-robot-bubble-is-getting-hard-to-ignore/) — zero external revenue, zero external customers
 
 **Summary:** Requires Morgan Stanley's scenario to be correct. Goldman's numbers make the valuation indefensible at the conservative estimate.
+
+## Notable Developments
+
+- **2026-06:** BMW announced deployment of Figure 03 at Plant Spartanburg for logistics sequencing (sorting components into trolleys), following an 11-month Figure 02 body-shop deployment that supported production of 30,000+ BMW X3 vehicles
 
 ## Sources
 

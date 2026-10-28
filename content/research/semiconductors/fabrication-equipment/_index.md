@@ -1,11 +1,11 @@
 ---
 title: "Fabrication Equipment"
 date: 2026-04-15
-lastmod: 2026-04-15
+lastmod: 2026-10-26
 draft: false
 description: "Semiconductor wafer fabrication equipment — lithography, etch, deposition, inspection, and metrology systems enabling advanced node manufacturing."
 research_area: "semiconductors/fabrication-equipment"
-last_reviewed: 2026-04-15
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"

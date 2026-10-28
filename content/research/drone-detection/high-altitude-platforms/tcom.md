@@ -1,17 +1,18 @@
 ---
 title: "TCOM"
 date: 2026-07-17
-lastmod: 2026-07-17
+lastmod: 2026-10-26
 draft: false
 description: "Maryland tethered-aerostat maker whose Strategic Aerostat Platforms carry radar and SIGINT payloads specifically marketed for detecting cruise missiles, drones, and low-flying aircraft — the closest current commercial descendant of the Army's cancelled JLENS cruise-missile-defense aerostat program."
 research_area: "drone-detection/high-altitude-platforms"
 source_urls:
+  - "https://defence24.pl/technologie/mspo-2026-aerostaty-z-tcom-unitronex-do-ochrony-polskiego-nieba"
   - "https://tcomlp.com/aerospace-platforms/tethered-aerostats/"
   - "https://tcomlp.com/air-surveillance-systems/"
   - "https://www.govconwire.com/articles/eric-hoover-border-security-aerostats-tcom"
   - "https://en.wikipedia.org/wiki/JLENS"
   - "https://en.wikipedia.org/wiki/Tethered_Aerostat_Radar_System"
-last_reviewed: 2026-07-17
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -37,6 +38,7 @@ TCOM's aerostats are tethered rather than free-flying, trading the wide-area dri
 
 ## Notable Developments
 
+- **2025-09/2026-09:** Polish Armed Forces bought TCOM 71M aerostats under the Barbara program (four airships, reported at over US$600M, each with a surveillance radar claimed to cover up to 370 km); TCOM Unitronex showed the 71M and 34M at MSPO 2026 (Sept 8–11); performance figures come from vendor-sponsored content
 - No single 2026 news event was found in this review; TCOM's public materials describe an established, ongoing product line (Strategic/Operational/Tactical aerostats) rather than recent launches. Treat the "Key Facts" above as current TCOM marketing claims and verify against recent contract announcements before citing specific program details.
 
 ## Limitations

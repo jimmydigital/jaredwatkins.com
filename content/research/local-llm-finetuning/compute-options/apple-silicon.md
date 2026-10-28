@@ -1,15 +1,16 @@
 ---
 title: "Apple Silicon for LLM Fine-Tuning"
 date: 2026-06-10
-lastmod: 2026-06-10
+lastmod: 2026-10-26
 draft: false
 description: "Using Mac Mini M4 Pro/Max or MacBook Pro for QLoRA and MLX-based LLM fine-tuning: supported tools, memory requirements, realistic training speeds, and expected time-to-completion for a 10,000-example network engineer dataset."
 research_area: "local-llm-finetuning/compute-options"
 source_urls:
+  - "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/"
   - "https://github.com/ml-explore/mlx-examples"
   - "https://github.com/unslothai/unsloth"
   - "https://ollama.com"
-last_reviewed: 2026-06-10
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -123,6 +124,10 @@ ollama run juniper-expert
 - Monitor thermal throttling on MacBook Pro: `sudo powermetrics --samplers gpu_power -i 1000`
 - The M4 Max fan profile handles sustained training loads well; M3 Pro MacBooks may thermal throttle after 2–3 hours
 - For overnight runs, `caffeinate -s` prevents sleep while training
+
+## Notable Developments
+
+- **2026-08:** Apple announced Mac Studio with M5 Max (up to 128 GB unified memory, 614 GB/s, from $2,499) and M5 Ultra (up to 512 GB, 1.2 TB/s, from $5,499); available Sept 22, 2026 with 512 GB configurations arriving late October. Apple claims up to 3.9x faster AI performance (M5 Max vs M4 Max) and 4.3x peak AI compute (M5 Ultra vs M3 Ultra); these are vendor figures, and the training-throughput numbers in this entry are M4-era and not re-measured
 
 ## Sources
 

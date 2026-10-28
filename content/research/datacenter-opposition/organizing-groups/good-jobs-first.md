@@ -1,11 +1,12 @@
 ---
 title: "Good Jobs First: Tax Subsidy Transparency and Reform"
 date: 2026-04-20
-lastmod: 2026-04-28
+lastmod: 2026-10-26
 draft: false
 description: "Good Jobs First — economic development subsidy watchdog, datacenter tax research and advocacy, Subsidy Tracker database, and strategic focus on transparency and clawback provisions."
 research_area: "datacenter-opposition"
 source_urls:
+  - "https://www.newsfromthestates.com/article/many-states-dont-report-losses-data-center-tax-breaks-study-says"
   - "https://goodjobsfirst.org"
   - "https://goodjobsfirst.org/databases/"
   - "https://goodjobsfirst.org/cloudy-data-costly-deals-how-poorly-states-disclose-data-center-subsidies/"
@@ -14,7 +15,7 @@ source_urls:
   - "https://goodjobsfirst.org/data-centers-are-embedding-themselves-in-american-communities-who-will-pay/"
   - "https://goodjobsfirst.org/virginia-data-center-deals-lack-transparency-watchdog-says/"
   - "https://goodjobsfirst.org/data-center-moratorium-bills-are-spreading-in-2026/"
-last_reviewed: 2026-04-28
+last_reviewed: 2026-10-26
 stale_after_days: 180
 ---
 
@@ -191,6 +192,10 @@ These arguments have resonated across political constituencies (conservatives sk
 4. **Measurement challenges:** Determining "counterfactual" (would facility have been built without subsidy?) is methodologically difficult; companies naturally claim subsidies were necessary.
 
 ---
+
+## 2026 Update
+
+- **2026-04:** A Good Jobs First study found 14 states (Alabama, Arkansas, Idaho, Iowa, Indiana, Louisiana, Maryland, Missouri, Mississippi, North Carolina, North Dakota, Oklahoma, South Carolina, Utah) do not report revenue lost to data center tax breaks, while Georgia, Virginia and Texas each report losing $1B or more a year. The NCSL counts 38 states with dedicated data center incentives. ([States Newsroom](https://www.newsfromthestates.com/article/many-states-dont-report-losses-data-center-tax-breaks-study-says))
 
 ## Key Takeaways
 

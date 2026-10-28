@@ -1,7 +1,7 @@
 ---
 title: "Vayyar Imaging"
 date: 2026-07-17
-lastmod: 2026-07-17
+lastmod: 2026-10-26
 draft: false
 description: "Israeli radar-on-chip maker; its XRR single-chip MIMO RFIC (48 transceivers, on-chip processing) delivers 4D imaging radar for automotive safety and is also marketed into public-safety/security screening — a dual-use MIMO chip platform with no confirmed drone-detection product, included here as adjacent enabling technology."
 research_area: "drone-detection/mimo-radar"
@@ -10,7 +10,7 @@ source_urls:
   - "https://vayyar.com/blog/automotive/vayyar-releases-worlds-first-mimo-single-chip-xrr-rfic"
   - "https://vayyar.com/public-safety/"
   - "https://vayyar.com/blog/vayyar/radar-applications-the-potential-of-4d-imaging/"
-last_reviewed: 2026-07-17
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

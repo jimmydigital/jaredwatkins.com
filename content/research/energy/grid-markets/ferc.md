@@ -1,11 +1,12 @@
 ---
 title: "FERC: Federal Energy Regulatory Commission"
 date: 2026-07-09
-lastmod: 2026-07-09
+lastmod: 2026-10-26
 draft: false
 description: "The federal agency regulating interstate electricity transmission and wholesale rates for most of the U.S. (but not ERCOT) — current commissioners, structure, and backgrounds."
 research_area: "energy/grid-markets"
 source_urls:
+  - "https://www.mondaq.com/unitedstates/oil-gas-electricity/1814860/ferc-show-cause-orders-on-large-load-interconnection-what-data-center-developers-and-other-stakeholders-should-know"
   - "https://www.ferc.gov/about/commission-members"
   - "https://www.ferc.gov/about/commission-members/chairman-laura-v-swett"
   - "https://www.ferc.gov/about/commission-members/commissioner-david-rosner"
@@ -13,7 +14,7 @@ source_urls:
   - "https://www.ferc.gov/about/commission-members/commissioner-chang"
   - "https://www.ferc.gov/about/commission-members/commissioner-david-lacerte"
   - "https://www.congress.gov/crs-product/R48349"
-last_reviewed: 2026-07-09
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "energy/grid-markets/_index.md"
@@ -63,7 +64,7 @@ FERC is the five-member federal body that regulates interstate electricity trans
 **Commissioner David A. LaCerte** — Confirmed by the Senate in 2025; sworn in October 27, 2025; term expires June 30, 2026 (a short remainder term, consistent with filling a partial vacancy rather than a fresh five-year appointment). Over two decades in public service, law, and regulatory policy: senior roles at the U.S. Office of Personnel Management and the U.S. Chemical Safety and Hazard Investigation Board, and Cabinet Secretary of the Louisiana Department of Veterans Affairs under Governor Bobby Jindal; also practiced energy-sector litigation at a Houston law firm (2023–2025); a former U.S. Marine who served in Afghanistan. JD, LSU Paul M. Hebert Law Center; BA, Nicholls State University.
 - LinkedIn: [linkedin.com/in/david-lacerte](https://www.linkedin.com/in/david-lacerte/)
 
-### Key People — Last Reviewed: 2026-07-09
+### Key People — Last Reviewed: 2026-10-26
 
 ## Why This Is Worth Tracking
 
@@ -90,6 +91,10 @@ FERC doesn't touch ERCOT directly, but it sets the rules everywhere else — mea
 - [Congressional Research Service, "The Federal Energy Regulatory Commission (FERC): Authorities and Membership," R48349](https://www.congress.gov/crs-product/R48349) — confirms the five-seat, staggered five-year term, no-more-than-three-per-party structure
 
 **Summary:** Confirmed via an authoritative secondary source (CRS). The current roster (Swett, See, and LaCerte associated with the appointing Republican administration; Rosner and Chang from the prior Democratic administration's nomination batch) is consistent with this 3–2 structural limit, though party affiliation for sitting commissioners is inferred from nominating administration and reporting rather than from a formal FERC-published party designation.
+
+## Notable Developments
+
+- **2026-06-18:** Issued Section 206 show-cause orders to PJM, MISO, SPP, CAISO, ISO-NE and NYISO on whether their tariffs adequately support large-load interconnection (loads of 50 MW or more above 69 kV), covering co-location, cost allocation and flexible loads; responses were due about August 17 (ERCOT not covered)
 
 ## Sources
 

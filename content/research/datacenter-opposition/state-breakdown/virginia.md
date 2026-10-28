@@ -1,11 +1,12 @@
 ---
 title: "Virginia: Data Center Alley Opposition"
 date: 2026-04-20
-lastmod: 2026-04-30
+lastmod: 2026-10-26
 draft: false
 description: "Virginia datacenter opposition — PW Digital Gateway litigation and victory, Loudoun County zoning reform, state-level tax exemption debates, organizing coalitions, and the political economics of 'Data Center Alley.'"
 research_area: "datacenter-opposition"
 source_urls:
+  - "https://introl.com/blog/virginia-data-center-tax-exemption-battle-2026"
   - "https://www.datacenterdynamics.com/en/news/virginia-court-upholds-decision-to-block-pw-digital-gateway-data-center-campus/"
   - "https://www.battlefields.org/speak-out/digital-gateway-threatens-overwhelm-manassas-battlefield"
   - "https://www.battlefields.org/news/win-historic-manassas-battlefield-and-nearby-residents-county-drops-defense-digital-gateway"
@@ -15,7 +16,7 @@ source_urls:
   - "https://insideclimatenews.org/news/02122023/virginia-environmentalists-protest-data-centers/"
   - "https://insideclimatenews.org/news/19052025/virginia-data-center-development-community-pushback/"
   - "https://www.zerohedge.com/markets/here-come-cancellations-brookfield-backed-compass-pulls-out-major-northern-virginia-data"
-last_reviewed: 2026-04-30
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -262,6 +263,10 @@ As of April 2026, datacenter policy is becoming a midterm issue in Virginia, par
 The PW Digital Gateway litigation and Loudoun County zoning reform show that opposition can succeed when well-organized and legally sound, but they also show that economic interests are strong and sustained.
 
 ---
+
+## 2026 Update
+
+- **2026:** The sales tax exemption cost about $1.6B in forgone revenue in fiscal 2025. The Senate budget proposed ending it on January 1, 2027 (versus the 2035 sunset), the House budget kept 2035 with clean-energy conditions, and in August 2026 lawmakers were still weighing new limits. The SCC approved a Dominion rate increase and a new data center rate class in January 2026; from January 2027 data centers must pay for at least 85% of contracted distribution and transmission demand and 60% of generation demand. ([Introl](https://introl.com/blog/virginia-data-center-tax-exemption-battle-2026))
 
 ## Sources
 

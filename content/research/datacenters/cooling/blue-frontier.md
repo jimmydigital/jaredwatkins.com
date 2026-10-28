@@ -1,7 +1,7 @@
 ---
 title: "Blue Frontier"
 date: 2026-07-18
-lastmod: 2026-07-18
+lastmod: 2026-10-26
 draft: false
 description: "Boca Raton, FL liquid-desiccant air conditioning company (NREL spinout, 2017) whose ESEAC/BF-DOAS technology combines dehumidification, evaporative cooling, and built-in thermal energy storage — a datacenter-adjacent waste-heat-driven cooling technology with no named data-center deployment confirmed as of this review."
 research_area: "datacenters/cooling"
@@ -11,7 +11,7 @@ source_urls:
   - "https://www.coolingpost.com/world-news/bill-gates-joins-20m-investment-in-efficient-ac-concept/"
   - "https://www.facilitiesdive.com/news/desiccant-based-storage-system-nearly-halves-cooling-bills-in-trials/759499/"
   - "https://www.theinvadingsea.com/2024/04/17/blue-frontier-air-conditioning-electricity-global-warming-boca-raton-startup-climate-technology/"
-last_reviewed: 2026-07-18
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "datacenters/cooling/mojave-energy-systems.md"
@@ -80,7 +80,7 @@ Documented deployments to date are in commercial, institutional, and defense bui
 - **Background:** B.S. Mechanical Engineering (University of Maryland, College Park); has designed liquid-desiccant air conditioners since 2013, starting at **Be Power Tech**; before that was Director of Product Development at **EnerFuel**, leading fuel-cell-stack cost reduction and a high-efficiency propane-fed fuel-cell telecommunications backup power program; focuses at Blue Frontier on material investigation, mechanical design, and fluid analysis of the system's heat/mass-exchange (HMX) devices and IP development.
 - **⚑ Overlap:** See Daniel Betts entry above — shared history with Betts and Tilghman at Be Power Tech/EnerFuel.
 
-### People — Last Reviewed: 2026-07-18
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

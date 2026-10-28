@@ -1,14 +1,15 @@
 ---
 title: "DJI DroneID Decoder"
 date: 2026-06-05
-lastmod: 2026-06-05
+lastmod: 2026-10-26
 draft: false
 description: "Open-source GNU Radio / SDR decoder for DJI's proprietary DroneID protocol — decodes DJI drone telemetry transmitted on 2.4/5.8 GHz control links before and alongside FAA Remote ID."
 research_area: "drone-detection/open-source"
 source_urls:
   - "https://github.com/proto17/dji_droneid"
+  - "https://github.com/proto17/dji_droneid"
   - "https://pmc.ncbi.nlm.nih.gov/articles/PMC10490811/"
-last_reviewed: 2026-06-05
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -54,6 +55,10 @@ This is significantly more capable than Remote ID-only for detecting DJI drones,
 - **Encryption evolution:** DJI has changed OcuSync protocols across product generations; decoder may not cover all current models
 - **RF-only:** Does not detect DJI drones operating autonomously without active RF link
 - **Legal note:** Receiving and decoding RF is permissible (monitoring only); not jamming
+
+## Notable Developments
+
+- **2026-10 repository check:** Public and not shown as archived; about 542 GitHub stars and 194 commits on the main branch; no tagged releases listed and last-commit dates were not visible, so recent activity is unconfirmed
 
 ## Sources
 

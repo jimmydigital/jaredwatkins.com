@@ -1,16 +1,17 @@
 ---
 title: "Luminar Technologies"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-26
 draft: false
-description: "Orlando/Palo Alto 1550nm automotive LiDAR developer that filed Chapter 11 bankruptcy in December 2025 after losing its anchor Volvo contract; semiconductor subsidiary sold to Quantum Computing Inc. for $110M."
+description: "Orlando/Palo Alto 1550nm automotive LiDAR developer that filed Chapter 11 bankruptcy in December 2025 after losing its anchor Volvo contract; semiconductor unit sold to Quantum Computing Inc. (February 2026), LiDAR business sold to MicroVision (February 2026), liquidation plan effective April 2026; company no longer operating."
 research_area: "robotics/sensors"
 source_urls:
+  - "https://www.tipranks.com/news/company-announcements/luminar-technologies-confirms-liquidation-plan-and-ends-operations"
   - "https://techcrunch.com/2025/12/15/lidar-maker-luminar-files-for-bankruptcy/"
   - "https://investors.luminartech.com/news-events/press-releases/detail/110/luminar-technologies-inc-initiates-voluntary-chapter-11"
   - "https://www.repairerdrivennews.com/2025/11/21/volvo-ends-relationship-with-luminar-removes-lidar-from-vehicles/"
   - "https://techcrunch.com/2025/12/16/how-luminars-doomed-volvo-deal-helped-drag-the-company-into-bankruptcy/"
-last_reviewed: 2026-03-31
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related: []
 ---
@@ -32,7 +33,7 @@ Luminar Technologies (NASDAQ: LAZR, now LAZRQ in bankruptcy) was an Orlando/Palo
 - **Bankruptcy filing:** December 15, 2025 — Chapter 11, Southern District of Texas
 - **Last reported revenue:** Q3 2025: $18.8M (9-month YTD); significantly below product cost ($26.8M product cost on that revenue = negative gross margin)
 - **Semiconductor subsidiary sale:** $110M to Quantum Computing Inc. (agreed pre-bankruptcy filing)
-- **Status:** In Chapter 11 proceedings as of early 2026; asset sale process underway
+- **Status:** Wound down. Semiconductor unit sold to Quantum Computing Inc. on 2026-02-02; LiDAR business sold to MicroVision on 2026-02-03; Fourth Amended Plan of Liquidation confirmed 2026-04-03 and effective 2026-04-06, cancelling all equity with no shareholder recovery and moving remaining assets into a liquidating trust
 
 ## What It Is / How It Works
 
@@ -48,6 +49,8 @@ The 1550nm approach was technically sound and remains competitive on range and e
 
 ## Notable Developments
 
+- **2026-04-06:** Liquidation plan takes effect; stock deregistered, SEC reporting suspended, directors and officers resigned and a liquidation trustee controls the remaining entities. ([TipRanks](https://www.tipranks.com/news/company-announcements/luminar-technologies-confirms-liquidation-plan-and-ends-operations))
+- **2026-02-02/03:** Sales close: Luminar Semiconductor to Quantum Computing Inc. and the LiDAR business to MicroVision. Sale prices for the MicroVision deal were not confirmed here. ([TipRanks](https://www.tipranks.com/news/company-announcements/luminar-technologies-confirms-liquidation-plan-and-ends-operations))
 - **2025-12:** Chapter 11 bankruptcy filed December 15, 2025; Quantum Computing Inc. agreement to purchase Luminar Semiconductors for $110M; asset sale bidding procedures approved December 30, 2025 with bids due January 9, 2026. ([TechCrunch](https://techcrunch.com/2025/12/15/lidar-maker-luminar-files-for-bankruptcy/); [Luminar IR](https://investors.luminartech.com/news-events/press-releases/detail/110/luminar-technologies-inc-initiates-voluntary-chapter-11))
 - **2025-11:** Volvo Cars terminates LiDAR supply agreement with Luminar, citing Luminar's failure to meet contractual obligations; Iris sensor removed from EX90 and ES90 programs from Model Year 2026 onward. ([Repairer Driven News](https://www.repairerdrivennews.com/2025/11/21/volvo-ends-relationship-with-luminar-removes-lidar-from-vehicles/))
 - **2025 (Q3):** $74M cash and marketable securities remaining; YTD revenue of $18.8M against $26.8M product cost; analyst projection of cash exhaustion by early 2026 without restructuring. ([Luminar IR](https://investors.luminartech.com/news-events/press-releases/detail/109/luminar-reports-q325-financials))
@@ -66,7 +69,7 @@ The 1550nm approach was technically sound and remains competitive on range and e
   - Various photonics self-study projects (2010–2012): Self-taught optics research leading to Luminar concept; first patent filed at age 15 for unrelated water recycling system
 - **Notes:** Russell was named youngest self-made billionaire (Forbes) in 2020 when Luminar went public. By 2025 his net worth had declined substantially with the stock price. He was simultaneously the company's most visible public advocate and its longest-standing single point of failure as the leader who could not execute the Volvo production ramp. His attempted Forbes acquisition in 2023 drew criticism as a distraction from the core business.
 
-### People — Last Reviewed: 2026-03-31
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 
@@ -89,6 +92,7 @@ Luminar operated at the **Component/Subsystem Supplier** layer, selling sensors 
 
 ## Sources
 
+- [Luminar confirms liquidation plan and ends operations — TipRanks (2026)](https://www.tipranks.com/news/company-announcements/luminar-technologies-confirms-liquidation-plan-and-ends-operations)
 - [Luminar Files for Chapter 11 — TechCrunch (Dec 2025)](https://techcrunch.com/2025/12/15/lidar-maker-luminar-files-for-bankruptcy/)
 - [Luminar Chapter 11 Press Release — Luminar IR (Dec 2025)](https://investors.luminartech.com/news-events/press-releases/detail/110/luminar-technologies-inc-initiates-voluntary-chapter-11)
 - [Volvo Ends Luminar Relationship — Repairer Driven News (Nov 2025)](https://www.repairerdrivennews.com/2025/11/21/volvo-ends-relationship-with-luminar-removes-lidar-from-videos/)

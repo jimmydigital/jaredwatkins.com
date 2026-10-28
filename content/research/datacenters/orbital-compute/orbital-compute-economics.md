@@ -1,7 +1,7 @@
 ---
 title: "Orbital Compute: First-Principles Economics"
 date: 2026-04-29
-lastmod: 2026-04-29
+lastmod: 2026-10-26
 draft: false
 description: "First-principles analysis of GPU energy budgets in LEO, satellite build and launch costs, technology gaps, and 10-year cost trajectory for orbital compute."
 research_area: "datacenters/orbital-compute"
@@ -9,7 +9,7 @@ source_urls:
   - "https://www.nasa.gov/smallsat-institute/sst-soa/power/"
   - "https://spacenews.com/spacex-starship-launch-cost-projections/"
   - "https://www.sciencedirect.com/science/article/pii/S0273117722009541"
-last_reviewed: 2026-04-29
+last_reviewed: 2026-10-26
 # changelog:
 # 2026-04-29: Revised terrestrial TCO section — corrected $50-60K/GPU figure to $93-171K range reflecting 120kW+ liquid-cooled rack economics for H100/GB200/Blackwell-class deployments
 stale_after_days: 180

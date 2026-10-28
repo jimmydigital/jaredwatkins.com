@@ -1,11 +1,11 @@
 ---
 title: Robotics Communications
 date: 2026-03-24
-lastmod: 2026-03-24
+lastmod: 2026-10-26
 draft: false
 description: Wireless communications subsystems for drones and ground robots — radio modules, cellular modems, mesh networking, and spectrum management.
 research_area: "robotics/communications"
-last_reviewed: 2026-03-24
+last_reviewed: 2026-10-26
 stale_after_days: 180
 sitemap:
   changefreq: "monthly"
@@ -35,12 +35,12 @@ Communications is a layer where robotics splits sharply along use-case lines. Co
 
 | Company | HQ | Stage | Mission |
 |---------|-----|-------|---------|
-| [Silvus Technologies](https://silvustechnologies.com) | Los Angeles, CA, USA | Private | StreamCaster MIMO mesh radios; software-defined, FHSS waveform; widely deployed in DoD UAS and UGV programs; no direct commercial equivalent. |
+| [Silvus Technologies](https://silvustechnologies.com) | Los Angeles, CA, USA | Acquired by Motorola Solutions (closed 2025-08-06) | StreamCaster MIMO mesh radios; software-defined, FHSS waveform; widely deployed in DoD UAS and UGV programs; no direct commercial equivalent. |
 | [Persistent Systems](https://www.persistentsystems.com) | New York, NY, USA | Private | MPU5 Wave Relay MANET radio; enables multi-hop mesh networking across ground/air mixed teams; deployed on numerous Army and Marine programs. |
 | [Celona](https://www.celona.io) | Campbell, CA, USA | Series C | Enterprise private 5G / CBRS solutions for industrial facilities; relevant for warehouse AMR connectivity infrastructure. |
 | [RFDesign](https://rfdesign.com.au) | Brisbane, Australia | Growth | RFD900 telemetry radio series for drones; 900 MHz, long-range, used extensively in defense and research UAS. |
 | [Doodle Labs](https://doodlelabs.com) | Singapore / USA | Growth | Mesh Rider radio family; 900 MHz and dual-band mesh networking for robots and UAS; used in defense and public safety. |
-| [TrellisWare Technologies](https://www.trellisware.com) | San Diego, CA, USA | Private (Kratos subsidiary) | TSM waveform for Army tactical communications; contested RF environment performance. |
+| [TrellisWare Technologies](https://www.trellisware.com) | San Diego, CA, USA | Private | TSM waveform for Army tactical communications; contested RF environment performance. |
 
 ### Public Companies
 
@@ -49,7 +49,7 @@ Communications is a layer where robotics splits sharply along use-case lines. Co
 | [SMTC](https://finance.yahoo.com/quote/SMTC) | [Semtech](https://www.semtech.com) | Acquired Sierra Wireless (2023); LoRa IoT radio technology + Sierra's LTE/5G cellular module business; broad IoT and robotics connectivity exposure. |
 | [VSAT](https://finance.yahoo.com/quote/VSAT) | [Viasat](https://www.viasat.com) | Satellite communications; SATCOM datalinks for long-range UAS and maritime robots; DoD SATCOM contracts. |
 | [LHX](https://finance.yahoo.com/quote/LHX) | [L3Harris](https://www.l3harris.com) | Defense electronics prime; encrypted tactical radios, datalinks, and SATCOM for defense UAS and UGV programs. |
-| [KTOS](https://finance.yahoo.com/quote/KTOS) | [Kratos Defense](https://www.kratosdefense.com) | Owns TrellisWare; also makes tactical drones (UTAP-22 Mako, XQ-58 Valkyrie); defense comms and unmanned systems. |
+| [KTOS](https://finance.yahoo.com/quote/KTOS) | [Kratos Defense](https://www.kratosdefense.com) | Makes tactical drones (UTAP-22 Mako, XQ-58 Valkyrie); defense comms and unmanned systems. |
 
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container" style="margin: 20px 0;">
@@ -114,4 +114,4 @@ Communications is a layer where robotics splits sharply along use-case lines. Co
 
 **5G BVLOS opportunity:** The combination of 5G cellular connectivity (enabling command and control at range) and evolving FAA BVLOS rulemaking is the key unlock for commercial drone delivery at scale. Companies like AT&T, Verizon, and T-Mobile are positioning 5G aviation services for drone operators; Qualcomm's Snapdragon X65 modem with drone-specific features is the likely connectivity layer. Watch FAA BVLOS ARC (Aviation Rulemaking Committee) outputs and the progress of Part 108 BVLOS rules as the key regulatory variable.
 
-### Supply Chain — Last Reviewed: 2026-03-24
+### Supply Chain — Last Reviewed: 2026-10-26

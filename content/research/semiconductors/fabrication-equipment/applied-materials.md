@@ -1,15 +1,16 @@
 ---
 title: "Applied Materials"
 date: 2026-04-24
-lastmod: 2026-04-24
+lastmod: 2026-10-26
 draft: false
 description: "Applied Materials Inc.: Largest wafer fabrication equipment (WFE) vendor by revenue; etch, deposition, CMP, ion implant systems; CEO Gary Dickerson; China revenue trajectory under export controls."
 research_area: "semiconductors/fabrication-equipment"
 source_urls:
+  - "https://futurumgroup.com/insights/applied-materials-q3-fy-2026-advanced-packaging-and-dram-accelerate-growth/"
   - "https://www.appliedmaterials.com/"
   - "https://www.appliedmaterials.com/us/en/about/leadership/executive-team/gary-dickerson.html"
   - "https://www.linkedin.com/in/gary-dickerson"
-last_reviewed: 2026-04-24
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -182,6 +183,10 @@ Lam Research and Tokyo Electron compete vigorously in etch and deposition. AMAT'
 5. **Scale:** $27B revenue enables high R&D spend, manufacturing scale, and customer support that smaller competitors cannot match.
 
 ---
+
+## Notable Developments
+
+- **FY2026 Q3 (reported Aug 13):** Revenue $9.12B (+25%), non-GAAP EPS $3.50 (+41%), Semiconductor Systems $7.04B, DRAM revenue +52%; Q4 guidance $10.25B ± $0.5B and non-GAAP EPS $4.02 ± $0.20
 
 ## Sources
 

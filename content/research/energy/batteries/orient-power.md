@@ -1,7 +1,7 @@
 ---
 title: "Orient Power (Zhuhai OTE)"
 date: 2026-04-03
-lastmod: 2026-04-03
+lastmod: 2026-10-26
 draft: false
 description: "Chinese factory-direct manufacturer of LiFePO4 BESS systems from residential to 5 MWh container scale; notable for low cost and direct sales rather than advanced chemistry; achieved CE certification on megawatt-class systems in 2026."
 research_area: "energy/batteries"
@@ -9,7 +9,7 @@ source_urls:
   - "https://www.orient-power.com/"
   - "https://www.enlit.world/directory/zhuhai-ote-electronic-technology-co-ltd-orient-power-industry-technology-company-limited/"
   - "https://www.opsolarbattery.com"
-last_reviewed: 2026-04-03
+last_reviewed: 2026-10-26
 stale_after_days: 180
 related:
   - "energy/batteries/_index.md"

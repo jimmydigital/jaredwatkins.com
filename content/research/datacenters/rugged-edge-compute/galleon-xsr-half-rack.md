@@ -1,7 +1,7 @@
 ---
 title: "Galleon Embedded Computing XSR Half-Rack Server"
 date: 2026-04-25
-lastmod: 2026-04-25
+lastmod: 2026-10-26
 draft: false
 description: "3U half-rack military-grade NAS with up to 80TB storage, 100 Gbps networking, FIPS-140-2 encryption. US-owned; C5ISR, naval, and aerospace deployments. Modular XSR product family."
 research_area: "datacenters/rugged-edge-compute"
@@ -9,7 +9,7 @@ source_urls:
   - "https://galleonec.com/product/rugged-servers/xsr-half-rack-server/"
   - "https://galleonec.com/xsr-family-of-rugged-computing-products/"
   - "https://galleonec.com/galleon-releases-xsr-half-rack-server/"
-last_reviewed: 2026-04-25
+last_reviewed: 2026-10-26
 stale_after_days: 180
 ---
 

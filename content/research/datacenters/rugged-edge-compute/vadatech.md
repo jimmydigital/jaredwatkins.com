@@ -1,7 +1,7 @@
 ---
 title: "VadaTech"
 date: 2026-04-25
-lastmod: 2026-04-25
+lastmod: 2026-10-26
 draft: false
 description: "Henderson, NV-based MicroTCA platform and AMC module specialist; largest dedicated MicroTCA vendor in North America serving defense, telecom, scientific, and industrial markets."
 research_area: "datacenters/rugged-edge-compute"
@@ -11,7 +11,7 @@ source_urls:
   - "https://www.vadatech.com/vt-news-april-2025/"
   - "https://militaryembedded.com/unmanned/rugged-computing/new-microtca-1-compliant-chassis-from-vadatech-for-rugged-applications"
   - "https://www.vadatech.com/vadatech-announces-a-conduction-cooled-microtca-chassis-with-full-redundancy-across-two-amc-slots/"
-last_reviewed: 2026-04-25
+last_reviewed: 2026-10-26
 stale_after_days: 180
 ---
 
@@ -69,7 +69,7 @@ VadaTech's AMC module catalog spans CPU modules (Intel Xeon D, Core-class), FPGA
 
 <!-- LinkedIn and detailed biographies not found in public sources for VadaTech executives; company maintains low public profile -->
 
-### People — Last Reviewed: 2026-04-25
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

@@ -1,11 +1,12 @@
 ---
 title: "Crusoe"
 date: 2026-03-25
-lastmod: 2026-07-26
+lastmod: 2026-10-26
 draft: false
 description: "Denver-based AI Factory developer and cloud provider; co-founded 2018 by Chase Lochmiller and Cully Cavness; $1.375B Series E (Oct 2025) at >$10B valuation, in talks for ~$3B round at ~$30B valuation (Jul 2026, unconfirmed); 4.9 GW contracted AI infrastructure capacity (Jun 2026) across a 40+ GW pipeline; primary developer for OpenAI's Stargate campus in Abilene, TX; zero-water-evaporation direct-to-chip cooling; vertically integrated from power sourcing through managed AI inference. Paused Wyoming campus development (Jun 2026) at customer's request."
 research_area: "datacenters/design-construction"
 source_urls:
+  - "https://www.zawya.com/en/special-coverage/ai-infrastructure-provider-crusoe-valued-at-30.9bln-in-latest-funding-round-982627"
   - "https://www.crusoe.ai/"
   - "https://www.datacenterdynamics.com/en/news/crusoe-secures-116bn-in-debt-and-equity-for-openais-stargate-data-center-campus-in-abilene-texas/"
   - "https://www.businesswire.com/news/home/20241015910376/en/Crusoe-Blue-Owl-Capital-and-Primary-Digital-Infrastructure-Enter-%243.4-billion-Joint-Venture-for-AI-Data-Center-Development"
@@ -14,7 +15,7 @@ source_urls:
   - "https://www.crusoe.ai/resources/newsroom/crusoes-contracted-ai-infrastructure-capacity-approaches-5-gigawatts-across-data-centers-and-cloud"
   - "https://www.bloomberg.com/news/articles/2026-06-09/crusoe-touts-5-gigawatts-worth-of-data-centers-deals-pauses-wyoming-site"
   - "https://www.bloomberg.com/news/articles/2026-07-02/crusoe-in-talks-to-raise-3-billion-in-round-that-may-triple-firm-s-value"
-last_reviewed: 2026-07-26
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "datacenters/design-construction/_index.md"
@@ -41,7 +42,8 @@ Crusoe is a Denver, Colorado AI Factory developer and cloud provider co-founded 
 - **Series C:** $350M (2022), G2 Venture Partners lead; valuation $1.75B
 - **Series D:** $600M (2024); valuation $2.8B
 - **Series E:** $1.375B (initial closing Oct 24, 2025), co-led by Valor Equity Partners and Mubadala Capital, with NVIDIA, Fidelity, T. Rowe Price, Tiger Global, Salesforce Ventures, Founders Fund, and others; valuation >$10B
-- **Reported in-progress round (unconfirmed, as of Jul 2026):** In talks to raise ~$3B at a valuation approaching ~$30B (roughly 3x the Oct 2025 mark) per Bloomberg reporting (Jul 2, 2026); not yet closed or confirmed by the company at time of review
+- **Series F (September 2026):** $3.9B at a $30.9B post-money valuation, co-led by Atreides Management, Mubadala Capital and Valor Equity Partners, with Founders Fund, NVIDIA and QIA participating; Crusoe cites 6+ GW of contracted capacity (1 GW operational) and $140B+ in contracted value (Reuters via Zawya)
+- **Earlier reported talks (Jul 2026, superseded by the Series F):** In talks to raise ~$3B at a valuation approaching ~$30B (roughly 3x the Oct 2025 mark) per Bloomberg reporting (Jul 2, 2026); not yet closed or confirmed by the company at time of review
 - **Contracted AI infrastructure capacity:** 4.9 GW across data centers and Crusoe Cloud combined (announced Jun 2026); total development pipeline exceeds 40 GW
 - **Power pipeline:** Grew 4x+ in the year to Oct 2025, exceeding 45 GW, per Crusoe's Series E announcement
 - **Flagship project:** Stargate Abilene campus — primary developer for OpenAI; 1.2 GW campus (per Series E announcement, up from earlier 800-acre/8-hall description); up to 50,000 NVIDIA GB200 NVL72 nodes per hall; first phase live approximately one year after construction began (per Oct 2025 company statement)
@@ -76,6 +78,7 @@ Crusoe is the most vertically integrated player in the AI Factory category. Wher
 
 ## Notable Developments
 
+- **2026-09:** Closes a $3.9B Series F at a $30.9B post-money valuation. ([Reuters via Zawya](https://www.zawya.com/en/special-coverage/ai-infrastructure-provider-crusoe-valued-at-30.9bln-in-latest-funding-round-982627))
 - **2026-07-21:** Announced partnership with ON.energy to deploy 5 GW of "AI UPS" (uninterruptible power supply) systems at multiple hyperscale campuses.
 - **2026-07-15:** Announced 1.0 GW AI data center campus in Childress, Texas, jointly with Lancium.
 - **2026-07-02:** Bloomberg reported Crusoe is in talks to raise ~$3B in a round that could value the company near ~$30B — roughly triple its October 2025 valuation; unconfirmed by the company, no final terms disclosed as of this review.
@@ -115,7 +118,7 @@ Crusoe is the most vertically integrated player in the AI Factory category. Wher
 - **Role:** SVP Product Management
 - **Background:** Product leadership for Crusoe Cloud and managed inference products
 
-### People — Last Reviewed: 2026-03-25
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

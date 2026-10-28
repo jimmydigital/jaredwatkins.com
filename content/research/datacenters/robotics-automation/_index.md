@@ -1,11 +1,11 @@
 ---
 title: Datacenter Robotics & Automation
 date: 2026-03-24
-lastmod: 2026-03-24
+lastmod: 2026-10-26
 draft: false
 description: Autonomous and robotic systems for datacenter operations — robot-friendly rack design, server installation automation, and lights-out facility management.
 research_area: "datacenters/robotics-automation"
-last_reviewed: 2026-03-24
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -45,7 +45,7 @@ The datacenter automation thesis is straightforward: labor costs are rising, tec
 |--------|---------|-----------|
 | [9434.T](https://finance.yahoo.com/quote/9434.T) | [SoftBank Corp.](https://www.softbank.jp/en/) | Developed robot-friendly cable-less server rack (December 2025); testing at Hokkaido Tomakomai AI Data Center; goal of fully autonomous robot-operated facilities. |
 | [SCHN](https://finance.yahoo.com/quote/SCHN) | [Schneider Electric](https://www.se.com) | EcoStruxure DCIM software for automated datacenter management; physical automation adjacency through monitoring and BMS integration. |
-| [VRT](https://finance.yahoo.com/quote/VRT) | [Vertiv Holdings](https://www.vertiv.com) | Acquired WiBotic (wireless robot charging); power and thermal infrastructure relevant to robot-operated facilities. |
+| [VRT](https://finance.yahoo.com/quote/VRT) | [Vertiv Holdings](https://www.vertiv.com) | Power and thermal infrastructure relevant to robot-operated facilities. |
 
 ## Supply Chain
 
@@ -69,7 +69,7 @@ Robot servicing of datacenters requires concurrent innovation across four layers
 | **2. Robot Platforms** | Robot arms, mobile bases, gantry systems for server handling | Boston Dynamics (Spot for patrol/inspection), custom integrators; no commercial product yet for physical server installation | Robot arm manufacturing: Japan (Fanuc, Yaskawa), US (Boston Dynamics), Germany |
 | **3. Computer Vision & AI** | Object detection, pose estimation, manipulation planning for server handling | NVIDIA (Isaac robotics platform), various integrators | Software: US-concentrated |
 | **4. Rack & Infrastructure** | Cable-less rack chassis, busbar systems, integrated cooling manifolds | Custom/OEM (SoftBank's design is proprietary); busbar from Legrand, Schneider, Eaton | Rack manufacturing: global |
-| **5. Charging Infrastructure** | Robot charging systems for autonomous datacenter robots | WiBotic (Vertiv subsidiary), Wiferion | US and Germany |
+| **5. Charging Infrastructure** | Robot charging systems for autonomous datacenter robots | WiBotic, Wiferion | US and Germany |
 
 ### Key Supply Chain Notes
 
@@ -79,4 +79,4 @@ Robot servicing of datacenters requires concurrent innovation across four layers
 
 **Immersion servicing challenge:** Robot-servicing of immersion-cooled servers requires vertical lift from a fluid bath — fundamentally different from the horizontal rack-slide motion that robot-friendly rack designs (like [SoftBank's]({{< relref "softbank-robot-rack.md" >}})) assume. These are two separate problem spaces. [Submer's ADA]({{< relref "submer-ada.md" >}}) addresses the immersion case specifically; it is not designed for air-cooled or direct-to-chip racks.
 
-### Supply Chain — Last Reviewed: 2026-03-24
+### Supply Chain — Last Reviewed: 2026-10-26

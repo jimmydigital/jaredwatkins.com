@@ -1,11 +1,11 @@
 ---
 title: Datacenter Cooling
 date: 2026-03-24
-lastmod: 2026-07-18
+lastmod: 2026-10-26
 draft: false
 description: Liquid cooling systems for high-density AI and HPC datacenters — immersion, direct-to-chip, rear-door heat exchangers, and the companies supplying them.
 research_area: "datacenters/cooling"
-last_reviewed: 2026-07-18
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -118,4 +118,4 @@ The shift from air to liquid cooling is the defining infrastructure transition o
 
 **⚑ Connector supply chain detail:** See [Liquid Cooling Connector Supply Chain]({{< relref "liquid-cooling-connector-supply-chain.md" >}}) for the full vendor breakdown, geographic concentration analysis, and qualification dynamics. See [Liquid Cooling Interconnects]({{< relref "liquid-cooling-interconnects.md" >}}) for the technical comparison of connector families and why so many coexist.
 
-### Supply Chain — Last Reviewed: 2026-06-07
+### Supply Chain — Last Reviewed: 2026-10-26

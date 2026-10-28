@@ -1,18 +1,19 @@
 ---
 title: "RADA / Leonardo DRS"
 date: 2026-07-17
-lastmod: 2026-07-17
+lastmod: 2026-10-26
 draft: false
 description: "Israeli-origin radar maker (RADA Electronic Industries), now DRS RADA Technologies within Leonardo DRS; its Multi-Mission Hemispheric Radar (MHR) family uses a digital MIMO radar architecture for 4D AESA pulse-Doppler detection, with variants (RPS-42, RPS-82) integrated into third-party C-UAS products including DroneShield's DroneSentry."
 research_area: "drone-detection/mimo-radar"
 source_urls:
+  - "https://www.nasdaq.com/articles/leonardo-drs-q2-earnings-call-highlights"
   - "https://www.drsrada.com/missions/shorad-c-uas"
   - "https://www.leonardodrs.com/what-we-do/products-and-services/multi-mission-hemispheric-radar/"
   - "https://www.drsrada.com/products/nmhr"
   - "https://www.leonardodrs.com/what-we-do/products-and-services/improved-and-enhanced-multi-mission-hemispheric-radar/"
   - "https://www.radartutorial.eu/19.kartei/05.perimeter/karte007.en.html"
   - "https://www.airforce-technology.com/news/newsrada-to-supply-rps-42-aerial-surveillance-radar-systems-to-undisclosed-asian-country-4989931/"
-last_reviewed: 2026-07-17
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -39,6 +40,7 @@ MHR-family radars use a planar, non-rotating AESA antenna with direct RF samplin
 
 ## Notable Developments
 
+- **2026-07:** Leonardo DRS Q2 2026 revenue $913M (+10%) with tactical radar a main growth driver and order flow exceeding supply; FY2026 revenue guidance $3.9–3.975B maintained and adjusted EBITDA guidance raised to $525–540M. ([Nasdaq](https://www.nasdaq.com/articles/leonardo-drs-q2-earnings-call-highlights))
 - **2025:** DroneShield integrates an RPS-82 AESA radar (RADA/Leonardo DRS lineage) into its DroneSentry fixed-site C-UAS suite, improving detection range and 4D tracking capability
 - **Ongoing:** Leonardo DRS continues to expand the MHR family with next-generation variants (nMHR, ieMHR, exMHR) emphasizing wideband operation, direct RF sampling, and planar transmit/receive architecture
 - **Export:** RPS-42 systems reportedly supplied to an undisclosed Asian country for aerial surveillance

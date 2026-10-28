@@ -1,7 +1,7 @@
 ---
 title: "N.A.T. GmbH (NAT Europe)"
 date: 2026-04-25
-lastmod: 2026-04-25
+lastmod: 2026-10-26
 draft: false
 description: "Hennef, Germany-based MicroTCA Carrier Hub (MCH) specialist with the NAT-MCH product line; primary MCH supplier for European physics accelerator and 5G RAN timing applications."
 research_area: "datacenters/rugged-edge-compute"
@@ -11,7 +11,7 @@ source_urls:
   - "https://nateurope.com/microtca-0-revision-3-released/"
   - "https://nateurope.com/ieee-quantum-week-2024/"
   - "https://www.picmg.org/spec-product/nat-microtca-carrier-hub-mch-gen3/"
-last_reviewed: 2026-04-25
+last_reviewed: 2026-10-26
 stale_after_days: 180
 ---
 
@@ -68,7 +68,7 @@ N.A.T.'s MCH is the standard choice for the XTCA for Physics community — a wor
 <!-- N.A.T. GmbH executives and LinkedIn profiles not confirmed in public sources at time of writing -->
 <!-- TODO: Research NAT Europe leadership team at nateurope.com/about -->
 
-### People — Last Reviewed: 2026-04-25
+### People — Last Reviewed: 2026-10-26
 
 ## Sources
 

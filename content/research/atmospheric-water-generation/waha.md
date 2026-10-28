@@ -1,16 +1,17 @@
 ---
 title: "WaHa"
 date: 2026-07-16
-lastmod: 2026-07-16
+lastmod: 2026-10-26
 draft: false
 description: "Fremont, CA-based atmospheric water generation company (formerly Water Harvesting Inc.), originally founded in 2018 by Omar Yaghi to commercialize UC Berkeley MOF patents; now built around a heat-pump-driven solid-desiccant regeneration engine."
 research_area: "atmospheric-water-generation"
 source_urls:
+  - "https://sharikatmubasher.com/news/article/21495499/waha-secures-8mn-series-a-1-to-scale-water-tech-across-gcc?lang=en"
   - "https://www.wahainc.com/"
   - "https://www.wahainc.com/about-us/"
   - "https://www.wahainc.com/frank-ramirez/"
   - "https://www.businesswire.com/news/home/20250710412651/en/WaHa-Secures-$8-Million-in-Series-A-1-Funding-to-Accelerate-Global-Growth"
-last_reviewed: 2026-07-16
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "atmospheric-water-generation/mof-801.md"
@@ -46,6 +47,7 @@ According to CEO Frank Ramirez's own account, WaHa went through "recapitalizatio
 
 ## Notable Developments
 
+- **2025-07:** $8M Series A-1 plus reorganization (led by Chairman Mike Phillips and board member Christian Thirion; Mitsui Mining & Smelting among backers) to clear debt and expand in the UAE and GCC; units tested in Riyadh, Abu Dhabi, Stockholm and West Texas; first commercial unit planned for WETEX Dubai (Sept 2025); no newer verified news found
 - **2025-10:** WaHa issued a press release celebrating co-founder Omar Yaghi's 2025 Nobel Prize in Chemistry, continuing to credit him as co-founder years after the company's operational leadership changed.
 - **2025-07:** Closed $8M Series A-1 financing (Berkeley Catalyst Fund, Anthropocene Institute, Vestafund, Mitsui Mining & Smelting), eliminating company debt and simplifying its cap table; reported 99.998% mechanical reliability and 98.3% of target water volume across deployments in West Texas, Abu Dhabi, a remote UAE desert site, Riyadh, and Stockholm since 2023.
 - **2025-09:** Unveiled its first commercially available AWG unit at the WETEX 2025 exhibition in Dubai.
@@ -77,7 +79,7 @@ According to CEO Frank Ramirez's own account, WaHa went through "recapitalizatio
 - **LinkedIn:** Not found
 - **Background:** See [Atoco]({{< relref "atoco.md" >}}) entry for full biography. Founded WaHa in 2018 to commercialize UC Berkeley MOF and water-harvesting patents; still credited as "Co-Founder" in WaHa's own October 2025 press materials, though not listed among WaHa's current operating leadership team following the company's recapitalization.
 
-### People — Last Reviewed: 2026-07-16
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

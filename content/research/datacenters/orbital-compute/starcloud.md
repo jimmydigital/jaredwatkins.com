@@ -6,6 +6,7 @@ draft: false
 description: "Seattle-area startup building and operating orbital data centers; first to train an LLM in space; YC unicorn; $170M Series A at $1.1B (March 2026), then a $250M extension at $2.3B post-money (August 2026), about $450M raised in total."
 research_area: "datacenters/orbital-compute"
 source_urls:
+  - "https://www.unite.ai/starcloud-raises-250m-series-a-extension-at-2-3b-valuation/"
   - "https://www.starcloud.com/"
   - "https://www.unite.ai/starcloud-raises-250m-series-a-extension-at-2-3b-valuation/"
   - "https://techcrunch.com/2026/03/30/starcloud-raises-170-million-series-ato-build-data-centers-in-space/"
@@ -48,6 +49,7 @@ The company was originally founded as Lumen Orbit. Following a trademark challen
 
 ## Notable Developments
 
+- **2026-08:** $250M Series A extension at a $2.3B post-money valuation (total raised $450M), led by Manhattan West with NVIDIA, Cisco Investments and others; Starcloud-2 planned for later in 2026; FCC filing describes an 88,000-satellite constellation targeting 20 GW; collaborating with NVIDIA on a space-rated Vera Rubin module
 - **2026-08-21:** Announced $250M Series A extension at $2.3B post-money valuation, led by Manhattan West with Benchmark, EQT, Soma, NFX and 776 participating and NVIDIA and Cisco Investments among the new investors; total raised about $450M. ([Unite.AI](https://www.unite.ai/starcloud-raises-250m-series-a-extension-at-2-3b-valuation/))
 - **2026-05:** Starlink deal for more than 50 Starlink Mini Laser terminals across at least 25 satellites, enabling up to 25 Gbps intersatellite optical links. ([Unite.AI](https://www.unite.ai/starcloud-raises-250m-series-a-extension-at-2-3b-valuation/))
 - **2026-03:** Raised $170M Series A led by Benchmark and EQT Ventures at $1.1B valuation; fastest YC unicorn (17 months post-program)

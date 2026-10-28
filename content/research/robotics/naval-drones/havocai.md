@@ -1,7 +1,7 @@
 ---
 title: "HavocAI — Collaborative Maritime Autonomy"
 date: 2026-06-29
-lastmod: 2026-06-29
+lastmod: 2026-10-26
 draft: false
 description: "HavocAI (Providence, RI) builds the autonomy stack coordinating fleets of autonomous surface vessels across air and sea domains. Founded 2024; $185M raised; 30+ vessels delivered to US DoD; partnering with Hanwha to build 200-foot ASVs. First to demonstrate air-sea autonomy in GPS-denied environment."
 research_area: "robotics/naval-drones"
@@ -11,7 +11,7 @@ source_urls:
   - "https://www.prnewswire.com/news-releases/havoc-raises-100m-series-a-to-power-the-future-of-all-domain-collaborative-autonomy-302769697.html"
   - "https://www.defenseone.com/business/2025/06/naval-drone-startup-havocai-hopes-build-100-foot-robot-boat-years-end/405901/"
   - "https://www.axios.com/2025/12/22/havocai-ukraine-drones-troia-gps"
-last_reviewed: 2026-06-29
+last_reviewed: 2026-10-26
 stale_after_days: 60
 ---
 

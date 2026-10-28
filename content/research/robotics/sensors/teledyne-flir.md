@@ -1,16 +1,17 @@
 ---
 title: "Teledyne FLIR"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-26
 draft: false
 description: "Teledyne Technologies' thermal imaging division; world's largest volume manufacturer of ITAR-free infrared sensors and modules; Boson and Lepton modules are the dominant OEM thermal payloads for drones, UGVs, and defense platforms."
 research_area: "robotics/sensors"
 source_urls:
+  - "https://finviz.com/news/405103/teledyne-technologies-reports-third-quarter-results"
   - "https://oem.flir.com/products/lepton/"
   - "https://defense.flir.com/about/news/teledyne-flir-defense-unveils-cerberus-xl-c-uas-mobile-counter-drone-system-at-ausa-2024/"
   - "https://dronelife.com/2026/02/24/teledyne-flir-lepton-xds-dual-thermal-visible-camera/"
   - "https://dronelife.com/2025/03/11/teledyne-flir-introduces-radiometric-thermal-camera-modules-for-defense-and-industrial-applications/"
-last_reviewed: 2026-03-31
+last_reviewed: 2026-10-26
 stale_after_days: 180
 related: []
 ---
@@ -29,6 +30,7 @@ Teledyne FLIR is the thermal imaging division of Teledyne Technologies (NYSE: TD
 - **Type:** Subsidiary of [Teledyne Technologies (NYSE: TDY)](https://finance.yahoo.com/quote/TDY)
 - **Teledyne CEO:** Robert Mehrabian (Chairman, President, and CEO; returned to role October 2021 upon Al Pichelli's retirement)
 - **Key products:** Lepton (OEM micro-thermal, 160×120 or 160×120 radiometric, ITAR-free); Boson / Boson+ (640×512 or 320×256 uncooled LWIR, ITAR-free); Hadron 640R/R+ (dual thermal+visible fusion module); Neutrino Ground ISR (cooled MWIR, EAR-controlled); SIRAS UAS (complete drone platform)
+- **Teledyne Q3 2026 (reported 2026-10-21):** net sales $1,684.9M (+9.4%); Digital Imaging segment, which includes FLIR, $903.0M (+15.0%) with operating income up 48.1%, driven mainly by infrared detectors, components and subsystems for defense and commercial uses
 - **Teledyne TDY total revenue:** $5.67B FY2024; Digital Imaging segment (includes FLIR) approximated at ~$3B pro-forma at acquisition; current segment breakdown not separately disclosed
 
 ## What It Is / How It Works
@@ -47,6 +49,8 @@ Teledyne FLIR has vertically integrated into complete drone platforms (SIRAS) an
 
 ## Notable Developments
 
+- **2026-10-21:** Teledyne reports Q3 2026 Digital Imaging sales of $903.0M (+15.0%) and raises full-year guidance. ([Finviz / company release](https://finviz.com/news/405103/teledyne-technologies-reports-third-quarter-results))
+- **2026-08-10:** Teledyne agrees to acquire Varex Imaging for about $1.1B in cash; Varex would join the Digital Imaging segment, with closing expected in early 2027 subject to approvals. ([Finviz / company release](https://finviz.com/news/405103/teledyne-technologies-reports-third-quarter-results))
 - **2026-02:** Lepton XDS dual thermal+visible OEM module launched; combines radiometric Lepton 3.5 with 5MP visible camera and MSX technology. ([Drone Life](https://dronelife.com/2026/02/24/teledyne-flir-lepton-xds-dual-thermal-visible-camera/))
 - **2025-11:** FLIR Boson thermal camera powers SYPAQ CorvoX drone for Australian Army. ([Drone Life](https://dronelife.com/2025/11/03/teledyne-flir-boson-thermal-camera-powers-sypaqs-corvox-for-australian-army/))
 - **2025-05:** Dragoon Defense selects Teledyne FLIR autonomy software for next-generation defense drones. ([Drone Life](https://dronelife.com/2025/05/20/dragoon-taps-teledyne-flir-for-next-gen-defense-drones/))
@@ -63,7 +67,7 @@ Teledyne FLIR has vertically integrated into complete drone platforms (SIRAS) an
   - Teledyne Technologies (1999–present): Founder, Chairman, President, CEO; briefly stepped back as CEO 2019–2021 during Al Pichelli's tenure
 - **Notes:** Mehrabian founded Teledyne Technologies in 1999 as a spinoff from the original Teledyne Inc. conglomerate. He has built Teledyne through serial acquisitions of high-technology defense and industrial instrumentation companies. The FLIR acquisition at ~$8B was the largest in Teledyne's history.
 
-### People — Last Reviewed: 2026-03-31
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 
@@ -85,6 +89,7 @@ Teledyne FLIR operates at multiple layers: **Component/Subsystem Supplier** (Lep
 
 ## Sources
 
+- [Teledyne Q3 2026 results — Finviz (Oct 21, 2026)](https://finviz.com/news/405103/teledyne-technologies-reports-third-quarter-results)
 - [Lepton LWIR Micro Thermal Camera Module — Teledyne FLIR OEM](https://oem.flir.com/products/lepton/)
 - [Lepton XDS Launch — Drone Life (Feb 2026)](https://dronelife.com/2026/02/24/teledyne-flir-lepton-xds-dual-thermal-visible-camera/)
 - [Radiometric Boson+ and Hadron 640R+ — Drone Life (Mar 2025)](https://dronelife.com/2025/03/11/teledyne-flir-introduces-radiometric-thermal-camera-modules-for-defense-and-industrial-applications/)

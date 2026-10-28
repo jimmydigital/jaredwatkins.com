@@ -1,7 +1,7 @@
 ---
 title: "Annapolis Micro Systems"
 date: 2026-04-25
-lastmod: 2026-04-25
+lastmod: 2026-10-26
 draft: false
 description: "Annapolis, MD company specializing in FPGA-based rugged OpenVPX boards and chassis for high-performance signal processing in defense applications. Developer of the WILD100 EcoSystem for SOSA-aligned rugged compute."
 research_area: "datacenters/rugged-edge-compute"
@@ -10,7 +10,7 @@ source_urls:
   - "https://www.annapmicro.com/annapolis-microsystems/cooling/"
   - "https://www.annapmicro.com/products/wc34d0/"
   - "https://militaryembedded.com/radar-ew/signal-processing/product-of-the-week-annapolis-microsystems-3u-vpx-switches-and-chassis"
-last_reviewed: 2026-04-25
+last_reviewed: 2026-10-26
 stale_after_days: 180
 ---
 
@@ -73,7 +73,7 @@ The company publishes detailed guidance distinguishing these three cooling modes
 
 - <!-- TODO: verify current CEO and engineering leadership; LinkedIn profiles not confirmed -->
 
-### People — Last Reviewed: 2026-04-25
+### People — Last Reviewed: 2026-10-26
 
 ## Sources
 

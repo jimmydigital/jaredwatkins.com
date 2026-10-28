@@ -1,7 +1,7 @@
 ---
 title: "Ghost Robotics"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-26
 draft: false
 description: "Philadelphia, PA quadruped robot company; Vision 60 Q-UGV deployed with USAF, Army, and Marine Corps; acquired by South Korean defense company LIG Nex1 for $240M (60% stake) in 2024 at a $400M valuation; SWORD SPUR rifle-equipped variant controversial but fielded with MARSOC."
 research_area: "robotics/ground-drones"
@@ -11,7 +11,7 @@ source_urls:
   - "https://www.therobotreport.com/lig-nex1-announces-intent-to-acquire-quadruped-maker-ghost-robotics/"
   - "https://spectrum.ieee.org/ghost-robotics-armed-military-robots"
   - "https://www.twz.com/sea/rifle-armed-robot-dogs-now-being-tested-by-marine-special-operators"
-last_reviewed: 2026-03-31
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related: []
 ---
@@ -71,7 +71,7 @@ The LIG Nex1 acquisition (2024) brings South Korean defense industry backing and
 ### Current CEO (post-2022)
 - Not publicly identified in available English-language sources as of early 2026; post-Parikh leadership transition details are not publicly documented.
 
-### People — Last Reviewed: 2026-03-31
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

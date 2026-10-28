@@ -1,7 +1,7 @@
 ---
 title: "Cisco Expert Model"
 date: 2026-06-10
-lastmod: 2026-06-10
+lastmod: 2026-10-26
 draft: false
 description: "Design specification for a fine-tuned Cisco network engineer specialist LLM covering IOS, IOS-XE, NX-OS, and ASA: base model, training data requirements covering multiple OS variants, fine-tuning parameters, and edge deployment."
 research_area: "local-llm-finetuning/specialist-models"
@@ -9,7 +9,7 @@ source_urls:
   - "https://www.cisco.com/c/en/us/support/docs/"
   - "https://developer.cisco.com/docs/"
   - "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
-last_reviewed: 2026-06-10
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

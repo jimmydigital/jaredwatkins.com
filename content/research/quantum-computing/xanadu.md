@@ -1,11 +1,12 @@
 ---
 title: "Xanadu"
 date: 2026-04-05
-lastmod: 2026-04-05
+lastmod: 2026-10-26
 draft: false
 description: "Toronto-based photonic quantum computing company; developed Borealis quantum advantage system and PennyLane open-source SDK; recently went public via SPAC merger; building Aurora modular fault-tolerant platform targeting 2028–2029 deployment."
 research_area: "quantum-computing"
 source_urls:
+  - "https://www.sec.gov/Archives/edgar/data/0002097163/000209716326000020/exhibit991pressrelease-aug.htm"
   - "https://www.xanadu.ai"
   - "https://www.xanadu.ai/about/"
   - "https://www.xanadu.ai/products/pennylane/"
@@ -14,7 +15,7 @@ source_urls:
   - "https://www.sec.gov/cgi-bin/browse-edgar?company=xanadu&owner=exclude&action=getcompany"
   - "https://www.prnewswire.com/news-releases/xanadu-and-disco-announce-collaboration-on-advanced-wafer-processing-for-photonic-quantum-computing-302526516.html"
   - "https://arxiv.org/abs/2212.14703"
-last_reviewed: 2026-04-05
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -76,6 +77,7 @@ Xanadu instead reports squeezed mode counts and computational samples produced. 
 
 ### 2026 (Most Recent)
 
+- **2026-08:** Q2 2026 revenue ~$1.5M, net loss $42.1M, cash $312.8M; $67.2M raised in Q2 under a Yorkville synthetic at-the-market facility of up to $300M (arranged May 2026); Albany, NY expansion; edge-coupling loss of 0.085 dB per facet. ([Xanadu 6-K](https://www.sec.gov/Archives/edgar/data/0002097163/000209716326000020/exhibit991pressrelease-aug.htm))
 - **2026-03:** Completed SPAC merger with Crane Harbor Acquisition Corp; went public on Nasdaq (XNDU) and Toronto Stock Exchange (XNDU). Business combination raised approximately $302M total (SPAC investor commitment ~$275M plus $27M in financing).
 - **2026-03:** Partnership with University of Toronto and National Research Council of Canada announced for lithium-ion battery simulation quantum algorithms.
 - **2026-03:** Announced Stage B advancement in DARPA's Quantum Benchmarking Initiative (QBI). Stage B represents government evaluation process, not technical validation of claimed advantage.
@@ -196,7 +198,7 @@ Estimated as substantial (based on active research community using PennyLane for
 - **Academic overlap:** Collaboration with University of Toronto; strong theoretical quantum optics background
 - **LinkedIn:** Not located with certainty in searches
 
-### People — Last Reviewed: 2026-04-05
+### People — Last Reviewed: 2026-10-26
 
 Note: Xanadu is still a relatively small company (private/post-IPO startup stage). Leadership team depth in peer-reviewed quantum research is concentrated among founders and early research hires. No significant leadership departures have been announced as of April 2026.
 

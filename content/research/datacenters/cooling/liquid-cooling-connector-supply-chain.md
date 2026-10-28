@@ -1,7 +1,7 @@
 ---
 title: "Liquid Cooling Connector Supply Chain"
 date: 2026-06-07
-lastmod: 2026-06-07
+lastmod: 2026-10-26
 draft: false
 description: "Who makes liquid cooling connectors, where they are made, market concentration, Chinese manufacturing emergence, and supply chain risks for AI datacenter deployments."
 research_area: "datacenters/cooling"
@@ -22,7 +22,7 @@ source_urls:
   - "https://stockanalysis.com/quote/cph/ASTK/"
   - "https://www.insidermonkey.com/blog/heres-why-parker-hannifin-corporation-ph-is-one-of-the-best-liquid-cooling-stocks-to-buy-for-ai-data-centers-1760271/"
   - "https://www.gurufocus.com/news/8812935/dover-corporation-dov-projects-strong-earnings-growth-driven-by-ai-demand"
-last_reviewed: 2026-06-07
+last_reviewed: 2026-10-26
 related:
   - "liquid-cooling-interconnects.md"
 stale_after_days: 90
@@ -114,7 +114,7 @@ Patrick Gerst — General Manager, Thermal Business Unit, CPC (Colder Products C
 
 Barry Nielsen — Senior Applications Development Manager, CPC. Led development of custom Everis BLQ connectors for exascale supercomputer deployment. Quoted extensively in CPC technical materials.
 
-### People — Last Reviewed: 2026-06-07
+### People — Last Reviewed: 2026-10-26
 
 ## Investability
 

@@ -1,11 +1,11 @@
 ---
 title: "AMD Instinct"
 date: 2026-06-07
-lastmod: 2026-06-07
+lastmod: 2026-10-26
 draft: false
 description: "AMD's GPU accelerator product line for datacenter AI training and inference, spanning MI300 through the MI400-generation Helios rack-scale system."
 research_area: "ai-accelerators/amd-instinct"
-last_reviewed: 2026-06-07
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"

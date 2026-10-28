@@ -1,7 +1,7 @@
 ---
 title: "RAG vs. Fine-Tuning: Choosing the Right Approach"
 date: 2026-06-10
-lastmod: 2026-06-10
+lastmod: 2026-10-26
 draft: false
 description: "When to use retrieval-augmented generation vs. fine-tuning to adapt an LLM for a specialist domain — and how the two approaches combine for a network engineer expert model that needs both current device knowledge and deep CLI intuition."
 research_area: "local-llm-finetuning/fundamentals"
@@ -9,7 +9,7 @@ source_urls:
   - "https://arxiv.org/abs/2005.11401"
   - "https://arxiv.org/abs/2312.10997"
   - "https://www.pinecone.io/learn/retrieval-augmented-generation/"
-last_reviewed: 2026-06-10
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

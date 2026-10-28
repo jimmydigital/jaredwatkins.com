@@ -1,16 +1,17 @@
 ---
 title: "NIST FIPS & PQC Standardization"
 date: 2026-04-24
-lastmod: 2026-04-24
+lastmod: 2026-10-26
 draft: false
 description: "NIST's 8-year post-quantum cryptography standardization process, FIPS 203/204/205 specifications, and status of FIPS 206 and HQC"
 research_area: "post-quantum-encryption/standards-policy"
 source_urls:
+  - "https://www.encryptionconsulting.com/education-center/fn-dsa-fips-206/"
   - "https://csrc.nist.gov/projects/post-quantum-cryptography"
   - "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.203.pdf"
   - "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.204.pdf"
   - "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.205.pdf"
-last_reviewed: 2026-04-24
+last_reviewed: 2026-10-26
 stale_after_days: 180
 ---
 
@@ -96,7 +97,7 @@ NIST's post-quantum cryptography standardization process took eight years from c
 
 ## In-Progress: FIPS 206 (FALCON / FN-DSA)
 
-**Status as of April 2026:** Draft phase
+**Status as of October 2026:** Draft phase; NIST submitted the draft for approval on August 28, 2025, and a final FIPS 206 is expected in late 2026 or early 2027 (Encryption Consulting)
 
 **What FIPS 206 will specify:**
 - FN-DSA (FALCON) algorithm for digital signatures

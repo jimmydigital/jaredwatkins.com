@@ -1,14 +1,14 @@
 ---
 title: "STMicroelectronics VL53L9CX"
 date: 2026-07-09
-lastmod: 2026-07-09
+lastmod: 2026-10-26
 draft: false
-description: "STMicroelectronics' newest FlightSense direct Time-of-Flight (dToF) LiDAR module — up to 54x42 (~2.3k) zone multizone ranging, <5 cm to 8.8 m range, 100 Hz frame rate; currently in evaluation/engineering-sample stage."
+description: "STMicroelectronics' newest FlightSense direct Time-of-Flight (dToF) LiDAR module — up to 54x42 (~2.3k) zone multizone ranging, <5 cm to 8.8 m range, 100 Hz frame rate; now listed by ST as in volume production (mass production from July 2026)."
 research_area: "robotics/sensors"
 source_urls:
   - "https://www.st.com/en/imaging-and-photonics-solutions/vl53l9cx.html"
   - "https://www.st.com/resource/en/datasheet/vl53l9cx.pdf"
-last_reviewed: 2026-07-09
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "u-blox.md"
@@ -19,13 +19,13 @@ related:
 
 ## Summary
 
-The VL53L9CX is STMicroelectronics' newest direct Time-of-Flight (dToF) LiDAR module in its FlightSense product family, offering what ST describes as market-leading resolution of up to 2.3k zones (54x42) in a fully integrated, reflowable miniature package. As of this review the part is in the **Evaluation stage** — ST's own product page lists it as "Product is under characterization. Limited Engineering samples available," and the datasheet (DS14879, Rev 6, June 2026) is marked "Prerelease product(s)" on every page. It targets robotics (SLAM, obstacle avoidance, small-object identification), AR/VR, industrial content management, smart-home, and mobile-device applications.
+The VL53L9CX is STMicroelectronics' newest direct Time-of-Flight (dToF) LiDAR module in its FlightSense product family, offering what ST describes as market-leading resolution of up to 2.3k zones (54x42) in a fully integrated, reflowable miniature package. As of this review ST's product page lists the part as **Active — "Product is in volume production"** with a longevity commitment to 07/2033; earlier in July 2026 the same page showed it under characterization with limited engineering samples, and the datasheet Rev 6 (DS14879, June 2026) was marked "Prerelease product(s)". It targets robotics (SLAM, obstacle avoidance, small-object identification), AR/VR, industrial content management, smart-home, and mobile-device applications.
 
 ## Key Facts
 
 - **Developed by:** STMicroelectronics, part of the ST FlightSense product family (Imaging and Photonics Solutions / Time-of-Flight sensors line)
 - **Type:** Component / subsystem — 3D dToF all-in-one LiDAR module
-- **Status:** Evaluation — under characterization; limited engineering samples available as of 2026-07 (order code VL53L9CXV0VE/1, Optical LGA package, tape-and-reel, minimum order quantity 1,000)
+- **Status:** Volume production per ST's product page (October 2026); mass production announced to start early July 2026 (order code VL53L9CXV0VE/1, Optical LGA package). Evaluation hardware: STEVAL-VL53L9 module ($75) and X-NUCLEO-53L9A1 expansion board ($100) per CNX Software
 - **Datasheet:** DS14879, Rev 6, June 2026 (Rev 5 first public release 2026-05-18; Rev 6 updated 2026-06-15 with revised I²C/XSHUT/INTR/SYNC_IN electrical characteristics)
 - **Resolution:** Up to 54x42 zones (binning 2; ~2.3k zones), with binning options down to 4x4
 - **Ranging:** <5 cm (precision mode) to 8.8 m (best case); 45 cm to 8.5 m in ambient mode
@@ -49,13 +49,14 @@ The module integrates the SPAD sensor, postprocessing SoC, VCSEL driver (BCD pro
 
 - **2026-06-15:** Datasheet DS14879 Rev 6 published, updating the I²C/XSHUT/INTR/SYNC_IN digital I/O electrical characteristics table.
 - **2026-05-18:** Datasheet DS14879 Rev 5 — first public release.
-- **2026 (current):** Product listed on st.com under "Evaluation" marketing status with limited engineering samples available; not yet in full production.
+- **2026-10:** ST's product page shows marketing status "Active" and "Product is in volume production." ([ST](https://www.st.com/en/imaging-and-photonics-solutions/vl53l9cx.html))
+- **2026-06-22:** Launch coverage states mass production starts in early July 2026 and lists evaluation boards at $75 and $100. ([CNX Software](https://www.cnx-software.com/2026/06/22/st-vl53l9cx-direct-time-of-flight-3d-lidar-supports-5cm-to-9m-range-2-3k-zones-resolution/))
 
 ## Key People / Key Organizations
 
 - **STMicroelectronics** — Franco-Italian semiconductor manufacturer (NYSE/Euronext Paris/Borsa Italiana: STM); developer of the VL53L9CX as part of its FlightSense ToF sensor line, which also includes the earlier, lower-resolution VL53L5CX multizone ToF sensor. No individual product engineers are named in the publicly available datasheet or product page.
 
-### People — Last Reviewed: 2026-07-09
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 
@@ -79,15 +80,16 @@ The module integrates the SPAD sensor, postprocessing SoC, VCSEL driver (BCD pro
 **Refuting / questioning sources:**
 - None found. All performance figures trace to ST's own datasheet characterization; no independent lab measurement was located.
 
-**Summary:** The headline 8.8 m range and sub-1% accuracy figures are real but condition-dependent — they apply to best-case indoor/high-reflectance scenarios, not the full range of outdoor and low-reflectance conditions documented in the same datasheet. No third-party verification of these figures exists yet, consistent with the part's current evaluation/pre-production status.
+**Summary:** The headline 8.8 m range and sub-1% accuracy figures are real but condition-dependent — they apply to best-case indoor/high-reflectance scenarios, not the full range of outdoor and low-reflectance conditions documented in the same datasheet. No third-party verification of these figures exists yet, consistent with the part having only just entered production.
 
 ## Supply Chain Position
 
 The VL53L9CX sits at the **Complete Sensor System** layer of the robotics sensors supply chain (see [Robotics Sensors]({{< relref "_index.md" >}})) — a fully packaged, reflowable module rather than a discrete component requiring further system integration. STMicroelectronics is a large, vertically integrated semiconductor manufacturer (Incumbent tier in this section's company tables) that designs and fabricates its own SPAD arrays, VCSELs, and ToF processing silicon using its BSI (backside-illuminated) stacked CMOS process, giving it more manufacturing control than fabless competitors in the sensor module space.
 
-**⚑ FlightSense product family:** The VL53L9CX extends ST's existing FlightSense line, which includes lower-resolution multizone ToF parts such as the VL53L5CX. As the part is still in evaluation/sampling status, it has not yet been confirmed in any specific robotics OEM design.
+**⚑ FlightSense product family:** The VL53L9CX extends ST's existing FlightSense line, which includes lower-resolution multizone ToF parts such as the VL53L5CX. No specific robotics OEM design win was confirmed in the sources reviewed.
 
 ## Sources
 
 - [VL53L9CX Product Page — STMicroelectronics](https://www.st.com/en/imaging-and-photonics-solutions/vl53l9cx.html) — Marketing status ("Evaluation"), part number, package, ordering details
+- [ST VL53L9CX launch coverage — CNX Software (Jun 22, 2026)](https://www.cnx-software.com/2026/06/22/st-vl53l9cx-direct-time-of-flight-3d-lidar-supports-5cm-to-9m-range-2-3k-zones-resolution/)
 - [VL53L9CX Datasheet, DS14879 Rev 6 — STMicroelectronics](https://www.st.com/resource/en/datasheet/vl53l9cx.pdf) — Full technical specifications, ranging performance, electrical characteristics, pinout

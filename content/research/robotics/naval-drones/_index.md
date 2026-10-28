@@ -1,11 +1,11 @@
 ---
 title: Naval Drones / Autonomous Surface Vessels
 date: 2026-06-29
-lastmod: 2026-06-29
+lastmod: 2026-10-26
 draft: false
 description: Companies building autonomous surface vessels (ASVs) and unmanned maritime systems for defense and commercial applications.
 research_area: "robotics/naval-drones"
-last_reviewed: 2026-06-29
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"

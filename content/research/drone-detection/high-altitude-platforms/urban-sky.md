@@ -1,7 +1,7 @@
 ---
 title: "Urban Sky"
 date: 2026-07-17
-lastmod: 2026-07-17
+lastmod: 2026-10-26
 draft: false
 description: "Denver-based stratospheric Microballoon (mHAB) maker; AFRL STRATFI-funded ($30M total); its balloon was paired with Applied Intuition's autonomous target-recognition sensor in the Army/Joint Staff J-7's Project Wallabee — the most direct public link between a HAPS balloon and a target-detection sensor test in this subtopic."
 research_area: "drone-detection/high-altitude-platforms"
@@ -12,7 +12,7 @@ source_urls:
   - "https://breakingdefense.com/2026/06/army-j-7-to-test-new-sensor-with-high-altitude-balloon-in-coming-days/"
   - "https://www.executivegov.com/articles/army-joint-staff-high-altitude-balloon-sensor-test"
   - "https://urbansky.com/technology/systems/"
-last_reviewed: 2026-07-17
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

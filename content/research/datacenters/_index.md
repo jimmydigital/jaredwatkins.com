@@ -1,11 +1,11 @@
 ---
 title: Datacenter Research
 date: 2026-03-24
-lastmod: 2026-07-18
+lastmod: 2026-10-26
 draft: false
 description: Research on next-generation datacenter design, construction, cooling, automation, power, and distributed compute — covering the infrastructure race to power AI workloads.
 research_area: "datacenters"
-last_reviewed: 2026-07-18
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"

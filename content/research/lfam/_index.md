@@ -1,11 +1,11 @@
 ---
 title: Large Format Additive Manufacturing (LFAM)
 date: 2026-06-29
-lastmod: 2026-06-29
+lastmod: 2026-10-26
 draft: false
 description: Industrial 3D printing systems capable of producing parts meters in scale — composite tooling, structural hulls, aerospace molds, and defense components. Covers gantry and robotic pellet extrusion, wire arc additive manufacturing (WAAM), key system vendors, materials supply chain, and defense/aerospace applications.
 research_area: "lfam"
-last_reviewed: 2026-06-29
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"

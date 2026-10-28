@@ -1,7 +1,7 @@
 ---
 title: "SVT Robotics"
 date: 2026-06-19
-lastmod: 2026-06-19
+lastmod: 2026-10-26
 draft: false
 description: "Norfolk, VA robotics middleware company; SOFTBOT platform connects warehouse robots to WMS/ERP systems 12× faster than custom integration; DHL deploying across 100+ global sites."
 research_area: "robotics/software-and-integration"
@@ -10,7 +10,7 @@ source_urls:
   - "https://group.dhl.com/en/media-relations/press-releases/2026/dhl-supply-chain-accelerates-automation-deployments-with-stv-robotics-softbot-platform.html"
   - "https://www.robotics247.com/article/promat-2025-svt-robotics-launches-cloud-based-softbot-portal"
   - "https://cxtms.com/blog/dhl-softbot-robotics-integration-middleware-plug-play-warehouse-automation-2026"
-last_reviewed: 2026-06-19
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -54,7 +54,7 @@ The 2025 launch of a cloud-based SOFTBOT portal added centralized visibility acr
 
 - **A.K. Schultz** — Founder & CEO. LinkedIn: search "AK Schultz SVT Robotics"
 
-### People — Last Reviewed: 2026-06-19
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

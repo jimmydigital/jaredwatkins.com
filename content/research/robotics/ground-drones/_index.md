@@ -1,11 +1,11 @@
 ---
 title: Ground Drones & UGVs
 date: 2026-03-24
-lastmod: 2026-08-27
+lastmod: 2026-10-26
 draft: false
 description: Autonomous mobile robots, unmanned ground vehicles, and field robots — warehouse AMRs, outdoor platforms, and defense UGVs.
 research_area: "robotics/ground-drones"
-last_reviewed: 2026-07-26
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -42,9 +42,9 @@ The ground robot market splits into three commercially distinct segments that sh
 | [Ghost Robotics](https://www.ghostrobotics.io) | Philadelphia, PA, USA | Late Private | Q-UGV and Vision 60 quadruped platforms; USAF Tyndall AFB perimeter security deployment; adversarial environment design philosophy. Vision 60 is a Lattice integration partner for Anduril's ground-domain sensor/effector stack. |
 | [Zipline](https://flyzipline.com) | South San Francisco, CA, USA | Late Private | Ground-adjacent delivery ecosystem; P2 Zip drone + logistics infrastructure. |
 | [Starship Technologies](https://www.starship.xyz) | Tallinn, Estonia | Late Private | Sidewalk delivery robots; >7M deliveries as of 2024; 2,000+ fleet globally; university campus focus. |
-| [Serve Robotics](https://www.serverobotics.com) | Redwood City, CA, USA | Public (NASDAQ: SERV) | Sidewalk delivery robots; LA operations via Uber Eats partnership; spun out from Uber 2021. |
+| [Serve Robotics](https://www.serverobotics.com) | Redwood City, CA, USA | Public (NASDAQ: SERV) | Sidewalk delivery robots; LA operations via Uber Eats partnership; spun out from Uber 2021; ~792 daily active robots in Q2 2026. |
 | [Nuro](https://www.nuro.ai) | Mountain View, CA, USA | Late Private ($2B+ raised) | Road-going autonomous delivery vehicle; first NHTSA special permit for a vehicle without human controls. |
-| [Monarch Tractor](https://www.monarchtractor.com) | Livermore, CA, USA | Series B | Electric autonomous tractor for specialty crops (vineyards, orchards); farmer-in-the-loop autonomy. |
+| [Monarch Tractor](https://www.monarchtractor.com) | Livermore, CA, USA | Wound down (technology acquired by Caterpillar, 2026) | Electric autonomous tractor for specialty crops (vineyards, orchards); farmer-in-the-loop autonomy. |
 | [Carbon Robotics](https://carbonrobotics.com) | Seattle, WA, USA | Private ($157M raised) | LaserWeeder — CO2 laser-based autonomous weed elimination; no herbicides; targets organic and conventional growers. |
 | [Built Robotics](https://www.builtrobotics.com) | San Francisco, CA, USA | Series B | Autonomous guidance retrofit for heavy construction equipment (excavators, graders); GPS-guided earthmoving. |
 | [Knightscope](https://www.knightscope.com) | Mountain View, CA, USA | Public (NASDAQ: KSCP) | Autonomous security robots (K1, K3, K5); RaaS model; cameras, ALPR, thermal sensors; >50 deployments. |
@@ -97,7 +97,7 @@ The ground robot market splits into three commercially distinct segments that sh
 | [Geek+](https://www.geekplus.com) 🇨🇳 | Geek+ (private, ~$2B valuation) | Largest AMR company globally by deployed units; goods-to-person, sorting, and heavy-load platforms; aggressive international expansion. |
 | [HD](https://finance.yahoo.com/quote/HD) | [Boston Dynamics](https://www.bostondynamics.com) (Hyundai subsidiary) | Spot quadruped and Stretch logistics robot; acquired by Hyundai Motor Group 2021 for ~$1.1B; highest-profile robotics brand globally; commercial revenue still modest. |
 | [DE](https://finance.yahoo.com/quote/DE) | [John Deere](https://www.deere.com) | Autonomous tractor (8R), See & Spray precision herbicide, autonomous tillage; acquired Blue River Technology 2017 ($305M); largest deployed base of autonomous agricultural machines. |
-| [ZBRA](https://finance.yahoo.com/quote/ZBRA) | [Zebra Technologies](https://www.zebra.com) | Acquired Fetch Robotics 2021 ($290M); integrates AMRs with enterprise RFID and workflow management. |
+| [ZBRA](https://finance.yahoo.com/quote/ZBRA) | [Zebra Technologies](https://www.zebra.com) | Acquired Fetch Robotics 2021 ($290M); wound down the Fetch AMR group in December 2025. |
 | [TXT](https://finance.yahoo.com/quote/TXT) | [Textron Systems](https://www.textronsystems.com) | RIPSAW M5 unmanned tank; Common Robotic System – Individual (CRS-I); long-standing Army UGV programs. |
 | [QQ.L](https://finance.yahoo.com/quote/QQ.L) | [QinetiQ](https://www.qinetiq.com) (parent) | Owns Endeavor Robotics (PackBot, Kobra); acquired from iRobot 2019 for $400M; primary US Army small robot supplier. |
 
@@ -110,7 +110,7 @@ The ground robot market splits into three commercially distinct segments that sh
 | **1. Raw Materials** | Neodymium (motors), lithium/cobalt/nickel (batteries), aluminum/steel (frames), silicon (compute/sensors) | Lynas Rare Earths (Australia), MP Materials (US), Albemarle (lithium), Glencore (cobalt) | NdFeB magnets: China ~90% processing; lithium: Australia/Chile/Argentina; cobalt: DRC ~75% |
 | **2. Precision Components** | NdFeB magnets, precision bearings, encoder discs, carbon fiber structural panels | NSK (Japan, bearings), SKF (Sweden, bearings), Renishaw (UK, encoders), Hexcel (US, carbon fiber) | Bearing precision manufacturing: Japan and Sweden dominant |
 | **3. Motors & Drive Systems** | BLDC hub motors, servo motors, gearboxes (harmonic drive, cycloidal), wheel drive assemblies | [Maxon Motor](https://www.maxongroup.com) (Swiss), [Faulhaber](https://www.faulhaber.com) (German), [Nabtesco](https://www.nabtesco.com) (Japan, cycloidal), [Harmonic Drive](https://www.harmonicdrive.net) (Japan/US), [Parker Hannifin](https://www.parker.com) (US, hydraulics), [Festo](https://www.festo.com) (German, pneumatics) | Precision servo gearboxes: Japan-dominated (Nabtesco, Harmonic Drive); motors: Switzerland and Germany for precision, China for volume |
-| **4. Sensor & Compute Modules** | LiDAR, radar, cameras, depth sensors, compute boards | [Ouster](https://ouster.com) (US), [Luminar](https://luminartech.com) (US), [Hesai](https://www.hesaitech.com) 🇨🇳, [RoboSense](https://www.robosense.ai) 🇨🇳, [Stereolabs](https://www.stereolabs.com) (French), NVIDIA (Jetson), Intel (RealSense, withdrawing) | LiDAR: China (Hesai, RoboSense) taking volume share from US; radar: automotive-derived (Bosch, Continental) |
+| **4. Sensor & Compute Modules** | LiDAR, radar, cameras, depth sensors, compute boards | [Ouster](https://ouster.com) (US), [Hesai](https://www.hesaitech.com) 🇨🇳, [RoboSense](https://www.robosense.ai) 🇨🇳, [Stereolabs](https://www.stereolabs.com) (French), NVIDIA (Jetson), Intel (RealSense, withdrawing) | LiDAR: China (Hesai, RoboSense) taking volume share from US; radar: automotive-derived (Bosch, Continental) |
 | **5. Communications Subsystems** | WiFi 6/6E modules, 4G/5G cellular modules, MANET radios, private LTE | [Quectel](https://www.quectel.com) 🇨🇳 (cellular modules), [Cradlepoint/Ericsson](https://cradlepoint.com) (private LTE), [Silvus](https://silvustechnologies.com) (defense MANET), [Persistent Systems](https://www.persistentsystems.com) (defense mesh) | IoT cellular modules: Quectel (Chinese) dominant globally by volume |
 | **6. Power Subsystems** | 24–96V lithium-ion packs (NMC/LFP), BMS, opportunity charging hardware | [Flux Power](https://www.fluxpwr.com) (US, LFP), [Inventus Power](https://www.inventuspower.com) (US), [EaglePicher](https://www.eaglepicher.com) (US, defense), [Wiferion](https://wiferion.com) (German, wireless charging), [WiBotic](https://wibotic.com) (US, wireless charging) | LFP cells: CATL and BYD dominant; NMC cells: Samsung SDI, LGES |
 | **7. Platform Integration** | Complete robot system, navigation software, fleet management | Boston Dynamics, Teradyne/MiR, Geek+ 🇨🇳, Ghost Robotics, Textron Systems, QinetiQ/Endeavor | Platform assembly geography varies; software/AI integration increasingly in US and Europe |
@@ -125,4 +125,4 @@ The ground robot market splits into three commercially distinct segments that sh
 
 **Chinese AMR pricing pressure:** Geek+, Hai Robotics, and Quicktron offer AMR platforms at 30–50% lower prices than Western competitors (MiR, Locus, Seegrid). This is a structural threat to US/European AMR companies that cannot easily compete on cost without moving manufacturing to China — which introduces the very data security concerns that differentiate them in sensitive facilities.
 
-### Supply Chain — Last Reviewed: 2026-03-24
+### Supply Chain — Last Reviewed: 2026-10-26

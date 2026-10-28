@@ -1,11 +1,11 @@
 ---
 title: "PQC in Networking"
 date: 2026-04-15
-lastmod: 2026-04-17
+lastmod: 2026-10-26
 draft: false
 description: "Post-quantum cryptography support across networking hardware and software vendors: algorithms, protocol layers, firmware versions, and deployment timelines."
 research_area: "post-quantum-encryption/networking"
-last_reviewed: 2026-04-17
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"

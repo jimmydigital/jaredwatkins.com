@@ -1,13 +1,14 @@
 ---
 title: "Auterion"
 date: 2026-07-15
-lastmod: 2026-07-15
+lastmod: 2026-10-26
 draft: false
 description: "Commercializer of the open-source PX4 autopilot; maker of the Skynode flight controller/mission computer and Nemyx multi-domain swarm coordination software, deployed in Ukraine and backed by a $130M Series B."
 research_area: "robotics/flight-controllers"
 source_urls:
+  - "https://resiliencemedia.co/auterion-the-drone-software-startup-plans-to-raise-200m-at-a-1-2b-valuation/"
   - "https://auterion.com/auterion-raises-130-million-series-b-as-their-ai-enabled-software-powering-low-cost-commercial-hardware-at-scale-transforms-warfare/"
-last_reviewed: 2026-07-15
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -33,6 +34,7 @@ The company's more recent product, Nemyx, extends this from single-drone autopil
 
 ## Notable Developments
 
+- **2026-02:** Reported to be weighing a ~$200M raise at a valuation above $1.2B (company said it was not fundraising); sources say it is profitable and expects revenue to roughly double to ~$200M in 2026; last round was $130M (autumn 2025) at ~$600M
 - **2025-09-23:** Auterion raises $130 million Series B led by Bessemer Venture Partners (with continued participation from Lakestar, Mosaic Ventures, and Costanoa Ventures), including $25M in non-dilutive capital from the US Department of War's Office of Strategic Capital; valuation reported at "north of $600 million."
 - **2025 (ongoing):** Company reports delivering tens of thousands of AI "strike kits" to Ukrainian forces under a Pentagon contract.
 - **2017:** Auterion founded in Zurich, Switzerland, to commercialize the PX4 open-source autopilot.
@@ -44,7 +46,7 @@ The company's more recent product, Nemyx, extends this from single-drone autopil
 
 **⚑ Shared technology dependency:** Auterion's entire commercial model depends on PX4, the same open-source flight-control core used by competitor ModalAI's VOXL 2 ([ModalAI]({{< relref "modalai.md" >}})) — the two companies compete on hardware and OS layers while sharing the same underlying firmware dependency.
 
-### People — Last Reviewed: 2026-07-15
+### People — Last Reviewed: 2026-10-26
 
 ## Sources
 

@@ -1,11 +1,11 @@
 ---
 title: "AMR & Logistics Robotics"
 date: 2026-06-19
-lastmod: 2026-06-19
+lastmod: 2026-10-26
 draft: false
 description: "Autonomous Mobile Robots (AMRs) and logistics automation platforms for warehouse picking, transport, and fulfillment — the commercially mature layer below humanoids."
 research_area: "robotics/amr-and-logistics"
-last_reviewed: 2026-06-19
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"

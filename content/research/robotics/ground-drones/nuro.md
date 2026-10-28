@@ -1,7 +1,7 @@
 ---
 title: "Nuro"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-26
 draft: false
 description: "Mountain View, CA autonomous delivery vehicle developer; raised $2.7B+; pivoted in September 2024 from operating delivery robots to licensing its 'Nuro Driver' Level 4 autonomy software to automakers and mobility providers; $106M raised in April 2025 to fund the licensing transition."
 research_area: "robotics/ground-drones"
@@ -10,7 +10,7 @@ source_urls:
   - "https://techcrunch.com/2024/09/11/nuro-pivots-to-license-self-driving-tech-to-carmakers-mobility-companies/"
   - "https://techcrunch.com/2025/04/09/nuros-106m-raise-backs-its-shift-from-delivery-robots-to-licensing-autonomy-tech/"
   - "https://www.prnewswire.com/news-releases/nuro-expands-autonomous-technology-leadership-with-a-new-business-model-302244438.html"
-last_reviewed: 2026-03-31
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related: []
 ---
@@ -74,7 +74,7 @@ In February 2024, Nuro announced a collaboration with Arm Holdings on third-gene
   - Carnegie Mellon / DARPA Urban Challenge: Researcher
 - **Notes:** ⚑ **CMU Robotics Institute cluster:** Both Zhu and Ferguson are CMU Robotics PhD graduates — a well-documented talent cluster for autonomous vehicle startups. Ferguson's CMU work on the 2005 and 2007 DARPA Grand Challenges was foundational to the field.
 
-### People — Last Reviewed: 2026-03-31
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

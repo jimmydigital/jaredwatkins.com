@@ -1,16 +1,17 @@
 ---
 title: "Hesai Technology"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-26
 draft: false
-description: "Shanghai LiDAR manufacturer and world's largest LiDAR company by revenue and units; AT128 and QT128 sensors used in autonomous vehicles and robotics globally; added to DoD's Chinese Military Company list and prohibited from US federal contracts under FY2025 NDAA."
+description: "Shanghai LiDAR manufacturer and world's largest LiDAR company by revenue and units; AT128 and QT128 sensors used in autonomous vehicles and robotics globally; added to DoD's Chinese Military Company list and prohibited from US federal contracts under FY2025 NDAA; Q2 2026 LiDAR shipments exceeded 628,000 units (+~80% YoY) with robotics LiDAR up ~193%."
 research_area: "robotics/sensors"
 chinese-owned: true
 source_urls:
+  - "https://www.marketbeat.com/instant-alerts/hesai-group-q2-earnings-call-highlights-2026-08-18/"
   - "https://investor.hesaitech.com/news-releases/news-release-details/hesai-group-reports-fourth-quarter-and-full-year-2024-unaudited"
   - "https://www.fdd.org/analysis/2024/12/02/laser-focus-countering-chinas-lidar-threat-to-u-s-critical-infrastructure-and-military-systems/"
   - "https://www.scmp.com/tech/tech-war/article/3317960/chinese-lidar-maker-hesai-loses-lawsuit-against-us-government-blacklisting"
-last_reviewed: 2026-03-31
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related: []
 ---
@@ -32,7 +33,10 @@ Hesai Technology (NASDAQ: HSAI) is a Shanghai-based LiDAR manufacturer and the w
 - **Ownership:** Chinese private company; subject to Chinese state intelligence cooperation laws
 - **Key backers:** Pre-IPO investors included Lightspeed China Partners, Qiming Venture Partners, General Motors Ventures
 - **Key products:** AT128 (automotive, 120° FOV, 200m range, 128 channels); QT128 (360° short-range, 105° vertical FOV, 50m); OT128 (360° long-range)
-- **Revenue:** FY2024 $284.6M (RMB 2.08B); +10.7% YoY
+- **Revenue:** FY2024 $284.6M (RMB 2.08B); +10.7% YoY; Q2 2026 RMB 861M (~US$127M), +~22% YoY, gross margin 40%
+- **Q2 2026 shipments:** 628,000+ LiDAR units (+~80% YoY): ADAS 485,000+ (+~60%), robotics 142,000+ (+~193%); 10,000+ cumulative robotic actuation modules
+- **Q2 2026 profit:** GAAP net income RMB 71M (+60% YoY), reported as the fifth consecutive GAAP-profitable quarter
+- **Guidance:** Q3 2026 revenue RMB 1.1–1.15B and 800,000–850,000 units; full-year 2026 shipments 3–3.5M units (about 1.1M in H1); full-year gross margin near 40%
 - **Units shipped:** 501,889 in FY2024; 100,000/month run-rate by December 2024
 - **Profitability:** First full-year non-GAAP profit in 2024 (RMB 14M non-GAAP net profit vs. RMB 241M non-GAAP net loss in 2023)
 - **Market share:** ~47% global LiDAR market share by revenue; ~67% of autonomous vehicle LiDAR market (company-reported)
@@ -52,6 +56,7 @@ The national security dimension has grown substantially. Hesai was added to the 
 
 ## Notable Developments
 
+- **2026-08-18:** Q2 2026 results: revenue RMB 861M, 628,000+ LiDAR units, robotics LiDAR 142,000+ units (+~193%), GAAP net income RMB 71M; strategic-growth-initiative revenue guidance raised to RMB 200–300M for 2026. Figures are from a secondary summary of the earnings call. ([MarketBeat](https://www.marketbeat.com/instant-alerts/hesai-group-q2-earnings-call-highlights-2026-08-18/))
 - **2025-09:** Foundation for Defense of Democracies (FDD) publishes detailed policy analysis arguing for broader US restrictions on Chinese LiDAR in critical infrastructure, naming Hesai specifically. ([FDD](https://www.fdd.org/analysis/2024/12/02/laser-focus-countering-chinas-lidar-threat-to-u-s-critical-infrastructure-and-military-systems/))
 - **2025:** Monthly LiDAR delivery run-rate exceeds 100,000 units; first profitable full-year non-GAAP result.
 - **2025:** Hesai lawsuit against US government challenging Section 1260H designation dismissed; DC District Court rules DoD designation is supported by substantial evidence. ([SCMP](https://www.scmp.com/tech/tech-war/article/3317960/chinese-lidar-maker-hesai-loses-lawsuit-against-us-government-blacklisting))
@@ -70,7 +75,7 @@ The national security dimension has grown substantially. Hesai was added to the 
   - Western Digital (Aug 2013–Oct 2014): Engineer in Silicon Valley (one year post-PhD before founding Hesai)
 - **Notes:** Li holds over 100 patents. Named Fortune Magazine "40 Under 40 in China," MIT Technology Review "2020 Innovators Under 35 of China," and World Economic Forum Young Global Leader (2021 class). His Illinois PhD was in robotics-related mechanical engineering — directly relevant to Hesai's core product area.
 
-### People — Last Reviewed: 2026-03-31
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 
@@ -92,6 +97,7 @@ Hesai operates at the **Component/Subsystem Supplier** layer, selling sensors to
 
 ## Sources
 
+- [Hesai Q2 2026 earnings call highlights — MarketBeat (Aug 18, 2026)](https://www.marketbeat.com/instant-alerts/hesai-group-q2-earnings-call-highlights-2026-08-18/)
 - [Hesai FY2024 Financial Results — Hesai IR (2025)](https://investor.hesaitech.com/news-releases/news-release-details/hesai-group-reports-fourth-quarter-and-full-year-2024-unaudited)
 - [Laser Focus: Countering China's LiDAR Threat — FDD (Dec 2024)](https://www.fdd.org/analysis/2024/12/02/laser-focus-countering-chinas-lidar-threat-to-u-s-critical-infrastructure-and-military-systems/)
 - [Hesai Loses Lawsuit Against US Government — SCMP](https://www.scmp.com/tech/tech-war/article/3317960/chinese-lidar-maker-hesai-loses-lawsuit-against-us-government-blacklisting)

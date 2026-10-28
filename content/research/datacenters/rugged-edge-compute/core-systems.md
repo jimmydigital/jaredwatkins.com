@@ -1,16 +1,17 @@
 ---
 title: "Core Systems"
 date: 2026-04-25
-lastmod: 2026-04-25
+lastmod: 2026-10-26
 draft: false
 description: "San Diego, CA rugged compute company specializing in the ATMOS stackable server architecture for vehicle, airborne, and maritime deployments. ISO 9001:2015 certified; US-designed and manufactured."
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
+  - "https://thedefensepost.com/2026/05/15/us-rugged-c2-computers/"
   - "https://core-systems.com/"
   - "https://core-systems.com/rugged-atmos-servers/"
   - "https://militaryembedded.com/comms/communications/core-systems-rugged-atmos-server-stack-for-mobile-operations"
   - "https://www.emeoutlookmag.com/industry-insights/mission-ready-military-grade-rugged-computing-core-systems"
-last_reviewed: 2026-04-25
+last_reviewed: 2026-10-26
 stale_after_days: 180
 ---
 
@@ -64,6 +65,7 @@ This modular approach addresses a common problem in vehicle-mounted compute: fie
 
 ## Notable Developments
 
+- **2026-05:** Reported contract to supply ATMOS2 ruggedized tactical computers to the U.S. Army under the Command and Control-Now (C2NOW) program; value and quantity undisclosed
 - **2025:** Military Embedded Systems coverage of ATMOS as a notable rugged server platform for mobile operations
 - **Ongoing:** ATMOS product line positioned against both the high-end defense tier (Mercury, OSS) and the lighter-weight semi-industrial tier (Neousys, Premio); sits between them in price, capability, and qualification depth
 
@@ -84,7 +86,7 @@ This modular approach addresses a common problem in vehicle-mounted compute: fie
 
 - <!-- TODO: identify CEO and key engineering leads; LinkedIn profiles not confirmed via search -->
 
-### People — Last Reviewed: 2026-04-25
+### People — Last Reviewed: 2026-10-26
 
 ## Sources
 

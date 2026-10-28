@@ -1,11 +1,13 @@
 ---
 title: "Drone Privacy, Trespass, and Criminal Misuse Law"
 date: 2026-07-09
-lastmod: 2026-07-17
+lastmod: 2026-10-26
 draft: false
 description: "How US, UK, German, and French law treat drone operators who spy on private property, harass, or vandalize — the civil/criminal line, and when to involve police."
 research_area: "drone-detection"
 source_urls:
+  - "https://www.dwt.com/blogs/broadband-advisor/2026/07/safer-skies-counter-drone-framework"
+  - "https://www.thedroneu.com/?p=44228"
   - "https://www.criminaldefenselawyer.com/resources/when-a-drone-flies-over-my-house-is-it-trespassing.html"
   - "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0900-0999%2F0934%2FSections%2F0934.50.html"
   - "https://kibbeylaw.com/blog/as-drones-continue-to-fly-invasion-of-privacy-is-the-focus-of-floridas-laws/"
@@ -21,7 +23,7 @@ source_urls:
   - "https://www.fcc.gov/general/jammer-enforcement"
   - "https://openworksengineering.com/skywall-patrol/"
   - "https://hiredronepilot.uk/blog/shooting-down-drones-uk-legal/"
-last_reviewed: 2026-07-09
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -119,6 +121,8 @@ Across all four jurisdictions reviewed, the same general pattern holds even thou
 
 ## Notable Developments
 
+- **2026-07:** SAFER SKIES Act (signed Dec 18, 2025 in the FY2026 NDAA) is being implemented: DOJ and DHS issued an Interim Final Rule on July 1, 2026 with a two-tier certification (Tier 1 detection and warning; Tier 2 mitigation via the FBI's National Counter-UAS Training Center) for state, local, tribal and territorial agencies, and the FCC issued a 180-day nationwide special temporary authority on July 2; CTIA petitions for reconsideration remain pending
+- **2026-05:** FAA published the Section 2209 NPRM (May 6, proposed 14 CFR Part 74) for critical-infrastructure flight restrictions; comments closed Aug 5 and no final rule had been published as of Oct 1, 2026
 - **2026:** Approximately 24 US states now have drone-specific privacy statutes, up from a much smaller number a few years prior — the patchwork is actively expanding state by state.
 - **2026:** Continued case reporting of drone-enabled vandalism (paint-drop incidents) charged as combined criminal mischief + stalking, indicating prosecutors are pairing property-damage and targeted-harassment statutes rather than relying on either alone.
 

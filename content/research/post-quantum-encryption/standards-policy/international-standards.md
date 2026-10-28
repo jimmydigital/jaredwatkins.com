@@ -1,7 +1,7 @@
 ---
 title: "International Standards Bodies & Divergence"
 date: 2026-04-24
-lastmod: 2026-04-24
+lastmod: 2026-10-26
 draft: false
 description: "ETSI, BSI, NCSC, ANSSI, ISO/IEC, and China OSCCA post-quantum cryptography standards and convergence analysis"
 research_area: "post-quantum-encryption/standards-policy"
@@ -11,7 +11,7 @@ source_urls:
   - "https://www.ncsc.gov.uk"
   - "https://www.anssi.gouv.fr"
   - "https://www.iso.org"
-last_reviewed: 2026-04-24
+last_reviewed: 2026-10-26
 stale_after_days: 180
 ---
 

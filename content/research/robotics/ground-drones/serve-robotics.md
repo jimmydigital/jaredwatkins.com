@@ -1,16 +1,17 @@
 ---
 title: "Serve Robotics"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-26
 draft: false
 description: "NASDAQ-listed sidewalk delivery robot company (Redwood City, CA); spun out of Uber Eats in 2021; 547 daily active robots in Q4 2025 vs 57 in Q4 2024; NVIDIA Jetson Orin-powered; Uber Eats and 7-Eleven commercial partners; revenue 10x growth projected for 2026."
 research_area: "robotics/ground-drones"
 source_urls:
+  - "https://investors.serverobotics.com/news-releases/news-release-details/serve-robotics-announces-second-quarter-2026-results"
   - "https://investors.serverobotics.com/"
   - "https://techcrunch.com/2024/04/18/uber-nvidia-backed-serve-robotics-hits-public-markets-with-40m-splash/"
   - "https://247wallst.com/investing/2026/03/11/serve-robotics-up-13-nvidia-loves-it-analysts-see-67-more-upside/"
   - "https://www.fool.com/investing/2025/10/13/why-are-nvidia-and-uber-backing-this-tiny-900-mill/"
-last_reviewed: 2026-03-31
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related: []
 ---
@@ -29,7 +30,8 @@ Serve Robotics (NASDAQ: SERV) is a Redwood City, California sidewalk delivery ro
 - **Type:** Public (NASDAQ: SERV)
 - **Key backers:** Uber (12% stake); NVIDIA (invested $4M; exited 2025); Wavemaker Partners, others
 - **Key products:** Serve Gen 3 sidewalk delivery robot (NVIDIA Jetson Orin-powered)
-- **Fleet size:** 547 daily active robots (Q4 2025); scaling toward larger fleet
+- **Fleet size:** 792 average daily active robots in Q2 2026 (812 in Q1; 547 in Q4 2025)
+- **Q2 2026:** revenue $3.2M (+404% YoY), GAAP net loss $64.1M, $240.4M cash; FY2026 revenue guidance cut to $9–10M on lower Uber Eats volume
 - **Revenue / valuation:** Pre-profitability; ~$900M market cap (late 2025 peak); 2026 revenue guidance represents ~10x YoY growth
 - **Partnerships:** Uber Eats (primary delivery platform); 7-Eleven; White Castle (recently launched)
 
@@ -47,6 +49,7 @@ California's SB 1540 and local municipal frameworks govern sidewalk robot operat
 
 ## Notable Developments
 
+- **2026-Q2:** Revenue $3.2M, 792 daily active robots, FY2026 revenue guidance cut to $9–10M (from roughly 10x growth) because Uber Eats volume fell short; DoorDash revenue up ~50% sequentially; non-GAAP opex guidance lowered to $140–150M. ([Serve Robotics](https://investors.serverobotics.com/news-releases/news-release-details/serve-robotics-announces-second-quarter-2026-results))
 - **2026-03:** NVIDIA continues to support Serve Robotics platform endorsement; analyst targets imply 67% upside from current price. ([24/7 Wall St.](https://247wallst.com/investing/2026/03/11/serve-robotics-up-13-nvidia-loves-it-analysts-see-67-more-upside/))
 - **2026-Q1:** White Castle partnership launched for autonomous delivery.
 - **2025-Q4:** 547 daily active robots; 4,500+ merchant partners; fleet and merchant base ~10x year-over-year growth.
@@ -66,7 +69,7 @@ California's SB 1540 and local municipal frameworks govern sidewalk robot operat
   - Uber (prior to 2021): Led Postmates X sidewalk robot / Uber Eats robotics program
 - **Notes:** Led the Serve technology development within Uber before the spin-out. Described the 2025 fleet scale-up as going "from operating in a single city to running the largest autonomous sidewalk fleet in the country."
 
-### People — Last Reviewed: 2026-03-31
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

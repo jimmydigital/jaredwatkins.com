@@ -1,7 +1,7 @@
 ---
 title: "RF Direction Finding (Non-Cooperative)"
 date: 2026-07-07
-lastmod: 2026-07-07
+lastmod: 2026-10-26
 draft: false
 description: "Passive RF detection and triangulation of drone control-link and video-downlink emissions — locates any RF-emitting drone regardless of whether it broadcasts Remote ID or cooperates in any way."
 research_area: "drone-detection/detection-methods"
@@ -12,7 +12,7 @@ source_urls:
   - "https://www.tronfuture.com/solutions/anti-drone/"
   - "https://aaronia.com/en/solutions/drone-detection"
   - "https://www.dedrone.com/products/drone-detection/rf-sensors/overview"
-last_reviewed: 2026-07-07
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

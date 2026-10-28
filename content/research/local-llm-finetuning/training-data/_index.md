@@ -1,11 +1,11 @@
 ---
 title: "Training Data for Specialist LLMs"
 date: 2026-06-10
-lastmod: 2026-06-10
+lastmod: 2026-10-26
 draft: false
 description: "How to source, format, and quality-control training data for specialist LLM fine-tuning, with a focus on network engineering domains."
 research_area: "local-llm-finetuning/training-data"
-last_reviewed: 2026-06-10
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"

@@ -1,11 +1,12 @@
 ---
 title: "Texas: ERCOT Grid Strain and Water Wars"
 date: 2026-04-20
-lastmod: 2026-04-28
+lastmod: 2026-10-26
 draft: false
 description: "Texas datacenter opposition — ERCOT grid reliability concerns, water scarcity conflicts in rural areas, legislative response (SB 6), grassroots organizing, and the political economy of datacenters in a deregulated grid."
 research_area: "datacenter-opposition"
 source_urls:
+  - "https://www.akingump.com/en/insights/alerts/texas-pauses-data-center-interconnections-pending-statewide-audit"
   - "https://www.citizen.org/news/across-texas-grassroots-resistance-meets-the-ai-data-center-boom/"
   - "https://www.citizen.org/news/unchecked-data-center-growth-poses-grave-threat-to-texas-grid-and-water-public-citizen-says-ahead-of-tx-house-data-center-hearing/"
   - "https://www.citizen.org/news/hood-county-residents-left-vulnerable-as-commissioners-reject-data-center-moratorium/"
@@ -17,7 +18,7 @@ source_urls:
   - "https://www.datacenterdynamics.com/en/news/developer-withdraws-application-for-70mw-data-center-in-hutto-texas/"
   - "https://communityimpact.com/austin/pflugerville-hutto/government/2026/04/22/zydeco-development-withdraws-zoning-request-for-data-center-in-hutto/"
   - "https://www.kut.org/energy-environment/2026-04-20/hutto-tx-zydeco-data-center-rezoning-request"
-last_reviewed: 2026-04-28
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -233,6 +234,10 @@ As of April 2026, datacenter opposition is becoming a political issue in Texas m
 - Legislative enthusiasm for moratoriums is growing, but no major bills have passed
 
 ---
+
+## 2026 Update
+
+- **2026-08-03:** Gov. Greg Abbott ordered a statewide audit of data centers before any more advance through ERCOT's interconnection process, citing about 474 GW of connection requests (roughly 90% from data centers) and some operators' failure to answer a PUC water and power survey. The PUC and ERCOT must review financial support, power supply, water use, cooling, community-impact mitigation and ownership; projects that fail "must be denied" grid connection. ERCOT held back its planned August 7 Batch Zero classifications and postponed the Batch Zero transmission study, with no end date set. ([Akin Gump](https://www.akingump.com/en/insights/alerts/texas-pauses-data-center-interconnections-pending-statewide-audit))
 
 ## Key Takeaways
 

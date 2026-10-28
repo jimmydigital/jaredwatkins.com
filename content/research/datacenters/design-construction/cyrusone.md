@@ -1,18 +1,19 @@
 ---
 title: "CyrusOne"
 date: 2026-04-02
-lastmod: 2026-04-02
+lastmod: 2026-10-26
 draft: false
 description: "Dallas-based colocation datacenter operator; former REIT (CONE), taken private by KKR and GIP (now BlackRock) in March 2022 for ~$15B; 55+ data centers across North America and Europe; Intelliscale AI-native design platform supporting 12–300 kW/rack via hybrid liquid cooling; ~$12B in debt financing raised in 2025; major Texas expansion underway (DFW7, DFW10, DFW17); E.ON power partnership for European grid-constrained markets; experienced CME cooling outage November 2025."
 research_area: "datacenters/design-construction"
 source_urls:
+  - "https://www.remio.ai/post/cyrusone-starts-ipo-preparations-as-its-private-owners-test-the-ai-infrastructur"
   - "https://www.cyrusone.com/"
   - "https://www.cyrusone.com/resources/press-releases/cyrusone-announced-intelliscale-an-ai-data-center-solution"
   - "https://www.datacenterfrontier.com/cloud/article/55128131/cyrusone-secures-nearly-12-billion-in-financing-for-data-center-growth-ai-digital-infrastructure-expansion"
   - "https://www.datacenterdynamics.com/en/news/cyrusone-offers-300kw-per-rack-ai-data-center-design/"
   - "https://www.calpine.com/calpine-and-cyrusone-announce-thad-hill-energy-center-powered-land-to-support-hyperscale-data-center-development-in-texas/"
   - "https://www.cyrusone.com/resources/press-releases/cyrusone-and-e.on-announce-strategic-partnership-to-overcome-data-center-grid-capacity-constraints-for-customers-in-europe"
-last_reviewed: 2026-04-02
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "datacenters/design-construction/_index.md"
@@ -97,6 +98,7 @@ Without public REIT equity markets, CyrusOne under KKR/BlackRock finances its bu
 
 ## Notable Developments
 
+- **2026-08:** Unconfirmed report that KKR and BlackRock/GIP are preparing an IPO and weighing banks; no filing, exchange, size or valuation disclosed. ([Remio](https://www.remio.ai/post/cyrusone-starts-ipo-preparations-as-its-private-owners-test-the-ai-infrastructur))
 - **2026-01:** Robert Johnson appointed Chief Business Officer, overseeing operational excellence and customer outcomes — a direct response to the CME outage and reputational reset needed post-incident.
 - **2025-11:** Calpine DFW10 Phase 2 announced — additional 210 MW, bringing total campus to 400 MW (Bosque County, TX). Target Q4 2026 operations. ([Calpine press release](https://www.calpine.com/calpine-and-cyrusone-announce-phase-2-of-powered-land-agreement-to-support-hyperscale-data-center-at-thad-hill-energy-center-in-texas/))
 - **2025-11-28:** CME Group Globex trading halt — cooling failure at CyrusOne Aurora, IL facility caused by human error (cooling tower winterization procedure not followed ahead of freezing temperatures). Inside temps exceeded 100°F (38°C); >10 hour outage affecting global derivatives markets (gold, oil, interest rates, equity futures). Goldman Sachs paused a $1.3B CyrusOne bond sale in the wake of the incident. ([Data Center Dynamics](https://www.datacenterdynamics.com/en/news/after-cme-outage-cyrusone-adds-backup-cooling-capacity/)) ([Fortune](https://fortune.com/2025/11/30/cme-outage-financial-markets-data-center-cyrusone-aurora-illinois/))
@@ -134,7 +136,7 @@ Without public REIT equity markets, CyrusOne under KKR/BlackRock finances its bu
 - **Role:** EVP, General Counsel, and Secretary
 - **Notes:** Leads legal for a significant real estate and infrastructure development portfolio; relevant for complex land, power, and construction contracting at the DFW10/DFW7 scale
 
-### Key People — Last Reviewed: 2026-04-02
+### Key People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

@@ -1,7 +1,7 @@
 ---
 title: "Advanced Protection Systems (APS)"
 date: 2026-07-17
-lastmod: 2026-07-17
+lastmod: 2026-10-26
 draft: false
 description: "Polish counter-drone company building the FIELDctrl family of 3D MIMO radars — purpose-built for LSS (low-slow-small) drone detection, tracking, and AI-based bird/drone classification across four tiers from short-range perimeter security to airport/border-scale coverage."
 research_area: "drone-detection/mimo-radar"
@@ -10,7 +10,7 @@ source_urls:
   - "https://www.unmannedairspace.info/counter-uas-systems-and-policies/advanced-protection-systems-launches-3d-mimo-family-of-radars-for-drone-detection/"
   - "https://www.military.africa/2022/07/aps-supplies-fieldctrl-3d-mimo-c-uas-solution-to-ivorian-special-forces/"
   - "https://www.targikielce.pl/en/about-us/news/premiere-at-mspo-fieldctrl-follow-3d-mimo-radar--a-new-dimension-of-drone-combat,72209"
-last_reviewed: 2026-07-17
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

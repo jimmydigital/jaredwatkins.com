@@ -1,11 +1,11 @@
 ---
 title: "Humanoid Robots"
 date: 2026-06-19
-lastmod: 2026-07-18
+lastmod: 2026-10-26
 draft: false
 description: "Overview of the humanoid robot sector: US and non-US companies, autonomy claims, deployment reality, home/consumer robot launches, the specialized vs. humanoid debate, and the NASA Valkyrie research platform that seeded Apptronik."
 research_area: "robotics/humanoid"
-last_reviewed: 2026-07-18
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"

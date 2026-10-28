@@ -1,11 +1,13 @@
 ---
 title: "Base Models for Fine-Tuning"
 date: 2026-06-10
-lastmod: 2026-06-10
+lastmod: 2026-10-26
 draft: false
 description: "A survey of the popular open-weight base models available for fine-tuning as of mid-2026: who makes them, their architectures, release history, licensing terms, and practical suitability for specialist domain fine-tuning on consumer hardware."
 research_area: "local-llm-finetuning/fundamentals"
 source_urls:
+  - "https://en.wikipedia.org/wiki/Qwen"
+  - "https://en.wikipedia.org/wiki/Llama_(language_model)"
   - "https://huggingface.co/meta-llama"
   - "https://huggingface.co/mistralai"
   - "https://huggingface.co/google"
@@ -13,7 +15,7 @@ source_urls:
   - "https://huggingface.co/Qwen"
   - "https://huggingface.co/deepseek-ai"
   - "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"
-last_reviewed: 2026-06-10
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -37,7 +39,7 @@ The open-weight LLM landscape as of mid-2026 is dominated by model families from
 
 ### Meta — Llama 4
 
-**Organization:** Meta AI (Meta Platforms, Inc.) — Menlo Park, California. The Fundamental AI Research (FAIR) team originated the LLaMA series in 2023; Llama 4 came from Meta's broader internal AI division. Note: Meta announced a separate "Meta Superintelligence Labs" unit in April 2026, releasing a closed-weight model (Muse Spark) — but the Llama open-weight line continues in parallel.
+**Organization:** Meta AI (Meta Platforms, Inc.) — Menlo Park, California. The Fundamental AI Research (FAIR) team originated the LLaMA series in 2023; Llama 4 came from Meta's broader internal AI division. Note: Meta announced a separate "Meta Superintelligence Labs" unit in April 2026, releasing a closed-weight model (Muse Spark) — and no new open-weight Llama release after Llama 4 (April 2025) has been confirmed as of October 2026.
 
 **Release history:**
 - **February 2023** — LLaMA 1 (7B–65B); research-only license
@@ -179,7 +181,9 @@ Mistral 7B v0.3 and Mixtral 8x7B remain available and widely supported by fine-t
 - **July 2025** — Qwen3-Coder 480B-A35B; code-specialized MoE
 - **February 16, 2026** — Qwen3.5 (397B total / 17B active MoE); 256K native context; 256 experts
 - **April 2026** — Qwen3.5-Omni (multimodal, proprietary) and Qwen3.6-Plus (proprietary)
+- **April 2026** — Qwen3.6 35B-A3B released as open weights (Apache 2.0)
 - **May 20, 2026** — Qwen3.7-Max announced at Apsara Summit; details limited
+- **August 2026** — Qwen3.8 family: 2.4T-total/~95B-active open weights (Aug 12; restrictive license requiring a commercial license for providers over $50M annual revenue) and Qwen3.8-27B distilled model (Aug 14; Apache 2.0)
 
 **Architecture (Qwen3 / Qwen3.5):** Qwen3 uses standard dense transformer architecture for smaller models and fine-grained MoE for larger ones. Key capability: **hybrid thinking mode** — models can switch between chain-of-thought ("thinking") and direct-answer ("non-thinking") mode by changing chat template, without separate model weights. Qwen3.5 uses 256 experts with 8 routed + 1 shared expert per token; 397B total parameters but only 17B active. 256K token native context window. Tokenizer vocabulary: 150K+ tokens (better CJK and technical coverage than Llama's 128K).
 
@@ -194,6 +198,8 @@ Mistral 7B v0.3 and Mixtral 8x7B remain available and widely supported by fine-t
 | Qwen3 30B-A3B MoE | 3B active / 30B total | 128K | Apache 2.0 | Apr 28, 2025 |
 | Qwen3 235B-A22B MoE | 22B active / 235B total | 128K | Apache 2.0 | Apr 28, 2025 |
 | Qwen3.5 | 17B active / 397B total | 256K | Apache 2.0 | Feb 16, 2026 |
+| Qwen3.6 35B-A3B | 3B active / 35B total | — | Apache 2.0 | Apr 2026 |
+| Qwen3.8 27B (distilled) | 27B | — | Apache 2.0 | Aug 14, 2026 |
 | Qwen2.5 7B / 14B Instruct | 7B / 14B | 128K | Apache 2.0 | Sep 2024 |
 
 Qwen2.5 7B and 14B remain widely used as fine-tuning bases given their strong benchmark numbers and mature framework support.

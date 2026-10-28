@@ -1,7 +1,7 @@
 ---
 title: "Uhnder"
 date: 2026-07-17
-lastmod: 2026-07-17
+lastmod: 2026-10-26
 draft: false
 description: "Austin, Texas maker of digital Code Modulation MIMO radar-on-chip (S-series, up to 96 MIMO channels); automotive ADAS-focused today, included here as the enabling low-cost 4D imaging radar chip technology relevant to future small/cheap counter-drone sensors rather than a current C-UAS product."
 research_area: "drone-detection/mimo-radar"
@@ -15,7 +15,7 @@ source_urls:
   - "https://www.tributearchive.com/obituaries/24392571/curtis-alfred-davis"
   - "https://www.legacy.com/us/obituaries/stltoday/name/curtis-davis-obituary?id=52263896"
   - "https://theabj.com.au/2026/03/20/morse-micro-appoints-joe-bedewi-cfo/"
-last_reviewed: 2026-07-17
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -58,7 +58,7 @@ Uhnder's Digital Code Modulation approach replaces the analog FMCW chirp used by
 - **Sandeep Chennakeshu** — Chief Operating Officer (since April 2021). LinkedIn: [sandeep-chennakeshu-351187111](https://www.linkedin.com/in/sandeep-chennakeshu-351187111/). Previously EVP at AMD, President of BlackBerry Technology Solutions, SVP of Freescale Semiconductor, President of Ericsson Mobile Platforms, and CTO of Ericsson and Sony Ericsson; IEEE Fellow and named inventor on 180 granted patents; holds a Doctorate in electrical engineering from Southern Methodist University. **⚑ Overlap:** Chennakeshu (EVP, AMD) and Hegde (Corporate VP, AMD) both held executive positions at AMD prior to Uhnder — exact tenure overlap was not confirmed in this review.
 - **Joe Bedewi** — Chief Financial Officer from April 2021 until his departure in March 2026 to become CFO of Morse Micro (per independent Australian trade press). LinkedIn: [joe-bedewi-3148584](https://www.linkedin.com/in/joe-bedewi-3148584/). Previously CFO of Altium (grew market cap to over $3B during his tenure) and CFO of Lattice Semiconductor (led two acquisitions, Silicon Image in 2015 and Silicon Blue in 2012), plus 15+ years at Intel in finance/manufacturing roles; BS from Arizona State University. **No Uhnder-published announcement of his successor was found in this review — current CFO status is unconfirmed.**
 
-### People — Last Reviewed: 2026-07-17
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

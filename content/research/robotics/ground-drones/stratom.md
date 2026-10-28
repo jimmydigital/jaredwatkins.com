@@ -1,7 +1,7 @@
 ---
 title: "Stratom"
 date: 2026-07-26
-lastmod: 2026-07-26
+lastmod: 2026-10-26
 draft: false
 description: "Louisville, CO–based defense/commercial UGV and autonomy integrator; SDVOSB; autonomous cargo movement (APL, XCL), robotic refueling (RAPID), Summit off-road autonomy, and CBRN decontamination robotics for the US Army, Air Force, and Marine Corps."
 research_area: "robotics/ground-drones"
@@ -12,7 +12,7 @@ source_urls:
   - "https://www.globenewswire.com/news-release/2026/04/29/3283838/0/en/stratom-awarded-u-s-army-contract-to-develop-autonomous-decontamination-system.html"
   - "https://www.globenewswire.com/news-release/2025/04/15/3061651/0/en/US-Air-Force-selects-Stratom-as-part-of-46B-EWAAC-IDIQ-contract-to-enhance-weapons-capabilities.html"
   - "https://thedefensepost.com/2022/08/16/stratom-safety-rcv-us-army/"
-last_reviewed: 2026-07-26
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "robotics/ground-drones/_index.md"
@@ -75,7 +75,7 @@ Stratom's engineering approach for newer defense programs is built around a Modu
 - **Role:** Leads Stratom's advanced technology product development team; systems architecture and requirements development for robotics/unmanned vehicle programs
 - **LinkedIn:** Not found via public search
 
-### People — Last Reviewed: 2026-07-26
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

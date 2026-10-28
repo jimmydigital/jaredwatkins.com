@@ -1,14 +1,15 @@
 ---
 title: "iNTERCEPT"
 date: 2026-07-07
-lastmod: 2026-07-07
+lastmod: 2026-10-26
 draft: false
 description: "Open-source, web-based signal-intelligence platform unifying SDR tools (ADS-B, AIS, pagers, weather satellites, and more); includes a multi-vector drone-detection module combining Remote ID, sub-GHz RF, and 2.4/5.8 GHz scanning."
 research_area: "drone-detection/open-source"
 source_urls:
   - "https://github.com/smittix/intercept"
+  - "https://github.com/smittix/intercept"
   - "https://smittix.github.io/intercept/"
-last_reviewed: 2026-07-07
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -44,6 +45,10 @@ This is a better fit for users who want one platform covering many SIGINT domain
 ## Critical Limitation
 
 Drone detection in iNTERCEPT depends on the same constraints as any Remote-ID-based tool for the WiFi/BLE vector, plus whatever RF signatures its 433/868 MHz and 2.4/5.8 GHz scanning modes are tuned to recognize — it does not claim to detect RF-silent, fiber-optic-tethered, or non-compliant drones outside those signatures. As a broad multi-domain SIGINT platform (built partly with AI-assisted coding per the project's own disclosure), the drone module has had less dedicated scrutiny than single-purpose tools; the README explicitly states the software is for educational and authorized use only.
+
+## Notable Developments
+
+- **2026-10 repository check:** Public and not shown as archived; about 2,400 GitHub stars and 2,144 commits on the main branch; no tagged releases listed and last-commit dates were not visible, so recent activity is unconfirmed
 
 ## Sources
 

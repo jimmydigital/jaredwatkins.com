@@ -1,18 +1,19 @@
 ---
 title: "Sungrow (Energy Storage Division)"
 date: 2026-04-04
-lastmod: 2026-04-04
+lastmod: 2026-10-26
 draft: false
 description: "Chinese public BESS integrator; #1 or #2 globally by shipment volume (trading places with Tesla); 43 GWh shipped 2025, targeting 60-65 GWh 2026; evidence that Chinese manufacturers have achieved parity with Western integrators at utility scale."
 research_area: "energy/batteries"
 source_urls:
+  - "https://www.energy-storage.news/sungrows-battery-storage-revenue-tops-pv-business-h1-shipments-hit-25gwh/"
   - "https://www.sungrowpower.com"
   - "https://finance.yahoo.com/quote/300274.SZ/"
   - "https://www.energy-storage.news/sungrows-q3-revenue-net-profit-and-shipments-soar/"
   - "https://www.woodmac.com/press-releases/tesla-remains-the-top-global-producer-of-battery-energy-storage-systems-in-2024-but-sungrow-narrows-the-gap/"
   - "https://www.sungrowpower.com/en/sungrow-unveils-next-generation-utility-scale-and-integrated-c-i-energy-solutions-at-wfes-2026"
   - "https://www.solarpowerworldonline.com/2025/09/sungrow-powertitan-3-0-bess-reaches-6-9-mwh-in-20-ft-container/"
-last_reviewed: 2026-04-04
+last_reviewed: 2026-10-26
 stale_after_days: 90
 chinese-owned: true
 related:
@@ -34,6 +35,7 @@ Sungrow Power Supply Co., Ltd. (Shenzhen Stock Exchange: 300274.SZ) is a Chinese
 - **Type:** Public company
 - **2025 Revenue:** CNY 89.2 billion (USD ~12.95 billion); CNY 37.3 billion from energy storage (+49% YoY)
 - **2025 BESS Shipments:** 43 GWh globally; target 2026: 60–65 GWh (+40–50% YoY)
+- **H1 2026:** BESS shipments of 25 GWh (+28%); revenue RMB30.9B (−29%); storage revenue RMB15.5B, now half of total
 - **Global Market Share (2024):** #2 after Tesla (Sungrow 14% vs. Tesla 15%; margin narrowed from 4 pp in 2023 to 1 pp in 2024; Wood Mackenzie)
 - **Cumulative BESS Shipments (H1 2025):** 70 GWh lifetime
 - **Key Product Lines:** PowerTitan 3.0 (liquid-cooled utility-scale, 7.2 MW / 28.5 MWh per 20-ft container); PowerTitan 2.0 (LFP container systems); PowerStack (C&I hybrid PV + storage)
@@ -54,6 +56,7 @@ Sungrow is a BESS systems integrator — it does not manufacture battery cells b
 
 ## Notable Developments
 
+- **2026-08 (H1 results):** Record 25 GWh of storage shipments (+28%); storage overtakes inverters as the largest revenue line; total revenue down 29% and net profit down 32%; storage gross margin 35% in Q2; expects a gradual pullback in US operations and about 2 GWh of firm AI-data-center storage orders. ([Energy-Storage.news](https://www.energy-storage.news/sungrows-battery-storage-revenue-tops-pv-business-h1-shipments-hit-25gwh/))
 - **2026-01:** Unveiled next-generation PowerTitan 3.0 utility-scale and integrated C&I solutions at World Future Energy Summit (WFES) in Abu Dhabi. Announced 10 GWh battery factory partnership with Egyptian government and Scatec at Suez Canal Economic Zone — the first large-scale BESS manufacturing facility in MENA region.
 - **2025-09:** PowerTitan 3.0 debuts in Europe with 7.2 MW / 28.5 MWh (4-hour) configuration; 60 MWh project deployed near Arctic Circle (extreme-climate validation).
 - **2025-Q3:** Global shipments reached 43 GWh run-rate; energy storage revenue surpassed solar inverters as Sungrow's largest business segment for the first time. Regional breakdown: Americas ~9 GWh, Europe >5 GWh, Middle East ~5 GWh, Asia-Pacific 3–4 GWh through Q3.

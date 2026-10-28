@@ -1,7 +1,7 @@
 ---
 title: "Neousys SEMIL-1300 Series"
 date: 2026-04-25
-lastmod: 2026-04-25
+lastmod: 2026-10-26
 draft: false
 description: "Fanless 2U half-rack edge AI server with IP67 waterproofing, -40°C operation, PoE+ integration; Taiwan-based, Advantech subsidiary, semi-industrial edge compute."
 research_area: "datacenters/rugged-edge-compute"
@@ -10,7 +10,7 @@ source_urls:
   - "https://coastipc.com/media/productattach/s/e/semil-1300gc_data_sheet_100924.pdf"
   - "https://www.assured-systems.com/neousys-semil-1300-intel-xeon-ecore-half-rack-rugged-fanless-computer/"
   - "https://www.stemmer-imaging.com/en/products/series/neousys-semil-1300/"
-last_reviewed: 2026-04-25
+last_reviewed: 2026-10-26
 stale_after_days: 180
 ---
 

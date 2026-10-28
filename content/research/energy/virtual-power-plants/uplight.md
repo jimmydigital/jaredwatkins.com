@@ -1,7 +1,7 @@
 ---
 title: "Uplight"
 date: 2026-07-18
-lastmod: 2026-07-18
+lastmod: 2026-10-26
 draft: false
 description: "Boulder, Colorado utility-facing DERMS/VPP software platform formed in 2019 from a six-company merger (Tendril, Simple Energy, FirstFuel, EEme, EnergySavvy); acquired AutoGrid in 2024 to add VPP/DERMS capability; majority-acquired by Octopus Energy in March 2026."
 research_area: "energy/virtual-power-plants"
@@ -9,7 +9,7 @@ source_urls:
   - "https://uplight.com/about-us/"
   - "https://uplight.com/solutions/virtual-power-plant/"
   - "https://www.renewableenergyworld.com/power-grid/smart-grids/uplight-to-acquire-derms-provider-autogrid/"
-last_reviewed: 2026-07-18
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "_index.md"
@@ -57,7 +57,7 @@ Unlike the aggregator-facing companies elsewhere in this section (Voltus, CPower
 
 Full current executive roster beyond the CEO, and confirmation of leadership continuity following the Octopus Energy majority acquisition, were not independently confirmed via a current-dated source as of this review — TODO: verify.
 
-### Key People — Last Reviewed: 2026-07-18
+### Key People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

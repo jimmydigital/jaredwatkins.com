@@ -1,7 +1,7 @@
 ---
 title: "Edge Deployment and Device Integration"
 date: 2026-06-10
-lastmod: 2026-06-10
+lastmod: 2026-10-26
 draft: false
 description: "Deploying a fine-tuned network engineer specialist LLM disconnected on a Mac laptop, connecting it to physical network devices via SSH, and building an agentic command loop that can read device state and propose or execute commands."
 research_area: "local-llm-finetuning/specialist-models"
@@ -9,7 +9,7 @@ source_urls:
   - "https://ollama.com"
   - "https://github.com/ktbyers/netmiko"
   - "https://llama-cpp-python.readthedocs.io/"
-last_reviewed: 2026-06-10
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

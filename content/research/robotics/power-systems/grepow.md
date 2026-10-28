@@ -1,17 +1,18 @@
 ---
 title: "Grepow / Tattu"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-26
 draft: false
 description: "Shenzhen-based LiPo and high-C-rate lithium battery manufacturer (founded 1998); Tattu is its premium commercial drone battery brand; dominant OEM cell and pack supplier to the global commercial drone market with ~RMB 2.2B annual revenue."
 research_area: "robotics/power-systems"
 chinese-owned: true
 source_urls:
+  - "https://www.grepow.com/company-news"
   - "https://www.grepow.com/"
   - "https://www.grepow.com/brands/tattu.html"
   - "https://genstattu.com/tattu-uav-battery.html"
   - "https://genstattu.com/about-us/"
-last_reviewed: 2026-03-31
+last_reviewed: 2026-10-26
 stale_after_days: 180
 related: []
 ---
@@ -47,6 +48,7 @@ Grepow also manufactures shaped and flexible batteries (for unusual form factors
 
 ## Notable Developments
 
+- **2026-05-26:** Tattu 5.0 batteries for 100 kg heavy-lift UAVs shown at World Drone Congress 2026; Grepow's 2026 news items also emphasise wearable/XR shaped batteries (AWE USA, Viva Tech) and consumer chargers, indicating diversification beyond drones. ([Grepow](https://www.grepow.com/company-news))
 - **2024:** Tattu brand continues expansion into heavy-lift agricultural spraying drone market, offering large-capacity packs (22Ah–44Ah range) for agri-drone platforms.
 - **2023-ongoing:** Growing scrutiny of Chinese battery components in US government drone procurement contexts; Grepow/Tattu not subject to the same direct restrictions as DJI or Autel but occupies an adjacent regulatory grey zone.
 - **2013:** Tattu brand launched as commercial drone battery product line.
@@ -59,7 +61,7 @@ Grepow also manufactures shaped and flexible batteries (for unusual form factors
 - **LinkedIn:** not found
 - **Notes:** Grepow's leadership is not publicly profiled in English-language sources. The company is privately held and maintains a low public profile outside product marketing.
 
-### People — Last Reviewed: 2026-03-31
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

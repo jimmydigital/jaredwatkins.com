@@ -1,14 +1,15 @@
 ---
 title: "Flux Power Holdings"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-26
 draft: false
-description: "Vista, California LFP battery pack maker for industrial lift equipment and AMRs; FY2025 revenue $66.4M; US assembly using Chinese cells; new CEO Krishna Vanka as of March 2025 following Ron Dutt's retirement."
+description: "Vista, California LFP battery pack maker for industrial lift equipment and AMRs; FY2026 revenue $42.1M (down about 37% from $66.4M in FY2025); US assembly using Chinese cells; new CEO Krishna Vanka as of March 2025 following Ron Dutt's retirement."
 research_area: "robotics/power-systems"
 source_urls:
+  - "https://finviz.com/news/384329/flux-power-reports-2026-fiscal-fourth-quarter-and-full-year-financial-results"
   - "https://ir.fluxpower.com/news-events/press-releases/detail/224/flux-power-reports-fourth-quarter-and-fiscal-year-2025"
   - "https://ir.fluxpower.com/news-events/press-releases/detail/205/flux-power-appoints-veteran-technology-leader-krishna-vanka"
-last_reviewed: 2026-03-31
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related: []
 ---
@@ -27,7 +28,8 @@ Flux Power Holdings (NASDAQ: FLUX) is a Vista, California developer and manufact
 - **Type:** Public ([NASDAQ: FLUX](https://finance.yahoo.com/quote/FLUX))
 - **CEO:** Krishna Vanka (since March 10, 2025; Ron Dutt retired November 2024–March 2025 transition)
 - **Key products:** LFP battery packs in 24V, 36V, 48V, and 80V configurations (S-, M-, L-, X-series); SkyLNK hardware (telematics); SkyEMS software (fleet battery management platform)
-- **Revenue:** FY2025 (ended June 30, 2025): $66.4M (+9% YoY); FY2024: $60.8M
+- **Revenue:** FY2026 (ended June 30, 2026, unaudited): $42.1M (−~37% YoY); Q4 FY2026 $8.2M (−51% YoY, +25% sequentially). FY2025: $66.4M (+9% YoY); FY2024: $60.8M
+- **FY2026 results:** net loss $7.4M ($0.38/share); cash $0.3M at 2026-06-30 (from $1.3M); line of credit $6.3M (from $13.6M); total liabilities $21.6M; FY2025 restatement costs of $2.9M mentioned
 - **Manufacturing:** Vista, CA assembly facility; LFP cells sourced externally (primarily Chinese cell suppliers, not publicly specified)
 - **End markets:** Electric forklifts (primary), airport GSE, AMRs, industrial vehicles
 
@@ -45,6 +47,7 @@ The supply chain reality is that Flux Power assembles packs in Vista, CA from LF
 
 ## Notable Developments
 
+- **2026-08-20:** Flux Power reports unaudited FY2026 results: revenue $42.1M, Q4 $8.2M; the release does not explain the drop directly, cites headcount reductions and FY2025 restatement costs in expenses, and the CEO refers to "a number of headwinds" in his first 18 months; no numeric guidance, no customers named. ([Finviz / company release](https://finviz.com/news/384329/flux-power-reports-2026-fiscal-fourth-quarter-and-full-year-financial-results))
 - **2025-03:** Krishna Vanka appointed CEO; most recently CEO of Fluence Digital (Fluence Energy, NASDAQ: FLNC). ([Flux Power IR](https://ir.fluxpower.com/news-events/press-releases/detail/205/flux-power-appoints-veteran-technology-leader-krishna-vanka))
 - **2024-11:** Ron Dutt announces planned retirement as Chairman and CEO after ~12 years leading Flux Power. ([Flux Power IR](https://ir.fluxpower.com/news-events/press-releases/detail/197/flux-power-announces-planned-retirement-of-chairman-chief))
 - **2025:** FY2025 revenue $66.4M (+9% YoY); Q4 FY2025 revenue $16.7M (+25% YoY); SkyEMS platform adding ML/AI features. ([Flux Power IR](https://ir.fluxpower.com/news-events/press-releases/detail/224/flux-power-reports-fourth-quarter-and-fiscal-year-2025))
@@ -75,7 +78,7 @@ The supply chain reality is that Flux Power assembles packs in Vista, CA from LF
   - Visa International: Finance role
 - **Notes:** Dutt led Flux Power through the transition from lead-acid replacement to LFP and built out the GSE and AMR market presence. Named Food Logistics 2017 "Rock Stars of the Supply Chain."
 
-### People — Last Reviewed: 2026-03-31
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

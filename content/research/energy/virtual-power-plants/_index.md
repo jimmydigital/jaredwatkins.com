@@ -1,11 +1,11 @@
 ---
 title: "Virtual Power Plants"
 date: 2026-07-18
-lastmod: 2026-07-18
+lastmod: 2026-10-26
 draft: false
 description: "Companies aggregating distributed energy resources — home batteries, smart thermostats, EV chargers, and commercial/industrial load — into virtual power plants (VPPs) sold to utilities and, increasingly, to AI datacenter operators as fast-to-market grid capacity."
 research_area: "energy/virtual-power-plants"
-last_reviewed: 2026-07-18
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"

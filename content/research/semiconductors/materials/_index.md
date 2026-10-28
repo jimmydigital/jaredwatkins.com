@@ -1,7 +1,7 @@
 ---
 title: "Materials & Chemicals"
 date: 2026-04-24
-lastmod: 2026-04-24
+lastmod: 2026-10-26
 draft: false
 description: "Supply chain analysis for semiconductor fabrication materials: silicon wafers, photoresists, specialty gases, CMP slurries, photomask blanks, and advanced packaging materials."
 research_area: "semiconductors/materials"
@@ -9,7 +9,7 @@ source_urls:
   - "https://asia.nikkei.com/Business/Business-deals/Japan-state-backed-fund-looks-to-buy-top-photoresist-maker-JSR"
   - "https://www.entegris.com/en/home/brands/cmc-materials-july-2022.html"
   - "https://www.semiconductors.org/chip-supply-chain-investments/"
-last_reviewed: 2026-04-24
+last_reviewed: 2026-10-26
 stale_after_days: 180
 ---
 

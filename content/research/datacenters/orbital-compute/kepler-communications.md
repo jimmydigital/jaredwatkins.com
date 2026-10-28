@@ -1,7 +1,7 @@
 ---
 title: "Kepler Communications"
 date: 2026-04-29
-lastmod: 2026-04-29
+lastmod: 2026-10-26
 draft: false
 description: "Canadian space networking company operating the largest orbital compute cluster as of early 2026: 40 NVIDIA Orin processors across 10 satellites linked by laser ISLs."
 research_area: "datacenters/orbital-compute"
@@ -9,7 +9,7 @@ source_urls:
   - "https://www.keplercommunications.com/"
   - "https://nvidianews.nvidia.com/news/space-computing"
   - "https://techcrunch.com/2026/04/13/the-largest-orbital-compute-cluster-is-open-for-business/"
-last_reviewed: 2026-04-29
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -51,7 +51,7 @@ Sophia Space, one of Kepler's named customers, is testing orbital computer softw
   - LinkedIn: https://www.linkedin.com/in/minamitry/ — TODO: verify
   - Previous: Planet Labs
 
-### People — Last Reviewed: 2026-04-29
+### People — Last Reviewed: 2026-10-26
 
 ## Sources
 

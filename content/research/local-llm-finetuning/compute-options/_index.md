@@ -1,11 +1,11 @@
 ---
 title: "Compute Options for Fine-Tuning"
 date: 2026-06-10
-lastmod: 2026-06-10
+lastmod: 2026-10-26
 draft: false
 description: "Apple Silicon (Mac Mini / MacBook) vs. rented cloud GPU instances for LLM fine-tuning: hardware capabilities, time estimates, cost, and practical setup for each path."
 research_area: "local-llm-finetuning/compute-options"
-last_reviewed: 2026-06-10
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"

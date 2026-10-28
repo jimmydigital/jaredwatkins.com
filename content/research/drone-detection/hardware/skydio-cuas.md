@@ -1,7 +1,7 @@
 ---
 title: "Skydio C-UAS and Autonomous Patrol"
 date: 2026-06-05
-lastmod: 2026-06-05
+lastmod: 2026-10-26
 draft: false
 description: "Skydio's counter-UAS and autonomous patrol capabilities for critical infrastructure and military base protection — drone-in-a-box perimeter defense, AI anomaly detection, and the X10/X10D platform."
 research_area: "drone-detection/hardware"
@@ -14,7 +14,7 @@ source_urls:
   - "https://dronelife.com/2025/05/05/skydio-delivers-first-x10d-systems-for-u-s-armys-srr-program-as-u-s-manufacturers-race-to-scale-production/"
   - "https://www.airforce-technology.com/news/skydio-dock-us-airforce-drone/"
   - "https://www.tectonicdefense.com/skydio-raises-110m-at-4-4b-valuation/"
-last_reviewed: 2026-06-05
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -130,7 +130,7 @@ For non-federal critical infrastructure operators (power utilities, water facili
 - **Matt Donahoe** — Chief Revenue Officer. LinkedIn: not confirmed
 - **⚑ MIT AeroAstro cluster:** Both founders have MIT AeroAstro background, aligning with the MIT CSAIL/AeroAstro robotics people cluster noted in the robotics steering doc.
 
-### People — Last Reviewed: 2026-06-05
+### People — Last Reviewed: 2026-10-26
 
 ## Sources
 

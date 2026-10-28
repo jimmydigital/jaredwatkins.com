@@ -1,16 +1,17 @@
 ---
 title: "AML3D — Wire Arc Additive Manufacturing for Defense"
 date: 2026-06-29
-lastmod: 2026-06-29
+lastmod: 2026-10-26
 draft: false
 description: "AML3D (ASX: AL3) is an Australian WAAM specialist delivering metal additive manufacturing components for the US Navy's Virginia-class submarine program. Cu-Ni tailpiece in 5 weeks vs. 17 months traditionally. US Navy LOI projects 400 AM components in 2026, rising to 1,600 by 2030. Facilities in Adelaide (AU) and Ohio (US). Core player in AUKUS maritime industrial base."
 research_area: "lfam"
 source_urls:
+  - "https://3dprint.com/331785/3d-printing-financials-aml3d-revenue-jumps-70-as-u-s-defense-business-grows/"
   - "https://aml3d.com/aml3d-supports-aukus-with-virginia-submarine-component"
   - "https://www.advancedmanufacturing.org/news-desk/aml3d-delivers-3d-printed-parts-for-nuclear-submarines/article_b1a4a592-ceac-11ef-81f3-a7733aac375c.html"
   - "https://www.additivemanufacturing.media/articles/waam-specialist-aml3d-opens-us-facility-to-support-industrial-partnerships"
   - "https://www.metal-am.com/aml3d-delivers-am-components-for-testing-on-us-virginia-class-nuclear-submarines/"
-last_reviewed: 2026-06-29
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -68,6 +69,7 @@ AML3D's commercial WAAM platform:
 
 ## Notable Developments
 
+- **FY2026 (to June 30):** Revenue A$12.5M (+70%), gross margin 63%, first EBITDA-positive half-year (A$608K in H2) but a A$4.5M net loss; order book A$16.8M entering FY2027 and A$78M pipeline; 14 ARCEMY systems contracted into the U.S. Navy supply chain; planned A$12M to double Ohio capacity; cash ~A$26.7M
 - **2025:** US Navy LOI issued — 400 components in 2026, 1,600 by 2030
 - **2025:** US Ohio facility opened to support industrial partnerships
 - **2024–2025:** Cu-Ni Virginia-class tailpiece delivered; in-service trials

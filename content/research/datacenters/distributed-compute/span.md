@@ -1,16 +1,17 @@
 ---
 title: "Span"
 date: 2026-07-18
-lastmod: 2026-07-18
+lastmod: 2026-10-26
 draft: false
 description: "San Francisco smart-electrical-panel and grid-edge technology company (founder Arch Rao, ex-Tesla Energy); pivoted from home electrification toward utility infrastructure with SPAN Edge, and in April 2026 launched XFRA — a distributed, residentially-sited data center product built with NVIDIA to add AI inference capacity using existing grid headroom."
 research_area: "datacenters/distributed-compute"
 source_urls:
   - "https://www.span.io/blog/span-announces-xfra-a-distributed-data-center-solution-to-close-the-speed-to-power-gap-for-ai-compute-demand"
+  - "https://www.span.io/blog/span-announces-xfra-a-distributed-data-center-solution-to-close-the-speed-to-power-gap-for-ai-compute-demand"
   - "https://www.span.io/blog/b2-funding"
   - "https://www.latitudemedia.com/news/span-is-raising-a-176-million-series-c/"
   - "https://www.span.io/news"
-last_reviewed: 2026-07-18
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "datacenters/distributed-compute/_index.md"
@@ -51,6 +52,7 @@ XFRA, announced April 13, 2026, applies the same core idea — unlocking unused 
 
 ## Notable Developments
 
+- **2026-04-13:** XFRA launch details: NVIDIA is an initial launch partner with liquid-cooled RTX PRO 6000 Blackwell Server Edition GPUs; homebuilder PulteGroup rollout being pursued; initial deployments later in 2026 and gigawatt-scale capacity targeted for 2027
 - **2026-04-13:** Announced XFRA, a distributed data center product for AI inference and cloud gaming, built with launch partner NVIDIA (liquid-cooled RTX PRO 6000 Blackwell Server Edition GPUs) and homebuilder PulteGroup; initial deployments slated for "later this year" (2026) with a stated goal of gigawatt-scale capacity by 2027. Company states a technical white paper is available at XFRA.ai (not independently reviewed for this entry).
 - **2026-03-10:** Joined a campaign with Carrier, Tesla, and others aimed at unlocking underused grid capacity to lower electricity costs.
 - **2026-02-02:** Reported (via SEC filing, first covered by Axios and Latitude Media) to be raising a Series C of approximately $176 million, with $163 million in equity sold as of the filing; prior disclosed total funding exceeded $200 million.
@@ -69,7 +71,7 @@ XFRA, announced April 13, 2026, applies the same core idea — unlocking unused 
 
 Other Span co-founders or executive team members were not independently confirmed via a current-dated source as of this review; TODO — verify full founding team and current executive roster.
 
-### Key People — Last Reviewed: 2026-07-18
+### Key People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

@@ -1,11 +1,11 @@
 ---
 title: "Datacenter Opposition"
 date: 2026-04-20
-lastmod: 2026-07-26
+lastmod: 2026-10-26
 draft: false
 description: "Research section covering opposition to datacenter construction and operation across the United States — project tracker, organizing groups, funding networks, state-by-state breakdown, legislative actions, and tactical analysis."
 research_area: "datacenter-opposition"
-last_reviewed: 2026-07-26
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"

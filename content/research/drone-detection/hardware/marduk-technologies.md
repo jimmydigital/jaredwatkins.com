@@ -1,7 +1,7 @@
 ---
 title: "Marduk Technologies"
 date: 2026-06-05
-lastmod: 2026-07-07
+lastmod: 2026-10-26
 draft: false
 description: "Estonian C-UAS startup developing passive electro-optical drone detection — Piraya system detects fiber-optic and RF-dark drones using optical/thermal cameras with AI tracking; tested in live-fire at Siil 2025."
 research_area: "drone-detection/hardware"
@@ -9,7 +9,7 @@ source_urls:
   - "https://marduk.ee/"
   - "https://marduk.ee/news/the-growing-threat-of-fiber-optic-uavs-and-how-to-see-them-coming"
   - "https://marduk.ee/news/estonian-defence-forces-and-marduk-technologies-demonstrate-cutting-edge-counter-drone-capability-at-siil-2025"
-last_reviewed: 2026-07-07
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -54,7 +54,7 @@ The fiber-optic drone threat emerged from Ukraine/Russia conflict (2024–presen
 
 - Named founders not publicly documented as of this review — Marduk's public materials emphasize the Estonian defense-innovation ecosystem and product results rather than individual leadership profiles. <!-- TODO: revisit if Marduk raises a larger round or gets broader press coverage naming founders/CEO -->
 
-### People — Last Reviewed: 2026-07-07
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

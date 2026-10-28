@@ -1,7 +1,7 @@
 ---
 title: "Soelect Inc."
 date: 2026-04-24
-lastmod: 2026-04-24
+lastmod: 2026-10-26
 draft: false
 description: "Greensboro, NC startup; LiX® dendrite-resistant lithium anode technology; solid-state electrolyte materials; 100% charge in 15 minutes (claimed); 20+ automotive customers; GM Ventures investment; Lotte Chemical JV for US manufacturing scale-up (>$200M target); private."
 research_area: "energy/batteries"
@@ -11,7 +11,7 @@ source_urls:
   - "https://mercomcapital.com/lithium-battery-company-soelect-raises-funding/"
   - "https://electrive.com/2022/02/06/gm-invests-in-ev-battery-startup-soelect/"
   - "https://finance.yahoo.com/news/exclusive-soelect-lotte-chemical-aim-040752095.html"
-last_reviewed: 2026-04-24
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "energy/batteries/lithium-metal.md"

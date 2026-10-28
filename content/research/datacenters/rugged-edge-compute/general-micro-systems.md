@@ -1,7 +1,7 @@
 ---
 title: "General Micro Systems (GMS)"
 date: 2026-04-25
-lastmod: 2026-04-25
+lastmod: 2026-10-26
 draft: false
 description: "Rancho Dominguez, CA rugged embedded computing company specializing in ultra-compact, thermally innovative mission computers and VPX-based systems for defense applications. Inventor of RuggedCool four-sided conduction cooling technology."
 research_area: "datacenters/rugged-edge-compute"
@@ -10,7 +10,7 @@ source_urls:
   - "https://www.gms4sbc.com/company/news/press/gms-introduces-the-world-s-smallest-open-standards-rugged-mission-computer-under-$10,000-usd"
   - "https://militaryembedded.com/unmanned/rugged-computing/gms-unveils-rugged-mission-computer-for-small-drones-wearables-at-ausa"
   - "https://militaryembedded.com/unmanned/counter-uas/edge-ai-counter-uas-open-architecture-and-thermal-tech-set-the-tone-at-ausa-2025"
-last_reviewed: 2026-04-25
+last_reviewed: 2026-10-26
 stale_after_days: 180
 ---
 
@@ -78,7 +78,7 @@ The sub-$10,000 price point is notable in a segment where comparable form-factor
 - **Founder/CEO:** Tom Kinsley — founded GMS 1982; background in ruggedized electronics for military applications; LinkedIn: not found via search
 - <!-- TODO: verify current leadership and LinkedIn profiles from gms4sbc.com -->
 
-### People — Last Reviewed: 2026-04-25
+### People — Last Reviewed: 2026-10-26
 
 ## Sources
 

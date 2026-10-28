@@ -1,16 +1,17 @@
 ---
 title: "DragonSync"
 date: 2026-07-07
-lastmod: 2026-07-07
+lastmod: 2026-10-26
 draft: false
 description: "Open-source gateway that converts WiFi/Bluetooth Remote ID and DJI DroneID detections into Cursor-on-Target (CoT) for TAK/ATAK, MQTT/Home Assistant, and Anduril Lattice — the software core of the WarDragon detection kit."
 research_area: "drone-detection/open-source"
 source_urls:
   - "https://github.com/alphafox02/DragonSync"
+  - "https://github.com/alphafox02/DragonSync"
   - "https://github.com/alphafox02/droneid-go"
   - "https://github.com/alphafox02/antsdr_dji_droneid"
   - "https://www.rtl-sdr.com/wardragon-real-time-drone-remote-id-tracking-with-snifflee-tar1090-and-atak/"
-last_reviewed: 2026-07-07
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -48,6 +49,10 @@ This is primarily a fusion/integration layer — it assumes the detection hardwa
 ## Critical Limitation
 
 DragonSync performs no RF capture or decoding itself — it is a data-fusion and CoT-conversion layer sitting downstream of separate sniffer processes. Deploying it requires the WarDragon kit or an equivalent manually-assembled sniffer stack (droneid-go, antsdr_dji_droneid, wardragon_monitor.py). Like all Remote ID–based tools, it cannot see non-compliant, RF-silent, or fiber-optic-tethered drones, and ADS-B/978 ingestion depends on a correctly configured local `readsb` instance.
+
+## Notable Developments
+
+- **2026-10 repository check:** Public and not shown as archived; about 94 GitHub stars and 456 commits on the main branch; no tagged releases listed and last-commit dates were not visible, so recent activity is unconfirmed
 
 ## Sources
 

@@ -1,11 +1,11 @@
 ---
 title: "Utah — Stratos Project and Datacenter Opposition"
 date: 2026-06-06
-lastmod: 2026-06-06
+lastmod: 2026-10-26
 draft: false
 description: "Utah's Stratos Project — Kevin O'Leary's proposed 40,000-acre AI datacenter campus in Box Elder County — has become the most high-profile contested datacenter project in the country, generating litigation, a governance controversy over the Military Installation Development Authority (MIDA), and O'Leary's claims that opposition groups are foreign-funded."
 research_area: "datacenter-opposition"
-last_reviewed: 2026-06-06
+last_reviewed: 2026-10-26
 stale_after_days: 60
 ---
 
@@ -128,6 +128,10 @@ O'Leary's claims sit at the intersection of documented facts and unverified alle
 | June 6, 2026 | NBC News reports on lawsuit; Slashdot coverage |
 
 ---
+
+## 2026 Update
+
+- **2026-06:** Millard County commissioners approved project areas for two large data centers, Joule and Creekstone, after eight hearings; the state approved a post-performance tax break for Creekstone, which is already under construction. Opposition there is small compared with the Stratos project in Box Elder County, where opponents are appealing a ruling that blocked a vote. ([KJZZ/KUTV](https://kjzz.com/news/local/screaming-into-the-void-over-two-data-centers-in-central-utah))
 
 ## Sources
 

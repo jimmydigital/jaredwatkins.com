@@ -1,7 +1,7 @@
 ---
 title: "L3Harris Technologies — Iver4 AUV & Torpedo Tube Launch System"
 date: 2026-06-29
-lastmod: 2026-06-29
+lastmod: 2026-10-26
 draft: false
 description: "L3Harris Iver4 900 AUV with Torpedo Tube Launch and Recovery (TTLR) system enables US Navy submarines to covertly deploy and recover AUVs through torpedo tubes without surfacing. DIU OTA contract awarded March 2026. First US Navy submarine-approved lithium-ion battery for an AUV."
 research_area: "robotics/undersea-drones"
@@ -9,7 +9,7 @@ source_urls:
   - "https://www.l3harris.com/newsroom/press-release/2026/03/l3harris-provide-autonomous-underwater-capability-us-navy-submarines"
   - "https://www.navalnews.com/event-news/sea-air-space-2026/2026/05/l3harris-delivering-clandestine-submarine-launched-auvs-to-the-u-s-navy/"
   - "https://www.l3harris.com/all-capabilities/iver-suite-autonomous-underwater-vehicles"
-last_reviewed: 2026-06-29
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

@@ -1,11 +1,12 @@
 ---
 title: "IBM Quantum"
 date: 2026-04-06
-lastmod: 2026-04-06
+lastmod: 2026-10-26
 draft: false
 description: "Largest publicly accessible quantum computing fleet; superconducting QPU modality; Eagle, Heron, Nighthawk, and Loon processors on roadmap; 2029 Starling fault-tolerant target; qLDPC error correction research; cloud access via IBM Quantum Platform and Qiskit SDK."
 research_area: "quantum-computing"
 source_urls:
+  - "https://newsroom.ibm.com/latest-news-research-and-innovation?l=4"
   - "https://www.ibm.com/quantum"
   - "https://www.ibm.com/quantum/hardware"
   - "https://www.ibm.com/roadmaps/quantum"
@@ -17,7 +18,7 @@ source_urls:
   - "https://arxiv.org/abs/2603.04377"
   - "https://quantum.cloud.ibm.com"
   - "https://newsroom.ibm.com/2025-11-12-ibm-delivers-new-quantum-processors,-software,-and-algorithm-breakthroughs-on-path-to-advantage-and-fault-tolerance"
-last_reviewed: 2026-04-06
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -58,6 +59,9 @@ IBM publishes metrics via CLOPS (circuit layer operations per second) and CLOPSh
 
 ## Notable Developments
 
+- **2026-10-07:** IBM advances to Stage C of DARPA's Quantum Benchmarking Initiative. ([IBM Newsroom](https://newsroom.ibm.com/latest-news-research-and-innovation?l=4))
+- **2026-09-16:** Anderon, an IBM company, finalizes a $1B CHIPS award from the US Department of Commerce for a pure-play quantum foundry.
+- **2026-09-10:** IBM and Lockheed Martin announce a quantum innovation hub at ETH Zurich anchored by Switzerland's first IBM Quantum computer.
 - **2025-11:** IBM Delivers New Quantum Processors, Software, and Algorithm Breakthroughs announcement (November 12, 2025). Unveiled Nighthawk (120-qubit, square-lattice) and Loon (advanced connectivity for qLDPC proof-of-concept). Announced record 330,000 CLOPS on Heron fleet. Confirmed 2029 Starling and 2033 Blue Jay roadmap milestones.
 - **2025-11:** DOE (Department of Energy) researchers announced quantum simulations using IBM quantum computers that exceeded leading classical simulation benchmarks for certain particle physics problems — co-authored by IBM researchers.
 - **2025-06:** IBM published landmark paper in *Nature* on bivariate bicycle (BB) qLDPC codes. Codes achieve 0.7% error threshold (comparable to surface code) with ~10× physical qubit reduction (144 physical + 144 ancilla qubits vs. >1,000 for surface code). Paper authored by IBM team; independent peer review completed.
@@ -79,7 +83,7 @@ IBM publishes metrics via CLOPS (circuit layer operations per second) and CLOPSh
 - **IBM Tenure:** Pioneered IBM's cloud-based quantum computing platform; led Qiskit SDK development; named IBM Fellow in 2018
 - **Overlap flag:** Gambetta is the primary scientific architect of IBM Quantum's entire strategy from cloud access (2016) through the qLDPC error correction roadmap (2023–2033). His promotion to Director of Research (October 2025) reflects his centrality to IBM's quantum commitment but also represents a widening of scope — IBM Quantum is now positioned within a broader research strategy alongside semiconductors and AI, not as an isolated program.
 
-### People — Last Reviewed: 2026-04-06
+### People — Last Reviewed: 2026-10-26
 
 ## Roadmap
 

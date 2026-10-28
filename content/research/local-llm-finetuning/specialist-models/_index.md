@@ -1,11 +1,11 @@
 ---
 title: "Network Engineer Specialist Models"
 date: 2026-06-10
-lastmod: 2026-06-10
+lastmod: 2026-10-26
 draft: false
 description: "End-to-end design for Juniper and Cisco specialist network engineer models: base model selection, training data requirements, fine-tuning parameters, edge deployment, and integration with attached network devices."
 research_area: "local-llm-finetuning/specialist-models"
-last_reviewed: 2026-06-10
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"

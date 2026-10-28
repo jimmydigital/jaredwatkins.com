@@ -1,7 +1,7 @@
 ---
 title: "Soundryx"
 date: 2026-07-06
-lastmod: 2026-07-06
+lastmod: 2026-10-26
 draft: false
 description: "San Francisco startup (founded Jan 2025) building an acoustic sensor network for wide-area drone, vehicle, and gunshot detection — pitched as a lower-cost alternative to radar/RF systems and effective against radar-evading drones."
 research_area: "drone-detection/hardware"
@@ -14,7 +14,7 @@ source_urls:
   - "https://x.com/jamesmishra"
   - "https://x.com/soundryx"
   - "https://substack.com/@jamesmishra"
-last_reviewed: 2026-07-06
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -64,7 +64,7 @@ Soundryx's underlying audio-ML technology stack is inherited from the founder's 
 - Career: Began in AI and computer security research at the University of Minnesota (TLS-traffic timing analysis), the US National Security Agency, the US Department of Energy's Oak Ridge National Laboratory (Bitcoin protocol / quantum-computing vulnerability research), and NASA. Software engineer at Uber (Developer API; tech lead for the prototype that became UberHEALTH). Cofounded **Anton** (enterprise software startup, ultimately shut down). Founder & CEO of **Neocrym** (AI/neural-network audio analysis for pop music) prior to Soundryx; secondary sources also credit engineering/leadership work at **DoorDash**, not yet corroborated from a primary source.
 - **⚑ Overlap:** No overlap yet identified with other companies documented in this Research section — flag for review as more C-UAS personnel entries are added.
 
-### People — Last Reviewed: 2026-07-06
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

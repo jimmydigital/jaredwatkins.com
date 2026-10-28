@@ -1,7 +1,7 @@
 ---
 title: "Fraunhofer FHR"
 date: 2026-07-17
-lastmod: 2026-07-17
+lastmod: 2026-10-26
 draft: false
 description: "German research institute (Fraunhofer Institute for High Frequency Physics and Radar Techniques) with a dedicated 'Drone Detection with MIMO Radar' research line and the AKIRA project — a 3D-MIMO ground-radar network concept for monitoring cooperative and non-cooperative drones up to 100m altitude over cities, dual-use for both security and lawful drone-traffic management."
 research_area: "drone-detection/mimo-radar"
@@ -11,7 +11,7 @@ source_urls:
   - "https://www.fhr.fraunhofer.de/en/sections/Industrial-High-Frequency-Systems-IHS/MINIATURE-MIMO-Radar-SENSORS-FOR-THREE-DIMENSIONAL.html"
   - "https://www.fraunhofer.de/en/research/current-research/defense-against-drones.html"
   - "https://www.fhr.fraunhofer.de/en/sections/Industrial-High-Frequency-Systems-IHS/Detection-of-small-drones-with-millimeter-wave-radar.html"
-last_reviewed: 2026-07-17
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

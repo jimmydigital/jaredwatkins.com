@@ -1,11 +1,11 @@
 ---
 title: "Local LLM Fine-Tuning"
 date: 2026-06-10
-lastmod: 2026-06-10
+lastmod: 2026-10-26
 draft: false
 description: "How to build, fine-tune, and deploy small specialist LLMs on local hardware — from base model selection through training data curation, compute options, and edge deployment."
 research_area: "local-llm-finetuning"
-last_reviewed: 2026-06-10
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"

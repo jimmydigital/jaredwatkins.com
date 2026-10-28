@@ -1,11 +1,11 @@
 ---
 title: "MIMO Radar Projects"
 date: 2026-07-17
-lastmod: 2026-07-17
+lastmod: 2026-10-26
 draft: false
 description: "Multiple-Input Multiple-Output (MIMO) radar architectures for drone detection — digital antenna-array radar that forms a large virtual aperture from few physical elements, enabling high-resolution 3D/4D imaging and classification at lower size, weight, power, and cost than mechanically-scanned or single-channel radar."
 research_area: "drone-detection/mimo-radar"
-last_reviewed: 2026-07-17
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"

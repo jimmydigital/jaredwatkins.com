@@ -1,14 +1,14 @@
 ---
 title: "CPower"
 date: 2026-07-18
-lastmod: 2026-07-18
+lastmod: 2026-10-26
 draft: false
 description: "Baltimore-based commercial & industrial demand-response and DER aggregator, formed in 2014 from the merger of Comverge's and Constellation's demand-response businesses; acquired by LS Power in 2018; grew via the 2022 acquisition of Centrica Business Solutions' US demand-response division."
 research_area: "energy/virtual-power-plants"
 source_urls:
   - "https://cpowerenergy.com/who-we-are/newsandhappenings/ls-power-completes-acquisition-cpower-energy-management/"
   - "https://cpowerenergy.com/who-we-are/newsandhappenings/ls-power-to-acquire-cpower-energy-management-press-release/"
-last_reviewed: 2026-07-18
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "_index.md"
@@ -53,7 +53,7 @@ CPower operates in the same general C&I demand-response model as [Voltus]({{< re
 
 Full current executive roster beyond the CEO was not independently confirmed via a current-dated source as of this review — TODO: verify.
 
-### Key People — Last Reviewed: 2026-07-18
+### Key People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

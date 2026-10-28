@@ -1,16 +1,17 @@
 ---
 title: "Neura Robotics"
 date: 2026-07-18
-lastmod: 2026-07-18
+lastmod: 2026-10-26
 draft: false
 description: "Metzingen, Germany cognitive-robotics company; David Reger founder; 4NE1 full-size humanoid and 4NE1 Mini (52in commercial/home-oriented variant, CES 2026); closed a record $1.4B Series C (Jun 2026, Amazon/NVIDIA/Qualcomm/Bosch/Schaeffler/Tether) at a ~$7B valuation — Europe's most-funded humanoid robotics company; Neuraverse shared-skill platform and 'NEURA Gyms' training facilities."
 research_area: "robotics/humanoid"
 source_urls:
+  - "https://implicator.ai/neura-raises-up-to-1-4-billion-as-humanoid-funding-outruns-robot-revenue"
   - "https://neura-robotics.com"
   - "https://www.businesswire.com/news/home/20260610204575/en/NEURA-Robotics-Announces-Record-Series-C-of-up-to-$1.4-Billion-to-Accelerate-the-Worlds-Leading-Physical-AI-Platform"
   - "https://en.wikipedia.org/wiki/Neura_Robotics"
   - "https://control.com/news/neura-robotics-showcases-at-ces2026-quadrupeds-mini-humanoids-and-the-neuraverse/"
-last_reviewed: 2026-07-18
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -64,6 +65,7 @@ Neura Robotics began as a collaborative-robot (cobot) manufacturer — its LARA 
 
 ## Notable Developments
 
+- **2026-06:** Series C of up to $1.4B led by Tether (Amazon, NVIDIA, Qualcomm, Bosch, Schaeffler, EIB); 4NE-1 priced around €98,000 (€60,000 for orders of 20+) with volume shipments not expected until late 2026; company-stated backlog and pipeline above $1B is unverified
 - **2026-06-10:** Closed Series C financing of up to $1.4B (Amazon, NVIDIA, Qualcomm, Bosch, Schaeffler, Tether, European Investment Bank, and others) at a reported ~$7B valuation — the largest capital raise by a full-stack robotics company to date per company statement.
 - **2026-04-20:** Announced strategic collaboration with Amazon Web Services for cloud/AI infrastructure supporting Physical AI training and deployment.
 - **2026-01 (CES, Las Vegas):** Unveiled 4NE1 Mini (52in humanoid variant for commercial/household use) and the NEURA Quadruped robot at CES 2026.
@@ -83,7 +85,7 @@ Neura Robotics began as a collaborative-robot (cobot) manufacturer — its LARA 
 
 **⚑ Overlap — Western/European humanoid founder cluster:** Reger's public framing of Neura as building "Physical AI" comparable to, and directly competing with, US players (his own words: "alongside the best in the US and China") positions Neura as the clearest European counterweight in the [Humanoid Robots]({{< relref "../_index.md" >}}) sector's US/China-dominated landscape. Worth tracking alongside PAL Robotics (Spain) as the two most substantial non-US, non-Chinese humanoid entries in this knowledge base.
 
-### People — Last Reviewed: 2026-07-18
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain & Dependencies
 

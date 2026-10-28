@@ -1,11 +1,12 @@
 ---
 title: "Property Owner Rights vs. Drone Operator Rules (US & UK)"
 date: 2026-07-17
-lastmod: 2026-07-17
+lastmod: 2026-10-26
 draft: false
 description: "What drone operators are legally allowed to do near private property in the US and UK, and what property owners can do about it — hovering vs. perimeter flying, thermal/LIDAR sensing, whether altitude changes the analysis, and whether ground-level flight removes federal protection from self-help capture or disabling."
 research_area: "drone-detection"
 source_urls:
+  - "https://www.thedroneu.com/?p=44228"
   - "https://www.faa.gov/newsroom/small-unmanned-aircraft-systems-uas-regulations-part-107"
   - "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107"
   - "https://www.caa.co.uk/drones/open-category/drone-code/where-you-can-fly-points-3-to-9/"
@@ -19,7 +20,7 @@ source_urls:
   - "https://www.law.cornell.edu/uscode/text/49/46501"
   - "https://www.autonomyglobal.co/just-shoot-it-down-who-can-take-down-rogue-drones-in-the-u-s/"
   - "https://www.eff.org/deeplinks/2024/08/backyard-privacy-age-drones"
-last_reviewed: 2026-07-17
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -120,6 +121,7 @@ The baseline rule, restated plainly by a C-UAS industry legal analyst in a 2025 
 
 ## Notable Developments
 
+- **2026-05:** Proposed FAA Section 2209 rule would let eligible critical-infrastructure facilities obtain drone flight restrictions up to 400 ft AGL within property lines for up to 290 days per year on five-year terms (30-day public comment per restriction); Part 107 operators may transit with Remote ID, recreational flyers would have to go around; facilities may monitor with Remote ID receivers but the rule does not authorize detection or mitigation; not final as of Oct 1, 2026
 - **2026:** UK CAA Drone and Model Aircraft Code updated with a temporary (Jan 2026–Dec 2027) extension of the sub-250g/UK0/UK1/C0 "fly over people, fly in residential areas" exemption to C1-class drones and model aircraft, broadening which drones can legally approach residential property.
 - **2025-01:** Industry legal commentary (Autonomy Global) restates, in the context of the 2024–2025 New Jersey mystery-drone sightings, that private citizens in the US have no legal authority to mitigate a drone under any circumstance, including over their own property.
 - **2026 (ongoing):** Approximately 24 US states now have drone-specific privacy statutes; Florida's is among the most detailed on sensor type, explicitly naming thermal and infrared imaging as covered conduct.

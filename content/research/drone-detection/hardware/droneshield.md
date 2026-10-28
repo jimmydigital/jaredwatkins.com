@@ -1,17 +1,18 @@
 ---
 title: "DroneShield"
 date: 2026-06-05
-lastmod: 2026-07-07
+lastmod: 2026-10-26
 draft: false
 description: "Australian AI-powered C-UAS company offering fixed-site (DroneSentry), portable (DroneSentry-X), and on-the-move counter-drone systems combining radar, RF, acoustic, and computer vision with AI sensor fusion."
 research_area: "drone-detection/hardware"
 source_urls:
+  - "https://cfotech.co.uk/story/droneshield-posts-record-half-year-revenue-as-losses-grow"
   - "https://www.droneshield.com/"
   - "https://mssdefence.com/product/droneshield-dronesentry/"
   - "https://www.janes.com/osint-insights/defence-news/air/droneshield-integrates-aesa-radar-into-dronesentry-c-uas-suite"
   - "https://cuashub.com/en/product/dronesentry/"
   - "https://www.shephardmedia.com/news/landwarfareintl/droneshield-signs-agreements-and-us-contract-in-the-face-of-surging-demand/"
-last_reviewed: 2026-07-07
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -46,6 +47,8 @@ A modular fixed installation combining:
 
 ## Notable Developments
 
+- **2026-08 (H1 results):** Record half-year revenue of A$125.8M (+74%), underlying EBITDA loss A$12.4M, cash A$180.0M, no debt; FY2026 revenue guidance of A$250–270M reaffirmed; RfAI-3 software and RfRecon hardware launched in July; Kansas City World Cup deployments recorded 184 detections and 48 drones seized. ([CFOtech](https://cfotech.co.uk/story/droneshield-posts-record-half-year-revenue-as-losses-grow))
+- **2026-04 (Q1):** Quarterly revenue A$74.1M (+121%), operating cash flow positive for a fourth straight quarter. ([SecurityBrief](https://securitybrief.co.uk/story/droneshield-quarterly-revenue-jumps-121-to-aud-74-1m))
 - **2026-07-06:** Released Q3 software update improving RF detection of agile FPV drones and coordinated swarm attacks; added an "air-gapped" update function for security-sensitive environments
 - **2026-07-01:** Rear Admiral Lee Goddard CSC joined as Independent Non-Executive Director
 - **2026-04-08:** CEO transition announced — Oleg Vornik steps down after 11 years leading the company; Angus Bean (product/engineering chief) appointed CEO. Followed a controversial ~$67M share sale by Vornik and then-chairman Peter James in late 2025 that had cut the stock more than 30%
@@ -61,7 +64,7 @@ A modular fixed installation combining:
 - **Oleg Vornik** — Former CEO (2015–April 2026); DroneShield's first employee, led the company from a A$27M market cap at 2016 IPO to nearly A$4B market cap and ASX 200 entry in September 2025; remained as an adviser for a three-month transition period after stepping down
 - **Rear Admiral Lee Goddard CSC** — Independent Non-Executive Director (joined July 1, 2026)
 
-### People — Last Reviewed: 2026-07-07
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

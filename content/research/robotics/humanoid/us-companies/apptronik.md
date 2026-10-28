@@ -1,11 +1,12 @@
 ---
 title: "Apptronik"
 date: 2026-06-19
-lastmod: 2026-07-18
+lastmod: 2026-10-26
 draft: false
 description: "Austin, TX humanoid robotics company; Apollo robot; $935M total raised; B Capital / Capital Factory / Google Series A; ~$5B valuation; opened expanded 90,000 sq ft Robot Park (Jul 2026) running Apollo 2 (bipedal + wheeled) fleets to train Google DeepMind's Gemini Robotics; Apollo 3 commercial product targeted for 2027; 4-hour hot-swappable battery; 5 co-founders from UT Austin / NASA Valkyrie."
 research_area: "robotics/humanoid"
 source_urls:
+  - "https://robotics247.com/article/apptronik-closes-over-935m-series-a-with-new-520m-extension-round"
   - "https://apptronik.com"
   - "https://www.globenewswire.com/news-release/2025/02/13/3025687/0/en/Apptronik-Raises-350-Million-to-Scale-Production-of-AI-Powered-Humanoid-Robots-and-Meet-Significant-Customer-Demand.html"
   - "https://www.globenewswire.com/news-release/2026/02/11/3236352/0/en/Apptronik-Closes-Over-935-Million-Series-A-with-New-520-Million-Extension-Round.html"
@@ -13,7 +14,7 @@ source_urls:
   - "https://humanoid.guide/product/apollo/"
   - "https://roboticsandautomationnews.com/2026/07/06/apptronik-launches-robot-park-to-train-apollo-humanoid-robots-with-google-deepmind/103069/"
   - "https://www.automate.org/robotics/industry-insights/this-years-model-apptroniks-next-apollo-is-nearly-ready-for-its-closeup"
-last_reviewed: 2026-07-18
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -82,6 +83,7 @@ Apptronik evolved from UT Austin's Human Centered Robotics Lab, which contribute
 
 ## Notable Developments
 
+- **2026-02:** $520M Series A extension (total Series A over $935M) with new investors AT&T Ventures, John Deere and Qatar Investment Authority; partners include Google DeepMind (Gemini Robotics), Mercedes-Benz, Jabil and GXO
 - **2026-07-01:** Opened expanded ~90,000 sq ft Robot Park facility in Austin, TX; unveiled Apollo 2 (bipedal + wheeled configurations) as the data-collection/training platform feeding Google DeepMind's Gemini Robotics models.
 - **2026-02-11:** Closed $520M Series A-X extension (new investors AT&T Ventures, John Deere, Qatar Investment Authority), bringing total Series A to over $935M at a ~$5B+ valuation.
 - **2025-03:** Closed $53M oversubscribed Series A extension, bringing initial round to $403M.
@@ -118,7 +120,7 @@ Apptronik evolved from UT Austin's Human Centered Robotics Lab, which contribute
 
 **Pattern:** The strongest academic foundation of any US humanoid startup. Five co-founders with PhDs and genuine full-humanoid construction experience. The presence of Prof. Sentis as a co-founder (rather than just an academic advisor) gives Apptronik access to ongoing research output and talent pipeline from UT Austin.
 
-### People — Last Reviewed: 2026-07-18
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain & Dependencies
 

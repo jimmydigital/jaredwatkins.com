@@ -1,18 +1,20 @@
 ---
 title: "Unitree Robotics"
 date: 2026-06-19
-lastmod: 2026-06-19
+lastmod: 2026-10-26
 draft: false
 description: "Hangzhou-based Chinese robotics company; global volume leader in humanoid units shipped; ~700M yuan Series C (June 2025); 12B yuan valuation; Wang Xingxing founder; G1 at $16K and R1 at $5,900 are the most price-competitive humanoids globally; IPO planned."
 research_area: "robotics/humanoid"
 chinese-owned: true
 source_urls:
+  - "https://autonews.gasgoo.com/articles/news/unitree-launches-star-market-ipo-issuance-process-subscriptions-open-august-10-2083181368883253248"
+  - "https://www.ehangzhou.gov.cn/2026-08/18/c_298718.htm"
   - "https://unitree.com"
   - "https://www.eweek.com/news/unitree-20000-humanoid-robots-2026-china/"
   - "https://newsletter.semianalysis.com/p/chinas-unitree-will-dominate-global"
   - "https://www.techtimes.com/articles/318641/20260618/humanoid-robots-china-ships-90-global-units-now-leads-ai-benchmarks.htm"
   - "https://www.reuters.com/technology/unitree-raises-funds-series-c-2025-06/"
-last_reviewed: 2026-06-19
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -27,12 +29,12 @@ Unitree Robotics 🇨🇳 is the global volume leader in humanoid robot shipment
 - **Founded:** 2016 (Hangzhou, Zhejiang)
 - **HQ:** Hangzhou, Zhejiang, China
 - **Type:** Company — Platform OEM; vertically integrated
-- **Status:** Active — commercial shipments; IPO preparation announced
+- **Status:** Active — commercial shipments; listed on Shanghai STAR Market (August 2026)
 - **Ownership:** Private; Chinese domestic
 - **Employees:** Not publicly disclosed
 - **Total funding:** ~700M yuan (~$96M) in June 2025 Series C; prior rounds undisclosed
 - **Valuation:** ~12B yuan (~$1.65B) post Series C
-- **Revenue:** >1 billion yuan (~$140M) in 2025
+- **Revenue:** 1.699 billion yuan in 2025
 - **Units shipped (humanoid):** ~5,500 in 2025; targeting 20,000 in 2026
 - **Key robots:** H1 ($90K industrial), G1 ($16K), R1 ($5,900 entry-level)
 - **Value chain position:** Platform OEM; designs own Quasi-Direct Drive (QDD) actuators
@@ -55,7 +57,7 @@ Unitree Robotics 🇨🇳 is the global volume leader in humanoid robot shipment
 - **Geely Capital:** Geely is one of China's largest automakers (owns Volvo, Lotus, Zeekr); direct deployment interest
 - **Sequoia Capital China (early):** HongShan's early bet was well-timed; Unitree went from unknown to $1.65B valuation
 
-**IPO:** Announced August 2025, targeting Chinese domestic exchange (A-share). Timeline and status as of mid-2026 not confirmed.
+**IPO:** Announced August 2025; priced at 150.8 yuan per share and listed on Shanghai's STAR Market in August 2026 (about 40.45M new shares, ~61B yuan implied market cap).
 
 ## What It Is / How It Works
 
@@ -84,7 +86,7 @@ Unitree's strategy is aggressive cost reduction through vertical integration and
 
 **Note:** Wang Xingxing is one of the youngest founders of a billion-dollar robotics company globally. His background is hardware engineering rather than AI research — Unitree's competitiveness is in actuator design and manufacturing, not AI innovation.
 
-### People — Last Reviewed: 2026-06-19
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain & Dependencies
 
@@ -131,6 +133,11 @@ Unitree's strategy is aggressive cost reduction through vertical integration and
 - Revenue includes quadruped (Go series) and component sales alongside humanoids
 
 **Summary:** Directionally credible given unit volume; breakdown between humanoid and quadruped revenue unknown.
+
+## Notable Developments
+
+- **2026-08:** Listed on Shanghai's STAR Market (around Aug 19) after pricing 40.45M new shares (10% of post-offering capital) at 150.8 yuan, implying a market cap near 61B yuan; sponsor CITIC Securities
+- **2026-07:** Prospectus figures: 2025 revenue 1.699B yuan, 2025 humanoid shipments over 5,500, cumulative quadruped sales above 33,000; H1 2026 revenue guided to 1.05–1.13B yuan and net profit 258–306M yuan
 
 ## Sources
 

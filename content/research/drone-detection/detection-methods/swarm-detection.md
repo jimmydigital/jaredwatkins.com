@@ -1,7 +1,7 @@
 ---
 title: "Swarm Detection"
 date: 2026-06-05
-lastmod: 2026-07-07
+lastmod: 2026-10-26
 draft: false
 description: "State of the art in detecting coordinated multi-drone swarm attacks — what makes swarms uniquely hard to detect, which detection methods scale, and the current commercial and research approaches."
 research_area: "drone-detection/detection-methods"
@@ -14,7 +14,7 @@ source_urls:
   - "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9919887/"
   - "https://arc.aiaa.org/doi/10.2514/1.I011131"
   - "https://www.magaero.com/mag-thought-leadership-strategic-counter-uas-defense-technologies-and-mitigation-strategies/"
-last_reviewed: 2026-06-05
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

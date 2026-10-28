@@ -1,11 +1,11 @@
 ---
 title: "Robotics Software & Integration"
 date: 2026-06-19
-lastmod: 2026-06-19
+lastmod: 2026-10-26
 draft: false
 description: "The middleware, orchestration, and integration layer that connects robot hardware to warehouse management systems, ERP, and multi-vendor fleets."
 research_area: "robotics/software-and-integration"
-last_reviewed: 2026-06-19
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"

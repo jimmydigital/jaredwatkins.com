@@ -1,15 +1,16 @@
 ---
 title: "ASML"
 date: 2026-04-24
-lastmod: 2026-04-24
+lastmod: 2026-10-26
 draft: false
 description: "ASML Holding: Sole supplier of extreme ultraviolet (EUV) lithography systems globally; High-NA EUV leadership; CEO Christophe Fouquet; export controls; China revenue exposure."
 research_area: "semiconductors/fabrication-equipment"
 source_urls:
+  - "https://capital.com/en-au/news/asml-reports-11-7-billion-total-net-sales-and-5-0-billion"
   - "https://www.asml.com/"
   - "https://www.asml.com/en/company/governance/board-of-management"
   - "https://www.tomshardware.com/tech-industry/semiconductors/asml-projects-usd71-billion-in-revenue-by-2030-as-demand-for-euv-lithography-machines-intensifies-due-to-ai-boom"
-last_reviewed: 2026-04-24
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -176,6 +177,10 @@ ASML is a **critical ally asset** in semiconductor supply chain security:
 3. **Geopolitical Escalation:** US-Netherlands trade dispute or broader trade war could affect ASML's supply chain or export licensing.
 
 ---
+
+## Notable Developments
+
+- **2026-Q3 (reported Oct 14):** Record net sales €11.7B, gross margin 57.5%, net income €5.0B, 113 new systems; Q4 guidance €14.2–15.2B; FY2026 net sales guided to €44–45B (gross margin ~56%); ASML says 2027–2028 supply will not fully meet demand and plans a 30% capacity increase in 2027
 
 ## Sources
 

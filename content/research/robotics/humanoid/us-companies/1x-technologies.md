@@ -1,11 +1,12 @@
 ---
 title: "1X Technologies"
 date: 2026-06-19
-lastmod: 2026-07-18
+lastmod: 2026-10-26
 draft: false
 description: "Norwegian-founded, US-operated humanoid startup; $136.5M raised; OpenAI and EQT Ventures backed; NEO consumer robot open for pre-order at $20,000 (or $499/month) since Oct 2025, 22-DoF five-finger hands, Redwood AI + NVIDIA Jetson Thor Cortex compute; ~60–70% autonomy with 'Expert Mode' teleoperation for remainder; Bernt Børnich founder."
 research_area: "robotics/humanoid"
 source_urls:
+  - "https://letsdatascience.com/news/1x-ships-neo-humanoid-robots-to-us-homes-774b7a74"
   - "https://1x.tech"
   - "https://techcrunch.com/2023/03/23/1x-technologies-raises-23-5m-series-a-from-openai/"
   - "https://techcrunch.com/2024/01/08/1x-technologies-series-b/"
@@ -13,7 +14,7 @@ source_urls:
   - "https://www.winssolutions.org/humanoid-robots-2025-2026-reality-hype/"
   - "https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/"
   - "https://www.1x.tech/discover/neo-home-robot"
-last_reviewed: 2026-07-18
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -73,6 +74,7 @@ stale_after_days: 90
 
 ## Notable Developments
 
+- **2026:** NEO sold at $20,000 (Early Access) or $499/month; Hayward factory capacity 10,000 units in year one with a target above 100,000 per year by end of 2027; first-year capacity reported sold out within five days of October 2025 preorders; customer shipments were planned for 2026 (delivery start not independently confirmed here)
 - **2025-10-30:** Opened consumer pre-orders for NEO — $20,000 Early Access ($200 deposit) or $499/month; first US home deliveries targeted for 2026, other markets from 2027.
 - **2025-12:** Announced expansion of NEO deployment to factories and warehouses in addition to the original consumer/home focus.
 - **2024-08:** Unveiled NEO Beta and announced the pivot to focus solely on the in-home consumer market.
@@ -89,7 +91,7 @@ stale_after_days: 90
 
 **Note on founder background:** Børnich's background is lighter on academic robotics credentials than founders at Agility, Apptronik, or Sanctuary AI. 1X compensates by hiring NVIDIA engineers and using GR00T as the foundation model rather than developing AI from scratch — a systems integration strategy rather than a first-principles research approach.
 
-### People — Last Reviewed: 2026-07-18
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain & Dependencies
 

@@ -1,7 +1,7 @@
 ---
 title: "Meta Rapid Deployment Structures"
 date: 2026-06-04
-lastmod: 2026-06-04
+lastmod: 2026-10-26
 draft: false
 description: "Meta's fabric-and-aluminum tent structures for fast AI compute deployment, enabling hyperscale GPU clusters to go live in months rather than years."
 research_area: "datacenters/design-construction"
@@ -11,7 +11,7 @@ source_urls:
   - "https://www.datacenterdynamics.com/en/news/meta-brings-data-centers-in-tents-to-gallatin-tennessee/"
   - "https://cleanview.co/reports/behind-the-meter-data-centers"
   - "https://www.datacenterfrontier.com/hyperscale/article/55310441/ownership-and-power-challenges-in-metas-hyperion-and-prometheus-data-centers"
-last_reviewed: 2026-06-04
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "datacenters/behind-meter-power/williams-companies-btm.md"

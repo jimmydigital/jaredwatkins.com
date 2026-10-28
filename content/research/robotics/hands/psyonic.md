@@ -1,14 +1,15 @@
 ---
 title: "PSYONIC"
 date: 2026-07-18
-lastmod: 2026-07-18
+lastmod: 2026-10-26
 draft: false
 description: "San Diego prosthetics-to-robotics company founded 2015 by Dr. Aadeel Akhtar; FDA-approved, Medicare-covered Ability Hand myoelectric prosthetic (300+ patients); partnered with ABB Robotics (Jun 2026) to apply human-prosthetic touch/force data to industrial and humanoid dexterous manipulation via the GoFa cobot."
 research_area: "robotics/hands"
 source_urls:
   - "https://www.therobotreport.com/psyonic-abb-robotics-partner-apply-human-touch-data-robot-dexterity/"
+  - "https://www.therobotreport.com/psyonic-abb-robotics-partner-apply-human-touch-data-robot-dexterity/"
   - "https://www.psyonic.io"
-last_reviewed: 2026-07-18
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -46,6 +47,7 @@ The Ability Hand combines myoelectric control (reading electrical signals from a
 
 ## Notable Developments
 
+- **2026-06-16:** Partnership with ABB Robotics pairing the Ability Hand with ABB's GoFa cobot, using prosthetic-user touch data and NVIDIA Isaac Lab/GR00T to train manipulation models; goal of over 99% reliability within 6–12 months
 - **2026-06-16:** Announced partnership with ABB Robotics combining the GoFa cobot with the Ability Hand to apply human-prosthetic touch/motion data to industrial and humanoid dexterous manipulation; targeting automotive, warehouse, aerospace, packaging, logistics, and laboratory-automation use cases.
 - **2025-10:** ABB Group sold ABB Robotics to SoftBank for $5.3B, making PSYONIC's 2026 robotics partner a SoftBank-owned entity.
 - **Ongoing (as of 2026):** 300+ patients using the FDA-approved, Medicare-covered Ability Hand prosthetic; Meta cited as an early purchaser following nationwide release.
@@ -60,7 +62,7 @@ The Ability Hand combines myoelectric control (reading electrical signals from a
 - LinkedIn: [aadeelakhtar](https://www.linkedin.com/in/aadeelakhtar/)
 - Personal site: [aadeelakhtar.com](https://www.aadeelakhtar.com/)
 
-### People — Last Reviewed: 2026-07-18
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

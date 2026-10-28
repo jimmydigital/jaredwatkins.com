@@ -1,7 +1,7 @@
 ---
 title: "Air Energy"
 date: 2026-07-12
-lastmod: 2026-07-12
+lastmod: 2026-10-26
 draft: false
 description: "Chicago-based Public Benefit Corporation commercializing DOE-validated solid-state lithium-air battery technology, spun out of Illinois Institute of Technology and Argonne National Laboratory research, targeting electric aviation, drones, and defense applications."
 research_area: "energy/batteries"
@@ -10,7 +10,7 @@ source_urls:
   - "https://www.airenergy.io/technology/the-guide-to-lithium-air-batteries/lithium-air-vs-lithium-ion"
   - "https://natlawreview.com/press-releases/air-energy-closes-seed-round-scale-doe-validated-solid-state-lithium-air"
   - "https://aviationweek.com/aerospace/advanced-air-mobility/air-energys-lithium-air-battery-could-enable-bigger-electric"
-last_reviewed: 2026-07-12
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "energy/batteries/lithium-air-batteries.md"
@@ -61,7 +61,7 @@ Argonne Distinguished Fellow with more than four decades in quantum science and 
 
 **Strategic advisors** (per company disclosure, roles not independently verified): Said Al'Hallaj (2x CEO/founder, battery manufacturing and operations); Francis Wang (former NanoGraf CEO/COO; IIT board, battery manufacturing); Ozge Guney Altay, PhD (former CEO/founder, operations executive); Melvin Flowers (strategic ventures, global people leader); Scott Daniel (founder/managing director, corporate and investment banking).
 
-### People — Last Reviewed: 2026-07-12
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

@@ -1,11 +1,11 @@
 ---
 title: "LLM Fundamentals & Fine-Tuning Methods"
 date: 2026-06-10
-lastmod: 2026-06-10
+lastmod: 2026-10-26
 draft: false
 description: "How large language models are trained from scratch, what fine-tuning modifies at a parameter level, and the efficient methods (LoRA, QLoRA) that make specialist fine-tuning practical on consumer hardware."
 research_area: "local-llm-finetuning/fundamentals"
-last_reviewed: 2026-06-10
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"

@@ -1,15 +1,16 @@
 ---
 title: "JSR Corporation"
 date: 2026-04-24
-lastmod: 2026-04-24
+lastmod: 2026-10-26
 draft: false
 description: "JSR Corporation: Japan's leading photoresist supplier; government-backed acquisition by Japan IC Manufacturing Corp (2023); ArF and EUV resist dominance; strategic nationalization."
 research_area: "semiconductors/materials"
 source_urls:
+  - "https://www.businesswire.com/news/home/20260526876476/en/Entegris-and-JSR-CorporationInpria-Corporation-Announce-Non-Exclusive-Cross-Licensing-to-EUV-Lithography"
   - "https://asia.nikkei.com/Business/Business-deals/Japan-state-backed-fund-looks-to-buy-top-photoresist-maker-JSR"
   - "https://chemweek.mydigitalpublication.com/articles/government-backed-fund-to-acquire-japan-s-jsr-for-6-3b/"
   - "https://www.cnbc.com/amp/2023/06/26/japan-backed-fund-to-buy-semiconductor-firm-jsr-for-6point3-billion.html"
-last_reviewed: 2026-04-24
+last_reviewed: 2026-10-26
 stale_after_days: 180
 ---
 
@@ -181,6 +182,10 @@ JSR operates under JIC ownership; day-to-day management likely involves Japan In
 - **Japan Earthquake / Disaster:** JSR manufacturing facilities (mostly in Kanagawa Prefecture, Japan) vulnerable to natural disaster. Government acquisition does not reduce this geographic concentration.
 
 ---
+
+## Notable Developments
+
+- **2026-05-26:** JSR/Inpria and Entegris signed a non-exclusive cross-license of metal oxide resist (MOR) patents, ending pending IPR challenges and opening joint work on EUV photoresist materials
 
 ## Sources
 

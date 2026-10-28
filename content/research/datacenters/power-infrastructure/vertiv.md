@@ -1,17 +1,18 @@
 ---
 title: "Vertiv"
 date: 2026-04-02
-lastmod: 2026-04-02
+lastmod: 2026-10-26
 draft: false
 description: "Columbus, OH-based critical power and cooling infrastructure provider (NYSE: VRT); originated as Emerson Electric's Network Power division, sold to Platinum Equity in 2016, renamed Vertiv, went public via SPAC in 2020; FY2025 revenue $10.23B (+28% YoY); $15B backlog (Q4 2025); co-developing 800 VDC power architecture with NVIDIA for next-gen AI factories; MegaMod HDX prefabricated modules support 50–100+ kW/rack at up to 10 MW; product portfolio spans UPS, PDUs, direct-to-chip CDUs, immersion cooling, and modular datacenter enclosures."
 research_area: "datacenters/power-infrastructure"
 source_urls:
+  - "https://investors.vertiv.com/news/news-details/2026/Vertiv-Reports-Strong-Second-Quarter-2026-with-Diluted-EPS-Growth-of-53-Adjusted-Diluted-EPS-Growth-of-60-Raises-Full-Year-2026-Guidance-Across-All-Key-Metrics/default.aspx"
   - "https://www.vertiv.com/"
   - "https://investors.vertiv.com/"
   - "https://www.vertiv.com/en-us/about/news-and-insights/corporate-news/from-vision-to-readiness-vertiv-collaborates-with-nvidia-to-advance-800-vdc-platform-designs-to-power-the-next-generation-of-ai-factories/"
   - "https://www.prnewswire.com/news-releases/vertiv-introduces-new-modular-liquid-cooling-infrastructure-solution-to-support-high-density-compute-requirements-in-north-america-and-emea-302661073.html"
   - "https://investors.vertiv.com/news/news-details/2026/Vertiv-Reports-Strong-Fourth-Quarter-with-Organic-Orders-Growth-of-252-and-Diluted-EPS-Growth-of-200-Adjusted-Diluted-EPS-37/default.aspx"
-last_reviewed: 2026-04-02
+last_reviewed: 2026-10-26
 stale_after_days: 60
 related:
   - "datacenters/power-infrastructure/_index.md"
@@ -43,7 +44,8 @@ Vertiv competes against Schneider Electric (APC/Galaxy brands) and Eaton in lega
 - **FY2025 Adjusted Free Cash Flow:** ~$1.5B
 - **Q4 2025 Backlog:** $15.0B (up 109% YoY); Q4 2025 book-to-bill ~2.9x
 - **Market Cap:** ~$89–92B (March 2026)
-- **2026 Guidance:** Net sales $13.25–13.75B; adjusted EPS $5.97–6.07; organic growth 27–29%
+- **2026 Guidance (raised July 2026):** Net sales $13.8–14.2B; adjusted EPS $6.65–6.75; organic growth 30–32% (initial February guidance was $13.25–13.75B)
+- **Q2 2026:** net sales $3,274M (+24%; organic +18%), adjusted operating margin 22.6%
 - **Geographic Revenue Mix (2025):** Americas 62%, APAC 20%, EMEA 18%
 - **Employees:** ~30,000 globally
 - **Key Product Lines:** UPS (Liebert brand), power distribution units (PDUs), busway (PowerBar), cooling distribution units (CDUs), direct-to-chip liquid cooling, immersion cooling, prefabricated modular datacenters (MegaMod, SmartRun), IT infrastructure management (Vertiv Unify)
@@ -67,6 +69,7 @@ Vertiv is a critical infrastructure supplier to the datacenter industry — it d
 
 ## Notable Developments
 
+- **2026-07 (Q2 results):** Net sales $3,274M (+24%), adjusted operating margin 22.6%, FY2026 guidance raised to $13.8–14.2B; Q3 guidance $3.65–3.85B. ([Vertiv](https://investors.vertiv.com/news/news-details/2026/Vertiv-Reports-Strong-Second-Quarter-2026-with-Diluted-EPS-Growth-of-53-Adjusted-Diluted-EPS-Growth-of-60-Raises-Full-Year-2026-Guidance-Across-All-Key-Metrics/default.aspx))
 - **2026-02:** Q4 2025 results — organic orders +252%, backlog $15.0B (+109% YoY), book-to-bill ~2.9x; 2026 guidance $13.25–13.75B revenue (27–29% organic growth), adjusted EPS $5.97–6.07. ([Vertiv IR](https://investors.vertiv.com/news/news-details/2026/Vertiv-Reports-Strong-Fourth-Quarter-with-Organic-Orders-Growth-of-252-and-Diluted-EPS-Growth-of-200-Adjusted-Diluted-EPS-37/default.aspx))
 - **2026-01:** MegaMod HDX new configurations launched — compact (13 racks, 1.25 MW) and combo (144 racks, 10 MW) variants supporting 50–100+ kW/rack; commercial availability in North America and EMEA. ([PR Newswire](https://www.prnewswire.com/news-releases/vertiv-introduces-new-modular-liquid-cooling-infrastructure-solution-to-support-high-density-compute-requirements-in-north-america-and-emea-302661073.html))
 - **2025-10:** Q3 2025 results — organic orders +60%, backlog $9.5B; 2025 guidance raised; adjusted EPS guidance increased to $3.80–$4.10. ([Vertiv IR](https://investors.vertiv.com/news/news-details/2025/Vertiv-Reports-Strong-Third-Quarter-Results-including-Organic-Orders-60-Diluted-EPS-122-Adjusted-EPS-63-Raises-2025-Guidance/default.aspx))
@@ -102,7 +105,7 @@ Vertiv is a critical infrastructure supplier to the datacenter industry — it d
 - **Background:** Led Vertiv's engineering and product organization; as CTO is now focused on defining future technology direction — including 800 VDC architecture roadmap, next-generation liquid cooling, and AI factory system design
 - **Notes:** The Armul/Liang organizational split is Vertiv's way of separating near-term product execution (Armul) from 2+ year technology bets (Liang)
 
-### Key People — Last Reviewed: 2026-04-02
+### Key People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

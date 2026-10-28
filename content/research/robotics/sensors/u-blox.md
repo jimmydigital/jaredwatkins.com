@@ -1,7 +1,7 @@
 ---
 title: "u-blox"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-26
 draft: false
 description: "Swiss GNSS module and cellular IoT module maker (formerly SIX: UBXN); taken private by Advent International for $1.3B in November 2025; F9 RTK GNSS and M9 modules are dominant in drone, AMR, and precision agriculture robotics positioning."
 research_area: "robotics/sensors"
@@ -9,7 +9,7 @@ source_urls:
   - "https://www.adventinternational.com/news/advent-completes-acquisition-of-u-blox/"
   - "https://www.u-blox.com/en/positioning-chips-and-modules"
   - "https://content.u-blox.com/sites/default/files/ZED-F9P_ProductSummary_UBX-17005151.pdf"
-last_reviewed: 2026-03-31
+last_reviewed: 2026-10-26
 stale_after_days: 180
 related: []
 ---
@@ -78,7 +78,7 @@ The Advent International acquisition at a 53% premium to the prior 6-month volum
   - Melcher Holding AG (1987–1998): Executive Committee member; CEO 1991–1998
 - **Notes:** Seiler led u-blox for over 20 years, building the company from a startup to a global GNSS module leader before its eventual privatization.
 
-### People — Last Reviewed: 2026-03-31
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

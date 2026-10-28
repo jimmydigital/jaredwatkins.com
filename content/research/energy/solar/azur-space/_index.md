@@ -1,16 +1,17 @@
 ---
 title: "Azur Space Solar Power"
 date: 2026-04-30
-lastmod: 2026-04-30
+lastmod: 2026-10-26
 draft: false
 description: "Heilbronn, Germany-based manufacturer of space-grade triple- and quadruple-junction GaAs solar cells; subsidiary of 5N Plus; over 60 years of heritage; 4G32C quadruple-junction cells reach 32% BOL efficiency; 6 million+ multi-junction cells delivered."
 research_area: "energy/solar"
 source_urls:
+  - "https://www.semiconductor-today.com/news_items/2026/feb/5nplus-030226.shtml"
   - "https://www.azurspace.com/en/"
   - "https://www.azurspace.com/en/about-us/milestones-achievements/"
   - "https://www.pv-magazine.com/2025/02/13/triple-junction-metal-wrap-through-solar-cells-tested-in-space/"
   - "https://satsearch.co/products/azur-space-triple-junction-solar-cell-3g30c-advanced-with-integrated-protection-diode-8-by-4-cm"
-last_reviewed: 2026-04-30
+last_reviewed: 2026-10-26
 stale_after_days: 180
 related:
   - "energy/solar/_index.md"
@@ -33,6 +34,7 @@ AZUR SPACE Solar Power GmbH is a Heilbronn, Germany-based manufacturer of high-e
 - **Products:** Triple-junction (3G28, 3G30) and quadruple-junction (4G32C) GaAs space solar cells and CIC assemblies; metal-wrap-through (MWT) cells; laser power converters; terrestrial CPV cells
 - **Peak efficiency (production space):** 32% BOL (4G32C quadruple-junction)
 - **Cumulative production:** 6+ million multi-junction solar devices delivered
+- **Capacity:** Plans a further 25% increase in solar cell production capacity in 2026, coming online gradually from H2 2026, after +30% in 2025 and +35% in 2024; 5N Plus cites a "maxed-out backlog"
 - **Key markets:** European satellite programs (ESA, Arianespace, Airbus Defence & Space, Thales Alenia Space), commercial GEO/LEO operators, New Space constellation builders, deep-space missions
 
 ## What It Is / How It Works
@@ -52,6 +54,7 @@ AZUR SPACE sells cells as bare cells, as CIC (Cover Interconnect Cell) assemblie
 
 ## Notable Developments
 
+- **2026-02:** AZUR SPACE announces a 25% capacity expansion for 2026 using existing site space, focused on process optimization and automation. ([Semiconductor Today](https://www.semiconductor-today.com/news_items/2026/feb/5nplus-030226.shtml))
 - **2025:** AZUR SPACE delivers its 6 millionth multi-junction solar cell. Adapts quadruple-junction cell for deep-space and Mars missions. Triple-junction MWT cells confirmed functional in LEO space validation.
 - **2024:** Mass production of SMT-compatible solar cells (MWT technology) launched in partnership with Sierra Space Corp. Production capacity increased by 35%.
 - **2023:** 4 millionth multi-junction solar cell delivered.
@@ -83,7 +86,7 @@ AZUR SPACE sells cells as bare cells, as CIC (Cover Interconnect Cell) assemblie
 
 <!-- TODO: Confirm current Managing Director / CEO of AZUR SPACE GmbH from public sources; corporate registry (Amtsgericht Stuttgart HRB 108212) may have current filing. -->
 
-### Leadership — Last Reviewed: 2026-04-30
+### Leadership — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 
@@ -128,6 +131,7 @@ The 2021 acquisition by 5N Plus has provided capital for capacity expansion (35%
 
 ## Sources
 
+- [Semiconductor Today: AZUR SPACE to expand capacity 25% (Feb 2026)](https://www.semiconductor-today.com/news_items/2026/feb/5nplus-030226.shtml)
 - [AZUR SPACE Solar Power — Official Site](https://www.azurspace.com/en/) — company overview and products
 - [AZUR SPACE Milestones & Achievements](https://www.azurspace.com/en/about-us/milestones-achievements/) — full historical timeline
 - [PV Magazine: MWT Cells Tested in Space (Feb 2025)](https://www.pv-magazine.com/2025/02/13/triple-junction-metal-wrap-through-solar-cells-tested-in-space/) — space validation of MWT technology

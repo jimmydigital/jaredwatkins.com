@@ -1,16 +1,18 @@
 ---
 title: "Monarch Tractor"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-26
 draft: false
-description: "Livermore, CA electric autonomous tractor company; MK-V is the first commercially available driver-optional electric tractor for specialty crops; $220M raised through Series C ($133M, July 2024); 400+ MK-V tractors deployed with 42,000+ hours of operation."
+description: "Livermore, CA electric autonomous tractor company; MK-V is the first commercially available driver-optional electric tractor for specialty crops; $220M raised through Series C ($133M, July 2024); 400+ MK-V tractors deployed with 42,000+ hours of operation; company wound down in 2026 after Caterpillar acquired its technology."
 research_area: "robotics/ground-drones"
 source_urls:
+  - "https://news.bgov.com/mergers-and-acquisitions/caterpillar-acquires-self-driving-electric-tractor-startup"
+  - "https://www.producer.com/daily/monarch-electric-tractors-future-in-canada-unclear-as-caterpillar-takes-over/"
   - "https://www.monarchtractor.com/about"
   - "https://www.businesswire.com/news/home/20221201005455/en/Monarch-Tractor-Launches-Production-of-Founder-Series-MK-V-The-First-Commercially-Available-Electric-Driver-Optional-Smart-Tractor"
   - "https://techfundingnews.com/largest-agri-robotics-investment-monarch-tractor-harvests-133m-for-worlds-fully-electric-tractor/"
   - "https://www.monarchtractor.com/praveen-penmetsa"
-last_reviewed: 2026-03-31
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related: []
 ---
@@ -44,6 +46,7 @@ CNH Industrial (Case IH, New Holland) is both an investor and a strategic partne
 
 ## Notable Developments
 
+- **2026-04:** Bloomberg reports Caterpillar has acquired Monarch's technology (terms undisclosed); Monarch says its technology was bought by "a large global equipment manufacturer." Earlier problems included loss of its manufacturing facility and dealer lawsuits over the autonomy technology; the Canadian distributor stopped taking orders and services existing tractors. ([Bloomberg Government](https://news.bgov.com/mergers-and-acquisitions/caterpillar-acquires-self-driving-electric-tractor-startup), [Western Producer](https://www.producer.com/daily/monarch-electric-tractors-future-in-canada-unclear-as-caterpillar-takes-over/))
 - **2024-07:** Series C of $133M raised — largest agricultural robotics round to date. ([Tech Funding News](https://techfundingnews.com/largest-agri-robotics-investment-monarch-tractor-harvests-133m-for-worlds-fully-electric-tractor/))
 - **2024:** 400+ MK-V tractors deployed; 42,000+ operating hours accumulated.
 - **2022-12:** MK-V Founder Series production launched; first commercially available electric driver-optional tractor. ([Business Wire](https://www.businesswire.com/news/home/20221201005455/en/Monarch-Tractor-Launches-Production-of-Founder-Series-MK-V-The-First-Commercially-Available-Electric-Driver-Optional-Smart-Tractor))
@@ -68,7 +71,7 @@ CNH Industrial (Case IH, New Holland) is both an investor and a strategic partne
   - Raen Winery: Fourth-generation winegrower; permaculture and biodynamic farming practitioner
 - **Notes:** Provides agricultural credibility and customer access; not an operating executive but integral to the company's founding vision and customer development.
 
-### People — Last Reviewed: 2026-03-31
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

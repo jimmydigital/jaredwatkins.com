@@ -1,18 +1,19 @@
 ---
 title: "AMD Instinct MI400 Series & Helios Rack"
 date: 2026-06-07
-lastmod: 2026-06-07
+lastmod: 2026-10-26
 draft: false
 description: "AMD's next-generation CDNA 5 GPU accelerators (MI430X, MI440X, MI455X) and Helios rack-scale AI system; 72 GPUs, 31 TB HBM4, 2.9 exaFLOPS FP4; targeting H2 2026."
 research_area: "ai-accelerators/amd-instinct"
 source_urls:
+  - "https://www.newsbytesapp.com/news/science/amds-helios-ai-servers-in-full-production-shipping-q3-2026/tldr"
   - "https://www.tomshardware.com/tech-industry/artificial-intelligence/amd-touts-instinct-mi430x-mi440x-and-mi455x-ai-accelerators-and-helios-rack-scale-ai-architecture-at-ces"
   - "https://www.nextplatform.com/compute/2026/02/23/amd-says-helios-racks-and-mi400-series-gpus-on-track-for-2h-2026/4092199"
   - "https://www.servethehome.com/not-just-for-oreos-and-trailers-amd-helios-next-gen-ai-racks-go-double-wide/"
   - "https://www.techpowerup.com/337987/amd-previews-432-gb-hbm4-instinct-mi400-gpus-and-helios-rack-scale-ai-solution"
   - "https://newsletter.semianalysis.com/p/amd-advancing-ai-mi350x-and-mi400-ualoe72-mi500-ual256"
   - "https://www.datacenterdynamics.com/en/news/amd-unveils-full-mi400-product-lineup-claims-mi500-chips-will-deliver-1000x-increase-in-ai-performance/"
-last_reviewed: 2026-06-07
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -57,6 +58,7 @@ The Helios system represents AMD's most aggressive move into rack-scale integrat
 
 ## Notable Developments
 
+- **2026-07:** Reported that Helios racks (MI455X with Venice CPUs) are in full production with shipments starting at the end of Q3 2026; OpenAI plans large-scale deployment later in 2026 and expansion in 2027, with MI500 next; delivery volumes not independently confirmed
 - **2026-06:** AMD and OpenAI announce OpenAI as Helios/MI400 anchor customer; Lisa Su and Sam Altman appear together at AMD Advancing AI event — AMD frames the deal as validation of its rack-scale approach
 - **2026-05:** AMD unveils full MI400 product lineup at Advancing AI 2025 event; announces MI500 roadmap with claimed 1000x AI performance improvement over multi-year horizon
 - **2026-02:** AMD confirms Helios and MI400 on track for H2 2026 ramp in quarterly investor communications

@@ -1,15 +1,16 @@
 ---
 title: "Synopsys Inc."
 date: 2026-04-24
-lastmod: 2026-04-24
+lastmod: 2026-10-26
 draft: false
 description: "Synopsys: #1 EDA vendor globally; completed $35B acquisition of ANSYS (July 2025); CEO Sassine Ghazi; export controls on EDA tools to China."
 research_area: "semiconductors/chip-design"
 source_urls:
+  - "https://pulse2.com/synopsys-design-automation-revenue-jumps-53-as-ai-demand-drives-record-quarter/"
   - "https://investor.synopsys.com/news/news-details/2025/Synopsys-Completes-Acquisition-of-Ansys/"
   - "https://www.synopsys.com/company/management-team/sassine-ghazi-bio.html"
   - "https://news.synopsys.com/2024-01-02-Sassine-Ghazi-2024-Letter-to-Stakeholders"
-last_reviewed: 2026-04-24
+last_reviewed: 2026-10-26
 stale_after_days: 180
 ---
 
@@ -208,6 +209,10 @@ Recession or chip design slowdown could reduce tool license adoption (though les
 4. **M&A Strategy:** Acquisitions of specialized tool vendors (Hypothesis, Leda, others) bolster capabilities.
 
 ---
+
+## Notable Developments
+
+- **FY2026 Q3 (late Aug):** Revenue $2.477B (+42%) with Design Automation $2.003B (+53%, including Ansys), non-GAAP EPS $3.91; FY2026 outlook raised to about $9.7B revenue and ~$15.07 non-GAAP EPS, with ~$2.98B expected from Ansys
 
 ## Sources
 

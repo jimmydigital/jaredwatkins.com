@@ -1,7 +1,7 @@
 ---
 title: "Corgan"
 date: 2026-04-02
-lastmod: 2026-04-02
+lastmod: 2026-10-26
 draft: false
 description: "Dallas-based architecture and engineering firm; #1 ranked data center architecture firm globally (BD+C, 2024–2025); founded 1938; data center practice since 1979; 300 of 1,200 employees on data center projects; ~$135M data center revenue in 2024; 15M+ sq ft designed; portfolio spans QTS, CoreSite, CyrusOne, Vantage, Cologix, and confidential hyperscalers; expertise in modular power rooms, adiabatic dry cooling, multistory high-density design, and AI infrastructure architecture."
 research_area: "datacenters/design-construction"
@@ -13,7 +13,7 @@ source_urls:
   - "https://www.corgan.com/projects/qts-project-granite-data-center"
   - "https://www.corgan.com/projects/coresite-sv9-data-center"
   - "https://www.archpaper.com/2025/11/demand-data-center-facilities-architecture-firms-sustainability/"
-last_reviewed: 2026-04-02
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "datacenters/design-construction/_index.md"
@@ -142,7 +142,7 @@ Per Drennan, Corgan now evaluates "almost the entire building" as changed for ea
 - **Background:** BA Architecture (UC Berkeley, 2001–2005); prior experience at Gensler and RMJM Hillier; also worked on LAX T4 Connector
 - **Notes:** Primary architect for Silicon Valley and LA-area datacenter projects, including Skybox Santa Clara. Quoted on water conservation, community integration, and CEQA compliance for California projects. Corgan designed 70+ datacenter projects in Silicon Valley/SF in five years under this studio's tenure.
 
-### People — Last Reviewed: 2026-04-02
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

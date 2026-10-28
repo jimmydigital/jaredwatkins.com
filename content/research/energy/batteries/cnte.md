@@ -1,7 +1,7 @@
 ---
 title: "CNTE (Contemporary Nebula Technology Energy)"
 date: 2026-04-04
-lastmod: 2026-04-04
+lastmod: 2026-10-26
 draft: false
 description: "CATL-backed Chinese BESS system integrator; unveiled STAR H-PLUS outdoor liquid-cooled all-in-one energy storage system at KEY ENERGY 2026; global markets focus through YOU.ON ENERGIA partnership."
 research_area: "energy/batteries"
@@ -13,7 +13,7 @@ source_urls:
   - "https://www.energy-storage.news/industry-updates/cnte-showcases-star-h-plus-ess-at-key-energy-2026/"
   - "https://en.cntepower.com/cnte-you-on-partner-to-expand-storage-markets/"
   - "https://www.crunchbase.com/organization/contemporary-nebula-technology-energy-co"
-last_reviewed: 2026-04-04
+last_reviewed: 2026-10-26
 stale_after_days: 180
 related:
   - "energy/batteries/_index.md"
@@ -91,7 +91,7 @@ The company's strategic position is distinct: CNTE gives CATL a forward-integrat
 
 **Public Leadership:** Beyond Huang, CNTE does not prominently feature named executives in English-language sources. The company emphasizes collective technical R&D capacity (50% of staff) rather than personality-driven leadership.
 
-### Key People — Last Reviewed: 2026-04-04
+### Key People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

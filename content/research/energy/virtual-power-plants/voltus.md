@@ -1,15 +1,16 @@
 ---
 title: "Voltus"
 date: 2026-07-18
-lastmod: 2026-07-18
+lastmod: 2026-10-26
 draft: false
 description: "San Francisco commercial & industrial demand-response/VPP technology platform (founded 2016); a 2021-22 SPAC merger with Broadscale Acquisition Corp. was terminated, and the company remains private; launched a 'bring-your-own-capacity' product for hyperscalers in 2025, signing Google as its first customer for 100 MW in June 2026."
 research_area: "energy/virtual-power-plants"
 source_urls:
+  - "https://renewablewatch.in/2026/06/09/google-and-voltus-sign-agreement-for-100-mw-virtual-power-plant-in-us/"
   - "https://www.voltus.co/leadership"
   - "https://www.canarymedia.com/articles/virtual-power-plants/tesla-sunrun-renewhome-vpp"
   - "https://news.spacconference.com/2022/08/15/broadscale-acquisition-ends-voltus-merger-agreement/"
-last_reviewed: 2026-07-18
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "_index.md"
@@ -49,6 +50,7 @@ The 2025 "bring-your-own-capacity" product inverts Voltus's usual sales motion: 
 
 ## Notable Developments
 
+- **2026-06:** Signed a three-year Google-funded agreement to aggregate up to 100 MW of distributed resources per year in PJM
 - **2026-06 (early):** Google announced as the first customer of Voltus's "bring-your-own-capacity" plan, developing 100 MW of distributed capacity.
 - **2025 (year, exact date unconfirmed):** Launched the "bring-your-own-capacity" product targeting hyperscalers struggling to interconnect to overburdened grids.
 - **2022-08-12:** Broadscale Acquisition Corp. and Voltus jointly announced termination of their business combination agreement after Voltus was unable to complete registration-statement requirements ahead of the deadline; the deal had valued combined Voltus at a $1.3B pro forma equity value with $445M of expected gross proceeds (including a $100M PIPE led by Equinor Ventures).
@@ -76,7 +78,7 @@ The 2025 "bring-your-own-capacity" product inverts Voltus's usual sales motion: 
 - LinkedIn: [linkedin.com/in/laurie-harrison-2156464](https://www.linkedin.com/in/laurie-harrison-2156464/)
 - **⚑ Shared background:** Dana Guernsey (Voltus) and Laurie Harrison (Voltus) both worked at EnerNOC, as did Matthew Plante — a notable concentration of EnerNOC/Enel X alumni within Voltus's own leadership team, not just a cross-company link.
 
-### Key People — Last Reviewed: 2026-07-18
+### Key People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

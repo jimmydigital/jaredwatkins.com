@@ -1,16 +1,17 @@
 ---
 title: "SolAero Technologies (Rocket Lab)"
 date: 2026-04-30
-lastmod: 2026-04-30
+lastmod: 2026-10-26
 draft: false
 description: "Albuquerque, NM-based space solar cell and panel manufacturer; acquired by Rocket Lab in 2022 for $80M; powers 1,100+ satellites including Ingenuity Mars helicopter; produces STARRAY modular solar arrays; supplies Next-Gen OPIR and NASA Gateway solar power."
 research_area: "energy/solar"
 source_urls:
+  - "https://newspaceeconomy.ca/2026/08/12/what-do-rocket-lab-q2-2026-earnings-reveal-about-the-companys-expansion/"
   - "https://rocketlabcorp.com/space-systems/solar/"
   - "https://rocketlabcorp.com/updates/rocket-lab-closes-acquisition-of-space-solar-power-products-company-solaero-holdings-inc/"
   - "https://spacenews.com/rocket-lab-to-supply-solar-power-units-for-u-s-space-force-missile-warning-satellites/"
   - "https://techcrunch.com/2022/01/18/rocket-lab-acquires-solaero-holdings-for-80m-to-boost-space-solar-cell-production/"
-last_reviewed: 2026-04-30
+last_reviewed: 2026-10-26
 stale_after_days: 180
 related:
   - "energy/solar/_index.md"
@@ -49,6 +50,7 @@ SolAero manufactures multi-junction III-V photovoltaic cells on germanium substr
 
 ## Notable Developments
 
+- **2026-08 (parent):** Rocket Lab reports Q2 2026 revenue of about $234M (+62%), with Space Systems at about $189.5M and record backlog of $2.36B; the coverage does not break out solar cells separately. ([New Space Economy](https://newspaceeconomy.ca/2026/08/12/what-do-rocket-lab-q2-2026-earnings-reveal-about-the-companys-expansion/))
 - **2025 (upcoming):** Rocket Lab to supply solar cells and radiation-hardened assemblies for the US Space Force's Next-Generation Overhead Persistent Infrared (Next-Gen OPIR) geostationary missile warning satellites; first launch scheduled in 2025.
 - **2024:** STARRAY line expanded; SolAero continues to ramp production under Rocket Lab ownership.
 - **2022:** Rocket Lab acquires SolAero Holdings for $80M cash (January 18, 2022). Integration into Rocket Lab's Space Systems division as "SolAero by Rocket Lab." NIST CHIPS-related designation: Rocket Lab's Albuquerque facility recognized in the context of US domestic space solar manufacturing.
@@ -69,7 +71,7 @@ SolAero manufactures multi-junction III-V photovoltaic cells on germanium substr
 - **Role:** Drives overall Rocket Lab strategy, including the vertical integration thesis behind the SolAero acquisition.
 - **Background:** Founded Rocket Lab in New Zealand (2006); relocated to the US; built Electron launch vehicle and Photon spacecraft bus; New Zealand Order of Merit recipient.
 
-### Leadership — Last Reviewed: 2026-04-30
+### Leadership — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 
@@ -128,6 +130,7 @@ Rocket Lab's NIST CHIPS program designation signals US government interest in ma
 
 ## Sources
 
+- [New Space Economy: Rocket Lab Q2 2026 earnings (Aug 2026)](https://newspaceeconomy.ca/2026/08/12/what-do-rocket-lab-q2-2026-earnings-reveal-about-the-companys-expansion/)
 - [Rocket Lab Solar Solutions](https://rocketlabcorp.com/space-systems/solar/) — current product lines and STARRAY details
 - [Rocket Lab Acquisition Close Announcement](https://rocketlabcorp.com/updates/rocket-lab-closes-acquisition-of-space-solar-power-products-company-solaero-holdings-inc/) — acquisition details and heritage figures
 - [SpaceNews: Rocket Lab to supply solar for Next-Gen OPIR](https://spacenews.com/rocket-lab-to-supply-solar-power-units-for-u-s-space-force-missile-warning-satellites/) — Space Force contract

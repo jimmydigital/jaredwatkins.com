@@ -1,14 +1,14 @@
 ---
 title: "Config Generation vs. Troubleshooting: Two Different Models"
 date: 2026-06-10
-lastmod: 2026-06-10
+lastmod: 2026-10-26
 draft: false
 description: "Configuration generation and troubleshooting are fundamentally different tasks with different training data requirements, different interaction patterns, and different quality criteria — and may be better served by two separate fine-tuned models than one."
 research_area: "local-llm-finetuning/fundamentals"
 source_urls:
   - "https://www.juniper.net/documentation/"
   - "https://www.cisco.com/c/en/us/support/docs/"
-last_reviewed: 2026-06-10
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

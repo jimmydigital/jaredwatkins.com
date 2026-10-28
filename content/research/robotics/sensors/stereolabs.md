@@ -1,14 +1,15 @@
 ---
 title: "Stereolabs (ZED Cameras)"
 date: 2026-06-23
-lastmod: 2026-06-23
+lastmod: 2026-10-26
 draft: false
 description: "Paris/San Francisco stereo depth camera company; ZED 2, ZED X, and ZED Mini cameras provide active stereo vision with on-camera IMU; Gold MoveIt Pro integration; widely used in robotics, AMR, and drone applications with strong NVIDIA Jetson compatibility."
 research_area: "robotics/sensors"
 source_urls:
+  - "https://pulse2.com/ouster-buys-stereolabs-to-build-unified-physical-ai-sensing-and-perception-platform/"
   - "https://www.stereolabs.com/"
   - "https://github.com/stereolabs/zed-ros2-wrapper"
-last_reviewed: 2026-06-23
+last_reviewed: 2026-10-26
 stale_after_days: 180
 related: []
 ---
@@ -18,13 +19,15 @@ related: []
 
 ## Summary
 
-Stereolabs, headquartered in Paris with a US office in San Francisco, manufactures the ZED series of stereo depth cameras — widely used in robotics, AMR, drone, and augmented reality applications. ZED cameras use active stereo vision (infrared projector + two wide-baseline cameras) to generate dense depth maps and 6-DoF positional tracking in real time without external infrastructure. The company has a strong NVIDIA partnership, with ZED cameras natively supported in the Isaac ROS ecosystem and optimized for NVIDIA Jetson platforms. Stereolabs holds a Gold MoveIt Pro integration and maintains a vendor-supported ROS 2 driver.
+Stereolabs, headquartered in Paris with a US office in San Francisco, is a wholly owned subsidiary of Ouster (acquisition announced February 2026) and manufactures the ZED series of stereo depth cameras — widely used in robotics, AMR, drone, and augmented reality applications. ZED cameras use active stereo vision (infrared projector + two wide-baseline cameras) to generate dense depth maps and 6-DoF positional tracking in real time without external infrastructure. The company has a strong NVIDIA partnership, with ZED cameras natively supported in the Isaac ROS ecosystem and optimized for NVIDIA Jetson platforms. Stereolabs holds a Gold MoveIt Pro integration and maintains a vendor-supported ROS 2 driver.
 
 ## Key Facts
 
 - **Founded:** 2015
 - **HQ:** Paris, France (US office: San Francisco, CA)
-- **Type:** Private (Series B as of last known funding)
+- **Type:** Wholly owned subsidiary of Ouster (acquired 2026; about $35M cash plus 1.8M Ouster shares)
+- **Scale:** About $16M unaudited 2025 revenue; 90,000+ ZED cameras shipped to 10,000+ customers (per Ouster)
+- **Leadership:** Co-founders Cecile Schmollgruber, Edwin Azzam and Olivier Braun continue to lead the team
 - **Key products:** ZED 2 (wide-FoV stereo, 120° diagonal); ZED X (industrial/outdoor ruggedized); ZED Mini (compact, head-mounted AR); ZED 2i (IP66-rated industrial)
 - **Technology:** Active stereo vision; on-board IMU; real-time 6-DoF positional tracking; neural depth via GPU; up to 15m depth range; 30–100 fps depending on resolution
 - **ROS 2 driver:** Vendor-supported (github.com/stereolabs/zed-ros2-wrapper)
@@ -43,12 +46,14 @@ The Gold MoveIt Pro integration means PickNik has validated ZED cameras in manip
 
 ## Notable Developments
 
+- **2026-04:** ZED X Nano camera launched. ([Business Wire](https://secure.businesswire.com/news/home/20260806343526/en/Ouster-Announces-Results-for-Second-Quarter-2026))
+- **2026-02:** Ouster acquires Stereolabs to pair its digital lidar with ZED cameras and perception software; Stereolabs results consolidate from Q1 2026. ([Pulse 2.0](https://pulse2.com/ouster-buys-stereolabs-to-build-unified-physical-ai-sensing-and-perception-platform/))
 - **2023–2024:** ZED X released with industrial ruggedization; targets factory automation and outdoor robotics.
 - **2023:** ZED SDK listed in NVIDIA Isaac ROS NGC catalog; Stereolabs and NVIDIA publish joint application notes for ZED + Jetson AGX Orin integration.
 - **2022:** Series B funding; amount not publicly disclosed.
 - **2015:** Company founded in Paris.
 
-### People — Last Reviewed: 2026-06-23
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

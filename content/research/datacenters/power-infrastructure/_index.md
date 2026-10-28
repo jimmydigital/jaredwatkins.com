@@ -1,11 +1,11 @@
 ---
 title: Datacenter Power Infrastructure
 date: 2026-03-24
-lastmod: 2026-07-18
+lastmod: 2026-10-26
 draft: false
 description: Power sourcing, behind-the-meter generation, grid interconnection, and energy storage for AI-scale datacenters.
 research_area: "datacenters/power-infrastructure"
-last_reviewed: 2026-07-18
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -113,4 +113,4 @@ Power availability has displaced fiber connectivity as the primary datacenter si
 
 **⚑ Shared supply chain — LFP cells:** LFP cells for datacenter UPS/BESS from CATL and BYD are the same cells used in grid-scale storage and increasingly in AMR robot batteries (see robotics/power-systems). A supply crunch in LFP cells would simultaneously affect datacenter UPS infrastructure, grid storage deployments, and industrial robotics.
 
-### Supply Chain — Last Reviewed: 2026-05-05
+### Supply Chain — Last Reviewed: 2026-10-26

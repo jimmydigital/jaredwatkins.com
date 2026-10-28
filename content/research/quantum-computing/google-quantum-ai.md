@@ -1,11 +1,13 @@
 ---
 title: "Google Quantum AI"
 date: 2026-04-19
-lastmod: 2026-04-19
+lastmod: 2026-10-26
 draft: false
 description: "Google's superconducting quantum computing program; Sycamore 2019 supremacy claim (contested), Willow 2024 below-threshold error correction (partially verified), dual-modality expansion to neutral atoms (March 2026); targeting useful fault-tolerant quantum computer by 2029."
 research_area: "quantum-computing"
 source_urls:
+  - "https://thequantuminsider.com/2026/03/24/google-paves-a-two-lane-quantum-roadmap-by-adding-neutral-atom-systems/"
+  - "https://thequantuminsider.com/2026/03/28/google-opens-early-access-to-willow-quantum-processor-invites-experimental-proposals/"
   - "https://quantumai.google/"
   - "https://quantumai.google/roadmap"
   - "https://www.nature.com/articles/s41586-019-1666-5"
@@ -16,7 +18,7 @@ source_urls:
   - "https://arxiv.org/abs/2410.00917"
   - "https://quantumai.google/static/site-assets/downloads/willow-spec-sheet.pdf"
   - "https://blog.google/innovation-and-ai/technology/research/neutral-atom-quantum-computers/"
-last_reviewed: 2026-04-19
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -62,6 +64,7 @@ The "below threshold" result means that as Google increases code distance, the l
 
 ## Notable Developments
 
+- **2026-03-28:** Google opens early access to the Willow processor for experimental proposals. ([The Quantum Insider](https://thequantuminsider.com/2026/03/28/google-opens-early-access-to-willow-quantum-processor-invites-experimental-proposals/))
 - **2026-04:** Google publishes paper "Securing Elliptic Curve Cryptocurrencies against Quantum Vulnerabilities" (arXiv:2603.28846), co-authored with UC Berkeley, Stanford, and the Ethereum Foundation — among the first Google Quantum AI work with named financial security implications.
 - **2026-03:** Google Quantum AI announces expansion into neutral atom quantum computing, hiring Dr. Adam Kaufman (atomic/molecular/optical physics) to lead a new program from Boulder, CO. Strategy frames superconducting (circuit depth) and neutral atoms (qubit count scalability up to ~10,000 qubits, any-to-any connectivity, millisecond gate cycles) as complementary. No operational neutral atom system announced.
 - **2025-11:** Ryan Babbush and colleagues publish "The Grand Challenge of Quantum Applications" (arXiv:2511.09124), a perspective outlining a five-stage framework from theoretical quantum advantage discovery to production deployment; acknowledges that two critical middle stages — identifying hard concrete problem instances and connecting them to real-world use cases — remain under-resourced.
@@ -104,9 +107,9 @@ The "below threshold" result means that as Google increases code distance, the l
 - **LinkedIn:** Not found as of April 2026; search TODO.
 - **Current Role:** Director of neutral atom quantum computing program, Google Quantum AI, Boulder, CO. Announced March 2026.
 - **Background:** Researcher in atomic, molecular and optical physics. Recruited externally by Neven in 2026 to lead Google's neutral atom expansion.
-- **Prior Affiliation:** Not fully documented in public sources as of April 2026 — likely academic (TODO: verify institutional background).
+- **Prior Affiliation:** Retains academic ties to JILA and the University of Colorado Boulder; leads the neutral-atom hardware team from Boulder (The Quantum Insider, March 2026)
 
-### People — Last Reviewed: 2026-04-19
+### People — Last Reviewed: 2026-10-26
 
 ## Roadmap
 

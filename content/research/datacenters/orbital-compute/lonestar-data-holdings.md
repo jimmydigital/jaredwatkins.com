@@ -1,7 +1,7 @@
 ---
 title: "Lonestar Data Holdings"
 date: 2026-04-29
-lastmod: 2026-04-29
+lastmod: 2026-10-26
 draft: false
 description: "US startup building lunar and cislunar data storage and edge processing infrastructure; flew its first payload to the Moon on Intuitive Machines' Athena mission in February 2026."
 research_area: "datacenters/orbital-compute"
@@ -10,7 +10,7 @@ source_urls:
   - "https://www.datacenterdynamics.com/en/news/lonestars-lunar-data-center-successfully-launches-on-intuitive-machines-athena-mission/"
   - "https://www.prnewswire.com/news-releases/lunar-data-center-achieves-first-success-en-route-to-the-moon-302392544.html"
   - "https://spectrum.ieee.org/data-center-on-the-moon"
-last_reviewed: 2026-04-29
+last_reviewed: 2026-10-26
 stale_after_days: 180
 ---
 
@@ -56,7 +56,7 @@ Sidus Space, a publicly traded space services company, signed an amended $120M a
 - **Chris Stott** — Founder and CEO
   - LinkedIn: not confirmed — TODO: verify
 
-### People — Last Reviewed: 2026-04-29
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

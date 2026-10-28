@@ -1,11 +1,12 @@
 ---
 title: "Allen Control Systems — Bullfrog Autonomous Weapon Station"
 date: 2026-06-05
-lastmod: 2026-07-07
+lastmod: 2026-10-26
 draft: false
 description: "Allen Control Systems (Austin, TX) builds the Bullfrog autonomous AI-guided weapon station — converts legacy machine guns into kinetic counter-drone systems. SOCOM contract awarded Sept 2025. $200M Series B at $2.2B valuation, June 2026."
 research_area: "drone-detection/counter-drone-platforms"
 source_urls:
+  - "https://pulse2.com/allen-control-systems-raises-200-million-series-b-at-2-2-billion-valuation-to-scale-bullfrog-autonomous-weapon-systems/"
   - "https://www.allencontrolsystems.com/products/bullfrog-m240"
   - "https://www.businesswire.com/news/home/20260526638233/en/Allen-Control-Systems-Raises-$200-Million-Series-B-at-$2.2-Billion-Post-Money-Valuation-to-Scale-Manufacturing-and-Accelerate-Deployment-of-Bullfrog"
   - "https://www.businesswire.com/news/home/20250925355643/en/Allen-Control-Systems-Awarded-Contract-With-Maritime-U.S.-Special-Operations-Forces-Unit"
@@ -13,7 +14,7 @@ source_urls:
   - "https://www.businesswire.com/news/home/20260223792790/en/Allen-Control-Systems-Triples-Austin-Operations-to-Meet-Demand-for-Bullfrog-Autonomous-Counter-Drone-Systems"
   - "https://www.businesswire.com/news/home/20251216968418/en/Allen-Control-Systems-Selected-by-U.S.-Army-Applications-Lab-for-Combat-Vehicle-Integration-Readiness Plan"
   - "https://fortune.com/2025/03/27/gun-turret-startup-allen-control-systems-series-a-venture-capital-defense-tech/"
-last_reviewed: 2026-07-07
+last_reviewed: 2026-10-26
 stale_after_days: 60
 ---
 
@@ -103,6 +104,8 @@ The claimed ~$10 cost-per-kill also addresses the fundamental economic asymmetry
 
 ## Funding and Company Status
 
+Series B led by Smash Capital with Craft Ventures, Rally Ventures and Inspired Capital participating; proceeds fund manufacturing expansion and additional product lines; Bullfrog reported a 100% success rate at T-REX 26-1; the US Army and Navy have deployed it, and ACS was selected for the US Marine Corps Ground Based Air Defense program (July 2026). ([Pulse 2.0](https://pulse2.com/allen-control-systems-raises-200-million-series-b-at-2-2-billion-valuation-to-scale-bullfrog-autonomous-weapon-systems/))
+
 | Round | Date | Amount | Lead |
 |-------|------|--------|------|
 | Seed | ~2023 | Undisclosed | Inspired Capital, Rally Ventures |
@@ -117,7 +120,7 @@ Post-Series B valuation: $2.2B. The company tripled its Austin facility to 57,00
 - **Steven Simoni** and/or **Mike Wior** — Co-founders; sources reviewed for this entry conflict on which co-founder holds the CEO title (some list Simoni as co-founder/CEO, others list Wior as co-founder/CEO) — treat individual titles as unverified pending a primary-source (company "About" page or SEC-style filing) confirmation
 - Company headquartered in Austin, Texas, with additional offices in Alexandria, VA and Huntsville, AL
 
-### People — Last Reviewed: 2026-07-07
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

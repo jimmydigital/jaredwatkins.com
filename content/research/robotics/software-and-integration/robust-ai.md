@@ -1,7 +1,7 @@
 ---
 title: "Robust AI"
 date: 2026-06-19
-lastmod: 2026-06-19
+lastmod: 2026-10-26
 draft: false
 description: "San Jose, CA warehouse robotics company; Carter collaborative mobile robot (CMR) for picking and transport; founded by Rodney Brooks (iRobot, Rethink Robotics) and Gary Marcus; Foxconn manufacturing partner."
 research_area: "robotics/software-and-integration"
@@ -11,7 +11,7 @@ source_urls:
   - "https://secure.businesswire.com/news/home/20250515789852/en/Robust.AI-Partners-With-Foxconn-to-Accelerate-and-Scale-Manufacturing-of-Carter-Warehouse-Automation-Robots"
   - "https://www.businesswire.com/news/home/20251113026910/en/Saddle-Creek-Deploys-Robust.AIs-Carter-Collaborative-Robots-to-Enhance-Warehouse-Operations-and-Efficiency"
   - "https://techcrunch.com/2019/06/06/robust-ai-launches-to-build-an-industrial-grade-cognitive-platform-for-robots/"
-last_reviewed: 2026-06-19
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -62,7 +62,7 @@ The underlying platform is Grace, Robust AI's cognitive robot software. Grace ha
 
 **⚑ Overlap:** Rodney Brooks previously co-founded Rethink Robotics — the company that introduced Baxter and Sawyer cobots to US manufacturing before shutting down in 2018 (assets acquired by HAHN Group). Brooks brings direct experience with the failure modes of prior-generation collaborative robots.
 
-### People — Last Reviewed: 2026-06-19
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

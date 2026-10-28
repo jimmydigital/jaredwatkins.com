@@ -1,7 +1,7 @@
 ---
 title: "SCI Technology — AeroGuard"
 date: 2026-07-26
-lastmod: 2026-07-26
+lastmod: 2026-10-26
 draft: false
 description: "Huntsville, AL–based Sanmina subsidiary; AeroGuard is a fully autonomous net-capture drone interdiction system (Command & Control + launched Interceptors) for civilian/critical-infrastructure counter-UAS use, ITAR-free and jamming-free."
 research_area: "drone-detection/counter-drone-platforms"
@@ -10,7 +10,7 @@ source_urls:
   - "https://www.sci.com/about/"
   - "https://www.sci.com/counter-uas/"
   - "https://www.sanmina.com/sci-technologys-aeroguard-named-2018-drone-security-new-product-of-the-year-by-security-today-magazine/"
-last_reviewed: 2026-07-26
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "drone-detection/counter-drone-platforms/_index.md"
@@ -63,7 +63,7 @@ SCI Technology's broader business (aircraft intercoms/FireComm, data concentrato
 - **Career:** Previously at Exponent (Technology Development practice, Phoenix, AZ), where he led a US Army–funded R&D program developing an ultra-wideband electronically steerable ground-penetrating radar system for real-time IED detection
 - **Education:** BS Computer and Systems Engineering / Computer Science, Rensselaer Polytechnic Institute; MS and Ph.D. Electrical Engineering, Stanford University (Space, Telecommunications, and Radioscience Laboratory)
 
-### People — Last Reviewed: 2026-07-26
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

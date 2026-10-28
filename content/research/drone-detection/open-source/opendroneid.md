@@ -1,16 +1,17 @@
 ---
 title: "OpenDroneID"
 date: 2026-06-05
-lastmod: 2026-06-05
+lastmod: 2026-10-26
 draft: false
 description: "Open-source implementation of the ASTM F3411 / FAA Remote ID standard — core C library, Android receiver, and Linux transmitter for decoding and displaying Remote ID broadcasts from compliant drones."
 research_area: "drone-detection/open-source"
 source_urls:
   - "https://github.com/opendroneid/opendroneid-core-c"
+  - "https://github.com/opendroneid/opendroneid-core-c"
   - "https://github.com/opendroneid/specs"
   - "https://mavlink.io/en/services/opendroneid.html"
   - "https://github.com/ArduPilot/ArduRemoteID"
-last_reviewed: 2026-06-05
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -60,6 +61,10 @@ OpenDroneID only decodes drones broadcasting the ASTM F3411 standard. It will no
 - Any drone not actively transmitting (fiber-optic, pre-programmed, or RF-silent)
 
 Remote ID enforcement is improving but compliance is not universal. Do not rely on Remote ID as the sole detection layer.
+
+## Notable Developments
+
+- **2026-10 repository check:** Public and not shown as archived; about 363 GitHub stars and 217 commits on the main branch; no tagged releases listed and last-commit dates were not visible, so recent activity is unconfirmed
 
 ## Sources
 

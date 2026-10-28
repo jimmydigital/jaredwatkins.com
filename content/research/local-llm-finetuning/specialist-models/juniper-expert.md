@@ -1,7 +1,7 @@
 ---
 title: "Juniper Expert Model"
 date: 2026-06-10
-lastmod: 2026-06-10
+lastmod: 2026-10-26
 draft: false
 description: "Design specification for a fine-tuned Juniper/JunOS network engineer specialist LLM: base model selection, competency targets, training data requirements, fine-tuning parameters, and deployment as a local disconnected assistant."
 research_area: "local-llm-finetuning/specialist-models"
@@ -9,7 +9,7 @@ source_urls:
   - "https://www.juniper.net/documentation/"
   - "https://www.juniper.net/documentation/us/en/software/junos/junos-cli/topics/topic-map/junos-cli-operational-mode.html"
   - "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
-last_reviewed: 2026-06-10
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

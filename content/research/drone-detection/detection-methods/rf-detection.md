@@ -1,7 +1,7 @@
 ---
 title: "FAA Remote ID Monitoring"
 date: 2026-06-05
-lastmod: 2026-07-07
+lastmod: 2026-10-26
 draft: false
 description: "Reception and decoding of FAA/ASTM F3411 Remote ID broadcasts — the fastest path to identifying compliant US drones, but entirely dependent on the drone's voluntary cooperation. See RF Direction Finding for detection that doesn't require it."
 research_area: "drone-detection/detection-methods"
@@ -11,7 +11,7 @@ source_urls:
   - "https://aerodefense.tech/airwarden-remote-id-receiver/"
   - "https://www.dronetag.com/products/bs"
   - "https://pmc.ncbi.nlm.nih.gov/articles/PMC10490811/"
-last_reviewed: 2026-07-07
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

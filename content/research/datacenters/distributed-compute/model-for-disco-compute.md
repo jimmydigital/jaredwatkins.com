@@ -1,7 +1,7 @@
 ---
 title: "Model for DisCo Compute"
 date: 2026-07-18
-lastmod: 2026-07-19
+lastmod: 2026-10-26
 draft: false
 description: "Engineering and cost model for a self-contained, liquid-cooled, battery-buffered residential inference unit (DisCo — distributed colocation) sharing a Texas home's 200A service, replicating the Span XFRA offering with currently purchasable hardware; includes solar-augmented variants with 40–50 kWh storage."
 research_area: "datacenters/distributed-compute"
@@ -15,7 +15,7 @@ source_urls:
   - "https://www.hpcwire.com/2025/09/25/microfluidics-offers-3x-better-cooling-than-cold-plates-microsoft-says/"
   - "https://jetcool.com/smartplate-system/"
   - "https://journals.plos.org/water/article?id=10.1371%2Fjournal.pwat.0000133"
-last_reviewed: 2026-07-19
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "datacenters/distributed-compute/span.md"

@@ -1,11 +1,11 @@
 ---
 title: Aerial Drones
 date: 2026-03-24
-lastmod: 2026-10-23
+lastmod: 2026-10-26
 draft: false
 description: Commercial, industrial, and defense unmanned aerial vehicles — platform OEMs, component suppliers, and the supply chain connecting them.
 research_area: "robotics/aerial-drones"
-last_reviewed: 2026-03-24
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -36,7 +36,7 @@ The commercial drone industry is dominated by a single vertically integrated Chi
 | Company | HQ | Stage | Mission |
 |---------|-----|-------|---------|
 | [Skydio](https://skydio.com) | San Mateo, CA, USA | Late Private ($4.4B valuation, Apr 2026) | AI-powered autonomous drones; onboard NVIDIA Jetson vision stack; US government and defense focus; Blue UAS listed. |
-| [Anduril Industries](https://anduril.com) | Costa Mesa, CA, USA | Late Private (~$28–30B valuation) | Multi-domain autonomous systems prime; Fury YFQ-44A CCA (in production March 2026); Roadrunner reusable interceptor; Altius loitering munitions; Anvil/Pulsar CUAS stack; Ghost Shark XL-AUV; all unified under Lattice OS. |
+| [Anduril Industries](https://anduril.com) | Costa Mesa, CA, USA | Late Private (~$28–30B valuation) | Multi-domain autonomous systems prime; Fury YFQ-44A CCA (Increment 1 production contract June 2026; first Arsenal-1-built aircraft July 2026); Roadrunner reusable interceptor; Altius loitering munitions; Anvil/Pulsar CUAS stack; Ghost Shark XL-AUV; all unified under Lattice OS. |
 | [Shield AI](https://shield.ai) | San Diego, CA, USA | Late Private (~$2.7B valuation, 2023) | Autonomous AI pilot software (Hivemind); V-BAT VTOL UAS; DoD programs including US Air Force and Navy. |
 | [Zipline](https://flyzipline.com) | South San Francisco, CA, USA | Late Private ($7.6B valuation, Jan 2026) | Fixed-wing autonomous delivery drones; medical and commercial cargo; Walmart partnership in US; operations in Rwanda, Ghana, Japan. |
 | [Wingcopter](https://wingcopter.com) | Darmstadt, Germany | Private | Tilt-rotor VTOL drones: Wingcopter 198 delivery and W262 tactical drone (Sep 2026); Security & Defence unit. |
@@ -49,7 +49,7 @@ The commercial drone industry is dominated by a single vertically integrated Chi
 
 | Ticker | Company | Mission |
 |--------|---------|---------|
-| [AVAV](https://finance.yahoo.com/quote/AVAV) | [AeroVironment](https://www.avinc.com) | Small UAS and loitering munitions for defense (Raven, Puma, Switchblade 300/600); acquired Teal Drones and Tomahawk Robotics. |
+| [AVAV](https://finance.yahoo.com/quote/AVAV) | [AeroVironment](https://www.avinc.com) | Small UAS and loitering munitions for defense (Raven, Puma, Switchblade 300/600); acquired Teal Drones, Tomahawk Robotics and BlueHalo (closed May 2025); FY2026 revenue $1,976.8M and funded backlog $1.5B at Q1 FY2027. |
 | [JOBY](https://finance.yahoo.com/quote/JOBY) | [Joby Aviation](https://www.jobyaviation.com) | eVTOL air taxi developer; adjacency to advanced drone propulsion and battery technology. |
 | [ACHR](https://finance.yahoo.com/quote/ACHR) | [Archer Aviation](https://archer.com) | eVTOL developer; Midnight aircraft in FAA certification. |
 
@@ -115,4 +115,4 @@ The commercial drone industry is dominated by a single vertically integrated Chi
 
 **⚑ Shared supplier — FLIR/Teledyne thermal sensors:** Teledyne FLIR's Boson and Lepton modules are integrated by DJI (Zenmuse H20T), Skydio, Parrot, and numerous third-party payload makers. FLIR thermal sensors for UAS applications are subject to US export controls under EAR.
 
-### Supply Chain — Last Reviewed: 2026-03-24
+### Supply Chain — Last Reviewed: 2026-10-26

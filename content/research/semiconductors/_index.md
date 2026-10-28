@@ -1,11 +1,11 @@
 ---
 title: "Semiconductors"
 date: 2026-04-15
-lastmod: 2026-04-15
+lastmod: 2026-10-26
 draft: false
 description: "Semiconductor design, fabrication, and supporting supply chain — chips, equipment, materials, and the companies enabling advanced node manufacturing."
 research_area: "semiconductors"
-last_reviewed: 2026-04-15
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"

@@ -1,7 +1,7 @@
 ---
 title: "GSL Energy"
 date: 2026-04-04
-lastmod: 2026-04-04
+lastmod: 2026-10-26
 draft: false
 description: "Chinese factory-direct manufacturer of LiFePO4 BESS systems from residential to 5 MWh container scale, with liquid-cooled grid-scale systems; serves 138+ countries with 4,500+ installations and UL9540/IEC62619 certifications."
 research_area: "energy/batteries"
@@ -11,7 +11,7 @@ source_urls:
   - "https://www.gsl-energy.com/liquid-cooling-bess-container-battery-storage-3mwh-5mwh-container-energy-storage-system.html"
   - "https://www.gsl-energy.com/gsl-energy-high-voltage-energy-storage-system-receives-ul-9540-ul-1973-certification-boosting-north-american-market-expansion.html"
   - "https://www.enfsolar.com/gsl-energy"
-last_reviewed: 2026-04-04
+last_reviewed: 2026-10-26
 stale_after_days: 180
 chinese-owned: true
 related:
@@ -82,7 +82,7 @@ Public information on GSL Energy's management team is limited in available Engli
 - **Jim Deng:** CEO of GSL Energy Group Ltd. (LinkedIn verification pending)
 - **Core team:** The company lists a 200-person workforce including a dedicated 25-person R&D and engineering team, with backgrounds in battery and new energy sectors, but named executive profiles are not prominently featured in English-language materials.
 
-### People — Last Reviewed: 2026-04-04
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

@@ -1,7 +1,7 @@
 ---
 title: "Federal Civilian Agency Guidance (CISA & OMB)"
 date: 2026-04-24
-lastmod: 2026-04-24
+lastmod: 2026-10-26
 draft: false
 description: "CISA and OMB post-quantum cryptography guidance, federal buying directives, and compliance timelines for civilian agencies"
 research_area: "post-quantum-encryption/standards-policy"
@@ -9,7 +9,7 @@ source_urls:
   - "https://www.cisa.gov/pqc"
   - "https://www.whitehouse.gov/wp-content/uploads/2022/11/M-23-02-M-Memo-on-Migrating-to-Post-Quantum-Cryptography.pdf"
   - "https://thequantuminsider.com/2026/01/27/cisa-issues-federal-buying-guidance-for-post-quantum-cryptography/"
-last_reviewed: 2026-04-24
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

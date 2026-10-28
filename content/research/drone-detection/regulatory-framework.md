@@ -1,11 +1,13 @@
 ---
 title: "US C-UAS Regulatory Framework"
 date: 2026-06-05
-lastmod: 2026-07-17
+lastmod: 2026-10-26
 draft: false
 description: "Legal landscape governing counter-UAS detection and interdiction in the United States — who can detect, who can interdict, and which laws constrain private operators."
 research_area: "drone-detection"
 source_urls:
+  - "https://www.dwt.com/blogs/broadband-advisor/2026/07/safer-skies-counter-drone-framework"
+  - "https://www.hklaw.com/en/insights/publications/2026/07/latest-fcc-doj-dhs-actions-on-drones-increased-national-security"
   - "https://www.hklaw.com/en/insights/publications/2024/07/update-on-us-counter-uas-authorities-and-efforts-to-address-threats"
   - "https://www.faa.gov/sites/faa.gov/files/uas/resources/c_uas/Interagency_Legal_Advisory_on_UAS_Detection_and_Mitigation_Technologies.pdf"
   - "https://www.cisa.gov/news-events/news/cisa-releases-new-guides-safeguard-critical-infrastructure-unmanned-aircraft-systems-threats"
@@ -15,7 +17,7 @@ source_urls:
   - "https://grabtheaxe.com/c-uas-legalities-corporations-navigating-faa-fcc-rules/"
   - "https://www.route-fifty.com/digital-government/2026/01/defense-law-includes-expanded-counter-drone-authority/410542/"
   - "https://www.congress.gov/bill/118th-congress/senate-bill/473/text"
-last_reviewed: 2026-06-05
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -33,7 +35,7 @@ This entry covers only US law. For how the UK, EU, China, and Japan mandate dron
 - **Constraining statutes:** Communications Act of 1934 (47 U.S.C. § 301), Computer Fraud and Abuse Act (CFAA, 18 U.S.C. § 1030), Electronic Communications Privacy Act (Wiretap Act), Pen/Trap Statute
 - **Federal interdiction agencies:** DoD, DHS (including TSA), DOJ (including FBI), FAA, Secret Service, Coast Guard (for maritime)
 - **Private operator authority:** Detection and tracking only — no jamming, no cyber-takeover, no physical destruction
-- **Status:** Rapidly evolving — FY2026 NDAA created first SLTT (state/local/tribal/territorial) pathway in January 2026
+- **Status:** Rapidly evolving — FY2026 NDAA created first SLTT (state/local/tribal/territorial) pathway in December 2025, implemented by DOJ/DHS and FCC actions in July 2026
 
 ## What It Is / How It Works
 
@@ -65,7 +67,7 @@ Signed December 22, 2023, as part of the FY2024 NDAA, the American Security Dron
 
 ### FY2026 NDAA — SAFER SKIES Act
 
-The most significant recent development. Signed into law in late 2025 and effective January 2026, the FY2026 NDAA included the SAFER SKIES Act, which created the first statutory pathway for State, Local, Tribal, and Territorial (SLTT) law enforcement and correctional agencies to conduct C-UAS interdiction. Key provisions:
+The most significant recent development. Signed into law on December 18, 2025 and implemented by DOJ/DHS and FCC actions in July 2026, the FY2026 NDAA included the SAFER SKIES Act, which created the first statutory pathway for State, Local, Tribal, and Territorial (SLTT) law enforcement and correctional agencies to conduct C-UAS interdiction. Key provisions:
 
 - SLTT agencies may take actions "necessary to mitigate a credible threat" from a drone to safety and security of people, facilities, large public events, critical infrastructure, and correctional institutions
 - Agencies must complete a federal training and certification program (developed by DOJ and DHS) before exercising interdiction authority
@@ -116,7 +118,8 @@ The division of responsibility for critical infrastructure protection is roughly
 
 ## Notable Developments
 
-- **2026-01:** FY2026 NDAA signed into law; SAFER SKIES Act creates first SLTT C-UAS interdiction pathway; $500M FEMA grant program for detection equipment announced
+- **2026-07:** DOJ and DHS issue an interim final rule (July 1) implementing the SAFER SKIES Act with two certification tiers (detection and warning; mitigation) and approved-systems lists; the FCC follows (July 2) with a 180-day nationwide special temporary authority for eligible SLTT agencies, an equipment-authorization waiver and a Section 333 ruling; comments on the rule were due September 4, and CTIA petitioned for reconsideration on August 3. ([Davis Wright Tremaine](https://www.dwt.com/blogs/broadband-advisor/2026/07/safer-skies-counter-drone-framework))
+- **2025-12:** FY2026 NDAA signed into law (December 18); SAFER SKIES Act creates first SLTT C-UAS interdiction pathway; $500M FEMA grant program for detection equipment announced. The FCC adds foreign-produced drones and critical components to its Covered List (December 22), with later notices in June–July 2026. ([Holland & Knight](https://www.hklaw.com/en/insights/publications/2026/07/latest-fcc-doj-dhs-actions-on-drones-increased-national-security))
 - **2025-10:** CISA releases three-document "Be Air Aware" guidance package for critical infrastructure operators
 - **2024:** FAA Reauthorization Act 2024 extends DHS/DOJ/FAA C-UAS authorities through September 30, 2028; Counter-UAS Authority Security, Safety, and Reauthorization Act passed
 - **2023-12:** American Security Drone Act signed as part of FY2024 NDAA; prohibits federal procurement of Chinese-manufactured UAS

@@ -1,16 +1,17 @@
 ---
 title: "True Anomaly"
 date: 2026-07-26
-lastmod: 2026-07-26
+lastmod: 2026-10-26
 draft: false
 description: "Centennial/Colorado Springs, CO–based space-defense company founded 2022; Jackal autonomous orbital spacecraft + Mosaic autonomy software; $650M Series D (Apr 2026, >$1B total raised); prime on $1.8B Space Force Andromeda program and the Space-Based Interceptor program."
 research_area: "robotics/space-robotics"
 source_urls:
+  - "https://www.satellitetoday.com/finance/2026/04/28/true-anomaly-raises-650-million-in-new-round-to-continue-scaling/"
   - "https://www.trueanomaly.space/"
   - "https://www.trueanomaly.space/newsroom/our-series-d-fundraise-650m-raised-to-accelerate-space-superiority-at-scale"
   - "https://www.trueanomaly.space/jackal"
   - "https://www.trueanomaly.space/mosaic"
-last_reviewed: 2026-07-26
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "robotics/space-robotics/_index.md"
@@ -41,6 +42,7 @@ True Anomaly's stated mission rationale centers on the argument that orbital spa
 
 ## Notable Developments
 
+- **2026-04-28:** $650M Series D (including $50M debt from Stifel) co-led by Eclipse and Riot Ventures; Space Force named it among 12 companies on space-based interceptor prototypes and 14 on the Andromeda space domain awareness program
 - **2026-06-22:** Began the VICTUS HAZE Tactically Responsive Space mission (a Space Force rapid-response space-domain-awareness demonstration in LEO).
 - **2026-06-18:** Announced "Mission Complete" for a mission designated MX-3 (mission details/scope not independently confirmed beyond the company's own announcement in this review).
 - **2026-04-28:** Announced $650M Series D financing (co-led by Eclipse and Riot Ventures), surpassing $1B in total capital raised since the company's 2022 founding; disclosed it had been named a prime contractor on the Space Force Space Systems Command Space-Based Interceptor Program; stated plans to deliver Jackal for the Space Force's $1.8B Andromeda program (Geosynchronous Reconnaissance and Surveillance Constellation) and to conduct roughly a dozen missions over the following 18 months.
@@ -49,7 +51,7 @@ True Anomaly's stated mission rationale centers on the argument that orbital spa
 
 No individually named executives (CEO, CTO, or other officers) were identified from the pages fetched in this review — True Anomaly's public site emphasizes company/product messaging over an executive bio page. **This is a gap; a follow-up review should specifically locate and verify the company's CEO and other named leadership** (the company was publicly co-founded by Even Rogers and Alex Saltman, per general industry reporting, but this was not independently confirmed against a company-published source during this review and should be treated as unverified until confirmed).
 
-### People — Last Reviewed: 2026-07-26
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

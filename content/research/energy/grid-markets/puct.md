@@ -1,17 +1,19 @@
 ---
 title: "PUCT: Public Utility Commission of Texas"
 date: 2026-07-09
-lastmod: 2026-07-09
+lastmod: 2026-10-26
 draft: false
 description: "The Texas state agency that regulates ERCOT and retail electricity in place of FERC — current commissioners, structure, and backgrounds."
 research_area: "energy/grid-markets"
 source_urls:
+  - "https://utilitydive.com/news/texas-puc-adopts-data-center-interconnection-rules/830899"
+  - "https://www.gtlaw.com/es/insights/2026/3/texas-senate-bill-6-update-what-data-centers-large-load-customers-should-know-about-proposed-interconnection-standards"
   - "https://www.puc.texas.gov/agency/about/commissioners/Default.aspx"
   - "https://www.puc.texas.gov/agency/about/commissioners/gleeson/biography/"
   - "https://www.puc.texas.gov/agency/about/commissioners/jackson/biography/Default.aspx"
   - "https://www.puc.texas.gov/agency/about/commissioners/hjaltman/biography/Default.aspx"
   - "https://statutes.capitol.texas.gov/docs/UT/htm/UT.12.htm"
-last_reviewed: 2026-07-09
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "energy/grid-markets/_index.md"
@@ -56,7 +58,7 @@ PUCT is the Texas state agency that plays the role FERC plays everywhere else in
 - LinkedIn: [linkedin.com/in/courtney-hjaltman-2a5b214a](https://www.linkedin.com/in/courtney-hjaltman-2a5b214a/)
 - **⚑ Overlap:** Confirmed by the Texas Senate in the same batch as Chairman Gleeson; both are Abbott appointees, as is every sitting PUCT commissioner (all three current members were appointed by Governor Abbott).
 
-### Key People — Last Reviewed: 2026-07-09
+### Key People — Last Reviewed: 2026-10-26
 
 ## Why This Is Worth Tracking
 
@@ -84,6 +86,10 @@ PUCT is the single point of state control over almost everything that makes ERCO
 - [Texas Utilities Code §12.051, "Public Utility Commission of Texas"](https://statutes.capitol.texas.gov/docs/UT/htm/UT.12.htm) — establishes the appointment, confirmation, and staggered six-year term structure
 
 **Summary:** Confirmed against the primary statutory source. Note that appointees can and do serve in an interim/unconfirmed capacity before a Senate confirmation vote (e.g., Gleeson served as Chairman from January 2024 but was not Senate-confirmed until May 2025) — "appointed" and "confirmed" are distinct events that can be separated by a year or more depending on the legislative calendar.
+
+## Notable Developments
+
+- **2026-09-18:** Adopted SB 6 large-load interconnection rules (16 TAC §25.194), softened from the March draft: the $50,000/MW non-refundable interconnection fee was dropped, a flat $100,000 study fee applies to all large loads, and the notice period for unused capacity grew from six months to 24 months; adopted during Texas's pause on new data center interconnections while ERCOT's ~474 GW queue is audited
 
 ## Sources
 

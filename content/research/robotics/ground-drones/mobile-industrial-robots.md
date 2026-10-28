@@ -1,16 +1,17 @@
 ---
 title: "Mobile Industrial Robots (MiR)"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-26
 draft: false
 description: "Odense, Denmark-based AMR manufacturer; Teradyne subsidiary since 2018; fleet ranges from MiR250 to MiR1350 (250–1,350 kg payload); 220+ global distributors; merged with AutoGuide Mobile Robots in 2023 for high-payload expansion."
 research_area: "robotics/ground-drones"
 source_urls:
+  - "https://www.therobotreport.com/teradyne-robotics-revenue-rises-33-year-over-year-in-q2/"
   - "https://mobile-industrial-robots.com/"
   - "https://www.roboticstomorrow.com/story/2018/04/teradyne-and-mobile-industrial-robots-mir-announce-teradynes-acquisition-of-mir/11849/"
   - "https://www.robotics247.com/article/mobile_industrial_robots_marks_10th_anniversary_global_growth_continues"
   - "https://www.roboticstomorrow.com/news/2024/05/01/mir-features-one-stop-shop-for-ai-enabled-material-handling-at-automate-2024-with-new-autonomous-pallet-jack-preview-of-generative-ai-mir-insights-and-mobile-collaborative-robots/22508/"
-last_reviewed: 2026-03-31
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related: []
 ---
@@ -43,6 +44,7 @@ Teradyne acquired MiR as part of a deliberate expansion into robotics alongside 
 
 ## Notable Developments
 
+- **2026-07:** Teradyne Robotics (Universal Robots and MiR) reports Q2 2026 revenue of $100M (+33% YoY), its fifth straight quarter of growth; a Michigan manufacturing center is planned for later in 2026. ([The Robot Report](https://www.therobotreport.com/teradyne-robotics-revenue-rises-33-year-over-year-in-q2/))
 - **2024-05:** MiR debuts MiR1200 Pallet Jack and MiR Insights (generative AI fleet analytics) at Automate 2024. ([Robotics Tomorrow](https://www.roboticstomorrow.com/news/2024/05/01/mir-features-one-stop-shop-for-ai-enabled-material-handling-at-automate-2024-with-new-autonomous-pallet-jack-preview-of-generative-ai-mir-insights-and-mobile-collaborative-robots/22508/))
 - **2023:** AutoGuide Mobile Robots merged into MiR product line, adding high-payload pallet mover products.
 - **2023:** MiR marks 10th anniversary; reports continued global growth and 220+ distributor network. ([Robotics 24/7](https://www.robotics247.com/article/mobile_industrial_robots_marks_10th_anniversary_global_growth_continues))
@@ -57,7 +59,7 @@ Teradyne acquired MiR as part of a deliberate expansion into robotics alongside 
 - **LinkedIn:** not found
 - **Notes:** Thomas Visti served as CEO of MiR for an extended period post-acquisition. Current CEO status as of early 2026 not confirmed in available public sources.
 
-### People — Last Reviewed: 2026-03-31
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

@@ -1,14 +1,14 @@
 ---
 title: "NSA CNSA 2.0 & National Security Systems"
 date: 2026-04-24
-lastmod: 2026-04-24
+lastmod: 2026-10-26
 draft: false
 description: "NSA's Commercial National Security Algorithm Suite 2.0 (CNSA 2.0) specifications, migration timelines for national security systems, and compliance requirements"
 research_area: "post-quantum-encryption/standards-policy"
 source_urls:
   - "https://media.defense.gov/2025/May/30/2003728741/-1/-1/0/CSA_CNSA_2.0_ALGORITHMS.PDF"
   - "https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2022/05/04/national-security-memorandum-on-promoting-united-states-leadership-in-quantum-computing-while-mitigating-risks-to-vulnerable-cryptographic-systems/"
-last_reviewed: 2026-04-24
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

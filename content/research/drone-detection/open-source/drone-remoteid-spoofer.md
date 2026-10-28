@@ -1,14 +1,15 @@
 ---
 title: "droneRemoteIDSpoofer"
 date: 2026-07-07
-lastmod: 2026-07-07
+lastmod: 2026-10-26
 draft: false
 description: "Open-source WiFi/BLE Remote ID spoofer from the Swiss Cyber-Defence Campus that crafts and transmits fake ASTM F3411 drone broadcasts, demonstrating the protocol's lack of authentication."
 research_area: "drone-detection/open-source"
 source_urls:
   - "https://github.com/cyber-defence-campus/droneRemoteIDSpoofer"
+  - "https://github.com/cyber-defence-campus/droneRemoteIDSpoofer"
   - "https://github.com/cyber-defence-campus/RemoteIDReceiver"
-last_reviewed: 2026-07-07
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -64,6 +65,10 @@ This entry sits in the middle of a logical attack/defense progression documented
 ## Critical Limitation
 
 This is explicitly a proof-of-concept research tool built for a university thesis, not hardened operational software — the authors disclaim responsibility for misuse and note it is intended for academic and security-research purposes only. It also only demonstrates the WiFi/BLE Remote ID attack surface; it says nothing about the security (or lack thereof) of DJI's proprietary DroneID protocol or other non-standard broadcast schemes.
+
+## Notable Developments
+
+- **2026-10 repository check:** Public and not shown as archived; about 148 GitHub stars and 32 commits on the main branch; no tagged releases listed and last-commit dates were not visible, so recent activity is unconfirmed
 
 ## Sources
 

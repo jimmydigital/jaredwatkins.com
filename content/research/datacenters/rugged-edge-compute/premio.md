@@ -1,14 +1,15 @@
 ---
 title: "Premio"
 date: 2026-04-25
-lastmod: 2026-04-25
+lastmod: 2026-10-26
 draft: false
 description: "San Jose, CA rugged industrial computing manufacturer; JCO Series (JCO-6000-ORN, JCO-3000-ORN) NVIDIA Jetson Orin NX/AGX fanless AI edge systems; RCO Series rackmount rugged servers with EDGEBoost I/O expansion technology; MIL-STD-810H and E-Mark certified platforms for defense, transportation, and industrial AI."
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
+  - "https://premioinc.com/blogs/press-kits/premio-unveils-next-gen-physical-ai-edge-solutions-computex-2026"
   - "https://premioinc.com/"
   - "https://premioinc.com/collections/rugged-edge-ai-computers"
-last_reviewed: 2026-04-25
+last_reviewed: 2026-10-26
 stale_after_days: 180
 ---
 
@@ -81,6 +82,7 @@ Premio's US headquarters and manufacturing partnerships position it well for NDA
 
 ## Notable Developments
 
+- **2026-06:** Announced (June 1, COMPUTEX 2026) the WCO series IP66 fanless Jetson computers (WCO-3000-ORN, WCO-6000-THR with Jetson Thor T4000/T5000), KCO-6000-ARL edge AI workstation (Intel Core Ultra Series 2, RTX Pro Blackwell options) and LLM-2U/3U-AM5 short-depth AMD AM5 edge AI servers; no availability dates given
 - **Ongoing:** JCO Series expanding to support Jetson Orin NX Super and next-generation Jetson modules as NVIDIA refreshes embedded AI platform
 - **Ongoing:** EDGEBoost ecosystem growing with additional I/O module SKUs for 5G/LTE cellular, high-density PoE+ camera aggregation, and PCIe GPU offload
 - **Trend:** Transition from Jetson Xavier (previous generation) to Jetson Orin across JCO Series — Orin delivers 2–8× performance improvement at similar or lower power versus Xavier, driving platform refresh cycle

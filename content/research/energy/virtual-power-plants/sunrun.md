@@ -1,16 +1,17 @@
 ---
 title: "Sunrun"
 date: 2026-07-18
-lastmod: 2026-07-18
+lastmod: 2026-10-26
 draft: false
 description: "San Francisco-based public company (NASDAQ: RUN), the largest US residential solar/storage installer; operates a battery-based virtual power plant ('Shift') and, as of June 2026, has joined Tesla and Renew Home in a 16.8 GW joint VPP program marketed to AI datacenter operators."
 research_area: "energy/virtual-power-plants"
 source_urls:
+  - "https://investors.sunrun.com/news-events/press-releases/detail/378"
   - "https://investors.sunrun.com/news-events/press-releases/detail/373/sunrun-launches-distributed-ai-data-center-pilot-backed-by"
   - "https://www.canarymedia.com/articles/virtual-power-plants/tesla-sunrun-renewhome-vpp"
   - "https://investors.sunrun.com/news-events/press-releases/detail/340/sunruns-distributed-power-plant-quadruples-in-size-to"
   - "https://www.utilitydive.com/news/sunrun-sees-400-growth-in-virtual-power-plant-participation/805169/"
-last_reviewed: 2026-07-18
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "_index.md"
@@ -45,6 +46,7 @@ The June 2026 announcement extends this existing fleet toward a new customer: in
 
 ## Notable Developments
 
+- **2026-Q2:** Revenue $870.0M (+53%), 1,034,738 subscribers (+10%), subscriber additions down 31%, record 74% storage attachment; full-year Cash Generation guidance cut to $200–375M and Aggregate Subscriber Value to $4.6–4.9B; non-binding letter of intent with Renew Home and Tesla for more than 16 GW of flexible capacity for hyperscalers and utilities
 - **2026-07 (reported):** Announced a distributed AI data center compute pilot — Sunrun's first step into distributed edge computing as a business category, separate from its existing VPP business; per Sunrun's own investor materials, framed around the more than 1.1 million existing customers as a potential distributed deployment base. Technical and partner details not independently verified as of this review.
 - **2026-06-24:** Announced (with Tesla and Renew Home) a joint 16.8 GW VPP program marketed to hyperscalers and utilities — Sunrun and Tesla contribute roughly 7.8 GW of the combined batteries/thermostats total (thermostats, contributed by Renew Home, account for the balance); the group claims 300+ MW immediately available in northern Virginia's "Data Center Alley," targeting 500+ MW there by 2030, and plans to bid into PJM's upcoming reliability backstop procurement.
 - **Early 2026:** Battery fleet reached approximately 217,000 units; 3.7 GWh of dispatchable capacity online, with a company target of 10 GWh by end of 2028.
@@ -62,7 +64,7 @@ The June 2026 announcement extends this existing fleet toward a new customer: in
 
 **Lynn Jurich** — Co-founder (2007); no longer in an operating role as of this review — TODO: verify current status/affiliation.
 
-### Key People — Last Reviewed: 2026-07-18
+### Key People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

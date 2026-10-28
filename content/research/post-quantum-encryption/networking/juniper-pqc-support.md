@@ -1,7 +1,7 @@
 ---
 title: "Juniper Networks — PQC Support"
 date: 2026-04-15
-lastmod: 2026-04-15
+lastmod: 2026-10-26
 draft: false
 description: "Post-quantum cryptography implementation status and roadmap for Juniper Networks (acquired by HPE 2024): Junos OS PQC support, IKEv2 integration, and product coverage."
 research_area: "post-quantum-encryption/networking"
@@ -9,7 +9,7 @@ source_urls:
   - "https://www.juniper.net"
   - "https://www.juniper.net/documentation/"
   - "https://www.juniper.net/us/en/research-topics/quantum-safe-networking.html"
-last_reviewed: 2026-04-15
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -63,7 +63,7 @@ Juniper's PQC effort is concentrated on IPsec VPN and encrypted tunnel infrastru
 
 *Research needed: Juniper's internal PQC team and key contacts are not prominently documented from public sources as of April 2026.*
 
-### People — Last Reviewed: 2026-04-15
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

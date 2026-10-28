@@ -1,15 +1,16 @@
 ---
 title: "Knightscope"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-26
 draft: false
 description: "Mountain View, CA autonomous security robot company (NASDAQ: KSCP); K1, K3, K5, K7 robot patrol platforms sold via Machine-as-a-Service subscription; $11.3M revenue in 2025 (5% growth); net loss of $33.8M; new K7 outdoor patrol robot targeted for H2 2026 deployment."
 research_area: "robotics/ground-drones"
 source_urls:
+  - "https://www.sec.gov/Archives/edgar/data/0001600983/000110465926084853/kscp-20260720xex99d1.htm"
   - "https://ir.knightscope.com/"
   - "https://www.stocktitan.net/news/KSCP/knightscope-reports-2025-results-advances-autonomous-security-2rp30159u8jc.html"
   - "https://www.stocktitan.net/news/KSCP/knightscope-unveils-the-all-new-k7-autonomous-security-ffablkqvm6kn.html"
-last_reviewed: 2026-03-31
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related: []
 ---
@@ -44,6 +45,7 @@ Financially, Knightscope is a challenging case: $11.3M in revenue with a $33.8M 
 
 ## Notable Developments
 
+- **2026-07:** Preliminary Q2 2026 revenue of about $9M (>200% above $2.7M a year earlier), 434 clients across 42 states; full results due mid-August. ([SEC 8-K](https://www.sec.gov/Archives/edgar/data/0001600983/000110465926084853/kscp-20260720xex99d1.htm))
 - **2026-Q2 (target):** K7 all-terrain outdoor security robot early production deployment. ([StockTitan](https://www.stocktitan.net/news/KSCP/knightscope-unveils-the-all-new-k7-autonomous-security-ffablkqvm6kn.html))
 - **2026:** Knightscope quadruples workforce to over 40 (indicating small absolute scale despite growth). ([StockTitan](https://www.stocktitan.net/news/KSCP/))
 - **2025 (full year):** Revenue $11.3M (+5%); service revenue $8.0M (+7%); net loss $(33.8M); cash $20.6M. ([StockTitan](https://www.stocktitan.net/news/KSCP/knightscope-reports-2025-results-advances-autonomous-security-2rp30159u8jc.html))
@@ -60,7 +62,7 @@ Financially, Knightscope is a challenging case: $11.3M in revenue with a $33.8M 
   - Ford Motor Company: Early career (product and strategy roles)
 - **Notes:** Stacy Stephens is co-founder and Chief Client Officer. Li has been the public face of Knightscope through its entire history, including the controversial IPO process and subsequent public company period. The company's path to profitability has been a persistent focus of investor concern.
 
-### People — Last Reviewed: 2026-03-31
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

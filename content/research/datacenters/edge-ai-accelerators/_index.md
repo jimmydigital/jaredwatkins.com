@@ -1,10 +1,10 @@
 ---
 title: "Edge AI Accelerators"
 date: 2026-04-25
-lastmod: 2026-04-25
+lastmod: 2026-10-26
 description: "Dedicated AI inference accelerator chips and modules (M.2, PCIe, mPCIe) for embedding inference capability into existing edge compute platforms — Hailo, EdgeCortix, and the broader edge NPU market"
 research_area: "datacenters/edge-ai-accelerators"
-last_reviewed: 2026-04-25
+last_reviewed: 2026-10-26
 stale_after_days: 180
 sitemap:
   changefreq: "monthly"
@@ -72,4 +72,4 @@ Edge AI accelerators depend on leading-edge CMOS process nodes for performance-p
 
 The M.2 and PCIe module assembly is done by the chip companies themselves or by module partners; this is a lower-complexity supply chain tier than ruggedized server assembly.
 
-### Supply Chain — Last Reviewed: 2026-04-25
+### Supply Chain — Last Reviewed: 2026-10-26

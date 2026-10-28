@@ -1,11 +1,13 @@
 ---
 title: "PsiQuantum"
 date: 2026-04-07
-lastmod: 2026-04-07
+lastmod: 2026-10-26
 draft: false
 description: "Silicon photonics quantum computing startup pursuing fault-tolerant photonic computing by manufacturing integrated chipsets at GlobalFoundries; the most heavily funded independent quantum hardware company with no publicly demonstrated quantum processor as of early 2026."
 research_area: "quantum-computing"
 source_urls:
+  - "https://www.joplinglobe.com/region/national_business/psiquantum-signs-125-million-agreement-with-darpa/article_bbdebc22-25b6-5e59-a8b7-89e3b7babc43.html"
+  - "https://www.joplinglobe.com/region/national_business/psiquantum-unveils-new-australian-site-at-moreton-bay-central/article_b0a7f4c0-571c-5827-815c-e6031aa9822a.html"
   - "https://www.psiquantum.com"
   - "https://www.nature.com/articles/s41586-025-08820-7"
   - "https://arxiv.org/abs/2101.09310"
@@ -14,7 +16,7 @@ source_urls:
   - "https://www.industry.gov.au/news/leading-quantum-company-chooses-australia-site-its-groundbreaking-utility-scale-quantum-computer"
   - "https://www.anao.gov.au/work/request/investigation-the-investment-psiquantum-announced-the-australian-and-queensland-governments"
   - "https://www.businesswire.com/news/home/20260210565444/en/PsiQuantum-Appoints-Victor-Peng-as-Interim-CEO-Co-Founder-Jeremy-OBrien-to-Become-Executive-Chairman"
-last_reviewed: 2026-04-07
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -58,6 +60,9 @@ The physical qubit count required for a fault-tolerant photonic system is also v
 
 ## Notable Developments
 
+- **2026-07-22:** New $125M performance-based DARPA agreement under the Quantum Benchmarking Initiative; PsiQuantum is reported to have advanced to Stage C; supports infrastructure in Milpitas and Chicago. ([Business Wire via Joplin Globe](https://www.joplinglobe.com/region/national_business/psiquantum-signs-125-million-agreement-with-darpa/article_bbdebc22-25b6-5e59-a8b7-89e3b7babc43.html))
+- **2026-05-21:** Letter of intent with the US Department of Commerce for $100M in proposed CHIPS incentives (not a finalized award).
+- **2026-05-20:** Brisbane project anchored at Moreton Bay Central, with early site works begun and a groundbreaking planned for June 2026. ([Business Wire via Joplin Globe](https://www.joplinglobe.com/region/national_business/psiquantum-unveils-new-australian-site-at-moreton-bay-central/article_b0a7f4c0-571c-5827-815c-e6031aa9822a.html))
 - **2026-03:** PsiQuantum announced NVIDIA CUDA-Q integration with its Construct simulation platform, enabling GPU-accelerated quantum algorithm simulation (up to 450× vs. CPU). *(Unverified — press release only)*
 - **2026-02:** Victor Peng (former President of AMD, former CEO of Xilinx) appointed Interim CEO; Jeremy O'Brien transitions to Executive Chairman. PsiQuantum stated it is conducting a search for a permanent CEO. *(Verified — press release and multiple news sources)*
 - **2026-01:** PsiQuantum appointed three new members to its Government Advisory Board. *(Unverified — press release only)*
@@ -105,7 +110,7 @@ The physical qubit count required for a fault-tolerant photonic system is also v
 - **Background:** More than 40 years of semiconductor industry experience. CEO of Xilinx (2018–2022). President of Advanced Micro Devices, Inc. (AMD) (February 2023–August 2024, retired). Board member at multiple technology companies. Not from the quantum computing field — brings semiconductor manufacturing and operations scaling expertise.
 - **⚑ Note:** Peng's appointment is notable because his background is in classical semiconductor manufacturing and operations, not quantum physics. This may signal a shift in PsiQuantum's phase from research-focused to construction/operations-focused, consistent with the Chicago groundbreaking. It may also reflect investor pressure to add experienced operational leadership ahead of large capital deployment.
 
-### People — Last Reviewed: 2026-04-07
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

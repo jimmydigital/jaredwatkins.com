@@ -1,7 +1,7 @@
 ---
 title: "Saronic Technologies — Autonomous Surface Vessels"
 date: 2026-06-29
-lastmod: 2026-06-29
+lastmod: 2026-10-26
 draft: false
 description: "Saronic builds autonomous surface vessels (ASVs) for US Navy and defense customers. Three-vessel product line (Corsair 24', Mirage 52', Marauder 180') plus Echelon autonomy software. Series D at $9.25B valuation (2026); $392M Navy contract; selected for MUSV Marketplace."
 research_area: "robotics/naval-drones"
@@ -11,7 +11,7 @@ source_urls:
   - "https://medium.com/saronic-technologies/saronic-closes-1-75b-series-d-at-9-25b-valuation-to-accelerate-a-new-era-of-maritime-autonomy-a801be818746"
   - "https://medium.com/saronic-technologies/saronic-selected-for-u-s-navy-musv-marketplace-cbf32de05d95"
   - "https://www.workboat.com/saronic-awarded-392-million-navy-contract/"
-last_reviewed: 2026-06-29
+last_reviewed: 2026-10-26
 stale_after_days: 60
 ---
 

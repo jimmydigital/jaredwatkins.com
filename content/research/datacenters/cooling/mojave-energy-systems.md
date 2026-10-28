@@ -1,7 +1,7 @@
 ---
 title: "Mojave Energy Systems"
 date: 2026-07-18
-lastmod: 2026-07-18
+lastmod: 2026-10-26
 draft: false
 description: "Sunnyvale, CA liquid-desiccant HVAC company (Xerox PARC spinout, 2022) whose ArctiDry/AquaDry product line names data centers as a target application — using building chilled water plus 110–180°F waste heat to cut chiller load and improve efficiency."
 research_area: "datacenters/cooling"
@@ -13,7 +13,7 @@ source_urls:
   - "https://serdp-estcp.mil/projects/details/d3805f90-f29b-409a-b5c3-262be296cd18/improved-moisture-control-with-less-energy-mojave-liquid-desiccant-air-conditioning"
   - "https://www.facilitiesdive.com/news/air-conditioning-efficiency-electricity-costs-liquid-desiccant-mojave-energy-systems/736051/"
   - "https://pulse2.com/mojave-energy-systems-profile-phil-farese-interview/"
-last_reviewed: 2026-07-18
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "datacenters/cooling/blue-frontier.md"
@@ -85,7 +85,7 @@ Separately, Mojave is demonstrating ArctiDry (the DX line, not AquaDry) at Depar
 - **LinkedIn:** Not found (not independently verified during this review)
 - **Background:** B.S. Electrical Engineering (University of Illinois Urbana–Champaign), MBA (Mercer University); more than 20 years in HVAC sales, including 14 years at Trane and senior sales/service roles at Valent Air Management and Greenheck Group. Appointed VP of Sales January 2026.
 
-### People — Last Reviewed: 2026-07-18
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

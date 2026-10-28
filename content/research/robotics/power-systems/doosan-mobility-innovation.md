@@ -1,16 +1,17 @@
 ---
 title: "Doosan Mobility Innovation"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-26
 draft: false
-description: "South Korean hydrogen fuel cell drone subsidiary of Doosan Group; DS30W is marketed as the world's first mass-produced hydrogen fuel cell drone with 2-hour endurance; scheduled to merge with Doosan Fuel Cell Power in December 2024 as part of Doosan Group's hydrogen business consolidation."
+description: "South Korean hydrogen fuel cell drone subsidiary of Doosan Group; DS30W is marketed as the world's first mass-produced hydrogen fuel cell drone with 2-hour endurance; a December 2024 restructuring to combine it with Doosan's PEMFC fuel cell business was targeted to close by end of February 2025; completion and any 2026 developments were not found."
 research_area: "robotics/power-systems"
 source_urls:
   - "https://www.doosanmobility.com/en/products/drone-ds30"
+  - "https://hydrogen-central.com/doosan-merges-mobility-inno-with-fuel-cell-power-to-boost-hydrogen-business/"
   - "https://www.bloomberg.com/news/articles/2022-04-22/korea-s-oldest-conglomerate-turns-to-hydrogen-drones-for-revival"
   - "https://www.h2-view.com/story/doosan-mobility-innovation-demonstrates-power-of-hydrogen-fuel-cell-drone/"
   - "https://tracxn.com/d/companies/doosan-mobility-innovation/__Qe3Ipel_5Sr1NUSryZMUKqV5alA7hj_-YKj8NWE9nyQ"
-last_reviewed: 2026-03-31
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related: []
 ---
@@ -20,7 +21,7 @@ related: []
 
 ## Summary
 
-Doosan Mobility Innovation (DMI) is a South Korean developer and manufacturer of hydrogen fuel cell-powered commercial drones, operating as a subsidiary of the Doosan Group conglomerate. Its DS30W platform — a hydrogen fuel cell-powered octocopter — is marketed as the world's first mass-produced hydrogen fuel cell drone, with approximately 2 hours of flight endurance. In December 2024, Doosan announced a planned merger of DMI with Doosan Fuel Cell Power to consolidate its hydrogen business.
+Doosan Mobility Innovation (DMI) is a South Korean developer and manufacturer of hydrogen fuel cell-powered commercial drones, operating as a subsidiary of the Doosan Group conglomerate. Its DS30W platform — a hydrogen fuel cell-powered octocopter — is marketed as the world's first mass-produced hydrogen fuel cell drone, with approximately 2 hours of flight endurance. In December 2024, Doosan announced a restructuring to combine DMI with Doosan's PEMFC fuel cell business, targeted to close by the end of February 2025 with a 134 billion won capital increase for DMI; the sources reviewed are inconsistent on which entity survives, and no confirmation of closing or any 2026 news was found.
 
 ## Key Facts
 
@@ -30,7 +31,7 @@ Doosan Mobility Innovation (DMI) is a South Korean developer and manufacturer of
 - **Ownership:** Doosan Group; additional investment from IDG Capital, Korea Investment Partners, DS Asset Management (March 2023, ~27B KRW)
 - **Key products:** DS30W (hydrogen fuel cell octocopter, 2-hour endurance); DT30X (payload-optimized variant); DP30M2S (modular powerpack for third-party drone integration)
 - **Revenue / valuation:** Not publicly disclosed; Doosan Group is publicly traded (KRX: 000150)
-- **Restructuring:** Announced merger with Doosan Fuel Cell Power (December 2024) to consolidate hydrogen capabilities
+- **Restructuring:** December 2024 announcement of a combination with Doosan's PEMFC fuel cell business, closing targeted for end of February 2025; completion unconfirmed (Hydrogen Central)
 
 ## What It Is / How It Works
 
@@ -46,7 +47,7 @@ The hydrogen storage approach used in the DS30 is compressed gas (high-pressure 
 
 ## Notable Developments
 
-- **2024-12:** Doosan announces merger of Doosan Mobility Innovation with Doosan Fuel Cell Power to consolidate hydrogen business. ([Tracxn](https://tracxn.com/d/companies/doosan-mobility-innovation/__Qe3Ipel_5Sr1NUSryZMUKqV5alA7hj_-YKj8NWE9nyQ))
+- **2024-12:** Doosan announces a restructuring combining Doosan Mobility Innovation with Doosan's PEMFC fuel cell business, with closing targeted for end of February 2025 and a 134 billion won capital increase planned; DMI's capital had fully eroded. ([Hydrogen Central](https://hydrogen-central.com/doosan-merges-mobility-inno-with-fuel-cell-power-to-boost-hydrogen-business/); [Tracxn](https://tracxn.com/d/companies/doosan-mobility-innovation/__Qe3Ipel_5Sr1NUSryZMUKqV5alA7hj_-YKj8NWE9nyQ))
 - **2024-02:** DS30 demonstrated at African Drone Forum, Kigali, Rwanda.
 - **2023-03:** ~27B KRW investment secured from IDG Capital, Korea Investment Partners, and DS Asset Management.
 - **2022:** DS30W receives CES Innovation Award.
@@ -67,7 +68,7 @@ The hydrogen storage approach used in the DS30 is compressed gas (high-pressure 
 ### Current CEO (post-2023)
 - Not publicly identified in available sources as of early 2026.
 
-### People — Last Reviewed: 2026-03-31
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

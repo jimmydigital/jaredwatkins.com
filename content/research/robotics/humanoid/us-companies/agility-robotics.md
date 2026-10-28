@@ -1,18 +1,19 @@
 ---
 title: "Agility Robotics"
 date: 2026-06-19
-lastmod: 2026-06-19
+lastmod: 2026-10-26
 draft: false
 description: "Albany, OR humanoid robotics company; Digit bipedal robot; commercial deployment leader among US humanoids; ~$180M raised; DCVC/Playground/Amazon investors; customers include Amazon, GXO, Toyota."
 research_area: "robotics/humanoid"
 source_urls:
+  - "https://www.robotics247.com/article/agility-robotics-goes-public-merges-with-churchill-capital-corp-xi-at-2.5-billion-valuation"
   - "https://agilityrobotics.com"
   - "https://www.agilityrobotics.com/content/agility-robotics-announces-commercial-agreement-with-toyota-motor-manufacturing-canada"
   - "https://www.agilityrobotics.com/content/gxo-signs-industry-first-multi-year-agreement-with-agility-robotics"
   - "https://www.agilityrobotics.com/content/mercado-libre-and-agility-robotics-announce-commercial-agreement"
   - "https://www.agilityrobotics.com/content/agility-robotics-announces-strategic-investment-and-agreement-with-motion-technology-company-schaeffler-group"
   - "https://newmarketpitch.com/blogs/news/humanoid-robotics-optimus-deployment-tracker"
-last_reviewed: 2026-06-19
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -27,9 +28,9 @@ Agility Robotics is the commercial deployment leader among US humanoid robot com
 - **Founded:** 2015 (OSU spinout of DARPA-funded bipedal research)
 - **HQ:** Albany, OR (manufacturing/production); Corvallis, OR (R&D)
 - **Type:** Company — Platform OEM
-- **Status:** Commercial; multi-customer deployments
+- **Status:** Commercial; multi-customer deployments; pending SPAC listing (announced June 2026)
 - **Employees:** ~85 (2023); doubling plan underway
-- **Total funding:** ~$180M across 6 rounds, 18+ investors
+- **Total funding:** Earlier rounds ~$180M; plus >$620M expected from the 2026 SPAC merger and PIPE
 - **Robot:** Digit — bipedal humanoid; ~5'9", ~140 lbs; 90-minute battery runtime
 - **Value chain position:** Platform OEM; Series Elastic Actuator (SEA) design
 - **Customers:** Amazon (AMZN), GXO Logistics (GXO), Toyota Motor Manufacturing Canada (Feb 2026 commercial agreement), Schaeffler (SDVXF), Mercado Libre (Dec 2025 commercial agreement)
@@ -74,7 +75,7 @@ Trade-off: SEAs sacrifice some speed and peak stiffness compared to Quasi-Direct
 - Research focus: passive dynamic walking, spring-mass biomechanics, applying animal locomotion principles to robot design
 - LinkedIn: [jonathan-hurst](https://www.linkedin.com/in/jonathan-hurst-b1b3604/)
 
-**Damion Shelton** — Co-founder & CEO
+**Damion Shelton** — Co-founder
 - Ph.D., Carnegie Mellon University, Robotics Institute (met Hurst as PhD classmate at CMU)
 - Background: robotics perception, systems integration, commercial translation of research
 - Prior: Caterpillar Technology & Solutions; robotics consulting before OSU spinout
@@ -86,7 +87,7 @@ Trade-off: SEAs sacrifice some speed and peak stiffness compared to Quasi-Direct
 
 **Pattern:** Classic academic spinout with unusual commercial discipline. Hurst invested 15+ years in fundamental bipedal locomotion research before commercializing. The Cassie DARPA execution (16 months from grant to hardware) demonstrated the team can move fast. Agility's current commercial lead over better-funded competitors suggests that depth of foundational research translates to deployable products better than speed-to-prototype.
 
-### People — Last Reviewed: 2026-06-19
+### People — Last Reviewed: 2026-10-26
 
 ## Robot Development History
 
@@ -129,6 +130,11 @@ Cassie (legs only) was separately licensed to 23+ universities as a research pla
 - No independent third-party throughput audit
 
 **Summary:** The most substantiated deployment claim in US humanoid robotics. Real customers, real hardware, real task completion — at limited scale and unverified autonomy level.
+
+## Notable Developments
+
+- **2026-06:** Definitive agreement to go public by merging with Churchill Capital Corp XI at a $2.5B pre-money valuation (proposed ticker AGLT); more than $620M gross proceeds including ~$420M trust and ~$200M PIPE led by Foxconn
+- **2026-06:** Company reports Digit deployed at nine customer facilities with 65,000+ operating hours, over $300M in multi-year Digit v5 orders (milestone-dependent) and a 30+ customer pipeline; CEO is Peggy Johnson
 
 ## Sources
 

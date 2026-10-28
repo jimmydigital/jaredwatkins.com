@@ -1,18 +1,19 @@
 ---
 title: "World View / Ondas Stratollite"
 date: 2026-07-17
-lastmod: 2026-07-17
+lastmod: 2026-10-26
 draft: false
 description: "Tucson-built Stratollite stratospheric balloon (EO/IR/SIGINT, up to 95,000 ft, up to 45-day endurance); acquired by Ondas Holdings (ONDS) in 2026 and integrated with Ondas' Sentrycs counter-UAS and Palantir AIP — the clearest example of a stratospheric platform folded directly into a counter-drone product line."
 research_area: "drone-detection/high-altitude-platforms"
 source_urls:
+  - "https://glitchwire.com/news/ondas-wins-48m-navy-contract-to-deploy-stratospheric-balloons-for-maritime-surve/"
   - "https://www.worldview.space/stratospheric-sensing"
   - "https://www.worldview.space/stories/ondas-completes-acquisition-of-world-view-enterprises-establishing-a-persistent-ai-enabled-multi-domain-isr-platform-across-stratosphere-air-and-ground"
   - "https://ir.ondas.com/press-releases/detail/282/ondas-announces-10-million-strategic-investment-in-world"
   - "https://dronelife.com/2026/03/19/palantir-ondas-and-world-view-partner-on-multi-domain-isr-integration/"
   - "https://breakingdefense.com/2022/07/way-up-in-the-air-world-view-looks-to-expand-customer-base-for-its-stratollite-balloon/"
   - "https://www.stocktitan.net/sec-filings/ONDS/8-k-ondas-inc-reports-material-event-fea6564ba89d.html"
-last_reviewed: 2026-07-17
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -39,6 +40,7 @@ The Stratollite navigates within the stratosphere using differential winds at di
 
 ## Notable Developments
 
+- **2026-06:** Ondas, which closed its World View acquisition on April 1, 2026, announces a three-month initial Navy award (reported as $4.8M) for stratospheric balloon ISR over the Eastern Pacific and Caribbean for NAVSOUTH/4th Fleet, with SMX as prime. ([Glitchwire](https://glitchwire.com/news/ondas-wins-48m-navy-contract-to-deploy-stratospheric-balloons-for-maritime-surve/))
 - **2026:** Ondas Holdings (ONDS) completes acquisition of World View Enterprises (~$150M, mostly stock), following an earlier $10M strategic investment and partnership agreement
 - **2026-03:** DroneLife reports a three-way integration partnership among Palantir, Ondas, and World View for multi-domain ISR data-sharing across stratosphere, air, and ground layers
 - **Ondas' parallel move:** Ondas also announced acquisition of DZYNE Technologies (~$875.8M) to form an "Ondas Sentinel" autonomous defense division spanning persistent intelligence, aerial security, and autonomous effects — Stratollite sits alongside DZYNE and Sentrycs in that combined stack

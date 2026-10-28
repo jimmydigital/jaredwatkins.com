@@ -1,17 +1,18 @@
 ---
 title: "AERIS-10 (PLFM_RADAR)"
 date: 2026-07-09
-lastmod: 2026-07-09
+lastmod: 2026-10-26
 draft: false
 description: "Open-source, low-cost 10.5 GHz phased array Pulse Linear Frequency Modulated (PLFM) radar — full hardware (schematics, PCB layouts) and FPGA/firmware/software stack, in two range variants (3 km and 20 km); accepted by Crowd Supply for a Q3 2026 crowdfunding launch."
 research_area: "drone-detection/open-source"
 source_urls:
   - "https://github.com/NawfalMotii79/PLFM_RADAR"
+  - "https://github.com/NawfalMotii79/PLFM_RADAR"
   - "https://nawfalmotii79.github.io/PLFM_RADAR/docs/"
   - "https://hackaday.io/project/205190-open-source-plfm-radar-up-to-20km-range"
   - "https://hackaday.io/project/205190/log/246728-project-log-002-aeris-10-accepted-by-crowd-supply-the-journey-to-production-begins"
   - "https://www.crowdsupply.com/"
-last_reviewed: 2026-07-09
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -61,6 +62,10 @@ The project's creator, Nawfal Motii, describes starting the project independentl
 ## Critical Limitation
 
 The project is explicitly labeled Alpha, and building it requires real RF/PCB assembly work, an FPGA toolchain (Vivado), and sourcing specialized components (microwave mixers, phase shifters, GaN amplifiers) — a materially higher bar than flashing an ESP32 for a Remote ID receiver like [Mesh-Mapper]({{< relref "mesh-mapper.md" >}}). It has no built-in drone/bird classification or protocol identification: unlike this section's commercial micro-Doppler systems (see [Robin Radar IRIS]({{< relref "../hardware/robin-radar-iris.md" >}}) and [Fortem Technologies]({{< relref "../hardware/fortem-technologies.md" >}}), both of which market AI-based bird/drone discrimination as a core feature), AERIS-10 delivers CFAR-detected tracks that still require a downstream classifier to reliably distinguish a drone from a bird or other clutter. As with any radar, it also requires legal/regulatory awareness around intentional RF emission (unlike the purely passive/receive-only tools elsewhere in this section) — operators should confirm compliance with local spectrum authorization requirements before transmitting at 10.5 GHz.
+
+## Notable Developments
+
+- **2026-10 repository check:** Public and not shown as archived; about 27,100 GitHub stars and 350 commits on the main branch; no tagged releases listed and last-commit dates were not visible, so recent activity is unconfirmed
 
 ## Sources
 

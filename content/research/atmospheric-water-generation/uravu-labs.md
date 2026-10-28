@@ -1,14 +1,15 @@
 ---
 title: "Uravu Labs"
 date: 2026-07-16
-lastmod: 2026-07-18
+lastmod: 2026-10-26
 draft: false
 description: "Bengaluru, India-based liquid-desiccant atmospheric water company, founded 2017/2019, that has pivoted from hospitality drinking-water units toward 'water-positive cooling' for AI data centers under its Clausius platform."
 research_area: "atmospheric-water-generation"
 source_urls:
+  - "https://india.entrepreneur.com/news-and-trends/uravu-labs-raises-fresh-funding-from-enrission-india-capital/494466"
   - "https://www.uravulabs.com/"
   - "https://india.entrepreneur.com/news-and-trends/uravu-labs-raises-23-million-in-seed-funding/448228"
-last_reviewed: 2026-07-18
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "atmospheric-water-generation/mof-801.md"
@@ -48,6 +49,7 @@ Two datacenter-cooling-section companies apply the same low-grade-heat-driven li
 
 ## Notable Developments
 
+- **2025-07:** Strategic investment (amount undisclosed) from ENRISSION India Capital to widen commercial deployments; no newer verified news found
 - **2026 (date unspecified in reviewed sources):** Company's public-facing product line pivoted to lead with Clausius, a water-positive cooling platform for AI data centers, industrial cooling (pharma, distilleries, green hydrogen, chemicals), and HVAC (tropical buildings, naval vessels, maritime); published a whitepaper titled "The Cloud That Rains: Turning Data Centers Water Positive."
 - **2023-03:** Closed $2.3M seed funding round (JITO Angel Network, Anicut Capital, Speciale Invest, Rocketship.vc, and others) to scale hospitality/beverage-sector drinking water partnerships and fund a first international pilot in Japan.
 
@@ -69,7 +71,7 @@ Two datacenter-cooling-section companies apply the same low-grade-heat-driven li
 - **LinkedIn:** Not found (not independently verified during this review)
 - **Background:** Listed as a co-founder in 2023 press coverage; specific professional background not confirmed from sources reviewed.
 
-### People — Last Reviewed: 2026-07-16
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

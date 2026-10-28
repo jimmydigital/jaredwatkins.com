@@ -1,17 +1,18 @@
 ---
 title: "IETF Protocol Standards & Integration"
 date: 2026-04-24
-lastmod: 2026-04-24
+lastmod: 2026-10-26
 draft: false
 description: "IETF protocol standards for post-quantum cryptography in IKEv2, TLS 1.3, SSH, and X.509 certificates"
 research_area: "post-quantum-encryption/standards-policy"
 source_urls:
+  - "https://postquantum.com/security-pqc/rfc-10024-hybrid-mlkem-tls/"
   - "https://datatracker.ietf.org"
   - "https://datatracker.ietf.org/doc/rfc9242/"
   - "https://datatracker.ietf.org/doc/rfc9370/"
   - "https://datatracker.ietf.org/doc/draft-ietf-tls-mlkem/"
   - "https://blog.cloudflare.com/experiment-with-pq/"
-last_reviewed: 2026-04-24
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -110,7 +111,7 @@ As of April 2026, IKEv2/IPsec integration is mature (finalized RFCs); TLS 1.3 in
 
 ### draft-ietf-tls-ecdhe-mlkem (Hybrid ECDHE+ML-KEM for TLS 1.3)
 
-**Status:** 🟡 **ACTIVE DRAFT** | [Datatracker](https://datatracker.ietf.org/doc/draft-ietf-tls-ecdhe-mlkem/) | Version 04 (expires Aug 12, 2026)
+**Status:** 🟢 **PUBLISHED as RFC 10024 (Proposed Standard, August 2026)** | [Datatracker](https://datatracker.ietf.org/doc/draft-ietf-tls-ecdhe-mlkem/) | Only X25519MLKEM768 is marked Recommended in the IANA registry; the two NIST-curve variants are marked Not Recommended for lack of IETF consensus; pre-standard Kyber768 code points are obsolete
 
 **Specification:**
 Defines three hybrid named groups combining classical + PQC:

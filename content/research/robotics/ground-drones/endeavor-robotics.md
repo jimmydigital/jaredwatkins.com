@@ -1,7 +1,7 @@
 ---
 title: "Endeavor Robotics (Teledyne FLIR Defense)"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-26
 draft: false
 description: "Burlington, MA defense UGV maker (now Teledyne FLIR Defense); iRobot defense spin-off 2016; FLIR acquired 2019 for $385M; Teledyne acquired FLIR 2021 for $8B; Centaur/MTRS Inc II program-of-record 1,800+ delivered to Army, Navy, Air Force, USMC; PackBot legacy platform 7,000+ fielded; Sep 2024 $47M US government contracts."
 research_area: "robotics/ground-drones"
@@ -10,7 +10,7 @@ source_urls:
   - "https://defense.flir.com/about/news/1000th-mtrs-system/"
   - "https://www.teledyne.com/en-us/news/Pages/teledyne-flir-defense-receives-62-million-in-orders-from-us-military-for-centaur-unmanned-ground-vehicles.aspx"
   - "https://www.securityinfowatch.com/perimeter-security/robotics/ground-based/news/21068262/flir-acquires-ugv-maker-endeavor-robotics"
-last_reviewed: 2026-03-31
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related: []
 ---
@@ -61,7 +61,7 @@ The September 2024 FLIR Defense contract awards — $32M for MTRS/CRS-H sustainm
 
 Current Teledyne FLIR Defense division leadership is not separately publicized. Parent company Teledyne Technologies CEO is Robert Mehrabian (founder and executive chairman); Edwin Roks is CEO.
 
-### People — Last Reviewed: 2026-03-31
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

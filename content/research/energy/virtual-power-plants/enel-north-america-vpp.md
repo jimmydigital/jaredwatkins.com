@@ -1,7 +1,7 @@
 ---
 title: "Enel North America — VPP Connect / Enel X Flex"
 date: 2026-07-18
-lastmod: 2026-07-18
+lastmod: 2026-10-26
 draft: false
 description: "The demand-response and virtual power plant business of Enel North America, the US/Canada subsidiary of Italian utility giant Enel; operates the Enel X Flex software platform and VPP Connect DER onboarding product, ranked among the top 3 North American C&I VPP aggregators by Wood Mackenzie; traces its lineage to EnerNOC."
 research_area: "energy/virtual-power-plants"
@@ -9,7 +9,7 @@ source_urls:
   - "https://www.enelnorthamerica.com/solutions/energy-solutions/vpp-connect"
   - "https://www.enelnorthamerica.com/about-us/newsroom/search-press/press/2025/09/virtual-power-plant-2025"
   - "https://www.enelnorthamerica.com/about-us/newsroom/search-press/press/2025/12/leap-vpps"
-last_reviewed: 2026-07-18
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "_index.md"
@@ -54,7 +54,7 @@ The company's late-2025 partnership with Leap extends its reach by connecting ad
 
 Specific named executives for Enel North America's demand-response/VPP business unit (distinct from Enel S.p.A.'s global executive team) were not independently confirmed via a current-dated source in this review — TODO: identify and verify Enel North America / Enel X Flex business unit leadership.
 
-### Key People — Last Reviewed: 2026-07-18
+### Key People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

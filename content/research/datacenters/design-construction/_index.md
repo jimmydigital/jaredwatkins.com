@@ -1,11 +1,11 @@
 ---
 title: Datacenter Design & Construction
 date: 2026-03-24
-lastmod: 2026-07-26
+lastmod: 2026-10-26
 draft: false
 description: Next-generation datacenter design approaches — modular construction, faster time-to-power, lower cost per MW, and smarter facility architectures for AI workloads.
 research_area: "datacenters/design-construction"
-last_reviewed: 2026-07-26
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -99,4 +99,4 @@ Factory-built modules containing complete power (switchgear, UPS, PDU) or coolin
 ### Copy-Exact Facility Design
 Hyperscalers (Google, Microsoft, Amazon) increasingly deploy standardized facility designs across global sites rather than custom-engineered buildings. A proven design that meets power, cooling, and construction requirements is replicated with minimal modification at each new site. This compresses design timeline, enables contractor familiarity, and reduces commissioning risk. The design-standardization trend is relevant to construction contractors and M&E suppliers who gain volume through preferred vendor relationships.
 
-### Supply Chain — Last Reviewed: 2026-03-24
+### Supply Chain — Last Reviewed: 2026-10-26

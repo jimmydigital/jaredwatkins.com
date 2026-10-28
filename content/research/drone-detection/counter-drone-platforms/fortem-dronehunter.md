@@ -1,15 +1,16 @@
 ---
 title: "Fortem DroneHunter F700"
 date: 2026-06-05
-lastmod: 2026-07-07
+lastmod: 2026-10-26
 draft: false
 description: "Autonomous radar-guided net-capture interceptor drone — fully autonomous, non-explosive C-UAS that physically captures threat drones using a net; 5,000+ captures; deployed in Ukraine."
 research_area: "drone-detection/counter-drone-platforms"
 source_urls:
+  - "https://www.techbuzznews.com/fortem-lands-18-million-army-counter-drone-deal-as-federal-momentum-builds/"
   - "https://fortemtech.com/products/dronehunter-f700/"
   - "https://cdn.prod.website-files.com/648c3eaae99a3460f13becec/64a7deadd6b09be15aded1c7_MKT_DH%20F700-Data%20Sheet_20230119.pdf"
   - "https://en.defence-ua.com/weapon_and_tech/ukrainians_buy_dronehunter_a_predator_uav_to_catch_shahed_136_zala_and_orlan_10-8620.html"
-last_reviewed: 2026-07-07
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -50,6 +51,8 @@ The Fortem DroneHunter F700 is a fully autonomous interceptor drone that physica
 
 ## Operational Deployments
 
+**US (2026):** JIATF-401 selected DroneHunter as its first Replicator 2 purchase (January 2026), the Army awarded a three-year $18M contract, and DHS named Fortem the only authorized kinetic provider for US World Cup venues (February 2026). ([TechBuzz](https://www.techbuzznews.com/fortem-lands-18-million-army-counter-drone-deal-as-federal-momentum-builds/))
+
 **Ukraine:** Ukraine has procured DroneHunter for use against Shahed-136 loitering munitions, Zala reconnaissance drones, and Orlan-10 ISR drones. This is the most demanding operational test environment for any C-UAS technology.
 
 **Electric grid protection (USA):** Fortem's partnership with Southern States (December 2025) targets grid substation protection — directly relevant to the critical infrastructure use case.
@@ -69,7 +72,7 @@ The Fortem DroneHunter F700 is a fully autonomous interceptor drone that physica
 
 See [Fortem Technologies]({{< relref "../hardware/fortem-technologies.md" >}}) for company leadership — DroneHunter is a Fortem Technologies product, not a separately incorporated entity. Key names: **Jon Gruen** (CEO since September 2022), **Timothy Bean** (co-founder, President and COO), **Adam Robertson** (co-founder).
 
-### People — Last Reviewed: 2026-07-07
+### People — Last Reviewed: 2026-10-26
 
 ## Sources
 

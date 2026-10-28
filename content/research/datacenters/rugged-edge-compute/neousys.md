@@ -1,14 +1,15 @@
 ---
 title: "Neousys Technology"
 date: 2026-04-25
-lastmod: 2026-04-25
+lastmod: 2026-10-26
 draft: false
 description: "Taiwan-based rugged embedded computer manufacturer (Advantech subsidiary); SEMIL-2200 and SEMIL-2200GC semi-industrial fanless AI edge servers; wide-temperature GPU inference platforms for transportation, defense, and industrial AI; NVIDIA Jetson and discrete GPU integration."
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
+  - "https://neousys-tech.com/en/news/press-room/2026/604-neousys-to-showcase-rugged-edge-ai-innovations-at-computex-2026"
   - "https://www.neousys-tech.com/"
   - "https://www.neousys-tech.com/en/product/application/edge-ai-server"
-last_reviewed: 2026-04-25
+last_reviewed: 2026-10-26
 stale_after_days: 180
 ---
 
@@ -74,6 +75,7 @@ The defense-adjacent demand driver is military's increasing use of commercial or
 
 ## Notable Developments
 
+- **2026-06:** At COMPUTEX 2026 (June 2–5) showed the HRT-300 series (NVIDIA Jetson Thor T5000/T4000, up to 2,070 FP4 TFLOPS, 128 GB), NRU-230V-AWP (IP66, Jetson Orin, up to 275 TOPS) and POC-960GC (RTX Pro 2000 Blackwell)
 - **2018:** Acquired by Advantech, becoming part of the largest global industrial computing group; access to global channels and certifications
 - **Ongoing:** SEMIL-2200GC platform targets the growing demand for high-TDP GPU inference (RTX 4000/5000 class) in fanless semi-industrial enclosures
 - **Ongoing:** DFI Technology is another Taiwan-based peer in this segment; Neousys and DFI have overlapping product categories but distinct customer profiles (Neousys is stronger in transportation/ITS; DFI stronger in gaming/kiosk/industrial display integration)

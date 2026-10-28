@@ -1,7 +1,7 @@
 ---
 title: "HostDime"
 date: 2026-04-02
-lastmod: 2026-04-02
+lastmod: 2026-10-26
 draft: false
 description: "Orlando-based global edge colocation operator; founded 2003 by Manny Vivar; self-funded with no outside investors; purpose-built Tier IV datacenter facilities in 8+ countries across Latin America, US, Europe, and Asia; new-generation facilities designed for 30–100 kW/rack AI workloads with direct-to-chip and immersive liquid cooling; 1.3 PUE target; carrier-neutral with local internet exchange points; flagship new SuperNova Orlando facility (100,000 sq ft, 5MW IT load, ~1,000 racks) completing Q1 2026; pursuing potential $100M+ capital raise for expansion."
 research_area: "datacenters/design-construction"
@@ -13,7 +13,7 @@ source_urls:
   - "https://en.wikipedia.org/wiki/HostDime"
   - "https://www.datacenterdynamics.com/en/news/hostdime-seeks-deadline-extension-for-data-center-in-eatonville-orlando/"
   - "https://www.bnamericas.com/en/news/hostdime-looks-to-buy-land-for-first-peru-argentina-datacenters-this-year"
-last_reviewed: 2026-04-02
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "datacenters/design-construction/_index.md"
@@ -121,7 +121,7 @@ HostDime is fundamentally a colocation operator differentiated by three things: 
 - **Role:** Data Center Operations Manager for HostDime USA
 - **Notes:** Responsible for operational standards, uptime, and staff management for US facilities
 
-### People — Last Reviewed: 2026-04-02
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

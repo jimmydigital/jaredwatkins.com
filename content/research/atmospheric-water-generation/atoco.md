@@ -1,11 +1,13 @@
 ---
 title: "Atoco"
 date: 2026-07-15
-lastmod: 2026-07-16
+lastmod: 2026-10-26
 draft: false
 description: "Irvine, CA-based climate tech company founded by Nobel laureate Omar Yaghi, commercializing MOF-based atmospheric water harvesting (on-grid and off-grid systems) and carbon capture."
 research_area: "atmospheric-water-generation"
 source_urls:
+  - "https://www.agnavigator.com/Article/2026/01/21/atoco-targets-commercial-rollout-of-atmospheric-water-harvesting-tech-following-nobel-prize/"
+  - "https://www.western-water.com/2026/05/22/machines-that-pull-water-from-air-near-reality/"
   - "https://atoco.com/about-us/"
   - "https://atoco.com/our-founder/"
   - "https://atoco.com/our-team/"
@@ -13,7 +15,7 @@ source_urls:
   - "https://atoco.com/atmospheric-water-harvesting/our-on-grid-awh-innovation/"
   - "https://atoco.com/press/atoco-unveils-atmospheric-water-harvesting-on-grid-prototype/"
   - "https://www.agnavigator.com/Article/2026/01/21/atoco-targets-commercial-rollout-of-atmospheric-water-harvesting-tech-following-nobel-prize/"
-last_reviewed: 2026-07-16
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "atmospheric-water-generation/mof-801.md"
@@ -48,6 +50,7 @@ Atoco's laboratories and manufacturing facilities are based in Irvine, Californi
 
 ## Notable Developments
 
+- **2026-01/05:** Founded by Omar Yaghi (2025 Nobel Prize in Chemistry co-laureate); plans to commercialize within a year with agriculture first, using 20-foot containerized MOF units producing about 2,000–4,000 L/day on-grid (up to 1,000 L/day off-grid); a May 2026 report said commercial orders could begin in the second half of 2026; no funding disclosed
 - **2026-05:** Atoco demonstrated an on-grid AWH commercial prototype at its Orange County, California headquarters in an exclusive feature for Bloomberg News, showing a containerized unit generating water from ambient air.
 - **2026-01:** Product Market Specialist Han Park outlined Atoco's push into controlled-environment agriculture at the World Agri-Tech Innovation Summit Dubai, describing plans for field tests of containerized industrial AWH prototypes ahead of a targeted late-2026 commercial rollout, with on-grid units expected to produce roughly 2,000–4,000 liters of water per day and off-grid units up to 1,000 liters per day.
 - **2025-10:** Founder Omar Yaghi was awarded the 2025 Nobel Prize in Chemistry (shared with Susumu Kitagawa and Richard Robson) for the development of metal-organic frameworks — directly increasing commercial and press attention on Atoco's AWH and carbon capture products.
@@ -76,7 +79,7 @@ Atoco's laboratories and manufacturing facilities are based in Irvine, Californi
 - **LinkedIn:** Not found
 - **Background:** MBA, ESCP Business School (Paris); MA, University of Copenhagen. 20+ years in international B2B commercial roles. Danish Trade Council, Beijing (2004); Emborg, Shanghai (2005); Vestas (2007–2022), most recently as VP Marketing (2017–2022). Has worked in China, the US, Spain, Sweden, Denmark, and is now based in Dubai, UAE.
 
-### People — Last Reviewed: 2026-07-15
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

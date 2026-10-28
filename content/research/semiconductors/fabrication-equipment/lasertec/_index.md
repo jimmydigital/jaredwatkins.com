@@ -1,7 +1,7 @@
 ---
 title: "Lasertec"
 date: 2026-04-15
-lastmod: 2026-04-15
+lastmod: 2026-10-26
 draft: false
 description: "Yokohama-based semiconductor inspection equipment maker; founded 1960; holds a near-monopoly in EUV photomask and mask blank inspection systems; sole developer of actinic (13.5nm wavelength) inspection technology essential for 7nm-and-below chip manufacturing."
 research_area: "semiconductors/fabrication-equipment"
@@ -11,7 +11,7 @@ source_urls:
   - "https://finance.yahoo.com/quote/6920.T"
   - "https://fortune.com/asia/2024/03/21/lasertec-chip-stock-asia-future-japan-semiconductors-testing-shares/"
   - "https://semiconductorinsight.com/blog/next-gen-euv-photomask-inspection-tools-reshape-chip-manufacturing-amid-2-28-billion-market-boom-by-2032/"
-last_reviewed: 2026-04-15
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "semiconductors/fabrication-equipment/_index.md"
@@ -93,7 +93,7 @@ Lasertec's financial performance reflects this monopoly position. The company re
 
 <!-- TODO: find LinkedIn profiles and additional biography for other Lasertec board members; Lasertec's public IR does not extensively detail individual biographies beyond the CEO -->
 
-### People — Last Reviewed: 2026-04-15
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

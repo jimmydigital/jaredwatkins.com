@@ -1,11 +1,12 @@
 ---
 title: "D-Wave Quantum"
 date: 2026-04-14
-lastmod: 2026-04-14
+lastmod: 2026-10-26
 draft: false
 description: "D-Wave (NYSE: QBTS) makes quantum annealers — not gate-based quantum computers. Its Advantage2 processor uses analog optimization for combinatorial problems. Quantum advantage claims are actively disputed by independent researchers."
 research_area: "quantum-computing"
 source_urls:
+  - "https://www.dwavequantum.com/company/newsroom/press-release/d-wave-reports-second-quarter-2026-results/"
   - "https://www.dwavequantum.com"
   - "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001907982&type=10-K"
   - "https://www.nature.com/articles/s41586-023-05867-2"
@@ -15,7 +16,7 @@ source_urls:
   - "https://arxiv.org/html/2503.08247"
   - "https://quantumcomputingreport.com/d-wave-launches-advantage2-quantum-system-with-4400-qubits-and-higher-coherence/"
   - "https://www.dwavequantum.com/company/newsroom/press-release/d-wave-reports-fourth-quarter-and-year-end-2025-results/"
-last_reviewed: 2026-04-14
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -80,6 +81,7 @@ D-Wave's cloud service, **Leap**, provides access to both bare quantum annealing
 
 ## Notable Developments
 
+- **2026-08:** Q2 2026 revenue $3.1M (flat), bookings $2.1M (+59%), H1 bookings $35.5M including a $20M system sale; cash $546.2M after the Quantum Circuits purchase (closed January 2026); Advantage3 targeted at 100,000 qubits by 2031; gate-model roadmap calls for a 17-physical-qubit system in 2026 and 100 logical qubits by 2032. ([D-Wave](https://www.dwavequantum.com/company/newsroom/press-release/d-wave-reports-second-quarter-2026-results/))
 - **2026-01:** D-Wave announced the acquisition of **Quantum Circuits Inc. (QCI)** for $550 million ($300M stock + $250M cash), signaling a major pivot to also pursuing gate-based quantum computing. QCI's technology uses dual-rail superconducting qubits with built-in error detection. D-Wave's stated roadmap from the acquisition: 17-qubit system in 2026, 49-qubit in 2027, 181-qubit in 2028. D-Wave also claimed an "industry-first" demonstration of scalable on-chip cryogenic control for gate-model qubits. *Verification status: company press release; acquisition close and technical claims not yet independently replicated.* (Partially verified)
 
 - **2025-03:** D-Wave published a paper in *Science* (King et al., 61+ co-authors, 11 institutions) claiming quantum supremacy for simulation of magnetic material dynamics — specifically, that a D-Wave annealer solved the problem in minutes while claiming a classical supercomputer would require ~1 million years. Within days, independent teams published rebuttals (see Claim Verification section). (Disputed)
@@ -267,7 +269,7 @@ D-Wave also separately claimed an "industry-first" demonstration of scalable on-
 - **Prior roles:** 20+ years cybersecurity leadership at Dell/EMC/RSA/VMware, Citrix, Nuance, Delinea
 - **LinkedIn:** Not found with confidence <!-- TODO: verify LinkedIn URL for Stan Black, D-Wave CISO -->
 
-### People — Last Reviewed: 2026-04-14
+### People — Last Reviewed: 2026-10-26
 
 ## SPAC Merger History
 

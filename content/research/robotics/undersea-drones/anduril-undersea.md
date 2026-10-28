@@ -1,17 +1,18 @@
 ---
 title: "Anduril Industries — Undersea Systems"
 date: 2026-06-29
-lastmod: 2026-06-29
+lastmod: 2026-10-26
 draft: false
 description: "Anduril's undersea portfolio: Ghost Shark XLUUV (ADF; factory open; first delivery Nov 2025); Dive-XL selected by US Navy for XLUUV program (March 2026); Copperhead-100M/500M autonomous undersea munitions (sea trials ongoing, April 2026). All integrated into Lattice OS."
 research_area: "robotics/undersea-drones"
 source_urls:
+  - "https://www.australianmanufacturing.com.au/anduril-advances-australian-undersea-manufacturing-with-ghost-shark-facility-launch/"
   - "https://breakingdefense.com/2025/11/first-ghost-shark-extra-large-auv-delivered-to-australian-navy/"
   - "https://www.navalnews.com/naval-news/2026/03/diu-and-u-s-navy-select-anduril-for-xl-auv-program/"
   - "https://www.anduril.com/news/anduril-unveils-copperhead-a-new-era-of-autonomous-undersea-dominance"
   - "https://theaviationist.com/2026/04/27/anduril-shows-copperhead-500m-autonomous-underwater-munitions-testing/"
   - "https://www.anduril.com/dive-ld"
-last_reviewed: 2026-06-29
+last_reviewed: 2026-10-26
 stale_after_days: 60
 related:
   - "robotics/aerial-drones/anduril.md"
@@ -88,6 +89,7 @@ The Copperhead + Dive-XL combination creates an autonomous undersea mothership c
 
 ## Notable Developments
 
+- **2025-10/2026:** Ghost Shark factory opened in Sydney after a AUD 1.7B Royal Australian Navy Program of Record (following a AUD 140M co-development contract); low-rate initial production started with a transition to full-scale production planned for 2026
 - **2026-04:** Copperhead-500M sea trials; speed records broken; high seas high-agility testing
 - **2026-03:** Dive-XL selected by DIU/US Navy for XLUUV program
 - **2025-11:** First Ghost Shark XLUUV delivered to Australian Navy

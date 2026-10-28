@@ -1,11 +1,12 @@
 ---
 title: "Food & Water Watch: Datacenter Moratorium Leadership"
 date: 2026-04-20
-lastmod: 2026-04-28
+lastmod: 2026-10-26
 draft: false
 description: "Food & Water Watch — mission, funding, key datacenter campaigns, 230+ group moratorium coalition, and strategic role in national datacenter opposition movement."
 research_area: "datacenter-opposition"
 source_urls:
+  - "https://www.foodandwaterwatch.org/?p=14970"
   - "https://www.foodandwaterwatch.org"
   - "https://www.foodandwaterwatch.org/2025/10/23/environmental-group-calls-for-nationwide-moratorium-on-all-new-data-centers/"
   - "https://www.foodandwaterwatch.org/2025/12/08/230-groups-call-for-national-moratorium-on-new-data-centers/"
@@ -14,7 +15,7 @@ source_urls:
   - "https://www.foodandwaterwatch.org/2026/03/04/comprehensive-report-lays-out-case-for-nationwide-halt-on-new-data-centers/"
   - "https://www.foodandwaterwatch.org/2026/03/25/sanders-aoc-ai-data-center-moratorium-act-is-desperately-needed-as-Americans-energy-bills-skyrocket/"
   - "https://www.foodandwaterwatch.org/2026/04/14/maine-poised-to-enact-first-state-ai-data-center-moratorium/"
-last_reviewed: 2026-04-28
+last_reviewed: 2026-10-26
 stale_after_days: 180
 ---
 
@@ -188,6 +189,10 @@ Food & Water Watch works closely with:
 4. **Funding transparency:** Specific funding for datacenter work is not public; potential dependency on foundation grants that may shift priorities
 
 ---
+
+## 2026 Update
+
+- **Summer 2026:** Reports stopped proposals in Montour County, East Whiteland and East Vincent (Pennsylvania), New Brunswick (New Jersey) and Monterey Park (California), and a data center construction ban in Monroe Township, New Jersey. Sen. Bernie Sanders and Rep. Alexandria Ocasio-Cortez introduced the Artificial Intelligence Data Center Moratorium Act in March, and New York's legislature passed a bill pausing data centers above 20 MW for one year, which the group urged Gov. Hochul to sign. ([Food & Water Watch](https://www.foodandwaterwatch.org/?p=14970))
 
 ## Key Takeaways
 

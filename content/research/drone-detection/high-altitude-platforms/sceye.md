@@ -1,11 +1,12 @@
 ---
 title: "Sceye"
 date: 2026-07-17
-lastmod: 2026-07-17
+lastmod: 2026-10-26
 draft: false
 description: "New Mexico-based stratospheric airship (HAPS) maker; solar-powered SE2 platform completed a 12-day, 6,400-mile flight in March–April 2026 carrying EO/IR, methane, and (planned) hyperspectral sensors — a persistent-altitude platform architecture directly applicable to drone/missile detection payloads."
 research_area: "drone-detection/high-altitude-platforms"
 source_urls:
+  - "https://macaubusiness.com/sceyes-stratospheric-platform-re-enters-united-states-after-record-breaking-roundtrip-stratospheric-flight-between-u-s-and-japan/"
   - "https://sceye.com/about-sceye/"
   - "https://sceye.com/what-are-haps-and-why-the-stratosphere/"
   - "https://spacenews.com/sceye-wins-nasa-award-for-stratospheric-earth-observations/"
@@ -17,7 +18,7 @@ source_urls:
   - "https://www.prnewswire.com/news-releases/sceye-receives-investment-from-softbank-corp-to-scale-stratospheric-platform-development-and-launch-pre-commercial-haps-services-in-japan-in-2026-302491626.html"
   - "https://theorg.com/org/sceye/teams/leadership-team"
   - "https://www.fastcompany.com/91547450/mikkel-vestergaard-frandsen-sceye-world-changing-ideas-2026"
-last_reviewed: 2026-07-17
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -46,6 +47,7 @@ Current declared payloads are EO/IR cameras (1-meter-resolution methane-emission
 
 ## Notable Developments
 
+- **2026-09-09:** Sceye announces its Service Test 1 flight (launched August 9, 2026): a roughly 30,000 km round trip between New Mexico and Japan lasting about a month, with SoftBank testing mobile broadband to standard phones, drone communications and onboard edge computing (68 ms average round trip). ([Macau Business](https://macaubusiness.com/sceyes-stratospheric-platform-re-enters-united-states-after-record-breaking-roundtrip-stratospheric-flight-between-u-s-and-japan/))
 - **2026-03-25 to 2026-04-06:** SE2 airship launched from its hangar at Roswell Industrial Air Center, New Mexico (14:27 UTC), completing a 12-day, ~6,400-mile "Endurance Program" flight to international waters off the coast of Brazil at a mean altitude near 50,000 ft — the longest flight in company history to date
 - **2025-11-06:** NASA awards Spectral Sciences, Inc. and Sceye $850,000 (Phase 2 SBIR) to develop a hyperspectral Earth-observation payload for Sceye's HAPS, targeting a late-2026/early-2027 flight
 - **2025-06-26:** SoftBank Corp. (TOKYO: 9434) announces a strategic investment in Sceye as part of the first tranche of its Series C round, and confirms it will purchase a HAPS pre-commercial service flight in Japan in 2026 for disaster-recovery and rural connectivity use cases
@@ -60,7 +62,7 @@ Current declared payloads are EO/IR cameras (1-meter-resolution methane-emission
 - **Ivan Koutsarov** — Chief Financial Officer. Sourced from secondary aggregators (ZoomInfo, RocketReach, The Org), not a Sceye primary-source page fetched in this session — treat title/tenure as unconfirmed pending a company-published source. LinkedIn: [ivankoutsarov](https://www.linkedin.com/in/ivankoutsarov/) (found via search, not fetch-verified). Reported previous roles: Senior Vice President of Corporate Development and Strategy at Voyager Space; Vice President, Diversified Industrials at J.P. Morgan; M&A/restructuring experience at Greenhill & Co.; investment banking summer associate at Lazard. Reported education: BA, University of Pennsylvania; MBA, The Wharton School.
 - **Stephanie Luongo** — Chief of Mission Operations, per The Org's Sceye leadership-team page. Note: that page is itself labeled "Unverified" by The Org, so this title/tenure should be treated as unconfirmed pending a company-published source.
 
-### People — Last Reviewed: 2026-07-17
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

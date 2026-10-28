@@ -1,16 +1,17 @@
 ---
 title: "Renew Home"
 date: 2026-07-18
-lastmod: 2026-07-18
+lastmod: 2026-10-26
 draft: false
 description: "Palo Alto smart-thermostat virtual power plant company formed in 2023 from the merger of Google's Nest Renew and OhmConnect, majority-owned by Sidewalk Infrastructure Partners; more than 8 million connected devices, targeting 50 GW of managed demand by 2030; joined Sunrun and Tesla in a 16.8 GW joint VPP program in June 2026."
 research_area: "energy/virtual-power-plants"
 source_urls:
+  - "https://investors.sunrun.com/news-events/press-releases/detail/378"
   - "https://www.renewhome.com/press/press-release/googles-nest-renew-and-ohmconnect-combine-to-form-renew-home-the-nations-largest-residential-virtual-power-plant"
   - "https://www.utilitydive.com/news/google-nest-renew-ohmconnect-combine-vpp/715616/"
   - "https://www.canarymedia.com/articles/virtual-power-plants/tesla-sunrun-renewhome-vpp"
   - "https://www.canarymedia.com/articles/virtual-power-plants/background-smart-thermostats-renew-home-salt-river-project"
-last_reviewed: 2026-07-18
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "_index.md"
@@ -51,6 +52,7 @@ As with [Sunrun]({{< relref "sunrun.md" >}}) and [Tesla]({{< relref "tesla-energ
 
 ## Notable Developments
 
+- **2026-06:** Sunrun, Renew Home and Tesla signed a non-binding letter of intent for more than 16 GW of flexible capacity aimed at hyperscalers and utilities
 - **2026-06-24:** Joined Sunrun and Tesla in announcing a joint 16.8 GW VPP program aimed at hyperscalers and PJM's upcoming reliability backstop procurement; Renew Home contributes the thermostat/smart-device portion (~9 GW).
 - **2025:** Ran tests showing its thermostat fleet could reduce summertime peak demand by approximately 380 MW over three consecutive afternoons, using a little under half of its available device fleet, according to company-released results.
 - **2024:** Launched additional VPP features and expanded utility partnerships, including work with Arizona's Salt River Project.
@@ -63,7 +65,7 @@ As with [Sunrun]({{< relref "sunrun.md" >}}) and [Tesla]({{< relref "tesla-energ
 
 Other Renew Home executives (e.g., leadership carried over from Nest Renew or OhmConnect) were not independently confirmed via a current-dated source as of this review — TODO: verify full executive roster.
 
-### Key People — Last Reviewed: 2026-07-18
+### Key People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

@@ -1,11 +1,11 @@
 ---
 title: Solar Energy Research
 date: 2026-03-23
-lastmod: 2026-03-23
+lastmod: 2026-10-26
 draft: false
 description: Research on solar energy technologies, breakthroughs, companies, and key researchers.
 research_area: "energy/solar"
-last_reviewed: 2026-03-23
+last_reviewed: 2026-10-26
 stale_after_days: 365
 sitemap:
   changefreq: "monthly"

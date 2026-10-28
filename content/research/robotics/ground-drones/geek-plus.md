@@ -1,17 +1,18 @@
 ---
 title: "Geek+"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-26
 draft: false
 description: "Beijing-based AMR company founded 2015; world's largest AMR supplier by deployed units (56,000+) and market share; IPO on HKEX; Tsinghua University-affiliated; goods-to-person and sorting robot dominant in global warehouse automation at price points below Western competitors."
 research_area: "robotics/ground-drones"
 chinese-owned: true
 source_urls:
+  - "https://www.geekplus.com/resources/news/subscription-based-services-boom-geek-reports-2026-interim-results-orders-up-35.5-breakthroughs-across-the-business-spectrum"
   - "https://www.thewirechina.com/2024/06/02/geeking-out-over-warehouse-robots-chinese-company-geekplus/"
   - "https://blog.geekplus.com/company/news-center/geek-leads-the-global-amr-market-for-the-third-year-in-a-row"
   - "https://en.tmtpost.com/post/7620843"
   - "https://blog.geekplus.com/company/news-center/geek-robotics-ceo-mr-yong-zheng-how-to-improve-the-automation-of-warehousing-logistics-and-make-the-cheese-bigger"
-last_reviewed: 2026-03-31
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related: []
 ---
@@ -33,7 +34,8 @@ Geek+ is a Beijing-based autonomous mobile robot company, founded in 2015 by Tsi
 - **Ownership:** Chinese; Tsinghua University-affiliated origins; Zheng Yong is founder/CEO
 - **Key backers:** Tsinghua-connected investors; IPO raised HK$2.71B; market cap exceeded HK$21.8B post-IPO
 - **Key products:** Goods-to-person pod robots (P series); sorting robots; heavy-load transport AMRs (M series); picking robots
-- **Deployed units:** 56,000+ robots (as of most recent available figures)
+- **Deployed units:** ~81,000 robots across ~1,000 end customers (H1 2026); 56,000+ at the 2023 figure
+- **H1 2026:** revenue RMB1.284B (+25.3%), new orders RMB2.385B (+35.5%), gross margin 35.8%, 75%+ of revenue from outside mainland China
 - **Market share:** ~9% global AMR market; #1 for 6 consecutive years (Interact Analysis)
 
 ## What It Is / How It Works
@@ -48,6 +50,7 @@ National security concerns regarding Chinese AMRs in Western logistics facilitie
 
 ## Notable Developments
 
+- **2026-09:** H1 2026 results: revenue RMB1.284B (+25.3%), signed orders RMB2.385B (+35.5%), adjusted net loss narrowed 32.1%, ~81,000 robots deployed; RoboShuttle Hyper tote-to-person system launched August 2026. ([Geek+](https://www.geekplus.com/resources/news/subscription-based-services-boom-geek-reports-2026-interim-results-orders-up-35.5-breakthroughs-across-the-business-spectrum))
 - **2024:** Geek+ IPO on HKEX; first listed AMR robotics company globally; market cap exceeds HK$21.8B. ([TMTPOST](https://en.tmtpost.com/post/7620843))
 - **2024:** Ranked #1 in global AMR market for sixth consecutive year (Interact Analysis). ([Geek+ blog](http://blog.geekplus.com/company/news-center/geek-leads-the-global-amr-market-for-the-third-year-in-a-row))
 - **2024-06:** Wire China profile documents Geek+'s global expansion and competitive pricing strategy. ([The Wire China](https://www.thewirechina.com/2024/06/02/geeking-out-over-warehouse-robots-chinese-company-geekplus/))
@@ -63,7 +66,7 @@ National security concerns regarding Chinese AMRs in Western logistics facilitie
   - Geek+ (2015–present): Founder, Chairman, CEO
 - **Notes:** Tsinghua University background is relevant to Geek+'s relationships with Chinese state-affiliated research institutions. Geek+ is cited as a Tsinghua Group-affiliated company in some reports.
 
-### People — Last Reviewed: 2026-03-31
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

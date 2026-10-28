@@ -1,7 +1,7 @@
 ---
 title: "Tesla Dojo: Fab Strategy Clarification"
 date: 2026-04-24
-lastmod: 2026-04-24
+lastmod: 2026-10-26
 draft: false
 description: "Comprehensive analysis of Tesla's Dojo AI chip strategy; D1 tile manufacturing at TSMC; no dedicated Tesla wafer fab; summary of public announcements vs. speculation."
 research_area: "semiconductors/us-fab-expansion"
@@ -9,7 +9,7 @@ source_urls:
   - "https://www.eenewseurope.com/en/teslas-dojo-training-tile-in-production-at-tsmc/"
   - "https://electrek.co/2024/05/01/tesla-next-gen-dojo-ai-training-tile-production/"
   - "https://www.servethehome.com/tesla-dojo-ai-system-microarchitecture/"
-last_reviewed: 2026-04-24
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

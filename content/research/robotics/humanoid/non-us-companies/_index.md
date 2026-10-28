@@ -1,11 +1,11 @@
 ---
 title: "Humanoid Robots — Non-US Companies"
 date: 2026-06-19
-lastmod: 2026-07-18
+lastmod: 2026-10-26
 draft: false
 description: "Non-US humanoid robot companies, dominated by Chinese manufacturers who shipped ~90% of global units in 2025; Germany's Neura Robotics is the leading non-Chinese entrant after a record $1.4B Series C in June 2026."
 research_area: "robotics/humanoid"
-last_reviewed: 2026-07-18
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"

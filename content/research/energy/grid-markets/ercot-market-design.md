@@ -1,11 +1,12 @@
 ---
 title: "ERCOT Market Design: Why Texas Enables Distributed Energy Innovation"
 date: 2026-07-09
-lastmod: 2026-07-09
+lastmod: 2026-10-26
 draft: false
 description: "How ERCOT's energy-only market, FERC exemption, retail electric choice, and fast interconnection combine to enable companies like Base Power — and which of these mechanisms are portable to other U.S. grid regions."
 research_area: "energy/grid-markets"
 source_urls:
+  - "https://utilitydive.com/news/texas-puc-adopts-data-center-interconnection-rules/830899"
   - "https://www.ferc.gov/industries-data/electric/electric-power-markets/ercot"
   - "https://eta-publications.lbl.gov/sites/default/files/2025-12/queued_up_2025_edition_12.15.2025.pdf"
   - "https://www.canarymedia.com/articles/batteries/base-power-cheap-batteries-pjm"
@@ -14,7 +15,7 @@ source_urls:
   - "https://www.utilitydive.com/news/base-power-partnership-to-mitigate-price-spikes-load-peaks-for-south-texas/818221/"
   - "https://comptroller.texas.gov/economy/fiscal-notes/archive/2021/oct/winter-storm-reform.php"
   - "https://capitol.texas.gov/billlookup/BillSummary.aspx?LegSess=87R&Bill=SB3"
-last_reviewed: 2026-07-09
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "energy/grid-markets/_index.md"
@@ -85,6 +86,7 @@ Texas's ERCOT grid is structurally different from every other major U.S. grid re
 
 ## Notable Developments
 
+- **2026-09:** PUCT adopted final SB 6 large-load interconnection rules (Sept 18) while ERCOT's large-load queue of roughly 474 GW is audited under a pause on new data center interconnections
 - **2026-06-24:** Base Power launched in Illinois (ComEd/PJM territory) — its first expansion outside Texas — using retail choice, a state VPP incentive law, and ComEd's battery export-compensation rules, explicitly bypassing the interconnection queue via behind-the-meter deployment.
 - **2026-04-13:** Base Power's GVEC aggregation passed ERCOT ADER performance testing on its first attempt, as part of a 50 MW territory-wide expansion.
 - **2025-10-08:** Base Power disclosed it had qualified for ERCOT's ADER pilot program as part of its $1B Series C announcement.

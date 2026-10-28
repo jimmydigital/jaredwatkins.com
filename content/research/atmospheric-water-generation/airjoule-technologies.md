@@ -1,16 +1,17 @@
 ---
 title: "AirJoule Technologies"
 date: 2026-07-16
-lastmod: 2026-07-16
+lastmod: 2026-10-26
 draft: false
 description: "NASDAQ-listed (AIRJ) sorbent-based atmospheric water harvesting company; MOF/desiccant technology exclusively licensed from Pacific Northwest National Laboratory, commercialized through a 50/50 joint venture with GE Vernova."
 research_area: "atmospheric-water-generation"
 source_urls:
+  - "https://quartr.com/events/airjoule-technologies-corporation-airj-q2-2026_FeLM6aQT"
   - "https://airjouletech.com/technology/"
   - "https://airjouletech.com/company/"
   - "https://airjouletech.com/company/partners/"
   - "https://www.globenewswire.com/news-release/2026/05/14/3295314/0/en/AirJoule-Technologies-Announces-First-Quarter-2026-Results-and-Provides-Business-Update.html"
-last_reviewed: 2026-07-16
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "atmospheric-water-generation/mof-801.md"
@@ -46,6 +47,7 @@ The company's two current product lines are AirJoule Core (~250 L/day, targeting
 
 ## Notable Developments
 
+- **2026-Q2:** Net loss $8.5M for the quarter (six-month net loss $58.4M, mostly non-cash earn-out items), cash $41.4M with no debt after a ~$14M June registered direct offering; first full-scale Prime system operating in Newark, Delaware; Kubota residential partnership; 50/50 JV with GE Vernova; commercial sales targeted for late 2026 with meaningful revenue in 2027
 - **2026-05:** Completed first full-scale build of the AirJoule Prime system (~2,000 L/day) at the Newark, DE facility; system planned for deployment in Europe via the Net Zero Innovation Hub for Data Centers (Denmark).
 - **2026-04:** Named "Water Tech Innovation of the Year" in the 2026 CleanTech Breakthrough Awards Program.
 - **2026-01:** Announced exclusive distribution agreement with TenX Investment covering six Gulf countries (UAE, Oman, Qatar, Saudi Arabia, Bahrain, Kuwait).
@@ -59,7 +61,7 @@ The company's two current product lines are AirJoule Core (~250 L/day, targeting
 - **LinkedIn:** Not found (no verified personal profile located)
 - **Background:** B.A. in Political Science and Economics/Business, University of Montana. Founded Montana Technologies LLC (AirJoule's predecessor) in October 2012 and has served as Chairman/CEO since. Previously founded Jore Corporation, a power tool and accessories manufacturer that reached roughly $55M in annual revenue and completed an IPO under his leadership. Has served as CEO of AirJoule Technologies since the March 2024 business combination.
 
-### People — Last Reviewed: 2026-07-16
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

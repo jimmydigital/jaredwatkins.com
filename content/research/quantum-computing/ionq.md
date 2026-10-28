@@ -1,11 +1,12 @@
 ---
 title: "IonQ"
 date: 2026-04-05
-lastmod: 2026-04-07
+lastmod: 2026-10-26
 draft: false
 description: "Publicly traded trapped-ion quantum computing company; produces Forte and Tempo systems; uses ytterbium ions as qubits; cloud access via AWS, Azure, and Google Cloud."
 research_area: "quantum-computing"
 source_urls:
+  - "https://thequantuminsider.com/2026/08/05/ionq-raises-2026-revenue-outlook-after-record-quarter-fueled-by-commercial-growth-skywater-acquisition/"
   - "https://ionq.com"
   - "https://investors.ionq.com"
   - "https://www.sec.gov/Archives/edgar/data/1824920/000095017025027722/ionq-20241231.htm"
@@ -15,7 +16,7 @@ source_urls:
   - "https://arxiv.org/abs/2511.05465"
   - "https://arxiv.org/abs/2602.23976"
   - "https://www.darpa.mil/research/programs/quantum-benchmarking-initiative"
-last_reviewed: 2026-04-05
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -39,6 +40,7 @@ IonQ (NASDAQ: IONQ) is a publicly traded trapped-ion quantum computing company f
 - **Key metric (proprietary):** #AQ (Algorithmic Qubits) — IonQ-defined, not an industry standard
 - **FY2024 revenue:** $43.1M (SEC-filed; 95% YoY growth)
 - **FY2025 guidance (raised Q3):** $106–110M
+- **Q2 2026:** revenue $80.1M (+287% YoY); FY2026 guidance raised to $280–290M (excludes SkyWater); GAAP net loss $1.87B (mostly acquisition-related charges); $3.0B cash and investments at quarter-end, ~$2.0B pro forma after SkyWater
 - **Net loss FY2024:** $331.6M; accumulated deficit through 2024: $683.7M
 - **Cash position (Oct 2025):** ~$3.5B pro-forma (after $2B equity raise)
 - **Cloud access:** AWS Braket, Azure Quantum, Google Cloud Marketplace
@@ -53,7 +55,8 @@ In October 2025 IonQ announced a laboratory result of 99.99% two-qubit gate fide
 
 ## Notable Developments
 
-- **2026-04:** SkyWater Technology acquisition pending regulatory approval; boards of both companies have approved the $1.8B cash-and-stock deal. Expected close Q2–Q3 2026. SkyWater facilities in Minnesota, Florida, and Texas to become Regional Quantum Production Hubs.
+- **2026-08:** Q2 2026 revenue of $80.1M (+287%); FY2026 guidance raised to $280–290M; SkyWater acquisition completed after quarter-end; 256-qubit demonstration still in progress; Tennessee quantum communications center with EPB launched. ([The Quantum Insider](https://thequantuminsider.com/2026/08/05/ionq-raises-2026-revenue-outlook-after-record-quarter-fueled-by-commercial-growth-skywater-acquisition/))
+- **2026-04:** Boards of IonQ and SkyWater approved the $1.8B cash-and-stock deal; SkyWater facilities in Minnesota, Florida and Texas are to become Regional Quantum Production Hubs.
 - **2026-01:** Completed acquisition of Skyloom Global Corp. (optical communications terminals for quantum networking; formerly supplying Space Development Agency satellite-to-satellite laser links). Skyloom's 90 delivered optical terminals cited as basis for future distributed quantum entanglement infrastructure.
 - **2026-01:** Announced intent to demonstrate 256-qubit systems in 2026, using Electronic Qubit Control (EQC) technology derived from Oxford Ionics acquisition.
 - **2025-11:** Advanced to Stage B of DARPA's Quantum Benchmarking Initiative (QBI) — one of 11 companies selected. Stage B involves developing a detailed R&D roadmap through 2033 with technical requirements. Stage B is a government evaluation process, not a validation of current quantum advantage.
@@ -105,7 +108,7 @@ In October 2025 IonQ announced a laboratory result of 99.99% two-qubit gate fide
 - **Background:** Pioneered trapped-ion quantum computing; co-inventor of the first demonstrated quantum logic gate (1995, NIST). PhD in Physics, University of Colorado. Worked at NIST before Duke.
 - **⚑ Overlap:** Monroe and Kim co-founded IonQ together and both returned to Duke. Their shared departure concentrated original scientific leadership risk — IonQ's current technical direction is now under de Masi without either founder in an operational role.
 
-### People — Last Reviewed: 2026-04-05
+### People — Last Reviewed: 2026-10-26
 
 ## Roadmap
 
@@ -284,7 +287,7 @@ IonQ has not published a peer-reviewed claim that any of its systems have demons
 
 - **Duke University** — origin lab of both co-founders; Monroe Lab pioneered trapped-ion QC. Both Monroe and Kim have returned as faculty.
 - **Amazon Web Services** — cloud partner and equity holder ($36.7M stake as of August 2025 disclosure)
-- **SkyWater Technology** (pending acquisition) — US semiconductor foundry; IonQ's proposed fabrication partner. See [entry]({{< relref "skywater-technology.md" >}}).
+- **SkyWater Technology** (acquired 2026) — US semiconductor foundry; IonQ's in-house fabrication unit. See [entry]({{< relref "skywater-technology.md" >}}).
 - **Oxford Ionics** (acquired) — UK quantum computing startup; source of 99.99% EQC gate technique
 - **Skyloom Global** (acquired January 2026) — optical communications terminals for satellite and quantum networking links
 - **Lightsynq Technologies** (acquired) — quantum memory and photonic interconnect startup

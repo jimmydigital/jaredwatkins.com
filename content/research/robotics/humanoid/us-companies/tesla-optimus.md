@@ -1,16 +1,17 @@
 ---
 title: "Tesla Optimus"
 date: 2026-06-19
-lastmod: 2026-06-19
+lastmod: 2026-10-26
 draft: false
 description: "Tesla's internally-developed humanoid program; 1,000+ units in learning/data-collection mode inside Tesla factories; $20B 2026 capex across all programs; zero external customers; full vertical integration strategy; Milan Kovac VP Engineering."
 research_area: "robotics/humanoid"
 source_urls:
+  - "https://www.tikr.com/blog/tesla-fell-3-as-musk-trims-capex-delays-optimus-ramp-for-the-biggest-product-on-earth"
   - "https://standardbots.com/blog/tesla-robot"
   - "https://newmarketpitch.com/blogs/news/humanoid-robotics-optimus-deployment-tracker"
   - "https://ir.tesla.com/sec-filings/annual-reports"
   - "https://newmarketpitch.com/blogs/news/humanoid-robotics-figure-vs-tesla"
-last_reviewed: 2026-06-19
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -78,7 +79,7 @@ Optimus is a bipedal humanoid standing ~5'8", weighing ~125 lbs, with 28 degrees
 **Lars Moravy** — VP of Vehicle Engineering
 - Oversees actuator and powertrain components that share manufacturing with Optimus
 
-### People — Last Reviewed: 2026-06-19
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain & Dependencies
 
@@ -96,6 +97,7 @@ Optimus is a bipedal humanoid standing ~5'8", weighing ~125 lbs, with 28 degrees
 
 ## Notable Developments
 
+- **2026-10-21 (Q3 call):** Musk said reaching 20,000 robots per week would take "probably at least a year, maybe a little longer", expects remaining design and AI problems solved around the end of 2027 when external deliveries would begin; capex guidance revised to ~$20B from >$25B
 | Date | Event |
 |------|-------|
 | 2021 | Tesla AI Day: "Tesla Bot" announced; Musk predicted 1M units "in a few years" |

@@ -1,7 +1,7 @@
 ---
 title: "US Domestic Fab Expansion"
 date: 2026-04-24
-lastmod: 2026-04-24
+lastmod: 2026-10-26
 draft: false
 description: "Tracking major semiconductor wafer fabrication facility construction and expansion projects across the United States, including CHIPS Act funding status, timelines, and capacity targets."
 research_area: "semiconductors/us-fab-expansion"
@@ -9,7 +9,7 @@ source_urls:
   - "https://www.semiconductors.org/chip-supply-chain-investments/"
   - "https://www.manufacturingdive.com/news/chips-and-science-act-tracker-semiconductor-manufacturing/734039/"
   - "https://newsroom.intel.com/press-kit/us-chips-act-funding-intel"
-last_reviewed: 2026-04-24
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

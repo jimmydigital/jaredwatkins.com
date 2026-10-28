@@ -1,14 +1,14 @@
 ---
 title: "DFI"
 date: 2026-04-25
-lastmod: 2026-04-25
+lastmod: 2026-10-26
 draft: false
 description: "Taiwan-based industrial computing company (subsidiary of DFI Inc. / Aaeon Group parent); rugged fanless embedded computers, GPU-capable edge AI servers, and industrial SBCs for transportation, gaming, medical, and defense-adjacent applications; wide-temperature MIL-STD-810 qualified platforms."
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://www.dfi.com/"
   - "https://www.dfi.com/product/index#ipc"
-last_reviewed: 2026-04-25
+last_reviewed: 2026-10-26
 stale_after_days: 180
 ---
 

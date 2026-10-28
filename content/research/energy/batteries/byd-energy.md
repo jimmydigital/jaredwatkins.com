@@ -1,7 +1,7 @@
 ---
 title: "BYD Energy Storage"
 date: 2026-04-03
-lastmod: 2026-04-03
+lastmod: 2026-10-26
 draft: false
 description: "BYD's energy storage division is uniquely vertically integrated among major BESS players: it manufactures its own Blade LFP cells and integrates them into utility-scale BESS systems, capturing margin at both layers while controlling quality and supply chain in ways pure integrators cannot."
 research_area: "energy/batteries"
@@ -16,7 +16,7 @@ source_urls:
   - "https://www.energy-storage.news/byd-launches-sodium-ion-grid-scale-bess-product/"
   - "https://source.benchmarkminerals.com/article/who-were-the-top-cell-suppliers-in-the-bess-market-in-h1-2025"
   - "https://www.energy-storage.news/vertically-integrated-cell-bess-suppliers-lose-market-share-as-competition-increases/"
-last_reviewed: 2026-04-03
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "energy/batteries/_index.md"
@@ -109,7 +109,7 @@ Public information on BYD Energy Storage's divisional leadership is limited in E
 - **Wang Xiaoye** — Referenced in trade press as a BYD Energy Storage executive and spokesperson with 17-year energy storage background at BYD; specific current title not confirmed in public sources. LinkedIn: TODO (search: Wang Xiaoye BYD Energy Storage)
 - **Wang Chuanfu** — Founder and Chairman, BYD Co., Ltd. (parent company). LinkedIn: not applicable (Chinese executive, minimal LinkedIn presence). Background: Chemistry PhD from Central South University; founded BYD in 1995 as a battery manufacturer before pivoting to EVs.
 
-### People — Last Reviewed: 2026-04-03
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

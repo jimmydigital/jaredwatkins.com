@@ -1,15 +1,16 @@
 ---
 title: "Tokyo Electron Ltd."
 date: 2026-04-24
-lastmod: 2026-04-24
+lastmod: 2026-10-26
 draft: false
 description: "Tokyo Electron (TEL): Third-largest wafer fabrication equipment vendor; etch, CVD, thermal, track systems; Japan-based; China revenue exposure; export controls on advanced tools."
 research_area: "semiconductors/fabrication-equipment"
 source_urls:
+  - "https://finance.yahoo.com/markets/stocks/articles/tokyo-electron-shares-surge-bumper-061801356.html"
   - "https://www.tel.com/"
   - "https://www.tel.com/product/"
   - "https://finance.biggo.com/news/Gtcsa50BZk7xib5fhKoU"
-last_reviewed: 2026-04-24
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -205,6 +206,10 @@ Tokyo Electron is a **key allied supplier** for semiconductor equipment:
 4. **Export Control Coordination:** Japan METI coordinating with US BIS on equipment export restrictions to China; TEL compliance strengthens allied export control regime.
 
 ---
+
+## Notable Developments
+
+- **2026-04/05:** FY ended March 2026 net sales flat at ¥2.44T with operating income down 10.4% to ¥625B; first-half FY2027 guidance of ¥1.57T sales (+33%) and ¥431B operating income (+42%)
 
 ## Sources
 

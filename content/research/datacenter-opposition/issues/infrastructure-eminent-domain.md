@@ -1,7 +1,7 @@
 ---
 title: "Infrastructure Overspill: Eminent Domain and Rezoning for Datacenter Support"
 date: 2026-05-11
-lastmod: 2026-05-11
+lastmod: 2026-10-26
 draft: false
 description: "How datacenter load growth forces infrastructure upgrades — transmission lines, substations, water systems — that impose eminent domain takings and involuntary displacement on property owners who had no standing in the original datacenter approval process."
 research_area: "datacenter-opposition"
@@ -15,7 +15,7 @@ source_urls:
   - "https://www.ga-eminent-domain.com/latest-projects/ashley-park-wansley-500kv-transmission-line-project-apw500/"
   - "https://www.times-herald.com/news/hundreds-of-property-owners-affected-by-new-ga-power-transmission-line/article_af0da274-cf13-4db3-a9ae-f83cfe56869b.html"
   - "https://www.bayjournal.com/news/energy/new-power-line-for-data-centers-could-impact-private-land-in-virginia/"
-last_reviewed: 2026-05-11
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

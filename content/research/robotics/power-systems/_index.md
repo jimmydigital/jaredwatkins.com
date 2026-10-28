@@ -1,11 +1,11 @@
 ---
 title: Robotics Power Systems
 date: 2026-03-24
-lastmod: 2026-03-24
+lastmod: 2026-10-26
 draft: false
 description: Batteries, fuel cells, hybrid power, and wireless charging for robots — manufacturers, chemistry trends, and supply chain overlap with EV and grid storage.
 research_area: "robotics/power-systems"
-last_reviewed: 2026-03-24
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -36,12 +36,12 @@ Robot power systems are a derivative market: almost all robotics battery cells a
 
 | Company | HQ | Stage | Mission |
 |---------|-----|-------|---------|
-| [Intelligent Energy](https://www.intelligent-energy.com) | Loughborough, UK | Late Private | Hydrogen PEM fuel cell modules for drones and ground robots; 650W and 2.4kW modules; most commercially active fuel cell supplier targeting drone endurance. |
+| [Intelligent Energy](https://www.intelligent-energy.com) | Loughborough, UK | Late Private | Hydrogen PEM fuel cell modules for drones and ground robots; IE-SOAR 800W–2.4kW modules and the 120 kW IE-FLIGHT 120 powertrain (July 2026); reported its largest commercial UAV order in July 2026. |
 | [Doosan Mobility Innovation](https://www.doosanmobility.com) | Seoul, South Korea | Private (Doosan Group subsidiary) | DS30 hydrogen fuel cell drone platform; 2+ hour endurance; one of the most commercially advanced hydrogen drone products globally. |
 | [HES Energy Systems](https://hes.sg) | Singapore | Growth | Aeropak hydrogen fuel cell series for professional drones; commercial deployments in Asia and Europe. |
-| [WiBotic](https://wibotic.com) | Seattle, WA, USA | Growth (acquired by Vertiv) | Wireless charging systems for aerial and ground robots; OC-110 drone charging dock; TR-110 ground robot charging; Boston Dynamics Spot integration. |
-| [Wiferion](https://wiferion.com) | Freiburg, Germany | Growth (Würth Elektronik subsidiary) | etaLINK inductive floor-embedded charging pads for AMRs; 3.6 kW per pad; commercial deployments in European automotive and logistics facilities. |
-| [Flux Power Holdings](https://www.fluxpwr.com) | Vista, CA, USA | Public (NASDAQ: FLUX) | LFP-based battery packs for industrial lift equipment and AMRs; US-made packs; growing AMR customer base. |
+| [WiBotic](https://wibotic.com) | Seattle, WA, USA | Growth (independent; no acquisition found) | Wireless charging systems for aerial and ground robots; OC-110 drone charging dock; TR-110 ground robot charging; Boston Dynamics Spot integration. |
+| [Wiferion](https://wiferion.com) | Freiburg, Germany | Business unit of PULS GmbH (Munich) since October 2023 | etaLINK inductive floor-embedded charging pads for AMRs; 3.6 kW per pad; commercial deployments in European automotive and logistics facilities. |
+| [Flux Power Holdings](https://www.fluxpwr.com) | Vista, CA, USA | Public (NASDAQ: FLUX) | LFP-based battery packs for industrial lift equipment and AMRs; US-assembled packs; FY2026 revenue fell about 37% to $42.1M. |
 | [Skeleton Technologies](https://www.skeletontech.com) | Tallinn, Estonia | Series D | Curved graphene ultracapacitors (higher energy density than conventional EDLCs); rail, grid, defense, and robotics buffer storage. |
 | [Grepow / Tattu](https://www.grepow.com) 🇨🇳 | Shenzhen, China | Private | Dominant OEM LiPo cell and pack manufacturer for drones; Tattu retail brand; custom-shaped cells for OEM drone makers. |
 
@@ -50,7 +50,7 @@ Robot power systems are a derivative market: almost all robotics battery cells a
 | Ticker | Company | Mission |
 |--------|---------|---------|
 | [FLUX](https://finance.yahoo.com/quote/FLUX) | [Flux Power Holdings](https://www.fluxpwr.com) | LFP battery packs for industrial lift equipment, AMRs; US-manufactured; pure-play robotics/industrial battery company. |
-| [BLDP](https://finance.yahoo.com/quote/BLDP) | [Ballard Power Systems](https://www.ballard.com) | Canadian hydrogen PEM fuel cell maker; heavy transport focus (buses, trucks, trains); demonstration programs in UAS and UGV. |
+| [BLDP](https://finance.yahoo.com/quote/BLDP) | [Ballard Power Systems](https://www.ballard.com) | Canadian hydrogen PEM fuel cell maker; heavy transport focus (buses, trucks, trains); drone fuel cell unit sold to Honeywell in 2020; agreed to acquire GeoPura in June 2026. |
 | [PLUG](https://finance.yahoo.com/quote/PLUG) | [Plug Power](https://www.plugpower.com) | Hydrogen fuel cell systems for forklifts and logistics vehicles; building hydrogen infrastructure in warehouses — directly relevant to hydrogen AMR pathway. |
 | [ULBI](https://finance.yahoo.com/quote/ULBI) | [Ultralife Corporation](https://www.ultralifecorp.com) | Military and commercial lithium battery systems; BA-5590 compatible and rechargeable packs; defense robot battery supplier. |
 
@@ -125,4 +125,4 @@ The robotics power system supply chain shares raw material inputs almost entirel
 
 **Grepow/Tattu market position:** Grepow is the most commercially significant drone-specific battery manufacturer globally. Its LiPo packs and custom-shaped cells are specified into DJI competitors, agricultural drones, inspection drones, and numerous startup UAS platforms. Despite Chinese ownership, its technical position is genuinely strong — no equivalent Western LiPo OEM manufacturer exists at comparable scale. US-domestic LiPo pack manufacturing is a gap in the supply chain with national security implications for DoD UAS procurement.
 
-### Supply Chain — Last Reviewed: 2026-03-24
+### Supply Chain — Last Reviewed: 2026-10-26

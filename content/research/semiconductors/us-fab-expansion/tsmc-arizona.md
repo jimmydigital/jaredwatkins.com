@@ -1,15 +1,16 @@
 ---
 title: "TSMC Arizona"
 date: 2026-04-24
-lastmod: 2026-04-24
+lastmod: 2026-10-26
 draft: false
 description: "TSMC's Arizona Fab 21 expansion; 4nm volume production (Phase 1), 3nm ramp (Phase 2), 2nm roadmap (Phase 3); CHIPS Act funding; workforce challenges."
 research_area: "semiconductors/us-fab-expansion"
 source_urls:
+  - "https://www.techspot.com/news/113141-tsmc-plans-least-four-more-2nm-fabs-100.html"
   - "https://www.tsmc.com/static/abouttsmcaz/index.htm"
   - "https://www.aztechcouncil.org/tsmc-arizona-fab21-already-making-4nm-chips/"
   - "https://www.trendforce.com/news/2025/12/18/news-tsmc-reportedly-accelerates-arizona-2nd-fab-eyes-3q26-tool-install-2027-3nm-production/"
-last_reviewed: 2026-04-24
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -160,6 +161,10 @@ TSMC's 2026 guidance includes strong Arizona contribution:
 4. **Macroeconomic:** Recession or AI chip demand slowdown could reduce fab utilization.
 
 ---
+
+## Notable Developments
+
+- **2026-07-16:** TSMC added $100B to its Arizona commitment (total planned US spending $265B), covering at least four more 2nm-and-below fabs plus advanced packaging; campus could reach about 10 fabs and two packaging plants, with no construction timeline given
 
 ## Sources
 

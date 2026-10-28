@@ -1,13 +1,14 @@
 ---
 title: "Rafael Hunter Eagle / Ghost Hunter"
 date: 2026-06-05
-lastmod: 2026-07-07
+lastmod: 2026-10-26
 draft: false
 description: "Israeli kinetic drone interceptors from Rafael Advanced Defense Systems — Hunter Eagle (VTOL, AI + EO seeker, no explosive payload) and Ghost Hunter (turbojet, next-generation speed) for military C-UAS."
 research_area: "drone-detection/counter-drone-platforms"
 source_urls:
+  - "https://www.unmannedairspace.info/counter-uas-systems-and-policies/rafael-introduces-latest-version-of-its-hunter-eagle-c-uas-interceptor/"
   - "https://www.autonomyglobal.co/rafaels-new-counter-uas-systems-the-hunter-eagle-and-ghost-hunter-interceptor-drones/"
-last_reviewed: 2026-07-07
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -48,6 +49,7 @@ Rafael's systems are military-grade and exported under ITAR/Israeli defense expo
 
 ## Notable Developments
 
+- **2026-06:** Serial-configuration Hunter Eagle shown at ILA Berlin 2026: a 5–10 kg vertical-takeoff hit-to-kill interceptor with an electro-optical seeker, launched from a four-legged ground unit, reusable if it misses, designed for Group 1–3 targets. ([Unmanned Airspace](https://www.unmannedairspace.info/counter-uas-systems-and-policies/rafael-introduces-latest-version-of-its-hunter-eagle-c-uas-interceptor/))
 - **2026:** Hunter Eagle pre-delivery demonstration expected during 2026 per company/trade-press reporting; Ghost Hunter initial deliveries projected for 2027
 
 ## Key People
@@ -55,7 +57,7 @@ Rafael's systems are military-grade and exported under ITAR/Israeli defense expo
 - **Yoav Tourgeman** — President and CEO of Rafael Advanced Defense Systems (assumed role February 2024). Rafael is Israeli state-owned (not a private startup), so its "Key People" are corporate executives of a large defense prime rather than founders of a venture-backed company
 - Rafael is majority owned by the State of Israel; it is documented here as a company entry per this section's convention, but should be treated as an incumbent defense industrial player rather than a startup or development partner (see the Companies table distinction on the section's [main index]({{< relref "../_index.md" >}}))
 
-### People — Last Reviewed: 2026-07-07
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

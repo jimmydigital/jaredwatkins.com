@@ -1,18 +1,19 @@
 ---
 title: "Dedrone (Axon)"
 date: 2026-06-05
-lastmod: 2026-07-07
+lastmod: 2026-10-26
 draft: false
 description: "Multi-sensor drone detection platform combining RF sensing, radar, video, acoustic, and Remote ID ingestion — acquired by Axon Enterprise in October 2024; DedroneTracker.AI software fusion engine; now integrating Echodyne radar."
 research_area: "drone-detection/hardware"
 source_urls:
+  - "https://www.criticalcommunicationsreview.com/ccr/financial/119448/axon-posts-record-q2-2026-revenue-of-904-million-as-counter-drone-and-ai-platforms-drive-growth"
   - "https://www.dedrone.com/"
   - "https://www.dedrone.com/products/drone-detection-software"
   - "https://www.dedrone.com/press/dedrone-defense-launches-dedronetactical-to-meet-rising-demand-for-agile-expeditionary-multi-sensor-counter-suas-solutions"
   - "https://internet-satelitarny.eu/2025/09/22/inside-the-anti%E2%80%91drone-shield-stopping-uavs-cold-how-dedrones-ai-rf-sensors-smart-jammers-secure-skies-from-stadiums-to-battlefields/"
   - "https://www.echodyne.com/newsroom/echodyne-expands-public-safety-radar-applications-through-partnership-with-axon"
   - "https://www.tikr.com/blog/axon-booked-more-on-dedrone-than-it-paid-in-under-2-years-heres-where-the-stock-could-go-in-2026"
-last_reviewed: 2026-07-07
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -55,6 +56,7 @@ A man-portable, expeditionary multi-sensor C-UAS package targeting mobile securi
 
 ## Notable Developments
 
+- **2026-08:** Dedrone passes $100M in quarterly revenue for the first time (Axon Q2 2026); Dedrone C2 used at all eleven US World Cup host stadiums and 50+ other sites. ([Critical Communications Review](https://www.criticalcommunicationsreview.com/ccr/financial/119448/axon-posts-record-q2-2026-revenue-of-904-million-as-counter-drone-and-ai-platforms-drive-growth))
 - **2026-05-27:** Axon announces integration of [Echodyne]({{< relref "echodyne.md" >}}) MESA radar into Axon Air and Dedrone platforms, adding a dedicated radar layer alongside Dedrone's existing RF-360 sensors
 - **2026-06:** Axon reports Dedrone revenue up ~300% year over year in Q1 2026, describing it as one of the fastest-growing product lines in the Axon portfolio; company states it has already booked more revenue from Dedrone than it paid for the acquisition
 - **2026:** 2026 FIFA World Cup host cities granted a waiver to mitigate drones — a regulatory first cited as a growth driver for Dedrone's platform
@@ -68,7 +70,7 @@ A man-portable, expeditionary multi-sensor C-UAS package targeting mobile securi
 - **Jörg Lamprecht** — Co-founder (Dedrone, founded February 2014 alongside Seebach and Seeber); serves as Executive Chairman post-acquisition
 - Post-acquisition, Dedrone operates as a product line within Axon Enterprise rather than a standalone executive team; day-to-day leadership sits under Axon's own corporate structure (Axon President Josh Isner has spoken publicly about Dedrone's performance as an Axon business unit)
 
-### People — Last Reviewed: 2026-07-07
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

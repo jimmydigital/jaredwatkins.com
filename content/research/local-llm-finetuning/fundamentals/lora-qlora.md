@@ -1,15 +1,16 @@
 ---
 title: "LoRA and QLoRA: Efficient Fine-Tuning"
 date: 2026-06-10
-lastmod: 2026-06-10
+lastmod: 2026-10-26
 draft: false
 description: "Low-Rank Adaptation (LoRA) and Quantized LoRA (QLoRA) for dense and MoE models — how the mechanics differ, why MoE fine-tuning is harder, practical target module configurations per model family, and memory requirements."
 research_area: "local-llm-finetuning/fundamentals"
 source_urls:
+  - "https://www.promptquorum.com/es/local-llms/best-llm-fine-tuning-framework-2026"
   - "https://arxiv.org/abs/2106.09685"
   - "https://arxiv.org/abs/2305.14314"
   - "https://github.com/artidoro/qlora"
-last_reviewed: 2026-06-10
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -161,6 +162,7 @@ Despite the complications, there are scenarios where MoE fine-tuning is worth pu
 
 ## Notable Developments
 
+- **2026:** Unsloth (about 75k GitHub stars; Apache-2.0 core) now supports multi-GPU and non-NVIDIA hardware and ships a Studio UI and macOS builds; Axolotl leads on multi-node distributed training; MLX-LM (MIT) supports distributed tuning on Apple Silicon
 - **2024:** Unsloth — open-source LoRA training library with 2x speed improvement and 60% less VRAM than standard HuggingFace PEFT on NVIDIA GPUs; also supports Apple Silicon via MLX backend
 - **2024:** MLX fine-tuning (Apple) — Apple's MLX framework supports LoRA fine-tuning natively on Apple Silicon with the `mlx_lm` library; optimized for unified memory
 - **2023:** QLoRA (Dettmers et al.) — 4-bit quantization + LoRA; enabled fine-tuning 65B models on a single 48GB GPU

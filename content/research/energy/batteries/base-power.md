@@ -1,11 +1,12 @@
 ---
 title: "Base Power"
 date: 2026-07-09
-lastmod: 2026-07-18
+lastmod: 2026-10-26
 draft: false
 description: "Austin, Texas startup deploying large, vertically-integrated home batteries as a distributed grid resource; retail electric provider in ERCOT and utility-partnership VPP operator elsewhere; $4B Series C valuation (Oct 2025), reportedly in talks at $12B (May 2026)."
 research_area: "energy/batteries"
 source_urls:
+  - "https://www.energy-storage.news/base-power-raises-another-us1-billion-in-series-d-financing-for-us-residential-bess/"
   - "https://www.businesswire.com/news/home/20251008106005/en/Base-Power-Raises-$1-Billion-Series-C-to-Build-the-Future-of-American-Power"
   - "https://www.basepowercompany.com/specs"
   - "https://www.basepowercompany.com/specs/core"
@@ -18,7 +19,7 @@ source_urls:
   - "https://finance.yahoo.com/news/zach-dells-power-plans-create-173412623.html"
   - "https://www.businesswire.com/news/home/20260624437919/en/Base-Power-Launches-in-Chicagoland-as-Electricity-Costs-Surge-Cutting-Customers-Supply-Bills-25-Below-ComEds-Fixed-Rate"
   - "https://www.energychoicematters.com/stories/20260716f.html"
-last_reviewed: 2026-07-18
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "energy/batteries/_index.md"
@@ -53,7 +54,7 @@ Base Power is an Austin, Texas-based startup (founded 2023) that designs, manufa
 - **Chemistry:** Lithium Iron Phosphate (LFP)
 - **Flagship hardware:** Single ground-mounted system (25 kWh, 11.4 kW instant discharge); double ground-mounted system (50 kWh); Base Core (39.2 kWh total energy per unit, Gen 3 hardware, stackable), designed and manufactured in-house
 - **Manufacturing:** "Factory One," the former Austin American-Statesman printing press site in downtown Austin; a second factory is planned
-- **Funding:** $1 billion Series C, October 2025, led by Addition, at a $4 billion valuation; reportedly in talks (as of May 29, 2026) to raise roughly $1 billion more at a $12 billion valuation, with Ribbit Capital reported as the lead — unconfirmed by the company as of this review
+- **Funding:** $1 billion Series D announced August 3, 2026 at a $13 billion post-money valuation (led by Ribbit, Addition, Valor and JPMorganChase); prior $1 billion Series C, October 2025, at a $4 billion valuation. Earlier reporting (May 29, 2026) of talks at a $12 billion valuation, with Ribbit Capital reported as the lead — unconfirmed by the company as of this review
 - **Deployment scale:** More than 100 MWh deployed as of October 2025 (Series C announcement, company-reported, unaudited — see Claim Verification); roughly 300 MWh in operation with an installation pace of 60+ customers per day as of March 2026; reported at more than 500 MWh installed in Texas since its 2024 commercial launch as of June 2026
 - **Customer base:** Company press materials give inconsistent counts within the same month — "more than 20,000 homes" (Chicagoland launch release, June 24, 2026) vs. "more than 15,000 homes" (Austin Energy launch coverage, citing Base materials, July 16, 2026); both trace to Base's own boilerplate rather than an independently audited figure, and the discrepancy itself is unexplained as of this review
 - **Geographic expansion:** Launched in ComEd territory (Chicago area, PJM Interconnection) in June 2026 — Base's first market outside Texas, made possible by Illinois retail choice, a state VPP incentive law, and ComEd's battery export-compensation rules rather than an ERCOT-style energy-only market or ADER program
@@ -66,6 +67,7 @@ The company operates two parallel business models. In Texas's deregulated retail
 
 ## Notable Developments
 
+- **2026-08-03:** Closes a $1B Series D at a $13B post-money valuation and launches Base Core, a 39.2 kWh home battery in production at Base Factory 1 in Austin; fleet exceeds 500 MWh across Texas and Illinois (El Paso Electric pilot, CoServ 100 MW, ComEd). ([Energy-Storage.News](https://www.energy-storage.news/base-power-raises-another-us1-billion-in-series-d-financing-for-us-residential-bess/))
 - **2026-07-15/16:** Launched with Austin Energy — first customers can now get a Base battery under the 40 MW agreement announced in May 2026; Austin Energy dispatches the aggregated capacity for peak shaving and pays only for capacity, with no role in Base's customer billing. Same-cycle press materials cite "more than 15,000 homes" installed since 2024, inconsistent with the "more than 20,000 homes" figure in Base's June 24, 2026 Chicagoland release (unresolved discrepancy — see Key Facts).
 - **2026-06-24:** Launched in ComEd's territory in northern Illinois (PJM Interconnection) — Base's first market outside Texas. First 2,000 customers get a 40 kWh battery for $95 upfront (then $295), plus retail electricity at a 25% discount to ComEd's rate, under a 12-year battery agreement; enabled by Illinois retail choice, the state's new Clean and Reliable Grid Affordability Act (VPP incentive law, effective 2026), and ComEd rules compensating batteries for peak exports. Base's head of policy, Travis Kavulla, was tapped the same week to lead the Bonneville Power Administration. Opening a Bloomingdale, IL warehouse and hiring ~50 local roles to support the launch.
 - **2026-02-04:** Announced plans for a permanent 486,000 sq ft manufacturing facility ("Factory Two") at 8001 Metropolis Drive near Austin-Bergstrom International Airport — a $265 million investment expected to create 500 new jobs (average salary ~$50,000) on top of ~100 retained positions; Base is seeking $4.85 million in economic development incentives from the City of Austin over 10 years in exchange for a projected $9.8 million in city benefits/taxes/utility revenue. Supplements the temporary "Factory One" site at the former Austin American-Statesman building.
@@ -93,7 +95,7 @@ The company operates two parallel business models. In Texas's deregulated retail
 **Travis Kavulla** — Head of Policy at Base Power through at least June 2026; quoted publicly on the company's Illinois/PJM market-entry strategy. In June 2026 he was named Administrator of the Bonneville Power Administration, a federal power marketing agency, suggesting a departure from Base Power around that time — his status at Base as of this review is unconfirmed.
 - LinkedIn: not found (not searched in this session — TODO: verify)
 
-### Key People — Last Reviewed: 2026-07-09
+### Key People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

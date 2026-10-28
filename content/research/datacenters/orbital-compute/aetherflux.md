@@ -1,17 +1,18 @@
 ---
 title: "Aetherflux"
 date: 2026-04-29
-lastmod: 2026-04-29
+lastmod: 2026-10-26
 draft: false
 description: "US startup combining space-based solar power with orbital data centers; 'Galactic Brain' constellation targeting Q1 2027 commercial operations."
 research_area: "datacenters/orbital-compute"
 source_urls:
+  - "https://www.datacenterdynamics.com/en/news/aetherflux-orbital-data-center-to-be-operational-by-q1-2027/"
   - "https://www.aetherflux.com/"
   - "https://www.datacenterdynamics.com/en/news/aetherflux-orbital-data-center-to-be-operational-by-q1-2027/"
   - "https://spacenews.com/space-based-solar-power-startup-aetherflux-enters-orbital-data-center-race/"
   - "https://www.prnewswire.com/news-releases/aetherflux-announces-orbital-data-center-targets-q1-2027-302635961.html"
   - "https://www.space.com/technology/startup-announces-galactic-brain-project-to-put-ai-data-centers-in-orbit"
-last_reviewed: 2026-04-29
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -41,6 +42,7 @@ NVIDIA has cited Aetherflux as one of the companies in its Space Computing initi
 
 ## Notable Developments
 
+- **2026:** Targets a first space-based solar power satellite launch in 2026 and a commercially operational "Galactic Brain" orbital data center by Q1 2027; funding confirmed to date is $60M including a $50M Series A (a reported Series B at about a $2B valuation is unconfirmed)
 - **2026:** First SBSP satellite launch planned; wireless energy transmission demonstration via laser from LEO
 - **2026:** Series A closed at $50M — Breakthrough Energy Ventures, a16z, Index, Interlagos, NEA
 - **2025/2026:** Announced "Galactic Brain" orbital data center constellation; Q1 2027 commercial operations target
@@ -50,7 +52,7 @@ NVIDIA has cited Aetherflux as one of the companies in its Space Computing initi
 
 - Key personnel not confirmed in public sources as of April 2026 — TODO: research founders and leadership
 
-### People — Last Reviewed: 2026-04-29
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

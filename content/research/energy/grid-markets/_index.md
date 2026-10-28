@@ -1,11 +1,11 @@
 ---
 title: "Grid Markets & Policy"
 date: 2026-07-09
-lastmod: 2026-07-09
+lastmod: 2026-10-26
 draft: false
 description: "How electricity market design and regulatory structure — using ERCOT/Texas as the leading case study — enable or constrain distributed energy innovation."
 research_area: "energy/grid-markets"
-last_reviewed: 2026-07-09
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"

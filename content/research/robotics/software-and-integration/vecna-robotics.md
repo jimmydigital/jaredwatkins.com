@@ -1,7 +1,7 @@
 ---
 title: "Vecna Robotics"
 date: 2026-06-19
-lastmod: 2026-06-19
+lastmod: 2026-10-26
 draft: false
 description: "Waltham, MA AMR company; Pivotal orchestration engine manages mixed human/robot/forklift workflows; Aptiv partnership for next-gen perception; multi-vendor fleet management focus."
 research_area: "robotics/software-and-integration"
@@ -9,7 +9,7 @@ source_urls:
   - "https://vecnarobotics.com"
   - "https://www.aptiv.com/en/newsroom/article/aptiv-and-vecna-robotics-to-develop-next-generation-autonomous-mobile-robots"
   - "https://roboticsandautomationnews.com/2025/12/20/aptiv-and-vecna-robotics-to-develop-next-generation-autonomous-mobile-robots/97766/"
-last_reviewed: 2026-06-19
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -48,7 +48,7 @@ The December 2025 Aptiv partnership brings automotive-grade perception technolog
 
 - **Daniel Theobald** — Co-founder & CEO. LinkedIn: search "Daniel Theobald Vecna Robotics"
 
-### People — Last Reviewed: 2026-06-19
+### People — Last Reviewed: 2026-10-26
 
 ## Ecosystem Position
 

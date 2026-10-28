@@ -1,7 +1,7 @@
 ---
 title: "Kalam Labs"
 date: 2026-07-17
-lastmod: 2026-07-17
+lastmod: 2026-10-26
 draft: false
 description: "Lucknow, India stratospheric aerial robotics startup building balloon-launched, balloon-assisted UAVs (33,000-164,000 ft) with EO/IR and hyperspectral payloads; deployed at the Pokhran test range and along the Line of Actual Control as a lower-cost alternative to satellite-based reconnaissance."
 research_area: "drone-detection/high-altitude-platforms"
@@ -11,7 +11,7 @@ source_urls:
   - "https://yourstory.com/2025/11/classroom-to-battlefield-kalam-labs-takes-a-defencetech-pivot-to-the-stratosphere"
   - "https://www.businesstoday.in/latest/trends/story/shark-tank-india-5-lucknow-based-space-tech-startup-kalam-labs-pitched-visionary-product-510012-2026-01-08"
   - "https://www.flyeye.io/kalam-labs-high-altitude-uav/"
-last_reviewed: 2026-07-17
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Corintis"
 date: 2026-04-03
-lastmod: 2026-04-03
+lastmod: 2026-10-26
 draft: false
 description: "Swiss EPFL spinout developing microfluidic chip-scale cooling systems that route liquid through microscopic channels etched directly into silicon, claiming 3x better heat removal than advanced cold plates and enabling rack densities toward 1 MW/rack."
 research_area: "datacenters/cooling"
@@ -13,7 +13,7 @@ source_urls:
   - "https://epflalumni.ch/en/article/remco-van-erp-ceo-of-corintis-chip-cooling-will-be-key-to-the-future-of-ai/25/08/2025/531"
   - "https://finance.yahoo.com/news/chip-cooling-startup-corintis-raises-110309927.html"
   - "https://spectrum.ieee.org/microfluidics-cooling-ai-chips-corintis"
-last_reviewed: 2026-04-03
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -100,7 +100,7 @@ The technology builds on academic foundations established at IBM Zurich beginnin
 - Founder and former CEO of CoolIT Systems (Calgary, Canada — direct-to-chip liquid cooling; also documented in the Research section).
 - **⚑ Overlap:** Geoff Lyon is the founder of [CoolIT Systems](https://www.coolitsystems.com), which appears in the [Datacenter Cooling]({{< relref "/research/datacenters/cooling/_index.md" >}}) companies table. His board membership at Corintis represents a direct link between these two documented cooling companies.
 
-### People — Last Reviewed: 2026-04-03
+### People — Last Reviewed: 2026-10-26
 
 ## Key Organizations
 

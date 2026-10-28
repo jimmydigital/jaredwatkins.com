@@ -1,11 +1,12 @@
 ---
 title: "Sentrycs"
 date: 2026-06-05
-lastmod: 2026-06-05
+lastmod: 2026-10-26
 draft: false
 description: "Israeli C-UAS company specializing in Cyber-over-RF (protocol manipulation) counter-drone technology — detects, identifies, and mitigates unauthorized drones without jamming. Acquired by Ondas Holdings (NASDAQ:ONDS) for ~$200M in November 2025."
 research_area: "drone-detection/hardware"
 source_urls:
+  - "https://dronelife.com/2026/04/22/sentrycs-counter-uas-world-cup-contracts/"
   - "https://sentrycs.com/"
   - "https://ir.ondas.com/press-releases/detail/256/ondas-completes-acquisition-of-sentrycs-a-global-leader-in"
   - "https://sentrycs.com/news/sentrycs-unveils-horizon-a-revolutionary-self-learning-counter-drone-engine/"
@@ -14,7 +15,7 @@ source_urls:
   - "https://dronexl.co/2026/05/18/sentrycs-scout-rf-counter-drone/"
   - "https://sentrycs.com/news/sentrycs-wins-the-2025-army-technology-innovation-award-for-groundbreaking-counter-uas-technology/"
   - "https://ir.ondas.com/press-releases/detail/281/ondas-sentrycs-secures-german-state-police-contract-to"
-last_reviewed: 2026-06-05
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -75,6 +76,7 @@ AI-based protocol analysis extension available as a software module on both the 
 
 ## Notable Developments
 
+- **2026-04:** Multi-million-dollar World Cup contracts across US, Canadian and Mexican host cities; lead says contracts cover about 70% of US states hosting matches; handheld systems priced near $65,000 and long-range systems $250,000–$400,000. ([DroneLife](https://dronelife.com/2026/04/22/sentrycs-counter-uas-world-cup-contracts/))
 - **2026-05:** Sentrycs Scout commercially available; marketed to law enforcement and infrastructure patrol
 - **2026-02:** Sentrycs delivers C-UAS system to German State Police department
 - **2025-11:** Ondas Holdings completes acquisition of Sentrycs for ~$200M
@@ -122,7 +124,7 @@ Following acquisition, Ondas is integrating Sentrycs' CoRF capability with its I
 - **Eric Brock** — Chairman and CEO, Ondas Holdings (parent company). [LinkedIn](https://www.linkedin.com/in/ericbrock/)
 - **Oshri Lugassy** — Co-CEO, Ondas Autonomous Systems
 
-### People — Last Reviewed: 2026-06-05
+### People — Last Reviewed: 2026-10-26
 
 ## Sources
 

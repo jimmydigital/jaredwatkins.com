@@ -1,7 +1,7 @@
 ---
 title: "Phantom-Proof (Fantom Finder)"
 date: 2026-07-07
-lastmod: 2026-07-07
+lastmod: 2026-10-26
 draft: false
 description: "Open-source physical verification of FAA Remote ID broadcasts using passive radar — flags spoofed drone claims (PHANTOM) and contradictory type/signature claims (DECEPTION) rather than trusting the broadcast alone."
 research_area: "drone-detection/open-source"
@@ -9,7 +9,7 @@ source_urls:
   - "https://github.com/eldaeonuap/phantom-proof"
   - "https://github.com/30hours/blah2"
   - "https://github.com/cyber-defence-campus/droneRemoteIDSpoofer"
-last_reviewed: 2026-07-07
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

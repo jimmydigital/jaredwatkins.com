@@ -1,7 +1,7 @@
 ---
 title: "Lithium-Air Batteries — Technology Overview"
 date: 2026-07-12
-lastmod: 2026-07-12
+lastmod: 2026-10-26
 draft: false
 description: "Lithium-air (lithium-oxygen) batteries use ambient oxygen instead of a stored cathode material, promising the highest theoretical energy density of any battery chemistry — but pack-level energy density, cycle life, and power density all lag the headline cell-level numbers, and cost is unproven at scale."
 research_area: "energy/batteries"
@@ -16,7 +16,7 @@ source_urls:
   - "https://arpa-e.energy.gov/programs-and-initiatives/search-all-projects/lithium-air-battery"
   - "https://en.wikipedia.org/wiki/Lithium%E2%80%93air_battery"
   - "https://pubs.rsc.org/en/content/articlehtml/2021/ee/d1ee01530c"
-last_reviewed: 2026-07-12
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "energy/batteries/air-energy.md"

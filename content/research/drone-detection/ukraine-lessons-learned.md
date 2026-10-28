@@ -1,11 +1,12 @@
 ---
 title: "Ukraine Conflict: Drone Countermeasures Lessons Learned"
 date: 2026-06-05
-lastmod: 2026-06-05
+lastmod: 2026-10-26
 draft: false
 description: "Practical lessons from the Russia-Ukraine conflict on what works and what doesn't in battlefield drone countermeasures — kinetic, electronic, directed energy, and passive physical defenses."
 research_area: "drone-detection"
 source_urls:
+  - "https://www.thestar.com.my/news/world/2026/04/29/inside-ukraine039s-drive-to-defeat-the-dreaded-shahed-drone"
   - "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2024/analysis-lessons-from-ukraine-war-how-small-arms-and-advanced-systems-redefine-drone-defense"
   - "https://www.twz.com/news-features/inside-ukraines-interceptor-drone-innovations-swatting-down-thousands-of-shahed-drones"
   - "https://www.tomshardware.com/tech-industry/ukraines-rotating-barbed-wire-drone-barriers-discovered-by-russians-motorized-barriers-tear-and-slice-the-fiber-optic-lines-that-jam-proof-drones-leave-in-their-trail"
@@ -16,7 +17,7 @@ source_urls:
   - "https://sldinfo.com/2025/09/from-world-war-i-to-modern-warfare-ukraines-vintage-drone-hunters/"
   - "https://en.defence-ua.com/weapon_and_tech/combat_lasers_and_microwaves_are_not_ready_for_ukraine_yet_why_these_weapons_remain_impractical-17096.html"
   - "https://www.atlanticcouncil.org/blogs/ukrainealert/drone-superpower-ukrainian-wartime-innovation-offers-lessons-for-nato/"
-last_reviewed: 2026-06-05
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -36,6 +37,7 @@ The Russia-Ukraine conflict since 2022, and particularly the period 2024–2026,
 - **Directed energy: not deployed:** Both lasers and high-power microwave systems remain in testing/development as of early 2026 — not operationally fielded at scale
 
 ---
+- **Interceptor-drone results (Reuters, April 2026):** interceptor drones now down about 40% of Shahed-style and other long-range attack drones (up from about 25% in winter); the overall interception rate was just over 85% in February and reached 90% by April per Defence Minister Fedorov, with a 95% target; the cheapest interceptors cost under $1,500 against an estimated $35,000 Shahed; about 15–20% of Shaheds are now jet-powered; figures could not be independently verified
 
 ## What's Working
 

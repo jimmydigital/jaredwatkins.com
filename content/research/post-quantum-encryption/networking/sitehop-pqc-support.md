@@ -1,15 +1,16 @@
 ---
 title: "Sitehop"
 date: 2026-04-15
-lastmod: 2026-04-15
+lastmod: 2026-10-26
 draft: false
-description: "UK startup building hardware-accelerated post-quantum cryptography networking appliances; FPGA-based PQC IPsec at line rate; spin-out from University of Bristol."
+description: "UK startup building hardware-accelerated post-quantum cryptography networking appliances; FPGA-based PQC IPsec at line rate; founded 2021 in Sheffield."
 research_area: "post-quantum-encryption/networking"
 source_urls:
+  - "https://resiliencemedia.co/sitehop-raises-7-5m-to-power-britains-quantum-safe-encryption-hardware-push/"
   - "https://www.sitehop.io"
   - "https://www.sitehop.io/technology"
   - "https://www.sitehop.io/products"
-last_reviewed: 2026-04-15
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -18,14 +19,14 @@ stale_after_days: 90
 
 ## Summary
 
-Sitehop is a Bristol, UK-based startup building hardware-accelerated post-quantum cryptography (PQC) networking appliances. The company's core claim is that PQC algorithms — specifically the lattice-based KEMs now standardized by NIST — impose performance penalties severe enough on software-only implementations that line-rate encryption at scale requires FPGA or dedicated silicon acceleration. Sitehop's approach integrates ML-KEM (Kyber) and related algorithms directly into FPGA-based IPsec appliances, targeting enterprise and government customers concerned about the harvest-now-decrypt-later (HNDL) threat. The company emerged from the University of Bristol's cryptography research community.
+Sitehop is a Sheffield, UK-based startup building hardware-accelerated post-quantum cryptography (PQC) networking appliances. The company's core claim is that PQC algorithms — specifically the lattice-based KEMs now standardized by NIST — impose performance penalties severe enough on software-only implementations that line-rate encryption at scale requires FPGA or dedicated silicon acceleration. Sitehop's approach integrates ML-KEM (Kyber) and related algorithms directly into FPGA-based IPsec appliances, targeting enterprise and government customers concerned about the harvest-now-decrypt-later (HNDL) threat.
 
 ## Key Facts
 
-- **Founded:** Circa 2020–2021 (exact date not confirmed from public sources)
+- **Founded:** 2021
 - **Type:** Company (private, startup)
-- **HQ:** Bristol, UK
-- **Origin:** University of Bristol spin-out
+- **HQ:** Sheffield, UK
+- **Origin:** Founded 2021 (Sheffield)
 - **Stage:** Early-to-growth stage (Series A; exact funding not confirmed from public sources)
 - **Focus:** FPGA-accelerated PQC IPsec networking appliances
 - **Primary algorithm:** ML-KEM (CRYSTALS-Kyber / FIPS 203); hybrid PQC + classical key exchange
@@ -45,10 +46,11 @@ Sitehop's products are positioned at the network edge and in core infrastructure
 
 ## Notable Developments
 
+- **2025-10-09:** Raises a £7.5M seed round led by Northern Gritstone (total raised £13.5M); SAFE FPGA platform completed a proof-of-concept on BT's Gemini test network and is reportedly being deployed with an unnamed multi-country tier-one carrier. ([Resilience Media](https://resiliencemedia.co/sitehop-raises-7-5m-to-power-britains-quantum-safe-encryption-hardware-push/))
 - **2024–2025:** Company reportedly shipping early production units to UK government and defence customers; specific contracts and dates not confirmed from public sources — see Claim Verification below.
 - **2024-08:** NIST published FIPS 203 (ML-KEM) and FIPS 204 (ML-DSA) as final standards. Sitehop's algorithm implementations are aligned with these finals (previously aligned to pre-standard Kyber/Dilithium drafts).
 - **2023–2024:** Demonstrated PQC IPsec performance benchmarks at networking security events; specific figures require verification.
-- **~2021:** Founded as University of Bristol spin-out; early UK government research funding reported.
+- **~2021:** Founded in Sheffield, UK (2021) by Melissa Chambers (CEO) and Ben Harper (CTO).
 
 <!-- TODO: Confirm founding date from Companies House (UK) or press records -->
 <!-- TODO: Confirm Series A funding amount and investors from Crunchbase or press -->
@@ -57,12 +59,12 @@ Sitehop's products are positioned at the network edge and in core infrastructure
 
 ## Key People
 
-<!-- TODO: Identify and document founders and key executives from LinkedIn and University of Bristol pages -->
+
 <!-- TODO: Confirm CEO, CTO, and Chief Cryptographer roles and LinkedIn profiles -->
 
-*Research needed: Sitehop's leadership team is not prominently documented in public sources as of April 2026. The company emerged from the University of Bristol cryptography group; likely founders include faculty or PhD alumni from that program.*
+Sitehop was co-founded by Melissa Chambers (CEO) and Ben Harper (CTO) (Resilience Media, October 2025).
 
-### People — Last Reviewed: 2026-04-15
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 
@@ -87,7 +89,7 @@ Sitehop's products are positioned at the network edge and in core infrastructure
 **Status:** Unverified
 
 **Supporting sources:**
-- Company website implies active deployment; UK context and University of Bristol pedigree are consistent with NCSC (National Cyber Security Centre) engagement pipelines
+- Company website implies active deployment; UK context is consistent with NCSC (National Cyber Security Centre) engagement pipelines
 
 **Refuting / questioning sources:**
 - No specific UK government contract awards identified in public procurement records as of April 2026; OJEU/Find a Tender records not searched exhaustively
@@ -103,5 +105,5 @@ Sitehop's products are positioned at the network edge and in core infrastructure
 - [IETF RFC 9242](https://www.rfc-editor.org/rfc/rfc9242) — Intermediate Exchange in IKEv2 (PQC KEM framework)
 - [IETF RFC 9370](https://www.rfc-editor.org/rfc/rfc9370) — Multiple Key Exchanges in IKEv2
 
-<!-- TODO: Add University of Bristol spin-out announcement or research group link -->
+
 <!-- TODO: Add Crunchbase profile link once confirmed -->

@@ -1,7 +1,7 @@
 ---
 title: "AMD Instinct MI350 Series"
 date: 2026-06-07
-lastmod: 2026-06-07
+lastmod: 2026-10-26
 draft: false
 description: "MI350X and MI355X: AMD's CDNA 4 generation GPU accelerators with 288 GB HBM3e and MXFP4 support, shipping 2H 2025."
 research_area: "ai-accelerators/amd-instinct"
@@ -12,7 +12,7 @@ source_urls:
   - "https://www.servethehome.com/amd-dives-deep-on-cdna-4-architecture-and-mi350-accelerator-at-hot-chips-2025/"
   - "https://blogs.oracle.com/cloud-infrastructure/amd-instinct-mi355x-on-oci-performance-technical-details"
   - "https://www.storagereview.com/news/amd-instinct-mi355x-achieves-mlperf-inference-v6-0-gains-with-over-1-million-tokens-per-second-and-supports-scalable-rocm-stack"
-last_reviewed: 2026-06-07
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

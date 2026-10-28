@@ -1,7 +1,7 @@
 ---
 title: "Fine-Tuning Mechanics"
 date: 2026-06-10
-lastmod: 2026-06-10
+lastmod: 2026-10-26
 draft: false
 description: "What fine-tuning actually modifies in a base model, how instruction tuning differs from domain adaptation, the risk of catastrophic forgetting, and how to evaluate whether a fine-tuned model actually improved."
 research_area: "local-llm-finetuning/fundamentals"
@@ -9,7 +9,7 @@ source_urls:
   - "https://arxiv.org/abs/2109.01652"
   - "https://arxiv.org/abs/2210.11610"
   - "https://huggingface.co/blog/rlhf"
-last_reviewed: 2026-06-10
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

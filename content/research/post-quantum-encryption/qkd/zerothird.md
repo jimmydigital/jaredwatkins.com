@@ -1,7 +1,7 @@
 ---
 title: "zerothird"
 date: 2026-06-02
-lastmod: 2026-06-02
+lastmod: 2026-10-26
 draft: false
 description: "Austrian startup commercializing entanglement-based Quantum Key Distribution (eQKD) for enterprise and critical infrastructure, founded by alumni of Anton Zeilinger's Nobel Prize-winning quantum lab at IQOQI Vienna."
 research_area: "post-quantum-encryption/qkd"
@@ -12,7 +12,7 @@ source_urls:
   - "https://zerothird.com/products/quantum-key-distribution"
   - "https://zerothird.com/news/verbund-x-ventures-invests-in-zerothird"
   - "https://zerothird.com/news/zerothird-implements-pilot-with-erste-group-and-a1-telekom-austria-ag"
-last_reviewed: 2026-06-02
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -64,7 +64,7 @@ The technology is described as resistant to harvest-now-decrypt-later (HNDL) att
 - **Christoph Thaler** — CFO. Background in M&A and corporate finance advisory for private equity and technology companies. CFA charterholder; master's in international business.
 - **Lukas Helm** — Head of Sales.
 
-### People — Last Reviewed: 2026-06-02
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

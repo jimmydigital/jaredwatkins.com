@@ -1,11 +1,12 @@
 ---
 title: "Rigetti Computing"
 date: 2026-04-07
-lastmod: 2026-04-07
+lastmod: 2026-10-26
 draft: false
 description: "Publicly traded superconducting quantum computing company; builds QPUs at its own Fab-1 foundry; sells cloud access via QCS, AWS Braket, and Azure Quantum; financially stressed with declining revenue."
 research_area: "quantum-computing"
 source_urls:
+  - "https://thequantuminsider.com/2026/08/07/rigetti-computing-reports-second-quarter-2026-financial-results/"
   - "https://www.rigetti.com"
   - "https://investors.rigetti.com"
   - "https://www.sec.gov/Archives/edgar/data/1838359/000155837025002499/rgti-20241231x10k.htm"
@@ -16,7 +17,7 @@ source_urls:
   - "https://investors.rigetti.com/news-releases/news-release-details/rigetti-collaboration-qphox-awarded-58m-afrl-contract-advance"
   - "https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-announces-strategic-collaboration-agreement"
   - "https://www.darpa.mil/research/programs/quantum-benchmarking-initiative"
-last_reviewed: 2026-04-07
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -58,6 +59,7 @@ Quantum Cloud Services (QCS) provides programmatic access to Rigetti QPUs via RE
 
 ## Notable Developments
 
+- **2026-08:** Q2 2026 revenue $5.1M, GAAP net loss $52.6M, $541.3M cash and investments with no debt; Cepheus-1-108Q at ~99.1% median two-qubit fidelity; Commerce Department letter of intent for up to $100M with an equity stake; orders include a 9-qubit Novera for Pittsburgh Supercomputing Center and a 108-qubit system for C-DAC India. ([The Quantum Insider](https://thequantuminsider.com/2026/08/07/rigetti-computing-reports-second-quarter-2026-financial-results/))
 - **2026-Q1:** Centre for Development of Advanced Computing (C-DAC), India, placed an $8.4M order for a 108-qubit superconducting quantum system; deployment planned for H2 2026. This would be Rigetti's largest single hardware sale if delivered as specified. *(Partially verified — order announced via press release; no independent confirmation of system specs as of April 2026.)*
 - **2026-02:** Rigetti and Riverlane co-authored an arXiv preprint (arXiv:2410.05202) demonstrating real-time, low-latency quantum error correction on Rigetti's Ankaa-2 hardware using a scalable FPGA Collision Clustering decoder. 8-qubit stability experiment with 25 decoding rounds; mean decoding latency <1 µs. This is the most substantive independent technical validation of Rigetti's hardware in recent history. *(Verified — preprint; submitted for journal peer review; independently developed decoder from Riverlane.)*
 - **2025-Q3:** Two Novera QPU system sales ($5.7M combined, ~$2.85M per system with components) to undisclosed customers. Novera is a commercially sold stand-alone superconducting QPU for on-premises installation.
@@ -159,7 +161,7 @@ Fab-1, located at 47430 Seabridge Drive, Fremont, California, opened in 2017 as 
 
 - No separately titled Chief Scientist identified in public filings or management pages as of April 2026. Technical leadership appears consolidated under CTO role.
 
-### People — Last Reviewed: 2026-04-07
+### People — Last Reviewed: 2026-10-26
 
 ## Government Contracts
 

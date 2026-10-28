@@ -1,7 +1,7 @@
 ---
 title: "Vigil Autonomy"
 date: 2026-07-03
-lastmod: 2026-07-03
+lastmod: 2026-10-26
 draft: false
 description: "Austin, TX startup (founded Aug 2025) building benchmark and perception infrastructure for counter-UAS systems — the CommonDefense multi-spectral training dataset, Jetson-based field collection hardware, and model baselines for C-UAS computer vision teams."
 research_area: "drone-detection/hardware"
@@ -14,7 +14,7 @@ source_urls:
   - "https://www.goodmattg.xyz/"
   - "https://x.com/goodmattg"
   - "https://github.com/goodmattg"
-last_reviewed: 2026-07-03
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -62,7 +62,7 @@ Vigil also offers its own field collection hardware — a Jetson-based "Ground S
 - Education: M.S. Computer Science (computer vision), University of Pennsylvania (2019–2021), including research in the UPenn GRASP Lab Computer Vision Group; B.S. with honors in Electrical Engineering, University of Pennsylvania
 - Per Vigil Autonomy's own About page, Goodman founded the company "after consulting on computer vision for C-UAS companies based in Austin, TX" — no specific prior C-UAS employer named.
 
-### People — Last Reviewed: 2026-07-03
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

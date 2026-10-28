@@ -1,11 +1,12 @@
 ---
 title: "Tesla Megapack"
 date: 2026-04-03
-lastmod: 2026-04-04
+lastmod: 2026-10-26
 draft: false
 description: "Utility-scale LFP battery energy storage system; world's largest or #2 global BESS integrator by shipments; manufactured at Lathrop Megafactory; Western market price benchmark against which Chinese BESS suppliers are measured."
 research_area: "energy/batteries"
 source_urls:
+  - "https://www.sec.gov/Archives/edgar/data/0001318605/000162828026064366/exhibit991111111.htm"
   - "https://www.tesla.com/megapack"
   - "https://www.tesla.com/megapack/design"
   - "https://www.woodmac.com/press-releases/tesla-remains-the-top-global-producer-of-battery-energy-storage-systems-in-2024-but-sungrow-narrows-the-gap/"
@@ -13,7 +14,7 @@ source_urls:
   - "https://www.batterytechonline.com/battery-manufacturing/tesla-to-open-lfp-battery-plant-in-us-with-catl-equipment-report/"
   - "https://www.teslarati.com/tesla-megapack-pge-monterey-ca-moss-landing/"
   - "https://www.tesla.com/support/energy/tesla-software/autobidder"
-last_reviewed: 2026-04-04
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "energy/batteries/_index.md"
@@ -63,6 +64,7 @@ This software-hardware integration is a material competitive differentiator: whi
 
 ## Notable Developments
 
+- **2026-Q3:** Tesla reports 13.7 GWh of energy storage deployed in the quarter. ([Tesla Q3 2026 release](https://www.sec.gov/Archives/edgar/data/0001318605/000162828026064366/exhibit991111111.htm))
 - **2025-Q4 (planned):** Cernay-lès-Reims France facility (240 MW / 480 MWh) grid commissioning targeted; March 2026 commercial operation date.
 - **2025-Q3:** Tesla Energy division deployed 32.5 GWh year-to-date; reported $3.415B quarterly revenue with 44% YoY growth. CFO noted tariff impact (~$200M in Q3 alone) accelerating shift from CATL to domestic LG Energy Solution cells.
 - **2025-Q1:** Shanghai Megafactory production began, targeting 10,000 units/year.
@@ -99,7 +101,7 @@ Tesla Energy leadership is not prominently featured in public disclosures. The d
 
 <!-- TODO: locate Tesla Energy VP/General Manager LinkedIn profile; update when publicly available -->
 
-### Key People — Last Reviewed: 2026-04-04
+### Key People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

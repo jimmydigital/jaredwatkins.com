@@ -1,7 +1,7 @@
 ---
 title: "Half-Rack Embedded Compute Form Factor"
 date: 2026-04-25
-lastmod: 2026-04-25
+lastmod: 2026-10-26
 draft: false
 description: "10-inch half-width rackmount compute systems for space-constrained deployments. Overview of form factor, SWaP advantages, platform tiers, and competing ecosystem (MicroTCA, VPX, commercial)."
 research_area: "datacenters/rugged-edge-compute"
@@ -11,7 +11,7 @@ source_urls:
   - "https://pixustechnologies.com/products/enclosure-system-solutions/microtca-systems-2/microtca-systems/"
   - "https://www.powergridm.com/"
   - "https://www.electronicdesign.com/technologies/industrial/boards/article/55233125/advanced-cooling-technologies-overcome-thermal-management-challenges-in-rugged-system-design-to-optimize-swap-c"
-last_reviewed: 2026-04-25
+last_reviewed: 2026-10-26
 stale_after_days: 180
 ---
 

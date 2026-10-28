@@ -1,11 +1,11 @@
 ---
 title: "Local AI Tools"
 date: 2026-07-09
-lastmod: 2026-07-09
+lastmod: 2026-10-26
 draft: false
 description: "Open-source and independently developed applications for running AI models entirely on local hardware — voice, text, and multimodal tools that compete with cloud-hosted equivalents."
 research_area: "local-ai-tools"
-last_reviewed: 2026-07-09
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"

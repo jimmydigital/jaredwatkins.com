@@ -1,16 +1,17 @@
 ---
 title: "PickNik Robotics"
 date: 2026-06-23
-lastmod: 2026-06-23
+lastmod: 2026-10-26
 draft: false
 description: "Boulder, CO robotics software company; primary commercial maintainer of MoveIt 2 and MoveIt Pro; publishes the largest public ROS 2 hardware compatibility database; provides ROS 2 driver development services and application development for manipulation robotics."
 research_area: "robotics/ros2"
 source_urls:
+  - "https://evertiq.com/news/2026-09-24-qualcomm-to-acquire-picknik-to-advance-open-robotics-ecosystem"
   - "https://picknik.ai/"
   - "https://picknik.ai/hardware-ecosystem/"
   - "https://picknik.ai/history"
   - "https://picknik.ai/pro"
-last_reviewed: 2026-06-23
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related: []
 ---
@@ -51,6 +52,7 @@ The company's position as the primary MoveIt maintainer creates a significant co
 
 ## Notable Developments
 
+- **2026-09-24:** Qualcomm agreed to acquire PickNik (steward of MoveIt), pledging to keep MoveIt open source and integrate it more closely with its Dragonwing robotics platforms; terms undisclosed and closing subject to customary conditions
 - **2026 (ongoing):** ROS 2 hardware compatibility database expanded to 17 categories, 100+ hardware brands; used as the de facto industry reference for ROS 2 hardware selection.
 - **2025:** MoveIt Pro Core launched as a separate product; enables minimum-dependency real-time manipulation library deployment distinct from full MoveIt Pro platform.
 - **2024–2025:** Expanded space robotics vertical; Motiv Space Systems (xLink space manipulator) listed as Gold MoveIt Pro integration partner.
@@ -64,7 +66,7 @@ The company's position as the primary MoveIt maintainer creates a significant co
 - **Notes:** Dave Coleman is the primary author and original creator of MoveIt 2 and has been the driving force behind the commercialization of MoveIt into the PickNik product suite. Widely cited in the ROS 2 community. Co-founded PickNik after contributing to MoveIt while at NIST and during his graduate studies.
 - **Education:** University of Colorado Boulder (PhD, Mechanical Engineering, robotics focus)
 
-### People — Last Reviewed: 2026-06-23
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

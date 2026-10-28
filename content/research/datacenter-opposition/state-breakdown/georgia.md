@@ -1,11 +1,12 @@
 ---
 title: "Georgia: Project Sail and Rural Opposition"
 date: 2026-05-11
-lastmod: 2026-05-11
+lastmod: 2026-10-26
 draft: false
 description: "Georgia datacenter opposition — Project Sail (Coweta County), Citizens for Rural Coweta, the moratorium cycle, lobbyist access scandals, and the Ashley Park–Wansley transmission line controversy."
 research_area: "datacenter-opposition"
 source_urls:
+  - "https://www.atlantanewsfirst.com/2026/03/17/georgia-psc-chairman-defends-data-center-power-expansion-amid-criticism"
   - "https://www.desmog.com/2025/08/18/arthur-edge-data-center-lobbyists-project-sail-sargent-coweta-county-georgia/"
   - "https://www.desmog.com/2026/04/07/how-data-center-developers-staked-their-claim-in-rural-georgia/"
   - "https://www.desmog.com/2025/12/15/behind-closed-doors-georgia-county-rewrote-data-center-rules/"
@@ -19,7 +20,7 @@ source_urls:
   - "https://www.datacenterdynamics.com/en/news/prologis-900mw-project-sail-gets-the-go-ahead-in-coweta-county-georgia/"
   - "https://www.ga-eminent-domain.com/latest-projects/ashley-park-wansley-500kv-transmission-line-project-apw500/"
   - "https://www.times-herald.com/news/hundreds-of-property-owners-affected-by-new-ga-power-transmission-line/article_af0da274-cf13-4db3-a9ae-f83cfe56869b.html"
-last_reviewed: 2026-05-11
+last_reviewed: 2026-10-26
 stale_after_days: 60
 ---
 
@@ -205,6 +206,10 @@ The Georgia General Assembly has been the site of significant data center policy
 | **Other Coweta County projects** | Coweta County | Various | Moratorium lifted Dec 2025; ordinance adopted; new projects subject to new rules |
 
 ---
+
+## 2026 Update
+
+- **2025-12:** The Public Service Commission unanimously approved nearly 10,000 MW for Georgia Power, mostly for data centers (about 58% gas, 42% battery and solar); a stipulation guarantees revenue for 2029–2031 to avoid roughly $20 a month in added bills. Prospective large-load projects grew from about 16,000 MW in 2023 to about 69,000 MW. Data centers of 100 MW or more must sign 15-year minimum contracts and pay transmission costs upfront; the Sierra Club says large-load contracts are not visible to the public. Base rates are frozen through 2028. ([WANF, March 2026](https://www.atlantanewsfirst.com/2026/03/17/georgia-psc-chairman-defends-data-center-power-expansion-amid-criticism))
 
 ## Key Takeaways
 

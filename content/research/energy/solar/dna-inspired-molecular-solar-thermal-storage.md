@@ -1,7 +1,7 @@
 ---
 title: "DNA-Inspired Molecular Solar Thermal Storage (Pyrimidone)"
 date: 2026-03-23
-lastmod: 2026-07-09
+lastmod: 2026-10-26
 draft: false
 description: "A record-setting pyrimidone molecule developed at UC Santa Barbara that stores solar energy as heat in chemical bonds, achieving energy density exceeding 1.6 MJ/kg — surpassing lithium-ion batteries."
 research_area: "energy/solar"
@@ -11,7 +11,7 @@ source_urls:
   - "https://cen.acs.org/energy/solar-power/Engineered-molecule-stashes-enough-sunlight/104/web/2026/02"
   - "https://news.ucsb.edu/2026/022384/ucsb-scientists-bottle-sun-liquid-battery"
   - "https://www.chemistry.ucla.edu/news/dna-inspired-molecular-solar-thermal-energy-storage-system-achieves-record-breaking-heat-release/"
-last_reviewed: 2026-07-09
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

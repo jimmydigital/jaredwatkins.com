@@ -1,18 +1,19 @@
 ---
 title: "Ohio: Hyperscaler Boom and Community Backlash"
 date: 2026-04-20
-lastmod: 2026-04-28
+lastmod: 2026-10-26
 draft: false
 description: "Ohio datacenter opposition — New Albany hyperscaler concentration, St. Albans Township zoning ban, environmental and energy concerns, tax abatement scrutiny, and the political economy of rapid hyperscaler expansion in the Midwest."
 research_area: "datacenter-opposition"
 source_urls:
+  - "https://hoodline.com/2026/10/granville-voters-weigh-symbolic-ban-on-mega-data-centers-nov-3/"
   - "https://signalohio.org/ohio-data-center-boom-faces-political-resistence/"
   - "https://signalohio.org/data-centers-have-claimed-2-5-billion-in-tax-breaks-since-2017-report-says/"
   - "https://spectrumnews1.com/oh/columbus/news/2026/02/22/data-centers--impact-on-the-environment-"
   - "https://www.theregister.com/2026/03/18/ohio_datacenter_petition/"
   - "https://www.wosu.org/2026-01-19/columbus-will-become-second-largest-data-center-hub-in-the-great-lakes-region-report-says/"
   - "https://www.datacenterfrontier.com/site-selection/article/33035576/data-centers-are-booming-in-ohios-digital-heartland"
-last_reviewed: 2026-04-28
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -239,6 +240,10 @@ Ohio is competing with other Midwest states (Illinois, Indiana, Michigan) and co
 Like Iowa, Ohio has not enacted comprehensive state-level datacenter regulation. This leaves local governments and utilities to manage impacts individually, creating inconsistent standards and allowing companies to exploit jurisdictional gaps.
 
 ---
+
+## 2026 Update
+
+- **2026-11-03 (ballot):** Nine Ohio communities, including Granville (a charter ban on data centers above 25 MW peak load), have local data center ban measures on the ballot, with wording supplied by Conserve Ohio, which is seeking a 2027 statewide constitutional ban and has about 130,000 of roughly 413,000 required signatures. AEP Ohio reports 17,861 MW of contracted data center projects through 2035; the PUCO approved a tariff requiring large data centers to pay for at least 85% of requested capacity. A Bowling Green State University poll found 75% of likely voters opposed a data center in their own community. ([Hoodline, October 2026](https://hoodline.com/2026/10/granville-voters-weigh-symbolic-ban-on-mega-data-centers-nov-3/))
 
 ## Key Takeaways
 

@@ -1,15 +1,16 @@
 ---
 title: "Caracol AM — Robotic LFAM for Aerospace and Industrial"
 date: 2026-06-29
-lastmod: 2026-06-29
+lastmod: 2026-10-26
 draft: false
 description: "Caracol AM (Milan) is a robotic LFAM company using 6-axis industrial robots for large-format composite printing. $40M Series B raised; ESA grant for off-Earth LFAM R&D; customers in aerospace, marine, and industrial sectors. Heron AM platform combines robotic extrusion with AI-assisted path planning. US presence established at RAPID+TCT 2025."
 research_area: "lfam"
 source_urls:
+  - "https://www.digitalengineering247.com/article/caracol-unveils-high-throughput-xhf-extruder/additive-manufacturing"
   - "https://www.caracol-am.com/technologies"
   - "https://www.voxelmatters.com/caracol-secures-esa-grant-to-lead-space-focused-additive-manufacturing/"
   - "https://caracol-am.com/resources/news-events/rapid-tct-2025-transform-your-production-with-robotics-lfam-made-in-usa"
-last_reviewed: 2026-06-29
+last_reviewed: 2026-10-26
 stale_after_days: 120
 ---
 
@@ -58,6 +59,10 @@ This positions Caracol at the frontier of in-space manufacturing research — a 
 ## US Market
 
 Caracol demonstrated and marketed its Heron AM platform to US industrial customers at RAPID+TCT 2025, positioning the system as "robotic LFAM made in USA" — indicating US-based manufacturing or integration capability, important for defense procurement.
+
+## Notable Developments
+
+- **2025-03:** Launched the XHF high-throughput extruder (up to 75 kg/h, up to 450°C, dual-material double chamber) for the Heron AM platform; no newer verified news found
 
 ## Sources
 

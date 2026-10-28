@@ -1,14 +1,15 @@
 ---
 title: "Anduril Industries — Autonomous Surface Vessels"
 date: 2026-06-29
-lastmod: 2026-06-29
+lastmod: 2026-10-26
 draft: false
 description: "Anduril's ASV program: partnering with HD Hyundai to build a new class of autonomous surface vessels targeting the US Navy MASC program. First vessel in fabrication in South Korea (April 2026); US assembly hub at former Foss Shipyard in Seattle. Separate from Anduril's undersea portfolio (Ghost Shark, Dive-LD, Copperhead)."
 research_area: "robotics/naval-drones"
 source_urls:
+  - "https://thenextweb.com/news/anduril-5bn-raise-61bn-valuation"
   - "https://www.anduril.com/news/anduril-to-build-autonomous-warships"
   - "https://www.defensenews.com/industry/techwatch/2026/04/20/anduril-hd-hyundai-expands-partnership-with-first-autonomous-surface-vessel-in-production/"
-last_reviewed: 2026-06-29
+last_reviewed: 2026-10-26
 stale_after_days: 60
 related:
   - "robotics/aerial-drones/anduril.md"
@@ -59,6 +60,10 @@ The ASV is an explicit Lattice OS node — making it part of the same command-an
 |-----------|---------|----------------|
 | [Saronic]({{< relref "saronic.md" >}}) | MASC/MUSV; 200-foot ASV class | Saronic selected for Navy MUSV Marketplace and has $392M contract; Anduril vessel still in prototype fabrication as of mid-2026 |
 | [HavocAI + Hanwha]({{< relref "havocai.md" >}}) | Same 200-foot ASV class; same Hanwha relationship | HavocAI has earlier delivery track record; Anduril has deeper software and multi-domain integration |
+
+## Notable Developments
+
+- **2026-05-13:** Anduril confirmed a $5B round at a $61B valuation (Thrive Capital and a16z lead), after $2B+ 2025 revenue and a March Pentagon enterprise agreement worth up to $20B over 10 years; funds go to the $1B Arsenal-1 plant in Ohio
 
 ## Sources
 

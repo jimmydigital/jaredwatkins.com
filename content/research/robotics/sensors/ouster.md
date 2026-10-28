@@ -1,16 +1,17 @@
 ---
 title: "Ouster"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-26
 draft: false
-description: "San Francisco digital LiDAR company formed by the February 2023 Ouster-Velodyne merger; largest Western lidar supplier for robotics with the OS sensor series, REV7 architecture, and Ouster Gemini perception platform."
+description: "San Francisco digital LiDAR company formed by the February 2023 Ouster-Velodyne merger; largest Western lidar supplier for robotics with the OS sensor series (Rev8 launched May 2026), Ouster Gemini perception platform, and the StereoLabs acquisition (February 2026); Q2 2026 revenue $55M, +56% YoY."
 research_area: "robotics/sensors"
 source_urls:
+  - "https://secure.businesswire.com/news/home/20260806343526/en/Ouster-Announces-Results-for-Second-Quarter-2026"
   - "https://investors.ouster.com/news-releases/news-release-details/ouster-and-velodyne-complete-merger-equals-accelerate-lidar"
   - "https://investors.ouster.com/news-releases/news-release-details/ouster-announces-record-revenue-fourth-quarter-and-fiscal-year"
   - "https://investors.ouster.com/news-releases/news-release-details/ouster-announces-results-third-quarter-2025"
   - "https://www.businesswire.com/news/home/20241107668886/en/Ouster-Reports-Record-Performance-for-Third-Quarter-2024"
-last_reviewed: 2026-03-31
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related: []
 ---
@@ -29,7 +30,9 @@ Ouster (NYSE: OUST) is a San Francisco digital LiDAR company created by the merg
 - **Type:** Public ([NYSE: OUST](https://finance.yahoo.com/quote/OUST))
 - **Key backers:** Merger of equals — no single controlling shareholder; Baidu was a major Velodyne shareholder pre-merger
 - **Key products:** OS0, OS1, OS2 rotating digital LiDAR sensors (REV7 generation); legacy Velodyne HDL-32E, VLP-16 (maintained, not actively developed); Ouster Gemini perception platform
-- **Revenue:** FY2024 $111M (33% YoY growth); Q3 2025 $39.5M (+41% YoY)
+- **Revenue:** FY2024 $111M (33% YoY growth); Q3 2025 $39.5M (+41% YoY); Q2 2026 $55M (+56% YoY, +12% sequentially), product revenue $53M; Q3 2026 guidance $54.5–57.5M
+- **Q2 2026 margins and cash:** GAAP gross margin 49% (non-GAAP 53%); GAAP net loss $18M; adjusted EBITDA loss $4M; $263M cash and investments at June 30, 2026
+- **Q2 2026 shipments:** 17,000+ lidar and camera sensors, about 53% lidar
 - **Net loss:** FY2024 $97M (vs. $374M loss in FY2023, reflecting merger cost synergies)
 - **GAAP gross margin:** 36% FY2024 (vs. 10% FY2023)
 - **Sensors shipped:** 17,300+ in FY2024; 7,200+ in Q3 2025 alone (record quarter)
@@ -48,6 +51,9 @@ Financially, Ouster has shown consistent revenue growth since the merger but rem
 
 ## Notable Developments
 
+- **2026-08-06:** Q2 2026 results: record product revenue and the 14th straight quarter of growth; the Rev8 lidar launch and the April launch of the ZED X Nano camera from its Stereolabs subsidiary highlighted. ([Business Wire](https://secure.businesswire.com/news/home/20260806343526/en/Ouster-Announces-Results-for-Second-Quarter-2026))
+- **2026-05-04:** Rev8 OS family released, described in the headline as the first native-colour lidar. ([Eagle Tribune / Business Wire](https://www.eagletribune.com/region/ouster-releases-the-rev8-os-family-the-world-s-first-native-color-lidar/article_fa71ae7c-22ef-5bbd-9670-22dd58467297.html))
+- **2026-02-09:** Ouster announces it is acquiring StereoLabs to build a combined physical-AI sensing and perception company; terms not confirmed here. See [Stereolabs]({{< relref "stereolabs.md" >}}). ([Business Wire](https://www.businesswire.com/news/home/20260209715094/en/Ouster-Acquires-StereoLabs-Creating-a-World-Leading-Physical-AI-Sensing))
 - **2025-11:** Q3 2025 revenue of $39.5M, +41% YoY and record quarterly sensor shipments (7,200+ units). ([Ouster IR](https://investors.ouster.com/news-releases/news-release-details/ouster-announces-results-third-quarter-2025))
 - **2025-03:** FY2024 results: $111M revenue (+33%), GAAP gross margin 36%, net loss $97M; record annual shipments of 17,300+ sensors. ([BusinessWire](https://www.businesswire.com/news/home/20250320975362/en/Ouster-Announces-Record-Revenue-for-Fourth-Quarter-and-Fiscal-Year-2024))
 - **2024-11:** Q3 2024 record revenue of $28M; received largest purchase order in company history from an unnamed "leading global technology company" upgrading its AMR fleet to REV7 sensors. ([BusinessWire](https://www.businesswire.com/news/home/20241107668886/en/Ouster-Reports-Record-Performance-for-Third-Quarter-2024))
@@ -66,7 +72,7 @@ Financially, Ouster has shown consistent revenue growth since the merger but rem
   - Amprius (Jun 2011–Oct 2012): Battery Engineer (silicon anode lithium-ion startup)
 - **Notes:** Pacala's pre-Ouster experience at Quanergy — a competing early LiDAR startup — gave him direct insight into sensor architecture trade-offs before founding Ouster. The Ouster-Velodyne merger made him CEO of the combined entity, which he has navigated toward consistent revenue growth, though profitability remains elusive.
 
-### People — Last Reviewed: 2026-03-31
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 
@@ -88,6 +94,7 @@ Ouster operates at the **Component/Subsystem Supplier** layer: it sells sensors 
 
 ## Sources
 
+- [Ouster Q2 2026 Results — Business Wire (Aug 6, 2026)](https://secure.businesswire.com/news/home/20260806343526/en/Ouster-Announces-Results-for-Second-Quarter-2026)
 - [Ouster-Velodyne Merger Completion — Ouster IR (Feb 2023)](https://investors.ouster.com/news-releases/news-release-details/ouster-and-velodyne-complete-merger-equals-accelerate-lidar)
 - [FY2024 Record Revenue — BusinessWire (Mar 2025)](https://www.businesswire.com/news/home/20250320975362/en/Ouster-Announces-Record-Revenue-for-Fourth-Quarter-and-Fiscal-Year-2024)
 - [Q3 2025 Results — Ouster IR (Nov 2025)](https://investors.ouster.com/news-releases/news-release-details/ouster-announces-results-third-quarter-2025)

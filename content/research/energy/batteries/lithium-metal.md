@@ -1,7 +1,7 @@
 ---
 title: "Lithium Metal Batteries — Technology Overview"
 date: 2026-04-24
-lastmod: 2026-04-28
+lastmod: 2026-10-26
 draft: false
 description: "Lithium metal anodes for next-generation batteries: why they matter for energy density, the dendrite problem that blocked commercialization for 50 years, solution approaches (solid electrolytes, anode-free designs, hybrid), and the competitive landscape of companies pursuing lithium metal batteries in 2025–2026."
 research_area: "energy/batteries"
@@ -14,7 +14,7 @@ source_urls:
   - "https://www.idtechex.com/en/research-report/lithium-metal-batteries-2025/1069"
   - "https://www.intelligentliving.co/solid-state-battery-scoreboard-2025-2026/"
   - "https://www.quantumscape.com/blog/a-first-look-at-the-qse-5-b-sample/"
-last_reviewed: 2026-04-28
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "energy/batteries/quantumscape.md"

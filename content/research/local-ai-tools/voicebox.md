@@ -1,7 +1,7 @@
 ---
 title: "Voicebox"
 date: 2026-07-09
-lastmod: 2026-07-09
+lastmod: 2026-10-26
 draft: false
 description: "Open-source, local-first AI voice studio: multi-engine voice cloning and TTS, Whisper-based dictation, and a built-in MCP server that gives AI coding agents a spoken voice."
 research_area: "local-ai-tools"
@@ -9,7 +9,7 @@ source_urls:
   - "https://github.com/jamiepine/voicebox"
   - "https://voicebox.sh"
   - "https://github.com/jamiepine"
-last_reviewed: 2026-07-09
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -68,7 +68,7 @@ Voicebox frames itself as covering both halves of the "voice I/O loop" that clou
   - Personal site: [jamiepine.com](https://jamiepine.com)
   - LinkedIn: not found
 
-### People — Last Reviewed: 2026-07-09
+### People — Last Reviewed: 2026-10-26
 
 ## Sources
 

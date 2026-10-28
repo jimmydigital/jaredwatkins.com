@@ -1,17 +1,18 @@
 ---
 title: "SpaceX Orbital Data Centers"
 date: 2026-04-29
-lastmod: 2026-04-29
+lastmod: 2026-10-26
 draft: false
 description: "SpaceX initiative to deploy up to one million orbital AI data center satellites; includes xAI merger context and the Terafab D3 chip program with Tesla and Intel."
 research_area: "datacenters/orbital-compute"
 source_urls:
+  - "https://www.datacenterdynamics.com/en/news/spacex-files-for-million-satellite-orbital-ai-data-center-megaconstellation"
   - "https://www.datacenterdynamics.com/en/news/spacex-files-for-million-satellite-orbital-ai-data-center-megaconstellation/"
   - "https://techcrunch.com/2026/02/05/elon-musk-is-getting-serious-about-orbital-data-centers/"
   - "https://spacenews.com/spacex-offers-details-on-orbital-data-center-satellites/"
   - "https://thenextweb.com/news/spacex-orbital-data-centres-ipo-risk-disclosure"
   - "https://www.npr.org/2026/04/03/nx-s1-5718416/ai-data-centers-in-space-spacex-elon-musk"
-last_reviewed: 2026-04-29
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -44,6 +45,7 @@ The Terafab program, announced March 2026, is designed to address the chip suppl
 
 ## Notable Developments
 
+- **2026:** SpaceX's FCC application for a "SpaceX Orbital Data Center System" of up to one million satellites at 500–2,000 km, with optical links to Starlink and a requested waiver of standard deployment milestones, remains a proposal with no approval; depends on reusable Starship, and Musk has tied IPO proceeds to the plan
 - **2026-04:** Intel signs on to Terafab chip project as manufacturing partner
 - **2026-03:** Terafab announced — $25B SpaceX/Tesla/xAI/Intel chip factory in Austin targeting D3 orbital AI chips and Tesla AI5; 80% of output directed at space
 - **2026-02:** SpaceX described as having merged with xAI; Musk reframes orbital compute as core SpaceX/xAI strategic initiative
@@ -56,7 +58,7 @@ The Terafab program, announced March 2026, is designed to address the chip suppl
   - LinkedIn: not applicable (public figure)
   - The orbital compute initiative is closely associated with Musk personally; institutional attribution beyond Musk is not yet well-documented publicly
 
-### People — Last Reviewed: 2026-04-29
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

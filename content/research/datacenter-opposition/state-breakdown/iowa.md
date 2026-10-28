@@ -1,11 +1,12 @@
 ---
 title: "Iowa: Water and Utility Rate Conflicts"
 date: 2026-04-20
-lastmod: 2026-04-28
+lastmod: 2026-10-26
 draft: false
 description: "Iowa datacenter opposition — water consumption concerns, Meta/Google/Microsoft facility impacts, local utility rate disputes, county-level organizing, regulatory actions, and the political economy of hyperscaler datacenters in agricultural regions."
 research_area: "datacenter-opposition"
 source_urls:
+  - "https://www.kcrg.com/2026/05/16/palo-data-center-ordinance-raises-water-usage-concerns/"
   - "https://insideclimatenews.org/news/28072025/big-beautiful-bill-iowa-data-centers/"
   - "https://insideclimatenews.org/news/01032026/iowa-county-data-center-ordinance/"
   - "https://www.businessrecord.com/energy-water-use-under-close-watch-as-data-centers-expand-in-iowa/"
@@ -13,7 +14,7 @@ source_urls:
   - "https://www.iowapublicradio.org/news-from-npr/2026-04-20/data-center-disputes-have-been-local-but-the-midterms-might-change-that"
   - "https://www.axios.com/local/des-moines/2023/09/18/ai-iowa-epicenter-microsoft-water-useage-data-center"
   - "https://www.nasuca.org/wp-content/uploads/2025/02/2025-06-10-NASUCA-Data-Centers-Final-Schneider.pdf"
-last_reviewed: 2026-04-28
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -226,6 +227,10 @@ Unlike some states (Maine, Virginia, Texas), Iowa has no statewide datacenter mo
 **Policy Gap:** Iowa legislature has not enacted statewide rules on datacenter water permits, utility rate allocation, or tax incentives. This leaves counties and utilities to negotiate individually.
 
 ---
+
+## 2026 Update
+
+- **2026-05:** The Palo Planning and Zoning Commission advanced an ordinance for a Google data center near the Duane Arnold nuclear plant that leaves water regulation to the Iowa DNR; the site is expected to use more than 10 million gallons of water a day. Google left a Linn County deal in March after supervisors proposed a water study. Iowa is among 14 states that do not report revenue lost to data center tax breaks (Good Jobs First). ([KCRG](https://www.kcrg.com/2026/05/16/palo-data-center-ordinance-raises-water-usage-concerns/))
 
 ## Key Takeaways
 

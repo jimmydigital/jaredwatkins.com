@@ -1,17 +1,19 @@
 ---
 title: "D-Fend Solutions"
 date: 2026-06-05
-lastmod: 2026-07-07
+lastmod: 2026-10-26
 draft: false
-description: "Israeli C-UAS company specializing in cyber-takeover counter-drone technology — EnforceAir system takes control of unauthorized drones and lands them safely; reportedly acquired by Motorola Solutions for ~$1.5B."
+description: "Israeli C-UAS company specializing in cyber-takeover counter-drone technology — EnforceAir system takes control of unauthorized drones and lands them safely; acquired by Motorola Solutions for ~$1.5B (completed 2026)."
 research_area: "drone-detection/hardware"
 source_urls:
+  - "https://www.securitysystemsnews.com/article/motorola-solutions-completes-1-5-billion-acquisition-of-d-fend-solutions"
+  - "https://www.suasnews.com/2026/08/d-fend-solutions-enforceair-provided-world-cup-counter-drone-security-across-array-of-host-cities-adopted-by-20-public-safety-agencies/"
   - "https://d-fendsolutions.com/"
   - "https://d-fendsolutions.com/by-sector/critical-facilities-and-infrastructure/"
   - "https://www.safewareinc.com/brands/d-fend-solutions/"
   - "https://www.calcalistech.com/ctechnews/article/y2wnwz0ak"
   - "https://d-fendsolutions.com/about-us/leadership/"
-last_reviewed: 2026-07-07
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -50,7 +52,8 @@ EnforceAir fundamentally requires an RF command link to take over. **It cannot m
 
 ## Notable Developments
 
-- **2026:** Reported acquisition by Motorola Solutions for approximately $1.5 billion (per Calcalist reporting). This would place D-Fend alongside [CRFS]({{< relref "crfs-rfeye.md" >}}) — also reportedly acquired by Motorola Solutions around the same period — as part of a broader Motorola push into C-UAS RF/cyber technology; treat both acquisition reports as developing and verify against Motorola Solutions' own investor disclosures before relying on them
+- **2026-08:** EnforceAir deployed across US, Canadian and Mexican host cities for the FIFA World Cup, with 20+ agencies reported as adopters. ([sUAS News](https://www.suasnews.com/2026/08/d-fend-solutions-enforceair-provided-world-cup-counter-drone-security-across-array-of-host-cities-adopted-by-20-public-safety-agencies/))
+- **2026:** Acquisition by Motorola Solutions for approximately $1.5 billion completed; co-founder Zohar Halachmi stays as SVP, Counter-Drone Solutions. ([Security Systems News](https://www.securitysystemsnews.com/article/motorola-solutions-completes-1-5-billion-acquisition-of-d-fend-solutions)) This places D-Fend alongside [CRFS]({{< relref "crfs-rfeye.md" >}}) — also reportedly acquired by Motorola Solutions around the same period — as part of a broader Motorola push into C-UAS RF/cyber technology; treat both acquisition reports as developing and verify against Motorola Solutions' own investor disclosures before relying on them
 - **2025-2026:** Two key executives appointed to support accelerated global growth and expansion of the counter-drone business (per company press release)
 - **2024-11:** Participated in Pentagon "Falcon Peak" mountain tests evaluating nets, jamming, and cyber-scalpel C-UAS approaches
 
@@ -61,7 +64,7 @@ EnforceAir fundamentally requires an RF command link to take over. **It cannot m
 - **Assaf Monsa** — Co-founder, CTO and Vice President
 - D-Fend was founded in 2016 by the three individuals above
 
-### People — Last Reviewed: 2026-07-07
+### People — Last Reviewed: 2026-10-26
 
 ## Sources
 

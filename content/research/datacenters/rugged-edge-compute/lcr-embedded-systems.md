@@ -1,7 +1,7 @@
 ---
 title: "LCR Embedded Systems"
 date: 2026-04-25
-lastmod: 2026-04-25
+lastmod: 2026-10-26
 draft: false
 description: "US defense ATR chassis and integrated systems supplier with 35+ years supplying mission-critical VPX enclosures, backplanes, and chassis managers to US defense programs. VITA 46.11-compliant chassis manager with open-source field upgrade capability."
 research_area: "datacenters/rugged-edge-compute"
@@ -10,7 +10,7 @@ source_urls:
   - "https://www.lcrembeddedsystems.com/resources/thermal-management-challenges/"
   - "https://www.lcrembeddedsystems.com/new-vpx-chassis-manager/"
   - "https://www.eejournal.com/industry_news/new-vpx-chassis-manager-from-lcr-embedded-systems-allows-open-source-in-field-code-upgrades-manufactured-in-the-usa/"
-last_reviewed: 2026-04-25
+last_reviewed: 2026-10-26
 stale_after_days: 180
 ---
 
@@ -70,7 +70,7 @@ LCR has published detailed technical guidance on thermal challenges in SOSA-alig
 
 - <!-- TODO: verify current leadership and LinkedIn profiles from lcrembeddedsystems.com -->
 
-### People — Last Reviewed: 2026-04-25
+### People — Last Reviewed: 2026-10-26
 
 ## Sources
 

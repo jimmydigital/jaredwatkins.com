@@ -1,17 +1,18 @@
 ---
 title: "Sanctuary AI"
 date: 2026-06-19
-lastmod: 2026-06-19
+lastmod: 2026-10-26
 draft: false
 description: "Vancouver-based Physical AI company; pivot to hardware-agnostic AI on existing industrial robots (June 2026); $140M+ raised; Magna International investor; 99.5%+ task success rate at Tier 1 automotive supplier; Geordie Rose and Suzanne Gildert departed Nov 2024; James Wells CEO, Olivia Norton CTO."
 research_area: "robotics/humanoid"
 source_urls:
+  - "https://thelogic.co/briefing/sanctuary-ai-names-former-longtime-mda-boss-as-new-ceo/"
   - "https://sanctuary.ai"
   - "https://sanctuary.ai/news/sanctuary-ai-expands-physical-ai-strategy-to-industrial-robotics-demonstrating-production-ready-ai-performance/"
   - "https://sanctuary.ai/news/sanctuary-ai-announces-microsoft-collaboration-to-accelerate-ai-development-for-general-purpose-robots/"
   - "https://globalrecognitionawards.org/innovative-companies/sanctuary-ai-phoenix/"
   - "https://techcrunch.com/2023/10/18/sanctuary-ai-series-b/"
-last_reviewed: 2026-06-19
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -83,7 +84,10 @@ Sanctuary AI's distinctive architecture is the Carbon AI system — positioned a
 - Co-founder and head of hardware and AI at Sanctuary from founding
 - LinkedIn: search "Suzanne Gildert Sanctuary AI"
 
-**James Wells** — CEO (as of November 2024)
+**Daniel Friedmann** — CEO (since June 2026)
+- Board member since June 2025 and chair since November 2025; previously led MDA for 20+ years and Carbon Engineering (sold to Occidental in 2023 for US$1.1B)
+
+**James Wells** — Former CEO (November 2024 to June 2026)
 - Former Chief Commercial Officer at Sanctuary AI (5 years)
 - Led the commercial pivot to industrial AI deployment
 - The GRA 2026 profile identifies Wells as the current CEO
@@ -94,7 +98,7 @@ Sanctuary AI's distinctive architecture is the Carbon AI system — positioned a
 
 **Pattern:** Both original co-founders — Rose and Gildert — departed together in November 2024, a significant leadership discontinuity. The company transitioned from a visionary AGI-oriented narrative (Rose's framing) to a pragmatic commercial execution focus under Wells. The June 2026 hardware-agnostic pivot is the most visible result of this shift: the strategy of deploying Physical AI on existing robots rather than waiting for humanoid hardware at scale is a commercially realistic response to the difficulty of humanoid productionization.
 
-### People — Last Reviewed: 2026-06-19
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain & Dependencies
 
@@ -124,6 +128,10 @@ Sanctuary AI's distinctive architecture is the Carbon AI system — positioned a
 - Task diversity (many different tasks) is not the same as task reliability (same task 10,000 times without failure)
 
 **Summary:** Task diversity claim is credible given named commercial partner. Autonomy level per task and production reliability are unknown.
+
+## Notable Developments
+
+- **2026-06:** Daniel Friedmann (board chair since Nov 2025; former MDA and Carbon Engineering chief) became CEO in mid-June, replacing James Wells; Sanctuary also took an undisclosed investment from Zeon
 
 ## Sources
 

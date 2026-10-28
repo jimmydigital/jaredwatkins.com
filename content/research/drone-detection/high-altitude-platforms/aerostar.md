@@ -1,17 +1,18 @@
 ---
 title: "Aerostar"
 date: 2026-07-17
-lastmod: 2026-07-17
+lastmod: 2026-10-26
 draft: false
 description: "Sioux Falls stratospheric balloon and airship maker (Thunderhead line); Airbus U.S. Space & Defense partnership on stratospheric systems demos; flying missions for the Army's HELIOS/HAP-DS high-altitude sensing program over the Pacific."
 research_area: "drone-detection/high-altitude-platforms"
 source_urls:
+  - "https://www.suasnews.com/2026/10/project-swamp-gas-why-the-pentagon-is-spending-64m-on-high-altitude-balloons/"
   - "https://aerostar.com/products/balloons-airships"
   - "https://aerostar.com/products/balloons-airships/thunderhead-balloons"
   - "https://thedefensepost.com/2024/12/12/airbus-aerostar-stratospheric-systems/"
   - "https://www.twz.com/air/army-wants-more-sensor-laden-surveillance-balloons-over-the-pacific"
   - "https://aerostar.com/news/airbus-u-s-space-defense-and-aerostar-expand-their-existing-collaboration-with-contributions-from-persistent-systems"
-last_reviewed: 2026-07-17
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -36,6 +37,7 @@ Aerostar's stratospheric balloons are designed for long-duration station-keeping
 
 ## Notable Developments
 
+- **2026-10:** US Air Force awards Aerostar $64.4M to develop a high-altitude "minimum viable product" balloon prototype for stratospheric surveillance, due March 2028. ([sUAS News](https://www.suasnews.com/2026/10/project-swamp-gas-why-the-pentagon-is-spending-64m-on-high-altitude-balloons/))
 - **2025-02-06:** HBAL717 balloon launched from Sioux Falls, South Dakota; extended operations over the Pacific Ocean as part of Army-relevant experimentation
 - **2024-12:** Airbus U.S. Space & Defense and Aerostar complete a demonstration of stratospheric systems for US defense applications
 - **2026 (ongoing):** Airbus U.S./Aerostar collaboration expanded with contributions from Persistent Systems; Army CECOM soliciting radar and SIGINT payload options for balloon-based HAP-DS/HELIOS experimentation, feeding directly off platforms like Aerostar's

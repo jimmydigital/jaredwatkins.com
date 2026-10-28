@@ -1,7 +1,7 @@
 ---
 title: "LightTact"
 date: 2026-07-09
-lastmod: 2026-07-09
+lastmod: 2026-10-26
 draft: false
 description: "CMU/Bosch Center for AI visual-tactile fingertip sensor using a deformation-independent optical principle to detect light contact (liquids, soft materials) that deformation-based tactile sensors miss."
 research_area: "robotics/sensors"
@@ -9,7 +9,8 @@ source_urls:
   - "https://linchangyi1.github.io/LightTact/"
   - "https://github.com/linchangyi1/LightTact"
   - "https://arxiv.org/abs/2512.20591"
-last_reviewed: 2026-07-09
+  - "https://roboticsproceedings.org/rss22/p193.html"
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related: []
 ---
@@ -44,7 +45,7 @@ The team demonstrates the sensor enabling robotic manipulation behaviors that re
 
 ## Notable Developments
 
-- **2026 (RSS):** Paper accepted to Robotics: Science and Systems (RSS) 2026.
+- **2026-07-13:** Paper published in the Robotics: Science and Systems XXII proceedings (Sydney), DOI 10.15607/RSS.2026.XXII.193. ([RSS proceedings](https://roboticsproceedings.org/rss22/p193.html))
 - **2025:** Preprint posted to arXiv (2512.20591); open-source hardware design and code (`LightTact_design`) published to GitHub under linchangyi1/LightTact.
 
 ## Key People / Key Organizations
@@ -59,7 +60,7 @@ The team demonstrates the sensor enabling robotic manipulation behaviors that re
 - **Carnegie Mellon University** — Primary academic research institution
 - **Bosch Center for Artificial Intelligence (BCAI)** — Corporate research lab collaborator (Robert Bosch GmbH)
 
-### People — Last Reviewed: 2026-07-09
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 
@@ -93,4 +94,5 @@ LightTact is a research prototype, not a commercial product, and has no document
 
 - [LightTact Project Page](https://linchangyi1.github.io/LightTact/) — Primary source: abstract, principle explanation, demo videos, tutorial
 - [LightTact — GitHub](https://github.com/linchangyi1/LightTact) — Open-source hardware design (`LightTact_design`) and code repository
+- [RSS XXII proceedings, paper 193](https://roboticsproceedings.org/rss22/p193.html) — published version (July 2026)
 - [arXiv:2512.20591](https://arxiv.org/abs/2512.20591) — Preprint listing (linked from both the project page and GitHub repository as the paper of record)

@@ -1,15 +1,16 @@
 ---
 title: "Ballard Power Systems"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-26
 draft: false
-description: "Burnaby BC PEM fuel cell company (NASDAQ: BLDP); primary markets are heavy transport bus, truck, rail, and marine; Weichai Power (Chinese SOE) remains largest shareholder; robotics adjacency is limited to legacy drone fuel cell development now held by Honeywell."
+description: "Burnaby BC PEM fuel cell company (NASDAQ: BLDP); primary markets are heavy transport bus, truck, rail, and marine; Weichai Power (Chinese SOE) remains largest shareholder; robotics adjacency is limited to legacy drone fuel cell development now held by Honeywell; agreed to acquire UK-based GeoPura for about $400M in June 2026."
 research_area: "robotics/power-systems"
 source_urls:
+  - "https://pulse2.com/ballard-to-acquire-geopura-for-about-400-million-to-build-integrated-hydrogen-ecosystem/"
   - "https://www.ballard.com/press-release/ballard-reports-q4-2025-and-full-year-results/"
   - "https://www.prnewswire.com/news-releases/ballard-reports-q4-2024-results-302400788.html"
   - "https://www.sustainable-bus.com/components/ballard-ceo-marty-neese/"
-last_reviewed: 2026-03-31
+last_reviewed: 2026-10-26
 stale_after_days: 180
 related: []
 ---
@@ -31,6 +32,8 @@ Ballard Power Systems (NASDAQ: BLDP) is a Burnaby, BC, Canada-based PEM (proton 
 - **Key products:** FCveloCity® fuel cell modules for buses, trucks, and rail; LCS (Low Carbon Solutions) stationary power systems; legacy FCair for UAVs now held by Honeywell post-2020 divestiture
 - **Revenue:** FY2025 $99.4M (+43% YoY); FY2024 $69.7M (−32% YoY); record 660+ engines / ~56 MW shipped in 2024
 - **Cash position:** ~$530M as of FY2025 year-end; no bank debt
+- **Q2 2026:** revenue $20.6M (+15.4% YoY), backlog $156.6M, net loss $20.3M; guidance has roughly 60% of 2026 revenue in the second half; CEO targets profitability by end of 2027 on the Q2 call, while the GeoPura announcement cites 2028 (Mercom India; Pulse 2.0)
+- **Pending acquisition:** GeoPura (UK hydrogen power units) for £275M upfront equity (£82.5M cash plus about 50.8M new shares, ~14.4% pro forma), enterprise value £301.1M (about $400M) plus up to £27.5M contingent; closing expected H2 2026
 - **Robotics relevance:** Peripheral — historical drone fuel cell program divested to Honeywell 2020; not a primary robotics supply chain component
 
 ## What It Is / How It Works
@@ -45,6 +48,8 @@ Ballard Unmanned Systems was a separate subsidiary developing PEM fuel cells for
 
 ## Notable Developments
 
+- **2026-08 (Q2 results):** Revenue $20.6M, backlog $156.6M (+38.8% vs Q1), net loss $20.3M; guidance to be updated after the GeoPura deal closes. ([Mercom India](https://mercomindia.com/bus-stationary-growth-lifts-ballards-top-line-15-in-q2-2026))
+- **2026-06-24:** Ballard announces a definitive agreement to acquire GeoPura for about $400M enterprise value, subject to a UK National Security and Investment Act filing and TSX approval. ([Pulse 2.0](https://pulse2.com/ballard-to-acquire-geopura-for-about-400-million-to-build-integrated-hydrogen-ecosystem/))
 - **2025-07:** Marty Neese appointed President and CEO, replacing Randy MacEwen after 10+ years. ([Sustainable Bus](https://www.sustainable-bus.com/components/ballard-ceo-marty-neese/))
 - **2025:** FY2025 revenue $99.4M (+43% YoY); record annual fuel cell engine deliveries; ~$530M cash with no debt. ([Ballard](https://www.ballard.com/press-release/ballard-reports-q4-2025-and-full-year-results/))
 - **2024:** Ballard halts further investments in China market and Weichai Ballard JV; Weichai remains largest shareholder. FY2024 revenue $69.7M (−32% YoY); record 660+ engines / ~56 MW shipped.
@@ -67,7 +72,7 @@ Ballard Unmanned Systems was a separate subsidiary developing PEM fuel cells for
 - **LinkedIn:** Not found (no confirmed public profile)
 - **Career:** Ballard Power Systems CEO for 10+ years until mid-2025; oversaw the Weichai investment, the China JV, and the Unmanned Systems divestiture to Honeywell.
 
-### People — Last Reviewed: 2026-03-31
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

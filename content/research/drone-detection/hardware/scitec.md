@@ -1,7 +1,7 @@
 ---
 title: "SciTec"
 date: 2026-07-26
-lastmod: 2026-07-26
+lastmod: 2026-10-26
 draft: false
 description: "Princeton, NJ–based national-security software/sensing contractor (missile warning, ISR, space domain awareness, C2) with machine-learning-based counter-UAS capability; acquired by Firefly Aerospace for ~$855M (closed Nov 5, 2025)."
 research_area: "drone-detection/hardware"
@@ -11,7 +11,7 @@ source_urls:
   - "https://scitec.com/expertise/"
   - "https://fireflyspace.com/news/firefly-aerospace-announces-strategic-acquisition-of-scitec-to-advance-national-security-capabilities/"
   - "https://www.linkedin.com/in/james-lisowski-5439a99/"
-last_reviewed: 2026-07-26
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "drone-detection/_index.md"
@@ -57,7 +57,7 @@ A major named program is SciTec's role in the Future Operational Resilient Groun
 - **Education:** Physics and Philosophy, Rutgers College
 - **Career:** Joined SciTec in 1984 and rose through the organization over four decades to CEO, per public reporting; extensive background in national security space systems
 
-### People — Last Reviewed: 2026-07-26
+### People — Last Reviewed: 2026-10-26
 
 Only one named executive was identifiable from public sources at the time of this review; SciTec's site does not publish a leadership/team page distinct from careers content. Verify additional leadership (CTO, COO, segment presidents) directly with the company or via the Firefly Aerospace investor relations site as post-acquisition integration proceeds.
 

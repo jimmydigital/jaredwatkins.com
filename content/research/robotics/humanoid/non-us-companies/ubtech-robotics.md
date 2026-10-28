@@ -1,18 +1,19 @@
 ---
 title: "UBTECH Robotics"
 date: 2026-06-19
-lastmod: 2026-06-19
+lastmod: 2026-10-26
 draft: false
 description: "Shenzhen-based humanoid robot company; HKEX listed (9880); $1.34B total raised; Walker S2 deployed at BYD, Foxconn, Audi FAW; 1,000+ units 2025; James Zhou (Jian Zhou) founder; Tencent 6.15% shareholder."
 research_area: "robotics/humanoid"
 chinese-owned: true
 source_urls:
+  - "https://autonews.gasgoo.com/articles/news/ubtech-reports-127-billion-yuan-in-first-half-revenue-sells-921-full-size-humanoid-robots-2094660109459607553"
   - "https://ubtrobot.com"
   - "https://ifactoryapp.com/industries/manufacturing-plant/chinese-humanoid-manufacturing-agibot-xpeng-ubtech-byd"
   - "https://www.techtimes.com/articles/318641/20260618/humanoid-robots-china-ships-90-global-units-now-leads-ai-benchmarks.htm"
   - "https://www.scmp.com/tech/big-tech/article/3243711/ubtech-ipo-hong-kong"
   - "https://www.reuters.com/technology/ubtech-robotics-ipo-proceeds-2023-12/"
-last_reviewed: 2026-06-19
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -81,7 +82,7 @@ UBTECH has a longer commercial history than most humanoid OEMs — it started wi
 
 **Note:** UBTECH's founding (2012) predates the current humanoid boom by nearly a decade. This longevity is unusual and provides operational experience (hiring, supply chain, customer relationships) that newer entrants lack.
 
-### People — Last Reviewed: 2026-06-19
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain & Dependencies
 
@@ -122,6 +123,10 @@ UBTECH has a longer commercial history than most humanoid OEMs — it started wi
 - Multiple analyst reports corroborate 1,000+ figure
 
 **Summary:** Most credible unit volume figure in the sector given public company disclosure requirements.
+
+## Notable Developments
+
+- **2026-H1:** Revenue 1.269B yuan (+104.2%), net loss 339M yuan (narrowed 23%), gross margin 44.7%; 921 full-size humanoids sold (+1,947%, 590M yuan, 46.5% of revenue) and 16,123 humanoids of all categories (+268%); R&D 303M yuan
 
 ## Sources
 

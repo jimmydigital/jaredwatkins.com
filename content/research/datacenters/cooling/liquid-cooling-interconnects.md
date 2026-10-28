@@ -1,7 +1,7 @@
 ---
 title: "Liquid Cooling Interconnects: Connector Types and Standards"
 date: 2026-06-07
-lastmod: 2026-06-07
+lastmod: 2026-10-26
 draft: false
 description: "Survey of the connector families, standards bodies, and form factors used at both the rack and server level in liquid-cooled AI and HPC datacenters — and why their proliferation is creating supply chain and interoperability problems."
 research_area: "datacenters/cooling"
@@ -16,7 +16,7 @@ source_urls:
   - "https://rapidaccu.com/liquid-cooling-connectors/"
   - "https://www.sciencedirect.com/science/article/abs/pii/S0360132326002465"
   - "https://tonecooling.com/nvidia-gb200-nvl72-cooling-requirements/"
-last_reviewed: 2026-06-07
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

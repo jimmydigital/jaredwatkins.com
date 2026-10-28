@@ -1,14 +1,14 @@
 ---
 title: "Tesollo"
 date: 2026-07-18
-lastmod: 2026-07-18
+lastmod: 2026-10-26
 draft: false
 description: "Incheon, South Korea robotic-hand specialist founded 2019; DG-2F/DG-3/DG-5F end-effector series for humanoids and industrial arms; completed Series B and began IPO preparations in 2026 (POSCO Technology Investment, KB Investment, Enlight Ventures, Daesung Hi-Tech, HL Mando); CEO Young-Jin Kim; designs for field repairability given industry-wide hand-reliability limits."
 research_area: "robotics/hands"
 source_urls:
   - "https://www.therobotreport.com/tesollo-initiates-ipo-process-developing-humanoid-hands/"
   - "https://en.tesollo.com/"
-last_reviewed: 2026-07-18
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -57,7 +57,7 @@ Tesollo positions itself as a specialist in multi-jointed robotic hands intended
 - Public statement (Jul 2026): "Through our IPO, we aim to establish a corporate foundation that global customers can trust and accelerate our expansion into overseas markets... we will continue to grow into a global leader in the robotic hand sector."
 - LinkedIn: not found (unverified in this session)
 
-### People — Last Reviewed: 2026-07-18
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

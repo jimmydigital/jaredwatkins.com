@@ -1,11 +1,11 @@
 ---
 title: "Post-Quantum Encryption"
 date: 2026-04-15
-lastmod: 2026-06-02
+lastmod: 2026-10-26
 draft: false
 description: "Research on post-quantum cryptography (PQC): NIST-standardized algorithms, vendor implementation timelines, and adoption across networking and cryptocurrency infrastructure."
 research_area: "post-quantum-encryption"
-last_reviewed: 2026-04-17
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"

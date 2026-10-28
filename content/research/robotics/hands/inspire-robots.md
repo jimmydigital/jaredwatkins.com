@@ -1,15 +1,16 @@
 ---
 title: "Inspire Robots"
 date: 2026-07-18
-lastmod: 2026-07-18
+lastmod: 2026-10-26
 draft: false
 description: "Beijing-based dexterous-hand and micro linear servo actuator manufacturer; founded 2016; built China's first commercially mass-produced dexterous hand; delivered 10,000+ Dexterous Hand units in 2025 (up from ~2,000 in 2024); hand appeared on China's 2026 CCTV Spring Festival Gala."
 research_area: "robotics/hands"
 chinese-owned: true
 source_urls:
+  - "https://autonews.gasgoo.com/articles/news/inspire-robots-debuts-22-dof-fully-direct-drive-dexterous-hand-at-iros-2026-2108529909101449216"
   - "https://en.inspire-robots.com"
   - "https://en.inspire-robots.com/news/7719.html"
-last_reviewed: 2026-07-18
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -42,6 +43,7 @@ The company builds its full technology stack in-house, from low-level drive algo
 
 ## Notable Developments
 
+- **2026-09/10:** Unveiled the RH5MK1 22-DOF fully direct-drive dexterous hand with 6D fingertip tactile sensing at IROS 2026 (Pittsburgh, Sept 27–Oct 1), plus RH5DG2, RH56F2 and RH56E2 variants; performance and "world first" claims are company statements
 - **2026 (Lunar New Year, Feb):** Inspire Robots' Dexterous Hand performed live manipulation tasks on China's CCTV Spring Festival Gala broadcast — described by the company as the first Chinese self-developed dexterous hand to appear in the program.
 - **2025 (reported early 2026):** 2025 Dexterous Hand product delivery volume exceeded 10,000 units, up from approximately 2,000 units in 2024.
 - **2020:** Launched what the company describes as China's first commercially mass-produced dexterous hand.
@@ -51,7 +53,7 @@ The company builds its full technology stack in-house, from low-level drive algo
 
 Inspire Robots' executive leadership is not widely profiled in English-language sources as of this review; the company operates as a private Chinese corporation and does not routinely publish leadership biographies in English. No named founder or CEO could be independently verified in this session.
 
-### People — Last Reviewed: 2026-07-18
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

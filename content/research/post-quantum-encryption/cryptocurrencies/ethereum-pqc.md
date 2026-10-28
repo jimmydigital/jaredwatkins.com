@@ -1,15 +1,16 @@
 ---
 title: "Ethereum — Post-Quantum Cryptography Exposure and Migration"
 date: 2026-04-17
-lastmod: 2026-04-17
+lastmod: 2026-10-26
 draft: false
 description: "Analysis of Ethereum's quantum vulnerability across execution and consensus layers, EIP migration proposals, leanSig/leanXMSS attestation research, and Vitalik Buterin's 2026–2029 Strawmap roadmap."
 research_area: "post-quantum-encryption/cryptocurrencies"
 source_urls:
+  - "https://ethereum.org/en/roadmap/future-proofing/quantum-resistance/"
   - "https://pq.ethereum.org/"
   - "https://ethereum.org/roadmap/future-proofing/"
   - "https://blog.projecteleven.com/posts/quantum-attack-vectors-in-ethereum"
-last_reviewed: 2026-04-17
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -134,6 +135,7 @@ Vitalik Buterin's "Strawmap" (February 2026) is a 4-year Ethereum development pl
 
 ## Notable Developments
 
+- **2026-09:** ethereum.org's roadmap page (updated September 8) describes the Lean Ethereum plan: leanXMSS hash-based consensus signatures aggregated via leanVM, quantum-safe replacements for KZG commitments, and account-level post-quantum signatures via account abstraction (EIP-8141, under consideration for the Hegotá upgrade in H2 2026); core infrastructure targeted around 2029. The Ethereum Foundation formed a Post-Quantum Security team in January 2026, runs weekly interop devnets with 10+ client teams, and offers a $1M Poseidon Prize. ([ethereum.org](https://ethereum.org/en/roadmap/future-proofing/quantum-resistance/))
 - **2026-01:** Ethereum Foundation establishes Post-Quantum Security team
 - **2026-02-26:** Vitalik Buterin publishes Strawmap with full L1 quantum upgrade targeted ~2029 ([CoinDesk coverage](https://www.coindesk.com/tech/2026/02/26/vitalik-buterin-unveils-ethereum-roadmap-to-counter-quantum-computing-threat))
 - **2026-03-25:** [pq.ethereum.org](https://pq.ethereum.org/) launched; 4 interoperability devnets active ([CoinDesk](https://www.coindesk.com/tech/2026/03/25/ethereum-foundation-prepares-for-quantum-threat-with-new-cryptography-roadmap))

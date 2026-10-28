@@ -1,16 +1,17 @@
 ---
 title: "Bitcoin — Post-Quantum Cryptography Exposure and Migration"
 date: 2026-04-17
-lastmod: 2026-04-17
+lastmod: 2026-10-26
 draft: false
 description: "Analysis of Bitcoin's quantum vulnerability exposure by address type, BIP-360 and BIP-361 governance proposals, PQC algorithm candidates, and timeline estimates for migration."
 research_area: "post-quantum-encryption/cryptocurrencies"
 source_urls:
+  - "https://cointelegraph.com/features/bitcoin-s-quantum-upgrade-path-what-bip-360-changes-and-what-it-does-not"
   - "https://bitcoinops.org/en/topics/quantum-resistance/"
   - "https://bip360.org/bip360.html"
   - "https://blog.projecteleven.com/posts/quantum-vulnerability-of-bitcoin-addresses"
   - "https://www.projecteleven.com/bitcoin-risq-list"
-last_reviewed: 2026-04-17
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -65,7 +66,7 @@ Taproot (BIP-340/341/342, activated 2021) offers privacy benefits by making all 
 - **GitHub:** [bitcoin/bips PR #1670](https://github.com/bitcoin/bips/pull/1670)
 - **Full text:** [bip360.org](https://bip360.org/bip360.html)
 
-**Design:** BIP-360 introduces a new output type — Pay-to-Quantum-Resistant-Hash (P2QRH) — that mirrors P2TR structurally but eliminates the key-path spend entirely. Instead of encoding a public key, the output commits only to a Merkle root of scripts. This removes the on-receipt public key exposure that makes P2TR immediately quantum-vulnerable.
+**Design:** BIP-360 introduces a new output type — Pay-to-Merkle-Root (P2MR) — that mirrors P2TR structurally but eliminates the key-path spend entirely. Instead of encoding a public key, the output commits only to a Merkle root of scripts. This removes the on-receipt public key exposure that makes P2TR immediately quantum-vulnerable.
 
 **What BIP-360 does not do:** It does not specify a PQC signature algorithm. It is infrastructure for quantum-resistant output types; algorithm selection is a separate (and more contentious) decision.
 
@@ -127,6 +128,7 @@ Academic analysis: A November 2025 paper by Mikhail Kudinov and Jonas Nick (Bloc
 
 ## Notable Developments
 
+- **2026-07:** BIP-360 (P2MR) remains a published proposal, not activated; it removes the Taproot key-path spend to cut public-key exposure but does not add post-quantum signature schemes, and existing coins must be moved to P2MR outputs. ([Cointelegraph](https://cointelegraph.com/features/bitcoin-s-quantum-upgrade-path-what-bip-360-changes-and-what-it-does-not))
 - **2024-12:** BIP-360 draft published.
 - **2026-02-11:** BIP-361 formally assigned.
 - **2026-03:** BTQ Technologies deploys BIP-360 on Bitcoin Quantum Testnet v0.3.0 (50+ miners, 100,000+ blocks).

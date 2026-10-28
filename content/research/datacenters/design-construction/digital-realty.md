@@ -1,18 +1,19 @@
 ---
 title: "Digital Realty"
 date: 2026-04-02
-lastmod: 2026-04-02
+lastmod: 2026-10-26
 draft: false
 description: "Largest global colocation/interconnection REIT (NYSE: DLR); founded 2004; HQ Austin TX; 310+ data centers across 50+ metros in 25+ countries; ~43M sq ft operating; $6.1B FY2025 revenue; PlatformDIGITAL modular design framework; direct liquid cooling available at 170+ facilities supporting 30–150+ kW/rack; NVIDIA AI Factory Research Center partner; $7B Blackstone JV and $3.25B inaugural hyperscale fund; ~$62B market cap."
 research_area: "datacenters/design-construction"
 source_urls:
+  - "https://www.sec.gov/Archives/edgar/data/0001297996/000110465926086270/dlr-20260723xex99d1.htm"
   - "https://www.digitalrealty.com/"
   - "https://investor.digitalrealty.com/news-releases/news-release-details/digital-realty-reports-fourth-quarter-2025-results"
   - "https://www.blackstone.com/news/press/digital-realty-and-blackstone-announce-7-billion-hyperscale-data-center-development-joint-venture/"
   - "https://www.globenewswire.com/news-release/2026/03/30/3264485/0/en/Digital-Realty-Announces-Final-Close-of-3-25-billion-U-S-Hyperscale-Data-Center-Fund.html"
   - "https://www.datacenterfrontier.com/cooling/article/55040948/digital-realty-adds-direct-liquid-cooling-for-high-density-colocation-in-170-data-centers-globally"
   - "https://investor.digitalrealty.com/news-releases/news-release-details/digital-realty-advances-ai-infrastructure-innovation-supporting"
-last_reviewed: 2026-04-02
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "datacenters/design-construction/_index.md"
@@ -41,7 +42,7 @@ The company's capital strategy has matured significantly in 2023–2026, shiftin
 - **Market cap:** ~$62.4B (April 2, 2026)
 - **FY2025 revenue:** $6.08B (+11.9% YoY); Q4 2025: $1.6B (+14% YoY)
 - **FY2025 Core FFO:** $7.39/share (+10% YoY); Q4 2025: $1.86/share
-- **2026 Core FFO guidance:** $7.90–$8.00/share
+- **2026 Core FFO guidance:** $8.15–$8.20/share excluding net promote (raised July 2026 from $8.00–$8.10)
 - **Portfolio (end 2025):** 310 data centers (including 89 in unconsolidated entities); 50+ metros; 25+ countries; 6 continents
 - **Operating sq ft:** ~43.2M sq ft (excluding development)
 - **Under active development:** ~9.7M sq ft
@@ -88,6 +89,7 @@ The practical construction relevance of PlatformDIGITAL is the standardized modu
 
 ## Notable Developments
 
+- **2026-07 (Q2 results):** Revenue $1.92B (+29% YoY), record signed-not-commenced backlog of $1.9B, guidance raised, a 64% stake taken in three Northern Virginia data centers (288 MW), and land bought in Kansas City for up to 2 GW of utility power. ([SEC 8-K](https://www.sec.gov/Archives/edgar/data/0001297996/000110465926086270/dlr-20260723xex99d1.htm))
 - **2026-03-30:** Final close of inaugural U.S. Hyperscale Data Center Fund at $3.25B total equity commitments from global institutional investors (public pensions, sovereign wealth funds, endowments, insurance, family offices). Fund focused on Tier I U.S. metros: Northern Virginia, Santa Clara, Dallas, Atlanta, Charlotte, New York. Digital Realty retains 20% interest; manages the portfolio. ([GlobeNewswire](https://www.globenewswire.com/news-release/2026/03/30/3264485/0/en/Digital-Realty-Announces-Final-Close-of-3-25-billion-U-S-Hyperscale-Data-Center-Fund.html))
 - **2026-02-05:** Q4/FY2025 results: $1.6B Q4 revenue (+14% YoY); Core FFO $7.39/share FY2025 (+10%); record year-end backlog ~$1.4B; 2026 Core FFO guidance $7.90–$8.00/share. ([Digital Realty IR](https://investor.digitalrealty.com/news-releases/news-release-details/digital-realty-reports-fourth-quarter-2025-results))
 - **2025-11-03:** NVIDIA AI Factory Research Center at Digital Realty's Manassas, Northern Virginia campus. Site supports NVIDIA Omniverse DSX blueprint for AI factory digital twins, gigascale facility design, and advanced liquid cooling implementation. ([Digital Realty IR](https://investor.digitalrealty.com/news-releases/news-release-details/digital-realty-advances-ai-infrastructure-innovation-supporting))
@@ -118,7 +120,7 @@ The practical construction relevance of PlatformDIGITAL is the standardized modu
 - **Background:** Leads investment, acquisition, and capital allocation activities including global M&A; also responsible for service providers and market strategy functions.
 - **Notes:** Oversees deal sourcing for JVs and acquisitions; key figure in the Blackstone and fund partnerships.
 
-### People — Last Reviewed: 2026-04-02
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

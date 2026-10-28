@@ -1,17 +1,18 @@
 ---
 title: "Google Project Suncatcher"
 date: 2026-04-29
-lastmod: 2026-04-29
+lastmod: 2026-10-26
 draft: false
 description: "Google research initiative to deploy TPU-equipped solar-powered satellite clusters in LEO as a scalable alternative to terrestrial AI data centers."
 research_area: "datacenters/orbital-compute"
 source_urls:
+  - "https://www.stlpr.org/npr/2026-10-01/google-launches-project-suncatcher-a-step-towards-ai-data-centers-in-space"
   - "https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/"
   - "https://blog.google/technology/research/google-project-suncatcher/"
   - "https://www.datacenterdynamics.com/en/news/project-suncatcher-google-to-launch-tpus-into-orbit-with-planet-labs-envisions-1km-arrays-of-81-satellite-compute-clusters/"
   - "https://spacenews.com/planet-bets-on-orbital-data-centers-in-partnership-with-google/"
   - "https://satnews.com/2026/01/19/google-addresses-orbital-debris-risks-for-project-suncatcher-ai-constellation/"
-last_reviewed: 2026-04-29
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -52,6 +53,7 @@ The launch cost analysis projects a path to <$200/kg to LEO via SpaceX Starship 
 
 ## Notable Developments
 
+- **2026-10-01:** Launched a first prototype satellite built with Planet on a SpaceX rocket, carrying four TPUs running a Gemma model in 15-minute stints; one-year mission, two more satellites planned next year to test inter-satellite links; Google says space data centers will not be cheaper to run within five years
 - **2026-01:** Google published a response to orbital debris concerns raised by the Suncatcher constellation concept, noting debris avoidance is a design requirement.
 - **2025-11:** Google published peer-reviewed pre-print on Suncatcher; announced Planet Labs as prototype mission partner targeting early 2027.
 - **2025-11:** Trillium TPU radiation test results disclosed — first published radiation data for a high-performance ML accelerator; survived 15 krad(Si) with no hard TPU failures.
@@ -72,7 +74,7 @@ The launch cost analysis projects a path to <$200/kg to LEO via SpaceX Starship 
   - LinkedIn: https://www.linkedin.com/in/james-manyika/
   - Previous: McKinsey Global Institute (Director, 1996–2022)
 
-### People — Last Reviewed: 2026-04-29
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

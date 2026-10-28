@@ -1,16 +1,17 @@
 ---
 title: "Spectrolab"
 date: 2026-04-30
-lastmod: 2026-04-30
+lastmod: 2026-10-26
 draft: false
 description: "Sylmar, CA-based Boeing subsidiary and dominant US producer of multi-junction GaAs solar cells for satellites and spacecraft; over 70 years of heritage; XTE+ cells reach 33% BOL efficiency."
 research_area: "energy/solar"
 source_urls:
+  - "https://www.boeing.com/features/2026/10/spectrolab-marks-70th-year-powering-the-next-space-age"
   - "https://www.spectrolab.com/photovoltaics.html"
   - "https://boeing.mediaroom.com/2022-04-05-Boeings-Spectrolab-to-Power-NASAs-Roman-Space-Telescope"
   - "https://www.militaryaerospace.com/power/news/55315643/boeing-introduces-3d-printed-solar-array-substrates-for-satellites"
   - "https://www.satellitetoday.com/manufacturing/2025/09/10/boeing-develops-3d-printing-method-for-solar-arrays-to-cut-production-time/"
-last_reviewed: 2026-04-30
+last_reviewed: 2026-10-26
 stale_after_days: 180
 related:
   - "energy/solar/_index.md"
@@ -32,7 +33,8 @@ Spectrolab is a wholly owned subsidiary of Boeing headquartered in Sylmar, Calif
 - **Employees:** Not publicly disclosed; part of Boeing Space Mission Systems division
 - **Products:** Multi-junction GaAs solar cells (bare cells and CICs), space solar panels, space solar arrays
 - **Peak efficiency (production):** 33% BOL (XTE+ family, GEO-optimized)
-- **Cumulative production:** 6.5+ million GaAs solar cells; 1,000+ spacecraft powered
+- **Cumulative production:** 7+ million multijunction cells delivered, equal to more than 10 MW of space-grade power in orbit (Boeing, October 2026)
+- **Leadership:** CEO Mark Hatch; Chris Fetzer, chief engineer (Boeing, October 2026)
 - **Key markets:** US DoD, NASA, commercial satellite prime contractors, international programs
 
 ## What It Is / How It Works
@@ -51,6 +53,7 @@ Cells are sold as bare cells or as Cover Interconnect Cell (CIC) assemblies with
 
 ## Notable Developments
 
+- **2026-10:** Boeing marks Spectrolab's 70th year; the company is expanding manufacturing at Sylmar to meet commercial and defense demand, and its cells power ISS IROSA arrays, ViaSat-3, SES O3b mPOWER and the Resilient Missile Warning and Tracking MEO constellation. ([Boeing](https://www.boeing.com/features/2026/10/spectrolab-marks-70th-year-powering-the-next-space-age))
 - **2026 (planned):** First 3D-printed solar array panels using Spectrolab cells enter commercial availability; targeted initially at 702-class spacecraft and Millennium Space Systems small satellite platforms.
 - **2025:** Boeing announces additive-manufactured solar array substrates, cutting build time by up to six months; Spectrolab cells are the solar power source for the new panels.
 - **2022:** Spectrolab cells selected to power NASA's Nancy Grace Roman Space Telescope solar arrays; Spectrolab delivers panels for the ISS Roll-Out Solar Array (iROSA) upgrades.
@@ -65,7 +68,7 @@ Cells are sold as bare cells or as Cover Interconnect Cell (CIC) assemblies with
 - **Role:** Leads all Spectrolab operations, strategy, and Boeing subsidiary management.
 - **Background:** Long-tenure Boeing/Spectrolab executive; specific prior employment history not confirmed in public sources.
 
-### Leadership — Last Reviewed: 2026-04-30
+### Leadership — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 
@@ -112,6 +115,7 @@ The total global market for satellite-grade GaAs solar cells is measured in tens
 
 ## Sources
 
+- [Boeing: Spectrolab marks 70th year (Oct 2026)](https://www.boeing.com/features/2026/10/spectrolab-marks-70th-year-powering-the-next-space-age)
 - [Spectrolab Photovoltaics](https://www.spectrolab.com/photovoltaics.html) — product families and efficiency specs
 - [Boeing: Spectrolab to Power NASA's Roman Space Telescope](https://boeing.mediaroom.com/2022-04-05-Boeings-Spectrolab-to-Power-NASAs-Roman-Space-Telescope) — 2022 NASA program selection
 - [Boeing 3D-Printed Solar Arrays, Via Satellite](https://www.satellitetoday.com/manufacturing/2025/09/10/boeing-develops-3d-printing-method-for-solar-arrays-to-cut-production-time/) — 2025 additive manufacturing announcement

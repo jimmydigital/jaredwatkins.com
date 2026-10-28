@@ -1,11 +1,13 @@
 ---
 title: "Quantinuum"
 date: 2026-04-05
-lastmod: 2026-04-05
+lastmod: 2026-10-26
 draft: false
-description: "Privately held trapped-ion quantum computing company formed by the 2021 merger of Honeywell Quantum Solutions and Cambridge Quantum; produces the H-series (H1, H2) and Helios systems; holds the highest publicly demonstrated two-qubit gate fidelity of any commercial system."
+description: "Publicly listed (Nasdaq, June 2026) trapped-ion quantum computing company formed by the 2021 merger of Honeywell Quantum Solutions and Cambridge Quantum; produces the H-series (H1, H2) and Helios systems; holds the highest publicly demonstrated two-qubit gate fidelity of any commercial system."
 research_area: "quantum-computing"
 source_urls:
+  - "https://pulse2.com/quantinuum-cash-tops-2-1-billion-after-1-7-billion-ipo-as-revenue-surges-279/"
+  - "https://siliconangle.com/2026/06/04/quantum-computer-maker-quantinuum-closes-flat-1-68b-ipo/"
   - "https://www.quantinuum.com"
   - "https://arxiv.org/abs/2511.05465"
   - "https://arxiv.org/abs/2305.03828"
@@ -14,7 +16,7 @@ source_urls:
   - "https://www.nature.com/articles/s41586-025-08737-1"
   - "https://www.honeywell.com/us/en/press/2025/09/honeywell-announces-600-million-capital-raise-for-quantinuum-at-10b-pre-money-equity-valuation-to-advance-quantum-computing-at-scale"
   - "https://docs.quantinuum.com/systems/data_sheets/Quantinuum%20H2%20Product%20Data%20Sheet.pdf"
-last_reviewed: 2026-04-05
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -23,12 +25,12 @@ stale_after_days: 90
 
 ## Summary
 
-Quantinuum is a privately held quantum computing company formed on November 30, 2021 by the merger of Honeywell Quantum Solutions and Cambridge Quantum Computing (CQC). Headquartered in Broomfield, Colorado and Cambridge, UK, it produces the H-series trapped-ion quantum computers (H1, H2, and the 2025-generation Helios system) and develops quantum software including the TKET open-source compiler and InQuanto computational chemistry platform. Quantinuum's commercially available systems hold the highest publicly demonstrated two-qubit gate fidelity of any gate-based quantum computing platform; this claim is from company-authored preprints, though supported by independent benchmarking studies. As of early 2026, the company is approaching an IPO and is pursuing a roadmap toward fault-tolerant quantum computing by 2029–2030.
+Quantinuum is a quantum computing company (listed on Nasdaq in June 2026) formed on November 30, 2021 by the merger of Honeywell Quantum Solutions and Cambridge Quantum Computing (CQC). Headquartered in Broomfield, Colorado and Cambridge, UK, it produces the H-series trapped-ion quantum computers (H1, H2, and the 2025-generation Helios system) and develops quantum software including the TKET open-source compiler and InQuanto computational chemistry platform. Quantinuum's commercially available systems hold the highest publicly demonstrated two-qubit gate fidelity of any gate-based quantum computing platform; this claim is from company-authored preprints, though supported by independent benchmarking studies. As of early 2026, the company is approaching an IPO and is pursuing a roadmap toward fault-tolerant quantum computing by 2029–2030.
 
 ## Key Facts
 
 - **Founded:** November 30, 2021 (via merger of Honeywell Quantum Solutions + Cambridge Quantum Computing)
-- **Type:** Company (private; joint ownership — Honeywell ~54%, Cambridge Quantum Holdings ~36%, other investors ~10%)
+- **Type:** Public company (Nasdaq IPO June 4, 2026 at $60/share; 28M shares, ~$1.68B raised); pre-IPO ownership was Honeywell ~54%, Cambridge Quantum Holdings ~36%, other investors ~10%
 - **HQ:** Broomfield, CO, USA and Cambridge, UK
 - **Qubit modality:** Trapped ion (¹³⁷Ba⁺ barium ions on Helios; ⁷¹Yb⁺ ytterbium on H1/H2)
 - **Status:** Active; commercial NISQ systems available; advanced fault-tolerant research underway
@@ -38,7 +40,7 @@ Quantinuum is a privately held quantum computing company formed on November 30, 
 - **Total external funding raised:** ~$900M+ (January 2024: $300M round; September 2025: $600M round)
 - **Key investors:** Honeywell, JPMorgan Chase, Mitsui, Amgen, Quanta Computer, NVentures (NVIDIA VC arm), QED Investors
 - **Software:** TKET (open-source compiler), InQuanto (quantum chemistry), Quantum Origin (quantum-enhanced cryptographic RNG)
-- **IPO status:** Planned; Honeywell CEO stated potential IPO as early as 2027
+- **IPO status:** Completed June 4, 2026; $2.1B cash at end of Q2 2026; Q2 revenue $8M (+279%); 2026 revenue guidance $28–32M
 
 ## What It Is / How It Works
 
@@ -52,6 +54,8 @@ Quantinuum's software heritage derives primarily from Cambridge Quantum Computin
 
 ## Notable Developments
 
+- **2026-06:** Nasdaq IPO priced at $60 (above the $53–55 range), raising about $1.68B; closed flat on day one. ([SiliconANGLE](https://siliconangle.com/2026/06/04/quantum-computer-maker-quantinuum-closes-flat-1-68b-ipo/))
+- **2026-Q2:** First public quarter: revenue $8M, GAAP net loss $597M (largely non-cash), cash $2.1B; Helios slated for an Oracle Cloud Infrastructure AI data center; Sol targeted for 2027 and Apollo for 2029. ([Pulse 2.0](https://pulse2.com/quantinuum-cash-tops-2-1-billion-after-1-7-billion-ipo-as-revenue-surges-279/))
 - **2026-03:** Quantinuum preprint arXiv:2603.04584 (March 4, 2026) by Ruslan Shaydulin et al. (JPMorgan Chase + Quantinuum) demonstrated fault-tolerant execution of the QAOA algorithm (5–12 logical qubits) and HHL algorithm using the [[7,1,3]] Steane code on H2 and Helios systems. First demonstration of end-to-end fault-tolerant algorithm execution on real hardware. (arXiv preprint only; not yet peer-reviewed.)
 - **2026-02:** Quantinuum preprint arXiv:2602.22211 demonstrated computations with up to 94 logical qubits (iceberg error detecting codes) and up to 48 logical qubits (concatenated error correcting codes) on Helios, achieving "beyond break-even" performance — encoded qubits outperforming unprotected physical qubits across multiple benchmarks. (arXiv preprint; not yet peer-reviewed.)
 - **2025-11:** Launched Helios system — 98 qubits (¹³⁷Ba⁺), 99.921% two-qubit gate fidelity (7.9×10⁻⁴ infidelity averaged over all qubit pairs), 99.9975% single-qubit gate fidelity. Preprint: arXiv:2511.05465. Not yet in a peer-reviewed journal as of April 2026. Quantinuum also demonstrated 48 logical error-corrected qubits at launch using concatenated iceberg codes.
@@ -95,7 +99,7 @@ Quantinuum's software heritage derives primarily from Cambridge Quantum Computin
 - **Post-Quantinuum:** CEO, Enginuity Power Systems (per public records)
 - **Context:** Uttley's departure eliminated the last Honeywell-side operational founder. His role was absorbed by Hazra and Khan.
 
-### People — Last Reviewed: 2026-04-05
+### People — Last Reviewed: 2026-10-26
 
 ## Roadmap
 

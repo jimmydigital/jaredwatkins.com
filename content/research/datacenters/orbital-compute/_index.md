@@ -1,14 +1,14 @@
 ---
 title: "Orbital Compute"
 date: 2026-04-29
-lastmod: 2026-04-30
+lastmod: 2026-10-26
 # changelog:
 # 2026-04-30: Cross-linked GaAs solar panel manufacturer entries (Spectrolab, Azur Space, SolAero Technologies)
 # 2026-04-29: Added supply chain inputs and launch provider capacity section (10-year speculative outlook)
 draft: false
 description: "Space-based compute infrastructure: satellite data centers, orbital AI clusters, and the emerging race to move ML workloads into low Earth orbit."
 research_area: "datacenters/orbital-compute"
-last_reviewed: 2026-04-29
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"

@@ -1,7 +1,7 @@
 ---
 title: "AeroDefense AirWarden"
 date: 2026-06-05
-lastmod: 2026-06-05
+lastmod: 2026-10-26
 draft: false
 description: "US-made RF spectrum sensing drone detection system targeting correctional facilities and critical infrastructure; detects both Remote ID-broadcasting and non-broadcasting drones without violating federal surveillance laws."
 research_area: "drone-detection"
@@ -14,7 +14,7 @@ source_urls:
   - "https://aerodefense.tech/drone-detection-system-products/drone-detection-system-price/"
   - "https://dronelife.com/2026/02/19/aerodefense-launches-no-cost-drone-detection-access-program-for-law-enforcement/"
   - "https://uasweekly.com/2023/04/24/aerodefense-introduces-low-cost-remote-id-receiver-for-existing-drone-detection-systems/"
-last_reviewed: 2026-06-05
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -88,7 +88,7 @@ Documented customer segments: US correctional facilities (stated primary market 
 - Executive team and founding details not publicly available on AeroDefense website or in findable press coverage as of this review.
 <!-- TODO: search LinkedIn for AeroDefense founders and leadership team -->
 
-### People — Last Reviewed: 2026-06-05
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

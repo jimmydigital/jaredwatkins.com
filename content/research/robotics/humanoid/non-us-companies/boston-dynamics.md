@@ -1,17 +1,20 @@
 ---
 title: "Boston Dynamics"
 date: 2026-06-19
-lastmod: 2026-06-19
+lastmod: 2026-10-26
 draft: false
 description: "Waltham, MA robotics company; Hyundai-owned since 2021 ($1.1B); Atlas all-electric humanoid in Hyundai RMAC and Google DeepMind pilot; Spot quadruped is only commercially scaled product; Marc Raibert founder; Robert Playter CEO; 30,000 robots/year target by 2028."
 research_area: "robotics/humanoid"
 source_urls:
+  - "https://www.diariobitcoin.com/tecnologia/boston-dynamics-apuesta-por-rohit-prasad-para-llevar-sus-robots-a-las-fabricas/"
+  - "https://www.eweek.com/news/hyundai-atlas-humanoid-robots-factories/"
+  - "https://borncity.com/news/boston-dynamics-chefwechsel-vor-atlas-start/"
   - "https://bostondynamics.com"
   - "https://www.evsint.com/top-8-humanoid-robot-companies-2026/"
   - "https://optimusk.blog/blog/tesla-optimus-vs-boston-dynamics/"
   - "https://techcrunch.com/2025/03/10/boston-dynamics-atlas-google-deepmind/"
   - "https://www.reuters.com/technology/hyundai-26-billion-us-investment-robots-2025/"
-last_reviewed: 2026-06-19
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -86,11 +89,14 @@ Spot proves Boston Dynamics can ship and support a commercial robotics product a
 - Stepped back from day-to-day CEO role in 2019; Robert Playter took over
 - LinkedIn: [marc-raibert](https://www.linkedin.com/in/marc-raibert-3a71681/)
 
-**Robert Playter** — CEO
+**Robert Playter** — Former CEO (left February 2026)
 - Ph.D., MIT Robotics; joined Boston Dynamics 1992 (year of founding)
 - Has been at the company for its full 30+ year history through all three ownership changes
 - Deep expertise in bipedal control and dynamics; personally contributed to Atlas and PETMAN design
 - LinkedIn: [robert-playter](https://www.linkedin.com/in/robert-playter-06b8741/)
+
+**Rohit Prasad** — CEO (since October 7, 2026)
+- Previously over 12 years at Amazon, leading Alexa development and contributing to the Amazon Nova foundation models; earlier ~14 years in machine learning at Raytheon BBN Technologies
 
 **Kevin Blankespoor** — SVP of Robotics
 - Leads Atlas hardware and system development
@@ -98,7 +104,7 @@ Spot proves Boston Dynamics can ship and support a commercial robotics product a
 
 **Pattern:** Raibert and Playter represent unusual continuity — the founding researcher and an employee from year one have both remained through Google, SoftBank, and Hyundai ownership. This suggests Boston Dynamics engineers self-select for mission alignment over short-term financial optimization. The research culture is deeply embedded despite repeated ownership changes.
 
-### People — Last Reviewed: 2026-06-19
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain & Dependencies
 
@@ -144,6 +150,11 @@ Spot proves Boston Dynamics can ship and support a commercial robotics product a
 - Spot took ~10 years from early research to commercial product; Atlas has been in development since 2013
 
 **Summary:** Automotive pilot is credible and the most demanding humanoid deployment context anywhere. Commercial scale remains unverified.
+
+## Notable Developments
+
+- **2026-10:** Rohit Prasad (ex-Amazon Alexa/Nova AI lead) named CEO effective Oct 7, 2026, succeeding Robert Playter, who left in February 2026 (Amanda McMaster served as interim CEO); mandate is commercialization with a focus on factories and warehouses
+- **2026:** Hyundai plans to deploy Atlas at its Georgia Metaplant from 2028 (Kia Georgia 2029), targeting capacity of up to 30,000 units per year and more than 25,000 for its own factories; Atlas development deepened with Google DeepMind
 
 ## Sources
 

@@ -1,7 +1,7 @@
 ---
 title: "Wiferion"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-26
 draft: false
 description: "Freiburg Germany inductive wireless charging system developer for AMRs and AGVs; etaLINK system delivers up to 3.3kW at 93% efficiency; acquired by Tesla in 2023 then sold to PULS GmbH (Munich power supply company), now operating as PULS Wireless business unit."
 research_area: "robotics/power-systems"
@@ -9,7 +9,7 @@ source_urls:
   - "https://www.therobotreport.com/puls-acquires-wiferions-wireless-charging-business/"
   - "https://www.wiferion.com/us/products/etalink-3000-inductive-charging-with-3-kw/"
   - "https://www.automation.com/en-us/articles/october-2023/wiferion-wireless-charging-business-acquired-puls"
-last_reviewed: 2026-03-31
+last_reviewed: 2026-10-26
 stale_after_days: 180
 related: []
 ---
@@ -62,7 +62,7 @@ Tesla's acquisition of Wiferion in June 2023 and rapid divestiture to PULS in Oc
 - **Education:** Electrical engineering background
 - **Notes:** Co-founded Wiferion in 2016; left with the engineering team to Tesla in 2023. Not part of the current PULS Wireless unit.
 
-### People — Last Reviewed: 2026-03-31
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

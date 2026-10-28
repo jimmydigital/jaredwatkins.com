@@ -1,15 +1,16 @@
 ---
 title: "Tesla Energy — Virtual Power Plants"
 date: 2026-07-18
-lastmod: 2026-07-18
+lastmod: 2026-10-26
 draft: false
 description: "Tesla's residential Powerwall fleet, orchestrated by its Autobidder software into virtual power plants across California, Texas, New England, Puerto Rico, and the UK; joined a 16.8 GW joint VPP program with Sunrun and Renew Home in June 2026 aimed at AI datacenter demand. Distinct from Tesla's separate Megapack utility-scale storage business."
 research_area: "energy/virtual-power-plants"
 source_urls:
+  - "https://teslanorth.com/2026/09/09/tesla-powerwall-vpp-500-mw-california"
   - "https://www.canarymedia.com/articles/virtual-power-plants/tesla-sunrun-renewhome-vpp"
   - "https://www.tesla.com/support/energy/virtual-power-plant/dsgs"
   - "https://chargedevs.com/newswire/tesla-autobidder-software-aggregates-solar-and-storage-into-a-giant-virtual-utility/"
-last_reviewed: 2026-07-18
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "_index.md"
@@ -46,6 +47,7 @@ The June 2026 joint announcement with Sunrun and Renew Home follows the same ove
 
 ## Notable Developments
 
+- **2026-09-09:** California VPP dispatched over 500 MW from about 69,000 enrolled Powerwall homes during a heatwave
 - **2026-06-24:** Joined Sunrun and Renew Home in announcing a joint 16.8 GW VPP program (combined ~7.8 GW of batteries from Sunrun/Tesla, ~9 GW of smart thermostats from Renew Home) marketed to hyperscalers, utilities, and PJM's upcoming reliability backstop procurement; the group claims 300+ MW immediately available in northern Virginia's "Data Center Alley."
 - **2026-03-11:** Ofgem granted Tesla Energy Ventures Limited an electricity supply license in the UK, effective this date, enabling Tesla to operate a Powerwall-based VPP there in exchange for tariff economics for participating owners.
 - **2025:** Global Powerwall network passed 1 million installed units and supported more than 89,000 VPP events in the year, per company-reported figures.
@@ -54,7 +56,7 @@ The June 2026 joint announcement with Sunrun and Renew Home follows the same ove
 
 Tesla Energy's VPP business does not have a dedicated, separately disclosed leadership team distinct from Tesla's overall executive structure as of this review — TODO: identify and verify the specific Tesla Energy VPP/Autobidder product leadership if a future update requires it.
 
-### Key People — Last Reviewed: 2026-07-18
+### Key People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

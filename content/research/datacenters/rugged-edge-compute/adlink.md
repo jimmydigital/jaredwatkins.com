@@ -1,14 +1,15 @@
 ---
 title: "ADLINK Technology"
 date: 2026-04-25
-lastmod: 2026-04-25
+lastmod: 2026-10-26
 draft: false
 description: "Taiwan-based embedded computing company (TWSE: 6166, Advantech-affiliated); AXE Series rugged AI edge servers and DLAP (Deep Learning Application Platform) GPU inference systems; COM Express and OpenVPX modules; defense, autonomous vehicle, medical, and industrial AI markets; Intel and NVIDIA platform integration."
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
+  - "https://itbrief.co.uk/story/adlink-unveils-rugged-intel-edge-ai-modules-for-robots"
   - "https://www.adlinktech.com/"
   - "https://www.adlinktech.com/en/rugged-systems.aspx"
-last_reviewed: 2026-04-25
+last_reviewed: 2026-10-26
 stale_after_days: 180
 ---
 
@@ -82,6 +83,7 @@ The SOSA adoption wave in US defense is a potential catalyst for ADLINK's defens
 
 ## Notable Developments
 
+- **2026-01:** Launched Express-PTL, its first COM Express module on Intel Core Ultra Series 3 (Panther Lake), up to 180 TOPS combined AI compute, -40°C to 85°C variants; dev kits for Express-PTL and COM-HPC-mPTL planned for Q2 2026
 - **Ongoing:** AXE Series refresh targeting Intel Core Ultra and latest NVIDIA RTX Ada Lovelace GPUs
 - **Ongoing:** DLAP platform SDK integration with NVIDIA Metropolis (smart city), NVIDIA Isaac (robotics), and NVIDIA Drive (autonomous vehicle) frameworks
 - **Ongoing:** SOSA alignment certification for select OpenVPX defense modules — positioning for new DoD program starts under open-architecture requirements

@@ -1,7 +1,7 @@
 ---
 title: "Vertiv™ PowerDirect"
 date: 2026-07-28
-lastmod: 2026-07-28
+lastmod: 2026-10-26
 draft: false
 description: "Vertiv's DC power distribution product family for AI racks, spanning the PowerDirect Rack/3000 in-rack 50 VDC power shelf (33 kW/1U, dual AC/800 VDC input) and the PowerDirect 5000, an 800 VDC 'sidecar' — a standalone power center bundled next to the IT rack (400–900 kW over busbar) that lets operators keep legacy AC infrastructure while introducing high-voltage DC at the rack; portfolio commercialization begins H2 2026, timed ahead of NVIDIA Rubin Ultra/Kyber deployments in 2027."
 research_area: "datacenters/power-infrastructure"
@@ -11,7 +11,7 @@ source_urls:
   - "https://www.vertiv.com/en-us/products-catalog/critical-power/dc-power-systems/powerdirect-3000-33kW/"
   - "https://developer.nvidia.com/blog/nvidia-800-v-hvdc-architecture-will-power-the-next-generation-of-ai-factories/"
   - "https://www.prnewswire.com/news-releases/vertiv-accelerates-ai-infrastructure-evolution-in-alignment-with-nvidia-800-vdc-power-architecture-announcement-302458599.html"
-last_reviewed: 2026-07-28
+last_reviewed: 2026-10-26
 stale_after_days: 60
 related:
   - "datacenters/power-infrastructure/vertiv.md"

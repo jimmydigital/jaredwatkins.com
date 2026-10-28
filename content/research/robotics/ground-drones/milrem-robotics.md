@@ -1,18 +1,20 @@
 ---
 title: "Milrem Robotics"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-26
 draft: false
 description: "Tallinn, Estonia defense robotics company; THeMIS tracked UGV deployed with 8 NATO members and 16 countries total; 150+ THeMIS delivered to Ukraine via Dutch initiative; EDGE Group (UAE) acquired 50% majority stake in Feb 2023; KMW holds 24.9%; Type-X RCV under development; iMUGS2 €50M EU project lead."
 research_area: "robotics/ground-drones"
 source_urls:
+  - "https://insideunmannedsystems.com/milrem-robotics-secures-contract-to-supply-unmanned-ground-vehicles-to-japanese-ground-self-defense-forces/"
+  - "https://milremrobotics.com/milrem-robotics-and-cnim-systemes-industriels-sign-mou-at-eurosatory-2026-to-advanced-unmanned-engineering-reconnaissance-solutions/"
   - "https://milremrobotics.com/"
   - "https://www.defensenews.com/global/europe/2023/07/25/eu-issues-verdict-over-edge-groups-takeover-of-milrem-robotics/"
   - "https://www.thenationalnews.com/business/2023/02/15/uaes-edge-buys-majority-stake-in-estonias-milrem-robotics/"
   - "https://milremrobotics.com/milrem-robotics-to-deliver-over-150-themis-ugvs-to-ukraine-in-a-dutch-led-defence-initiative/"
   - "https://www.shephardmedia.com/news/uv-online/milrem-to-supply-large-armed-ugvs-under-a-200-million-deal-with-uae/"
   - "https://milremrobotics.com/milrem-robotics-led-consortium-successfully-delivers-the-imugs-project/"
-last_reviewed: 2026-03-31
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related: []
 ---
@@ -49,6 +51,7 @@ Production has expanded: a new Tallinn facility is capable of producing over 500
 
 ## Notable Developments
 
+- **2026:** Contract to deliver three THeMIS UGVs to Japan's Ground Self-Defense Forces under its Rapid Acquisition Program ([Inside Unmanned Systems](https://insideunmannedsystems.com/milrem-robotics-secures-contract-to-supply-unmanned-ground-vehicles-to-japanese-ground-self-defense-forces/)); June 2026 MoU with CNIM Systèmes Industriels at Eurosatory on unmanned engineering-reconnaissance solutions ([Milrem](https://milremrobotics.com/milrem-robotics-and-cnim-systemes-industriels-sign-mou-at-eurosatory-2026-to-advanced-unmanned-engineering-reconnaissance-solutions/)).
 - **2026-Q1:** US Army CRREL (Cold Regions Research and Engineering Laboratory) acquires THeMIS with MIFIK kit. ([ASD News](https://www.asdnews.com/news/defense/2025/03/04/crrel-acquires-themis-ugv-milrem-robotics))
 - **2025:** iMUGS2 consortium (29 partners, 15 EU states) secures ~€50M from European Defence Fund. ([Defence Industry EU](https://defence-industry.eu/imugs-2-european-industry-consortium-secures-edf-funding-for-next-generation-unmanned-ground-systems/))
 - **2025:** Milrem to deliver record 150+ THeMIS UGVs to Ukraine funded and coordinated by the Netherlands. ([Milrem](https://milremrobotics.com/milrem-robotics-to-deliver-over-150-themis-ugvs-to-ukraine-in-a-dutch-led-defence-initiative/))
@@ -70,7 +73,7 @@ Production has expanded: a new Tallinn facility is capable of producing over 500
   - Prior roles not publicly detailed
 - **Notes:** EY World Entrepreneur of the Year 2022 for Estonia. Has led the company from a 30-person startup to a NATO-supplier presence in 16 countries. Remains a minority shareholder post-EDGE acquisition.
 
-### People — Last Reviewed: 2026-03-31
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

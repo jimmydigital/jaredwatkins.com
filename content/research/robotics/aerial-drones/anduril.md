@@ -1,18 +1,20 @@
 ---
 title: "Anduril Industries — Autonomous Systems & Drones"
 date: 2026-04-05
-lastmod: 2026-04-05
+lastmod: 2026-10-26
 draft: false
-description: "Anduril autonomous systems angle: Fury YFQ-44A CCA in production at Arsenal-1 (March 2026); Roadrunner reusable turbojet interceptor; Altius-600/700 loitering munitions; Anvil/Pulsar/Sentry CUAS stack; Ghost Shark XL-AUV maritime; Barracuda cruise missile. All platforms are Lattice OS nodes."
+description: "Anduril autonomous systems angle: Fury YFQ-44A CCA selected with General Atomics for Increment 1 production (June 2026) and first Ohio-built aircraft rolled out at Arsenal-1 (July 2026); Roadrunner reusable turbojet interceptor; Altius-600/700 loitering munitions; Anvil/Pulsar/Sentry CUAS stack; Ghost Shark XL-AUV maritime; Barracuda cruise missile. All platforms are Lattice OS nodes."
 research_area: "robotics/aerial-drones"
 source_urls:
+  - "https://defensescoop.com/2026/06/17/air-force-picks-anduril-general-atomics-to-build-first-operational-cca-drones/"
+  - "https://thedefensepost.com/2026/07/30/anduril-arsenal1-first-yfq-44a/"
   - "https://www.anduril.com/fury"
   - "https://www.anduril.com/roadrunner"
   - "https://www.anduril.com/anvil"
   - "https://www.anduril.com/counter-uas"
   - "https://breakingdefense.com/2026/03/as-fury-production-starts-anduril-pledging-a-different-production-approach-at-arsenal-1/"
   - "https://theaviationist.com/2026/03/24/yfq-44a-fury-cca-is-now-in-production/"
-last_reviewed: 2026-04-05
+last_reviewed: 2026-10-26
 stale_after_days: 60
 related:
   - "datacenters/rugged-edge-compute/anduril.md"
@@ -29,7 +31,7 @@ Anduril builds a coordinated portfolio of autonomous platforms across aerial, co
 
 | Platform | Type | Domain | Status |
 |----------|------|--------|--------|
-| **Fury (YFQ-44A)** | Collaborative Combat Aircraft (CCA) | Aerial | In production — Arsenal-1, March 2026 |
+| **Fury (YFQ-44A)** | Collaborative Combat Aircraft (CCA) | Aerial | Increment 1 EMD and production contract (2026-06-17); first Arsenal-1-built aircraft announced 2026-07-28 |
 | **Roadrunner** | Reusable turbojet interceptor | Aerial / CUAS | Low-rate production; operationally deployed |
 | **Barracuda** | Cruise missile | Aerial / Strike | Arsenal-1 production by end-2026 |
 | **Altius-600/700** | Tube-launched loitering munition | Aerial | Fielded (acquired via Area-I, 2021) |
@@ -49,7 +51,8 @@ Anduril's bid for the US Air Force CCA program — an autonomous wingman designe
 - **Wingspan:** ~17 ft (5.2 m); subsonic; stealthy configuration
 - **Production line:** 22 workstations at Arsenal-1; capacity ~150 aircraft/year per shift at full rate
 - **Autonomy:** Lattice-integrated; human-supervised autonomous wingman; operates in GPS-denied/comms-degraded environments
-- **Competition:** Competing against Shield AI's CCA platform for USAF selection; both are in parallel developmental production
+- **CCA status:** the Air Force announced on 2026-06-17 that Anduril and General Atomics (FQ-42A) each received Increment 1 engineering-and-manufacturing-development and production contracts, covering the first three lots and at least 150 systems by the end of the decade; contract values were not disclosed and the first lot award follows FY2027 budget approval (the Air Force is requesting $996.5M for FY2027). Fury fired an AIM-120 in a live-fire test in July 2026
+- **Mission autonomy:** a separate competition has Anduril, Shield AI and Collins Aerospace in a six-month phase, with a primary autonomy provider due by summer 2027 (DefenseScoop)
 
 ### Roadrunner — Reusable Interceptor
 
@@ -95,6 +98,8 @@ The $1B Arsenal-1 facility in Pickaway County, Ohio (~20 miles south of Columbus
 
 ## Notable Developments
 
+- **2026-07-28:** Arsenal-1 produces its first YFQ-44A, the first product off the 5-million-sq-ft Ohio campus; Anduril did not disclose annual output, and Breaking Defense reports capacity up to 150 a year. ([The Defense Post](https://thedefensepost.com/2026/07/30/anduril-arsenal1-first-yfq-44a/))
+- **2026-06-17:** Air Force selects Anduril and General Atomics for CCA Increment 1 production, four months ahead of schedule. ([DefenseScoop](https://defensescoop.com/2026/06/17/air-force-picks-anduril-general-atomics-to-build-first-operational-cca-drones/))
 - **2026-03:** Fury YFQ-44A production begins at Arsenal-1; ~4 months ahead of schedule
 - **2026-03:** $20B Army Lattice enterprise contract — CUAS stack is a core deliverable (see canonical file)
 - **2025-08:** McHenry SRM facility opens; propulsion supply chain vertically integrated
@@ -107,12 +112,14 @@ The $1B Arsenal-1 facility in Pickaway County, Ohio (~20 miles south of Columbus
 
 | Competitor | Overlap | Key Difference |
 |-----------|---------|----------------|
-| [Shield AI]({{< relref "/research/robotics/aerial-drones/shield-ai.md" >}}) | CCA (YFQ-44A vs. Shield AI platform); autonomy software | Shield AI leads with Hivemind software + V-BAT hardware; both competing for USAF CCA |
+| [Shield AI]({{< relref "/research/robotics/aerial-drones/shield-ai.md" >}}) | CCA mission autonomy; autonomy software | Shield AI leads with Hivemind software + V-BAT hardware; both are in the CCA mission-autonomy competition |
 | [AeroVironment]({{< relref "/research/robotics/aerial-drones/aeroviroment.md" >}}) | Loitering munitions (Altius vs. Switchblade) | AeroVironment fielded at scale; Altius more capable but earlier stage |
 | [Skydio]({{< relref "/research/robotics/aerial-drones/skydio.md" >}}) | Autonomous small UAS | Skydio is commercial-rooted moving into defense; Anduril is defense-native |
 
 ## Sources
 
+- [Air Force picks Anduril, General Atomics for first operational CCA — DefenseScoop (Jun 17, 2026)](https://defensescoop.com/2026/06/17/air-force-picks-anduril-general-atomics-to-build-first-operational-cca-drones/)
+- [First YFQ-44A from Arsenal-1 — The Defense Post (Jul 30, 2026)](https://thedefensepost.com/2026/07/30/anduril-arsenal1-first-yfq-44a/)
 - [Anduril — Fury](https://www.anduril.com/fury)
 - [Anduril — Roadrunner](https://www.anduril.com/roadrunner)
 - [Anduril — Anvil](https://www.anduril.com/anvil)

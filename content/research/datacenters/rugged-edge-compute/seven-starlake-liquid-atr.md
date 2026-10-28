@@ -1,7 +1,7 @@
 ---
 title: "7Starlake 7SL-3500 Liquid-Cooled VPX ATR"
 date: 2026-04-25
-lastmod: 2026-04-25
+lastmod: 2026-10-26
 draft: false
 description: "7Starlake's 7SL-3500 is a self-contained liquid-cooled 3U VPX ATR chassis compliant with VITA 48.4 LFT, supporting up to 500 W TDP in a closed-loop sealed design. Targeted at radar, EW, and UAS applications."
 research_area: "datacenters/rugged-edge-compute"
@@ -10,7 +10,7 @@ source_urls:
   - "https://7starlake.com/en/events/press-release/7starlake-unveils-next-gen-3u-vpx-self-contained-liquid-cooling-atr"
   - "https://militaryembedded.com/radar-ew/sensors/liquid-cooled-3u-vpx-atr-system-introduced-by-7starlake"
   - "https://7starlake.com/products/liquid-cooled/atr/7sl-3500-l2l"
-last_reviewed: 2026-04-25
+last_reviewed: 2026-10-26
 stale_after_days: 180
 ---
 
@@ -89,7 +89,7 @@ The 7SL-3500 incorporates:
 
 - <!-- TODO: identify 7Starlake leadership; Taiwan-based company; LinkedIn profiles not confirmed -->
 
-### People — Last Reviewed: 2026-04-25
+### People — Last Reviewed: 2026-10-26
 
 ## Sources
 

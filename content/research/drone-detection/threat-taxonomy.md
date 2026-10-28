@@ -1,7 +1,7 @@
 ---
 title: "Drone Threat Taxonomy for Critical Infrastructure"
 date: 2026-06-05
-lastmod: 2026-06-05
+lastmod: 2026-10-26
 draft: false
 description: "Classification of drone threat categories relevant to critical infrastructure protection, covering detection difficulty, primary detection methods, countermeasures, and real-world incidents."
 research_area: "drone-detection"
@@ -13,7 +13,7 @@ source_urls:
   - "https://israel-alma.org/special-report-hezbollahs-fpv-explosive-drone-threat/"
   - "https://www.airsight.com/blog/end-of-jamming-tethered-waypoint-drones"
   - "https://dronexl.co/2025/10/02/germany-drone-crisis-surveillance-swarms-map-critical-infrastructure/"
-last_reviewed: 2026-06-05
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

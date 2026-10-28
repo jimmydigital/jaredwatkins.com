@@ -1,7 +1,7 @@
 ---
 title: "Humanoid Robots: Autonomy Claims, Demo Reality, and the Specialized Robot Alternative"
 date: 2026-06-19
-lastmod: 2026-06-19
+lastmod: 2026-10-26
 draft: false
 description: "Critical analysis of humanoid robot autonomy claims, teleoperation prevalence in demos, investor sentiment, and the case for specialized robots over generalist humanoids for industrial use."
 research_area: "robotics/humanoid"
@@ -14,7 +14,7 @@ source_urls:
   - "https://www.evsint.com/humanoid-robots-vs-industrial-robot-arms-factory-2026/"
   - "https://www.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/ai-for-robots-drones.html"
   - "https://english.ckgsb.edu.cn/knowledge/article/humanoid-robots-in-china-progress-limits-and-reality/"
-last_reviewed: 2026-06-19
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

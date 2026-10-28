@@ -1,14 +1,14 @@
 ---
 title: "Crystal Group"
 date: 2026-04-25
-lastmod: 2026-04-25
+lastmod: 2026-10-26
 draft: false
 description: "Cedar Rapids, IA rugged compute manufacturer; RE4100 Series rackmount AI servers and RE1900M vehicle-mount systems; conduction-cooled and air-cooled platforms for defense, maritime, and industrial deployments; NVIDIA GPU and Intel Xeon integration; MIL-STD-810/901D qualified."
 research_area: "datacenters/rugged-edge-compute"
 source_urls:
   - "https://www.crystalrugged.com/"
   - "https://www.crystalrugged.com/product-category/servers/"
-last_reviewed: 2026-04-25
+last_reviewed: 2026-10-26
 stale_after_days: 180
 ---
 

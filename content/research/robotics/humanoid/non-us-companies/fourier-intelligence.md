@@ -1,17 +1,18 @@
 ---
 title: "Fourier Intelligence"
 date: 2026-06-19
-lastmod: 2026-06-19
+lastmod: 2026-10-26
 draft: false
 description: "Shanghai-based humanoid robotics company; rehabilitation exoskeleton roots; GR-2 general humanoid; ~$100M+ raised; SoftBank investor; Alex Gu founder; 300 units shipped in 2025; healthcare and industrial markets."
 research_area: "robotics/humanoid"
 chinese-owned: true
 source_urls:
+  - "https://autonews.gasgoo.com/articles/news/ces-2026-fourier-intelligence-unveils-full-size-humanoid-robot-gr-3-2008896810972438528"
   - "https://fftai.com"
   - "https://blog.robozaps.com/b/humanoid-robot-companies"
   - "https://techcrunch.com/2023/06/15/fourier-intelligence-humanoid-gr-2/"
   - "https://www.therobotreport.com/fourier-intelligence-raises-softbank-investment/"
-last_reviewed: 2026-06-19
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -70,7 +71,7 @@ Fourier Intelligence's background in rehabilitation exoskeletons is its core dif
 
 **Note:** Alex Gu's rehabilitation engineering background is unusual in the humanoid sector dominated by aerospace and computing PhDs. The clinical orientation has produced a company with different design priorities (patient safety, force compliance) and a different customer relationship model (hospital procurement vs. factory automation).
 
-### People — Last Reviewed: 2026-06-19
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain & Dependencies
 
@@ -97,6 +98,10 @@ Fourier Intelligence's background in rehabilitation exoskeletons is its core dif
 - "Units shipped" may include research, evaluation, and clinical trial units alongside commercial deployments
 
 **Summary:** Directionally plausible; no independent verification.
+
+## Notable Developments
+
+- **2026-01:** Unveiled GR-3 at CES 2026, a full-size 55-degree-of-freedom "Care-bot" for rehabilitation and eldercare, plus a desktop Care-bot concept; Fourier reports serving 2,000+ medical institutions and enterprises in 40+ countries
 
 ## Sources
 

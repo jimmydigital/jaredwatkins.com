@@ -1,15 +1,16 @@
 ---
 title: "Innoviz Technologies"
 date: 2026-03-31
-lastmod: 2026-03-31
+lastmod: 2026-10-26
 draft: false
-description: "Israeli MEMS solid-state LiDAR company (Rosh HaAyin); InnovizOne is in BMW i7 series production for Level 3 autonomy; InnovizTwo ramping for Volkswagen ID.Buzz and Class 8 autonomous trucking programs."
+description: "Israeli MEMS solid-state LiDAR company (Rosh HaAyin); InnovizOne is in BMW i7 series production for Level 3 autonomy; InnovizTwo ramping for Volkswagen ID.Buzz and Class 8 autonomous trucking programs; Q2 2026 revenue $18.1M with a new defense line (Perciz)."
 research_area: "robotics/sensors"
 source_urls:
+  - "https://www.stocktitan.net/news/INVZ/innoviz-reports-second-quarter-2026-on03yaadhsbr.html"
   - "https://ir.innoviz.tech/news-events/press-releases/detail/163/innoviz-reports-third-quarter-2025-results"
   - "https://ir.innoviz.tech/news-events/press-releases/detail/143/innoviz-reports-fourth-quarter-and-full-year-2024-results"
   - "https://www.prnewswire.com/news-releases/innoviz-reports-fourth-quarter-and-full-year-2024-results-302385947.html"
-last_reviewed: 2026-03-31
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related: []
 ---
@@ -28,8 +29,9 @@ Innoviz Technologies (NASDAQ: INVZ) is an Israeli solid-state LiDAR developer he
 - **Type:** Public ([NASDAQ: INVZ](https://finance.yahoo.com/quote/INVZ))
 - **Key backers:** Raised $252M+ pre-IPO; went public via SPAC merger 2021; backers include Magna International (manufacturing partner), onsemi (chip supply partner)
 - **Key products:** InnovizOne (BMW L3 production LiDAR); InnovizTwo (next-gen, >70% cost reduction vs One, ~300m range)
-- **Revenue:** FY2024 $24.3M (vs. $20.9M in 2023); FY2025 guidance $50–60M (~2× 2024)
-- **Cash position:** ~$68M as of December 31, 2024; plus ~$80M NRE payment plan from key customers expected largely in 2025–2026
+- **Revenue:** FY2024 $24.3M (vs. $20.9M in 2023); Q2 2026 $18.1M (vs. $9.7M), net loss $18.5M; H1 2026 $25.2M (vs. $27.1M); FY2026 guidance $67–73M
+- **Liquidity:** ~$48.5M at June 30, 2026, excluding ~$30M gross proceeds from a registered direct offering closed July 29, 2026; H1 2026 operating cash burn $28.8M; shareholders' equity $48.7M (from $77.7M at year-end 2025)
+- **Defense:** initial orders of about $3.5M (several hundred units) from a major defense customer on 2026-07-30; Perciz brand launched for defense and homeland security; six new defense engagements announced in the quarter
 - **Manufacturing:** Magna Electronics Inc. produces InnovizOne; InnovizTwo contract manufacturing partnerships in place as of 2025
 
 ## What It Is / How It Works
@@ -46,6 +48,7 @@ NRE (non-recurring engineering) revenue constitutes a significant portion of Inn
 
 ## Notable Developments
 
+- **2026-08-05:** Q2 2026 results: revenue $18.1M, net loss $18.5M; FY2026 guidance of $67–73M reiterated with 2–3 new program wins and $20–30M of new NRE payment plans expected; VW ID. Buzz (Mobileye Drive, nine LiDARs) testing in Los Angeles, Orlando, Austin, Munich, Hamburg and Oslo; Maj. Gen. (ret.) Yoav Har-Even appointed to the board. ([Stock Titan](https://www.stocktitan.net/news/INVZ/innoviz-reports-second-quarter-2026-on03yaadhsbr.html))
 - **2025-11:** Q3 2025 revenues of $15.3M, +240% YoY; FY2025 guidance reiterated at $50–60M. ([Innoviz IR](https://ir.innoviz.tech/news-events/press-releases/detail/163/innoviz-reports-third-quarter-2025-results))
 - **2025:** Design win announced for L4 Class 8 autonomous truck program with a major commercial vehicle OEM (name undisclosed); InnovizTwo manufacturing begins with contract manufacturing partners.
 - **2024-03:** BMW i7 Level 3 Personal Pilot system with InnovizOne goes on-road in approved geographies; first MEMS solid-state LiDAR in series production.
@@ -67,7 +70,7 @@ NRE (non-recurring engineering) revenue constitutes a significant portion of Inn
   - Israel Defense Forces: Officer in elite technology unit
 - **Notes:** Named CEO of the Year by Image Sensors Europe Awards 2018. Expert in electrical optics and MEMS. Returned to Tel Aviv University as a lecturer (2000–2001). The IDF elite technology unit background is a common origin for Israel's hardware-deep-tech founders.
 
-### People — Last Reviewed: 2026-03-31
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 
@@ -88,6 +91,7 @@ Innoviz operates at the **Component/Subsystem Supplier** layer, selling sensors 
 
 ## Sources
 
+- [Q2 2026 Results — Innoviz via Stock Titan (Aug 2026)](https://www.stocktitan.net/news/INVZ/innoviz-reports-second-quarter-2026-on03yaadhsbr.html)
 - [Q3 2025 Results — Innoviz IR (Nov 2025)](https://ir.innoviz.tech/news-events/press-releases/detail/163/innoviz-reports-third-quarter-2025-results)
 - [FY2024 Results — Innoviz IR (Feb 2025)](https://ir.innoviz.tech/news-events/press-releases/detail/143/innoviz-reports-fourth-quarter-and-full-year-2024-results)
 - [FY2024 Results Press Release — PR Newswire](https://www.prnewswire.com/news-releases/innoviz-reports-fourth-quarter-and-full-year-2024-results-302385947.html)

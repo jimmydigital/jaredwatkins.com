@@ -1,18 +1,19 @@
 ---
 title: "Hitachi Energy"
 date: 2026-05-05
-lastmod: 2026-05-05
+lastmod: 2026-10-26
 draft: false
 description: "Zürich-based power grid equipment manufacturer (subsidiary of Hitachi Ltd, TSE: 6501; trades as HPS.A on TSX); world's largest transformer manufacturer; $43B backlog (early 2026, up from $14B three years prior); large-transformer lead times 40 months; $6B committed capacity expansion; CEO warned sector is 'overwhelmed' by data center and energy transition demand; key bottleneck for AI datacenter grid interconnection."
 research_area: "datacenters/power-infrastructure"
 source_urls:
+  - "https://www.caixinglobal.com/2026-08-20/hitachi-energy-invests-300-million-to-expand-transformer-production-in-china-102475866.html"
   - "https://www.hitachienergy.com/"
   - "https://www.datacenterdynamics.com/en/news/hitachi-energy-ceo-warns-of-transformer-supply-shortage/"
   - "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/010526-interview-no-peak-demand-in-sight-for-booming-power-grid-demand-hitachi-energy-ceo"
   - "https://www.utilitydive.com/news/hitachi-energy-commits-250-million-transformer-shortage/742010/"
   - "https://www.hitachienergy.com/us/en/markets/data-centers"
   - "https://www.federalregister.gov/documents/2026/04/23/2026-08013/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended"
-last_reviewed: 2026-05-05
+last_reviewed: 2026-10-26
 stale_after_days: 60
 related:
   - "datacenters/power-infrastructure/_index.md"
@@ -58,6 +59,7 @@ A transformer is not a sophisticated electronic device — it is a copper-wound 
 
 ## Notable Developments
 
+- **2026-08:** Agrees to invest about $300M in its Hefei, China components plant, nearly tripling tap-changer capacity. ([Caixin](https://www.caixinglobal.com/2026-08-20/hitachi-energy-invests-300-million-to-expand-transformer-production-in-china-102475866.html))
 - **2026-04:** US Presidential Determination (DPA Section 303) designates transformers and grid infrastructure as national defense priorities; authorizes federal financial support for domestic manufacturing — direct policy catalyst for Hitachi Energy's US operations. ([Federal Register](https://www.federalregister.gov/documents/2026/04/23/2026-08013/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended)) ([White House](https://www.whitehouse.gov/presidential-actions/2026/04/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended-on-grid-infrastructure-equipment-and-supply-chain-capacity/))
 - **2026-01:** S&P Global interview — CEO Schierenbeck states "no peak demand in sight" for power grid equipment; confirms 40-month lead times for large transformers persist despite investment. ([S&P Global](https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/010526-interview-no-peak-demand-in-sight-for-booming-power-grid-demand-hitachi-energy-ceo))
 - **2025–2026:** Backlog reaches $43B — tripling from ~$14B three years prior; company cites AI datacenter load growth and energy transition as dual drivers. ([Data Center Dynamics](https://www.datacenterdynamics.com/en/news/hitachi-energy-ceo-warns-of-transformer-supply-shortage/))

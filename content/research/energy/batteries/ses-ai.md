@@ -1,18 +1,19 @@
 ---
 title: "SES AI Corporation"
 date: 2026-04-24
-lastmod: 2026-04-24
+lastmod: 2026-10-26
 draft: false
 description: "Boston-based lithium-metal hybrid battery company; AI-based cell management for dendrite detection; OEM partnerships with GM, Hyundai, Honda; Apollo cell (417 Wh/kg, 107 Ah); A-sample and B-sample JDAs ongoing; Ui-Wang, South Korea B-sample facility announced; SPAC IPO 2022; ~$390M liquidity end-2022."
 research_area: "energy/batteries"
 source_urls:
+  - "https://www.marketbeat.com/instant-alerts/ses-ai-q2-earnings-call-highlights-2026-08-11/"
   - "https://www.ses.ai"
   - "https://ses.ai/dr-qichao-hu/"
   - "https://electrek.co/2026/03/25/battery-company-ai-pivot-ses/"
   - "https://news.metal.com/newscontent/101730957/After-General-Motors-and-Hyundai-Honda-announced-the-joint-development-of-lithium-metal-battery-with-SES/"
   - "https://www.businesswire.com/news/home/20211103005931/en/SES-Unveils-Worlds-First-100-Plus-Ah-Li-Metal-Battery-Announces-New-Gigafactory-at-First-SES-Battery-World"
   - "https://www.businesswire.com/news/home/20230301006034/en/SES-Provides-an-Update-on-Cash-Position-as-of-End-of-2022-and-Status-of-Annual-Report-on-Form-10-K"
-last_reviewed: 2026-04-24
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "energy/batteries/lithium-metal.md"
@@ -113,6 +114,7 @@ SES has three simultaneous OEM pathways, each at different development stages:
 
 ## Notable Developments
 
+- **2026-08 (Q2):** Revenue $5.1M (+40% YoY, down from $6.7M in Q1), GAAP gross margin 22.6%, net loss $17.8M, ~$163M cash; FY2026 revenue guidance of $30–35M reaffirmed; Korea facility expanding NDAA-compliant drone-cell output to 1M cells a year; Molecular Universe 3.0 launched. ([MarketBeat](https://www.marketbeat.com/instant-alerts/ses-ai-q2-earnings-call-highlights-2026-08-11/))
 - **2026:** Honda announces A-sample JDA with SES AI for joint development of lithium-metal batteries.
 - **2026 (Q1):** MIT Technology Review publishes feature on SES's AI pivot; CEO Hu discusses electrochemical diagnostics strategy.
 - **2025:** Hyundai and Kia advance to B-sample phase; Ui-Wang, South Korea facility announced for largest capacity lithium-metal production line (SES language).

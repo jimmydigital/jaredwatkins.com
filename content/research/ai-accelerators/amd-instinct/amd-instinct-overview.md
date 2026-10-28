@@ -1,7 +1,7 @@
 ---
 title: "AMD Instinct — Overview"
 date: 2026-06-07
-lastmod: 2026-06-07
+lastmod: 2026-10-26
 draft: false
 description: "Architecture generations, competitive positioning, and market context for AMD's Instinct GPU accelerator line."
 research_area: "ai-accelerators/amd-instinct"
@@ -10,7 +10,7 @@ source_urls:
   - "https://www.amd.com/en/products/accelerators/instinct/mi350.html"
   - "https://www.amd.com/en/newsroom/press-releases/2025-11-11-amd-unveils-strategy-to-lead-the-1-trillion-compu.html"
   - "https://newsletter.semianalysis.com/p/amd-advancing-ai-mi350x-and-mi400-ualoe72-mi500-ual256"
-last_reviewed: 2026-06-07
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -59,7 +59,7 @@ AMD's scale-up networking uses Infinity Fabric, which connects multiple GPUs wit
 - **Sam Naffziger** — Senior Vice President and Corporate Fellow, AMD. Leads technical strategy and power/performance architecture. Key architect of AMD's chiplet strategy (used in both EPYC CPUs and Instinct GPUs). [ResearchGate profile](https://www.researchgate.net/profile/Sam-Naffziger).
 - **Mark Papermaster** — Executive Vice President and CTO, AMD. Oversees engineering across all product lines including Instinct. Former Apple VP of Devices Hardware Engineering; former IBM. [LinkedIn](https://www.linkedin.com/in/markpapermaster/) — TODO: verify current title as of 2026.
 
-### People — Last Reviewed: 2026-06-07
+### People — Last Reviewed: 2026-10-26
 
 ## Competitive Positioning
 

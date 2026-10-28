@@ -1,11 +1,11 @@
 ---
 title: "Robotic Hands & Dexterous Manipulation"
 date: 2026-07-18
-lastmod: 2026-07-18
+lastmod: 2026-10-26
 draft: false
 description: "Multi-fingered end effectors and dexterous-hand actuation for humanoid and industrial manipulation — the component layer widely cited as the current bottleneck for useful humanoid work."
 research_area: "robotics/hands"
-last_reviewed: 2026-07-18
+last_reviewed: 2026-10-26
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -66,4 +66,4 @@ This subsection tracks the component/subsystem suppliers building these hands �
 
 **Prosthetics-to-robotics technology transfer:** PSYONIC's Ability Hand is a rare example of a medical device (FDA-approved, Medicare-covered, 300+ patients as of mid-2026) being repurposed for industrial robotics rather than the more common reverse flow (industrial actuator technology adapted for prosthetics). The company argues this gives it higher-fidelity human contact/force data than teleoperation-glove or video-based approaches used elsewhere in the sector.
 
-### Supply Chain — Last Reviewed: 2026-07-18
+### Supply Chain — Last Reviewed: 2026-10-26

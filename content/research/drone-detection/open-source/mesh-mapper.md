@@ -1,11 +1,12 @@
 ---
 title: "Mesh-Mapper"
 date: 2026-07-07
-lastmod: 2026-07-07
+lastmod: 2026-10-26
 draft: false
 description: "Open-source ESP32-based Remote ID detector with dual-core WiFi/Bluetooth scanning, real-time web mapping, Meshtastic mesh alerting, and FAA registration lookup."
 research_area: "drone-detection/open-source"
 source_urls:
+  - "https://github.com/colonelpanichacks/drone-mesh-mapper"
   - "https://www.hackster.io/colonelpanic/mesh-mapper-drone-remote-id-mapping-and-mesh-alerts-8e7c61"
   - "https://github.com/colonelpanichacks/drone-mesh-mapper"
   - "https://github.com/colonelpanichacks/mesh-detect"
@@ -14,7 +15,7 @@ source_urls:
   - "https://viewedisplay.com/product/esp32-p4-pi-dev-board-wifi6/"
   - "https://linuxgizmos.com/waveshare-pairs-risc-v-esp32-p4-and-esp32-c6-for-wi-fi-6-bluetooth-5-le-and-poe-support/"
   - "https://www.cnx-software.com/2024/04/30/m5stack-coremp135-a-linux-powered-industrial-controller-based-on-stm32mp135-cortex-a7-mpu/"
-last_reviewed: 2026-07-07
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -57,6 +58,10 @@ Mesh-Mapper's architecture splits the job in two: an ESP32 does WiFi/BT Remote I
 - **[M5Stack CoreMP135](https://www.cnx-software.com/2024/04/30/m5stack-coremp135-a-linux-powered-industrial-controller-based-on-stm32mp135-cortex-a7-mpu/)** — genuine embedded Linux host (STM32MP135, Cortex-A7) with Ethernet, USB, and CAN FD. No onboard ESP32 — would still need a discrete ESP32 module (e.g., the Xiao ESP32S3 this project already uses) wired over UART/USB for RF capture.
 
 No mainstream board yet combines a full Linux SoC and an ESP32 as a single fused chip; current options trade either full Linux (P4-Pi boards run RTOS) or onboard wireless capture (CoreMP135 has neither WiFi promiscuous mode nor BLE scanning built in).
+
+## Notable Developments
+
+- **2026-10 repository check:** Public and not shown as archived; about 224 GitHub stars and 196 commits on the main branch; no tagged releases listed and last-commit dates were not visible, so recent activity is unconfirmed
 
 ## Sources
 

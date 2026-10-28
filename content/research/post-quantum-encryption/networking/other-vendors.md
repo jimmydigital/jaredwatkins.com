@@ -1,7 +1,7 @@
 ---
 title: "Networking PQC — Vendor Survey"
 date: 2026-04-15
-lastmod: 2026-04-17
+lastmod: 2026-10-26
 draft: false
 description: "Survey of post-quantum cryptography support and roadmaps across major networking vendors: Cisco (IOS XE 26, ASA, FTD), Palo Alto Networks (PAN-OS 12.1 Orion), Fortinet (FortiOS 7.6.x), Check Point (Gaia R82), Nokia (ANYsec/SR OS), Aruba/HPE, and open-source implementations."
 research_area: "post-quantum-encryption/networking"
@@ -11,7 +11,7 @@ source_urls:
   - "https://blogs.cisco.com/security/preparing-for-post-quantum-cryptography-the-secure-firewall-roadmap"
   - "https://sc1.checkpoint.com/documents/R82/WebAdminGuides/EN/CP_R82_SitetoSiteVPN_AdminGuide/Content/Topics-VPNSG/Quantum-Safe-Key-Exchange.htm"
   - "https://strongswan.org/blog/2024/12/03/strongswan-6.0.0-released.html"
-last_reviewed: 2026-04-17
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

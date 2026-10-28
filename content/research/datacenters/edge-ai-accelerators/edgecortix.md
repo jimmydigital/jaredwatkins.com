@@ -1,14 +1,15 @@
 ---
 title: "EdgeCortix"
 date: 2026-04-25
-lastmod: 2026-04-25
+lastmod: 2026-10-26
 draft: false
 description: "Tokyo-based fabless AI chip startup; SAKURA-I and SAKURA-II edge AI accelerator chips and PCIe/M.2 modules; Dynamic Neural Accelerator (DNA) CGRA architecture; 15–40+ TOPS at 10–25W targeting defense, autonomous vehicles, robotics, and industrial AI inference; TSMC 12nm fabrication."
 research_area: "datacenters/edge-ai-accelerators"
 source_urls:
+  - "https://www.businesswire.com/news/home/20251105892596/en"
   - "https://www.edgecortix.com/"
   - "https://www.edgecortix.com/en/products"
-last_reviewed: 2026-04-25
+last_reviewed: 2026-10-26
 stale_after_days: 180
 ---
 
@@ -99,6 +100,10 @@ EdgeCortix has reported engagement with US DoD programs and NATO ally defense cu
 - CGRA architecture performance advantage over fixed dataflow NPUs is a theoretical claim dependent on workload; benchmarks on standard vision models (ImageNet, COCO) versus specialized military AI models may differ
 
 **Summary:** The 40+ TOPS figure is plausible for a 12nm CGRA at this power level; the architecture versatility claim is theoretically well-founded but no public head-to-head benchmark against Hailo-15 or Intel NPU has been found.
+
+## Notable Developments
+
+- **2025-11:** TDK Ventures joined the Series B (its first Japan investment); total capital raised since December 2024 exceeds $110M including non-dilutive awards, funding SAKURA-II production and the SAKURA-X chiplet platform
 
 ## Sources
 

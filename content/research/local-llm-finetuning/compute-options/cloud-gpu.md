@@ -1,16 +1,17 @@
 ---
 title: "Cloud GPU Fine-Tuning"
 date: 2026-06-10
-lastmod: 2026-06-10
+lastmod: 2026-10-26
 draft: false
 description: "Renting GPU instances on RunPod, Lambda Labs, and Vast.ai for LLM fine-tuning: instance types, current pricing, realistic time-to-completion, and cost estimates for a 10,000-example network engineer dataset."
 research_area: "local-llm-finetuning/compute-options"
 source_urls:
+  - "https://www.spheron.network/blog/nvidia-b200-cloud-pricing-2026/"
   - "https://www.runpod.io/gpu-instance/pricing"
   - "https://lambdalabs.com/service/gpu-cloud"
   - "https://vast.ai"
   - "https://github.com/unslothai/unsloth"
-last_reviewed: 2026-06-10
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -163,6 +164,10 @@ Note: Sample packing (packing multiple short examples into one sequence) signifi
 **Monitoring training on a remote instance.** Use Weights & Biases (free tier) or TensorBoard for training metrics. Key metrics to watch: training loss (should decrease), validation loss (stop if it starts increasing — sign of overfitting), and gradient norm (should stay under 1.0; spikes indicate instability). For a 2-hour run, connect `wandb` to Axolotl config with two lines and monitor from your phone if desired.
 
 **Security note for network data.** If your training data contains real network configurations, IP addresses, credentials, or proprietary topology information, do not upload it to a cloud GPU instance without appropriate scrubbing. Sanitize all IPs, hostnames, credentials, and identifying information before training on rented infrastructure. The cloud GPU instance's storage is not private.
+
+## Notable Developments
+
+- **2026-10:** Reported on-demand rates: H100 SXM about $2.54–2.65/hr (Spheron, Jun–Oct 2026); B200 about $4.99–5.89/hr at Lambda, Runpod and Nebius, up to ~$14/hr at AWS (June 2026 data; Runpod reportedly repriced to $7.99). Rates vary widely and move often, so verify before budgeting; the A100/H100 figures in this entry's tables are older estimates
 
 ## Sources
 

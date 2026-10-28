@@ -1,7 +1,7 @@
 ---
 title: "ROS 2 (Robot Operating System 2)"
 date: 2026-06-26
-lastmod: 2026-06-26
+lastmod: 2026-10-26
 draft: false
 description: "Open-source middleware framework for robot software development; the de facto standard for professional and research robotics; publish-subscribe communications, hardware abstraction, sensor drivers, and tooling built on DDS transport."
 research_area: "robotics/ros2"
@@ -10,7 +10,7 @@ source_urls:
   - "https://design.ros2.org/"
   - "https://github.com/ros2/ros2"
   - "https://www.ros.org/about-ros/"
-last_reviewed: 2026-06-26
+last_reviewed: 2026-10-26
 stale_after_days: 180
 related:
   - "robotics/ros2/picknik-robotics.md"

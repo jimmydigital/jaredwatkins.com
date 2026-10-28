@@ -1,7 +1,7 @@
 ---
 title: "Network Engineering Training Data"
 date: 2026-06-10
-lastmod: 2026-06-10
+lastmod: 2026-10-26
 draft: false
 description: "The specific categories, sources, and volume of training data needed to produce a credible network-engineer expert model for Juniper and Cisco devices — covering command generation, configuration, troubleshooting, and tool interpretation."
 research_area: "local-llm-finetuning/training-data"
@@ -10,7 +10,7 @@ source_urls:
   - "https://www.cisco.com/c/en/us/support/docs/"
   - "https://networktocode.com/"
   - "https://github.com/networktocode/ntc-templates"
-last_reviewed: 2026-06-10
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 

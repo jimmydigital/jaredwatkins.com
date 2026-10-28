@@ -1,11 +1,12 @@
 ---
 title: "QuantumScape"
 date: 2026-04-24
-lastmod: 2026-04-24
+lastmod: 2026-10-26
 draft: false
 description: "San Jose anode-free lithium-metal battery company; sulfide-based ceramic separator (Cobra process); QSE-5 B-samples shipping Q3 2025; Eagle Line pilot (Feb 2026) producing commercial-format cells; PowerCo non-exclusive license 40–80 GWh/year; Murata manufacturing partnership for ceramic separators; capital-light licensing model; FY2026 EBITDA guidance −$250M–$275M; $904.7M Q1 2026 liquidity."
 research_area: "energy/batteries"
 source_urls:
+  - "https://www.sec.gov/Archives/edgar/data/0001811414/000119312526427862/qs-ex99_1.htm"
   - "https://www.quantumscape.com"
   - "https://www.quantumscape.com/blog/a-first-look-at-the-qse-5-b-sample/"
   - "https://www.quantumscape.com/resources/blog/coulombic-efficiency-demystified/"
@@ -13,7 +14,7 @@ source_urls:
   - "https://www.volkswagen-group.com/en/press-releases/powerco-and-quantumscape-announce-landmark-agreement-to-industrialize-solid-state-batteries-18494"
   - "https://www.fool.com/earnings/call-transcripts/2026/04/22/quantumscape-qs-q1-2026-earnings-transcript/"
   - "https://www.batterytechonline.com/design-manufacturing/quantumscape-updates-commercialization-strategy-for-solid-state-battery-technology"
-last_reviewed: 2026-04-24
+last_reviewed: 2026-10-26
 stale_after_days: 90
 related:
   - "energy/batteries/lithium-metal.md"
@@ -102,7 +103,8 @@ In Q1 2026, QuantumScape reported continuing partnership development with both M
 - **Technology:** Anode-free lithium-metal cell with sulfide-based solid electrolyte and proprietary ceramic separator ("Cobra" process)
 - **QSE-5 cell specs:** 5 Ah capacity; 844 Wh/L volumetric density; 301 Wh/kg gravimetric density; 12.2-minute 10–80% charge (claimed); >95% capacity retention at 1,000 cycles; coulombic efficiency >99.99%
 - **Cell status:** B1-grade samples shipping to automotive customers (Q3 2025); production ramping at Eagle Line
-- **Eagle Line pilot:** Inaugurated February 2026; designed for higher-volume QSE-5 cell production; Q2 2026 ramping to support customer programs
+- **Eagle Line pilot:** Inaugurated February 2026; fully operational by Q3 2026 and producing higher volumes of QSE-5 cells
+- **Q3 2026:** liquidity $819.8M; GAAP net loss $84.5M; FY2026 adjusted EBITDA loss guidance $250–275M reiterated
 - **Manufacturing partners:** Murata Manufacturing (ceramic separator scale-up, JDA Oct 2025); Corning (separator production scaling partnership, ongoing as of Q1 2026)
 - **Business model:** Capital-light technology licensor model — licensing Cobra process and cell design IP to manufacturers and OEMs rather than building all manufacturing in-house
 - **PowerCo (Volkswagen) license:** Non-exclusive license to produce up to 40 GWh/year cells using QuantumScape technology; option to expand to 80 GWh; announced March 2026; represents QuantumScape's primary automotive partnership
@@ -134,6 +136,7 @@ In 2026, QuantumScape announced expansion into drone/defense aerospace (via IQT 
 
 ## Notable Developments
 
+- **2026-Q3:** Eagle Line fully operational; first customer billings under the June Honda agreement; a new global mobility manufacturer signed; QSE-5 samples shipped to defense, aviation and telecom customers; QS PowerBlock launched October 8 at the OCP Global Summit; Muehlbauer signed for the 100-MWh line (production targeted 2028). ([QuantumScape Q3 2026 shareholder letter](https://www.sec.gov/Archives/edgar/data/0001811414/000119312526427862/qs-ex99_1.htm))
 - **2026-04:** Q1 2026 earnings: $904.7M liquidity; Q1 GAAP net loss $100.8M; FY2026 adjusted EBITDA guidance −$250M to −$275M reconfirmed; Eagle Line production ramping Q2 2026 to support customer programs.
 - **2026-03:** CEO Siva Sivaram publishes one-year-into-CEO-role strategy update (March 2026); outlines capital-light "demonstrate, distribute, develop" licensing model; announces expansion into drones/defense (via IQT partnership), AI data center power, and robotics. ([Battery Tech Online](https://www.batterytechonline.com/design-manufacturing/quantumscape-updates-commercialization-strategy-for-solid-state-battery-technology))
 - **2026-03:** PowerCo (Volkswagen Group's battery unit) announces non-exclusive licensing agreement: up to 40 GWh/year production capacity of cells using QuantumScape's ceramic separator technology; option to expand to 80 GWh. Two separate agreements with combined value ~$260M. PowerCo receives two board seats and has engineers stationed at QuantumScape.
@@ -185,7 +188,7 @@ In 2026, QuantumScape announced expansion into drone/defense aerospace (via IQT 
 
 **⚑ Overlap note:** Celina Mikolajczak (now CTO at [Lyten]({{< relref "lyten.md" >}})) served as VP of Manufacturing at QuantumScape in 2021 before departing to join Lyten in 2022. See Lyten Key People for details.
 
-### People — Last Reviewed: 2026-03-24
+### People — Last Reviewed: 2026-10-26
 
 ## Supply Chain Position
 

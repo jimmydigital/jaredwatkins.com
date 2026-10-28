@@ -1,16 +1,17 @@
 ---
 title: "Fortem Technologies"
 date: 2026-06-05
-lastmod: 2026-07-07
+lastmod: 2026-10-26
 draft: false
 description: "US C-UAS company providing the SkyDome System — TrueView micro-Doppler radar, SkyDome Manager AI software, and DroneHunter autonomous interceptor drone; Lockheed Martin invested $25M in April 2026."
 research_area: "drone-detection/hardware"
 source_urls:
+  - "https://www.techbuzznews.com/fortem-lands-18-million-army-counter-drone-deal-as-federal-momentum-builds/"
   - "https://fortemtech.com/"
   - "https://fortemtech.com/products/dronehunter-f700/"
   - "https://news.lockheedmartin.com/2026-04-22-Lockheed-Martin-Invests-25M-in-Fortem-Technologies-to-Meet-Urgent-Demand-for-Countering-UAS-Threats"
   - "https://dronelife.com/2025/12/04/fortem-and-southern-states-partner-on-grid-defense/"
-last_reviewed: 2026-07-07
+last_reviewed: 2026-10-26
 stale_after_days: 90
 ---
 
@@ -57,6 +58,8 @@ Fortem Technologies (Utah, USA) builds the SkyDome System — an integrated C-UA
 
 ## Notable Developments
 
+- **2026-02:** Three-year, $18M US Army contract for counter-drone deployments at Army sites worldwide (first task order near $4M); DHS names Fortem the only authorized kinetic counter-drone provider for US World Cup venues in 11 host cities. ([TechBuzz](https://www.techbuzznews.com/fortem-lands-18-million-army-counter-drone-deal-as-federal-momentum-builds/))
+- **2026-01:** JIATF-401 selects DroneHunter as its first purchase under Replicator 2.
 - **2026-04:** Lockheed Martin invests $25M in Fortem — accelerating development and sales for defense/critical infrastructure market
 - **2026-01:** DroneHunter 5.0 first customer deliveries — upgraded dual cameras, enhanced computing for autonomous multi-target engagement
 - **2025-12:** Partnership with Southern States for electric grid protection
@@ -68,7 +71,7 @@ Fortem Technologies (Utah, USA) builds the SkyDome System — an integrated C-UA
 - **Timothy Bean** — Co-founder (with Adam Robertson, April 2016); previously CEO, now President and COO
 - **Adam Robertson** — Co-founder
 
-### People — Last Reviewed: 2026-07-07
+### People — Last Reviewed: 2026-10-26
 
 ## Claim Verification
 

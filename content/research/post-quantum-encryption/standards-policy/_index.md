@@ -1,7 +1,7 @@
 ---
 title: "Standards & Policy"
 date: 2026-04-24
-lastmod: 2026-04-24
+lastmod: 2026-10-26
 draft: false
 description: "NIST FIPS standardization, NSA CNSA 2.0 mandates, federal agency directives, and IETF protocol integration for post-quantum cryptography migration"
 research_area: "post-quantum-encryption/standards-policy"
@@ -10,7 +10,7 @@ source_urls:
   - "https://www.nsa.gov/CNSA/"
   - "https://www.cisa.gov/pqc"
   - "https://datatracker.ietf.org"
-last_reviewed: 2026-04-24
+last_reviewed: 2026-10-26
 stale_after_days: 180
 ---
 
