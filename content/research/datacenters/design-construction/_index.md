@@ -1,11 +1,11 @@
 ---
 title: Datacenter Design & Construction
 date: 2026-03-24
-lastmod: 2026-10-26
+lastmod: 2026-10-31
 draft: false
 description: Next-generation datacenter design approaches — modular construction, faster time-to-power, lower cost per MW, and smarter facility architectures for AI workloads.
 research_area: "datacenters/design-construction"
-last_reviewed: 2026-10-26
+last_reviewed: 2026-10-31
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -30,7 +30,7 @@ The conventional datacenter construction playbook — custom-designed facility, 
 - Design standardization and replication: hyperscalers using "copy-exact" facility designs across global sites to compress schedule and reduce engineering cost
 - Time-to-power as a competitive differentiator: colocation operators who can deliver power faster win hyperscaler commitments
 - Rising project abandonment rate: Baird research counted 25 datacenter cancellations in 2025 (vs. 6 in 2024, 2 in 2023); Data Center Watch found 75+ projects worth ~$130B blocked or delayed in Q1 2026 alone, driven by a mix of grid-interconnection delay, public opposition (188–833+ local opposition groups tracked by various counts as of mid-2026), and state moratorium activity — see [Datacenter Opposition]({{< relref "../../datacenter-opposition/_index.md" >}}) for the opposition-specific tracker
-- Long-lead electrical equipment as the on-the-ground bottleneck even after a project clears permitting/politics: medium-voltage switchgear, transformers, and generators running 40–60+ week lead times as of April 2026, per Hut 8's EPC director — a shell can be complete and mechanically roughed in while still waiting on gear to energize
+- Long-lead electrical equipment as the on-the-ground bottleneck even after a project clears permitting/politics: medium-voltage switchgear, transformers, and generators running 40–60+ week lead times as of April 2026, per Hut 8's EPC director — a shell can be complete and mechanically roughed in while still waiting on gear to energize; Giga Energy's vendor-authored lead-time data puts data-center-class padmount transformers at 40+ weeks and power circuit breaker switchboards at 84+ weeks — see [Giga Energy]({{< relref "../power-infrastructure/giga-energy.md" >}})
 
 ## Companies
 

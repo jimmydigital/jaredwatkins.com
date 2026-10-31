@@ -1,11 +1,11 @@
 ---
 title: Datacenter Power Infrastructure
 date: 2026-03-24
-lastmod: 2026-10-26
+lastmod: 2026-10-31
 draft: false
 description: Power sourcing, behind-the-meter generation, grid interconnection, and energy storage for AI-scale datacenters.
 research_area: "datacenters/power-infrastructure"
-last_reviewed: 2026-10-26
+last_reviewed: 2026-10-31
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -26,6 +26,7 @@ Power availability has displaced fiber connectivity as the primary datacenter si
 - Natural gas combustion turbines as the near-term solution for large campuses — faster to permit and build than grid upgrades
 - Nuclear PPAs: Microsoft (Three Mile Island restart), Amazon (Susquehanna), Google (Kairos Power SMR) — establishing nuclear as a mainstream datacenter power source
 - SMRs: NuScale (cancelled first project), TerraPower, X-energy, Kairos Power all pursuing datacenter-adjacent deployments; 2030–2035 timeframe realistic for first commercial SMR datacenter power
+- Distribution-class equipment (padmount transformers, switchgear, switchboards) as a second long-lead bottleneck: 40–52+ weeks for data center classes, with MV switchgear reportedly approaching two to three years — a parallel procurement track to large power transformers; see [Giga Energy]({{< relref "giga-energy.md" >}})
 - Battery energy storage (BESS): used primarily for ride-through and UPS replacement rather than capacity; LFP-based BESS replacing traditional VRLA UPS in new builds
 - PUE implications of power sourcing: behind-the-meter gas turbines have waste heat that can improve facility ERE (Energy Reuse Effectiveness) if captured — the same low-grade heat stream (and the similar-temperature-band heat rejected by liquid-cooled IT loads, see [Cooling]({{< relref "../cooling/_index.md" >}})) is the feedstock liquid-desiccant waste-heat reuse companies such as [Mojave Energy Systems]({{< relref "../cooling/mojave-energy-systems.md" >}}) and [Uravu Labs]({{< relref "../../atmospheric-water-generation/uravu-labs.md" >}}) are targeting for dehumidification/AC and water production, respectively
 - "24/7 clean power" vs. REC (Renewable Energy Certificate) accounting — a significant integrity gap in sustainability claims
@@ -40,6 +41,7 @@ Power availability has displaced fiber connectivity as the primary datacenter si
 | [X-energy](https://x-energy.com) | Rockville, MD, USA | Late Private | Xe-100 pebble bed high-temperature gas-cooled reactor; Amazon Web Services announced investment and power agreement (2023). |
 | [TerraPower](https://www.terrapower.com) | Bellevue, WA, USA | Late Private (Bill Gates-backed) | Natrium sodium fast reactor; Wyoming plant under construction (DOE funded); not specifically datacenter-focused but relevant as near-term SMR. |
 | [Bloom Energy](https://www.bloomenergy.com) | San Jose, CA, USA | Public (NYSE: BE) | Solid oxide fuel cells for on-site power generation; growing datacenter deployments as behind-the-meter alternative; Microsoft and other hyperscalers as customers. |
+| [Giga Energy]({{< relref "giga-energy.md" >}}) | Houston, TX, USA | Private (funding undisclosed) | Vertically integrated maker of padmount transformers, MV/HV substations, and UL891 switchboards plus modular AI data centers and powered land; pitches shorter equipment lead times than 40+ week industry norms (company-reported, unverified). |
 
 ### Public Companies
 
@@ -105,6 +107,8 @@ Power availability has displaced fiber connectivity as the primary datacenter si
 
 **Transformer shortage:** Large power transformers (>100 MVA) now carry lead times of **24–40 months** from major manufacturers (Hitachi Energy, Eaton, GE Vernova). Hitachi Energy CEO Andreas Schierenbeck has warned the transformer sector is "overwhelmed" — the company's backlog reached $43B in early 2026, up from $14B three years prior, with lead times for large units at 40 months despite a committed $6B capacity expansion. This is a binding constraint for large campus buildout — the transformer must be ordered before site selection is finalized. Transformer manufacturing capacity is limited and primarily located in the US, Germany, and South Korea. Chinese transformer manufacturers (TBEA, CHINT) are not typically used in US datacenter supply chains for security reasons.
 
+**Padmount transformer and switchgear lead times:** Below the >100 MVA class, data center projects face a second set of long-lead packages. Giga Energy's lead-time analysis (vendor-authored; cites Wood Mackenzie for averages and EPC/developer quotes for data center classes) puts three-phase padmount transformers at 40+ weeks, standard switchboards at ~52 weeks, power circuit breaker switchboards at 84+ weeks, and medium-voltage switchgear at up to two to three years, against a blended distribution transformer average of ~30 weeks (down from a 2023 peak above 100 weeks). Power transformers average ~128 weeks and generator step-up transformers ~144 weeks. Reported demand growth since 2019 is ~77% for padmount units and ~274% for generator step-up units, with power transformer prices up ~77% and distribution transformer prices up 78–95%. Roughly 80% of US power transformer supply and 50% of distribution transformer supply came from imports in 2025, exposing schedules to tariffs and shipping. Transformer and switchgear packages run in parallel rather than in sequence, so the longer of the two sets the energization date; queue position at the manufacturer, not price, increasingly determines delivery. Giga Energy is a domestic manufacturer positioning against these timelines — see [Giga Energy]({{< relref "giga-energy.md" >}}) for capacity claims and verification status.
+
 **Defense Production Act — Grid Infrastructure (April 2026):** On April 20, 2026, President Trump issued a Presidential Determination under Section 303 of the Defense Production Act, formally designating US power grid infrastructure as essential to national defense. The determination authorizes federal purchases, purchase commitments, and financial support for domestic production of transformers, high-voltage circuit breakers, conductors, capacitor banks, electrical core steel, substation equipment, and power control electronics. The White House finding stated that "America's inadequate energy production, transportation, refining, and generation constitutes an unusual and extraordinary threat to the Nation's economy, national security, and foreign policy" and that "domestic capability for development, manufacturing, and deployment of large-scale energy and energy-related infrastructure is essential to United States national defense." This was accompanied by a parallel DPA determination covering broader energy sector supply chains. The direct impact on near-term lead times is uncertain (analysts at S&P Global noted implementation mechanisms take time to deploy), but the order is a significant policy signal for domestic manufacturing investment and a catalyst for grid equipment suppliers (GEV, ETN, HPS.A). Published in the Federal Register April 23, 2026: [Presidential Determination 2026-10](https://www.federalregister.gov/documents/2026/04/23/2026-08013/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended).
 
 **Three Mile Island restart precedent:** Microsoft's 20-year PPA with Constellation for the Crane Clean Energy Center (restarted TMI Unit 1) established the template for large-scale nuclear datacenter contracts. The deal (announced September 2023, plant restarted September 2024) demonstrated that existing nuclear facilities can be commercially restarted specifically to serve datacenter demand. Watch for similar restart announcements at other prematurely shuttered plants (Palisades, Duane Arnold).
@@ -113,4 +117,4 @@ Power availability has displaced fiber connectivity as the primary datacenter si
 
 **⚑ Shared supply chain — LFP cells:** LFP cells for datacenter UPS/BESS from CATL and BYD are the same cells used in grid-scale storage and increasingly in AMR robot batteries (see robotics/power-systems). A supply crunch in LFP cells would simultaneously affect datacenter UPS infrastructure, grid storage deployments, and industrial robotics.
 
-### Supply Chain — Last Reviewed: 2026-10-26
+### Supply Chain — Last Reviewed: 2026-10-31

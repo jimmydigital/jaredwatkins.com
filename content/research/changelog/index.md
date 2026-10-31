@@ -1,7 +1,7 @@
 ---
 title: "Research Section Changelog"
 date: 2026-04-04
-lastmod: 2026-10-26
+lastmod: 2026-10-31
 draft: false
 description: "Timestamped log of additions and modifications to the Research knowledge base."
 research_area: "research"
@@ -18,6 +18,7 @@ sitemap:
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
 
+- **2026-10-31:** Created [Giga Energy]({{< relref "datacenters/power-infrastructure/giga-energy.md" >}}) — Houston transformer/switchboard maker; 40+ week lead-time thesis; added lead-time notes to [Power Infrastructure]({{< relref "datacenters/power-infrastructure/_index.md" >}}).
 - **2026-10-28:** Refreshed semiconductors and AI accelerators — [ASML]({{< relref "semiconductors/fabrication-equipment/asml.md" >}}) (Q3 sales €11.7B, 2026 guide €44–45B), [Applied Materials]({{< relref "semiconductors/fabrication-equipment/applied-materials.md" >}}) (FQ3 revenue \$9.12B), [Tokyo Electron]({{< relref "semiconductors/fabrication-equipment/tokyo-electron.md" >}}) (H1 FY27 guide ¥1.57T), [Synopsys]({{< relref "semiconductors/chip-design/synopsys.md" >}}) (FQ3 revenue \$2.48B), [TSMC Arizona]({{< relref "semiconductors/us-fab-expansion/tsmc-arizona.md" >}}) (+\$100B, total \$265B), [JSR]({{< relref "semiconductors/materials/jsr.md" >}}) (Entegris cross-license), [AMD MI400/Helios]({{< relref "ai-accelerators/amd-instinct/mi400-helios.md" >}}) (full production, Q3 shipments).
 - **2026-10-28:** Refreshed grid markets, distributed compute and edge accelerators — [PUCT]({{< relref "energy/grid-markets/puct.md" >}}) (SB 6 rules adopted Sept 18, softened), [FERC]({{< relref "energy/grid-markets/ferc.md" >}}) (large-load show-cause orders), [Span]({{< relref "datacenters/distributed-compute/span.md" >}}) (XFRA with NVIDIA, PulteGroup), [Akash]({{< relref "datacenters/distributed-compute/akash-network.md" >}}) (BME mainnet), [EdgeCortix]({{< relref "datacenters/edge-ai-accelerators/edgecortix.md" >}}) (TDK Ventures Series B).
 - **2026-10-28:** Refreshed orbital compute and virtual power plants — [Starcloud]({{< relref "datacenters/orbital-compute/starcloud.md" >}}) (\$250M at \$2.3B), [Project Suncatcher]({{< relref "datacenters/orbital-compute/google-project-suncatcher.md" >}}) (prototype launched Oct 1), [SpaceX orbital compute]({{< relref "datacenters/orbital-compute/spacex-orbital-compute.md" >}}) (1M-satellite FCC filing), [Aetherflux]({{< relref "datacenters/orbital-compute/aetherflux.md" >}}) (Q1 2027 target), [Sunrun]({{< relref "energy/virtual-power-plants/sunrun.md" >}}) (Q2 guidance cut, 16 GW LOI), [Voltus]({{< relref "energy/virtual-power-plants/voltus.md" >}}) (Google 100 MW/yr), [Tesla VPP]({{< relref "energy/virtual-power-plants/tesla-energy-vpp.md" >}}) (500+ MW California dispatch).
