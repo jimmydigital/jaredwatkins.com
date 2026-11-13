@@ -13,6 +13,24 @@ sitemap:
   disable: false
 ---
 
+{{<steering>}}
+
+## Energy — Virtual Power Plants — Steering Instructions
+
+**Scope:** Companies aggregating distributed energy resources (home batteries, smart thermostats, EV chargers, rooftop solar, commercial/industrial curtailable load) into virtual power plants sold to utilities, grid operators, or — increasingly — directly to hyperscalers/AI datacenter operators. In scope: residential/behind-the-meter aggregators and C&I demand-response platforms, the software (DERMS/VPP orchestration) underlying them, and their utility/hyperscaler contracts. Out of scope: the underlying hardware itself when there's no notable VPP/aggregation angle (a home battery maker with no VPP program belongs in `energy/batteries`, not here); centralized generation and transmission (belongs in `datacenters/power-infrastructure` or `datacenters/behind-meter-power`).
+
+**Editorial framing:** Distinguish company scale claims carefully — installed/enrolled device count, theoretical aggregate capacity, and actually-dispatched capacity are three different numbers routinely blended in press materials. A joint marketing announcement (e.g., a multi-company GW figure) is not the same as a contracted or delivered capacity commitment; treat forward-looking aggregate claims as aspirational until tied to a specific customer contract or dispatch record.
+
+**Ownership churn is the norm, not the exception, in this subsection.** Several major players are themselves mergers, spinouts, or PE/strategic acquisitions (Renew Home = Nest Renew + OhmConnect; CPower = Comverge + Constellation, later LS Power-owned; Uplight = six-company merger, later AutoGrid acquisition, later Octopus Energy majority stake). Always check and date-stamp current ownership rather than assuming a company's original founding structure still holds.
+
+**People network cluster specific to this subsection:** EnerNOC (later rebranded Enel X) is a disproportionately common alumni employer among VPP/demand-response executives — flag EnerNOC alumni explicitly per the global People Network Mapping rules, as multiple companies in this subsection share this origin (e.g., Voltus's CEO, President, and Chief Legal Officer are all EnerNOC alumni; EnerNOC's demand-response business itself became Enel North America's).
+
+**Cross-reference:** `energy/batteries/base-power.md` (residential battery VPP with its own retail-electric-provider structure) and `datacenters/distributed-compute/span.md` (distributed grid-edge compute siting) are both adjacent business models — flag shared themes (distributed, residentially-sited infrastructure monetization) without implying a corporate relationship unless one is confirmed.
+
+**Review cadence:** 90 days — this is presently the fastest-moving corner of the energy research section, driven by AI datacenter demand.
+
+{{</steering>}}
+
 > **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
 
 ## Overview

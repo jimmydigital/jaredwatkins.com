@@ -13,6 +13,20 @@ sitemap:
   disable: false
 ---
 
+{{<steering>}}
+
+## Space Launch — Steering Instructions
+
+**Scope boundaries:** IN — orbital launch vehicle developers, lunar lander developers, and in-space orbital transfer ("space tug") vehicle developers; the companies building and operating this hardware. OUT — planetary-exploration mechanisms/tools suppliers and autonomous orbital defense spacecraft (see [Robotics → Space Robotics]({{< relref "../robotics/space-robotics/_index.md" >}})); satellites purpose-built as orbital data centers (see [Datacenters → Orbital Compute]({{< relref "../datacenters/orbital-compute/_index.md" >}})); stratospheric (non-orbital) platforms (see [HALE / HAPS]({{< relref "../hale-haps/_index.md" >}})); pure satellite-constellation operators with no launch-vehicle or lander hardware of their own. BORDERLINE — a launch/lander company that acquires or builds a notable non-launch product line (e.g., a missile-warning sensor subsidiary, a planetary rover): document the parent here, and cross-link to a full entry elsewhere if the product line's primary business fits another section's scope better (e.g., SciTec is filed under Drone Detection because its core business is missile warning/ISR, not launch).
+
+**Editorial framing:** Per the site's general startup-first priority, standalone entries for large, publicly traded launch companies should only be created when there is a genuinely novel, specific angle to document (a first-of-its-kind mission milestone, a notable acquisition, a distinctive vehicle architecture) — not simply because the company is a known player. Commercial lunar landing is a very new capability (first fully successful commercial soft landing was 2025) and merits close tracking regardless of company size for that reason alone.
+
+**Claim verification flags specific to this topic area:** "Fully successful" landing/mission claims should be checked against the specific failure modes of prior attempts in the same class (e.g., a lander that touches down but tips over, as Intuitive Machines' IM-1 did in February 2024, is a partial success, not a full one — verify which category a given mission claim falls into). Payload-capacity claims (kg to LEO/GTO) for vehicles that have not yet flown are design targets, not flight-demonstrated figures — always check flight-heritage status before citing a capacity number as achieved rather than targeted. National-security launch program claims (NSSL Lane 1/Lane 2, "Golden Dome"-related contracts) should be checked against the relevant Space Force Space Systems Command announcement or SAM.gov/USASpending.gov record where possible, since program ceilings and individual task-order awards are frequently conflated in company press materials.
+
+**Review cadence:** 90 days — fast-moving segment with frequent launch attempts, contract awards, and (for younger companies) failure/anomaly events that materially change the risk picture.
+
+{{</steering>}}
+
 > **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
 
 ## Overview

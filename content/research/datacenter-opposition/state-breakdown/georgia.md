@@ -1,7 +1,7 @@
 ---
 title: "Georgia: Project Sail and Rural Opposition"
 date: 2026-05-11
-lastmod: 2026-10-26
+lastmod: 2026-11-11
 draft: false
 description: "Georgia datacenter opposition — Project Sail (Coweta County), Citizens for Rural Coweta, the moratorium cycle, lobbyist access scandals, and the Ashley Park–Wansley transmission line controversy."
 research_area: "datacenter-opposition"
@@ -20,7 +20,9 @@ source_urls:
   - "https://www.datacenterdynamics.com/en/news/prologis-900mw-project-sail-gets-the-go-ahead-in-coweta-county-georgia/"
   - "https://www.ga-eminent-domain.com/latest-projects/ashley-park-wansley-500kv-transmission-line-project-apw500/"
   - "https://www.times-herald.com/news/hundreds-of-property-owners-affected-by-new-ga-power-transmission-line/article_af0da274-cf13-4db3-a9ae-f83cfe56869b.html"
-last_reviewed: 2026-10-26
+  - "https://www.kslaw.com/Insights/Articles/Navigating-New-Headwinds-What-the-2026-Election-Results-Mean-for-Data-Center-Projects-in-Texas"
+  - "https://www.wrdw.com/2026/11/06/election-may-bring-reckoning-data-centers-georgia/"
+last_reviewed: 2026-11-11
 stale_after_days: 60
 ---
 
@@ -211,6 +213,8 @@ The Georgia General Assembly has been the site of significant data center policy
 
 - **2025-12:** The Public Service Commission unanimously approved nearly 10,000 MW for Georgia Power, mostly for data centers (about 58% gas, 42% battery and solar); a stipulation guarantees revenue for 2029–2031 to avoid roughly $20 a month in added bills. Prospective large-load projects grew from about 16,000 MW in 2023 to about 69,000 MW. Data centers of 100 MW or more must sign 15-year minimum contracts and pay transmission costs upfront; the Sierra Club says large-load contracts are not visible to the public. Base rates are frozen through 2028. ([WANF, March 2026](https://www.atlantanewsfirst.com/2026/03/17/georgia-psc-chairman-defends-data-center-power-expansion-amid-criticism))
 
+- **2026-11-03:** Democrat Keisha Lance Bottoms won the governorship (roughly 54% in unofficial returns) after promising a temporary pause on new data center construction while the state reassesses; no mechanism or length has been announced. Democrats also won both contested Public Service Commission seats and now hold a 3–2 majority (Peter Hubbard, Shelia Edwards, Alicia Johnson). The PSC sets the price and terms of utility service rather than deciding whether or where data centers are built, and the December 2025 Georgia Power certifications are unlikely to be undone; projects zoned before local moratoriums (for example near Augusta) are not reached by them. The new majority will oversee large-load contract review, the next resource plan and rate treatment when the base-rate freeze expires. ([King & Spalding](https://www.kslaw.com/Insights/Articles/Navigating-New-Headwinds-What-the-2026-Election-Results-Mean-for-Data-Center-Projects-in-Texas); [WRDW](https://www.wrdw.com/2026/11/06/election-may-bring-reckoning-data-centers-georgia/))
+
 ## Key Takeaways
 
 1. **Procedural fairness as a contested issue.** Unlike Virginia's PW Digital Gateway (where procedural errors by the county were the winning legal theory), the Georgia case centers on substantive consistency with the comprehensive plan. The lobbying access scandal adds a procedural fairness dimension that may inform political organizing even if it does not provide a direct legal basis.
@@ -220,6 +224,8 @@ The Georgia General Assembly has been the site of significant data center policy
 3. **PAC formation signals electoral escalation.** The formation of Citizens for Rural Coweta PAC targeting the three yes-voting commissioners represents a maturation of opposition strategy from reactive (testimony, petitions) to proactive (electoral accountability). Whether the PAC succeeds depends on Coweta County's electoral calendar.
 
 4. **Georgia legislature's 20+ failed reform bills.** The inability to pass any of the 20+ data center reform bills in 2025 despite significant public opposition and media attention suggests that industry lobbying at the state level in Georgia is particularly effective — more so than in Virginia or Maine, where some reforms did pass.
+
+5. **The 2026 election shifted the state-level balance.** A governor-elect pledging a pause and a Democratic PSC majority replace the setting in which 20+ reform bills failed in 2025, but their reach is limited to executive action, utility terms and what a still-divided legislature allows.
 
 ---
 
@@ -243,3 +249,5 @@ The Georgia General Assembly has been the site of significant data center policy
 - [South Metro Atlanta communities to benefit from new transmission infrastructure projects including Ashley Park–Wansley line - Georgia Power](https://www.georgiapower.com/news-hub/press-releases/south-metro-atlanta-communities-to-benefit-from-new-transmission-infrastructure-projects.html)
 - [Rural Georgia Takes On Big Tech's AI Power Surge - OilPrice.com](https://oilprice.com/Latest-Energy-News/World-News/Rural-Georgia-Takes-On-Big-Techs-AI-Power-Surge.html)
 - [Impact of data centers in Georgia 'a mixed bag' - Capitol Beat](https://capitol-beat.org/2025/07/impact-of-data-centers-in-georgia-a-mixed-bag/)
+- [Navigating New Headwinds - King & Spalding (Nov 6, 2026)](https://www.kslaw.com/Insights/Articles/Navigating-New-Headwinds-What-the-2026-Election-Results-Mean-for-Data-Center-Projects-in-Texas)
+- [From boom to backlash: Ga. election brings a reckoning for data centers - WRDW (Nov 6, 2026)](https://www.wrdw.com/2026/11/06/election-may-bring-reckoning-data-centers-georgia/)

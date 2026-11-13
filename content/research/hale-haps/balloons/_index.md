@@ -1,11 +1,11 @@
 ---
 title: "Stratospheric Balloons"
 date: 2026-08-03
-lastmod: 2026-08-03
+lastmod: 2026-11-12
 draft: false
 description: "Free-flying and maneuverable stratospheric balloons used as persistent or long-dwell platforms for Earth observation, telecom, ELINT, and imaging, typically at 55,000-95,000 ft."
 research_area: "hale-haps/balloons"
-last_reviewed: 2026-08-03
+last_reviewed: 2026-11-12
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -19,7 +19,7 @@ Balloon-based HAPS trade the persistent, indefinite station-keeping of a solar-e
 
 ## Entries
 
-- [Near Space Labs]({{< relref "near-space-labs.md" >}}) — Brooklyn, NY; Swift zero-emission balloon robots capture 7cm-resolution imagery for P&C insurance; $20M Series B (Apr 2025) led by Bold Capital Partners
+- [Near Space Labs]({{< relref "near-space-labs.md" >}}) — Brooklyn, NY; Swift zero-emission balloon robots capture 7cm-resolution imagery for P&C insurance; \$20M Series B (Apr 2025) led by Bold Capital Partners; state-level coverage programs starting with Texas (Mar 2026)
 
 **Documented in [Drone Detection → High-Altitude Platforms]({{< relref "../../drone-detection/high-altitude-platforms/_index.md" >}}):** these balloon and aerostat companies have full entries there because their current or emerging mission set centers on detection/ELINT rather than civil imaging or comms —
 
@@ -36,11 +36,11 @@ Balloon-based HAPS trade the persistent, indefinite station-keeping of a solar-e
 
 | Company | HQ | Stage | Mission |
 |---------|-----|-------|---------|
-| [Near Space Labs](https://www.nearspacelabs.com) | USA (Brooklyn, NY) | Series B ($20M, Apr 2025) | Swift zero-emission stratospheric balloon imaging (7cm resolution); P&C insurance, government, environmental monitoring |
+| [Near Space Labs](https://www.nearspacelabs.com) | USA (Brooklyn, NY) | Series B (\$20M, Apr 2025) | Swift zero-emission stratospheric balloon imaging (7cm resolution); P&C insurance, government, environmental monitoring |
 | [World View](https://worldview.space) | USA (Tucson, AZ) | Acquired by Ondas (2026) | Stratollite stratospheric balloon — [full entry]({{< relref "../../drone-detection/high-altitude-platforms/world-view-stratollite.md" >}}) |
 | [Aerostar](https://aerostar.com) | USA (Sioux Falls, SD) | Growth (division of Raven Industries/CNH) | Thunderhead stratospheric balloons and airships — [full entry]({{< relref "../../drone-detection/high-altitude-platforms/aerostar.md" >}}) |
-| [Urban Sky](https://www.urbansky.com) | USA (Denver, CO) | Series B ($30M, Feb 2025) | Microballoon (mHAB) stratospheric imaging — [full entry]({{< relref "../../drone-detection/high-altitude-platforms/urban-sky.md" >}}) |
-| [Kalam Labs](https://kalamlabs.io) | India (Lucknow) | Early (~$2M raised) | Balloon-launched stratospheric UAV — [full entry]({{< relref "../../drone-detection/high-altitude-platforms/kalam-labs.md" >}}) |
+| [Urban Sky](https://www.urbansky.com) | USA (Denver, CO) | Series B (\$30M, Feb 2025) | Microballoon (mHAB) stratospheric imaging — [full entry]({{< relref "../../drone-detection/high-altitude-platforms/urban-sky.md" >}}) |
+| [Kalam Labs](https://kalamlabs.io) | India (Lucknow) | Early (~\$2M raised) | Balloon-launched stratospheric UAV — [full entry]({{< relref "../../drone-detection/high-altitude-platforms/kalam-labs.md" >}}) |
 | [Hemeria](https://www.hemeria-group.com) | France | Private (Safran MoU, Jun 2026) | BalMan maneuverable stratospheric balloon — [full entry]({{< relref "../../drone-detection/high-altitude-platforms/hemeria-balman.md" >}}) |
 
 ### Incumbents

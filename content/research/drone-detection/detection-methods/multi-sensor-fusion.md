@@ -1,15 +1,14 @@
 ---
 title: "Multi-Sensor Fusion"
 date: 2026-06-05
-lastmod: 2026-06-05
+lastmod: 2026-11-12
 draft: false
 description: "Combining radar, RF, acoustic, and optical/thermal sensors for reliable drone detection — each modality covers the others' blind spots; fusion is required to detect the full threat spectrum including RF-dark drones."
 research_area: "drone-detection/detection-methods"
 source_urls:
   - "https://www.sciencedirect.com/science/article/pii/S1874548225000058"
   - "https://drone-warfare.com/counter-uas/multi-sensor-fusion/"
-  - "https://pmc.ncbi.nlm.nih.gov/articles/PMC11054550/"
-last_reviewed: 2026-06-05
+last_reviewed: 2026-11-12
 stale_after_days: 180
 ---
 
@@ -17,14 +16,17 @@ stale_after_days: 180
 
 ## Summary
 
-No single sensor modality covers the full drone threat spectrum. Multi-sensor fusion — combining radar, RF, acoustic, and EO/IR sensors with AI-driven data fusion — is the current best practice for critical infrastructure protection. The key fusion benefit: radar detects all flying objects including RF-dark threats; RF narrows identity and locates operators for compliant drones; acoustic provides close-in coverage of RF-dark threats; optical provides positive ID and works against fiber-optic drones. Fused systems dramatically reduce false positives from birds compared to any single sensor.
+No single sensor modality covers the full drone threat spectrum. Multi-sensor fusion — combining radar, RF, acoustic, and EO/IR sensors with AI-driven data fusion — is the current best practice for critical infrastructure protection. The key fusion benefit: radar detects all flying objects including RF-dark threats; RF narrows identity and locates operators for compliant drones; acoustic provides close-in coverage of RF-dark threats; optical provides positive ID and works against fiber-optic drones. Fusing independent sensors is generally reported to reduce bird false positives compared with any single sensor.
 
 ## Key Facts
 
 - **Best practice:** All serious commercial C-UAS platforms (Dedrone, DroneShield DroneSentry, Fortem SkyDome) are multi-sensor fusion architectures
 - **Fusion layers:** Sensor-level (raw data fusion), feature-level (extract features from each sensor then fuse), decision-level (each sensor decides independently then vote/arbitrate)
-- **Bird false-positive reduction:** RF+acoustic fusion achieves ~98% vs. ~80% for acoustic alone (Wang et al.)
 - **RF-dark coverage:** Requires at least radar or acoustic/optical in the stack — RF-only systems cannot detect fiber-optic or autonomous waypoint drones
+
+## What It Is / How It Works
+
+Fusion software ingests tracks or raw detections from each sensor, aligns them in time and space, associates detections that belong to the same object, and outputs one classified track with a confidence level. Track-level association is the most common approach in fixed-site products: radar supplies range, bearing and micro-Doppler signature; RF supplies identity and operator location where a link exists; acoustic and EO/IR add corroboration and classification. The fused picture then drives alert thresholds and camera cueing. See [Deployment Architecture]({{< relref "deployment-architecture.md" >}}) for how this is laid out at a site.
 
 ## Sensor Modality Coverage Matrix
 
@@ -60,8 +62,23 @@ For an operator defending fixed critical infrastructure (emergency shelter, subs
 
 All four layers feed a fusion engine (commercial platform or open-source integration). The radar is the non-optional element for full-spectrum coverage.
 
+## Notable Developments
+
+- **2026-09:** Fortem Technologies announced a \$50M Series B round.
+- **2026-03:** DroneShield and Robin Radar announced a partnership integrating radar into the DroneSentry fusion stack.
+- **2026-03:** Fortem and Lockheed Martin announced a collaboration involving Fortem's radar and fusion technology.
+- **2026:** NATO's TIE 2026 exercise included work toward STANREC 4869 on counter-UAS data sharing.
+
+## Key Organizations
+
+- **Dedrone (Axon)** — DedroneTracker.AI multi-sensor software platform
+- **DroneShield** — DroneSentry and SensorFusionAI engine
+- **Robin Radar** — drone-detection radar supplier
+- **Fortem Technologies** — TrueView radar and SkyDome Manager
+- **Lockheed Martin** — collaboration partner of Fortem (March 2026)
+- **NATO** — counter-UAS interoperability exercises and standardization
+
 ## Sources
 
 - [Advances in UAV detection: integrating multi-sensor systems and AI — ScienceDirect 2025](https://www.sciencedirect.com/science/article/pii/S1874548225000058)
 - [Counter-UAS 101: Multi-Sensor Fusion — Drone Warfare](https://drone-warfare.com/counter-uas/multi-sensor-fusion/)
-- [Drones Detection Using Fusion of RF and Acoustic Features — PMC 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11054550/)

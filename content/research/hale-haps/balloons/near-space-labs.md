@@ -1,16 +1,18 @@
 ---
 title: "Near Space Labs"
 date: 2026-08-03
-lastmod: 2026-08-03
+lastmod: 2026-11-12
 draft: false
-description: "Brooklyn, NY-based stratospheric balloon Earth-observation company; its zero-emission Swift robots fly at 60,000-85,000 ft capturing 7cm-resolution imagery for P&C insurance and government customers, and closed a $20M Series B in April 2025 led by Bold Capital Partners."
+description: "Brooklyn, NY-based stratospheric balloon Earth-observation company; its zero-emission Swift robots fly at 60,000-85,000 ft capturing 7cm-resolution imagery for P&C insurance and government customers; closed a $20M Series B in April 2025 led by Bold Capital Partners and in 2026 began dedicated state coverage programs starting with Texas."
 research_area: "hale-haps/balloons"
 source_urls:
   - "https://www.nearspacelabs.com/leadership"
   - "https://www.nearspacelabs.com/tech"
   - "https://www.businesswire.com/news/home/20241121549156/en/Near-Space-Labs-Announces-Nationwide-Deployment-of-Stratospheric-Robots-Featuring-New-Industry-Leading-7cm-Resolution-Aerial-Imagery"
   - "https://www.businesswire.com/news/home/20251007286224/en/Google-X-Founding-Member-and-Project-Loon-Leader-Tom-Chi-Joins-Near-Space-Labs-as-Strategic-Investor-and-Board-Observer"
-last_reviewed: 2026-08-03
+  - "https://techcrunch.com/2025/04/29/near-space-labs-nabs-20m-to-take-its-high-res-imaging-swift-robots-into-the-stratosphere"
+  - "https://iireporter.com/near-space-labs-scales-stratospheric-imagery-for-insurance/"
+last_reviewed: 2026-11-12
 stale_after_days: 90
 ---
 
@@ -24,9 +26,9 @@ Near Space Labs is a Brooklyn, NY-based Earth-observation company that flies "Sw
 
 - **Founded:** 2017 (per company's own November 2024 press release), based in Brooklyn, NY
 - **Type:** Private company — stratospheric balloon imaging platform + data/analytics
-- **Status:** Active; nationwide US deployment reached November 2024; continuing expansion as of 2025-2026
+- **Status:** Active; nationwide US deployment reached November 2024; in March 2026 the company said imagery coverage was launching in an initial cohort of eight states, with a dedicated coverage program in Texas and more than 100 Swift platforms in production (company figures reported by trade press)
 - **Platform ("Swift"):** 12-lb autonomous balloon-lifted imaging robot; operates at 60,000-85,000 ft; captures up to 1,000 sq km of imagery per flight (roughly equivalent to New York City's five boroughs); 7cm image resolution
-- **Funding:** $20 million Series B (announced April 29, 2025), led by Bold Capital Partners (Peter Diamandis/XPRIZE-founded firm), with participation from USAA, Climate Capital, Gaingels, and River Park Ventures, alongside existing investors Crosslink Capital, Third Sphere, and Draper Associates. A company press release from November 2024 (pre-Series B) stated the company had raised $14.5 million to date; third-party aggregators (Tracxn) describe total funding as "more than $40 million" post-Series B — treat the aggregate figure as an estimate, since it isn't confirmed in a company-published source fetched in this review
+- **Funding:** \$20 million Series B (announced April 29, 2025), led by Bold Capital Partners (Peter Diamandis/XPRIZE-founded firm), with participation from USAA, Climate Capital, Gaingels, and River Park Ventures, alongside existing investors Crosslink Capital, Third Sphere, and Draper Associates. A company press release from November 2024 (pre-Series B) stated the company had raised \$14.5 million to date; TechCrunch reported at the Series B that the company had raised over \$40 million in total, including a \$13 million Series A in 2021 — a figure that does not reconcile with the \$14.5 million the company itself cited five months earlier, so treat the aggregate as approximate
 - **Notable investor/board addition:** Tom Chi, a founding member of Google X and former head of Google's Project Loon (Google's own stratospheric-balloon internet program), joined as a strategic investor and board observer (announced October 2025)
 
 ## What It Is / How It Works
@@ -39,10 +41,11 @@ The core commercial driver, per the company's own November 2024 release, is the 
 
 ## Notable Developments
 
+- **2026-03-05:** Insurance Innovation Reporter reported a dedicated Texas coverage program delivering 7 cm imagery, with capture twice a year, as the first phase of an eight-state rollout; the company said more than 100 Swift platforms were in production and that the prior year brought a sixfold increase in revenue. The company estimated about \$2.5 billion of Texas direct written premium may rest on outdated or incomplete imagery — a company marketing estimate, not an independent figure.
 - **2025-10-07:** Tom Chi (Google X founding member, former head of Google's Project Loon stratospheric-balloon program) joins Near Space Labs as a strategic investor and board observer
 - **2025-09-22:** Company appoints Jacob Grob as Vice President of Sales to lead expansion into insurance, reinsurance, and adjacent geospatial markets
-- **2025-04-29:** Closes $20 million Series B led by Bold Capital Partners, with USAA, Climate Capital, Gaingels, and River Park Ventures joining existing investors Crosslink Capital, Third Sphere, and Draper Associates; funding earmarked to expand imagery coverage toward 80% of the US population, refreshed twice yearly
-- **2024-11-21:** Announces nationwide US deployment of the Swift fleet with upgraded 7cm-resolution imagery — described by the company as the first nationwide network of stratospheric imaging robots; company states $14.5 million raised to date as of this release
+- **2025-04-29:** Closes \$20 million Series B led by Bold Capital Partners, with USAA, Climate Capital, Gaingels, and River Park Ventures joining existing investors Crosslink Capital, Third Sphere, and Draper Associates; funding earmarked to expand imagery coverage toward 80% of the US population, refreshed twice yearly
+- **2024-11-21:** Announces nationwide US deployment of the Swift fleet with upgraded 7cm-resolution imagery — described by the company as the first nationwide network of stratospheric imaging robots; company states \$14.5 million raised to date as of this release
 
 ## Key People
 
@@ -50,22 +53,23 @@ The core commercial driver, per the company's own November 2024 release, is the 
 - **Ignasi Lluch** — CTO & Co-Founder. LinkedIn: [linkedin.com/in/ignasilc](https://www.linkedin.com/in/ignasilc/).
 - **Albert Caubet** — Chief Engineer & Co-Founder (named as a 2017 co-founder in company materials). LinkedIn: [linkedin.com/in/albert-caubet](https://www.linkedin.com/in/albert-caubet/).
 - **Asa Block** — Chief Operating Officer. LinkedIn: [linkedin.com/in/ajiblock](https://www.linkedin.com/in/ajiblock/).
+- **Matthew Tucker** — Chief Revenue Officer (title per a March 2026 Insurance Innovation Reporter article; not listed on the company's leadership page). LinkedIn: not found (not searched this review).
 - **Tom Chi** — Strategic investor and board observer (joined October 2025). Publicly known as a founding member of Google X and former head of Google's Project Loon. **⚑ Overlap:** Project Loon (Alphabet/Google X's own stratospheric-balloon internet program, shut down in 2021) is the closest historical analog to the balloon-based HAPS companies tracked in this section — Chi's move to Near Space Labs' board is a direct personnel link between that earlier Alphabet program and the current commercial stratospheric-balloon field.
 
-### People — Last Reviewed: 2026-08-03
+### People — Last Reviewed: 2026-11-12
 
 ## Claim Verification
 
-### Claim: $20 million Series B closed April 29, 2025, led by Bold Capital Partners
+### Claim: \$20 million Series B closed April 29, 2025, led by Bold Capital Partners
 **Status:** Verified.
 **Supporting sources:** [Near Space Labs Series B announcement — BusinessWire (Apr 29, 2025)](https://www.businesswire.com/news/home/20250429877869/en/Near-Space-Labs-Raises-%2420M-Series-B-Round-to-Scale-Stratospheric-Imaging-for-the-AI-Age) confirms round size, lead investor, and participant list.
 **Summary:** Confirmed via the company's own wire-service press release.
 
-### Claim: Total funding raised "more than $40 million" (post-Series B)
-**Status:** Unverified.
-**Supporting sources:** Referenced in Tracxn's third-party company-profile aggregation, surfaced via web search; not fetched from a Near Space Labs primary source in this session.
-**Refuting/questioning sources:** Near Space Labs' own November 2024 press release states $14.5 million raised to date, which combined with the confirmed $20M Series B implies roughly $34.5M — short of the "$40M+" aggregator figure — unless additional undisclosed funding occurred between November 2024 and April 2025.
-**Summary:** Treat the "$40M+" total as a third-party estimate only; the two company-sourced figures ($14.5M pre-Series-B + $20M Series B) support a more conservative ~$34.5M+ total.
+### Claim: Total funding raised "more than \$40 million" (post-Series B)
+**Status:** Partially verified.
+**Supporting sources:** [TechCrunch (Apr 29, 2025)](https://techcrunch.com/2025/04/29/near-space-labs-nabs-20m-to-take-its-high-res-imaging-swift-robots-into-the-stratosphere) states the company "has now raised over \$40 million," including a \$13 million Series A in 2021.
+**Refuting/questioning sources:** Near Space Labs' own November 2024 press release states \$14.5 million raised to date, which combined with the confirmed \$20M Series B implies roughly \$34.5M — short of the "\$40M+" figure — unless additional undisclosed funding occurred between November 2024 and April 2025.
+**Summary:** Independent press reports "over \$40 million"; the two company-sourced figures support a more conservative ~\$34.5M+. The gap is unexplained.
 
 ### Claim: Swift captures up to 1,000 sq km of imagery per flight at 7cm resolution, operating 60,000-85,000 ft
 **Status:** Verified (company-stated technical specification).
@@ -78,5 +82,7 @@ The core commercial driver, per the company's own November 2024 release, is the 
 - [Near Space Labs — Leadership](https://www.nearspacelabs.com/leadership)
 - [Near Space Labs — Our Tech](https://www.nearspacelabs.com/tech)
 - [Near Space Labs Announces Nationwide Deployment of Stratospheric Robots Featuring New Industry-Leading 7cm Resolution Aerial Imagery — BusinessWire (Nov 21, 2024)](https://www.businesswire.com/news/home/20241121549156/en/Near-Space-Labs-Announces-Nationwide-Deployment-of-Stratospheric-Robots-Featuring-New-Industry-Leading-7cm-Resolution-Aerial-Imagery)
-- [Near Space Labs Raises $20M Series B Round to Scale Stratospheric Imaging for the AI Age — BusinessWire (Apr 29, 2025)](https://www.businesswire.com/news/home/20250429877869/en/Near-Space-Labs-Raises-%2420M-Series-B-Round-to-Scale-Stratospheric-Imaging-for-the-AI-Age)
+- [Near Space Labs Raises \$20M Series B Round to Scale Stratospheric Imaging for the AI Age — BusinessWire (Apr 29, 2025)](https://www.businesswire.com/news/home/20250429877869/en/Near-Space-Labs-Raises-%2420M-Series-B-Round-to-Scale-Stratospheric-Imaging-for-the-AI-Age)
 - [Google X Founding Member and Project Loon Leader Tom Chi Joins Near Space Labs as Strategic Investor and Board Observer — BusinessWire (Oct 7, 2025)](https://www.businesswire.com/news/home/20251007286224/en/Google-X-Founding-Member-and-Project-Loon-Leader-Tom-Chi-Joins-Near-Space-Labs-as-Strategic-Investor-and-Board-Observer)
+- [TechCrunch: Near Space Labs nabs \$20M to take its high-res imaging Swift robots into the stratosphere (Apr 29, 2025)](https://techcrunch.com/2025/04/29/near-space-labs-nabs-20m-to-take-its-high-res-imaging-swift-robots-into-the-stratosphere) — total raised, 2021 Series A, founders' backgrounds
+- [Insurance Innovation Reporter: Near Space Labs Targets Underwriting Blind Spots (Mar 5, 2026)](https://iireporter.com/near-space-labs-scales-stratospheric-imagery-for-insurance/) — Texas coverage program, eight-state cohort, Swift production count, CRO Matthew Tucker

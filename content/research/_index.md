@@ -1,9 +1,9 @@
 ---
 title: Research
 date: 2026-03-23
-lastmod: 2026-10-21
+lastmod: 2026-11-12
 draft: false
-last_reviewed: 2026-10-21
+last_reviewed: 2026-11-12
 description: AI-maintained knowledge base on emerging technology topics.
 sitemap:
   changefreq: "monthly"
@@ -18,6 +18,10 @@ sitemap:
 This block contains editorial and structural guidelines for AI tools maintaining the Research section. Human editors may also refer to it, but it is written primarily as a system spec for automated agents.
 
 **Note for AI tools:** This entire steering block is wrapped in `{{</* steering */>}}` / `{{</* /steering */>}}` shortcode tags. This shortcode renders nothing to the Hugo output — the content is invisible on the live site but fully present in the source file for tool access. Any file that contains AI steering instructions should use the same pattern: wrap them in `{{</* steering */>}}...{{</* /steering */>}}` rather than `<details>` or HTML comments.
+
+---
+
+**Scope of this document:** This root steering block holds only cross-cutting rules (structure, process, verification, formatting). Topic-specific guidance — scope boundaries, editorial framing, topic-specific claim-verification flags, review cadence — lives in a steering block in that topic's own `_index.md`. Read both the root block and the target section's block before writing or editing. Do not add topic- or company-specific content to this root block.
 
 ---
 
@@ -218,7 +222,7 @@ Section landing pages (`_index.md`) contain only `## Overview` and optionally `#
 - A source URL is broken or outdated.
 
 **Update rules:**
-- Always update `lastmod` and `last_reviewed` in frontmatter.
+- Always update `lastmod` and `last_reviewed` in frontmatter (use `scripts/research_index.py stamp` — see Research Index below), then run `scripts/research_index.py update`.
 - Prepend to `Notable Developments` (newest first); do not delete prior entries unless factually wrong.
 - Revise `What It Is / How It Works` in place — don't overwrite wholesale.
 - Add new source URLs; don't remove old ones unless dead and unarchivable.
@@ -300,6 +304,31 @@ Do not create stub entries just to satisfy a link.
 - Fast-moving subjects (active startups, recent breakthroughs): 90 days
 - Stable reference entries (established companies, mature tech): 365 days
 - On review: update `Notable Developments`, verify key facts, check for broken source URLs, update `last_reviewed` and `lastmod`.
+- `last_reviewed` may be newer than `lastmod`: a review that finds nothing to change updates only `last_reviewed`. `lastmod` marks content changes.
+
+---
+
+### Research Index (age and modification tracking)
+
+Every file under `content/research/` is tracked in a generated index so automation can find entries that are due for review and see what changed. Frontmatter stays the source of truth; the index is derived from it by `scripts/research_index.py` (Python 3, standard library only, run from the repository root).
+
+- `data/research/index.json` — one record per file: dates, review cadence, due date, content hash, revision count.
+- `data/research/history.jsonl` — append-only log of added / modified / reviewed / moved / removed events.
+
+**Never edit either file by hand.** Both are committed to git alongside the content they describe.
+
+**Required workflow for AI tools:**
+
+1. **Choosing what to refresh:** run `python3 scripts/research_index.py stale --limit N` (add `--area energy/nuclear` to scope it, `--within 14` to include entries coming due, `--json` for machine-readable output). Work from that list, most overdue first — do not pick refresh targets by guesswork or by browsing directories.
+2. **After reviewing or editing a file:** run `python3 scripts/research_index.py stamp <path> [<path> ...]` to set `lastmod` and `last_reviewed` to today instead of typing dates. Use `--modified-only` for an edit that was not a full review (it sets `lastmod` only).
+3. **At the end of any task that created, edited, moved or deleted research files:** run `python3 scripts/research_index.py update`. This is automatic, like the changelog — do not wait for user instruction. Read its output: a `WARNING content changed but lastmod not bumped` line means a file was edited without step 2; stamp it and run `update` again.
+4. **Before finishing:** `python3 scripts/research_index.py check` must report 0 errors for the files touched in this task (missing required frontmatter, malformed or future dates, `lastmod` earlier than `date`).
+
+**Reorganizing sections:** when directories or files are moved or renamed, `update` detects that indexed paths no longer exist and rebuilds the whole index on its own, matching each file to its previous location (identical content, then filename + title, then title) so its history and revision count follow it. After a reorganization also run `python3 scripts/research_index.py rebuild --fix-areas`, which rewrites any `research_area` that no longer matches the file's new location. `rebuild` can be run at any time and is always safe; it is also the fix if the index file is ever missing or damaged.
+
+**Inspection:** `show <path>` prints one file's record and full history (including earlier locations); `stats` prints file counts, overdue counts and review age by topic area.
+
+The changelog page is indexed but never appears in the `stale` queue. `_to_delete/` folders are ignored.
 
 ---
 
@@ -513,207 +542,6 @@ When a company entry covers a Chinese-owned entity (headquartered in mainland Ch
 - Append 🇨🇳 after the company name in every table where it appears
 - Note the Chinese ownership in the **Key Facts** section
 - In the **Claim Verification** section, apply a higher bar for verification: prefer sources from independent Western labs, peer-reviewed journals, or credible non-Chinese media; treat company-issued figures as unverified until corroborated
-
----
-
-### Topic-Area Steering: Datacenters (`research/datacenters/`)
-
-**Scope boundaries:**
-- IN: Physical datacenter infrastructure — cooling, power, construction, physical automation, rack design, connectivity hardware; companies designing, building, or operating innovative datacenter facilities
-- OUT: Cloud computing software, AI model development, chip design (separate sections); routine hyperscaler earnings or campus announcements without a novel infrastructure angle
-- BORDERLINE: Rack-scale compute systems (NVIDIA NVL72, HPE Cray EX) — include only when the physical infrastructure or cooling integration is the notable element, not the compute itself
-
-**Key metrics to document** for cooling technologies and products: PUE (target and measured annualized — not just design); WUE (liters per kWh IT load); rack density supported (kW/rack — air tops out ~15–20 kW, liquid starts at 20 kW); coolant temperature range (supply and return); ERE (Energy Reuse Effectiveness). For construction/design entries: time to power (months greenfield to live), cost per MW (verify whether figure includes land, power infrastructure, fit-out, and redundancy — not just shell-and-core), PUE target, and total MW at full buildout.
-
-**Claim verification flags for datacenters:** Distinguish design PUE from measured annualized PUE. For "supports X kW/rack" claims, verify that figures account for real-world fluid distribution, manifold pressure drops, and redundancy — not just tank theoretical capacity. For autonomous operation claims, establish what fraction of tasks are genuinely automated vs. still requiring human intervention. For "100% renewable" power claims, determine whether the mechanism is RECs (does not change the physical grid mix) or 24/7 matched clean power. For cost per MW claims, see metrics note above.
-
-**Additional entry types for datacenters** (beyond the global company/technology/person/breakthrough types):
-- **Design pattern**: a documented approach being adopted by multiple operators (e.g., zoned hybrid cooling)
-- **Facility entry**: a specific notable datacenter with documented novel infrastructure elements
-- **Standard/specification**: an industry standard relevant to infrastructure (OCP, Open19, ASHRAE thermal guidelines)
-
----
-
-### Topic-Area Steering: Datacenters — Rugged & Edge Compute (`research/datacenters/rugged-edge-compute/`)
-
-**Scope:** Rugged compute platforms designed for operation in harsh, mobile, or contested environments. In scope: server/rack-level compute for airborne, maritime, and ground vehicle deployment; man-portable and wearable AI inference platforms; VPX/OpenVPX modular compute; MOSA/SOSA-compliant systems; tactical edge AI. Out of scope: standard datacenter servers in controlled environments, consumer ruggedized laptops.
-
-**Key terminology to document in relevant entries:**
-- **SWaP / SWaP-C**: Size, Weight, and Power (plus Cost) — the fundamental constraint governing all rugged compute design trade-offs
-- **MOSA / SOSA**: Modular Open Systems Approach / Sensor Open Systems Architecture — DoD acquisition policy and the specific technical standard implementing it; SOSA-aligned products are interoperable across vendors
-- **VPX / OpenVPX**: VITA 65 — high-speed backplane-based modular compute form factor for rugged environments; 3U and 6U card heights
-- **HPEC**: High-Performance Embedded Computing — GPU/FPGA-accelerated rugged compute for signal processing and AI inference
-- **MIL-STD-810**: Environmental test standard (temperature, humidity, shock, vibration, altitude) — the benchmark for ruggedization claims; verify which revision (H is current) and which test methods were applied
-- **MIL-STD-461**: EMI/EMC standard — critical for airborne and naval platforms
-- **ATAK**: Android Team Awareness Kit — DoD tactical situational awareness platform; ATAK compatibility indicates field soldier/operator integration
-
-**Platform tiers** — describe entries by tier: (1) Rack/server tier (1U–4U rackmount for vehicle/aircraft/ship bays); (2) VPX module tier (individual 3U or 6U OpenVPX cards sold to prime contractors); (3) Man-portable/wearable tier (battery-powered, body-worn AI inference, typically NVIDIA Jetson Orin class, ATAK-compatible).
-
-**AI inference metrics:** Track GPU/NPU generation (H100, H200, GB200, RTX PRO 5000 Blackwell, Jetson Orin NX/AGX) and TFLOPS/PetaOPS claims. DoD customers care about INT8/INT4 throughput for inference, not FP64 for training.
-
-**Review cadence:** 90 days for companies with active DoD contracts; 180 days otherwise.
-
----
-
-### Topic-Area Steering: Datacenters — Distributed & Decentralized Compute (`research/datacenters/distributed-compute/`)
-
-**Scope:** Compute infrastructure deliberately sited outside centralized datacenter campuses to bypass grid interconnection delays — residential/small-commercial GPU nodes, at-the-meter or grid-edge inference deployments, and blockchain-coordinated compute marketplaces that aggregate idle third-party hardware. In scope: companies selling or operating this model (Span/XFRA, Akash Network), the power-orchestration or marketplace-coordination technology enabling it, and named hyperscaler/AI-cloud customers. Out of scope: standard cloud/CDN edge computing with no distinctive power or siting angle; pure cryptocurrency mining operations with no AI-compute resale product; behind-the-meter power generation for centralized campuses (see `datacenters/behind-meter-power` — that is about adding new power, this is about better using existing power/hardware).
-
-**Editorial framing:** These are "speed-to-power" plays — the pitch is bypassing multi-year interconnection queues, not necessarily matching centralized-campus scale or reliability. Every entry should distinguish the workload type these approaches actually target (inference, which is latency-tolerant and parallelizable) from workloads they are not suited for (large synchronized training runs), since companies in this space sometimes blur the two in marketing language.
-
-**Claim verification flags specific to this subsection:** Treat "gigawatt-scale" or network-wide capacity claims as aspirational/pipeline-stage unless tied to a specific count of live, operational sites. Live network-status counters (active providers, GPU count) on a company's own site are a real-time snapshot, not a durable fact — note the date checked and expect the number to change. Utilization-rate assumptions underlying consumer earnings estimates (e.g., "$X/year at 50% utilization") are planning assumptions, not observed data, until the product has actually launched. Partner/vendor endorsements (e.g., a GPU supplier praising a distributed-siting customer) carry a commercial interest and are not a substitute for independent benchmarking.
-
-**Cross-references:** Check `energy/batteries` and `energy/grid-markets` for related residential/grid-edge distributed energy resource (DER) companies — a company monetizing distributed home infrastructure for grid services (e.g., Base Power) is a useful comparison point even when its product is batteries rather than compute, and shared themes (not shared corporate ties) should be flagged with a `**⚑ Shared theme:**` note.
-
-**Review cadence:** 90 days — this is a nascent, fast-moving space as of mid-2026 with no company yet at meaningful operational scale.
-
----
-
-### Topic-Area Steering: Energy — Nuclear (`research/energy/nuclear/`)
-
-**Scope:** Fission reactor designs (SMR, microreactor, advanced Gen IV), fuel cycle suppliers, construction and deployment companies, regulatory milestones. Out of scope: nuclear weapons, fusion (track separately if warranted), nuclear medicine.
-
-**Regulatory milestones carry high weight.** NRC Design Certification, Construction Permit, Combined License (COL), and Operating License are discrete verifiable events. Document each with date, document number, and link to the NRC public docket where available. Verify licensing status claims against the NRC docket, not just company press releases.
-
-**Timeline skepticism is essential.** Nuclear construction has a decades-long history of schedule slippage and cost overrun. When a company claims a build time dramatically shorter than industry history, document the claim, the mechanism by which they claim to achieve it, the regulatory preconditions required, and any prior examples of similar claims. Always distinguish design-stage timeline claims from NRC-approved construction schedules.
-
-**SMR-specific flags to track per entry:**
-- Reactor design type (LWR, HTGR, molten salt, sodium fast) — each has distinct licensing precedent and supply chain
-- Fuel type (LEU vs. HALEU) — HALEU supply chain is a critical dependency; Centrus Energy is the only NRC-licensed US HALEU enricher
-- Construction approach (modular/shipyard vs. stick-built)
-- Behind-the-meter vs. grid-connected (datacenter-coupled SMRs avoid grid interconnection delays but require dedicated NRC site approvals)
-
-**Datacenter nuclear overlap:** Document any company with a named datacenter or hyperscaler customer or LOI. Cross-reference with `research/datacenters/power-infrastructure`. Key tracked connections: Blue Energy → Crusoe (Port of Victoria TX); Kairos Power → Google (500 MW PPA by 2035); X-energy → Amazon (multiple sites). Note: NuScale's CFPP project was cancelled 2023 — document and do not treat as active.
-
-**NRC-licensed wording:** describe an entry as NRC-licensed only after NRC Design Certification or COL is granted.
-
-**Review cadence:** 90 days for active pre-construction companies (NRC milestones can change fast); 180 days for early-stage designs; 365 days for stable operational facilities.
-
----
-
-### Topic-Area Steering: Energy — Virtual Power Plants (`research/energy/virtual-power-plants/`)
-
-**Scope:** Companies aggregating distributed energy resources (home batteries, smart thermostats, EV chargers, rooftop solar, commercial/industrial curtailable load) into virtual power plants sold to utilities, grid operators, or — increasingly — directly to hyperscalers/AI datacenter operators. In scope: residential/behind-the-meter aggregators and C&I demand-response platforms, the software (DERMS/VPP orchestration) underlying them, and their utility/hyperscaler contracts. Out of scope: the underlying hardware itself when there's no notable VPP/aggregation angle (a home battery maker with no VPP program belongs in `energy/batteries`, not here); centralized generation and transmission (belongs in `datacenters/power-infrastructure` or `datacenters/behind-meter-power`).
-
-**Editorial framing:** Distinguish company scale claims carefully — installed/enrolled device count, theoretical aggregate capacity, and actually-dispatched capacity are three different numbers routinely blended in press materials. A joint marketing announcement (e.g., a multi-company GW figure) is not the same as a contracted or delivered capacity commitment; treat forward-looking aggregate claims as aspirational until tied to a specific customer contract or dispatch record.
-
-**Ownership churn is the norm, not the exception, in this subsection.** Several major players are themselves mergers, spinouts, or PE/strategic acquisitions (Renew Home = Nest Renew + OhmConnect; CPower = Comverge + Constellation, later LS Power-owned; Uplight = six-company merger, later AutoGrid acquisition, later Octopus Energy majority stake). Always check and date-stamp current ownership rather than assuming a company's original founding structure still holds.
-
-**People network cluster specific to this subsection:** EnerNOC (later rebranded Enel X) is a disproportionately common alumni employer among VPP/demand-response executives — flag EnerNOC alumni explicitly per the global People Network Mapping rules, as multiple companies in this subsection share this origin (e.g., Voltus's CEO, President, and Chief Legal Officer are all EnerNOC alumni; EnerNOC's demand-response business itself became Enel North America's).
-
-**Cross-reference:** `energy/batteries/base-power.md` (residential battery VPP with its own retail-electric-provider structure) and `datacenters/distributed-compute/span.md` (distributed grid-edge compute siting) are both adjacent business models — flag shared themes (distributed, residentially-sited infrastructure monetization) without implying a corporate relationship unless one is confirmed.
-
-**Review cadence:** 90 days — this is presently the fastest-moving corner of the energy research section, driven by AI datacenter demand.
-
----
-
-### Topic-Area Steering: Energy — Pipelines (`research/energy/pipelines/`)
-
-**Scope:** Natural gas pipeline operators and pipeline/power contractors, with emphasis on gas supply to AI datacenters and behind-the-meter (BTM) generation. In scope: interstate and intrastate transporters, midstream gatherers/processors with data center exposure, and builders. Equipment vendors and on-site power developers belong in `datacenters/behind-meter-power/` (Williams lives there; cross-link rather than duplicate).
-
-**Value chain position** — label every entry as pipeline operator, gatherer-processor, or builder/contractor.
-
-**Editorial framing:** Separate (1) signed firm-transport agreements, (2) letters of intent, (3) agreements conditional on a customer FID, and (4) "potential demand" language. Do not report a company-wide contracted-capacity figure as a data center figure. State whether the delivery point is a grid-connected plant, a utility, or an on-site BTM plant. Treat data center demand as contested where litigation or independent analysis disputes it, and cite both sides. Distinguish regulatory track: FERC certificates for interstate projects vs state jurisdiction for intrastate (Texas). KMP is Kinder Morgan Energy Partners, merged into KMI in 2014.
-
-**Components subsection (`energy/pipelines/components/`):** input suppliers (line pipe, steel, coatings, valves). Purpose is early demand signals: tie each supplier order, filing or local news item to a named project only when owner and supplier sources agree on diameter, volume or schedule; otherwise list it as unmatched. Note supplier country and applicable trade actions. Map prior-employer overlaps among supplier, builder and operator executives with ⚑ flags.
-
-**Cross-reference:** `datacenters/behind-meter-power/` for Williams and generation equipment; `energy/grid-markets/` for interconnection context.
-
-**Review cadence:** 90 days; re-check after each quarterly earnings cycle.
-
----
-
-### Topic-Area Steering: Robotics (`research/robotics/`)
-
-**Editorial priority:** The component and subsystem layer — motors, gearboxes, LiDAR sensors, radio subsystems, battery packs — not the platform OEMs. Platform OEM entries (DJI, Boston Dynamics, etc.) provide market context, but the more interesting entries are the materials company solving motor efficiency, the startup building a better harmonic drive, or the researcher commercializing a new LiDAR architecture.
-
-**Value chain position** — every company entry must be described by its position:
-- **Platform OEM** — sells a complete, ready-to-use robot to end customers (DJI, Boston Dynamics, Knightscope, AeroVironment)
-- **Component/subsystem supplier** — sells components or subsystems to OEMs or integrators (T-Motor, Maxon, Ouster, u-blox, Silvus, Intelligent Energy)
-- **Software/AI layer** — sells autonomy software that runs on hardware platforms (Shield AI Hivemind, Skydio AI stack)
-- **Integrator** — assembles third-party components into custom platforms for specific verticals
-
-When a company operates at multiple layers (e.g., DJI makes its own motors AND sells complete drones), note both roles and describe the vertical integration explicitly — it is a significant competitive moat worth documenting.
-
-**Claim verification for robotics — categories requiring scrutiny in every entry:** Endurance claims (confirm test conditions: payload, speed, altitude, temperature — quoted figures almost always assume ideal/unloaded conditions); autonomy claims ("fully autonomous," "zero operator required" — establish human-in-the-loop reality and what regulatory approvals are required and obtained, including FAA Part 107 waivers, BVLOS approvals); unit deployment figures (distinguish units sold vs. units in active service vs. cumulative lifetime deliveries); defense contract claims (verify against USASpending.gov or SAM.gov where possible — press releases routinely overstate contract scope).
-
-**Defense and dual-use notation** for entries with significant defense business: note active DoD contracts and programs (public); note ITAR or EAR implications for export; if a UAS platform appears on the Blue UAS framework (DoD-approved drone procurement list), note explicitly — it is a material commercial differentiator in the US government market. For defense UGV programs, reference the relevant Army program office (DEVCOM GVSC, PEO Soldier) when documenting contracts.
-
-**DJI specifically:** DJI is on the US DoD Chinese military company list and the FCC Covered List (as of 2022–present). The American Security Drone Act (signed 2023) prohibits US federal agencies from procuring DJI and other covered drones. Every DJI entry must prominently note these designations and their practical implications — the regulatory overhang is a material risk that must be documented.
-
-**Rare earth dependency** is a pervasive, often underdiscussed supply chain risk throughout the robotics hardware stack. NdFeB permanent magnet BLDC and servo motors depend on neodymium and dysprosium; China controls ~85% of global rare earth mining and ~90% of processing. This affects every motor and actuator regardless of where the final robot was assembled. Note it in any motor or actuator entry.
-
-**People network clusters in robotics** — flag connections to these origin clusters explicitly (in addition to the global people tracking format):
-- Carnegie Mellon Robotics Institute (Red Whittaker field robotics lab; AMR company founders)
-- MIT CSAIL and AeroAstro (drone and autonomy startups; Russ Tedrake manipulation group)
-- Stanford SAIL/ME (manipulation, legged robots; DJI co-founder Frank Wang, Stanford dropout)
-- iRobot alumni diaspora (wide spread after Amazon acquisition 2022)
-- DJI engineering alumni (several competing drone company founders)
-- DARPA PMs who funded foundational robotics programs and later joined portfolio companies — document these explicitly; the DARPA PM → company advisor/board pipeline is common and worth tracking
-- Ex-Uber ATG / Waymo / Cruise / Aurora engineers moving into AMR and delivery robot startups
-
-**Subsection review cadence:**
-- Aerial drones, Ground drones, Sensors/LiDAR, Power systems: 90 days (fast-moving, regulatory changes)
-- Actuators, Communications: 180 days
-
-**What NOT to include (robotics-specific):** Hobbyist or purely recreational products with no commercial or professional market relevance; "announced" products with no hardware prototype publicly demonstrated (document announcement date, mark Key Facts status as "Announced / Undemonstrated"); AV companies not primarily in the robotics market (Waymo, Cruise, Mobileye — separate AV section); humanoid robots (track in dedicated `humanoid/` subsection when the area warrants it — do not fold into ground-drones); traditional fixed-factory industrial robot arms (FANUC, Kuka, ABB, Yaskawa) — incumbents table only; simulation software platforms (Isaac Sim, Gazebo) — context but not primary entries.
-
----
-
-### Topic-Area Steering: HALE / HAPS (`research/hale-haps/`)
-
-**Scope boundaries:** IN — fixed-wing, airship, and balloon platforms flown in the stratosphere (roughly 55,000–95,000 ft) for telecom relay, Earth observation, or general-purpose/defense ISR; the companies building and operating them. OUT — conventional satellites (any orbital regime); low-altitude drones and UAS below the stratosphere (see `robotics/aerial-drones`); weather balloons and sounding balloons with no persistent-platform or payload-relay mission. BORDERLINE — companies whose primary mission is counter-UAS/missile detection using a stratospheric platform: documented in `drone-detection/high-altitude-platforms` instead, with cross-links back into this section.
-
-**Editorial framing:** As with other sections, prioritize the platform developers and startups over their large incumbent parents/investors (Airbus, BAE Systems, Thales, Leonardo). Those incumbents belong in the Incumbents table as context, not as the center of gravity. When a subsidiary is majority- or wholly-owned by a public incumbent (AALTO/Airbus, Prismatic/BAE, Mira Aerospace/Space42), document the subsidiary's own program in the Startups & Development Partners table and note the parent relationship inline.
-
-**Claim verification flags specific to this topic area:** Endurance and altitude claims should always specify whether they were flight-demonstrated or are a stated design target — the two are routinely blended in company marketing (Stratobus's "up to one year" endurance and several companies' "months" endurance claims are design targets, not flown results, as of mid-2026). Commercial-service timelines in this space have a strong track record of slipping (Zephyr, Stratobus, SPL/World Mobile Stratospheric, and Sceye have each pushed dates back at least once) — treat future launch/commercialization dates with the same skepticism applied to nuclear SMR timelines elsewhere on this site.
-
-**Review cadence:** 90 days — this is a fast-moving, pre-commercial space as of mid-2026 with frequent flight-test milestones, funding events, and ownership changes.
-
----
-
-### Topic-Area Steering: Compute Marketplaces (`research/compute-marketplaces/`)
-
-**Scope:** Technology enabling on-demand, ad-hoc matching of inference-compute buyers and sellers across otherwise-unaffiliated providers — discovery/service-location mechanisms, latency- and price-based routing, matchmaking/auction designs, and machine-to-machine payment/settlement layers. In scope: production and pre-production routing/marketplace software (OpenRouter's posted-price provider routing, Akash's on-chain reverse auction), decentralized peer-discovery protocol stacks (libp2p/Kademlia DHT swarms as used by Petals/Hivemind and derivative projects), emerging standards efforts (IETF individual-draft AI discovery proposals), and payment rails purpose-built for per-request machine payments (x402 and similar HTTP-402-based protocols). Prior-art comparables from other real-time, latency-sensitive matchmaking domains — multiplayer game server browsers and relay networks — are documented here as design references, not as compute-marketplace products. Out of scope: the physical siting/power story for distributed compute (see `datacenters/distributed-compute` — that section covers where the hardware lives and how it draws power; this section covers how a buyer finds it and pays for it); general-purpose cloud API gateways with no cross-provider marketplace or discovery angle; blockchain/token speculation unrelated to the coordination mechanism itself.
-
-**Editorial framing:** This is a nascent, largely unstandardized layer as of mid-2026. Two production-scale coordination models exist today — posted-price aggregation (OpenRouter) and on-chain reverse auction (Akash) — but neither does true latency-aware physical-proximity routing the way CDNs or game relay networks do; that gap is the most interesting open design space in this section. Treat "latency-based routing" and "geographic routing" claims as aspirational/roadmap items for inference marketplaces unless a specific shipped mechanism is documented (OpenRouter's own geographic routing is listed as planned, not shipped, as of this review). IETF drafts referenced in this section are individual submissions with no working-group standing — do not describe them as pending or adopted standards.
-
-**Claim verification flags specific to this subsection:** Distinguish a protocol that is production/shipped (OpenRouter's provider routing, Akash's bid/lease mechanism, x402's facilitator flow) from one that is a research prototype or pre-1.0 project (Petals, Hivemind, and most libp2p-based swarm projects) — note real user/node counts where available and flag marketing or aspirational figures explicitly. For any "N× cheaper/faster" comparison, confirm the baseline is named and dated before repeating it.
-
-**Cross-references:** `datacenters/distributed-compute` (Akash, Span, the DisCo residential-inference cost model) is the physical/siting counterpart to this section's coordination-layer focus — flag shared themes (e.g., Akash appears in both as marketplace-coordination software and as a distributed-compute company) without duplicating full entries; link back to the existing entry instead of recreating it.
-
-**Review cadence:** 90 days — fast-moving, standards-in-flux space with no dominant shipped design as of mid-2026.
-
----
-
-### Topic-Area Steering: Space Launch (`research/space-launch/`)
-
-**Scope boundaries:** IN — orbital launch vehicle developers, lunar lander developers, and in-space orbital transfer ("space tug") vehicle developers; the companies building and operating this hardware. OUT — planetary-exploration mechanisms/tools suppliers and autonomous orbital defense spacecraft (see [Robotics → Space Robotics]({{< relref "robotics/space-robotics/_index.md" >}})); satellites purpose-built as orbital data centers (see [Datacenters → Orbital Compute]({{< relref "datacenters/orbital-compute/_index.md" >}})); stratospheric (non-orbital) platforms (see [HALE / HAPS]({{< relref "hale-haps/_index.md" >}})); pure satellite-constellation operators with no launch-vehicle or lander hardware of their own. BORDERLINE — a launch/lander company that acquires or builds a notable non-launch product line (e.g., a missile-warning sensor subsidiary, a planetary rover): document the parent here, and cross-link to a full entry elsewhere if the product line's primary business fits another section's scope better (e.g., SciTec is filed under Drone Detection because its core business is missile warning/ISR, not launch).
-
-**Editorial framing:** Per the site's general startup-first priority, standalone entries for large, publicly traded launch companies should only be created when there is a genuinely novel, specific angle to document (a first-of-its-kind mission milestone, a notable acquisition, a distinctive vehicle architecture) — not simply because the company is a known player. Commercial lunar landing is a very new capability (first fully successful commercial soft landing was 2025) and merits close tracking regardless of company size for that reason alone.
-
-**Claim verification flags specific to this topic area:** "Fully successful" landing/mission claims should be checked against the specific failure modes of prior attempts in the same class (e.g., a lander that touches down but tips over, as Intuitive Machines' IM-1 did in February 2024, is a partial success, not a full one — verify which category a given mission claim falls into). Payload-capacity claims (kg to LEO/GTO) for vehicles that have not yet flown are design targets, not flight-demonstrated figures — always check flight-heritage status before citing a capacity number as achieved rather than targeted. National-security launch program claims (NSSL Lane 1/Lane 2, "Golden Dome"-related contracts) should be checked against the relevant Space Force Space Systems Command announcement or SAM.gov/USASpending.gov record where possible, since program ceilings and individual task-order awards are frequently conflated in company press materials.
-
-**Review cadence:** 90 days — fast-moving segment with frequent launch attempts, contract awards, and (for younger companies) failure/anomaly events that materially change the risk picture.
-
----
-
-### Topic-Area Steering: Textiles (`research/textiles/`)
-
-**Scope:** IN — fiber-to-fabric manufacturing (ginning, spinning, weaving, dyeing, finishing, printing), the machines and dye chemistry behind it, and companies rebuilding or reinventing textile production. Subsections: `quilting-fabrics/`, `machinery/`, `us-innovators/`. OUT — fashion-brand and retail coverage except where it explains sourcing; apparel brands as standalone entries; commodity cotton price forecasting (cite USDA/ICAC instead).
-
-**Editorial priority:** U.S. companies and U.S. capacity, as part of the reindustrialization theme. Startups, spinouts, equipment builders, and input suppliers come before incumbents. Non-U.S. companies are in scope where they define a product category's supply chain (quilting fabric is almost entirely non-U.S.); mark them non-U.S. in tables and say so in Key Facts.
-
-**Value chain position** — every company entry must state its position: fiber grower/ginner; spinner; weaver/knitter; dyer/finisher/printer; converter/brand; machine builder; dye/chemical supplier; integrator (cut-and-sew, product development); or software/traceability. Note vertical integration explicitly.
-
-**Claim verification flags for textiles:**
-- "Made in USA" and "domestically sourced" claims — record which stage each covers (fiber grown, spun, woven, dyed/printed, sewn). Brands often mean only the last stage.
-- Thread count — always state the metric (ends × picks per inch, threads per inch, or metric yarn number); the three are not interchangeable.
-- Mill and country-of-manufacture claims — record disclosure status ("undisclosed" is a finding) and the date of the source; the only brand-origin survey found for quilting fabric is from 2017.
-- Market-size figures — distinguish fabric revenue from total quilting-industry revenue; USDA cotton volumes are in 480-lb bales, so label units or convert.
-- Prices — record retail versus wholesale and the type of source (retailer listing, retailer blog, distributor); do not present retailer-blog ranges as verified.
-
-**Review cadence:** Quilting fabrics and U.S. innovators: 90 days (tariffs, reshoring announcements, funding). Machinery: 180 days.
 
 ---
 

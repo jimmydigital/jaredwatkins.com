@@ -13,6 +13,26 @@ sitemap:
   disable: false         # Set to true to exclude a page
 ---
 
+{{<steering>}}
+
+## Datacenters — Steering Instructions
+
+**Scope boundaries:**
+- IN: Physical datacenter infrastructure — cooling, power, construction, physical automation, rack design, connectivity hardware; companies designing, building, or operating innovative datacenter facilities
+- OUT: Cloud computing software, AI model development, chip design (separate sections); routine hyperscaler earnings or campus announcements without a novel infrastructure angle
+- BORDERLINE: Rack-scale compute systems (NVIDIA NVL72, HPE Cray EX) — include only when the physical infrastructure or cooling integration is the notable element, not the compute itself
+
+**Key metrics to document** for cooling technologies and products: PUE (target and measured annualized — not just design); WUE (liters per kWh IT load); rack density supported (kW/rack — air tops out ~15–20 kW, liquid starts at 20 kW); coolant temperature range (supply and return); ERE (Energy Reuse Effectiveness). For construction/design entries: time to power (months greenfield to live), cost per MW (verify whether figure includes land, power infrastructure, fit-out, and redundancy — not just shell-and-core), PUE target, and total MW at full buildout.
+
+**Claim verification flags for datacenters:** Distinguish design PUE from measured annualized PUE. For "supports X kW/rack" claims, verify that figures account for real-world fluid distribution, manifold pressure drops, and redundancy — not just tank theoretical capacity. For autonomous operation claims, establish what fraction of tasks are genuinely automated vs. still requiring human intervention. For "100% renewable" power claims, determine whether the mechanism is RECs (does not change the physical grid mix) or 24/7 matched clean power. For cost per MW claims, see metrics note above.
+
+**Additional entry types for datacenters** (beyond the global company/technology/person/breakthrough types):
+- **Design pattern**: a documented approach being adopted by multiple operators (e.g., zoned hybrid cooling)
+- **Facility entry**: a specific notable datacenter with documented novel infrastructure elements
+- **Standard/specification**: an industry standard relevant to infrastructure (OCP, Open19, ASHRAE thermal guidelines)
+
+{{</steering>}}
+
 > **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
 
 

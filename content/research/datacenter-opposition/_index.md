@@ -1,11 +1,11 @@
 ---
 title: "Datacenter Opposition"
 date: 2026-04-20
-lastmod: 2026-10-26
+lastmod: 2026-11-11
 draft: false
 description: "Research section covering opposition to datacenter construction and operation across the United States — project tracker, organizing groups, funding networks, state-by-state breakdown, legislative actions, and tactical analysis."
 research_area: "datacenter-opposition"
-last_reviewed: 2026-10-26
+last_reviewed: 2026-11-11
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -106,6 +106,8 @@ The opposition movement is diverse, spanning local NIMBY coalitions (homeowners,
 
 **Key milestone:** New York became the first state to enact a statewide datacenter moratorium when Gov. Kathy Hochul signed Executive Order No. 62 on July 14, 2026, freezing discretionary permits for facilities of 50 MW+ for up to a year while the state develops an environmental impact review and community-benefits framework (manufacturing, research/education including Empire AI, and medical facilities are excluded). This corrects this entry's prior claim that Maine held that distinction: Maine's legislature passed LD 307 (an 18-month, 20 MW+ moratorium) in April 2026, but Gov. Janet Mills vetoed it on April 24, 2026 after a fight over exempting a $550 million project in Jay, Maine — no Maine moratorium is currently in force. At least 14 states introduced moratorium-style bills in Q1 2026 alone (300+ data-center-related bills nationally in the first six weeks of the year), and a federal moratorium bill (Sanders-AOC AI Data Center Moratorium Act) remains pending in Congress. On July 18, 2026, opponents held the first coordinated national day of action — 142 protests across 42 states — organized by the new group HumansFirst.
 
+**November 2026 elections:** On November 3, 2026, voters in 10 states decided 41 local data center ballot measures; by Ballotpedia's count, voters favored limiting development in 40 of them (27 approved limits or expressed opposition, 13 pro-development measures were defeated), and only Harwood, North Dakota, went the other way. Other tallies differ slightly by timing and scope (Redbud Consulting: 44 of 45 completed measures; Bloomberg Economics: 46 passed or on track, at least 17 of them outright bans). Democrats who campaigned on restricting data centers won the governorships of Texas (Gina Hinojosa), Ohio (Amy Acton) and Georgia (Keisha Lance Bottoms), and Cleanview estimates about 40% of pending U.S. data center capacity sits in states whose incoming governors pledged to stop or pause construction. Hinojosa takes office January 19, 2027 and has pledged a moratorium on data center approvals, setting up a conflict with Elon Musk's Texas operations (SpaceX/xAI, Tesla). See *November 2026 Election Results* below and `state-breakdown/texas.md`.
+
 ---
 
 ## Major Contested Projects — Tracker
@@ -125,7 +127,7 @@ The opposition movement is diverse, spanning local NIMBY coalitions (homeowners,
 | **Memphis Data Center** / xAI (Elon Musk) | South Memphis, TN / Southaven, MS | Colossus 2; multiple turbines | **Operating / Under Litigation** | Air permit violations; civil rights lawsuit (NAACP); environmental review | Operating without proper air permits; SELC/NAACP lawsuit filed |
 | **Colleton County Data Center** / Eagle Rock Partners | ACE Basin, SC | 859 acres; 1,000 MW | **Pending / Under Litigation** | Environmental preservation; endangered species; wetlands concerns; zoning challenge | SELC filed complaint over zoning ordinance; ACE Basin threats |
 | **Bessemer Data Center** (rezoning) | Bessemer, AL | Large hyperscale | **Approved / Opposed** | Community opposition at city council; environmental concerns | City council approved (2025) despite resident opposition |
-| **Boulder City Data Center** | Boulder City, NV | Proposed facility | **Stalled / Community Vote Pending** | Community petition (2,600+ signatures); hearing postponed | Public outcry halted initial hearing; proposal status uncertain |
+| **Boulder City Data Center** | Boulder City, NV | Proposed facility | **Rejected by Voters** | Community petition (2,600+ signatures); ballot measure | Nov 3, 2026 ballot measure to add data centers as an approved use for an area was defeated |
 | **Apex Data Center (pulled)** | Apex, NC (Wake County) | Proposed facility | **Withdrawn** | Community pushback; developer withdrew application | Withdrawn by developer in response to resident opposition |
 | **Project Hutto** / Zydeco Development | Hutto, TX (Williamson County) | 70 MW; 225,000 sq ft | **Withdrawn** | Formal resident protests under TX Local Government Code (supermajority trigger); community organizing | Developer withdrew rezoning application April 17, 2026 ahead of P&Z hearing |
 | **Project Hazelnut** / Waste Management incinerator site | Hazle Township, PA | 1,280 acres; 15 buildings | **Blocked** | Community organizing; litigation; Food & Water Watch coordination | Food & Water Watch stopped project (November 2025) |
@@ -142,6 +144,11 @@ The opposition movement is diverse, spanning local NIMBY coalitions (homeowners,
 | **New Brunswick Data Center (proposed)** | New Brunswick, NJ | 27,000 sq ft lot | **Withdrawn / Repurposed** | City council vote | Council voted to abandon the proposal and build a public park instead (Feb 19, 2026) |
 | **South Johnson City Data Center** / BrightRidge (municipal utility) | Johnson City, TN | Utility-owned site | **Paused (Utility-Imposed Moratorium)** | Municipal utility self-moratorium; noise and community concern | BrightRidge paused all new data center project proposals in its service area, including this site, saying costs currently outweigh community benefits |
 | **Project Sail** / Prologis + Atlas Development | Coweta County, GA | 829 acres; 9 buildings; ~900 MW; $17B | **Rezoning Approved / Under Litigation** | Community organizing; zoning litigation; lobbyist access challenge | Approved 3–2 April 11, 2026; lawsuit filed May 5, 2026 to void rezoning; Citizens for Rural Coweta PAC targeting yes-voting commissioners |
+| **Statewide Audit and Permit Pause** / Gov. Greg Abbott directives | Texas (statewide) | All data centers seeking ERCOT connection or TCEQ permits | **Paused (Executive Directive)** | Gubernatorial directives responding to public backlash; Gov.-elect Hinojosa pledges a broader moratorium | Aug 3, 2026 order to audit projects seeking grid connection; Sept 21 order halting all TCEQ data center permits until the ERCOT audit finishes; no end date announced; Hinojosa takes office Jan 19, 2027 |
+| **Starbase Super-Compute Facility and Gas Plant** / SpaceX | Starbase, TX (Cameron County) | \$24 billion; gas-fired plant plus super-compute facility (reported ~10 GW) | **Pending / Public Hearing Scheduled** | Gubernatorial and legislative scrutiny; environmental and land-use opposition around Boca Chica | City hearing notice posted Nov 2026 with approval expected in December; reported to face headwinds from Gov.-elect Hinojosa |
+| **Ashville Data Center** / EdgeConneX | Ashville, OH (Pickaway County) | Campus already under construction | **Rejected at Ballot (Referendum)** | Referendum on village development agreement | Voters rejected the agreement Nov 3, 2026 by more than 80%; practical effect on the under-construction campus unresolved |
+| **Wilmington Rezonings (4)** | Wilmington, OH (Clinton County) | Four residential-to-industrial rezonings tied to data center projects | **Rejected at Ballot** | Referendum on rezoning | All four rejected by roughly 80% to 20% on Nov 3, 2026 |
+| **El Dorado / Emporia / Ottawa Bans** | Kansas | High-impact data centers (Ottawa: 25 MW+) | **Voter-Approved Bans (Legal Review)** | Municipal ballot initiatives | El Dorado 10-year ban (71%–29%, also covers certain battery storage), Emporia prohibition (60%–40%), Ottawa 25 MW+ ban (69%–31%) approved Nov 3, 2026; reported to await court review |
 
 ---
 
@@ -162,6 +169,7 @@ Opposition groups and utility watchdogs challenge the cost allocation for grid u
 ### Legislative Campaigns
 
 - **State moratoriums:** New York Gov. Kathy Hochul signed Executive Order No. 62 (July 14, 2026) — the first enacted statewide moratorium — freezing discretionary permits for 50 MW+ facilities for up to a year pending a Generic Environmental Impact Statement (manufacturing, research/education incl. Empire AI, and medical facilities excluded). Maine's competing effort, LD 307 (an 18-month, 20 MW+ moratorium), passed the legislature but was vetoed by Gov. Janet Mills on April 24, 2026 in a dispute over exempting a $550M project in Jay, Maine. Illinois Gov. Pritzker proposed suspending tax incentives (not a moratorium). At least 14 states filed moratorium-style bills in Q1 2026 alone, part of 300+ data-center-related bills introduced nationally in the first six weeks of the year.
+- **Governor-led pauses:** Texas Gov. Greg Abbott directed an audit of data centers seeking ERCOT connection (Aug 3, 2026) and halted all TCEQ data center permits (Sept 21, 2026), pending audits with no announced end date. Incoming governors in Texas, Ohio, Georgia, Michigan and New Mexico campaigned on stopping or pausing construction; New York and Oregon governors pledged to extend pauses already in place.
 - **Tax incentive repeal:** Nevada opposition to $537M in cumulative tax abatements (2017–2025); Democratic governor candidate pledged to freeze new abatements. Virginia legislators debated repealing datacenter sales tax exemptions. Georgia legislators failed to pass 20+ datacenter reform bills in 2025 session.
 - **Grid and rate regulation:** Texas SB 6 requires datacenters to accept curtailment during firm load shed events. Federal moratorium bill (Sanders-AOC) proposed March 2026.
 
@@ -180,6 +188,47 @@ Major lawsuits include:
 - **North Carolina:** Environmental groups suing over Stokes County approval (alleged procedural violations)
 - **Tennessee/Mississippi:** NAACP and Young, Gifted & Green suing xAI over air permit violations (illegal turbines without permits)
 - **South Carolina:** SELC filed complaint over Colleton County zoning ordinance allowing datacenters in rural ACE Basin
+
+---
+
+## November 2026 Election Results
+
+### Local Ballot Measures (Nov 3, 2026)
+
+Ballotpedia covered 41 local data center measures in 10 states (Ohio alone had 21 across 18 jurisdictions). Voters favored limiting development in 40.
+
+- **Approved limits or opposition (27):** five full bans (California 1, Florida 1, Ohio 3); twelve partial bans (Kansas 3, Maine 1, Ohio 8); three six-month moratoriums (all Maine); two voter-approval requirements (Grove City, OH Issue 28, covering projects above 50 acres, 20 MW or 500,000 gallons of water a day; Janesville, WI, for the GM/JATCO site above \$450 million); two zoning regulations (Adams County, OH); one financial-guarantee requirement for hyperscale developers seeking incentives (Perry, OH Issue 16); two non-binding opposition measures (Illinois).
+- **Pro-development measures defeated (13):** seven non-binding support measures (Illinois 5, New Jersey 1, Ohio 1); four Wilmington, OH rezonings; Boulder City, NV (adding data centers as an approved use); and Ashville, OH (EdgeConneX development agreement).
+- **The one pro-development result:** Harwood, ND, where voters defeated a review requirement covering certain industrial projects including data centers.
+- **Margins:** restrictive measures averaged roughly 75% of the vote (Data Centers on the Ballot, via ALEC). Wells, ME approved a retroactive 180-day moratorium with more than 80%; Bloomington, IL backed a non-binding moratorium recommendation with about 78%.
+- **Still to come:** December 2026 votes in Clarksville, AR (two measures) and Mandan, ND (Measure 1, a prohibition initiative). Six earlier 2026 measures, including a September 12-month permitting moratorium in Nottingham, NH, also favored limits.
+- **Open legal questions:** Local bans do not reach projects that already hold approvals (for example, an Augusta, GA project zoned before that city's moratorium), and some bans are reported to face court or legal review.
+
+### Governors-Elect
+
+| State | Governor-elect | Data center pledge | Reported powers and limits |
+|---|---|---|---|
+| Texas | Gina Hinojosa (D) | Moratorium (a "ban") on all data center approvals until the Legislature passes new protections (Oct 22 video) | Takes office Jan 19, 2027; can keep, expand or replace Abbott's directives; no implementation mechanism announced; durable change needs the Legislature (Democrats won the House, Republicans kept the Senate 19–12) |
+| Ohio | Amy Acton (D) | "Conditional moratorium" until developers cover their own gas, water and electricity costs, use union labor, operate without NDAs with local governments and meet air and water standards | Could issue executive orders on state permitting or shape agencies through appointments; legal authority for the moratorium not spelled out in reporting |
+| Georgia | Keisha Lance Bottoms (D) | Temporary pause on new data center construction to reassess policy | No mechanism or length announced; Democrats now hold a 3–2 Public Service Commission majority, but the PSC sets utility terms, not whether or where data centers are built |
+| Florida | Byron Donalds (R) | Require data centers to source their own electricity rather than use the grid | Needs legislation |
+| Michigan, New Mexico | Not named in source | Pause or stop statewide construction | Not specified |
+| Iowa, Nevada | Not named in source | Stop AI/data center tax breaks | Not specified |
+| New York, Oregon | Kathy Hochul (NY) re-elected; Oregon governor-elect not named in source | Prolong pauses already in place | NY Executive Order No. 62 runs to about July 2027 |
+
+Cleanview estimates about 40% of pending U.S. data center capacity is in states where newly elected governors promised to stop or pause construction. Cities and townships control zoning and property taxes, so local measures can act faster than gubernatorial action. Existing approvals are largely insulated: Georgia Power's roughly 10,000 MW December 2025 certification is unlikely to be undone.
+
+### Texas: Governor-Elect vs. Musk's Companies
+
+- **Abbott's pre-transition freeze:** Abbott ordered an ERCOT/PUC audit of data centers seeking grid connection (Aug 3) and, on Sept 21, halted all TCEQ data center permits until the audit finishes; no timeline has been announced.
+- **Hinojosa's moratorium pledge (Oct 22):** a ban on all data center approvals until the Legislature acts. The Texas Legislature convenes Jan 12, 2027; she is inaugurated Jan 19. Whether her freeze will be broader or longer than Abbott's is unresolved.
+- **Records lawsuit:** On Oct 19 Hinojosa sued for unredacted communications between Abbott's office and Musk's companies (the governor's office called the suit a baseless stunt). A district judge ordered inspection on Oct 26; the 15th Court of Appeals stayed that order Oct 27.
+- **Musk's election spending:** At least \$225 million of Musk's more than \$445 million in midterm giving went to Texas races (OpenSecrets via NPR). Republicans lost the governorship, a U.S. Senate seat and the Texas House.
+- **Incentives under scrutiny:** Hinojosa has questioned a \$1.66 billion JETI tax break for the \$16.8 billion Terafab chip plant (not a conventional data center) and state grants to SpaceX. On Nov 5 she asked the state to hold any sale of Boca Chica State Park land to SpaceX until she takes office.
+- **Starbase project:** On Nov 10 reports surfaced of a notice for a city hearing on a \$24 billion SpaceX gas-fired plant and super-compute facility at Starbase, with approval expected in December. Musk posted that data centers in space look appealing after the election.
+- **Related existing fights:** xAI's Memphis-area Colossus air-permit litigation (see tracker).
+
+See `state-breakdown/texas.md` for the full chronology.
 
 ---
 
@@ -344,9 +393,9 @@ Detailed state research is available in the `state-breakdown/` folder:
 
 - **Virginia (`virginia.md`):** "Data Center Alley" concentrated opposition; PW Digital Gateway victory; Loudoun County zoning reform
 - **Iowa (`iowa.md`):** Meta/Google water consumption and permitting disputes; local utility rate conflicts
-- **Ohio (`ohio.md`):** New Albany hyperscaler boom and community backlash; zoning battles
-- **Texas (`texas.md`):** ERCOT grid reliability concerns; water scarcity conflicts; SB 6 legislative response
-- **Georgia (`georgia.md`):** Project Sail (Coweta County, 900 MW, $17B Prologis campus); lobbyist access scandal; Citizens for Rural Coweta coalition; May 2026 litigation; Ashley Park–Wansley transmission line eminent domain
+- **Ohio (`ohio.md`):** New Albany hyperscaler boom and community backlash; zoning battles; 21 local ballot measures on Nov 3, 2026; Gov.-elect Acton's conditional moratorium
+- **Texas (`texas.md`):** ERCOT grid reliability concerns; water scarcity conflicts; SB 6 legislative response; Abbott's Aug–Sept 2026 audit and permit freeze; Gov.-elect Hinojosa's moratorium pledge and clash with Musk's companies
+- **Georgia (`georgia.md`):** Project Sail (Coweta County, 900 MW, \$17B Prologis campus); lobbyist access scandal; Citizens for Rural Coweta coalition; May 2026 litigation; Ashley Park–Wansley transmission line eminent domain; Gov.-elect Bottoms's pause pledge and new Democratic PSC majority
 - **Utah (`utah.md`):** Stratos Project (Kevin O'Leary, 40,000 acres → 10,000 acres after 75% reduction); MIDA governance lawsuit; O'Leary's claims of CCP-linked foreign funding of opposition; Bitcoin Policy Institute foreign-influence report
 - **Additional states** (planned): Maine (moratorium passed by legislature, vetoed by Gov. Mills Apr 2026), New York (first enacted statewide moratorium, Jul 2026), North Carolina (multi-county opposition), Colorado, other key states
 
@@ -371,6 +420,8 @@ Detailed state research is available in the `state-breakdown/` folder:
 8. **Infrastructure overspill is an underreported harm.** Eminent domain and property displacement for datacenter-serving transmission lines affects landowners with no standing in original approval decisions. Maryland, Virginia, Pennsylvania, and Georgia all have active cases. This is a structural regulatory gap not addressed by local zoning reform alone.
 
 9. **A new national protest network has emerged, with a contested origin story.** HumansFirst organized the first coordinated nationwide day of action (142 protests, 42 states, July 18, 2026) and is chaired by former Tea Party leader Amy Kremer, but its incorporation records trace its start-up funding and initial staff to the Center for AI Safety, and several of its local organizers have left-of-center backgrounds — underscoring that the opposition coalition spans, and is claimed by, both ends of the political spectrum simultaneously.
+
+10. **The November 2026 elections turned data center opposition into state-level policy risk.** Voters favored limits in 40 of 41 local ballot measures (Ballotpedia), and governors-elect in Texas, Ohio and Georgia ran on pauses or conditional moratoriums. Implementation is unsettled: most pledges lack a stated legal mechanism, projects with existing approvals are largely insulated from local bans, and durable statewide change in Texas depends on a Legislature split between a Democratic House and Republican Senate. The Texas–Musk conflict is the highest-profile test, with Abbott's audit and permit freeze already in force before Hinojosa takes office.
 
 ---
 
@@ -421,3 +472,13 @@ Detailed state research is available in the `state-breakdown/` folder:
 - [BrightRidge pauses any new data center projects - WJHL (2026)](https://www.wjhl.com/news/local/brightridge-pauses-any-new-data-center-projects/)
 - [Report: Marxist tycoon is funding a China-backed influence campaign against AI data centers - Washington Times (Jun 30, 2026)](https://www.washingtontimes.com/news/2026/jun/30/neville-roy-singham-funding-china-backed-influence-campaign-ai-data/)
 - [Top energy group warns wealthy foreigners are potentially bankrolling anti-data center campaigns across US - Fox News (May 2-3, 2026)](https://www.foxnews.com/politics/top-energy-group-warns-wealthy-foreigners-potentially-bankrolling-anti-data-center-campaigns-across-us)
+- [From Boom to Backlash: Data Centers Lose Big on Election Day - U.S. News (Nov 10, 2026)](https://usnews.com/news/politics/articles/2026-11-10/from-boom-to-backlash-data-centers-lose-big-on-election-day)
+- [Voters favored limiting data center development in 40 of 41 local ballot measures on Nov. 3 - Ballotpedia News (Nov 6, 2026)](https://news.ballotpedia.org/2026/11/06/voters-favored-limiting-data-center-development-in-40-of-41-local-ballot-measures-on-nov-3/)
+- [2026 election results show widespread opposition to AI data centers - Scientific American (Nov 2026)](https://www.scientificamerican.com/article/2026-election-results-show-widespread-opposition-to-ai-data-centers/)
+- [After a Rebuke at the Ballot Box, What's Next for State Data Center Policy? - ALEC (Nov 2026)](https://alec.org/article/after-a-rebuke-at-the-ballot-box-whats-next-for-state-data-center-policy/)
+- [Some 40% of US Planned Data Center Capacity Is in States Wanting to Hit Pause - Insurance Journal/Bloomberg (Nov 6, 2026)](https://www.insurancejournal.com/news/midwest/2026/11/06/891870.htm)
+- [Navigating New Headwinds: What the 2026 Election Results Mean for Data Center Projects in Texas, Ohio, and Georgia - King & Spalding (Nov 6, 2026)](https://www.kslaw.com/Insights/Articles/Navigating-New-Headwinds-What-the-2026-Election-Results-Mean-for-Data-Center-Projects-in-Texas)
+- [Elon Musk spent at least \$225 million in Texas. The governor-elect who sued for Abbott emails and vowed a data center freeze won anyway - Fortune (Nov 5, 2026)](https://fortune.com/2026/11/05/elon-musk-texas-democrats-hinojosa-terafab/)
+- [SpaceX Plans \$24 Billion Data Center and Gas Plant in Texas - Insurance Journal/Bloomberg (Nov 10, 2026)](https://insurancejournal.com/news/southcentral/2026/11/10/892283.htm)
+- [Governor Abbott Directs TCEQ To Halt Data Center Permits - Office of the Texas Governor (Sept 21, 2026)](https://gov.texas.gov/news/post/governor-abbott-directs-tceq-to-halt-data-center-permits)
+- [Texas Governor Abbott halts all state-issued permits for data centers until grid audit is complete - Reuters (Sept 21, 2026)](https://gvwire.com/?p=269054)

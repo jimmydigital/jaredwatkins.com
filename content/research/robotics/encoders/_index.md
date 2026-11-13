@@ -33,6 +33,7 @@ Position encoders provide the real-time feedback a robot joint or motor needs to
 | Company | HQ | Stage | Mission |
 |---------|-----|-------|---------|
 | [RLS (RLS Merilna tehnika d.o.o.)](https://www.rls.si) | Komenda, Slovenia | Private (50% owned by Renishaw plc) | Non-contact magnetic rotary and linear encoders, encoder ICs, and interpolators for industrial robotics, motor feedback, and joint position control. |
+| [Encoder Products Company]({{< relref "encoder-products-company.md" >}}) | Sagle, ID, USA | Private | US-made rotary and linear encoders; absolute encoders with EtherCAT and other fieldbus interfaces; functional-safety options. |
 
 ### Public Companies
 

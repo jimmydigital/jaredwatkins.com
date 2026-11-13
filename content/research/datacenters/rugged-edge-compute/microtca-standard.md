@@ -1,7 +1,7 @@
 ---
 title: "MicroTCA / PICMG MicroTCA Standard"
 date: 2026-04-25
-lastmod: 2026-04-25
+lastmod: 2026-11-12
 draft: false
 description: "Open modular embedded computing standard using Advanced Mezzanine Cards (AMC) on a switched-fabric backplane; used in telecom, scientific instruments, defense, and industrial automation."
 research_area: "datacenters/rugged-edge-compute"
@@ -10,10 +10,9 @@ source_urls:
   - "https://en.wikipedia.org/wiki/MicroTCA"
   - "https://www.picmg.org/microtca-0-revision-3-delivers-4x-performance-improvement-with-100-gigabit-ethernet-pcie-gen-5-in-up-to-12-slots/"
   - "https://militaryembedded.com/comms/communications/picmg-consortium-ratifies-revision-30-of-the-microtca0-specification"
-  - "https://militaryembedded.com/unmanned/rugged-computing/microtca-requirements-sub-vpx-price-point"
   - "https://militaryembedded.com/unmanned/rugged-computing/microtca-force-be-military-aerospace-applications"
   - "https://www.vadatech.com/wp-content/uploads/2024/12/pdf_MicroTCA_Overview.pdf"
-last_reviewed: 2026-04-25
+last_reviewed: 2026-11-12
 stale_after_days: 365
 ---
 
@@ -28,12 +27,12 @@ MicroTCA (Micro Telecommunications Computing Architecture) is an open modular em
 
 - **Standardized by:** PICMG (PCI Industrial Computer Manufacturers Group); originally developed ~2006
 - **Current base spec:** MTCA.0 Revision 3.0 (ratified September 2023) — defines 100 GbE and PCIe Gen 5 fabrics; 4× performance improvement over Rev 2
-- **Module form factor:** Advanced Mezzanine Card (AMC) — 75 mm × 180 mm (single-width mid-size); much smaller and lighter than 3U VPX cards (133 mm × 160 mm)
+- **Module form factor:** Advanced Mezzanine Card (AMC) — 75 mm × 180 mm (single-width mid-size); smaller than 3U VPX cards (about 133 mm × 160 mm)
 - **Chassis slots:** Up to 12 AMC slots per chassis, managed by one or two MicroTCA Carrier Hub (MCH) cards
 - **Backplane bandwidth:** Up to 100 Gbps per slot (Rev 3.0); prior revision was 40 GbE / PCIe Gen 3
-- **Redundancy:** Fully redundant by design — no single point of failure; hot-swap supported; 99.99999% uptime target
+- **Redundancy:** Fully redundant by design — no single point of failure; hot-swap supported; vendors cite very high availability targets (unverified)
 - **System management:** Shelf management (IPMI-based), e-keying, precision timing (PTP/SyncE), built into the standard
-- **Status:** Active, growing — hundreds of products from 15+ vendors
+- **Status:** Active, growing — broad multi-vendor ecosystem (vendor count not independently verified)
 
 ## What It Is / How It Works
 
@@ -63,15 +62,15 @@ MicroTCA competes with VPX/OpenVPX (VITA 65) in the mil/aero COTS embedded compu
 
 | Attribute | MicroTCA (AMC) | VPX (3U/6U) |
 |-----------|---------------|-------------|
-| Module size | 75 × 180 mm (mid single) | 100 × 160 mm (3U) / 233 mm (6U) |
-| Approx. module cost | ~0.5× VPX | Baseline |
+| Module size | 75 × 180 mm (mid single) | ~133 × 160 mm (3U) / ~233 × 160 mm (6U) |
+| Relative module cost | Often described as lower (unverified estimate) | Baseline |
 | System management | Built-in (IPMI shelf mgr, e-keying) | Optional (VITA 46.11 IPM) |
 | Timing/sync | Built-in (PTP, SyncE) | Optional per slot |
-| Vendor ecosystem | Telecom-scale (15+ vendors) | Defense-scale (10–15 vendors) |
+| Vendor ecosystem | Telecom and scientific-scale | Defense-scale |
 | Volume | High (telecom origins) | Lower (defense-only) |
 | SOSA alignment | No formal SOSA standard | SOSA-aligned profiles exist (OSA) |
 
-MicroTCA's telecom-scale supply chain enables lower module costs than VPX — roughly half the per-module price for equivalent computing capability, according to multiple mil-embedded analyses. VPX retains advantage in established DoD qualification precedent, SOSA profiles, and the largest existing deployed base in military programs.
+MicroTCA's telecom-scale supply chain enables lower module costs than VPX; commonly cited figures of roughly half the per-module price are unverified estimates. VPX retains advantage in established DoD qualification precedent, SOSA profiles, and the largest existing deployed base in military programs.
 
 ### MicroTCA vs. Blade Servers / 1U Rackmount
 
@@ -80,8 +79,9 @@ Against standard blade or 1U servers, MicroTCA offers: full modular redundancy (
 ## Notable Developments
 
 - **2023-09:** PICMG ratified MTCA.0 Revision 3.0 — adds 100 GbE (100GBASE-KR4) and PCIe Gen 5 fabric; 4× backplane performance improvement; expands thermal design power headroom for higher-performance processors.
-- **2023-2024:** nVent SCHROFF released the first MTCA.4 Rev 3.0-compliant crate — PCIe Gen 5 at 128 Gbit/s per slot; upgraded STM32-based cooling unit manager; lower-loss PCB material; MCH slots repositioned to chassis center for bandwidth equalization.
+- **2025-07:** nVent SCHROFF released a MTCA.4 Rev 3.0 crate — PCIe Gen 5 at 128 Gbit/s per slot; STM32-based cooling unit manager; lower-loss PCB material; MCH slots repositioned to chassis center; Rev 3.0 provides additional power capacity (110 W for MCH, cooling unit and RTM per the vendor).
 - **2024-04:** VadaTech released the UTC040C conduction-cooled MCH with PCIe Gen 3 switch at 1024 Gbps aggregate bandwidth — one of the first MTCA.3 MCH products targeting mil/aero conduction-cooled deployments.
+- **2025–2026:** N.A.T. introduced fifth-generation MCH products following the NAT-MCH-G4 line.
 - **2024:** MTCA.0 Rev 3.0-compliant ecosystem products announced from VadaTech, N.A.T. (NAT-MCH-G4), AIES Sp. z o.o., nVent SCHROFF — multi-vendor convergence on new revision.
 - **2024:** MicroTCA/ATCA for Large Scientific Facility Control International Workshop held in Hefei, China — indicates continued scientific instrument community (CERN, SLAC, DESY, IHEP) engagement with the standard.
 - **Ongoing:** N.A.T.'s NAT-MCH-G4 generation adds GPS, PTP/SyncE, 10/40 GbE base fabric, PCIe Gen 4/5 fat pipe, and 100 GbE uplinks (copper and fiber) — positions MicroTCA.4 for next-generation particle accelerator control and 5G RAN timing use cases.
@@ -92,7 +92,7 @@ Against standard blade or 1U servers, MicroTCA offers: full modular redundancy (
 
 **Telecom / 5G RAN:** MicroTCA originated in telecom carrier infrastructure and continues to serve RAN baseband processing, fronthaul/midhaul switching, and timing distribution nodes. The MTCA.4 RTM connector is used for rear-panel RF connectivity in radio units. Precision timing (PTP/SyncE) built into the standard makes it well-suited for 5G synchronization requirements.
 
-**Defense / Aerospace:** Growing adoption since ~2018. Applications include avionics sensor fusion, naval electronic warfare countermeasures suites, ground vehicle signal processing, and radar data acquisition. MTCA.3 (conduction-cooled) meets or exceeds VPX environmental qualifications at roughly half the cost per module. VadaTech and Crystal Group are the most active US defense COTS suppliers in this space. Kontron (Germany) supplies MCH and system management products to European defense programs.
+**Defense / Aerospace:** Growing adoption since ~2018. Applications include avionics sensor fusion, naval electronic warfare countermeasures suites, ground vehicle signal processing, and radar data acquisition. MTCA.3 (conduction-cooled) meets or exceeds VPX environmental qualifications at a commonly claimed lower cost (unverified). VadaTech and Crystal Group are the most active US defense COTS suppliers in this space. Kontron (Germany) supplies MCH and system management products to European defense programs.
 
 **Industrial Automation / Machine Vision:** MTCA.0 and MTCA.1 chassis are used for high-throughput machine vision systems, industrial control nodes, and scientific data acquisition — applications that need modular I/O expansion and built-in system management but operate in ambient-temperature environments.
 
@@ -116,7 +116,6 @@ Against standard blade or 1U servers, MicroTCA offers: full modular redundancy (
 - [MicroTCA Wikipedia](https://en.wikipedia.org/wiki/MicroTCA) — comprehensive technical overview with standard variant table
 - [PICMG: MTCA.0 Rev 3.0 delivers 4× improvement](https://www.picmg.org/microtca-0-revision-3-delivers-4x-performance-improvement-with-100-gigabit-ethernet-pcie-gen-5-in-up-to-12-slots/) — September 2023 ratification announcement
 - [Military Embedded: PICMG ratifies MTCA.0 Rev 3.0](https://militaryembedded.com/comms/communications/picmg-consortium-ratifies-revision-30-of-the-microtca0-specification) — industry coverage
-- [Military Embedded: MicroTCA at sub-VPX price point](https://militaryembedded.com/comms/communications/microtca-requirements-sub-vpx-price-point) — mil/aero cost comparison
 - [Military Embedded: MicroTCA for mil/aero](https://militaryembedded.com/unmanned/rugged-computing/microtca-force-be-military-aerospace-applications) — defense adoption analysis
 - [VadaTech MicroTCA Overview PDF](https://www.vadatech.com/wp-content/uploads/2024/12/pdf_MicroTCA_Overview.pdf) — December 2024 ecosystem overview
 - [nVent SCHROFF: Next-gen MTCA.4 crate](https://www.nvent.com/en-fr/schroff/resources/news/nvent-releases-next-generation-nvent-schroff-microtca4-crate) — Rev 3.0-compliant crate announcement

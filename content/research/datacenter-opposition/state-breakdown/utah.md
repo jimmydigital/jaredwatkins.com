@@ -7,6 +7,18 @@ description: "Utah's Stratos Project — Kevin O'Leary's proposed 40,000-acre AI
 research_area: "datacenter-opposition"
 last_reviewed: 2026-10-26
 stale_after_days: 60
+source_urls:
+  - "https://www.nbcnews.com/tech/tech-news/utah-residents-sue-officials-kevin-oleary-data-center-plan-rcna348720"
+  - "https://finance.yahoo.com/economy/policy/articles/irrefutable-fact-kevin-oleary-says-185500320.html"
+  - "https://www.abc4.com/news/northern-utah/alliance-better-utah-data-centers/"
+  - "https://www.fox13now.com/news/local-news/box-elder-county/oleary-promises-proof-after-accusing-utah-data-center-critics-of-china-ties"
+  - "https://www.ksl.com/article/news/utah/environment/utahn-responds-to-chinese-proxy-label-by-data-center-investor/51498590"
+  - "https://thehill.com/policy/technology/5897082-kevin-oleary-mega-data-center-concerns-utah/"
+  - "https://www.sltrib.com/news/2026/06/04/box-elder-county-data-center/"
+  - "https://www.sltrib.com/news/environment/2026/05/20/kevin-oleary-utah-data-center/"
+  - "https://www.btcpolicy.org/articles/foreign-influence-in-the-campaign-against-american-ai"
+  - "https://www.csmonitor.com/Environment/2026/0605/utah-stratos-data-center-kevin-oleary"
+  - "https://247wallst.com/investing/2026/05/12/the-ai-data-center-backlash-is-growing-kevin-olearys-1-billion-stratos-project-reveals-why/"
 ---
 
 ## Overview

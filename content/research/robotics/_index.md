@@ -13,6 +13,45 @@ sitemap:
   disable: false         # Set to true to exclude a page
 ---
 
+{{<steering>}}
+
+## Robotics — Steering Instructions
+
+**Editorial priority:** The component and subsystem layer — motors, gearboxes, LiDAR sensors, radio subsystems, battery packs — not the platform OEMs. Platform OEM entries (DJI, Boston Dynamics, etc.) provide market context, but the more interesting entries are the materials company solving motor efficiency, the startup building a better harmonic drive, or the researcher commercializing a new LiDAR architecture.
+
+**Value chain position** — every company entry must be described by its position:
+- **Platform OEM** — sells a complete, ready-to-use robot to end customers (DJI, Boston Dynamics, Knightscope, AeroVironment)
+- **Component/subsystem supplier** — sells components or subsystems to OEMs or integrators (T-Motor, Maxon, Ouster, u-blox, Silvus, Intelligent Energy)
+- **Software/AI layer** — sells autonomy software that runs on hardware platforms (Shield AI Hivemind, Skydio AI stack)
+- **Integrator** — assembles third-party components into custom platforms for specific verticals
+
+When a company operates at multiple layers (e.g., DJI makes its own motors AND sells complete drones), note both roles and describe the vertical integration explicitly — it is a significant competitive moat worth documenting.
+
+**Claim verification for robotics — categories requiring scrutiny in every entry:** Endurance claims (confirm test conditions: payload, speed, altitude, temperature — quoted figures almost always assume ideal/unloaded conditions); autonomy claims ("fully autonomous," "zero operator required" — establish human-in-the-loop reality and what regulatory approvals are required and obtained, including FAA Part 107 waivers, BVLOS approvals); unit deployment figures (distinguish units sold vs. units in active service vs. cumulative lifetime deliveries); defense contract claims (verify against USASpending.gov or SAM.gov where possible — press releases routinely overstate contract scope).
+
+**Defense and dual-use notation** for entries with significant defense business: note active DoD contracts and programs (public); note ITAR or EAR implications for export; if a UAS platform appears on the Blue UAS framework (DoD-approved drone procurement list), note explicitly — it is a material commercial differentiator in the US government market. For defense UGV programs, reference the relevant Army program office (DEVCOM GVSC, PEO Soldier) when documenting contracts.
+
+**DJI specifically:** DJI is on the US DoD Chinese military company list and the FCC Covered List (as of 2022–present). The American Security Drone Act (signed 2023) prohibits US federal agencies from procuring DJI and other covered drones. Every DJI entry must prominently note these designations and their practical implications — the regulatory overhang is a material risk that must be documented.
+
+**Rare earth dependency** is a pervasive, often underdiscussed supply chain risk throughout the robotics hardware stack. NdFeB permanent magnet BLDC and servo motors depend on neodymium and dysprosium; China controls ~85% of global rare earth mining and ~90% of processing. This affects every motor and actuator regardless of where the final robot was assembled. Note it in any motor or actuator entry.
+
+**People network clusters in robotics** — flag connections to these origin clusters explicitly (in addition to the global people tracking format):
+- Carnegie Mellon Robotics Institute (Red Whittaker field robotics lab; AMR company founders)
+- MIT CSAIL and AeroAstro (drone and autonomy startups; Russ Tedrake manipulation group)
+- Stanford SAIL/ME (manipulation, legged robots; DJI co-founder Frank Wang, Stanford dropout)
+- iRobot alumni diaspora (wide spread after Amazon acquisition 2022)
+- DJI engineering alumni (several competing drone company founders)
+- DARPA PMs who funded foundational robotics programs and later joined portfolio companies — document these explicitly; the DARPA PM → company advisor/board pipeline is common and worth tracking
+- Ex-Uber ATG / Waymo / Cruise / Aurora engineers moving into AMR and delivery robot startups
+
+**Subsection review cadence:**
+- Aerial drones, Ground drones, Sensors/LiDAR, Power systems: 90 days (fast-moving, regulatory changes)
+- Actuators, Communications: 180 days
+
+**What NOT to include (robotics-specific):** Hobbyist or purely recreational products with no commercial or professional market relevance; "announced" products with no hardware prototype publicly demonstrated (document announcement date, mark Key Facts status as "Announced / Undemonstrated"); AV companies not primarily in the robotics market (Waymo, Cruise, Mobileye — separate AV section); humanoid robots (track in dedicated `humanoid/` subsection when the area warrants it — do not fold into ground-drones); traditional fixed-factory industrial robot arms (FANUC, Kuka, ABB, Yaskawa) — incumbents table only; simulation software platforms (Isaac Sim, Gazebo) — context but not primary entries.
+
+{{</steering>}}
+
 > **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
 
 
@@ -67,6 +106,9 @@ Tracks commercial robotics platforms, component suppliers, and the people and ca
 - [Gimbals & Camera Stabilization]({{< relref "gimbals/_index.md" >}}) — Brushless gimbal stabilization; Gremsy, Freefly Systems, DJI
 - [Propellers & Propulsion Mechanics]({{< relref "propellers/_index.md" >}}) — Composite and carbon fiber propeller design/materials; APC Propellers, Xoar International
 - [Airframe Structural Materials]({{< relref "airframe-materials/_index.md" >}}) — Carbon fiber composite fabrication and additive manufacturing for drone/robot frames; DragonPlate, HP Additive Manufacturing
+- [Bearings]({{< relref "bearings/_index.md" >}}) — US thin-section, precision and thrust bearing makers: SKF Kaydon, Schatz, NHBB, Auburn
+- [Magnets]({{< relref "magnets/_index.md" >}}) — US permanent magnet producers and developers: Noveon, Vulcan Elements, USA Rare Earth, Niron
+- [Motor Materials]({{< relref "motor-materials/_index.md" >}}) — US motor laminations and winding wire: Thomson Lamination, Laser Technologies, Tempel, Rea, MWS, Essex
 - [Encoders]({{< relref "encoders/_index.md" >}}) — Magnetic and optical rotary encoders for robot joint/motor feedback; RLS, Renishaw
 - [Slip Rings]({{< relref "slip-rings/_index.md" >}}) — Rotary electrical interfaces for continuous gimbal/joint rotation; Fabricast, MOFLON
 - [Antennas]({{< relref "antennas/_index.md" >}}) — Directional and auto-tracking antennas for long-range UAS command-and-control; Troll Systems, AeroVironment

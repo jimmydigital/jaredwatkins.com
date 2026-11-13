@@ -1,9 +1,9 @@
 ---
 title: "Thales Alenia Space — Stratobus"
 date: 2026-08-03
-lastmod: 2026-08-03
+lastmod: 2026-11-12
 draft: false
-description: "Stratobus is Thales Alenia Space's stratospheric airship program, a 140-metre autonomous helium dirigible designed for year-long station-keeping at 18-20km, backed by €17M in initial French state funding (2016) and a €43M EU EuroHAPS demonstration contract (2023), with no confirmed flight date as of the most recent 2026 update."
+description: "Stratobus is Thales Alenia Space's stratospheric airship program, a 140-metre autonomous helium dirigible designed for year-long station-keeping at 18-20km, backed by €17M in initial French state funding (2016) and a €43M EU EuroHAPS demonstration contract (2023); reduced-scale demonstrators were reported under construction in 2025, with no flight publicly reported as of November 2026."
 research_area: "hale-haps/airships"
 source_urls:
   - "https://www.thalesaleniaspace.com/en/press-releases/thales-alenia-space-signs-contract-european-commission-and-announces-kickoff"
@@ -13,7 +13,9 @@ source_urls:
   - "https://vipress.net/20-millions-deuros-lancement-dirigeable-stratospherique-stratobus/"
   - "http://satnews.com/2020/01/08/thales-alenia-space-and-thales-contract-with-french-defense-for-a-stratobus-type-platform"
   - "https://www.thalesaleniaspace.com/en/news/thales-alenia-space-lifts-2026-satshow"
-last_reviewed: 2026-08-03
+  - "https://aviationweek.com/aerospace/aircraft-propulsion/tas-builds-stratobus-demonstrators-high-altitude-operations"
+  - "https://www.aerospacetestinginternational.com/news/european-firms-to-merge-satellite-businesses-for-project-bromo.html"
+last_reviewed: 2026-11-12
 stale_after_days: 90
 ---
 
@@ -21,14 +23,14 @@ stale_after_days: 90
 
 ## Summary
 
-Stratobus is a stratospheric airship program run by Thales Alenia Space (a joint venture 67% owned by Thales, EPA:HO, and 33% by Leonardo, BIT:LDO). It is a non-rigid, helium-filled, solar-powered dirigible designed to station-keep autonomously at 18-20km altitude for up to a year, functioning as a "geostationary" regional platform for surveillance, telecommunications and environmental-monitoring payloads. Unlike most HAPS entrants, which are fixed-wing solar or hydrogen aircraft, Stratobus is an airship — a design choice the program has pursued since 2016 through a series of publicly funded development phases, with the flight-test timeline slipping repeatedly and no confirmed full-scale or even reduced-scale stratospheric flight date as of the most recent official update (March 2026).
+Stratobus is a stratospheric airship program run by Thales Alenia Space (a joint venture 67% owned by Thales, EPA:HO, and 33% by Leonardo, BIT:LDO). It is a non-rigid, helium-filled, solar-powered dirigible designed to station-keep autonomously at 18-20km altitude for up to a year, functioning as a "geostationary" regional platform for surveillance, telecommunications and environmental-monitoring payloads. Unlike most HAPS entrants, which are fixed-wing solar or hydrogen aircraft, Stratobus is an airship — a design choice the program has pursued since 2016 through a series of publicly funded development phases, with the flight-test timeline slipping repeatedly. Two reduced-scale proofs of concept were reported under construction in September 2025, but no full-scale or reduced-scale stratospheric flight had been publicly reported as of November 2026.
 
 ## Key Facts
 
-- **Parent companies:** Thales (67%, Euronext Paris: HO) and Leonardo (33%, Borsa Italiana: LDO), via their joint venture Thales Alenia Space.
+- **Parent companies:** Thales (67%, Euronext Paris: HO) and Leonardo (33%, Borsa Italiana: LDO), via their joint venture Thales Alenia Space. In October 2025 Airbus, Leonardo and Thales agreed to combine their space businesses — including the parents' holdings in Thales Alenia Space — into a new company owned 35% by Airbus and 32.5% each by Leonardo and Thales, which could be operational within about two years subject to regulatory approvals and employee consultation; the effect on Stratobus has not been stated.
 - **Program HQ:** Thales Alenia Space's Cannes, France site (Cannes Mandelieu), where the co-engineering phase began in 2016.
 - **Type:** Internal corporate R&D program (not a standalone company or spin-off).
-- **Status:** Active but long-running development program; no confirmed operational or full-scale flight date as of the most recent (March 2026) official Thales Alenia Space update.
+- **Status:** Active but long-running development program; two reduced-scale proofs of concept were reported under construction in September 2025; no flight date or completed flight was found in public sources as of November 2026.
 - **Vehicle:** ~140m length, ~32m diameter non-rigid helium airship; ~9,000kg total mass; four electric motors; over 1,000m² of solar cells; designed payload capacity over 250kg (rated at 5kW).
 - **Operating altitude:** 18-20km (lower stratosphere).
 - **Designed endurance:** Up to one year of continuous station-keeping (design goal, not yet flight-demonstrated at scale).
@@ -47,13 +49,15 @@ Since 2022, the largest public commitment to Stratobus has come through the EU's
 ## Notable Developments
 
 - **March 2026:** Thales Alenia Space presented Stratobus at the SATShow in Washington, D.C., describing it in promotional terms ("midway between satellite and drone," suited to defense, surveillance, and environmental-monitoring missions) but without stating a specific flight-test or entry-into-service date — consistent with a pattern of the program's public messaging shifting from concrete near-term dates toward general capability description as earlier target dates lapsed.
+- **October 2025:** Airbus, Leonardo and Thales announced plans to merge their satellite manufacturing and services businesses, including Thales' and Leonardo's interests in Thales Alenia Space, into a new company (project "Bromo") owned 35% / 32.5% / 32.5%, subject to regulatory approvals.
+- **September 2025:** Aviation Week reported that Thales Alenia Space had started building two reduced-scale proofs of concept for Stratobus, noting the company had promoted the airship since 2016 "with little progress so far"; no flight dates were given in the freely readable portion of the report.
 - **March 2023:** Thales Alenia Space signed the €43 million EuroHAPS contract with the European Commission (selected by the European Defence Fund in July 2022), kicking off development of a reduced-scale Stratobus demonstrator alongside CIRA's Hybrid High Altitude Airship and ESG/TAO's Autonomous Stratospheric Balloon System; demonstration flights were targeted for Sardinia and Fuerteventura starting in 2024.
 - **September 2021:** An 8-hour open-stratospheric-balloon test flight at Kiruna, Sweden (conducted by the Swedish Space Corporation under the EU's HEMERA 2020 project) validated Stratobus's emergency envelope-recovery system — cutting the envelope at 20km altitude via a digital-pyrotechnic system to trigger controlled descent. Yannick Combet, then Stratobus Program Manager at Thales Alenia Space, called it "a key step along the path to flight authorization for future reduced scale Stratobus demonstrators."
 - **January 2020:** France's DGA (defense procurement agency) contracted Thales Alenia Space and Thales for an ISR-focused concept study using a Stratobus-type platform, with an internally stated aim (per Jean-Philippe Chessel, then Director of the Stratobus product line) of a flight demonstration "by the end of 2023" — a target that was not met.
 - **2020:** Phase 1 (preliminary design and technology demonstration, including more than 3,000 sub-scale tests) closed, with the consortium concluding the Stratobus concept was technically feasible with the technologies then available.
 - **April 2016:** Thales Alenia Space officially launched the Stratobus R&D project after France's Commissariat général à l'investissement (via Bpifrance) approved €17 million in Investissements d'Avenir (PIA) funding for a 24-month initial development phase, plus roughly €3 million in regional co-funding. At launch, the company's original target was a demonstrator by 2018 and a qualification/certification flight by 2020 — neither of which occurred on that schedule.
 
-**On the pattern of delay:** Stratobus has been publicly described since 2016 with a series of near-term flight targets — demonstrator in 2018, qualification flight in 2020, ISR flight demonstration by end of 2023, EuroHAPS demonstrator flights from 2024 — none of which appear to have been met based on the sources reviewed for this entry. The most recent official Thales Alenia Space communication found (March 2026) describes the program's capabilities and mission fit without committing to a new flight date, which this entry treats as an indication the program's timeline continues to slip rather than as evidence of cancellation.
+**On the pattern of delay:** Stratobus has been publicly described since 2016 with a series of near-term flight targets — demonstrator in 2018, qualification flight in 2020, ISR flight demonstration by end of 2023, EuroHAPS demonstrator flights from 2024 — none of which appear to have been met based on the sources reviewed for this entry. Trade press reported in September 2025 that two reduced-scale proofs of concept were being built, the first concrete hardware step reported since the EuroHAPS contract. The most recent official Thales Alenia Space communication found (March 2026) describes the program's capabilities and mission fit without committing to a new flight date, which this entry treats as an indication the program's timeline continues to slip rather than as evidence of cancellation.
 
 ## Key People
 
@@ -99,7 +103,7 @@ LinkedIn: not found (not searched this session).
 
 **Claim: Stratobus has repeatedly missed its own publicly stated flight-test target dates (2018 demonstrator, 2020 qualification flight, 2023 ISR flight demonstration, 2024 EuroHAPS demonstrator flights).**
 **Status:** Partially verified
-**Supporting sources:** VIPress.net (2016 original targets, fetched); SatNews (2020 DGA contract citing an end-of-2023 flight demonstration target, fetched); DataCenterDynamics/official Thales Alenia Space EuroHAPS release (2024 Sardinia/Fuerteventura target, fetched); Thales Alenia Space's own March 2026 SATShow update (fetched), which describes the program without citing any of the earlier dates or a new one.
+**Supporting sources:** VIPress.net (2016 original targets, fetched); SatNews (2020 DGA contract citing an end-of-2023 flight demonstration target, fetched); DataCenterDynamics/official Thales Alenia Space EuroHAPS release (2024 Sardinia/Fuerteventura target, fetched); Thales Alenia Space's own March 2026 SATShow update (fetched), which describes the program without citing any of the earlier dates or a new one; Aviation Week (September 2025, lede fetched), reporting demonstrator construction only just started.
 **Refuting/questioning sources:** None found — no source reviewed claims any of these dates were met.
 **Summary:** Each individual target date is confirmed via a contemporaneous source, and the absence of any confirmed flight or new date in the most recent (2026) official communication supports the inference of a slipping timeline, though this entry did not find an explicit Thales Alenia Space statement acknowledging delay.
 
@@ -112,3 +116,5 @@ LinkedIn: not found (not searched this session).
 - [VIPress.net: 20 millions d'euros pour le lancement du dirigeable stratosphérique Stratobus](https://vipress.net/20-millions-deuros-lancement-dirigeable-stratospherique-stratobus/) — French industry press report (April 2016) on the project's official launch, funding breakdown, initial partners, and original 2018/2020 target dates.
 - [SatNews: Thales Alenia Space and Thales' Contract with French Defense for a Stratobus Type Platform](http://satnews.com/2020/01/08/thales-alenia-space-and-thales-contract-with-french-defense-for-a-stratobus-type-platform) — Coverage of the January 2020 DGA ISR concept-study contract, including the stated end-of-2023 flight demonstration target.
 - [Thales Alenia Space: Thales Alenia Space lifts off for the 2026 SATShow](https://www.thalesaleniaspace.com/en/news/thales-alenia-space-lifts-2026-satshow) — Most recent official Stratobus update found (March 2026), describing the program's mission fit without a new flight-test date.
+- [Aviation Week: TAS Builds Stratobus Demonstrators For High-Altitude Operations](https://aviationweek.com/aerospace/aircraft-propulsion/tas-builds-stratobus-demonstrators-high-altitude-operations) — September 2025 report (paywalled beyond the lede) that two reduced-scale proofs of concept were under construction.
+- [Aerospace Testing International: European firms to merge satellite businesses for project Bromo](https://www.aerospacetestinginternational.com/news/european-firms-to-merge-satellite-businesses-for-project-bromo.html) — October 2025 report on the planned Airbus–Leonardo–Thales space company, ownership split and timing.

@@ -1,7 +1,7 @@
 ---
 title: "Texas: ERCOT Grid Strain and Water Wars"
 date: 2026-04-20
-lastmod: 2026-10-26
+lastmod: 2026-11-11
 draft: false
 description: "Texas datacenter opposition — ERCOT grid reliability concerns, water scarcity conflicts in rural areas, legislative response (SB 6), grassroots organizing, and the political economy of datacenters in a deregulated grid."
 research_area: "datacenter-opposition"
@@ -18,7 +18,11 @@ source_urls:
   - "https://www.datacenterdynamics.com/en/news/developer-withdraws-application-for-70mw-data-center-in-hutto-texas/"
   - "https://communityimpact.com/austin/pflugerville-hutto/government/2026/04/22/zydeco-development-withdraws-zoning-request-for-data-center-in-hutto/"
   - "https://www.kut.org/energy-environment/2026-04-20/hutto-tx-zydeco-data-center-rezoning-request"
-last_reviewed: 2026-10-26
+  - "https://fortune.com/2026/11/05/elon-musk-texas-democrats-hinojosa-terafab/"
+  - "https://insurancejournal.com/news/southcentral/2026/11/10/892283.htm"
+  - "https://gov.texas.gov/news/post/governor-abbott-directs-tceq-to-halt-data-center-permits"
+  - "https://www.kslaw.com/Insights/Articles/Navigating-New-Headwinds-What-the-2026-Election-Results-Mean-for-Data-Center-Projects-in-Texas"
+last_reviewed: 2026-11-11
 stale_after_days: 90
 ---
 
@@ -239,6 +243,13 @@ As of April 2026, datacenter opposition is becoming a political issue in Texas m
 
 - **2026-08-03:** Gov. Greg Abbott ordered a statewide audit of data centers before any more advance through ERCOT's interconnection process, citing about 474 GW of connection requests (roughly 90% from data centers) and some operators' failure to answer a PUC water and power survey. The PUC and ERCOT must review financial support, power supply, water use, cooling, community-impact mitigation and ownership; projects that fail "must be denied" grid connection. ERCOT held back its planned August 7 Batch Zero classifications and postponed the Batch Zero transmission study, with no end date set. ([Akin Gump](https://www.akingump.com/en/insights/alerts/texas-pauses-data-center-interconnections-pending-statewide-audit))
 
+- **2026-09-14 / 2026-09-21:** Abbott directed the Texas Water Development Board to enforce data center water-use reporting (Sept 14) and ordered TCEQ to issue no data center permits until ERCOT completes its audit (Sept 21), saying data centers must pay their own way and protect the grid and water. Neither ERCOT nor the PUC has announced an audit timeline; projects under 25 MW are not covered by the audit surveys or pause, though whether the TCEQ hold reaches them should be confirmed. ([Office of the Governor](https://gov.texas.gov/news/post/governor-abbott-directs-tceq-to-halt-data-center-permits); [King & Spalding](https://www.kslaw.com/Insights/Articles/Navigating-New-Headwinds-What-the-2026-Election-Results-Mean-for-Data-Center-Projects-in-Texas))
+- **2026-10-19 to 2026-10-27:** Democratic nominee Gina Hinojosa sued for unredacted communications between Abbott's office and Elon Musk's companies (the office called the suit a baseless stunt). Judge Catherine Mauzy ordered inspection on Oct 26; the 15th Court of Appeals stayed the order Oct 27. On Oct 22 Hinojosa pledged a moratorium, "a ban," on all data center approvals until the Legislature passes new protections. ([Fortune](https://fortune.com/2026/11/05/elon-musk-texas-democrats-hinojosa-terafab/))
+- **2026-11-03:** Hinojosa defeated Abbott, who conceded on election night. Democrats won the Texas House; Republicans kept the Senate 19–12. At least \$225 million of Musk's more than \$445 million in midterm giving went to Texas races. ([Fortune](https://fortune.com/2026/11/05/elon-musk-texas-democrats-hinojosa-terafab/))
+- **2026-11-05:** Hinojosa said she would balance stricter data center rules with keeping Texas business-friendly, questioned the \$1.66 billion JETI tax break for the \$16.8 billion Terafab chip plant (a chip plant, not a conventional data center), and asked the state to postpone any decision on selling roughly 1,300 acres including Boca Chica State Park to SpaceX until she takes office. No sale has been approved. Musk posted on X that data centers in space look appealing. ([Houston Public Media](https://www.houstonpublicmedia.org/articles/news/politics/2026/11/04/566272/elon-musk-poured-millions-into-texas-republican-campaigns-that-lost-whats-next-for-his-texas-dream/); [Fortune](https://fortune.com/2026/11/05/elon-musk-texas-democrats-hinojosa-terafab/); [Futurism](https://futurism.com/future-society/texas-governor-elon-musk))
+- **2026-11-10:** Starbase, Texas posted a hearing notice for a \$24 billion SpaceX gas-fired power plant and super-compute facility within city limits (reported at about 10 GW), with approval expected in December; Bloomberg reported it could face headwinds from Hinojosa. ([Insurance Journal/Bloomberg](https://insurancejournal.com/news/southcentral/2026/11/10/892283.htm))
+- **Calendar:** The 90th Legislature convenes Jan 12, 2027 and Hinojosa takes office Jan 19. Until then Abbott controls the audit and permit directives. Hinojosa has announced no implementation date or mechanism for her moratorium, and the Senate confirms PUC appointees by two-thirds vote, which limits how fast she can reshape the commission. Both Abbott and Hinojosa have said they favor ending data center financial incentives. ([King & Spalding](https://www.kslaw.com/Insights/Articles/Navigating-New-Headwinds-What-the-2026-Election-Results-Mean-for-Data-Center-Projects-in-Texas))
+
 ## Key Takeaways
 
 1. **ERCOT grid capacity is the central issue:** 410,000 MW of interconnection requests far exceed generation capacity; grid strain is real and near-term.
@@ -254,6 +265,8 @@ As of April 2026, datacenter opposition is becoming a political issue in Texas m
 6. **Deal secrecy is a complaint:** Nondisclosure agreements prevent public knowledge of datacenter specifications, water use, tax breaks, and job commitments.
 
 7. **Housing and quality-of-life impacts are emerging:** Stargate facility's housing crisis shows secondary effects of rapid datacenter expansion.
+
+8. **A gubernatorial transition now drives the policy path:** Abbott's audit and permit freeze is already in force, Hinojosa has pledged a broader moratorium, and the Musk-linked projects (Starbase super-compute facility, Terafab incentives, Colossus in the Memphis area) are the first tests of how far it reaches.
 
 ---
 
@@ -276,3 +289,8 @@ As of April 2026, datacenter opposition is becoming a political issue in Texas m
 - [Data center developer withdraws rezoning request in Hutto - KUT Radio](https://www.kut.org/energy-environment/2026-04-20/hutto-tx-zydeco-data-center-rezoning-request)
 - [Hutto data center rezoning request withdrawn by developer - KXAN Austin](https://www.kxan.com/news/local/hutto/hutto-data-center-rezoning-request-withdrawn-by-developer/)
 - [Developer withdraws proposed data center rezoning in Hutto after community pushback - CBS Austin](https://cbsaustin.com/news/local/developer-withdraws-proposed-data-center-rezoning-in-hutto-after-community-pushback)
+- [Elon Musk spent at least \$225 million in Texas. The governor-elect who sued for Abbott emails and vowed a data center freeze won anyway - Fortune (Nov 5, 2026)](https://fortune.com/2026/11/05/elon-musk-texas-democrats-hinojosa-terafab/)
+- [Elon Musk poured millions into Texas Republican campaigns that lost. What's next for his Texas dream? - Houston Public Media (Nov 4, 2026)](https://www.houstonpublicmedia.org/articles/news/politics/2026/11/04/566272/elon-musk-poured-millions-into-texas-republican-campaigns-that-lost-whats-next-for-his-texas-dream/)
+- [SpaceX Plans \$24 Billion Data Center and Gas Plant in Texas - Insurance Journal/Bloomberg (Nov 10, 2026)](https://insurancejournal.com/news/southcentral/2026/11/10/892283.htm)
+- [Governor Abbott Directs TCEQ To Halt Data Center Permits - Office of the Texas Governor (Sept 21, 2026)](https://gov.texas.gov/news/post/governor-abbott-directs-tceq-to-halt-data-center-permits)
+- [Navigating New Headwinds - King & Spalding (Nov 6, 2026)](https://www.kslaw.com/Insights/Articles/Navigating-New-Headwinds-What-the-2026-Election-Results-Mean-for-Data-Center-Projects-in-Texas)

@@ -1,9 +1,9 @@
 ---
 title: "Kea Aerospace"
 date: 2026-08-03
-lastmod: 2026-08-03
+lastmod: 2026-11-12
 draft: false
-description: "Christchurch, New Zealand-based developer of the solar-powered Kea Atmos stratospheric aircraft, which reached 56,284 feet on an 8-hour-20-minute flight in February 2025, launched from a driving electric car."
+description: "Christchurch, New Zealand-based developer of the solar-powered Kea Atmos stratospheric aircraft, which reached 56,284 feet on an 8-hour-20-minute flight in February 2025; opened a 3,000 m² manufacturing and operations site in August 2026 for its larger Mk2 aircraft, which has not yet flown."
 research_area: "hale-haps/fixed-wing"
 source_urls:
   - "https://www.keaaerospace.com/kea-atmos/"
@@ -12,7 +12,9 @@ source_urls:
   - "https://en.wikipedia.org/wiki/Kea_Aerospace"
   - "https://www.1news.co.nz/2025/02/12/kea-aerospace-completes-solar-powered-stratospheric-flight/"
   - "https://www.prnewswire.com/news-releases/kea-aerospace-launches-solar-powered-stratospheric-aircraft-using-audi-ev-301794013.html"
-last_reviewed: 2026-08-03
+  - "https://www.keaaerospace.com/news-and-events/real-time-aerial-imaging-for-maritime-awareness/"
+  - "https://www.chrislynchmedia.com/news-items/kea-aerospace-opens-christchurch-base-to-build-stratospheric-aircraft-at-scale/"
+last_reviewed: 2026-11-12
 stale_after_days: 90
 ---
 
@@ -27,8 +29,8 @@ Kea Aerospace is a Christchurch, New Zealand-based company developing the Kea At
 - **Founded:** 2018
 - **HQ:** Christchurch, New Zealand
 - **Type:** Private company
-- **Status:** Active — flight-testing technology demonstrator (Kea Atmos Mk1/Mk1b); Mk2 long-endurance variant in development
-- **Key metrics:** Kea Atmos Mk1 — 12.5 m wingspan, under 40 kg weight, designed for ~50,000 ft and up to 16 hours; February 2025 flight reached 56,284 ft (17,155 m) over 8 hours 20 minutes, covering 420 km. Planned Mk2 wingspan approximately 30 m (per company website; not yet flown).
+- **Status:** Active — flight-testing technology demonstrator (Kea Atmos Mk1/Mk1b, 23 flight tests through March 2026); Mk2 long-endurance variant in design, with a dedicated manufacturing and operations site opened in Christchurch in August 2026
+- **Key metrics:** Kea Atmos Mk1 — 12.5 m wingspan, under 40 kg weight, designed for ~50,000 ft and up to 16 hours; February 2025 flight reached 56,284 ft (17,155 m) over 8 hours 20 minutes, covering 420 km. Planned Mk2 wingspan approximately 30 m per the company's website and May 2026 release, reported as 35 m in August 2026 coverage of the new facility; designed to operate above 60,000 ft (not yet flown).
 
 ## What It Is / How It Works
 
@@ -36,12 +38,16 @@ The Kea Atmos is designed as an uncrewed, solar-powered fixed-wing aircraft that
 
 Because the aircraft must be extremely lightweight to operate in the thin air of the stratosphere, it does not carry landing gear. Instead, Kea Aerospace launches the Kea Atmos from the back of a driving electric vehicle (an Audi e-tron Sportback was used for at least one 2023 test), which accelerates the aircraft to takeoff speed before release.
 
-The company's development path has moved through several aircraft generations: an X10 low-altitude electric demonstrator that flew 36 hours non-stop in February 2022 to prove perpetual-flight endurance concepts, followed by the Kea Atmos Mk1 (first flown March 2023, 12.5 m wingspan), and the Mk1b variant that achieved the company's first stratospheric flight in February 2025. Kea Aerospace states it plans to follow with a larger Mk2 variant (roughly 30 m wingspan) intended for long-duration stratospheric flight, though as of this entry the Mk2 has not been reported flying.
+The company's development path has moved through several aircraft generations: an X10 low-altitude electric demonstrator that flew 36 hours non-stop in February 2022 to prove perpetual-flight endurance concepts, followed by the Kea Atmos Mk1 (first flown March 2023, 12.5 m wingspan), and the Mk1b variant that achieved the company's first stratospheric flight in February 2025. Kea Aerospace states it plans to follow with a larger Mk2 variant (roughly 30 m wingspan) intended for long-duration stratospheric flight, though as of this entry the Mk2 has not been reported flying. In August 2026 the company opened a 3,000 m² site in Christchurch to build, assemble, test and remotely operate the aircraft, with a built-in mission control room; local coverage said the site could later expand to produce hundreds of aircraft, a company ambition rather than a funded plan in the sources reviewed.
+
+The March 2026 imaging flight was supported by the German Aerospace Center (DLR) as payload partner, which Kea says contributes expertise on components that meet the aircraft's size, weight and power limits.
 
 Kea Aerospace has said it is collaborating with NASA's Ames Research Center on image-processing algorithms for its aerial imagery pipeline, and was reportedly the second company admitted to New Zealand's government Airspace Integration Trials Programme, according to Wikipedia's sourcing — these specific claims were not independently confirmed against a primary NASA or government source in this review.
 
 ## Notable Developments
 
+- **August 2026:** Kea Aerospace opened a 3,000 m² manufacturing and operations site in Christchurch, opened by Defence and Space Minister Chris Penk and customised for the Kea Atmos Mk2 (reported as a 35 m wingspan aircraft). Part of the site is reserved for two years for other aerospace companies.
+- **March 2026 (announced 8 May 2026):** On its 23rd flight test the Kea Atmos Mk1b climbed to a peak of 42,775 ft from the Tāwhaki National Aerospace Centre and captured high-resolution imagery over the Kaitorete and Te Waihora (Lake Ellesmere) area, retrieved in near real time; DLR provided live mission support as payload partner.
 - **February 2025:** The Kea Atmos Mk1b completed the company's first flight into the stratosphere, reaching an altitude of 56,284 feet (17,155 m) with a flight duration of 8 hours 20 minutes and a total distance of 420 km, taking off from the Tāwhaki National Aerospace Centre south of Banks Peninsula, near Christchurch.
 - **March 2023:** The Kea Atmos Mk1 completed its maiden flight; flight testing began building toward stratospheric altitude, with the company describing it as the first solar-powered stratospheric aircraft designed and built in the Southern Hemisphere. The launch vehicle for at least this test campaign was an electric Audi e-tron Sportback.
 - **February 2022:** Kea Aerospace's X10 aircraft flew 36 hours non-stop at low altitude, an early proof of the company's perpetual-flight power and control systems.
@@ -69,7 +75,11 @@ LinkedIn: https://nz.linkedin.com/in/annakominik
 Previously: Asia Pacific Region Director, Wisk Aero (December 2016–December 2021), working on the Wisk electric self-flying air taxi (eVTOL); prior roles in New Zealand government and corporate sectors; named a finalist in the 2021 Women of Influence awards.
 **⚑ Overlap:** Wisk Aero — an eVTOL air-taxi developer, not a HALE/HAPS company, but an adjacent advanced-aviation venture.
 
-### People — Last Reviewed: 2026-08-03
+**Dr. Dan Price** — Chief Scientist (named in the company's May 2026 release)
+LinkedIn: not found (not searched this review).
+**⚑ Overlap:** None identified.
+
+### People — Last Reviewed: 2026-11-12
 
 ## Claim Verification
 
@@ -97,6 +107,12 @@ Previously: Asia Pacific Region Director, Wisk Aero (December 2016–December 20
 - **Refuting/questioning sources:** None found
 - **Summary:** Plausible and consistent with photos of Kea founders meeting NASA Administrator Bill Nelson (referenced in the company's own April 2023 press release), but the specific NASA collaboration and regulatory program claims were not verified against a primary NASA or government source in this session.
 
+**Claim: The Kea Atmos Mk2 will have a 35-metre wingspan and fly in the stratosphere for months without landing.**
+- **Status:** Unverified (design target; wingspan figure inconsistent)
+- **Supporting sources:** [Chris Lynch Media, August 2026](https://www.chrislynchmedia.com/news-items/kea-aerospace-opens-christchurch-base-to-build-stratospheric-aircraft-at-scale/) (35 m); [Kea Aerospace media release, May 2026](https://www.keaaerospace.com/news-and-events/real-time-aerial-imaging-for-maritime-awareness/) (30 m, multi-month endurance)
+- **Refuting/questioning sources:** None, but the two sources give different wingspans and the longest Kea flight documented is the 8-hour-20-minute Mk1b flight of February 2025.
+- **Summary:** The Mk2 is in design and has not flown; endurance and size figures are targets.
+
 ## Sources
 
 - [Kea Aerospace — Kea Atmos](https://www.keaaerospace.com/kea-atmos/) — Official aircraft specifications, altitude/endurance targets, and Mk1/Mk2 descriptions.
@@ -105,3 +121,5 @@ Previously: Asia Pacific Region Director, Wisk Aero (December 2016–December 20
 - [Wikipedia: Kea Aerospace](https://en.wikipedia.org/wiki/Kea_Aerospace) — Founding history, February 2025 stratospheric flight details, aircraft description.
 - [1News: Kea Aerospace completes solar-powered stratospheric flight (February 2025)](https://www.1news.co.nz/2025/02/12/kea-aerospace-completes-solar-powered-stratospheric-flight/) — Confirms February 2025 altitude and launch location.
 - [PRNewswire: Kea Aerospace Launches Solar-Powered Stratospheric Aircraft Using Audi EV (April 2023)](https://www.prnewswire.com/news-releases/kea-aerospace-launches-solar-powered-stratospheric-aircraft-using-audi-ev-301794013.html) — Audi e-tron Sportback launch vehicle, X10 flight record, CEO quotes.
+- [Kea Aerospace — Media Release: Real-Time Aerial Imaging For Maritime Awareness (May 2026)](https://www.keaaerospace.com/news-and-events/real-time-aerial-imaging-for-maritime-awareness/) — March 2026 imaging flight (23rd flight test, 42,775 ft), DLR payload partnership, Mk2 design status.
+- [Chris Lynch Media: Kea Aerospace opens Christchurch base to build stratospheric aircraft at scale (August 2026)](https://www.chrislynchmedia.com/news-items/kea-aerospace-opens-christchurch-base-to-build-stratospheric-aircraft-at-scale/) — New 3,000 m² manufacturing and operations site, Mk2 description, ministerial opening.

@@ -1,7 +1,7 @@
 ---
 title: "Compute Marketplaces"
 date: 2026-08-04
-lastmod: 2026-08-15
+lastmod: 2026-11-12
 draft: false
 description: "Technology enabling on-demand, ad-hoc marketplaces for inference compute: discovery and latency-based routing, price/auction matchmaking, and machine-to-machine payment rails — plus prior-art comparables from multiplayer game server matchmaking."
 research_area: "compute-marketplaces"
@@ -13,13 +13,29 @@ sitemap:
   disable: false
 ---
 
+{{<steering>}}
+
+## Compute Marketplaces — Steering Instructions
+
+**Scope:** Technology enabling on-demand, ad-hoc matching of inference-compute buyers and sellers across otherwise-unaffiliated providers — discovery/service-location mechanisms, latency- and price-based routing, matchmaking/auction designs, and machine-to-machine payment/settlement layers. In scope: production and pre-production routing/marketplace software (OpenRouter's posted-price provider routing, Akash's on-chain reverse auction), decentralized peer-discovery protocol stacks (libp2p/Kademlia DHT swarms as used by Petals/Hivemind and derivative projects), emerging standards efforts (IETF individual-draft AI discovery proposals), and payment rails purpose-built for per-request machine payments (x402 and similar HTTP-402-based protocols). Prior-art comparables from other real-time, latency-sensitive matchmaking domains — multiplayer game server browsers and relay networks — are documented here as design references, not as compute-marketplace products. Out of scope: the physical siting/power story for distributed compute (see `datacenters/distributed-compute` — that section covers where the hardware lives and how it draws power; this section covers how a buyer finds it and pays for it); general-purpose cloud API gateways with no cross-provider marketplace or discovery angle; blockchain/token speculation unrelated to the coordination mechanism itself.
+
+**Editorial framing:** This is a nascent, largely unstandardized layer as of mid-2026. Two production-scale coordination models exist today — posted-price aggregation (OpenRouter) and on-chain reverse auction (Akash) — but neither does true latency-aware physical-proximity routing the way CDNs or game relay networks do; that gap is the most interesting open design space in this section. Treat "latency-based routing" and "geographic routing" claims as aspirational/roadmap items for inference marketplaces unless a specific shipped mechanism is documented (OpenRouter's own geographic routing is listed as planned, not shipped, as of this review). IETF drafts referenced in this section: check each draft's current status in the IETF Datatracker (individual submission vs. working-group adopted) before describing it, and never describe a draft as an adopted or published standard until an RFC is issued.
+
+**Claim verification flags specific to this subsection:** Distinguish a protocol that is production/shipped (OpenRouter's provider routing, Akash's bid/lease mechanism, x402's facilitator flow) from one that is a research prototype or pre-1.0 project (Petals, Hivemind, and most libp2p-based swarm projects) — note real user/node counts where available and flag marketing or aspirational figures explicitly. For any "N× cheaper/faster" comparison, confirm the baseline is named and dated before repeating it.
+
+**Cross-references:** `datacenters/distributed-compute` (Akash, Span, the DisCo residential-inference cost model) is the physical/siting counterpart to this section's coordination-layer focus — flag shared themes (e.g., Akash appears in both as marketplace-coordination software and as a distributed-compute company) without duplicating full entries; link back to the existing entry instead of recreating it.
+
+**Review cadence:** 90 days — fast-moving, standards-in-flux space with no dominant shipped design as of mid-2026.
+
+{{</steering>}}
+
 > **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
 
 ## Overview
 
 If inference compute is going to trade in an open, ad-hoc market — buyers and sellers who have never met, matched request-by-request across whichever provider can serve fastest or cheapest — three technical layers have to exist: a way for a buyer to **discover** who can serve a given request nearby or cheaply, a **matchmaking/pricing** mechanism that decides who actually gets the job, and a **payment/settlement** layer that lets machines pay machines per request without a human in the loop. This section tracks the state of each layer as of mid-2026.
 
-None of the three layers has a dominant, standardized answer yet. Two production-scale marketplaces exist — [OpenRouter]({{< relref "openrouter.md" >}}) (posted-price aggregation across 60+ inference providers) and [Akash Network]({{< relref "../datacenters/distributed-compute/akash-network.md" >}}) (on-chain reverse auction) — but neither routes on measured physical latency the way a CDN or a multiplayer game network does. That gap is the section's organizing question, which is why [latency-based matchmaking in multiplayer gaming]({{< relref "latency-based-matchmaking-in-multiplayer-gaming.md" >}}) — a problem the game industry solved decades ago for a similarly real-time, similarly ad-hoc matching problem — is documented here as the closest existing design comparable, alongside the decentralized [libp2p/Kademlia DHT discovery stack]({{< relref "p2p-discovery-protocols-libp2p-kademlia.md" >}}) used by peer-to-peer inference swarms, the emerging [IETF AI discovery drafts]({{< relref "ietf-ai-service-discovery-drafts.md" >}}), and [x402]({{< relref "x402-machine-payments.md" >}}), the leading candidate for the machine-payment layer.
+None of the three layers has a dominant, standardized answer yet. Two production-scale marketplaces exist — [OpenRouter]({{< relref "openrouter.md" >}}) (posted-price aggregation across 80+ inference providers; owned by Stripe since November 2026) and [Akash Network]({{< relref "../datacenters/distributed-compute/akash-network.md" >}}) (on-chain reverse auction) — but neither routes on measured physical latency the way a CDN or a multiplayer game network does. That gap is the section's organizing question, which is why [latency-based matchmaking in multiplayer gaming]({{< relref "latency-based-matchmaking-in-multiplayer-gaming.md" >}}) — a problem the game industry solved decades ago for a similarly real-time, similarly ad-hoc matching problem — is documented here as the closest existing design comparable, alongside the decentralized [libp2p/Kademlia DHT discovery stack]({{< relref "p2p-discovery-protocols-libp2p-kademlia.md" >}}) used by peer-to-peer inference swarms, the emerging [IETF AI discovery drafts]({{< relref "ietf-ai-service-discovery-drafts.md" >}}), and [x402]({{< relref "x402-machine-payments.md" >}}), the leading candidate for the machine-payment layer.
 
 This section is the coordination-layer counterpart to [Distributed & Decentralized Compute]({{< relref "../datacenters/distributed-compute/_index.md" >}}), which covers where distributed inference hardware is physically sited and powered. This section covers how a buyer finds that hardware and pays for the tokens it produces.
 
@@ -33,7 +49,7 @@ A separate, non-blockchain lineage of this problem is emerging out of Kubernetes
 - Discovery standardization now has a concrete, non-blockchain running pilot beyond the IETF's individual drafts: NANDA (MIT Media Lab) proposes a DNS-like "Index" plus cryptographically verifiable "AgentFacts" records for agent/service discovery at internet scale — explicitly not blockchain-dependent — though as of mid-2026 it targets general AI-agent interoperability rather than compute/inference-marketplace matching specifically, and remains an early research deployment (~15 partner institutions, ~1,000 registered agents via its pilot registry)
 - The multiplayer gaming industry solved a structurally similar problem — real-time, latency-sensitive matching of ad-hoc clients to the best available server — starting with ping-sorted server browsers in 1996 and maturing into relay networks (Valve's Steam Datagram Relay) that separate generic latency-measurement/relay transport from game-specific matchmaking policy; that split is a direct design analogy for a compute marketplace, and is echoed in how the Gateway API Inference Extension separates gateway/proxy transport from pluggable routing-policy logic
 - Peer-to-peer inference swarms (Petals/Hivemind and derivatives) use a libp2p + Kademlia DHT stack for node discovery — a mechanism borrowed wholesale from BitTorrent/IPFs-style file sharing, distinct from and not interoperable with OpenRouter's, Akash's, or the Kubernetes-native routing stack's coordination models
-- Standards work is nascent: IETF has multiple individual (non-working-group) drafts proposing AI/agent discovery mechanisms as of early-to-mid 2026, none adopted
+- Standards work is nascent: the IETF chartered a working group for AI-agent discovery (DAWN) in October 2026 after a run of individual drafts, but no protocol has been adopted and its first protocol milestone is December 2027
 - Machine-to-machine micropayment rails (x402, built on the revived HTTP 402 status code) are the leading candidate for a settlement layer that lets an AI agent pay per inference call without an account or human approval step — live in production since mid-2025 with meaningful but still small transaction volume as of early 2026
 - Unsolved marketplace problem common to every posted-price aggregator: quality/fraud verification (a provider silently serving a more heavily quantized model than advertised) has no standard countermeasure yet
 
@@ -43,9 +59,9 @@ A separate, non-blockchain lineage of this problem is emerging out of Kubernetes
 
 | Company | HQ | Stage | Mission |
 |---------|-----|-------|---------|
-| [OpenRouter](https://openrouter.ai/) | New York, US | Series B (~$1.3B valuation, May 2026) | Posted-price, multi-provider LLM inference routing gateway/marketplace — 400+ models, 60+ providers. |
+| [OpenRouter](https://openrouter.ai/) | New York, US | Acquired by Stripe (announced Aug 2026, completed Nov 2026) | Posted-price, multi-provider LLM inference routing gateway/marketplace — 400+ models, 80+ providers. |
 | [Akash Network](https://akash.network/) | Distributed/DAO (Overclock Labs, San Francisco) | Live mainnet, token-governed | On-chain reverse-auction marketplace for GPU/CPU compute; see full entry in [Distributed & Decentralized Compute]({{< relref "../datacenters/distributed-compute/akash-network.md" >}}). |
-| [LiteLLM](https://www.litellm.ai/) (BerriAI) | US | Seed ($1.6M, YC W23) | Open-source, self-hosted LLM gateway with latency-/cost-/least-busy-based routing across 100+ providers — the non-blockchain, self-hosted counterpart to OpenRouter's hosted router. |
+| [LiteLLM](https://www.litellm.ai/) (BerriAI) | US | Seed (\$1.6M, YC W23) | Open-source, self-hosted LLM gateway with latency-/cost-/least-busy-based routing across 100+ providers — the non-blockchain, self-hosted counterpart to OpenRouter's hosted router. |
 
 ### Public Companies
 

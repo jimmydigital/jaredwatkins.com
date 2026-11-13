@@ -1,9 +1,9 @@
 ---
 title: "Mira Aerospace"
 date: 2026-08-03
-lastmod: 2026-08-03
+lastmod: 2026-11-12
 draft: false
-description: "Mira Aerospace is an Abu Dhabi, UAE-based subsidiary of Space42 (formed from the Bayanat–Yahsat merger) that builds the ApusNeo solar-electric HAPS aircraft; it opened MENA's first HAPS manufacturing facility in May 2025 and flew Europe's first civilian-approved HAPS flight in December 2025."
+description: "Mira Aerospace is an Abu Dhabi, UAE-based subsidiary of Space42 (formed from the Bayanat–Yahsat merger) that builds the ApusNeo solar-electric HAPS aircraft; it opened MENA's first HAPS manufacturing facility in May 2025, flew Europe's first civilian-approved HAPS flight in December 2025, and began a wildfire-monitoring flight campaign in Spain in September 2026."
 research_area: "hale-haps/fixed-wing"
 source_urls:
   - "https://miraaerospace.com/"
@@ -12,7 +12,9 @@ source_urls:
   - "https://www.thenationalnews.com/future/space/2024/10/29/mira-aerospace-abu-dhabi/"
   - "https://www.datacenterdynamics.com/en/news/mira-aerospace-completes-haps-test-flight-in-rwanda/"
   - "https://www.mediaoffice.abudhabi/en/transport/space42-subsidiary-mira-aerospace-opens-mena-regions-first-high-altitude-platform-station-manufacturing-facility-in-abu-dhabi/"
-last_reviewed: 2026-08-03
+  - "https://www.bernama.com/en/press/news.php?id=2610795"
+  - "https://www.airframer.com/news/release/102975"
+last_reviewed: 2026-11-12
 stale_after_days: 90
 ---
 
@@ -20,16 +22,17 @@ stale_after_days: 90
 
 ## Summary
 
-Mira Aerospace is an Abu Dhabi, UAE-based company building solar-electric High Altitude Platform Station (HAPS) aircraft under the "Apus" family name, most recently the ApusNeo18. Originally formed as a joint venture between US-based unmanned-systems developer UAVOS and Emirati geospatial company Bayanat, Mira Aerospace is now a subsidiary of Space42, the UAE space-tech company created by the 2024 merger of Bayanat and satellite operator Yahsat. In May 2025 Mira Aerospace opened what it describes as the MENA region's first HAPS manufacturing facility in Abu Dhabi, and in December 2025 it flew what Space42 says was the first HAPS flight with civilian operational approval in Europe.
+Mira Aerospace is an Abu Dhabi, UAE-based company building solar-electric High Altitude Platform Station (HAPS) aircraft under the "Apus" family name, most recently the ApusNeo18. Originally formed as a joint venture between US-based unmanned-systems developer UAVOS and Emirati geospatial company Bayanat, Mira Aerospace is now a subsidiary of Space42, the UAE space-tech company created by the 2024 merger of Bayanat and satellite operator Yahsat. In May 2025 Mira Aerospace opened what it describes as the MENA region's first HAPS manufacturing facility in Abu Dhabi, and in December 2025 it flew what Space42 says was the first HAPS flight with civilian operational approval in Europe. In September 2026 it began a multi-flight wildfire-monitoring campaign from Fuerteventura with Telespazio Ibérica, opening with a 29-hour flight.
 
 ## Key Facts
 
 - **Founded:** Joint venture between UAVOS and Bayanat, first reported publicly around 2023 (test flights date to at least June 2023); restructured as a Space42 subsidiary following the 2024 Bayanat–Yahsat merger.
 - **HQ:** Abu Dhabi, United Arab Emirates.
 - **Type:** Subsidiary of Space42 (a publicly listed, UAE-based AI/space-tech company formed from the Bayanat–Yahsat merger); originally a UAVOS–Bayanat joint venture.
-- **Status:** Active / pre-commercial, conducting demonstration and test flights internationally; commercialization targeted from 2025 per earlier company statements.
+- **Status:** Active / pre-commercial, conducting demonstration and customer-campaign flights internationally (wildfire-monitoring campaign in Spain, September–October 2026); commercialization was targeted from 2025 per earlier company statements.
 - **Aircraft (ApusNeo18):** 18-metre wingspan, 12-metre length, just over 45 kg mass, operating altitude 13–20 km (~43,000–65,600 ft).
 - **Earlier aircraft (ApusDuo):** 15-metre wingspan, ~43 kg maximum take-off weight, reached 16,686 m (~54,700 ft) altitude, tested in Rwanda in June 2023 during a 10.5-hour flight carrying a 3.6 kg payload.
+- **Longest and highest reported ApusNeo flights:** 29 hours at approximately 16,000 ft (September 2026, per Space42); 14,500 m (about 47,600 ft) in a continuous 28-hour flight (reported October 2026 by technology partner UAVOS). Both are well short of the "months" design endurance.
 - **Manufacturing:** 4,500 m² HAPS manufacturing facility opened in Abu Dhabi in May 2025, designed to produce more than 20 HAPS UAVs annually.
 
 ## What It Is / How It Works
@@ -44,6 +47,8 @@ In May 2025, Mira Aerospace opened a 4,500 m² HAPS manufacturing facility in Ab
 
 ## Notable Developments
 
+- **October 2026:** UAVOS, which describes itself as Mira Aerospace's founding technology partner, reported that the ApusNeo HAPS reached 14,500 m (about 47,600 ft) during a continuous 28-hour flight from the Canarias Stratoport for HAPS & UAS at Fuerteventura Technology Park, carrying an Earth-observation payload and coordinated with Spain's air navigation manager ENAIRE. UAVOS called it the ApusNeo's first flight in European airspace, although Mira Aerospace had already flown the ApusNeo18 from Fuerteventura in December 2025 and September 2026; the release does not reconcile the two.
+- **September 2026:** Mira Aerospace and Telespazio Ibérica announced the start of a wildfire-monitoring mission in Spain under the ISSEC project. The first ApusNeo18 flight lasted 29 hours at approximately 16,000 ft, transmitting live electro-optical and infrared video; Space42 said it set two European HAPS records. A multi-flight campaign was planned through October 2026 at progressively higher altitudes, with the goal of reaching Gran Canaria.
 - **December 2025:** Mira Aerospace flew the ApusNeo18 from Fuerteventura Technology Park, Spain, collecting wildfire-prevention data as part of the ISSEC program (a joint venture between Telespazio Ibérica and Pegasus Aero Group). Space42 said this was the first HAPS flight with civilian operational approval in Europe.
 - **November 2025:** Mira Aerospace demonstrated its first UAE flight of the ApusNeo18.
 - **May 2025:** Opened a 4,500 m² HAPS manufacturing facility in Abu Dhabi, MENA's first, with capacity for 20+ HAPS UAVs annually.
@@ -64,7 +69,11 @@ LinkedIn: https://hk.linkedin.com/in/vadimtarasov
 Previous/concurrent roles: Chairman of the Board, UAVOS Inc.; investor and advisor to Webgears; independent board member, Light Polymers.
 **⚑ Overlap:** UAVOS, the unmanned-systems developer that co-founded Mira Aerospace as a joint venture with Bayanat and continues to develop the Apus HAPS platform family alongside Mira Aerospace.
 
-### People — Last Reviewed: 2026-08-03
+**Aliaksei Stratsilatau** — Founder and CEO, UAVOS (quoted in UAVOS's October 2026 ApusNeo release)
+LinkedIn: not found (not searched this review).
+**⚑ Overlap:** UAVOS, co-founder of the original Mira Aerospace joint venture and developer of the Apus platform family.
+
+### People — Last Reviewed: 2026-11-12
 
 ## Claim Verification
 
@@ -83,8 +92,14 @@ Previous/concurrent roles: Chairman of the Board, UAVOS Inc.; investor and advis
 **Claim: Mira Aerospace's HAPS platform can sustain flight for "months at a time."**
 **Status:** Unverified (stated design capability, not demonstrated in sources reviewed)
 **Supporting sources:** Mira Aerospace's own website (miraaerospace.com)
-**Refuting/questioning sources:** None found, but the longest specific flight duration confirmed in sources reviewed this session is 10.5 hours (ApusDuo, Rwanda, 2023); no multi-day or multi-week ApusNeo18 flight was found documented in this research.
+**Refuting/questioning sources:** None found, but the longest specific flight duration found is 29 hours (ApusNeo18, Fuerteventura, September 2026); no multi-day or multi-week flight was found documented.
 **Summary:** As with other HAPS developers, "months" of endurance appears to be a design target rather than a flight-demonstrated result based on the sources available this session.
+
+**Claim: The September 2026 Fuerteventura flight set two European HAPS records.**
+**Status:** Unverified
+**Supporting sources:** Space42/Mira Aerospace press release (September 2026)
+**Refuting/questioning sources:** None found, but the release does not name the records or a body that ratified them, and the flight's approximately 16,000 ft altitude is far below the stratosphere.
+**Summary:** A company-stated claim with no independent confirmation; the 29-hour duration and altitude are the verifiable content.
 
 ## Sources
 
@@ -94,3 +109,5 @@ Previous/concurrent roles: Chairman of the Board, UAVOS Inc.; investor and advis
 - [The National: Abu Dhabi aerospace company to launch near-space flights from UAE to capture real-time data](https://www.thenationalnews.com/future/space/2024/10/29/mira-aerospace-abu-dhabi/) — October 2024 interview with CEO Khaled Al Marzooqi on regulatory challenges, payload types, and commercialization timeline.
 - [DCD: Mira Aerospace completes HAPS test flight in Rwanda](https://www.datacenterdynamics.com/en/news/mira-aerospace-completes-haps-test-flight-in-rwanda/) — July 2023 report confirming the UAVOS–Bayanat joint-venture structure, ApusDuo specs, and Rwanda test flight details, with a quote from board member Vadim Tarasov.
 - [Abu Dhabi Media Office: Space42 subsidiary Mira Aerospace opens MENA region's first high-altitude platform station manufacturing facility in Abu Dhabi](https://www.mediaoffice.abudhabi/en/transport/space42-subsidiary-mira-aerospace-opens-mena-regions-first-high-altitude-platform-station-manufacturing-facility-in-abu-dhabi/) — Official government media account of the May 2025 facility opening, with CEO quote and prior 2024–2025 milestones (XRANGE partnership, EO/telecom payloads).
+- [Space42 and Telespazio Ibérica Begin Wildfire Monitoring in Spain supported by High Altitude Platform Systems (Bernama, 23 September 2026)](https://www.bernama.com/en/press/news.php?id=2610795) — Company press release: 29-hour ApusNeo18 flight at about 16,000 ft, ISSEC project, October 2026 campaign plan.
+- [UAVOS: ApusNeo HAPS completes first flight at 14,500 metres in European airspace (Airframer, 28 October 2026)](https://www.airframer.com/news/release/102975) — UAVOS press release: 14,500 m, 28-hour flight, ENAIRE coordination, payload description.

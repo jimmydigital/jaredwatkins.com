@@ -2,6 +2,7 @@
 title: "Rugged & Edge Compute"
 date: 2026-03-25
 lastmod: 2026-10-23
+draft: false
 description: "Rugged compute platforms, AI inference at the edge, military/maritime/aviation deployments, man-portable compute, semi-industrial fanless edge AI servers"
 research_area: "datacenters/rugged-edge-compute"
 last_reviewed: 2026-10-23
@@ -11,6 +12,29 @@ sitemap:
   priority: 0.9          # Higher for important research landing pages
   disable: false         # Set to true to exclude a page
 ---
+
+{{<steering>}}
+
+## Datacenters — Rugged & Edge Compute — Steering Instructions
+
+**Scope:** Rugged compute platforms designed for operation in harsh, mobile, or contested environments. In scope: server/rack-level compute for airborne, maritime, and ground vehicle deployment; man-portable and wearable AI inference platforms; VPX/OpenVPX modular compute; MOSA/SOSA-compliant systems; tactical edge AI. Out of scope: standard datacenter servers in controlled environments, consumer ruggedized laptops.
+
+**Key terminology to document in relevant entries:**
+- **SWaP / SWaP-C**: Size, Weight, and Power (plus Cost) — the fundamental constraint governing all rugged compute design trade-offs
+- **MOSA / SOSA**: Modular Open Systems Approach / Sensor Open Systems Architecture — DoD acquisition policy and the specific technical standard implementing it; SOSA-aligned products are interoperable across vendors
+- **VPX / OpenVPX**: VITA 65 — high-speed backplane-based modular compute form factor for rugged environments; 3U and 6U card heights
+- **HPEC**: High-Performance Embedded Computing — GPU/FPGA-accelerated rugged compute for signal processing and AI inference
+- **MIL-STD-810**: Environmental test standard (temperature, humidity, shock, vibration, altitude) — the benchmark for ruggedization claims; verify which revision (H is current) and which test methods were applied
+- **MIL-STD-461**: EMI/EMC standard — critical for airborne and naval platforms
+- **ATAK**: Android Team Awareness Kit — DoD tactical situational awareness platform; ATAK compatibility indicates field soldier/operator integration
+
+**Platform tiers** — describe entries by tier: (1) Rack/server tier (1U–4U rackmount for vehicle/aircraft/ship bays); (2) VPX module tier (individual 3U or 6U OpenVPX cards sold to prime contractors); (3) Man-portable/wearable tier (battery-powered, body-worn AI inference, typically NVIDIA Jetson Orin class, ATAK-compatible).
+
+**AI inference metrics:** Track GPU/NPU generation (H100, H200, GB200, RTX PRO 5000 Blackwell, Jetson Orin NX/AGX) and TFLOPS/PetaOPS claims. DoD customers care about INT8/INT4 throughput for inference, not FP64 for training.
+
+**Review cadence:** 90 days for companies with active DoD contracts; 180 days otherwise.
+
+{{</steering>}}
 
 > **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
 

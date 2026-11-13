@@ -28,6 +28,7 @@ Force-torque (F/T) sensors mounted at the robot wrist between arm and end effect
 |---------|-----|-------|---------|
 | [Bota Systems](https://www.botasys.com) | Zürich, Switzerland | Growth (ETH Zürich spinout) | SensONE family of compact F/T sensors with on-board signal processing and EtherCAT/USB/SPI interfaces; vendor-supported ROS 2 driver. |
 | [Robotiq](https://robotiq.com) | Lévis, Québec, Canada | Private (acquired by OnRobot 2023) | FT 300S force-torque sensor; integrated with Robotiq gripper ecosystem and Universal Robots e-Series; Gold MoveIt Pro integration via PickNik. |
+| [FUTEK]({{< relref "futek.md" >}}) | Irvine, CA, USA | Private | Load cells, torque sensors and multi-axis sensors; lists automation and robotics among applications. |
 
 ### Incumbents
 

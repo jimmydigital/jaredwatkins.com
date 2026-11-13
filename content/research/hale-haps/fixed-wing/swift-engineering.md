@@ -1,7 +1,7 @@
 ---
 title: "Swift Engineering"
 date: 2026-08-03
-lastmod: 2026-08-03
+lastmod: 2026-11-12
 draft: false
 description: "San Clemente, California-based diversified aerospace engineering firm whose solar-electric SULE (Swift Ultra Long Endurance) aircraft reached a company-record 67,000 feet in a 24-hour flight in July 2025, one of several unmanned-systems product lines alongside defense and DARPA work."
 research_area: "hale-haps/fixed-wing"
@@ -12,7 +12,8 @@ source_urls:
   - "https://swiftengineering.com/press/"
   - "https://swiftengineering.com/people-culture/"
   - "https://en.wikipedia.org/wiki/Swift_Engineering"
-last_reviewed: 2026-08-03
+  - "https://hapsalliance.org/?p=4463"
+last_reviewed: 2026-11-12
 stale_after_days: 90
 ---
 
@@ -27,7 +28,7 @@ Swift Engineering is a diversified San Clemente, California aerospace and advanc
 - **Founded:** 1983 (as Swift Racing Cars; renamed Swift Engineering in 1991 after acquisition by Hiro Matsushita)
 - **HQ:** San Clemente, California, United States
 - **Type:** Private company, 100% owned by Matsushita International Corp
-- **Status:** Active — SULE is an ongoing NASA SBIR-funded flight-test program; Swift's broader business (defense/aerospace contract engineering, tactical UAS, robotics) is separately active and larger in scope
+- **Status:** Active — SULE is an ongoing NASA SBIR-funded flight-test program; Swift's broader business (defense/aerospace contract engineering, tactical UAS, robotics) is separately active and larger in scope. The most recent SULE flight reported is the July 2025 altitude-record flight; the items shown on Swift's press page at this review ran through November 2025, with no 2026 SULE announcement and no report of the planned 48-hour or 7-day flights.
 - **Key metrics (SULE):** 72-foot wingspan, under 180 lb weight, up to 15 lb payload capacity; reached 55,904 ft MSL in a 24-hour flight (September 29–30, 2024) and a company-reported altitude record of 67,000 ft MSL in a 24-hour flight (July 26, 2025); designed to target 30+ days aloft at roughly 60,000 feet once mature
 
 ## What It Is / How It Works
@@ -40,8 +41,9 @@ Outside of SULE, Swift's press activity through 2025 shows a company more heavil
 
 ## Notable Developments
 
+- **October 2025:** In a HAPS Alliance member profile, Swift president Hamed Khalkhali described SULE as supporting 24-hour stratospheric flight and cited the July 2025 flight to 67,000 feet as its most recent; the profile gives no schedule for longer-duration flights.
 - **July 26, 2025 (reported September–November 2025):** SULE reached an altitude of 67,000 feet MSL during a 24-hour flight from Spaceport America, New Mexico — reported by Swift Engineering and multiple trade outlets as a new company altitude record, surpassing the September 2024 mark.
-- **2025 (reported July–September 2025):** Swift Engineering received a Phase II NASA SBIR award (reported as approximately $1.2 million) to continue SULE design, fabrication, and flight-test work toward longer-duration missions.
+- **2025 (reported July–September 2025):** Swift Engineering received a Phase II NASA SBIR award (reported as approximately \$1.2 million) to continue SULE design, fabrication, and flight-test work toward longer-duration missions.
 - **September 29–30, 2024:** SULE reached 55,904 feet MSL during a 24-hour flight at Spaceport America, more than doubling its previous altitude record of 25,000 feet.
 - **July 2020:** The Swift HALE UAS (predecessor designation for what became SULE) completed its first flight at Spaceport America in partnership with NASA's Ames Research Center, receiving NASA airworthiness certification and an FAA Certificate of Authorization.
 - **2025 (concurrent, non-HAPS):** Swift Engineering was selected as a composite-fuselage supplier for the DARPA SPRINT X-plane program (prime contractor Bell Textron) and showcased its Accipiter long-endurance UAS at Japan's ATLA Industry Day — both illustrating the company's broader defense/UAS business alongside SULE.
@@ -55,10 +57,10 @@ Previously: Former Indy car/open-wheel racing driver; acquired Swift Racing Cars
 
 **Hamed Khalkhali, Ph.D., MBA** — President
 LinkedIn: https://www.linkedin.com/in/hamedkhalkhali/
-Previously: Not independently verified in this review; current title confirmed via a July 2025 Military Aerospace article quoting him as "president of Swift Engineering" discussing the NASA SBIR Phase II award.
+Previously: Not independently verified in this review; title confirmed via a July 2025 Military Aerospace article and an October 2025 HAPS Alliance member profile, both identifying him as president of Swift Engineering.
 **⚑ Overlap:** None identified.
 
-### People — Last Reviewed: 2026-08-03
+### People — Last Reviewed: 2026-11-12
 
 ## Claim Verification
 
@@ -74,7 +76,7 @@ Previously: Not independently verified in this review; current title confirmed v
 - **Refuting/questioning sources:** None found
 - **Summary:** Confirmed by an independent trade publication and cross-referenced against Wikipedia's citation of the original press release.
 
-**Claim: Swift Engineering received a Phase II NASA SBIR award (~$1.2 million) for SULE in 2025.**
+**Claim: Swift Engineering received a Phase II NASA SBIR award (~\$1.2 million) for SULE in 2025.**
 - **Status:** Verified
 - **Supporting sources:** [Military Aerospace, July 2025](https://www.militaryaerospace.com/uncrewed/article/55303653/swift-engineering-awarded-nasa-sbir-phase-ii-contract-to-advance-high-altitude-drone-development) (states the award amount and purpose, quoting Swift's president)
 - **Refuting/questioning sources:** None found
@@ -94,3 +96,4 @@ Previously: Not independently verified in this review; current title confirmed v
 - [Swift Engineering — Press page](https://swiftengineering.com/press/) — Chronological press listing confirming the July 2025 67,000-ft altitude record and Swift's concurrent defense-sector activity (DARPA SPRINT, Accipiter UAS in Japan).
 - [Swift Engineering — People & Culture](https://swiftengineering.com/people-culture/) — Confirms current company messaging; does not list individual executives by name.
 - [Wikipedia: Swift Engineering](https://en.wikipedia.org/wiki/Swift_Engineering) — Company history, ownership (Matsushita International Corp, 100%), leadership (Hiro Matsushita, Chairman/CEO), subsidiary structure, and a sourced timeline of SULE/HALE program milestones from 2018 through 2025.
+- [HAPS Alliance — Member Spotlight: Swift Engineering Powers Fast Paced Aerospace R&D (October 2025)](https://hapsalliance.org/?p=4463) — Interview with president Hamed Khalkhali: SULE description, July 2025 flight, customer list, San Clemente facility.

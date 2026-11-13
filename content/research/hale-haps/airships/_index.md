@@ -1,11 +1,11 @@
 ---
 title: "Stratospheric Airships"
 date: 2026-08-03
-lastmod: 2026-08-03
+lastmod: 2026-11-12
 draft: false
 description: "Autonomous, lighter-than-air stratospheric airships (dirigibles) designed for long-duration station-keeping at 18-20km altitude, carrying telecom, Earth-observation, or ISR payloads."
 research_area: "hale-haps/airships"
-last_reviewed: 2026-08-03
+last_reviewed: 2026-11-12
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -19,9 +19,9 @@ Unlike fixed-wing HAPS, which fly forward continuously to generate lift, stratos
 
 ## Entries
 
-- [Thales Alenia Space — Stratobus]({{< relref "thales-alenia-space-stratobus.md" >}}) — 140-metre autonomous helium airship (JV: Thales 67% / Leonardo 33%); year-long station-keeping design target; €17M French PIA funding (2016) + €43M EU EuroHAPS contract (2023); no confirmed flight date as of 2026
+- [Thales Alenia Space — Stratobus]({{< relref "thales-alenia-space-stratobus.md" >}}) — 140-metre autonomous helium airship (JV: Thales 67% / Leonardo 33%); year-long station-keeping design target; €17M French PIA funding (2016) + €43M EU EuroHAPS contract (2023); two reduced-scale proofs of concept reported under construction (Sept 2025); no flight reported as of November 2026
 
-**Documented elsewhere on this site:** [Sceye]({{< relref "../../drone-detection/high-altitude-platforms/sceye.md" >}}) — New Mexico-built solar-powered stratospheric airship; completed a 12-day, 6,400-mile flight (Mar-Apr 2026); EO/IR, methane, and hyperspectral payloads. Sceye's full entry lives in the Drone Detection section because its persistent-altitude architecture is directly relevant to C-UAS/missile-detection payload integration, alongside its civil Earth-observation and telecom missions documented there.
+**Documented elsewhere on this site:** [Sceye]({{< relref "../../drone-detection/high-altitude-platforms/sceye.md" >}}) — New Mexico-built solar-powered stratospheric airship; completed a 12-day, 6,400-mile flight (Mar-Apr 2026) and a 30-day, nearly 30,000 km New Mexico–Japan round trip with SoftBank connectivity tests (Aug-Sept 2026); EO/IR, methane, and hyperspectral payloads. Sceye's full entry lives in the Drone Detection section because its persistent-altitude architecture is directly relevant to C-UAS/missile-detection payload integration, alongside its civil Earth-observation and telecom missions documented there.
 
 ## Companies
 

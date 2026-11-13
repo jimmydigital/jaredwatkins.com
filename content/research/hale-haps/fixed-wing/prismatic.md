@@ -1,9 +1,9 @@
 ---
 title: "Prismatic Ltd"
 date: 2026-08-03
-lastmod: 2026-08-03
+lastmod: 2026-11-12
 draft: false
-description: "Prismatic Ltd is a Hampshire, UK-based BAE Systems subsidiary building the PHASA-35 solar-electric HAPS aircraft, which has flown above 66,000 feet for 24 continuous hours from Spaceport America and is targeting limited operational service from 2026."
+description: "Prismatic Ltd is a Hampshire, UK-based BAE Systems subsidiary building the PHASA-35 solar-electric HAPS aircraft, which has flown above 66,000 feet for 24 continuous hours from Spaceport America; it holds a US Air Force Research Laboratory services contract worth up to $10 million (2025) and a £15.7 million ARIA-backed power-beaming demonstration contract (2026)."
 research_area: "hale-haps/fixed-wing"
 source_urls:
   - "https://www.prismaticltd.co.uk/"
@@ -13,7 +13,9 @@ source_urls:
   - "https://www.uasvision.com/2019/09/13/bae-systems-to-acquire-prismatic-to-develop-uav-technology/"
   - "https://www.stevens-bolton.com/site/insights/news/stevens-bolton-advises-prismatic-on-its-sale-to-bae-systems"
   - "https://www.farnhamherald.com/news/engineers-at-alton-company-hail-success-of-solar-powered-spy-plane-flight-751322"
-last_reviewed: 2026-08-03
+  - "https://www.baesystems.com/en/article/PHASA-35-selected-for-ARIA-backed-power-beaming-project-"
+  - "https://aiaa.org/2025/12/19/baes-phasa-35-haps-secures-multiyear-afrl-surveillance-contract/"
+last_reviewed: 2026-11-12
 stale_after_days: 90
 ---
 
@@ -21,14 +23,15 @@ stale_after_days: 90
 
 ## Summary
 
-Prismatic Ltd is a UK aerospace company, based in Alton, Hampshire, that designs and develops PHASA-35 (Persistent High Altitude Solar Aircraft), a fixed-wing, solar-electric High Altitude Long Endurance (HALE) uncrewed aircraft intended as a lower-cost alternative to satellites for surveillance, communications and disaster relief. Prismatic was acquired by BAE Systems in September 2019 and now operates as a subsidiary within BAE Systems' FalconWorks advanced air research center. In December 2024, PHASA-35 flew for 24 continuous hours, reaching over 66,000 feet, at Spaceport America in New Mexico.
+Prismatic Ltd is a UK aerospace company, based in Alton, Hampshire, that designs and develops PHASA-35 (Persistent High Altitude Solar Aircraft), a fixed-wing, solar-electric High Altitude Long Endurance (HALE) uncrewed aircraft intended as a lower-cost alternative to satellites for surveillance, communications and disaster relief. Prismatic was acquired by BAE Systems in September 2019 and now operates as a subsidiary within BAE Systems' FalconWorks advanced air research center. In December 2024, PHASA-35 flew for 24 continuous hours, reaching over 66,000 feet, at Spaceport America in New Mexico. Since then it has won two government-funded contracts: a US indefinite-delivery contract worth up to \$10 million, awarded by NASA on behalf of the Air Force Research Laboratory in July 2025, and a £15.7 million contract announced in September 2026 to serve as the flight platform for a UK ARIA-backed microwave power-beaming demonstration.
 
 ## Key Facts
 
 - **Founded:** Reportedly formed following QinetiQ's 2013 sale of the Zephyr HAPS program to Airbus Defence and Space, when a group of Zephyr engineers left to form a rival company; PHASA-35 development began in collaboration with BAE Systems in 2018. Exact incorporation date of Prismatic Ltd not independently confirmed this session.
 - **HQ:** Alton, Hampshire, UK.
 - **Type:** Subsidiary of BAE Systems (part of the FalconWorks advanced air research division); acquired September 2019.
-- **Status:** Active / pre-operational. Targeting limited operational service for military customers from 2026, with potential full entry into service in 2027.
+- **Status:** Active / pre-operational. The company targeted limited operational service for military customers from 2026, with potential full entry into service in 2027; no public confirmation of operational missions was found as of November 2026.
+- **Contracts:** NASA Ames, acting for the US Air Force Research Laboratory — up to \$10 million, ordering period 23 July 2025 to 17 April 2030, for months-long airborne surveillance missions coordinated with US Southern Command (per Aviation Week, as summarised by AIAA). UK Advanced Research + Invention Agency (ARIA), Enduring Atmospheric Platforms programme — £15.7 million, three stages over 3.5 years, ending in an integrated power-beaming flight demonstration with PHASA-35.
 - **Aircraft (PHASA-35):** ~150 kg mass, 35-metre wingspan, carbon-fibre monocoque airframe, up to 15 kg payload, operating altitude 50,000–65,000 ft.
 - **Flight record:** 24 continuous hours, reaching more than 66,000 ft (~20,000 m), demonstrated at Spaceport America, New Mexico, by December 2024.
 - **Team size:** Approximately 100 people (per CEO Bob Davidson, April 2025).
@@ -45,17 +48,19 @@ Recent flight trials have focused on demonstrating operational readiness rather 
 
 ## Notable Developments
 
+- **15 September 2026:** BAE Systems announced a £15.7 million contract under ARIA's Enduring Atmospheric Platforms programme in which Prismatic supplies PHASA-35 as the flight-demonstration platform for power beaming: a ground-based microwave beam aimed at a receiver built into the wing, intended to allow year-round, day-and-night flight and possibly lighter batteries. The three-stage, 3.5-year programme ends with an integrated flight demonstration.
+- **July 2025 (disclosed December 2025):** NASA, acting on behalf of the US Air Force Research Laboratory, awarded Prismatic a contract worth up to \$10 million for PHASA-35 airborne missions between 23 July 2025 and 17 April 2030, to be flown in coordination with US Southern Command.
 - **December 2024:** PHASA-35 completed a 24-hour flight from Spaceport America, New Mexico, reaching more than 66,000 feet and landing in serviceable condition — ready to fly again within two days. The flight carried an active ISR sensor payload (a software-defined radio) developed by BAE Systems' Digital Intelligence business, more than double the weight of a previous payload.
 - **October 2024:** A stratospheric flight demonstrated rapid aircraft turnaround (relaunch prepared in three shifts) and carried a 10 kg point-loaded payload — both cited by Prismatic as significant operational milestones.
 - **2023–2024:** Prismatic conducted stratospheric flight trials of its experimental prototype, which it says proved the PHASA-35 concept and aircraft design; completed the build of the next-generation "Block 20 FM3" platform toward the end of 2024.
-- **September 2019:** BAE Systems completed its acquisition of Prismatic, following a roughly 15-month collaboration that had already produced two full-scale prototype aircraft undergoing integration testing at BAE's Warton, Lancashire facility.
 - **February 2020:** PHASA-35 maiden flight at Woomera Test Range, Australia.
+- **September 2019:** BAE Systems completed its acquisition of Prismatic, following a roughly 15-month collaboration that had already produced two full-scale prototype aircraft undergoing integration testing at BAE's Warton, Lancashire facility.
 
 ## Key People
 
 **Bob Davidson (Robert Davidson)** — Chief Executive Officer, Prismatic Ltd
 LinkedIn: https://www.linkedin.com/in/robert-davidson-00b08a24/
-Previous roles: Prismatic Ltd (earlier roles before becoming CEO); UK Trade & Investment (UKTI); BAE Systems.
+Previous roles: Prismatic Ltd (earlier roles before becoming CEO); UK Trade & Investment (UKTI); BAE Systems. Quoted as CEO in BAE Systems' September 2026 ARIA announcement.
 **⚑ Overlap:** Career includes prior BAE Systems roles in addition to current BAE-subsidiary leadership at Prismatic.
 
 **Paul Brooks** — Founder and former CEO/Managing Director, Prismatic Ltd (led the company through its founding and the 2019 BAE Systems acquisition)
@@ -63,7 +68,7 @@ LinkedIn: https://uk.linkedin.com/in/paul-brooks-7770b820 (found via search; not
 Previous roles: Founder and lead of the Zephyr HALE UAV Programme (at QinetiQ, prior to its 2013 sale to Airbus Defence and Space); Director of Earth Observation, Surrey Satellite Technology Limited (SSTL).
 **⚑ Overlap:** Direct, founding-level overlap with Zephyr/Airbus — per Wikipedia (citing AIN Online), Brooks and other ex-QinetiQ Zephyr engineers left when Airbus acquired the Zephyr program in 2013 and founded Prismatic specifically to build a rival stratospheric aircraft. Prismatic's engineering, technical and management leadership are described as predominantly ex-QinetiQ Zephyr team members.
 
-### People — Last Reviewed: 2026-08-03
+### People — Last Reviewed: 2026-11-12
 
 ## Claim Verification
 
@@ -85,6 +90,18 @@ Previous roles: Founder and lead of the Zephyr HALE UAV Programme (at QinetiQ, p
 **Refuting/questioning sources:** None found, but no source describes an actual flight anywhere near this duration — the longest demonstrated PHASA-35 flight found in this research is 24 hours.
 **Summary:** The 12-month endurance figure is a design potential/aspiration repeated across company and press materials, not a flight-demonstrated result; treat it as a target rather than an achieved capability.
 
+**Claim: Prismatic holds a US Air Force Research Laboratory contract worth up to \$10 million for PHASA-35 missions through April 2030.**
+**Status:** Partially verified
+**Supporting sources:** AIAA summary (December 2025) of Aviation Week reporting; the award is recorded as NASA Ames contract 80ARC025D0006, a federal record not fetched directly in this review.
+**Refuting/questioning sources:** None found. The \$10 million figure is a contract ceiling, not an obligated amount.
+**Summary:** Reported by Aviation Week and relayed by AIAA with consistent dates and ceiling; no flights under the contract were found reported.
+
+**Claim: PHASA-35 would be available for operational activity as soon as 2026.**
+**Status:** Unverified
+**Supporting sources:** HAPS Alliance interview with CEO Bob Davidson (April 2025)
+**Refuting/questioning sources:** None found, but no operational mission was publicly reported as of November 2026, and the September 2026 ARIA announcement describes the aircraft's stratospheric record only in general terms.
+**Summary:** A company target; whether it was met is not established in public sources.
+
 ## Sources
 
 - [Prismatic Ltd homepage](https://www.prismaticltd.co.uk/) — Confirms BAE Systems ownership since 2021 (see Claim Verification note on date discrepancy) and general company positioning.
@@ -94,3 +111,5 @@ Previous roles: Founder and lead of the Zephyr HALE UAV Programme (at QinetiQ, p
 - [UAS Vision: BAE Systems to Acquire Prismatic to Develop UAV Technology](https://www.uasvision.com/2019/09/13/bae-systems-to-acquire-prismatic-to-develop-uav-technology/) — Original 2019 acquisition press release republication, with quotes from BAE Systems CTO and Prismatic founder/CEO Paul Brooks.
 - [Stevens & Bolton LLP: Deal news — sale of Prismatic to BAE Systems](https://www.stevens-bolton.com/site/insights/news/stevens-bolton-advises-prismatic-on-its-sale-to-bae-systems) — Law firm account confirming Hampshire HQ and Farnborough-headquartered BAE Systems as acquirer, with Paul Brooks quote as "CEO of Prismatic Ltd."
 - [Farnham Herald: Hampshire engineers hail success of solar-powered spy plane flight](https://www.farnhamherald.com/news/engineers-at-alton-company-hail-success-of-solar-powered-spy-plane-flight-751322) — Confirms Alton, Hampshire site and December 2024 24-hour flight details with direct Bob Davidson quote.
+- [BAE Systems: PHASA-35 selected for ARIA backed power beaming project](https://www.baesystems.com/en/article/PHASA-35-selected-for-ARIA-backed-power-beaming-project-) — September 2026 press release: £15.7 million contract, ARIA Enduring Atmospheric Platforms programme, programme structure, Bob Davidson quote.
+- [AIAA: BAE's PHASA-35 HAPS Secures Multiyear AFRL Surveillance Contract](https://aiaa.org/2025/12/19/baes-phasa-35-haps-secures-multiyear-afrl-surveillance-contract/) — December 2025 summary of Aviation Week reporting on the NASA-awarded AFRL contract (ceiling, dates, US Southern Command).

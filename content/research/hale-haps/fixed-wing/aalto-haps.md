@@ -1,9 +1,9 @@
 ---
 title: "AALTO HAPS"
 date: 2026-08-03
-lastmod: 2026-08-03
+lastmod: 2026-11-12
 draft: false
-description: "AALTO HAPS is an Airbus subsidiary based in Farnborough, UK that operates the Zephyr solar-electric stratospheric aircraft, which set a 67-day continuous flight record in April 2025 and has received a $100 million investment from a Japanese consortium led by NTT DOCOMO."
+description: "AALTO HAPS is an Airbus subsidiary based in Farnborough, UK that operates the Zephyr solar-electric stratospheric aircraft, which set a 67-day continuous flight record in April 2025; backed by a $100 million Japanese consortium investment led by NTT DOCOMO, it remained pre-commercial as of November 2026, with UK certification targeted for late 2027 or early 2028."
 research_area: "hale-haps/fixed-wing"
 source_urls:
   - "https://www.aaltohaps.com/"
@@ -13,7 +13,11 @@ source_urls:
   - "https://australianaviation.com.au/2026/02/airbus-looks-to-australia-for-stratospheric-aircraft-operations/"
   - "https://www.airbus.com/en/newsroom/press-releases/2024-06-ntt-docomo-and-space-compass-partners-with-airbus-on-haps"
   - "https://www.adsadvance.co.uk/aalto-haps-appoints-hughes-boulnois-as-ceo.html"
-last_reviewed: 2026-08-03
+  - "https://www.flightglobal.com/aerospace/airbus-aalto-closes-on-australian-site-for-second-zephyr-launch-location/166338.article"
+  - "https://www.satellitetoday.com/connectivity/2026/03/02/aalto-signs-indonesia-haps-deal-with-telekomsel/"
+  - "https://www.aaltohaps.com/news/"
+  - "https://aertecsolutions.com/en/news/aertec-and-aalto-join-forces-to-drive-the-future-of-stratospheric-aviation"
+last_reviewed: 2026-11-12
 stale_after_days: 90
 ---
 
@@ -21,17 +25,20 @@ stale_after_days: 90
 
 ## Summary
 
-AALTO (formally AALTO HAPS Ltd.) is an Airbus subsidiary, based in Farnborough, UK, that designs, manufactures and operates Zephyr, a fixed-wing, solar-electric High Altitude Platform Station (HAPS). Zephyr is the world's most-flown stratospheric HAPS and holds the world record for longest continuous flight by any aircraft — 67 days, 6 hours and 52 minutes, set in April 2025. AALTO is pre-commercial, targeting initial entry into service in Japan during 2026, backed by a $100 million investment from a Japanese consortium led by NTT DOCOMO and Space Compass.
+AALTO (formally AALTO HAPS Ltd.) is an Airbus subsidiary, based in Farnborough, UK, that designs, manufactures and operates Zephyr, a fixed-wing, solar-electric High Altitude Platform Station (HAPS). Zephyr is the world's most-flown stratospheric HAPS and holds the world record for longest continuous flight by any aircraft — 67 days, 6 hours and 52 minutes, set in April 2025. AALTO is pre-commercial and backed by a \$100 million investment from a Japanese consortium led by NTT DOCOMO and Space Compass. Its long-stated target of initial entry into service in Japan during 2026 had not been publicly confirmed as met as of November 2026; the company's CEO said in February 2026 that UK Civil Aviation Authority certification is expected in late 2027 or early 2028, and a March 2026 agreement with Indonesia's Telkomsel targets demonstration flights in 2027 and commercial service from 2028.
 
 ## Key Facts
 
 - **Founded:** AALTO HAPS Ltd. was established as a dedicated Airbus subsidiary in 2022, following a decade of Zephyr development under Airbus Defence and Space stewardship (Zephyr itself dates to the 2000s and was acquired by Airbus from QinetiQ in 2013).
 - **HQ:** Farnborough, UK.
-- **Type:** Wholly owned Airbus subsidiary; Airbus Defence and Space is majority shareholder. Additional investor: HAPS JAPAN Corporation (an investment vehicle backed by NTT DOCOMO, Space Compass, Mizuho Bank and the Development Bank of Japan), which committed $100 million in June 2024.
-- **Status:** Active / pre-commercial. Targeting initial commercial entry-into-service in Japan during 2026.
-- **Aircraft (Zephyr):** ~75 kg mass, 25-metre wingspan, carbon-fibre airframe, operates above 60,000 feet.
+- **Type:** Wholly owned Airbus subsidiary; Airbus Defence and Space is majority shareholder. Additional investor: HAPS JAPAN Corporation (an investment vehicle backed by NTT DOCOMO, Space Compass, Mizuho Bank and the Development Bank of Japan), which committed \$100 million in June 2024.
+- **Status:** Active / pre-commercial. Company statements through early 2026 targeted initial entry-into-service in Japan during 2026; AALTO's newsroom listed no service-start announcement as of November 2026. UK CAA certification is targeted for late 2027 or early 2028, and the Telkomsel agreement in Indonesia targets demonstration flights in 2027 and commercial service from 2028.
+- **Aircraft (Zephyr, current model Z8):** ~75 kg maximum take-off weight, 25-metre wingspan, carbon-fibre airframe, operates above 60,000 feet. Battery work is aimed at raising maximum endurance from 90–100 days to at least 150 days (stretch goal 200 days); a heavier Z9 variant is planned for around 2029–2030 (CEO statements, February 2026 — design targets, not flown results).
 - **Flight record:** 67 days, 6 hours, 52 minutes continuous stratospheric flight, concluded 28 April 2025 (previous record: 64 days, set 2022).
-- **Operating sites ("AALTOPORTs"):** Kenya (first permanent site, opened 2024); northern Australia (second site, announced February 2026, targeting mid-2026 construction start).
+- **Operating sites ("AALTOPORTs"):** Kenya (first permanent site, opened 2024); northern Australia (second site, announced February 2026 — four shortlisted Northern Territory sites near Katherine, construction start hoped for by mid-2026; no public confirmation that construction began was found as of November 2026).
+- **Certification:** The UK CAA issued a Design Organisation Approval in July 2024 and agreed a Zephyr certification basis in 2025, built on CS-23 small-aircraft rules with HAPS-specific additions; certification itself is targeted for late 2027 or early 2028.
+- **Fleet and production:** Three Zephyrs flew in 2025 (all from Kenya); the plan stated in February 2026 was five in 2026 and 10–12 in 2027, with the reconfigured Farnborough final assembly line sized for 20–25 aircraft a year.
+- **Business model:** Contractor-owned, contractor-operated services (surveillance or communications relay); defence customers may in some cases buy aircraft outright.
 
 ## What It Is / How It Works
 
@@ -45,11 +52,14 @@ AALTO operates from dedicated launch-and-recovery sites it calls "AALTOPORTs." T
 
 ## Notable Developments
 
+- **27 October 2026:** Spanish engineering firm AERTEC announced a contract to design, develop, manufacture, supply and support Zephyr's main avionics, to be built at its Seville development centre. No schedule or value was given.
+- **2 March 2026:** AALTO and Telkomsel announced a cooperation framework for Zephyr in Indonesia covering commercial models, technical integration and spectrum/regulatory pathways, with demonstration flights targeted for 2027 and commercial entry into service from 2028. The published terms describe a framework, not a service contract.
+- **17 February 2026:** In a FlightGlobal interview, CEO Hughes Boulnois said UK CAA certification is expected in late 2027 or early 2028, that the CAA agreed the certification basis in 2025, and that the fleet would grow from three aircraft in 2025 to five in 2026 and 10–12 in 2027.
 - **February 2026:** AALTO confirmed northern Australia as the preferred site for its second AALTOPORT, announced at NT Defence Week in Darwin; construction targeted to begin mid-2026.
 - **28 April 2025:** Zephyr concluded a world-record 67-day, 6-hour, 52-minute continuous stratospheric flight, having launched from the Kenya AALTOPORT on 20 February 2025, crossed the ITCZ twice, and transited seven flight information regions. The aircraft was subsequently ditched into the Indian Ocean over a designated aviation sanctuary area; AALTO stated it was still investigating the reasons for the ditching as of the Aerospace America interview shortly after.
 - **October 2024:** Hughes Boulnois appointed CEO of AALTO, succeeding Samer Halawi, as part of a strategic realignment toward government-sector demand and delivery for the HAPS JAPAN Corporation investor consortium.
 - **July 2024:** UK Civil Aviation Authority issued AALTO a Design Organisation Approval, a milestone toward Type Certification.
-- **June 2024:** A consortium led by NTT DOCOMO and Space Compass, with Mizuho Bank and the Development Bank of Japan, committed to invest $100 million in AALTO via HAPS JAPAN Corporation, to accelerate commercialization in Japan and Asia. Airbus Defence and Space remained majority shareholder.
+- **June 2024:** A consortium led by NTT DOCOMO and Space Compass, with Mizuho Bank and the Development Bank of Japan, committed to invest \$100 million in AALTO via HAPS JAPAN Corporation, to accelerate commercialization in Japan and Asia. Airbus Defence and Space remained majority shareholder.
 - **2022:** Zephyr set a then-record 64-day continuous flight; the aircraft was subsequently lost after encountering severe turbulence during descent through a storm. AALTO HAPS Ltd. was established as a dedicated Airbus subsidiary the same year.
 
 ## Key People
@@ -68,7 +78,10 @@ Previous roles: General Manager, Airbus Helicopters Qingdao Co., Ltd.; Head of I
 LinkedIn: not found (not independently searched to confirm this session).
 **⚑ Overlap:** Airbus Defence and Space, which has stewarded Zephyr since acquiring it from QinetiQ in 2013.
 
-### People — Last Reviewed: 2026-08-03
+**James Pritchard** — Procurement Director, AALTO (named in AERTEC's October 2026 contract announcement)
+LinkedIn: not found (not searched this review).
+
+### People — Last Reviewed: 2026-11-12
 
 ## Claim Verification
 
@@ -78,23 +91,23 @@ LinkedIn: not found (not independently searched to confirm this session).
 **Refuting/questioning sources:** None found
 **Summary:** AALTO's own press release and independent trade press (Aerospace America) both confirm the flight duration and dates; AALTO's release states this breaks a 50-year-old aviation world record.
 
-**Claim: A Japanese consortium led by NTT DOCOMO and Space Compass, with Mizuho Bank and the Development Bank of Japan, committed $100 million to AALTO in June 2024.**
+**Claim: A Japanese consortium led by NTT DOCOMO and Space Compass, with Mizuho Bank and the Development Bank of Japan, committed \$100 million to AALTO in June 2024.**
 **Status:** Verified
 **Supporting sources:** Airbus official press release (airbus.com)
 **Refuting/questioning sources:** None found
 **Summary:** Confirmed directly via Airbus's own press release, which names all consortium members and the investment vehicle (HAPS JAPAN Corporation).
 
-**Claim: AALTO is targeting initial commercial entry-into-service in Japan during 2026.**
-**Status:** Partially verified
-**Supporting sources:** AALTO press release (April 2025); Airbus press release (June 2024); Aerospace America interview with AALTO CEO (May 2025)
-**Refuting/questioning sources:** None found directly, but AALTO's own CEO acknowledged in May 2025 that the company had "yet to achieve its target of 200 days of continuous flight" needed for some commercial use cases, and the April 2025 record flight ended in an aircraft loss under investigation — suggesting the 2026 target carries execution risk.
-**Summary:** The 2026 target is consistently and repeatedly stated by AALTO across multiple years of press releases, but independent reporting notes unresolved technical and reliability questions (e.g., troposphere transition risk) that could affect the timeline.
+**Claim: AALTO will begin commercial service in Japan during 2026.**
+**Status:** Unverified
+**Supporting sources:** AALTO press release (April 2025); Airbus press release (June 2024); Aerospace America interview with AALTO CEO (May 2025) — all state the 2026 target.
+**Refuting/questioning sources:** FlightGlobal (February 2026) reports CAA certification is not expected until late 2027 or early 2028; AALTO's newsroom shows no service-start announcement through November 2026; AALTO's CEO acknowledged in May 2025 that the company had "yet to achieve its target of 200 days of continuous flight," and the April 2025 record flight ended in an aircraft loss.
+**Summary:** The 2026 target was repeated across several years of company statements, but no evidence of a commercial service start was found as of November 2026, and the certification timeline has moved to 2027–2028.
 
 **Claim: Zephyr's Australia AALTOPORT will begin construction by mid-2026.**
-**Status:** Unverified
-**Supporting sources:** Search-result summaries of AALTO's February 2026 announcement (aaltohaps.com press release; not independently fetched this session due to an empty page response)
-**Refuting/questioning sources:** None found
-**Summary:** This claim comes from secondary reporting (Australian Aviation, paywalled beyond the lede) rather than a directly fetched AALTO or Airbus primary source; treat the mid-2026 construction-start date as provisional.
+**Status:** Partially verified
+**Supporting sources:** FlightGlobal (February 2026), quoting the CEO: site selection from a four-site Northern Territory shortlist by April, construction possibly starting later in the second quarter; Australian Aviation (February 2026).
+**Refuting/questioning sources:** None found, but no source confirming that a site was selected or that construction started was located as of November 2026.
+**Summary:** The target is confirmed by independent trade press; whether it was met is not.
 
 ## Sources
 
@@ -103,5 +116,9 @@ LinkedIn: not found (not independently searched to confirm this session).
 - [AALTO: Zephyr sets world-record for longest continuous flight, flying 67 days in stratosphere](https://www.aaltohaps.com/zephyr-sets-world-record-for-longest-continuous-flight-flying-67-days-in-stratosphere/) — Official AALTO press release with full flight details, CEO/CTO quotes, and 2026 commercialization language.
 - [Aerospace America: AALTO maintains 2026 target for commercial operations, despite aircraft loss](https://aerospaceamerica.aiaa.org/aalto-maintains-2026-target-for-commercial-operations-despite-aircraft-loss/) — Independent trade press interview with AALTO CEO and CTO covering the aircraft loss, ITCZ crossing, and flight control technology.
 - [Australian Aviation: Airbus looks to Australia for stratospheric aircraft operations](https://australianaviation.com.au/2026/02/airbus-looks-to-australia-for-stratospheric-aircraft-operations/) — Confirms Australia AALTOPORT plans, CEO quote, and NT government involvement (article partially paywalled).
-- [Airbus: NTT DOCOMO and Space Compass partners with Airbus on HAPS, committing to a USD$100 million investment in AALTO](https://www.airbus.com/en/newsroom/press-releases/2024-06-ntt-docomo-and-space-compass-partners-with-airbus-on-haps) — Official press release confirming investment consortium, amounts, and then-CEO Samer Halawi.
+- [Airbus: NTT DOCOMO and Space Compass partners with Airbus on HAPS, committing to a USD\$100 million investment in AALTO](https://www.airbus.com/en/newsroom/press-releases/2024-06-ntt-docomo-and-space-compass-partners-with-airbus-on-haps) — Official press release confirming investment consortium, amounts, and then-CEO Samer Halawi.
 - [ADS Advance: AALTO HAPS appoints Hughes Boulnois as CEO](https://www.adsadvance.co.uk/aalto-haps-appoints-hughes-boulnois-as-ceo.html) — Trade press coverage of the CEO transition with background on Boulnois's Airbus career.
+- [FlightGlobal: Airbus AALTO closes on Australian site for second Zephyr launch location](https://www.flightglobal.com/aerospace/airbus-aalto-closes-on-australian-site-for-second-zephyr-launch-location/166338.article) — February 2026 CEO interview: certification timing, CS-23-based certification basis, fleet and production plans, endurance targets, Australian site shortlist.
+- [Via Satellite: Aalto Signs Indonesia HAPS Deal With Telekomsel](https://www.satellitetoday.com/connectivity/2026/03/02/aalto-signs-indonesia-haps-deal-with-telekomsel/) — March 2026 Telkomsel cooperation framework; 2027 demonstration and 2028 commercial targets.
+- [AALTO newsroom](https://www.aaltohaps.com/news/) — Company news index; most recent items at this review were dated February–March 2026.
+- [AERTEC: AERTEC and AALTO are joining forces to drive the future of stratospheric aviation](https://aertecsolutions.com/en/news/aertec-and-aalto-join-forces-to-drive-the-future-of-stratospheric-aviation) — October 2026 avionics supply contract.

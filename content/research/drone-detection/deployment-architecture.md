@@ -1,7 +1,7 @@
 ---
 title: "C-UAS Deployment Architecture for Fixed Critical Infrastructure"
 date: 2026-06-05
-lastmod: 2026-07-07
+lastmod: 2026-11-12
 draft: false
 description: "Design pattern for building a counter-UAS detection system at a fixed critical infrastructure site: sensor placement geometry, integration architecture, power and networking, and maintenance cadence."
 research_area: "drone-detection"
@@ -12,7 +12,7 @@ source_urls:
   - "https://www.robinradar.com/blog/acoustic-sensors-drone-detection"
   - "https://www.crfs.com/blog/counter-drone-q-and-a"
   - "https://www.magaero.com/mag-thought-leadership-strategic-counter-uas-defense-technologies-and-mitigation-strategies/"
-last_reviewed: 2026-06-05
+last_reviewed: 2026-11-12
 stale_after_days: 180
 ---
 
@@ -29,6 +29,10 @@ A fixed-site C-UAS detection system is a layered architecture of complementary s
 - **Legal constraint:** Commercial operators may detect and track; RF jamming and cyber takeover are federally restricted — see [Regulatory Framework]({{< relref "regulatory-framework.md" >}})
 - **Primary threat model:** RF-dark autonomous drones, fiber-optic FPV, consumer drones with RF control — see [Threat Taxonomy]({{< relref "threat-taxonomy.md" >}})
 - **Minimum viable sensor set:** One micro-Doppler radar + RF receiver + one EO/IR camera for a small site
+
+## What It Is / How It Works
+
+The pattern has five phases: survey the site, place sensors using each modality's coverage rules, integrate them through a fusion engine, define the alert workflow, and maintain the system on a fixed cadence. Fusion concepts are covered in [Multi-Sensor Fusion]({{< relref "detection-methods/multi-sensor-fusion.md" >}}). Figures below are design guidance drawn from vendor deployment guides and are approximate; verify them against the products actually selected.
 
 ## Phase 1: Site Survey
 
@@ -70,7 +74,7 @@ RF detection covers drones broadcasting Remote ID and those with active radio co
 
 ### Acoustic Detection
 
-Acoustic sensors detect propeller and motor noise. Effective range is typically 100–500 m in a low-noise environment; range collapses significantly in industrial noise environments (substations, water treatment plant aerators).
+Acoustic sensors detect propeller and motor noise. Effective range is typically tens to a couple of hundred meters in a low-noise environment (see [Acoustic Detection]({{< relref "acoustic-detection.md" >}})); range collapses significantly in industrial noise environments (substations, water treatment plant aerators).
 
 **Placement rules:**
 - Acoustic sensors are most useful as a close-in perimeter layer, deployed inside the radar coverage footprint to provide positive confirmation when a radar track approaches the inner perimeter.
@@ -167,6 +171,21 @@ Large or complex sites (airports, large power generation facilities) typically e
 - [Multi-Sensor Fusion]({{< relref "detection-methods/multi-sensor-fusion.md" >}}) — fusion engine architecture
 - [Regulatory Framework]({{< relref "regulatory-framework.md" >}}) — what commercial operators may legally do
 - [Threat Taxonomy]({{< relref "threat-taxonomy.md" >}}) — threat types this architecture is designed against
+
+## Notable Developments
+
+- **2026-03:** DroneShield and Robin Radar announced a partnership integrating radar with DroneSentry fusion.
+- **2026-03:** Fortem and Lockheed Martin announced a collaboration on counter-UAS.
+- **Ongoing:** Vendors increasingly sell integrated radar, RF, camera and fusion stacks for fixed sites rather than single sensors.
+
+## Key Organizations
+
+- **Critical Tech Solutions** — publishes mast, payload and ONVIF deployment guidance
+- **CRFS** — RF monitoring receivers for counter-drone detection
+- **Robin Radar** — radar sensors (IRIS)
+- **Fortem Technologies** — TrueView radar and SkyDome
+- **DroneShield** — DroneSentry fusion platform
+- **Sentrycs** — integrated C-UAS for critical infrastructure
 
 ## Sources
 

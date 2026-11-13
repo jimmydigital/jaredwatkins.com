@@ -1,7 +1,7 @@
 ---
 title: "Ohio: Hyperscaler Boom and Community Backlash"
 date: 2026-04-20
-lastmod: 2026-10-26
+lastmod: 2026-11-11
 draft: false
 description: "Ohio datacenter opposition — New Albany hyperscaler concentration, St. Albans Township zoning ban, environmental and energy concerns, tax abatement scrutiny, and the political economy of rapid hyperscaler expansion in the Midwest."
 research_area: "datacenter-opposition"
@@ -13,7 +13,9 @@ source_urls:
   - "https://www.theregister.com/2026/03/18/ohio_datacenter_petition/"
   - "https://www.wosu.org/2026-01-19/columbus-will-become-second-largest-data-center-hub-in-the-great-lakes-region-report-says/"
   - "https://www.datacenterfrontier.com/site-selection/article/33035576/data-centers-are-booming-in-ohios-digital-heartland"
-last_reviewed: 2026-10-26
+  - "https://news.ballotpedia.org/2026/11/06/voters-favored-limiting-data-center-development-in-40-of-41-local-ballot-measures-on-nov-3/"
+  - "https://www.insurancejournal.com/news/midwest/2026/11/06/891870.htm"
+last_reviewed: 2026-11-11
 stale_after_days: 90
 ---
 
@@ -243,7 +245,9 @@ Like Iowa, Ohio has not enacted comprehensive state-level datacenter regulation.
 
 ## 2026 Update
 
-- **2026-11-03 (ballot):** Nine Ohio communities, including Granville (a charter ban on data centers above 25 MW peak load), have local data center ban measures on the ballot, with wording supplied by Conserve Ohio, which is seeking a 2027 statewide constitutional ban and has about 130,000 of roughly 413,000 required signatures. AEP Ohio reports 17,861 MW of contracted data center projects through 2035; the PUCO approved a tariff requiring large data centers to pay for at least 85% of requested capacity. A Bowling Green State University poll found 75% of likely voters opposed a data center in their own community. ([Hoodline, October 2026](https://hoodline.com/2026/10/granville-voters-weigh-symbolic-ban-on-mega-data-centers-nov-3/))
+- **2026-11-03 (results):** Ohio accounted for 21 of the 41 local data center measures nationwide, across 18 jurisdictions, and every measure with reported results went against development. Ballotpedia counts three outright bans and eight partial bans (including 25 MW-and-above charter bans in Granville, Pataskala and Sunbury), two Adams County zoning regulations, Grove City's Issue 28 (voter approval for projects above 50 acres, 20 MW or 500,000 gallons of water a day) and Perry's Issue 16 (financial guarantees for hyperscale developers seeking incentives). Wilmington voters rejected four residential-to-industrial rezonings tied to data centers by roughly 80% to 20%, and Ashville voters rejected, by more than 80%, a development agreement for an EdgeConneX campus already under construction. A recent poll found 55% of Ohio adults opposed data center construction in the state and 65% opposed data center tax breaks. ([Ballotpedia](https://news.ballotpedia.org/2026/11/06/voters-favored-limiting-data-center-development-in-40-of-41-local-ballot-measures-on-nov-3/); [King & Spalding](https://www.kslaw.com/Insights/Articles/Navigating-New-Headwinds-What-the-2026-Election-Results-Mean-for-Data-Center-Projects-in-Texas))
+- **2026-11-04:** Democrat Amy Acton won the governorship on a "conditional moratorium": no new data centers until developers cover their own gas, water and electricity costs, use union labor, operate without NDAs with local governments and meet air and water standards. She takes office in January; reporting does not specify her legal authority for the moratorium, though she could issue executive orders on state permitting and shape the PUCO and other agencies through appointments. ([Insurance Journal/Bloomberg](https://www.insurancejournal.com/news/midwest/2026/11/06/891870.htm))
+- **2026-10 (pre-election):** Nine Ohio communities, including Granville (a charter ban on data centers above 25 MW peak load), had local data center ban measures on the ballot, with wording supplied by Conserve Ohio, which is seeking a 2027 statewide constitutional ban and has about 130,000 of roughly 413,000 required signatures. AEP Ohio reports 17,861 MW of contracted data center projects through 2035; the PUCO approved a tariff requiring large data centers to pay for at least 85% of requested capacity. A Bowling Green State University poll found 75% of likely voters opposed a data center in their own community. ([Hoodline, October 2026](https://hoodline.com/2026/10/granville-voters-weigh-symbolic-ban-on-mega-data-centers-nov-3/))
 
 ## Key Takeaways
 
@@ -259,6 +263,8 @@ Like Iowa, Ohio has not enacted comprehensive state-level datacenter regulation.
 
 6. **Grid reliability concerns are rising:** Energy consumption projections (5.3% → 10.9% of state load) are raising utility commission and legislative attention.
 
+7. **Voters acted ahead of the state:** The November 2026 local measures put bans and approval requirements in place in at least 14 municipalities and elected a governor pledging a conditional moratorium, so state-level restriction is now an executive-branch question rather than a legislative one.
+
 ---
 
 ## Sources
@@ -270,3 +276,5 @@ Like Iowa, Ohio has not enacted comprehensive state-level datacenter regulation.
 - [Data Centers Are Booming In Ohio's Digital Heartland - Data Center Frontier](https://www.datacenterfrontier.com/site-selection/article/33035576/data-centers-are-booming-in-ohios-digital-heartland)
 - [Columbus will become second-largest data center hub in the Great Lakes region - WOSU Public Media](https://www.wosu.org/2026-01-19/columbus-will-become-second-largest-data-center-hub-in-the-great-lakes-region-report-says/)
 - [Vantage New Albany Campus - Vantage Data Centers](https://www-dc.com/data-center-locations/north-america/new-albany-ohio)
+- [Voters favored limiting data center development in 40 of 41 local ballot measures on Nov. 3 - Ballotpedia News (Nov 6, 2026)](https://news.ballotpedia.org/2026/11/06/voters-favored-limiting-data-center-development-in-40-of-41-local-ballot-measures-on-nov-3/)
+- [Some 40% of US Planned Data Center Capacity Is in States Wanting to Hit Pause - Insurance Journal/Bloomberg (Nov 6, 2026)](https://www.insurancejournal.com/news/midwest/2026/11/06/891870.htm)

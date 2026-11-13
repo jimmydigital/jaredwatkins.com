@@ -13,6 +13,27 @@ sitemap:
   disable: false
 ---
 
+{{<steering>}}
+
+## Textiles — Steering Instructions
+
+**Scope:** IN — fiber-to-fabric manufacturing (ginning, spinning, weaving, dyeing, finishing, printing), the machines and dye chemistry behind it, and companies rebuilding or reinventing textile production. Subsections: `quilting-fabrics/`, `machinery/`, `us-innovators/`. OUT — fashion-brand and retail coverage except where it explains sourcing; apparel brands as standalone entries; commodity cotton price forecasting (cite USDA/ICAC instead).
+
+**Editorial priority:** U.S. companies and U.S. capacity, as part of the reindustrialization theme. Startups, spinouts, equipment builders, and input suppliers come before incumbents. Non-U.S. companies are in scope where they define a product category's supply chain (quilting fabric is almost entirely non-U.S.); mark them non-U.S. in tables and say so in Key Facts.
+
+**Value chain position** — every company entry must state its position: fiber grower/ginner; spinner; weaver/knitter; dyer/finisher/printer; converter/brand; machine builder; dye/chemical supplier; integrator (cut-and-sew, product development); or software/traceability. Note vertical integration explicitly.
+
+**Claim verification flags for textiles:**
+- "Made in USA" and "domestically sourced" claims — record which stage each covers (fiber grown, spun, woven, dyed/printed, sewn). Brands often mean only the last stage.
+- Thread count — always state the metric (ends × picks per inch, threads per inch, or metric yarn number); the three are not interchangeable.
+- Mill and country-of-manufacture claims — record disclosure status ("undisclosed" is a finding) and the date of the source; the only brand-origin survey found for quilting fabric is from 2017.
+- Market-size figures — distinguish fabric revenue from total quilting-industry revenue; USDA cotton volumes are in 480-lb bales, so label units or convert.
+- Prices — record retail versus wholesale and the type of source (retailer listing, retailer blog, distributor); do not present retailer-blog ranges as verified.
+
+**Review cadence:** Quilting fabrics and U.S. innovators: 90 days (tariffs, reshoring announcements, funding). Machinery: 180 days.
+
+{{</steering>}}
+
 > **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
 
 ## Overview

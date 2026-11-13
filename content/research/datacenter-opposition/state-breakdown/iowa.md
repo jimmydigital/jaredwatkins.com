@@ -1,7 +1,7 @@
 ---
 title: "Iowa: Water and Utility Rate Conflicts"
 date: 2026-04-20
-lastmod: 2026-10-26
+lastmod: 2026-11-11
 draft: false
 description: "Iowa datacenter opposition — water consumption concerns, Meta/Google/Microsoft facility impacts, local utility rate disputes, county-level organizing, regulatory actions, and the political economy of hyperscaler datacenters in agricultural regions."
 research_area: "datacenter-opposition"
@@ -14,7 +14,9 @@ source_urls:
   - "https://www.iowapublicradio.org/news-from-npr/2026-04-20/data-center-disputes-have-been-local-but-the-midterms-might-change-that"
   - "https://www.axios.com/local/des-moines/2023/09/18/ai-iowa-epicenter-microsoft-water-useage-data-center"
   - "https://www.nasuca.org/wp-content/uploads/2025/02/2025-06-10-NASUCA-Data-Centers-Final-Schneider.pdf"
-last_reviewed: 2026-10-26
+  - "https://www.insurancejournal.com/news/midwest/2026/11/06/891870.htm"
+  - "https://usnews.com/news/politics/articles/2026-11-10/from-boom-to-backlash-data-centers-lose-big-on-election-day"
+last_reviewed: 2026-11-11
 stale_after_days: 90
 ---
 
@@ -232,6 +234,8 @@ Unlike some states (Maine, Virginia, Texas), Iowa has no statewide datacenter mo
 
 - **2026-05:** The Palo Planning and Zoning Commission advanced an ordinance for a Google data center near the Duane Arnold nuclear plant that leaves water regulation to the Iowa DNR; the site is expected to use more than 10 million gallons of water a day. Google left a Linn County deal in March after supervisors proposed a water study. Iowa is among 14 states that do not report revenue lost to data center tax breaks (Good Jobs First). ([KCRG](https://www.kcrg.com/2026/05/16/palo-data-center-ordinance-raises-water-usage-concerns/))
 
+- **2026-11-03:** Democrats won the Iowa governorship, and the incoming Iowa governor is among those reported to have pledged to stop AI and data center tax breaks (the source does not name the governor or give specifics). ([Insurance Journal/Bloomberg](https://www.insurancejournal.com/news/midwest/2026/11/06/891870.htm); [U.S. News](https://usnews.com/news/politics/articles/2026-11-10/from-boom-to-backlash-data-centers-lose-big-on-election-day))
+
 ## Key Takeaways
 
 1. **Water is the dominant concern:** Meta's Altoona facility consuming 16% of city water supply is politically explosive and likely unsustainable long-term.
@@ -259,3 +263,4 @@ Unlike some states (Maine, Virginia, Texas), Iowa has no statewide datacenter mo
 - [Data Centers and Water Use - NASUCA](https://www.nasuca.org/wp-content/uploads/2025/02/2025-06-10-NASUCA-Data-Centers-Final-Schneider.pdf)
 - [Investors press Amazon, Microsoft and Google on water, power use in US data centers - Reuters](https://www.investing.com/news/stock-market-news/analysisinvestors-press-amazon-microsoft-and-google-on-water-power-use-in-us-data-centres-4598459)
 - [Microsoft's AI epicenter is an Iowa water hog - Axios Des Moines](https://www.axios.com/local/des-moines/2023/09/18/ai-iowa-epicenter-microsoft-water-useage-data-center)
+- [Some 40% of US Planned Data Center Capacity Is in States Wanting to Hit Pause - Insurance Journal/Bloomberg (Nov 6, 2026)](https://www.insurancejournal.com/news/midwest/2026/11/06/891870.htm)

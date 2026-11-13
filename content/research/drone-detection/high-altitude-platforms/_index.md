@@ -1,11 +1,11 @@
 ---
 title: "High-Altitude Platforms (Airships & Balloons)"
 date: 2026-07-17
-lastmod: 2026-08-03
+lastmod: 2026-11-12
 draft: false
 description: "Stratospheric airships and balloons (HAPS) as persistent sensor platforms for drone and cruise-missile detection — including dual-use systems originally built for imagery, comms, or ELINT."
 research_area: "drone-detection/high-altitude-platforms"
-last_reviewed: 2026-08-03
+last_reviewed: 2026-11-12
 stale_after_days: 90
 sitemap:
   changefreq: "monthly"
@@ -23,7 +23,7 @@ Stratospheric airships and balloons — High Altitude Platform Systems (HAPS) �
 
 ## Entries
 
-- [Sceye]({{< relref "sceye.md" >}}) — New Mexico-built solar-powered stratospheric airship (HAPS); 12-day, 6,400-mile test flight (Mar 2026); EO/IR, methane, and hyperspectral payloads; NASA-funded sensor work
+- [Sceye]({{< relref "sceye.md" >}}) — New Mexico-built solar-powered stratospheric airship (HAPS); 12-day, 6,400-mile test flight (Mar 2026) and a 30-day New Mexico–Japan round trip with SoftBank connectivity and edge-computing tests (Aug–Sept 2026); EO/IR, methane, and hyperspectral payloads; NASA-funded sensor work
 - [World View / Ondas Stratollite]({{< relref "world-view-stratollite.md" >}}) — Tucson stratospheric balloon (EO/IR/SIGINT); acquired by Ondas (ONDS) in 2026 and integrated with Sentrycs counter-UAS and Palantir AIP into a stratosphere-to-ground ISR/C-UAS stack
 - [Aerostar]({{< relref "aerostar.md" >}}) — Sioux Falls-based stratospheric balloon and airship maker (Thunderhead); Airbus U.S. partnership; flying Army HELIOS/HAP-DS experimentation missions over the Pacific
 - [Urban Sky]({{< relref "urban-sky.md" >}}) — Denver Microballoon (mHAB); AFRL STRATFI-funded; Project Wallabee paired its balloon with Applied Intuition's autonomous target-recognition sensor for the Army/Joint Staff J-7
@@ -50,18 +50,18 @@ Worth calling out explicitly because it directly connects this subtopic to the r
 
 | Company | HQ | Stage | Mission |
 |---------|-----|-------|---------|
-| [Sceye](https://sceye.com) | USA (Roswell, NM) | Growth (Series funding + NASA award, 2026) | Solar-powered stratospheric airship (HAPS); Earth observation, methane/emissions, comms relay |
+| [Sceye](https://sceye.com) | USA (Moriarty, NM) | Growth (Series funding + NASA award, 2026) | Solar-powered stratospheric airship (HAPS); Earth observation, methane/emissions, comms relay |
 | [Aerostar](https://aerostar.com) | USA (Sioux Falls, SD) | Growth (division of Raven Industries/CNH) | Stratospheric balloons and airships (Thunderhead); Airbus partnership; Army HELIOS experimentation |
-| [Urban Sky](https://www.urbansky.com) | USA (Denver, CO) | Series B ($30M, Feb 2025) | Microballoon (mHAB) stratospheric imaging/sensing; AFRL STRATFI contract; Project Wallabee |
+| [Urban Sky](https://www.urbansky.com) | USA (Denver, CO) | Series B (\$30M, Feb 2025) | Microballoon (mHAB) stratospheric imaging/sensing; AFRL STRATFI contract; Project Wallabee |
 | [Hemeria](https://www.hemeria-group.com) | France | Private (Safran MoU, Jun 2026) | BalMan maneuverable stratospheric balloon; AI-enabled ELINT/EW with Safran.AI |
-| [Kalam Labs](https://kalamlabs.io) | India (Lucknow) | Early (~$2M raised, Lightspeed) | Balloon-launched stratospheric UAV; EO/IR/hyperspectral; defense deployments at Pokhran/LAC |
-| [Near Space Labs](https://www.nearspacelabs.com) | USA (Brooklyn, NY) | Series B ($20M) | Swift stratospheric balloon imaging (7cm resolution); insurance/earth observation today, dual-use sensing platform — [full entry]({{< relref "../../hale-haps/balloons/near-space-labs.md" >}}) |
+| [Kalam Labs](https://kalamlabs.io) | India (Lucknow) | Early (~\$2M raised, Lightspeed) | Balloon-launched stratospheric UAV; EO/IR/hyperspectral; defense deployments at Pokhran/LAC |
+| [Near Space Labs](https://www.nearspacelabs.com) | USA (Brooklyn, NY) | Series B (\$20M) | Swift stratospheric balloon imaging (7cm resolution); insurance/earth observation today, dual-use sensing platform — [full entry]({{< relref "../../hale-haps/balloons/near-space-labs.md" >}}) |
 
 ### Public Companies / Recent M&A
 
 | Ticker | Company | Mission |
 |--------|---------|---------|
-| [ONDS](https://finance.yahoo.com/quote/ONDS) | [Ondas Holdings](https://ondas.com) | Acquired World View (2026, ~$150M) for its Stratollite stratospheric ISR platform; integrating with Sentrycs C-UAS and DZYNE ISR under one multi-domain stack |
+| [ONDS](https://finance.yahoo.com/quote/ONDS) | [Ondas Holdings](https://ondas.com) | Acquired World View (2026, ~\$150M) for its Stratollite stratospheric ISR platform; integrating with Sentrycs C-UAS and DZYNE ISR under one multi-domain stack |
 
 ### Incumbents
 

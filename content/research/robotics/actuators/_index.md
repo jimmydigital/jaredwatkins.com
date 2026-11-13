@@ -1,7 +1,7 @@
 ---
 title: Robotics Actuators
 date: 2026-03-24
-lastmod: 2026-07-26
+lastmod: 2026-11-11
 draft: false
 description: Motors, gearboxes, servo drives, and actuation systems for commercial and defense robots — from brushless DC motors to harmonic drives and hydraulic systems.
 research_area: "robotics/actuators"
@@ -29,6 +29,7 @@ Actuators are the muscles of robots — the subsystems that convert electrical (
 - Emerging category of integrated joint modules (motor + gearbox + encoder + driver in one unit) from startups aiming to democratize robot design
 - Hydraulic actuation still dominant for heavy UGVs and construction robots despite electric's efficiency advantage at smaller scales
 - Ball-screw-driven series elastic actuation is a credible alternative to harmonic-drive-based joints for humanoid robots — see [UT Series Elastic Actuator (UT-SEA)]({{< relref "ut-series-elastic-actuator.md" >}}), the design underpinning NASA's Valkyrie and Apptronik's Apollo, chosen specifically to avoid harmonic drives' backdrivability and efficiency limitations
+- US domestic-content rules are pushing robot makers to trace component origin — [OpenTree]({{< relref "opentree.md" >}}) maintains a public map of 40 pinned US makers of bearings, magnets, motors, encoders, drives, and gears
 - Soft/electrohydraulic actuation (HASEL) is an emerging, structurally distinct actuator category — silent, compliant, self-sensing "artificial muscle" technology aimed at underwater robotics, haptics, and dexterous manipulation, differentiated from every other entry in this section by not using a spinning motor at all — see [Artimus Robotics]({{< relref "artimus-robotics.md" >}})
 
 ## Companies
@@ -45,6 +46,28 @@ Actuators are the muscles of robots — the subsystems that convert electrical (
 | [Synapticon](https://catalog.synapticon.com) | Weinstadt, Germany | Private | SOMANET EtherCAT servo drives and integrated actuator modules; compact form factor for robot joint integration; vendor ROS 2 driver (ros2_control); EtherCAT enables >500 Hz control loops. |
 | [Robotis](https://www.robotis.us) | Seoul, South Korea | Growth | Dynamixel smart servo actuator series (integrated motor+gearbox+driver+encoder+comms); dominant in research and educational robotics; vendor-supported ROS 2 driver; TurtleBot3 co-developer. |
 | [Artimus Robotics]({{< relref "artimus-robotics.md" >}}) | Boulder, CO, USA | Private (venture + government funded) | HASEL soft electrohydraulic "artificial muscle" actuators; silent, compliant, self-sensing; underwater robotics, haptics, and dexterous manipulation applications; CU Boulder spinout. |
+| [Sentinel Automata]({{< relref "sentinel-automata.md" >}}) | Long Beach, CA, USA (inferred) | Private, pre-release | ISAP-D45/D30 backdrivable planetary integrated joint modules (EtherCAT, 48 V) for legged-robot hips/knees and arms; US-production intent; specs are design targets, dev kits ship Q1 2027. |
+
+### US-Based Component and Gear Makers (OpenTree map)
+
+US-located suppliers profiled from the [OpenTree]({{< relref "opentree.md" >}}) map. Company-sourced; see each entry for verification status. Related sections: [Bearings]({{< relref "/research/robotics/bearings/_index.md" >}}), [Magnets]({{< relref "/research/robotics/magnets/_index.md" >}}), [Motor Materials]({{< relref "/research/robotics/motor-materials/_index.md" >}}).
+
+| Company | HQ | Ownership / Stage | Focus |
+|---------|-----|-------------------|-------|
+| [Westmag]({{< relref "westmag.md" >}}) | South San Francisco, CA | Startup (venture-backed per site logos) | Drone motors and robot actuators, 1–150 Nm |
+| [Resolved Motion]({{< relref "resolved-motion.md" >}}) | Upstate New York | Pre-production (OpenTree) | Rotary and linear actuators for humanoids (stub) |
+| [Tolomatic]({{< relref "tolomatic.md" >}}) | Hamel, MN | Private | Electric and servo linear actuators |
+| [ThinGap]({{< relref "thingap.md" >}}) | Camarillo, CA | Private | Slotless frameless direct-drive motors |
+| [ElectroCraft]({{< relref "electrocraft.md" >}}) | Stratham, NH (R&D) | Private | Fractional-hp motors, drives, wheel drives |
+| [Windings, Inc.]({{< relref "windings-inc.md" >}}) | New Ulm, MN | Employee-owned (ESOP) | Custom motors, rotors and stators |
+| [Moog Animatics]({{< relref "moog-animatics.md" >}}) | Murphy, NC (per map) | Moog Inc. business | SmartMotor integrated servo motors |
+| [Onvio]({{< relref "onvio.md" >}}) | Salem, NH | Private | Planetary and cycloidal reducers, wheel motors; primary plant in Mexico |
+| [Cone Drive]({{< relref "cone-drive.md" >}}) | Traverse City, MI | Timken Precision Drives | Worm, harmonic and cycloidal gearing |
+| [Forest City Gear]({{< relref "forest-city-gear.md" >}}) | Roscoe, IL | Family-run | Custom precision gears; AS9100, ITAR |
+| [Arrow Gear]({{< relref "arrow-gear.md" >}}) | Downers Grove, IL | Private | Bevel and aerospace gearing |
+| [Schafer Gear Works]({{< relref "schafer-gear-works.md" >}}) | South Bend, IN / Roscoe, IL (per map) | Private (minority supplier) | Precision spur, helical, bevel, worm gears |
+| [Gear Motions]({{< relref "gear-motions.md" >}}) | Syracuse, NY | Employee-owned (ESOP) | Precision ground gears |
+| [ASCO Sintering]({{< relref "asco-sintering.md" >}}) | Commerce, CA | Employee-owned | Powder-metal gears and planetary carriers |
 
 ### Public Companies
 
@@ -107,7 +130,7 @@ Actuators are the muscles of robots — the subsystems that convert electrical (
 | **3. Motor Components** | Wound stators, rotor assemblies, precision shafts, encoders | In-house at Maxon, Faulhaber, T-Motor; encoder suppliers: Renishaw (UK), Heidenhain (Germany), US Digital (US) | Encoder manufacturing: Germany and UK for precision; China for commodity |
 | **4. Complete Motors** | BLDC motors, servo motors, stepper motors, linear motors | Maxon (Swiss), Faulhaber (German), T-Motor 🇨🇳, KDE Direct (US), Kollmorgen (US, Fortive subsidiary), Allied Motion (US, AMOT) | Precision servo motors: Swiss/German/Japanese; drone/volume BLDC: Chinese |
 | **5. Gearboxes & Drives** | Cycloidal reducers, harmonic drives, planetary gearboxes, servo drive electronics | Nabtesco (Japan, cycloidal), Harmonic Drive (Japan/US, strain wave), Wittenstein (German, planetary), Parker/Bosch Rexroth (hydraulic) | Precision robot gearboxes: Japan-dominated; hydraulic: US and German |
-| **6. Integrated Actuator Modules** | Motor + gearbox + encoder + driver + comms in one unit | Hebi Robotics (US), Dynamixel/Robotis (South Korea), Maxon (integrated EPOS servo drives) | Emerging segment; current US and Korean players |
+| **6. Integrated Actuator Modules** | Motor + gearbox + encoder + driver + comms in one unit | Hebi Robotics (US), Dynamixel/Robotis (South Korea), Maxon (integrated EPOS servo drives), Sentinel Automata (US, pre-release) | Emerging segment; current US and Korean players |
 | **7. Integration into Robot Platforms** | Joint assemblies, drive train integration | Boston Dynamics, Universal Robots, Teradyne/MiR, Ghost Robotics, and all robot OEMs | Robot OEM assembly: globally distributed |
 
 ### Key Supply Chain Notes

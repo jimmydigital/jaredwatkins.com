@@ -13,6 +13,30 @@ sitemap:
   disable: false         # Set to true to exclude a page
 ---
 
+{{<steering>}}
+
+## Energy — Nuclear — Steering Instructions
+
+**Scope:** Fission reactor designs (SMR, microreactor, advanced Gen IV), fuel cycle suppliers, construction and deployment companies, regulatory milestones. Out of scope: nuclear weapons, fusion (track separately if warranted), nuclear medicine.
+
+**Regulatory milestones carry high weight.** NRC Design Certification, Construction Permit, Combined License (COL), and Operating License are discrete verifiable events. Document each with date, document number, and link to the NRC public docket where available. Verify licensing status claims against the NRC docket, not just company press releases.
+
+**Timeline skepticism is essential.** Nuclear construction has a decades-long history of schedule slippage and cost overrun. When a company claims a build time dramatically shorter than industry history, document the claim, the mechanism by which they claim to achieve it, the regulatory preconditions required, and any prior examples of similar claims. Always distinguish design-stage timeline claims from NRC-approved construction schedules.
+
+**SMR-specific flags to track per entry:**
+- Reactor design type (LWR, HTGR, molten salt, sodium fast) — each has distinct licensing precedent and supply chain
+- Fuel type (LEU vs. HALEU) — HALEU supply chain is a critical dependency; Centrus Energy is the only NRC-licensed US HALEU enricher
+- Construction approach (modular/shipyard vs. stick-built)
+- Behind-the-meter vs. grid-connected (datacenter-coupled SMRs avoid grid interconnection delays but require dedicated NRC site approvals)
+
+**Datacenter nuclear overlap:** Document any company with a named datacenter or hyperscaler customer or LOI. Cross-reference with `research/datacenters/power-infrastructure`. Key tracked connections: Blue Energy → Crusoe (Port of Victoria TX); Kairos Power → Google (500 MW PPA by 2035); X-energy → Amazon (multiple sites). Note: NuScale's CFPP project was cancelled 2023 — document and do not treat as active.
+
+**NRC-licensed wording:** describe an entry as NRC-licensed only after NRC Design Certification or COL is granted.
+
+**Review cadence:** 90 days for active pre-construction companies (NRC milestones can change fast); 180 days for early-stage designs; 365 days for stable operational facilities.
+
+{{</steering>}}
+
 > **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
 
 

@@ -13,6 +13,24 @@ sitemap:
   disable: false
 ---
 
+{{<steering>}}
+
+## Energy — Pipelines — Steering Instructions
+
+**Scope:** Natural gas pipeline operators and pipeline/power contractors, with emphasis on gas supply to AI datacenters and behind-the-meter (BTM) generation. In scope: interstate and intrastate transporters, midstream gatherers/processors with data center exposure, and builders. Equipment vendors and on-site power developers belong in `datacenters/behind-meter-power/` (Williams lives there; cross-link rather than duplicate).
+
+**Value chain position** — label every entry as pipeline operator, gatherer-processor, or builder/contractor.
+
+**Editorial framing:** Separate (1) signed firm-transport agreements, (2) letters of intent, (3) agreements conditional on a customer FID, and (4) "potential demand" language. Do not report a company-wide contracted-capacity figure as a data center figure. State whether the delivery point is a grid-connected plant, a utility, or an on-site BTM plant. Treat data center demand as contested where litigation or independent analysis disputes it, and cite both sides. Distinguish regulatory track: FERC certificates for interstate projects vs state jurisdiction for intrastate (Texas). KMP is Kinder Morgan Energy Partners, merged into KMI in 2014.
+
+**Components subsection (`energy/pipelines/components/`):** input suppliers (line pipe, steel, coatings, valves). Purpose is early demand signals: tie each supplier order, filing or local news item to a named project only when owner and supplier sources agree on diameter, volume or schedule; otherwise list it as unmatched. Note supplier country and applicable trade actions. Map prior-employer overlaps among supplier, builder and operator executives with ⚑ flags.
+
+**Cross-reference:** `datacenters/behind-meter-power/` for Williams and generation equipment; `energy/grid-markets/` for interconnection context.
+
+**Review cadence:** 90 days; re-check after each quarterly earnings cycle.
+
+{{</steering>}}
+
 > **⚠ Disclaimer:** This section may contain incomplete, out of date, or inaccurate entries. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the source materials listed in individual entries.
 
 ## Overview

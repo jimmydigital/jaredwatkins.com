@@ -5,6 +5,7 @@ lastmod: 2026-06-18
 draft: false
 description: "Radar chart comparison of 20 US city relocation candidates on crime safety, demographic diversity, housing affordability, and tech job market strength."
 research_area: "relocation"
+source_urls: []
 last_reviewed: 2026-06-18
 stale_after_days: 365
 ---
