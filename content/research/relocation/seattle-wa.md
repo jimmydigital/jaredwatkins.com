@@ -1,7 +1,7 @@
 ---
 title: "Seattle, WA — Relocation Profile"
 date: 2026-06-16
-lastmod: 2026-06-16
+lastmod: 2026-11-12
 draft: false
 description: "Relocation evaluation of Seattle, Washington: cost of living, demographics, crime, tech ecosystem, small business climate, utilities, and environmental risks."
 research_area: "relocation"
@@ -16,7 +16,11 @@ source_urls:
   - "https://mynorthwest.com/pacific-northwest-weather/snowpack-water-wildfire/4225616"
   - "https://protectwithbear.com/blog/washington-gun-laws"
   - "https://is-this-legal.com/is-open-carry-legal-in-washington/"
-last_reviewed: 2026-06-16
+  - "https://www.sammamishmortgage.com/seattle-is-a-sellers-real-estate-market"
+  - "https://www.sammamishmortgage.com/seattle-home-prices-drop/"
+  - "https://www.theurbanist.org/seattle-prepares-gun-violence-prevention-policy-update/"
+  - "https://www.cascadiadaily.com/?p=451029"
+last_reviewed: 2026-11-12
 stale_after_days: 365
 ---
 
@@ -27,8 +31,9 @@ stale_after_days: 365
 Seattle's cost of living runs approximately 44–45% above the national average, driven almost entirely by housing. Against coastal SC's Myrtle Beach baseline (~90 index, 10% below national average), Seattle is roughly 55–60% more expensive in total.
 
 **Housing (2026):**
-- Median home price: ~$825,000
-- Average 1BR apartment: ~$2,400/mo; 2BR: ~$3,000–$3,400/mo
+- Typical home value: ~\$833,000 as of August 2026, down 1.6% year over year (Zillow); Redfin's median sale price for the three months ending June 2026 was ~\$890K, down 2.3% year over year
+- Median days on market: 15 (Redfin, August 2026)
+- Average 1BR apartment: ~\$2,400/mo; 2BR: ~\$3,000–\$3,400/mo
 - Myrtle Beach comparison: Seattle median home costs approximately 2.5x a comparable Myrtle Beach home
 
 **Other costs:**
@@ -72,6 +77,8 @@ Seattle's crime picture improved substantially in 2025 after a difficult 2020–
 - Stolen vehicles: down 24%
 - Aggravated assault: down 8%
 - King County overall: 22% drop in reported crime
+
+**2026 year to date:** The decline has continued. Through early August 2026 SPD's dashboard showed 219 shootings and shots-fired incidents, down 20% from the same point in 2025, and the city went all of June 2026 without a homicide.
 
 **5-year trend:** 2020–2022 saw severe deterioration — open drug use, property crime surge, homeless encampments, and perception of lawlessness that drove significant national coverage. The city's response (combination of policy changes, increased policing, and drug enforcement) produced measurable results in 2024–2025. The improvement is real but the baseline was bad; Seattle still has elevated property crime vs. national norms.
 
@@ -128,13 +135,13 @@ Seattle is one of the four dominant US tech hubs (alongside SF, NYC, and LA/Bost
 - No personal income tax
 - Business & Occupation (B&O) tax on gross receipts — applies to all businesses regardless of profitability; rates vary by business type (typically 0.15%–1.5% of gross revenue). This is the key quirk: you pay B&O even in a loss year.
 - State sales tax: 6.5% (combined 10.25% in Seattle)
-- No capital gains tax (though WA enacted a capital gains tax in 2021; it was partially upheld and applies to gains >$250,000 on certain assets)
+- No capital gains tax (though WA enacted a capital gains tax in 2021; it was partially upheld and applies to gains >\$250,000 on certain assets)
 
 **Seattle city specifically:**
-- Seattle has a local payroll tax ("JumpStart Seattle") on large employers (>$1M payroll) with employees earning >$150K — this primarily affects large companies, not small businesses
+- Seattle has a local payroll tax ("JumpStart Seattle") on large employers (>\$1M payroll) with employees earning >\$150K — this primarily affects large companies, not small businesses
 - Seattle has enacted various local minimum wage and workers' rights laws that add compliance overhead for small businesses
 
-**Regulatory posture:** Progressive. Seattle is among the most regulated US cities for employers — mandatory paid sick leave, minimum wage (>$17/hr), scheduling notice requirements, and various industry-specific rules. The regulatory environment is a real burden for small businesses, particularly in food service and retail.
+**Regulatory posture:** Progressive. Seattle is among the most regulated US cities for employers — mandatory paid sick leave, minimum wage (>\$17/hr), scheduling notice requirements, and various industry-specific rules. The regulatory environment is a real burden for small businesses, particularly in food service and retail.
 
 **Ranking context:** Washington ranks well nationally on business formation and large-company climate (no income tax), but small businesses in Seattle specifically face a more burdensome local regulatory environment than the state-level picture suggests. Many small business owners choose to locate in suburbs (Bellevue, Redmond) to reduce local regulatory exposure.
 
@@ -154,7 +161,7 @@ Seattle is one of the four dominant US tech hubs (alongside SF, NYC, and LA/Bost
 
 **Climate risk to grid:** The 2021 heat dome (record 108°F in Seattle) exposed grid vulnerability at extreme temperatures. More frequent heat events are projected. Low snowpack in 2026 reduced hydro availability early in the season.
 
-**Rate:** Washington electricity rates are among the lowest in the US, largely due to federal hydro dams. Residents pay roughly $0.10–$0.12/kWh, well below national average.
+**Rate:** Washington electricity rates are among the lowest in the US, largely due to federal hydro dams. Residents pay roughly \$0.10–\$0.12/kWh, well below national average.
 
 ### Water
 
@@ -194,7 +201,7 @@ Excellent. Fiber available from CenturyLink/Lumen, Comcast/Xfinity, and municipa
 
 1. **Cascadia Subduction Zone** — A M9.0 Cascadia event would be among the most destructive natural disasters in US history, affecting Seattle, Portland, and the entire Pacific Coast. FEMA has published detailed estimates of the consequences. Not imminent but not ignorable for a 20-year horizon.
 
-2. **Housing affordability** — At $825K median, Seattle is approaching SF-tier unaffordability. Zoning reform is underway but slow. The workforce needed to run the city is being priced out, creating service and civic strain.
+2. **Housing affordability** — At \$825K median, Seattle is approaching SF-tier unaffordability. Zoning reform is underway but slow. The workforce needed to run the city is being priced out, creating service and civic strain.
 
 3. **Tech sector concentration** — The metro economy is unusually dependent on Amazon and Microsoft. Both have undergone significant layoffs in 2022–2023. A sustained tech downturn would disproportionately affect Seattle vs. more diversified metros.
 
@@ -210,9 +217,9 @@ Excellent. Fiber available from CenturyLink/Lumen, Comcast/Xfinity, and municipa
 
 **Overall posture:** Increasingly restrictive and actively moving further in that direction. Washington has enacted a significant volume of gun control legislation since 2020 and the trend continued into 2026. This is a materially worse environment than coastal SC.
 
-**Concealed carry:** Requires a Concealed Pistol License (CPL). Washington is shall-issue; county sheriffs issue. Minimum age 21. No range training currently required for a CPL — but a 2027 Permit to Purchase law (taking effect May 1, 2027) will require certified in-person safety training for purchases.
+**Concealed carry:** Requires a Concealed Pistol License (CPL). Washington is shall-issue; county sheriffs issue. Minimum age 21. No training is currently required for a CPL, but starting May 1, 2027 — when the permit-to-purchase law (HB 1163) takes effect — CPL applicants must also show completion of a firearm safety program. Active CPLs reached a record 713,195 by the end of July 2025 as residents applied ahead of the new law.
 
-**Open carry:** Dramatically restricted as of 2026. New 2026 statutes effectively ban unrestricted open carry in most public spaces, including sidewalks (classified as "restricted public spaces"). Open carry now requires a separate "Open-Carry Permit" with a 16-hour course, background check, and biennial renewal. This is a fundamental departure from prior Washington law and is likely subject to legal challenge under *Bruen*.
+**Open carry:** Legal without a permit for anyone 21 or older who may lawfully possess a firearm, but prohibited in a growing list of sensitive places and subject to the state's brandishing statute. Open carry is banned on State Capitol grounds, and firearms are prohibited within 250 feet of a permitted public demonstration. SB 5098 extended the list of gun-free locations to parks, playgrounds, and similar places where children are likely to be present.
 
 **Purchase requirements:** Universal background check on all transfers (including private sales). As of May 1, 2027, buyers must obtain a 5-year Permit to Purchase from the State Patrol, requiring fees and certified in-person training. No waiting period currently (changes with 2027 law).
 
@@ -224,7 +231,7 @@ Excellent. Fiber available from CenturyLink/Lumen, Comcast/Xfinity, and municipa
 
 **Preemption:** Washington has preemption but it has been weakened; some local regulations have been permitted.
 
-**Comparison to coastal SC baseline:** Major departure. SC has constitutional carry; WA requires a permit with increasing training burdens. SC has no magazine limits; WA bans 10+ round magazines. SC has no semi-auto restrictions; WA has enacted an assault weapon ban. SC has no red flag law; WA has an expansive ERPO. The 2026 open-carry restrictions are an additional significant step. Washington's trajectory is toward more restriction, not less.
+**Comparison to coastal SC baseline:** Major departure. SC has constitutional carry; WA requires a permit with increasing training burdens. SC has no magazine limits; WA bans 10+ round magazines. SC has no semi-auto restrictions; WA has enacted an assault weapon ban. SC has no red flag law; WA has an expansive ERPO. The expansion of gun-free zones to parks and playgrounds is an additional step. Washington's trajectory is toward more restriction, not less.
 
 ---
 
@@ -250,6 +257,8 @@ Excellent. Fiber available from CenturyLink/Lumen, Comcast/Xfinity, and municipa
 - Wildfire smoke seasons increasingly affect summer quality of life
 - Traffic: I-5 corridor and 520/I-90 bridges are notorious; commute times are severe in rush hour
 
+**Sub-area profile:** [Vashon Island]({{< relref "vashon-island-wa.md" >}}) — the rural, ferry-only island in unincorporated King County between West Seattle and Tacoma — is evaluated separately, with detail on ferries, freight and prefab delivery, ADU zoning, and island resources.
+
 **Verdict for relocation consideration:** Seattle is compelling for someone in or adjacent to the tech workforce who wants access to outdoor recreation, values no state income tax, and doesn't need warm weather. The cost premium is steep and the Cascadia risk is worth taking seriously. For a retiree or remote worker without a tech income, the cost-of-living premium is very hard to justify relative to coastal SC. The climate inversion (mild summers, grey winters) suits some people and is intolerable for others — that's a personal call that matters a lot at a 20-year horizon.
 
 ---
@@ -259,7 +268,7 @@ Excellent. Fiber available from CenturyLink/Lumen, Comcast/Xfinity, and municipa
 ### Cat Cafes
 
 - **NEKO: A Cat Cafe** — 519 E Pine St, Capitol Hill; the primary cat cafe in Seattle, open daily with extended evening hours. Reservation-based; adoptable cats available. Also has a Bellingham location.
-- **Seattle Meowtropolitan** — 1225 N 45th St (Wallingford); session-based cat lounge ($10/25 min, $20/50 min); second option for the north end of the city.
+- **Seattle Meowtropolitan** — 1225 N 45th St (Wallingford); session-based cat lounge (\$10/25 min, \$20/50 min); second option for the north end of the city.
 
 ### Independent Coffee Shops
 
@@ -289,7 +298,7 @@ Seattle invented the modern American coffee culture and the independent scene re
 ### Hospital Systems & Medical Specialists
 
 - **UW Medicine** — flagship: UW Medical Center–Montlake, 1959 NE Pacific St; Level I Trauma Center, NCI-designated Fred Hutch Cancer Center (merger formalized 2022), top-10 nationally in multiple specialties. The academic medical system for the Pacific Northwest — strongest in oncology, neurology, transplant, and research.
-- **Providence Swedish** — 5 hospitals, 1,500+ beds, 115+ primary and specialty clinics across the metro. Providence Swedish committed to a $1.3B new inpatient tower (12-story North Tower, 24 OR suites, 72 ICU beds, 31-room ED) expected fall 2027 — the most ambitious construction project in the system's history. Note: Swedish confirmed 296 layoffs in 2025 amid hospital financial pressure.
+- **Providence Swedish** — 5 hospitals, 1,500+ beds, 115+ primary and specialty clinics across the metro. Providence Swedish committed to a \$1.3B new inpatient tower (12-story North Tower, 24 OR suites, 72 ICU beds, 31-room ED) expected fall 2027 — the most ambitious construction project in the system's history. Note: Swedish confirmed 296 layoffs in 2025 amid hospital financial pressure.
 - **Virginia Mason Franciscan Health** — Virginia Mason Medical Center (1100 9th Ave) is the third major downtown system; known for lean process innovation and specialty care; merged with Franciscan Health (CommonSpirit) in 2021.
 
 ### Crime & Controversy — Notable Incidents
@@ -324,7 +333,7 @@ Seattle invented the modern American coffee culture and the independent scene re
 ### Seasonal Recreation
 
 - **Skiing — outstanding access:** Seattle is one of the few large US cities with world-class skiing within 1–1.5 hrs. Snoqualmie Pass (52 mi east, I-90; 4 resorts: Summit West/Central/East/Alpental, 1,994 skiable acres) is the closest. Stevens Pass (1:45 north on US-2) is larger and less crowded. Crystal Mountain (2.5 hrs south) is Washington's highest ski area; regularly rated best ski area in the Pacific Northwest.
-- **Puget Sound / water access:** Seattle is surrounded by water. Ferry system accesses islands (Bainbridge, Vashon, Whidbey); Puget Sound sailing, kayaking, and paddleboarding are year-round activities for those who embrace the Pacific Northwest marine layer.
+- **Puget Sound / water access:** Seattle is surrounded by water. Ferry system accesses islands (Bainbridge, Vashon, Whidbey) — see the [Vashon Island profile]({{< relref "vashon-island-wa.md" >}}) for what living on one involves; Puget Sound sailing, kayaking, and paddleboarding are year-round activities for those who embrace the Pacific Northwest marine layer.
 - **Boating:** Lake Union (center of the city), Lake Washington (east side), and Portage Bay; Seattle is one of the most boat-dense cities per capita in the US. Houseboats on Lake Union (Sleepless in Seattle). Montlake Cut connects the lakes to Puget Sound via the Ship Canal.
 - **Hiking:** Mount Rainier National Park (1:40 south; 14,411 ft; one of the most iconic mountains in the world); North Cascades National Park (3 hrs northeast); Alpine Lakes Wilderness; Olympic National Park (ferry + drive, 2–3 hrs). The Pacific Crest Trail is accessible from multiple Cascade trailheads within 1–2 hrs.
 - **Cycling:** Burke-Gilman Trail (27 miles through city); extensive off-road trail network in the Cascades.
@@ -341,7 +350,7 @@ Seattle invented the modern American coffee culture and the independent scene re
 
 ### Tourism
 
-Seattle attracted approximately 40 million visitors in 2024, generating $7.8 billion in visitor spending. Tourism is driven by Pike Place Market (one of the most visited public markets in the world; 10+ million visits annually), the Space Needle (1.5 million visitors/year), Amazon headquarters tourism (The Spheres), tech company tourism (Amazon, Microsoft campus in Redmond), Puget Sound and Olympic Peninsula nature tourism, skiing at the Cascades, and cruise ship traffic (Seattle is the major Alaska cruise embarkation port; 1.2+ million cruise passengers annually). The Seattle Art Museum, Chihuly Garden and Glass, and the Museum of Pop Culture add significant cultural tourism. Business travel is substantial due to the tech and aerospace (Boeing) industries. International visitors are drawn primarily from Canada, UK, Germany, Japan, and Australia.
+Seattle attracted approximately 40 million visitors in 2024, generating \$7.8 billion in visitor spending. Tourism is driven by Pike Place Market (one of the most visited public markets in the world; 10+ million visits annually), the Space Needle (1.5 million visitors/year), Amazon headquarters tourism (The Spheres), tech company tourism (Amazon, Microsoft campus in Redmond), Puget Sound and Olympic Peninsula nature tourism, skiing at the Cascades, and cruise ship traffic (Seattle is the major Alaska cruise embarkation port; 1.2+ million cruise passengers annually). The Seattle Art Museum, Chihuly Garden and Glass, and the Museum of Pop Culture add significant cultural tourism. Business travel is substantial due to the tech and aerospace (Boeing) industries. International visitors are drawn primarily from Canada, UK, Germany, Japan, and Australia.
 
 ### Event Venues
 
@@ -367,7 +376,7 @@ Seattle attracted approximately 40 million visitors in 2024, generating $7.8 bil
 - **Rat City Rollergirls** — WFTDA flat-track roller derby; one of the longest-running and most well-known roller derby leagues in the country.
 - **Seattle Symphony** — founded 1903; Benaroya Hall; one of the top US orchestras; Grammy Award winner; 52-week season.
 - **Seattle Opera** — McCaw Hall; one of the top regional opera companies in the US; Wagner Ring cycle is a major international event every few years.
-- **Pacific Northwest Ballet** — McCaw Hall; one of the finest ballet companies in the US; $80M+ annual budget; exceptional school.
+- **Pacific Northwest Ballet** — McCaw Hall; one of the finest ballet companies in the US; \$80M+ annual budget; exceptional school.
 
 ### Motorsports
 
@@ -399,3 +408,7 @@ Seattle attracted approximately 40 million visitors in 2024, generating $7.8 bil
 - [Low snowpack and wildfire danger — MyNorthwest](https://mynorthwest.com/pacific-northwest-weather/snowpack-water-wildfire/4225616)
 - [Washington Gun Laws 2026 — ProtectWithBear](https://protectwithbear.com/blog/washington-gun-laws)
 - [Open Carry Legal in Washington After 2026 Laws — Is This Legal](https://is-this-legal.com/is-open-carry-legal-in-washington/)
+- [Is Seattle Still a Seller's Market in 2026? — Sammamish Mortgage](https://www.sammamishmortgage.com/seattle-is-a-sellers-real-estate-market)
+- [Seattle Home Prices Report — Sammamish Mortgage](https://www.sammamishmortgage.com/seattle-home-prices-drop/)
+- [Seattle Prepares Gun Violence Prevention Policy Update — The Urbanist](https://www.theurbanist.org/seattle-prepares-gun-violence-prevention-policy-update/)
+- [Concealed carry licenses in WA jump after approval of gun permit law — Cascadia Daily News](https://www.cascadiadaily.com/?p=451029)

@@ -78,6 +78,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
   [[module.mounts]]
     source = "data"
     target = "data"
+    excludeFiles = ["research/**"]  # research index tooling files, not Hugo data
 
 [[menu.main]]
   identifier = 'posts'

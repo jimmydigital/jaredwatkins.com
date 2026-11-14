@@ -19,3 +19,4 @@ public/
 node_modules
 static/pagefind
 
+__pycache__/

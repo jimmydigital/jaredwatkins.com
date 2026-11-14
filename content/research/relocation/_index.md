@@ -1,7 +1,7 @@
 ---
 title: "Relocation Research"
 date: 2026-06-15
-lastmod: 2026-06-18
+lastmod: 2026-11-12
 draft: false
 description: "City and county level research evaluating potential relocation destinations against a consistent set of livability criteria."
 research_area: "relocation"
@@ -215,3 +215,4 @@ This is not a travel guide. The goal is an honest, data-driven read on what it w
 - [Savannah, GA]({{< relref "savannah-ga.md" >}}) — Port of Savannah + Hyundai Metaplant ($7.6B) + Gulfstream Aerospace triple anchor; Georgia income tax declining toward 4.99%; 77% of buildings at significant flood risk and elevated crime are the defining concerns
 - [Seattle, WA]({{< relref "seattle-wa.md" >}}) — Tier-1 tech market (Amazon/Microsoft HQ); no state income tax; Cascadia subduction zone earthquake risk, high housing costs, and restrictive gun laws are the key concerns
 - [Tampa, FL]({{< relref "tampa-fl.md" >}}) — Leading Florida tech market outside Miami; KnowBe4 and ReliaQuest cybersecurity anchors; no state income tax; post-2024 dual-hurricane season (Helene + Milton) and rising insurance costs are the defining concerns
+- [Vashon Island, WA]({{< relref "vashon-island-wa.md" >}}) — **Seattle sub-area.** Ferry-only rural island in unincorporated King County; Seattle-level home prices on a sole-source aquifer; covers ferry schedules, freight and prefab delivery, ADU zoning, the farmers market, and island-specific resources

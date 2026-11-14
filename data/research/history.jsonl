@@ -56,3 +56,14 @@
 {"date": "2026-11-12", "event": "modified", "path": "_index.md", "lastmod": "2026-11-12", "hash": "c900e05b07fee3ac"}
 {"date": "2026-11-13", "event": "modified", "path": "drone-detection/open-source/ardupilot-remoteid.md", "lastmod": "2026-11-12", "hash": "58d8de37fe8dd2f1"}
 {"date": "2026-11-13", "event": "modified", "path": "space-launch/_index.md", "lastmod": "2026-09-07", "hash": "6c860390a7c55a76"}
+{"date": "2026-11-13", "event": "modified", "path": "changelog/index.md", "lastmod": "2026-11-13", "hash": "bf1a6280f8a0c6c0"}
+{"date": "2026-11-13", "event": "modified", "path": "relocation/_index.md", "lastmod": "2026-11-13", "hash": "35b7f8e49eb0b9a3"}
+{"date": "2026-11-13", "event": "modified", "path": "relocation/seattle-wa.md", "lastmod": "2026-11-13", "hash": "a8be39f5f31cd3ef"}
+{"date": "2026-11-13", "event": "reviewed", "path": "relocation/seattle-wa.md", "last_reviewed": "2026-11-13", "previous": "2026-06-16"}
+{"date": "2026-11-13", "event": "added", "path": "relocation/vashon-island-wa.md", "hash": "76e3ce277833899d"}
+{"date": "2026-11-13", "event": "reviewed", "path": "relocation/seattle-wa.md", "last_reviewed": "2026-11-12", "previous": "2026-11-13"}
+{"date": "2026-11-13", "event": "reviewed", "path": "relocation/vashon-island-wa.md", "last_reviewed": "2026-11-12", "previous": "2026-11-13"}
+{"date": "2026-11-13", "event": "modified", "path": "relocation/seattle-wa.md", "lastmod": "2026-11-12", "hash": "6f4afb25c1ed16d1"}
+{"date": "2026-11-14", "event": "modified", "path": "relocation/vashon-island-wa.md", "lastmod": "2026-11-12", "hash": "83819d7bc0b40c41"}
+{"date": "2026-11-14", "event": "reviewed", "path": "relocation/vashon-island-wa.md", "last_reviewed": "2026-11-14", "previous": "2026-11-12"}
+{"date": "2026-11-14", "event": "modified", "path": "relocation/vashon-island-wa.md", "lastmod": "2026-11-14", "hash": "5eb2b5103e57bf84"}
