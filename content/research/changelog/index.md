@@ -1,7 +1,7 @@
 ---
 title: "Research Section Changelog"
 date: 2026-04-04
-lastmod: 2026-11-12
+lastmod: 2026-11-14
 draft: false
 description: "Timestamped log of additions and modifications to the Research knowledge base."
 research_area: "research"
@@ -18,6 +18,7 @@ sitemap:
 
 > **⚠ Disclaimer:** This entry may be incomplete, out of date, or inaccurate. It is AI-maintained on a best-effort basis. Do not rely on it as a sole source — verify claims independently using the sources listed below.
 
+- **2026-11-14:** Created [Tacoma, WA]({{< relref "relocation/tacoma-wa.md" >}}) — Proctor District and West Slope profile: housing, crime, ADU rules, TPU utilities, smelter plume, light rail, local flavor
 - **2026-11-12:** Created [Vashon Island, WA]({{< relref "relocation/vashon-island-wa.md" >}}) — ferry-only Seattle sub-area; ferries, freight/prefab delivery, ADU zoning; refreshed [Seattle, WA]({{< relref "relocation/seattle-wa.md" >}}) housing, crime, carry law.
 - **2026-11-12:** Refreshed HALE/HAPS and compute marketplaces — [OpenRouter]({{< relref "compute-marketplaces/openrouter.md" >}}) (acquired by Stripe), [IETF discovery drafts]({{< relref "compute-marketplaces/ietf-ai-service-discovery-drafts.md" >}}) (DAWN working group chartered), [x402]({{< relref "compute-marketplaces/x402-machine-payments.md" >}}) (Linux Foundation governance), [AALTO]({{< relref "hale-haps/fixed-wing/aalto-haps.md" >}}) (2026 service unconfirmed), [Prismatic]({{< relref "hale-haps/fixed-wing/prismatic.md" >}}) (£15.7M ARIA contract), [Mira Aerospace]({{< relref "hale-haps/fixed-wing/mira-aerospace.md" >}}) (29-hour flight), [World Mobile Stratospheric]({{< relref "hale-haps/fixed-wing/stratospheric-platforms.md" >}}) (flight tests unreported), [Kea Aerospace]({{< relref "hale-haps/fixed-wing/kea-aerospace.md" >}}) (Mk2 factory opened).
 - **2026-11-12:** Added Research Index to research steering doc (`_index.md`) — `scripts/research_index.py` tracks entry age and modifications; `stale` queue, `stamp` dates, auto-rebuild after reorganizations.
